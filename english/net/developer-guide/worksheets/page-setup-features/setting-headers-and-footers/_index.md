@@ -3,6 +3,8 @@ title: Setting Headers and Footers
 type: docs
 weight: 30
 url: /net/setting-headers-and-footers/
+description: This article explains how to programmatically insert an image in the header and footer of Excel worksheets by setting the header and footer with script commands using the C# API or .NET Library.
+keywords: insert image in excel header footer c#, set excel header footer script commands c#
 ---
 
 {{% alert color="primary" %}}

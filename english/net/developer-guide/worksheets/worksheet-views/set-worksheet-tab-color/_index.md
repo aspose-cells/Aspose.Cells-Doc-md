@@ -3,6 +3,8 @@ title: Set Worksheet Tab Color
 type: docs
 weight: 120
 url: /net/set-worksheet-tab-color/
+description: This article demonstrates sample code that sets the Excel worksheet Tab Color programmatically using the C# API or .NET Library.
+keywords: set excel tab color c#, code to set excel tab color c#
 ---
 
 {{% alert color="primary" %}} 

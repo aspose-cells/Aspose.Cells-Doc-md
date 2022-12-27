@@ -3,6 +3,8 @@ title: Hiding the Display of Zero Values in the Worksheet
 type: docs
 weight: 50
 url: /net/hiding-the-display-of-zero-values-in-the-worksheet/
+description: This article will show you sample code explaining how to programmatically hide the zero values in an Excel spreadsheet using the C# library or .NET API.
+keywords: hide zero values of excel worksheet in c#
 ---
 
 {{% alert color="primary" %}} 

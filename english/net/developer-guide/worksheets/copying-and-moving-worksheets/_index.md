@@ -3,6 +3,8 @@ title: Copying and Moving Worksheets
 type: docs
 weight: 10
 url: /net/copying-and-moving-worksheets/
+description: This article includes sample code and describes how to copy and move worksheets programmatically both within an Excel workbook and across Excel workbooks using the C# API or .NET Library.
+keywords: copy worksheet c#, move worksheet c#
 ---
 
 {{% alert color="primary" %}}

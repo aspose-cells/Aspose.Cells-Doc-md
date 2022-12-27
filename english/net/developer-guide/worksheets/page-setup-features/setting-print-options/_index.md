@@ -3,6 +3,8 @@ title: Setting Print Options
 type: docs
 weight: 40
 url: /net/setting-print-options/
+description: This article demonstrates how to programmatically set the Print Options of the Excel Worksheet Page Setup feature using the C# API and .NET Library. You can set the Print Area, Print Titles and Page Order.
+keywords: set excel print area c#, set exce print titles c#, set excel page order c#
 ---
 
 {{% alert color="primary" %}}

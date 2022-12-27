@@ -3,6 +3,8 @@ title: Managing Page Breaks
 type: docs
 weight: 30
 url: /net/managing-page-breaks/
+description: This article provides sample code and explains how to add page breaks, clear page breaks, or delete specific page breaks in Excel worksheets programmatically using the C# API or .NET Library.
+keywords: page breaks c#, excel page breaks c#, clear page break c#, delete specific page break c#
 ---
 
 {{% alert color="primary" %}}
