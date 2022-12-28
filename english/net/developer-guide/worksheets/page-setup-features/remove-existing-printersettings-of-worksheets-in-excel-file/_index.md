@@ -3,6 +3,8 @@ title: Remove Existing PrinterSettings of Worksheets in Excel file
 type: docs
 weight: 60
 url: /net/remove-existing-printersettings-of-worksheets-in-excel-file/
+description: In this article, you will learn how to remove existing PrinterSettings of Worksheet inside the Excel file through Page Setup object programmatically with sample code using C# API or .NET Library.
+keywords: remove printer settings of worksheet c#, remove printer settings of excel worksheet c#
 ---
 
 ## **Possible Usage Scenarios**
