@@ -3,6 +3,8 @@ title: Find if the Worksheet is Dialog Sheet
 type: docs
 weight: 90
 url: /net/find-if-the-worksheet-is-dialog-sheet/
+description: Dialog Sheet is an old format of sheet. This article provides instructions and sample code for determining programmatically whether an Excel worksheet is a Dialog Sheet using the C# API or .NET Library.
+keywords: find excel worksheet dialog type c#, worksheet dialog c#
 ---
 
 ## **Possible Usage Scenarios**

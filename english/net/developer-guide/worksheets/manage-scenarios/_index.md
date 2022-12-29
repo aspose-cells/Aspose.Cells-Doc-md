@@ -4,6 +4,8 @@ linktitle: Manage Scenarios
 type: docs
 weight: 190
 url: /net/create-manipulate-or-remove-scenarios-from-worksheets/
+description: In this article, you will learn how to create, manipulate or remove Scenarios from Excel Worksheets programmatically using C# Library with .NET API.
+keywords: create scenario worksheet c#, remove scenario excel worksheet c#, manipulate scenario worksheet c#
 ---
 
 {{% alert color="primary" %}}

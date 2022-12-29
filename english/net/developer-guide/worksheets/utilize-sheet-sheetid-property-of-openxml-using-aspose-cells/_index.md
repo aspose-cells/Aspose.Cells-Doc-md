@@ -3,6 +3,8 @@ title: Utilize Sheet.SheetId property of OpenXml using Aspose.Cells
 type: docs
 weight: 200
 url: /net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/
+description: This article shows how to utilize Sheet.SheetId property of OpenXml using Excel manipulation .NET API or C# Library programmatically.
+keywords: sheet id property of openxml c#, sheet id excel worksheet c#
 ---
 
 ## **Possible Usage Scenarios**

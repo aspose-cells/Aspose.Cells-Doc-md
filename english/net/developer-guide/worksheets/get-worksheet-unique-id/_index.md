@@ -3,6 +3,8 @@ title: Get worksheet unique id
 type: docs
 weight: 190
 url: /net/get-worksheet-unique-id/
+description: This article shows how to get Excel worksheet unique id using C# library and .NET API programmatically
+keywords: unique id excel worksheet c#, unique id worksheet c#
 ---
 
 ## **Get worksheet unique id**
