@@ -1,0 +1,14 @@
+﻿---
+title: 渲染切片器
+type: docs
+weight: 40
+url: /zh/net/rendering-slicer/
+---
+## **可能的使用场景**
+Aspose.Cells 支持切片形状的渲染。如果将工作表转换为图像或将工作簿保存为 PDF 或 HTML 格式，您将看到切片器正确呈现。
+## **渲染切片器**
+下面的示例代码加载[示例 Excel 文件](67338479.xlsx)包含一个现有的切片器。它通过设置仅覆盖切片器的打印区域将工作表转换为图像。流动的图像是[输出图像](67338480.png)显示渲染的切片器。如您所见，切片器已正确呈现，看起来与示例 Excel 文件中的一样。
+
+![待办事项：图片_替代_文本](rendering-slicer_1)
+## **示例代码**
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-RenderingSlicer.cs" >}}

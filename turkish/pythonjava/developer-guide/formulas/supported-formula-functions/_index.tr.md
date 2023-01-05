@@ -1,0 +1,450 @@
+﻿---
+title: Desteklenen Formül İşlevleri
+type: docs
+weight: 10
+url: /tr/python-java/supported-formula-functions/
+---
+{{% alert color="primary" %}} 
+
+Aspose.Cells API'ler, standart işlevlerin çoğunu ve Excel'in yerleşik formülünü destekler. Aşağıda, desteklenen tüm işlevleri alfabetik sırayla bulabilirsiniz.
+
+{{% /alert %}} 
+### **Çalışma Zamanında Ayarlayın, Okuyun ve Hesaplayın**
+Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri ayarlamanıza, okumanıza ve sonuçlarını hesaplamanıza olanak tanır.
+#### **A**
+- ABS
+- AKRİNT
+- ACRINTM
+- ACOS
+- ACOSH
+- ADRES
+- AGREGA
+- AMORDEGRC
+- AMORLİNC
+- VE
+- ALANLAR
+- ASC
+- DE OLDUĞU GİBİ
+- ASINH
+- ATAN
+- ATAN2
+- ATANH
+- AVEDEV
+- ORTALAMA
+- ORTALAMA
+- ORTALAMAEĞER
+- ORTALAMA EĞERLER
+#### **B**
+- BEŞSELİ
+- BESSELJ
+- BEŞSELK
+- BESSELY
+- BETA.DAĞ
+- BETA.TERS
+- BETADAĞ
+- BETATERS
+- BIN2DEC
+- BIN2HEX
+- BIN2OCT
+- BİNOM.DAĞ
+- BİNOMDAĞ
+- BİTAND
+- BITLSHIFT
+- BITOR
+- BITRSHIFT
+- BİTXOR
+#### **C**
+- TAVAN
+- TAVAN.MATİK
+- TAVAN.HASSAS
+- HÜCRE
+- ÇAR
+- ÇOCUK DAĞI
+- KİKTERS
+- KİK.DAĞ
+- CHISQ.DAĞ.RT
+- CHISQ.TERS.RT
+- KİK.TESTİ
+- ÇİFTÇİ
+- SEÇ
+- TEMİZ
+- KOD
+- KOLON
+- SÜTUNLAR
+- KOMBİNE
+- KOMPLEKS
+- İLETİŞİM
+- BİRLEŞTİR
+- KENDİNDEN EMİN
+- GÜVEN.NORM
+- DÖNÜŞTÜRMEK
+- Korel
+- ÇÜNKÜ
+- COSH
+- SAYMAK
+- SAYI
+- BOŞ SAYI
+- EĞERSAY
+- EĞERSAY
+- COUPDAYBS
+- COUPDAYS
+- KOUPDAYSNC
+- COUPNCD
+- KUPNUM
+- COUPPCD
+- KAPLAMA
+- KOVARYANS.P
+- KOVARYANS.S
+- KRİBİNOM
+- CUMIPMT
+- kimyon
+#### **D**
+- TARİH
+- DATEDIF
+- TARİHDEĞERİ
+- DAVRANIŞ
+- GÜN
+- GÜNLER
+- DAYS360
+- veri tabanı
+- SAYIM
+- DCOUNTA
+- DDB
+- DEC2BIN
+- DEC2HEX
+- ARALIK2EKİM
+- DERECELER
+- DELTA
+- DEVSQ
+- DGET
+- DİSK
+- DMAX
+- DMIN
+- DOLAR
+- dolar
+- DOLARFR
+- DÜRÜN
+- DSTDEV
+- DSTDEVP
+- DSUM
+- SÜRE
+- DVAR
+- DVARP
+#### **e**
+- GÜNCELLEME
+- EFEKT
+- 1 AY
+- ERF
+- ERFC
+- HATA.TİPİ
+- HATTA
+- BİRE BİR AYNI
+- tecrübe
+- ÜSTELDAĞ
+#### **F**
+- F.DAĞ
+- F.DAĞ.RT
+- F.TERS.RT
+- HAKİKAT
+- GERÇEKÇİFT
+- FDAĞ
+- FİLTRE
+- BULMAK
+- FINDB
+- FINV
+- BALIKÇI
+- FISHERINV
+- SABİT
+- ZEMİN
+- ZEMİN.MATİK
+- TAHMİN ETMEK
+- TAHMİN.DOĞRUSAL
+- FORMÜL METİNİ
+- SIKLIK, FV
+- FV PROGRAMI
+- YANLIŞ
+#### **G**
+- GAMA.DAĞ
+- GAMA.TERS
+- GAMADAĞ
+- GAMATERS
+- GAMALN
+- GCD
+- GEOMEAN
+- GETPIVOTDATA
+- GESTEP
+- BÜYÜME
+#### **H**
+- HARMAN
+- HEX2BIN
+- HEX2DEC
+- HEX2OCT
+- YATAYARA
+- SAAT
+- KÖPRÜ
+- HİPERGEOM.DAĞ
+- HİPERGEOMDAĞ
+#### **BEN**
+- EĞER
+- IFERROR
+- IFNA
+- IFS
+- İMABS
+- HAYALİ
+- ARGUMENT
+- BİRLEŞTİRİLMİŞ
+- IMCOS
+- imdiv
+- IMEXP
+- IMLN
+- IMLOG10
+- IMLOG2
+- GÜÇLENDİRME
+- IMÜRÜN
+- BEN GERÇEĞİM
+- IMSIN
+- IMSQRT
+- IMSUB
+- IMSUM
+- DİZİN
+- DOLAYLI
+- INT
+- TUTMAK
+- İNTERNET
+- IPMT
+- IRR
+- İSBLANK
+- ISERR
+- ISERROR
+- YEDİ
+- mantıksal
+- ISNA
+- Metin Değil
+- NUMARA
+- GARİP
+- ISOHAFTANUM
+- ISPMT
+- ISREF
+- ISTEXT
+#### **K**
+- KURT
+#### **L**
+- BÜYÜK
+- LCM
+- SOL
+- SOLTB
+- UZUNLUK
+- LENB
+- DOT
+- LN
+- KAYIT
+- LOG10
+- LOJİST
+- GİRİŞ
+- LOGNORM.DAĞ
+- LOGNORMDAĞ
+- YUKARI BAK
+- DAHA DÜŞÜK
+#### **M**
+- KİBRİT
+- MAKS.
+- MAXA
+- MAKSIFLER
+- MDETERM
+- M SÜRE
+- MEDYAN
+- ORTA
+- ORTA DB
+- DAK
+- MİNA
+- MINIFLER
+- DAKİKA
+- KÜÇÜK EVREN
+- MİRR
+- MMULT
+- mod
+- MOD
+- MOD.ÇOKLU
+- MOD.SNGL
+- AY
+- ÇEVRE
+- ÇOK TERİMLİ
+#### **N**
+- N
+- yok
+- NEGBİNOM.DAĞ
+- NEGBİNOMDAĞ
+- TAMİŞGÜNLERİ
+- TAMİŞGÜNLERİ.ULUSLARARASI
+- NOMİNAL
+- NORM.DAĞ
+- NORM.S.DAĞ
+- NORM.S.TERS
+- NORMDAĞ
+- NORMTERS
+- NORM.TERS
+- NORMTERS
+- NORMSDAĞ
+- OLUMSUZLUK
+- ŞİMDİ
+- NPER
+- NBD
+- SAYI DEĞERİ
+#### **Ö**
+- Ekim2BİN
+- EKİM2DEC
+- Ekim2HEX
+- GARİP
+- TEK FİYAT
+- TEK VERİM
+- TEK FİYAT
+- tuhaf
+- TELAFİ ETMEK
+- VEYA
+#### **P**
+- PEARSON
+- YÜZDELİK
+- YÜZDEBİRLİK.HRC
+- YÜZDEBİRLİK
+- YÜZDERANK
+- YÜZDERANK.HRC
+- YÜZDERANK.D.Ş.
+- MÜMKÜN
+- PI
+- PMT
+- POISSON
+- POISSON.DAĞ
+- GÜÇ
+- PPMT
+- FİYAT
+- FİYAT İNDİRİMİ
+- FİYAT MAT
+- SORUN
+- ÜRÜN
+- DÜZGÜN
+- PV
+#### **Q**
+- DÖRT DÖNEM
+- Çeyrek.Harç
+- Çeyrek. A.Ş.
+- BÖLÜM
+#### **R**
+- RADYAN
+- RAND
+- RANDBETWEEN
+- RANDARRAY
+- RÜTBE
+- SIRALAMA ORTALAMA
+- RANK.EŞİT
+- ORAN
+- ALINAN
+- YER DEĞİŞTİRMEK
+- DEĞİŞTİR
+- REP
+- SAĞ
+- SAĞB
+- ROMA
+- YUVARLAK
+- AŞAĞI YUVARLAMA
+- HESABI YUVARLAMAK
+- SIRA
+- SATIRLAR
+- RSQ
+#### **S**
+- ARA
+- ARA
+- İKİNCİ
+- SIRA
+- SERİ TOPLAM
+- İŞARET
+- GÜNAH
+- SİNH
+- EĞRİ
+- SLN
+- EĞİM
+- KÜÇÜK
+- kare
+- GÖRE SIRALA
+- SQRTPI
+- STANDARTLAŞTIR
+- STDEV
+- STDEV.P
+- STDEV.S
+- STDEVA
+- STDEVP
+- STDEVPA
+- STEYX
+- VEKİL
+- ARA TOPLAM
+- TOPLAM
+- ÖZET
+- ÇETOPLA
+- SUMÜRÜN
+- SUMSQ
+- TOPLAMX2MY2
+- SUMX2PY2
+- SUMXMY2
+- DEĞİŞTİRMEK
+- SYD
+#### **T**
+- T
+- T.DAĞ.2T
+- T.DAĞ.RT
+- T.TERS.2T
+- T.TESTİ
+- bronzluk
+- TANH
+- TILLEQ
+- BILLPRICE
+- BILLYIELD
+- TDAĞ
+- METİN
+- METİN BİRLEŞTİRME
+- ZAMAN
+- ZAMAN DEĞERİ
+- TINV
+- BUGÜN
+- TRANSPOZ
+- AKIM
+- DÖKÜM
+- TRIMMEAN
+- KKTC
+- TEST
+- TİP
+- DOĞRU
+#### **S**
+- UNICHAR
+- UNICODE
+- BENZERSİZ
+- ÜST
+- AMERİKAN DOLARI
+#### **V**
+- DEĞER
+- VAR
+- VAR.P
+- VAR.S
+- VARA
+- VARP
+- VARPA
+- VDB
+- DÜŞEYARA
+#### **G**
+- HAFTA İÇİ
+- HAFTANUM
+- WEIBULL
+- WEIBULL.DAĞ
+- GENİŞ ÇÖZÜM
+- İŞGÜNÜ
+- İŞGÜNÜ.ULUSLARARASI
+#### **X**
+- XIRR
+- XNPV
+#### **e**
+- YIL
+- YILFRAC
+- TESLİM OLMAK
+- YIELDDISC
+- YELDMAT
+#### **Z**
+- Z.TESTİ
+- ZTESTİ

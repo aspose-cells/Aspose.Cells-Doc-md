@@ -1,0 +1,12 @@
+﻿---
+title: عرض وظائف Office الإضافية أثناء تحويل Excel إلى PDF
+type: docs
+weight: 90
+url: /ar/java/render-office-add-ins-while-converting-excel-to-pdf/
+---
+## **سيناريوهات الاستخدام الممكنة**
+في وقت سابق ، تعذر على Aspose.Cells عرض وظائف Office الإضافية عند حفظ ملف Excel بتنسيق PDF. الآن Aspose.Cells يجعلها جيدة. لا تحتاج إلى استخدام أي طريقة أو خاصية خاصة لتقديم Office Add-Ins في الإخراج PDF. فقط احفظ ملف Excel بتنسيق PDF وسيؤدي إلى عرض Office Add-Ins.
+## **عرض وظائف Office الإضافية أثناء تحويل Excel إلى PDF**
+نموذج التعليمات البرمجية التالي يحفظ[نموذج لملف Excel](60489783.xlsx)الذي يحتوي على وظائف Office الإضافية. الرجاء مراجعة[الناتج PDF الذي تم إنشاؤه باستخدام الإصدار السابق أي 17.11](60489781.pdf)و ال[تم إنشاء الإخراج PDF بإصدار أحدث أي 17.12 وما بعده](60489782.pdf)إخراج الإصدار السابق PDF فارغ ولكن إخراج الإصدار الأحدث PDF يُظهر وظيفة Office الإضافية.
+## **عينة من الرموز**
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Rendering-RenderOfficeAdd_InsWhileConvertingExcelToPdf.java" >}}

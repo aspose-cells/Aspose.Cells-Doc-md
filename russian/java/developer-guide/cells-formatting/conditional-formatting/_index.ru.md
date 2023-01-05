@@ -1,0 +1,59 @@
+﻿---
+title: Условное форматирование
+type: docs
+weight: 120
+url: /ru/java/conditional-formatting/
+---
+{{% alert color="primary" %}} 
+
+ Условное форматирование — это расширенная функция Excel Microsoft, которая позволяет применять форматирование к ячейке или диапазону ячеек и изменять это форматирование в зависимости от значения ячейки или значения формулы. Например, вы можете выделить ячейку полужирным шрифтом, только если значение ячейки больше 500. Когда значение ячейки соответствует условию, к ячейке применяется указанный формат. Если значение ячейки не соответствует условию, используется форматирование по умолчанию. В Microsoft Excel выберите**Формат** , тогда**Условное форматирование** чтобы открыть диалоговое окно «Условное форматирование».
+
+**Условное форматирование в Microsoft Excel** 
+
+![дело:изображение_альтернативный_текст](conditional-formatting_1.png)
+
+Aspose.Cells поддерживает применение условного форматирования к ячейкам во время выполнения. В этой статье объясняется, как.
+
+{{% /alert %}} 
+## **Применение условного форматирования**
+Aspose.Cells поддерживает условное форматирование двумя способами:
+
+- [Использование электронной таблицы конструктора](/cells/ru/java/conditional-formatting/).
+- [Создание условного форматирования во время выполнения](/cells/ru/java/conditional-formatting/).
+### **Использование электронной таблицы конструктора**
+Разработчики могут создать электронную таблицу дизайнера, содержащую условное форматирование, в Microsoft Excel, а затем открыть эту таблицу с помощью Aspose.Cells. Aspose.Cells загружает и сохраняет электронную таблицу дизайнера, сохраняя все настройки условного форматирования. Чтобы узнать больше о электронных таблицах дизайнера, прочитайте[Что такое таблица конструктора](/cells/ru/java/what-is-a-designer-spreadsheet/).
+## **Применение условного форматирования во время выполнения**
+Aspose.Cells поддерживает применение условного форматирования во время выполнения.
+
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ConditionalFormattingatRuntime-ConditionalFormattingatRuntime.java" >}}
+### **Установить шрифт**
+**Установка шрифтов в Microsoft Excel** 
+
+![дело:изображение_альтернативный_текст](conditional-formatting_2.png)
+
+
+
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SettingFontStyle-SettingFontStyle.java" >}}
+### **Установить границу**
+**Установка границ в Microsoft Excel** 
+
+![дело:изображение_альтернативный_текст](conditional-formatting_3.png)
+
+
+
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetBorder-SetBorder.java" >}}
+### **Установить шаблон**
+**Установка шаблона ячейки в Microsoft Excel** 
+
+![дело:изображение_альтернативный_текст](conditional-formatting_4.png)
+
+
+
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetPattern-SetPattern.java" >}}
+
+## **Предварительные темы**
+- [Добавить условный набор значков с текстом Cell](/cells/ru/java/add-conditional-icons-set-with-the-cell-text/)
+- [Добавление условного форматирования 2-цветной шкалы и 3-цветной шкалы](/cells/ru/java/adding-2-color-scale-and-3-color-scale-conditional-formattings/)
+- [Применение условного форматирования на листах](/cells/ru/java/apply-conditional-formatting-in-worksheets/)
+- [Применение затенения к чередующимся строкам и столбцам с условным форматированием](/cells/ru/java/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/)
+

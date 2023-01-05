@@ -1,0 +1,140 @@
+﻿---
+title: Cell Inhalt erhalten
+type: docs
+weight: 10
+url: /de/java/getting-cell-contents/
+---
+## **Aspose.Cells - Cell Inhalt erhalten**
+Die Methode Cells.get() ist für den Zugriff auf Zellen verfügbar.
+
+**Java**
+
+{{< highlight "java" >}}
+
+ //Auf das erste Arbeitsblatt in der Excel-Datei zugreifen
+
+Arbeitsblatt Arbeitsblatt = workbook.getWorksheets().get(0);
+
+Cells Zellen = Arbeitsblatt. getCells ();
+
+// Zugriff auf den maximalen Anzeigebereich
+
+Bereich range = worksheet.getCells().getMaxDisplayRange();
+
+int tcols = range.getColumnCount();
+
+int trows = range.getRowCount();
+
+System.out.println("Gesamtzeilen:" + trows);
+
+System.out.println("Total Cols:" + tcols);
+
+// Zugriffswert von Cell B4
+
+//=====================================================
+
+System.out.println(cells.get("B4").getValue());
+
+Cell cell = cells.get(3,1); //Zugriffswert von Cell B4
+
+System.out.println (cell.getValue());
+
+//=====================================================
+
+RowCollection rows = cells.getRows();
+
+ für (int i = 0 ; i< rows.getCount() ; i++)
+
+{
+
+	for (int j = 0 ; j < tcols ; j++)
+
+	{
+
+		if (cells.get(i,j).getType() != CellValueType.IS_NULL)
+
+		{
+
+			System.out.println(cells.get(i,j).getName() + " - " + cells.get(i,j).getValue());
+
+		}
+
+	}
+
+}
+
+{{< /highlight >}}
+## **Apache POI SS - HSSF XSSF - Abrufen von Cell-Inhalten**
+Apache POI stellt die Klasse Cell bereit, um auf verschiedene Eigenschaften von Zellen zuzugreifen.
+
+**Java**
+
+{{< highlight "java" >}}
+
+ Sheet sheet1 = wb.getSheetAt(0);
+
+for (Row row : sheet1) {
+
+    for (Cell cell : row) {
+
+        CellReference cellRef = new CellReference(row.getRowNum(), cell.getColumnIndex());
+
+        System.out.print(cellRef.formatAsString());
+
+        System.out.print(" - ");
+
+        switch (cell.getCellType()) {
+
+            case Cell.CELL_TYPE_STRING:
+
+                System.out.println(cell.getRichStringCellValue().getString());
+
+                break;
+
+            case Cell.CELL_TYPE_NUMERIC:
+
+                if (DateUtil.isCellDateFormatted(cell)) {
+
+                    System.out.println(cell.getDateCellValue());
+
+                } else {
+
+                    System.out.println(cell.getNumericCellValue());
+
+                }
+
+                break;
+
+            case Cell.CELL_TYPE_BOOLEAN:
+
+                System.out.println(cell.getBooleanCellValue());
+
+                break;
+
+            case Cell.CELL_TYPE_FORMULA:
+
+                System.out.println(cell.getCellFormula());
+
+                break;
+
+            default:
+
+                System.out.println();
+
+        }
+
+    }
+
+}
+
+{{< /highlight >}}
+## **Laufcode herunterladen**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **Beispielcode herunterladen**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/datahandling/gettingcellcontent)
+
+{{% alert color="primary" %}} 
+
+ Weitere Informationen finden Sie unter[Datenverarbeitungsfunktionen mit Aspose.Cells](/cells/de/java/data-handling-features-using-aspose-cells/)
+
+{{% /alert %}}

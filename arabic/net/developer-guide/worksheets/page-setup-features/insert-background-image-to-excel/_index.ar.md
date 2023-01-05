@@ -1,0 +1,34 @@
+﻿---
+title: إدراج صورة الخلفية في Excel
+type: docs
+weight: 90
+url: /ar/net/insert-background-image-to-excel/
+description: كيفية إدراج صورة الخلفية لبرنامج Excel باستخدام Aspose.Cells for .NET
+---
+{{% alert color="primary" %}} 
+
+يمكنك جعل ورقة العمل أكثر جاذبية عن طريق إضافة صورة كخلفية لورقة العمل. يمكن أن تكون هذه الميزة فعالة جدًا إذا كان لديك رسم خاص بالشركة يضيف تلميحًا للخلفية دون التعتيم على البيانات الموجودة على الورقة. يمكنك تعيين صورة خلفية للورقة باستخدام Aspose.Cells API.
+
+{{% /alert %}} 
+
+## **إعداد خلفية الورقة في Microsoft Excel**
+
+لتعيين صورة خلفية الورقة في Microsoft Excel (على سبيل المثال ، Microsoft Excel 2019):
+
+1.  من**تخطيط الصفحة** القائمة ، والعثور على**اعداد الصفحة** الخيار ، ثم انقر فوق**خلفية** اختيار.
+1. حدد صورة لتعيين صورة خلفية الورقة.
+
+   **إعداد خلفية الورقة**
+
+![ما يجب القيام به: image_بديل_نص](insert-background-to-excel.jpg)
+
+## **إعداد خلفية الورقة بالرقم Aspose.Cells**
+
+يحدد الكود أدناه صورة الخلفية باستخدام صورة من دفق.
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SetBackgroundPicture-1.cs" >}}
+
+## مقالات ذات صلة
+
+- [العمل مع الخلفية في ملفات ODS](/cells/ar/net/working-with-background-in-ods-files/)
+

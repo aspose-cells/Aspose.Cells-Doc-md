@@ -1,0 +1,12 @@
+﻿---
+title: Mot de passe protéger le projet VBA du classeur Excel
+type: docs
+weight: 100
+url: /fr/java/password-protect-the-vba-project-of-excel-workbook/
+---
+## **Scénarios d'utilisation possibles**
+ Vous pouvez protéger par mot de passe le projet VBA (Visual Basic pour Applications) du classeur avec Aspose.Cells en utilisant[VbaProject.protect()](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#protect\(boolean,%20java.lang.String\)) méthode.
+## **Exemple de code**
+ L'exemple de code suivant charge le[exemple de fichier Excel](43352069.xlsm), accède à son projet VBA et le protège avec un mot de passe. Enfin, il l'enregistre en tant que[fichier Excel de sortie](43352070.xlsm).
+
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-WorkbookVBAProject-PasswordProtecttheVBAProjectofExcelWorkbook.java" >}}
