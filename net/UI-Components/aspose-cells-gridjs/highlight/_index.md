@@ -31,6 +31,7 @@ xs.sheet.addHighlightText(row,col,startpostion,endposition)
 	col:column index
 	startpostion: highlight start postion in cell text 
 	endpostion: highlight end postion in cell text 
+    //it support multiple range postion inside one cell
 ```
 
 -  Remove highlight for cell text in array
@@ -141,7 +142,7 @@ xs.sheet.setHighlightAll(ishighlightall,isrerender=true)
 ```
 
 
--  set custom image highlight function
+-  Set custom image highlight function
 ```javascript
 xs.sheet.setCustomHighlightImgFunc(func)
    // the parameters are:
@@ -153,6 +154,51 @@ xs.sheet.setCustomHighlightImgFunc(func)
             imgobj.applyFilters();
         }
     
+```
+
+### Highlight for textbox object
+textbox is a special kind of shape which type property is :"TextBox",
+for example: the below code will show which shape is textbox
+
+```javascript
+for (let shape of xs.sheet.data.shapes) {
+    if (shape.type === 'TextBox') {
+        console.log(shape.id + ' is a textbox');
+    }
+}
+```
+-  Add highlight for textbox object
+```javascript
+    addHighlight(startpostion,endposition)
+    // the parameters are:
+	startpostion: highlight start postion in textbox
+	endpostion: highlight end postion in textbox
+
+//for example,we assume shape 0 is a textbox object
+const textbox=xs.sheet.data.shapes[0];
+//first we shall add to highlight shape to enable the highlight for the textbox shape object,it support multiple range postion 
+ xs.sheet.addHighlightShape(textbox.id);
+ textbox.addHighlight(5,10);
+ textbox.addHighlight(18,28);
+```
+
+-  Remove highlight for textbox object 
+```javascript
+    removeHighlight(startpostion,endposition)
+    // the parameters are:
+	startpostion: highlight start postion in textbox
+	endpostion: highlight end postion in textbox
+    //for example,we assume shape 0 is a textbox object
+     const textbox=xs.sheet.data.shapes[0];
+     textbox.removeHighlight(5,10);
+```
+
+-  Get highlight for textbox object 
+```javascript
+    getHighlight()
+    //for example,we assume shape 0 is a textbox object
+     const textbox=xs.sheet.data.shapes[0];
+     textbox.getHighlight();
 ```
 
 You can find more in our github demo page https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html
