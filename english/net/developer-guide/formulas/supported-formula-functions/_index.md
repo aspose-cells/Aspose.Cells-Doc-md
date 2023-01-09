@@ -85,6 +85,8 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |CHISQ.INV.RT|**Statistical**: Returns the inverse of the one-tailed probability of the chi-squared distribution
 |CHISQ.TEST|**Statistical**: Returns the test for independence
 |CHOOSE|**Lookup and reference**: Chooses a value from a list of values
+|CHOOSECOLS|**Lookup and reference**: Returns the specified columns from an array
+|CHOOSEROWS|**Lookup and reference**: Returns the specified rows from an array
 |CLEAN|**Text**: Removes all nonprintable characters from text
 |CODE|**Text**: Returns a numeric code for the first character in a text string
 |COLUMN|**Lookup and reference**: Returns the column number of a reference
@@ -215,6 +217,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |HEX2OCT|**Engineering**: Converts a hexadecimal number to octal
 |HLOOKUP|**Lookup and reference**: Looks in the top row of an array and returns the value of the indicated cell
 |HOUR|**Date and time**: Converts a serial number to an hour
+|HSTACK|**Lookup and reference**: Appends arrays horizontally and in sequence to return a larger array
 |HYPERLINK|**Lookup and reference**: Creates a shortcut or jump that opens a document stored on a network server, an intranet, or the Internet
 |HYPGEOM.DIST|**Statistical**: Returns the hypergeometric distribution
 |HYPGEOMDIST|**Compatibility**: Returns the hypergeometric distribution
@@ -504,6 +507,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |VARPA|**Statistical**: Calculates variance based on the entire population, including numbers, text, and logical values
 |VDB|**Financial**: Returns the depreciation of an asset for a specified or partial period by using a declining balance method
 |VLOOKUP|**Lookup and reference**: Looks in the first column of an array and moves across the row to return the value of a cell
+|VSTACK|**Lookup and reference**: Appends arrays vertically and in sequence to return a larger array
 
 ###### **W**
 |**Function**|**Summary**|

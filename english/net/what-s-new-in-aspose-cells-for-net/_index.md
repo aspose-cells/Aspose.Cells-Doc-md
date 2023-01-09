@@ -8,6 +8,11 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 23.1
+
+* Support new functions: CHOOSEROWS, CHOOSECOLS, HSTACK, VSTACK
+* Support to get author and date time from revisions
+
 ## Aspose.Cells for .NET 22.12
 
 * Support to export excel to JSON with multi-layered hierarchy structure
