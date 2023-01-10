@@ -103,3 +103,11 @@ Indicates whether plot visible cells only.
 ### **Obsoletes Charts.Chart.PlotVisibleCells property.**
 
 Please use Charts.Chart.PlotVisibleCellsOnly instead.
+
+### **Removes ShapeFormat.FillFormat property.**
+
+Please use ShapeFormat.Fill property instead.
+
+### **Removes ShapeFormat.Outline property.**
+
+Please use ShapeFormat.Line property instead.
