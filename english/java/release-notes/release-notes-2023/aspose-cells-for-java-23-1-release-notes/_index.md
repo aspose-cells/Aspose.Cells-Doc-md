@@ -36,7 +36,7 @@ This page contains release notes for [Aspose.Cells for Java 23.1](https://releas
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
 
-### **Addes PivotGlobalizationSettings class.**
+### **Adds PivotGlobalizationSettings class.**
 
 The class manages all globalization settings about pivot table.
 
@@ -52,11 +52,11 @@ Please use PivotGlobalizationSettings.GetTextOfColumnLabels()/GetTextOfRowLabels
 
 Please use corresponding methods in PivotGlobalizationSettings.
 
-### **Addes SetStyle() method for Row and Column class.**
+### **Adds SetStyle() method for Row and Column class.**
 
 Supports to set custom style for the whole Row/Column. For setting custom style, the difference between SetStyle() and ApplyStyle() is that SetStyle() does not change the style settings for existing cells.
 
-### **Addes HasCustomStyle property for Cell, Row and Column classes.**
+### **Adds HasCustomStyle property for Cell, Row and Column classes.**
 
 Indicates whether the cell, row or column has been set with custom style settings(different from the default one it inherits).
 
@@ -76,7 +76,7 @@ Use Style.GetTwoColorGradientSetting() method instead.
 
 Use ExportRangeToJson(Range, JsonSaveOptions) method instead.
 
-### **Addes Charts.Axis.CustomUnit property.**
+### **Adds Charts.Axis.CustomUnit property.**
 
 Specifies a custom value for the display unit.
 
@@ -84,7 +84,7 @@ Specifies a custom value for the display unit.
 
 Please use Charts.Axis.CustomUnit instead.
 
-### **Addes Charts.Chart.PlotVisibleCellsOnly property.**
+### **Adds Charts.Chart.PlotVisibleCellsOnly property.**
 
 Indicates whether plot visible cells only.
 
