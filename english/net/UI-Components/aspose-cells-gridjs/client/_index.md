@@ -26,7 +26,7 @@ xs = x_spreadsheet(id, options)
 	    showContextmenu:   means whether to show contextmenu on right click on a cell
 
 	for example the below code init a x_spreadsheet object.
-xs = x_spreadsheet('#gridjs-demo', {
+	xs = x_spreadsheet('#gridjs-demo', {
 			updateMode:'server',
 			updateUrl:'/GridJs2/UpdateCell',
 			mode: 'edit',
@@ -89,7 +89,7 @@ xs.getActiveSheet()
 		xs.setVisibleFilter((sheet,s) => { if (sheet.data.name==='Sheet1') return true;  return false; })
 	//this will make invisible for image/shape in all sheets 
 		xs.setVisibleFilter((sheet,s) => {  return false; })
-	//if the all the image/shape is already loaded and you want to change the visible filter at runtime,you can call the below code to trigger a reload for image/shape
+	//if all the image/shape is already loaded and you want to change the visible filter at runtime,you can call the below code to trigger a reload for image/shape
 		xs.setActiveSheet(xs.getActiveSheet())
 ```
 
