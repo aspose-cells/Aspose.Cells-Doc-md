@@ -16,8 +16,6 @@ url: /ru/net/feature-overview/
 |:- |:- |
 |[.NET Каркас](/cells/ru/net/system-requirements/#net-frameworks)|Используйте Aspose.Cells for .NET для сборки ASP.NET, веб-служб, WinForms или любого другого типа приложений для любой .NET Framework версии 2.0 или более поздней, включая версии профиля клиента. Полная поддержка 32-битных и 64-битных систем.|
 |[.NET Стандарт 2.0](/cells/ru/net/system-requirements/#net-standard)|Папка netStandard содержит сборку для использования с фреймворком, реализующим .NET Standard 2.0, например .NET Core 2.1/3.1. Последняя версия Aspose.Cells API также поддерживает .NET 5.0 и .NET 6.0.|
-|Xamarin.Android|Используйте Aspose.Cells for .NET в своих родных приложениях для Android.|
-|Xamarin.iOS|Используйте Aspose.Cells for .NET в собственных приложениях iOS.|
 |[COM](/cells/ru/net/system-requirements/)|Может быть спасением, если вам приходится разрабатывать с использованием технологий до .NET.|
 |[Mono](/cells/ru/net/system-requirements/)|Вы можете использовать Aspose.Cells for .NET для создания приложений с Mono.|
 |[Windows Лазурный](/cells/ru/net/system-requirements/)|Aspose.Cells for .NET также работает на Windows Azure.|

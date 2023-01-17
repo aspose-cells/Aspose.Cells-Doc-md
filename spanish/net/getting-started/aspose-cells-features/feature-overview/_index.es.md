@@ -16,8 +16,6 @@ El producto Aspose.Cells for .NET cubre la mayoría de los entornos de desarroll
 |:- |:- |
 |[.NET Marco](/cells/es/net/system-requirements/#net-frameworks)|Utilice Aspose.Cells for .NET para compilar ASP.NET, servicios web, WinForms o cualquier otro tipo de aplicación para cualquier .NET Framework versión 2.0 o posterior, incluidas las versiones de perfil de cliente. Soporte completo para 32 bits y 64 bits.|
 |[.NET Estándar 2.0](/cells/es/net/system-requirements/#net-standard)|La carpeta 'netStandard' contiene un ensamblaje para usar con el marco que implementa .NET Standard 2.0, como .NET Core 2.1/3.1. La última versión de Aspose.Cells API también es compatible con .NET 5.0 y .NET 6.0.|
-|Xamarin.Android|Use Aspose.Cells for .NET en sus aplicaciones nativas de Android.|
-|Xamarin.iOS|Use Aspose.Cells for .NET en sus aplicaciones iOS nativas.|
 |[COM](/cells/es/net/system-requirements/)|Puede ser un salvavidas si tiene que desarrollar utilizando tecnologías anteriores a .NET.|
 |[Mono](/cells/es/net/system-requirements/)|Puede usar Aspose.Cells for .NET para crear aplicaciones con Mono.|
 |[Windows azul](/cells/es/net/system-requirements/)|Aspose.Cells for .NET también se ejecuta en Windows Azure.|

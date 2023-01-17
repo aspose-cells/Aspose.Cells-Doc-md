@@ -16,8 +16,6 @@ url: /ar/net/feature-overview/
 |:- |:- |
 |[.NET الإطار](/cells/ar/net/system-requirements/#net-frameworks)|استخدم Aspose.Cells for .NET لإنشاء ASP.NET أو Web Services أو WinForms أو أي نوع آخر من التطبيقات لأي من إصدارات .NET Framework 2.0 أو أحدث بما في ذلك إصدارات Client Profile. دعم كامل ل 32 بت و 64 بت.|
 |[.NET القياسي 2.0](/cells/ar/net/system-requirements/#net-standard)|يحتوي مجلد "netStandard" على تجميع لاستخدامه مع إطار عمل يطبق .NET Standard 2.0 مثل .NET Core 2.1 / 3.1. أحدث إصدار من Aspose.Cells API يدعم أيضًا .NET 5.0 و .NET 6.0.|
-|زامارين|استخدم Aspose.Cells for .NET في تطبيقات Android الأصلية.|
-|Xamarin.iOS|استخدم Aspose.Cells for .NET في تطبيقات iOS الأصلية الخاصة بك.|
 |[COM](/cells/ar/net/system-requirements/)|يمكن أن يكون منقذًا إذا كان عليك التطوير باستخدام تقنيات ما قبل .NET.|
 |[Mono](/cells/ar/net/system-requirements/)|يمكنك استخدام Aspose.Cells for .NET لإنشاء تطبيقات باستخدام Mono.|
 |[Windows أزور](/cells/ar/net/system-requirements/)|يعمل Aspose.Cells for .NET أيضًا على Windows Azure.|

@@ -16,8 +16,6 @@ Aspose.Cells for .NET 製品は、一般的な開発環境と展開プラット�
 |:- |:- |
 |[.NET フレームワーク](/cells/ja/net/system-requirements/#net-frameworks)|Aspose.Cells for .NET を使用して、Client Profile バージョンを含む .NET Framework バージョン 2.0 以降の ASP.NET、Web サービス、WinForms、またはその他のタイプのアプリケーションをビルドします。 32 ビットと 64 ビットを完全にサポートします。|
 |[.NET 標準 2.0](/cells/ja/net/system-requirements/#net-standard)|「netStandard」フォルダーには、.NET Core 2.1/3.1 などの .NET Standard 2.0 を実装するフレームワークで使用するアセンブリが含まれています。 Aspose.Cells API の最新バージョンは、.NET 5.0 および .NET 6.0 もサポートしています。|
-|Xamarin.Android|ネイティブ Android アプリケーションでは Aspose.Cells for .NET を使用します。|
-|Xamarin.iOS|ネイティブ iOS アプリケーションでは Aspose.Cells for .NET を使用します。|
 |[COM](/cells/ja/net/system-requirements/)|.NET 以前のテクノロジを使用して開発する必要がある場合、命の恩人になる可能性があります。|
 |[Mono](/cells/ja/net/system-requirements/)|Aspose.Cells for .NET を使用して、Mono でアプリケーションをビルドできます。|
 |[Windows アズール](/cells/ja/net/system-requirements/)|Aspose.Cells for .NET は Windows Azure でも動作します。|

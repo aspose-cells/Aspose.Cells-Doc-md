@@ -16,8 +16,6 @@ Aspose.Cells for .NET produkten täcker de flesta populära utvecklingsmiljöer 
 |:- |:- |
 |[.NET Ramverk](/cells/sv/net/system-requirements/#net-frameworks)|Använd Aspose.Cells for .NET för att bygga ASP.NET, webbtjänster, WinForms eller någon annan typ av applikation för valfri .NET Framework version 2.0 eller senare inklusive klientprofilversioner. Fullt stöd för 32-bitars och 64-bitars.|
 |[.NET Standard 2.0](/cells/sv/net/system-requirements/#net-standard)|Mappen 'netStandard' innehåller assembly att använda med ramverk som implementerar .NET Standard 2.0, såsom .NET Core 2.1/3.1. Den senaste versionen av Aspose.Cells API stöder också .NET 5.0 och .NET 6.0.|
-|Xamarin.Android|Använd Aspose.Cells for .NET i dina inhemska Android-applikationer.|
-|Xamarin.iOS|Använd Aspose.Cells for .NET i dina ursprungliga iOS-applikationer.|
 |[COM](/cells/sv/net/system-requirements/)|Kan vara en livräddare om du måste utveckla med pre-.NET teknologier.|
 |[Mono](/cells/sv/net/system-requirements/)|Du kan använda Aspose.Cells for .NET för att bygga applikationer med Mono.|
 |[Windows Azure](/cells/sv/net/system-requirements/)|Aspose.Cells for .NET körs också på Windows Azure.|

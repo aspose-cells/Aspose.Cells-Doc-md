@@ -16,8 +16,6 @@ Aspose.Cells for .NET 产品涵盖了大部分流行的开发环境和部署平�
 |:- |:- |
 |[.NET 框架](/cells/zh/net/system-requirements/#net-frameworks)|使用 Aspose.Cells for .NET 为任何 .NET 框架版本 2.0 或更高版本（包括客户端配置文件版本）构建 ASP.NET、Web 服务、WinForms 或任何其他类型的应用程序。完全支持 32 位和 64 位。|
 |[.NET 标准 2.0](/cells/zh/net/system-requirements/#net-standard)|“netStandard”文件夹包含与实现 .NET 标准 2.0（例如 .NET 核心 2.1/3.1）的框架一起使用的程序集。最新版本Aspose.Cells API同时支持.NET 5.0和.NET 6.0。|
-|Xamarin.Android|在您的本机 Android 应用程序中使用 Aspose.Cells for .NET。|
-|Xamarin.iOS|在您的本机 iOS 应用程序中使用 Aspose.Cells for .NET。|
 |[串口](/cells/zh/net/system-requirements/)|如果您必须使用 .NET 之前的技术进行开发，可以成为救星。|
 |[Mono](/cells/zh/net/system-requirements/)|您可以使用 Aspose.Cells for .NET 来构建具有 Mono 的应用程序。|
 |[Windows 蔚蓝](/cells/zh/net/system-requirements/)|Aspose.Cells for .NET 也在 Windows Azure 上运行。|

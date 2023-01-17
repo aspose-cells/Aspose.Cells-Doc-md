@@ -16,8 +16,6 @@ Aspose.Cells for .NET ürünü, popüler geliştirme ortamlarının ve dağıtı
 |:- |:- |
 |[.NET Çerçeve](/cells/tr/net/system-requirements/#net-frameworks)|Aspose.Cells for .NET'i kullanarak ASP.NET, Web Hizmetleri, WinForms veya İstemci Profili sürümleri de dahil olmak üzere herhangi bir .NET Framework sürüm 2.0 veya üzeri için başka herhangi bir uygulama türü oluşturun. 32 bit ve 64 bit için tam destek.|
 |[.NET Standart 2.0](/cells/tr/net/system-requirements/#net-standard)|'netStandard' klasörü, .NET Core 2.1/3.1 gibi .NET Standard 2.0'ı uygulayan çerçeveyle kullanılacak derlemeyi içerir. Aspose.Cells API'in son sürümü ayrıca .NET 5.0 ve .NET 6.0'ı destekler.|
-|Xamarin.Android|Yerel Android uygulamalarınızda Aspose.Cells for .NET'i kullanın.|
-|Xamarin.iOS|Yerel iOS uygulamalarınızda Aspose.Cells for .NET kullanın.|
 |[BİL](/cells/tr/net/system-requirements/)|.NET öncesi teknolojileri kullanarak geliştirmeniz gerekiyorsa hayat kurtarıcı olabilir.|
 |[Mono](/cells/tr/net/system-requirements/)|Mono ile uygulama oluşturmak için Aspose.Cells for .NET'i kullanabilirsiniz.|
 |[Windows gök mavisi](/cells/tr/net/system-requirements/)|Aspose.Cells for .NET, Windows Azure üzerinde de çalışır.|
