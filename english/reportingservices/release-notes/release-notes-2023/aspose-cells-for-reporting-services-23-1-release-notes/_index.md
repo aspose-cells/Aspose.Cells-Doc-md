@@ -9,7 +9,7 @@ weight: 21
 
 {{% alert color="primary" %}} 
 This page contains release notes for Aspose.Cells Reporting Services 23.1
-'{{% /alert %}} '
+
 ## **Complete list of issues and enhancements covered in this Release**
 
 |**ID**|**Summary**|**Category**|
