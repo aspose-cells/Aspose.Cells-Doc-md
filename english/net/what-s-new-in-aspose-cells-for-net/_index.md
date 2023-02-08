@@ -8,6 +8,11 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 23.2
+
+* Support to set/read/save new functions: SCAN, LAMBDA
+* Support to export style to json
+
 ## Aspose.Cells for .NET 23.1
 
 * Support new functions: CHOOSEROWS, CHOOSECOLS, HSTACK, VSTACK
