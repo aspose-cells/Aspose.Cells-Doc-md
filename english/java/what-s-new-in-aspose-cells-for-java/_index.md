@@ -8,6 +8,11 @@ url: /java/what-s-new-in-aspose-cells-for-java/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for Java 23.2
+
+* Support to set/read/save new functions: SCAN, LAMBDA
+* Support to export style to json
+
 ## Aspose.Cells for Java 23.1
 
 * Support new functions: CHOOSEROWS, CHOOSECOLS, HSTACK, VSTACK
