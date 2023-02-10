@@ -113,6 +113,26 @@ xs.sheet.removeHighlightShape(shapeid)
 xs.sheet.getHighlightShaps()
 ```
 
+-  Add textbox to highlight,textbox is a special kind of shape which type property is :"TextBox",
+```javascript
+xs.sheet.addHighlightTextBox(shapeid, startpostion, endposition)
+    // the parameters are:
+    shapeid: the id of shape, can be find in xs.sheet.data.shapes whose type is 'TextBox'
+    startpostion: highlight start postion in the text of textbox
+    endpostion: highlight end postion in the text of textbox
+    //it support multiple range postion inside one textbox
+```
+
+
+-  Remove highlight range in the textbox,textbox is a special kind of shape which type property is :"TextBox",
+```javascript
+xs.sheet.removeHighlightTextBox(shapeid, startpostion, endposition)
+    // the parameters are:
+    shapeid: the id of shape, can be find in xs.sheet.data.shapes whose type is 'TextBox'
+    startpostion: highlight start postion in the text of textbox
+    endpostion: highlight end postion in the text of textbox
+    //it support multiple range postion inside one textbox
+```
 
 -  Add image to highlight array
 ```javascript
