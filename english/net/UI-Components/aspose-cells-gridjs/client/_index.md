@@ -3,6 +3,7 @@ title: Working with GridJs Client Side
 type: docs
 weight: 250
 url: /net/aspose-cells-gridjs/client/
+keywords: custom,logo,setting,api
 ---
 
 # Working with GridJs Client Side
@@ -77,6 +78,21 @@ xs.reRender()
 ```javascript
 xs.getActiveSheet()
 ```
+
+-   Set Zoom level
+```javascript
+xs.setZoomLevel(zoom)
+// the parameters is:
+	zoom:the zoom level ,can be number ,for example 0.5 for zoom out, or 2 for zoom in
+```
+
+-   Set FileName 
+```javascript
+xs.setFileName(name)
+// the parameters is:
+	name:the file name with extension ,for example trip.xlsx
+```
+
 -  set visible filter for image/shape
 ```javascript
     // need to set a function which return true(for visible) or false(for invisible) for the visible filter with the below parameters :
@@ -151,9 +167,9 @@ xs.sheet.data.unmerge()
 ```
 -  Delete the selected cell  
 ```javascript
-xs.sheet.data.deleteCell(what)
+xs.sheet.data.deleteCell(type)
     // the parameters are:
-    what:all|format  all: means delete the cell and clear the style ;format means delete the cell value and keep the cell style
+	type:all|format  all: means delete the cell and clear the style ;format means delete the cell value and keep the cell style
 ```
 -  Set the freeze pane
 ```javascript
@@ -211,6 +227,26 @@ xs.sheet.data.rows.sumHeight(min,max)
 xs.sheet.data.displayRight2Left
 ```
 
+## customization
+
+-  set home icon and link
+```javascript
+xs.sheet.menubar.icon.setHomeIcon(iconUrl,targetUrl)
+    // the parameters are:
+	iconUrl:the home icon URL
+	targetUrl:the target link URL
+	for example ,the below code will set the new logo and with link to google.com
+	xs.sheet.menubar.icon.setHomeIcon('https://forum.aspose.com/letter_avatar_proxy/v4/letter/y/3e96dc/45.png','https://www.google.com')
+```
+-  show the menu bar
+```javascript
+xs.sheet.menubar.show()
+```
+
+-  hide the menu bar
+```javascript
+xs.sheet.menubar.hide()
+```
 
 
 for detail info ,you can check the example here
