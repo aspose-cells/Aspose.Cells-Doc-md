@@ -15,7 +15,7 @@ This paragraph will tell you how to create a stock chart, which includes four ty
 
 {{% /alert %}}
 
-## **Adding Label Control to the Chart**
+## **What is stock chart**
 
 Stock charts are a specific chart used to track the changes in price of traded assets.  Assets such commodities, stocks and cryptocurrencies.  They allow you see high and low values over time, along with opening and closing values in the one chart.  Aspose.Cells offers 4 stock charts and to use these, you must have the right sets of data available and you must select the columns in the right order.
 
