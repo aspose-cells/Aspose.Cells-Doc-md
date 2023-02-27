@@ -1,5 +1,5 @@
 ---
-title: Create Open-High-Low-Close Stock Chart
+title: Create Open-High-Low-Close(OHLC) Stock Chart
 type: docs
 weight: 182
 url: /net/create-open-high-low-close-stock-chart/

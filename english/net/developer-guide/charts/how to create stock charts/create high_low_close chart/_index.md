@@ -1,7 +1,7 @@
 ---
-title: Create High-Low-Close Stock Chart
+title: Create High-Low-Close(HLC) Stock Chart
 type: docs
-weight: 180
+weight: 181
 url: /net/create-high-low-close-stock-chart/
 ---
 
