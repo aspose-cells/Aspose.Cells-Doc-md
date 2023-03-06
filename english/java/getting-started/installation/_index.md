@@ -29,6 +29,17 @@ First, you need to specify Aspose Maven Repository configuration/location in you
 
 {{< /highlight >}}
 
+for Gradle in you build.gradle script as follows:
+{{< highlight java >}}
+//Add Aspose maven repository
+repositories {
+    mavenCentral()
+    maven {
+        url "https://releases.aspose.com/java/repo/"
+    }
+}
+{{< /highlight >}}
+
 Then define Aspose.Cells for Java API dependency in your pom.xml as follows (This will include everything, e.g main jar file, Java Docs, and other libraries accordingly):
 
 {{< highlight java >}}
