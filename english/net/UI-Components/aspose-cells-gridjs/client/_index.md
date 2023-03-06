@@ -23,7 +23,13 @@ xs = x_spreadsheet(id, options)
 	    mode: read means readonly spread sheet/edit means we can edit the spread sheet
 	    showToolbar:   means whether to show toolbar
 	    showFileName:  whether to show the filename 
-	    local:         support multiple language for menus ,the locale can be: en, cn, es, pt, de, ru, nl for english,chinese,Spanish,Portuguese,germany,Russian,Dutch
+	    local:         support multiple language for menus ,the locale can be:
+	                        en, cn, es, pt, de, ru, nl, 
+	                   for  English,Chinese,Spanish,Portuguese,German,Russian,Dutch
+			        ar, fr,id,it,ja
+                           for  Arabic,French,Indonesian,Italian,Japanese
+			        ko,th,tr,vi,cht
+                           for  Korean,Thai,Turkey,Vietnamese,Traditional Chinese                  
 	    showContextmenu:   means whether to show contextmenu on right click on a cell
 
 	for example the below code init a x_spreadsheet object.
