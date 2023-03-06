@@ -11,7 +11,7 @@ Aspose.Cells supports converting XLS files (that contain images, charts, etc.) t
 
 {{% /alert %}} 
 ## **Save Each Worksheet to a Different PDF File**
-If you need to save each worksheet in your template Excel file to generate different PDF files, you can achieve this easily. You may try to hide sheets in the file and make one sheet visible at a time to render to PDF.
+If you need to save each worksheet in your template Excel file to generate different PDF files, you can achieve this easily. You may try to  set one sheet index to **[`PdfSaveOptions.SheetSet`](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/)** option at a time to render to PDF.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SaveEachWorksheetToDifferentPDF-1.cs" >}}
 
