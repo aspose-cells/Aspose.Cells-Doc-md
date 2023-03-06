@@ -19,9 +19,9 @@ Aspose.Cells supports converting Excel files to PDF and maintains high visual fi
 
 {{% alert color="primary" %}}
 
-Aspose.Cells for .NET directly writes the information about API and Version Number in output documents. For example, upon rendering Document to PDF, Aspose.Cells for .NET populates **Application** field with value 'Aspose.Cells' and **PDF Producer** field with value, e.g 'Aspose.Cells v17.9'.
+Aspose.Cells for .NET directly writes the information about API and Version Number in output documents. For example, upon rendering Document to PDF, Aspose.Cells for .NET populates **PDF Producer** field with value, e.g 'Aspose.Cells v23.2'.
 
-Please note that you cannot instruct Aspose.Cells for .NET to change or remove this information from output Documents.
+Please note that you can change this information in output Documents by **[PdfSaveOptions.Producer](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/producer/)** property.
 
 {{% /alert %}}
 
@@ -126,7 +126,7 @@ If your spreadsheet contains formulas, it is best to call **[Workbook.CalculateF
 - [Avoid Blank Page in Output PDF when there is Nothing to Print](/cells/net/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/)
 - [Change the Font on just the specific Unicode characters while saving to PDF](/cells/net/change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf/)
 - [Control loading of External Resources in MS Excel Workbook while rendering to PDF](/cells/net/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
-- [Convert an XLS File to PDF Format](/cells/net/convert-an-xls-file-to-pdf-format/)
+- [Convert XLSX File to PDF Format](/cells/net/convert-xlsx-file-to-pdf-format/)
 - [Convert Excel file to PDF format compatible with PDFA-1a](/cells/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
 - [Convert XLS File with Images or Charts to PDF](/cells/net/convert-xls-file-with-images-or-charts-to-pdf/)
 - [Create PdfBookmarkEntry for Chart Sheet](/cells/net/create-pdfbookmarkentry-for-chart-sheet/)
@@ -142,5 +142,6 @@ If your spreadsheet contains formulas, it is best to call **[Workbook.CalculateF
 - [Resampling Added Images - Excel to PDF Conversion](/cells/net/resampling-added-images-excel-to-pdf-conversion/)
 - [Save Each Worksheet to a Different PDF File](/cells/net/save-each-worksheet-to-a-different-pdf-file/)
 - [Save Excel into PDF with Standard or Minimum Size](/cells/net/save-excel-into-pdf-with-standard-or-minimum-size/)
+- [Save Specified Worksheets to PDF](/net/save-specified-worksheets-to-pdf/)
 - [Secure PDF Documents](/cells/net/secure-pdf-documents/)
 - [Specify how to cross string in output PDF and image](/cells/net/specify-how-to-cross-string-in-output-pdf-and-image/)
