@@ -142,6 +142,6 @@ If your spreadsheet contains formulas, it is best to call **[Workbook.CalculateF
 - [Resampling Added Images - Excel to PDF Conversion](/cells/net/resampling-added-images-excel-to-pdf-conversion/)
 - [Save Each Worksheet to a Different PDF File](/cells/net/save-each-worksheet-to-a-different-pdf-file/)
 - [Save Excel into PDF with Standard or Minimum Size](/cells/net/save-excel-into-pdf-with-standard-or-minimum-size/)
-- [Save Specified Worksheets to PDF](/net/save-specified-worksheets-to-pdf/)
+- [Save Specified Worksheets to PDF](/cells/net/save-specified-worksheets-to-pdf/)
 - [Secure PDF Documents](/cells/net/secure-pdf-documents/)
 - [Specify how to cross string in output PDF and image](/cells/net/specify-how-to-cross-string-in-output-pdf-and-image/)
