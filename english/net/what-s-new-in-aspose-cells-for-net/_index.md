@@ -8,6 +8,11 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 23.3
+
+* Support to set/read/save new functions: LET, ENCODEURL
+* Support to link data sources to external links when calling formula calculation
+
 ## Aspose.Cells for .NET 23.2
 
 * Support to set/read/save new functions: SCAN, LAMBDA
