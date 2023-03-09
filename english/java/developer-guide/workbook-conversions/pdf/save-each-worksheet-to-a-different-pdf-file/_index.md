@@ -11,12 +11,12 @@ Aspose.Cells supports converting spreadsheet files (that contain images, charts,
 
 {{% /alert %}}
 
-If you need to save each worksheet in your template Excel file to generate different PDF files. This can be achieved easily. You may try to hide sheets in the file and make one sheet visible at a time based on which you would render PDFs.
+If you need to save each worksheet in your template Excel file to generate different PDF files. This can be achieved easily. You may try to  set one sheet index to **[`PdfSaveOptions.SheetSet`](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setSheetSet-com.aspose.cells.SheetSet-)** option at a time to render to PDF.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SaveEachWorksheettoDifferentPDF-SaveEachWorksheettoDifferentPDF.java" >}}
 
 {{% alert color="primary" %}}
 
-If the spreadsheet contains formulas, it is best to call the [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) method just before rendering the spreadsheet to PDF. This ensures that formula dependent values are recalculated, and the correct values are rendered in the PDF.
+If the spreadsheet contains formulas, it is best to call the [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) method just before rendering the spreadsheet to PDF. This ensures that formula dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}
