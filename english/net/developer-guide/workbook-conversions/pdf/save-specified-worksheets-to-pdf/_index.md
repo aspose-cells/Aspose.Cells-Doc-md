@@ -9,7 +9,7 @@ By default, Aspose.Cells save all **visible** worksheets in a workbook to pdf fi
 
 ## **Save Active Worksheet to PDF**
 
-If you want to only export active sheet to pdf, you can achieve this by passing active sheet index to **[`PdfSaveOptions.SheetSet`](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/)** option.
+If you want to only export active sheet to pdf, you can achieve this by passing **[`SheetSet.Active`](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetset/active/)** to **[`PdfSaveOptions.SheetSet`](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/)** option.
 
 The sheet `Sheet2` is the acitve sheet of the source file [sheetset-example.xlsx](sheetset-example.xlsx).
 
