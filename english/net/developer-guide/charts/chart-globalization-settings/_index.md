@@ -11,7 +11,7 @@ Aspose.Cells APIs have exposed the [**ChartGlobalizationSettings**](https://refe
 
 ## **Introduction to ChartGlobalizationSettings Class**
 
-The [**ChartGlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/) class currently offers the following 8 methods which can be overridden in a custom class to translate such as AxisTitle name,AxisUnit name,ChartTitil name and so on to different language.
+The [**ChartGlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/) class currently offers the following 8 methods which can be overridden in a custom class to translate such as AxisTitle name,AxisUnit name,ChartTitle name and so on to different language.
 1. [**GetAxisTitleName**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getaxistitlename/): Gets the name of Title for Axis.
 1. [**GetAxisUnitName**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getaxisunitname/): Gets the Name of Axis Unit.
 1. [**GetChartTitleName**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getcharttitlename/): Gets the name of Chart Title.
