@@ -1,14 +1,14 @@
 ---
-title: How to do Japanese Setting for Chart
+title: How to Set Japanese Configuration for Chart
 linktitle: Japanese Setting
 type: docs
-weight: 50
-url: /net/do-japanese-setting-for-chart/
+weight: 10
+url: /net/set-japanese-configuration-for-chart/
 ---
 
 {{% alert color="primary" %}}
 
-In this topic, we will show you how to do japanese setting for a chart.
+In this topic, we will show you how to set japanese configuration for a chart.
 
 {{% /alert %}}
 
@@ -29,5 +29,3 @@ Code example:
 ```
 
 Then you can see the effect in the output image, the elements in the chart will be rendered according to your settings.
-
-
