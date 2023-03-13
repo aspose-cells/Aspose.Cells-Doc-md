@@ -16,4 +16,6 @@ We often use colors rather than black and white to indicate increasing and decre
 
 ![todo:image_alt_text](sample2.png)
 ## **Sample Code**
+The following sample code loads the [sample Excel file](Open-High-Low-Close.xlsx) and generates the [output Excel file](out.xlsx).
+
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-open-high-low-close-stock-chart.cs" >}}
