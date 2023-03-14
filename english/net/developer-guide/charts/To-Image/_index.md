@@ -2,7 +2,7 @@
 title: Chart To Image
 linktitle: Chart To Image
 type: docs
-weight: 45
+weight: 46
 url: /net/chart-to-image/
 ---
 
