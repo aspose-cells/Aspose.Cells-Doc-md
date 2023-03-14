@@ -1,30 +1,24 @@
 ---
-title: Chart Rendering
-linktitle: To Image or Pdf
+title: Chart To Image
+linktitle: Chart To Image
 type: docs
 weight: 45
-url: /net/chart-rendering/
+url: /net/chart-to-image/
 ---
 
 ## **Rendering Charts**
 
-Aspose.Cells APIs support to convert the Excel Charts to images and PDF formats without requiring any additional tools or applications. In order to provide rendering support, the [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) class has exposed [**ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) & [**ToPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index) methods with a verity of overloads to best suit the application requirements.
+Aspose.Cells APIs support to convert the Excel Charts to images formats without requiring any additional tools or applications. In order to provide rendering support, the [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) class has exposed [**ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) methods with a verity of overloads to best suit the application requirements.
 
 ### **Rendering Charts to Images**
 
-The [**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) & [**ToPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index) method has a verity of overloads to support simple as well as advanced rendering. If the application requirement is to render the chart in its default dimensions, we suggest you use the [**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) method as follow.
+The [**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) method has a verity of overloads to support simple as well as advanced rendering. If the application requirement is to render the chart in its default dimensions, we suggest you use the [**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) method as follow.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImage.cs" >}}
 
 It is also possible to render the charts to images with advanced settings. Aspose.Cells APIs have exposed an overload version of [**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) method that could accept an instance of [**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions), while allowing to specify parameters such as resolution, smoothing mode, image format and so on.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImageWithAdvancedOptions.cs" >}}
-
-### **Rendering Chart to PDF**
-
-In order to render the chart to PDF format, the Aspose.Cells APIs have exposed the [**Chart.ToPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index) method with the ability to store the resultant PDF on disc path or Stream.
-
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToPDF.cs" >}}
 
 ## **Supported Chart Types for Rendering**
 
@@ -121,4 +115,4 @@ In case you try to render the non-supported chart types to image or PDF, you may
 {{% /alert %}}
 
 ## **Advance topics**
-- [Convert Chart to PDF with Desired Page Size](/cells/net/chart-to-pdf/)
+- [Convert Chart to PDF](/cells/net/chart-to-pdf/)
