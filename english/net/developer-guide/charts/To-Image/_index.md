@@ -1,5 +1,5 @@
 ---
-title: Chart To Image
+title: Chart to Image
 linktitle: Chart To Image
 type: docs
 weight: 46

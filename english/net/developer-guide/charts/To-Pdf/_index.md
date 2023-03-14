@@ -5,7 +5,7 @@ weight: 47
 url: /net/chart-to-pdf/
 ---
 
-### **Rendering Chart to PDF**
+## **Rendering Chart to PDF**
 
 In order to render the chart to PDF format, the Aspose.Cells APIs have exposed the [**Chart.ToPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index) method with the ability to store the resultant PDF on disc path or Stream.
 
