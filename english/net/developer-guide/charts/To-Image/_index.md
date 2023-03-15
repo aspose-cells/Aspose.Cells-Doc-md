@@ -1,6 +1,6 @@
 ---
 title: Chart to Image
-linktitle: Chart To Image
+linktitle: Chart to Image
 type: docs
 weight: 46
 url: /net/chart-to-image/
