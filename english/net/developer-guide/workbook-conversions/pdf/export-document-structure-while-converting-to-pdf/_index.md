@@ -10,5 +10,5 @@ PDF logical structure facilities provide a mechanism for incorporating informati
 
 With option [PdfSaveOptions.ExportDocumentStructure](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/exportdocumentstructure/), you can save to a tagged PDF with document structure exported.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Docs-Pdf-ExportDocumentStructureToPdf.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-ExportDocumentStructureToPdf.cs" >}}
 
