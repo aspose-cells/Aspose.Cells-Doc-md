@@ -230,5 +230,20 @@ const textbox=xs.sheet.data.shapes[0];
      const textbox=xs.sheet.data.shapes[0];
      textbox.setBackgroundColor('#FFFF00');
 ```
+-  Auto change the background color and text color to get a visual active effect
+```javascript
+    setActiveEffect(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will change background color and the text color of the textbox object;if false,restore to original appearence
+```
+
+-  hide/unhide the text content in the textbox object
+```javascript
+    hideText(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will not display the text in the textbox object;if false,restore to original appearence
+```
+
+
 
 You can find more in our github demo page https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html
