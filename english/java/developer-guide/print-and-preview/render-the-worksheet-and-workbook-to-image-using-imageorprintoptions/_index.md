@@ -37,11 +37,7 @@ Or you can cycle through the workbook and render each worksheet in it to a separ
 
 In order to render the complete workbook to image format, you may either use the above approach or simply use the [**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender) class that accepts an instance of [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) as well as the object of [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions).
 
-{{% alert color="primary" %}}
-
-The [**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender) class can only save the workbook to the TIFF format.
-
-{{% /alert %}}
+You can save the whole workbook to a single TIFF image with multiply frames or pages:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ConvertWorkbooktoImage-1.java" >}}
 
