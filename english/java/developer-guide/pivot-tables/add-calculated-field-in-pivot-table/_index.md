@@ -18,10 +18,12 @@ Insert a calculated field in a PivotTable in Excel, follow these steps:
 3. Click on "Fields, Items, & Sets" and then select "Calculated Field" from the drop-down menu.
 4. In the "Name" field, enter a name for the calculated field.
 5. In the "Formula" field, enter the formula you want to perform using the appropriate PivotTable field names and mathematical operators. 
+<br>
 <img src="1.png" width=80% />
 6. Click "ok" to create the calculated field.
 7. The new calculated field will appear in the PivotTable Field List under the Values section.
 8. Drag the calculated field to the Values section of the PivotTable to display the calculated values.
+<br>
 <img src="2.png" width=80% />
 
 ## **Add calculated field in Pivot Table**
