@@ -85,7 +85,7 @@ Returnes whether the font is available.
 
 ### **Adds LoadOptions.IgnoreUselessShapes property**
 
-Inicates whether ignoring useless shapes in the xlsx files.
+Indicates whether ignoring useless shapes in the xlsx files.
 
 ### **Adds PivotArea.OnlyData and OnlyLabel properties.**
 

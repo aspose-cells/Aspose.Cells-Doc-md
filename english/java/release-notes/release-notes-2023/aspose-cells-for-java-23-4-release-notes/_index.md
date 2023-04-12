@@ -58,7 +58,7 @@ Allows user to calculate one formula as array formula dynamically without settin
 
 Allows user to specify the encoding used for encoding/decoding characters when calculating formulas such as CHAR and CODE function.
 
-### **Adds Aspose.Cells.Drawing.Equations namespace**
+### **Adds EquationNode class and it's derived classes**
 
 Allows users to complete the construction of an equation shape by inserting relevant nodes step by step.
 
@@ -72,7 +72,7 @@ Returnes whether the font is available.
 
 ### **Adds LoadOptions.IgnoreUselessShapes property**
 
-Inicates whether ignoring useless shapes in the xlsx files.
+Indicates whether ignoring useless shapes in the xlsx files.
 
 ### **Adds PivotArea.OnlyData and OnlyLabel properties.**
 
