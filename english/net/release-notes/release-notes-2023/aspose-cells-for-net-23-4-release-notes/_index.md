@@ -59,13 +59,17 @@ This page contains release notes for [Aspose.Cells for .NET 23.4](https://www.nu
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for .NET. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
 
-### **Adds CalculationOptions.CharacterEncoding property**
+### **Adds XlsbSaveOptions.LightCellsDataProvider property**
 
-Allows user to specify the encoding used for encoding/decoding characters when calculating formulas such as CHAR and CODE function.
+Allows user to save xlsb file in LightCell mode.
 
 ### **Adds Worksheet.CalculateArrayFormula(...) methods**
 
 Allows user to calculate one formula as array formula dynamically without setting it to a cell at first.
+
+### **Adds CalculationOptions.CharacterEncoding property**
+
+Allows user to specify the encoding used for encoding/decoding characters when calculating formulas such as CHAR and CODE function.
 
 ### **Adds Aspose.Cells.Drawing.Equations namespace**
 
