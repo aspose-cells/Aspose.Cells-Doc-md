@@ -8,6 +8,17 @@ url: /java/what-s-new-in-aspose-cells-for-java/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for Java 23.4
+
+* Support to calculate function ENCODEURL
+* Support to complete the construction of an equation shape by inserting relevant nodes step by step
+* Support to calculate formula expression as array formula without setting it to a cell object
+* Support to save xlsb file in LightCells mode
+* Support to check whether one font is installed or available
+* Support to set formula to specified cell in the ListObject
+* Support to save workbook as xhtml
+* Support to render activex control and form control for GridWeb
+
 ## Aspose.Cells for Java 23.3
 
 * Support to set/read/save new functions: LET, ENCODEURL
