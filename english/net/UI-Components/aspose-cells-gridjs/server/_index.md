@@ -8,6 +8,11 @@ description: This article describes how to use Aspose.Cells.GridJs library.
 
 
 # Working with GridJs Server Side
+## 0. set the right folder path in Config
+ **`Config.FileCacheDirectory`** for the workbook cache file.
+ **`Config.PictureCacheDirectory`**  for the image files cache in the workbook.
+
+for the storage detail ,please check this [guide](/net/aspose-cells-gridjs/storage/)
 
 ## 1. Implement GridCacheForStream
 For local file storage ,here is an example:
@@ -16,6 +21,7 @@ For local file storage ,here is an example:
 
 For server side storage,we also provide an example.
 Please check: <https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Models/AwsCache.cs>
+
 ## 2. Get json from the spreadsheet file.
 ```C#
 GridJsWorkbook wbj = new GridJsWorkbook();
