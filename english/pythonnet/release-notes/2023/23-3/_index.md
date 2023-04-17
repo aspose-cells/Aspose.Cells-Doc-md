@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells for Python via .NET 23.3 Release Notes
 type: docs
-weight: 11
+weight: 10
 url: /python-net/aspose-cells-for-python-net-23-3-release-notes/
 ---
 
