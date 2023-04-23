@@ -26,8 +26,12 @@ Insert a calculated field in a PivotTable in Excel, follow these steps:
 <br>
 <img src="2.png" width=80% />
 
-## **Add calculated field in Pivot Table**
-Please see the following sample code. The code first sets the original data and creates a pivot table. Then create the calculated field according to the existing PivotField in the pivot table and add the calculated field to the data area. Finally, it saves the workbook in [output XLSX](out.xlsx) format. After executing the example code, a pivot table with calculated field is added to the worksheet.
+## **Add calculated field in Pivot Table Using C#**
+Add calculated field to Excel file using Aspose.Cells. Please see the following sample code. After executing the example code, a pivot table with calculated field is added to the worksheet.
+1. Set the original data and create a pivot table. 
+2. Create the calculated field according to the existing PivotField in the pivot table.
+3. Add the calculated field to the data area. 
+4. Finally, it saves the workbook in [output XLSX](out.xlsx) format. 
 
 ## **Sample Code**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-Add-calculated-field-in-PivotTable.cs" >}}
