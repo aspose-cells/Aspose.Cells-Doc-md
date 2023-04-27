@@ -30,6 +30,11 @@ You can easily use Aspose.Cells for Python via .NET from [pypi](https://pypi.org
  $ pip install aspose-cells-python
 
 {{< /highlight >}}
+- Note:You need to run the following command before installation
+{{< highlight NET >}}
+For Ubuntu/Debian: apt-get install libgdiplus 
+For CentOS/RHEL/Fedora: yum install libgdiplus 
+{{< /highlight >}}
 
 ### **MacOS:**
 You can easily use Aspose.Cells for Python via .NET from [pypi](https://pypi.org/project/aspose-cells-python/) with the following command.
