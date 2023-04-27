@@ -11,7 +11,7 @@ Excel (xlsx、xlsb、xls、xlsm) および Open Office (ODS) ファイルがパ�
 
 ## **暗号化されたファイルのパスワードを確認する**
 
-暗号化されたファイルのパスワードを確認するには、Aspose.Cells for Java を指定します。[**パスワードを照合します**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)） 方法。このメソッドは、検証が必要なファイル ストリームとパスワードの 2 つのパラメーターを受け入れます。
+暗号化されたファイルのパスワードを確認するには、Aspose.Cells for Java を指定します。[**パスワードを照合します**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) 方法。このメソッドは、検証が必要なファイル ストリームとパスワードの 2 つのパラメーターを受け入れます。
 次のコード スニペットは、[**パスワードを照合します**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) メソッドを使用して、提供されたパスワードが有効かどうかを確認します。
 
 ### **サンプルコード:**

@@ -11,7 +11,7 @@ Si les fichiers Excel (xlsx, xlsb, xls, xlsm) et Open office (ODS) sont verrouil
 
 ## **Vérifier le mot de passe du fichier crypté**
 
- Pour vérifier le mot de passe du fichier crypté, Aspose.Cells for Java fournit le[**Vérifier le mot de passe**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)méthode. Les méthodes acceptent deux paramètres, le flux de fichiers et le mot de passe qui doit être vérifié.
+ Pour vérifier le mot de passe du fichier crypté, Aspose.Cells for Java fournit le[**Vérifier le mot de passe**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String))méthode. Les méthodes acceptent deux paramètres, le flux de fichiers et le mot de passe qui doit être vérifié.
  L'extrait de code suivant illustre l'utilisation de[**Vérifier le mot de passe**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) pour vérifier si le mot de passe fourni est valide ou non.
 
 ### **Exemple de code :**

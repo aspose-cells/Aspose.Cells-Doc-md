@@ -11,7 +11,7 @@ Excel (xlsx, xlsb, xls, xlsm) ve Open office (ODS) dosyaları parola ile kilitle
 
 ## **Şifrelenmiş dosyanın parolasını doğrulayın**
 
- Aspose.Cells for Java, şifreli dosyanın parolasını doğrulamak için şu bilgileri sağlar:[**Parolayı Doğrula**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)yöntem. Yöntemler, dosya akışı ve doğrulanması gereken parola olmak üzere iki parametreyi kabul eder.
+ Aspose.Cells for Java, şifreli dosyanın parolasını doğrulamak için şu bilgileri sağlar:[**Parolayı Doğrula**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String))yöntem. Yöntemler, dosya akışı ve doğrulanması gereken parola olmak üzere iki parametreyi kabul eder.
  Aşağıdaki kod parçacığı,[**Parolayı Doğrula**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) sağlanan parolanın geçerli olup olmadığını doğrulama yöntemi.
 
 ### **Basit kod:**

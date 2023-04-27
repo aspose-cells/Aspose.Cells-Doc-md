@@ -11,7 +11,7 @@ Om Excel (xlsx, xlsb, xls, xlsm) och Open office (ODS)-filer är låsta med lös
 
 ## **Verifiera lösenordet för den krypterade filen**
 
- För att verifiera lösenordet för den krypterade filen tillhandahåller Aspose.Cells for Java[**Verifiera lösenord**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)metod. Metoderna accepterar två parametrar, filströmmen och lösenordet som måste verifieras.
+ För att verifiera lösenordet för den krypterade filen tillhandahåller Aspose.Cells for Java[**Verifiera lösenord**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String))metod. Metoderna accepterar två parametrar, filströmmen och lösenordet som måste verifieras.
  Följande kodavsnitt visar användningen av[**Verifiera lösenord**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) metod för att verifiera om det angivna lösenordet är giltigt eller inte.
 
 ### **Exempelkod:**

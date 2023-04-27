@@ -11,8 +11,8 @@ description: 使用 Java 代码验证加密 Excel（xlsx、xlsb、xls、xlsm）�
 
 ## **验证加密文件的密码**
 
-验证加密文件密码，Aspose.Cells for Java提供[**验证密码**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)） 方法。该方法接受两个参数，文件流和需要验证的密码。
-下面的代码片段演示了使用[**验证密码**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)方法来验证提供的密码是否有效。
+验证加密文件密码，Aspose.Cells for Java提供[**验证密码**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) 方法。该方法接受两个参数，文件流和需要验证的密码。
+下面的代码片段演示了使用[**验证密码**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String))方法来验证提供的密码是否有效。
 
 ### **示例代码：**
 
