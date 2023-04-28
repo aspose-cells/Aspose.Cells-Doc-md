@@ -70,7 +70,45 @@ xs.setActiveCell(row,col);
 	col: the cell column
 ```
 
+- set info for shape/images operation for server side action
+```javascript
+xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActionUrl, imageCopyActionUrl, zindex, loadingGif);
+// the parameters are:
+	imageGetActionUrl: the get image action URL in the server side controller
+	imageAddByUploadActionUrl: the upload image action  URL in the server side controller
+	imageAddByUrlActionUrl: the add image from URL action  URL in the server side controller
+	imageCopyActionUrl: the copy image action  URL in the server side controller
+	zindex: the minimum zindex of the image in the canvas
+	loadingGif (optional): the loading gif url when loading the image/shape .it is optional,the default value is:content/img/updating.gif
+    for example: 
+            const imageurl = "/GridJs2/imageurl";
+            const imageuploadurl1 = "/GridJs2/AddImage";
+            const imageuploadurl2 = "/GridJs2/AddImageByURL";
+            const imagecopyurl = "/GridJs2/CopyImage";  
+	    const basiczorder = 5678;
+    xs.setImageInfo(imageurl, imageuploadurl1, imageuploadurl2, imagecopyurl, basiczorder);
+```
 
+- set info for download operation for server side action
+```javascript
+xs.setFileDownloadInfo(downloadActionUrl);
+// the parameters are:
+	downloadActionUrl: the get download file action URL in the server side controller
+	 
+    for example: 
+            const fileDownloadUrl = "/GridJs2/Download";
+            xs.setFileDownloadInfo(fileDownloadUrl);
+```
+
+- set info for ole object operation for server side action
+```javascript
+xs.setOleDownloadInfo(oleActionUrl);
+// the parameters are:
+	oleActionUrl: the ole object file action URL in the server side controller
+    for example: 
+            const oleDownloadUrl = "/GridJs2/Ole";
+            xs.setOleDownloadInfo(oleDownloadUrl);
+```
   
 
 ___
@@ -118,6 +156,14 @@ xs.setFileName(name)
 -  Get the selected image/shape,if nothing select will return null
 ```javascript
 xs.sheet.selector.getObj()
+```
+
+-  set the selectable state for image/shape 
+```javascript
+const shape=xs.sheet.selector.getObj();
+shape.setControlable(isenable)
+     // the parameter is:
+      isenable: when set to true,the image or shape can be selectable and movable/resizeable
 ```
 
 -  Get the cell object
@@ -231,6 +277,28 @@ xs.sheet.data.rows.sumHeight(min,max)
 -  Get/Set the display direction
 ```javascript
 xs.sheet.data.displayRight2Left
+```
+
+## event call back
+-  we can track the below events
+```javascript
+ xs.on('cell-selected', (cell, ri, ci) => {
+                console.log('cell selected:', cell, ', ri:', ri, ', ci:', ci);
+                if (ci === -1) {
+                    console.log('ci === -1 means a row selected ',ri);
+                }
+                if (ri === -1) {
+                    console.log('ri === -1 means a column selected',ci);
+                }
+            }).on('cells-selected', (cell, range) => {
+                console.log('range   selected:', cell, ', rang:', range);
+            }).on('object-selected', (shapeOrImageObj) => {
+                console.log('shape or image selected id:', shapeOrImageObj.id, ', type: ', shapeOrImageObj.type);
+            }).on('sheet-selected', (id,name) => {
+                console.log('sheet selected id:', id, ', name: ',name);
+            }).on('cell-edited', (text, ri, ci) => {
+                console.log('text:', text, ', ri: ', ri, ', ci:', ci);
+            });
 ```
 
 ## customization
