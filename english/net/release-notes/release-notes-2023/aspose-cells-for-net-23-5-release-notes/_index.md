@@ -147,6 +147,10 @@ Gets or sets watermark to output.
 ### **Adds RenderingFont and RenderingWatermark classes**
 
 For adding watermark to output of rendering.
+
+### **Adds AutoFitterOptions.ForRendering property**
+
+Indicates whether fit for rendering purpose.
  
 ### **Changes definition of EquationNodeParagraph.EquationHorizontalJustificationType**
 
