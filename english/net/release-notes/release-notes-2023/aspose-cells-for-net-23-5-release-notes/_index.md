@@ -60,9 +60,9 @@ The following is a list of any changes made to the public API such as added, ren
 
 In old versions, when "updateReferencesAsLocal" is true, we only update those references of external names to local names of current workbook. For references of external sheet data, we updated them as "#REF!" always. From 23.5, if there is one worksheet in current workbook with the same sheet name of the external reference, then the reference will be updated to the local sheet too.
 
-### **Adds GetEnumerator(bool reversed, bool sync) method for RowCollection/Row**
+### **Adds Row.GetEnumerator(bool reversed, bool sync) method**
 
-Provide user the ability of traversing Row/Cell in reversed order.
+Provide user the ability of traversing Cell in reversed order.
 
 ### **Obsoletes Cells.GetRowEnumerator()**
 

@@ -8,6 +8,13 @@ url: /java/what-s-new-in-aspose-cells-for-java/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for Java 23.5
+
+* Support to update external references of external sheet data to the local sheet of current workbook
+* Support to render Checkbox control as interactive control instead of static picture in GridWeb
+* Support to select PivotArea and format it
+* Support to add watermark while converting to pdf
+
 ## Aspose.Cells for Java 23.4
 
 * Support to calculate function ENCODEURL
