@@ -64,7 +64,7 @@ Use Shape.Line and Shape.Fill property instead.
 
 ### **Adds ListColumn.TotalsRowLabel property**
 
-Gets and sets the label of toals row in the table.
+Gets and sets the label of totals row in the table.
 
 ### **Adds ListObject.PutCellValue(Int32,Int32,Object,Boolean) method**
 
