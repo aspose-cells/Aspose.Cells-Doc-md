@@ -147,7 +147,7 @@ xs.enableKeyEvent(isenable)
 
 -  unbind all events attached to GridJs,including window key event and window resize event.
 ```javascript
-xs.destory()
+xs.destroy()
 ```
 
 
