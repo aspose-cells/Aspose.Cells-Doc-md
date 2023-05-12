@@ -137,6 +137,20 @@ xs.setFileName(name)
 	name:the file name with extension ,for example trip.xlsx
 ```
 
+-   whether to enable window key event for GridJs
+```javascript
+xs.enableKeyEvent(isenable)
+// the parameters is:
+	isenable:whether the window key event is active for GridJs
+//when has other controls in the same page, you may want to ignore the key event in GridJs 
+```
+
+-  unbind all events attached to GridJs,including window key event and window resize event.
+```javascript
+xs.destory()
+```
+
+
 -  set visible filter for image/shape
 ```javascript
     // need to set a function which return true(for visible) or false(for invisible) for the visible filter with the below parameters :
