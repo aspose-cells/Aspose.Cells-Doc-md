@@ -25,6 +25,12 @@ When you have a huge amount of data under a common heading you are unable to see
 3. On the drop-down menu, click Freeze Panes.
 4. If you scroll down or right,the first row and column are frozen.
 
+**![Fonzen panges](Frozen-Panes.png)**
+
+As you can see 1st Row and column A are Freezed , the second row its showing is 32 and second visible column is D. 
+
+Freeze panes let you view your large data without any keeping track of Row or Column label.
+
 
 
 
