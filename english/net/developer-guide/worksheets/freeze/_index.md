@@ -16,12 +16,17 @@ When you have a huge amount of data under a common heading you are unable to see
 {{% /alert %}}
 
 ## **In Excel**
+
+**![freeze panes in Excel](Freeze-panes.png)**
+
+
 1. If you want to freeze panes to freeze rows and columns, then first select a cell(such as B2)
 2. Click View > Freeze Panes.
 3. On the drop-down menu, click Freeze Panes.
+4. If you scroll down or right,the first row and column are frozen.
 
 
-**![freeze panes in Excel](Freeze-panes.png)**
+
 
 ## **Freeze Panes with Aspose.Cells for .Net**
 It's simple to freeze panes with Aspose.Cells for .Net. Please use the [**Worksheet.FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/freezepanes/) method to feeze panes at the selected Cell .
