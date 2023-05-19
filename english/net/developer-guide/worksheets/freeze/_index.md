@@ -17,17 +17,17 @@ When you have a huge amount of data under a common heading you are unable to see
 
 ## **In Excel**
 
-**![freeze panes in Excel](Freeze-panes.png)**
+**![Freeze panes in Excel](Freeze-panes.png)**
 
 
-1. If you want to freeze panes to freeze rows and columns, then first select a cell(such as B2)
+1. If you want to freeze panes, freeze rows and columns, then first select a cell(such as B2)
 2. Click View > Freeze Panes.
 3. On the drop-down menu, click Freeze Panes.
 4. If you scroll down or right,the first row and column are frozen.
 
-**![Fonzen panges](Frozen-Panes.png)**
+**![Fonzen panes](Frozen-Panes.png)**
 
-As you can see 1st Row and column A are Freezed , the second row its showing is 32 and second visible column is D. 
+As you can see 1st Row and column A are Frozen, the second row  is 32 and second visible column is D. 
 
 Freeze panes let you view your large data without any keeping track of Row or Column label.
 

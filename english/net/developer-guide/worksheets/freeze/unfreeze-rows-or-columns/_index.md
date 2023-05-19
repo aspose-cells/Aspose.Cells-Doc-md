@@ -11,7 +11,7 @@ keywords: Unfreeze panes, Unfreeze rows, Unfreeze columns, unFreeze window.
 {{% alert color="primary" %}}
 
 In this article, we will learn How to UnFreeze Rows, Columns and Panes.
-If worksheets in the Excel files are frozen, sometimes we want to unfreeze it or adjust frozen rows, columns or panes.
+If worksheets in the Excel files are frozen, sometimes we want to unfreeze worksheet or adjust frozen rows, columns or panes.
 
 {{% /alert %}}
 
