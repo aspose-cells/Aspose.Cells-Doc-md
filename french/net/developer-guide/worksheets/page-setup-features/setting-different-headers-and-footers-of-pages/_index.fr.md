@@ -1,8 +1,10 @@
-﻿---
+---
 title: Définir différents en-têtes et pieds de page pour différentes pages
 type: docs
 weight: 35
 url: /fr/net/setting-different-headers-and-footers-for-pages-to-Excel/
+description: Cet article fournit un exemple de code qui montre comment définir par programmation divers en-têtes et pieds de page des paramètres de mise en page de la feuille de calcul Excel à l'aide de la bibliothèque .NET et .NET API. Vous pouvez définir les en-têtes et les pieds de page pour la première page, les pages impaires et les pages paires.
+keywords: set excel header footer first page c#, set excel header footer odd pages c#, set excel header footer even pages c#
 ---
 {{% alert color="primary" %}}
 
@@ -11,15 +13,15 @@ Aspose.Cells prend en charge la même fonctionnalité.
 
 {{% /alert %}}
 
-## **Définition de différents en-têtes et pieds de page dans MS Excel**
+##  **Définition de différents en-têtes et pieds de page dans MS Excel**
 
 **![Définir différents en-têtes et pieds de page](difpage.png)**
 
-1.  Cliquez sur**Mise en page > Imprimer les titres > En-tête/Pied de page**.
-1.  Vérifier**Différentes pages paires et impaires** ou alors**Page de sapin différente**.
+1. Cliquez sur *Mise en page > Imprimer les titres > En-tête/Pied de page**.
+1.  Vérifier**Différentes pages paires et impaires** ou *page de sapin différente**.
 1. Entrez différents en-têtes et pieds de page.
 
-## **Définition de différents en-têtes et pieds de page avec Aspose.Cells**
+##  **Définition de différents en-têtes et pieds de page avec Aspose.Cells**
 
 Aspose.Cells se comporte comme Excel.
 1.  Définit les drapeaux[PageSetup.IsHFDiffOddEven](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/ishfdiffoddeven/) et[PageSetup.IsHFDiffFirst](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/IsHFDiffFirst/) 

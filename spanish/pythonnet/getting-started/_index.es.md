@@ -1,4 +1,4 @@
-﻿---
+---
 title: Empezando
 linktitle: Empezando
 type: docs
@@ -7,14 +7,14 @@ url: /es/python-net/getting-started/
 keywords: python, excel, instal
 description: Configuración Aspose.Cells for Python via .NET y pautas de instalación.
 ---
-## **Requisitos del sistema**
+##  **Requisitos del sistema**
  Aspose.Cells for Python via .NET es independiente de la plataforma API y se puede usar en cualquier plataforma (Windows y Linux) donde[Python](https://www.python.org/downloads/) esta instalado.
 
-## **Python Versión**
+##  **Python Versión**
 - Python 3.6 o superior
 
-## **Instalación**
-### **Windows:**
+##  **Instalación**
+###  **Windows:**
  Puede usar fácilmente Aspose.Cells for Python via .NET desde[pypi](https://pypi.org/project/aspose-cells-python/) con el siguiente comando.
 {{< highlight "NET" >}}
 
@@ -22,15 +22,20 @@ description: Configuración Aspose.Cells for Python via .NET y pautas de instala
 
 {{< /highlight >}}
 
-### **Linux:**
+###  **Linux:**
  Puede usar fácilmente Aspose.Cells for Python via .NET desde[pypi](https://pypi.org/project/aspose-cells-python/) con el siguiente comando.
 {{< highlight "NET" >}}
 
  $ pip install aspose-cells-python
 
 {{< /highlight >}}
+- Nota: debe ejecutar el siguiente comando antes de la instalación
+{{< highlight "NET" >}}
+For Ubuntu/Debian: apt-get install libgdiplus 
+For CentOS/RHEL/Fedora: yum install libgdiplus 
+{{< /highlight >}}
 
-### **Mac OS:**
+###  **Mac OS:**
  Puede usar fácilmente Aspose.Cells for Python via .NET desde[pypi](https://pypi.org/project/aspose-cells-python/) con el siguiente comando.
 {{< highlight "NET" >}}
 
@@ -45,9 +50,9 @@ description: Configuración Aspose.Cells for Python via .NET y pautas de instala
 export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/Library/Frameworks/Python.framework/Versions/3.7/lib"
 export LIBRARY_PATH="$LIBRARY_PATH:/Library/Frameworks/Python.framework/Versions/3.7/lib/"
 {{< /highlight >}}
-## **Creación de la aplicación Hello World**
+##  **Creación de la aplicación Hello World**
 
--  Crear un archivo llamado**CreandoHelloWorldFile.py** y use el siguiente código de muestra:
+-  Crear un archivo llamado**CreandoHelloWorldFile.py** y use el siguiente código de ejemplo:
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "CreatingHelloWorldFile.py" >}}
 

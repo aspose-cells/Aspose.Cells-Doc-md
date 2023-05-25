@@ -1,4 +1,4 @@
-﻿---
+---
 title: 入门
 linktitle: 入门
 type: docs
@@ -7,14 +7,14 @@ url: /zh/python-net/getting-started/
 keywords: python, excel, instal
 description: 安装程序 Aspose.Cells for Python via .NET 和安装指南。
 ---
-## **系统要求**
- Aspose.Cells for Python via .NET 与平台无关 API 可以在任何平台（Windows 和 Linux）上使用，其中[Python](https://www.python.org/downloads/)已安装。
+##  **系统要求**
+Aspose.Cells for Python via .NET 与平台无关 API 可以在任何平台（Windows 和 Linux）上使用，其中[Python](https://www.python.org/downloads/)已安装。
 
-## **Python版本**
+##  **Python版本**
 - Python 3.6 或更高版本
 
-## **安装**
-### **Windows:**
+##  **安装**
+###  **Windows:**
 您可以轻松地使用 Aspose.Cells for Python via .NET 来自[皮皮](https://pypi.org/project/aspose-cells-python/)使用以下命令。
 {{< highlight "NET" >}}
 
@@ -22,15 +22,20 @@ description: 安装程序 Aspose.Cells for Python via .NET 和安装指南。
 
 {{< /highlight >}}
 
-### **Linux：**
+###  **Linux：**
 您可以轻松地使用 Aspose.Cells for Python via .NET 来自[皮皮](https://pypi.org/project/aspose-cells-python/)使用以下命令。
 {{< highlight "NET" >}}
 
  $ pip install aspose-cells-python
 
 {{< /highlight >}}
+- 注意：安装前需要运行以下命令
+{{< highlight "NET" >}}
+For Ubuntu/Debian: apt-get install libgdiplus 
+For CentOS/RHEL/Fedora: yum install libgdiplus 
+{{< /highlight >}}
 
-### **苹果系统：**
+###  **苹果系统：**
 您可以轻松地使用 Aspose.Cells for Python via .NET 来自[皮皮](https://pypi.org/project/aspose-cells-python/)使用以下命令。
 {{< highlight "NET" >}}
 
@@ -45,7 +50,7 @@ description: 安装程序 Aspose.Cells for Python via .NET 和安装指南。
 export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/Library/Frameworks/Python.framework/Versions/3.7/lib"
 export LIBRARY_PATH="$LIBRARY_PATH:/Library/Frameworks/Python.framework/Versions/3.7/lib/"
 {{< /highlight >}}
-## **创建 Hello World 应用程序**
+##  **创建 Hello World 应用程序**
 
 - 创建一个名为**创建HelloWorldFile.py**并使用以下示例代码：
 

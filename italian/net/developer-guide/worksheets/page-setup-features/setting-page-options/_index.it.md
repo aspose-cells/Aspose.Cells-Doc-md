@@ -1,8 +1,10 @@
-﻿---
+---
 title: Impostazione delle opzioni della pagina
 type: docs
 weight: 10
 url: /it/net/setting-page-options/
+description: Questo articolo fornisce codice di esempio per impostare le opzioni di pagina dei fogli di lavoro di Excel a livello di codice usando la libreria C# API e .NET. Sarai in grado di impostare l'orientamento della pagina, il fattore di scala, le opzioni FitToPages, il formato carta, la qualità di stampa, il numero della prima pagina.
+keywords: set excel page orientation c#, set excel scaling factor c#, set excel worksheets paper size c#
 ---
 {{% alert color="primary" %}}
 
@@ -10,34 +12,34 @@ A volte, è necessario configurare le impostazioni di impostazione della pagina 
 
 {{% /alert %}}
 
-## **Impostazione delle opzioni della pagina**
+##  **Impostazione delle opzioni della pagina**
 
 Le opzioni di impostazione della pagina sono completamente supportate in Aspose.Cells. Questo articolo spiega come impostare le opzioni della pagina con Aspose.Cells e mostra esempi di codice per l'impostazione:
 
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , che rappresenta un file Excel Microsoft. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) raccolta che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)classe.
+ Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) che rappresenta un file Excel Microsoft. IL[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) raccolta che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)classe.
 
- Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fornisce il[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) proprietà utilizzata per impostare le opzioni di impostazione della pagina del foglio di lavoro. In effetti, questo[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) la proprietà è un oggetto di[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe utilizzata per impostare diverse opzioni di layout di pagina per un foglio di lavoro stampato. Il[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)class fornisce varie proprietà utilizzate per impostare le opzioni di impostazione della pagina. Alcune di queste proprietà sono discusse di seguito.
+ IL[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fornisce il[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) proprietà utilizzata per impostare le opzioni di impostazione della pagina del foglio di lavoro. In effetti, questo[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) la proprietà è un oggetto di[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe utilizzata per impostare diverse opzioni di layout di pagina per un foglio di lavoro stampato. IL[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)class fornisce varie proprietà utilizzate per impostare le opzioni di impostazione della pagina. Alcune di queste proprietà sono discusse di seguito.
 
-### **Orientamento della pagina**
+###  **Orientamento della pagina**
 
-L'orientamento della pagina può essere impostato su verticale o orizzontale utilizzando il[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**Orientamento**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) proprietà. Il[**Orientamento**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) La proprietà accetta uno dei valori predefiniti in[**TipoOrientamentoPagina**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype)enumerazione, di seguito elencati.
+ L'orientamento della pagina può essere impostato su verticale o orizzontale utilizzando il[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**Orientamento**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) proprietà. IL[**Orientamento**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) La proprietà accetta uno dei valori predefiniti in[**TipoOrientamentoPagina**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype)enumerazione, di seguito elencati.
 
 |**Tipi di orientamento della pagina**|**Descrizione**|
-|:- |:- |
+| :- | :- |
 |Paesaggio|Orientamento orizzontale|
 |Ritratto|Orientamento verticale|
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-PageOrientation-1.cs" >}}
 
-### **Fattore di scala**
+###  **Fattore di scala**
 
  È possibile ridurre o ingrandire le dimensioni di un foglio di lavoro regolando il fattore di scala con il[**PageSetup.Zoom**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/zoom)proprietà.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-ScalingFactor-1.cs" >}}
 
-### **Opzioni FitToPages**
+###  **Opzioni FitToPages**
 
- Per adattare il contenuto del foglio di lavoro a un numero specifico di pagine, utilizzare il file[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**FitToPagesAlto**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) e[**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)proprietà. Queste proprietà vengono utilizzate anche per ridimensionare i fogli di lavoro.
+ Per adattare il contenuto del foglio di lavoro a un numero specifico di pagine, utilizzare il file[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**FitToPagesAlto**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) E[**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)proprietà. Queste proprietà vengono utilizzate anche per ridimensionare i fogli di lavoro.
 
 {{% alert color="primary" %}}
 
@@ -47,12 +49,12 @@ L'orientamento della pagina può essere impostato su verticale o orizzontale uti
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-FitToPagesOptions-1.cs" >}}
 
-### **Dimensioni del foglio**
+###  **Dimensioni del foglio**
 
- Impostare il formato carta su cui verranno stampati i fogli di lavoro utilizzando il file[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**Dimensioni del foglio**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) proprietà. Il[**Dimensioni del foglio**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) La proprietà accetta uno dei valori predefiniti in[**PaperSizeType**](https://reference.aspose.com/cells/net/aspose.cells/papersizetype)enumerazione, di seguito elencati.
+ Impostare il formato carta su cui verranno stampati i fogli di lavoro utilizzando il file[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**Dimensioni del foglio**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) proprietà. IL[**Dimensioni del foglio**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) La proprietà accetta uno dei valori predefiniti in[**PaperSizeType**](https://reference.aspose.com/cells/net/aspose.cells/papersizetype)enumerazione, di seguito elencati.
 
 |**Tipi di formato carta**|**Descrizione**|
-|:- |:- |
+| :- | :- |
 |CartaLettera|Lettera (8-1/2 pollici x 11 pollici)|
 |CartaLetteraPiccolo|Lettera piccola (8-1/2 pollici x 11 pollici)|
 |Carta Tabloid|Tabloid (11 pollici x 17 pollici)|
@@ -65,7 +67,7 @@ L'orientamento della pagina può essere impostato su verticale o orizzontale uti
 |CartaA4Piccolo|A4 piccolo (210 mm x 297 mm)|
 |Carta A5|A5 (148 mm x 210 mm)|
 |CartaB4|JIS B4 (257 mm x 364 mm)|
-|Carta B5|JIS B5 (182 mm x 257 mm)|
+|CartaB5|JIS B5 (182 mm x 257 mm)|
 |CartaFolio|Folio (8-1/2 pollici x 13 pollici)|
 |PaperQuarto|Quarto (215 mm x 275 mm)|
 |Carta 10x14|10 pollici x 14 pollici|
@@ -134,9 +136,9 @@ L'orientamento della pagina può essere impostato su verticale o orizzontale uti
 |CartaGiapponeseCartolinaRuotata|Cartolina giapponese ruotata 148 x 100 mm|
 |CartaGiapponeseDoppiaCartolinaRuotata|Cartolina giapponese doppia ruotata 148 x 200 mm|
 |Carta A6Ruotata|A6 ruotato 148 x 105 mm|
-|CartaGiapponeseBustaKaku2Ruotata|Busta giapponese Kaku n. 2 ruotata|
+|CartaGiapponeseBustaKaku2Ruotato|Busta giapponese Kaku n. 2 ruotata|
 |CartaGiapponeseBustaKaku3Ruotato|Busta giapponese Kaku n. 3 ruotata|
-|CartaGiapponeseBustaChou3Ruotato|Busta giapponese Chou #3 ruotata|
+|CartaGiapponeseBustaChou3Ruotata|Busta giapponese Chou #3 ruotata|
 |CartaGiapponeseBustaChou4Ruotato|Busta giapponese Chou #4 ruotata|
 |CartaJISB6|B6 (JIS) 128 x 182 mm|
 |CartaJISB6Ruotata|B6 (JIS) Ruotato 182 x 128 mm|
@@ -176,14 +178,14 @@ L'orientamento della pagina può essere impostato su verticale o orizzontale uti
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-ManagePaperSize-1.cs" >}}
 
-### **Qualità di stampa**
+###  **Qualità di stampa**
 
  Impostare la qualità di stampa dei fogli di lavoro da stampare con il[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**Qualità di stampa**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printquality)proprietà. L'unità di misura per la qualità di stampa è Dots Per Inch (DPI).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintQuality-1.cs" >}}
 
-### **Numero prima pagina**
+###  **Numero prima pagina**
 
- Avviare la numerazione delle pagine del foglio di lavoro utilizzando il file[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**Numero prima pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) proprietà. Il[**Numero prima pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber)La proprietà imposta il numero di pagina della prima pagina del foglio di lavoro e le pagine successive sono numerate in ordine crescente.
+ Avviare la numerazione delle pagine del foglio di lavoro utilizzando il file[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**Numero prima pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) proprietà. IL[**Numero prima pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber)La proprietà imposta il numero di pagina della prima pagina del foglio di lavoro e le pagine successive sono numerate in ordine crescente.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetFirstPageNumber-1.cs" >}}

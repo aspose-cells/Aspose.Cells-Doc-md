@@ -1,8 +1,10 @@
-﻿---
+---
 title: Çalışma Sayfasında Sıfır Değerlerinin Görüntülenmesini Gizleme
 type: docs
 weight: 50
 url: /tr/net/hiding-the-display-of-zero-values-in-the-worksheet/
+description: Bu makalede, C# kitaplığı veya .NET API kullanılarak bir Excel elektronik tablosundaki sıfır değerlerinin programlı olarak nasıl gizleneceğini açıklayan örnek kod gösterilecektir.
+keywords: hide zero values of excel worksheet in c#
 ---
 {{% alert color="primary" %}} 
 
@@ -12,9 +14,9 @@ Bazen bir e-tabloda sıfır değerleri gizlemeniz gerekir. Kişisel bir tercih v
 
 Microsoft Excel'de (örneğin Microsoft Excel 2003) bir çalışma sayfasında sıfır değerleri gizlemek için:
 
-1.  itibaren**Araçlar** menü, seç**Seçenekler** ve ardından**görüş** sekme.
+1.  itibaren**Aletler** menü, seç**Seçenekler** ve ardından **Görüntüle'yi seçin.** sekme.
 1.  seçimini kaldır**Sıfır değerler** seçenek.
-1.  Tıklamak**Tamam**.
+1. *Tamam**'ı tıklayın.
 
 Lütfen Aspose.Cells kullanarak sıfırları gizlemeyi gösteren aşağıdaki örnek koda bakın.
 

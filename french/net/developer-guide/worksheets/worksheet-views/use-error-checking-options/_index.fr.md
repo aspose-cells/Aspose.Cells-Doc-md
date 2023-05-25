@@ -1,8 +1,10 @@
-﻿---
+---
 title: Utiliser les options de vérification des erreurs
 type: docs
 weight: 140
 url: /fr/net/use-error-checking-options/
+description: Dans cet article, vous trouverez un exemple de code qui utilisera par programme les options de vérification des erreurs des feuilles de calcul Excel, par exemple Numbers stocké en tant que texte à l'aide de la bibliothèque C# API ou .NET.
+keywords: store number as text in excel using c#, error check excel options c#
 ---
 {{% alert color="primary" %}}
 
@@ -10,7 +12,7 @@ Microsoft Excel permet aux utilisateurs de définir des options et des règles d
 
 {{% /alert %}}
 
-## **Types d'erreurs**
+##  **Types d'erreurs**
 
 Les erreurs qui signifient que la formule ne peut pas renvoyer de résultat, comme la division d'un nombre par zéro, nécessitent une attention immédiate et une valeur d'erreur s'affiche dans la cellule. Cliquer sur le triangle vert affiche un point d'exclamation, cliquer dessus ouvre une liste d'options.
 
@@ -18,13 +20,13 @@ L'erreur peut être résolue à l'aide des options ou être ignorée. Ignorer un
 
  Aspose.Cells fournit des fonctionnalités d'option de vérification des erreurs. Le[**ErreurVérifierOption**](https://reference.aspose.com/cells/net/aspose.cells/errorcheckoption) La classe gère différents types de contrôles d'erreur, par exemple, les nombres stockés sous forme de texte, les erreurs de calcul de formule et les erreurs de validation. Utilisez le[**ErreurVérifierType**](https://reference.aspose.com/cells/net/aspose.cells/errorchecktype)énumération pour définir la vérification d'erreur souhaitée.
 
-## **Numbers stocké sous forme de texte**
+##  **Numbers stocké sous forme de texte**
 
 Parfois, les nombres peuvent être formatés et stockés dans des cellules sous forme de texte. Cela peut entraîner des problèmes de calcul ou produire des ordres de tri déroutants. Numbers formatés en tant que texte sont alignés à gauche au lieu d'être alignés à droite dans la cellule. Si une formule qui doit effectuer une opération mathématique sur des cellules ne renvoie pas de valeur, vérifiez l'alignement dans les cellules auxquelles la formule fait référence - certaines ou toutes ces cellules peuvent être des nombres au format texte.
 
 Vous pouvez utiliser les options de vérification des erreurs pour convertir rapidement les nombres stockés sous forme de texte en nombres réels. Dans Excel Microsoft 2003 :
 
-1.  Sur le**Outils** menu, cliquez sur**Choix**.
+1.  Sur le**Outils** menu, cliquez sur *Options**.
 1. Sélectionnez l'onglet Vérification des erreurs.
    **Numéro stocké sous forme de texte** option est cochée par défaut.
 1. Désactivez-le.

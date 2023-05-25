@@ -1,8 +1,10 @@
-﻿---
+---
 title: Ställa in sidalternativ
 type: docs
 weight: 10
 url: /sv/net/setting-page-options/
+description: Den här artikeln innehåller exempelkod för att ställa in sidalternativ för Excel-kalkylblad programmatiskt med C# API och .NET Library. Du kommer att kunna ställa in sidorientering, skalningsfaktor, FitToPages-alternativ, pappersstorlek, utskriftskvalitet, första sidnummer.
+keywords: set excel page orientation c#, set excel scaling factor c#, set excel worksheets paper size c#
 ---
 {{% alert color="primary" %}}
 
@@ -10,32 +12,32 @@ Ibland är det nödvändigt att konfigurera sidinställningar för kalkylblad f�
 
 {{% /alert %}}
 
-## **Ställa in sidalternativ**
+##  **Ställa in sidalternativ**
 
 Alternativ för sidinställningar stöds fullt ut i Aspose.Cells. Den här artikeln förklarar hur du ställer in sidalternativ med Aspose.Cells och visar kodexempel för inställning:
 
- Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , som representerar en Microsoft Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass innehåller en[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) samling som ger åtkomst till varje kalkylblad i Excel-filen. Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)klass.
+ Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) som representerar en Microsoft Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass innehåller en[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) samling som ger åtkomst till varje kalkylblad i Excel-filen. Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)klass.
 
  De[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass ger[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) egenskap som används för att ställa in sidinställningarna för kalkylbladet. Faktum är att detta[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) egendom är ett föremål för[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) klass används för att ställa in olika sidlayoutalternativ för ett utskrivet kalkylblad. De[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)class tillhandahåller olika egenskaper som används för att ställa in sidinställningar. Några av dessa egenskaper diskuteras nedan.
 
-### **Sidorientering**
+###  **Sidorientering**
 
-Sidorienteringen kan ställas in på stående eller liggande med hjälp av[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) klass'[**Orientering**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) fast egendom. De[**Orientering**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) egenskapen accepterar ett av de fördefinierade värdena i[**PageOrientationType**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype)uppräkning, listad nedan.
+ Sidorienteringen kan ställas in på stående eller liggande med hjälp av[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) klass'[**Orientering**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) fast egendom. De[**Orientering**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) egenskapen accepterar ett av de fördefinierade värdena i[**PageOrientationType**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype)uppräkning, listad nedan.
 
 |**Sidorienteringstyper**|**Beskrivning**|
-|:- |:- |
+| :- | :- |
 |Landskap|Landskapsorientering|
 |Porträtt|Stående format|
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-PageOrientation-1.cs" >}}
 
-### **Skalningsfaktor**
+###  **Skalningsfaktor**
 
  Det är möjligt att minska eller förstora ett kalkylblads storlek genom att justera skalfaktorn med[**PageSetup.Zoom**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/zoom)fast egendom.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-ScalingFactor-1.cs" >}}
 
-### **FitToPages-alternativ**
+###  **FitToPages-alternativ**
 
  För att anpassa innehållet i kalkylbladet till ett visst antal sidor, använd[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) klass'[**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) och[**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)egenskaper. Dessa egenskaper används också för att skala kalkylblad.
 
@@ -47,12 +49,12 @@ Sidorienteringen kan ställas in på stående eller liggande med hjälp av[**Uts
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-FitToPagesOptions-1.cs" >}}
 
-### **Pappersformat**
+###  **Pappersformat**
 
  Ställ in pappersstorleken som kalkylbladen ska skrivas ut till med hjälp av[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) klass'[**Pappersformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) fast egendom. De[**Pappersformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) egenskapen accepterar ett av de fördefinierade värdena i[**PaperSizeType**](https://reference.aspose.com/cells/net/aspose.cells/papersizetype)uppräkning, listad nedan.
 
 |**Pappersstorlekstyper**|**Beskrivning**|
-|:- |:- |
+| :- | :- |
 |PaperLetter|Letter (8-1/2 tum x 11 tum)|
 |PaperLetterSmall|Letter Small (8-1/2 tum x 11 tum)|
 |PaperTabloid|Tabloid (11 tum x 17 tum)|
@@ -92,8 +94,8 @@ Sidorienteringen kan ställas in på stående eller liggande med hjälp av[**Uts
 |PaperEnvelopeMonarch|Envelope Monarch (3-7/8 tum x 7-1/2 tum)|
 |PaperEnvelopePersonligt|Kuvert (3-5/8 tum x 6-1/2 tum)|
 |PaperFanfoldUS|US Standard Fanfold (14-7/8 tum x 11 tum)|
-|PaperFanfoldStdGerman|German Standard Fanfold (8-1/2 tum x 12 tum)|
-|PaperFanfoldLegalGerman|German Legal Fanfold (8-1/2 tum x 13 tum)|
+|PaperFanfoldStdTyskt|German Standard Fanfold (8-1/2 tum x 12 tum)|
+|PaperFanfoldLegalTyskt|German Legal Fanfold (8-1/2 tum x 13 tum)|
 |PapperISOB4|B4 (ISO) 250 x 353 mm|
 |PaperJapanese Postcard|Japanskt vykort (100 mm x 148 mm)|
 |Papper 9x11|9 tum x 11 tum.|
@@ -176,13 +178,13 @@ Sidorienteringen kan ställas in på stående eller liggande med hjälp av[**Uts
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-ManagePaperSize-1.cs" >}}
 
-### **Utskriftskvalitet**
+###  **Utskriftskvalitet**
 
  Ställ in utskriftskvaliteten för de arbetsblad som ska skrivas ut med[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) klass'[**Utskriftskvalitet**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printquality)fast egendom. Mätenheten för utskriftskvalitet är Dots Per Inches (DPI).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintQuality-1.cs" >}}
 
-### **Första sidnummer**
+###  **Första sidnummer**
 
  Starta numreringen av kalkylbladssidor med hjälp av[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) klass'[**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) fast egendom. De[**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber)egenskapen ställer in sidnumret på den första kalkylbladssidan och nästa sidor numreras i stigande ordning.
 

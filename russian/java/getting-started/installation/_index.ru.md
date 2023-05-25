@@ -1,10 +1,10 @@
-﻿---
-title: Установка
+---
+title: Installation
 type: docs
 weight: 20
 url: /ru/java/installation/
 ---
-## **Установка Aspose.Cells for Java из репозитория Maven**
+##  **Установка Aspose.Cells for Java из репозитория Maven**
 
 Aspose размещает все Java API на[Maven репозиторий](https://releases.aspose.com/java/repo/) . Вы можете легко использовать[Aspose.Cells for Java API](https://releases.aspose.com/cells/java/) непосредственно в ваших проектах Maven с простыми конфигурациями.
 
@@ -28,6 +28,17 @@ Aspose размещает все Java API на[Maven репозиторий](htt
 
 {{< /highlight >}}
 
+для Gradle в вашем скрипте build.gradle следующим образом:
+{{< highlight "java" >}}
+//Add Aspose maven repository
+repositories {
+    mavenCentral()
+    maven {
+        url "https://releases.aspose.com/java/repo/"
+    }
+}
+{{< /highlight >}}
+
 Затем определите зависимость Aspose.Cells for Java API в вашем pom.xml следующим образом (это будет включать все, например, основной файл jar, документы Java и другие библиотеки соответственно):
 
 {{< highlight "java" >}}
@@ -40,7 +51,7 @@ Aspose размещает все Java API на[Maven репозиторий](htt
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>22.12</version>
+            <version>23.5</version>
 
         </dependency>
 
@@ -50,7 +61,7 @@ Aspose размещает все Java API на[Maven репозиторий](htt
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>22.12</version>
+            <version>23.5</version>
 
             <classifier>javadoc</classifier>
 
@@ -82,7 +93,7 @@ Aspose размещает все Java API на[Maven репозиторий](htt
 
 Поздравляем! Вы успешно определили зависимость Aspose.Cells for Java Maven в своем проекте Maven.
 
-## **Поддерживать**
+##  **Поддерживать**
 
 Пожалуйста, проверьте следующее, чтобы получить быструю техническую поддержку
 

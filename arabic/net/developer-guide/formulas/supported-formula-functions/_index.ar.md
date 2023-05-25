@@ -1,4 +1,4 @@
-﻿---
+---
 title: وظائف Excel المعتمدة
 toc: false
 type: docs
@@ -11,241 +11,244 @@ keywords: formula function calculate
 
 تدعم واجهات برمجة التطبيقات Aspose.Cells معظم الوظائف القياسية والصيغة المضمنة في Excel. أدناه ، يمكنك العثور على جميع الوظائف المدعومة بترتيب أبجدي.
 
-||||||||||||||
+| | | | | | | | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|**[أ] (# أ)** |**[ب] (# ب)** |**[نسخة)** |**[د] (# د)** |**[E] (# هـ)** |**[F] (# f)** |**[G] (# غ)** |**[ح ح)** |**[أنا] (# أنا)** |**[J] (# ي)** |**[K] (# ك)** |**[L] (# لتر)** |**[مم)** |
-|**[N] (# ن)** |**[س] (# س)** |**[P] (# ع)** |**[س] (# ف)** |**[R] (# ص)** |**[S] (# ثانية)** |**[T] (# طن)** |**[U] (# ش)** |**[V] (# الخامس)** |**[W] (# أسبوع)** |**[X] (# x)** |**[Y] (# س)** |**[Z] (# z)** |
+| **[أ] (# أ)** | **[ب] (# ب)** | **[نسخة)** | **[د] (# د)** | **[E] (# هـ)** | **[F] (# f)** | **[G] (# غ)** | **[ح ح)** | **[أنا] (# أنا)** | **[J] (# ي)** | **[K] (# ك)** | **[L] (# لتر)** | **[مم)** |
+| **[N] (# ن)** | **[س] (# س)** | **[P] (# ع)** | **[س] (# ف)** | **[R] (# ص)** | **[S] (# ثانية)** | **[T] (# طن)** | **[U] (# ش)** | **[V] (# الخامس)** | **[W] (# أسبوع)** | **[X] (# x)** | **[Y] (# س)** | **[Z] (# z)** |
 
 {{% /alert %}}
 
 يسمح لك محرك حساب الصيغة Aspose.Cells 'بضبط وقراءة وحساب نتائج الصيغ والوظائف التالية.
 
-###### **أ**
+######  *أ**
 |**وظيفة**|**ملخص**|
-|:- |:- |
-|عضلات المعدة|
-|قبول|
+| :- | :- |
+|ABS|
+|ACCRINT|
 |ACCRINTM|
 |ACOS|
 |ACOSH|
-|تبوك|
-|مجموع|
+|ADDRESS|
+|AGGREGATE|
 |AMORDEGRC|
-|امورلينك|
-|و|
-|المناطق|
+|AMORLINC|
+|AND|
+|AREAS|
 |ASC|
 |ASIN|
 |ASINH|
 |ATAN|
 |ATAN2|
-|أتانه|
-|افيديف|
-|معدل|
-|متوسط|
-|متوسط|
-|المتوسطات|
+|ATANH|
+|AVEDEV|
+|AVERAGE|
+|AVERAGEA|
+|AVERAGEIF|
+|AVERAGEIFS|
 
-###### **ب**
+######  *ب**
 |**وظيفة**|**ملخص**|
-|:- |:- |
-|بيسلي|
-|بسيلج|
-|بيسلك|
-|بصلي|
-|أفضل|
+| :- | :- |
+|BESSELI|
+|BESSELJ|
+|BESSELK|
+|BESSELY|
+|BETADIST|
 |بيتا ديست|
-|بيتينف|
+|BETAINV|
 |بيتا|
 |BIN2DEC|
 |BIN2HEX|
-|بين 2 أوكت|
-|بينومديست|
+|BIN2OCT|
+|BINOMDIST|
 |قائمة BINOM.DIST|
-|البت|
+|BITAND|
 |BITLSHIFT|
-|بيتور|
+|BITOR|
 |BITRSHIFT|
-|بيتكسور|
+|BITXOR|
 
-###### ** ج **
+######  * ج **
 |**وظيفة**|**ملخص**|
-|:- |:- |
+| :- | :- |
+|CEILING|
 |السقف|
 |السقف|
-|السقف|
-|زنزانة|
-|شار|
+|CELL|
+|CHAR|
 |CHIDIST|
-|شينف|
-|شيتست|
+|CHIINV|
+|CHITEST|
 |CHISQ.DIST|
 |CHISQ.DIST.RT|
 |CHISQ.INV.RT|
 |CHISQ.TEST|
-|أختر|
-|ينظف|
-|الشفرة|
-|عمود|
-|الأعمدة|
-|الجمع|
-|مركب|
+|CHOOSE|
+|CHOOSECOLS|
+|CHOOSEROWS|
+|CLEAN|
+|CODE|
+|COLUMN|
+|COLUMNS|
+|COMBIN|
+|COMPLEX|
 |CONCAT|
-|سلسل|
+|CONCATENATE|
+|CONFIDENCE|
 |الثقة|
-|الثقة|
-|يتحول|
-|كوريل|
+|CONVERT|
+|CORREL|
 |COS|
-|ضرب بالعصا|
-|عدد|
-|كونتا|
-|كونتبلانك|
-|كونتيف|
+|COSH|
+|COUNT|
+|COUNTA|
+|COUNTBLANK|
+|COUNTIF|
 |COUNTIFS|
-|قسائم|
-|قروض|
-|قسائم|
+|COUPDAYBS|
+|COUPDAYS|
+|COUPDAYSNC|
 |COUPNCD|
-|كوبنوم|
+|COUPNUM|
 |COUPPCD|
-|كوفار|
+|COVAR|
 |تغطية|
 |التباين|
-|الحرج|
-|كوميبمت|
-|كومبرينك|
+|CRITBINOM|
+|CUMIPMT|
+|CUMPRINC|
 
-###### **د**
+######  *د**
 |**وظيفة**|**ملخص**|
-|:- |:- |
-|تاريخ|
+| :- | :- |
+|DATE|
 |DATEDIF|
-|التاريخ|
-|الجفاف|
-|يوم|
-|أيام|
-|الأيام 360|
+|DATEVALUE|
+|DAVERAGE|
+|DAY|
+|DAYS|
+|DAYS360|
 |DB|
 |DCOUNT|
-|دكونتا|
+|DCOUNTA|
 |DDB|
 |DEC2BIN|
 |DEC2HEX|
 |DEC2OCT|
-|درجات|
-|دلتا|
+|DEGREES|
+|DELTA|
 |DEVSQ|
 |DGET|
-|قرص|
+|DISC|
 |DMAX|
 |DMIN|
-|دولار|
-|دولارد|
-|دولار|
-|الإنتاج|
+|DOLLAR|
+|DOLLARDE|
+|DOLLARFR|
+|DPRODUCT|
 |DSTDEV|
 |DSTDEVP|
 |DSUM|
-|المدة الزمنية|
+|DURATION|
 |DVAR|
 |DVARP|
 
-###### ** ه **
+######  * ه **
 |**وظيفة**|**ملخص**|
-|:- |:- |
+| :- | :- |
 |EDATE|
-|تأثير|
+|EFFECT|
 |EOMONTH|
 |ERF|
 |ERFC|
 |نوع الخطأ|
-|حتى في|
-|بالضبط|
+|EVEN|
+|EXACT|
 |EXP|
 |EXPONDIST|
 
-###### **F**
+######  *F**
 |**وظيفة**|**ملخص**|
-|:- |:- |
-|حقيقة|
-|حقيقة|
-|خاطئة|
+| :- | :- |
+|FACT|
+|FACTDOUBLE|
+|FALSE|
 |F.DIST|
 |FDIST|
 |F.DIST.RT|
-|منقي|
-|تجد|
+|FILTER|
+|FIND|
 |FINDB|
 |F.INV.RT|
 |FINV|
-|فيشر|
-|فيشيرينف|
-|مُثَبَّت|
-|الأرض|
+|FISHER|
+|FISHERINV|
+|FIXED|
+|FLOOR|
 |FLOOR.MATH|
-|تنبؤ بالمناخ|
+|FORECAST|
 |FORECAST.LINEAR|
-|الصيغة|
-|تكرر|
+|FORMULATEXT|
+|FREQUENCY|
 |FV|
 |FVSCHEDULE|
 
-###### ** ز **
+######  * ز **
 |**وظيفة**|**ملخص**|
-|:- |:- |
+| :- | :- |
 |جاما|
 |GAMMADIST|
 |GAMMA.INV|
-|جاماينف|
+|GAMMAINV|
 |GAMMALN|
 |GCD|
 |GEOMEAN|
 |GESTEP|
-|الحصول على البيانات|
-|نمو|
+|GETPIVOTDATA|
+|GROWTH|
 
-###### ** ح **
+######  * ح **
 |**وظيفة**|**ملخص**|
-|:- |:- |
-|حرمان|
+| :- | :- |
+|HARMEAN|
 |HEX2BIN|
 |HEX2DEC|
 |HEX2OCT|
-|هلوكوب|
-|ساعة|
-|رابط تشعبي|
+|HLOOKUP|
+|HOUR|
+|HSTACK|
+|HYPERLINK|
 |HYPGEOM.DIST|
-|طبيب مختص|
+|HYPGEOMDIST|
 
-###### **أنا**
+######  *أنا**
 |**وظيفة**|**ملخص**|
-|:- |:- |
-|إذا|
+| :- | :- |
+|IF|
 |IFERROR|
 |IFNA|
 |IFS|
 |IMABS|
-|خيال|
-|هام|
-|تحرر|
+|IMAGINARY|
+|IMARGUMENT|
+|IMCONJUGATE|
 |IMCOS|
 |IMDIV|
 |IMEXP|
 |IMLN|
 |IMLOG10|
 |IMLOG2|
-|المستورد|
-|تحسين|
+|IMPOWER|
+|IMPRODUCT|
 |IMREAL|
 |IMSIN|
 |IMSQRT|
 |IMSUB|
 |IMSUM|
-|فهرس|
-|غير مباشر|
-|ذكاء|
-|تقاطع|
+|INDEX|
+|INDIRECT|
+|INT|
+|INTERCEPT|
 |INTRATE|
 |IPMT|
 |IRR|
@@ -253,286 +256,287 @@ keywords: formula function calculate
 |ISERR|
 |ISERROR|
 |ISEVEN|
-|إسلامي|
+|ISLOGICAL|
 |ISNA|
 |ISNONTEXT|
-|هو رقم|
-|أمر غريب|
+|ISNUMBER|
+|ISODD|
 |ISREF|
 |ISTEXT|
 |ISOWEEKNUM|
 |ISPMT|
 
-###### **ك**
+######  *ك**
 |**وظيفة**|**ملخص**|
-|:- |:- |
-|كورت|
+| :- | :- |
+|KURT|
 
-###### ** لام **
+######  * لام **
 |**وظيفة**|**ملخص**|
-|:- |:- |
-|كبير|
+| :- | :- |
+|LARGE|
 |LCM|
-|اليسار|
-|اليسار|
-|لين|
+|LEFT|
+|LEFTB|
+|LEN|
 |LENB|
 |LINEST|
 |LN|
-|سجل|
-|السجل 10|
-|سجل|
-|تسجيل الدخول|
+|LOG|
+|LOG10|
+|LOGEST|
+|LOGINV|
 |قائمة LOGNORM.DIST|
 |LOGNORM.INV|
 |LOGNORMDIST|
-|ابحث عن|
-|أدنى|
+|LOOKUP|
+|LOWER|
 
-###### ** م **
+######  * م **
 |**وظيفة**|**ملخص**|
-|:- |:- |
-|تطابق|
-|الأعلى|
-|ماكسا|
-|ماكسيفس|
+| :- | :- |
+|MATCH|
+|MAX|
+|MAXA|
+|MAXIFS|
 |MDETERM|
 |MDURATION|
-|الوسيط|
-|منتصف|
+|MEDIAN|
+|MID|
 |MIDB|
-|دقيقة|
+|MIN|
 |MINIFS|
-|مينا|
-|اللحظة|
+|MINA|
+|MINUTE|
 |MINVERSE|
 |MIRR|
 |MMULT|
-|عصري|
+|MOD|
+|MODE|
 |الوضع|
 |الوضع|
-|الوضع|
-|شهر|
+|MONTH|
 |MROUND|
-|متعددة|
+|MULTINOMIAL|
 
-###### **ن**
+######  *ن**
 |**وظيفة**|**ملخص**|
-|:- |:- |
-|ن|
-|غير متوفر|
+| :- | :- |
+|N|
+|NA|
 |NEGBINOM.DIST|
 |NEGBINOMDIST|
 |NETWORKDAYS|
 |NETWORKDAYS.INTL|
-|اسمى، صورى شكلى، بالاسم فقط|
+|NOMINAL|
 |NORM.DIST|
-|نورمديست|
-|نورمينف|
+|NORMDIST|
+|NORMINV|
 |NORM.INV|
 |قائمة نورم|
 |NORMSDIST|
 |NORM.SINV|
-|نورمسينف|
-|ليس|
-|الآن|
+|NORMSINV|
+|NOT|
+|NOW|
 |NPER|
-|صافي القيمة الحالية|
+|NPV|
 |NUMBERVALUE|
 
-###### ** يا **
+######  * يا **
 |**وظيفة**|**ملخص**|
-|:- |:- |
+| :- | :- |
 |OCT2BIN|
 |OCT2DEC|
 |OCT2HEX|
-|الفردية|
+|ODD|
 |ODDFPRICE|
 |ODDFYIELD|
-|سعر ODDL|
-|أودلييلد|
-|عوض|
-|أو|
+|ODDLPRICE|
+|ODDLYIELD|
+|OFFSET|
+|OR|
 
-###### ** ف **
+######  * ف **
 |**وظيفة**|**ملخص**|
-|:- |:- |
-|بيرسون|
+| :- | :- |
+|PEARSON|
 |PERCENTILE.EXC|
 |PERCENTILE.INC|
-|النسبة المئوية|
+|PERCENTILE|
 |PERCENTRANK.EXC|
 |PERCENTRANK.INC|
-|بيرسينترانك|
-|بيرموت|
+|PERCENTRANK|
+|PERMUT|
 |PI|
 |PMT|
 |POISSON.DIST|
-|بويسون|
-|قوة|
+|POISSON|
+|POWER|
 |PPMT|
-|سعر|
+|PRICE|
 |PRICEDISC|
 |PRICEMAT|
-|اختبار|
-|المنتج|
-|لائق|
+|PROB|
+|PRODUCT|
+|PROPER|
 |PV|
 
-###### ** س **
+######  * س **
 |**وظيفة**|**ملخص**|
-|:- |:- |
-|الربع|
+| :- | :- |
+|QUARTILE|
 |QUARTILE.EXC|
 |QUARTILE.INC|
-|حاصل القسمة|
+|QUOTIENT|
 
-###### ** ص **
+######  * ص **
 |**وظيفة**|**ملخص**|
-|:- |:- |
-|راديان|
-|راند|
-|رانداري|
-|راندبيتوين|
+| :- | :- |
+|RADIANS|
+|RAND|
+|RANDARRAY|
+|RANDBETWEEN|
 |الترتيب. AVG|
 |الترتيب|
-|مرتبة|
-|معدل|
-|استلمو|
-|يحل محل|
-|استبدال|
+|RANK|
+|RATE|
+|RECEIVED|
+|REPLACE|
+|REPLACEB|
 |REPT|
-|حقا|
-|الحق ب|
-|رومان|
-|مستدير|
-|المستدير لأسفل|
-|جمع الشمل|
-|صف|
-|الصفوف|
+|RIGHT|
+|RIGHTB|
+|ROMAN|
+|ROUND|
+|ROUNDDOWN|
+|ROUNDUP|
+|ROW|
+|ROWS|
 |RSQ|
 
-###### **س**
+######  *س**
 |**وظيفة**|**ملخص**|
-|:- |:- |
-|بحث|
-|بحث|
-|ثانيا|
-|تسلسل|
-|سيروم|
-|ملزمة|
-|الأوراق|
-|إشارة|
-|خطيئة|
+| :- | :- |
+|SEARCH|
+|SEARCHB|
+|SECOND|
+|SEQUENCE|
+|SERIESSUM|
+|SHEET|
+|SHEETS|
+|SIGN|
+|SIN|
 |SINH|
 |SKEW|
 |SLN|
-|ميل|
-|صغير|
-|فرز|
-|صنف حسب|
+|SLOPE|
+|SMALL|
+|SORT|
+|SORTBY|
 |SQRT|
 |SQRTPI|
-|التوحيد|
+|STANDARDIZE|
 |STDEV|
 |STDEV.P|
 |STDEV.S|
 |STDEVA|
 |STDEVP|
 |STDEVPA|
-|ستايكس|
-|استبدل|
-|المجموع الفرعي|
-|مجموع|
-|سوميف|
-|موجزات|
-|إنتاج|
+|STEYX|
+|SUBSTITUTE|
+|SUBTOTAL|
+|SUM|
+|SUMIF|
+|SUMIFS|
+|SUMPRODUCT|
 |SUMSQ|
 |SUMX2MY2|
 |SUMX2PY2|
 |SUMXMY2|
-|تحول|
+|SWITCH|
 |SYD|
 
-###### ** تي **
+######  * تي **
 |**وظيفة**|**ملخص**|
-|:- |:- |
-|تي|
-|تان|
-|تان|
+| :- | :- |
+|T|
+|TAN|
+|TANH|
 |TBILLEQ|
 |TBILLPRICE|
 |TBILLYIELD|
 |T.DIST.2T|
 |T.DIST.RT|
 |TDIST|
-|نص|
+|TEXT|
 |TEXTJOIN|
-|الوقت|
-|الوقت ثمين|
+|TIME|
+|TIMEVALUE|
 |T.INV.2T|
 |TINV|
-|اليوم|
-|تبديل موضع|
-|اتجاه|
-|تقليم|
+|TODAY|
+|TRANSPOSE|
+|TREND|
+|TRIM|
 |TRIMMEAN|
-|صحيح|
+|TRUE|
 |TRUNC|
 |TEST|
 |TTEST|
-|اكتب|
+|TYPE|
 
-###### ** يو **
+######  * ش **
 |**وظيفة**|**ملخص**|
-|:- |:- |
-|يونيكار|
-|يونيكود|
-|فريدة من نوعها|
-|أعلى|
+| :- | :- |
+|UNICHAR|
+|UNICODE|
+|UNIQUE|
+|UPPER|
 
-###### **الخامس**
+######  *الخامس**
 |**وظيفة**|**ملخص**|
-|:- |:- |
-|القيمة|
+| :- | :- |
+|VALUE|
 |VAR|
 |VAR.P|
 |VAR.S|
-|فارا|
+|VARA|
 |VARP|
-|فاربا|
+|VARPA|
 |VDB|
 |VLOOKUP|
+|VSTACK|
 
-###### ** W **
+######  * ث **
 |**وظيفة**|**ملخص**|
-|:- |:- |
+| :- | :- |
 |WEEKDAY|
 |WEEKNUM|
 |WEIBULL|
 |WEIBULL.DIST|
-|يوم عمل|
+|WORKDAY|
 |WORKDAY.INTL|
 
-###### ** X **
+######  * X **
 |**وظيفة**|**ملخص**|
-|:- |:- |
+| :- | :- |
 |XIRR|
 |XLOOKUP|
 |XNPV|
 
-###### ** نعم **
+######  * نعم **
 |**وظيفة**|**ملخص**|
-|:- |:- |
-|عام|
+| :- | :- |
+|YEAR|
 |YEARFRAC|
-|أَثْمَر|
-|YIELDISC|
+|YIELD|
+|YIELDDISC|
 |YIELDMAT|
 
-###### ** Z **
+######  * ي **
 |**وظيفة**|**ملخص**|
-|:- |:- |
+| :- | :- |
 |Z.TEST|
 |ZTEST|
 

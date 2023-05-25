@@ -1,8 +1,10 @@
-﻿---
+---
 title: Настройка параметров страницы
 type: docs
 weight: 10
 url: /ru/net/setting-page-options/
+description: В этой статье представлен пример кода для программной установки параметров страницы листов Excel с использованием библиотеки C#, API и .NET. Вы сможете установить ориентацию страницы, коэффициент масштабирования, параметры FitToPages, размер бумаги, качество печати, номер первой страницы.
+keywords: set excel page orientation c#, set excel scaling factor c#, set excel worksheets paper size c#
 ---
 {{% alert color="primary" %}}
 
@@ -10,34 +12,34 @@ url: /ru/net/setting-page-options/
 
 {{% /alert %}}
 
-## **Настройка параметров страницы**
+##  **Настройка параметров страницы**
 
 Параметры настройки страницы полностью поддерживаются в Aspose.Cells. В этой статье объясняется, как установить параметры страницы с помощью Aspose.Cells, и показаны примеры кода для настройки:
 
- Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , представляющий файл Excel Microsoft.[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) класс содержит[**Рабочие листы**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) коллекция, которая обеспечивает доступ к каждому рабочему листу в файле Excel. Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)учебный класс.
+ Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) представляющий файл Excel Microsoft.[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) класс содержит[**Рабочие листы**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) коллекция, которая обеспечивает доступ к каждому рабочему листу в файле Excel. Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)сорт.
 
-[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) класс обеспечивает[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) свойство, которое используется для установки параметров настройки страницы рабочего листа. На самом деле это[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) имущество – это объект[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) класс, используемый для установки различных параметров макета страницы для печатного листа.[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)Класс предоставляет различные свойства, используемые для установки параметров настройки страницы. Некоторые из этих свойств обсуждаются ниже.
+[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) класс обеспечивает[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) свойство, которое используется для установки параметров настройки страницы рабочего листа. На самом деле это[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) имущество – это объект[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) класс, используемый для установки различных параметров макета страницы для печатного листа.[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)класс предоставляет различные свойства, используемые для установки параметров настройки страницы. Некоторые из этих свойств обсуждаются ниже.
 
-### **Ориентация страницы**
+###  **Ориентация страницы**
 
-Ориентацию страницы можно установить как книжную или альбомную с помощью[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) учебный класс'[**Ориентация**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) имущество.[**Ориентация**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) свойство принимает одно из предопределенных значений в[**PageOrientationType**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype)перечисление, приведенное ниже.
+ Ориентацию страницы можно установить как книжную или альбомную с помощью[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) сорт'[**Ориентация**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) свойство.[**Ориентация**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) свойство принимает одно из предопределенных значений в[**PageOrientationType**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype)перечисление, приведенное ниже.
 
 |**Типы ориентации страницы**|**Описание**|
-|:- |:- |
+| :- | :- |
 |Пейзаж|Альбомная ориентация|
 |Портрет|Портретная ориентация|
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-PageOrientation-1.cs" >}}
 
-### **Коэффициент масштабирования**
+###  **Коэффициент масштабирования**
 
- Можно уменьшить или увеличить размер рабочего листа, отрегулировав коэффициент масштабирования с помощью[**PageSetup.Zoom**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/zoom)имущество.
+ Можно уменьшить или увеличить размер рабочего листа, отрегулировав коэффициент масштабирования с помощью[**PageSetup.Zoom**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/zoom)свойство.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-ScalingFactor-1.cs" >}}
 
-### **Параметры FitToPages**
+###  **Параметры FitToPages**
 
- Чтобы уместить содержимое рабочего листа в определенное количество страниц, используйте[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) учебный класс'[**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) и[**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)характеристики. Эти свойства также используются для масштабирования рабочих листов.
+ Чтобы уместить содержимое рабочего листа в определенное количество страниц, используйте[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) сорт'[**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) и[**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)характеристики. Эти свойства также используются для масштабирования рабочих листов.
 
 {{% alert color="primary" %}}
 
@@ -47,12 +49,12 @@ url: /ru/net/setting-page-options/
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-FitToPagesOptions-1.cs" >}}
 
-### **Размер бумаги**
+###  **Размер бумаги**
 
- Установите размер бумаги, на котором рабочие листы будут напечатаны, с помощью[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) учебный класс'[**Размер бумаги**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) имущество.[**Размер бумаги**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) свойство принимает одно из предопределенных значений в[**PaperSizeType**](https://reference.aspose.com/cells/net/aspose.cells/papersizetype)перечисление, приведенное ниже.
+ Установите размер бумаги, на котором рабочие листы будут напечатаны, с помощью[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) сорт'[**Размер бумаги**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) свойство.[**Размер бумаги**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) свойство принимает одно из предопределенных значений в[**PaperSizeType**](https://reference.aspose.com/cells/net/aspose.cells/papersizetype)перечисление, приведенное ниже.
 
 |**Типы размеров бумаги**|**Описание**|
-|:- |:- |
+| :- | :- |
 |БумагаПисьмо|Letter (8-1/2 дюйма x 11 дюймов)|
 |БумагаПисьмоМалый|Letter Small (8-1/2 дюйма x 11 дюймов)|
 |БумагаТаблоид|Таблоид (11 дюймов x 17 дюймов)|
@@ -92,7 +94,7 @@ url: /ru/net/setting-page-options/
 |БумагаКонвертМонарх|Конверт Monarch (3-7/8 дюйма x 7-1/2 дюйма)|
 |БумагаКонвертЛичный|Конверт (3-5/8 дюйма x 6-1/2 дюйма)|
 |БумагаFanfoldСША|Стандартный веерообразный сгиб США (14-7/8 дюймов x 11 дюймов)|
-|PaperFanfoldStdНемецкий|Фальцованная немецкая стандартная складка (8-1/2 дюйма x 12 дюймов)|
+|PaperFanfoldStdНемецкий|Немецкий стандартный фальцованный фальц (8-1/2 дюйма x 12 дюймов)|
 |PaperFanfoldЮридическийНемецкий|Фанфолд German Legal (8-1/2 дюйма x 13 дюймов)|
 |БумагаISOB4|B4 (ISO) 250 х 353 мм|
 |БумагаЯпонскийОткрытка|Японская открытка (100 мм x 148 мм)|
@@ -164,7 +166,7 @@ url: /ru/net/setting-page-options/
 |БумагаPRCEnvelope3Rotated|Конверт PRC #3, повернутый 176 x 125 мм|
 |БумагаPRCEnvelope4Rotated|Конверт PRC № 4 повернутый 208 x 110 мм|
 |БумагаPRCEnvelope5Rotated|Конверт PRC #5, повернутый 220 x 110 мм|
-|БумагаPRCEnvelope6Rotated|PRC Envelope #6 Повернутый 230 x 120 мм|
+|БумагаPRCEnvelope6Rotated|Конверт PRC #6, повернутый 230 x 120 мм|
 |БумагаPRCEnvelope7Rotated|Конверт PRC #7, повернутый 230 x 160 мм|
 |БумагаPRCEnvelope8Rotated|PRC Envelope #8 Повернутый 309 x 120 мм|
 |БумагаPRCEnvelope9Rotated|Конверт PRC #9, повернутый 324 x 229 мм|
@@ -176,14 +178,14 @@ url: /ru/net/setting-page-options/
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-ManagePaperSize-1.cs" >}}
 
-### **Качество печати**
+###  **Качество печати**
 
- Установите качество печати рабочих листов, которые будут напечатаны с помощью[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) учебный класс'[**Качество печати**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printquality)имущество. Единицей измерения качества печати является количество точек на дюйм (DPI).
+ Установите качество печати рабочих листов, которые будут напечатаны с помощью[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) сорт'[**Качество печати**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printquality)свойство. Единицей измерения качества печати является число точек на дюйм (DPI).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintQuality-1.cs" >}}
 
-### **Номер первой страницы**
+###  **Номер первой страницы**
 
- Начните нумерацию страниц рабочего листа с помощью[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) учебный класс'[**номер первой страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) имущество.[**номер первой страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber)Свойство задает номер первой страницы рабочего листа, а последующие страницы нумеруются в порядке возрастания.
+ Начните нумерацию страниц рабочего листа с помощью[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) сорт'[**номер первой страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) свойство.[**номер первой страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber)Свойство задает номер первой страницы рабочего листа, а последующие страницы нумеруются в порядке возрастания.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetFirstPageNumber-1.cs" >}}

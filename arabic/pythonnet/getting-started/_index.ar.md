@@ -1,4 +1,4 @@
-﻿---
+---
 title: ابدء
 linktitle: ابدء
 type: docs
@@ -7,14 +7,14 @@ url: /ar/python-net/getting-started/
 keywords: python, excel, instal
 description: إعداد Aspose.Cells for Python via .NET وإرشادات التثبيت.
 ---
-## **متطلبات النظام**
+##  **متطلبات النظام**
  Aspose.Cells for Python via .NET مستقل عن النظام الأساسي API ويمكن استخدامه على أي منصة (Windows و Linux) حيث[Python](https://www.python.org/downloads/) تم تنصيبه.
 
-## **إصدار Python**
+##  **إصدار Python**
 - Python 3.6 أو أعلى
 
-## **التركيب**
-### **Windows:**
+##  **تثبيت**
+###  **Windows:**
  يمكنك بسهولة استخدام Aspose.Cells for Python via .NET من[بايبي](https://pypi.org/project/aspose-cells-python/) بالأمر التالي.
 {{< highlight "NET" >}}
 
@@ -22,15 +22,20 @@ description: إعداد Aspose.Cells for Python via .NET وإرشادات الت
 
 {{< /highlight >}}
 
-### **لينكس:**
+###  **لينكس:**
  يمكنك بسهولة استخدام Aspose.Cells for Python via .NET من[بايبي](https://pypi.org/project/aspose-cells-python/) بالأمر التالي.
 {{< highlight "NET" >}}
 
  $ pip install aspose-cells-python
 
 {{< /highlight >}}
+- ملاحظة: أنت بحاجة إلى تشغيل الأمر التالي قبل التثبيت
+{{< highlight "NET" >}}
+For Ubuntu/Debian: apt-get install libgdiplus 
+For CentOS/RHEL/Fedora: yum install libgdiplus 
+{{< /highlight >}}
 
-### **نظام التشغيل MacOS:**
+###  **نظام التشغيل MacOS:**
  يمكنك بسهولة استخدام Aspose.Cells for Python via .NET من[بايبي](https://pypi.org/project/aspose-cells-python/) بالأمر التالي.
 {{< highlight "NET" >}}
 
@@ -45,7 +50,7 @@ description: إعداد Aspose.Cells for Python via .NET وإرشادات الت
 export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/Library/Frameworks/Python.framework/Versions/3.7/lib"
 export LIBRARY_PATH="$LIBRARY_PATH:/Library/Frameworks/Python.framework/Versions/3.7/lib/"
 {{< /highlight >}}
-## **إنشاء تطبيق Hello World**
+##  **إنشاء تطبيق Hello World**
 
 -  قم بإنشاء ملف باسم**إنشاءHelloWorldFile.py** واستخدم نموذج التعليمات البرمجية التالي:
 

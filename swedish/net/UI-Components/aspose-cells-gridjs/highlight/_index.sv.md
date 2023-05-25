@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeta med GridJs Highlight-funktion
 type: docs
 weight: 250
@@ -6,11 +6,11 @@ url: /sv/net/aspose-cells-gridjs/highlight/
 description: Den här artikeln beskriver hur du använder GridJs för att markera celltext, cellintervall, former och bilder.
 keywords: highlight, highlight spreadsheet
 ---
-# Arbeta med GridJs Highlight-funktion
+#  Arbeta med GridJs Highlight-funktion
  Vi stöder nedanstående JS API:er för Highlight-funktionen
 
 
-- Aktivera markering och Ange markeringsstil, alla markerings-API:er kommer att påverka först efter att markeringsstilen har ställts in
+-  Aktivera markering och Ange markeringsstil, alla markerings-API:er kommer att påverka först efter att markeringsstilen har ställts in
 ```javascript
 xs.showHighlights(style)
  // the parameter is:
@@ -18,11 +18,11 @@ xs.showHighlights(style)
  for example: {'color':'rgba(85, 57, 47, 0.08)'}
 ```
 
-- Inaktivera markering
+-  Inaktivera markering
 ```javascript
 xs.hideHighlights()
 ```
-- Lägg till celltext för att markera
+-  Lägg till celltext för att markera
 ```javascript
 xs.sheet.addHighlightText(row,col,startpostion,endposition)
     // the parameters are:
@@ -30,9 +30,10 @@ xs.sheet.addHighlightText(row,col,startpostion,endposition)
 	col:column index
 	startpostion: highlight start postion in cell text 
 	endpostion: highlight end postion in cell text 
+    //it support multiple range postion inside one cell
 ```
 
-- Ta bort markering för celltext i array
+-  Ta bort markering för celltext i array
 ```javascript
 xs.sheet.removeHighlightText(row,col)
     // the parameters are:
@@ -45,7 +46,7 @@ xs.sheet.removeHighlightText(row,col)
 xs.sheet.getHighlightTexts()
 ```
 
-- Lägg till cellintervall för att markera
+-  Lägg till cellintervall för att markera
 ```javascript
 xs.sheet.addHighlightRange(sri,sci,eri,eci)
     // the parameters are:
@@ -55,7 +56,7 @@ xs.sheet.addHighlightRange(sri,sci,eri,eci)
 	eci:end column index of cell range
 ```
 
-- Ta bort markering för cellintervall i array
+-  Ta bort markering för cellintervall i array
 ```javascript
 xs.sheet.removeHighlightRange(sri,sci,eri,eci)
      // the parameters are:
@@ -70,7 +71,7 @@ xs.sheet.removeHighlightRange(sri,sci,eri,eci)
 xs.sheet.getHighlightRanges()
 ```
 
-- Ställ in cellintervallet på invers markering
+-  Ställ in cellintervallet på invers markering
 ```javascript
 xs.sheet.setHighlightInverseRange(sri,sci,eri,eci)
     // the parameters are:
@@ -80,7 +81,7 @@ xs.sheet.setHighlightInverseRange(sri,sci,eri,eci)
 	eci:end column index of cell range
 ```
 
-- Ta bort markering för inversmarkering
+-  Ta bort markering för inversmarkering
 ```javascript
 xs.sheet.removeHighlightInverseRange()
      
@@ -92,14 +93,14 @@ xs.sheet.getHighlightInverseRange()
 ```
 
 
-- Lägg till form för att markera array
+-  Lägg till form för att markera array
 ```javascript
 xs.sheet.addHighlightShape(shapeid)
     // the parameters are:
     shapeid: the id of shape, can be find in xs.sheet.data.shapes
 ```
 
-- Ta bort markeringsformen i arrayen
+-  Ta bort markeringsformen i arrayen
 ```javascript
 xs.sheet.removeHighlightShape(shapeid)
      // the parameters are:
@@ -111,15 +112,35 @@ xs.sheet.removeHighlightShape(shapeid)
 xs.sheet.getHighlightShaps()
 ```
 
+-  Lägg till textruta för att markera, textbox är en speciell typ av form vars typegenskap är: "TextBox",
+```javascript
+xs.sheet.addHighlightTextBox(shapeid, startpostion, endposition)
+    // the parameters are:
+    shapeid: the id of shape, can be find in xs.sheet.data.shapes whose type is 'TextBox'
+    startpostion: highlight start postion in the text of textbox
+    endpostion: highlight end postion in the text of textbox
+    //it support multiple range postion inside one textbox
+```
 
-- Lägg till bild för att markera array
+
+- Ta bort markeringsområde i textrutan, textbox är en speciell typ av form som typegenskapen är:"TextBox",
+```javascript
+xs.sheet.removeHighlightTextBox(shapeid, startpostion, endposition)
+    // the parameters are:
+    shapeid: the id of shape, can be find in xs.sheet.data.shapes whose type is 'TextBox'
+    startpostion: highlight start postion in the text of textbox
+    endpostion: highlight end postion in the text of textbox
+    //it support multiple range postion inside one textbox
+```
+
+-  Lägg till bild för att markera array
 ```javascript
 xs.sheet.addHighlightImage(imageid)
     // the parameters are:
     imageid: the id of image, can be find in xs.sheet.data.images
 ```
 
-- Ta bort markerad bild i arrayen
+-  Ta bort markerad bild i arrayen
 ```javascript
 xs.sheet.removeHighlightImage(imageid)
      // the parameters are:
@@ -140,7 +161,7 @@ xs.sheet.setHighlightAll(ishighlightall,isrerender=true)
 ```
 
 
-- ställ in anpassad bildmarkeringsfunktion
+-  Ställ in anpassad bildmarkeringsfunktion
 ```javascript
 xs.sheet.setCustomHighlightImgFunc(func)
    // the parameters are:
@@ -153,5 +174,75 @@ xs.sheet.setCustomHighlightImgFunc(func)
         }
     
 ```
+
+###  Markera för textboxobjekt
+textbox är en speciell typ av form vars typegenskap är:"TextBox",
+till exempel: koden nedan visar vilken form som är textbox
+
+```javascript
+for (let shape of xs.sheet.data.shapes) {
+    if (shape.type === 'TextBox') {
+        console.log(shape.id + ' is a textbox');
+    }
+}
+```
+-  Lägg till markering för textboxobjekt
+```javascript
+    addHighlight(startpostion,endposition)
+    // the parameters are:
+	startpostion: highlight start postion in textbox
+	endpostion: highlight end postion in textbox
+
+//for example,we assume shape 0 is a textbox object
+const textbox=xs.sheet.data.shapes[0];
+//first we shall add to highlight shape to enable the highlight for the textbox shape object,it support multiple range postion 
+ xs.sheet.addHighlightShape(textbox.id);
+ textbox.addHighlight(5,10);
+ textbox.addHighlight(18,28);
+```
+
+-  Ta bort markering för textboxobjekt
+```javascript
+    removeHighlight(startpostion,endposition)
+    // the parameters are:
+	startpostion: highlight start postion in textbox
+	endpostion: highlight end postion in textbox
+    //for example,we assume shape 0 is a textbox object
+     const textbox=xs.sheet.data.shapes[0];
+     textbox.removeHighlight(5,10);
+```
+
+-  Få markering för textbox-objekt
+```javascript
+    getHighlight()
+    //for example,we assume shape 0 is a textbox object
+     const textbox=xs.sheet.data.shapes[0];
+     textbox.getHighlight();
+```
+
+-  Ändra bakgrundsfärg för textboxobjekt
+```javascript
+    setBackgroundColor(color)
+    // the parameters are:
+        color: the html color value in hex string value
+    //for example,we assume shape 0 is a textbox object,this will set the background color to Yellow 
+     const textbox=xs.sheet.data.shapes[0];
+     textbox.setBackgroundColor('#FFFF00');
+```
+-  Ändra bakgrundsfärg och textfärg automatiskt för att få en visuell aktiv effekt
+```javascript
+    setActiveEffect(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will change background color and the text color of the textbox object;if false,restore to original appearence
+```
+
+-  dölj/visa textinnehållet i textbox-objektet
+```javascript
+    hideText(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will not display the text in the textbox object;if false,restore to original appearence
+```
+
+
 
 Du kan hitta mer på vår github-demosida https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html

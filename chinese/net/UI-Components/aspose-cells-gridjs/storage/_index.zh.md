@@ -1,4 +1,4 @@
-﻿---
+---
 title: 使用 GridJs 存储
 type: docs
 weight: 250
@@ -8,19 +8,21 @@ keywords: file cache,storage,GridJs,GridJs storage,GridJs uid,download,uniqueid
 ---
 # 使用 GridJs 存储
 ## 一般文件处理
-在内存中导入电子表格文件并显示 ui 后，
+导入电子表格文件后，
 
-GridJs 将创建一个具有指定 uid 的缓存文件，
+ GridJs 会在**`Config.FileCacheDirectory`**文件夹 ，
 
 格式为[Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/net/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat") ,
 
-然后在 ui 中的每个更新操作之后，
+GridJs 还将所有形状/图像保存到一个 zip 存档文件中**`Config.PictureCacheDirectory`**稍后在客户端 UI 中显示形状/图像的文件夹。
+
+在客户端 UI 中的每次更新操作之后，
 
 例如设置单元格值，设置单元格样式等。 ,
 
 GridJs 客户端 js 将触发控制器动作来执行 UpdateCell 操作。
 
-在此操作中，将在 UpdateCell 方法期间从内存保存回缓存文件。
+在此操作中，将在 UpdateCell 方法期间保存回缓存文件。
 ```C#   
         // post: /GridJs/UpdateCell
         [HttpPost] 
@@ -33,8 +35,9 @@ GridJs 客户端 js 将触发控制器动作来执行 UpdateCell 操作。
             return Content(ret, "text/plain", System.Text.Encoding.UTF8);
         }
 ```
-### 缓存目录在哪里
-A. 如果我们实现 GridCacheForStream 并设置 GridJsWorkbook.CacheImp。
+### 缓存文件实际上在哪里
+
+A.如果我们实现GridCacheForStream并设置GridJsWorkbook.CacheImp。
 例如在下面的代码中，我们可以从中放置和获取缓存文件**“D:\临时”**
 ```C#
 Config.FileCacheDirectory=@"D:\temp";
@@ -73,11 +76,11 @@ public class LocalFileCache  : GridCacheForStream
 ```
 B.如果我们不设置GridJsWorkbook.CacheImp，
 
- GridJs 将在**配置文件缓存目录**，这是我们可以设置的默认缓存目录。
+ GridJs 将在**`Config.FileCacheDirectory`**，这是我们可以设置的默认缓存目录。
 
 ### 如何获取更新后的结果文件
 #### 1. 文件的指定uid
-确保一个指定的映射文件和uid之间的对应关系，
+确保文件和uid之间有一个指定的映射对应关系，
 
 您始终可以获得指定文件名的相同 uid，而不是随机生成的。
 
@@ -108,8 +111,8 @@ B.如果我们不设置GridJsWorkbook.CacheImp，
         }
 ```
 
-#### 2.与ui操作同步
-其实对于一些ui操作，
+####  2.与客户端UI操作同步
+实际上对于一些客户端UI操作，
 
 例如：
 
@@ -121,9 +124,9 @@ B.如果我们不设置GridJsWorkbook.CacheImp，
 
 不会触发 UpdateCell 操作。
 
-因此，如果我们想获得与 ui 显示相同的更新文件，
+因此，如果我们想要获得与客户端 UI 显示相同的更新文件，
 
-我们需要在保存操作之前进行合并操作以同步这些 ui 操作。
+我们需要在保存操作之前执行合并操作以同步这些客户端 UI 操作。
 ```javascript
 //in the js
   function save() {
@@ -158,7 +161,7 @@ B.如果我们不设置GridJsWorkbook.CacheImp，
   //after merge do save to chache or to a stream or whaterver you want to save to ,here we just save to cache
   wb.SaveToXlsx(Path.Combine(Config.FileCacheDirectory, uid));
 ```         
-#### 3.从缓存中获取文件
+####  3.从缓存中获取文件
 例如：在下载动作中，你可以通过uid从缓存目录中获取它。
 ```C#
 //in controller  

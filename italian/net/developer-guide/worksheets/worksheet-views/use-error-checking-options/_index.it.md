@@ -1,8 +1,10 @@
-﻿---
+---
 title: Usa le opzioni di controllo degli errori
 type: docs
 weight: 140
 url: /it/net/use-error-checking-options/
+description: In questo articolo troverai un codice di esempio che utilizzerà a livello di codice le opzioni di controllo degli errori dei fogli di lavoro di Excel, ad esempio Numbers memorizzato come testo utilizzando la libreria C# API o .NET.
+keywords: store number as text in excel using c#, error check excel options c#
 ---
 {{% alert color="primary" %}}
 
@@ -10,21 +12,21 @@ Microsoft Excel consente agli utenti di definire opzioni e regole di controllo d
 
 {{% /alert %}}
 
-## **Tipi di errori**
+##  **Tipi di errori**
 
 Gli errori che indicano che la formula non può restituire un risultato, come la divisione di un numero per zero, richiedono un'attenzione immediata e nella cella viene visualizzato un valore di errore. Facendo clic sul triangolo verde viene visualizzato un punto esclamativo, facendo clic su questo si apre un elenco di opzioni.
 
 L'errore può essere risolto utilizzando le opzioni o essere ignorato. Ignorare un errore significa che quell'errore non verrà visualizzato in ulteriori controlli degli errori.
 
- Aspose.Cells fornisce funzionalità di opzione di controllo degli errori. Il[**ErrorCheckOption**](https://reference.aspose.com/cells/net/aspose.cells/errorcheckoption) class gestisce diversi tipi di controlli degli errori, ad esempio numeri memorizzati come testo, errori di calcolo delle formule ed errori di convalida. Usa il[**ErrorCheckType**](https://reference.aspose.com/cells/net/aspose.cells/errorchecktype)enumerazione per impostare il controllo degli errori desiderato.
+ Aspose.Cells fornisce funzionalità di opzione di controllo degli errori. IL[**ErrorCheckOption**](https://reference.aspose.com/cells/net/aspose.cells/errorcheckoption) class gestisce diversi tipi di controlli degli errori, ad esempio numeri memorizzati come testo, errori di calcolo delle formule ed errori di convalida. Usa il[**ErrorCheckType**](https://reference.aspose.com/cells/net/aspose.cells/errorchecktype)enumerazione per impostare il controllo degli errori desiderato.
 
-## **Numbers Memorizzato come testo**
+##  **Numbers Memorizzato come testo**
 
 Occasionalmente, i numeri potrebbero essere formattati e archiviati nelle celle come testo. Ciò può causare problemi con i calcoli o produrre ordinamenti confusi. Numbers formattati come testo sono allineati a sinistra anziché a destra nella cella. Se una formula che dovrebbe eseguire un'operazione matematica sulle celle non restituisce un valore, controlla l'allineamento nelle celle a cui fa riferimento la formula: alcune o tutte le celle potrebbero essere numeri formattati come testo.
 
 È possibile utilizzare le opzioni di controllo degli errori per convertire rapidamente i numeri memorizzati come testo in numeri reali. In Microsoft Excel 2003:
 
-1.  Sul**Utensili** menu, fare clic**Opzioni**.
+1.  Sul**Utensili** menu, fare clic su *Opzioni**.
 1. Selezionare la scheda Controllo errori.
    **Numero memorizzato come testo** l'opzione è selezionata per impostazione predefinita.
 1. Disattivalo.

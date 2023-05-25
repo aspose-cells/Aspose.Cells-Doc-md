@@ -1,8 +1,10 @@
-﻿---
+---
 title: 设置页面选项
 type: docs
 weight: 10
 url: /zh/net/setting-page-options/
+description: 本文提供示例代码以使用 C# API 和 .NET 库以编程方式设置 Excel 工作表的页面选项。您将能够设置页面方向、比例因子、FitToPages 选项、纸张尺寸、打印质量、首页页码。
+keywords: set excel page orientation c#, set excel scaling factor c#, set excel worksheets paper size c#
 ---
 {{% alert color="primary" %}}
 
@@ -10,32 +12,32 @@ url: /zh/net/setting-page-options/
 
 {{% /alert %}}
 
-## **设置页面选项**
+##  **设置页面选项**
 
 Aspose.Cells 完全支持页面设置选项。本文介绍了如何使用 Aspose.Cells 设置页面选项，并显示了用于设置的代码示例：
 
-Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)，代表一个 Microsoft Excel 文件。这[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类包含一个[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)允许访问 Excel 文件中每个工作表的集合。工作表由[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)班级。
+ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)，代表一个 Microsoft Excel 文件。这[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类包含一个[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)允许访问 Excel 文件中每个工作表的集合。工作表由[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)班级。
 
 这[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类提供了[**页面设置**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)用于设置工作表页面设置选项的属性。事实上，这[**页面设置**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)属性是[**页面设置**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)用于为打印工作表设置不同页面布局选项的类。这[**页面设置**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)类提供用于设置页面设置选项的各种属性。下面讨论其中一些特性。
 
-### **页面方向**
+###  **页面方向**
 
 页面方向可以设置为纵向或横向使用[**页面设置**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)班级'[**方向**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation)财产。这[**方向**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation)属性接受中的预定义值之一[**页面方向类型**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype)枚举，如下所示。
 
 |**页面方向类型**|**描述**|
-|:- |:- |
+| :- | :- |
 |景观|横向|
 |肖像|纵向|
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-PageOrientation-1.cs" >}}
 
-### **比例因子**
+###  **比例因子**
 
 可以通过调整比例因子来缩小或放大工作表的大小[**页面设置.缩放**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/zoom)财产。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-ScalingFactor-1.cs" >}}
 
-### **FitToPages 选项**
+###  **FitToPages 选项**
 
 要使工作表的内容适合特定页数，请使用[**页面设置**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)班级'[**适合页面高**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall)和[**适合页面宽度**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)特性。这些属性还用于缩放工作表。
 
@@ -47,12 +49,12 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-FitToPagesOptions-1.cs" >}}
 
-### **纸张尺寸**
+###  **纸张尺寸**
 
 使用[**页面设置**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)班级'[**纸张大小**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize)财产。这[**纸张大小**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize)属性接受中的预定义值之一[**纸张大小类型**](https://reference.aspose.com/cells/net/aspose.cells/papersizetype)枚举，如下所示。
 
 |**纸张尺寸类型**|**描述**|
-|:- |:- |
+| :- | :- |
 |纸信|信纸（8-1/2 英寸 x 11 英寸）|
 |纸信小号|Letter Small（8-1/2 英寸 x 11 英寸）|
 |纸质小报|小报（11 英寸 x 17 英寸）|
@@ -176,13 +178,13 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-ManagePaperSize-1.cs" >}}
 
-### **打印质量**
+###  **打印质量**
 
 设置要打印的工作表的打印质量[**页面设置**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)班级'[**打印质量**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printquality)财产。打印质量的测量单位是每英寸点数 (DPI)。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintQuality-1.cs" >}}
 
-### **第一页码**
+###  **第一页码**
 
 使用开始工作表页面编号[**页面设置**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)班级'[**首页编号**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber)财产。这[**首页编号**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber)属性设置第一个工作表页的页码，下一页按升序编号。
 

@@ -1,14 +1,14 @@
-﻿---
+---
 title: Installation
 type: docs
 weight: 20
 url: /de/java/installation/
 ---
-## **Installieren von Aspose.Cells for Java aus dem Maven-Repository**
+##  **Installation von Aspose.Cells for Java aus dem Maven-Repository**
 
-Aspose hostet alle Java-APIs[Maven Aufbewahrungsort](https://releases.aspose.com/java/repo/) . Sie können leicht verwenden[Aspose.Cells for Java API](https://releases.aspose.com/cells/java/) direkt in Ihren Maven Projekten mit einfachen Konfigurationen.
+Aspose hostet alle Java-APIs auf[Maven-Repository](https://releases.aspose.com/java/repo/) . Sie können es problemlos verwenden[Aspose.Cells for Java API](https://releases.aspose.com/cells/java/) direkt in Ihren Maven Projekten mit einfachen Konfigurationen.
 
-Zuerst müssen Sie Aspose Maven Repository-Konfiguration/Speicherort in Ihrer Maven pom.xml wie folgt angeben:
+Zuerst müssen Sie die Aspose Maven Repository-Konfiguration/den Speicherort in Ihrer Maven pom.xml wie folgt angeben:
 
 {{< highlight "java" >}}
 
@@ -28,7 +28,18 @@ Zuerst müssen Sie Aspose Maven Repository-Konfiguration/Speicherort in Ihrer Ma
 
 {{< /highlight >}}
 
-Definieren Sie dann die Abhängigkeit Aspose.Cells for Java API in Ihrer pom.xml wie folgt (Dies umfasst alles, z. B. die Haupt-JAR-Datei, Java-Dokumente und andere Bibliotheken entsprechend):
+für Gradle in Ihrem build.gradle-Skript wie folgt:
+{{< highlight "java" >}}
+//Add Aspose maven repository
+repositories {
+    mavenCentral()
+    maven {
+        url "https://releases.aspose.com/java/repo/"
+    }
+}
+{{< /highlight >}}
+
+Definieren Sie dann die Abhängigkeit Aspose.Cells for Java API in Ihrer pom.xml wie folgt (dies umfasst alles, z. B. die Haupt-JAR-Datei, Java-Dokumente und andere Bibliotheken entsprechend):
 
 {{< highlight "java" >}}
 
@@ -40,7 +51,7 @@ Definieren Sie dann die Abhängigkeit Aspose.Cells for Java API in Ihrer pom.xml
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>22.12</version>
+            <version>23.5</version>
 
         </dependency>
 
@@ -50,7 +61,7 @@ Definieren Sie dann die Abhängigkeit Aspose.Cells for Java API in Ihrer pom.xml
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>22.12</version>
+            <version>23.5</version>
 
             <classifier>javadoc</classifier>
 
@@ -80,10 +91,10 @@ Definieren Sie dann die Abhängigkeit Aspose.Cells for Java API in Ihrer pom.xml
 
 {{< /highlight >}}
 
-Herzliche Glückwünsche! Sie haben die Abhängigkeit Aspose.Cells for Java Maven in Ihrem Maven-Projekt erfolgreich definiert.
+Glückwunsch! Sie haben die Abhängigkeit Aspose.Cells for Java Maven in Ihrem Maven-Projekt erfolgreich definiert.
 
-## **Unterstützung**
+##  **Unterstützung**
 
-Bitte überprüfen Sie die folgenden Punkte, um schnellen technischen Support zu erhalten
+Bitte überprüfen Sie Folgendes, um schnellen technischen Support zu erhalten
 
-[Aspose.Cells - Foren](https://forum.aspose.com/c/cells/9)
+[Aspose.Cells – Foren](https://forum.aspose.com/c/cells/9)

@@ -1,10 +1,10 @@
-﻿---
-title: 安装
+---
+title: Installation
 type: docs
 weight: 20
 url: /zh/java/installation/
 ---
-## **从 Maven 存储库安装 Aspose.Cells for Java**
+##  **从 Maven 存储库安装 Aspose.Cells for Java**
 
 Aspose 托管所有 Java API[Maven 存储库](https://releases.aspose.com/java/repo/).您可以轻松使用[Aspose.Cells for Java API](https://releases.aspose.com/cells/java/)直接在您的 Maven 项目中进行简单配置。
 
@@ -28,6 +28,17 @@ Aspose 托管所有 Java API[Maven 存储库](https://releases.aspose.com/java/r
 
 {{< /highlight >}}
 
+对于 Gradle 在你的 build.gradle 脚本中如下：
+{{< highlight "java" >}}
+//Add Aspose maven repository
+repositories {
+    mavenCentral()
+    maven {
+        url "https://releases.aspose.com/java/repo/"
+    }
+}
+{{< /highlight >}}
+
 然后在您的 pom.xml 中定义 Aspose.Cells for Java API 依赖项，如下所示（这将包括所有内容，例如主 jar 文件、Java 文档和相应的其他库）：
 
 {{< highlight "java" >}}
@@ -40,7 +51,7 @@ Aspose 托管所有 Java API[Maven 存储库](https://releases.aspose.com/java/r
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>22.12</version>
+            <version>23.5</version>
 
         </dependency>
 
@@ -50,7 +61,7 @@ Aspose 托管所有 Java API[Maven 存储库](https://releases.aspose.com/java/r
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>22.12</version>
+            <version>23.5</version>
 
             <classifier>javadoc</classifier>
 
@@ -82,7 +93,7 @@ Aspose 托管所有 Java API[Maven 存储库](https://releases.aspose.com/java/r
 
 恭喜！您已在 Maven 项目中成功定义 Aspose.Cells for Java Maven 依赖项。
 
-## **支持**
+##  **支持**
 
 请检查以下内容以获得快速技术支持
 

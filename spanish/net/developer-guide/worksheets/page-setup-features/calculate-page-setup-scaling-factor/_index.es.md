@@ -1,12 +1,14 @@
-﻿---
+---
 title: Calcular factor de escala de configuración de página
 type: docs
 weight: 300
 url: /es/net/calculate-page-setup-scaling-factor/
+description: Este artículo proporciona un código de muestra que explica cómo usar la biblioteca C# API o .NET para calcular el factor de escala de Configuración de página mediante la opción Ajustar a n página(s) de ancho por m de altura de la hoja de cálculo de Excel mediante programación.
+keywords: Fit to n page wide by m tall excel c#, calculate page setup scaling factor c#
 ---
 {{% alert color="primary" %}}
 
-Cuando configura Ajuste de escala de página usando**Ajustar a n página(s) de ancho por m de alto** opción, Microsoft Excel calcula el factor de escala de configuración de página. Puedes calcular lo mismo usando[**SheetRender.PageScale**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/properties/pagescale) propiedad. Esta propiedad devuelve un valor doble que se puede convertir en un valor porcentual. Por ejemplo, si devuelve 0,5, significa que el factor de escala es del 50 %.
+ Cuando configura Ajuste de escala de página usando**Ajustar a n página(s) de ancho por m de alto** opción, Microsoft Excel calcula el factor de escala de configuración de página. Puedes calcular lo mismo usando[**SheetRender.PageScale**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/properties/pagescale)propiedad. Esta propiedad devuelve un valor doble que se puede convertir en un valor porcentual. Por ejemplo, si devuelve 0,5, significa que el factor de escala es del 50 %.
 
 {{% /alert %}}
 

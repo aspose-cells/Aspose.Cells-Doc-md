@@ -1,8 +1,10 @@
-﻿---
+---
 title: Copiar y mover hojas de trabajo
 type: docs
 weight: 10
 url: /es/net/copying-and-moving-worksheets/
+description: Este artículo incluye código de muestra y describe cómo copiar y mover hojas de cálculo mediante programación tanto dentro de un libro de Excel como entre libros de Excel utilizando la biblioteca C# API o .NET.
+keywords: copy worksheet c#, move worksheet c#
 ---
 {{% alert color="primary" %}}
 
@@ -12,27 +14,27 @@ Aspose.Cells admite copiar y mover hojas de trabajo dentro o entre libros de tra
 
 {{% /alert %}}
 
-## **Mover o copiar hojas usando Microsoft Excel**
+##  **Mover o copiar hojas usando Microsoft Excel**
 
 Los siguientes son los pasos necesarios para copiar y mover hojas de trabajo dentro o entre libros de trabajo en Microsoft Excel.
 
 1. Para mover o copiar hojas a otro libro, abra el libro que recibirá las hojas.
 1. Cambie al libro de trabajo que contiene las hojas que desea mover o copiar y luego seleccione las hojas.
-1.  Sobre el**Editar** menú, haga clic**Mover o copiar hoja**.
+1.  Sobre el**Editar** menú, haga clic en *Mover o copiar hoja**.
 1.  En el**Reservar** cuadro de diálogo, haga clic en el libro de trabajo para recibir las hojas.
-1.  Para mover o copiar las hojas seleccionadas a un nuevo libro, haga clic en**Nuevo libro**.
+1. Para mover o copiar las hojas seleccionadas a un nuevo libro, haga clic en *Nuevo libro**.
 1.  En el**antes de la hoja** cuadro, haga clic en la hoja antes de la cual desea insertar las hojas movidas o copiadas.
 1.  Para copiar las hojas en lugar de moverlas, seleccione la**crear una copia** caja.
 
-### **Copie hojas de trabajo dentro de un libro de trabajo con Aspose.Cells**
+###  **Copie hojas de trabajo dentro de un libro de trabajo con Aspose.Cells**
 
- Aspose.Cells proporciona un método sobrecargado,[**Aspose.Cells.WorksheetCollection.AddCopy()**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/addcopy/index), que se utiliza para agregar una hoja de cálculo a la colección y copiar datos de una hoja de cálculo existente. Una versión del método toma el índice de la hoja de cálculo de origen como parámetro. La otra versión toma el nombre de la hoja de trabajo de origen.
+ Aspose.Cells proporciona un método sobrecargado,[**Aspose.Cells.WorksheetCollection.AddCopy()**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/addcopy/index)que se utiliza para agregar una hoja de cálculo a la colección y copiar datos de una hoja de cálculo existente. Una versión del método toma el índice de la hoja de cálculo de origen como parámetro. La otra versión toma el nombre de la hoja de trabajo de origen.
 
 El siguiente ejemplo muestra cómo copiar una hoja de trabajo existente dentro de un libro de trabajo.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-CopyWithinWorkbook-1.cs" >}}
 
-### **Copiar hojas de trabajo entre libros de trabajo**
+###  **Copiar hojas de trabajo entre libros de trabajo**
 
  Aspose.Cells proporciona un método,[**Aspose.Cells.Hoja de trabajo.Copiar()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/copy/index)se utiliza para copiar datos y formato de una hoja de trabajo de origen a otra hoja de trabajo dentro o entre libros de trabajo. El método toma el objeto de la hoja de cálculo de origen como parámetro.
 
@@ -44,9 +46,9 @@ El siguiente ejemplo muestra cómo copiar una hoja de trabajo de un libro a otro
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-CopyWorksheetFromWorkbookToOther-1.cs" >}}
 
-### **Mover hojas de trabajo dentro del libro de trabajo**
+###  **Mover hojas de trabajo dentro del libro de trabajo**
 
- Aspose.Cells proporciona un método[**Aspose.Cells.Hoja de trabajo.MoveTo()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/moveto) que se utiliza para mover una hoja de trabajo a otra ubicación en la misma hoja de cálculo. El método toma el índice de la hoja de cálculo de destino como parámetro.
+ Aspose.Cells proporciona un método[**Aspose.Cells.Hoja de trabajo.MoveTo()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/moveto)que se utiliza para mover una hoja de trabajo a otra ubicación en la misma hoja de cálculo. El método toma el índice de la hoja de cálculo de destino como parámetro.
 
 El siguiente ejemplo muestra cómo mover una hoja de trabajo a otra ubicación dentro del libro de trabajo.
 

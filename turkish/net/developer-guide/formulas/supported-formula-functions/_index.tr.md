@@ -1,4 +1,4 @@
-﻿---
+---
 title: Desteklenen Excel İşlevleri
 toc: false
 type: docs
@@ -11,429 +11,432 @@ keywords: formula function calculate
 
 Aspose.Cells API'ler, standart işlevlerin çoğunu ve Excel'in yerleşik formülünü destekler. Aşağıda, desteklenen tüm işlevleri alfabetik sırayla bulabilirsiniz.
 
-||||||||||||||
+| | | | | | | | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|**[A](#a)** |**[B](#b)** |**[C](#c)** |**[D](#d)** |**[E](#e)** |**[F](#f)** |**[İyi oyun)** |**[H](#h)** |**[ben](#i)** |**[J](#j)** |**[K](#k)** |**[LL)** |**[M](#m)** |
-|**[N](#n)** |**[O](#o)** |**[P](#p)** |**[Q](#q)** |**[R](#r)** |**[S](#s)** |**[T](#t)** |**[U](#u)** |**[V](#v)** |**[W](#w)** |**[X](#x)** |**[Y](#y)** |**[Z](#z)** |
+| **[A](#a)** | **[B](#b)** | **[C](#c)** | **[D](#d)** | **[E](#e)** | **[F](#f)** | **[İyi oyun)** | **[H](#h)** | **[ben](#i)** | **[J](#j)** | **[K](#k)** | **[LL)** | **[M](#m)** |
+| **[N](#n)** | **[O](#o)** | **[P](#p)** | **[Q](#q)** | **[R](#r)** | **[S](#s)** | **[T](#t)** | **[U](#u)** | **[V](#v)** | **[W](#w)** | **[X](#x)** | **[Y](#y)** | **[Z](#z)** |
 
 {{% /alert %}}
 
 Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri ayarlamanıza, okumanıza ve sonuçlarını hesaplamanıza olanak tanır.
 
-###### **A**
+######  *A**
 |**İşlev**|**Özet**|
-|:- |:- |
+| :- | :- |
 |ABS|
-|AKRİNT|
-|ACRINTM|
+|ACCRINT|
+|ACCRINTM|
 |ACOS|
 |ACOSH|
-|ADRES|
-|AGREGA|
+|ADDRESS|
+|AGGREGATE|
 |AMORDEGRC|
-|AMORLİNC|
-|VE|
-|ALANLAR|
+|AMORLINC|
+|AND|
+|AREAS|
 |ASC|
-|DE OLDUĞU GİBİ|
+|ASIN|
 |ASINH|
 |ATAN|
 |ATAN2|
 |ATANH|
 |AVEDEV|
-|ORTALAMA|
-|ORTALAMA|
-|ORTALAMAEĞER|
-|ORTALAMA EĞERLER|
+|AVERAGE|
+|AVERAGEA|
+|AVERAGEIF|
+|AVERAGEIFS|
 
-###### **B**
+######  *B**
 |**İşlev**|**Özet**|
-|:- |:- |
-|BEŞSELİ|
+| :- | :- |
+|BESSELI|
 |BESSELJ|
-|BEŞSELK|
+|BESSELK|
 |BESSELY|
-|BETADAĞ|
+|BETADIST|
 |BETA.DAĞ|
-|BETATERS|
+|BETAINV|
 |BETA.TERS|
 |BIN2DEC|
 |BIN2HEX|
 |BIN2OCT|
-|BİNOMDAĞ|
+|BINOMDIST|
 |BİNOM.DAĞ|
-|BİTAND|
+|BITAND|
 |BITLSHIFT|
 |BITOR|
 |BITRSHIFT|
-|BİTXOR|
+|BITXOR|
 
-###### **C**
+######  *C**
 |**İşlev**|**Özet**|
-|:- |:- |
-|TAVAN|
+| :- | :- |
+|CEILING|
 |TAVAN.MATİK|
 |TAVAN.HASSAS|
-|HÜCRE|
-|ÇAR|
-|ÇOCUK DAĞI|
-|KİKTERS|
-|ÇİFTÇİ|
+|CELL|
+|CHAR|
+|CHIDIST|
+|CHIINV|
+|CHITEST|
 |KİK.DAĞ|
 |CHISQ.DAĞ.RT|
 |CHISQ.TERS.RT|
 |KİK.TESTİ|
-|SEÇ|
-|TEMİZ|
-|KOD|
-|KOLON|
-|SÜTUNLAR|
-|KOMBİNE|
-|KOMPLEKS|
-|İLETİŞİM|
-|BİRLEŞTİR|
-|KENDİNDEN EMİN|
+|CHOOSE|
+|CHOOSECOLS|
+|CHOOSEROWS|
+|CLEAN|
+|CODE|
+|COLUMN|
+|COLUMNS|
+|COMBIN|
+|COMPLEX|
+|CONCAT|
+|CONCATENATE|
+|CONFIDENCE|
 |GÜVEN.NORM|
-|DÖNÜŞTÜRMEK|
-|Korel|
-|ÇÜNKÜ|
+|CONVERT|
+|CORREL|
+|COS|
 |COSH|
-|SAYMAK|
-|SAYI|
-|BOŞ SAYI|
-|EĞERSAY|
-|EĞERSAY|
+|COUNT|
+|COUNTA|
+|COUNTBLANK|
+|COUNTIF|
+|COUNTIFS|
 |COUPDAYBS|
 |COUPDAYS|
-|KOUPDAYSNC|
+|COUPDAYSNC|
 |COUPNCD|
-|KUPNUM|
+|COUPNUM|
 |COUPPCD|
-|KAPLAMA|
+|COVAR|
 |KOVARYANS.P|
 |KOVARYANS.S|
-|KRİBİNOM|
+|CRITBINOM|
 |CUMIPMT|
-|kimyon|
+|CUMPRINC|
 
-###### **D**
+######  *D**
 |**İşlev**|**Özet**|
-|:- |:- |
-|TARİH|
+| :- | :- |
+|DATE|
 |DATEDIF|
-|TARİHDEĞERİ|
-|DAVRANIŞ|
-|GÜN|
-|GÜNLER|
+|DATEVALUE|
+|DAVERAGE|
+|DAY|
+|DAYS|
 |DAYS360|
-|veri tabanı|
-|SAYIM|
+|DB|
+|DCOUNT|
 |DCOUNTA|
 |DDB|
 |DEC2BIN|
 |DEC2HEX|
-|ARALIK2EKİM|
-|DERECELER|
+|DEC2OCT|
+|DEGREES|
 |DELTA|
 |DEVSQ|
 |DGET|
-|DİSK|
+|DISC|
 |DMAX|
 |DMIN|
-|DOLAR|
-|dolar|
-|DOLARFR|
-|DÜRÜN|
+|DOLLAR|
+|DOLLARDE|
+|DOLLARFR|
+|DPRODUCT|
 |DSTDEV|
 |DSTDEVP|
 |DSUM|
-|SÜRE|
+|DURATION|
 |DVAR|
 |DVARP|
 
-###### **e**
+######  *e**
 |**İşlev**|**Özet**|
-|:- |:- |
-|GÜNCELLEME|
-|EFEKT|
-|1 AY|
+| :- | :- |
+|EDATE|
+|EFFECT|
+|EOMONTH|
 |ERF|
 |ERFC|
 |HATA.TİPİ|
-|HATTA|
-|BİRE BİR AYNI|
-|tecrübe|
-|ÜSTELDAĞ|
+|EVEN|
+|EXACT|
+|EXP|
+|EXPONDIST|
 
-###### **F**
+######  *F**
 |**İşlev**|**Özet**|
-|:- |:- |
-|HAKİKAT|
-|GERÇEKÇİFT|
-|YANLIŞ|
+| :- | :- |
+|FACT|
+|FACTDOUBLE|
+|FALSE|
 |F.DAĞ|
-|FDAĞ|
+|FDIST|
 |F.DAĞ.RT|
-|FİLTRE|
-|BULMAK|
+|FILTER|
+|FIND|
 |FINDB|
 |F.TERS.RT|
 |FINV|
-|BALIKÇI|
+|FISHER|
 |FISHERINV|
-|SABİT|
-|ZEMİN|
+|FIXED|
+|FLOOR|
 |ZEMİN.MATİK|
-|TAHMİN ETMEK|
+|FORECAST|
 |TAHMİN.DOĞRUSAL|
-|FORMÜL METİNİ|
-|SIKLIK|
-|GD|
-|FV PROGRAMI|
+|FORMULATEXT|
+|FREQUENCY|
+|FV|
+|FVSCHEDULE|
 
-###### **G**
+######  *G**
 |**İşlev**|**Özet**|
-|:- |:- |
+| :- | :- |
 |GAMA.DAĞ|
-|GAMADAĞ|
+|GAMMADIST|
 |GAMA.TERS|
-|GAMATERS|
-|GAMALN|
+|GAMMAINV|
+|GAMMALN|
 |GCD|
 |GEOMEAN|
 |GESTEP|
 |GETPIVOTDATA|
-|BÜYÜME|
+|GROWTH|
 
-###### **H**
+######  *H**
 |**İşlev**|**Özet**|
-|:- |:- |
-|HARMAN|
+| :- | :- |
+|HARMEAN|
 |HEX2BIN|
 |HEX2DEC|
 |HEX2OCT|
-|YATAYARA|
-|SAAT|
-|KÖPRÜ|
+|HLOOKUP|
+|HOUR|
+|HSTACK|
+|HYPERLINK|
 |HİPERGEOM.DAĞ|
-|HİPERGEOMDAĞ|
+|HYPGEOMDIST|
 
-###### **BEN**
+######  *BEN**
 |**İşlev**|**Özet**|
-|:- |:- |
-|EĞER|
+| :- | :- |
+|IF|
 |IFERROR|
 |IFNA|
 |IFS|
-|İMABS|
-|HAYALİ|
-|ARGUMENT|
-|BİRLEŞTİRİLMİŞ|
+|IMABS|
+|IMAGINARY|
+|IMARGUMENT|
+|IMCONJUGATE|
 |IMCOS|
-|imdiv|
+|IMDIV|
 |IMEXP|
 |IMLN|
 |IMLOG10|
 |IMLOG2|
-|GÜÇLENDİRME|
-|IMÜRÜN|
-|BEN GERÇEĞİM|
+|IMPOWER|
+|IMPRODUCT|
+|IMREAL|
 |IMSIN|
 |IMSQRT|
 |IMSUB|
 |IMSUM|
-|DİZİN|
-|DOLAYLI|
+|INDEX|
+|INDIRECT|
 |INT|
-|TUTMAK|
-|İNTERNET|
+|INTERCEPT|
+|INTRATE|
 |IPMT|
 |IRR|
-|İSBLANK|
+|ISBLANK|
 |ISERR|
 |ISERROR|
-|YEDİ|
-|mantıksal|
+|ISEVEN|
+|ISLOGICAL|
 |ISNA|
-|Metin Değil|
-|NUMARA|
-|GARİP|
+|ISNONTEXT|
+|ISNUMBER|
+|ISODD|
 |ISREF|
 |ISTEXT|
-|ISOHAFTANUM|
+|ISOWEEKNUM|
 |ISPMT|
 
-###### **K**
+######  *K**
 |**İşlev**|**Özet**|
-|:- |:- |
+| :- | :- |
 |KURT|
 
-###### **L**
+######  *L**
 |**İşlev**|**Özet**|
-|:- |:- |
-|BÜYÜK|
+| :- | :- |
+|LARGE|
 |LCM|
-|SOL|
-|SOLTB|
-|UZUNLUK|
+|LEFT|
+|LEFTB|
+|LEN|
 |LENB|
-|DOT|
+|LINEST|
 |LN|
-|KAYIT|
+|LOG|
 |LOG10|
-|LOJİST|
-|GİRİŞ|
+|LOGEST|
+|LOGINV|
 |LOGNORM.DAĞ|
 |LOGNORM.TERS|
-|LOGNORMDAĞ|
-|YUKARI BAK|
-|DAHA DÜŞÜK|
+|LOGNORMDIST|
+|LOOKUP|
+|LOWER|
 
-###### **M**
+######  *M**
 |**İşlev**|**Özet**|
-|:- |:- |
-|KİBRİT|
-|MAKS.|
+| :- | :- |
+|MATCH|
+|MAX|
 |MAXA|
-|MAKSIFLER|
+|MAXIFS|
 |MDETERM|
-|M SÜRE|
-|MEDYAN|
-|ORTA|
-|ORTA DB|
-|DAK|
-|MINIFLER|
-|MİNA|
-|DAKİKA|
-|KÜÇÜK EVREN|
-|MİRR|
+|MDURATION|
+|MEDIAN|
+|MID|
+|MIDB|
+|MIN|
+|MINIFS|
+|MINA|
+|MINUTE|
+|MINVERSE|
+|MIRR|
 |MMULT|
-|mod|
 |MOD|
+|MODE|
 |MOD.ÇOKLU|
 |MOD.SNGL|
-|AY|
-|ÇEVRE|
-|ÇOK TERİMLİ|
+|MONTH|
+|MROUND|
+|MULTINOMIAL|
 
-###### **N**
+######  *N**
 |**İşlev**|**Özet**|
-|:- |:- |
+| :- | :- |
 |N|
-|yok|
+|NA|
 |NEGBİNOM.DAĞ|
-|NEGBİNOMDAĞ|
-|TAMİŞGÜNLERİ|
+|NEGBINOMDIST|
+|NETWORKDAYS|
 |TAMİŞGÜNLERİ.ULUSLARARASI|
-|NOMİNAL|
+|NOMINAL|
 |NORM.DAĞ|
-|NORMDAĞ|
-|NORMTERS|
+|NORMDIST|
+|NORMINV|
 |NORM.TERS|
 |NORM.S.DAĞ|
-|NORMSDAĞ|
+|NORMSDIST|
 |NORM.S.TERS|
-|NORMTERS|
-|OLUMSUZLUK|
-|ŞİMDİ|
+|NORMSINV|
+|NOT|
+|NOW|
 |NPER|
-|NBD|
-|SAYI DEĞERİ|
+|NPV|
+|NUMBERVALUE|
 
-###### **Ö**
+######  *Ö**
 |**İşlev**|**Özet**|
-|:- |:- |
-|Ekim2BİN|
-|EKİM2DEC|
-|Ekim2HEX|
-|GARİP|
-|TEK FİYAT|
-|TEK VERİM|
-|TEK FİYAT|
-|tuhaf|
-|TELAFİ ETMEK|
-|VEYA|
+| :- | :- |
+|OCT2BIN|
+|OCT2DEC|
+|OCT2HEX|
+|ODD|
+|ODDFPRICE|
+|ODDFYIELD|
+|ODDLPRICE|
+|ODDLYIELD|
+|OFFSET|
+|OR|
 
-###### **P**
+######  *P**
 |**İşlev**|**Özet**|
-|:- |:- |
+| :- | :- |
 |PEARSON|
 |YÜZDEBİRLİK.HRC|
 |YÜZDEBİRLİK|
-|YÜZDELİK|
+|PERCENTILE|
 |YÜZDERANK.HRC|
 |YÜZDERANK.D.Ş.|
-|YÜZDERANK|
-|MÜMKÜN|
+|PERCENTRANK|
+|PERMUT|
 |PI|
 |PMT|
 |POISSON.DAĞ|
 |POISSON|
-|GÜÇ|
+|POWER|
 |PPMT|
-|FİYAT|
-|FİYAT İNDİRİMİ|
-|FİYAT MAT|
-|SORUN|
-|ÜRÜN|
-|DÜZGÜN|
+|PRICE|
+|PRICEDISC|
+|PRICEMAT|
+|PROB|
+|PRODUCT|
+|PROPER|
 |PV|
 
-###### **Q**
+######  *Q**
 |**İşlev**|**Özet**|
-|:- |:- |
-|DÖRT DÖNEM|
+| :- | :- |
+|QUARTILE|
 |Çeyrek.Harç|
 |Çeyrek. A.Ş.|
-|BÖLÜM|
+|QUOTIENT|
 
-###### **R**
+######  *R**
 |**İşlev**|**Özet**|
-|:- |:- |
-|RADYAN|
+| :- | :- |
+|RADIANS|
 |RAND|
 |RANDARRAY|
 |RANDBETWEEN|
 |SIRALAMA ORTALAMA|
 |RANK.EŞİT|
-|RÜTBE|
-|ORAN|
-|ALINAN|
-|YER DEĞİŞTİRMEK|
-|DEĞİŞTİR|
-|REP|
-|SAĞ|
-|SAĞB|
-|ROMA|
-|YUVARLAK|
-|AŞAĞI YUVARLAMA|
-|HESABI YUVARLAMAK|
-|SIRA|
-|SATIRLAR|
+|RANK|
+|RATE|
+|RECEIVED|
+|REPLACE|
+|REPLACEB|
+|REPT|
+|RIGHT|
+|RIGHTB|
+|ROMAN|
+|ROUND|
+|ROUNDDOWN|
+|ROUNDUP|
+|ROW|
+|ROWS|
 |RSQ|
 
-###### **S**
+######  *S**
 |**İşlev**|**Özet**|
-|:- |:- |
-|ARA|
-|ARA|
-|İKİNCİ|
-|SIRA|
-|SERİ TOPLAM|
-|ÇARŞAF|
-|ÇARŞAFLAR|
-|İŞARET|
-|GÜNAH|
-|SİNH|
-|EĞRİ|
+| :- | :- |
+|SEARCH|
+|SEARCHB|
+|SECOND|
+|SEQUENCE|
+|SERIESSUM|
+|SHEET|
+|SHEETS|
+|SIGN|
+|SIN|
+|SINH|
+|SKEW|
 |SLN|
-|EĞİM|
-|KÜÇÜK|
-|ÇEŞİT|
-|GÖRE SIRALA|
-|kare|
+|SLOPE|
+|SMALL|
+|SORT|
+|SORTBY|
+|SQRT|
 |SQRTPI|
-|STANDARTLAŞTIR|
+|STANDARDIZE|
 |STDEV|
 |STDEV.P|
 |STDEV.S|
@@ -441,60 +444,60 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 |STDEVP|
 |STDEVPA|
 |STEYX|
-|VEKİL|
-|ARA TOPLAM|
-|TOPLAM|
-|ÖZET|
-|ÇETOPLA|
-|SUMÜRÜN|
+|SUBSTITUTE|
+|SUBTOTAL|
+|SUM|
+|SUMIF|
+|SUMIFS|
+|SUMPRODUCT|
 |SUMSQ|
-|TOPLAMX2MY2|
+|SUMX2MY2|
 |SUMX2PY2|
 |SUMXMY2|
-|DEĞİŞTİRMEK|
+|SWITCH|
 |SYD|
 
-###### **T**
+######  *T**
 |**İşlev**|**Özet**|
-|:- |:- |
+| :- | :- |
 |T|
-|bronzluk|
+|TAN|
 |TANH|
-|TILLEQ|
-|BILLPRICE|
-|BILLYIELD|
+|TBILLEQ|
+|TBILLPRICE|
+|TBILLYIELD|
 |T.DAĞ.2T|
 |T.DAĞ.RT|
-|TDAĞ|
-|METİN|
-|METİN BİRLEŞTİRME|
-|ZAMAN|
-|ZAMAN DEĞERİ|
+|TDIST|
+|TEXT|
+|TEXTJOIN|
+|TIME|
+|TIMEVALUE|
 |T.TERS.2T|
 |TINV|
-|BUGÜN|
-|TRANSPOZ|
-|AKIM|
-|DÖKÜM|
+|TODAY|
+|TRANSPOSE|
+|TREND|
+|TRIM|
 |TRIMMEAN|
-|DOĞRU|
-|KKTC|
+|TRUE|
+|TRUNC|
 |T.TESTİ|
-|TEST|
-|TİP|
+|TTEST|
+|TYPE|
 
-###### **S**
+######  *S**
 |**İşlev**|**Özet**|
-|:- |:- |
+| :- | :- |
 |UNICHAR|
 |UNICODE|
-|BENZERSİZ|
-|ÜST|
+|UNIQUE|
+|UPPER|
 
-###### **V**
+######  *V**
 |**İşlev**|**Özet**|
-|:- |:- |
-|DEĞER|
+| :- | :- |
+|VALUE|
 |VAR|
 |VAR.P|
 |VAR.S|
@@ -502,37 +505,38 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 |VARP|
 |VARPA|
 |VDB|
-|DÜŞEYARA|
+|VLOOKUP|
+|VSTACK|
 
-###### **G**
+######  *G**
 |**İşlev**|**Özet**|
-|:- |:- |
-|HAFTA İÇİ|
-|HAFTANUM|
+| :- | :- |
+|WEEKDAY|
+|WEEKNUM|
 |WEIBULL|
 |WEIBULL.DAĞ|
-|İŞGÜNÜ|
+|WORKDAY|
 |İŞGÜNÜ.ULUSLARARASI|
 
-###### **X**
+######  *X**
 |**İşlev**|**Özet**|
-|:- |:- |
+| :- | :- |
 |XIRR|
 |XLOOKUP|
 |XNPV|
 
-###### **e**
+######  *Y**
 |**İşlev**|**Özet**|
-|:- |:- |
-|YIL|
-|YILFRAC|
-|TESLİM OLMAK|
+| :- | :- |
+|YEAR|
+|YEARFRAC|
+|YIELD|
 |YIELDDISC|
-|YELDMAT|
+|YIELDMAT|
 
-###### **Z**
+######  *Z**
 |**İşlev**|**Özet**|
-|:- |:- |
+| :- | :- |
 |Z.TESTİ|
-|ZTESTİ|
+|ZTEST|
 

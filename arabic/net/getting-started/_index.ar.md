@@ -1,4 +1,4 @@
-﻿---
+---
 title: ابدء
 type: docs
 weight: 10
@@ -10,9 +10,9 @@ url: /ar/net/getting-started/
 
 {{% /alert %}}
 
-## **التركيب**
+##  **تثبيت**
 
-### **قم بتثبيت Aspose.Cells حتى NuGet**
+###  **قم بتثبيت Aspose.Cells حتى NuGet**
 
  NuGet هو أسهل طريقة لتنزيل وتثبيت Aspose.Cells for .NET.
 
@@ -26,7 +26,7 @@ url: /ar/net/getting-started/
 
 [مزيد من الخطوات للحصول على التفاصيل](/cells/ar/net/installation/)
 
-### **قم بتثبيت Aspose.Cells على الويندوز**
+###  **قم بتثبيت Aspose.Cells على الويندوز**
 
 1. تنزيل Aspose.Cells.msi من الصفحة التالية:
 [تنزيل Aspose.Cells.msi](https://downloads.aspose.com/cells/net/)
@@ -36,7 +36,7 @@ url: /ar/net/getting-started/
 
 [مزيد من الخطوات للحصول على التفاصيل](/cells/ar/net/installing-aspose-cells-on-windows/)
 
-### **قم بتثبيت Aspose.Cells على لينكس**
+###  **قم بتثبيت Aspose.Cells على لينكس**
 
 في هذا المثال ، أستخدم Ubuntu لإظهار كيفية بدء استخدام Aspose.Cells على نظام Linux.
 
@@ -44,7 +44,7 @@ url: /ar/net/getting-started/
 2. افتح الملف "AsposeCellsTest.csproj" ، أضف الأسطر التالية فيه للحصول على مراجع الحزمة Aspose.Cells:
 {{< highlight "plain" >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="22.12" />
+    <PackageReference Include="Aspose.Cells" Version="23.5" />
   </ItemGroup>
 {{< /highlight >}}
 3. افتح المشروع باستخدام VSCode على Ubuntu:
@@ -56,7 +56,7 @@ url: /ar/net/getting-started/
 
 ينطبق على: NetStandard2.0 و NetCore2.1 و NetCore3.1 و Net5.0 و Net6.0 والإصدار المتقدم.
 
-### **قم بتثبيت Aspose.Cells على MAC OS**
+###  **قم بتثبيت Aspose.Cells على MAC OS**
 
 في هذا المثال ، أستخدم macOS High Sierra لإظهار كيفية بدء استخدام Aspose.Cells على نظام تشغيل MAC.
 
@@ -72,18 +72,18 @@ url: /ar/net/getting-started/
 
 ينطبق على: NetStandard2.0 و NetCore2.1 و NetCore3.1 و Net5.0 و Net6.0 والإصدار المتقدم.
 
-### **[تشغيل Aspose Cells في Docker] (/ cells / net / how-to-run-aspose-cells-in-docker /)**
+###  **[تشغيل Aspose Cells في Docker] (/ cells / net / how-to-run-aspose-cells-in-docker /)**
 
-### **كيفية استخدام مكتبة الرسومات على الأنظمة الأساسية التي لا تعمل بنظام Windows مع Net6**
+###  **كيفية استخدام مكتبة الرسومات على الأنظمة الأساسية التي لا تعمل بنظام Windows مع Net6**
 
  يستخدم Aspose.Cells لـ Net6 الآن SkiaSharp كمكتبة رسومات ، على النحو الموصى به في[بيان رسمي من Microsoft](https://github.com/dotnet/designs/blob/f9d006073b7a019bd2021e99c66516447f7fb1a6/accepted/2021/system-drawing-win-only/system-drawing-win-only.md) . لمزيد من التفاصيل حول استخدام Aspose.Cells مع NET6 ، يرجى مراجعة[كيفية تشغيل Aspose.Cells لـ NET6](/cells/ar/net/how-to-run-aspose-cells-for-net6/).
 
-## **إنشاء تطبيق Hello World**
+##  **إنشاء تطبيق Hello World**
 
 تؤدي الخطوات أدناه إلى إنشاء تطبيق Hello World باستخدام Aspose.Cells API:
 
 1.  إذا كان لديك ترخيص ، إذن[قم بتطبيقه](/cells/ar/net/licensing/).
- إذا كنت تستخدم الإصدار التقييمي ، فتخط سطور التعليمات البرمجية المتعلقة بالترخيص.
+إذا كنت تستخدم الإصدار التقييمي ، فتخط سطور التعليمات البرمجية المتعلقة بالترخيص.
 1.  قم بإنشاء مثيل لـ[دفتر العمل](https://reference.aspose.com/cells/net/aspose.cells/workbook) فئة لإنشاء ملف Excel جديد ، أو فتح ملف Excel موجود.
 1. قم بالوصول إلى أي خلية مرغوبة من ورقة العمل في ملف Excel.
 1.  أدخل الكلمات**Hello World!** في خلية تم الوصول إليها.
@@ -91,13 +91,13 @@ url: /ar/net/getting-started/
 
 يتم توضيح تنفيذ الخطوات المذكورة أعلاه في الأمثلة أدناه.
 
-### **نموذج التعليمات البرمجية: إنشاء مصنف جديد**
+###  **نموذج التعليمات البرمجية: إنشاء مصنف جديد**
 
 يقوم المثال التالي بإنشاء مصنف جديد من البداية ، ويدرج "Hello World!" في الخلية A1 في ورقة العمل الأولى وحفظها كملف Excel.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-FirstApplication-1.cs" >}}
 
-### **نموذج التعليمات البرمجية: فتح ملف موجود**
+###  **نموذج التعليمات البرمجية: فتح ملف موجود**
 
 يفتح المثال التالي ملف قالب Excel Microsoft موجود "Sample.xlsx" ، ويدرج "Hello World!" في الخلية A1 في ورقة العمل الأولى وحفظها كملف Excel.
 

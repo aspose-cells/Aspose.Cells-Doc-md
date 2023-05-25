@@ -1,8 +1,10 @@
-﻿---
+---
 title: Sayfa Sonlarını Yönetme
 type: docs
 weight: 30
 url: /tr/net/managing-page-breaks/
+description: Bu makalede örnek kod sağlanır ve C# API veya .NET Kitaplığı kullanılarak Excel çalışma sayfalarında programlı olarak sayfa sonlarının nasıl ekleneceği, sayfa sonlarının nasıl temizleneceği veya belirli sayfa sonlarının nasıl silineceği açıklanır.
+keywords: page breaks c#, excel page breaks c#, clear page break c#, delete specific page break c#
 ---
 {{% alert color="primary" %}}
 
@@ -17,19 +19,19 @@ Tartışmanın geri kalanında, Aspose.Cells'i kullanarak çalışma sayfaların
 
 {{% /alert %}}
 
-## **Sayfa Sonları**
+##  **Sayfa Sonları**
 
 Aspose.Cells bir sağlar[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) bir Excel dosyasını temsil eden sınıf. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf bir içerir[**çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)Excel dosyasındaki her çalışma sayfasına erişim sağlayan koleksiyon.
 
  Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf. bu[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)class, bir çalışma sayfasını yönetmek için kullanılan çok çeşitli özellikler ve yöntemler sağlar.
 
- Sayfa sonlarını eklemek için[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf'[**Yatay Sayfa Sonları**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks) ve[**VerticalPageBreaks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks)özellikler.
+Sayfa sonlarını eklemek için[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf'[**Yatay Sayfa Sonları**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks) Ve[**VerticalPageBreaks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks)özellikler.
 
- bu[**Yatay Sayfa Sonları**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks) ve[**VerticalPageBreaks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks)özellikler, birkaç sayfa sonu içerebilen koleksiyonlardır. Her koleksiyon, yatay ve dikey sayfa sonlarını yönetmek için çeşitli yöntemler içerir.
+ bu[**Yatay Sayfa Sonları**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks) Ve[**VerticalPageBreaks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks)özellikler, birkaç sayfa sonu içerebilen koleksiyonlardır. Her koleksiyon, yatay ve dikey sayfa sonlarını yönetmek için çeşitli yöntemler içerir.
 
-### **Sayfa Sonları Ekleme**
+###  **Sayfa Sonları Ekleme**
 
- Bir çalışma sayfasına sayfa sonu eklemek için belirtilen hücreye dikey ve yatay sayfa sonları ekleyin.[**HorizontalPageBreakCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection/methods/add/index) ve[**VerticalPageBreakCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection/methods/add/index) yöntemler. Her biri**Eklemek** method break eklenmesi gereken hücrenin adını alır.
+ Bir çalışma sayfasına sayfa sonu eklemek için belirtilen hücreye dikey ve yatay sayfa sonları ekleyin.[**HorizontalPageBreakCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection/methods/add/index) Ve[**VerticalPageBreakCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection/methods/add/index) yöntemler. Her biri**Eklemek** method break eklenmesi gereken hücrenin adını alır.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-AddingPageBreaks-1.cs" >}}
 
@@ -39,18 +41,18 @@ Sayfa sonu önizleme veya baskı önizleme modlarında, bu sayfa sonlarının na
 
 {{% /alert %}}
 
-### **Tüm Sayfa Sonlarını Temizleme**
+###  **Tüm Sayfa Sonlarını Temizleme**
 
- Bir çalışma sayfasındaki tüm sayfa sonlarını temizlemek için[**HorizontalPageBreakCollection**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection) ve[**VerticalPageBreakCollection**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection) koleksiyonlar'[**Temizlemek()**](https://docs.microsoft.com/en-us/dotnet/api/system.collections.collectionbase.clear?redirectedfrom=MSDN&view=netframework-4.7.2#System_Collections_CollectionBase_Clear)yöntemler.
+ Bir çalışma sayfasındaki tüm sayfa sonlarını temizlemek için[**HorizontalPageBreakCollection**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection) Ve[**VerticalPageBreakCollection**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection) koleksiyonlar'[**Clear()**](https://docs.microsoft.com/en-us/dotnet/api/system.collections.collectionbase.clear?redirectedfrom=MSDN&view=netframework-4.7.2#System_Collections_CollectionBase_Clear)yöntemler.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-ClearAllPageBreaks-1.cs" >}}
 
-### **Belirli Sayfa Sonunu Kaldırma**
+###  **Belirli Sayfa Sonunu Kaldırma**
 
- Belirli bir sayfa sonunu kaldırmak için[**HorizontalPageBreakCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection/methods/removeat) ve[**VerticalPageBreakCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection/methods/removeat) yöntemler. Her biri**KaldırAt**method kaldırılmak üzere olan sayfa sonunun indeksini alır.
+ Belirli bir sayfa sonunu kaldırmak için[**HorizontalPageBreakCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection/methods/removeat) Ve[**VerticalPageBreakCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection/methods/removeat) yöntemler. Her biri**KaldırAt**method kaldırılmak üzere olan sayfa sonunun indeksini alır.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-RemoveSpecificPageBreak-1.cs" >}}
 
-## **bilmek önemli**
+##  **bilmek önemli**
 
- ayarladığınızda**Sayfalara Sığdır** özellikler (yani[**Sayfalara SığdırUzun**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) ve[**Sayfalara SığdırGeniş**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)) sayfa yapısı ayarlarında, sayfa sonu ayarları etkilenir, bu nedenle, çalışma sayfasını yazdırırsanız, sayfa sonu ayarları, yine de ayarlanmış olmasına rağmen dikkate alınmaz.
+ ayarladığınızda**Sayfalara Sığdır** özellikler (yani[**Sayfalara SığdırUzun**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) Ve[**Sayfalara SığdırGeniş**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)) sayfa yapısı ayarlarında, sayfa sonu ayarları etkilenir, bu nedenle, çalışma sayfasını yazdırırsanız, sayfa sonu ayarları, yine de ayarlanmış olmasına rağmen dikkate alınmaz.

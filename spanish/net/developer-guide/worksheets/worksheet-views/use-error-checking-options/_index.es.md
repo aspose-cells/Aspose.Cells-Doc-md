@@ -1,8 +1,10 @@
-﻿---
+---
 title: Usar opciones de comprobación de errores
 type: docs
 weight: 140
 url: /es/net/use-error-checking-options/
+description: En este artículo, encontrará un código de muestra que utilizará mediante programación las opciones de verificación de errores de las hojas de cálculo de Excel, por ejemplo, Numbers almacenado como Texto usando C# API o .NET Biblioteca.
+keywords: store number as text in excel using c#, error check excel options c#
 ---
 {{% alert color="primary" %}}
 
@@ -10,21 +12,21 @@ Microsoft Excel permite a los usuarios definir opciones y reglas de comprobació
 
 {{% /alert %}}
 
-## **Tipos de errores**
+##  **Tipos de errores**
 
 Los errores que significan que la fórmula no puede devolver un resultado, como dividir un número por cero, requieren atención inmediata y se muestra un valor de error en la celda. Al hacer clic en el triángulo verde se muestra un signo de exclamación, al hacer clic se abre una lista de opciones.
 
 El error puede resolverse utilizando las opciones o ignorarse. Ignorar un error significa que ese error no aparecerá en otras verificaciones de errores.
 
- Aspose.Cells proporciona funciones de opción de verificación de errores. Él[**ErrorCheckOption**](https://reference.aspose.com/cells/net/aspose.cells/errorcheckoption) class administra diferentes tipos de comprobaciones de errores, por ejemplo, números almacenados como texto, errores de cálculo de fórmulas y errores de validación. Utilizar el[**ErrorCheckType**](https://reference.aspose.com/cells/net/aspose.cells/errorchecktype)enumeración para establecer la comprobación de errores deseada.
+ Aspose.Cells proporciona funciones de opción de verificación de errores. El[**ErrorCheckOption**](https://reference.aspose.com/cells/net/aspose.cells/errorcheckoption) class administra diferentes tipos de comprobaciones de errores, por ejemplo, números almacenados como texto, errores de cálculo de fórmulas y errores de validación. Utilizar el[**ErrorCheckType**](https://reference.aspose.com/cells/net/aspose.cells/errorchecktype)enumeración para establecer la comprobación de errores deseada.
 
-## **Numbers Almacenado como texto**
+##  **Numbers Almacenado como texto**
 
 Ocasionalmente, los números pueden formatearse y almacenarse en celdas como texto. Esto puede causar problemas con los cálculos o generar órdenes de clasificación confusos. Numbers que tienen formato de texto se alinean a la izquierda en lugar de a la derecha en la celda. Si una fórmula que debería realizar una operación matemática en las celdas no devuelve un valor, verifique la alineación en las celdas a las que se refiere la fórmula; algunas o todas esas celdas pueden ser números con formato de texto.
 
 Puede usar las opciones de verificación de errores para convertir rápidamente números almacenados como texto en números reales. En Microsoft Excel 2003:
 
-1.  Sobre el**Herramientas** menú, haga clic**Opciones**.
+1.  Sobre el**Herramientas** menú, haga clic en *Opciones**.
 1. Seleccione la pestaña Comprobación de errores.
    **Número almacenado como texto** La opción está marcada por defecto.
 1. Desactívelo.

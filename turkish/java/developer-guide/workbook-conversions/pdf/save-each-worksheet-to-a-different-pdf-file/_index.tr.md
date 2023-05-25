@@ -1,4 +1,4 @@
-﻿---
+---
 title: Her Çalışma Sayfasını Farklı Bir PDF Dosyasına Kaydet
 type: docs
 weight: 50
@@ -10,12 +10,12 @@ Aspose.Cells, elektronik tablo dosyalarının (resimler, grafikler vb. içeren) 
 
 {{% /alert %}}
 
-Farklı PDF dosyaları oluşturmak için şablon Excel dosyanızdaki her çalışma sayfasını kaydetmeniz gerekiyorsa. Bu kolayca elde edilebilir. Dosyadaki sayfaları gizlemeyi deneyebilir ve PDF'leri oluşturacağınız sayfaya bağlı olarak her seferinde bir sayfayı görünür hale getirebilirsiniz.
+Farklı PDF dosyaları oluşturmak için şablon Excel dosyanızdaki her çalışma sayfasını kaydetmeniz gerekiyorsa. Bu kolayca elde edilebilir. Bir sayfa dizini olarak ayarlamayı deneyebilirsiniz.**[`PdfSaveOptions.SheetSet`](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setSheetSet-com.aspose.cells.SheetSet-)** PDF'e işlenecek bir seferde seçenek.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SaveEachWorksheettoDifferentPDF-SaveEachWorksheettoDifferentPDF.java" >}}
 
 {{% alert color="primary" %}}
 
- Elektronik tablo formüller içeriyorsa, en iyisi[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()yöntemi, elektronik tabloyu PDF'e dönüştürmeden hemen önce. Bu, formüle bağlı değerlerin yeniden hesaplanmasını ve doğru değerlerin PDF'de oluşturulmasını sağlar.
+ Elektronik tablo formüller içeriyorsa, en iyisi[**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) yöntemi, elektronik tabloyu PDF'e dönüştürmeden hemen önce. Bu, formüle bağlı değerlerin yeniden hesaplanmasını ve doğru değerlerin PDF'de oluşturulmasını sağlar.
 
 {{% /alert %}}

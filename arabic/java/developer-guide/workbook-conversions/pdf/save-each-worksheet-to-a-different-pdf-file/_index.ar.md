@@ -1,4 +1,4 @@
-﻿---
+---
 title: احفظ كل ورقة عمل في ملف PDF مختلف
 type: docs
 weight: 50
@@ -10,12 +10,12 @@ url: /ar/java/save-each-worksheet-to-a-different-pdf-file/
 
 {{% /alert %}}
 
-إذا كنت بحاجة إلى حفظ كل ورقة عمل في ملف Excel النموذجي الخاص بك لإنشاء ملفات PDF مختلفة. يمكن تحقيق ذلك بسهولة. يمكنك محاولة إخفاء الأوراق في الملف وجعل ورقة واحدة مرئية في كل مرة بناءً على ما ستعرض عليه ملفات PDF.
+إذا كنت بحاجة إلى حفظ كل ورقة عمل في ملف Excel النموذجي الخاص بك لإنشاء ملفات PDF مختلفة. يمكن تحقيق ذلك بسهولة. يمكنك محاولة تعيين فهرس ورقة واحدة على**[`PdfSaveOptions.SheetSet`] (https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setSheetSet-com.aspose.cells.SheetSet-)** الخيار في وقت لتقديم PDF.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SaveEachWorksheettoDifferentPDF-SaveEachWorksheettoDifferentPDF.java" >}}
 
 {{% alert color="primary" %}}
 
- إذا كان جدول البيانات يحتوي على صيغ ، فمن الأفضل استدعاء[**مصنف .calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()قبل تحويل جدول البيانات إلى PDF. هذا يضمن إعادة حساب القيم التابعة للصيغة ، وتقديم القيم الصحيحة في PDF.
+ إذا كان جدول البيانات يحتوي على صيغ ، فمن الأفضل استدعاء[**Workbook.calculateFormula ()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) قبل تحويل جدول البيانات إلى PDF. وهذا يضمن إعادة حساب القيم التابعة للصيغة ، وتقديم القيم الصحيحة في PDF.
 
 {{% /alert %}}

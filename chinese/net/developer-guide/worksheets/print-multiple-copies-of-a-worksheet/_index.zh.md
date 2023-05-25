@@ -1,12 +1,14 @@
-﻿---
+---
 title: 打印工作表的多份副本
 type: docs
 weight: 170
 url: /zh/net/print-multiple-copies-of-a-worksheet/
+description: 本文介绍如何使用 C# 库和 .NET API 以编程方式打印 Excel 工作表的多个副本。
+keywords: print multiple excel copies c#, print worksheets c#
 ---
-## **打印工作表的多份副本**
+##  **打印工作表的多份副本**
 
-Aspose.Cells 提供了通过使用[**SheetRender.ToPrinter(PrintSettings *PrinterSettings*)**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toprinter)方法。下面的代码片段演示了使用[**SheetRender.ToPrinter(PrintSettings *PrinterSettings*)**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toprinter)打印工作表的多个副本的方法。下面的代码片段使用了这个[示例 excel 文件](95584275.xlsx).
+ Aspose.Cells 提供了通过使用[**SheetRender.ToPrinter(PrintSettings *PrinterSettings*)**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toprinter)方法。下面的代码片段演示了使用[**SheetRender.ToPrinter(PrintSettings *PrinterSettings*)**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toprinter)打印工作表的多个副本的方法。下面的代码片段使用了这个[示例 excel 文件](95584275.xlsx).
 
 ### 示例代码
 

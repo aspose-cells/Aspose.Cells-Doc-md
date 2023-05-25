@@ -1,12 +1,14 @@
-﻿---
-title: Holen Sie sich die eindeutige ID des Arbeitsblatts
+---
+title: Rufen Sie die eindeutige Arbeitsblatt-ID ab
 type: docs
 weight: 190
 url: /de/net/get-worksheet-unique-id/
+description: In diesem Artikel wird gezeigt, wie Sie mithilfe der Bibliothek C# und .NET API programmgesteuert eine eindeutige Excel-Arbeitsblatt-ID erhalten
+keywords: unique id excel worksheet c#, unique id worksheet c#
 ---
-## **Holen Sie sich die eindeutige ID des Arbeitsblatts**
+##  **Rufen Sie die eindeutige Arbeitsblatt-ID ab**
 
- Aspose.Cells bietet die Möglichkeit, die eindeutige ID eines Arbeitsblatts mithilfe von zu erhalten[**Arbeitsblatt.UniqueId**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/uniqueid)Eigentum. Das folgende Code-Snippet demonstriert die Verwendung von[**Arbeitsblatt.UniqueId**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/uniqueid) -Eigenschaft zum Drucken der eindeutigen ID eines Arbeitsblatts. Das folgende Code-Snippet verwendet dies[Excel-Beispieldatei](105480213.xlsx).
+ Aspose.Cells bietet die Möglichkeit, die eindeutige ID eines Arbeitsblatts mithilfe von abzurufen[**Arbeitsblatt.UniqueId**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/uniqueid)Eigentum. Der folgende Codeausschnitt demonstriert die Verwendung von[**Arbeitsblatt.UniqueId**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/uniqueid) Eigenschaft zum Drucken der eindeutigen ID eines Arbeitsblatts. Der folgende Codeausschnitt verwendet dies[Beispiel-Excel-Datei](105480213.xlsx).
 
 ### Quellcode
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit GridJs-Speicher
 type: docs
 weight: 250
@@ -6,21 +6,23 @@ url: /de/net/aspose-cells-gridjs/storage/
 description: Dieser Artikel beschreibt die allgemeine Verarbeitung für Aspose.Cells.GridJs.
 keywords: file cache,storage,GridJs,GridJs storage,GridJs uid,download,uniqueid
 ---
-# Arbeiten mit GridJs-Speicher
-## der allgemeine Dateiprozess
-Nachdem Sie eine Tabellenkalkulationsdatei in den Speicher importiert und die Benutzeroberfläche angezeigt haben,
+#  Arbeiten mit GridJs-Speicher
+##  der allgemeine Dateiprozess
+Nachdem Sie eine Tabellenkalkulationsdatei importiert haben,
 
-GridJs erstellt eine Cache-Datei mit der angegebenen uid ,
+ GridJs erstellt eine Cache-Datei mit der angegebenen UID im**`Config.FileCacheDirectory`** Ordner ,
 
  mit dem Format von[Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/net/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat") ,
 
-und dann nach jedem Update-Vorgang in der Benutzeroberfläche,
+ GridJs speichert außerdem alle Formen/Bilder in einer ZIP-Archivdatei im**`Config.PictureCacheDirectory`** Ordner für die spätere Anzeige von Formen/Bildern in der Client-Benutzeroberfläche.
+
+und nach jedem Aktualisierungsvorgang in der Client-Benutzeroberfläche,
 
 zum Beispiel Zellwert festlegen, Zellstil festlegen usw. ,
 
-Clientseitige js von GridJ lösen eine Controller-Aktion aus, um eine UpdateCell-Operation auszuführen.
+Die clientseitigen JS von GridJ lösen eine Controller-Aktion aus, um eine UpdateCell-Operation auszuführen.
 
-Bei dieser Aktion wird während der UpdateCell-Methode aus dem Speicher in die Cache-Datei zurückgespeichert.
+Bei dieser Aktion erfolgt während der UpdateCell-Methode eine Rückspeicherung in die Cache-Datei.
 ```C#   
         // post: /GridJs/UpdateCell
         [HttpPost] 
@@ -33,9 +35,10 @@ Bei dieser Aktion wird während der UpdateCell-Methode aus dem Speicher in die C
             return Content(ret, "text/plain", System.Text.Encoding.UTF8);
         }
 ```
-### Wo ist das Cache-Verzeichnis
-A. Wenn wir GridCacheForStream implementieren und GridJsWorkbook.CacheImp.
- Zum Beispiel können wir im folgenden Code einfach die Cache-Datei einfügen und abrufen**"D:\temp"**
+###  Wo ist eigentlich die Cache-Datei?
+
+A. Wenn wir GridCacheForStream implementieren und GridJsWorkbook.CacheImp festlegen.
+ Im folgenden Code können wir beispielsweise einfach die Cache-Datei einfügen und abrufen**„D:\temp“**
 ```C#
 Config.FileCacheDirectory=@"D:\temp";
 GridJsWorkbook.CacheImp=new LocalFileCache();
@@ -73,15 +76,15 @@ public class LocalFileCache  : GridCacheForStream
 ```
 B.Wenn wir GridJsWorkbook.CacheImp nicht festlegen,
 
- GridJs erstellt und speichert eine Datei innerhalb der**Config.FileCacheDirectory** , das ist das Standard-Cache-Verzeichnis, das wir festlegen können.
+ GridJs erstellt und speichert die Datei innerhalb der**`Config.FileCacheDirectory`** , das ist das Standard-Cache-Verzeichnis, das wir festlegen können.
 
-### So erhalten Sie die aktualisierte Ergebnisdatei
+###  So erhalten Sie die aktualisierte Ergebnisdatei
 #### 1. eine angegebene UID für die Datei
- Stellen Sie sicher, dass eine bestimmte Kartenkorrespondenz zwischen der Datei und der UID besteht,
+ Stellen Sie sicher, dass zwischen der Datei und der UID eine bestimmte Zuordnungskorrespondenz besteht.
 
 Sie können immer die gleiche UID für einen bestimmten Dateinamen erhalten, nicht durch zufällige Generierung.
 
-Verwenden Sie zum Beispiel einfach den Dateinamen.
+Verwenden Sie zum Beispiel einfach den Dateinamen, das ist in Ordnung.
 ```C#
 //in controller  
 ...
@@ -108,10 +111,10 @@ Verwenden Sie zum Beispiel einfach den Dateinamen.
         }
 ```
 
-#### 2. Synchronisierung mit ui-Betrieb
-Eigentlich für einige UI-Operationen,
+####  2. Synchronisierung mit dem Client-UI-Betrieb
+Eigentlich für einige Client-UI-Vorgänge:
 
-zum Beispiel:
+Zum Beispiel:
 
 Wechseln Sie das aktive Blatt zu einem anderen,
 
@@ -121,9 +124,9 @@ Bild drehen/skalieren usw.
 
 Die UpdateCell-Aktion wird nicht ausgelöst.
 
-Wenn wir also die aktualisierte Datei genauso erhalten möchten, wie die Benutzeroberfläche zeigt,
+Wenn wir also die aktualisierte Datei genauso erhalten möchten, wie die Client-Benutzeroberfläche zeigt,
 
-Wir müssen vor dem Speichern eine Zusammenführungsoperation durchführen, um diese UI-Operationen zu synchronisieren.
+Wir müssen vor der Speicheraktion einen Zusammenführungsvorgang durchführen, um diese Client-UI-Vorgänge zu synchronisieren.
 ```javascript
 //in the js
   function save() {
@@ -158,8 +161,8 @@ Wir müssen vor dem Speichern eine Zusammenführungsoperation durchführen, um d
   //after merge do save to chache or to a stream or whaterver you want to save to ,here we just save to cache
   wb.SaveToXlsx(Path.Combine(Config.FileCacheDirectory, uid));
 ```         
-#### 3. Holen Sie sich die Datei aus dem Cache
-Zum Beispiel: In der Download-Aktion können Sie es einfach aus dem Cache-Verzeichnis per UID abrufen.
+####  3. Holen Sie sich die Datei aus dem Cache
+Zum Beispiel: In der Download-Aktion können Sie es einfach per UID aus dem Cache-Verzeichnis abrufen.
 ```C#
 //in controller  
 
@@ -174,5 +177,5 @@ Zum Beispiel: In der Download-Aktion können Sie es einfach aus dem Cache-Verzei
         }
 ```
 
-Für weitere Detailinformationen können Sie das Beispiel hier überprüfen:
+Für detailliertere Informationen können Sie sich das Beispiel hier ansehen:
 <https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>

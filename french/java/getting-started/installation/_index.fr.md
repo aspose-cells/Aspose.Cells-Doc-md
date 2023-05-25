@@ -1,10 +1,10 @@
-﻿---
+---
 title: Installation
 type: docs
 weight: 20
 url: /fr/java/installation/
 ---
-## **Installation de Aspose.Cells for Java à partir du référentiel Maven**
+##  **Installation de Aspose.Cells for Java à partir du référentiel Maven**
 
 Aspose héberge toutes les API Java sur[Maven référentiel](https://releases.aspose.com/java/repo/) . Vous pouvez facilement utiliser[Aspose.Cells for Java API](https://releases.aspose.com/cells/java/) directement dans vos projets Maven avec des configurations simples.
 
@@ -28,6 +28,17 @@ Tout d'abord, vous devez spécifier la configuration/l'emplacement du référent
 
 {{< /highlight >}}
 
+pour Gradle dans votre script build.gradle comme suit :
+{{< highlight "java" >}}
+//Add Aspose maven repository
+repositories {
+    mavenCentral()
+    maven {
+        url "https://releases.aspose.com/java/repo/"
+    }
+}
+{{< /highlight >}}
+
 Définissez ensuite la dépendance Aspose.Cells for Java API dans votre pom.xml comme suit (cela inclura tout, par exemple le fichier jar principal, Java Docs et d'autres bibliothèques en conséquence):
 
 {{< highlight "java" >}}
@@ -40,7 +51,7 @@ Définissez ensuite la dépendance Aspose.Cells for Java API dans votre pom.xml 
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>22.12</version>
+            <version>23.5</version>
 
         </dependency>
 
@@ -50,7 +61,7 @@ Définissez ensuite la dépendance Aspose.Cells for Java API dans votre pom.xml 
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>22.12</version>
+            <version>23.5</version>
 
             <classifier>javadoc</classifier>
 
@@ -82,7 +93,7 @@ Définissez ensuite la dépendance Aspose.Cells for Java API dans votre pom.xml 
 
 Toutes nos félicitations! Vous avez défini avec succès la dépendance Aspose.Cells for Java Maven dans votre projet Maven.
 
-## **Soutien**
+##  **Soutien**
 
 Veuillez vérifier les points suivants pour obtenir une assistance technique rapide
 

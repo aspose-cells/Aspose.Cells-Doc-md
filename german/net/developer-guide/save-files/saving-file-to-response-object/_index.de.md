@@ -1,4 +1,4 @@
-﻿---
+---
 title: Datei im Antwortobjekt speichern
 type: docs
 weight: 50
@@ -10,40 +10,40 @@ Aspose.Cells ermöglicht die Manipulation von Dateien. In diesem Artikel werden 
 
 {{% /alert %}}
 
-## **Datei im Antwortobjekt speichern**
+##  **Datei im Antwortobjekt speichern**
 
- Es ist auch möglich, eine Datei dynamisch zu generieren und direkt an einen Client-Browser zu senden. Verwenden Sie dazu eine spezielle überladene Version von**[Speichern](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/5)**Methode, die die folgenden Parameter akzeptiert:
+Es ist auch möglich, eine Datei dynamisch zu generieren und direkt an einen Client-Browser zu senden. Verwenden Sie dazu eine spezielle überladene Version von**[Speichern](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/5)**Methode, die die folgenden Parameter akzeptiert:
 
--  ASP.NET**[HttpResponse](https://docs.microsoft.com/en-gb/dotnet/api/system.web.httpresponse?view=netframework-4.8)**Objekt.
-- Dateiname.
-- **[ContentDisposition](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)**, der Inhaltsdispositionstyp der Ausgabedatei.
-- **[Speicheroptionen](https://reference.aspose.com/cells/net/aspose.cells/saveoptions)**, der Dateiformattyp
+- ASP.NET **[HttpResponse](https://docs.microsoft.com/en-gb/dotnet/api/system.web.httpresponse?view=netframework-4.8)**Objekt.
+- Dateinamen.
+- *[ContentDisposition](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)**, der Inhaltsdispositionstyp der Ausgabedatei.
+- *[SaveOptions](https://reference.aspose.com/cells/net/aspose.cells/saveoptions)**, der Dateiformattyp
 
- Das**[ContentDisposition](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)**Die Enumeration bestimmt, ob die an den Browser gesendete Datei die Option bietet, sich selbst direkt im Browser oder in einer Anwendung zu öffnen, die mit .xls/.xlsx oder einer anderen Erweiterung verknüpft ist.
+ Der**[ContentDisposition](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)**Durch die Aufzählung wird bestimmt, ob die an den Browser gesendete Datei die Möglichkeit bietet, direkt im Browser oder in einer mit .xls/.xlsx oder einer anderen Erweiterung verknüpften Anwendung geöffnet zu werden.
 
 Die Enumeration enthält die folgenden vordefinierten Speichertypen:
 
 |**Typ**|**Beschreibung**|
-|:- |:- |
-|Anhang|Sendet die Tabelle an den Browser und wird in einer Anwendung als Anhang geöffnet, der mit .xls/.xlsx oder anderen Erweiterungen verknüpft ist|
-|In der Reihe|Sendet das Dokument an den Browser und bietet eine Option zum Speichern der Tabelle auf der Festplatte oder zum Öffnen im Browser|
+| :- | :- |
+|Attachment|Sendet die Tabelle an den Browser und öffnet sie in einer Anwendung als Anhang mit .xls/.xlsx oder anderen Erweiterungen|
+|Inline|Sendet das Dokument an den Browser und bietet eine Option zum Speichern der Tabelle auf der Festplatte oder zum Öffnen im Browser|
 
-### **XLS Dateien**
+###  **XLS Dateien**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveXLSFile-1.cs" >}}
 
-### **XLSX Dateien**
+###  **XLSX Dateien**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveXLSXFile-1.cs" >}}
 
-### **PDF Dateien**
+###  **PDF Dateien**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveInPdfFormat-1.cs" >}}
 
-### **Notiz**
+###  **Notiz**
 
-Da das Objekt „System.Web.HttpResponse“ nicht in .NET5 und .Netstandard enthalten ist,
-Diese Funktion existiert also nicht in Aspose.Cells .NET5- und .Netstandard-Version, Sie können auf den folgenden Code verweisen, um die Datei im Stream zu speichern, und dann den Vorgang im Stream ausführen.
+Aufgrund des Objekts „System.Web.HttpResponse“, das in .NET5 und .Netstandard nicht enthalten ist,
+Da diese Funktion in der .NET5- und .Netstandard-Version Aspose.Cells nicht vorhanden ist, können Sie sich auf den folgenden Code beziehen, um die Datei im Stream zu speichern und dann den Vorgang für den Stream auszuführen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoStream-1.cs" >}}
 

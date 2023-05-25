@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lavorare con la funzione Highlight di GridJ
 type: docs
 weight: 250
@@ -6,11 +6,11 @@ url: /it/net/aspose-cells-gridjs/highlight/
 description: Questo articolo descrive come utilizzare GridJs per evidenziare il testo della cella, gli intervalli di celle, le forme e le immagini.
 keywords: highlight, highlight spreadsheet
 ---
-# Lavorare con la funzione Highlight di GridJ
+#  Lavorare con la funzione Highlight di GridJ
  Supportiamo le seguenti API JS per la funzione Highlight
 
 
-- Abilita l'evidenziazione e imposta lo stile di evidenziazione, tutte le API di evidenziazione avranno effetto solo dopo aver impostato lo stile di evidenziazione
+-  Abilita l'evidenziazione e imposta lo stile di evidenziazione, tutte le API di evidenziazione avranno effetto solo dopo aver impostato lo stile di evidenziazione
 ```javascript
 xs.showHighlights(style)
  // the parameter is:
@@ -18,11 +18,11 @@ xs.showHighlights(style)
  for example: {'color':'rgba(85, 57, 47, 0.08)'}
 ```
 
-- Disabilita l'evidenziazione
+-  Disabilita l'evidenziazione
 ```javascript
 xs.hideHighlights()
 ```
-- Aggiungi il testo della cella da evidenziare
+-  Aggiungi il testo della cella da evidenziare
 ```javascript
 xs.sheet.addHighlightText(row,col,startpostion,endposition)
     // the parameters are:
@@ -30,9 +30,10 @@ xs.sheet.addHighlightText(row,col,startpostion,endposition)
 	col:column index
 	startpostion: highlight start postion in cell text 
 	endpostion: highlight end postion in cell text 
+    //it support multiple range postion inside one cell
 ```
 
-- Rimuovi l'evidenziazione per il testo della cella nell'array
+-  Rimuovi l'evidenziazione per il testo della cella nell'array
 ```javascript
 xs.sheet.removeHighlightText(row,col)
     // the parameters are:
@@ -45,7 +46,7 @@ xs.sheet.removeHighlightText(row,col)
 xs.sheet.getHighlightTexts()
 ```
 
-- Aggiungi l'intervallo di celle da evidenziare
+-  Aggiungi l'intervallo di celle da evidenziare
 ```javascript
 xs.sheet.addHighlightRange(sri,sci,eri,eci)
     // the parameters are:
@@ -55,7 +56,7 @@ xs.sheet.addHighlightRange(sri,sci,eri,eci)
 	eci:end column index of cell range
 ```
 
-- Rimuovi l'evidenziazione per l'intervallo di celle nell'array
+-  Rimuovi l'evidenziazione per l'intervallo di celle nell'array
 ```javascript
 xs.sheet.removeHighlightRange(sri,sci,eri,eci)
      // the parameters are:
@@ -70,7 +71,7 @@ xs.sheet.removeHighlightRange(sri,sci,eri,eci)
 xs.sheet.getHighlightRanges()
 ```
 
-- Imposta l'intervallo di celle sull'evidenziazione inversa
+-  Imposta l'intervallo di celle sull'evidenziazione inversa
 ```javascript
 xs.sheet.setHighlightInverseRange(sri,sci,eri,eci)
     // the parameters are:
@@ -80,7 +81,7 @@ xs.sheet.setHighlightInverseRange(sri,sci,eri,eci)
 	eci:end column index of cell range
 ```
 
-- Rimuovi l'evidenziazione per l'evidenziazione inversa
+-  Rimuovi l'evidenziazione per l'evidenziazione inversa
 ```javascript
 xs.sheet.removeHighlightInverseRange()
      
@@ -92,14 +93,14 @@ xs.sheet.getHighlightInverseRange()
 ```
 
 
-- Aggiungi forma per evidenziare la matrice
+-  Aggiungi forma per evidenziare la matrice
 ```javascript
 xs.sheet.addHighlightShape(shapeid)
     // the parameters are:
     shapeid: the id of shape, can be find in xs.sheet.data.shapes
 ```
 
-- Rimuovi la forma di evidenziazione nell'array
+-  Rimuovi la forma di evidenziazione nell'array
 ```javascript
 xs.sheet.removeHighlightShape(shapeid)
      // the parameters are:
@@ -111,15 +112,35 @@ xs.sheet.removeHighlightShape(shapeid)
 xs.sheet.getHighlightShaps()
 ```
 
+-  Aggiungi la casella di testo per evidenziare, la casella di testo è un tipo speciale di forma la cui proprietà di tipo è: "TextBox",
+```javascript
+xs.sheet.addHighlightTextBox(shapeid, startpostion, endposition)
+    // the parameters are:
+    shapeid: the id of shape, can be find in xs.sheet.data.shapes whose type is 'TextBox'
+    startpostion: highlight start postion in the text of textbox
+    endpostion: highlight end postion in the text of textbox
+    //it support multiple range postion inside one textbox
+```
 
-- Aggiungi un'immagine per evidenziare l'array
+
+- Rimuovi l'intervallo di evidenziazione nella casella di testo, la casella di testo è un tipo speciale di forma la cui proprietà di tipo è: "TextBox",
+```javascript
+xs.sheet.removeHighlightTextBox(shapeid, startpostion, endposition)
+    // the parameters are:
+    shapeid: the id of shape, can be find in xs.sheet.data.shapes whose type is 'TextBox'
+    startpostion: highlight start postion in the text of textbox
+    endpostion: highlight end postion in the text of textbox
+    //it support multiple range postion inside one textbox
+```
+
+-  Aggiungi un'immagine per evidenziare l'array
 ```javascript
 xs.sheet.addHighlightImage(imageid)
     // the parameters are:
     imageid: the id of image, can be find in xs.sheet.data.images
 ```
 
-- Rimuovi l'immagine evidenziata nell'array
+-  Rimuovi l'immagine evidenziata nell'array
 ```javascript
 xs.sheet.removeHighlightImage(imageid)
      // the parameters are:
@@ -140,7 +161,7 @@ xs.sheet.setHighlightAll(ishighlightall,isrerender=true)
 ```
 
 
-- imposta la funzione di evidenziazione dell'immagine personalizzata
+-  Imposta la funzione di evidenziazione dell'immagine personalizzata
 ```javascript
 xs.sheet.setCustomHighlightImgFunc(func)
    // the parameters are:
@@ -153,5 +174,75 @@ xs.sheet.setCustomHighlightImgFunc(func)
         }
     
 ```
+
+###  Evidenzia per oggetto casella di testo
+la casella di testo è un tipo speciale di forma la cui proprietà di tipo è :"TextBox",
+ad esempio: il codice seguente mostrerà quale forma è la casella di testo
+
+```javascript
+for (let shape of xs.sheet.data.shapes) {
+    if (shape.type === 'TextBox') {
+        console.log(shape.id + ' is a textbox');
+    }
+}
+```
+-  Aggiungi l'evidenziazione per l'oggetto casella di testo
+```javascript
+    addHighlight(startpostion,endposition)
+    // the parameters are:
+	startpostion: highlight start postion in textbox
+	endpostion: highlight end postion in textbox
+
+//for example,we assume shape 0 is a textbox object
+const textbox=xs.sheet.data.shapes[0];
+//first we shall add to highlight shape to enable the highlight for the textbox shape object,it support multiple range postion 
+ xs.sheet.addHighlightShape(textbox.id);
+ textbox.addHighlight(5,10);
+ textbox.addHighlight(18,28);
+```
+
+-  Rimuovi l'evidenziazione per l'oggetto casella di testo
+```javascript
+    removeHighlight(startpostion,endposition)
+    // the parameters are:
+	startpostion: highlight start postion in textbox
+	endpostion: highlight end postion in textbox
+    //for example,we assume shape 0 is a textbox object
+     const textbox=xs.sheet.data.shapes[0];
+     textbox.removeHighlight(5,10);
+```
+
+-  Ottieni l'evidenziazione per l'oggetto casella di testo
+```javascript
+    getHighlight()
+    //for example,we assume shape 0 is a textbox object
+     const textbox=xs.sheet.data.shapes[0];
+     textbox.getHighlight();
+```
+
+-  Cambia il colore di sfondo per l'oggetto casella di testo
+```javascript
+    setBackgroundColor(color)
+    // the parameters are:
+        color: the html color value in hex string value
+    //for example,we assume shape 0 is a textbox object,this will set the background color to Yellow 
+     const textbox=xs.sheet.data.shapes[0];
+     textbox.setBackgroundColor('#FFFF00');
+```
+-  Cambia automaticamente il colore di sfondo e il colore del testo per ottenere un effetto visivo attivo
+```javascript
+    setActiveEffect(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will change background color and the text color of the textbox object;if false,restore to original appearence
+```
+
+-  nascondere/scoprire il contenuto del testo nell'oggetto casella di testo
+```javascript
+    hideText(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will not display the text in the textbox object;if false,restore to original appearence
+```
+
+
 
 Puoi trovare di più nella nostra pagina demo github https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html

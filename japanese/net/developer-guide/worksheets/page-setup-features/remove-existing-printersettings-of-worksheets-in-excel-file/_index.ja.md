@@ -1,18 +1,20 @@
-﻿---
-title: Excel ファイルのワークシートの既存の PrinterSettings を削除する
+---
+title: Excel ファイル内のワークシートの既存の PrinterSettings を削除する
 type: docs
 weight: 60
 url: /ja/net/remove-existing-printersettings-of-worksheets-in-excel-file/
+description: この記事では、C# API または .NET ライブラリを使用したサンプル コードを使用して、プログラムでページ設定オブジェクトを通じて Excel ファイル内のワークシートの既存の PrinterSettings を削除する方法を学習します。
+keywords: remove printer settings of worksheet c#, remove printer settings of excel worksheet c#
 ---
-## **考えられる使用シナリオ**
-開発者は、Excel が含まれないようにしたい場合があります。*。置き場*保存された XLSX ファイル内のプリンター設定のファイル。プリンター設定ファイルは次の場所にあります。*「[ファイル「ルート」]\xl\printerSettings」.*このドキュメントでは、Aspose.Cells API を使用して既存のプリンター設定を削除する方法について説明します。
-## **Excel ファイルのワークシートの既存の PrinterSettings を削除する**
-Aspose.Cells を使用すると、Excel ファイル内の異なるシートに指定されている既存のプリンター設定を削除できます。次のサンプル コードは、ブック内のすべてのワークシートの既存のプリンター設定を削除する方法を示しています。ご覧ください[サンプル Excel ファイル](45056020.xlsx), [出力エクセルファイル](45056021.xlsx)、コンソール出力、および参照用のスクリーンショット。
-## **スクリーンショット**
-![todo:画像_代替_文章](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)
-## **サンプルコード**
+##  **考えられる使用シナリオ**
+開発者は、Excel に*。置き場*保存された XLSX ファイル内のプリンター設定のファイル。プリンター設定ファイルは次の場所にあります。*「[ファイル "ルート"]\xl\printerSettings」。*このドキュメントでは、Aspose.Cells API を使用して既存のプリンター設定を削除する方法について説明します。
+##  **Excel ファイル内のワークシートの既存の PrinterSettings を削除する**
+Aspose.Cells を使用すると、Excel ファイル内のさまざまなシートに指定された既存のプリンター設定を削除できます。次のサンプル コードは、ワークブック内のすべてのワークシートの既存のプリンター設定を削除する方法を示しています。ぜひご覧ください[サンプル Excel ファイル](45056020.xlsx), [Excelファイルを出力](45056021.xlsx)、コンソール出力と参考用のスクリーンショット。
+##  **スクリーンショット**
+![todo:image_alt_text](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)
+##  **サンプルコード**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-RemoveExistingPrinterSettingsOfWorksheets.cs" >}}
-## **コンソール出力**
+##  **コンソール出力**
 {{< highlight "java" >}}
 
  PrinterSettings of this worksheet exist.

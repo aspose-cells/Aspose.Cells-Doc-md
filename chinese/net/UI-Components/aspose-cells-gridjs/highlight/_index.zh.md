@@ -1,4 +1,4 @@
-﻿---
+---
 title: 使用 GridJs 突出显示功能
 type: docs
 weight: 250
@@ -30,6 +30,7 @@ xs.sheet.addHighlightText(row,col,startpostion,endposition)
 	col:column index
 	startpostion: highlight start postion in cell text 
 	endpostion: highlight end postion in cell text 
+    //it support multiple range postion inside one cell
 ```
 
 - 删除数组中单元格文本的突出显示
@@ -111,6 +112,26 @@ xs.sheet.removeHighlightShape(shapeid)
 xs.sheet.getHighlightShaps()
 ```
 
+- 添加文本框高亮，文本框是一种特殊的形状，其类型属性为：“文本框”，
+```javascript
+xs.sheet.addHighlightTextBox(shapeid, startpostion, endposition)
+    // the parameters are:
+    shapeid: the id of shape, can be find in xs.sheet.data.shapes whose type is 'TextBox'
+    startpostion: highlight start postion in the text of textbox
+    endpostion: highlight end postion in the text of textbox
+    //it support multiple range postion inside one textbox
+```
+
+
+- 去除文本框的高亮范围，文本框是一种特殊的形状，类型属性为："TextBox"，
+```javascript
+xs.sheet.removeHighlightTextBox(shapeid, startpostion, endposition)
+    // the parameters are:
+    shapeid: the id of shape, can be find in xs.sheet.data.shapes whose type is 'TextBox'
+    startpostion: highlight start postion in the text of textbox
+    endpostion: highlight end postion in the text of textbox
+    //it support multiple range postion inside one textbox
+```
 
 - 添加图像以突出显示数组
 ```javascript
@@ -153,5 +174,75 @@ xs.sheet.setCustomHighlightImgFunc(func)
         }
     
 ```
+
+### 突出显示文本框对象
+文本框是一种特殊的形状，其类型属性为：“文本框”，
+例如：下面的代码将显示哪个形状是文本框
+
+```javascript
+for (let shape of xs.sheet.data.shapes) {
+    if (shape.type === 'TextBox') {
+        console.log(shape.id + ' is a textbox');
+    }
+}
+```
+- 为文本框对象添加高亮
+```javascript
+    addHighlight(startpostion,endposition)
+    // the parameters are:
+	startpostion: highlight start postion in textbox
+	endpostion: highlight end postion in textbox
+
+//for example,we assume shape 0 is a textbox object
+const textbox=xs.sheet.data.shapes[0];
+//first we shall add to highlight shape to enable the highlight for the textbox shape object,it support multiple range postion 
+ xs.sheet.addHighlightShape(textbox.id);
+ textbox.addHighlight(5,10);
+ textbox.addHighlight(18,28);
+```
+
+- 删除文本框对象的突出显示
+```javascript
+    removeHighlight(startpostion,endposition)
+    // the parameters are:
+	startpostion: highlight start postion in textbox
+	endpostion: highlight end postion in textbox
+    //for example,we assume shape 0 is a textbox object
+     const textbox=xs.sheet.data.shapes[0];
+     textbox.removeHighlight(5,10);
+```
+
+- 获取文本框对象的突出显示
+```javascript
+    getHighlight()
+    //for example,we assume shape 0 is a textbox object
+     const textbox=xs.sheet.data.shapes[0];
+     textbox.getHighlight();
+```
+
+- 更改文本框对象的背景颜色
+```javascript
+    setBackgroundColor(color)
+    // the parameters are:
+        color: the html color value in hex string value
+    //for example,we assume shape 0 is a textbox object,this will set the background color to Yellow 
+     const textbox=xs.sheet.data.shapes[0];
+     textbox.setBackgroundColor('#FFFF00');
+```
+- 自动更改背景颜色和文本颜色以获得视觉活跃效果
+```javascript
+    setActiveEffect(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will change background color and the text color of the textbox object;if false,restore to original appearence
+```
+
+- 隐藏/取消隐藏文本框对象中的文本内容
+```javascript
+    hideText(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will not display the text in the textbox object;if false,restore to original appearence
+```
+
+
 
 您可以在我们的 github 演示页面中找到更多信息 https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html

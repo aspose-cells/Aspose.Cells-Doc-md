@@ -1,4 +1,4 @@
-﻿---
+---
 title: GridJs depolamasıyla çalışma
 type: docs
 weight: 250
@@ -6,21 +6,23 @@ url: /tr/net/aspose-cells-gridjs/storage/
 description: Bu makalede, Aspose.Cells.GridJs için genel işleme açıklanmaktadır.
 keywords: file cache,storage,GridJs,GridJs storage,GridJs uid,download,uniqueid
 ---
-# GridJs Depolama ile Çalışma
-## genel dosya işlemi
-Bir elektronik tablo dosyasını belleğe aktardıktan ve kullanıcı arayüzünü gösterdikten sonra,
+#  GridJs Depolama ile Çalışma
+##  genel dosya işlemi
+Bir elektronik tablo dosyasını içe aktardıktan sonra,
 
-GridJs, belirtilen uid ile bir önbellek dosyası oluşturacak,
+ GridJs, belirtilen uid ile bir önbellek dosyası oluşturacaktır.**"Config.FileCacheDirectory"** dosya ,
 
  formatı ile[Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/net/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat") ,
 
-ve ardından kullanıcı arayüzündeki her güncelleme işleminden sonra,
+ GridJs ayrıca tüm şekilleri/resimleri bir zip arşiv dosyasına kaydeder.**"Config.PictureCacheDirectory"** daha sonra istemci kullanıcı arayüzünde şekilleri/resimleri görüntülemek için klasör.
+
+ve istemci kullanıcı arabirimindeki her güncelleme işleminden sonra,
 
 örneğin hücre değerini ayarla, hücre stilini ayarla, vb. ,
 
 GridJs istemci tarafı j'leri, bir UpdateCell işlemi yapmak için denetleyici eylemini tetikler.
 
-Bu eylemde, UpdateCell yöntemi sırasında bellekten önbellek dosyasına geri kaydetme gerçekleşir.
+Bu eylemde, UpdateCell yöntemi sırasında önbellek dosyasına bir geri kaydetme gerçekleşir.
 ```C#   
         // post: /GridJs/UpdateCell
         [HttpPost] 
@@ -33,8 +35,9 @@ Bu eylemde, UpdateCell yöntemi sırasında bellekten önbellek dosyasına geri 
             return Content(ret, "text/plain", System.Text.Encoding.UTF8);
         }
 ```
-### önbellek dizini nerede
-A. GridCacheForStream'i uygular ve GridJsWorkbook.CacheImp'i ayarlarsak.
+###  önbellek dosyası aslında nerede
+
+A. GridCacheForStream'i uygularsak ve GridJsWorkbook.CacheImp'i ayarlarsak.
  örneğin aşağıdaki kodda önbellek dosyasını alıp alabiliriz.**"D:\temp"**
 ```C#
 Config.FileCacheDirectory=@"D:\temp";
@@ -73,11 +76,11 @@ public class LocalFileCache  : GridCacheForStream
 ```
 B.GridJsWorkbook.CacheImp'i ayarlamazsak,
 
- GridJ'ler, içinde dosya oluşturacak ve kaydedecektir.**Config.FileCacheDirectory** , ayarlayabileceğimiz varsayılan önbellek dizini.
+ GridJ'ler, içinde dosya oluşturacak ve kaydedecektir.**"Config.FileCacheDirectory"** , ayarlayabileceğimiz varsayılan önbellek dizini.
 
-### güncellenmiş sonuç dosyası nasıl alınır
+###  güncellenmiş sonuç dosyası nasıl alınır
 #### 1. dosya için belirtilen bir uid
- Dosya ve uid arasında belirli bir harita yazışmasının olduğundan emin olun,
+ Dosya ve uid arasında belirli bir eşleme yazışmasının olduğundan emin olun,
 
 rastgele nesilden değil, belirli bir dosya adı için her zaman aynı kullanıcı kimliğini alabilirsiniz.
 
@@ -108,10 +111,10 @@ rastgele nesilden değil, belirli bir dosya adı için her zaman aynı kullanıc
         }
 ```
 
-#### 2. ui işlemiyle senkronize edin
-Aslında bazı ui işlemleri için,
+####  2. istemci UI işlemiyle senkronize edin
+Aslında bazı istemci UI işlemleri için,
 
-örneğin:
+Örneğin:
 
 aktif sayfayı başka bir sayfaya geçirin,
 
@@ -121,9 +124,9 @@ görüntüyü döndürün/yeniden boyutlandırın, vb.
 
 Hücreyi Güncelle eylemi tetiklenmez.
 
-Bu nedenle, güncellenmiş dosyayı kullanıcı arayüzünün gösterdiği gibi almak istiyorsak,
+Bu nedenle, güncellenmiş dosyayı istemci kullanıcı arayüzünün gösterdiği gibi almak istiyorsak,
 
-bu ui işlemini senkronize etmek için eylemi kaydetmeden önce bir birleştirme işlemi yapmamız gerekiyor.
+bu istemci UI işlemlerini senkronize etmek için kaydetme eyleminden önce bir birleştirme işlemi yapmamız gerekiyor.
 ```javascript
 //in the js
   function save() {
@@ -158,7 +161,7 @@ bu ui işlemini senkronize etmek için eylemi kaydetmeden önce bir birleştirme
   //after merge do save to chache or to a stream or whaterver you want to save to ,here we just save to cache
   wb.SaveToXlsx(Path.Combine(Config.FileCacheDirectory, uid));
 ```         
-#### 3. dosyayı önbellekten alın
+####  3. dosyayı önbellekten alın
 örneğin: indirme eyleminde, onu uid ile önbellek dizininden alabilirsiniz.
 ```C#
 //in controller  

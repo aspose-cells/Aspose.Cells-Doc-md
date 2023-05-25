@@ -1,8 +1,10 @@
-﻿---
+---
 title: 计算页面设置比例因子
 type: docs
 weight: 300
 url: /zh/net/calculate-page-setup-scaling-factor/
+description: 本文提供示例代码，说明如何使用 C# API 或 .NET 库以编程方式使用 Excel 工作表的适合 n 页宽乘 m 高选项计算页面设置比例因子。
+keywords: Fit to n page wide by m tall excel c#, calculate page setup scaling factor c#
 ---
 {{% alert color="primary" %}}
 

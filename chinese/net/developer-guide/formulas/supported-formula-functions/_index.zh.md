@@ -1,4 +1,4 @@
-﻿---
+---
 title: 支持的 Excel 函数
 toc: false
 type: docs
@@ -11,528 +11,532 @@ keywords: formula function calculate
 
 Aspose.Cells API 支持大部分标准函数和 Excel 的内置公式。您可以在下面按字母顺序找到所有支持的功能。
 
-||||||||||||||
+| | | | | | | | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|**[A](#a)** |**[B](#b)** |**[C](#c)** |**[D](#d)** |**[E](#e)** |**[F](#f)** |**[G](#g)** |**[H](#h)** |**[我](#我)** |**[J](#j)** |**[K](#k)** |**[二）** |**[毫米）** |
-|**[N](#n)** |**[O](#o)** |**[P](#p)** |**[问](#q)** |**[R](#r)** |**[S](#s)** |**[T](#t)** |**[U](#u)** |**[V](#v)** |**[W](#w)** |**[X](#x)** |**[Y](#y)** |**[Z Z）** |
+| **[A](#a)** | **[B](#b)** | **[C](#c)** | **[D](#d)** | **[E](#e)** | **[F](#f)** | **[G](#g)** | **[H](#h)** | **[我](#我)** | **[J](#j)** | **[K](#k)** | **[二）** | **[毫米）** |
+| **[N](#n)** | **[O](#o)** | **[P](#p)** | **[问](#q)** | **[R](#r)** | **[S](#s)** | **[T](#t)** | **[U](#u)** | **[V](#v)** | **[W](#w)** | **[X](#x)** | **[Y](#y)** | **[Z Z）** |
 
 {{% /alert %}}
 
 Aspose.Cells' 公式计算引擎允许您设置、读取和计算以下公式和函数的结果。
 
-###### **一种**
+######  *A**
 |**功能**|**概括**|
-|:- |:- |
-|防抱死制动系统|
+| :- | :- |
+|ABS|
 |ACCRINT|
 |ACCRINTM|
 |ACOS|
-|委员会|
-|地址|
-|总计的|
-|阿莫德格|
-|阿莫林|
-|和|
-|领域|
-|升序控制|
+|ACOSH|
+|ADDRESS|
+|AGGREGATE|
+|AMORDEGRC|
+|AMORLINC|
+|AND|
+|AREAS|
+|ASC|
 |ASIN|
-|亚信|
-|晒黑|
+|ASINH|
+|ATAN|
 |ATAN2|
-|阿坦赫|
-|开发者|
-|平均的|
-|平均值|
-|平均IF|
-|平均值|
+|ATANH|
+|AVEDEV|
+|AVERAGE|
+|AVERAGEA|
+|AVERAGEIF|
+|AVERAGEIFS|
 
-###### **乙**
+######  *B**
 |**功能**|**概括**|
-|:- |:- |
-|贝塞利|
-|贝塞利|
-|贝塞尔克|
-|贝塞利|
-|贝塔迪斯|
+| :- | :- |
+|BESSELI|
+|BESSELJ|
+|BESSELK|
+|BESSELY|
+|BETADIST|
 |BETA.DIST|
-|贝泰V|
+|BETAINV|
 |BETA.INV|
 |BIN2DEC|
 |BIN2HEX|
 |BIN2OCT|
-|二元分布|
+|BINOMDIST|
 |二项式.DIST|
-|比特大陆|
-|位移位|
-|必拓|
-|位移位|
-|位或|
+|BITAND|
+|BITLSHIFT|
+|BITOR|
+|BITRSHIFT|
+|BITXOR|
 
-###### **C**
+######  *C**
 |**功能**|**概括**|
-|:- |:- |
-|天花板|
+| :- | :- |
+|CEILING|
 |天花板.数学|
 |天花板.精确|
-|细胞|
-|字符|
-|基督教会|
-|车联网|
-|测试|
+|CELL|
+|CHAR|
+|CHIDIST|
+|CHIINV|
+|CHITEST|
 |CHISQ区|
 |CHISQ.DIST.RT|
 |CHISQ INV RT|
 |CHISQ测试|
-|选择|
-|干净的|
-|代码|
-|柱子|
-|列|
-|组合|
-|复杂的|
-|康卡特|
-|串联|
-|信心|
+|CHOOSE|
+|CHOOSECOLS|
+|CHOOSEROWS|
+|CLEAN|
+|CODE|
+|COLUMN|
+|COLUMNS|
+|COMBIN|
+|COMPLEX|
+|CONCAT|
+|CONCATENATE|
+|CONFIDENCE|
 |信心.规范|
-|转变|
-|关联|
+|CONVERT|
+|CORREL|
 |COS|
-|委员会|
-|数数|
-|伯爵|
-|计数空白|
+|COSH|
+|COUNT|
+|COUNTA|
+|COUNTBLANK|
 |COUNTIF|
-|伯爵|
+|COUNTIFS|
 |COUPDAYBS|
-|联欢日|
+|COUPDAYS|
 |COUPDAYSNC|
-|COUNCCD|
-|罚单|
+|COUPNCD|
+|COUPNUM|
 |COUPPCD|
 |COVAR|
 |协方差.P|
 |协方差|
-|克里比诺|
+|CRITBINOM|
 |CUMIPMT|
-|康普林克|
+|CUMPRINC|
 
-###### **D**
+######  *D**
 |**功能**|**概括**|
-|:- |:- |
-|日期|
+| :- | :- |
+|DATE|
 |DATEDIF|
-|日期值|
-|平均数|
-|日|
-|天|
-|360天|
-|B|
-|计数|
-|国泰|
-|数据数据库|
+|DATEVALUE|
+|DAVERAGE|
+|DAY|
+|DAYS|
+|DAYS360|
+|DB|
+|DCOUNT|
+|DCOUNTA|
+|DDB|
 |DEC2BIN|
 |DEC2HEX|
-|12月21日|
-|学位|
-|三角洲|
+|DEC2OCT|
+|DEGREES|
+|DELTA|
 |DEVSQ|
 |DGET|
-|光盘|
+|DISC|
 |DMAX|
-|最小值|
-|美元|
-|多拉德|
-|美元FR|
-|D产品|
-|数据标准开发|
-|数据标准开发人员|
+|DMIN|
+|DOLLAR|
+|DOLLARDE|
+|DOLLARFR|
+|DPRODUCT|
+|DSTDEV|
+|DSTDEVP|
 |DSUM|
-|期间|
+|DURATION|
 |DVAR|
 |DVARP|
 
-###### **E**
+######  *E**
 |**功能**|**概括**|
-|:- |:- |
-|编辑|
-|影响|
-|月经|
-|应急基金|
+| :- | :- |
+|EDATE|
+|EFFECT|
+|EOMONTH|
+|ERF|
 |ERFC|
 |错误类型|
-|甚至|
-|精确的|
-|经验值|
-|解释者|
+|EVEN|
+|EXACT|
+|EXP|
+|EXPONDIST|
 
-###### **F**
+######  *F**
 |**功能**|**概括**|
-|:- |:- |
-|事实|
-|事实双|
-|错误的|
+| :- | :- |
+|FACT|
+|FACTDOUBLE|
+|FALSE|
 |F.DIST|
 |FDIST|
 |F.DIST.RT|
-|筛选|
-|寻找|
-|查找数据库|
+|FILTER|
+|FIND|
+|FINDB|
 |F.INV.RT|
 |FINV|
-|费舍尔|
-|渔船|
-|固定的|
-|地面|
+|FISHER|
+|FISHERINV|
+|FIXED|
+|FLOOR|
 |地板数学|
-|预报|
+|FORECAST|
 |预测.线性|
-|公式文本|
-|频率|
+|FORMULATEXT|
+|FREQUENCY|
 |FV|
-|FVS时间表|
+|FVSCHEDULE|
 
-###### **G**
+######  *G**
 |**功能**|**概括**|
-|:- |:- |
+| :- | :- |
 |伽马距离|
-|伽玛迪斯特|
+|GAMMADIST|
 |GAMMA.INV|
-|伽玛V|
-|伽马林|
+|GAMMAINV|
+|GAMMALN|
 |GCD|
-|地缘|
-|盖思泰普|
-|获取数据透视表|
-|生长|
+|GEOMEAN|
+|GESTEP|
+|GETPIVOTDATA|
+|GROWTH|
 
-###### **H**
+######  *H**
 |**功能**|**概括**|
-|:- |:- |
-|哈米恩|
+| :- | :- |
+|HARMEAN|
 |HEX2BIN|
 |HEX2DEC|
 |HEX2OCT|
-|查询|
-|小时|
-|超级链接|
+|HLOOKUP|
+|HOUR|
+|HSTACK|
+|HYPERLINK|
 |地下世界.DIST|
-|地下地球仪|
+|HYPGEOMDIST|
 
-###### **我**
+######  *我**
 |**功能**|**概括**|
-|:- |:- |
-|如果|
-|错误|
+| :- | :- |
+|IF|
+|IFERROR|
 |IFNA|
-|国际金融中心|
+|IFS|
 |IMABS|
-|假想|
+|IMAGINARY|
 |IMARGUMENT|
-|结合|
-|英科思|
+|IMCONJUGATE|
+|IMCOS|
 |IMDIV|
-|进口商|
-|内层神经网络|
+|IMEXP|
+|IMLN|
 |IMLOG10|
 |IMLOG2|
-|强势|
-|IM产品|
-|我是真的|
+|IMPOWER|
+|IMPRODUCT|
+|IMREAL|
 |IMSIN|
 |IMSQRT|
 |IMSUB|
 |IMSUM|
-|指数|
-|间接|
-|情报局|
-|截距|
-|整合|
+|INDEX|
+|INDIRECT|
+|INT|
+|INTERCEPT|
+|INTRATE|
 |IPMT|
-|内部收益率|
-|空白|
-|错误|
-|错误|
-|甚至|
-|不合逻辑|
+|IRR|
+|ISBLANK|
+|ISERR|
+|ISERROR|
+|ISEVEN|
+|ISLOGICAL|
 |ISNA|
-|非文本|
-|编号|
+|ISNONTEXT|
+|ISNUMBER|
 |ISODD|
 |ISREF|
-|文本|
-|周数|
+|ISTEXT|
+|ISOWEEKNUM|
 |ISPMT|
 
-###### **K**
+######  *K**
 |**功能**|**概括**|
-|:- |:- |
-|库尔特|
+| :- | :- |
+|KURT|
 
-###### **L**
+######  *大号**
 |**功能**|**概括**|
-|:- |:- |
-|大|
-|液晶模组|
-|剩下|
-|左翼|
-|伦|
-|长焦|
-|线路|
-|逻辑节点|
-|日志|
-|日志10|
-|日志|
-|登录V|
+| :- | :- |
+|LARGE|
+|LCM|
+|LEFT|
+|LEFTB|
+|LEN|
+|LENB|
+|LINEST|
+|LN|
+|LOG|
+|LOG10|
+|LOGEST|
+|LOGINV|
 |对数函数.DIST|
 |登录规范.INV|
-|登录规范|
-|抬头|
-|降低|
+|LOGNORMDIST|
+|LOOKUP|
+|LOWER|
 
-###### **男**
+######  *米**
 |**功能**|**概括**|
-|:- |:- |
-|比赛|
-|最大限度|
+| :- | :- |
+|MATCH|
+|MAX|
 |MAXA|
 |MAXIFS|
 |MDETERM|
-|持续时间|
-|中位数|
-|中|
+|MDURATION|
+|MEDIAN|
+|MID|
 |MIDB|
-|最小值|
-|迷你文件系统|
-|米娜|
-|分钟|
-|明宇宙|
+|MIN|
+|MINIFS|
+|MINA|
+|MINUTE|
+|MINVERSE|
 |MIRR|
 |MMULT|
-|模组|
-|模式|
+|MOD|
+|MODE|
 |模式.MULT|
 |模式.SNGL|
-|月|
-|圆形|
-|多项式|
+|MONTH|
+|MROUND|
+|MULTINOMIAL|
 
-###### **N**
+######  *N**
 |**功能**|**概括**|
-|:- |:- |
-|否|
-|北美|
+| :- | :- |
+|N|
+|NA|
 |负数分布|
-|尼格宾主义|
-|网络日|
+|NEGBINOMDIST|
+|NETWORKDAYS|
 |NETWORKDAYS.INTL|
-|标称|
+|NOMINAL|
 |标准距离|
-|标准分配器|
-|标准值|
+|NORMDIST|
+|NORMINV|
 |NORM.INV|
 |标准距离|
-|规范主义者|
+|NORMSDIST|
 |规范.S.INV|
-|范数|
-|不是|
-|现在|
-|国家经济研究所|
-|净现值|
-|数值|
+|NORMSINV|
+|NOT|
+|NOW|
+|NPER|
+|NPV|
+|NUMBERVALUE|
 
-###### **哦**
+######  *哦**
 |**功能**|**概括**|
-|:- |:- |
+| :- | :- |
 |OCT2BIN|
 |OCT2DEC|
 |OCT2HEX|
-|奇怪的|
-|单价|
-|奇数收益|
-|单价|
-|奇怪的产量|
-|抵消|
-|要么|
+|ODD|
+|ODDFPRICE|
+|ODDFYIELD|
+|ODDLPRICE|
+|ODDLYIELD|
+|OFFSET|
+|OR|
 
-###### **P**
+######  *P**
 |**功能**|**概括**|
-|:- |:- |
-|皮尔逊|
+| :- | :- |
+|PEARSON|
 |百分位.EXC|
 |百分位|
-|百分位数|
+|PERCENTILE|
 |百分比排名.EXC|
 |PERCENTRANK.INC|
-|排名百分比|
+|PERCENTRANK|
 |PERMUT|
 |PI|
-|光电倍增管|
+|PMT|
 |泊松分布|
-|泊松|
-|力量|
+|POISSON|
+|POWER|
 |PPMT|
-|价格|
-|价格盘|
-|价目表|
-|概率|
-|产品|
-|恰当的|
-|光伏|
+|PRICE|
+|PRICEDISC|
+|PRICEMAT|
+|PROB|
+|PRODUCT|
+|PROPER|
+|PV|
 
-###### **问**
+######  *问**
 |**功能**|**概括**|
-|:- |:- |
-|四分位数|
+| :- | :- |
+|QUARTILE|
 |四分位数.EXC|
 |四分之一公司|
-|商|
+|QUOTIENT|
 
-###### **R**
+######  *R**
 |**功能**|**概括**|
-|:- |:- |
-|弧度|
-|兰德公司|
-|随机数组|
-|随机数|
+| :- | :- |
+|RADIANS|
+|RAND|
+|RANDARRAY|
+|RANDBETWEEN|
 |排名.AVG|
 |等级均衡器|
-|秩|
-|速度|
-|已收到|
-|代替|
-|替换B|
-|回复|
-|正确的|
-|右键|
-|罗曼语|
-|圆形的|
-|舍入|
-|围捕|
-|排|
-|行数|
+|RANK|
+|RATE|
+|RECEIVED|
+|REPLACE|
+|REPLACEB|
+|REPT|
+|RIGHT|
+|RIGHTB|
+|ROMAN|
+|ROUND|
+|ROUNDDOWN|
+|ROUNDUP|
+|ROW|
+|ROWS|
 |RSQ|
 
-###### **S**
+######  *S**
 |**功能**|**概括**|
-|:- |:- |
-|搜索|
-|搜索引擎|
-|第二|
-|顺序|
-|系列|
-|床单|
-|床单|
-|符号|
-|罪|
-|新华社|
-|倾斜|
+| :- | :- |
+|SEARCH|
+|SEARCHB|
+|SECOND|
+|SEQUENCE|
+|SERIESSUM|
+|SHEET|
+|SHEETS|
+|SIGN|
+|SIN|
+|SINH|
+|SKEW|
 |SLN|
-|坡|
-|小的|
-|种类|
-|排序方式|
+|SLOPE|
+|SMALL|
+|SORT|
+|SORTBY|
 |SQRT|
 |SQRTPI|
-|标准化|
-|标准差|
+|STANDARDIZE|
+|STDEV|
 |标准开发程序|
 |标准开发工具|
 |STDEVA|
-|标准开发副总裁|
+|STDEVP|
 |STDEVPA|
-|斯泰克斯|
-|代替|
-|小计|
-|和|
-|苏米夫|
+|STEYX|
+|SUBSTITUTE|
+|SUBTOTAL|
+|SUM|
+|SUMIF|
 |SUMIFS|
-|和积|
+|SUMPRODUCT|
 |SUMSQ|
 |SUMX2MY2|
 |SUMX2PY2|
 |SUMXMY2|
-|转变|
+|SWITCH|
 |SYD|
 
-###### **T**
+######  *T**
 |**功能**|**概括**|
-|:- |:- |
-|吨|
-|谭|
+| :- | :- |
+|T|
+|TAN|
 |TANH|
-|比利克|
-|表价|
-|比利产量|
+|TBILLEQ|
+|TBILLPRICE|
+|TBILLYIELD|
 |T.DIST.2T|
 |T.DIST.RT|
-|时间分配器|
-|文本|
-|文本连接|
-|时间|
-|时值|
+|TDIST|
+|TEXT|
+|TEXTJOIN|
+|TIME|
+|TIMEVALUE|
 |T.INV.2T|
 |TINV|
-|今天|
-|移调|
-|趋势|
-|修剪|
-|均值|
-|真的|
+|TODAY|
+|TRANSPOSE|
+|TREND|
+|TRIM|
+|TRIMMEAN|
+|TRUE|
 |TRUNC|
 |测试|
-|测试测试|
-|类型|
+|TTEST|
+|TYPE|
 
-###### **你**
+######  *你**
 |**功能**|**概括**|
-|:- |:- |
-|单字符|
-|统一码|
-|独特|
-|上|
+| :- | :- |
+|UNICHAR|
+|UNICODE|
+|UNIQUE|
+|UPPER|
 
-###### **V**
+######  *V**
 |**功能**|**概括**|
-|:- |:- |
-|价值|
-|增值税|
+| :- | :- |
+|VALUE|
+|VAR|
 |VAR.P|
 |VAR.S|
-|瓦拉|
+|VARA|
 |VARP|
-|瓦尔帕|
+|VARPA|
 |VDB|
 |VLOOKUP|
+|VSTACK|
 
-###### **W**
+######  *W**
 |**功能**|**概括**|
-|:- |:- |
-|工作日|
-|周数|
-|威布尔|
+| :- | :- |
+|WEEKDAY|
+|WEEKNUM|
+|WEIBULL|
 |威布尔分布|
-|工作日|
+|WORKDAY|
 |工作日.INTL|
 
-###### **X**
+######  *X**
 |**功能**|**概括**|
-|:- |:- |
+| :- | :- |
 |XIRR|
 |XLOOKUP|
-|新净现值|
+|XNPV|
 
-###### **Y**
+######  *是**
 |**功能**|**概括**|
-|:- |:- |
-|年|
-|年FRAC|
-|屈服|
-|屈服盘|
-|产量|
+| :- | :- |
+|YEAR|
+|YEARFRAC|
+|YIELD|
+|YIELDDISC|
+|YIELDMAT|
 
-###### **Z**
+######  *Z**
 |**功能**|**概括**|
-|:- |:- |
+| :- | :- |
 |测试|
-|中测|
+|ZTEST|
 

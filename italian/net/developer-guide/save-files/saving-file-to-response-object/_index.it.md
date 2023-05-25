@@ -1,4 +1,4 @@
-﻿---
+---
 title: Salvataggio del file nell'oggetto risposta
 type: docs
 weight: 50
@@ -10,39 +10,39 @@ Aspose.Cells consente di manipolare i file. Questo articolo spiega i vari modi i
 
 {{% /alert %}}
 
-## **Salvataggio del file nell'oggetto risposta**
+##  **Salvataggio del file nell'oggetto risposta**
 
- È anche possibile generare dinamicamente un file e inviarlo direttamente a un browser client. Per fare ciò, utilizzare una versione speciale di overload del file**[Salva](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/5)**metodo che accetta i seguenti parametri:
+È anche possibile generare dinamicamente un file e inviarlo direttamente a un browser client. Per fare ciò, utilizzare una versione speciale di overload del file**[Salva](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/5)**metodo che accetta i seguenti parametri:
 
--  ASP.NET**[HttpResponse](https://docs.microsoft.com/en-gb/dotnet/api/system.web.httpresponse?view=netframework-4.8)**oggetto.
+- ASP.NET **[HttpResponse](https://docs.microsoft.com/en-gb/dotnet/api/system.web.httpresponse?view=netframework-4.8)**oggetto.
 - Nome del file.
-- **[ContentDisposition](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)**, il tipo di disposizione del contenuto del file di output.
-- **[Opzioni di salvataggio](https://reference.aspose.com/cells/net/aspose.cells/saveoptions)**, il tipo di formato file
+- *[ContentDisposition](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)**, il tipo di disposizione del contenuto del file di output.
+- *[SalvaOpzioni](https://reference.aspose.com/cells/net/aspose.cells/saveoptions)**, il tipo di formato del file
 
- Il**[ContentDisposition](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)**l'enumerazione determina se il file inviato al browser offre la possibilità di aprirsi da solo direttamente nel browser o in un'applicazione associata a .xls/.xlsx o un'altra estensione.
+ IL**[ContentDisposition](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)**l'enumerazione determina se il file inviato al browser offre la possibilità di aprirsi da solo direttamente nel browser o in un'applicazione associata a .xls/.xlsx o un'altra estensione.
 
 L'enumerazione contiene i seguenti tipi di salvataggio predefiniti:
 
 |**Tipo**|**Descrizione**|
-|:- |:- |
-|Attaccamento|Invia il foglio di calcolo al browser e si apre in un'applicazione come allegato associato a .xls/.xlsx o altre estensioni|
-|In linea|Invia il documento al browser e presenta un'opzione per salvare il foglio di calcolo su disco o aprirlo all'interno del browser|
+| :- | :- |
+|Attachment|Invia il foglio di calcolo al browser e si apre in un'applicazione come allegato associato a .xls/.xlsx o altre estensioni|
+|Inline|Invia il documento al browser e presenta un'opzione per salvare il foglio di calcolo su disco o aprirlo all'interno del browser|
 
-### **XLS Fascicoli**
+###  **XLS Fascicoli**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveXLSFile-1.cs" >}}
 
-### **XLSX Fascicoli**
+###  **XLSX Fascicoli**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveXLSXFile-1.cs" >}}
 
-### **PDF Fascicoli**
+###  **PDF Fascicoli**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveInPdfFormat-1.cs" >}}
 
-### **Nota**
+###  **Nota**
 
-A causa dell'oggetto "System.Web.HttpResponse" non contenuto in .NET5 e .Netstandard,
+A causa dell'oggetto "System.Web.HttpResponse" che non è incluso in .NET5 e .Netstandard,
 Quindi questa funzione non esiste nella versione Aspose.Cells .NET5 e .Netstandard, puoi fare riferimento al seguente codice per salvare il file nello stream, quindi eseguire l'operazione sullo stream.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoStream-1.cs" >}}

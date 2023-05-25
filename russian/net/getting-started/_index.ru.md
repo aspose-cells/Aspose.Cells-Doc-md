@@ -1,4 +1,4 @@
-﻿---
+---
 title: Начиная
 type: docs
 weight: 10
@@ -10,9 +10,9 @@ url: /ru/net/getting-started/
 
 {{% /alert %}}
 
-## **Установка**
+##  **Монтаж**
 
-### **Установите с Aspose.Cells по NuGet**
+###  **Установите с Aspose.Cells по NuGet**
 
  NuGet — это самый простой способ загрузить и установить Aspose.Cells for .NET.
 
@@ -26,7 +26,7 @@ url: /ru/net/getting-started/
 
 [Больше шагов для деталей](/cells/ru/net/installation/)
 
-### **Установите Aspose.Cells на Windows**
+###  **Установите Aspose.Cells на Windows**
 
 1. Загрузите Aspose.Cells.msi со следующей страницы:
 [Скачать Aspose.Cells.msi](https://downloads.aspose.com/cells/net/)
@@ -36,7 +36,7 @@ url: /ru/net/getting-started/
 
 [Больше шагов для деталей](/cells/ru/net/installing-aspose-cells-on-windows/)
 
-### **Установите Aspose.Cells на линукс**
+###  **Установите Aspose.Cells на линукс**
 
 В этом примере я использую Ubuntu, чтобы показать, как начать использовать Aspose.Cells в Linux.
 
@@ -44,7 +44,7 @@ url: /ru/net/getting-started/
 2. Откройте файл "AsposeCellsTest.csproj", добавьте в него следующие строки для ссылок на пакеты Aspose.Cells:
 {{< highlight "plain" >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="22.12" />
+    <PackageReference Include="Aspose.Cells" Version="23.5" />
   </ItemGroup>
 {{< /highlight >}}
 3. Откройте проект с помощью VSCode в Ubuntu:
@@ -56,12 +56,12 @@ url: /ru/net/getting-started/
 
 Применяется к: NetStandard2.0, NetCore2.1, NetCore3.1, Net5.0, Net6.0 и расширенной версии.
 
-### **Установите Aspose.Cells на MAC OS**
+###  **Установите Aspose.Cells на MAC OS**
 
 В этом примере я использую macOS High Sierra, чтобы показать, как начать использовать Aspose.Cells в MAC OS.
 
 1. Создайте приложение .netcore с именем «AsposeCellsTest».
-2. Откройте приложение с помощью Visual Studio для Mac, затем установите номера с Aspose от Cells до NuGet:
+2. Откройте приложение с помощью Visual Studio для Mac, затем установите Aspose от Cells до NuGet:
 **![Установить Aspose Cells в macOS](install-on-mac-os.png)**
 3. запустите тест со следующим кодом:
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-StartOnMacOS.cs" >}}
@@ -72,18 +72,18 @@ url: /ru/net/getting-started/
 
 Применяется к: NetStandard2.0, NetCore2.1, NetCore3.1, Net5.0, Net6.0 и расширенной версии.
 
-### **[Запустите Aspose Cells в Docker](/cells/net/how-to-run-aspose-cells-in-docker/)**
+###  **[Запустите Aspose Cells в Docker](/cells/net/how-to-run-aspose-cells-in-docker/)**
 
-### **Как использовать графическую библиотеку на платформах, отличных от Windows, с Net6**
+###  **Как использовать графическую библиотеку на платформах, отличных от Windows, с Net6**
 
  Aspose.Cells для Net6 теперь использует SkiaSharp в качестве графической библиотеки, как рекомендовано в[официальное заявление от Microsoft](https://github.com/dotnet/designs/blob/f9d006073b7a019bd2021e99c66516447f7fb1a6/accepted/2021/system-drawing-win-only/system-drawing-win-only.md) . Дополнительные сведения об использовании Aspose.Cells с NET6 см.[Как запустить Aspose.Cells для .Net6](/cells/ru/net/how-to-run-aspose-cells-for-net6/).
 
-## **Создание приложения Hello World**
+##  **Создание приложения Hello World**
 
 Следующие шаги создают приложение Hello World, используя Aspose.Cells API:
 
 1.  Если у вас есть лицензия, то[применить это](/cells/ru/net/licensing/).
- Если вы используете ознакомительную версию, пропустите строки кода, связанные с лицензией.
+Если вы используете ознакомительную версию, пропустите строки кода, связанные с лицензией.
 1.  Создайте экземпляр[Рабочая тетрадь](https://reference.aspose.com/cells/net/aspose.cells/workbook) class для создания нового файла Excel или открытия существующего файла Excel.
 1. Получите доступ к любой нужной ячейке рабочего листа в файле Excel.
 1.  Вставьте слова**Hello World!** в ячейку, к которой осуществляется доступ.
@@ -91,13 +91,13 @@ url: /ru/net/getting-started/
 
 Реализация вышеуказанных шагов продемонстрирована на примерах ниже.
 
-### **Пример кода: создание новой книги**
+###  **Пример кода: создание новой книги**
 
 В следующем примере создается новая книга с нуля, вставляется "Hello World!" в ячейку A1 на первом листе и сохраняет как файл Excel.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-FirstApplication-1.cs" >}}
 
-### **Пример кода: открытие существующего файла**
+###  **Пример кода: открытие существующего файла**
 
 В следующем примере открывается существующий файл шаблона Excel Microsoft «Sample.xlsx», вставляется «Hello World!» в ячейку A1 на первом листе и сохраняет как файл Excel.
 

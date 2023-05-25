@@ -1,4 +1,4 @@
-﻿---
+---
 title: Excel-funktioner som stöds
 toc: false
 type: docs
@@ -11,44 +11,44 @@ keywords: formula function calculate
 
 Aspose.Cells API:er stöder de flesta standardfunktionerna och Excels inbyggda formel. Nedan hittar du alla funktioner som stöds i alfabetisk ordning.
 
-||||||||||||||
+| | | | | | | | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|**[A](#a)** |**[B](#b)** |**[C](#c)** |**[D](#d)** |**[E](#e)** |**[F](#f)** |**[G](#g)** |**[H](#h)** |**[I](#i)** |**[J](#j)** |**[K](#k)** |**[L](#l)** |**[M](#m)** |
-|**[N](#n)** |**[O](#o)** |**[P](#p)** |**[Q](#q)** |**[R](#r)** |**[S](#s)** |**[T](#t)** |**[U u)** |**[V](#v)** |**[W](#w)** |**[X](#x)** |**[Y](#y)** |**[Z](#z)** |
+| **[A](#a)** | **[B](#b)** | **[C](#c)** | **[D](#d)** | **[E](#e)** | **[F](#f)** | **[G](#g)** | **[H](#h)** | **[I](#i)** | **[J](#j)** | **[K](#k)** | **[L](#l)** | **[M](#m)** |
+| **[N](#n)** | **[O](#o)** | **[P](#p)** | **[Q](#q)** | **[R](#r)** | **[S](#s)** | **[T](#t)** | **[U u)** | **[V](#v)** | **[W](#w)** | **[X](#x)** | **[Y](#y)** | **[Z](#z)** |
 
 {{% /alert %}}
 
 Aspose.Cells' Formelberäkningsmotorn låter dig ställa in, läsa och beräkna resultaten av följande formler och funktioner.
 
-###### **A**
+######  *A**
 |**Fungera**|**Sammanfattning**|
-|:- |:- |
-|magmuskler|
+| :- | :- |
+|ABS|
 |ACCRINT|
 |ACCRINTM|
 |ACOS|
 |ACOSH|
-|ADRESS|
-|AGREGAT|
+|ADDRESS|
+|AGGREGATE|
 |AMORDEGRC|
 |AMORLINC|
-|OCH|
-|OMRÅDEN|
+|AND|
+|AREAS|
 |ASC|
-|SOM I|
+|ASIN|
 |ASINH|
-|EN BRÄNNA|
+|ATAN|
 |ATAN2|
 |ATANH|
 |AVEDEV|
-|MEDEL|
+|AVERAGE|
 |AVERAGEA|
-|MEDELOM|
+|AVERAGEIF|
 |AVERAGEIFS|
 
-###### **B**
+######  *B**
 |**Fungera**|**Sammanfattning**|
-|:- |:- |
+| :- | :- |
 |BESSELI|
 |BESSELJ|
 |BESSELK|
@@ -65,17 +65,17 @@ Aspose.Cells' Formelberäkningsmotorn låter dig ställa in, läsa och beräkna 
 |BITAND|
 |BITLSHIFT|
 |BITOR|
-|BITRÄCK|
+|BITRSHIFT|
 |BITXOR|
 
-###### **C**
+######  *C**
 |**Fungera**|**Sammanfattning**|
-|:- |:- |
-|TAK|
+| :- | :- |
+|CEILING|
 |TAK.MATH|
 |TAK.PRECIS|
 |CELL|
-|RÖDING|
+|CHAR|
 |CHIDIST|
 |CHIINV|
 |CHITEST|
@@ -83,28 +83,30 @@ Aspose.Cells' Formelberäkningsmotorn låter dig ställa in, läsa och beräkna 
 |CHISQ.DIST.RT|
 |CHISQ.INV.RT|
 |CHISQ.TEST|
-|VÄLJA|
-|RENA|
-|KODA|
-|KOLUMN|
-|KOLUMNER|
-|KOMBINERA|
-|KOMPLEX|
-|KONCAT|
-|KONKATENERA|
-|FÖRTROENDE|
+|CHOOSE|
+|CHOOSECOLS|
+|CHOOSEROWS|
+|CLEAN|
+|CODE|
+|COLUMN|
+|COLUMNS|
+|COMBIN|
+|COMPLEX|
+|CONCAT|
+|CONCATENATE|
+|CONFIDENCE|
 |KONFIDENS.NORM|
-|KONVERTERA|
+|CONVERT|
 |CORREL|
 |COS|
 |COSH|
-|RÄKNA|
+|COUNT|
 |COUNTA|
 |COUNTBLANK|
 |COUNTIF|
 |COUNTIFS|
 |COUPDAYBS|
-|KUPDAGAR|
+|COUPDAYS|
 |COUPDAYSNC|
 |COUPNCD|
 |COUPNUM|
@@ -116,117 +118,118 @@ Aspose.Cells' Formelberäkningsmotorn låter dig ställa in, läsa och beräkna 
 |CUMIPMT|
 |CUMPRINC|
 
-###### **D**
+######  *D**
 |**Fungera**|**Sammanfattning**|
-|:- |:- |
-|DATUM|
+| :- | :- |
+|DATE|
 |DATEDIF|
-|DATUMVÄRDE|
-|DAGENS|
-|DAG|
-|DAGAR|
-|DAGAR360|
+|DATEVALUE|
+|DAVERAGE|
+|DAY|
+|DAYS|
+|DAYS360|
 |DB|
 |DCOUNT|
 |DCOUNTA|
 |DDB|
 |DEC2BIN|
 |DEC2HEX|
-|DEC2OKT|
-|GRADER|
+|DEC2OCT|
+|DEGREES|
 |DELTA|
 |DEVSQ|
 |DGET|
-|SKIVA|
+|DISC|
 |DMAX|
 |DMIN|
 |DOLLAR|
 |DOLLARDE|
 |DOLLARFR|
-|DPRODUKT|
+|DPRODUCT|
 |DSTDEV|
 |DSTDEVP|
 |DSUM|
-|VARAKTIGHET|
+|DURATION|
 |DVAR|
 |DVARP|
 
-###### **E**
+######  *E**
 |**Fungera**|**Sammanfattning**|
-|:- |:- |
+| :- | :- |
 |EDATE|
-|EFFEKT|
+|EFFECT|
 |EOMONTH|
 |ERF|
 |ERFC|
 |ERROR.TYPE|
-|ÄVEN|
-|EXAKT|
+|EVEN|
+|EXACT|
 |EXP|
 |EXPONDIST|
 
-###### **F**
+######  *F**
 |**Fungera**|**Sammanfattning**|
-|:- |:- |
-|FAKTUM|
-|DUBBEL FAKTA|
-|FALSK|
+| :- | :- |
+|FACT|
+|FACTDOUBLE|
+|FALSE|
 |F.DIST|
 |FDIST|
 |F.DIST.RT|
-|FILTRERA|
-|HITTA|
+|FILTER|
+|FIND|
 |FINDB|
 |F.INV.RT|
 |FINV|
-|FISKARE|
+|FISHER|
 |FISHERINV|
-|FAST|
-|GOLV|
+|FIXED|
+|FLOOR|
 |FLOOR.MATH|
-|PROGNOS|
+|FORECAST|
 |PROGNOS.LINJÄR|
-|FORMELTEXT|
-|FREKVENS|
+|FORMULATEXT|
+|FREQUENCY|
 |FV|
-|FVSCHEMA|
+|FVSCHEDULE|
 
-###### **G**
+######  *G**
 |**Fungera**|**Sammanfattning**|
-|:- |:- |
+| :- | :- |
 |GAMMA.DIST|
 |GAMMADIST|
 |GAMMA.INV|
 |GAMMAINV|
 |GAMMALN|
 |GCD|
-|GEOMISK|
+|GEOMEAN|
 |GESTEP|
 |GETPIVOTDATA|
-|TILLVÄXT|
+|GROWTH|
 
-###### **H**
+######  *H**
 |**Fungera**|**Sammanfattning**|
-|:- |:- |
+| :- | :- |
 |HARMEAN|
 |HEX2BIN|
 |HEX2DEC|
-|HEX2OKT|
-|UPPSÖKNING|
-|TIMME|
-|HYPERLÄNK|
+|HEX2OCT|
+|HLOOKUP|
+|HOUR|
+|HSTACK|
+|HYPERLINK|
 |HYPGEOM.DIST|
 |HYPGEOMDIST|
 
-###### **jag**
+######  *jag**
 |**Fungera**|**Sammanfattning**|
-|:- |:- |
-|OM|
+| :- | :- |
+|IF|
 |IFERROR|
 |IFNA|
 |IFS|
 |IMABS|
-|IMAGINÄR|
+|IMAGINARY|
 |IMARGUMENT|
 |IMCONJUGATE|
 |IMCOS|
@@ -234,26 +237,26 @@ Aspose.Cells' Formelberäkningsmotorn låter dig ställa in, läsa och beräkna 
 |IMEXP|
 |IMLN|
 |IMLOG10|
-|IMLOGG2|
-|IMKRAFT|
-|IMPRODUKT|
-|JAG ÄR VERKLIG|
+|IMLOG2|
+|IMPOWER|
+|IMPRODUCT|
+|IMREAL|
 |IMSIN|
 |IMSQRT|
 |IMSUB|
 |IMSUM|
 |INDEX|
-|INDIREKT|
+|INDIRECT|
 |INT|
-|GENSKJUTA|
-|INTRAT|
+|INTERCEPT|
+|INTRATE|
 |IPMT|
 |IRR|
 |ISBLANK|
 |ISERR|
-|FEL|
-|ÄR JÄMNT|
-|ISLOGISKT|
+|ISERROR|
+|ISEVEN|
+|ISLOGICAL|
 |ISNA|
 |ISNONTEXT|
 |ISNUMBER|
@@ -263,177 +266,177 @@ Aspose.Cells' Formelberäkningsmotorn låter dig ställa in, läsa och beräkna 
 |ISOWEEKNUM|
 |ISPMT|
 
-###### **K**
+######  *K**
 |**Fungera**|**Sammanfattning**|
-|:- |:- |
+| :- | :- |
 |KURT|
 
-###### **L**
+######  *L**
 |**Fungera**|**Sammanfattning**|
-|:- |:- |
-|STOR|
+| :- | :- |
+|LARGE|
 |LCM|
-|VÄNSTER|
-|VÄNSTERTB|
+|LEFT|
+|LEFTB|
 |LEN|
 |LENB|
 |LINEST|
 |LN|
-|LOGGA|
-|LOGG10|
+|LOG|
+|LOG10|
 |LOGEST|
 |LOGINV|
 |LOGNORM.DIST|
 |LOGNORM.INV|
 |LOGNORMDIST|
-|SLÅ UPP|
-|LÄGRE|
+|LOOKUP|
+|LOWER|
 
-###### **M**
+######  *M**
 |**Fungera**|**Sammanfattning**|
-|:- |:- |
+| :- | :- |
 |MATCH|
 |MAX|
 |MAXA|
 |MAXIFS|
 |MDETERM|
-|DURATION|
+|MDURATION|
 |MEDIAN|
-|MITTEN|
+|MID|
 |MIDB|
 |MIN|
-|MINIFER|
+|MINIFS|
 |MINA|
-|MINUT|
-|MINVERS|
+|MINUTE|
+|MINVERSE|
 |MIRR|
 |MMULT|
 |MOD|
-|LÄGE|
+|MODE|
 |MODE.MULT|
 |MODE.SNGL|
-|MÅNAD|
+|MONTH|
 |MROUND|
 |MULTINOMIAL|
 
-###### **N**
+######  *N**
 |**Fungera**|**Sammanfattning**|
-|:- |:- |
+| :- | :- |
 |N|
 |NA|
 |NEGBINOM.DIST|
 |NEGBINOMDIST|
-|NÄTVERKDAGAR|
+|NETWORKDAYS|
 |NETWORKDAYS.INTL|
-|NOMINELL|
+|NOMINAL|
 |NORM.DIST|
 |NORMDIST|
 |NORMINV|
 |NORM.INV|
 |NORM.S.DIST|
-|NORMSFÖRD|
+|NORMSDIST|
 |NORM.S.INV|
 |NORMSINV|
-|INTE|
-|NU|
+|NOT|
+|NOW|
 |NPER|
 |NPV|
 |NUMBERVALUE|
 
-###### **O**
+######  *O**
 |**Fungera**|**Sammanfattning**|
-|:- |:- |
-|OKT2BIN|
-|OKT2DEC|
-|OKT2HEX|
-|UDDA|
-|ODDFPRIS|
+| :- | :- |
+|OCT2BIN|
+|OCT2DEC|
+|OCT2HEX|
+|ODD|
+|ODDFPRICE|
 |ODDFYIELD|
-|ODAPRIS|
+|ODDLPRICE|
 |ODDLYIELD|
 |OFFSET|
-|ELLER|
+|OR|
 
-###### **P**
+######  *P**
 |**Fungera**|**Sammanfattning**|
-|:- |:- |
+| :- | :- |
 |PEARSON|
 |PERCENTIL.EXC|
 |PERCENTIL.INK|
-|PERCENTIL|
+|PERCENTILE|
 |PERCENTRANK.EXC|
 |PERCENTRANK.INC|
-|PROCENTRANK|
+|PERCENTRANK|
 |PERMUT|
 |PI|
 |PMT|
 |POISSON.DIST|
 |POISSON|
-|KRAFT|
+|POWER|
 |PPMT|
-|PRIS|
-|PRISDISC|
-|PRISMAT|
+|PRICE|
+|PRICEDISC|
+|PRICEMAT|
 |PROB|
-|PRODUKT|
-|RÄTT|
+|PRODUCT|
+|PROPER|
 |PV|
 
-###### **Q**
+######  *Q**
 |**Fungera**|**Sammanfattning**|
-|:- |:- |
-|KVARTIL|
+| :- | :- |
+|QUARTILE|
 |QUARTILE.EXC|
 |QUARTILE.INC|
-|KVOT|
+|QUOTIENT|
 
-###### **R**
+######  *R**
 |**Fungera**|**Sammanfattning**|
-|:- |:- |
-|RADIANER|
+| :- | :- |
+|RADIANS|
 |RAND|
 |RANDARRAY|
-|MELLAN MELLAN|
+|RANDBETWEEN|
 |RANK.AVG|
 |RANK.EQ|
-|RANG|
-|BETYGSÄTTA|
-|MOTTAGEN|
-|BYTA UT|
-|ERSÄTT|
+|RANK|
+|RATE|
+|RECEIVED|
+|REPLACE|
+|REPLACEB|
 |REPT|
-|RÄTT|
-|HÖGERB|
+|RIGHT|
+|RIGHTB|
 |ROMAN|
-|RUNDA|
-|AVRUNDA NEDÅT|
-|RUNDA UPP|
-|RAD|
-|RADER|
+|ROUND|
+|ROUNDDOWN|
+|ROUNDUP|
+|ROW|
+|ROWS|
 |RSQ|
 
-###### **S**
+######  *S**
 |**Fungera**|**Sammanfattning**|
-|:- |:- |
-|SÖK|
-|SÖKB|
-|ANDRA|
-|SEKVENS|
+| :- | :- |
+|SEARCH|
+|SEARCHB|
+|SECOND|
+|SEQUENCE|
 |SERIESSUM|
-|ARK|
-|LAKEN|
-|SKYLT|
-|SYND|
+|SHEET|
+|SHEETS|
+|SIGN|
+|SIN|
 |SINH|
-|SKEV|
+|SKEW|
 |SLN|
-|BACKE|
-|SMÅ|
-|SORTERA|
-|SORTERA EFTER|
+|SLOPE|
+|SMALL|
+|SORT|
+|SORTBY|
 |SQRT|
 |SQRTPI|
-|STANDARDISERA|
+|STANDARDIZE|
 |STDEV|
 |STDEV.P|
 |STDEV.S|
@@ -441,60 +444,60 @@ Aspose.Cells' Formelberäkningsmotorn låter dig ställa in, läsa och beräkna 
 |STDEVP|
 |STDEVPA|
 |STEYX|
-|ERSÄTTNING|
-|DELSUMMA|
-|BELOPP|
+|SUBSTITUTE|
+|SUBTOTAL|
+|SUM|
 |SUMIF|
-|SUMMER|
-|SUMPRODUKT|
+|SUMIFS|
+|SUMPRODUCT|
 |SUMSQ|
 |SUMX2MY2|
 |SUMX2PY2|
 |SUMXMY2|
-|VÄXLA|
+|SWITCH|
 |SYD|
 
-###### **T**
+######  *T**
 |**Fungera**|**Sammanfattning**|
-|:- |:- |
+| :- | :- |
 |T|
-|SOLBRÄNNA|
+|TAN|
 |TANH|
 |TBILLEQ|
-|TBILLPRIS|
+|TBILLPRICE|
 |TBILLYIELD|
 |T.DIST.2T|
 |T.DIST.RT|
 |TDIST|
 |TEXT|
-|TEXTGÅ MED|
-|TID|
-|TIDSVÄRDE|
+|TEXTJOIN|
+|TIME|
+|TIMEVALUE|
 |T.INV.2T|
 |TINV|
-|I DAG|
-|TRANSPONERA|
+|TODAY|
+|TRANSPOSE|
 |TREND|
 |TRIM|
 |TRIMMEAN|
-|SANN|
+|TRUE|
 |TRUNC|
 |T.TEST|
-|TESTA|
-|TYP|
+|TTEST|
+|TYPE|
 
-###### **U**
+######  *U**
 |**Fungera**|**Sammanfattning**|
-|:- |:- |
+| :- | :- |
 |UNICHAR|
 |UNICODE|
-|UNIK|
-|ÖVRE|
+|UNIQUE|
+|UPPER|
 
-###### **V**
+######  *V**
 |**Fungera**|**Sammanfattning**|
-|:- |:- |
-|VÄRDE|
+| :- | :- |
+|VALUE|
 |VAR|
 |VAR.P|
 |VAR.S|
@@ -502,37 +505,38 @@ Aspose.Cells' Formelberäkningsmotorn låter dig ställa in, läsa och beräkna 
 |VARP|
 |VARPA|
 |VDB|
-|SÖK UPP|
+|VLOOKUP|
+|VSTACK|
 
-###### **W**
+######  *W**
 |**Fungera**|**Sammanfattning**|
-|:- |:- |
-|VECKODAG|
-|VECKANUM|
+| :- | :- |
+|WEEKDAY|
+|WEEKNUM|
 |WEIBULL|
 |WEIBULL.DIST|
-|ARBETSDAG|
+|WORKDAY|
 |WORKDAY.INTL|
 
-###### **X**
+######  *X**
 |**Fungera**|**Sammanfattning**|
-|:- |:- |
+| :- | :- |
 |XIRR|
 |XLOOKUP|
 |XNPV|
 
-###### **Y**
+######  *Y**
 |**Fungera**|**Sammanfattning**|
-|:- |:- |
-|ÅR|
+| :- | :- |
+|YEAR|
 |YEARFRAC|
-|AVKASTNING|
-|AVKASTINGSSKIVOR|
-|AVKASTNINGSMATTA|
+|YIELD|
+|YIELDDISC|
+|YIELDMAT|
 
-###### **Z**
+######  *Z**
 |**Fungera**|**Sammanfattning**|
-|:- |:- |
+| :- | :- |
 |Z.TEST|
 |ZTEST|
 

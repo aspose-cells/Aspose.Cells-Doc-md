@@ -1,4 +1,4 @@
-﻿---
+---
 title: 将每个工作表保存到不同的 PDF 文件
 type: docs
 weight: 50
@@ -10,12 +10,12 @@ Aspose.Cells 支持将电子表格文件（包含图像、图表等）转换为 
 
 {{% /alert %}}
 
-如果您需要将每个工作表保存在您的模板 Excel 文件中以生成不同的 PDF 文件。这很容易实现。您可以尝试隐藏文件中的工作表，并根据渲染 PDF 的方式一次显示一张工作表。
+如果您需要将每个工作表保存在您的模板 Excel 文件中以生成不同的 PDF 文件。这很容易实现。您可以尝试将一张纸索引设置为**[`PdfSaveOptions.SheetSet`](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setSheetSet-com.aspose.cells.SheetSet-)**一次渲染到 PDF 的选项。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SaveEachWorksheettoDifferentPDF-SaveEachWorksheettoDifferentPDF.java" >}}
 
 {{% alert color="primary" %}}
 
-如果电子表格包含公式，最好调用[**工作簿.计算公式**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()方法，就在将电子表格呈现为 PDF 之前。这可确保重新计算公式相关值，并在 PDF 中呈现正确的值。
+如果电子表格包含公式，最好调用[**工作簿.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) 方法，就在将电子表格呈现为 PDF 之前。这可确保重新计算公式相关值，并在 PDF 中呈现正确的值。
 
 {{% /alert %}}

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Enregistrer chaque feuille de calcul dans un fichier PDF différent
 type: docs
 weight: 50
@@ -10,12 +10,12 @@ Aspose.Cells prend en charge la conversion de fichiers de feuille de calcul (con
 
 {{% /alert %}}
 
-Si vous devez enregistrer chaque feuille de calcul dans votre modèle de fichier Excel pour générer différents fichiers PDF. Ceci peut être réalisé facilement. Vous pouvez essayer de masquer des feuilles dans le fichier et de rendre une feuille visible à la fois en fonction de laquelle vous rendriez les PDF.
+Si vous devez enregistrer chaque feuille de calcul dans votre modèle de fichier Excel pour générer différents fichiers PDF. Ceci peut être réalisé facilement. Vous pouvez essayer de définir un index de feuille sur**[`PdfSaveOptions.SheetSet`](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setSheetSet-com.aspose.cells.SheetSet-)** option à la fois pour rendre à PDF.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SaveEachWorksheettoDifferentPDF-SaveEachWorksheettoDifferentPDF.java" >}}
 
 {{% alert color="primary" %}}
 
- Si la feuille de calcul contient des formules, il est préférable d'appeler le[**Workbook.calculateFormulaWorkbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()juste avant de rendre la feuille de calcul en PDF. Cela garantit que les valeurs dépendantes de la formule sont recalculées et que les valeurs correctes sont rendues dans le PDF.
+ Si la feuille de calcul contient des formules, il est préférable d'appeler le[**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) juste avant de rendre la feuille de calcul en PDF. Cela garantit que les valeurs dépendantes de la formule sont recalculées et que les valeurs correctes sont rendues dans le PDF.
 
 {{% /alert %}}

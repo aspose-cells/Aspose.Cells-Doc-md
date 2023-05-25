@@ -1,4 +1,4 @@
-﻿---
+---
 title: Travailler avec le stockage GridJs
 type: docs
 weight: 250
@@ -6,21 +6,23 @@ url: /fr/net/aspose-cells-gridjs/storage/
 description: Cet article décrit le traitement général pour Aspose.Cells.GridJs.
 keywords: file cache,storage,GridJs,GridJs storage,GridJs uid,download,uniqueid
 ---
-# Travailler avec le stockage GridJs
-## le traitement général du dossier
-Après avoir importé un fichier de feuille de calcul en mémoire et affiché l'interface utilisateur,
+#  Travailler avec le stockage GridJs
+##  le traitement général du dossier
+Après avoir importé un fichier de feuille de calcul,
 
-GridJs créera un fichier cache avec l'uid spécifié,
+ GridJs créera un fichier cache avec l'uid spécifié dans le**`Config.FileCacheDirectory`** dossier ,
 
  avec le format de[Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/net/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat") ,
 
-puis après chaque opération de mise à jour dans l'interface utilisateur,
+ GridJs enregistrera également toutes les formes/images dans un fichier d'archive zip dans le**`Config.PictureCacheDirectory`** dossier pour afficher ultérieurement les formes/images dans l'interface utilisateur du client.
+
+et après chaque opération de mise à jour dans l'interface utilisateur du client,
 
 par exemple définir la valeur de la cellule, définir le style de cellule, etc. ,
 
 GridJs côté client js déclenchera une action du contrôleur pour effectuer une opération UpdateCell.
 
-Dans cette action, une sauvegarde dans le fichier cache à partir de la mémoire se produira pendant la méthode UpdateCell.
+Dans cette action, une sauvegarde dans le fichier cache se produira pendant la méthode UpdateCell.
 ```C#   
         // post: /GridJs/UpdateCell
         [HttpPost] 
@@ -33,7 +35,8 @@ Dans cette action, une sauvegarde dans le fichier cache à partir de la mémoire
             return Content(ret, "text/plain", System.Text.Encoding.UTF8);
         }
 ```
-### où est le répertoire cache
+###  où est le fichier cache en fait
+
 A. Si nous implémentons GridCacheForStream et définissons GridJsWorkbook.CacheImp.
  par exemple, dans le code ci-dessous, nous pouvons simplement mettre et obtenir le fichier de cache à partir de**"D:\temp"**
 ```C#
@@ -73,11 +76,11 @@ public class LocalFileCache  : GridCacheForStream
 ```
 B.Si nous ne définissons pas GridJsWorkbook.CacheImp,
 
- GridJs créera et sauvegardera le fichier dans le**Config.FileCacheDirectory** , qui est le répertoire de cache par défaut que nous pouvons définir.
+ GridJs créera et sauvegardera le fichier dans le**`Config.FileCacheDirectory`** , qui est le répertoire de cache par défaut que nous pouvons définir.
 
-### comment obtenir le fichier de résultats mis à jour
+###  comment obtenir le fichier de résultats mis à jour
 #### 1. un uid spécifié pour le fichier
- Assurez-vous qu'une correspondance de carte spécifiée entre le fichier et l'uid,
+ Assurez-vous d'une correspondance de mappage spécifiée entre le fichier et l'uid,
 
 vous pouvez toujours obtenir le même uid pour un nom de fichier spécifié, pas à partir d'une génération aléatoire.
 
@@ -108,10 +111,10 @@ Par exemple, utilisez simplement le nom de fichier est ok.
         }
 ```
 
-#### 2. synchroniser avec le fonctionnement de l'interface utilisateur
-En fait, pour certaines opérations d'interface utilisateur,
+####  2. synchronisation avec l'opération de l'interface utilisateur du client
+En fait, pour certaines opérations de l'interface utilisateur client,
 
-par exemple:
+Par exemple:
 
 basculer la fiche active sur une autre,
 
@@ -121,9 +124,9 @@ faire pivoter/redimensionner l'image, etc.
 
 l'action UpdateCell ne sera pas déclenchée.
 
-Ainsi, si nous voulons obtenir le fichier mis à jour comme le montre l'interface utilisateur,
+Ainsi, si nous voulons obtenir le fichier mis à jour comme le montre l'interface utilisateur du client,
 
-nous devons effectuer une opération de fusion avant d'enregistrer l'action pour synchroniser ces opérations d'interface utilisateur.
+nous devons effectuer une opération de fusion avant d'enregistrer l'action pour synchroniser ces opérations d'interface utilisateur client.
 ```javascript
 //in the js
   function save() {
@@ -158,7 +161,7 @@ nous devons effectuer une opération de fusion avant d'enregistrer l'action pour
   //after merge do save to chache or to a stream or whaterver you want to save to ,here we just save to cache
   wb.SaveToXlsx(Path.Combine(Config.FileCacheDirectory, uid));
 ```         
-#### 3. récupérez le fichier du cache
+####  3. récupérez le fichier du cache
 par exemple : dans l'action de téléchargement, vous pouvez simplement l'obtenir à partir du répertoire de cache par uid.
 ```C#
 //in controller  

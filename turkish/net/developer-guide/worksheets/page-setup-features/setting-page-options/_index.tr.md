@@ -1,8 +1,10 @@
-﻿---
+---
 title: Ayar Sayfası Seçenekleri
 type: docs
 weight: 10
 url: /tr/net/setting-page-options/
+description: Bu makale, C# API ve .NET Kitaplığı'nı kullanarak Excel çalışma sayfalarının sayfa seçeneklerini programlı olarak ayarlamak için örnek kod sağlar. Sayfa Yönü, Ölçeklendirme Faktörü, Sayfalara Sığdır Seçenekleri, Kağıt Boyutu, Baskı Kalitesi, İlk Sayfa Numarasını ayarlayabileceksiniz.
+keywords: set excel page orientation c#, set excel scaling factor c#, set excel worksheets paper size c#
 ---
 {{% alert color="primary" %}}
 
@@ -10,34 +12,34 @@ Bazen, çalışma sayfalarının yazdırmayı denetlemesi için sayfa yapısı a
 
 {{% /alert %}}
 
-## **Ayar Sayfası Seçenekleri**
+##  **Ayar Sayfası Seçenekleri**
 
 Sayfa yapısı seçenekleri Aspose.Cells'de tam olarak desteklenir. Bu makale, Aspose.Cells ile sayfa seçeneklerinin nasıl ayarlanacağını açıklar ve ayar için kod örneklerini gösterir:
 
- Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , bu bir Microsoft Excel dosyasını temsil eder. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf bir içerir[**çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Excel dosyasındaki her çalışma sayfasına erişim sağlayan koleksiyon. Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)sınıf.
+ Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) bu bir Microsoft Excel dosyasını temsil eder. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf bir içerir[**çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Excel dosyasındaki her çalışma sayfasına erişim sağlayan koleksiyon. Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)sınıf.
 
  bu[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf sağlar[**Sayfa ayarı**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) çalışma sayfasının sayfa düzeni seçeneklerini ayarlamak için kullanılan özellik. Aslında, bu[**Sayfa ayarı**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) özellik bir nesnedir[**Sayfa ayarı**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) yazdırılan bir çalışma sayfası için farklı sayfa düzeni seçeneklerini ayarlamak için kullanılan sınıf. bu[**Sayfa ayarı**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)class, sayfa düzeni seçeneklerini ayarlamak için kullanılan çeşitli özellikler sağlar. Bu özelliklerden bazıları aşağıda tartışılmaktadır.
 
-### **Sayfa yönlendirmesi**
+###  **Sayfa yönlendirmesi**
 
-Sayfa yönlendirmesi kullanılarak dikey veya yatay olarak ayarlanabilir.[**Sayfa ayarı**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) sınıf'[**Oryantasyon**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) Emlak. bu[**Oryantasyon**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) özelliği, önceden tanımlanmış değerlerden birini kabul eder.[**Sayfa Yönlendirme Türü**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype)numaralandırma, aşağıda listelenmiştir.
+ Sayfa yönlendirmesi kullanılarak dikey veya yatay olarak ayarlanabilir.[**Sayfa ayarı**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) sınıf'[**Oryantasyon**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) mülk. bu[**Oryantasyon**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) özelliği, önceden tanımlanmış değerlerden birini kabul eder.[**Sayfa Yönlendirme Türü**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype)numaralandırma, aşağıda listelenmiştir.
 
-|**Sayfa Yönlendirme Türleri**|**Açıklama**|
-|:- |:- |
+|**Sayfa Yönlendirme Türleri**|**Tanım**|
+| :- | :- |
 |Manzara|Yatay yönlendirme|
 |Vesika|Dikey yönlendirme|
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-PageOrientation-1.cs" >}}
 
-### **Ölçekleme faktörü**
+###  **Ölçekleme faktörü**
 
- Ölçeklendirme faktörünü ayarlayarak bir çalışma sayfasının boyutunu küçültmek veya büyütmek mümkündür.[**Sayfa Kurulumu.Yakınlaştır**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/zoom)Emlak.
+ Ölçeklendirme faktörünü ayarlayarak bir çalışma sayfasının boyutunu küçültmek veya büyütmek mümkündür.[**Sayfa Kurulumu.Yakınlaştır**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/zoom)mülk.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-ScalingFactor-1.cs" >}}
 
-### **Sayfalara Sığdır Seçenekleri**
+###  **Sayfalara Sığdır Seçenekleri**
 
- Çalışma sayfasının içeriğini belirli sayıda sayfaya sığdırmak için[**Sayfa ayarı**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) sınıf'[**Sayfalara SığdırUzun**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) ve[**Sayfalara SığdırGeniş**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)özellikler. Bu özellikler, çalışma sayfalarını ölçeklendirmek için de kullanılır.
+ Çalışma sayfasının içeriğini belirli sayıda sayfaya sığdırmak için[**Sayfa ayarı**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) sınıf'[**Sayfalara SığdırUzun**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) Ve[**Sayfalara SığdırGeniş**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)özellikler. Bu özellikler, çalışma sayfalarını ölçeklendirmek için de kullanılır.
 
 {{% alert color="primary" %}}
 
@@ -47,12 +49,12 @@ Sayfa yönlendirmesi kullanılarak dikey veya yatay olarak ayarlanabilir.[**Sayf
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-FitToPagesOptions-1.cs" >}}
 
-### **Kağıt boyutu**
+###  **Kağıt boyutu**
 
- kullanarak çalışma sayfalarının yazdırılacağı kağıt boyutunu ayarlayın.[**Sayfa ayarı**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) sınıf'[**Kağıt boyutu**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) Emlak. bu[**Kağıt boyutu**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) özelliği, önceden tanımlanmış değerlerden birini kabul eder.[**KağıtBoyutuTürü**](https://reference.aspose.com/cells/net/aspose.cells/papersizetype)numaralandırma, aşağıda listelenmiştir.
+ kullanarak çalışma sayfalarının yazdırılacağı kağıt boyutunu ayarlayın.[**Sayfa ayarı**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) sınıf'[**Kağıt boyutu**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) mülk. bu[**Kağıt boyutu**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) özelliği, önceden tanımlanmış değerlerden birini kabul eder.[**KağıtBoyutuTürü**](https://reference.aspose.com/cells/net/aspose.cells/papersizetype)numaralandırma, aşağıda listelenmiştir.
 
-|**Kağıt Boyutu Türleri**|**Açıklama**|
-|:- |:- |
+|**Kağıt Boyutu Türleri**|**Tanım**|
+| :- | :- |
 |KağıtMektup|Harf (8-1/2 inç x 11 inç)|
 |KağıtMektupKüçük|Küçük Harf (8-1/2 inç x 11 inç)|
 |Kağıt Tabloid|Tabloid (11 inç x 17 inç)|
@@ -176,14 +178,14 @@ Sayfa yönlendirmesi kullanılarak dikey veya yatay olarak ayarlanabilir.[**Sayf
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-ManagePaperSize-1.cs" >}}
 
-### **Baskı kalitesi**
+###  **Baskı kalitesi**
 
- ile yazdırılacak çalışma sayfalarının baskı kalitesini ayarlayın.[**Sayfa ayarı**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) sınıf'[**Baskı kalitesi**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printquality)Emlak. Baskı kalitesi için ölçüm birimi İnç Başına Nokta'dır (DPI).
+ ile yazdırılacak çalışma sayfalarının baskı kalitesini ayarlayın.[**Sayfa ayarı**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) sınıf'[**Baskı kalitesi**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printquality)mülk. Baskı kalitesi için ölçüm birimi İnç Başına Nokta'dır (DPI).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintQuality-1.cs" >}}
 
-### **İlk Sayfa Numarası**
+###  **İlk Sayfa Numarası**
 
- kullanarak çalışma sayfası sayfalarının numaralandırılmasını başlatın.[**Sayfa ayarı**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) sınıf'[**İlk SayfaNumarası**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) Emlak. bu[**İlk SayfaNumarası**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber)özelliği, ilk çalışma sayfası sayfasının sayfa numarasını ayarlar ve sonraki sayfalar artan sırada numaralandırılır.
+ kullanarak çalışma sayfası sayfalarının numaralandırılmasını başlatın.[**Sayfa ayarı**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) sınıf'[**İlk SayfaNumarası**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) mülk. bu[**İlk SayfaNumarası**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber)özelliği, ilk çalışma sayfası sayfasının sayfa numarasını ayarlar ve sonraki sayfalar artan sırada numaralandırılır.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetFirstPageNumber-1.cs" >}}

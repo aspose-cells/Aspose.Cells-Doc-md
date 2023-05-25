@@ -1,8 +1,10 @@
-﻿---
+---
 title: Définition des options de page
 type: docs
 weight: 10
 url: /fr/net/setting-page-options/
+description: Cet article fournit un exemple de code pour définir les options de page des feuilles de calcul Excel par programmation à l'aide de la bibliothèque C# API et .NET. Vous pourrez définir l'orientation de la page, le facteur d'échelle, les options FitToPages, la taille du papier, la qualité d'impression, le premier numéro de page.
+keywords: set excel page orientation c#, set excel scaling factor c#, set excel worksheets paper size c#
 ---
 {{% alert color="primary" %}}
 
@@ -10,34 +12,34 @@ Parfois, il est nécessaire de configurer les paramètres de mise en page pour l
 
 {{% /alert %}}
 
-## **Définition des options de page**
+##  **Définition des options de page**
 
 Les options de configuration de page sont entièrement prises en charge dans Aspose.Cells. Cet article explique comment définir les options de page avec Aspose.Cells et montre des exemples de code pour la configuration :
 
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , qui représente un fichier Excel Microsoft. Le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**Feuilles de travail**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)classe.
+ Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) qui représente un fichier Excel Microsoft. Le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**Des feuilles de calcul**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)classe.
 
  Le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fournit la[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) propriété utilisée pour définir les options de mise en page de la feuille de calcul. En fait, cela[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) la propriété est un objet de la[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe utilisée pour définir différentes options de mise en page pour une feuille de calcul imprimée. Le[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)La classe fournit diverses propriétés utilisées pour définir les options de mise en page. Certaines de ces propriétés sont décrites ci-dessous.
 
-### **Orientation des pages**
+###  **Orientation des pages**
 
-L'orientation de la page peut être réglée sur portrait ou paysage à l'aide de la[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**Orientation**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) la propriété. Le[**Orientation**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) propriété accepte l'une des valeurs prédéfinies dans le[**PageOrientationType**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype)énumération ci-dessous.
+ L'orientation de la page peut être réglée sur portrait ou paysage à l'aide de la[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**Orientation**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) propriété. Le[**Orientation**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) propriété accepte l'une des valeurs prédéfinies dans le[**PageOrientationType**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype)énumération ci-dessous.
 
 |**Types d'orientation de page**|**Description**|
-|:- |:- |
+| :- | :- |
 |Paysage|Orientation paysage|
 |Portrait|Orientation portrait|
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-PageOrientation-1.cs" >}}
 
-### **Facteur d'échelle**
+###  **Facteur d'échelle**
 
- Il est possible de réduire ou d'agrandir la taille d'une feuille de calcul en ajustant le facteur d'échelle avec la[**PageSetup.Zoom**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/zoom)la propriété.
+ Il est possible de réduire ou d'agrandir la taille d'une feuille de calcul en ajustant le facteur d'échelle avec la[**PageSetup.Zoom**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/zoom)propriété.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-ScalingFactor-1.cs" >}}
 
-### **Options FitToPages**
+###  **Options FitToPages**
 
- Pour adapter le contenu de la feuille de calcul à un nombre de pages spécifique, utilisez la[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) et[**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)Propriétés. Ces propriétés sont également utilisées pour mettre à l'échelle les feuilles de calcul.
+ Pour adapter le contenu de la feuille de calcul à un nombre de pages spécifique, utilisez la[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) et[**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)propriétés. Ces propriétés sont également utilisées pour mettre à l'échelle les feuilles de calcul.
 
 {{% alert color="primary" %}}
 
@@ -47,12 +49,12 @@ L'orientation de la page peut être réglée sur portrait ou paysage à l'aide d
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-FitToPagesOptions-1.cs" >}}
 
-### **Taille de papier**
+###  **Taille de papier**
 
- Définissez le format de papier sur lequel les feuilles de calcul seront imprimées à l'aide du[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**Taille de papier**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) la propriété. Le[**Taille de papier**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) propriété accepte l'une des valeurs prédéfinies dans le[**Type de format de papier**](https://reference.aspose.com/cells/net/aspose.cells/papersizetype)énumération ci-dessous.
+ Définissez le format de papier sur lequel les feuilles de calcul seront imprimées à l'aide du[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**Taille de papier**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) propriété. Le[**Taille de papier**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) propriété accepte l'une des valeurs prédéfinies dans le[**Type de format de papier**](https://reference.aspose.com/cells/net/aspose.cells/papersizetype)énumération ci-dessous.
 
 |**Types de format de papier**|**Description**|
-|:- |:- |
+| :- | :- |
 |PapierLettre|Lettre (8-1/2 po x 11 po)|
 |PapierLettrePetit|Lettre petit (8-1/2 po x 11 po)|
 |PapierTabloid|Tabloïd (11 po x 17 po)|
@@ -76,7 +78,7 @@ L'orientation de la page peut être réglée sur portrait ou paysage à l'aide d
 |PapierEnveloppe11|Enveloppe #11 (4-1/2 po x 10-3/8 po)|
 |PapierEnveloppe12|Enveloppe #12 (4-1/2 po x 11 po)|
 |PapierEnveloppe14|Enveloppe #14 (5 po x 11-1/2 po)|
-|Feuille de papier|Feuille de format C|
+|Feuille de papier|Feuille de taille C|
 |PaperDSheet|Feuille de taille D|
 |Feuille de papier|Feuille de taille E|
 |PapierEnveloppeDL|Enveloppe DL (110 mm x 220 mm)|
@@ -172,18 +174,18 @@ L'orientation de la page peut être réglée sur portrait ou paysage à l'aide d
 |PapierB3|B3 habituel (13,9 x 19,7 pouces)|
 |PapierCarte D'Affaires|Carte de visite (90 mm x 55 mm)|
 |PapierThermique|Thermique (3 x 11 po)|
-|Personnalisé|Représente le format de papier personnalisé.|
+|Coutume|Représente le format de papier personnalisé.|
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-ManagePaperSize-1.cs" >}}
 
-### **Qualité d'impression**
+###  **Qualité d'impression**
 
- Définissez la qualité d'impression des feuilles de calcul à imprimer avec le[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**Qualité d'impression**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printquality)la propriété. L'unité de mesure de la qualité d'impression est le point par pouce (DPI).
+ Définissez la qualité d'impression des feuilles de calcul à imprimer avec le[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**Qualité d'impression**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printquality)propriété. L'unité de mesure de la qualité d'impression est le point par pouce (DPI).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintQuality-1.cs" >}}
 
-### **Numéro de la première page**
+###  **Numéro de la première page**
 
- Commencez la numérotation des pages de la feuille de travail à l'aide de la[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**NuméroPremierPage**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) la propriété. Le[**NuméroPremierPage**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber)La propriété définit le numéro de page de la première page de la feuille de calcul et les pages suivantes sont numérotées dans l'ordre croissant.
+ Commencez la numérotation des pages de la feuille de travail à l'aide de la[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**NuméroPremierPage**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) propriété. Le[**NuméroPremierPage**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber)La propriété définit le numéro de page de la première page de la feuille de calcul et les pages suivantes sont numérotées dans l'ordre croissant.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetFirstPageNumber-1.cs" >}}

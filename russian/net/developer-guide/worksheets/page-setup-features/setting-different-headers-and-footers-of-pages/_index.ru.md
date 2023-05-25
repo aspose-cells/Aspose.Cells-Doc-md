@@ -1,8 +1,10 @@
-﻿---
+---
 title: Настройка разных верхних и нижних колонтитулов для разных страниц
 type: docs
 weight: 35
 url: /ru/net/setting-different-headers-and-footers-for-pages-to-Excel/
+description: В этой статье представлен пример кода, который показывает, как программно установить различные верхние и нижние колонтитулы параметров страницы листа Excel с помощью библиотеки C# и .NET API. Вы можете установить верхние и нижние колонтитулы для первой страницы, нечетных страниц и четных страниц.
+keywords: set excel header footer first page c#, set excel header footer odd pages c#, set excel header footer even pages c#
 ---
 {{% alert color="primary" %}}
 
@@ -11,15 +13,15 @@ Aspose.Cells поддерживает ту же функцию.
 
 {{% /alert %}}
 
-## **Настройка разных верхних и нижних колонтитулов в MS Excel**
+##  **Настройка разных верхних и нижних колонтитулов в MS Excel**
 
 **![Настройка разных верхних и нижних колонтитулов](difpage.png)**
 
-1.  Нажмите**Макет страницы > Печать заголовков > Верхний/нижний колонтитул**.
-1.  Проверять**Разные нечетные и четные страницы** или же**Разная еловая страница**.
+1. Нажмите *Макет страницы > Печатать заголовки > Верхний/нижний колонтитул**.
+1.  Проверять**Разные нечетные и четные страницы** или *Другая еловая страница**.
 1. Введите разные верхние и нижние колонтитулы.
 
-## **Настройка разных верхних и нижних колонтитулов с помощью Aspose.Cells**
+##  **Настройка разных верхних и нижних колонтитулов с помощью Aspose.Cells**
 
 Aspose.Cells ведет себя так же, как Excel.
 1.  Устанавливает флаги[PageSetup.IsHFDiffOddEven](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/ishfdiffoddeven/) и[PageSetup.IsHFDiffFirst](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/IsHFDiffFirst/) 

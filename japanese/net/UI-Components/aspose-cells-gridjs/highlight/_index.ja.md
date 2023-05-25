@@ -1,13 +1,13 @@
-﻿---
+---
 title: GridJs ハイライト機能の操作
 type: docs
 weight: 250
 url: /ja/net/aspose-cells-gridjs/highlight/
-description: この記事では、GridJ を使用してセル テキスト、セル範囲、形状、および画像を強調表示する方法について説明します。
+description: この記事では、GridJs を使用してセルのテキスト、セル範囲、図形、画像を強調表示する方法について説明します。
 keywords: highlight, highlight spreadsheet
 ---
-# GridJs ハイライト機能の操作
-ハイライト機能では、以下の JS API がサポートされています
+#  GridJs ハイライト機能の操作
+ハイライト機能では以下の JS API をサポートしています
 
 
 - ハイライトを有効にし、ハイライト スタイルを設定します。すべてのハイライト API は、ハイライト スタイルが設定された後にのみ有効になります。
@@ -22,7 +22,7 @@ xs.showHighlights(style)
 ```javascript
 xs.hideHighlights()
 ```
-- 強調表示するセル テキストを追加する
+- 強調表示するセルのテキストを追加する
 ```javascript
 xs.sheet.addHighlightText(row,col,startpostion,endposition)
     // the parameters are:
@@ -30,9 +30,10 @@ xs.sheet.addHighlightText(row,col,startpostion,endposition)
 	col:column index
 	startpostion: highlight start postion in cell text 
 	endpostion: highlight end postion in cell text 
+    //it support multiple range postion inside one cell
 ```
 
-- 配列内のセル テキストのハイライトを削除
+- 配列内のセルテキストのハイライトを削除する
 ```javascript
 xs.sheet.removeHighlightText(row,col)
     // the parameters are:
@@ -40,12 +41,12 @@ xs.sheet.removeHighlightText(row,col)
 	col:column index
 ```
 
-- セル テキストのハイライトの配列を取得する
+- セルテキストのハイライト用の配列を取得
 ```javascript
 xs.sheet.getHighlightTexts()
 ```
 
-- ハイライトするセル範囲を追加
+- ハイライトするセル範囲を追加する
 ```javascript
 xs.sheet.addHighlightRange(sri,sci,eri,eci)
     // the parameters are:
@@ -55,7 +56,7 @@ xs.sheet.addHighlightRange(sri,sci,eri,eci)
 	eci:end column index of cell range
 ```
 
-- 配列内のセル範囲のハイライトを削除
+- 配列内のセル範囲のハイライトを削除します
 ```javascript
 xs.sheet.removeHighlightRange(sri,sci,eri,eci)
      // the parameters are:
@@ -65,12 +66,12 @@ xs.sheet.removeHighlightRange(sri,sci,eri,eci)
 	eci:end column index of cell range
 ```
 
-- セル範囲のハイライトの配列を取得
+- セル範囲のハイライト用の配列を取得
 ```javascript
 xs.sheet.getHighlightRanges()
 ```
 
-- セル範囲を反転ハイライトに設定
+- セル範囲を反転ハイライトに設定します
 ```javascript
 xs.sheet.setHighlightInverseRange(sri,sci,eri,eci)
     // the parameters are:
@@ -80,26 +81,26 @@ xs.sheet.setHighlightInverseRange(sri,sci,eri,eci)
 	eci:end column index of cell range
 ```
 
-- 反転ハイライトのハイライトを削除
+- 逆ハイライトのハイライトを削除
 ```javascript
 xs.sheet.removeHighlightInverseRange()
      
 ```
 
-- 逆ハイライト セル範囲を取得する
+- 逆ハイライトセル範囲の取得
 ```javascript
 xs.sheet.getHighlightInverseRange()
 ```
 
 
-- 形状を追加して配列を強調表示する
+- 図形を追加して配列を強調表示する
 ```javascript
 xs.sheet.addHighlightShape(shapeid)
     // the parameters are:
     shapeid: the id of shape, can be find in xs.sheet.data.shapes
 ```
 
-- 配列内のハイライト形状を削除
+- 配列内のハイライト形状を削除します
 ```javascript
 xs.sheet.removeHighlightShape(shapeid)
      // the parameters are:
@@ -111,6 +112,26 @@ xs.sheet.removeHighlightShape(shapeid)
 xs.sheet.getHighlightShaps()
 ```
 
+- ハイライトするテキストボックスを追加します。テキストボックスは、タイププロパティが「TextBox」である特別な種類の図形です。
+```javascript
+xs.sheet.addHighlightTextBox(shapeid, startpostion, endposition)
+    // the parameters are:
+    shapeid: the id of shape, can be find in xs.sheet.data.shapes whose type is 'TextBox'
+    startpostion: highlight start postion in the text of textbox
+    endpostion: highlight end postion in the text of textbox
+    //it support multiple range postion inside one textbox
+```
+
+
+- テキストボックス内のハイライト範囲を削除します。テキストボックスは、タイププロパティが「TextBox」である特別な種類の図形です。
+```javascript
+xs.sheet.removeHighlightTextBox(shapeid, startpostion, endposition)
+    // the parameters are:
+    shapeid: the id of shape, can be find in xs.sheet.data.shapes whose type is 'TextBox'
+    startpostion: highlight start postion in the text of textbox
+    endpostion: highlight end postion in the text of textbox
+    //it support multiple range postion inside one textbox
+```
 
 - ハイライト配列に画像を追加
 ```javascript
@@ -119,7 +140,7 @@ xs.sheet.addHighlightImage(imageid)
     imageid: the id of image, can be find in xs.sheet.data.images
 ```
 
-- 配列内のハイライト画像を削除
+- 配列内のハイライト画像を削除します
 ```javascript
 xs.sheet.removeHighlightImage(imageid)
      // the parameters are:
@@ -131,7 +152,7 @@ xs.sheet.removeHighlightImage(imageid)
 xs.sheet.getHighlightImages()
 ```
 
-- すべてのワークシートを強調表示するかどうかを設定し、すべての図形と画像を含めます
+- すべてのワークシートを強調表示するかどうか、すべての図形と画像を含めるかどうかを設定します
 ```javascript
 xs.sheet.setHighlightAll(ishighlightall,isrerender=true)
    // the parameters are:
@@ -154,4 +175,74 @@ xs.sheet.setCustomHighlightImgFunc(func)
     
 ```
 
-詳細については、GitHub デモ ページ https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html をご覧ください。
+### テキストボックスオブジェクトのハイライト
+テキストボックスは、type プロパティが :"TextBox" である特別な種類の図形です。
+例: 以下のコードは、どの図形がテキストボックスであるかを示します。
+
+```javascript
+for (let shape of xs.sheet.data.shapes) {
+    if (shape.type === 'TextBox') {
+        console.log(shape.id + ' is a textbox');
+    }
+}
+```
+- テキストボックスオブジェクトにハイライトを追加
+```javascript
+    addHighlight(startpostion,endposition)
+    // the parameters are:
+	startpostion: highlight start postion in textbox
+	endpostion: highlight end postion in textbox
+
+//for example,we assume shape 0 is a textbox object
+const textbox=xs.sheet.data.shapes[0];
+//first we shall add to highlight shape to enable the highlight for the textbox shape object,it support multiple range postion 
+ xs.sheet.addHighlightShape(textbox.id);
+ textbox.addHighlight(5,10);
+ textbox.addHighlight(18,28);
+```
+
+- テキストボックスオブジェクトのハイライトを削除
+```javascript
+    removeHighlight(startpostion,endposition)
+    // the parameters are:
+	startpostion: highlight start postion in textbox
+	endpostion: highlight end postion in textbox
+    //for example,we assume shape 0 is a textbox object
+     const textbox=xs.sheet.data.shapes[0];
+     textbox.removeHighlight(5,10);
+```
+
+- テキストボックスオブジェクトのハイライトを取得する
+```javascript
+    getHighlight()
+    //for example,we assume shape 0 is a textbox object
+     const textbox=xs.sheet.data.shapes[0];
+     textbox.getHighlight();
+```
+
+- テキストボックスオブジェクトの背景色を変更する
+```javascript
+    setBackgroundColor(color)
+    // the parameters are:
+        color: the html color value in hex string value
+    //for example,we assume shape 0 is a textbox object,this will set the background color to Yellow 
+     const textbox=xs.sheet.data.shapes[0];
+     textbox.setBackgroundColor('#FFFF00');
+```
+- 背景色とテキストの色を自動的に変更して、視覚的にアクティブな効果を実現します
+```javascript
+    setActiveEffect(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will change background color and the text color of the textbox object;if false,restore to original appearence
+```
+
+- テキストボックスオブジェクト内のテキストコンテンツを非表示/再表示します。
+```javascript
+    hideText(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will not display the text in the textbox object;if false,restore to original appearence
+```
+
+
+
+詳細については、github のデモ ページ https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html をご覧ください。

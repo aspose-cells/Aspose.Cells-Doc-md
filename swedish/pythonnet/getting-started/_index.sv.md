@@ -1,4 +1,4 @@
-﻿---
+---
 title: Komma igång
 linktitle: Komma igång
 type: docs
@@ -7,14 +7,14 @@ url: /sv/python-net/getting-started/
 keywords: python, excel, instal
 description: Installation Aspose.Cells for Python via .NET och installationsriktlinjer.
 ---
-## **Systemkrav**
+##  **Systemkrav**
  Aspose.Cells for Python via .NET är plattformsoberoende API och kan användas på vilken plattform som helst (Windows och Linux) där[Python](https://www.python.org/downloads/) är installerad.
 
-## **Python Version**
+##  **Python Version**
 - Python 3.6 eller högre
 
-## **Installation**
-### **Windows:**
+##  **Installation**
+###  **Windows:**
  Du kan enkelt använda Aspose.Cells for Python via .NET från[pypi](https://pypi.org/project/aspose-cells-python/) med följande kommando.
 {{< highlight "NET" >}}
 
@@ -22,15 +22,20 @@ description: Installation Aspose.Cells for Python via .NET och installationsrikt
 
 {{< /highlight >}}
 
-### **Linux:**
+###  **Linux:**
  Du kan enkelt använda Aspose.Cells for Python via .NET från[pypi](https://pypi.org/project/aspose-cells-python/) med följande kommando.
 {{< highlight "NET" >}}
 
  $ pip install aspose-cells-python
 
 {{< /highlight >}}
+- Obs: Du måste köra följande kommando innan installationen
+{{< highlight "NET" >}}
+For Ubuntu/Debian: apt-get install libgdiplus 
+For CentOS/RHEL/Fedora: yum install libgdiplus 
+{{< /highlight >}}
 
-### **Mac OS:**
+###  **Mac OS:**
  Du kan enkelt använda Aspose.Cells for Python via .NET från[pypi](https://pypi.org/project/aspose-cells-python/) med följande kommando.
 {{< highlight "NET" >}}
 
@@ -45,7 +50,7 @@ description: Installation Aspose.Cells for Python via .NET och installationsrikt
 export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/Library/Frameworks/Python.framework/Versions/3.7/lib"
 export LIBRARY_PATH="$LIBRARY_PATH:/Library/Frameworks/Python.framework/Versions/3.7/lib/"
 {{< /highlight >}}
-## **Skapar Hello World-applikationen**
+##  **Skapar Hello World-applikationen**
 
 -  Skapa en fil med namnet**Skapar HelloWorldFile.py** och använd följande exempelkod:
 

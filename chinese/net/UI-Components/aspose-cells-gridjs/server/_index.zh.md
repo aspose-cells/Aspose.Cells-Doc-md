@@ -1,4 +1,4 @@
-﻿---
+---
 title: 使用 GridJs 服务器端
 type: docs
 weight: 250
@@ -6,6 +6,11 @@ url: /zh/net/aspose-cells-gridjs/server/
 description: 本文介绍如何使用 Aspose.Cells.GridJs 库。
 ---
 # 使用 GridJs 服务器端
+## 0.在Config中设置正确的文件夹路径
+ **`Config.FileCacheDirectory`**对于工作簿缓存文件。
+ **`Config.PictureCacheDirectory`**对于工作簿中的图像文件缓存。
+
+有关存储详细信息，请检查此[指导](/net/aspose-cells-gridjs/storage/)
 
 ## 1.实现GridCacheForStream
 对于本地文件存储，这里有一个例子：
@@ -14,7 +19,8 @@ description: 本文介绍如何使用 Aspose.Cells.GridJs 库。
 
 对于服务器端存储，我们也提供了一个例子。
 请检查：<https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Models/AwsCache.cs>
-## 2. 从电子表格文件中获取json。
+
+##  2. 从电子表格文件中获取json。
 ```C#
 GridJsWorkbook wbj = new GridJsWorkbook();
 using (FileStream fs = new FileStream(path, FileMode.Open))
@@ -23,7 +29,7 @@ using (FileStream fs = new FileStream(path, FileMode.Open))
 }
 String ret =wbj.ExportToJson();
 ```
-## 3. 从电子表格文件中获取图像/形状
+##  3. 从电子表格文件中获取图像/形状
 ```C#
 //Gridjs will automatically zip all the images/shapes into a zip stream  and store it in cache using the cache implemention.
 //GridJsWorkbook.CacheImp.SaveStream(zipoutStream, fileid);

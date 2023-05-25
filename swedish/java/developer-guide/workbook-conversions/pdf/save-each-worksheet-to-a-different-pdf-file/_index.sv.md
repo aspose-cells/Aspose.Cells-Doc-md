@@ -1,4 +1,4 @@
-﻿---
+---
 title: Spara varje kalkylblad till en annan PDF-fil
 type: docs
 weight: 50
@@ -10,12 +10,12 @@ Aspose.Cells stöder konvertering av kalkylbladsfiler (som innehåller bilder, d
 
 {{% /alert %}}
 
-Om du behöver spara varje kalkylblad i din Excel-mall för att generera olika PDF-filer. Detta kan enkelt uppnås. Du kan försöka gömma ark i filen och göra ett ark synligt i taget baserat på vilket du skulle rendera PDF-filer.
+Om du behöver spara varje kalkylblad i din Excel-mall för att generera olika PDF-filer. Detta kan enkelt uppnås. Du kan försöka ställa in ett arkindex till**[`PdfSaveOptions.SheetSet`](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setSheetSet-com.aspose.cells.SheetSet-)** alternativ åt gången att rendera till PDF.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SaveEachWorksheettoDifferentPDF-SaveEachWorksheettoDifferentPDF.java" >}}
 
 {{% alert color="primary" %}}
 
- Om kalkylarket innehåller formler är det bäst att anropa[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()-metoden precis innan kalkylarket renderas till PDF. Detta säkerställer att formelberoende värden räknas om och att de korrekta värdena återges i PDF.
+ Om kalkylarket innehåller formler är det bäst att anropa[**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) -metoden precis innan kalkylarket renderas till PDF. Detta säkerställer att formelberoende värden räknas om och att de korrekta värdena återges i PDF.
 
 {{% /alert %}}

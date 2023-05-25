@@ -1,21 +1,23 @@
-﻿---
-title: Legen Sie die Farbe des Arbeitsblatt-Tabs fest
+---
+title: Legen Sie die Farbe der Arbeitsblattregisterkarte fest
 type: docs
 weight: 120
 url: /de/net/set-worksheet-tab-color/
+description: Dieser Artikel zeigt Beispielcode, der die Tab-Farbe eines Excel-Arbeitsblatts programmgesteuert mithilfe der Bibliothek C#, API oder .NET festlegt.
+keywords: set excel tab color c#, code to set excel tab color c#
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells ermöglicht es Ihnen, die Farbe einzelner Arbeitsblatt-Registerkarten zu ändern, um sie von den anderen abzuheben. Beispielsweise können Sie Ausgaben rot, Verkäufe grün, Vermögenswerte blau usw.
+Mit Aspose.Cells können Sie die Farbe einzelner Arbeitsblattregisterkarten ändern, um sie vom Rest hervorzuheben. Beispielsweise können Sie „Ausgaben“ rot, „Verkäufe“ grün, „Vermögenswerte“ blau usw. festlegen.
 
 {{% /alert %}} 
-## **Festlegen der Farbe der Arbeitsblattregisterkarte mit Microsoft Excel**
+##  **Festlegen der Farbe der Arbeitsblattregisterkarte mit Microsoft Excel**
 1. Klicken Sie mit der rechten Maustaste auf eine Registerkarte im Registerkartenblatt unten im aktuellen Arbeitsblatt.
-1.  Wählen**Registerkartenfarbe**.
+1. Wählen Sie *Tab-Farbe**.
 1. Wählen Sie eine Farbe aus der Palette aus.
-1.  Klicken**OK**.
-## **Festlegen der Farbe der Arbeitsblattregisterkarte mit Aspose.Cells**
-Der Beispielcode unten zeigt, wie die Registerkartenfarbe mit Aspose.Cells festgelegt wird.
+1. OK klicken**.
+##  **Festlegen der Farbe der Arbeitsblattregisterkarte mit Aspose.Cells**
+Der folgende Beispielcode zeigt, wie Sie die Tab-Farbe mit Aspose.Cells festlegen.
 
 
 

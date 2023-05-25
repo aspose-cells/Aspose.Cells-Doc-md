@@ -1,20 +1,26 @@
-﻿---
+---
 title: GridJs サーバー側での作業
 type: docs
 weight: 250
 url: /ja/net/aspose-cells-gridjs/server/
 description: この記事では、Aspose.Cells.GridJs ライブラリの使用方法について説明します。
 ---
-# GridJs サーバー側での作業
+#  GridJs サーバー側での作業
+## 0. Config で正しいフォルダー パスを設定します。
+ **`Config.FileCacheDirectory`**ワークブックキャッシュファイル用。
+ **`Config.PictureCacheDirectory`**ワークブック内の画像ファイルのキャッシュ用。
+
+保管の詳細については、こちらをご確認ください[ガイド](/net/aspose-cells-gridjs/storage/)
 
 ## 1. GridCacheForStream を実装する
-ローカル ファイル ストレージの例を次に示します。
+ローカル ファイル ストレージの例は次のとおりです。
 
 {{< gist "aspose-cells-gists" "fb32f5c7a98978432e5e05c50995a4ca" "LocalFileCache.cs" >}}
 
-サーバー側のストレージについては、例も示します。
+サーバー側ストレージの例も提供します。
 チェックしてください：<https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Models/AwsCache.cs>
-## 2. スプレッドシート ファイルから json を取得します。
+
+##  2. スプレッドシート ファイルから json を取得します。
 ```C#
 GridJsWorkbook wbj = new GridJsWorkbook();
 using (FileStream fs = new FileStream(path, FileMode.Open))
@@ -23,7 +29,7 @@ using (FileStream fs = new FileStream(path, FileMode.Open))
 }
 String ret =wbj.ExportToJson();
 ```
-## 3. スプレッドシート ファイルから画像/形状を取得する
+##  3. スプレッドシート ファイルから画像/形状を取得します
 ```C#
 //Gridjs will automatically zip all the images/shapes into a zip stream  and store it in cache using the cache implemention.
 //GridJsWorkbook.CacheImp.SaveStream(zipoutStream, fileid);
@@ -48,5 +54,5 @@ wb.MergeExcelFileFromJson(uid, p);
 wb.SaveToCacheWithFileName(uid, filename,password);
 ```
 
-詳細情報については、ここで例を確認できます。
+詳細については、ここで例を確認できます。
 <https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>

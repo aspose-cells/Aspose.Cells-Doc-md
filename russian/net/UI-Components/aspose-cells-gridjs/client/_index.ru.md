@@ -1,125 +1,246 @@
-﻿---
+---
 title: Работа с клиентской частью GridJs
 type: docs
 weight: 250
 url: /ru/net/aspose-cells-gridjs/client/
+keywords: custom,logo,setting,api
 ---
-# Работа с клиентской частью GridJs
-Мы разработали клиент GridJs на основе[x-таблица](https://github.com/myliang/x-spreadsheet).
+#  Работа с клиентской частью GridJs
+ Мы разработали клиент GridJs на основе[x-таблица](https://github.com/myliang/x-spreadsheet).
 
-## основные шаги:
+##  основные шаги:
 
 - создать экземпляр x_spreadsheet
 ```javascript
 xs = x_spreadsheet(id, options)
-```
-- загрузить json-данные
-```javascript
-xs.loadData(jsondata.data)
-```
-- установить активный лист
-```javascript
-xs.setActiveSheetByName(jsondata.actname)
-```
-- установить активную ячейку
-```javascript
-xs.setActiveCell(jsondata.actrow,jsondata.actcol);
-```
+    // the parameters are:
+    id:the html node id ,for example :'#gridjs-demo' for the html  <div id="gridjs-demo"></div>
+    options:the load options,
+     // the parameters for options:
+	    updateMode:  currently we only support 'server'
+	    updateUrl:  set the server side  url for update action based on json
+	    mode: read means readonly spread sheet/edit means we can edit the spread sheet
+	    showToolbar:   means whether to show toolbar
+	    showFileName:  whether to show the filename 
+	    local:         support multiple language for menus ,the locale can be:
+	                        en, cn, es, pt, de, ru, nl, 
+	                   for  English,Chinese,Spanish,Portuguese,German,Russian,Dutch
+			        ar, fr,id,it,ja
+                           for  Arabic,French,Indonesian,Italian,Japanese
+			        ko,th,tr,vi,cht
+                           for  Korean,Thai,Turkey,Vietnamese,Traditional Chinese                  
+	    showContextmenu:   means whether to show contextmenu on right click on a cell
 
-например, приведенный ниже код инициализирует объект x_spreadsheet.
-```javascript
- xs = x_spreadsheet('#gridjs-demo', {
+	for example the below code init a x_spreadsheet object.
+	xs = x_spreadsheet('#gridjs-demo', {
 			updateMode:'server',
 			updateUrl:'/GridJs2/UpdateCell',
 			mode: 'edit',
 			showToolbar: true,
                         local: 'en',
-            showContextmenu: true
-        }).loadData(sheets)
+			showContextmenu: true
+			})
 ```
- // параметры для опций:
- updateMode: в настоящее время мы поддерживаем только «сервер»
- updateUrl: установите URL-адрес на стороне сервера для действия обновления на основе json.
- режим: чтение означает электронную таблицу только для чтения/редактирование означает, что мы можем редактировать электронную таблицу
- showToolbar: означает, показывать ли панель инструментов
- showFileName: показывать ли имя файла
- local: поддержка нескольких языков для меню, локаль может быть: en, cn, es, pt, de, ru, nl для английского, китайского, испанского, португальского, немецкого, русского, голландского
- showContextmenu: означает, показывать ли контекстное меню при щелчке правой кнопкой мыши по ячейке.
-## 
+    
+-  загрузить данные json
+```javascript
+xs.loadData(data)
+// the parameters is:
+	data: the json data which describ the data structure for the worksheets
+```
+-  установить активный лист по имени листа
+```javascript
+xs.setActiveSheetByName(sheetname)
+// the parameters is:
+	sheetname: the sheet name 
+```
+-  установить активный лист по идентификатору
+```javascript
+xs.setActiveSheet(id)
+// the parameters is:
+	sheetname: the sheet id 
+```
 
-___
-## другие полезные API
-- Рендеринг вида
+-  установить активную ячейку
+```javascript
+xs.setActiveCell(row,col);
+// the parameters are:
+	row: the cell row
+	col: the cell column
+```
+
+- установить информацию для операции формы/изображения для действия на стороне сервера
+```javascript
+xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActionUrl, imageCopyActionUrl, zindex, loadingGif);
+// the parameters are:
+	imageGetActionUrl: the get image action URL in the server side controller
+	imageAddByUploadActionUrl: the upload image action  URL in the server side controller
+	imageAddByUrlActionUrl: the add image from URL action  URL in the server side controller
+	imageCopyActionUrl: the copy image action  URL in the server side controller
+	zindex: the minimum zindex of the image in the canvas
+	loadingGif (optional): the loading gif url when loading the image/shape .it is optional,the default value is:content/img/updating.gif
+    for example: 
+            const imageurl = "/GridJs2/imageurl";
+            const imageuploadurl1 = "/GridJs2/AddImage";
+            const imageuploadurl2 = "/GridJs2/AddImageByURL";
+            const imagecopyurl = "/GridJs2/CopyImage";  
+	    const basiczorder = 5678;
+    xs.setImageInfo(imageurl, imageuploadurl1, imageuploadurl2, imagecopyurl, basiczorder);
+```
+
+- установить информацию для операции загрузки для действия на стороне сервера
+```javascript
+xs.setFileDownloadInfo(downloadActionUrl);
+// the parameters are:
+	downloadActionUrl: the get download file action URL in the server side controller
+	 
+    for example: 
+            const fileDownloadUrl = "/GridJs2/Download";
+            xs.setFileDownloadInfo(fileDownloadUrl);
+```
+
+- установить информацию для операции объекта ole для действия на стороне сервера
+```javascript
+xs.setOleDownloadInfo(oleActionUrl);
+// the parameters are:
+	oleActionUrl: the ole object file action URL in the server side controller
+    for example: 
+            const oleDownloadUrl = "/GridJs2/Ole";
+            xs.setOleDownloadInfo(oleDownloadUrl);
+```
+  
+
+_
+##  другие полезные API
+-  Рендеринг вида
 ```javascript
 xs.reRender()
 ```
+
+-  получить идентификатор активного листа
+```javascript
+xs.getActiveSheet()
+```
+
+-  Установить уровень масштабирования
+```javascript
+xs.setZoomLevel(zoom)
+// the parameters is:
+	zoom:the zoom level ,can be number ,for example 0.5 for zoom out, or 2 for zoom in
+```
+
+-  Установить имя файла
+```javascript
+xs.setFileName(name)
+// the parameters is:
+	name:the file name with extension ,for example trip.xlsx
+```
+
+-  следует ли включить событие клавиши окна для GridJs
+```javascript
+xs.enableKeyEvent(isenable)
+// the parameters is:
+	isenable:whether the window key event is active for GridJs
+//when has other controls in the same page, you may want to ignore the key event in GridJs 
+```
+
+-  отвязать все события, прикрепленные к GridJs, включая событие ключа окна и событие изменения размера окна.
+```javascript
+xs.destroy()
+```
+
+
+-  установить видимый фильтр для изображения/формы
+```javascript
+    // need to set a function which return true(for visible) or false(for invisible) for the visible filter with the below parameters :
+	sheet:the sheet instance
+	s:the image or shape instance
+    for example: 
+	//this will make visible for image/shape in sheet with name 'Sheet3' and 'Sheet1' except for the 'Rectangle' type
+		xs.setVisibleFilter((sheet,s) => { if (sheet.data.name==='Sheet3'||sheet.data.name==='Sheet1') return s.type!=='Rectangle';  return false; })
+	//this will make visible for image/shape in sheet with name  'Sheet1' 
+		xs.setVisibleFilter((sheet,s) => { if (sheet.data.name==='Sheet1') return true;  return false; })
+	//this will make invisible for image/shape in all sheets 
+		xs.setVisibleFilter((sheet,s) => {  return false; })
+	//if all the image/shape is already loaded and you want to change the visible filter at runtime,you can call the below code to trigger a reload for image/shape
+		xs.setActiveSheet(xs.getActiveSheet())
+```
+
 - Получить выбранное изображение/форму, если ничего не выбрать, будет возвращено значение null
 ```javascript
 xs.sheet.selector.getObj()
 ```
 
-- Получить объект ячейки
+-  установить выбираемое состояние для изображения/формы
+```javascript
+const shape=xs.sheet.selector.getObj();
+shape.setControlable(isenable)
+     // the parameter is:
+      isenable: when set to true,the image or shape can be selectable and movable/resizeable
+```
+
+-  Получить объект ячейки
 ```javascript
 xs.sheet.data.getCell(ri,ci)
     // the parameters are:
-    ri:row index 
+	ri:row index 
 	ci:column index
 ```
-- Получить стиль ячейки
+-  Получить стиль ячейки
 ```javascript
 xs.sheet.data.getCellStyle(ri,ci)
     // the parameters are:
-    ri:row index 
+	ri:row index 
 	ci:column index
 ```
-- Установите значение ячейки
+-  Установите значение ячейки
 ```javascript
 xs.sheet.data.setCellText(ri,ci,value,state)
     // the parameters are:
-    ri:row index 
+	ri:row index 
 	ci:column index
 	value:the cell value
 	state: input | finished
 ```
 
-- Получить/установить выбранный диапазон ячеек
+-  Получить/установить выбранный диапазон ячеек
 ```javascript
 xs.sheet.data.selector.range
 ```
-- Установите значение ячейки для выбранной ячейки или области ячейки
+-  Установите значение ячейки для выбранной ячейки или области ячейки
 ```javascript
 xs.sheet.data.setSelectedCellText(value)
     // the parameters are:
 	value:the  value for the cell
 ```
-- Установите стиль для выбранной ячейки или области ячейки
+-  Установите стиль для выбранной ячейки или области ячейки
 ```javascript
 xs.sheet.data.setSelectedCellAttr(attributename,value)
     // the parameters are:
-    attributename:font-name | font-bold | font-italic | font-size  | format|border|merge|formula |strike|textwrap |underline |align |valign |color|bgcolor|pattern
+	attributename:font-name | font-bold | font-italic | font-size  | format|border|merge|formula |strike|textwrap |underline |align |valign |color|bgcolor|pattern
 	value:the  value for the attribute
 ```
 
-- Объединить выбранную область ячейки
+-  Объединить выбранную область ячейки
 ```javascript
 xs.sheet.data.merge()
 ```
 
-- Разъединить выбранную область ячейки
+-  Разъединить выбранную область ячейки
 ```javascript
 xs.sheet.data.unmerge()
 ```
 -  Удалить выбранную ячейку
 ```javascript
-xs.sheet.data.deleteCell(what)
+xs.sheet.data.deleteCell(type)
     // the parameters are:
-    what:all|format  all: means delete the cell and clear the style ;format means delete the cell value and keep the cell style
+	type:all|format  all: means delete the cell and clear the style ;format means delete the cell value and keep the cell style
 ```
-- Установите область заморозки
+-  Установите область заморозки
 ```javascript
 xs.sheet.data.setFreeze(ri,ci)
     // the parameters are:
-    ri:row index 
+	ri:row index 
 	ci:column index
 ```
 
@@ -127,50 +248,92 @@ xs.sheet.data.setFreeze(ri,ci)
 ```javascript
 xs.sheet.data.insert(type, n)
     // the parameters are:
-    type: row | column
+	type: row | column
 	n:the row or column number
 ```
 -  Удалить строку или столбцы в выбранной ячейке
 ```javascript
 xs.sheet.data.delete(type)
     // the parameters are:
-    type: row | column
+	type: row | column
 ```
 
-- Установить ширину столбца
+-  Установить ширину столбца
 ```javascript
 xs.sheet.data.setColWidth(ci,width)
     // the parameters are:
-    ci:column index
+	ci:column index
 	width:the width for the column
 ```
 -  Получить ширину столбца
 ```javascript
 xs.sheet.data.cols.sumWidth(min,max)
     // the parameters are:
-    min:the start column index
+	min:the start column index
 	max:the end column index,not include
 ```
 
-- Установить высоту строки
+-  Установить высоту строки
 ```javascript
 xs.sheet.data.setRowHeight(ri,height)
     // the parameters are:
-    ri:row index
+	ri:row index
 	height:the height for the row
 ```
 -  Получить высоту строки
 ```javascript
 xs.sheet.data.rows.sumHeight(min,max)
     // the parameters are:
-    min:the start row index
+	min:the start row index
 	max:the end row index,not include
 ```
-- Получить/установить направление отображения
+-  Получить/установить направление отображения
 ```javascript
 xs.sheet.data.displayRight2Left
 ```
 
+##  обратный звонок по событию
+-  мы можем отслеживать следующие события
+```javascript
+ xs.on('cell-selected', (cell, ri, ci) => {
+                console.log('cell selected:', cell, ', ri:', ri, ', ci:', ci);
+                if (ci === -1) {
+                    console.log('ci === -1 means a row selected ',ri);
+                }
+                if (ri === -1) {
+                    console.log('ri === -1 means a column selected',ci);
+                }
+            }).on('cells-selected', (cell, range) => {
+                console.log('range   selected:', cell, ', rang:', range);
+            }).on('object-selected', (shapeOrImageObj) => {
+                console.log('shape or image selected id:', shapeOrImageObj.id, ', type: ', shapeOrImageObj.type);
+            }).on('sheet-selected', (id,name) => {
+                console.log('sheet selected id:', id, ', name: ',name);
+            }).on('cell-edited', (text, ri, ci) => {
+                console.log('text:', text, ', ri: ', ri, ', ci:', ci);
+            });
+```
+
+##  настройка
+
+-  установить домашний значок и ссылку
+```javascript
+xs.sheet.menubar.icon.setHomeIcon(iconUrl,targetUrl)
+    // the parameters are:
+	iconUrl:the home icon URL
+	targetUrl:the target link URL
+	for example ,the below code will set the new logo and with link to google.com
+	xs.sheet.menubar.icon.setHomeIcon('https://forum.aspose.com/letter_avatar_proxy/v4/letter/y/3e96dc/45.png','https://www.google.com')
+```
+-  показать строку меню
+```javascript
+xs.sheet.menubar.show()
+```
+
+-  скрыть строку меню
+```javascript
+xs.sheet.menubar.hide()
+```
 
 
 для получения подробной информации вы можете проверить пример здесь

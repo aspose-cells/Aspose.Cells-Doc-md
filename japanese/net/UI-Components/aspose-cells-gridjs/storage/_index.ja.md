@@ -1,4 +1,4 @@
-﻿---
+---
 title: GridJs ストレージの操作
 type: docs
 weight: 250
@@ -6,21 +6,23 @@ url: /ja/net/aspose-cells-gridjs/storage/
 description: この記事では、Aspose.Cells.GridJs の一般的な処理について説明します。
 keywords: file cache,storage,GridJs,GridJs storage,GridJs uid,download,uniqueid
 ---
-# GridJs ストレージの操作
-## 一般的なファイル プロセス
-スプレッドシートファイルをメモリにインポートしてUIを表示した後、
+#  GridJs ストレージの操作
+## 一般的なファイルプロセス
+スプレッドシート ファイルをインポートした後、
 
-GridJs は、指定された uid でキャッシュ ファイルを作成します。
+ GridJs は、指定された uid でキャッシュ ファイルを作成します。**`Config.FileCacheDirectory`**フォルダー、
 
 の形式で[Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/net/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat") ,
 
-そして、UIでのすべての更新操作の後、
+GridJs は、すべての図形/画像を zip アーカイブ ファイルに保存します。**`Config.PictureCacheDirectory`**後でクライアント UI に図形/画像を表示するためのフォルダー。
+
+クライアント UI で更新操作を行うたびに、
 
 たとえば、セル値の設定、セル スタイルの設定などです。 、
 
-GridJs クライアント側 js は、コントローラ アクションをトリガーして UpdateCell 操作を実行します。
+GridJs クライアント側 js は、UpdateCell 操作を実行するコントローラー アクションをトリガーします。
 
-このアクションでは、メモリからキャッシュ ファイルへのセーブ バックが UpdateCell メソッド中に発生します。
+このアクションでは、UpdateCell メソッド中にキャッシュ ファイルへのセーブ バックが行われます。
 ```C#   
         // post: /GridJs/UpdateCell
         [HttpPost] 
@@ -33,9 +35,10 @@ GridJs クライアント側 js は、コントローラ アクションをト�
             return Content(ret, "text/plain", System.Text.Encoding.UTF8);
         }
 ```
-### キャッシュディレクトリはどこですか
+### 実際のキャッシュファイルはどこにありますか
+
 A. GridCacheForStream を実装し、GridJsWorkbook.CacheImp を設定した場合。
-たとえば、以下のコードでは、キャッシュ ファイルを入れて取得することができます。**"D:\temp"**
+たとえば、以下のコードでは、キャッシュ ファイルを配置および取得するだけです。**「D:\一時」**
 ```C#
 Config.FileCacheDirectory=@"D:\temp";
 GridJsWorkbook.CacheImp=new LocalFileCache();
@@ -71,17 +74,17 @@ public class LocalFileCache  : GridCacheForStream
         }
 		...
 ```
-B.GridJsWorkbook.CacheImpを設定しない場合、
+B. GridJsWorkbook.CacheImp を設定しない場合、
 
- GridJs は、ファイルを作成して保存します**Config.FileCacheDirectory**これは、設定可能なデフォルトのキャッシュ ディレクトリです。
+ GridJs はファイルを作成して保存します。**`Config.FileCacheDirectory`** 、これは設定できるデフォルトのキャッシュ ディレクトリです。
 
 ### 更新された結果ファイルを取得する方法
 #### 1. ファイルの指定された uid
-ファイルと uid の間で指定されたマップ対応を確認し、
+ファイルと uid の間の指定されたマッピング対応を確認してください。
 
-ランダムな生成からではなく、指定したファイル名に対して常に同じ uid を取得できます。
+ランダムな生成ではなく、指定したファイル名に対して常に同じ uid を取得できます。
 
-たとえば、ファイル名を使用するだけで問題ありません。
+たとえば、ファイル名だけを使用しても問題ありません。
 ```C#
 //in controller  
 ...
@@ -108,22 +111,22 @@ B.GridJsWorkbook.CacheImpを設定しない場合、
         }
 ```
 
-#### 2.UI操作で同期
-実際にはいくつかのUI操作のために、
+####  2. クライアントUI操作と同期
+実際、一部のクライアント UI 操作では、
 
 例えば：
 
-アクティブシートを別のものに切り替え、
+アクティブなシートを別のシートに切り替えます。
 
 画像の位置を変更し、
 
-画像の回転/サイズ変更など
+画像の回転/サイズ変更など。
 
 UpdateCell アクションはトリガーされません。
 
-したがって、UI が示すのと同じように更新されたファイルを取得したい場合は、
+したがって、クライアント UI に表示されているのと同じように更新されたファイルを取得したい場合は、
 
-これらのUI操作を同期するには、保存アクションの前にマージ操作を行う必要があります。
+これらのクライアント UI 操作を同期するには、アクションを保存する前にマージ操作を行う必要があります。
 ```javascript
 //in the js
   function save() {
@@ -158,8 +161,8 @@ UpdateCell アクションはトリガーされません。
   //after merge do save to chache or to a stream or whaterver you want to save to ,here we just save to cache
   wb.SaveToXlsx(Path.Combine(Config.FileCacheDirectory, uid));
 ```         
-#### 3. キャッシュからファイルを取得する
-たとえば、ダウンロード アクションでは、キャッシュ ディレクトリから uid で取得できます。
+####  3. キャッシュからファイルを取得します
+たとえば、ダウンロード アクションでは、uid を使用してキャッシュ ディレクトリからファイルを取得できます。
 ```C#
 //in controller  
 
@@ -174,5 +177,5 @@ UpdateCell アクションはトリガーされません。
         }
 ```
 
-詳細については、次の例を確認してください。
+詳細については、ここで例を確認できます。
 <https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>

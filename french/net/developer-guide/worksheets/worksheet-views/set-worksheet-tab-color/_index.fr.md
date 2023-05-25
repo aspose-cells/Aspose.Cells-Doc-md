@@ -1,20 +1,22 @@
-﻿---
+---
 title: Définir la couleur de l'onglet de la feuille de calcul
 type: docs
 weight: 120
 url: /fr/net/set-worksheet-tab-color/
+description: Cet article illustre un exemple de code qui définit la couleur de l'onglet de la feuille de calcul Excel par programme à l'aide de la bibliothèque C# API ou .NET.
+keywords: set excel tab color c#, code to set excel tab color c#
 ---
 {{% alert color="primary" %}} 
 
 Aspose.Cells vous permet de changer la couleur des onglets de feuille de calcul individuels pour les faire ressortir du reste. Par exemple, vous pouvez rendre les dépenses rouges, les ventes vertes, les actifs bleus, etc.
 
 {{% /alert %}} 
-## **Définition de la couleur de l'onglet de la feuille de calcul avec Microsoft Excel**
+##  **Définition de la couleur de l'onglet de la feuille de calcul avec Microsoft Excel**
 1. Cliquez avec le bouton droit sur un onglet dans la feuille à onglets au bas de la feuille de calcul actuelle.
-1.  Sélectionner**Couleur de l'onglet**.
+1. Sélectionnez *Couleur d'onglet**.
 1. Sélectionnez une couleur dans la palette.
-1.  Cliquez sur**D'ACCORD**.
-## **Définition de la couleur de l'onglet de la feuille de calcul avec Aspose.Cells**
+1. Cliquez sur OK**.
+##  **Définition de la couleur de l'onglet de la feuille de calcul avec Aspose.Cells**
 L'exemple de code ci-dessous montre comment définir la couleur de l'onglet avec Aspose.Cells.
 
 

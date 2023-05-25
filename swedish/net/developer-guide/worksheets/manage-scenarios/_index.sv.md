@@ -1,9 +1,11 @@
-﻿---
+---
 title: Skapa, manipulera eller ta bort scenarier från arbetsblad
 linktitle: Hantera scenarier
 type: docs
 weight: 190
 url: /sv/net/create-manipulate-or-remove-scenarios-from-worksheets/
+description: I den här artikeln kommer du att lära dig hur du skapar, manipulerar eller tar bort scenarier från Excel-kalkylblad programmatiskt med hjälp av C# Library med .NET API.
+keywords: create scenario worksheet c#, remove scenario excel worksheet c#, manipulate scenario worksheet c#
 ---
 {{% alert color="primary" %}}
 

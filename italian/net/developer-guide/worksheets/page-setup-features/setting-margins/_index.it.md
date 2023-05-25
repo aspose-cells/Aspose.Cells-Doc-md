@@ -1,8 +1,10 @@
-﻿---
+---
 title: Impostazione dei margini
 type: docs
 weight: 20
 url: /it/net/setting-margins/
+description: In questo articolo imparerai come impostare i margini di un foglio di lavoro di Excel utilizzando il codice di esempio. Imparerai anche come impostare a livello di codice i margini per il centro della pagina, i margini dell'intestazione e del piè di pagina di Imposta pagina utilizzando la libreria C# API o .NET.
+keywords: set excel worksheet margin to center c#, set worksheet header and footer margin c#
 ---
 {{% alert color="primary" %}}
 
@@ -10,13 +12,13 @@ Aspose.Cells supporta completamente le opzioni di impostazione della pagina di M
 
 {{% /alert %}}
 
-## **Impostazione dei margini**
+##  **Impostazione dei margini**
 
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , che rappresenta un file Excel. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contiene il[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) raccolta che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)classe.
+ Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , che rappresenta un file Excel. IL[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contiene il[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) raccolta che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)classe.
 
- Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fornisce il[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) proprietà utilizzata per impostare le opzioni di impostazione della pagina per un foglio di lavoro. Il[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) l'attributo è un oggetto del[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) classe che consente agli sviluppatori di impostare diverse opzioni di layout di pagina per un foglio di lavoro stampato. Il[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup)class fornisce varie proprietà e metodi utilizzati per impostare le opzioni di impostazione della pagina.
+ IL[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fornisce il[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) proprietà utilizzata per impostare le opzioni di impostazione della pagina per un foglio di lavoro. IL[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) l'attributo è un oggetto del[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) classe che consente agli sviluppatori di impostare diverse opzioni di layout di pagina per un foglio di lavoro stampato. IL[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup)class fornisce varie proprietà e metodi utilizzati per impostare le opzioni di impostazione della pagina.
 
-### **Margini della pagina**
+###  **Margini della pagina**
 
  Impostare i margini della pagina (sinistra, destra, superiore, inferiore) utilizzando[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup)membri della classe. Di seguito sono elencati alcuni dei metodi utilizzati per specificare i margini della pagina:
 
@@ -27,14 +29,14 @@ Aspose.Cells supporta completamente le opzioni di impostazione della pagina di M
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetMargins-1.cs" >}}
 
-### **Centra sulla pagina**
+###  **Centra sulla pagina**
 
-È possibile centrare qualcosa su una pagina orizzontalmente e verticalmente. Per questo, ci sono alcuni utili membri del[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) classe,[**CentroOrizzontalmente**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/centerhorizontally) e[**CentroVerticale**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/centervertically).
+ È possibile centrare qualcosa su una pagina orizzontalmente e verticalmente. Per questo, ci sono alcuni utili membri del[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) classe,[**CentroOrizzontalmente**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/centerhorizontally) E[**CentroVerticale**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/centervertically).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetMargins-CenterOnPage.cs" >}}
 
-### **Margini di intestazione e piè di pagina**
+###  **Margini di intestazione e piè di pagina**
 
- Imposta i margini di intestazione e piè di pagina con il file[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) membri della classe come[**IntestazioneMargine**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/headermargin) e[**Piè di paginaMargin**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/footermargin).
+ Imposta i margini di intestazione e piè di pagina con il file[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) membri della classe come[**IntestazioneMargine**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/headermargin) E[**Piè di paginaMargin**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/footermargin).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetMargins-HeaderAndFooterMargins.cs" >}}

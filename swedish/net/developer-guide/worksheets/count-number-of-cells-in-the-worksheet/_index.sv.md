@@ -1,8 +1,10 @@
-﻿---
+---
 title: Räkna antalet celler i arbetsbladet
 type: docs
 weight: 110
 url: /sv/net/count-number-of-cells-in-the-worksheet/
+description: I den här artikeln kommer du att lära dig hur du programmatiskt räknar antalet celler i Excel-kalkylbladet med C# API med .NET Library.
+keywords: count number of excel worksheet cells c#, excel worksheet cells c#
 ---
  Du kan räkna antalet celler i kalkylbladet genom att använda[**Cells.Count**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/count) eller[**Cells.CountLarge**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/countlarge) egenskaper som visas i kodexemplet nedan.
 

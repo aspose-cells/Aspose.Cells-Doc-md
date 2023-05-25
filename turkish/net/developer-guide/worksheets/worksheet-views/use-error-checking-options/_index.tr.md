@@ -1,8 +1,10 @@
-﻿---
+---
 title: Hata Denetimi Seçeneklerini Kullanın
 type: docs
 weight: 140
 url: /tr/net/use-error-checking-options/
+description: Bu makalede, C# API veya .NET Kitaplığı kullanılarak Metin olarak depolanan Numbers gibi Excel çalışma sayfalarının hata denetleme seçeneklerini programlı olarak kullanacak örnek kod bulacaksınız.
+keywords: store number as text in excel using c#, error check excel options c#
 ---
 {{% alert color="primary" %}}
 
@@ -10,7 +12,7 @@ Microsoft Excel, kullanıcıların hata denetimi seçeneklerini ve kurallarını
 
 {{% /alert %}}
 
-## **Hata Türleri**
+##  **Hata Türleri**
 
 Bir sayıyı sıfıra bölmek gibi formülün bir sonuç döndüremeyeceği anlamına gelen hatalar derhal ilgilenilmesini gerektirir ve hücrede bir hata değeri görüntülenir. Yeşil üçgene tıklamak bir ünlem işareti gösterir, buna tıklamak bir seçenekler listesi açar.
 
@@ -18,15 +20,15 @@ Hata, seçenekler kullanılarak çözülebilir veya göz ardı edilebilir. Bir h
 
  Aspose.Cells, hata kontrol seçeneği özellikleri sağlar. bu[**Hata Kontrolü Seçeneği**](https://reference.aspose.com/cells/net/aspose.cells/errorcheckoption) class, örneğin metin olarak depolanan sayılar, formül hesaplama hataları ve doğrulama hataları gibi farklı türde hata denetimlerini yönetir. Kullan[**Hata KontrolTürü**](https://reference.aspose.com/cells/net/aspose.cells/errorchecktype)İstenen hata denetimini ayarlamak için numaralandırma.
 
-## **Numbers Metin Olarak Saklandı**
+##  **Numbers Metin Olarak Saklandı**
 
 Bazen sayılar biçimlendirilebilir ve hücrelerde metin olarak saklanabilir. Bu, hesaplamalarda sorunlara neden olabilir veya kafa karıştırıcı sıralama düzenleri oluşturabilir. Metin olarak biçimlendirilen Numbers, hücrede sağa hizalanmak yerine sola hizalanır. Hücreler üzerinde matematiksel işlem gerçekleştirmesi gereken bir formül bir değer döndürmezse, formülün başvurduğu hücrelerdeki hizalamayı kontrol edin; bu hücrelerin bazıları veya tümü metin olarak biçimlendirilmiş sayılar olabilir.
 
 Metin olarak saklanan sayıları hızla gerçek sayılara dönüştürmek için hata denetimi seçeneklerini kullanabilirsiniz. Microsoft Excel 2003'te:
 
-1.  Üzerinde**Araçlar** menü, tıklayın**Seçenekler**.
+1.  Üzerinde**Aletler** menüsünde *Seçenekler**'i tıklayın.
 1. Hata Denetimi sekmesini seçin.
-   **Metin olarak saklanan sayı** seçeneği varsayılan olarak işaretlidir.
+   **Metin olarak saklanan numara** seçeneği varsayılan olarak işaretlidir.
 1. Devre dışı bırakın.
 
 Aşağıdaki örnek kod, Aspose.Cells API'leri kullanılarak şablon XLS dosyasındaki bir çalışma sayfası için metin hatası denetimi seçeneği olarak saklanan sayıların nasıl devre dışı bırakılacağını gösterir.

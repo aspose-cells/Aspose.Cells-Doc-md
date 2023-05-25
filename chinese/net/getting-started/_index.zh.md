@@ -1,4 +1,4 @@
-﻿---
+---
 title: 入门
 type: docs
 weight: 10
@@ -10,9 +10,9 @@ url: /zh/net/getting-started/
 
 {{% /alert %}}
 
-## **安装**
+##  **安装**
 
-### **通过 NuGet 安装 Aspose.Cells**
+###  **通过 NuGet 安装 Aspose.Cells**
 
  NuGet 是下载和安装 Aspose.Cells for .NET 最简单的方法。
 
@@ -26,7 +26,7 @@ url: /zh/net/getting-started/
 
 [详细步骤更多](/cells/zh/net/installation/)
 
-### **在 Windows 上安装 Aspose.Cells**
+###  **在 Windows 上安装 Aspose.Cells**
 
 1. 从以下页面下载 Aspose.Cells.msi：
 [下载 Aspose.Cells.msi](https://downloads.aspose.com/cells/net/)
@@ -36,7 +36,7 @@ url: /zh/net/getting-started/
 
 [详细步骤更多](/cells/zh/net/installing-aspose-cells-on-windows/)
 
-### **在 linux 上安装 Aspose.Cells**
+###  **在 linux 上安装 Aspose.Cells**
 
 在这个例子中，我使用 Ubuntu 来展示如何在 linux 上开始使用 Aspose.Cells。
 
@@ -44,7 +44,7 @@ url: /zh/net/getting-started/
 2. 打开文件“AsposeCellsTest.csproj”，为 Aspose.Cells 包引用添加以下行：
 {{< highlight "plain" >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="22.12" />
+    <PackageReference Include="Aspose.Cells" Version="23.5" />
   </ItemGroup>
 {{< /highlight >}}
 3.在Ubuntu上用VSCode打开项目：
@@ -56,7 +56,7 @@ url: /zh/net/getting-started/
 
 适用于：NetStandard2.0、NetCore2.1、NetCore3.1、Net5.0、Net6.0及高级版本。
 
-### **在 MAC OS 上安装 Aspose.Cells**
+###  **在 MAC OS 上安装 Aspose.Cells**
 
 在此示例中，我使用 macOS High Sierra 来展示如何在 MAC OS 上开始使用 Aspose.Cells。
 
@@ -72,13 +72,13 @@ url: /zh/net/getting-started/
 
 适用于：NetStandard2.0、NetCore2.1、NetCore3.1、Net5.0、Net6.0及高级版本。
 
-### **[在 Docker 中运行 Aspose Cells](/cells/net/how-to-run-aspose-cells-in-docker/)**
+###  **[在 Docker 中运行 Aspose Cells](/cells/net/how-to-run-aspose-cells-in-docker/)**
 
-### **如何在非windows平台上使用Net6图形库**
+###  **如何在非windows平台上使用Net6图形库**
 
 Aspose.Cells for Net6 现在使用 SkiaSharp 作为图形库，如中所推荐[Microsoft官方声明](https://github.com/dotnet/designs/blob/f9d006073b7a019bd2021e99c66516447f7fb1a6/accepted/2021/system-drawing-win-only/system-drawing-win-only.md).有关将 Aspose.Cells 与 NET6 一起使用的更多详细信息，请参阅[如何为 .Net6 运行 Aspose.Cells](/cells/zh/net/how-to-run-aspose-cells-for-net6/).
 
-## **创建 Hello World 应用程序**
+##  **创建 Hello World 应用程序**
 
 以下步骤使用 Aspose.Cells API 创建 Hello World 应用程序：
 
@@ -91,13 +91,13 @@ Aspose.Cells for Net6 现在使用 SkiaSharp 作为图形库，如中所推荐[M
 
 下面的示例演示了上述步骤的实现。
 
-### **代码示例：创建新工作簿**
+###  **代码示例：创建新工作簿**
 
 下面的示例从头开始创建一个新工作簿，插入“Hello World!”到第一个工作表的单元格 A1 中并另存为 Excel 文件。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-FirstApplication-1.cs" >}}
 
-### **代码示例：打开现有文件**
+###  **代码示例：打开现有文件**
 
 以下示例打开一个现有的 Microsoft Excel 模板文件“Sample.xlsx”，插入“Hello World!”到第一个工作表的单元格 A1 中并另存为 Excel 文件。
 

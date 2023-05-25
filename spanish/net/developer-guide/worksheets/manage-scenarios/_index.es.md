@@ -1,13 +1,15 @@
-﻿---
+---
 title: Crear, manipular o eliminar escenarios de las hojas de trabajo
 linktitle: Administrar escenarios
 type: docs
 weight: 190
 url: /es/net/create-manipulate-or-remove-scenarios-from-worksheets/
+description: En este artículo, aprenderá a crear, manipular o eliminar escenarios de hojas de cálculo de Excel mediante programación utilizando la biblioteca C# con .NET API.
+keywords: create scenario worksheet c#, remove scenario excel worksheet c#, manipulate scenario worksheet c#
 ---
 {{% alert color="primary" %}}
 
-veces, necesita crear, manipular o eliminar escenarios en hojas de cálculo. Un escenario es un '¿y si?' modelo que incluye celdas de entrada de variables vinculadas por una o más fórmulas. Antes de crear un escenario, diseñe la hoja de trabajo para que contenga al menos una fórmula que dependa de las celdas en las que se pueden insertar diferentes valores. El siguiente ejemplo muestra cómo crear y eliminar escenarios de una hoja de trabajo en un libro de trabajo a través de las API Aspose.Cells.
+A veces, necesita crear, manipular o eliminar escenarios en hojas de cálculo. Un escenario es un '¿y si?' modelo que incluye celdas de entrada de variables vinculadas por una o más fórmulas. Antes de crear un escenario, diseñe la hoja de trabajo para que contenga al menos una fórmula que dependa de las celdas en las que se pueden insertar diferentes valores. El siguiente ejemplo muestra cómo crear y eliminar escenarios de una hoja de trabajo en un libro de trabajo a través de las API Aspose.Cells.
 
 {{% /alert %}}
 

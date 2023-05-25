@@ -1,22 +1,24 @@
-﻿---
+---
 title: Obtenir la largeur du papier et la hauteur de la mise en page de la feuille de calcul
 type: docs
 weight: 50
 url: /fr/net/get-paper-width-and-height-of-page-setup-of-worksheet/
+description: Vous découvrirez dans cet article comment obtenir la largeur et la hauteur du papier de la feuille de calcul Excel en utilisant le code C# par programme avec .NET API ou Library.
+keywords: excel page setup paper width c#, excel page setup paper height c#
 ---
-## **Scénarios d'utilisation possibles**
+##  **Scénarios d'utilisation possibles**
 
 Parfois, vous devez connaître la largeur et la hauteur du format de papier tel qu'il a été défini dans la mise en page de la feuille de calcul. Veuillez utiliser le[**PageSetup.PaperWidthPageSetup.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth)et[**PageSetup.PaperHeightPageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight)propriétés à cet effet.
 
-## **Obtenir la largeur du papier et la hauteur de la mise en page de la feuille de calcul**
+##  **Obtenir la largeur du papier et la hauteur de la mise en page de la feuille de calcul**
 
- L'exemple de code suivant explique l'utilisation de[**PageSetup.PaperWidthPageSetup.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth) et[**PageSetup.PaperHeightPageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight) Propriétés. Il change d'abord le format de papier en*A2*puis trouve la largeur et la hauteur du papier, puis il le change en*A3*, *A4*, *Lettre*et trouve respectivement la largeur et la hauteur du papier.
+ L'exemple de code suivant explique l'utilisation de[**PageSetup.PaperWidthPageSetup.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth) et[**PageSetup.PaperHeightPageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight) propriétés. Il change d'abord le format de papier en*A2*puis trouve la largeur et la hauteur du papier, puis il le change en*A3*, *A4*, *Lettre*et trouve respectivement la largeur et la hauteur du papier.
 
-### **Exemple de code**
+###  **Exemple de code**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-GetPageDimensions.cs" >}}
 
-### **Sortie console**
+###  **Sortie console**
 
 Voici la sortie console de l'exemple de code ci-dessus.
 

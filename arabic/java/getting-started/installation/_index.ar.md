@@ -1,10 +1,10 @@
-﻿---
-title: التركيب
+---
+title: Installation
 type: docs
 weight: 20
 url: /ar/java/installation/
 ---
-## **تركيب Aspose.Cells for Java من مستودع Maven**
+##  **تركيب Aspose.Cells for Java من مستودع Maven**
 
 يستضيف Aspose جميع واجهات برمجة تطبيقات Java[مستودع Maven](https://releases.aspose.com/java/repo/) . يمكنك بسهولة استخدام ملفات[Aspose.Cells for Java API](https://releases.aspose.com/cells/java/) مباشرة في مشاريعك Maven ذات التكوينات البسيطة.
 
@@ -28,6 +28,17 @@ url: /ar/java/installation/
 
 {{< /highlight >}}
 
+ل Gradle في بناء سكربت.gradle كما يلي:
+{{< highlight "java" >}}
+//Add Aspose maven repository
+repositories {
+    mavenCentral()
+    maven {
+        url "https://releases.aspose.com/java/repo/"
+    }
+}
+{{< /highlight >}}
+
 ثم حدد تبعية Aspose.Cells for Java API في ملف pom.xml الخاص بك على النحو التالي (سيشمل ذلك كل شيء ، مثل ملف jar الرئيسي و Java Docs والمكتبات الأخرى وفقًا لذلك):
 
 {{< highlight "java" >}}
@@ -40,7 +51,7 @@ url: /ar/java/installation/
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>22.12</version>
+            <version>23.5</version>
 
         </dependency>
 
@@ -50,7 +61,7 @@ url: /ar/java/installation/
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>22.12</version>
+            <version>23.5</version>
 
             <classifier>javadoc</classifier>
 
@@ -82,7 +93,7 @@ url: /ar/java/installation/
 
 تهانينا! لقد نجحت في تحديد التبعية Aspose.Cells for Java Maven في مشروعك Maven.
 
-## **الدعم**
+##  **يدعم**
 
 يرجى التحقق مما يلي للحصول على دعم فني سريع
 

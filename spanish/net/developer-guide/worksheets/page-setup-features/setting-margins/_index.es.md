@@ -1,8 +1,10 @@
-﻿---
+---
 title: Configuración de márgenes
 type: docs
 weight: 20
 url: /es/net/setting-margins/
+description: En este artículo, aprenderá cómo establecer los márgenes de una hoja de cálculo de Excel utilizando un código de muestra. También aprenderá a establecer mediante programación los márgenes para el centro de la página, los márgenes del encabezado y el pie de página de Configuración de página mediante la biblioteca C# API o .NET.
+keywords: set excel worksheet margin to center c#, set worksheet header and footer margin c#
 ---
 {{% alert color="primary" %}}
 
@@ -10,13 +12,13 @@ Aspose.Cells es totalmente compatible con las opciones de configuración de pág
 
 {{% /alert %}}
 
-## **Configuración de márgenes**
+##  **Configuración de márgenes**
 
- Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , que representa un archivo de Excel. Él[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) clase contiene el[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) colección que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)clase.
+ Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , que representa un archivo de Excel. El[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) clase contiene el[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) colección que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)clase.
 
- Él[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la clase proporciona la[**Configuración de página**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) propiedad utilizada para establecer las opciones de configuración de página para una hoja de trabajo. Él[**Configuración de página**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) atributo es un objeto de la[**Configuración de página**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) clase que permite a los desarrolladores establecer diferentes opciones de diseño de página para una hoja de trabajo impresa. Él[**Configuración de página**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup)La clase proporciona varias propiedades y métodos que se utilizan para establecer las opciones de configuración de la página.
+ El[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la clase proporciona la[**Configuración de página**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) propiedad utilizada para establecer las opciones de configuración de página para una hoja de trabajo. El[**Configuración de página**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) atributo es un objeto de la[**Configuración de página**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) clase que permite a los desarrolladores establecer diferentes opciones de diseño de página para una hoja de trabajo impresa. El[**Configuración de página**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup)La clase proporciona varias propiedades y métodos que se utilizan para establecer las opciones de configuración de la página.
 
-### **Márgenes de página**
+###  **Márgenes de página**
 
  Configure los márgenes de la página (izquierda, derecha, arriba, abajo) usando[**Configuración de página**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup)miembros de la clase A continuación se enumeran algunos de los métodos que se utilizan para especificar los márgenes de página:
 
@@ -27,13 +29,13 @@ Aspose.Cells es totalmente compatible con las opciones de configuración de pág
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetMargins-1.cs" >}}
 
-### **Centrar en la página**
+###  **Centrar en la página**
 
-Es posible centrar algo en una página horizontal y verticalmente. Para esto, hay algunos miembros útiles de la[**Configuración de página**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) clase,[**CentroHorizontalmente**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/centerhorizontally) y[**CentroVerticalmente**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/centervertically).
+ Es posible centrar algo en una página horizontal y verticalmente. Para esto, hay algunos miembros útiles de la[**Configuración de página**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) clase,[**CentroHorizontalmente**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/centerhorizontally) y[**CentroVerticalmente**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/centervertically).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetMargins-CenterOnPage.cs" >}}
 
-### **Márgenes de encabezado y pie de página**
+###  **Márgenes de encabezado y pie de página**
 
  Establecer márgenes de encabezado y pie de página con el[**Configuración de página**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) miembros de la clase como[**Margen de encabezado**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/headermargin) y[**Margen de pie de página**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/footermargin).
 

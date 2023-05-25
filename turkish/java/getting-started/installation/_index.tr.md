@@ -1,10 +1,10 @@
-﻿---
-title: Kurulum
+---
+title: Installation
 type: docs
 weight: 20
 url: /tr/java/installation/
 ---
-## **Aspose.Cells for Java'i Maven Deposundan yükleme**
+##  **Aspose.Cells for Java'i Maven Deposundan yükleme**
 
 Aspose, tüm Java API'lerini barındırır[Maven depo](https://releases.aspose.com/java/repo/) . rahatlıkla kullanabilirsiniz[Aspose.Cells for Java API](https://releases.aspose.com/cells/java/) basit yapılandırmalarla doğrudan Maven Projelerinizde.
 
@@ -28,6 +28,17 @@ Aspose, tüm Java API'lerini barındırır[Maven depo](https://releases.aspose.c
 
 {{< /highlight >}}
 
+Gradle için build.gradle betiğinizde aşağıdaki gibi:
+{{< highlight "java" >}}
+//Add Aspose maven repository
+repositories {
+    mavenCentral()
+    maven {
+        url "https://releases.aspose.com/java/repo/"
+    }
+}
+{{< /highlight >}}
+
 Ardından, pom.xml'nizde Aspose.Cells for Java API bağımlılığını aşağıdaki gibi tanımlayın (Bu, her şeyi içerecektir, örneğin ana jar dosyası, Java Belgeler ve buna göre diğer kitaplıklar):
 
 {{< highlight "java" >}}
@@ -40,7 +51,7 @@ Ardından, pom.xml'nizde Aspose.Cells for Java API bağımlılığını aşağı
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>22.12</version>
+            <version>23.5</version>
 
         </dependency>
 
@@ -50,7 +61,7 @@ Ardından, pom.xml'nizde Aspose.Cells for Java API bağımlılığını aşağı
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>22.12</version>
+            <version>23.5</version>
 
             <classifier>javadoc</classifier>
 
@@ -82,7 +93,7 @@ Ardından, pom.xml'nizde Aspose.Cells for Java API bağımlılığını aşağı
 
 Tebrikler! Maven projenizde Aspose.Cells for Java Maven bağımlılığını başarıyla tanımladınız.
 
-## **Destek olmak**
+##  **Destek**
 
 Hızlı teknik destek almak için lütfen aşağıdakileri kontrol edin
 

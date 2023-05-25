@@ -1,4 +1,4 @@
-﻿---
+---
 title: Dosyayı Yanıt Nesnesine Kaydetme
 type: docs
 weight: 50
@@ -10,39 +10,39 @@ Aspose.Cells, dosyaları değiştirmeyi mümkün kılar. Bu makalede, dosyaları
 
 {{% /alert %}}
 
-## **Dosyayı Yanıt Nesnesine Kaydetme**
+##  **Dosyayı Yanıt Nesnesine Kaydetme**
 
- Dinamik olarak bir dosya oluşturmak ve onu doğrudan bir istemci tarayıcısına göndermek de mümkündür. Bunu yapmak için, programın aşırı yüklenmiş özel bir sürümünü kullanın.**[Kaydet](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/5)**aşağıdaki parametreleri kabul eden yöntem:
+Dinamik olarak bir dosya oluşturmak ve onu doğrudan bir istemci tarayıcısına göndermek de mümkündür. Bunu yapmak için, programın aşırı yüklenmiş özel bir sürümünü kullanın.**[Kaydet](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/5)**aşağıdaki parametreleri kabul eden yöntem:
 
--  ASP.NET**[HttpResponse](https://docs.microsoft.com/en-gb/dotnet/api/system.web.httpresponse?view=netframework-4.8)**nesne.
+- ASP.NET **[HttpResponse](https://docs.microsoft.com/en-gb/dotnet/api/system.web.httpresponse?view=netframework-4.8)**nesne.
 - Dosya adı.
-- **[ContentDisposition](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)**, çıktı dosyasının içerik düzenleme türü.
-- **[SaveOptions](https://reference.aspose.com/cells/net/aspose.cells/saveoptions)**, dosya biçimi türü
+- *[içerik eğilimi](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)**, çıktı dosyasının içerik düzenleme türü.
+- *[Seçenekleri Kaydet](https://reference.aspose.com/cells/net/aspose.cells/saveoptions)**, dosya biçimi türü
 
  bu**[ContentDisposition](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)**numaralandırma, tarayıcıya gönderilen dosyanın doğrudan tarayıcıda veya .xls/.xlsx veya başka bir uzantıyla ilişkili bir uygulamada kendi kendine açma seçeneği sunup sunmadığını belirler.
 
 Numaralandırma, aşağıdaki önceden tanımlanmış kaydetme türlerini içerir:
 
-|**Tip**|**Açıklama**|
-|:- |:- |
-|Ek|Elektronik tabloyu tarayıcıya gönderir ve bir uygulamada .xls/.xlsx veya diğer uzantılarla ilişkili bir ek olarak açılır.|
-|Çizgide|Belgeyi tarayıcıya gönderir ve elektronik tabloyu diske kaydetme veya tarayıcıda açma seçeneği sunar|
+|**Tip**|**Tanım**|
+| :- | :- |
+|Attachment|Elektronik tabloyu tarayıcıya gönderir ve bir uygulamada .xls/.xlsx veya diğer uzantılarla ilişkili bir ek olarak açılır.|
+|Inline|Belgeyi tarayıcıya gönderir ve elektronik tabloyu diske kaydetme veya tarayıcıda açma seçeneği sunar|
 
-### **XLS Dosyalar**
+###  **XLS Dosyalar**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveXLSFile-1.cs" >}}
 
-### **XLSX Dosyalar**
+###  **XLSX Dosyalar**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveXLSXFile-1.cs" >}}
 
-### **PDF Dosyalar**
+###  **PDF Dosyalar**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveInPdfFormat-1.cs" >}}
 
-### **Not**
+###  **Not**
 
-.NET5 ve .Netstandard'da "System.Web.HttpResponse" nesnesi bulunmadığından,
+.NET5 ve .Netstandard'da yer almayan "System.Web.HttpResponse" nesnesi nedeniyle,
 Yani bu fonksiyon Aspose.Cells .NET5 ve .Netstandard versiyonunda yoktur, dosyayı stream'e kaydetmek için aşağıdaki koda başvurabilir, ardından stream'e işlem yapabilirsiniz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoStream-1.cs" >}}

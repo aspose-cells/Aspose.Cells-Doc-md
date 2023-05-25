@@ -1,4 +1,4 @@
-﻿---
+---
 title: Başlarken
 linktitle: Başlarken
 type: docs
@@ -7,14 +7,14 @@ url: /tr/python-net/getting-started/
 keywords: python, excel, instal
 description: Kurulum Aspose.Cells for Python via .NET ve kurulum yönergeleri.
 ---
-## **sistem gereksinimleri**
+##  **sistem gereksinimleri**
  Aspose.Cells for Python via .NET platformdan bağımsızdır API ve herhangi bir platformda (Windows ve Linux) kullanılabilir.[Python](https://www.python.org/downloads/) kurulur.
 
-## **Python Versiyon**
+##  **Python Versiyon**
 - Python 3.6 veya üstü
 
-## **Kurulum**
-### **Windows:**
+##  **Kurulum**
+###  **Windows:**
  Aspose.Cells for Python via .NET den rahatlıkla ulaşabilirsiniz.[pypi](https://pypi.org/project/aspose-cells-python/) aşağıdaki komutla.
 {{< highlight "NET" >}}
 
@@ -22,15 +22,20 @@ description: Kurulum Aspose.Cells for Python via .NET ve kurulum yönergeleri.
 
 {{< /highlight >}}
 
-### **Linux:**
+###  **Linux:**
  Aspose.Cells for Python via .NET den rahatlıkla ulaşabilirsiniz.[pypi](https://pypi.org/project/aspose-cells-python/) aşağıdaki komutla.
 {{< highlight "NET" >}}
 
  $ pip install aspose-cells-python
 
 {{< /highlight >}}
+- Not: Kurulumdan önce aşağıdaki komutu çalıştırmanız gerekmektedir.
+{{< highlight "NET" >}}
+For Ubuntu/Debian: apt-get install libgdiplus 
+For CentOS/RHEL/Fedora: yum install libgdiplus 
+{{< /highlight >}}
 
-### **Mac os işletim sistemi:**
+###  **Mac os işletim sistemi:**
  Aspose.Cells for Python via .NET den rahatlıkla ulaşabilirsiniz.[pypi](https://pypi.org/project/aspose-cells-python/) aşağıdaki komutla.
 {{< highlight "NET" >}}
 
@@ -45,7 +50,7 @@ description: Kurulum Aspose.Cells for Python via .NET ve kurulum yönergeleri.
 export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/Library/Frameworks/Python.framework/Versions/3.7/lib"
 export LIBRARY_PATH="$LIBRARY_PATH:/Library/Frameworks/Python.framework/Versions/3.7/lib/"
 {{< /highlight >}}
-## **Hello World Uygulamasını Oluşturma**
+##  **Hello World Uygulamasını Oluşturma**
 
 -  adlı bir dosya oluşturun.**HelloWorldFile.py Oluşturma** ve aşağıdaki örnek kodu kullanın:
 

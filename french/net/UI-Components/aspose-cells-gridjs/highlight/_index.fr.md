@@ -1,4 +1,4 @@
-﻿---
+---
 title: Travailler avec la fonctionnalité GridJs Highlight
 type: docs
 weight: 250
@@ -6,11 +6,11 @@ url: /fr/net/aspose-cells-gridjs/highlight/
 description: Cet article décrit comment utiliser GridJs pour mettre en surbrillance le texte des cellules, les plages de cellules, les formes et les images.
 keywords: highlight, highlight spreadsheet
 ---
-# Travailler avec la fonctionnalité GridJs Highlight
+#  Travailler avec la fonctionnalité GridJs Highlight
  Nous prenons en charge les API JS ci-dessous pour la fonctionnalité Highlight
 
 
-- Activer la surbrillance et définir le style de surbrillance, toutes les API de surbrillance ne prendront effet qu'après la définition du style de surbrillance
+-  Activer la surbrillance et définir le style de surbrillance, toutes les API de surbrillance ne prendront effet qu'après la définition du style de surbrillance
 ```javascript
 xs.showHighlights(style)
  // the parameter is:
@@ -18,11 +18,11 @@ xs.showHighlights(style)
  for example: {'color':'rgba(85, 57, 47, 0.08)'}
 ```
 
-- Désactiver la surbrillance
+-  Désactiver la surbrillance
 ```javascript
 xs.hideHighlights()
 ```
-- Ajouter du texte de cellule à mettre en surbrillance
+-  Ajouter du texte de cellule à mettre en surbrillance
 ```javascript
 xs.sheet.addHighlightText(row,col,startpostion,endposition)
     // the parameters are:
@@ -30,9 +30,10 @@ xs.sheet.addHighlightText(row,col,startpostion,endposition)
 	col:column index
 	startpostion: highlight start postion in cell text 
 	endpostion: highlight end postion in cell text 
+    //it support multiple range postion inside one cell
 ```
 
-- Supprimer la surbrillance du texte de la cellule dans le tableau
+-  Supprimer la surbrillance du texte de la cellule dans le tableau
 ```javascript
 xs.sheet.removeHighlightText(row,col)
     // the parameters are:
@@ -45,7 +46,7 @@ xs.sheet.removeHighlightText(row,col)
 xs.sheet.getHighlightTexts()
 ```
 
-- Ajouter une plage de cellules à mettre en surbrillance
+-  Ajouter une plage de cellules à mettre en surbrillance
 ```javascript
 xs.sheet.addHighlightRange(sri,sci,eri,eci)
     // the parameters are:
@@ -55,7 +56,7 @@ xs.sheet.addHighlightRange(sri,sci,eri,eci)
 	eci:end column index of cell range
 ```
 
-- Supprimer la surbrillance pour la plage de cellules dans le tableau
+-  Supprimer la surbrillance pour la plage de cellules dans le tableau
 ```javascript
 xs.sheet.removeHighlightRange(sri,sci,eri,eci)
      // the parameters are:
@@ -70,7 +71,7 @@ xs.sheet.removeHighlightRange(sri,sci,eri,eci)
 xs.sheet.getHighlightRanges()
 ```
 
-- Définir la plage de cellules sur la surbrillance inversée
+-  Définir la plage de cellules sur la surbrillance inversée
 ```javascript
 xs.sheet.setHighlightInverseRange(sri,sci,eri,eci)
     // the parameters are:
@@ -80,7 +81,7 @@ xs.sheet.setHighlightInverseRange(sri,sci,eri,eci)
 	eci:end column index of cell range
 ```
 
-- Supprimer la surbrillance pour la surbrillance inversée
+-  Supprimer la surbrillance pour la surbrillance inversée
 ```javascript
 xs.sheet.removeHighlightInverseRange()
      
@@ -92,14 +93,14 @@ xs.sheet.getHighlightInverseRange()
 ```
 
 
-- Ajouter une forme pour mettre en surbrillance le tableau
+-  Ajouter une forme pour mettre en surbrillance le tableau
 ```javascript
 xs.sheet.addHighlightShape(shapeid)
     // the parameters are:
     shapeid: the id of shape, can be find in xs.sheet.data.shapes
 ```
 
-- Supprimer la forme de surbrillance dans le tableau
+-  Supprimer la forme de surbrillance dans le tableau
 ```javascript
 xs.sheet.removeHighlightShape(shapeid)
      // the parameters are:
@@ -111,15 +112,35 @@ xs.sheet.removeHighlightShape(shapeid)
 xs.sheet.getHighlightShaps()
 ```
 
+-  Ajouter une zone de texte à mettre en surbrillance, la zone de texte est un type spécial de forme dont la propriété de type est : "TextBox",
+```javascript
+xs.sheet.addHighlightTextBox(shapeid, startpostion, endposition)
+    // the parameters are:
+    shapeid: the id of shape, can be find in xs.sheet.data.shapes whose type is 'TextBox'
+    startpostion: highlight start postion in the text of textbox
+    endpostion: highlight end postion in the text of textbox
+    //it support multiple range postion inside one textbox
+```
 
-- Ajouter une image pour mettre en surbrillance le tableau
+
+- Supprimer la plage de surbrillance dans la zone de texte, la zone de texte est un type spécial de forme dont la propriété de type est : "TextBox",
+```javascript
+xs.sheet.removeHighlightTextBox(shapeid, startpostion, endposition)
+    // the parameters are:
+    shapeid: the id of shape, can be find in xs.sheet.data.shapes whose type is 'TextBox'
+    startpostion: highlight start postion in the text of textbox
+    endpostion: highlight end postion in the text of textbox
+    //it support multiple range postion inside one textbox
+```
+
+-  Ajouter une image pour mettre en surbrillance le tableau
 ```javascript
 xs.sheet.addHighlightImage(imageid)
     // the parameters are:
     imageid: the id of image, can be find in xs.sheet.data.images
 ```
 
-- Supprimer l'image en surbrillance dans le tableau
+-  Supprimer l'image en surbrillance dans le tableau
 ```javascript
 xs.sheet.removeHighlightImage(imageid)
      // the parameters are:
@@ -140,7 +161,7 @@ xs.sheet.setHighlightAll(ishighlightall,isrerender=true)
 ```
 
 
-- définir la fonction de surbrillance d'image personnalisée
+-  Définir la fonction de surbrillance d'image personnalisée
 ```javascript
 xs.sheet.setCustomHighlightImgFunc(func)
    // the parameters are:
@@ -153,5 +174,75 @@ xs.sheet.setCustomHighlightImgFunc(func)
         }
     
 ```
+
+###  Surbrillance pour l'objet de zone de texte
+textbox est un type spécial de forme dont la propriété de type est :"TextBox",
+par exemple: le code ci-dessous montrera quelle forme est la zone de texte
+
+```javascript
+for (let shape of xs.sheet.data.shapes) {
+    if (shape.type === 'TextBox') {
+        console.log(shape.id + ' is a textbox');
+    }
+}
+```
+-  Ajouter une surbrillance pour l'objet de zone de texte
+```javascript
+    addHighlight(startpostion,endposition)
+    // the parameters are:
+	startpostion: highlight start postion in textbox
+	endpostion: highlight end postion in textbox
+
+//for example,we assume shape 0 is a textbox object
+const textbox=xs.sheet.data.shapes[0];
+//first we shall add to highlight shape to enable the highlight for the textbox shape object,it support multiple range postion 
+ xs.sheet.addHighlightShape(textbox.id);
+ textbox.addHighlight(5,10);
+ textbox.addHighlight(18,28);
+```
+
+-  Supprimer la surbrillance pour l'objet de zone de texte
+```javascript
+    removeHighlight(startpostion,endposition)
+    // the parameters are:
+	startpostion: highlight start postion in textbox
+	endpostion: highlight end postion in textbox
+    //for example,we assume shape 0 is a textbox object
+     const textbox=xs.sheet.data.shapes[0];
+     textbox.removeHighlight(5,10);
+```
+
+-  Obtenir la surbrillance pour l'objet de zone de texte
+```javascript
+    getHighlight()
+    //for example,we assume shape 0 is a textbox object
+     const textbox=xs.sheet.data.shapes[0];
+     textbox.getHighlight();
+```
+
+-  Changer la couleur d'arrière-plan d'un objet de zone de texte
+```javascript
+    setBackgroundColor(color)
+    // the parameters are:
+        color: the html color value in hex string value
+    //for example,we assume shape 0 is a textbox object,this will set the background color to Yellow 
+     const textbox=xs.sheet.data.shapes[0];
+     textbox.setBackgroundColor('#FFFF00');
+```
+-  Changer automatiquement la couleur d'arrière-plan et la couleur du texte pour obtenir un effet visuel actif
+```javascript
+    setActiveEffect(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will change background color and the text color of the textbox object;if false,restore to original appearence
+```
+
+-  masquer/afficher le contenu du texte dans l'objet zone de texte
+```javascript
+    hideText(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will not display the text in the textbox object;if false,restore to original appearence
+```
+
+
 
 Vous pouvez en savoir plus sur notre page de démonstration github https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html

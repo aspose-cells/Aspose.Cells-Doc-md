@@ -1,4 +1,4 @@
-﻿---
+---
 title: Commencer
 linktitle: Commencer
 type: docs
@@ -7,14 +7,14 @@ url: /fr/python-net/getting-started/
 keywords: python, excel, instal
 description: Configuration Aspose.Cells for Python via .NET et directives d'installation.
 ---
-## **Configuration requise**
+##  **Configuration requise**
  Aspose.Cells for Python via .NET est indépendant de la plate-forme API et peut être utilisé sur n'importe quelle plate-forme (Windows et Linux) où[Python](https://www.python.org/downloads/) est installé.
 
-## **Version Python**
+##  **Version Python**
 - Python 3.6 ou supérieur
 
-## **Installation**
-### **Windows:**
+##  **Installation**
+###  **Windows:**
  Vous pouvez facilement utiliser Aspose.Cells for Python via .NET à partir de[pypi](https://pypi.org/project/aspose-cells-python/) avec la commande suivante.
 {{< highlight "NET" >}}
 
@@ -22,15 +22,20 @@ description: Configuration Aspose.Cells for Python via .NET et directives d'inst
 
 {{< /highlight >}}
 
-### **Linux :**
+###  **Linux :**
  Vous pouvez facilement utiliser Aspose.Cells for Python via .NET à partir de[pypi](https://pypi.org/project/aspose-cells-python/) avec la commande suivante.
 {{< highlight "NET" >}}
 
  $ pip install aspose-cells-python
 
 {{< /highlight >}}
+- Remarque : vous devez exécuter la commande suivante avant l'installation
+{{< highlight "NET" >}}
+For Ubuntu/Debian: apt-get install libgdiplus 
+For CentOS/RHEL/Fedora: yum install libgdiplus 
+{{< /highlight >}}
 
-### **Mac OS :**
+###  **Mac OS :**
  Vous pouvez facilement utiliser Aspose.Cells for Python via .NET à partir de[pypi](https://pypi.org/project/aspose-cells-python/) avec la commande suivante.
 {{< highlight "NET" >}}
 
@@ -45,7 +50,7 @@ description: Configuration Aspose.Cells for Python via .NET et directives d'inst
 export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/Library/Frameworks/Python.framework/Versions/3.7/lib"
 export LIBRARY_PATH="$LIBRARY_PATH:/Library/Frameworks/Python.framework/Versions/3.7/lib/"
 {{< /highlight >}}
-## **Création de l'application Hello World**
+##  **Création de l'application Hello World**
 
 -  Créer un fichier nommé**CréationHelloWorldFile.py** et utilisez l'exemple de code suivant :
 
