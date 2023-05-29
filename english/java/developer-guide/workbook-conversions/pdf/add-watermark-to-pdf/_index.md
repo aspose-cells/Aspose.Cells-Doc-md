@@ -17,5 +17,5 @@ You can easily add text watermark to pdf by specifying text and the correspondin
 
 You can add image watermark to pdf just by specifying image bytes of an image. Also, you can set alignment, offset, rotation, opacity, foreground/background, and scale to page in [RenderingWatermark](https://reference.aspose.com/cells/java/com.aspose.cells/renderingwatermark/).
 
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Docs-Pdf-AddTextWatermarkToPdf.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Docs-Pdf-AddImageWatermarkToPdf.java" >}}
 
