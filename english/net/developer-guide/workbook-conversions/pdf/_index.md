@@ -78,7 +78,7 @@ With the **[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells
 
 ### **Conversion Attributes**
 
-We work to enhance the conversion features with each new release. Aspose.Cell's Excel to PDF conversion still has a couple of limitations. Some spreadsheet formatting might be lost when converting to PDF format. Also, some drawing objects are not yet supported.
+We work to enhance the conversion features with each new release. Aspose.Cell's Excel to PDF conversion still has a couple of limitations. MapChart is not supported when converting to PDF format. Also, some drawing objects are not supported well.
 
 The table that follows lists all features that are fully or partially supported when exporting to PDF using Aspose.Cells. This table is not final and does not cover all the spreadsheet attributes but it does identify those features that are not supported or partially supported for conversion to PDF.
 
@@ -93,15 +93,15 @@ The table that follows lists all features that are fully or partially supported 
 |Comments| |Yes| |
 |Conditional Formatting| |Yes| |
 |Document Properties| |Yes| |
-|Drawing Objects| |Partially|Supported Objects: TextBox, Line, Rectangle, Oval, GroupBox, Button, CheckBox, RadioButton, ListBox, ComboBox, Label|
+|Drawing Objects| |Partially|Shadow and 3-D effects for drawing objects are not supported well; WordArt and SmartArt are partially supported.|
 |Font|Size|Yes| |
 |Font|Color|Yes| |
 |Font|Style|Yes| |
 |Font|Underline|Yes| |
-|Font|Effects|Partially|Only strike through effect is supported|
+|Font|Effects|Yes||
 |Images| |Yes| |
 |Hyperlink| |Yes| |
-|Charts| |Partially||
+|Charts| |Partially|MapChart is not supported.|
 |Merged Cells| |Yes| |
 |Page Break| |Yes| |
 |Page Setup|Header/Footer|Yes| |
