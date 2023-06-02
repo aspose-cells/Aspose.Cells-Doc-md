@@ -19,7 +19,7 @@ Please see the following sample code. It loads the [sample Excel file](67338470.
 
 ### **Sample Code**
 
-{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Slicers-CreateSlicerToPivotTable.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Slicers-CreateSlicerToPivotTable.py" >}}
 
 ## **Create Slicer to Excel Table**
 
@@ -27,7 +27,7 @@ Please see the following sample code. It loads the [sample Excel file](sampleCre
 
 ### **Sample Code**
 
-{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Examples-CSharp-Slicers-CreateSlicerToExcelTable-1.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Examples-CSharp-Slicers-CreateSlicerToExcelTable-1.py" >}}
 
 ## **Advance topics**
 - [Change Slicer Properties](/cells/python-net/change-slicer-properties/)

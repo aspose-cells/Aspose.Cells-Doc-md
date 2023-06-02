@@ -17,4 +17,4 @@ The following sample code loads the [sample Excel file](67338478.xlsx) that co
 
 ## **Sample Code**
 
-{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Slicers-RemovingSlicer.cs" >}}
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Slicers-RemovingSlicer.py" >}}
