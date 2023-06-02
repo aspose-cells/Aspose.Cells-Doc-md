@@ -27,7 +27,7 @@ When you have a huge amount of data in a row, so you are unable to see the left 
 
 **![Fonzen column](frozen-columns.png)**
 
-As you can see 1st column is frozen, the fist column is always locked at the top of the view when you scroll down.
+As you can see 1st column is frozen, the fist column is always locked at the top of the view when you scroll horizontally.
 
 Freeze Columns let you view your long data without any keeping track of the first column.
 
