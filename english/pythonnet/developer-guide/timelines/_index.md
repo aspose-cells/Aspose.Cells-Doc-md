@@ -1,0 +1,23 @@
+---
+title: Insert Timeline
+linktitle: Timelines
+type: docs
+weight: 170
+url: /python-net/create-timeline/
+description: Learn how to create a timeline with Aspose.Cells for Python via .NET.
+---
+
+## **Possible Usage Scenarios**
+
+Instead of adjusting filters to show dates, you can use a PivotTable Timeline——a dynamic filter option that lets you easily filter by date/time, and zoom in on the period you want with a slider control. Microsoft Excel allows you to create timeline by selecting a pivot table and then clicking the *Insert > Timeline*. Aspose.Cells for Python via .NET also allows you to create timeline using the [**Worksheet.timelines.add()**](https://reference.aspose.com/cells/python-net/aspose.cells.timelines/timelinecollection/#methods) method.
+
+## **Create Timeline to a Pivot Table**
+
+Please see the following sample code. It loads the [sample Excel file](input.xlsx) that contains the pivot table. It then creates the timeline based on the first base pivot field. Finally, it saves the workbook in [output XLSX](output.xlsx) format. The following screenshot shows the timeline created by Aspose.Cells for Python via .NET in the output Excel file.
+
+![todo:image_alt_text](create-timeline-to-a-pivot-table_1.png)
+
+### **Sample Code**
+
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Timelines-CreateTimelineToPivotTable.py" >}}
+
