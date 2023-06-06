@@ -33,7 +33,7 @@ With [**Worksheet.GetHeader**](https://reference.aspose.com/cells/net/aspose.cel
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Gets-Header-Footer.cs" >}}
 
 ## **Parse Headers and Footers to Command List**
-The header text can contain special commands, for example a placeholder for the page number, current date or text formatting attributes.
+The header or footer text can contain special commands, for example a placeholder for the page number, current date or text formatting attributes.
 
 Special commands are represented by single letter with a leading ampersand ("&").
 
