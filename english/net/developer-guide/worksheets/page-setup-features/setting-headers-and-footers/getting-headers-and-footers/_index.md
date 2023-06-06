@@ -31,3 +31,16 @@ With [**Worksheet.GetHeader**](https://reference.aspose.com/cells/net/aspose.cel
 3. Gets header or footer with specific section id.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Gets-Header-Footer.cs" >}}
+
+## **Parse Headers and Footers to Command List**
+The header text can contain special commands, for example a placeholder for the page number, current date or text formatting attributes.
+
+Special commands are represented by single letter with a leading ampersand ("&").
+
+The header and footer strings are constructed using ABNF grammar. It's not easy to understand without viewer .
+
+Aspose.Cells for .Net provides [**Worksheet.GetCommands**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetCommands/) method to parse headers and footers as command list.
+
+The following codes how to parse header or footer as command list and process commands:
+
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Parses-Header-Footer.cs" >}}
