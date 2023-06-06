@@ -10,7 +10,7 @@ description: This article explains how to programmatically get header and footer
 
 Headers and footers are displayed only in Page Layout view, Print Preview, and on printed pages. 
 
-You can also use the Page Setup dialog box if you want to insert headers or footers for more than one worksheet at a time. 
+You can also use the Page Setup dialog box if you want to view headers or footers for more than one worksheet at a time. 
 
 For other sheet types, such as chart sheets, or charts, you can insert headers and footers only by using the Page Setup dialog box.
 
@@ -27,7 +27,7 @@ For other sheet types, such as chart sheets, or charts, you can insert headers a
 With [**Worksheet.GetHeader**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetHeader/) and [**Worksheet.GetFooter**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetFooter/) methods, .Net developer can simply get headers or footers from the file.
 
 1. Construct Workbook to open the file.
-2. Gets the worksheet which contains headers or footer.
+2. Gets the worksheet where you want to get headers or footer.
 3. Gets header or footer with specific section id.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Gets-Header-Footer.cs" >}}
