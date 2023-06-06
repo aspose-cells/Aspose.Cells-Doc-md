@@ -10,7 +10,7 @@ description: In this article, you will learn how check frozen state of excel wor
 
 {{% alert color="primary" %}}
 
-In this article, we will learn  how check frozen state of excel worksheet programmatically.
+In this article, we will learn how check frozen state of excel worksheet programmatically.
 We can simply find whether the worksheet is frozen or splitted in MS Excel. But is there a way to find whether it is frozen or splitted with CSharp.
 We can simply do it with Aspose.Cells for .Net.
 {{% /alert %}}
