@@ -1,8 +1,8 @@
 ---
-title: Headings And Body Font
+title: Headings And Body Theme Font
 type: docs
 weight: 120
-url: /net/headings-and-body-font/
+url: /net/headings-and-body-Theme-font/
 ---
 
 {{% alert color="primary" %}}
