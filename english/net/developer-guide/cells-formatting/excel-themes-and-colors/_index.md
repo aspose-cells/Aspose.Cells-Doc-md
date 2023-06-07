@@ -7,6 +7,8 @@ url: /net/excel-themes-and-colors/
 
 ## **Excel Themes and Colors**
 
+Document themes make it easy to coordinate colors, fonts, and graphic formatting effects of Excel documents and update them quickly. 
+
 Themes provide a unified look with named styles, graphical effects and other objects used in a workbook. For example, the Accent1 style, for example, looks different in the Office and the Apex themes. Often, you apply a document theme and then amend it to how you want it.
 
 Aspose.Cells provides features for customizing themes and colors.
@@ -27,7 +29,8 @@ The following example uses a template XLSX file, gets the colors for different t
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Excel2007Themes-GetSetThemeColors-1.cs" >}}
 
-#### **Customize Themes**
+#### **Create my own color theme**
+If theme colors are used in the file, we don't need to modify each cell individually, we just need to modify the colors in the theme.
 
 The following example shows how to apply custom themes with your desired colors. We use a sample template file manually created in Microsoft Excel 2007.
 
