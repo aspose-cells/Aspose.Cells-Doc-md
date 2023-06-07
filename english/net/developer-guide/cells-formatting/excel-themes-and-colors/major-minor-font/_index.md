@@ -13,7 +13,7 @@ If the default font is changed, the row height and column width is also changed,
 
 What caused the default font to change?
 
-If the default font is Excel theme font, Excel will automatically switch between different fonts based on the current language environment.
+If Excel theme font is set, Excel will automatically switch between different fonts based on the current language environment.
 
 
 {{% /alert %}}
@@ -25,11 +25,11 @@ In Excel, select Home tab, click on the font dropdown box ,you will see "Theme F
 **![Theme Fonts](Theme-Fonts.png)**
 
 If Theme Font is selected, the file will display file displays different in different regions .
-If you do not want to automitally change font in different regions, please not select fonts under Theme Fonts .
+If you do not want to automitally change font in different regions, don't select The two Theme Fonts .
 
 
 ## **Changing Headings And Body Font Programally**
-With Aspose.Cells for .Net , we can check whether the default font is theme font or set theme font with  [**Font.FontSchemeType**](https://reference.aspose.com/cells/net/aspose.cells/font/schemetype/) property.
+With Aspose.Cells for .Net , we can check whether the default font is theme font or set theme font with  [**Font.SchemeType**](https://reference.aspose.com/cells/net/aspose.cells/font/schemetype/) property.
 
 The following sample code shows how to manipulate theme font.
 
@@ -37,7 +37,7 @@ The following sample code shows how to manipulate theme font.
 
 
 ## **Dynamically Gets Local Theme Font Programally**
-Sometimes, our servers and users' machines are not in the same region. How can we obtain the font that users want for file processing?
+Sometimes, our servers and users' machines are not in the same region. How can we obtain the same font that users want for file processing?
 
 We have to set the system regional settings before loading the file with [**LoadOptions.Region**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/region/) property
 
