@@ -18,7 +18,7 @@ If Excel theme font is set, Excel will automatically switch between different fo
 
 {{% /alert %}}
 
-## **Headings And Body Font In Excle**
+## **Headings And Body Theme Font In Excel**
 
 In Excel, select Home tab, click on the font dropdown box ,you will see "Theme Fonts" with two theme fonts : Calibri Light (Headings) and Calibri (Body) on the top with English region setting.
 
