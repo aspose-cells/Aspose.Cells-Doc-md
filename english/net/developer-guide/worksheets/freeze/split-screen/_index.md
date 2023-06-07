@@ -22,6 +22,8 @@ To split up a worksheet into two or four parts, do as the following:
 1. Select the row/column/cell before which you want to place the split.
 2. On the View tab, in the Windows group, click the Split button.
 
+**![Split Screen](Split-Screen.png)**
+
 ## **Split worksheet vertically on columns**
 
 To separate two areas of the spreadsheet vertically, select the column to the right of the column where you wish the split to appear and click the Split button in Excel.
