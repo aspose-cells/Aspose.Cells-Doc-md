@@ -25,7 +25,7 @@ In Excel, select Home tab, click on the font dropdown box ,you will see "Theme F
 **![Theme Fonts](Theme-Fonts.png)**
 
 If Theme Font is selected, the font name will display different in different regions .
-If you do not want that the font is automitally changed in different regions, don't select The two Theme Fonts .
+If you do not want that the font is automitally changed in different regions, don't select the two Theme Fonts .
 
 
 ## **Changing Headings And Body Font Programally**
