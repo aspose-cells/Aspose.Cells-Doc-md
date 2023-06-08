@@ -2,7 +2,7 @@
 title: Custom sorting in Pivot Table
 type: docs
 weight: 130
-url: /net/custom-sorting-in-pivot-table/
+url: /python-net/custom-sorting-in-pivot-table/
 description: How to sort Pivot Tables on field values with Aspose.Cells for Python via .NET.
 keywords: Sort Pivot Tables on field values.
 ---

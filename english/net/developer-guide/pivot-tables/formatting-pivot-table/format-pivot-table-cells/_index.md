@@ -13,7 +13,7 @@ Sometimes, you want to format pivot table cells. For example, you want to apply 
 
 {{% /alert %}}
 
-The following sample code formats the entire pivot table with a light blue color and then formats the table's second row yellow.
+The following sample code loads the [sample Excel file](pivot_format.xlsx) that contains two pivot tables, and achieve the operation of formatting the entire pivot table and formatting individual cells in the pivot table.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FormatPivotTableCells-1.cs" >}}
 
