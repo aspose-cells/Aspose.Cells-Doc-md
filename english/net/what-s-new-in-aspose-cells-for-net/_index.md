@@ -10,6 +10,16 @@ This page describes the most interesting new Aspose.Cells features introduced in
 
 ## Aspose.Cells for .NET 23.5
 
+* Support to export and highlight revision logs
+* Support to traverse existing Row objects from RowCollection in reversed order
+* Support to refresh multiple consolidation ranges of pivottable
+* Support to show chart sheet in GridJs
+* Support to display cell overflow content in GridJs
+* Support to display background image for GridJs
+* Support to filter by datetime in GridJs
+
+## Aspose.Cells for .NET 23.5
+
 * Support to update external references of external sheet data to the local sheet of current workbook
 * Support to render Checkbox control as interactive control instead of static picture
 * Support to select PivotArea and format it
