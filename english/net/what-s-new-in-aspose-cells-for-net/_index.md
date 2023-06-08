@@ -8,7 +8,7 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
-## Aspose.Cells for .NET 23.5
+## Aspose.Cells for .NET 23.6
 
 * Support to export and highlight revision logs
 * Support to traverse existing Row objects from RowCollection in reversed order
