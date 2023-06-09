@@ -8,6 +8,12 @@ url: /java/what-s-new-in-aspose-cells-for-java/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for Java 23.6
+
+* Support to export and highlight revision logs
+* Support to traverse existing Row objects from RowCollection in reversed order
+* Support to refresh multiple consolidation ranges of pivottable
+
 ## Aspose.Cells for Java 23.5
 
 * Support to update external references of external sheet data to the local sheet of current workbook
