@@ -53,7 +53,7 @@ Provides user the ability of traversing Row objects in the collection in reverse
 
 For template file, please create save options by XlsSaveOptions(SaveFormat.Xlt). Otherwise create it by XlsSaveOptions().
 
-### **Adds ListColumn.GetDataStyle() and ListColumn.GetDataStyle() methods.**
+### **Adds ListColumn.GetDataStyle() and ListColumn.SetDataStyle(Style) methods.**
 
 Gets and sets the style of the column in the table.
 
@@ -61,7 +61,7 @@ Gets and sets the style of the column in the table.
 
 Sets the formula to table.
 
-### **Adds RevisionLogCollection.HighlightChanges() method and HighlightChangesOptions class.**
+### **Adds RevisionLogCollection.HighlightChanges(HighlightChangesOptions) method and HighlightChangesOptions class.**
 
 Exports and highlights all revision logs to a new worksheet.
 
