@@ -11,19 +11,19 @@ keywords: highlight, highlight spreadsheet
 We support the below JS APIs for Highlight feature 
 
 
--  Enable highlight and Set highlight style ,all the highlight APIs will take affect only after highlight style is set
+-  Enable highlight and Set highlight style ,all the highlight APIs will take affect only after highlight style is set in the active worksheet 
 ```javascript
-xs.showHighlights(style)
+xs.sheet.showHighlights(style)
  // the parameter is:
  style: the style for highlight ,currently only support color
  for example: {'color':'rgba(85, 57, 47, 0.08)'}
 ```
 
--  Disable highlight    
+-  Disable highlight  in the active worksheet    
 ```javascript
-xs.hideHighlights()
+xs.sheet.hideHighlights()
 ```
--  Add cell text to highlight
+-  Add cell text to highlight in the active worksheet 
 ```javascript
 xs.sheet.addHighlightText(row,col,startpostion,endposition)
     // the parameters are:
@@ -34,7 +34,7 @@ xs.sheet.addHighlightText(row,col,startpostion,endposition)
     //it support multiple range postion inside one cell
 ```
 
--  Remove highlight for cell text in array
+-  Remove highlight for cell text in array in the active worksheet 
 ```javascript
 xs.sheet.removeHighlightText(row,col)
     // the parameters are:
@@ -42,12 +42,12 @@ xs.sheet.removeHighlightText(row,col)
 	col:column index
 ```
 
--  Get array for highlight for cell text  
+-  Get array for highlight for cell text in the active worksheet   
 ```javascript
 xs.sheet.getHighlightTexts()
 ```
 
--  Add cell range to highlight
+-  Add cell range to highlight in the active worksheet 
 ```javascript
 xs.sheet.addHighlightRange(sri,sci,eri,eci)
     // the parameters are:
@@ -57,7 +57,7 @@ xs.sheet.addHighlightRange(sri,sci,eri,eci)
 	eci:end column index of cell range
 ```
 
--  Remove highlight for cell range in array
+-  Remove highlight for cell range in array in the active worksheet 
 ```javascript
 xs.sheet.removeHighlightRange(sri,sci,eri,eci)
      // the parameters are:
@@ -67,12 +67,12 @@ xs.sheet.removeHighlightRange(sri,sci,eri,eci)
 	eci:end column index of cell range
 ```
 
--  Get array for highlight for cell range  
+-  Get array for highlight for cell range in the active worksheet   
 ```javascript
 xs.sheet.getHighlightRanges()
 ```
 
--  Set cell range to invers highlight
+-  Set cell range to invers highlight in the active worksheet 
 ```javascript
 xs.sheet.setHighlightInverseRange(sri,sci,eri,eci)
     // the parameters are:
@@ -82,38 +82,38 @@ xs.sheet.setHighlightInverseRange(sri,sci,eri,eci)
 	eci:end column index of cell range
 ```
 
--  Remove highlight for invers highlight
+-  Remove highlight for invers highlight in the active worksheet 
 ```javascript
 xs.sheet.removeHighlightInverseRange()
      
 ```
 
--  Get   inverse highlight  cell range  
+-  Get   inverse highlight  cell range  in the active worksheet 
 ```javascript
 xs.sheet.getHighlightInverseRange()
 ```
 
 
--  Add shape to highlight array
+-  Add shape to highlight array  in the active worksheet 
 ```javascript
 xs.sheet.addHighlightShape(shapeid)
     // the parameters are:
     shapeid: the id of shape, can be find in xs.sheet.data.shapes
 ```
 
--  Remove highlight shape in array
+-  Remove highlight shape in array  in the active worksheet 
 ```javascript
 xs.sheet.removeHighlightShape(shapeid)
      // the parameters are:
     shapeid: the id of shape, can be find in xs.sheet.data.shapes
 ```
 
--  Get array for highlight shape  
+-  Get array for highlight shape  in the active worksheet  
 ```javascript
 xs.sheet.getHighlightShaps()
 ```
 
--  Add textbox to highlight,textbox is a special kind of shape which type property is :"TextBox",
+-  Add textbox to highlight,textbox is a special kind of shape which type property is :"TextBox", in the active worksheet 
 ```javascript
 xs.sheet.addHighlightTextBox(shapeid, startpostion, endposition)
     // the parameters are:
@@ -124,7 +124,7 @@ xs.sheet.addHighlightTextBox(shapeid, startpostion, endposition)
 ```
 
 
--  Remove highlight range in the textbox,textbox is a special kind of shape which type property is :"TextBox",
+-  Remove highlight range in the textbox,textbox is a special kind of shape which type property is :"TextBox", in the active worksheet 
 ```javascript
 xs.sheet.removeHighlightTextBox(shapeid, startpostion, endposition)
     // the parameters are:
@@ -134,14 +134,14 @@ xs.sheet.removeHighlightTextBox(shapeid, startpostion, endposition)
     //it support multiple range postion inside one textbox
 ```
 
--  Add image to highlight array
+-  Add image to highlight array  in the active worksheet 
 ```javascript
 xs.sheet.addHighlightImage(imageid)
     // the parameters are:
     imageid: the id of image, can be find in xs.sheet.data.images
 ```
 
--  Remove highlight image in array
+-  Remove highlight image in array  in the active worksheet 
 ```javascript
 xs.sheet.removeHighlightImage(imageid)
      // the parameters are:
@@ -153,7 +153,7 @@ xs.sheet.removeHighlightImage(imageid)
 xs.sheet.getHighlightImages()
 ```
 
--  set whether to highlight all worksheet ,include all shapes and images 
+-  set whether to highlight all objects in the active worksheet ,include all shapes and images and all worksheet area
 ```javascript
 xs.sheet.setHighlightAll(ishighlightall,isrerender=true)
    // the parameters are:
@@ -174,6 +174,12 @@ xs.sheet.setCustomHighlightImgFunc(func)
             imgobj.applyFilters();
         }
     
+```
+
+-  clear highlight setting for the active worksheet
+```javascript
+xs.sheet.clearHighlights()
+
 ```
 
 ### Highlight for textbox object

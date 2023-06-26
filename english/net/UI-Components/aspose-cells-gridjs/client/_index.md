@@ -31,7 +31,7 @@ xs = x_spreadsheet(id, options)
 			        ko,th,tr,vi,cht
                            for  Korean,Thai,Turkey,Vietnamese,Traditional Chinese                  
 	    showContextmenu:   means whether to show contextmenu on right click on a cell
-
+            loadingGif:  the loading gif url when loading the image/shape .it is optional,the default value is:content/img/updating.gif
 	for example the below code init a x_spreadsheet object.
 	xs = x_spreadsheet('#gridjs-demo', {
 			updateMode:'server',
@@ -201,7 +201,7 @@ xs.sheet.data.setCellText(ri,ci,value,state)
 	ri:row index 
 	ci:column index
 	value:the cell value
-	state: input | finished
+	state: input | finished ,if finished ,it will do update action to servside
 ```
 
 -  Get/Set the selected cell range
@@ -266,6 +266,22 @@ xs.sheet.data.setColWidth(ci,width)
 	ci:column index
 	width:the width for the column
 ```
+-  Set the width for the columns
+```javascript
+xs.sheet.data.setColsWidth(sci,eci,width)
+    // the parameters are:
+	sci:the start column index
+	eci:the end column index
+	width:the width for the column
+```
+
+-  Set the width for all the columns
+```javascript
+xs.sheet.data.setAllColsWidth(width)
+    // the parameters are:
+	width:the width for the columns
+```
+
 -  Get the width for the column 
 ```javascript
 xs.sheet.data.cols.sumWidth(min,max)
@@ -281,6 +297,23 @@ xs.sheet.data.setRowHeight(ri,height)
 	ri:row index
 	height:the height for the row
 ```
+-  Set the height for the rows
+```javascript
+xs.sheet.data.setRowsHeight(sri,eri,height)
+    // the parameters are:
+	sri:start row index
+	eri:end row index
+	height:the height for the rows
+```
+
+-  Set the height for all the rows
+```javascript
+xs.sheet.data.setAllRowsHeight(height)
+    // the parameters are:
+	height:the height for the rows
+```
+
+
 -  Get the height for the row 
 ```javascript
 xs.sheet.data.rows.sumHeight(min,max)
@@ -288,6 +321,7 @@ xs.sheet.data.rows.sumHeight(min,max)
 	min:the start row index
 	max:the end row index,not include
 ```
+
 -  Get/Set the display direction
 ```javascript
 xs.sheet.data.displayRight2Left
