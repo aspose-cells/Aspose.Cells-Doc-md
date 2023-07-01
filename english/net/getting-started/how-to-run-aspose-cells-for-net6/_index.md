@@ -40,14 +40,14 @@ You can also install Aspose.Cells from the Nuget package manager in VS2022.
 
 3. locate the "net6.0-windows" subdirectory, add the Aspose.Cells.dll in it to your .net6 application. Manually add the following nuget packages to your .net6 project:
 - System.Drawing.Common, 4.7.0.
-- System.Security.Cryptography.Pkcs, 6.0.1.
+- System.Security.Cryptography.Pkcs, 6.0.3.
 - System.Text.Encoding.CodePages, 4.7.0.
 
 In this way, you will use "System.Drawing.Common" as a dependency on your windows system for .Net6 project. In this configuration, the result of the drawing is closer to .netcore31 or before.
 
 4. locate the "net6.0" subdirectory, add the Aspose.Cells.dll in it to your .net6 application. Manually add the following nuget packages to your .net6 project:
 - SkiaSharp, 2.88.3.
-- System.Security.Cryptography.Pkcs, 6.0.1.
+- System.Security.Cryptography.Pkcs, 6.0.3.
 - System.Text.Encoding.CodePages, 4.7.0.
 
 In this way, you will use "SkiaSharp" as a dependency on your windows system for .Net6 project. *Please note the version that uses "SkiaSharp" as a dependency doesn't support printing to printer feature.*
