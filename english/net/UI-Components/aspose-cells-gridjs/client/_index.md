@@ -344,6 +344,8 @@ xs.sheet.data.displayRight2Left
                 console.log('shape or image selected id:', shapeOrImageObj.id, ', type: ', shapeOrImageObj.type);
             }).on('sheet-selected', (id,name) => {
                 console.log('sheet selected id:', id, ', name: ',name);
+            }).on('sheet-loaded', (id,name) => {
+                console.log('sheet load finished:', id, ', name: ',name);
             }).on('cell-edited', (text, ri, ci) => {
                 console.log('text:', text, ', ri: ', ri, ', ci:', ci);
             });

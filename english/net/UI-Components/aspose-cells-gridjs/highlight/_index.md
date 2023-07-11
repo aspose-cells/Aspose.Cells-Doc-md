@@ -19,6 +19,15 @@ xs.sheet.showHighlights(style)
  for example: {'color':'rgba(85, 57, 47, 0.08)'}
 ```
 
+-  update the highlight style set in the active worksheet 
+```javascript
+xs.sheet.updateHighlightStyle(style)
+ // the parameter is:
+ style: the style for highlight ,currently only support color
+ for example: {'color':'rgba(85, 57, 47, 0.08)'}
+```
+
+
 -  Disable highlight  in the active worksheet    
 ```javascript
 xs.sheet.hideHighlights()
