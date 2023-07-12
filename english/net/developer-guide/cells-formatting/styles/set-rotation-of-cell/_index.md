@@ -7,11 +7,11 @@ description: C# code to rotate text of Cell with Aspose.Cells for .NET API
 keywords: c# rotate text of Cell, c# programmatically rotate text of Cell in workbook, programmatically set cell rotation angle in workbook, c# how to rotate text of Cell in excel
 ---
 
-## **Rotate the Text of Cell in Aspose.Cells**
+## **Rotate Text of Cell in Aspose.Cells**
 
 Aspose.Cells is a powerful .NET and Java component that enables developers to work with Excel spreadsheets programmatically. One of the features provided by Aspose.Cells is the ability to rotate cells, allowing you to customize the orientation of text and improve the visual presentation of your data. In this document, we will explore how to rotate cells using Aspose.Cells.
 
-## **How to Rotate the Text of Cell in Excel**
+## **How to Rotate Text of Cell in Excel**
 To rotate a cell in Excel, you can use the following steps:
 1. Open Excel and select the cell or range of cells that you want to rotate.
 1. Right-click on the selected cell(s) and choose "Format Cells" from the context menu. Alternatively, you can go to the "Home" tab in the Excel ribbon, click on the "Format" dropdown in the "Cells" group, and select "Format Cells."
@@ -21,7 +21,7 @@ To rotate a cell in Excel, you can use the following steps:
 ![todo:image_alt_text](alignment.png)
 1. Once you have selected the desired rotation, click "OK" to apply the changes. The selected cell(s) will now be rotated based on your chosen rotation angle or orientation.
 
-## **How to Rotate the Text of Cell using Aspose.Cells API**
+## **How to Rotate Text of Cell using Aspose.Cells API**
 
 [**Style.RotationAngle**](https://reference.aspose.com/cells/net/aspose.cells/style/rotationangle/) property makes it convenient to rotate cells. To rotate cells in Aspose.Cells, you need to follow these steps:
 1. Load the Excel Workbook
