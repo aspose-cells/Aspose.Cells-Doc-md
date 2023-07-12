@@ -8,6 +8,13 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 23.7
+
+* Enhancement for many features of GridJS such as rendering controls, serverside saveback for combobox, ...etc.
+* Enhanced file format detection for some new formats such as visio file, OneNote package file.
+* Support XAdES signatures for CSharp X509Certificate2
+* Support to work in Blazor Web Assembly
+
 ## Aspose.Cells for .NET 23.6
 
 * Support to export and highlight revision logs
