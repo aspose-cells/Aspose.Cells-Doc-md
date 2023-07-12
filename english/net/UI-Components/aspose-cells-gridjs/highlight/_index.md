@@ -4,7 +4,7 @@ type: docs
 weight: 250
 url: /net/aspose-cells-gridjs/highlight/
 description: This article describes how to use GridJs to highlight on cell text, cell ranges ,shapes and pictures.
-keywords: highlight, highlight spreadsheet
+keywords: highlight, highlight spreadsheet,redaction,remarks
 ---
 
 # Working with GridJs Highlight feature 
@@ -36,7 +36,7 @@ xs.sheet.hideHighlights()
 ```javascript
 xs.sheet.addHighlightText(row,col,startpostion,endposition)
     // the parameters are:
-    row:row index 
+	row:row index 
 	col:column index
 	startpostion: highlight start postion in cell text 
 	endpostion: highlight end postion in cell text 
@@ -45,10 +45,12 @@ xs.sheet.addHighlightText(row,col,startpostion,endposition)
 
 -  Remove highlight for cell text in array in the active worksheet 
 ```javascript
-xs.sheet.removeHighlightText(row,col)
+xs.sheet.removeHighlightText(row,col,startpostion,endposition)
     // the parameters are:
-    row:row index 
+	row:row index 
 	col:column index
+	startpostion: highlight start postion in cell text 
+	endpostion: highlight end postion in cell text 
 ```
 
 -  Get array for highlight for cell text in the active worksheet   
@@ -60,9 +62,9 @@ xs.sheet.getHighlightTexts()
 ```javascript
 xs.sheet.addHighlightRange(sri,sci,eri,eci)
     // the parameters are:
-    sri:start row index of cell range
+	sri:start row index of cell range
 	sci:start column index of cell range
-	 eri:end row index of cell range
+	eri:end row index of cell range
 	eci:end column index of cell range
 ```
 
@@ -70,9 +72,9 @@ xs.sheet.addHighlightRange(sri,sci,eri,eci)
 ```javascript
 xs.sheet.removeHighlightRange(sri,sci,eri,eci)
      // the parameters are:
-    sri:start row index of cell range
+	sri:start row index of cell range
 	sci:start column index of cell range
-	 eri:end row index of cell range
+	eri:end row index of cell range
 	eci:end column index of cell range
 ```
 
@@ -85,9 +87,9 @@ xs.sheet.getHighlightRanges()
 ```javascript
 xs.sheet.setHighlightInverseRange(sri,sci,eri,eci)
     // the parameters are:
-    sri:start row index of cell range
+	sri:start row index of cell range
 	sci:start column index of cell range
-	 eri:end row index of cell range
+	eri:end row index of cell range
 	eci:end column index of cell range
 ```
 
