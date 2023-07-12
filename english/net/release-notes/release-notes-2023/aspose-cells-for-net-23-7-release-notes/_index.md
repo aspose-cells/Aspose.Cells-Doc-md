@@ -39,6 +39,7 @@ This page contains release notes for [Aspose.Cells for .NET 23.7](https://www.nu
 |CELLSNET-53560|Dynamic array formulas were calculated incorrectly as #N/A|Bug
 |CELLSNET-53659|Worksheet's standard width changes in generated file when changing the sequences of setting it and applying style to Cells|Bug
 |CELLSNET-53668|Some cells cannot be calculated correctly after refreshing dynamic array formulas without calculation|Bug
+|CELLSNET-53582|Unable to take screenshot for the chart that uses spill formulas|Bug
 |CELLSNET-51943|Docker :A null reference or invalid value was found [GDI+ status: InvalidParameter |Bug
 |CELLSNET-53349|Graph labels overlap in excel to PDF conversion |Bug
 |CELLSNET-53488|The horizontal dashed line become rough when converting chart to image|Bug
