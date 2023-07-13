@@ -43,8 +43,8 @@ After rotating the cells, you can save the modified workbook back to a file or s
 ## **C# Sample Code**
 
 Please see the following code, it creates a workbook object and set different rotation angles for several cells. The screenshot shows the result after the execution of the sample code.
-
-![todo:image_alt_text](rotation.png)
+<br>
+<img src="rotation.png" width=80% />
 
 
 
