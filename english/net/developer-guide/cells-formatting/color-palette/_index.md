@@ -1,5 +1,5 @@
 ---
-title: How to Add Custom Colors to Palette
+title: How to Use Color Palette
 type: docs
 weight: 80
 url: /net/excel-color-palette/
