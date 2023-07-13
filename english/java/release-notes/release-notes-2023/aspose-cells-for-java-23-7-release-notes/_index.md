@@ -45,11 +45,11 @@ The following is a list of any changes made to the public API such as added, ren
 
 In old versions, setting standard width for worksheet does not change the width of those columns whose width is defined by default column. This caused inconsistent result when changing the sequence of setting standard width and applying row style. From 23.7, we make the width of default columns change to keep same with the new standard width when user setting this property. 
 
-### **Obsolete FileFormat.Numbers enum**
+### **Obsolete FileFormatType.Numbers enum**
 
 Please use FileFormatType.Numbers09 instead.
 
-### **Adds FileFormat.MicrosoftCabinet and FileFormat.Rtf enum**
+### **Adds FileFormatType.MicrosoftCabinet and FileFormatType.Rtf enum**
 
 Used for detecting file format type.
 
@@ -65,6 +65,3 @@ Represents the options of converting numberic text.
 
 Indicates whether ignore the attributes of xml root element.
 
-### **Removes obsoleted CSV,TSV,ODS,Excel2003XML,XPS,TIFF,SVG,MSEquation,VSD,VSDX,ODT,ODP,ODF,ODG,XML,OTT,BMP,OTS,FODS,SXC and OTP of FileFormat enum.**
-
-Removes those obsoleted file formats.
