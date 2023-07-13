@@ -91,19 +91,15 @@ Used for detecting file format type.
 
 Gets the actual position and size of the shape (after applying rotation, flip, etc.)
 
-### **Adds HtmlLoadOptions.TableLoadOptioins property and HtmlTableLoadOption/HtmlTableLoadOptionCollection class**
-
-Represents the options when importing the tables from HTML file.
-
-### **Adds XmlLoadOptions.ConvertNumericOrDate ,XmlLoadOptions.NumberFormat and XmlLoadOptions.DateForma properties**
+### **Adds XmlLoadOptions.ConvertNumericOrDate, XmlLoadOptions.NumberFormat and XmlLoadOptions.DateFormat properties**
 
 Represents the options of converting numberic text.
 
 ### **Adds XmlLoadOptions.IgnoreRootAttributes property**
 
-Indicates whether ignore the attirbutes of xml root element.
+Indicates whether ignore the attributes of xml root element.
 
-### **Removes obsoleted CSV,TSV,ODS,Excel2003XML,XPS,TIFF,SVG,MSEquation,VSD,VSDX,ODT,ODP,ODF,ODG,XML,OTT,BMP,OTS,FODS,SXC and OTP  of FileFormat enum.**
+### **Removes obsoleted CSV,TSV,ODS,Excel2003XML,XPS,TIFF,SVG,MSEquation,VSD,VSDX,ODT,ODP,ODF,ODG,XML,OTT,BMP,OTS,FODS,SXC and OTP of FileFormat enum.**
 
 Removes those obsoleted file formats.
 
