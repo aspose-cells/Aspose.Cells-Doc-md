@@ -23,7 +23,7 @@ Aspose.Cells supports this feature through the [**AutoFitterOptions.AutoFitMerge
 
 Please see the following code, it creates a workbook object and add multiple worksheets. Use different methods for autofit operations in each worksheet. The screenshot shows the results after the execution of the sample code.
 
-![todo:image_alt_text](autofit_mergedcells.png)
+![todo:image_alt_text](result.png)
 
 ## **C# Sample Code**
 

@@ -1,10 +1,10 @@
 ---
-title: How to Use Palette
+title: How to Add Custom Colors to Palette
 type: docs
 weight: 80
-url: /net/how-to-use-palette/
-description: C# code to add custom colors to the palette and use palette with Aspose.Cells for .NET API
-keywords: c# add custom colors to the palette, c# programmatically add custom colors to the palette in workbook, programmatically how to use palette in workbook, c# how to operate palette in excel
+url: /net/excel-color-palette/
+description: C# code to add custom colors to the palette and use excel color palette with Aspose.Cells for .NET API
+keywords: c# add custom colors to the palette, c# programmatically excel color palette, programmatically how to use color palette in workbook, c# how to use color palette in excel
 ---
 
 ## **Colors and Palette**
