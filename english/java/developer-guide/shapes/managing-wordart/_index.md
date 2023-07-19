@@ -23,3 +23,9 @@ After running the code the output file contains a pale red WordArt watermark.
 ![todo:image_alt_text](add-wordart-watermark-to-worksheet_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddWordArtWatermarkToWorksheet-AddWordArtWatermarkToWorksheet.java" >}}
+
+## **Advance topics**
+- [Add Word Art Text with Built-in Styles](/cells/java/add-word-art-text-with-built-in-styles/)
+- [Add WordArt Watermark to Chart](/cells/java/add-wordart-watermark-to-chart/)
+- [Locking WordArt Watermark](/cells/java/locking-wordart-watermark/)
+- [Set preset WordArt style to the text of the shape](/cells/java/set-preset-wordart-style-to-the-text-of-the-shape/)
