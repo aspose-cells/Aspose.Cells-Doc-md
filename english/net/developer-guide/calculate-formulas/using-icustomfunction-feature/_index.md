@@ -11,6 +11,8 @@ This article provides a detailed understanding of how to use the ICustomFunction
 
 The ICustomFunction interface allows to add custom formula calculation functions to extend the Aspose.Cells' core calculation engine in order to meet certain requirements. This feature is useful to define custom (user defined) functions in a template file or in code where the custom function can be implemented and evaluated using Aspose.Cells APIs like any other default Microsoft Excel function.
 
+Please note, this interface has been replaced by [AbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/) and will be removed in future. Some technical articles/examples atbout the new API: [here](/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) and [here](/net/returning-a-range-of-values-using-abstractcalculationengine/)
+
 {{% /alert %}} 
 ## **Creating and Evaluating a User-defined Function**
 This article demonstrates the implementation of ICustomFunction interface to write a custom function and use it in the spreadsheet to get the results. We will define a custom function by name **MyFunc** which will accepts 2 parameters with following details.
