@@ -15,7 +15,7 @@ The following property and classes are used in implementing this feature.
 - **[AbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine)**
 - **[CalculationData](https://reference.aspose.com/cells/net/aspose.cells/calculationdata)**
 
-The following code implements the Custom Calculation Engine. It implements the interface **[AbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine)** which has a **[Calculate(CalculationData data)](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/methods/calculate)** method. This method is called against all of your formulas. Inside this method, we capture the **Sum** formula and increases its value by 30. So if the Aspose.Cells calculated value is 20, then our custom engine will make it 50 by adding 30.
+The following code implements the Custom Calculation Engine. It implements the interface **[AbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine)** which has a **[Calculate(CalculationData data)](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/methods/calculate)** method. This method is called against all of your formulas. Inside this method, we capture the **TODAY** function and add one day to the system date. So if the current date is 27/07/2023, then the custom engine will calculate TODAY() as 28/07/2023.
 
 ### **Programming Sample**
 
