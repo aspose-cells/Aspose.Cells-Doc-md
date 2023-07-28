@@ -19,18 +19,15 @@ The following property and classes are used in implementing this feature.
 ## **Implement Custom Calculation Engine**
 The following code implements the Custom Calculation Engine. It implements the interface [AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) which has only one method [calculate(CalculationData data)](https://reference.aspose.com/cells/java/com.aspose.cells/abstractcalculationengine#calculate\(com.aspose.cells.CalculationData\)). This method is called against all of your formulas. Inside this method, we capture the **TODAY** function and add one day to the system date. So if the current date is 27/07/2023, then the custom engine will calculate TODAY() as 28/07/2023.
 
+### **Programming Sample**
+
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ImplementCustomCalculationEngine-ImplementCustomCalculationEngine.java" >}}
-## **Console Output**
-Here is the console output of the above sample code.
 
-{{< highlight java >}}
+### **Result**
 
- Without Custom Engine Value of A1: 20
+Please check the console output of the above sample code, the value(date time) of A1 with custom engine should be one day later than the result without custom engine.
 
-With Custom Engine Value of A1: 50
-
-{{< /highlight >}}
-## **Related Article**
+### **Related Article**
 {{% alert color="primary" %}} 
 
 - [Direct calculation of custom function without writing it in a worksheet](/cells/java/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)

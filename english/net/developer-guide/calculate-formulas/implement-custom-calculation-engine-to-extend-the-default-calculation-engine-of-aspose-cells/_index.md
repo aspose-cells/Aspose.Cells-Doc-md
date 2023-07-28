@@ -21,17 +21,9 @@ The following code implements the Custom Calculation Engine. It implements the i
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ImplementCustomCalculationEngine-ImplementCustomCalculationEngine.cs" >}}
 
-### **Console Output**
+### **Result**
 
-Here is the console output of the above sample code.
-
-{{< highlight java >}}
-
-Without Custom Engine Value of A1: 20
-
-With Custom Engine Value of A1: 50
-
-{{< /highlight >}}
+Please check the console output of the above sample code, the value(date time) of A1 with custom engine should be one day later than the result without custom engine.
 
 ### **Related Article**
 
