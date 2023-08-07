@@ -3,6 +3,8 @@ title: Accessing Cells of a Worksheet
 type: docs
 weight: 10
 url: /net/accessing-cells-of-a-worksheet/
+description: This article shows how to get the maximum display range of worksheet and access cells through the Aspose.Cells for .NET API.
+keywords: Get Cell object, Access Cells, Get maximum display range of worksheet. 
 ---
 
 {{% alert color="primary" %}}
@@ -11,7 +13,7 @@ We know that all worksheets may contain data that is basically stored in cells (
 
 {{% /alert %}}
 
-## **Accessing Cells**
+## **How to Access Cells**
 
 Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) that represents an Excel file. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class contains a [**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class provides a [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collection that represents all cells in the worksheet.
 
@@ -23,7 +25,7 @@ We can use [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells
 
 **IMPORTANT:** We have mentioned that the 3rd approach is the fastest and the 1st approach is the slowest one. The performance difference between the approaches is very small so don't worry about performance degradation, whichever approach you use.
 
-### **Using Cell Name**
+### **How to Get Cell Object by Cell Name**
 
 Developers can access any specific cell by passing its cell name to the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collection of the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class as an index.
 
@@ -31,7 +33,7 @@ If you create a blank worksheet at the start, the count of [**Cells**](https://r
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-UsingCellName-1.cs" >}}
 
-### **Using Row & Column Index of the Cell**
+### **How to Get Cell Object by Row & Column Index of the Cell**
 
 Developers can access any specific cell by passing the indices of its row and column to the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collection of the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class.
 
@@ -39,7 +41,7 @@ This approach works in the same way as that of the first approach.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-UsingRowAndColumnIndexOfCell-1.cs" >}}
 
-### **Using Cell Index in Cells Collection**
+### **How to Get Cell Object by Cell Index in Cells Collection**
 
 A cell can also be accessed by passing the cell's numeric index to the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collection.
 
@@ -47,7 +49,7 @@ If you use this approach to access cells, an exception can be thrown if the nume
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-UsingCellIndexInCellsCollection-1.cs" >}}
 
-## **Accessing Maximum Display Range of Worksheet**
+## **How to Get Maximum Display Range of Worksheet**
 
 Aspose.Cells allows developers to access a worksheet's maximum display range. The maximum display range - the range of cells between the first and last cell with content - is useful when you need to copy, select, or display the entire contents of a worksheet in an image.
 

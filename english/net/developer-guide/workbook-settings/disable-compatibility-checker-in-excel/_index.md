@@ -3,7 +3,8 @@ title: Disable Compatibility Checker in Excel
 type: docs
 weight: 170
 url: /net/disable-compatibility-checker-in-excel/
-keywords: "c# excel disable compatibility checker"
+description: This article shows how to disable compatibility checker through the Aspose.Cells for .NET API.
+keywords: C# Disable Compatibility Checker, Excel Disable Compatibility Checker
 ---
 
 ## Disable Compatibility Checker in Excel Worksheets in C# 
@@ -18,14 +19,14 @@ Sometimes, you need to disable the Compatibility Checker for a particular spread
 
 {{% /alert %}}
 
-## **Using Microsoft Excel**
+## **How to Disable Compatibility Checker using Microsoft Excel**
 
 To disable the Compatibility Checker in Microsoft Excel (for example Microsoft Excel 2007/2010):
 
 - (Excel 2007) On the Office button, click **Prepare**, then **Run Compatibility Checker**, and then clear the **Check compatibility when you save this workbook** option.
 - (Excel 2010) On the File tab, click **Info**, then **Check for issues**, click **Check Compatibility**, and, finally, clear the **Check compatibility when you save this workbook** option.
 
-## **Using Aspose.Cells APIs**
+## **How to Disable Compatibility Checker using Aspose.Cells APIs**
 
 Set the [**Workbook.Settings.CheckComptiliblity**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/checkcompatibility) property to **False** to disable Microsoft Excel's Compatibility Checker.
 

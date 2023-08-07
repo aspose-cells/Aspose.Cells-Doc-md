@@ -5,6 +5,7 @@ type: docs
 weight: 180
 url: /net/export-data-from-worksheet/
 description: This article explains how to export or import data from worksheet into datatable using C#.
+keywords: C# export Worksheet data to DataTable.
 ---
 
 ## Overview

@@ -3,6 +3,8 @@ title: AutoFit Rows and Columns
 type: docs
 weight: 20
 url: /net/autofit-rows-and-columns/
+description: This article shows how to autoFit rows, columns, rows of merged cells and row in a range of cells by the Aspose.Cells for .NET API.
+keywords: Autofit rows, autofit columns, autofit row in a range of cells, autofit rows of merged cells
 ---
 
 {{% alert color="primary" %}}
@@ -21,7 +23,7 @@ The most straight-forward approach to auto-sizing the width and height of a row 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-AutofitRowsandColumns-1.cs" >}}
 
-### **AutoFit Row in a Range of Cells**
+### **How to AutoFit Row in a Range of Cells**
 
 A row is composed of many columns. Aspose.Cells allows developers to auto-fit a row based on the content in a range of cells within the row by calling an overloaded version of the [**AutoFitRow**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitrow/methods/1) method. It takes the following parameters:
 
@@ -33,7 +35,7 @@ The [**AutoFitRow**](https://reference.aspose.com/cells/net/aspose.cells.workshe
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-AutofitRowinSpecificRange-1.cs" >}}
 
-### **AutoFit Column in a Range of Cells**
+### **How to AutoFit Column in a Range of Cells**
 
 A column is composed of many rows. It is possible to auto-fit a column based on the content in a range of cells in the column by calling an overloaded version of [**AutoFitColumn**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1) method that takes the following parameters:
 
@@ -45,7 +47,7 @@ The [**AutoFitColumn**](https://reference.aspose.com/cells/net/aspose.cells.work
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-AutofitColumninSpecificRange-1.cs" >}}
 
-### **AutoFit Rows for Merged Cells**
+### **How to AutoFit Rows for Merged Cells**
 
 With Aspose.Cells it is possible to autofit rows even for cells that have been merged using the [**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions) API. [**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions) class provides [**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions/properties/autofitmergedcellstype) property that can be used to autofit rows for merged cells. [**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions/properties/autofitmergedcellstype) accepts [**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitmergedcellstype) enumerable which has the following members.
 

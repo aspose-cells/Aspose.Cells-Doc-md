@@ -4,6 +4,8 @@ linktitle: Inserting and Deleting Rows and Columns
 type: docs
 weight: 70
 url: /net/inserting-and-deleting-rows-and-columns/
+description: This article shows how to insert and delete rows and columns by the Aspose.Cells for .NET API.
+keywords: Aspose.Cells C# manage rows and columns, insert rows and columns, delete rows and columns
 ---
 
 ## **Introduction**
@@ -26,13 +28,13 @@ When rows or columns are added, the content in the worksheet is shifted down or 
 
 ## **Insert Rows and Columns**
 
-### **Insert a Row**
+### **How to Insert a Row**
 
 Insert a row into the worksheet at any location by calling the [**InsertRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow) method of the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection. The [**InsertRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow) method takes the index of the row where the new row will be inserted.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-InsertingARow-1.cs" >}}
 
-### **Insert Multiple Rows**
+### **How to Insert Multiple Rows**
 
 To insert multiple rows into a worksheet, call the [**InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows) method of the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection. The [**InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows) method takes two parameters:
 
@@ -41,7 +43,7 @@ To insert multiple rows into a worksheet, call the [**InsertRows**](https://refe
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-InsertingMultipleRows-1.cs" >}}
 
-### **Insert a Row with Formatting**
+### **How to Insert a Row with Formatting**
 
 To insert a row with formatting options, use the [**InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows) overload that takes [**InsertOptions**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions) as a parameter. Set the [**CopyFormatType**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype) property of [**InsertOptions**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions) class with [**CopyFormatType**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype) Enumeration. The [**CopyFormatType**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype) Enumeration has three members as listed below.
 
@@ -51,7 +53,7 @@ To insert a row with formatting options, use the [**InsertRows**](https://refer
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-InsertingARowWithFormatting-1.cs" >}}
 
-### **Insert a Column**
+### **How to Insert a Column**
 
 Developers can also insert a column into the worksheet at any location by calling the [**InsertColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcolumn) method of the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection. The [**InsertColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcolumn) method takes the index of the column where the new column will be inserted.
 
@@ -59,7 +61,7 @@ Developers can also insert a column into the worksheet at any location by callin
 
 ## **Delete Rows and Columns**
 
-### **Delete Multiple Rows**
+### **How to Delete Multiple Rows**
 
 To delete multiple rows from a worksheet, call the [**DeleteRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows) method of the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection. The [**DeleteRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows) method takes two parameters:
 
@@ -69,7 +71,7 @@ To delete multiple rows from a worksheet, call the [**DeleteRows**](https://refe
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-DeletingMultipleRows-1.cs" >}}
 
 
-### **Delete a Column**
+### **How to Delete a Column**
 
 To delete a column from the worksheet at any location, call the [**DeleteColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn) method of the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection. The [**DeleteColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn) method takes the index of the column to delete.
 

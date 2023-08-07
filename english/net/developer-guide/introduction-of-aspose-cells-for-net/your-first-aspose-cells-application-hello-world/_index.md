@@ -3,6 +3,8 @@ title: Your First Aspose.Cells Application - Hello World
 type: docs
 weight: 30
 url: /net/your-first-aspose-cells-application-hello-world/
+description: Create, edit and save your first excel file in any supported formats using Aspose.Cells for .NET to experience its simplicity and power in C#.
+keywords: C# Hello World, Aspose.Cells for .NET Hello World
 ---
 
 {{% alert color="primary" %}}
@@ -11,7 +13,7 @@ This tutorial shows how to create a very first application (Hello World) using A
 
 {{% /alert %}}
 
-## **Creating the Hello World Application**
+## **How to Create the Hello World Application**
 
 The steps below creates the Hello World application using the Aspose.Cells API:
 
@@ -25,13 +27,13 @@ The steps below creates the Hello World application using the Aspose.Cells API:
 
 The implementation of the above steps is demonstrated in the examples below.
 
-### **Code Sample: Creating a New Workbook**
+### **How to Create a New Workbook**
 
 The following example creates a new workbook from the scratch, writes Hello World! into cell A1 on the first worksheet and saves the Excel file.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-FirstApplication-1.cs" >}}
 
-### **Code Sample: Opening an Existing File**
+### **How to Open an Existing File**
 
 The following example opens an existing Microsoft Excel template file named "Sample.xlsx", inputs "Hello World!" text into the A1 cell in the first worksheet and saves the workbook.
 

@@ -1,10 +1,11 @@
 ---
-title: Managing data of Excel files.
+title: Manage data of Excel files
 linktitle: Cells Data
 type: docs
 weight: 110
 url: /net/view-and-edit-excel-data/
 description: This article describes how to view and edit data of Excel files with Aspose.Cells library.
+keywords: Aspose.Cells C# Manage data of Excel file, add data to Excel file, get data from excel file.
 ---
 
 {{% alert color="primary" %}}
@@ -13,7 +14,7 @@ In [Accessing Cells of a Worksheet](/cells/net/accessing-cells-of-a-worksheet/),
 
 {{% /alert %}}
 
-## **Adding Data to Cells**
+## **How to Add Data to Cells**
 
 Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class provides a [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection. Each item in the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection represents an object of the [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) class.
 
@@ -21,11 +22,11 @@ Aspose.Cells allows developers to add data to the cells in worksheets by calling
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AddingDataToCells-1.cs" >}}
 
-## **Improving Efficiency**
+## **How to Improve Efficiency**
 
 If you use [**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) method to put a large amount of data to a worksheet, you should add values to the cells, first by rows and then by columns. This approach greatly improves the efficiency of your applications.
 
-## **Retrieving Data from Cells**
+## **How to Retrieve Data from Cells**
 
 Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection that allows access to worksheets in the file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class provides a [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection. Each item in the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection represents an object of the [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) class.
 

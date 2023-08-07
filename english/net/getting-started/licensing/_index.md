@@ -3,6 +3,8 @@ title: Licensing
 type: docs
 weight: 120
 url: /net/licensing/
+description: Aspose.Cells for .NET provides different plans for purchase or offers a Free Trial and a 30-day Temporary License for evaluation using Licensing and Subscription policies in C#.
+keywords: Apply License from Disk or Stream. Set License from Disk or Stream. Apply License in Aspose.Cells.
 ---
 
 {{% alert color="primary" %}}
@@ -50,7 +52,7 @@ If you want to test Aspose.Cells without evaluation version limitations, you can
 
 {{% /alert %}}
 
-## **Applying a License in Aspose.Cells Component**
+## **How to Apply a License in Aspose.Cells Component**
 
 The license is a plain text XML file that contains details such as the product name, number of developers it is licensed to, subscription expiry date and so on. The file is digitally signed, so don't modify the file. Even inadvertent addition of an extra line break into the file will invalidate it.You need to set a license before utilizing Aspose.Cells if you want to avoid its evaluation limitation. It is only required to set a license once per application (or process). The license can be loaded from a file, stream or an embedded resource.
 
@@ -64,7 +66,7 @@ Aspose.Cells tries to find the license in the following locations:
 
 There are two common methods to apply a license, from file or stream, or as an embedded resource.
 
-### **Applying a License from Disk or Stream**
+### **How to Apply a License from Disk or Stream**
 
 The easiest way to set a license, is to put the license file in the same folder as that of Aspose.Cells.dll and specify just the file name without its path.
 
@@ -96,7 +98,7 @@ license.SetLicense(myStream);
 
 {{< /highlight >}}
 
-### **Applying Metered License**
+### **How to Apply Metered License**
 
 Aspose.Cells allows developers to to apply metered key. It is a new licensing mechanism. The new licensing mechanism will be used along with the existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing. For more details, please refer to [Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered) section.  
 
@@ -142,7 +144,7 @@ Console.WriteLine(amountAfter);
 
 {{< /highlight >}}
 
-### **Using an Embedded Resource**
+### **How to Use an Embedded Resource**
 
 Another neat way of packaging the license with your application and making sure it will not be lost, is to include it as an embedded resource into one of the assemblies that calls Aspose.Cells. To include the license file as an embedded resource, perform the following steps:
 
@@ -163,7 +165,7 @@ license.SetLicense("Aspose.Cells.lic");
 
 {{< /highlight >}}
 
-## **Setting License in Aspose.Cells Grid Controls**
+## **How to Set License in Aspose.Cells Grid Controls**
 
 In Aspose.Cells Grid Suite, license can be loaded from a file, stream or an embedded resource. Aspose.Cells.GridDesktop / Aspose.Cells.GridWeb tries to find the license in the following locations:
 
@@ -179,7 +181,7 @@ If you are using Aspose.Cells.GridDesktop control then the license class will be
 
 {{% /alert %}}
 
-### **Applying a License from Disk or Stream**
+### **How to Apply a License from Disk or Stream**
 
 The easiest way to set a license, is to put the license file in the same folder as that of the dll of the component (included in Aspose.Cells.GridWeb) and specify just the file name without its path.
 
@@ -211,7 +213,7 @@ license.SetLicense(myStream);
 
 {{< /highlight >}}
 
-### **Applying a License as an Embedded Resource**
+### **How to Apply a License as an Embedded Resource**
 
 Another neat way of packaging the license with your application and making sure it will not be lost, is to include it as an embedded resource into one of the assemblies that calls the dll of the component (included in Aspose.Cells.GridDesktop). To include the license file as an embedded resource, perform the following steps:
 
@@ -233,7 +235,7 @@ license.SetLicense("Aspose.Total.lic");
 
 {{< /highlight >}}
 
-## **Applying a License in Aspose.Cells.GridDesktop for a WinForm Application**
+## **How to Apply a License in Aspose.Cells.GridDesktop for a WinForm Application**
 
 It's recommended that you should put your licensing code before your application starts and apply it only once. For example, for a windows C# application, put the licensing code in the Main method.
 

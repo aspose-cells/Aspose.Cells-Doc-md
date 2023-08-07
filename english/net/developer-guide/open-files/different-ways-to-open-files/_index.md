@@ -3,6 +3,8 @@ title: Different Ways to Open Files
 type: docs
 weight: 10
 url: /net/different-ways-to-open-files/
+description: This article explains how to open an excel file using Aspose.Cells for .NET API.
+keywords: C# Open an Excel file without Excel, How do I open an Excel File.
 ---
 
 {{% alert color="primary" %}}
@@ -11,25 +13,25 @@ With Aspose.Cells it is simple to open files, for example, to retrieve data, or 
 
 {{% /alert %}}
 
-## **Opening a File via a Path**
+## **How to Open an Excel File via a Path**
 
 Developers can open a Microsoft Excel file using its file path on the local computer by specifying it in the **[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)** class constructor. Simply pass the path in the constructor as a *string*. Aspose.Cells will automatically detect the file format type.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningFilesThroughPath-1.cs" >}}
 
-## **Opening a File via a Stream**
+## **How to Open an Excel File via a Stream**
 
 It is also simple to open an Excel file as a stream. To do so, use an overloaded version of the constructor that takes the *Stream* object that contains the file.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningFilesThroughStream-1.cs" >}}
 
-## **Opening a File with Data only**
+## **How to Open a File with Data only**
 
 To open a file with data only, use the **[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)** and **[LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadfilter)** classes to set the related attribute and options of the classes for the template file to be loaded.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningFilewithDataOnly-1.cs" >}}
 
-## **Loading Visible Sheets only**
+## **How to Load Visible Sheets only**
 
 While loading a **[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)** sometimes you may only need data in visible worksheets in a workbook. Aspose.Cells allows you to skip data in invisible worksheets while loading a workbook. To do this, create a custom function that inherits the **[LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadfilter)** class and pass its instance to **[LoadOptions.LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter)** property.
 
