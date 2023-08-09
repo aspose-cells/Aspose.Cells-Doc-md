@@ -8,6 +8,13 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 23.8
+
+* Support to preserve padding space in formulas
+* Support to replace/insert text with formatting for richtext of cell
+* Support to render activex control and form control for spin button in GridJs
+* Support more types of validation for GridJs: textlength/decimal, select list, formula expression
+
 ## Aspose.Cells for .NET 23.7
 
 * Enhancement for many features of GridJS such as rendering controls, serverside saveback for combobox, ...etc.
