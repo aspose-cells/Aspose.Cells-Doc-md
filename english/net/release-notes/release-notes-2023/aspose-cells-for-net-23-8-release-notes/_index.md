@@ -63,23 +63,23 @@ This page contains release notes for [Aspose.Cells for .NET 23.8](https://www.nu
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for .NET. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
 
-### **Adds FormulaSettings.PreservePaddingSpaces property**
+### **Adds FormulaSettings.PreservePaddingSpaces property**
 
-Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. 
+Indicates whether to preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. 
 
-### **Adds LoadOptions.PreservePaddingSpacesInFormula property**
+### **Adds LoadOptions.PreservePaddingSpacesInFormula property**
 
-Indicates whether preserve those spaces and line breaks that are padded between formula tokens while parsing formulas that imported from template file.
+Indicates whether to preserve those spaces and line breaks that are padded between formula tokens while parsing formulas that imported from template file.
 
-### **Adds Cells.DeleteRow(int rowIndex, bool updateReference) method**
+### **Adds Cells.DeleteRow(int rowIndex, bool updateReference) method**
 
 One override method for deleting row with specified flag of updating references.
 
-### **Adds AbstractCalculationEngine.IsParamArrayModeRequired property and CalculationData.GetParamValueInArrayMode(int index, int maxRowCount, int maxColumnCount) method**
+### **Adds AbstractCalculationEngine.IsParamArrayModeRequired property and CalculationData.GetParamValueInArrayMode(int index, int maxRowCount, int maxColumnCount) method**
 
 Provides those apis for user's special requirement of getting parameter's values in array mode while calculating custom functions.
 
-### **Adds Cell.InsertText() method**
+### **Adds Cell.InsertText() method**
 
 Inserts text to the cell.
 
@@ -89,7 +89,7 @@ Replaces text of the cell with options.
 
 ### **Adds ReplaceOptions.FontSettings options.**
 
-Replaces the old text with rich foratting text.
+Replaces the old text with rich formatting text.
 
 ### **Adds HtmlSaveOptions.IsIECompatible property.**
 
