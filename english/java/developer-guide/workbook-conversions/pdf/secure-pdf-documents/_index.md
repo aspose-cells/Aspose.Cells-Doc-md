@@ -9,13 +9,22 @@ keywords: secure pdf documents java, secure pdf documents, excel to secure pdf, 
 
 {{% alert color="primary" %}}
 
-Sometimes, developers need to work with encrypted PDF files. For example, they need to secure documents with user and owner passwords so not just anyone can open them, or want to restrict whether the document content can be printed or extracted.
+Sometimes, developers need to work with encrypted PDF files. For example:
+
+- Secure the documents with owner and user passwords so not just anyone can open it.
+- Set restrictions or permissions to the document after the document is opened. e.g. restrict whether the document content can be printed or extracted.
 
 This article explains how to pass in PDF security options when saving spreadsheets to PDF.
 
-{{% /alert %}} 
+{{% /alert %}}
 
-Aspose.Cells APIs provide the [**PdfSecurityOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSecurityOptions) class for working with the security of PDF file format. The sample code below describes how to create secured PDF files with Aspose.Cells for Java API.
+Aspose.Cells provides [**PdfSecurityOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsecurityoptions/) for working with security.  You can set owner and user passwords while saving to PDF. The owner password or user password will be required to open the encrypted PDF document for viewing.
+
+- The user password can be null or empty string, in this case no password will be required from the user when opening the PDF document.
+- Opening the PDF document with the correct owner password allows full access(without any access restrictions specified) to the document.
+- Opening the PDF document with the correct user password (or opening a document that does not have a user password) allows limited access as the permissions specified.
+
+The sample code below describes how to create secured PDF files with Aspose.Cells for Java API.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SecurePDFDocuments-SecurePDFDocuments.java" >}}
 
