@@ -19,4 +19,5 @@ We can use Aspose Cells to create Dynamic Chart in Excel files.
 In the Advance topics, we will show you how to use aspose Cells to create dynamic charts.
 
 ## **Advance topics**
-- [Create dynamic rolling chart using Aspose Cells](/cells/net/create-dynamic-rolling-chart/)
+- [Create Dynamic Rolling chart using Aspose Cells](/cells/net/create-dynamic-rolling-chart/)
+- [Create Dynamic Scrolling chart using Aspose Cells](/cells/net/create-dynamic-scrolling-chart/)
