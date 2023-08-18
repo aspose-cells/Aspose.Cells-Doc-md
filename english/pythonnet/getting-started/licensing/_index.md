@@ -43,12 +43,12 @@ The easiest way to set a license, is to put the license file in the explicit pat
 
 {{< highlight csharp >}}
 
- //Instantiate an instance of license and set the license file through its path
+# Instantiate an instance of license and set the license file through its path
 
 license = License();
- //For Windows
+# For Windows
 license.set_license("D:\Aspose.Cells.lic");
- //For Linux or MacOS
+# For Linux or MacOS
 license.set_license("/home/yourusername/Aspose.Cells.lic"); 
 {{< /highlight >}}
 
