@@ -51,6 +51,17 @@ You can easily use Aspose.Cells for Python via .NET from [pypi](https://pypi.org
 export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/Library/Frameworks/Python.framework/Versions/3.7/lib"
 export LIBRARY_PATH="$LIBRARY_PATH:/Library/Frameworks/Python.framework/Versions/3.7/lib/"
 {{< /highlight >}}
+
+- Note:Due to our reliance on the SkiaSharp graphics library, if you encounter the following error:
+**Unable to load shared library 'libSkiaSharp' or one of its dependencies**please install SkiaSharp.
+{{< highlight NET >}}
+brew install nuget
+nuget install SkiaSharp.NativeAssets.macOS -Version 2.88.3
+{{< /highlight >}}
+After installation, please run the following command 
+{{< highlight NET >}}
+copy ./SkiaSharp.NativeAssets.macOS.2.88.3/runtimes/osx/native/libSkiaSharp.dylib /usr/local/lib/.
+{{< /highlight >}}
 ## **Creating the Hello World Application**
 
 - Create a file named **CreatingHelloWorldFile.py** and use the following sample code:
