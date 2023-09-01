@@ -1,5 +1,5 @@
 ---
-title: Creating Waterfall Chart
+title: How to create waterfall chart
 type: docs
 weight: 160
 url: /net/creating-waterfall-chart/
