@@ -1,8 +1,8 @@
 ---
-title: Filtering out series to render a chart
+title:  How to filter a series in a chart
 type: docs
-weight: 51
-url: /net/filtering-out-series-to-render-chart/
+weight: 2210
+url: /net/filtering-charts-in-excel/
 ---
 
 {{% alert color="primary" %}}
@@ -22,5 +22,5 @@ Please **note** that in the code, when we set **chart.NSeries[0].IsFiltered = tr
 ## **Sample Code**
 The following sample code loads the [sample Excel file](seriesFiltered.xlsx).
 
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "FilteredNSeries.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "seriesFiltered.cs" >}}
 
