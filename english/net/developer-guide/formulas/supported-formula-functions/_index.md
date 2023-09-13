@@ -33,6 +33,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |AGGREGATE|**Math and trigonometry**: Returns an aggregate in a list or database
 |AMORDEGRC|**Financial**: Returns the depreciation for each accounting period by using a depreciation coefficient
 |AMORLINC|**Financial**: Returns the depreciation for each accounting period
+|ANCHORARRAY|**Lookup and reference**: Returns the entire spilled range for the dynamic array in cell
 |AND|**Logical**: Returns TRUE if all of its arguments are TRUE
 |AREAS|**Lookup and reference**: Returns the number of areas in a reference
 |ASC|**Text**: Changes full-width (double-byte) English letters or katakana within a character string to half-width (single-byte) characters
@@ -159,6 +160,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 | :- | :- |
 |EDATE|**Date and time**: Returns the serial number of the date that is the indicated number of months before or after the start date
 |EFFECT|**Financial**: Returns the effective annual interest rate
+|ENCODEURL|**Web**: Returns a URL-encoded string
 |EOMONTH|**Date and time**: Returns the serial number of the last day of the month before or after a specified number of months
 |ERF|**Engineering**: Returns the error
 |ERFC|**Engineering**: Returns the complementary error
@@ -257,6 +259,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |ISERR|**Information**: Returns TRUE if the value is any error value except #N/A
 |ISERROR|**Information**: Returns TRUE if the value is any error value
 |ISEVEN|**Information**: Returns TRUE if the number is even
+|ISFORMULA|**Information**: Returns TRUE if there is a reference to a cell that contains a formula
 |ISLOGICAL|**Information**: Returns TRUE if the value is a logical value
 |ISNA|**Information**: Returns TRUE if the value is the #N/A error value
 |ISNONTEXT|**Information**: Returns TRUE if the value is not text
@@ -281,6 +284,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |LEFTB|**Text**: Returns the leftmost characters from a text value
 |LEN|**Text**: Returns the number of characters in a text string
 |LENB|**Text**: Returns the number of characters in a text string
+|LET|**Logical**: Assigns names to calculation results
 |LINEST|**Statistical**: Returns the parameters of a linear trend
 |LN|**Math and trigonometry**: Returns the natural logarithm of a number
 |LOG|**Math and trigonometry**: Returns the logarithm of a number to a specified base
@@ -296,6 +300,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 ###### **M**
 |**Function**|**Summary**|
 | :- | :- |
+|MAP|**Logical**: Returns an array formed by mapping each value in array(s) to a new value by applying a LAMBDA
 |MATCH|**Lookup and reference**: Looks up values in a reference or array
 |MAX|**Statistical**: Returns the maximum value in a list of arguments
 |MAXA|**Statistical**: Returns the maximum value in a list of arguments, including numbers, text, and logical values
@@ -419,6 +424,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 ###### **S**
 |**Function**|**Summary**|
 | :- | :- |
+|SCAN|**Logical**: Scans an array by applying a LAMBDA to each value and returns an array that has each intermediate value
 |SEARCH|**Text**: Finds one text value within another (not case-sensitive)
 |SEARCHB|**Text**: Finds one text value within another (not case-sensitive)
 |SECOND|**Date and time**: Converts a serial number to a second
@@ -429,6 +435,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |SIGN|**Math and trigonometry**: Returns the sign of a number
 |SIN|**Math and trigonometry**: Returns the sine of the given angle
 |SINH|**Math and trigonometry**: Returns the hyperbolic sine of a number
+|SINGLE|**Logical**: Returns a single value, a single cell range or an error using the intersection logic
 |SKEW|**Statistical**: Returns the skewness of a distribution
 |SLN|**Financial**: Returns the straight-line depreciation of an asset for one period
 |SLOPE|**Statistical**: Returns the slope of the linear regression line
@@ -494,6 +501,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |UNICODE|**Text**: Returns the number (code point) that corresponds to the first character of the text
 |UNIQUE|**Lookup and reference**: Returns a list of unique values in a list or range
 |UPPER|**Text**: Converts text to uppercase
+|USDOLLAR|**Text**: converts a number to text using currency format with the decimals rounded to specified place.
 
 ###### **V**
 |**Function**|**Summary**|

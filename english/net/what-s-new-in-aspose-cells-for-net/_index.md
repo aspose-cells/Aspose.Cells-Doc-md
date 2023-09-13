@@ -8,6 +8,14 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 23.9
+
+* Support to calculate new functions in formula: LAMBDA,LET,MAP,SCAN
+* Support to import/export EPub files
+* Support to filter chart series
+* Support localization for GridDesktop
+* Provide GridWeb for .net7-windows platform
+
 ## Aspose.Cells for .NET 23.8
 
 * Support to preserve padding space in formulas
