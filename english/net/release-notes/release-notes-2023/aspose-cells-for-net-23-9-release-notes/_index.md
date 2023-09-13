@@ -141,7 +141,7 @@ Represents the data series collection that are not selected in the chart.
 
 ### **Adds Series.IsFiltered  property**
 
-Support to filter the series in the chart,true represents this series is filtered, and it will not be displayed on the chart.
+Support to filter the series in the chart. True represents this series is filtered, and it will not be displayed on the chart.
 
 ### **Adds CommentTitleType.Note and Reply enum type**
 

@@ -278,6 +278,8 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 ###### **L**
 |**Function**|**Summary**|
 | :- | :- |
+|LAMBDA|**Logical**: Creates custom, reusable functions and call them by a friendly name
+|LET|**Logical**: Assigns names to calculation results
 |LARGE|**Statistical**: Returns the k-th largest value in a data set
 |LCM|**Math and trigonometry**: Returns the least common multiple
 |LEFT|**Text**: Returns the leftmost characters from a text value
