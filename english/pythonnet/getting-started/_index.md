@@ -62,6 +62,9 @@ After installation, please run the following command
 {{< highlight NET >}}
 cp ./SkiaSharp.NativeAssets.macOS.2.88.3/runtimes/osx/native/libSkiaSharp.dylib /usr/local/lib/.
 {{< /highlight >}}
+
+Of course, if you want it simpler, you can also download [libSkiaSharp.dylib](libSkiaSharp.dylib) and then **copy** it to the **/usr/local/lib** directory.
+
 ## **Creating the Hello World Application**
 
 - Create a file named **CreatingHelloWorldFile.py** and use the following sample code:
