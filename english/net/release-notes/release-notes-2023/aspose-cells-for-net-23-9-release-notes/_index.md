@@ -97,11 +97,11 @@ Gets the calculated result of specified parameter after calculating it as array.
 
 ### **Adds overloaded Worksheet.CalculateFormula(...) method**
 
-Support to parse and calculate given formula with custom options and other conditions.
+Supports to parse and calculate given formula with custom options and other conditions.
 
 ### **Adds overloaded Worksheet.CalculateArrayFormula(...) method**
 
-Support to parse and calculate given formula as array formula with custom options and other conditions.
+Supports to parse and calculate given formula as array formula with custom options and other conditions.
 
 ### **Adds Worksheet.ConvertFormulaReferenceStyle(string formula, bool toR1C1, int baseCellRow, int baseCellColumn) method**
 
@@ -125,11 +125,11 @@ Represents options when importing/exporting an ebook file.
 
 ### **Adds GridDesktop.SetCustomResourceManager(ResourceManager customResourceManager) method**
 
-Set custom resource manager to implement user defined localization.
+Sets custom resource manager to implement user defined localization.
 
 ### **Adds GridWeb.DPI property**
 
-Gets /Sets the DPI of the machine.
+Gets and Sets the DPI of the machine.
 
 ### **Adds FileFormatType.Epub, LoadFormat.Epub, SaveFormat.Epub enum**
 
@@ -141,7 +141,7 @@ Represents the data series collection that are not selected in the chart.
 
 ### **Adds Series.IsFiltered  property**
 
-Support to filter the series in the chart. True represents this series is filtered, and it will not be displayed on the chart.
+Supports to filter the series in the chart. True represents this series is filtered, and it will not be displayed on the chart.
 
 ### **Adds CommentTitleType.Note and Reply enum type**
 
@@ -157,11 +157,11 @@ Please use PdfSecurityOptions.ExtractContentPermission property instead.
 
 ### **Adds TableStyleCollection.DefaultTableStyleName and TableStyleCollection.DefaultPivotStyleName properties.**
 
-Gets and sets the default style name of the table and pivot .
+Gets and sets the default style name of the table and pivot.
 
 ### **Adds WorksheetCollection.RefreshAll() method.**
 
-Refresh all Pivottables and Pivot Charts.
+Refreshes all Pivottables and Pivot Charts.
 
 ### **Adds Validation.GetValue() mthod.**
 

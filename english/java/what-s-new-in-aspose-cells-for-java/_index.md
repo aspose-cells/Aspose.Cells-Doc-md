@@ -8,6 +8,12 @@ url: /java/what-s-new-in-aspose-cells-for-java/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for Java 23.9
+
+* Support to calculate new functions in formula: LAMBDA,LET,MAP,SCAN
+* Support to import/export EPUB files
+* Support to filter chart series
+
 ## Aspose.Cells for Java 23.8
 
 * Support to preserve padding space in formulas
