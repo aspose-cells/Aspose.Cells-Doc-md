@@ -11,7 +11,7 @@ keywords: custom,localization,translation,globalization
 If we need to do localization for all the menus/message tips etc. in GridDesktop,We can define the resource file ,and use GridDesktop.SetCustomResourceManager to load this resource.
 
 {{% /alert %}} 
-## **examplle**
+## **example**
 
 first add a new resource file: customtest.resx
 
