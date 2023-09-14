@@ -7,7 +7,7 @@ url: /java/aspose-cells-for-java-23-9-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Cells for Java 23.9](https://releases.aspose.com/cells/java/).
+This page contains release notes for [Aspose.Cells for Java 23.9](https://releases.aspose.com/cells/java/23-9/).
 
 {{% /alert %}}
 
@@ -48,14 +48,6 @@ Supports to update all formulas which reference to custom functions according to
 ### **Adds FormulaParseOptions.CustomFunctionDefinition property**
 
 Supports to parse formula with user's custom definition for custom functions.
-
-### **Adds AbstractCalculationEngine.IsParamArrayModeRequired property**
-
-Denotes whether there are some parameters that need to be calculated as array for some custom functions.
-
-### **Adds CalculationData.GetParamValueInArrayMode(int index, int maxRowCount, int maxColumnCount) method**
-
-Gets the calculated result of specified parameter after calculating it as array.
 
 ### **Adds overloaded Worksheet.CalculateFormula(...) method**
 

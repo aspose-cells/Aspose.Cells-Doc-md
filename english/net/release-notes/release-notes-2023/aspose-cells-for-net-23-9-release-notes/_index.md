@@ -87,14 +87,6 @@ Supports to update all formulas which reference to custom functions according to
 
 Supports to parse formula with user's custom definition for custom functions.
 
-### **Adds AbstractCalculationEngine.IsParamArrayModeRequired property**
-
-Denotes whether there are some parameters that need to be calculated as array for some custom functions.
-
-### **Adds CalculationData.GetParamValueInArrayMode(int index, int maxRowCount, int maxColumnCount) method**
-
-Gets the calculated result of specified parameter after calculating it as array.
-
 ### **Adds overloaded Worksheet.CalculateFormula(...) method**
 
 Supports to parse and calculate given formula with custom options and other conditions.

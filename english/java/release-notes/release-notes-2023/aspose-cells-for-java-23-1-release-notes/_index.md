@@ -7,7 +7,7 @@ url: /java/aspose-cells-for-java-23-1-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Cells for Java 23.1](https://releases.aspose.com/cells/java/).
+This page contains release notes for [Aspose.Cells for Java 23.1](https://releases.aspose.com/cells/java/23-1/).
 
 {{% /alert %}}
 
