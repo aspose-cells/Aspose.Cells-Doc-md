@@ -3,6 +3,8 @@ title: Aspose.Cells for .NET 18.1 Release Notes
 type: docs
 weight: 120
 url: /net/aspose-cells-for-net-18-1-release-notes/
+description: Aspose.Cells for .Net 18.1 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for .Net 18.1 Release Notes, Aspose.Cells for .Net 18.1 updates and fixes
 ---
 
 {{% alert color="primary" %}} 

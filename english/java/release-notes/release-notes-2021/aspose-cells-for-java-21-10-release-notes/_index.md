@@ -3,6 +3,8 @@ title: Aspose.Cells for Java 21.10 Release Notes
 type: docs
 weight: 3
 url: /java/aspose-cells-for-java-21-10-release-notes/
+description: Aspose.Cells for Java 21.10 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for Java 21.10 Release Notes, Aspose.Cells for Java 21.10 updates and fixes
 ---
 
 {{% alert color="primary" %}}

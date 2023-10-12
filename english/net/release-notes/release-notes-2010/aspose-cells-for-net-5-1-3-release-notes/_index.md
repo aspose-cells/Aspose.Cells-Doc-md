@@ -3,6 +3,8 @@ title: Aspose.Cells for .NET 5.1.3 Release Notes
 type: docs
 weight: 30
 url: /net/aspose-cells-for-net-5-1-3-release-notes/
+description: Aspose.Cells for .Net 5.1.3 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for .Net 5.1.3 Release Notes, Aspose.Cells for .Net 5.1.3 updates and fixes
 ---
 
 {{% alert color="primary" %}} 

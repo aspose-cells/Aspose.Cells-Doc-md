@@ -4,6 +4,8 @@ type: docs
 weight: 40
 url: /androidjava/
 is_root: true
+description: Generate, modify, convert, render, and print documents using Aspose.Cells for Android via Java.
+keywords: Aspose.Cells for Android via Java create, repair, modify, parse, merge, convert JSON Excel XML PDF HTML TSV SQL TXT PNG JPEG and more formats.
 ---
 
 {{% alert color="primary" %}}

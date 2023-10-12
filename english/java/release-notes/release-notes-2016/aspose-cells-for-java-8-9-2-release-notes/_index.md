@@ -3,6 +3,8 @@ title: Aspose.Cells for Java 8.9.2 Release Notes
 type: docs
 weight: 50
 url: /java/aspose-cells-for-java-8-9-2-release-notes/
+description: Aspose.Cells for Java 8.9.2 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for Java 8.9.2 Release Notes, Aspose.Cells for Java 8.9.2 updates and fixes
 ---
 
 ## **1) Aspose.Cells**

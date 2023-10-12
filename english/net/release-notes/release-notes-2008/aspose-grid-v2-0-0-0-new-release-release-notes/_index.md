@@ -3,6 +3,8 @@ title: Aspose.Grid V2.0.0.0 New Release Release Notes
 type: docs
 weight: 30
 url: /net/aspose-grid-v2-0-0-0-new-release-release-notes/
+description: Aspose.Grid 2.0.0.0 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Grid 2.0.0.0 Release Notes, Aspose.Grid 2.0.0.0 updates and fixes
 ---
 
 {{% alert color="primary" %}} 

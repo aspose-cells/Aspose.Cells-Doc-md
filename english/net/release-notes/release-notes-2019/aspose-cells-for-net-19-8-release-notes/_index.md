@@ -3,6 +3,8 @@ title: Aspose.Cells for .NET 19.8 Release Notes
 type: docs
 weight: 50
 url: /net/aspose-cells-for-net-19-8-release-notes/
+description: Aspose.Cells for .Net 19.8 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for .Net 19.8 Release Notes, Aspose.Cells for .Net 19.8 updates and fixes
 ---
 
 {{% alert color="primary" %}} 

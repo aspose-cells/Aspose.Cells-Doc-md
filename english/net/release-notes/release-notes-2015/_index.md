@@ -3,6 +3,8 @@ title: Release Notes - 2015
 type: docs
 weight: 60
 url: /net/release-notes-2015/
+description: Aspose.Cells for .Net 2015 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for .Net 2015 Release Notes, Aspose.Cells for .Net 2015 updates and fixes
 ---
 
 - [Aspose.Cells for .NET 8.6.3 Release Notes](/cells/net/aspose-cells-for-net-8-6-3-release-notes/)

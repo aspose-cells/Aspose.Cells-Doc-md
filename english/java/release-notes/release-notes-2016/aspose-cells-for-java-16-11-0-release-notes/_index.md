@@ -3,6 +3,8 @@ title: Aspose.Cells for Java 16.11.0 Release Notes
 type: docs
 weight: 20
 url: /java/aspose-cells-for-java-16-11-0-release-notes/
+description: Aspose.Cells for Java 16.11.0 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for Java 16.11.0 Release Notes, Aspose.Cells for Java 16.11.0 updates and fixes
 ---
 
 |**Key** |**Summary** |**Category** |

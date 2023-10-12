@@ -4,6 +4,8 @@ type: docs
 weight: 50
 url: /nodejs-java/
 is_root: true
+description: Aspose.Cells for Node.js via Java supports the popular Excel (XLS, XLSX, XLSM, XLSB, XLTX, XLTM,SpreadsheetML,CSV), OpenOffice(ODS),HTML and JSON file formats and allows exporting Excel files to PDF,DOCX, PPTX, JSON, XPS, HTML, MHTML, Plain Text and popular image formats including TIFF, JPG, PNG, BMP and SVG.
+keywords: Aspose.Cells for Node.js via Java create, repair, modify, parse, merge, convert JSON Excel XML PDF HTML TSV SQL TXT PNG JPEG and more formats.
 ---
 
 {{% alert color="primary" %}}

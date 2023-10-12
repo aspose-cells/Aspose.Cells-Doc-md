@@ -3,6 +3,8 @@ title: Aspose.Cells for .NET 21.6 Release Notes
 type: docs
 weight: 7
 url: /net/aspose-cells-for-net-21-6-release-notes/
+description: Aspose.Cells for .Net 21.6 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for .Net 21.6 Release Notes, Aspose.Cells for .Net 21.6 updates and fixes
 ---
 
 {{% alert color="primary" %}}

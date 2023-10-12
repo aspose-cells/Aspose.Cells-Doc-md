@@ -3,6 +3,8 @@ title: Aspose.Grid for .NET V2.0.1 New Release Release Notes
 type: docs
 weight: 30
 url: /net/aspose-grid-for-net-v2-0-1-new-release-release-notes/
+description: Aspose.Cells for .Net V2.0.1 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for .Net V2.0.1 Release Notes, Aspose.Cells for .Net V2.0.1 updates and fixes
 ---
 
 {{% alert color="primary" %}} 

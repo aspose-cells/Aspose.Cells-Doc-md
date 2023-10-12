@@ -3,6 +3,8 @@ title: Aspose.Grid .Net 1.9.2.0 Hot Fix Release Notes
 type: docs
 weight: 160
 url: /net/aspose-grid-net-1-9-2-0-hot-fix-release-notes/
+description: Aspose.Grid for .Net 1.9.2.0 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Grid for .Net 1.9.2.0 Release Notes, Aspose.Grid for .Net 1.9.2.0 updates and fixes
 ---
 
 {{% alert color="primary" %}}

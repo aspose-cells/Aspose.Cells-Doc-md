@@ -3,6 +3,8 @@ title: Aspose.Cells for .NET 20.5 Release Notes
 type: docs
 weight: 30
 url: /net/aspose-cells-for-net-20-5-release-notes/
+description: Aspose.Cells for .Net 20.5 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for .Net 20.5 Release Notes, Aspose.Cells for .Net 20.5 updates and fixes
 ---
 
 {{% alert color="primary" %}}

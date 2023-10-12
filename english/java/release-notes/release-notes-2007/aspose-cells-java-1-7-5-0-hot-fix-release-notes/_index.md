@@ -3,6 +3,8 @@ title: Aspose.Cells Java 1.7.5.0 Hot Fix Release Notes
 type: docs
 weight: 60
 url: /java/aspose-cells-java-1-7-5-0-hot-fix-release-notes/
+description: Aspose.Cells for Java 1.7.5.0 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for Java 1.7.5.0 Release Notes, Aspose.Cells for Java 1.7.5.0 updates and fixes
 ---
 
 {{% alert color="primary" %}} 

@@ -3,6 +3,8 @@ title: Aspose.Cells for .Net V4.4.3 Hotfix Release Notes
 type: docs
 weight: 40
 url: /net/aspose-cells-for-net-v4-4-3-hotfix-release-notes/
+description: Aspose.Cells for .Net 4.4.3 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for .Net 4.4.3 Release Notes, Aspose.Cells for .Net 4.4.3 updates and fixes
 ---
 
 {{% alert color="primary" %}} 

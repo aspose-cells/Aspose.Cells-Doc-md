@@ -3,6 +3,8 @@ title: Aspose.Cells for Java 22.11 Release Notes
 type: docs
 weight: 2
 url: /java/aspose-cells-for-java-22-11-release-notes/
+description: Aspose.Cells for Java 22.11 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for Java 22.11 Release Notes, Aspose.Cells for Java 22.11 updates and fixes
 ---
 
 {{% alert color="primary" %}}

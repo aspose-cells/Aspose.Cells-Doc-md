@@ -5,6 +5,7 @@ weight: 110
 url: /python-net/
 is_root: true
 description: Aspose.Cells for Python supports the popular spreadsheet (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) file formats your business use every day. It also allows exporting Excel® files to PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, Plain Text and popular image formats including TIFF, JPG, PNG, BMP, and SVG.
+keywords: Aspose.Cells for Python via .NET create, repair, modify, parse, merge, convert JSON Excel XML PDF HTML TSV SQL TXT PNG JPEG and more formats.
 ---
 
 {{% alert color="primary" %}}

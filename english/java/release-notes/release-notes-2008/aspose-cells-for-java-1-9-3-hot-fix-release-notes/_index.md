@@ -3,6 +3,8 @@ title: Aspose.Cells for Java 1.9.3 Hot Fix Release Notes
 type: docs
 weight: 30
 url: /java/aspose-cells-for-java-1-9-3-hot-fix-release-notes/
+description: Aspose.Cells for Java 1.9.3 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for Java 1.9.3 Release Notes, Aspose.Cells for Java 1.9.3 updates and fixes
 ---
 
 {{% alert color="primary" %}} 

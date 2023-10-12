@@ -3,6 +3,8 @@ title: Release Notes - 2016
 type: docs
 weight: 50
 url: /net/release-notes-2016/
+description: Aspose.Cells for .Net 2016 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for .Net 2016 Release Notes, Aspose.Cells for .Net 2016 updates and fixes
 ---
 
 - [Aspose.Cells for .NET 16.12.0 Release Notes](/cells/net/aspose-cells-for-net-16-12-0-release-notes/)

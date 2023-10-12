@@ -3,6 +3,8 @@ title: Aspose.Cells for Java 20.5 Release Notes
 type: docs
 weight: 20
 url: /java/aspose-cells-for-java-20-5-release-notes/
+description: Aspose.Cells for Java 20.5 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for Java 20.5 Release Notes, Aspose.Cells for Java 20.5 updates and fixes
 ---
 
 {{% alert color="primary" %}}

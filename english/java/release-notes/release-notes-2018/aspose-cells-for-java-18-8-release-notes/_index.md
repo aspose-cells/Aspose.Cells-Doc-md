@@ -3,6 +3,8 @@ title: Aspose.Cells for Java 18.8 Release Notes
 type: docs
 weight: 50
 url: /java/aspose-cells-for-java-18-8-release-notes/
+description: Aspose.Cells for Java 18.8 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for Java 18.8 Release Notes, Aspose.Cells for Java 18.8 updates and fixes
 ---
 
 {{% alert color="primary" %}} 

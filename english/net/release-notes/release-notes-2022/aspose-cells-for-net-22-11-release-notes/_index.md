@@ -3,6 +3,8 @@ title: Aspose.Cells for .NET 22.11 Release Notes
 type: docs
 weight: 2
 url: /net/aspose-cells-for-net-22-11-release-notes/
+description: Aspose.Cells for .Net 22.11 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for .Net 22.11 Release Notes, Aspose.Cells for .Net 22.11 updates and fixes
 ---
 
 {{% alert color="primary" %}}

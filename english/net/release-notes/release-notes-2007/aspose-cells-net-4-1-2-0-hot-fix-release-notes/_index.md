@@ -3,6 +3,8 @@ title: Aspose.Cells .Net 4.1.2.0 Hot Fix Release Notes
 type: docs
 weight: 300
 url: /net/aspose-cells-net-4-1-2-0-hot-fix-release-notes/
+description: Aspose.Cells for .Net 4.1.2.0 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for .Net 4.1.2.0 Release Notes, Aspose.Cells for .Net 4.1.2.0 updates and fixes
 ---
 
 {{% alert color="primary" %}} 

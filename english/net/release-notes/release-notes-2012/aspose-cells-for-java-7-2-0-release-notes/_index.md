@@ -3,6 +3,8 @@ title: Aspose.Cells for Java 7.2.0 Release Notes
 type: docs
 weight: 80
 url: /net/aspose-cells-for-java-7-2-0-release-notes/
+description: Aspose.Cells for .Net 7.2.0 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for .Net 7.2.0 Release Notes, Aspose.Cells for .Net 7.2.0 updates and fixes
 ---
 
 {{% alert color="primary" %}} 

@@ -3,6 +3,8 @@ title: Aspose.Cells for .NET 6.0.1 Release Notes
 type: docs
 weight: 50
 url: /net/aspose-cells-for-net-6-0-1-release-notes/
+description: Aspose.Cells for .Net 6.0.1 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for .Net 6.0.1 Release Notes, Aspose.Cells for .Net 6.0.1 updates and fixes
 ---
 
 {{% alert color="primary" %}} 

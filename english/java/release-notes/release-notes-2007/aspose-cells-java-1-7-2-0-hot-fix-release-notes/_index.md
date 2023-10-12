@@ -3,6 +3,8 @@ title: Aspose.Cells Java 1.7.2.0 Hot Fix Release Notes
 type: docs
 weight: 90
 url: /java/aspose-cells-java-1-7-2-0-hot-fix-release-notes/
+description: Aspose.Cells for Java 1.7.2.0 Hot Fix Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for Java 1.7.2.0 Hot Fix Release Notes, Aspose.Cells for Java 1.7.2.0 updates and fixes
 ---
 
 {{% alert color="primary" %}} 

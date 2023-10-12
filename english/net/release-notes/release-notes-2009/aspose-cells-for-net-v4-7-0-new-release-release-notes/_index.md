@@ -3,6 +3,8 @@ title: Aspose.Cells for .Net V4.7.0 New Release Release Notes
 type: docs
 weight: 40
 url: /net/aspose-cells-for-net-v4-7-0-new-release-release-notes/
+description: Aspose.Cells for .Net V4.7.0 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for .Net V4.7.0 Release Notes, Aspose.Cells for .Net V4.7.0 updates and fixes
 ---
 
 {{% alert color="primary" %}}

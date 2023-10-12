@@ -3,6 +3,8 @@ title: Aspose.Grid .Net 1.8.0.0 New Release Release Notes
 type: docs
 weight: 130
 url: /net/aspose-grid-net-1-8-0-0-new-release-release-notes/
+description: Aspose.Grid for .Net 1.8.0.0 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Grid for .Net 1.8.0.0 Release Notes, Aspose.Grid for .Net 1.8.0.0 updates and fixes
 ---
 
 {{% alert color="primary" %}} 

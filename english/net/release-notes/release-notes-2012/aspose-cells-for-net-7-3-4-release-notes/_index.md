@@ -3,6 +3,8 @@ title: Aspose.Cells for .NET 7.3.4 Release Notes
 type: docs
 weight: 10
 url: /net/aspose-cells-for-net-7-3-4-release-notes/
+description: Aspose.Cells for .Net 7.3.4 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for .Net 7.3.4 Release Notes, Aspose.Cells for .Net 7.3.4 updates and fixes
 ---
 
 {{% alert color="primary" %}} 

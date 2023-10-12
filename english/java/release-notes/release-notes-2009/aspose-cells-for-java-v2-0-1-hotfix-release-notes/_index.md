@@ -3,6 +3,8 @@ title: Aspose.Cells for Java V2.0.1 Hotfix Release Notes
 type: docs
 weight: 20
 url: /java/aspose-cells-for-java-v2-0-1-hotfix-release-notes/
+description: Aspose.Cells for Java V2.0.1 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for Java V2.0.1 Release Notes, Aspose.Cells for Java V2.0.1 updates and fixes
 ---
 
 {{% alert color="primary" %}} 

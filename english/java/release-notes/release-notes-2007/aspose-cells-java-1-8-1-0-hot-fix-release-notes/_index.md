@@ -3,6 +3,8 @@ title: Aspose.Cells Java 1.8.1.0 Hot Fix Release Notes
 type: docs
 weight: 40
 url: /java/aspose-cells-java-1-8-1-0-hot-fix-release-notes/
+description: Aspose.Cells for Java 1.8.1.0 Hot Fix Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for Java 1.8.1.0 Hot Fix Release Notes, Aspose.Cells for Java 1.8.1.0 updates and fixes
 ---
 
 {{% alert color="primary" %}} 

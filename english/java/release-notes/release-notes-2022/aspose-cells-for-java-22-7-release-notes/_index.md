@@ -3,6 +3,8 @@ title: Aspose.Cells for Java 22.7 Release Notes
 type: docs
 weight: 6
 url: /java/aspose-cells-for-java-22-7-release-notes/
+description: Aspose.Cells for Java 22.7 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for Java 22.7 Release Notes, Aspose.Cells for Java 22.7 updates and fixes
 ---
 
 {{% alert color="primary" %}}

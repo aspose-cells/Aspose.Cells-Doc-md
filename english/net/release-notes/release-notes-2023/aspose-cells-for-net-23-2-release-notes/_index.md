@@ -3,6 +3,8 @@ title: Aspose.Cells for .NET 23.2 Release Notes
 type: docs
 weight: 11
 url: /net/aspose-cells-for-net-23-2-release-notes/
+description: Aspose.Cells for .Net 23.2 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for .Net 23.2 Release Notes, Aspose.Cells for .Net 23.2 updates and fixes
 ---
 
 {{% alert color="primary" %}}

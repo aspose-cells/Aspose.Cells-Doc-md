@@ -3,6 +3,8 @@ title: Aspose.Cells for .NET 8.0.2 Release Notes
 type: docs
 weight: 70
 url: /net/aspose-cells-for-net-8-0-2-release-notes/
+description: Aspose.Cells for .Net 8.0.2 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for .Net 8.0.2 Release Notes, Aspose.Cells for .Net 8.0.2 updates and fixes
 ---
 
 {{% alert color="primary" %}} 
