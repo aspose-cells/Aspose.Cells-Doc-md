@@ -13,7 +13,7 @@ This page contains release notes for [Aspose.Cells for .NET 23.10](https://www.n
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
-|CELLSNET-54117|Support copy to mutiple target range for paste operation|New Feature
+|CELLSNET-54117|Support adaptive paste operation when size of target range is different from source range|New Feature
 |CELLSNET-54317|Add new API for setting range hyperlinks directly on Range|New Feature
 |CELLSNET-54328|Support to copy multiple worksheets simultaneously and preserve dependencies|New Feature
 |CELLSNET-54269|Improve the performance for setting formula with sheet reference for large amount of cells|Enhancement
