@@ -8,6 +8,12 @@ url: /java/what-s-new-in-aspose-cells-for-java/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for Java 23.10
+
+* Support to set hyperlinks directly to a Range
+* Support to copy multiple worksheets simultaneously
+* Support to check whether one range is empty for cells data
+
 ## Aspose.Cells for Java 23.9
 
 * Support to calculate new functions in formula: LAMBDA,LET,MAP,SCAN
