@@ -3,6 +3,8 @@ title: Aspose.Cells for Android via Java 8.7.0 Release Notes
 type: docs
 weight: 50
 url: /java/aspose-cells-for-android-via-java-8-7-0-release-notes/
+description: Aspose.Cells for Android via Java 8.7.0 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for Android via Java 8.7.0 Release Notes, Aspose.Cells for Android via Java 8.7.0 updates and fixes
 ---
 
 Aspose.Cells for Android has been updated to version 8.7.0.

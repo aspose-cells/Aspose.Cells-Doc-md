@@ -3,6 +3,8 @@ title: Aspose.Cells for Android via Java 19.6 Release Notes
 type: docs
 weight: 30
 url: /java/aspose-cells-for-android-via-java-19-6-release-notes/
+description: Aspose.Cells for Android via Java 19.6 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for Android via Java 19.6 Release Notes, Aspose.Cells for Android via Java 19.6 updates and fixes
 ---
 
 {{% alert color="primary" %}} 

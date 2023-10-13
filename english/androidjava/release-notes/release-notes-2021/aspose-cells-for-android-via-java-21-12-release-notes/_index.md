@@ -3,6 +3,8 @@ title: Aspose.Cells for Android via Java 21.12 Release Notes
 type: docs
 weight: 1
 url: /java/aspose-cells-for-android-via-java-21-12-release-notes/
+description: Aspose.Cells for Android via Java 21.12 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for Android via Java 21.12 Release Notes, Aspose.Cells for Android via Java 21.12 updates and fixes
 ---
 
 {{% alert color="primary" %}} 
