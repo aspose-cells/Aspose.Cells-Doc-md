@@ -3,6 +3,8 @@ title: Aspose.Cells for CPP 20.7 Release Notes Windws
 type: docs
 weight: 10
 url: /cpp/aspose-cells-for-cpp-20-7-release-notes-windows/
+description: Aspose.Cells for CPP 20.7 Release Notes Windows – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for CPP 20.7 Release Notes Windows, Aspose.Cells for CPP 20.7 Windows updates and fixes
 ---
 
 {{% alert color="primary" %}}

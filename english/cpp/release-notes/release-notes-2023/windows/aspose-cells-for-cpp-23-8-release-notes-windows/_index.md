@@ -3,6 +3,8 @@ title: Aspose.Cells for CPP 23.8 Release Notes Windows
 type: docs
 weight: 4
 url: /cpp/aspose-cells-for-cpp-23-8-release-notes-windows/
+description: Aspose.Cells for CPP 23.8 Release Notes Windows – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for CPP 23.8 Release Notes Windows, Aspose.Cells for CPP 23.8 Windows updates and fixes
 ---
 
 {{% alert color="primary" %}}

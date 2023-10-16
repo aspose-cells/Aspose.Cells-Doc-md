@@ -3,6 +3,8 @@ title: Aspose.Cells for Python via Java 23.4 Release Notes
 type: docs
 weight: 9
 url: /python-java/aspose-cells-for-python-via-java-23-4-release-notes/
+description: Aspose.Cells for Python via Java 23.4 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for Python via Java 23.4 Release Notes, Aspose.Cells for Python via Java 23.4 updates and fixes
 ---
 
 {{% alert color="primary" %}}
