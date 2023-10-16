@@ -29,6 +29,9 @@ This page contains release notes for [Aspose.Cells for Python via Java 23.10](ht
 |CELLSJAVA-45637|Ots and Excel95 get incorrect values when calling FileFormatUtil.saveFormatToExtension|Bug
 |CELLSJAVA-44198|Advanced MS Excel charts are not rendered properly in the output PDF|Bug
 |CELLSJAVA-45612|PivotTable.CalculateData() throws IndexOutOfBoundsException|Exception
+|CELLSPYTHONJAVA-66|Refresh Dynamic Array Formulas calculation error after setting calculation options|Bug
+|CELLSPYTHONJAVA-68|Regresion: java.lang.NullPointerException: Cannot invoke "com.aspose.cells.DateTime.getYear()" because "\<local3\>.d" is null|Bug
+|CELLSPYTHONJAVA-71|Box and Whisker chart ignoring multiple x-axis categories|Bug
 
 ## **Public API and Backwards Incompatible Changes**
 
