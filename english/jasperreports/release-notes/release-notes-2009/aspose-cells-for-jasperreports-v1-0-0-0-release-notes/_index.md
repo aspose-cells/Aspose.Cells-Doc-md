@@ -3,6 +3,8 @@ title: Aspose.Cells for JasperReports v1.0.0.0 Release Notes
 type: docs
 weight: 10
 url: /jasperreports/aspose-cells-for-jasperreports-v1-0-0-0-release-notes/
+description: Aspose.Cells for JasperReports v1.0.0.0 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for JasperReports v1.0.0.0 Release Notes, Aspose.Cells for JasperReports v1.0.0.0 updates and fixes
 ---
 
 {{% alert color="primary" %}} 

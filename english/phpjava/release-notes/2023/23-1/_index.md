@@ -3,6 +3,8 @@ title: Aspose.Cells for PHP via Java 23.1 Release Notes
 type: docs
 weight: 12
 url: /php-java/aspose-cells-for-php-via-java-23-1-release-notes/
+description: Aspose.Cells for PHP via Java 23.1 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for PHP via Java 23.1 Release Notes, Aspose.Cells for PHP via Java 23.1 updates and fixes
 ---
 
 {{% alert color="primary" %}}

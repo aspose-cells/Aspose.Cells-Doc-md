@@ -3,6 +3,8 @@ title: Aspose.Cells for Python via .NET 22.12 Release Notes
 type: docs
 weight: 5
 url: /python-net/aspose-cells-for-python-net-22-12-release-notes/
+description: Aspose.Cells for Python via .NET 22.12 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for Python via .NET 22.12 Release Notes, Aspose.Cells for Python via .NET 22.12 updates and fixes
 ---
 
 {{% alert color="primary" %}} 

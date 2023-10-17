@@ -3,6 +3,8 @@ title: Release Notes
 type: docs
 weight: 70
 url: /jasperreports/release-notes/
+description: Aspose.Cells for JasperReports Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for JasperReports Release Notes, Aspose.Cells for JasperReports updates and fixes
 ---
 
 - [Release Notes - 2020](/cells/jasperreports/release-notes-2020/)

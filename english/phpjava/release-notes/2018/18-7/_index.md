@@ -3,6 +3,8 @@ title: Aspose.Cells for PHP via Java 18.7 Release Notes
 type: docs
 weight: 10
 url: /php-java/aspose-cells-for-php-via-java-18-7-release-notes/
+description: Aspose.Cells for PHP via Java 18.7 Release Notes – the latest enhancements, new features, and fixes.
+keywords: Aspose.Cells for PHP via Java 18.7 Release Notes, Aspose.Cells for PHP via Java 18.7 updates and fixes
 ---
 
 We are pleased to announce the first public release of Aspose.Cells for PHP via Java. The APIs incorporate MS Excel spreadsheet processing functionalities in PHP (a widely-used open source scripting language). Aspose.Cells for PHP via Java is a subset component that includes all the important and useful features present in its native [Aspose.Cells for Java](https://products.aspose.com/cells/java/). The new API is equally robust and feature rich component. It supports high-fidelity file format conversions to and from XLS, XLSX, XLSM, SpreadsheetML, CSV, Tab Delimited, HTML, MHTML and OpenDocument Spreadsheet in PHP. Please visit [Product features comparison page](/cells/java/aspose-cells-for-php-via-java-features/) for your reference. Moreover, please see the document on how to [Setup environment and other Installation Guidelines](/cells/java/setup-and-installation-guidelines/) for your reference.
