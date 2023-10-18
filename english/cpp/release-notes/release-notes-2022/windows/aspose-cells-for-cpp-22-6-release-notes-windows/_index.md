@@ -1,6 +1,5 @@
 ---
 title: Aspose.Cells for CPP 22.6.0 Release Notes Windows
-description: Aspose.Cells for CPP 22.6.0 Release Notes Windows – the latest updates and fixes.
 type: docs
 weight: 83
 url: /cpp/aspose-cells-for-cpp-22-6-release-notes-windows/

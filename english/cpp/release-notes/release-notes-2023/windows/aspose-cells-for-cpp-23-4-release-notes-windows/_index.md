@@ -1,6 +1,5 @@
 ---
 title: Aspose.Cells for CPP 23.4 Release Notes Windows
-description: Aspose.Cells for CPP 23.4 Release Notes Windows – the latest updates and fixes.
 type: docs
 weight: 8
 url: /cpp/aspose-cells-for-cpp-23-4-release-notes-windows/

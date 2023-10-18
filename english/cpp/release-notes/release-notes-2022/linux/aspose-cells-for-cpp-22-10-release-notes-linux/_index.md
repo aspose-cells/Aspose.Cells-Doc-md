@@ -1,6 +1,5 @@
 ---
 title: Aspose.Cells for CPP 22.10 Release Notes Linux
-description: Aspose.Cells for CPP 22.10 Release Notes Linux – the latest updates and fixes.
 type: docs
 weight: 3
 url: /cpp/aspose-cells-for-cpp-22-10-release-notes-linux/
