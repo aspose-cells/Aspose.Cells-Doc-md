@@ -1,5 +1,6 @@
 ---
 title: Aspose.Cells for CPP 16.12.0 Release Notes
+description: Aspose.Cells for CPP 16.12.0 Release Notes – the latest updates and fixes.
 type: docs
 weight: 10
 url: /cpp/aspose-cells-for-cpp-16-12-0-release-notes/

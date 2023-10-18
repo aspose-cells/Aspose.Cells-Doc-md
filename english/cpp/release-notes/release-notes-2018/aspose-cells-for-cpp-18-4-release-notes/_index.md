@@ -1,5 +1,6 @@
 ---
 title: Aspose.Cells for CPP 18.4 Release Notes
+description: Aspose.Cells for CPP 18.4 Release Notes – the latest updates and fixes.
 type: docs
 weight: 30
 url: /cpp/aspose-cells-for-cpp-18-4-release-notes/
