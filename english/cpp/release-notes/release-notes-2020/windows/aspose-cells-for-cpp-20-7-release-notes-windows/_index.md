@@ -1,5 +1,5 @@
 ---
-title: Aspose.Cells for CPP 20.7 Release Notes Windws
+title: Aspose.Cells for CPP 20.7 Release Notes Windows
 type: docs
 weight: 10
 url: /cpp/aspose-cells-for-cpp-20-7-release-notes-windows/
