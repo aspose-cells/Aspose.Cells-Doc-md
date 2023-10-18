@@ -3,6 +3,8 @@ title: Apply Advanced Filter of Microsoft Excel to Display Records Meeting Compl
 type: docs
 weight: 280
 url: /net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/
+description: Learn how to apply advanced filter of microsoft excel to display records meeting complex criteria by using the Aspose.Cells for .NET API.
+keywords: Apply Advanced Filter, Set Advanced Filter, Add Advanced Filter, Create Advanced Filter, How to add Advanced Filter to a range 
 ---
 
 ## **Possible Usage Scenarios**

@@ -3,6 +3,8 @@ title: Detect Hyperlink Type
 type: docs
 weight: 160
 url: /net/detect-hyperlink-type/
+description: Learn how to detect hyperlink type through the Aspose.Cells for .NET API.
+keywords: Detect hyperlink type, Detect the type of hyperlink, Get the type of hyperlink
 ---
 
 ## **Detect Hyperlink Type**

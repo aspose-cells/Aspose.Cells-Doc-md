@@ -4,6 +4,8 @@ linktitle: Rich Formatting Text
 type: docs
 weight: 40
 url: /net/access-and-update-the-portions-of-rich-text-of-cell/
+description: Learn how to Access and Update the Portions of Rich Text of Cell through the Aspose.Cells for .NET API.
+keywords: Access and Update Rich Text of Cell, Get Rich Text of Cell, Edit Rich Text of Cell, Access Rich Text of Cell, Update Rich Text of Cell, Change Rich Text of Cell
 ---
 
 {{% alert color="primary" %}}

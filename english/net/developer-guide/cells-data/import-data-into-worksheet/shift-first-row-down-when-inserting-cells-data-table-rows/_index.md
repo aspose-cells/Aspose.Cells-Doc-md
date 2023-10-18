@@ -3,6 +3,8 @@ title: Shift First Row down when inserting Cells Data Table Rows
 type: docs
 weight: 270
 url: /net/shift-first-row-down-when-inserting-cells-data-table-rows/
+description: Learn how to shift first row down when inserting Cells Data Table Rows through the Aspose.Cells for .NET API.
+keywords: C# shift the first row down when inserting a table into the worksheet, shift first row down, shift first row down when adding a table into worksheet
 ---
 
 ## **Possible Usage Scenarios**

@@ -3,6 +3,8 @@ title: Find or Search Data
 type: docs
 weight: 50
 url: /net/find-or-search-data/
+description: Learn how to find or search cells in a worksheet that contains specified data through the Aspose.Cells for .NET API.
+keywords: Find data, Search data, Find Cells Containing a Formula, Search Cells Containing a Formula, Find Data or Formulas using FindOptions, Search Data or Formulas using FindOptions, Find or Search Cells Containing Specified String Value or Number, Find or Search cells contains specified data
 ---
 
 {{% alert color="primary" %}}

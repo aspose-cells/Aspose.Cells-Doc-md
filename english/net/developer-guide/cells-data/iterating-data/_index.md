@@ -4,6 +4,8 @@ linktitle: Iterate Data
 type: docs
 weight: 55
 url: /net/how-and-where-to-use-enumerators/
+description: Learn how to How and Where to Use Enumerators through the Aspose.Cells for .NET API.
+keywords: How to use Enumerators, Cells Enumerator, Rows Enumerator, Columns Enumerator
 ---
 
 {{% alert color="primary" %}}

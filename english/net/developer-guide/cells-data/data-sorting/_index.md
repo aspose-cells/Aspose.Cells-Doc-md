@@ -3,6 +3,8 @@ title: Data Sorting
 type: docs
 weight: 130
 url: /net/sort-data-of-excel/
+description: Learn how to sort data by using the Aspose.Cells for .NET API.
+keywords: Sort data in ascending or descending order, Sort data based on the background color
 ---
 
 {{% alert color="primary" %}}

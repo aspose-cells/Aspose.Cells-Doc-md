@@ -3,6 +3,9 @@ title: Get Text Width of Cell Value
 type: docs
 weight: 50
 url: /net/get-text-width-of-cell-value/
+description: Learn how to Get Text Width of Cell Value through the Aspose.Cells for .NET API.
+keywords: Get Text Width of Cell Value, Obtain Text Width of Cell Value
+
 ---
 
 ## **Get Text Width of Cell Value**

@@ -3,6 +3,8 @@ title: Get Cells Range
 type: docs
 weight: 600
 url: /net/get-cells-range/
+description: Learn how to Get Cells Range through the Aspose.Cells for .NET API.
+keywords: Get Max Display Range of Cells, Get Max Row of Cells, Get Max Data Row of Cells, Get Max Column of Cells, Get Max Data Column of Cells. 
 ---
 
 ## **Possible Usage Scenarios**

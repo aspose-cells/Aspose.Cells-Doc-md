@@ -3,6 +3,8 @@ title: Find Cells with Specific Style
 type: docs
 weight: 190
 url: /net/find-cells-with-specific-style/
+description: Learn how to find or search cells with a particular style applied through the Aspose.Cells for .NET API.
+keywords: Find cells with a particular style applied, Search cells with a particular style applied
 ---
 
 {{% alert color="primary" %}}

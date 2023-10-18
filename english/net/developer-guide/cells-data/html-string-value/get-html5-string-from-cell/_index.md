@@ -3,6 +3,8 @@ title: Get HTML5 string from Cell
 type: docs
 weight: 90
 url: /net/get-html5-string-from-cell/
+description: Learn how to Get HTML5 string from Cell through the Aspose.Cells for .NET API.
+keywords: Get HTML5 string from Cell, Obtain HTML5 string from Cell, Manage HTML5 string of Cell
 ---
 
 ## **Possible Usage Scenarios**

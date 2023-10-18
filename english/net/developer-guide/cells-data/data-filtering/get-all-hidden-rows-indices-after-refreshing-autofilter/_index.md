@@ -3,6 +3,8 @@ title: Get All Hidden Rows Indices after Refreshing AutoFilter
 type: docs
 weight: 320
 url: /net/get-all-hidden-rows-indices-after-refreshing-autofilter/
+description: Learn how to get all hidden rows indices after refreshing AutoFilter by using the Aspose.Cells for .NET API.
+keywords: Get All Hidden Rows Indices after Refreshing AutoFilter, Obtain All Hidden Rows Indices after Refreshing AutoFilter, Retrieve All Hidden Rows Indices after Refreshing AutoFilter
 ---
 
 ## **Possible Usage Scenarios**

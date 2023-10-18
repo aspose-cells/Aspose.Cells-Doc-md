@@ -3,6 +3,8 @@ title: Applying Subtotal and Changing Direction of Outline Summary Rows below De
 type: docs
 weight: 100
 url: /net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/
+description: Learn how to apply subtotal and change direction of outline summary Rows below Detail by using the Aspose.Cells for .NET API.
+keywords: Apply subtotal, Add subtotal, change direction of outline summary Rows below Detail, change direction of outline summary Columns to right of Detail, Create subtotal and change direction of outline summary Rows below Detail
 ---
 
 {{% alert color="primary" %}}

@@ -3,6 +3,8 @@ title: Export Visible Rows Data from Worksheet
 type: docs
 weight: 10
 url: /net/export-visible-rows-data-from-worksheet/
+description: Learn how to Export Visible Rows Data from Worksheet through the Aspose.Cells for .NET API.
+keywords: Export Visible Rows Data to DataTable, Export unhidden Rows Data to DataTable, Export Rows Data to DataTable and Exclude hidden rows, Ignore Hidden Rows while Exporting Worksheet Data to Data Table
 ---
 
 {{% alert color="primary" %}}

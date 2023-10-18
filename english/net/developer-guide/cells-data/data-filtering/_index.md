@@ -3,6 +3,8 @@ title: Data Filtering
 type: docs
 weight: 85
 url: /net/data-filtering/
+description: Learn how to add data filter by using the Aspose.Cells for .NET API.
+keywords: Add Filter by Color, Add Date Filters, Add Number Filters, Add Dynamic Filter, Add Text Filters, Add custom filter with Contains, Add custom filter with NotContains, Add custom filter with BeginsWith, Add custom filter with EndsWith
 ---
 
 {{% alert color="primary" %}}

@@ -5,6 +5,7 @@ type: docs
 weight: 45
 url: /net/insert-hyperlinks-to-excel/
 description: How to insert hyperlinks into Excel file with Aspose.Cells library without MS Excel.
+keywords: Insert Hyperlinks into Excel, Add or Insert Hyperlinks, Add or Insert link to a URL, Add or Insert a Link to a Cell, Add a Link to an External File
 ---
 
 {{% alert color="primary" %}} 

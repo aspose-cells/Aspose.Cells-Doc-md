@@ -4,6 +4,8 @@ linktitle: Measure the Size
 type: docs
 weight: 260
 url: /net/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/
+description: Learn how to Measure the Width and Height of the Cell Value in Unit of Pixels through the Aspose.Cells for .NET API.
+keywords: Measure the Width of the Cell Value in Unit of Pixels, Measure the Height of the Cell Value in Unit of Pixels, Get the Width of the Cell Value in Unit of Pixels, Get the Height of the Cell Value in Unit of Pixels
 ---
 
 {{% alert color="primary" %}}
