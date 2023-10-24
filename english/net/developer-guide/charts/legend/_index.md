@@ -1,5 +1,7 @@
 ---
 title: Manage Legend of Excel Charts
+description: Learn how to utilize Aspose.Cells for .NET to effectively utilize and customize chart legends in Microsoft Excel. Our comprehensive guide explains the legend's functionality, how to access and modify it, as well as how to improve visualization and data understanding with legends.
+keywords: Aspose.Cells for .NET, Chart Legends, Microsoft Excel, Visualization, Data Understanding.
 linktitle: Legend
 type: docs
 weight: 50

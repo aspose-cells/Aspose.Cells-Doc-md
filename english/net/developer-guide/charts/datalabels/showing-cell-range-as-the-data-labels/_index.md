@@ -1,5 +1,7 @@
 ---
 title: Showing Cell Range as the Data Labels
+description: Learn how to show a range of cells as data labels in charts using Aspose.Cells for .NET. Our guide will demonstrate how to link the labels to your data source and format them to provide accurate and meaningful information in your charts.
+keywords: Aspose.Cells for .NET, charting, data labels, cell range, data source, formatting, accuracy, meaningful information.
 type: docs
 weight: 130
 url: /net/showing-cell-range-as-the-data-labels/

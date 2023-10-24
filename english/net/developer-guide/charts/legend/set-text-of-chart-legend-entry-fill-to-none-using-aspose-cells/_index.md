@@ -1,5 +1,7 @@
 ---
 title: Set text of chart legend entry fill to none using Aspose.Cells
+description: Learn how to use Aspose.Cells for .NET to set the text of a chart legend entry fill to none. Our guide will demonstrate how to modify the fill color of legend entries in Microsoft Excel charts for better visualization and customization.
+keywords: Aspose.Cells for .NET, Chart Legend Entry Fill, Microsoft Excel, Visualization, Customization.
 type: docs
 weight: 320
 url: /net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/

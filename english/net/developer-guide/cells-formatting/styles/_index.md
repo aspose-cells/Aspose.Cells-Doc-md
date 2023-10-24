@@ -1,5 +1,7 @@
 ---
 title: Get and Set Style for cells
+description: Discover how to perform data formatting and styling in Aspose.Cells for .NET, including text formatting, number formatting, date formatting, and other styling options. Our guide will help you create professional-looking spreadsheets with attractive formatting.
+keywords: Aspose.Cells for .NET, data formatting, styling, text formatting, number formatting, date formatting, styling options, spreadsheets, attractive formatting, professional-looking.
 linktitle: Styles
 type: docs
 weight: 50

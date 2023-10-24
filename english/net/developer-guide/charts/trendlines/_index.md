@@ -1,5 +1,7 @@
 ---
 title: Get Equation Text of Chart Trendline
+description: Learn how to use Aspose.Cells for .NET to retrieve the equation text of a trendline in a chart created in Microsoft Excel. Our guide will demonstrate how to access and extract the equation of a trendline for further analysis or display.
+keywords: Aspose.Cells for .NET, Chart Trendline, Equation Text, Microsoft Excel, Data Analysis, Display.
 linktitle: Trendlines
 type: docs
 weight: 110

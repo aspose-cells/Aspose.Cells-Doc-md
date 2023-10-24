@@ -1,5 +1,7 @@
 ---
 title: Calculation of Array Formula of Data Tables
+description: How to use Aspose.Cells library to calculate array formulas for a data table in Microsoft Excel. By loading an existing Excel file or creating a new Excel file, we can use the method provided by Aspose.Cells to calculate the array formula of the data table and get the result. Finally, we save the modified Excel file to disk.
+keywords: Aspose.Cells, Excel, data tables, array formulas, calculations
 type: docs
 weight: 70
 url: /net/calculation-of-array-formula-of-data-tables/

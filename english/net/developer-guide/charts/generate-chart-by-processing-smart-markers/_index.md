@@ -1,5 +1,7 @@
 ---
 title: Generate Chart by Processing Smart Markers
+description: Learn how to generate charts with smart markers using Aspose.Cells for .NET. Our guide will show you how to process smart markers and their properties to enhance the appearance and usability of your charts.
+keywords: Aspose.Cells for .NET, chart generation, smart markers, appearance, usability, processing.
 type: docs
 weight: 2100
 url: /net/generate-chart-by-processing-smart-markers/

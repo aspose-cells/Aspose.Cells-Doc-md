@@ -1,5 +1,7 @@
 ---
 title: Setting Chart Appearance
+description: Learn how to configure the appearance of charts in Aspose.Cells for .NET. Our guide will show you how to modify chart layouts, colors, fonts, and effects to achieve the desired visual style and enhance your worksheets.
+keywords: Aspose.Cells for .NET, charting, chart appearance, layouts, colors, fonts, effects, worksheets.
 linktitle: Chart Format
 type: docs
 weight: 20

@@ -1,5 +1,7 @@
 ---
 title: Implement 1904 Date System
+description: Aspose.Cells is a .NET library for working with spreadsheet files. It supports the implementation of the 1904 date system, allowing users to calculate and format based on the January 1, 1904 date system. This article describes how to implement the 1904 date system using the Aspose.Cells library.
+keywords: Aspose.Cells, 1904 date system, spreadsheet, calculation, formatting
 type: docs
 weight: 7000
 url: /net/implement-1904-date-system/

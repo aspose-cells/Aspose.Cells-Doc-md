@@ -1,5 +1,7 @@
 ---
 title: Manage Titles of Excel Charts
+description: Learn how to use Aspose.Cells for .NET to add and format chart and axis titles in Microsoft Excel. Our guide will demonstrate how to set different types of titles, adjust their appearance, and modify axis titles for a better data representation and clarity.
+keywords: Aspose.Cells for .NET, Chart Titles, Axis Titles, Microsoft Excel, Data Representation, Appearance.
 linktitle: Titles
 type: docs
 weight: 50

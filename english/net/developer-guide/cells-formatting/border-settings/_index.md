@@ -1,5 +1,7 @@
 ---
 title: Border Settings
+description: How to use the Aspose.Cells library in C# to set the border style and color of cells. By adjusting the width, style, and color of the border, you have more control over how cells look and appear.
+keywords: Aspose.Cells, Cell Border Settings, C#, Border Width, Border Style, Border Color
 type: docs
 weight: 40
 url: /net/cells-border-settings/

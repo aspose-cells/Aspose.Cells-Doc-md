@@ -1,5 +1,7 @@
 ---
 title: How to create Dynamic Scrolling Chart
+description: Learn how to create a dynamic scrolling chart using Aspose.Cells for .NET. Our step-by-step guide will demonstrate how to implement smooth data transitions and automatic scrolling in your chart for a continuous and updated display.
+keywords: Aspose.Cells for .NET, Dynamic Scrolling Chart, Data Transitions, Smooth Scrolling, Continuous Display, Updating Visualization.
 type: docs
 weight: 75
 url: /net/create-dynamic-scrolling-chart/

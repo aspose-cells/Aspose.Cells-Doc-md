@@ -1,5 +1,7 @@
 ---
 title: Specifying DBNum Custom Pattern Formatting
+description: Aspose.Cells is a .NET library for working with spreadsheet files that supports formatting dates and numbers using custom formatting patterns. This article will show you how to use the Aspose.Cells library to specify the 'dbnum' custom format pattern so that users have more control over how numbers are displayed.
+keywords: Aspose.Cells, .NET library, electronic spreadsheet, custom format pattern, formatting, 'dbnum', control display
 type: docs
 weight: 110
 url: /net/specifying-dbnum-custom-pattern-formatting/

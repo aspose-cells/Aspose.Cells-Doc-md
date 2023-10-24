@@ -1,5 +1,7 @@
 ---
 title: Date Axis
+description: Learn how to manage the date axis in Aspose.Cells for .NET. Our guide will help you understand how to work with various date formats, time scales, and tick label frequencies.
+keywords: Aspose.Cells for .NET, date axis, manage, date formats, time scales, tick label frequencies.
 type: docs
 weight: 200
 url: /net/date-axis/

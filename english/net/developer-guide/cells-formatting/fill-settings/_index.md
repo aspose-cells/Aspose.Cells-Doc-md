@@ -1,5 +1,7 @@
 ---
 title: Fill Settings
+description: Aspose.Cells is a .NET library for working with spreadsheet files. It supports setting the fill settings of cells, allowing users to customize the background and style of cells. This article will introduce how to use the Aspose.Cells library to set cell fill settings.
+keywords: Aspose.Cells, Cells, Fill Settings, Background, Style
 type: docs
 weight: 50
 url: /net/cells-fill-settings/

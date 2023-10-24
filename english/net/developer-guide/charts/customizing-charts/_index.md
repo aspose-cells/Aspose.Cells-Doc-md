@@ -1,5 +1,7 @@
 ---
 title: Customizing Charts
+description: Learn how to customize charts in Aspose.Cells for .NET. Our guide will show you how to modify chart layouts, add and format data series, adjust axes, and apply various formatting options to enhance the appearance and usability of your charts.
+keywords: Aspose.Cells for .NET, charting, customization, layouts, data series, axes, formatting, appearance, usability.
 type: docs
 weight: 40
 url: /net/customizing-charts/

@@ -1,5 +1,7 @@
 ---
 title: Chart to Image
+description: Learn how to use Aspose.Cells for .NET to convert a chart to an image format, such as JPEG or PNG. Our guide will demonstrate how to export a chart from Microsoft Excel and save it as a standalone image for further use and manipulation.
+keywords: Aspose.Cells for .NET, Chart to Image, Microsoft Excel, Image Conversion, Export, Standalone Image.
 linktitle: Chart to Image
 type: docs
 weight: 46

@@ -1,5 +1,7 @@
 ---
 title: Change the format of a cell
+description: How to use Aspose.Cells library in C# to change the formatting of cells, including font, color, border, etc. By adjusting these properties, you have more control over how cells look and appear.
+keywords: Aspose.Cells, cell formatting, C#, font, color, border
 type: docs
 weight: 105
 url: /net/how-to-change-format-of-cell/

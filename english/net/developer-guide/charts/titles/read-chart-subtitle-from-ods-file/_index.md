@@ -1,5 +1,7 @@
 ---
 title: Read Chart Subtitle from ODS File
+description: Learn how to use Aspose.Cells for .NET to read the chart subtitle from an OpenDocument Spreadsheet (ODS) file. Our guide will demonstrate how to extract and access the subtitle of a chart for further analysis or display.
+keywords: Aspose.Cells for .NET, Read Chart Subtitle, OpenDocument Spreadsheet, ODS File, Chart Extraction, Data Analysis.
 type: docs
 weight: 160
 url: /net/read-chart-subtitle-from-ods-file/

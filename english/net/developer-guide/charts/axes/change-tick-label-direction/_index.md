@@ -1,5 +1,7 @@
 ---
 title: Change Tick Label Direction
+description: Learn how to change the direction of tick labels in Aspose.Cells for .NET. Our guide will help you understand how to adjust the orientation of tick labels on axes, including horizontal, vertical, and angled orientations.
+keywords: Aspose.Cells for .NET, tick labels, direction, orientation, axes, horizontal, vertical, angled.
 type: docs
 weight: 170
 url: /net/change-tick-label-direction/

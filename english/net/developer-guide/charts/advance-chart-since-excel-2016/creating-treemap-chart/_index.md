@@ -1,9 +1,10 @@
 ---
 title: How to create TreeMap chart
+description: Learn how to create a Treemap chart in Aspose.Cells for .NET. Our guide will help you understand the various properties and formatting options available for Treemap charts, including colors, labels, and data representation.
+keywords: Aspose.Cells for .NET, Treemap chart, create, properties, formatting, colors, labels, data representation, circular chart, hierarchical charting.
 type: docs
 weight: 161
 url: /net/creating-treemap-chart/
-description: Create treemap charts in Excel with C# and Aspose.Cells for .NET API.
 ---
 
 ## **Possible Usage Scenarios**

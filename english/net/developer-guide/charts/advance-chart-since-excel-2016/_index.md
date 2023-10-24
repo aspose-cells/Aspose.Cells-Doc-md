@@ -1,5 +1,7 @@
 ---
 title: Read and Manipulate Excel 2016 Charts
+description: Learn how to read and manipulate Excel 2016 charts using Aspose.Cells for .NET. Our guide will show you how to access and modify various chart properties, including data labels, series colors, and layout.
+keywords: Aspose.Cells for .NET, Excel 2016 charts, read, manipulate, data labels, series colors, layout, hierarchical charting, circular charting.
 type: docs
 weight: 48
 url: /net/read-and-manipulate-excel-2016-charts/

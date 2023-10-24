@@ -1,5 +1,7 @@
 ---
 title: How to set category axis
+description: Learn how to set the category axis in Aspose.Cells for .NET. Our guide will help you understand how to define the category axis range, adjust its properties, and format its labels.
+keywords: Aspose.Cells for .NET, category axis, setting, range, properties, formatting.
 type: docs
 weight: 205
 url: /net/how-to-set-category-axis/

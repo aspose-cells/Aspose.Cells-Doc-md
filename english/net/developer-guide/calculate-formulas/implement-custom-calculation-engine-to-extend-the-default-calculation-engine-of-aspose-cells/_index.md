@@ -1,5 +1,7 @@
 ---
 title: Implement Custom Calculation Engine to extend the Default Calculation Engine of Aspose.Cells
+description: This article describes how to extend the default calculation engine by implementing a custom calculation engine using the Aspose.Cells library. By loading an existing Excel file or creating a new one, we can use the methods provided by Aspose.Cells to implement a custom calculation engine and get the results. Finally, we save the modified Excel file to disk.
+keywords: Aspose.Cells, Excel, Custom Calculation Engine, extends the default calculation engine
 type: docs
 weight: 80
 url: /net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/

@@ -1,5 +1,7 @@
 ---
 title: Set the Values Format Code of Chart Series
+description: Learn how to set the values format code of chart series in Aspose.Cells for .NET. Our guide will help you understand how to format your chart series data using the appropriate format code, allowing you to present your data accurately and professionally.
+keywords: Aspose.Cells for .NET, chart series, values format code, formatting, data presentation, accuracy, professionalism.
 linktitle: Number Format
 type: docs
 weight: 100

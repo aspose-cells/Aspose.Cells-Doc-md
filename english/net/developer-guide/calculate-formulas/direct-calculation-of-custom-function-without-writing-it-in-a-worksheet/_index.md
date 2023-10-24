@@ -1,5 +1,7 @@
 ---
 title: Direct calculation of custom function without writing it in a worksheet
+description: This article introduces how to use Aspose.Cells library to directly calculate custom functions in Microsoft Excel without writing the function in a worksheet. By loading an existing Excel file or creating a new Excel file, we can use the methods provided by Aspose.Cells to calculate the custom function and get the result. Finally, we save the modified Excel file to disk.
+keywords: Aspose.Cells, Excel, custom functions, direct calculations, no need to write, worksheets
 type: docs
 weight: 90
 url: /net/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/

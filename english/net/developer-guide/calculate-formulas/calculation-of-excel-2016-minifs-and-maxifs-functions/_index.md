@@ -1,5 +1,7 @@
 ---
 title: Calculation of Excel 2016 MINIFS and MAXIFS functions
+description: This article introduces how to use the Aspose.Cells library to calculate MINIFS and MAXIFS functions in Microsoft Excel 2016. By loading an existing Excel file or creating a new one, we can use the methods provided by Aspose.Cells to calculate the MINIFS and MAXIFS functions and get the results. Finally, we save the modified Excel file to disk.
+keywords: Aspose.Cells, Excel, 2016, MINIFS function, MAXIFS function, calculation
 type: docs
 weight: 300
 url: /net/calculation-of-excel-2016-minifs-and-maxifs-functions/

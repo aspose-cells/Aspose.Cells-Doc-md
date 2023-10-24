@@ -1,5 +1,7 @@
 ---
 title: Create Open-High-Low-Close(OHLC) Stock Chart
+description: Learn how to create an open-high-low-close stock chart using Aspose.Cells for .NET. Our guide will demonstrate how to plot stock market data, including the open, high, low, and close prices, onto a chart for better analysis and visualization.
+keywords: Aspose.Cells for .NET, Open-High-Low-Close Stock Chart, Stock Market Data, Analysis, Visualization.
 type: docs
 weight: 182
 url: /net/create-open-high-low-close-stock-chart/

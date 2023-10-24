@@ -1,5 +1,7 @@
 ---
 title: Get a List of Fonts used in a Spreadsheet or Workbook
+description: Aspose.Cells is a .NET library for working with spreadsheet files. It supports getting a list of fonts used in a spreadsheet or workbook, allowing users to get font information used in a document. This article will show you how to use the Aspose.Cells library to get a list of fonts.
+keywords: Aspose.Cells, Spreadsheet, Workbook, Font, List
 type: docs
 weight: 20
 url: /net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/

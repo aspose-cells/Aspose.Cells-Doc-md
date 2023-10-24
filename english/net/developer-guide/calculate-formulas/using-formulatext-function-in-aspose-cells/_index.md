@@ -1,5 +1,7 @@
 ---
 title: Using FormulaText function in Aspose.Cells
+description: This article introduces how to use the FormulaText function in Aspose.Cells library to process formulas in Microsoft Excel. By loading an existing Excel file or creating a new Excel file, we can use the method provided by Aspose.Cells to get and set the formula text of the cell and get the result. Finally, we save the modified Excel file to disk.
+keywords: Aspose.Cells, Excel, FormulaText functions
 type: docs
 weight: 60
 url: /net/using-formulatext-function-in-aspose-cells/

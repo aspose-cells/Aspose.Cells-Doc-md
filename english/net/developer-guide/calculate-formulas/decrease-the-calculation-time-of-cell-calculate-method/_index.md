@@ -1,5 +1,7 @@
 ---
 title: Decrease the Calculation Time of Cell.Calculate method
+description: This article introduces how to use Aspose.Cells library to reduce the calculation time of cell calculation methods in Microsoft Excel. By loading an existing Excel file or creating a new one, we can use the methods provided by Aspose.Cells to optimize the cell calculation method and improve its performance. Finally, we save the modified Excel file to disk.
+keywords: Aspose.Cells, Excel, Cell calculation methods, optimization, performance, reduction of calculation time
 type: docs
 weight: 100
 url: /net/decrease-the-calculation-time-of-cell-calculate-method/

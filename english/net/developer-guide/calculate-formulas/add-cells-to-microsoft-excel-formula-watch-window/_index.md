@@ -1,5 +1,7 @@
 ---
 title: Add Cells to Microsoft Excel Formula Watch Window
+description: How to use Aspose.Cells library to add cells to formula watch window in Excel. By loading an existing Excel file or creating a new one, we can manipulate the cells in it and set formulas. Finally, we save the modified Excel file to disk.
+keywords: Aspose.Cells, Excel, Formula Watch Window, Cells, Adding
 type: docs
 weight: 60
 url: /net/add-cells-to-microsoft-excel-formula-watch-window/

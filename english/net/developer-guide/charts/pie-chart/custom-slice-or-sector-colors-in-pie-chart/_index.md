@@ -1,5 +1,7 @@
 ---
 title: Custom Slice or Sector Colors in Pie Chart
+description: Learn how to use Aspose.Cells for .NET to customize slice and sector colors in a pie chart. Our guide will demonstrate how to assign unique colors to each slice, sector, or legion for improved visual appeal and data representation.
+keywords: Aspose.Cells for .NET, Pie Chart, Custom Slice Colors, Custom Sector Colors, Visual Appeal, Data Representation.
 type: docs
 weight: 60
 url: /net/custom-slice-or-sector-colors-in-pie-chart/

@@ -1,5 +1,7 @@
 ---
 title: Line Breaks and Text Wrapping
+description: How to implement text wrapping and word wrap using the Aspose.Cells library in C#. By using the Aspose.Cells library, you can easily insert text in cells and set the text wrapping method, such as manual word wrap, word wrap, etc. This document details how to implement these features and provides sample code for your reference.
+keywords: Aspose.Cells, line breaks, text wraps, text layout
 type: docs
 weight: 60
 url: /net/line-breaks-and-text-wrapping/

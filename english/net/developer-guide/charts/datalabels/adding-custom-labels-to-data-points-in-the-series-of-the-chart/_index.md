@@ -1,5 +1,7 @@
 ---
 title: Adding Custom Labels to Data Points in the Series of the Chart
+description: Learn how to add custom labels to data points in the series of a chart using Aspose.Cells for .NET. Our guide will show you how to modify the labels' appearance, position, and formatting, as well as how to link them to your data source for accurate data representation.
+keywords: Aspose.Cells for .NET, charting, custom labels, data points, series, appearance, position, formatting, data source, representation.
 type: docs
 weight: 100
 url: /net/adding-custom-labels-to-data-points-in-the-series-of-the-chart/

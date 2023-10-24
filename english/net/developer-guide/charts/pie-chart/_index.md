@@ -1,5 +1,7 @@
 ---
 title: Creating Pie Chart with Leader Lines
+description: Learn how to use Aspose.Cells for .NET to create a pie chart with leader lines in Microsoft Excel. Our guide will demonstrate how to add leader lines that connect data points to the legend and enhance the overall clarity of your chart.
+keywords: Aspose.Cells for .NET, Pie Chart, Leader Lines, Microsoft Excel, Data Visualization, Chart Customization.
 linktitle: Pie Chart
 type: docs
 weight: 45

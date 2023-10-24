@@ -1,5 +1,7 @@
 ---
 title: Setting Formula Calculation Mode of Workbook
+description: This article introduces how to set the formula calculation mode of a workbook in Microsoft Excel with Aspose.Cells library. By loading an existing Excel file or creating a new Excel file, we can use the method provided by Aspose.Cells to set the formula calculation mode and get the result. Finally, we save the modified Excel file to disk.
+keywords: Aspose.Cells, Excel, workbook, formula calculation mode, settings
 type: docs
 weight: 110
 url: /net/setting-formula-calculation-mode-of-workbook/

@@ -1,5 +1,7 @@
 ---
 title: Returning a Range of Values using ICustomFunction
+description: This article describes how to use the Aspose.Cells library to return a range of values with ICustomFunction in Microsoft Excel. By loading an existing Excel file or creating a new Excel file, we can use the methods provided by Aspose.Cells to get a range of values and return the result. Finally, we save the modified Excel file to disk.
+keywords: Aspose.Cells, Excel, ICustomFunction, returns a series of values
 type: docs
 weight: 50
 url: /net/returning-a-range-of-values-using-icustomfunction/

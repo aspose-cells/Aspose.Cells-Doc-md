@@ -1,5 +1,7 @@
 ﻿---
 title: Convert Chart to Image for Japanese Region
+description: Learn how to use Aspose.Cells for .NET sets the Japanese configuration for the chart. Our guide will demonstrate how to configure charts to support Japanese characters and formatting, including fonts, size, text direction, and more.
+keywords: Aspose.Cells for .NET, Charts, Japanese configuration, font, font size, text direction, support.
 linktitle: Set Japanese Region
 type: docs
 weight: 10

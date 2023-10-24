@@ -1,5 +1,7 @@
 ---
 title: Apply Shading to Alternate Rows and Columns with Conditional Formatting
+description: How to use the Aspose.Cells library in C# to apply conditional formatting shadows for alternating rows and columns. By adjusting these criteria, you have more control over how cells look and appear.
+keywords: Aspose.Cells, Conditional Formatting, C#, Alternate Rows, Alternate Columns, Shadows
 type: docs
 weight: 30
 url: /net/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/

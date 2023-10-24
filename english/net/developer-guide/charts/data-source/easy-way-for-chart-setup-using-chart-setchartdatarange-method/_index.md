@@ -1,5 +1,7 @@
 ---
 title: Easy way for Chart Setup using Chart.SetChartDataRange method
+description: Learn how to easily set up charts using the Chart.SetChartDataRange method in Aspose.Cells for .NET. Our guide will show you how to specify the data range for your chart, allowing you to create professional and accurate charts with minimal effort.
+keywrods: Aspose.Cells for .NET, charting, SetChartDataRange method, data range, professional, accurate, charts.
 type: docs
 weight: 190
 url: /net/easy-way-for-chart-setup-using-chart-setchartdatarange-method/

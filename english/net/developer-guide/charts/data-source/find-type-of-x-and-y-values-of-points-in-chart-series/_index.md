@@ -1,5 +1,7 @@
 ---
 title: Find Type of X and Y Values of Points in Chart Series
+description: Learn how to determine the type of X and Y values in chart series points using Aspose.Cells for .NET. Our guide will explain the different types of data values and show you how to access and work with them in your charts.
+keywords: Aspose.Cells for .NET, charting, X values, Y values, data types, access, work with, chart series.
 type: docs
 weight: 150
 url: /net/find-type-of-x-and-y-values-of-points-in-chart-series/

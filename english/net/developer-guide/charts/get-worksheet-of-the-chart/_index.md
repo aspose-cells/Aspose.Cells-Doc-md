@@ -1,5 +1,7 @@
 ---
 title: Get Worksheet of the Chart
+description: Learn how to retrieve the worksheet associated with an Excel chart using Aspose.Cells for .NET. Our guide will show you how to access the worksheet and perform operations on it to manipulate the underlying data of the chart.
+keywords: Aspose.Cells for .NET, Excel charts, worksheets, data manipulation, underlying data, operations.
 type: docs
 weight: 1000
 url: /net/get-worksheet-of-the-chart/

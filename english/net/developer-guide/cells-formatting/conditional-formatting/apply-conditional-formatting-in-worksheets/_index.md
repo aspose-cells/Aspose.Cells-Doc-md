@@ -1,5 +1,7 @@
 ---
 title: Apply Conditional Formatting in Worksheets
+description: How to use Aspose.Cells library in C# to apply conditional formatting in worksheets. By adjusting these criteria, you have more control over how cells look and appear.
+keywords: Aspose.Cells, Conditional Formatting, C#, Worksheet, Formatting
 type: docs
 weight: 130
 url: /net/apply-conditional-formatting-in-worksheets/

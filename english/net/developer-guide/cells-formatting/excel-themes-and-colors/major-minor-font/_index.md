@@ -1,8 +1,10 @@
 ---
 title: Headings And Body Theme Font
+description: Aspose.Cells is a .NET library for working with spreadsheet files. It supports setting heading and body theme fonts in Excel documents, enabling users to customize the appearance and style of the document. This article will introduce how to use the Aspose.Cells library to work with heading and body theme fonts in Excel documents.
+keywords: Aspose.Cells, Excel Document, Heading, Body, Theme Font, Appearance, Style
 type: docs
 weight: 120
-url: /net/headings-and-body-Theme-font/
+url: /net/headings-and-body-theme-font/
 ---
 
 {{% alert color="primary" %}}

@@ -1,5 +1,7 @@
 ---
 title: Adding 2-Color Scale and 3-Color Scale Conditional Formattings
+description: How to use the Aspose.Cells library in C# to add conditional formatting for two color ratios and three color ratios. By adjusting these criteria, you have more control over how cells look and appear.
+keywords: Aspose.Cells, Conditional Formatting, C#, Color Ratio, Two Color Scale, Three Color Scale
 type: docs
 weight: 20
 url: /net/adding-2-color-scale-and-3-color-scale-conditional-formattings/

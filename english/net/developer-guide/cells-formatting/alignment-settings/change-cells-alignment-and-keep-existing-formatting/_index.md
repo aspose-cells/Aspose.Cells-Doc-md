@@ -1,5 +1,7 @@
 ---
 title: Change Cells Alignment and Keep Existing Formatting
+description: Use the Aspose.Cells library to change cell alignment and preserve existing formatting
+keywords: Aspose.Cells, C#, Cell alignment, preserve existing formatting
 type: docs
 weight: 340
 url: /net/change-cells-alignment-and-keep-existing-formatting/

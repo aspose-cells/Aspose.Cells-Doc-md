@@ -1,5 +1,7 @@
 ---
 title: Number Settings
+description: Aspose.Cells is a .NET library for working with spreadsheet files that supports many different cell number settings. This article will introduce how to use Aspose.Cells library to manage the number settings of cells so that users can adjust the number format in the spreadsheet as needed.
+keywords: Aspose.Cells, .NET library, electronic spreadsheet, cell number settings, formatting, management
 type: docs
 weight: 10
 url: /net/cells-number-settings/

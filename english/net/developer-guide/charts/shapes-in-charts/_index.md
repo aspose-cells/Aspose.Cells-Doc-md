@@ -1,5 +1,7 @@
 ---
 title: Shapes in Charts
+description: Learn how to use Aspose.Cells for .NET to add controls and customize charts in Microsoft Excel. Our guide will demonstrate how to manipulate chart elements, adjust formatting, and enhance the overall appearance and usability of your charts.
+keywords: Aspose.Cells for .NET, Chart Controls, Chart Customization, Microsoft Excel, Chart Elements, Formatting.
 type: docs
 weight: 70
 url: /net/controls-in-charts/

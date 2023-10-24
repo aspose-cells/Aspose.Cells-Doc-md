@@ -1,5 +1,7 @@
 ---
 title: Chart Types
+description: Learn about the various chart types supported by Aspose.Cells for .NET. Our guide will walk you through the different types of charts available and show you how to create and modify them to enhance your worksheets.
+keywords: Aspose.Cells for .NET, charting, chart types, supported, creation, modification, worksheets.
 type: docs
 weight: 5
 url: /net/chart-types/

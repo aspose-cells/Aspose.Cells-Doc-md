@@ -1,9 +1,10 @@
 ---
 title: How to create Sunburst chart
+description: Learn how to create a sunburst chart in Aspose.Cells for .NET, a chart that presents data in a circle. Our guide will help you set up various properties and formatting of your chart, including data labels, legends, colors, and more.
+keywords: Aspose.Cells for .NET, sunburst chart, create, set properties, data labels, legend, format, color, circle, data rendering.
 type: docs
 weight: 162
 url: /net/creating-sunburst-chart/
-description: Create sunburst charts in Excel with C# and Aspose.Cells for .NET API.
 ---
 
 ## **Possible Usage Scenarios**

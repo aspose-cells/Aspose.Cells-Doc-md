@@ -1,5 +1,7 @@
 ---
 title: Determine which Axis exists in the Chart
+description: Learn how to determine which axis exists in a chart created using Aspose.Cells for .NET. Our guide will help you understand how to identify and access the different axes in a chart, including category, value, and secondary axes.
+keywords: Aspose.Cells for .NET, chart, axis, existence, category, value, secondary.
 type: docs
 weight: 140
 url: /net/determine-which-axis-exists-in-the-chart/

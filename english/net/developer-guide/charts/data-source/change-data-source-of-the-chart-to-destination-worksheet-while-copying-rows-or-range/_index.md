@@ -1,5 +1,7 @@
 ---
 title: Change Data Source of the Chart to Destination Worksheet while Copying Rows or Range
+description: Learn how to change the data source of a chart to a destination worksheet while copying rows or a range in Aspose.Cells for .NET. Our guide will show you how to update the chart's data range and link it to the destination worksheet, ensuring that the copied rows or range are accurately reflected in the chart.
+keywords: Aspose.Cells for .NET, charting, data source, destination worksheet, rows, range, copy, update, data range, linkage.
 type: docs
 weight: 440
 url: /net/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/

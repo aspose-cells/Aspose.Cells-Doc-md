@@ -1,5 +1,7 @@
 ---
 title: Detecting Circular Reference
+description: This article introduces how to use the Aspose.Cells library to detect circular references in Microsoft Excel. By loading an existing Excel file or creating a new one, we can use the method provided by Aspose.Cells to detect circular references and get the results. Finally, we save the modified Excel file to disk.
+keywords: Aspose.Cells, Excel, circular references, detection
 type: docs
 weight: 70
 url: /net/detecting-circular-reference/

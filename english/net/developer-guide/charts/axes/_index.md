@@ -1,5 +1,7 @@
 ---
 title: Manage Axes of Excel Charts
+description: Learn how to configure chart axes in Aspose.Cells for .NET. Our guide will show you how to adjust the primary and secondary axes, set their ranges, and modify their properties to enhance your charts.
+keywords: Aspose.Cells for .NET, chart axes, configuration, primary axes, secondary axes, range, properties.
 linktitle: Axes
 type: docs
 weight: 50

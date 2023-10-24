@@ -1,5 +1,7 @@
 ---
 title: How to create Dynamic Chart
+description: Learn how to create a dynamic chart using Aspose.Cells for .NET. Our comprehensive guide will demonstrate how to update and modify your chart's data, layout, and appearance in real-time based on user input or system data changes.
+keywords: Aspose.Cells for .NET, Dynamic Chart, Real-Time Updates, User Input, System Data Changes, Data Visualization.
 type: docs
 weight: 74
 url: /net/create-dynamic-chart/

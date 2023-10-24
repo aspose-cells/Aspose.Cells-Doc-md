@@ -1,5 +1,7 @@
 ---
 title: Create Volume-High-Low-Close(VHLC) Stock Chart
+description: Learn how to create a volume-high-low-close stock chart using Aspose.Cells for .NET. Our guide will demonstrate how to plot stock market data, including volume, high, low, and close prices, onto a chart for better analysis and visualization.
+keywords: Aspose.Cells for .NET, Volume-High-Low-Close Stock Chart, Stock Market Data, Analysis, Visualization.
 type: docs
 weight: 183
 url: /net/create-volume-high-low-close-stock-chart/

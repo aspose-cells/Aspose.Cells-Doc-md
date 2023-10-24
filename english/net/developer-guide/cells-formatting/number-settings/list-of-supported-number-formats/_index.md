@@ -1,5 +1,7 @@
 ---
 title: List of Supported Number Formats
+description: Aspose.Cells is a .NET library for processing spreadsheet files, which supports a range of number formats. This article provides a list of supported number formats so that users can select the appropriate format according to their needs.
+keywords: Aspose.Cells, .NET library, spreadsheet, number format, list, supported
 type: docs
 weight: 30
 url: /net/list-of-supported-number-formats/

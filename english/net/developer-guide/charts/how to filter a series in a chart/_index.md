@@ -1,5 +1,7 @@
 ---
-title:  Three methods for filtering Chart Data
+title: Three methods for filtering Chart Data
+description: Learn how to filter charts in Excel using Aspose.Cells for .NET. Our comprehensive guide will demonstrate how to apply filters to charts, customize chart elements, and use data analysis tools for better insights and informed decision making.
+keywords: Aspose.Cells for .NET, Filtering Charts in Excel, Data Analysis, Decision Making, Visualization.
 type: docs
 weight: 2210
 url: /net/filtering-charts-in-excel/

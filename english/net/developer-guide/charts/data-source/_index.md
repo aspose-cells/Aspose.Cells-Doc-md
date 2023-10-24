@@ -1,5 +1,7 @@
 ---
 title: Set Data source for the chart
+description: Learn about the various data sources supported by Aspose.Cells for .NET. Our guide will walk you through the different types of data sources available and show you how to connect and retrieve data from them to populate your worksheets.
+keywords: Aspose.Cells for .NET, charting, data formatting, labels, colors, fonts, appearance, usability.
 linktitle: Data source
 type: docs
 weight: 10

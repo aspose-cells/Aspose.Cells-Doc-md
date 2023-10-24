@@ -1,5 +1,7 @@
 ---
 title: Chart to PDF 
+description: Learn how to use Aspose.Cells for .NET to convert a chart to a PDF document. Our guide will demonstrate how to export a chart from Microsoft Excel and save it as a PDF for further distribution and archiving.
+keywords: Aspose.Cells for .NET, Chart to PDF, Microsoft Excel, PDF Conversion, Export, Distribution, Archiving.
 type: docs
 weight: 47
 url: /net/chart-to-pdf/

@@ -1,5 +1,7 @@
 ---
 title: Render Custom Date Format Pattern g and ge mm dd
+description: Aspose.Cells is a .NET library for working with spreadsheet files that supports rendering dates using custom date format patterns 'g' and 'ge'. This article will describe how to render custom date format patterns using the Aspose.Cells library so that users can control how dates are displayed if they want.
+keywords: Aspose.Cells, .NET library, electronic spreadsheet, custom date format, rendering, pattern 'g', pattern 'ge', control display
 type: docs
 weight: 160
 url: /net/render-custom-date-format-pattern-g-and-ge-mm-dd/

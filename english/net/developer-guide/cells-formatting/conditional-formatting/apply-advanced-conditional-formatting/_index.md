@@ -1,5 +1,7 @@
 ---
 title: Apply Advanced Conditional Formatting
+description: How to use the Aspose.Cells library in C# to apply advanced conditional formatting. By adjusting these criteria, you have more control over how cells look and appear.
+keywords: Aspose.Cells, Advanced Conditional Formatting, C#, Conditional, Formatting
 type: docs
 weight: 70
 url: /net/apply-advanced-conditional-formatting/

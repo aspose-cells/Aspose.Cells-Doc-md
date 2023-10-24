@@ -3,7 +3,7 @@ title: Editing Hyperlinks of Worksheet
 type: docs
 weight: 330
 url: /net/editing-hyperlinks-of-worksheet/
-description: Learn how to edit yyperlinks of Worksheet through the Aspose.Cells for .NET API.
+description: Learn how to edit hyperlinks of Worksheet through the Aspose.Cells for .NET API.
 keywords: Edit Hyperlinks, Edit Hyperlinks of Worksheet, Edit hyperlink of Cell, Access all the hyperlinks of the worksheet
 ---
 

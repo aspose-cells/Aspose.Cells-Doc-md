@@ -1,5 +1,7 @@
 ---
 title: Rich Text Custom Data Label of Chart Point
+description: Learn how to add rich text custom data labels to chart points in Aspose.Cells for .NET. Our guide will show you how to format the labels with different fonts, colors, and alignment options to enhance the appearance and readability of your charts.
+keywords: Aspose.Cells for .NET, charting, rich text, custom data labels, fonts, colors, alignment, appearance, readability.
 type: docs
 weight: 10
 url: /net/rich-text-custom-data-label-of-chart-point/

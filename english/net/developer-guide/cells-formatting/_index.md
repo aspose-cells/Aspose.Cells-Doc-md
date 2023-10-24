@@ -1,10 +1,11 @@
 ---
 title: Format cells
+description: Learn how to format and style cells in Aspose.Cells for .NET, including number formatting, date formatting, font styles, and other cell style options. Our guide will help you create attractive and professional-looking spreadsheets.
+keywords: Aspose.Cells for .NET, cell formatting, styling, number formatting, date formatting, font style, cell style options, spreadsheet, create, professional look.
 linktitle: Format cells
 type: docs
 weight: 120
 url: /net/cells-formatting/
-description: Set number format, border and background color for Excel files on .NET Framework, .NET Core, Mono or Xamarin Platforms.
 ---
 
 ## **Introduction**

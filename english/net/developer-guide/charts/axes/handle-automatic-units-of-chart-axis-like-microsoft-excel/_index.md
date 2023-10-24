@@ -1,5 +1,7 @@
 ---
 title: Handle Automatic Units of Chart Axis like Microsoft Excel
+description: Learn how to handle automatic units on chart axes in Aspose.Cells for .NET, similar to Microsoft Excel. Our guide will show you how to configure and customize automatic units on a chart axis, including the display of scientific notation and adjusting the scale.
+keywords: Aspose.Cells for .NET, chart axes, automatic units, Microsoft Excel, configuration, customization, scientific notation, scaling.
 type: docs
 weight: 120
 url: /net/handle-automatic-units-of-chart-axis-like-microsoft-excel/

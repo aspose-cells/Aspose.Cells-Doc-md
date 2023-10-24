@@ -1,5 +1,7 @@
 ---
 title: Find if Data Points are in the Second Pie or Bar on a Pie of Pie or Bar of Pie Chart
+description: Learn how to use Aspose.Cells for .NET to find if data points are in the second pie or bar on a pie of pie or bar of pie chart. Our guide will demonstrate how to identify and access the secondary pie or bar on a composite chart, allowing you to analyze and manipulate the data effectively.
+keywords: Aspose.Cells for .NET, Pie of Pie Chart, Bar of Pie Chart, Secondary Pie, Secondary Bar, Data Analysis, Data Manipulation.
 type: docs
 weight: 180
 url: /net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/

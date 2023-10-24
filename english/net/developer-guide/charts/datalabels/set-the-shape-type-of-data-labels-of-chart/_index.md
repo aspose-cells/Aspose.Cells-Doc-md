@@ -1,5 +1,7 @@
 ---
 title: Set the Shape Type of Data Labels of Chart
+description: Learn how to set the shape type of data labels in charts using Aspose.Cells for .NET. Our guide will explain the different shape types available and show you how to choose the appropriate shape for your data labels to enhance the presentation and usability of your charts.
+keywords: Aspose.Cells for .NET, charting, data labels, shape types, presentation, usability.
 type: docs
 weight: 110
 url: /net/set-the-shape-type-of-data-labels-of-chart/

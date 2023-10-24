@@ -1,5 +1,7 @@
 ---
 title: Merging and Unmerging Cells
+description: Aspose.Cells is a .NET library for working with spreadsheet files, which supports merging and unmerging cells. This article will introduce how to merge and unmerge cells using the Aspose.Cells library, and how to customize the merged cell style.
+keywords: Aspose.Cells, NET library, spreadsheet, merge cells, unmerge cells, style settings, custom styles
 type: docs
 weight: 190
 url: /net/merging-and-unmerging-cells/

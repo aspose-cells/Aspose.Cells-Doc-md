@@ -1,5 +1,7 @@
 ---
 title: Primary and Second Axis
+description: Learn how to understand and work with primary and secondary axes in Aspose.Cells for .NET. Our guide will help you understand the differences between primary and secondary axes, and how to configure and use them effectively in your charts.
+keywords: Aspose.Cells for .NET, primary axes, secondary axes, understanding, differences, configuration, usage.
 type: docs
 weight: 190
 url: /net/primary-and-second-axis/

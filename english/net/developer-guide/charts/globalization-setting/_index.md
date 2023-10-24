@@ -1,5 +1,7 @@
 ---
 title: Convert Chart to Localized Image
+description: Learn how to set globalization configurations for charts using Aspose.Cells for .NET. Our guide demonstrates how to configure the chart to support multiple languages and regional formats to correctly display text, dates, and numbers in different languages.
+keywords: Aspose.Cells for .NET, Charts, Globalization Settings, Multiple Languages, Regional Formats, Display, Text, Dates, Numbers.
 linktitle: Set Localized Region
 type: docs
 weight: 50

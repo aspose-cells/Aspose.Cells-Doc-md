@@ -1,5 +1,7 @@
 ---
 title: How to create Dynamic Chart with Dropdownlist
+description: Learn how to create a dynamic chart that updates based on a drop-down list selection using Aspose.Cells for .NET. Our step-by-step guide will demonstrate how to integrate a drop-down list into your chart for flexible data visualization.
+keywords: Aspose.Cells for .NET, Dynamic Chart, Drop-Down List, Data Visualization, Integration, Flexible Visualization.
 type: docs
 weight: 76
 url: /net/create-dynamic-chart-with-dropdownlist/

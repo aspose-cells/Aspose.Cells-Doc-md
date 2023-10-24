@@ -1,5 +1,7 @@
 ---
 title: How to create Dynamic Rolling Chart
+description: Learn how to create a dynamic rolling chart using Aspose.Cells for .NET. Our guide will demonstrate how to implement smooth data transitions and rolling averages in your chart for a continuous and updated display.
+keywords: Aspose.Cells for .NET, Dynamic Rolling Chart, Data Transitions, Smooth Averages, Continuous Display, Updating Visualization.
 type: docs
 weight: 74
 url: /net/create-dynamic-rolling-chart/

@@ -1,5 +1,7 @@
 ---
 title: Generate Conditional Formatting DataBars Images
+description: Aspose.Cells is a .NET library for working with spreadsheet files. It supports the generation of conditionally formatted data bars and images, allowing users to customize the display of the spreadsheet based on the value of the cells. This article will introduce how to use the Aspose.Cells library to generate conditionally formatted data bars and images.
+keywords: Aspose.Cells, Conditional Formatting, Data Bars, Images, Spreadsheets
 type: docs
 weight: 40
 url: /net/generate-conditional-formatting-databars-images/

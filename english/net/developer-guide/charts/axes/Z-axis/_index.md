@@ -1,5 +1,7 @@
 ---
 title: Z Axis
+description: Learn how to work with the Z-axis in Aspose.Cells for .NET. Our guide will help you understand how to configure and customize the Z-axis, including its scale and labels, to enhance your charts.
+keywords: Aspose.Cells for .NET, Z-axis, charting, configuration, customization, scale, labels.
 type: docs
 weight: 210
 url: /net/z-axis/

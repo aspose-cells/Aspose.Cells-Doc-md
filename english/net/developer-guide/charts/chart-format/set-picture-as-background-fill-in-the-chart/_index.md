@@ -1,5 +1,7 @@
 ---
 title: Set Picture as Background Fill in the Chart
+description: Learn how to set a picture as the background fill in a chart using Aspose.Cells for .NET. Our guide will show you how to import and position the picture, adjust its size and color, and apply formatting options to enhance your chart's appearance.
+keywords: Aspose.Cells for .NET, charting, background fill, picture, import, positioning, size, color, formatting.
 type: docs
 weight: 30
 url: /net/set-picture-as-background-fill-in-the-chart/

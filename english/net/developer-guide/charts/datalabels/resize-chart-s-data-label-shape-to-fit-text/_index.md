@@ -1,5 +1,7 @@
 ---
 title: Resize Chart's Data Label Shape To Fit Text
+description: Learn how to resize the data label shape in a chart to fit the text in Aspose.Cells for .NET. Our guide will show you how to adjust the size and shape of the label container to ensure that the text is displayed correctly without any truncation or overlapping.
+keywords: Aspose.Cells for .NET, charting, data labels, shape resizing, text fitting, truncation, overlapping.
 type: docs
 weight: 220
 url: /net/resize-chart-s-data-label-shape-to-fit-text/

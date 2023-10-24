@@ -1,5 +1,7 @@
 ---
 title: Manipulate Position Size and Designer Chart
+description: Learn how to use Aspose.Cells for .NET to effectively manipulate the position, size, and designer chart in Microsoft Excel. Our guide will demonstrate how to adjust these properties for improved layout and visualization.
+keywords: Aspose.Cells for .NET, Position, Size, Designer Chart, Microsoft Excel, Layout, Visualization.
 type: docs
 weight: 45
 url: /net/manipulate-position-size-and-designer-chart/

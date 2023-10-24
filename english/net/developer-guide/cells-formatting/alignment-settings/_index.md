@@ -1,5 +1,7 @@
 ---
 title: Alignment Settings
+description: In the Aspose.Cells library, you can use cell alignment settings to adjust the layout and display of text. By adjusting settings such as horizontal alignment, vertical alignment, and text wrapping, you have more control over how text flows in cells. This document will provide you with detailed steps and sample code to help you quickly grasp how to use Aspose.Cells for cell alignment settings.
+keywords: Aspose.Cells, cell alignment, horizontal alignment, vertical alignment, text wrapping
 type: docs
 weight: 20
 url: /net/cells-alignment-settings/

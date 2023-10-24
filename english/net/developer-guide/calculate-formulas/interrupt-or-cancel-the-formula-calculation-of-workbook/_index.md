@@ -1,5 +1,7 @@
 ---
 title: Interrupt or Cancel the Formula Calculation of Workbook
+description: This article introduces how to use Aspose.Cells library to break or cancel formula calculations of workbooks in Microsoft Excel. By loading an existing Excel file or creating a new one, we can use the methods provided by Aspose.Cells to interrupt or cancel the formula calculation and get the result. Finally, we save the modified Excel file to disk.
+keywords: Aspose.Cells, Excel, workbooks, formula calculations, breaks, cancellations
 type: docs
 weight: 50
 url: /net/interrupt-or-cancel-the-formula-calculation-of-workbook/

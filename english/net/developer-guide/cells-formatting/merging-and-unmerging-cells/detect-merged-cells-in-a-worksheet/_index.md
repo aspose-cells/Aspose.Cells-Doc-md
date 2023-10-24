@@ -1,5 +1,7 @@
 ---
 title: Detect Merged Cells in a Worksheet
+description: Aspose.Cells is a .NET library for working with spreadsheet files. It supports detecting merged cells in a worksheet, making it easy for users to identify and manipulate these cells. This article will introduce how to use the Aspose.Cells library to detect merged cells.
+keywords: Aspose.Cells, Worksheet, Merge Cells, Detect, Identify, Operate
 type: docs
 weight: 80
 url: /net/detect-merged-cells-in-a-worksheet/

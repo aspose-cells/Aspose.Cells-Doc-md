@@ -1,5 +1,7 @@
 ---
 title: X Axis Vs. Category Axis
+description: Learn how to differentiate between the X axis and the Category axis in Aspose.Cells for .NET. Our guide will help you understand the differences in their usage and properties, and how to configure them according to your needs.
+keywords: Aspose.Cells for .NET, X axis, Category axis, difference, usage, properties, configuration.
 type: docs
 weight: 180
 url: /net/X-axis-vs-category-axis/

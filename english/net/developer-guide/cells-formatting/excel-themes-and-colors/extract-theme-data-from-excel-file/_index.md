@@ -1,5 +1,7 @@
 ---
 title: Extract Theme Data from Excel File
+description: Aspose.Cells is a .NET library for working with spreadsheet files. It supports extracting theme data from Excel files, allowing users to obtain the style and formatting information of documents. This article will introduce how to extract topic data from Excel files using the Aspose.Cells library.
+keywords: Aspose.Cells, Excel File, Theme Data, Style, Format
 type: docs
 weight: 120
 url: /net/extract-theme-data-from-excel-file/

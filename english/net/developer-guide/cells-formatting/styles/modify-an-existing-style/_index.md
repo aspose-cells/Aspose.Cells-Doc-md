@@ -1,5 +1,7 @@
 ---
 title: Modify an Existing Style
+description: Aspose.Cells is a .NET library for working with spreadsheet files that allows users to modify existing cell styles. This article will introduce how to modify an existing cell style with the Aspose.Cells library so that users can change the appearance of the cells as they need.
+keywords: Modify existing styles, customize the look and feel of your application, guides, tutorials, help documentation, development documentation, API references, sample code, downloads, support.
 type: docs
 weight: 90
 url: /net/modify-an-existing-style/

@@ -1,5 +1,7 @@
 ---
 title: Check Custom Number Format when Setting Style.Custom Property
+description: Aspose.Cells is a .NET library for working with spreadsheet files, which supports checking custom number formats when styling. This article will show you how to use the Aspose.Cells library to check custom number formats to ensure that the styling is correct.
+keywords: Aspose.Cells, NET libraries, spreadsheets, styling, custom number formatting, checking, validation
 type: docs
 weight: 170
 url: /net/check-custom-number-format-when-setting-style-custom-property/

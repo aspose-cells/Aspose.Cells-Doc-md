@@ -1,5 +1,7 @@
 ---
 title: Calculating IFNA function using Aspose.Cells
+description: How to calculate IFNA functions using the Aspose.Cells library. By loading an existing Excel file or creating a new Excel file, we can use the methods provided by Aspose.Cells to calculate the IFNA function and get the result. Finally, we save the modified Excel file to disk.
+keywords: Aspose.Cells, Excel, IFNA functions, calculations
 type: docs
 weight: 40
 url: /net/calculating-ifna-function-using-aspose-cells/

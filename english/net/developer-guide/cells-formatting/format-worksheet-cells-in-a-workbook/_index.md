@@ -1,5 +1,7 @@
 ---
 title: Format Worksheet Cells in a Workbook
+description: Aspose.Cells is a .NET library for working with spreadsheet files. It supports formatting worksheet cells in workbooks, allowing users to customize the appearance and style of the cells. This article will introduce how to format worksheet cells using the Aspose.Cells library.
+keywords: Aspose.Cells, Workbook, Worksheet, Cell, Formatting, Appearance, Style
 type: docs
 weight: 2000
 url: /net/format-worksheet-cells-in-a-workbook/

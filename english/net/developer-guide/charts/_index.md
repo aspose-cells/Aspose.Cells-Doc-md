@@ -1,5 +1,7 @@
 ---
 title: Create and Manage Chart
+description: Learn how to use Aspose.Cells for .NET to create charts in Microsoft Excel. Our guide will demonstrate the different types of charts that can be created, as well as how to customize their appearance and formatting.
+keywords: Aspose.Cells for .NET, Chart Creation, Microsoft Excel, Chart Types, Customization, Appearance, Formatting.
 linktitle: Charts
 type: docs
 weight: 130
