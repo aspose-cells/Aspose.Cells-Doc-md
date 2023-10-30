@@ -24,7 +24,7 @@ With following piece of code, a Style object is initiated for each cell when for
 
 {{< highlight csharp >}}
 
- cell.GetStyle().Font.IsBold = true;
+cell.GetStyle().Font.IsBold = true;
 
 
 
@@ -42,12 +42,12 @@ When calling the Cell.SetStyle method, the Style object isn't saved for each cel
 
 {{< highlight csharp >}}
 
- Style style = cell.GetStyle();
+Style style = cell.GetStyle();
 
 style.Font.IsBold = true;
 
 cell.SetStyle(style);
-
+{{< /highlight >}}
 
 ## **Advance topics**
 - [Create Style object using CellsFactory class](/cells/net/create-style-object-using-cellsfactory-class/)
