@@ -21,6 +21,7 @@ xs = x_spreadsheet(id, options)
 	    updateMode:  currently we only support 'server'
 	    updateUrl:  set the server side  url for update action based on json
 	    mode: read means readonly spread sheet/edit means we can edit the spread sheet
+            allowSelectTextInTextBoxInReadMode: whether allow select text in TextBox control when in read mode,the default value is false
 	    showToolbar:   means whether to show toolbar
 	    showFileName:  whether to show the filename 
 	    local:         support multiple language for menus ,the locale can be:
