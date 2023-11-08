@@ -8,6 +8,17 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 23.11
+
+* Support to convert spreadsheets to PDF file version 1.7
+* Support generating  ISO32000-1:2008 PDF
+* Support to insert form controls for GridJS
+* Support to show gradient fill of cell background for GridJS
+* Support to copy/delete/insert/rename worksheet for GridDesktop
+* Support auto extending max rows/columns when doing paste operation for GridDesktop
+* Support SheetPrintingPreview for GridDesktop
+* Provide .NET Core build of GridDesktop 
+
 ## Aspose.Cells for .NET 23.10
 
 * Support adaptive paste operation when size of target range is different from source range
