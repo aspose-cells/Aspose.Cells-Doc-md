@@ -43,6 +43,7 @@ This page contains release notes for [Aspose.Cells for .NET 23.11](https://www.n
 |CELLSNET-54475|Cells.UnhideRows() cannot work for empty rows when IsDefaultRowHidden is true|Bug
 |CELLSNET-54552|DataSorter sorting error with more than 1 sort key|Bug
 |CELLSNET-54531|InsertCutCells breaks cell reference|Bug
+|CELLSNET-54593|Hidden rows are incorrect after applying auto-filter|Bug
 |CELLSNET-53900|Graph lines disappear when converted to PDF or PNG |Bug
 |CELLSNET-54353|Chart with incorrect values when saving to image|Bug
 |CELLSNET-54385|Template replacement failed when calling Chart.ChangeTemplate method|Bug
