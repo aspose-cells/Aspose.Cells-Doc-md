@@ -8,6 +8,10 @@ url: /java/what-s-new-in-aspose-cells-for-java/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for Java 23.11
+
+* Support to convert spreadsheets to PDF file version 1.7(ISO32000-1:2008)
+
 ## Aspose.Cells for Java 23.10
 
 * Support to set hyperlinks directly to a Range

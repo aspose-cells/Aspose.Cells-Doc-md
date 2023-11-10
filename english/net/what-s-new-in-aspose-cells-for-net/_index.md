@@ -10,8 +10,7 @@ This page describes the most interesting new Aspose.Cells features introduced in
 
 ## Aspose.Cells for .NET 23.11
 
-* Support to convert spreadsheets to PDF file version 1.7
-* Support generating  ISO32000-1:2008 PDF
+* Support to convert spreadsheets to PDF file version 1.7(ISO32000-1:2008)
 * Support to insert form controls for GridJS
 * Support to show gradient fill of cell background for GridJS
 * Support to copy/delete/insert/rename worksheet for GridDesktop
