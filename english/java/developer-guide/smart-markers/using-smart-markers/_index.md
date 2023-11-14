@@ -75,7 +75,7 @@ The following illustrates a repeating dynamic formula and the resulting Excel wo
 
 Cell C1 contains the formula =A1*B1, C2 contains = A2*B2 and C3 = A3*B3.
 
-It's very easy to process the smart markers. The following code snippet shows how it is done.
+It's very easy to process the smart markers. Following example code shows on how to use dynamic formulas in Smart Markers. We load the [template file](templateDynamicFormulas.xlsx) and create test data, process the markers to fill data into the cells against the marker. 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-DynamicFormulas-DynamicFormulas.java" >}}
 
