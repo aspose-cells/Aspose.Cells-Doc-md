@@ -22,10 +22,9 @@ Aspose.Cells for PHP via Java 使用 JavaBridge 提供 Aspose.Cells for Java 的
 - [Aspose.Cells for Java 在线文档](/cells/zh/java/)（Aspose.Cells for PHP 通过 Java 是从 Aspose.Cells for Java 移植过来的。因此，您可以使用相同的文档）
 - [Aspose.Cells for PHP via Java 特点](/cells/zh/php-java/features/)
 - [Aspose.Cells for PHP via Java 限制和 API 差异](/cells/zh/php-java/limitations-and-api-differences/)
-- [Aspose.Cells for PHP via Java 发行说明](/cells/zh/php-java/release-notes/)
+- [Aspose.Cells for PHP via Java 发行说明](https://releases.aspose.com/zh/cells/php/release-notes/)
 - [Aspose.Cells for PHP via Java 产品页面](https://products.aspose.com/cells/php-java/)
 - [下载 Aspose.Cells for PHP via Java](https://downloads.aspose.com/cells/php)
 - [Aspose.Cells for PHP via Java API 参考指南](https://reference.aspose.com/cells/php)
 - [Aspose.Cells for PHP via Java 免费支持论坛](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for PHP via Java 付费支持服务台](https://helpdesk.aspose.com/)
-

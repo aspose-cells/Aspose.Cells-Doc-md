@@ -22,10 +22,9 @@ Aspose.Cells for Node.js via Java 使用 Node.js 介绍 Aspose.Cells for Java �
 - [Aspose.Cells for Java 在线文档](/cells/zh/java/)（Aspose.Cells for Node.js 通过 Java 是从 Aspose.Cells for Java 移植过来的。因此，您可以使用相同的文档）
 - [Aspose.Cells for Node.js via Java 特点](/cells/zh/nodejs-java/features/)
 - [Aspose.Cells for Node.js via Java 限制和 API 差异](/cells/zh/nodejs-java/limitations-and-api-differences/)
-- [Aspose.Cells for Node.js via Java 发行说明](/cells/zh/nodejs-java/release-notes/)
+- [Aspose.Cells for Node.js via Java 发行说明](https://releases.aspose.com/zh/cells/nodejs/release-notes/)
 - [Aspose.Cells for Node.js via Java 产品页面](https://products.aspose.com/cells/nodejs-java/)
 - [下载 Aspose.Cells for Node.js via Java](https://downloads.aspose.com/cells/nodejs)
 - [Aspose.Cells for Node.js via Java API 参考指南](https://reference.aspose.com/cells/nodejs)
 - [Aspose.Cells for Node.js via Java 免费支持论坛](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Node.js via Java 付费支持服务台](https://helpdesk.aspose.com/)
-

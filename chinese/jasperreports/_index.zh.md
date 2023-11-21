@@ -21,7 +21,7 @@ is_root: true
 
 - [Aspose.Cells for JasperReports 在线文档](/cells/zh/jasperreports/)
 - [Aspose.Cells for JasperReports 特点](/cells/zh/jasperreports/feature-overview/)
-- [Aspose.Cells for JasperReports 发行说明](/cells/zh/jasperreports/release-notes/)
+- [Aspose.Cells for JasperReports 发行说明](https://releases.aspose.com/zh/cells/jasperreports/release-notes/)
 - [Aspose.Cells for JasperReports 产品页面](https://products.aspose.com/cells/jasperreports/)
 - [下载 Aspose.Cells for JasperReports](https://downloads.aspose.com/cells/jasperreports)
 - [Aspose.Cells for JasperReports 免费支持论坛](https://forum.aspose.com/c/cells/9)

@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells for Android via Java 
+title: Aspose.Cells for Android via Java
 type: docs
 weight: 40
 url: /zh/androidjava/
@@ -22,7 +22,7 @@ Aspose.Cells for Android via Java 是一个灵活的组件，它使 Android 应�
 - [Aspose.Cells for Java 在线文档](/cells/zh/java/)（Aspose.Cells for Android via Java 与 Aspose.Cells for Java 非常相似。因此，您可以使用相同的文档）
 - [Aspose.Cells for Android via Java 特点](/cells/zh/java/aspose-cells-for-android-via-java-features/)
 - [Aspose.Cells for Android via Java 限制和 API 差异](/cells/zh/java/aspose-cells-for-android-via-java-limitations-and-api-differences/)
-- [Aspose.Cells for Android via Java 发行说明](/cells/zh/java/aspose-cells-for-android-via-java/)
+- [Aspose.Cells for Android via Java 发行说明](https://releases.aspose.com/zh/cells/androidjava/release-notes/)
 - [Aspose.Cells for Android via Java 产品页面](https://products.aspose.com/cells/android-java/)
 - [下载 Aspose.Cells for Android via Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)
 - [从 Maven 安装 Aspose.Cells for Android via Java](/cells/zh/java/aspose-cells-for-android-via-java-installation/#install-asposecells-for-android-via-java-from-maven-repository)

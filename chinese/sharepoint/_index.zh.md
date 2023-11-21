@@ -21,7 +21,7 @@ Aspose.Cells for SharePoint 是支持电子表格转换的灵活解决方案，�
 
 - [Aspose.Cells for SharePoint 在线文档](/cells/zh/sharepoint/)
 - [Aspose.Cells for SharePoint 特点](/cells/zh/sharepoint/features/)
-- [Aspose.Cells for SharePoint 发行说明](/cells/zh/sharepoint/release-notes/)
+- [Aspose.Cells for SharePoint 发行说明](https://releases.aspose.com/zh/cells/sharepoint/release-notes/)
 - [Aspose.Cells for SharePoint 产品页面](https://products.aspose.com/cells/python-java/)
 - [下载 Aspose.Cells for SharePoint](https://downloads.aspose.com/cells/sharepoint)
 - [Aspose.Cells for SharePoint 免费支持论坛](https://forum.aspose.com/c/cells/9)

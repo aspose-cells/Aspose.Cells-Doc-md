@@ -22,7 +22,7 @@ Aspose.Cells for C++ 是本机 C++ 库，使 C++ 开发人员能够以编程方�
 
 - [Aspose.Cells for C++ 在线文档](/cells/zh/cpp/)
 - [Aspose.Cells for C++ 特点](/cells/zh/cpp/product-overview/)
-- [Aspose.Cells for C++ 发行说明](/cells/zh/cpp/release-notes/)
+- [Aspose.Cells for C++ 发行说明](https://releases.aspose.com/zh/cells/cpp/release-notes/)
 - [Aspose.Cells for C++ 产品页面](https://products.aspose.com/cells/cpp/)
 - [安装 Aspose.Cells for C++ NuGet 包](https://www.nuget.org/packages/Aspose.Cells.CPP/)
 - [Aspose.Cells for C++ API 参考指南](https://reference.aspose.com/cells/cpp)

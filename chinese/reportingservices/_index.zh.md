@@ -16,7 +16,7 @@ Aspose.Cells for Reporting Services 是为需要在 Reporting Services 中交付
 
 - [Aspose.Cells for Reporting Services 在线文档](/cells/zh/reportingservices/)
 - [Aspose.Cells for Reporting Services 特点](/cells/zh/reportingservices/features/)
-- [Aspose.Cells for Reporting Services 发行说明](/cells/zh/reportingservices/release-notes/)
+- [Aspose.Cells for Reporting Services 发行说明](https://releases.aspose.com/zh/cells/reportingservices/release-notes/)
 - [Aspose.Cells for Reporting Services 产品页面](https://products.aspose.com/cells/reporting-services/)
 - [下载 Aspose.Cells for Reporting Services](https://downloads.aspose.com/cells/reportingservices)
 - [Aspose.Cells for Reporting Services 免费支持论坛](https://forum.aspose.com/c/cells/9)
