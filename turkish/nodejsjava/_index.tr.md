@@ -22,10 +22,9 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 - [Aspose.Cells for Java Çevrimiçi Dokümantasyon](/cells/tr/java/)(Aspose.Cells for Node.js, Java üzerinden Aspose.Cells for Java'den portlanmıştır. Yani aynı belgeleri kullanabilirsiniz)
 - [Aspose.Cells for Node.js via Java Özellikler](/cells/tr/nodejs-java/features/)
 - [Aspose.Cells for Node.js via Java Sınırlamalar ve API Farklar](/cells/tr/nodejs-java/limitations-and-api-differences/)
-- [Aspose.Cells for Node.js via Java Sürüm Notları](/cells/tr/nodejs-java/release-notes/)
+- [Aspose.Cells for Node.js via Java Sürüm Notları](https://releases.aspose.com/tr/cells/nodejs/release-notes/)
 - [Aspose.Cells for Node.js via Java Ürün Sayfası](https://products.aspose.com/cells/nodejs-java/)
 - [İndir Aspose.Cells for Node.js via Java](https://downloads.aspose.com/cells/nodejs)
 - [Aspose.Cells for Node.js via Java API Başvuru Kılavuzu](https://reference.aspose.com/cells/nodejs)
 - [Aspose.Cells for Node.js via Java Ücretsiz Destek Forumu](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Node.js via Java Ücretli Destek Yardım Masası](https://helpdesk.aspose.com/)
-

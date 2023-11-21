@@ -21,7 +21,7 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 - [Aspose.Cells for .NET Çevrimiçi Dokümantasyon](/cells/tr/net/)
 - [Aspose.Cells for .NET Özellikler](/cells/tr/net/feature-overview/)
 - [Aspose.Cells for .NET Sınırlamalar](/cells/tr/net/what-document-features-are-supported/)
-- [Aspose.Cells for .NET Sürüm Notları](/cells/tr/net/release-notes/)
+- [Aspose.Cells for .NET Sürüm Notları](https://releases.aspose.com/tr/cells/net/release-notes/)
 - [Aspose.Cells for .NET Ürün Sayfası](https://products.aspose.com/cells/net/)
 - [Kurulum Aspose.Cells for .NET NuGet Paketi](https://www.nuget.org/packages/Aspose.Cells/)
 - [Aspose.Cells for .NET API Başvuru Kılavuzu](https://reference.aspose.com/cells/net)
@@ -45,9 +45,9 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 - [Aspose.Cells for Java Çevrimiçi Dokümantasyon](/cells/tr/java/)
 - [Aspose.Cells for Java Özellikler](/cells/tr/java/feature-overview/)
 - [Aspose.Cells for Java Sınırlamalar](/cells/tr/java/aspose-cells-features/)
-- [Aspose.Cells for Java Sürüm Notları](/cells/tr/java/aspose-cells-for-java/)
+- [Aspose.Cells for Java Sürüm Notları](https://releases.aspose.com/tr/cells/java/release-notes/)
 - [Aspose.Cells for Java Ürün Sayfası](https://products.aspose.com/cells/java/)
-- [İndir Aspose.Cells for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)
+- [İndir Aspose.Cells for Java](https://releases.aspose.com/java/repo/com/aspose/aspose-cells/)
 - [Maven Deposundan Aspose.Cells for Java'i kurun](/cells/tr/java/installation/)
 - [Aspose.Cells for Java API Başvuru Kılavuzu](https://reference.aspose.com/cells/java)
 - [Aspose.Cells for Java Ücretsiz Destek Forumu](https://forum.aspose.com/c/cells/9)
@@ -69,7 +69,7 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 
 - [Aspose.Cells for C++ Çevrimiçi Dokümantasyon](/cells/tr/cpp/)
 - [Aspose.Cells for C++ Özellikler](/cells/tr/cpp/product-overview/)
-- [Aspose.Cells for C++ Sürüm Notları](/cells/tr/cpp/release-notes/)
+- [Aspose.Cells for C++ Sürüm Notları](https://releases.aspose.com/tr/cells/cpp/release-notes/)
 - [Aspose.Cells for C++ Ürün Sayfası](https://products.aspose.com/cells/cpp/)
 - [Kurulum Aspose.Cells for C++ NuGet Paketi](https://www.nuget.org/packages/Aspose.Cells.CPP/)
 - [Aspose.Cells for C++ API Başvuru Kılavuzu](https://reference.aspose.com/cells/cpp)
@@ -94,9 +94,9 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 - [Aspose.Cells for Java Çevrimiçi Dokümantasyon](/cells/tr/java/)(Aspose.Cells for Android via Java, Aspose.Cells for Java'e çok benzer. Yani aynı belgeleri kullanabilirsiniz)
 - [Aspose.Cells for Android via Java Özellikler](/cells/tr/java/aspose-cells-for-android-via-java-features/)
 - [Aspose.Cells for Android via Java Sınırlamalar ve API Farklar](/cells/tr/java/aspose-cells-for-android-via-java-limitations-and-api-differences/)
-- [Aspose.Cells for Android via Java Sürüm Notları](/cells/tr/java/aspose-cells-for-android-via-java/)
+- [Aspose.Cells for Android via Java Sürüm Notları](https://releases.aspose.com/tr/cells/androidjava/release-notes/)
 - [Aspose.Cells for Android via Java Ürün Sayfası](https://products.aspose.com/cells/android-java/)
-- [İndir Aspose.Cells for Android via Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)
+- [İndir Aspose.Cells for Android via Java](https://releases.aspose.com/java/repo/com/aspose/aspose-cells/)
 - [Aspose.Cells for Android via Java'i Maven'den yükleyin](/cells/tr/java/aspose-cells-for-android-via-java-installation/#install-asposecells-for-android-via-java-from-maven-repository)
 - [Aspose.Cells for Android via Java API Başvuru Kılavuzu](https://reference.aspose.com/cells/java)(Aspose.Cells for Android via Java, Aspose.Cells for Java'e çok benzer. Yani aynı API Referans Kılavuzunu kullanabilirsiniz)
 
@@ -117,7 +117,7 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 - [Aspose.Cells for Java Çevrimiçi Dokümantasyon](/cells/tr/java/)(Aspose.Cells for Node.js, Java üzerinden Aspose.Cells for Java'den portlanmıştır. Yani aynı belgeleri kullanabilirsiniz)
 - [Aspose.Cells for Node.js via Java Özellikler](/cells/tr/nodejsjava/features/)
 - [Aspose.Cells for Node.js via Java Sınırlamalar ve API Farklar](/cells/tr/nodejsjava/limitations-and-api-differences/)
-- [Aspose.Cells for Node.js via Java Sürüm Notları](/cells/tr/nodejsjava/release-notes/)
+- [Aspose.Cells for Node.js via Java Sürüm Notları](https://releases.aspose.com/tr/cells/nodejs/release-notes/)
 - [Aspose.Cells for Node.js via Java Ürün Sayfası](https://products.aspose.com/cells/nodejs-java/)
 - [İndir Aspose.Cells for Node.js via Java](https://downloads.aspose.com/cells/nodejs)
 - [Aspose.Cells for Node.js via Java API Başvuru Kılavuzu](https://reference.aspose.com/cells/nodejs)
@@ -141,7 +141,7 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 - [Aspose.Cells for Java Çevrimiçi Dokümantasyon](/cells/tr/java/)(Aspose.Cells for PHP, Java üzerinden Aspose.Cells for Java'den portlanmıştır. Yani aynı belgeleri kullanabilirsiniz)
 - [Aspose.Cells for PHP via Java Özellikler](/cells/tr/phpjava/features/)
 - [Aspose.Cells for PHP via Java Sınırlamalar ve API Farklar](/cells/tr/java/aspose-cells-for-php-via-java-limitations-and-api-differences/)
-- [Aspose.Cells for PHP via Java Sürüm Notları](/cells/tr/phpjava/release-notes/)
+- [Aspose.Cells for PHP via Java Sürüm Notları](https://releases.aspose.com/tr/cells/php/release-notes/)
 - [Aspose.Cells for PHP via Java Ürün Sayfası](https://products.aspose.com/cells/php-java/)
 - [İndir Aspose.Cells for PHP via Java](https://downloads.aspose.com/cells/php)
 - [Aspose.Cells for PHP via Java API Başvuru Kılavuzu](https://reference.aspose.com/cells/php)
@@ -164,7 +164,7 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 
 - [Aspose.Cells for Java Çevrimiçi Dokümantasyon](/cells/tr/java/)(Aspose.Cells for Python via Java, Aspose.Cells for Java'e çok benzer. Yani aynı belgeleri kullanabilirsiniz)
 - [Aspose.Cells for Python via Java Özellikler](/cells/tr/python-java/features/)
-- [Aspose.Cells for Python via Java Sürüm Notları](/cells/tr/python-java/release-notes/)
+- [Aspose.Cells for Python via Java Sürüm Notları](https://releases.aspose.com/tr/cells/python-java/release-notes/)
 - [Aspose.Cells for Python via Java Ürün Sayfası](https://products.aspose.com/cells/python-java/)
 - [İndir Aspose.Cells for Python via Java](https://downloads.aspose.com/cells/python-java)
 - [Aspose.Cells for Python via Java API Başvuru Kılavuzu](https://reference.aspose.com/cells/python-java)
@@ -175,7 +175,7 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 
 ![Aspose.Cells for Reporting Services Product Logo](aspose-cells-for-ssrs.png)
 
-**Hoşgeldiniz Aspose.Cells for Reporting Services** 
+**Hoşgeldiniz Aspose.Cells for Reporting Services**
 
 Aspose.Cells for Reporting Services, Raporlama Servislerinde Microsoft Excel raporlarını teslim etmesi gereken geliştiriciler için bir çözümdür. Aspose.Cells.Report.Designer aracı aracılığıyla Raporlama Servislerine esnek ve kullanıcı dostu özellikler ekler. API, veri kaynaklarının ayarlanması, sorguların oluşturulması, raporların tasarlanması ve Rapor Sunucusunda raporların yayınlanması gibi Raporlama Servislerinde raporların geliştirilmesi ile ilgili tüm görevleri gerçekleştirebilir. Aspose.Cells.Report.Designer, rapor şablonu olarak Microsoft Excel'i kullandığından, kullanıcılar Microsoft Excel'de bulunan güçlü özelliklerden yararlanabilir.
 
@@ -187,7 +187,7 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 
 - [Aspose.Cells for Reporting Services Çevrimiçi Dokümantasyon](/cells/tr/reportingservices/)
 - [Aspose.Cells for Reporting Services Özellikler](/cells/tr/reportingservices/features/)
-- [Aspose.Cells for Reporting Services Sürüm Notları](/cells/tr/reportingservices/release-notes/)
+- [Aspose.Cells for Reporting Services Sürüm Notları](https://releases.aspose.com/tr/cells/reportingservices/release-notes/)
 - [Aspose.Cells for Reporting Services Ürün Sayfası](https://products.aspose.com/cells/reporting-services/)
 - [İndir Aspose.Cells for Reporting Services](https://downloads.aspose.com/cells/reportingservices)
 - [Aspose.Cells for Reporting Services Ücretsiz Destek Forumu](https://forum.aspose.com/c/cells/9)
@@ -209,7 +209,7 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 
 - [Aspose.Cells for SharePoint Çevrimiçi Dokümantasyon](/cells/tr/sharepoint/)
 - [Aspose.Cells for SharePoint Özellikler](/cells/tr/sharepoint/features/)
-- [Aspose.Cells for SharePoint Sürüm Notları](/cells/tr/sharepoint/release-notes/)
+- [Aspose.Cells for SharePoint Sürüm Notları](https://releases.aspose.com/tr/cells/sharepoint/release-notes/)
 - [Aspose.Cells for SharePoint Ürün Sayfası](https://products.aspose.com/cells/sharepoint/)
 - [İndir Aspose.Cells for SharePoint](https://downloads.aspose.com/cells/sharepoint)
 - [Aspose.Cells for SharePoint Ücretsiz Destek Forumu](https://forum.aspose.com/c/cells/9)
@@ -231,7 +231,7 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 
 - [Aspose.Cells for JasperReports Çevrimiçi Dokümantasyon](/cells/tr/jasperreports/)
 - [Aspose.Cells for JasperReports Özellikler](/cells/tr/jasperreports/feature-overview/)
-- [Aspose.Cells for JasperReports Sürüm Notları](/cells/tr/jasperreports/release-notes/)
+- [Aspose.Cells for JasperReports Sürüm Notları](https://releases.aspose.com/tr/cells/jasperreports/release-notes/)
 - [Aspose.Cells for JasperReports Ürün Sayfası](https://products.aspose.com/cells/jasperreports/)
 - [İndir Aspose.Cells for JasperReports](https://downloads.aspose.com/cells/jasperreports)
 - [Aspose.Cells for JasperReports Ücretsiz Destek Forumu](https://forum.aspose.com/c/cells/9)
@@ -252,9 +252,8 @@ Aspose.Cells for Python via .NET, uygulamalarınızın çok çeşitli elektronik
 Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz bazı yararlı kaynakların bağlantıları bulunmaktadır.
 
 - [Aspose.Cells for Python via .NET Özellikler](/cells/tr/python-net/features/)
-- [Aspose.Cells for Python via .NET Sürüm Notları](/cells/tr/python-net/release-notes/)
+- [Aspose.Cells for Python via .NET Sürüm Notları](https://releases.aspose.com/tr/cells/python-net/release-notes/)
 - [Aspose.Cells for Python via .NET Ürün Sayfası](https://products.aspose.com/cells/python-net/)
 - [İndir Aspose.Cells for Python via .NET](https://downloads.aspose.com/cells/python-net)
 - [Aspose.Cells for Python via .NET Ücretsiz Destek Forumu](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Python via .NET Ücretli Destek Yardım Masası](https://helpdesk.aspose.com/)
-

@@ -30,7 +30,7 @@ Aspose.Cells for .NET, işletmenizin her gün kullandığı popüler e-tablo (XL
 				<li><a href="/cells/tr/net/what-s-new-in-aspose-cells-for-net/">Aspose.Cells'deki yenilikler for .NET</a></li>
 				<li><a href="/cells/tr/net/product-overview/">Ürüne Genel Bakış</a></li>
 				<li><a href="/cells/tr/net/licensing/">Lisanslama ve Abonelik</a></li>
-			    <li><a href="/cells/tr/net/release-notes/">Aspose.Cells for .NET Sürüm Notları</a></li>
+			    <li><a href="https://releases.aspose.com/tr/cells/net/release-notes/">Aspose.Cells for .NET Sürüm Notları</a></li>
 			</ul>            
 	        <p>Yararlı Kaynaklar</p>
 			<ul>
@@ -65,7 +65,7 @@ Aspose.Cells for .NET, işletmenizin her gün kullandığı popüler e-tablo (XL
 				<li><a href="/cells/tr/net/convert-workbook-to-different-formats/">Oluşturma ve Dönüştürme</a></li>
 				<li><a href="/cells/tr/net/print-and-preview/">Yazdır ve Önizle</a></li>
 				<li><a href="https://reference.aspose.com/cells/net">Aspose.Cells for .NET API Başvuru Kılavuzu</a></li>
-			</ul>	
+			</ul>
 			<p>Teknik Destek</p>
 			<ul>
 				<li><a href="https://forum.aspose.com/c/cells/9">Aspose.Cells for .NET Ücretsiz Destek Forumu</a></li>
@@ -73,4 +73,3 @@ Aspose.Cells for .NET, işletmenizin her gün kullandığı popüler e-tablo (XL
 			</ul>
 	</div>
 </div>
-

@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells for Android via Java 
+title: Aspose.Cells for Android via Java
 type: docs
 weight: 40
 url: /tr/androidjava/
@@ -22,8 +22,8 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 - [Aspose.Cells for Java Çevrimiçi Dokümantasyon](/cells/tr/java/)(Aspose.Cells for Android via Java, Aspose.Cells for Java'e çok benzer. Yani aynı belgeleri kullanabilirsiniz)
 - [Aspose.Cells for Android via Java Özellikler](/cells/tr/java/aspose-cells-for-android-via-java-features/)
 - [Aspose.Cells for Android via Java Sınırlamalar ve API Farklar](/cells/tr/java/aspose-cells-for-android-via-java-limitations-and-api-differences/)
-- [Aspose.Cells for Android via Java Sürüm Notları](/cells/tr/java/aspose-cells-for-android-via-java/)
+- [Aspose.Cells for Android via Java Sürüm Notları](https://releases.aspose.com/tr/cells/androidjava/release-notes/)
 - [Aspose.Cells for Android via Java Ürün Sayfası](https://products.aspose.com/cells/android-java/)
-- [İndir Aspose.Cells for Android via Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)
+- [İndir Aspose.Cells for Android via Java](https://releases.aspose.com/java/repo/com/aspose/aspose-cells/)
 - [Aspose.Cells for Android via Java'i Maven'den yükleyin](/cells/tr/java/aspose-cells-for-android-via-java-installation/#install-asposecells-for-android-via-java-from-maven-repository)
 - [Aspose.Cells for Android via Java API Başvuru Kılavuzu](https://reference.aspose.com/cells/java)(Aspose.Cells for Android via Java, Aspose.Cells for Java'e çok benzer. Yani aynı API Referans Kılavuzunu kullanabilirsiniz)

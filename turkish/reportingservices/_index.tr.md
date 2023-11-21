@@ -16,7 +16,7 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 
 - [Aspose.Cells for Reporting Services Çevrimiçi Dokümantasyon](/cells/tr/reportingservices/)
 - [Aspose.Cells for Reporting Services Özellikler](/cells/tr/reportingservices/features/)
-- [Aspose.Cells for Reporting Services Sürüm Notları](/cells/tr/reportingservices/release-notes/)
+- [Aspose.Cells for Reporting Services Sürüm Notları](https://releases.aspose.com/tr/cells/reportingservices/release-notes/)
 - [Aspose.Cells for Reporting Services Ürün Sayfası](https://products.aspose.com/cells/reporting-services/)
 - [İndir Aspose.Cells for Reporting Services](https://downloads.aspose.com/cells/reportingservices)
 - [Aspose.Cells for Reporting Services Ücretsiz Destek Forumu](https://forum.aspose.com/c/cells/9)

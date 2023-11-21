@@ -28,11 +28,10 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 - [Aspose.Cells for Java Çevrimiçi Dokümantasyon](/cells/tr/java/)
 - [Aspose.Cells for Java Özellikler](/cells/tr/java/feature-overview/)
 - [Aspose.Cells for Java Sınırlamalar](/cells/tr/java/aspose-cells-features/)
-- [Aspose.Cells for Java Sürüm Notları](/cells/tr/java/aspose-cells-for-java/)
+- [Aspose.Cells for Java Sürüm Notları](https://releases.aspose.com/tr/cells/java/release-notes/)
 - [Aspose.Cells for Java Ürün Sayfası](https://products.aspose.com/cells/java/)
-- [İndir Aspose.Cells for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)
+- [İndir Aspose.Cells for Java](https://releases.aspose.com/java/repo/com/aspose/aspose-cells/)
 - [Maven Deposundan Aspose.Cells for Java'i kurun](/cells/tr/java/installation/)
 - [Aspose.Cells for Java API Başvuru Kılavuzu](https://reference.aspose.com/cells/java)
 - [Aspose.Cells for Java Ücretsiz Destek Forumu](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Java Ücretli Destek Yardım Masası](https://helpdesk.aspose.com/)
-

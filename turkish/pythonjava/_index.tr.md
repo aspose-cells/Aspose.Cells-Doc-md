@@ -22,7 +22,7 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 
 - [Aspose.Cells for Java Çevrimiçi Dokümantasyon](/cells/tr/java/)(Aspose.Cells for Python via Java, Aspose.Cells for Java'e çok benzer. Yani aynı belgeleri kullanabilirsiniz)
 - [Aspose.Cells for Python via Java Özellikler](/cells/tr/pythonjava/features/)
-- [Aspose.Cells for Python via Java Sürüm Notları](/cells/tr/pythonjava/release-notes/)
+- [Aspose.Cells for Python via Java Sürüm Notları](https://releases.aspose.com/tr/cells/python-java/release-notes/)
 - [Aspose.Cells for Python via Java Ürün Sayfası](https://products.aspose.com/cells/python-java/)
 - [İndir Aspose.Cells for Python via Java](https://downloads.aspose.com/cells/python-java)
 - [Aspose.Cells for Python via Java API Başvuru Kılavuzu](https://reference.aspose.com/cells/python)

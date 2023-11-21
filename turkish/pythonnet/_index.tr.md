@@ -22,7 +22,7 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 
 - [Aspose.Cells for .NET Çevrimiçi Dokümantasyon](/cells/tr/net/)(Aspose.Cells for Python via .NET, Aspose.Cells for .NET'e çok benzer. Yani aynı belgeleri kullanabilirsiniz)
 - [Aspose.Cells for Python via .NET Özellikler](/cells/tr/python-net/features/)
-- [Aspose.Cells for Python via .NET Sürüm Notları](/cells/tr/python-net/release-notes/)
+- [Aspose.Cells for Python via .NET Sürüm Notları](https://releases.aspose.com/tr/cells/python-net/release-notes/)
 - [Aspose.Cells for Python via .NET Ürün Sayfası](https://products.aspose.com/cells/python-net/)
 - [İndir Aspose.Cells for Python via .NET](https://downloads.aspose.com/cells/python-net)
 - [Aspose.Cells for Python via .NET Ücretsiz Destek Forumu](https://forum.aspose.com/c/cells/9)

@@ -22,7 +22,7 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 
 - [Aspose.Cells for C++ Çevrimiçi Dokümantasyon](/cells/tr/cpp/)
 - [Aspose.Cells for C++ Özellikler](/cells/tr/cpp/product-overview/)
-- [Aspose.Cells for C++ Sürüm Notları](/cells/tr/cpp/release-notes/)
+- [Aspose.Cells for C++ Sürüm Notları](https://releases.aspose.com/tr/cells/cpp/release-notes/)
 - [Aspose.Cells for C++ Ürün Sayfası](https://products.aspose.com/cells/cpp/)
 - [Kurulum Aspose.Cells for C++ NuGet Paketi](https://www.nuget.org/packages/Aspose.Cells.CPP/)
 - [Aspose.Cells for C++ API Başvuru Kılavuzu](https://reference.aspose.com/cells/cpp)

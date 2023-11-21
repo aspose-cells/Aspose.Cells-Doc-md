@@ -21,7 +21,7 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 
 - [Aspose.Cells for SharePoint Çevrimiçi Dokümantasyon](/cells/tr/sharepoint/)
 - [Aspose.Cells for SharePoint Özellikler](/cells/tr/sharepoint/features/)
-- [Aspose.Cells for SharePoint Sürüm Notları](/cells/tr/sharepoint/release-notes/)
+- [Aspose.Cells for SharePoint Sürüm Notları](https://releases.aspose.com/tr/cells/sharepoint/release-notes/)
 - [Aspose.Cells for SharePoint Ürün Sayfası](https://products.aspose.com/cells/python-java/)
 - [İndir Aspose.Cells for SharePoint](https://downloads.aspose.com/cells/sharepoint)
 - [Aspose.Cells for SharePoint Ücretsiz Destek Forumu](https://forum.aspose.com/c/cells/9)

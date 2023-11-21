@@ -22,10 +22,9 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 - [Aspose.Cells for Java Çevrimiçi Dokümantasyon](/cells/tr/java/)(Aspose.Cells for PHP, Java üzerinden Aspose.Cells for Java'den portlanmıştır. Yani aynı belgeleri kullanabilirsiniz)
 - [Aspose.Cells for PHP via Java Özellikler](/cells/tr/php-java/features/)
 - [Aspose.Cells for PHP via Java Sınırlamalar ve API Farklar](/cells/tr/php-java/limitations-and-api-differences/)
-- [Aspose.Cells for PHP via Java Sürüm Notları](/cells/tr/php-java/release-notes/)
+- [Aspose.Cells for PHP via Java Sürüm Notları](https://releases.aspose.com/tr/cells/php/release-notes/)
 - [Aspose.Cells for PHP via Java Ürün Sayfası](https://products.aspose.com/cells/php-java/)
 - [İndir Aspose.Cells for PHP via Java](https://downloads.aspose.com/cells/php)
 - [Aspose.Cells for PHP via Java API Başvuru Kılavuzu](https://reference.aspose.com/cells/php)
 - [Aspose.Cells for PHP via Java Ücretsiz Destek Forumu](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for PHP via Java Ücretli Destek Yardım Masası](https://helpdesk.aspose.com/)
-

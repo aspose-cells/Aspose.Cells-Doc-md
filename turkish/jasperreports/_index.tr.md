@@ -21,7 +21,7 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 
 - [Aspose.Cells for JasperReports Çevrimiçi Dokümantasyon](/cells/tr/jasperreports/)
 - [Aspose.Cells for JasperReports Özellikler](/cells/tr/jasperreports/feature-overview/)
-- [Aspose.Cells for JasperReports Sürüm Notları](/cells/tr/jasperreports/release-notes/)
+- [Aspose.Cells for JasperReports Sürüm Notları](https://releases.aspose.com/tr/cells/jasperreports/release-notes/)
 - [Aspose.Cells for JasperReports Ürün Sayfası](https://products.aspose.com/cells/jasperreports/)
 - [İndir Aspose.Cells for JasperReports](https://downloads.aspose.com/cells/jasperreports)
 - [Aspose.Cells for JasperReports Ücretsiz Destek Forumu](https://forum.aspose.com/c/cells/9)
