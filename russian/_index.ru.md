@@ -21,7 +21,7 @@ Aspose.Cells for .NET — это библиотека для программи�
 - [Aspose.Cells for .NET Онлайн-документация](/cells/ru/net/)
 - [Aspose.Cells for .NET Особенности](/cells/ru/net/feature-overview/)
 - [Aspose.Cells for .NET Ограничения](/cells/ru/net/what-document-features-are-supported/)
-- [Aspose.Cells for .NET Примечания к выпуску](/cells/ru/net/release-notes/)
+- [Aspose.Cells for .NET Примечания к выпуску](https://releases.aspose.com/ru/cells/net/release-notes/)
 - [Aspose.Cells for .NET Страница продукта](https://products.aspose.com/cells/net/)
 - [Установить пакет Aspose.Cells for .NET NuGet](https://www.nuget.org/packages/Aspose.Cells/)
 - [Aspose.Cells for .NET API Справочное руководство](https://reference.aspose.com/cells/net)
@@ -45,9 +45,9 @@ Aspose.Cells for Java — это библиотека классов, котор
 - [Aspose.Cells for Java Онлайн-документация](/cells/ru/java/)
 - [Aspose.Cells for Java Особенности](/cells/ru/java/feature-overview/)
 - [Aspose.Cells for Java Ограничения](/cells/ru/java/aspose-cells-features/)
-- [Aspose.Cells for Java Примечания к выпуску](/cells/ru/java/aspose-cells-for-java/)
+- [Aspose.Cells for Java Примечания к выпуску](https://releases.aspose.com/ru/cells/java/release-notes/)
 - [Aspose.Cells for Java Страница продукта](https://products.aspose.com/cells/java/)
-- [Скачать Aspose.Cells for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)
+- [Скачать Aspose.Cells for Java](https://releases.aspose.com/java/repo/com/aspose/aspose-cells/)
 - [Установите Aspose.Cells for Java из репозитория Maven](/cells/ru/java/installation/)
 - [Aspose.Cells for Java API Справочное руководство](https://reference.aspose.com/cells/java)
 - [Aspose.Cells for Java Форум бесплатной поддержки](https://forum.aspose.com/c/cells/9)
@@ -69,7 +69,7 @@ Aspose.Cells for C++ — это собственная библиотека C++,
 
 - [Aspose.Cells for C++ Онлайн-документация](/cells/ru/cpp/)
 - [Aspose.Cells for C++ Особенности](/cells/ru/cpp/product-overview/)
-- [Aspose.Cells for C++ Примечания к выпуску](/cells/ru/cpp/release-notes/)
+- [Aspose.Cells for C++ Примечания к выпуску](https://releases.aspose.com/ru/cells/cpp/release-notes/)
 - [Aspose.Cells for C++ Страница продукта](https://products.aspose.com/cells/cpp/)
 - [Установить пакет Aspose.Cells for C++ NuGet](https://www.nuget.org/packages/Aspose.Cells.CPP/)
 - [Aspose.Cells for C++ API Справочное руководство](https://reference.aspose.com/cells/cpp)
@@ -94,9 +94,9 @@ Aspose.Cells for Android via Java — это гибкий компонент, к
 - [Aspose.Cells for Java Онлайн-документация](/cells/ru/java/)(Aspose.Cells for Android via Java очень похож на Aspose.Cells for Java. Таким образом, вы можете использовать ту же документацию)
 - [Aspose.Cells for Android via Java Особенности](/cells/ru/java/aspose-cells-for-android-via-java-features/)
 - [Aspose.Cells for Android via Java Ограничения и API Различия](/cells/ru/java/aspose-cells-for-android-via-java-limitations-and-api-differences/)
-- [Aspose.Cells for Android via Java Примечания к выпуску](/cells/ru/java/aspose-cells-for-android-via-java/)
+- [Aspose.Cells for Android via Java Примечания к выпуску](https://releases.aspose.com/ru/cells/androidjava/release-notes/)
 - [Aspose.Cells for Android via Java Страница продукта](https://products.aspose.com/cells/android-java/)
-- [Скачать Aspose.Cells for Android via Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)
+- [Скачать Aspose.Cells for Android via Java](https://releases.aspose.com/java/repo/com/aspose/aspose-cells/)
 - [Установить Aspose.Cells for Android via Java из Maven](/cells/ru/java/aspose-cells-for-android-via-java-installation/#install-asposecells-for-android-via-java-from-maven-repository)
 - [Aspose.Cells for Android via Java API Справочное руководство](https://reference.aspose.com/cells/java)(Aspose.Cells for Android via Java очень похож на Aspose.Cells for Java. Таким образом, вы можете использовать тот же справочник API)
 
@@ -117,7 +117,7 @@ Aspose.Cells for Node.js via Java представляет все полезны
 - [Aspose.Cells for Java Онлайн-документация](/cells/ru/java/)(Aspose.Cells for Node.js через Java перенесено с Aspose.Cells for Java. Таким образом, вы можете использовать ту же документацию)
 - [Aspose.Cells for Node.js via Java Особенности](/cells/ru/nodejsjava/features/)
 - [Aspose.Cells for Node.js via Java Ограничения и API Различия](/cells/ru/nodejsjava/limitations-and-api-differences/)
-- [Aspose.Cells for Node.js via Java Примечания к выпуску](/cells/ru/nodejsjava/release-notes/)
+- [Aspose.Cells for Node.js via Java Примечания к выпуску](https://releases.aspose.com/ru/cells/nodejs/release-notes/)
 - [Aspose.Cells for Node.js via Java Страница продукта](https://products.aspose.com/cells/nodejs-java/)
 - [Скачать Aspose.Cells for Node.js via Java](https://downloads.aspose.com/cells/nodejs)
 - [Aspose.Cells for Node.js via Java API Справочное руководство](https://reference.aspose.com/cells/nodejs)
@@ -141,7 +141,7 @@ Aspose.Cells for PHP via Java предоставляет все ценные ф�
 - [Aspose.Cells for Java Онлайн-документация](/cells/ru/java/)(Aspose.Cells for PHP через Java перенесено с Aspose.Cells for Java. Таким образом, вы можете использовать ту же документацию)
 - [Aspose.Cells for PHP via Java Особенности](/cells/ru/phpjava/features/)
 - [Aspose.Cells for PHP via Java Ограничения и API Различия](/cells/ru/java/aspose-cells-for-php-via-java-limitations-and-api-differences/)
-- [Aspose.Cells for PHP via Java Примечания к выпуску](/cells/ru/phpjava/release-notes/)
+- [Aspose.Cells for PHP via Java Примечания к выпуску](https://releases.aspose.com/ru/cells/php/release-notes/)
 - [Aspose.Cells for PHP via Java Страница продукта](https://products.aspose.com/cells/php-java/)
 - [Скачать Aspose.Cells for PHP via Java](https://downloads.aspose.com/cells/php)
 - [Aspose.Cells for PHP via Java API Справочное руководство](https://reference.aspose.com/cells/php)
@@ -164,7 +164,7 @@ Aspose.Cells for Python via Java позволяет вашим приложен�
 
 - [Aspose.Cells for Java Онлайн-документация](/cells/ru/java/)(Aspose.Cells for Python via Java очень похож на Aspose.Cells for Java. Таким образом, вы можете использовать ту же документацию)
 - [Aspose.Cells for Python via Java Особенности](/cells/ru/python-java/features/)
-- [Aspose.Cells for Python via Java Примечания к выпуску](/cells/ru/python-java/release-notes/)
+- [Aspose.Cells for Python via Java Примечания к выпуску](https://releases.aspose.com/ru/cells/python-java/release-notes/)
 - [Aspose.Cells for Python via Java Страница продукта](https://products.aspose.com/cells/python-java/)
 - [Скачать Aspose.Cells for Python via Java](https://downloads.aspose.com/cells/python-java)
 - [Aspose.Cells for Python via Java API Справочное руководство](https://reference.aspose.com/cells/python-java)
@@ -175,7 +175,7 @@ Aspose.Cells for Python via Java позволяет вашим приложен�
 
 ![Aspose.Cells for Reporting Services Логотип продукта](aspose-cells-for-ssrs.png)
 
-**Добро пожаловать в Aspose.Cells for Reporting Services** 
+**Добро пожаловать в Aspose.Cells for Reporting Services**
 
 Aspose.Cells for Reporting Services — это решение для разработчиков, которым необходимо предоставлять Microsoft отчеты Excel в службах Reporting Services. Он добавляет гибкие и удобные функции Reporting Services через инструмент Aspose.Cells.Report.Designer. API может выполнять все задачи, связанные с разработкой отчетов в службах Reporting Services, такие как настройка источников данных, создание запросов, разработка отчетов и публикация отчетов на сервере отчетов. Поскольку Aspose.Cells.Report.Designer использует Microsoft Excel в качестве шаблона отчета, пользователи могут воспользоваться мощными функциями, доступными в Microsoft Excel.
 
@@ -187,7 +187,7 @@ Aspose.Cells for Reporting Services — это решение для разра�
 
 - [Aspose.Cells for Reporting Services Онлайн-документация](/cells/ru/reportingservices/)
 - [Aspose.Cells for Reporting Services Особенности](/cells/ru/reportingservices/features/)
-- [Aspose.Cells for Reporting Services Примечания к выпуску](/cells/ru/reportingservices/release-notes/)
+- [Aspose.Cells for Reporting Services Примечания к выпуску](https://releases.aspose.com/ru/cells/reportingservices/release-notes/)
 - [Aspose.Cells for Reporting Services Страница продукта](https://products.aspose.com/cells/reporting-services/)
 - [Скачать Aspose.Cells for Reporting Services](https://downloads.aspose.com/cells/reportingservices)
 - [Aspose.Cells for Reporting Services Форум бесплатной поддержки](https://forum.aspose.com/c/cells/9)
@@ -209,7 +209,7 @@ Aspose.Cells for SharePoint — это гибкое решение, поддер
 
 - [Aspose.Cells for SharePoint Онлайн-документация](/cells/ru/sharepoint/)
 - [Aspose.Cells for SharePoint Особенности](/cells/ru/sharepoint/features/)
-- [Aspose.Cells for SharePoint Примечания к выпуску](/cells/ru/sharepoint/release-notes/)
+- [Aspose.Cells for SharePoint Примечания к выпуску](https://releases.aspose.com/ru/cells/sharepoint/release-notes/)
 - [Aspose.Cells for SharePoint Страница продукта](https://products.aspose.com/cells/sharepoint/)
 - [Скачать Aspose.Cells for SharePoint](https://downloads.aspose.com/cells/sharepoint)
 - [Aspose.Cells for SharePoint Форум бесплатной поддержки](https://forum.aspose.com/c/cells/9)
@@ -231,7 +231,7 @@ Aspose.Cells for SharePoint — это гибкое решение, поддер
 
 - [Aspose.Cells for JasperReports Онлайн-документация](/cells/ru/jasperreports/)
 - [Aspose.Cells for JasperReports Особенности](/cells/ru/jasperreports/feature-overview/)
-- [Aspose.Cells for JasperReports Примечания к выпуску](/cells/ru/jasperreports/release-notes/)
+- [Aspose.Cells for JasperReports Примечания к выпуску](https://releases.aspose.com/ru/cells/jasperreports/release-notes/)
 - [Aspose.Cells for JasperReports Страница продукта](https://products.aspose.com/cells/jasperreports/)
 - [Скачать Aspose.Cells for JasperReports](https://downloads.aspose.com/cells/jasperreports)
 - [Aspose.Cells for JasperReports Форум бесплатной поддержки](https://forum.aspose.com/c/cells/9)
@@ -252,9 +252,8 @@ Aspose.Cells for Python via .NET позволяет вашим приложен�
 Ниже приведены ссылки на некоторые полезные ресурсы, которые могут вам понадобиться для выполнения ваших задач.
 
 - [Aspose.Cells for Python via .NET Особенности](/cells/ru/python-net/features/)
-- [Aspose.Cells for Python via .NET Примечания к выпуску](/cells/ru/python-net/release-notes/)
+- [Aspose.Cells for Python via .NET Примечания к выпуску](https://releases.aspose.com/ru/cells/python-net/release-notes/)
 - [Aspose.Cells for Python via .NET Страница продукта](https://products.aspose.com/cells/python-net/)
 - [Скачать Aspose.Cells for Python via .NET](https://downloads.aspose.com/cells/python-net)
 - [Aspose.Cells for Python via .NET Форум бесплатной поддержки](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Python via .NET Платная служба поддержки](https://helpdesk.aspose.com/)
-

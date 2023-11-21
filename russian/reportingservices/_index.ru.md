@@ -16,7 +16,7 @@ Aspose.Cells for Reporting Services — это решение для разра�
 
 - [Aspose.Cells for Reporting Services Онлайн-документация](/cells/ru/reportingservices/)
 - [Aspose.Cells for Reporting Services Особенности](/cells/ru/reportingservices/features/)
-- [Aspose.Cells for Reporting Services Примечания к выпуску](/cells/ru/reportingservices/release-notes/)
+- [Aspose.Cells for Reporting Services Примечания к выпуску](https://releases.aspose.com/ru/cells/reportingservices/release-notes/)
 - [Aspose.Cells for Reporting Services Страница продукта](https://products.aspose.com/cells/reporting-services/)
 - [Скачать Aspose.Cells for Reporting Services](https://downloads.aspose.com/cells/reportingservices)
 - [Aspose.Cells for Reporting Services Форум бесплатной поддержки](https://forum.aspose.com/c/cells/9)

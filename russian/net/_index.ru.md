@@ -30,7 +30,7 @@ Aspose.Cells for .NET поддерживает популярные формат
 				<li><a href="/cells/ru/net/what-s-new-in-aspose-cells-for-net/">Что нового в Aspose.Cells for .NET</a></li>
 				<li><a href="/cells/ru/net/product-overview/">Обзор продукта</a></li>
 				<li><a href="/cells/ru/net/licensing/">Лицензирование и подписка</a></li>
-			    <li><a href="/cells/ru/net/release-notes/">Aspose.Cells for .NET Примечания к выпуску</a></li>
+			    <li><a href="https://releases.aspose.com/ru/cells/net/release-notes/">Aspose.Cells for .NET Примечания к выпуску</a></li>
 			</ul>            
 	        <p>Полезные ресурсы</p>
 			<ul>
@@ -65,7 +65,7 @@ Aspose.Cells for .NET поддерживает популярные формат
 				<li><a href="/cells/ru/net/convert-workbook-to-different-formats/">Рендеринг и конвертация</a></li>
 				<li><a href="/cells/ru/net/print-and-preview/">Печать и предварительный просмотр</a></li>
 				<li><a href="https://reference.aspose.com/cells/net">Aspose.Cells for .NET API Справочное руководство</a></li>
-			</ul>	
+			</ul>
 			<p>Техническая поддержка</p>
 			<ul>
 				<li><a href="https://forum.aspose.com/c/cells/9">Aspose.Cells for .NET Форум бесплатной поддержки</a></li>
@@ -73,4 +73,3 @@ Aspose.Cells for .NET поддерживает популярные формат
 			</ul>
 	</div>
 </div>
-

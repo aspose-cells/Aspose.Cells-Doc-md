@@ -21,7 +21,7 @@ Aspose.Cells for SharePoint — это гибкое решение, поддер
 
 - [Aspose.Cells for SharePoint Онлайн-документация](/cells/ru/sharepoint/)
 - [Aspose.Cells for SharePoint Особенности](/cells/ru/sharepoint/features/)
-- [Aspose.Cells for SharePoint Примечания к выпуску](/cells/ru/sharepoint/release-notes/)
+- [Aspose.Cells for SharePoint Примечания к выпуску](https://releases.aspose.com/ru/cells/sharepoint/release-notes/)
 - [Aspose.Cells for SharePoint Страница продукта](https://products.aspose.com/cells/python-java/)
 - [Скачать Aspose.Cells for SharePoint](https://downloads.aspose.com/cells/sharepoint)
 - [Aspose.Cells for SharePoint Форум бесплатной поддержки](https://forum.aspose.com/c/cells/9)

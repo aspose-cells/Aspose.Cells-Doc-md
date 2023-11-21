@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells for Android via Java 
+title: Aspose.Cells for Android via Java
 type: docs
 weight: 40
 url: /ru/androidjava/
@@ -22,8 +22,8 @@ Aspose.Cells for Android via Java — это гибкий компонент, к
 - [Aspose.Cells for Java Онлайн-документация](/cells/ru/java/)(Aspose.Cells for Android via Java очень похож на Aspose.Cells for Java. Таким образом, вы можете использовать ту же документацию)
 - [Aspose.Cells for Android via Java Особенности](/cells/ru/java/aspose-cells-for-android-via-java-features/)
 - [Aspose.Cells for Android via Java Ограничения и API Различия](/cells/ru/java/aspose-cells-for-android-via-java-limitations-and-api-differences/)
-- [Aspose.Cells for Android via Java Примечания к выпуску](/cells/ru/java/aspose-cells-for-android-via-java/)
+- [Aspose.Cells for Android via Java Примечания к выпуску](https://releases.aspose.com/ru/cells/androidjava/release-notes/)
 - [Aspose.Cells for Android via Java Страница продукта](https://products.aspose.com/cells/android-java/)
-- [Скачать Aspose.Cells for Android via Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)
+- [Скачать Aspose.Cells for Android via Java](https://releases.aspose.com/java/repo/com/aspose/aspose-cells/)
 - [Установить Aspose.Cells for Android via Java из Maven](/cells/ru/java/aspose-cells-for-android-via-java-installation/#install-asposecells-for-android-via-java-from-maven-repository)
 - [Aspose.Cells for Android via Java API Справочное руководство](https://reference.aspose.com/cells/java)(Aspose.Cells for Android via Java очень похож на Aspose.Cells for Java. Таким образом, вы можете использовать тот же справочник API)

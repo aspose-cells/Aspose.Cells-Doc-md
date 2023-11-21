@@ -22,10 +22,9 @@ Aspose.Cells for PHP via Java предоставляет все ценные ф�
 - [Aspose.Cells for Java Онлайн-документация](/cells/ru/java/)(Aspose.Cells for PHP через Java перенесено с Aspose.Cells for Java. Таким образом, вы можете использовать ту же документацию)
 - [Aspose.Cells for PHP via Java Особенности](/cells/ru/php-java/features/)
 - [Aspose.Cells for PHP via Java Ограничения и API Различия](/cells/ru/php-java/limitations-and-api-differences/)
-- [Aspose.Cells for PHP via Java Примечания к выпуску](/cells/ru/php-java/release-notes/)
+- [Aspose.Cells for PHP via Java Примечания к выпуску](https://releases.aspose.com/ru/cells/php/release-notes/)
 - [Aspose.Cells for PHP via Java Страница продукта](https://products.aspose.com/cells/php-java/)
 - [Скачать Aspose.Cells for PHP via Java](https://downloads.aspose.com/cells/php)
 - [Aspose.Cells for PHP via Java API Справочное руководство](https://reference.aspose.com/cells/php)
 - [Aspose.Cells for PHP via Java Форум бесплатной поддержки](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for PHP via Java Платная служба поддержки](https://helpdesk.aspose.com/)
-

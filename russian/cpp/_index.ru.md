@@ -22,7 +22,7 @@ Aspose.Cells for C++ — это собственная библиотека C++,
 
 - [Aspose.Cells for C++ Онлайн-документация](/cells/ru/cpp/)
 - [Aspose.Cells for C++ Особенности](/cells/ru/cpp/product-overview/)
-- [Aspose.Cells for C++ Примечания к выпуску](/cells/ru/cpp/release-notes/)
+- [Aspose.Cells for C++ Примечания к выпуску](https://releases.aspose.com/ru/cells/cpp/release-notes/)
 - [Aspose.Cells for C++ Страница продукта](https://products.aspose.com/cells/cpp/)
 - [Установить пакет Aspose.Cells for C++ NuGet](https://www.nuget.org/packages/Aspose.Cells.CPP/)
 - [Aspose.Cells for C++ API Справочное руководство](https://reference.aspose.com/cells/cpp)

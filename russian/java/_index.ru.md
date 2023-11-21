@@ -28,11 +28,10 @@ Aspose.Cells for Java поддерживает популярные формат
 - [Aspose.Cells for Java Онлайн-документация](/cells/ru/java/)
 - [Aspose.Cells for Java Особенности](/cells/ru/java/feature-overview/)
 - [Aspose.Cells for Java Ограничения](/cells/ru/java/aspose-cells-features/)
-- [Aspose.Cells for Java Примечания к выпуску](/cells/ru/java/aspose-cells-for-java/)
+- [Aspose.Cells for Java Примечания к выпуску](https://releases.aspose.com/ru/cells/java/release-notes/)
 - [Aspose.Cells for Java Страница продукта](https://products.aspose.com/cells/java/)
-- [Скачать Aspose.Cells for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)
+- [Скачать Aspose.Cells for Java](https://releases.aspose.com/java/repo/com/aspose/aspose-cells/)
 - [Установите Aspose.Cells for Java из репозитория Maven](/cells/ru/java/installation/)
 - [Aspose.Cells for Java API Справочное руководство](https://reference.aspose.com/cells/java)
 - [Aspose.Cells for Java Форум бесплатной поддержки](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Java Платная служба поддержки](https://helpdesk.aspose.com/)
-
