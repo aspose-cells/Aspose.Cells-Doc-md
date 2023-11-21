@@ -16,7 +16,7 @@ Vous trouverez ci-dessous des liens vers des ressources utiles dont vous pourrie
 
 - [Aspose.Cells for Reporting Services Documentation en ligne](/cells/fr/reportingservices/)
 - [Aspose.Cells for Reporting Services Caractéristiques](/cells/fr/reportingservices/features/)
-- [Aspose.Cells for Reporting Services Notes de mise à jour](/cells/fr/reportingservices/release-notes/)
+- [Aspose.Cells for Reporting Services Notes de mise à jour](https://releases.aspose.com/fr/cells/reportingservices/release-notes/)
 - [Aspose.Cells for Reporting Services Page produit](https://products.aspose.com/cells/reporting-services/)
 - [Télécharger Aspose.Cells for Reporting Services](https://downloads.aspose.com/cells/reportingservices)
 - [Aspose.Cells for Reporting Services Forum d'assistance gratuit](https://forum.aspose.com/c/cells/9)
