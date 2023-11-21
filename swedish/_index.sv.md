@@ -21,7 +21,7 @@ Följande är länkarna till några användbara resurser som du kan behöva för
 - [Aspose.Cells for .NET Onlinedokumentation](/cells/sv/net/)
 - [Aspose.Cells for .NET Funktioner](/cells/sv/net/feature-overview/)
 - [Aspose.Cells for .NET Begränsningar](/cells/sv/net/what-document-features-are-supported/)
-- [Aspose.Cells for .NET Release Notes](/cells/sv/net/release-notes/)
+- [Aspose.Cells for .NET Release Notes](https://releases.aspose.com/cells/net/release-notes/)
 - [Aspose.Cells for .NET Produktsida](https://products.aspose.com/cells/net/)
 - [Installera Aspose.Cells for .NET NuGet Paket](https://www.nuget.org/packages/Aspose.Cells/)
 - [Aspose.Cells for .NET API Referensguide](https://reference.aspose.com/cells/net)
@@ -45,9 +45,9 @@ Följande är länkarna till några användbara resurser som du kan behöva för
 - [Aspose.Cells for Java Onlinedokumentation](/cells/sv/java/)
 - [Aspose.Cells for Java Funktioner](/cells/sv/java/feature-overview/)
 - [Aspose.Cells for Java Begränsningar](/cells/sv/java/aspose-cells-features/)
-- [Aspose.Cells for Java Release Notes](/cells/sv/java/aspose-cells-for-java/)
+- [Aspose.Cells for Java Release Notes](https://releases.aspose.com/cells/java/release-notes/)
 - [Aspose.Cells for Java Produktsida](https://products.aspose.com/cells/java/)
-- [Ladda ner Aspose.Cells for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)
+- [Ladda ner Aspose.Cells for Java](https://releases.aspose.com/java/repo/com/aspose/aspose-cells/)
 - [Installera Aspose.Cells for Java från Maven Repository](/cells/sv/java/installation/)
 - [Aspose.Cells for Java API Referensguide](https://reference.aspose.com/cells/java)
 - [Aspose.Cells for Java Gratis supportforum](https://forum.aspose.com/c/cells/9)
@@ -69,7 +69,7 @@ Följande är länkarna till några användbara resurser som du kan behöva för
 
 - [Aspose.Cells for C++ Onlinedokumentation](/cells/sv/cpp/)
 - [Aspose.Cells for C++ Funktioner](/cells/sv/cpp/product-overview/)
-- [Aspose.Cells for C++ Release Notes](/cells/sv/cpp/release-notes/)
+- [Aspose.Cells for C++ Release Notes](https://releases.aspose.com/cells/cpp/release-notes/)
 - [Aspose.Cells for C++ Produktsida](https://products.aspose.com/cells/cpp/)
 - [Installera Aspose.Cells for C++ NuGet Paket](https://www.nuget.org/packages/Aspose.Cells.CPP/)
 - [Aspose.Cells for C++ API Referensguide](https://reference.aspose.com/cells/cpp)
@@ -94,9 +94,9 @@ Följande är länkarna till några användbara resurser som du kan behöva för
 - [Aspose.Cells for Java Onlinedokumentation](/cells/sv/java/)(Aspose.Cells for Android via Java är mycket lik Aspose.Cells for Java. Så du kan använda samma dokumentation)
 - [Aspose.Cells for Android via Java Funktioner](/cells/sv/java/aspose-cells-for-android-via-java-features/)
 - [Aspose.Cells for Android via Java Begränsningar och API Skillnader](/cells/sv/java/aspose-cells-for-android-via-java-limitations-and-api-differences/)
-- [Aspose.Cells for Android via Java Release Notes](/cells/sv/java/aspose-cells-for-android-via-java/)
+- [Aspose.Cells for Android via Java Release Notes](https://releases.aspose.com/cells/androidjava/release-notes/)
 - [Aspose.Cells for Android via Java Produktsida](https://products.aspose.com/cells/android-java/)
-- [Ladda ner Aspose.Cells for Android via Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)
+- [Ladda ner Aspose.Cells for Android via Java](https://releases.aspose.com/java/repo/com/aspose/aspose-cells/)
 - [Installera Aspose.Cells for Android via Java från Maven](/cells/sv/java/aspose-cells-for-android-via-java-installation/#install-asposecells-for-android-via-java-from-maven-repository)
 - [Aspose.Cells for Android via Java API Referensguide](https://reference.aspose.com/cells/java)(Aspose.Cells for Android via Java är mycket lik Aspose.Cells for Java. Så du kan använda samma API referensguide)
 
@@ -117,7 +117,7 @@ Följande är länkarna till några användbara resurser som du kan behöva för
 - [Aspose.Cells for Java Onlinedokumentation](/cells/sv/java/)(Aspose.Cells for Node.js via Java porteras från Aspose.Cells for Java. Så du kan använda samma dokumentation)
 - [Aspose.Cells for Node.js via Java Funktioner](/cells/sv/nodejsjava/features/)
 - [Aspose.Cells for Node.js via Java Begränsningar och API Skillnader](/cells/sv/nodejsjava/limitations-and-api-differences/)
-- [Aspose.Cells for Node.js via Java Release Notes](/cells/sv/nodejsjava/release-notes/)
+- [Aspose.Cells for Node.js via Java Release Notes](https://releases.aspose.com/cells/nodejs/release-notes/)
 - [Aspose.Cells for Node.js via Java Produktsida](https://products.aspose.com/cells/nodejs-java/)
 - [Ladda ner Aspose.Cells for Node.js via Java](https://downloads.aspose.com/cells/nodejs)
 - [Aspose.Cells for Node.js via Java API Referensguide](https://reference.aspose.com/cells/nodejs)
@@ -141,7 +141,7 @@ Följande är länkarna till några användbara resurser som du kan behöva för
 - [Aspose.Cells for Java Onlinedokumentation](/cells/sv/java/)(Aspose.Cells for PHP via Java porteras från Aspose.Cells for Java. Så du kan använda samma dokumentation)
 - [Aspose.Cells for PHP via Java Funktioner](/cells/sv/phpjava/features/)
 - [Aspose.Cells for PHP via Java Begränsningar och API Skillnader](/cells/sv/java/aspose-cells-for-php-via-java-limitations-and-api-differences/)
-- [Aspose.Cells for PHP via Java Release Notes](/cells/sv/phpjava/release-notes/)
+- [Aspose.Cells for PHP via Java Release Notes](https://releases.aspose.com/cells/php/release-notes/)
 - [Aspose.Cells for PHP via Java Produktsida](https://products.aspose.com/cells/php-java/)
 - [Ladda ner Aspose.Cells for PHP via Java](https://downloads.aspose.com/cells/php)
 - [Aspose.Cells for PHP via Java API Referensguide](https://reference.aspose.com/cells/php)
@@ -164,7 +164,7 @@ Följande är länkarna till några användbara resurser som du kan behöva för
 
 - [Aspose.Cells for Java Onlinedokumentation](/cells/sv/java/)(Aspose.Cells for Python via Java är mycket lik Aspose.Cells for Java. Så du kan använda samma dokumentation)
 - [Aspose.Cells for Python via Java Funktioner](/cells/sv/python-java/features/)
-- [Aspose.Cells for Python via Java Release Notes](/cells/sv/python-java/release-notes/)
+- [Aspose.Cells for Python via Java Release Notes](https://releases.aspose.com/cells/python-java/release-notes/)
 - [Aspose.Cells for Python via Java Produktsida](https://products.aspose.com/cells/python-java/)
 - [Ladda ner Aspose.Cells for Python via Java](https://downloads.aspose.com/cells/python-java)
 - [Aspose.Cells for Python via Java API Referensguide](https://reference.aspose.com/cells/python-java)
@@ -175,7 +175,7 @@ Följande är länkarna till några användbara resurser som du kan behöva för
 
 ![Aspose.Cells for Reporting Services Produktlogotyp](aspose-cells-for-ssrs.png)
 
-**Välkommen till Aspose.Cells for Reporting Services** 
+**Välkommen till Aspose.Cells for Reporting Services**
 
 Aspose.Cells for Reporting Services är en lösning för utvecklare som behöver leverera Microsoft Excel-rapporter i Reporting Services. Den lägger till flexibla och användarvänliga funktioner i Reporting Services genom verktyget Aspose.Cells.Report.Designer. API kan utföra alla uppgifter relaterade till att utveckla rapporter i Reporting Services som att ställa in datakällor, skapa frågor, designa rapporter och publicera rapporter till Report Server. Eftersom Aspose.Cells.Report.Designer använder Microsoft Excel som rapportmall kan användare dra nytta av de kraftfulla funktionerna som finns i Microsoft Excel.
 
@@ -187,7 +187,7 @@ Följande är länkarna till några användbara resurser som du kan behöva för
 
 - [Aspose.Cells for Reporting Services Onlinedokumentation](/cells/sv/reportingservices/)
 - [Aspose.Cells for Reporting Services Funktioner](/cells/sv/reportingservices/features/)
-- [Aspose.Cells for Reporting Services Release Notes](/cells/sv/reportingservices/release-notes/)
+- [Aspose.Cells for Reporting Services Release Notes](https://releases.aspose.com/cells/reportingservices/release-notes/)
 - [Aspose.Cells for Reporting Services Produktsida](https://products.aspose.com/cells/reporting-services/)
 - [Ladda ner Aspose.Cells for Reporting Services](https://downloads.aspose.com/cells/reportingservices)
 - [Aspose.Cells for Reporting Services Gratis supportforum](https://forum.aspose.com/c/cells/9)
@@ -209,7 +209,7 @@ Följande är länkarna till några användbara resurser som du kan behöva för
 
 - [Aspose.Cells for SharePoint Onlinedokumentation](/cells/sv/sharepoint/)
 - [Aspose.Cells for SharePoint Funktioner](/cells/sv/sharepoint/features/)
-- [Aspose.Cells for SharePoint Release Notes](/cells/sv/sharepoint/release-notes/)
+- [Aspose.Cells for SharePoint Release Notes](https://releases.aspose.com/cells/sharepoint/release-notes/)
 - [Aspose.Cells for SharePoint Produktsida](https://products.aspose.com/cells/sharepoint/)
 - [Ladda ner Aspose.Cells for SharePoint](https://downloads.aspose.com/cells/sharepoint)
 - [Aspose.Cells for SharePoint Gratis supportforum](https://forum.aspose.com/c/cells/9)
@@ -231,7 +231,7 @@ Följande är länkarna till några användbara resurser som du kan behöva för
 
 - [Aspose.Cells for JasperReports Onlinedokumentation](/cells/sv/jasperreports/)
 - [Aspose.Cells for JasperReports Funktioner](/cells/sv/jasperreports/feature-overview/)
-- [Aspose.Cells for JasperReports Release Notes](/cells/sv/jasperreports/release-notes/)
+- [Aspose.Cells for JasperReports Release Notes](https://releases.aspose.com/cells/jasperreports/release-notes/)
 - [Aspose.Cells for JasperReports Produktsida](https://products.aspose.com/cells/jasperreports/)
 - [Ladda ner Aspose.Cells for JasperReports](https://downloads.aspose.com/cells/jasperreports)
 - [Aspose.Cells for JasperReports Gratis supportforum](https://forum.aspose.com/c/cells/9)
@@ -252,9 +252,8 @@ Aspose.Cells for Python via .NET gör det möjligt för dina applikationer att u
 Följande är länkarna till några användbara resurser som du kan behöva för att utföra dina uppgifter.
 
 - [Aspose.Cells for Python via .NET Funktioner](/cells/sv/python-net/features/)
-- [Aspose.Cells for Python via .NET Release Notes](/cells/sv/python-net/release-notes/)
+- [Aspose.Cells for Python via .NET Release Notes](https://releases.aspose.com/cells/python-net/release-notes/)
 - [Aspose.Cells for Python via .NET Produktsida](https://products.aspose.com/cells/python-net/)
 - [Ladda ner Aspose.Cells for Python via .NET](https://downloads.aspose.com/cells/python-net)
 - [Aspose.Cells for Python via .NET Gratis supportforum](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Python via .NET Betald Support Helpdesk](https://helpdesk.aspose.com/)
-

@@ -30,7 +30,7 @@ Aspose.Cells for .NET stöder de populära kalkylarksfilformaten (XLS, XLSX, XLS
 				<li><a href="/cells/sv/net/what-s-new-in-aspose-cells-for-net/">Vad är nytt i Aspose.Cells for .NET</a></li>
 				<li><a href="/cells/sv/net/product-overview/">Produktöversikt</a></li>
 				<li><a href="/cells/sv/net/licensing/">Licensiering och prenumeration</a></li>
-			    <li><a href="/cells/sv/net/release-notes/">Aspose.Cells for .NET Release Notes</a></li>
+			    <li><a href="https://releases.aspose.com/cells/net/release-notes/">Aspose.Cells for .NET Release Notes</a></li>
 			</ul>            
 	        <p>Användbara resurser</p>
 			<ul>
@@ -65,7 +65,7 @@ Aspose.Cells for .NET stöder de populära kalkylarksfilformaten (XLS, XLSX, XLS
 				<li><a href="/cells/sv/net/convert-workbook-to-different-formats/">Rendering och konvertering</a></li>
 				<li><a href="/cells/sv/net/print-and-preview/">Skriv ut och förhandsgranska</a></li>
 				<li><a href="https://reference.aspose.com/cells/net">Aspose.Cells for .NET API Referensguide</a></li>
-			</ul>	
+			</ul>
 			<p>Teknisk support</p>
 			<ul>
 				<li><a href="https://forum.aspose.com/c/cells/9">Aspose.Cells for .NET Gratis supportforum</a></li>
@@ -73,4 +73,3 @@ Aspose.Cells for .NET stöder de populära kalkylarksfilformaten (XLS, XLSX, XLS
 			</ul>
 	</div>
 </div>
-

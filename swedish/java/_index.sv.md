@@ -28,11 +28,10 @@ Följande är länkarna till några användbara resurser som du kan behöva för
 - [Aspose.Cells for Java Onlinedokumentation](/cells/sv/java/)
 - [Aspose.Cells for Java Funktioner](/cells/sv/java/feature-overview/)
 - [Aspose.Cells for Java Begränsningar](/cells/sv/java/aspose-cells-features/)
-- [Aspose.Cells for Java Release Notes](/cells/sv/java/aspose-cells-for-java/)
+- [Aspose.Cells for Java Release Notes](https://releases.aspose.com/cells/java/release-notes/)
 - [Aspose.Cells for Java Produktsida](https://products.aspose.com/cells/java/)
-- [Ladda ner Aspose.Cells for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)
+- [Ladda ner Aspose.Cells for Java](https://releases.aspose.com/java/repo/com/aspose/aspose-cells/)
 - [Installera Aspose.Cells for Java från Maven Repository](/cells/sv/java/installation/)
 - [Aspose.Cells for Java API Referensguide](https://reference.aspose.com/cells/java)
 - [Aspose.Cells for Java Gratis supportforum](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Java Betald Support Helpdesk](https://helpdesk.aspose.com/)
-

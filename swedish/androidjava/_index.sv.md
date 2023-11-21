@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells for Android via Java 
+title: Aspose.Cells for Android via Java
 type: docs
 weight: 40
 url: /sv/androidjava/
@@ -22,8 +22,8 @@ Följande är länkarna till några användbara resurser som du kan behöva för
 - [Aspose.Cells for Java Onlinedokumentation](/cells/sv/java/)(Aspose.Cells for Android via Java är mycket lik Aspose.Cells for Java. Så du kan använda samma dokumentation)
 - [Aspose.Cells for Android via Java Funktioner](/cells/sv/java/aspose-cells-for-android-via-java-features/)
 - [Aspose.Cells for Android via Java Begränsningar och API Skillnader](/cells/sv/java/aspose-cells-for-android-via-java-limitations-and-api-differences/)
-- [Aspose.Cells for Android via Java Release Notes](/cells/sv/java/aspose-cells-for-android-via-java/)
+- [Aspose.Cells for Android via Java Release Notes](https://releases.aspose.com/cells/androidjava/release-notes/)
 - [Aspose.Cells for Android via Java Produktsida](https://products.aspose.com/cells/android-java/)
-- [Ladda ner Aspose.Cells for Android via Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)
+- [Ladda ner Aspose.Cells for Android via Java](https://releases.aspose.com/java/repo/com/aspose/aspose-cells/)
 - [Installera Aspose.Cells for Android via Java från Maven](/cells/sv/java/aspose-cells-for-android-via-java-installation/#install-asposecells-for-android-via-java-from-maven-repository)
 - [Aspose.Cells for Android via Java API Referensguide](https://reference.aspose.com/cells/java)(Aspose.Cells for Android via Java är mycket lik Aspose.Cells for Java. Så du kan använda samma API referensguide)
