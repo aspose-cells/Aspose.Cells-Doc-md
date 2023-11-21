@@ -16,7 +16,7 @@ Aspose.Cells for Reporting Services は、Reporting Services で Microsoft Excel
 
 - [Aspose.Cells for Reporting Services オンライン ドキュメント](/cells/ja/reportingservices/)
 - [Aspose.Cells for Reporting Services 特徴](/cells/ja/reportingservices/features/)
-- [Aspose.Cells for Reporting Services リリースノート](/cells/ja/reportingservices/release-notes/)
+- [Aspose.Cells for Reporting Services リリースノート](https://releases.aspose.com/ja/cells/reportingservices/release-notes/)
 - [Aspose.Cells for Reporting Services 商品ページ](https://products.aspose.com/cells/reporting-services/)
 - [ダウンロード Aspose.Cells for Reporting Services](https://downloads.aspose.com/cells/reportingservices)
 - [Aspose.Cells for Reporting Services 無料サポートフォーラム](https://forum.aspose.com/c/cells/9)

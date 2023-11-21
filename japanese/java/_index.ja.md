@@ -28,11 +28,10 @@ Aspose.Cells for Java は、ビジネスで毎日使用する一般的なスプ�
 - [Aspose.Cells for Java オンライン ドキュメント](/cells/ja/java/)
 - [Aspose.Cells for Java 特徴](/cells/ja/java/feature-overview/)
 - [Aspose.Cells for Java 制限事項](/cells/ja/java/aspose-cells-features/)
-- [Aspose.Cells for Java リリースノート](/cells/ja/java/aspose-cells-for-java/)
+- [Aspose.Cells for Java リリースノート](https://releases.aspose.com/ja/cells/java/release-notes/)
 - [Aspose.Cells for Java 商品ページ](https://products.aspose.com/cells/java/)
-- [ダウンロード Aspose.Cells for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)
+- [ダウンロード Aspose.Cells for Java](https://releases.aspose.com/java/repo/com/aspose/aspose-cells/)
 - [Maven リポジトリから Aspose.Cells for Java をインストールします。](/cells/ja/java/installation/)
 - [Aspose.Cells for Java API リファレンスガイド](https://reference.aspose.com/cells/java)
 - [Aspose.Cells for Java 無料サポートフォーラム](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Java 有料サポート ヘルプデスク](https://helpdesk.aspose.com/)
-

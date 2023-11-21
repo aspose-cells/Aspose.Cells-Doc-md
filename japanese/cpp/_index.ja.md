@@ -22,7 +22,7 @@ Aspose.Cells for C++ は、C++ 開発者が Office Automation や Microsoft Exce
 
 - [Aspose.Cells for C++ オンライン ドキュメント](/cells/ja/cpp/)
 - [Aspose.Cells for C++ 特徴](/cells/ja/cpp/product-overview/)
-- [Aspose.Cells for C++ リリースノート](/cells/ja/cpp/release-notes/)
+- [Aspose.Cells for C++ リリースノート](https://releases.aspose.com/ja/cells/cpp/release-notes/)
 - [Aspose.Cells for C++ 商品ページ](https://products.aspose.com/cells/cpp/)
 - [Aspose.Cells for C++ NuGet パッケージをインストール](https://www.nuget.org/packages/Aspose.Cells.CPP/)
 - [Aspose.Cells for C++ API リファレンスガイド](https://reference.aspose.com/cells/cpp)

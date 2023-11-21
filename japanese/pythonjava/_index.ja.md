@@ -22,7 +22,7 @@ Aspose.Cells for Python via Java を使用すると、アプリケーション�
 
 - [Aspose.Cells for Java オンライン ドキュメント](/cells/ja/java/)(Aspose.Cells for Python via Java は Aspose.Cells for Java と非常によく似ています。したがって、同じドキュメントを使用できます)
 - [Aspose.Cells for Python via Java 特徴](/cells/ja/pythonjava/features/)
-- [Aspose.Cells for Python via Java リリースノート](/cells/ja/pythonjava/release-notes/)
+- [Aspose.Cells for Python via Java リリースノート](https://releases.aspose.com/ja/cells/python-java/release-notes/)
 - [Aspose.Cells for Python via Java 商品ページ](https://products.aspose.com/cells/python-java/)
 - [ダウンロード Aspose.Cells for Python via Java](https://downloads.aspose.com/cells/python-java)
 - [Aspose.Cells for Python via Java API リファレンスガイド](https://reference.aspose.com/cells/python)

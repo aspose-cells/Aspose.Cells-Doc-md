@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells for Android via Java 
+title: Aspose.Cells for Android via Java
 type: docs
 weight: 40
 url: /ja/androidjava/
@@ -22,8 +22,8 @@ Aspose.Cells for Android via Java は、Android アプリケーションが Micr
 - [Aspose.Cells for Java オンライン ドキュメント](/cells/ja/java/)(Aspose.Cells for Android via Java は Aspose.Cells for Java と非常によく似ています。したがって、同じドキュメントを使用できます)
 - [Aspose.Cells for Android via Java 特徴](/cells/ja/java/aspose-cells-for-android-via-java-features/)
 - [Aspose.Cells for Android via Java 制限事項と API 相違点](/cells/ja/java/aspose-cells-for-android-via-java-limitations-and-api-differences/)
-- [Aspose.Cells for Android via Java リリースノート](/cells/ja/java/aspose-cells-for-android-via-java/)
+- [Aspose.Cells for Android via Java リリースノート](https://releases.aspose.com/ja/cells/androidjava/release-notes/)
 - [Aspose.Cells for Android via Java 商品ページ](https://products.aspose.com/cells/android-java/)
-- [ダウンロード Aspose.Cells for Android via Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)
+- [ダウンロード Aspose.Cells for Android via Java](https://releases.aspose.com/java/repo/com/aspose/aspose-cells/)
 - [Maven から Aspose.Cells for Android via Java をインストール](/cells/ja/java/aspose-cells-for-android-via-java-installation/#install-asposecells-for-android-via-java-from-maven-repository)
 - [Aspose.Cells for Android via Java API リファレンスガイド](https://reference.aspose.com/cells/java)(Aspose.Cells for Android via Java は Aspose.Cells for Java と非常によく似ています。したがって、同じ API 参照ガイドを使用できます)

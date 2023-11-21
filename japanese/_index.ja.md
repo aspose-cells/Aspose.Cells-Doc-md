@@ -21,7 +21,7 @@ Aspose.Cells for .NET は、ソフトウェア開発者が独自のアプリケ�
 - [Aspose.Cells for .NET オンライン ドキュメント](/cells/ja/net/)
 - [Aspose.Cells for .NET 特徴](/cells/ja/net/feature-overview/)
 - [Aspose.Cells for .NET 制限事項](/cells/ja/net/what-document-features-are-supported/)
-- [Aspose.Cells for .NET リリースノート](/cells/ja/net/release-notes/)
+- [Aspose.Cells for .NET リリースノート](https://releases.aspose.com/ja/cells/net/release-notes/)
 - [Aspose.Cells for .NET 商品ページ](https://products.aspose.com/cells/net/)
 - [Aspose.Cells for .NET NuGet パッケージをインストール](https://www.nuget.org/packages/Aspose.Cells/)
 - [Aspose.Cells for .NET API リファレンスガイド](https://reference.aspose.com/cells/net)
@@ -45,9 +45,9 @@ Aspose.Cells for Java は、アプリケーションでさまざまなスプレ�
 - [Aspose.Cells for Java オンライン ドキュメント](/cells/ja/java/)
 - [Aspose.Cells for Java 特徴](/cells/ja/java/feature-overview/)
 - [Aspose.Cells for Java 制限事項](/cells/ja/java/aspose-cells-features/)
-- [Aspose.Cells for Java リリースノート](/cells/ja/java/aspose-cells-for-java/)
+- [Aspose.Cells for Java リリースノート](https://releases.aspose.com/ja/cells/java/release-notes/)
 - [Aspose.Cells for Java 商品ページ](https://products.aspose.com/cells/java/)
-- [ダウンロード Aspose.Cells for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)
+- [ダウンロード Aspose.Cells for Java](https://releases.aspose.com/java/repo/com/aspose/aspose-cells/)
 - [Maven リポジトリから Aspose.Cells for Java をインストールします。](/cells/ja/java/installation/)
 - [Aspose.Cells for Java API リファレンスガイド](https://reference.aspose.com/cells/java)
 - [Aspose.Cells for Java 無料サポートフォーラム](https://forum.aspose.com/c/cells/9)
@@ -69,7 +69,7 @@ Aspose.Cells for C++ は、C++ 開発者が Office Automation や Microsoft Exce
 
 - [Aspose.Cells for C++ オンライン ドキュメント](/cells/ja/cpp/)
 - [Aspose.Cells for C++ 特徴](/cells/ja/cpp/product-overview/)
-- [Aspose.Cells for C++ リリースノート](/cells/ja/cpp/release-notes/)
+- [Aspose.Cells for C++ リリースノート](https://releases.aspose.com/ja/cells/cpp/release-notes/)
 - [Aspose.Cells for C++ 商品ページ](https://products.aspose.com/cells/cpp/)
 - [Aspose.Cells for C++ NuGet パッケージをインストール](https://www.nuget.org/packages/Aspose.Cells.CPP/)
 - [Aspose.Cells for C++ API リファレンスガイド](https://reference.aspose.com/cells/cpp)
@@ -94,9 +94,9 @@ Aspose.Cells for Android via Java は、Android アプリケーションが Micr
 - [Aspose.Cells for Java オンライン ドキュメント](/cells/ja/java/)(Aspose.Cells for Android via Java は Aspose.Cells for Java と非常によく似ています。したがって、同じドキュメントを使用できます)
 - [Aspose.Cells for Android via Java 特徴](/cells/ja/java/aspose-cells-for-android-via-java-features/)
 - [Aspose.Cells for Android via Java 制限事項と API 相違点](/cells/ja/java/aspose-cells-for-android-via-java-limitations-and-api-differences/)
-- [Aspose.Cells for Android via Java リリースノート](/cells/ja/java/aspose-cells-for-android-via-java/)
+- [Aspose.Cells for Android via Java リリースノート](https://releases.aspose.com/ja/cells/androidjava/release-notes/)
 - [Aspose.Cells for Android via Java 商品ページ](https://products.aspose.com/cells/android-java/)
-- [ダウンロード Aspose.Cells for Android via Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)
+- [ダウンロード Aspose.Cells for Android via Java](https://releases.aspose.com/java/repo/com/aspose/aspose-cells/)
 - [Maven から Aspose.Cells for Android via Java をインストール](/cells/ja/java/aspose-cells-for-android-via-java-installation/#install-asposecells-for-android-via-java-from-maven-repository)
 - [Aspose.Cells for Android via Java API リファレンスガイド](https://reference.aspose.com/cells/java)(Aspose.Cells for Android via Java は Aspose.Cells for Java と非常によく似ています。したがって、同じ API 参照ガイドを使用できます)
 
@@ -117,7 +117,7 @@ Aspose.Cells for Node.js via Java は、Node.js を使用した Aspose.Cells for
 - [Aspose.Cells for Java オンライン ドキュメント](/cells/ja/java/)(Java 経由の Aspose.Cells for Node.js は Aspose.Cells for Java から移植されています。したがって、同じドキュメントを使用できます)
 - [Aspose.Cells for Node.js via Java 特徴](/cells/ja/nodejsjava/features/)
 - [Aspose.Cells for Node.js via Java 制限事項と API 相違点](/cells/ja/nodejsjava/limitations-and-api-differences/)
-- [Aspose.Cells for Node.js via Java リリースノート](/cells/ja/nodejsjava/release-notes/)
+- [Aspose.Cells for Node.js via Java リリースノート](https://releases.aspose.com/ja/cells/nodejs/release-notes/)
 - [Aspose.Cells for Node.js via Java 商品ページ](https://products.aspose.com/cells/nodejs-java/)
 - [ダウンロード Aspose.Cells for Node.js via Java](https://downloads.aspose.com/cells/nodejs)
 - [Aspose.Cells for Node.js via Java API リファレンスガイド](https://reference.aspose.com/cells/nodejs)
@@ -141,7 +141,7 @@ Aspose.Cells for PHP via Java は、JavaBridge を使用して Aspose.Cells for 
 - [Aspose.Cells for Java オンライン ドキュメント](/cells/ja/java/)(Java 経由の Aspose.Cells for PHP は Aspose.Cells for Java から移植されています。したがって、同じドキュメントを使用できます)
 - [Aspose.Cells for PHP via Java 特徴](/cells/ja/phpjava/features/)
 - [Aspose.Cells for PHP via Java 制限事項と API 相違点](/cells/ja/java/aspose-cells-for-php-via-java-limitations-and-api-differences/)
-- [Aspose.Cells for PHP via Java リリースノート](/cells/ja/phpjava/release-notes/)
+- [Aspose.Cells for PHP via Java リリースノート](https://releases.aspose.com/ja/cells/php/release-notes/)
 - [Aspose.Cells for PHP via Java 商品ページ](https://products.aspose.com/cells/php-java/)
 - [ダウンロード Aspose.Cells for PHP via Java](https://downloads.aspose.com/cells/php)
 - [Aspose.Cells for PHP via Java API リファレンスガイド](https://reference.aspose.com/cells/php)
@@ -164,7 +164,7 @@ Aspose.Cells for Python via Java を使用すると、アプリケーション�
 
 - [Aspose.Cells for Java オンライン ドキュメント](/cells/ja/java/)(Aspose.Cells for Python via Java は Aspose.Cells for Java と非常によく似ています。したがって、同じドキュメントを使用できます)
 - [Aspose.Cells for Python via Java 特徴](/cells/ja/python-java/features/)
-- [Aspose.Cells for Python via Java リリースノート](/cells/ja/python-java/release-notes/)
+- [Aspose.Cells for Python via Java リリースノート](https://releases.aspose.com/ja/cells/python-java/release-notes/)
 - [Aspose.Cells for Python via Java 商品ページ](https://products.aspose.com/cells/python-java/)
 - [ダウンロード Aspose.Cells for Python via Java](https://downloads.aspose.com/cells/python-java)
 - [Aspose.Cells for Python via Java API リファレンスガイド](https://reference.aspose.com/cells/python-java)
@@ -175,7 +175,7 @@ Aspose.Cells for Python via Java を使用すると、アプリケーション�
 
 ![Aspose.Cells for Reporting Services 製品ロゴ](aspose-cells-for-ssrs.png)
 
-**Aspose.Cells for Reporting Services へようこそ** 
+**Aspose.Cells for Reporting Services へようこそ**
 
 Aspose.Cells for Reporting Services は、Reporting Services で Microsoft Excel レポートを配信する必要がある開発者向けのソリューションです。 Aspose.Cells.Report.Designer ツールを使用して、Reporting Services に柔軟で使いやすい機能を追加します。 API は、データ ソースの設定、クエリの作成、レポートのデザイン、Report Server へのレポートの発行など、Reporting Services でのレポートの開発に関連するすべてのタスクを実行できます。 Aspose.Cells.Report.Designer は Microsoft Excel をレポート テンプレートとして使用するため、ユーザーは Microsoft Excel の強力な機能を利用できます。
 
@@ -187,7 +187,7 @@ Aspose.Cells for Reporting Services は、Reporting Services で Microsoft Excel
 
 - [Aspose.Cells for Reporting Services オンライン ドキュメント](/cells/ja/reportingservices/)
 - [Aspose.Cells for Reporting Services 特徴](/cells/ja/reportingservices/features/)
-- [Aspose.Cells for Reporting Services リリースノート](/cells/ja/reportingservices/release-notes/)
+- [Aspose.Cells for Reporting Services リリースノート](https://releases.aspose.com/ja/cells/reportingservices/release-notes/)
 - [Aspose.Cells for Reporting Services 商品ページ](https://products.aspose.com/cells/reporting-services/)
 - [ダウンロード Aspose.Cells for Reporting Services](https://downloads.aspose.com/cells/reportingservices)
 - [Aspose.Cells for Reporting Services 無料サポートフォーラム](https://forum.aspose.com/c/cells/9)
@@ -209,7 +209,7 @@ Aspose.Cells for SharePoint は、Microsoft SharePoint アプリケーション�
 
 - [Aspose.Cells for SharePoint オンライン ドキュメント](/cells/ja/sharepoint/)
 - [Aspose.Cells for SharePoint 特徴](/cells/ja/sharepoint/features/)
-- [Aspose.Cells for SharePoint リリースノート](/cells/ja/sharepoint/release-notes/)
+- [Aspose.Cells for SharePoint リリースノート](https://releases.aspose.com/ja/cells/sharepoint/release-notes/)
 - [Aspose.Cells for SharePoint 商品ページ](https://products.aspose.com/cells/sharepoint/)
 - [ダウンロード Aspose.Cells for SharePoint](https://downloads.aspose.com/cells/sharepoint)
 - [Aspose.Cells for SharePoint 無料サポートフォーラム](https://forum.aspose.com/c/cells/9)
@@ -231,7 +231,7 @@ Aspose.Cells for SharePoint は、Microsoft SharePoint アプリケーション�
 
 - [Aspose.Cells for JasperReports オンライン ドキュメント](/cells/ja/jasperreports/)
 - [Aspose.Cells for JasperReports 特徴](/cells/ja/jasperreports/feature-overview/)
-- [Aspose.Cells for JasperReports リリースノート](/cells/ja/jasperreports/release-notes/)
+- [Aspose.Cells for JasperReports リリースノート](https://releases.aspose.com/ja/cells/jasperreports/release-notes/)
 - [Aspose.Cells for JasperReports 商品ページ](https://products.aspose.com/cells/jasperreports/)
 - [ダウンロード Aspose.Cells for JasperReports](https://downloads.aspose.com/cells/jasperreports)
 - [Aspose.Cells for JasperReports 無料サポートフォーラム](https://forum.aspose.com/c/cells/9)
@@ -252,9 +252,8 @@ Aspose.Cells for Python via .NET を使用すると、アプリケーション�
 以下は、タスクを遂行するために必要となる可能性があるいくつかの有用なリソースへのリンクです。
 
 - [Aspose.Cells for Python via .NET 特徴](/cells/ja/python-net/features/)
-- [Aspose.Cells for Python via .NET リリースノート](/cells/ja/python-net/release-notes/)
+- [Aspose.Cells for Python via .NET リリースノート](https://releases.aspose.com/ja/cells/python-net/release-notes/)
 - [Aspose.Cells for Python via .NET 商品ページ](https://products.aspose.com/cells/python-net/)
 - [ダウンロード Aspose.Cells for Python via .NET](https://downloads.aspose.com/cells/python-net)
 - [Aspose.Cells for Python via .NET 無料サポートフォーラム](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Python via .NET 有料サポート ヘルプデスク](https://helpdesk.aspose.com/)
-
