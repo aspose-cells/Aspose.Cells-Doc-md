@@ -11,7 +11,7 @@ keywords: excel convert text to number, excel convert text to number c#, excel c
 Sometimes, you want to convert numeric data entered as text to numbers. You can enter numbers as text in Microsoft Excel by putting an apostrophe before a number, for example **'12345**. Excel then treats the number as a string. Aspose.Cells allows you to convert strings to numbers.
 
 
-## Convert numbers stored as text to numbers in Excel
+## How to Convert numbers stored as text to numbers in Excel
 You can convert numbers stored as text to numbers by following a few simple steps.
 1. Select any single cell or range of cells that has an error indicator in the upper-left corner.
 1. Next to the selected cell or range of cells, click the error button that appears. On the menu, click Convert to Number. 
@@ -27,7 +27,7 @@ You can convert numbers stored as text to numbers by following a few simple step
 <br>
 <img src="3.png" width=70% />
 
-## Convert numbers stored as text to numbers using Aspose.Cells for .NET
+## How to Convert numbers stored as text to numbers using Aspose.Cells for .NET
 Aspose.Cells provides the [**Cells.ConvertStringToNumericValue()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/convertstringtonumericvalue) method which can be used to convert all string or text numeric data into numbers.
 
 The following screenshot shows string numbers in cells **A1:A17**. String numbers are aligned to the left.

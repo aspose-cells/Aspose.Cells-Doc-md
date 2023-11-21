@@ -4,7 +4,7 @@ type: docs
 weight: 170
 url: /net/disable-compatibility-checker-in-excel/
 description: This article shows how to disable compatibility checker through the Aspose.Cells for .NET API.
-keywords: C# Disable Compatibility Checker, Excel Disable Compatibility Checker
+keywords: C# Disable Compatibility Checker, Excel Disable Compatibility Checker in C#, Disable Compatibility Checker in Workbook. 
 ---
 
 ## Disable Compatibility Checker in Excel Worksheets in C# 

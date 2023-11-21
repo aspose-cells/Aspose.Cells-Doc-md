@@ -3,6 +3,8 @@ title: Finding Absolute Position of Shape inside the Worksheet
 type: docs
 weight: 7000
 url: /java/finding-absolute-position-of-shape-inside-the-worksheet/
+description: Learn how to Find Absolute Position of Shape inside the Worksheet through the Aspose.Cells for Java APIs.
+keywords: How to Find Absolute Position of Shape in Java, Get Absolute Position of Shape using Java, Obtain Absolute Position of Shape inside the Worksheet via Java, Measure absolute position of Shape with Java.
 ---
 
 {{% alert color="primary" %}}
@@ -15,7 +17,7 @@ Sometimes, you need to know the absolute position of a shape on a worksheet. Asp
 
 This screenshot explains what distances the [**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) and [**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner) properties measure.
 
-**Measuring absolute position**
+**How to Measure absolute position**
 
 ![todo:image_alt_text](finding-absolute-position-of-shape-inside-the-worksheet_1.png)
 

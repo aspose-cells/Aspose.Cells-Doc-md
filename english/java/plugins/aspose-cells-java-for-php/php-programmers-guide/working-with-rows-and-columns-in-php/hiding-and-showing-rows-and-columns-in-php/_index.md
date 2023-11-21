@@ -3,10 +3,12 @@ title: Hiding and Showing Rows and Columns in PHP
 type: docs
 weight: 50
 url: /java/hiding-and-showing-rows-and-columns-in-php/
+description: Learn how to Hide and Show Rows and Columns through the Aspose.Cells for PHP via Java APIs.
+keywords: How to Hide and Show Rows and Columns in PHP, Hide Rows or Columns using PHP, PHP Show Rows or Columns. 
 ---
 
-## **Aspose.Cells - Controlling the Visibility of Rows & Columns**
-### **Hiding Rows and Columns**
+## **Aspose.Cells for PHP - Controlling the Visibility of Rows & Columns**
+### **How to Hide Rows and Columns in PHP**
 Developers can hide a row or column by calling the HideRow and HideColumn methods of the Cells collection respectively. Both methods take the row/column index as a parameter to hide the specific row or column.
 
 **PHP Code**
@@ -44,7 +46,7 @@ Developers can hide a row or column by calling the HideRow and HideColumn met
 }
 
 {{< /highlight >}}
-### **Showing Rows and Columns**
+### **How to Show Rows and Columns using PHP**
 Developers can unhide any hidden row or column by calling the UnhideRow and UnhideColumn methods of the Cells collection respectively. Both methods take two parameters:
 
 - **Rowor column index** - the index of a row or column that is used to show the specific row or column.

@@ -3,10 +3,12 @@ title: Display or Hide Gridlines in Python
 type: docs
 weight: 10
 url: /java/display-or-hide-gridlines-in-python/
+description: Learn how to  Display or Hide Gridlines through the Aspose.Cells for Python Via Java API.
+keywords: How to Display or Hide Gridlines in Python Via Java, Display or Hide Gridlines using Python Via Java, Python Show or Hide Gridlines. 
 ---
 
-## **Aspose.Cells - Display Hide Gridlines**
-### **Hiding Gridlines**
+## **Aspose.Cells - How to Display or Hide Gridlines**
+### **How to Hide Gridlines**
 To hide worksheet using **Aspose.Cells Java for Ruby**, call **displayhidegridlines** module.
 
 **Python Code**
@@ -34,7 +36,7 @@ workbook.save(self.dataDir + "output.xls")
 print "Grid lines are now hidden on sheet 1, please check the output document."
 
 {{< /highlight >}}
-### **Making Gridlines Visible**
+### **How to Display Gridlines**
 To make gridlines visible, use the the Worksheet class' setGridlinesVisible(true) method.
 
 **Python Code**

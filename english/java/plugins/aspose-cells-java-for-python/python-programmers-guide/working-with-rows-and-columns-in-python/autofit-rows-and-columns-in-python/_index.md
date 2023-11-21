@@ -3,10 +3,12 @@ title: Autofit Rows and Columns in Python
 type: docs
 weight: 20
 url: /java/autofit-rows-and-columns-in-python/
+description: Learn how to Autofit Rows and Columns through the Aspose.Cells for Python Via Java API.
+keywords: How to Autofit Rows and Columns in Python Via Java, Autofit Rows Data in workbook using Python Via Java, Python Via Java Autofit Columns Data. 
 ---
 
-## **Aspose.Cells - Autofit Rows and Columns**
-### **Autofit Row**
+## **How to Autofit Rows and Columns**
+### **How to Autofit Row**
 The most straight-forward approach to auto-sizing the width and height of a row is to call the Worksheet class' autoFitRow method. The autoFitRow method takes a row index (of the row to be resized) as a parameter.
 
 **Python Code**
@@ -40,7 +42,7 @@ workbook.save(self.dataDir + "Autofit Row.xls")
 print "Autofit Row Successfully." 
 
 {{< /highlight >}}
-### **Autofit Column**
+### **How to Autofit Column**
 The easiest way to auto-size the width and height of a column is to call the Worksheet class' autoFitColumn method. The autoFitColumn method takes the column index (of the column about to be resized) as a parameter.
 
 **Python Code**

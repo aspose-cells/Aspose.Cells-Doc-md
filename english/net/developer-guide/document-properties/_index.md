@@ -4,7 +4,8 @@ linktitle: Document Properties
 type: docs
 weight: 80
 url: /net/managing-document-properties/
-description: Manage document properties of spreadsheet files.
+description: Learn how to Manage Document Properties through the Aspose.Cells for NET APIs.
+keywords: How to Manage Document Properties in C#, Get or Set Document Properties using C#, Add or Delete Document Properties via C#, Insert or Remove Document Properties with C#, How to Access Document Properties using Aspose.Cells for NET APIs.
 ---
 
 
@@ -21,7 +22,7 @@ The most important point to know about built-in and custom properties is that bu
 
 {{% /alert %}}
 
-## **Managing Document Properties Using Microsoft Excel**
+## **How to Manage Document Properties Using Microsoft Excel**
 
 Microsoft Excel allows you to manage the document properties of the Excel files in a WYSIWYG manner. Please follow the below steps to open the **Properties** dialog in Excel 2016.
 
@@ -42,7 +43,7 @@ Microsoft Excel allows you to manage the document properties of the Excel files
 |![todo:image_alt_text](managing-document-properties_3.png)|
 In the Properties dialog, there are different tabs, like General, Summary, Statistics, Contents, and Customs. Each tab helps configure different kinds of information related to the file. The Custom tab is used to manage custom properties.
 
-## **Working with Document Properties Using Aspose.Cells**
+## **How to Work with Document Properties Using Aspose.Cells**
 
 Developers can dynamically manage the document properties using the Aspose.Cells APIs. This feature helps the developers to store useful information along with the file, such as when the file was received, processed, time-stamped and so on.
 
@@ -54,7 +55,7 @@ Please note that you cannot instruct Aspose.Cells for .NET to change or remove t
 
 {{% /alert %}}
 
-### **Accessing Document Properties**
+### **How to Access Document Properties**
 
 Aspose.Cells APIs support both types of document properties, built-in and custom. Aspose.Cells' [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class represents an Excel file and, like an Excel file, the [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class can contain multiple worksheets, each represented by the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class whereas the collection of worksheets is represented by the [**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) class.
 
@@ -91,17 +92,17 @@ The [**DocumentProperty**](https://reference.aspose.com/cells/net/aspose.cells.p
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-AccessingValueOfDocumentProperties.cs" >}}
 
-### **Adding or Removing Custom Document Properties**
+### **How to Add or Remove Custom Document Properties**
 
 As we have described earlier at the beginning of this topic, developers can't add or remove built-in properties because these properties are system-defined but it's possible to add or remove custom properties because these are user-defined.
 
-### **Adding Custom Properties**
+### **How to Add Custom Properties**
 
 Aspose.Cells APIs have exposed the [**Add**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection/methods/add/index) method for the [**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection) class in order to add custom properties to the collection. The [**Add**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection/methods/add/index) method adds the property to the Excel file and returns a reference for the new document property as an [**Aspose.Cells.Properties.DocumentProperty**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty) object.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-AddingDocumentProperties.cs" >}}
 
-### **Configuring “Link to content” Custom Property**
+### **How to Configure “Link to content” Custom Property**
 
 To create a custom property linked to the content of a given range, call the [**CustomDocumentPropertyCollection.AddLinkToContent**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection/methods/addlinktocontent) method and pass property name and source. You can check whether a property is configured as linked to content using the [**DocumentProperty.IsLinkedToContent**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty/properties/islinkedtocontent) property. Moreover, it is also possible to get the source range using the [**Source**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty/properties/source) property of the [**DocumentProperty**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty) class.
 
@@ -109,7 +110,7 @@ We use a simple template Microsoft Excel file in the example. The workbook has a
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConfigureLinktoContentDocumentProperty.cs" >}}
 
-### **Removing Custom Properties**
+### **How to Remove Custom Properties**
 
 To remove custom properties using Aspose.Cells, call the [**DocumentPropertyCollection.Remove**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentpropertycollection/methods/remove) method and pass the name of the document property to be removed.
 

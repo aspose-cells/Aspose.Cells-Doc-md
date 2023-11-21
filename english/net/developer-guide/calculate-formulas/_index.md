@@ -1,7 +1,7 @@
 ﻿---
 title: Calculate Formulas
 description: This article introduces how to use Aspose.Cells library to calculate formulas in Microsoft Excel. By loading an existing Excel file or creating a new Excel file, we can use the methods provided by Aspose.Cells to calculate the formula and get the result. Finally, we save the modified Excel file to disk.
-keywords: Aspose.Cells, Excel, formulas, calculations
+keywords: Aspose.Cells, Excel, formulas, calculations, Direct Calculation of Formula, Calculate Formulas repeatedly, add formulas.
 type: docs
 weight: 125
 url: /net/calculate-formulas/
@@ -19,7 +19,7 @@ To calculate the results of formulas, user may call the [**CalculateFormula**](h
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-CalculatingFormulas-1.cs" >}}
 
-### **Important to Know**
+### **Important to Know for Formulas**
 
 {{% alert color="primary" %}}
 
@@ -44,7 +44,7 @@ Value of A2: 30
 Result of Sum(A1:A2): 50.0
 {{< /highlight >}}
 
-## **Calculating Formulas repeatedly**
+## **How to Calculate Formulas repeatedly**
 
 When there are lots of formulas in the workbook and user needs to calculate them repeatedly with modifying only a small part of them, it may be helpful for performance to enable the formula calculation chain: [**FormulaSettings.EnableCalculationChain**](https://reference.aspose.com/cells/net/aspose.cells/formulasettings/properties/enablecalculationchain).
 

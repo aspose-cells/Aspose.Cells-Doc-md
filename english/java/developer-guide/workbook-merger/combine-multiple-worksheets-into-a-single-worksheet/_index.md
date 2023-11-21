@@ -13,7 +13,7 @@ Sometimes, you need to combine multiple worksheets into a single worksheet. This
 
 {{% /alert %}}
 
-## **Combining Worksheets**
+## **How to Combine Worksheets**
 
 The sample below uses the [**Range.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)) method to copy all source worksheets into a single sheet inside a destination workbook.
 
@@ -46,7 +46,7 @@ Running the following code provides a workbook with a single worksheet containin
 - [Source Workbook](5473078.xlsx)
 - [Output Workbook](5473079.xlsx)
 
-### **Code Example**
+### **Sample Code for Merging Multiple Worksheets into a Single Worksheet**
 
 The following code snippet shows how to combine multiple worksheets into a single worksheet.
 

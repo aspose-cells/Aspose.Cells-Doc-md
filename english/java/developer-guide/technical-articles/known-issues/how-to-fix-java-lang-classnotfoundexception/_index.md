@@ -3,6 +3,8 @@ title: How to fix java.lang.ClassNotFoundException
 type: docs
 weight: 30
 url: /java/how-to-fix-java-lang-classnotfoundexception/ 
+description: Learn How to fix java.lang.ClassNotFoundException in the Aspose.Cells for Java.
+keywords: How to fix BouncyCastleProvider ClassNotFoundException in Java, Solve BouncyCastleProvider exception using Java, Java solve ClassNotFoundException BouncyCastleProvider.
 ---
 
 Aspose.Cells for Java API depends on some additional libraries, if they are missing, an exception may be thrown as "java.lang.ClassNotFoundException".

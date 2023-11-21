@@ -3,9 +3,11 @@ title: Auto Fit Row and Column
 type: docs
 weight: 10
 url: /java/auto-fit-row-and-column/
+description: Learn how to Autofit Row and Column through the Aspose.Cells for Java API.
+keywords: How to Autofit Row and Column in Java, Autofit Row Data in workbook using Java, Java Autofit Column Data. 
 ---
 
-## **Aspose.Cells - Auto Fit Row and Column**
+## **How to Auto Fit Row and Column Using Aspose.Cells for Java**
 The most straight-forward approach to auto-sizing the width and height of a row is to call the Worksheet.autoFitRow method. The autoFitRow method takes a row index (of the row to be resized) as a parameter.
 
 **Please note:** If you want to autofit rows and columns in Excel spreadsheets using Java, please visit [Autofit Rows and Columns](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).

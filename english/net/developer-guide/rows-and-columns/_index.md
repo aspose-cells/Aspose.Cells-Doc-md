@@ -5,7 +5,7 @@ type: docs
 weight: 100
 url: /net/adjusting-row-height-and-column-width/
 description: Aspose.Cells for .NET can support change row height or column width, as well as apply formatting on rows or columns.
-keywords: Set row height and column width, Adjust row height and column width. 
+keywords: Set row height and column width, Adjust row height and column width, change the row height or column width, format rows and columns, how to set row height and column width.
 ---
 
 

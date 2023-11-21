@@ -5,13 +5,15 @@ type: docs
 weight: 122
 url: /net/using-formulas-or-functions-to-process-data/
 description: Aspose.Cells can simply get, set and calculate formulas of excel files.
+description: Learn how to Manage formulas of Excel files through the Aspose.Cells for NET APIs.
+keywords: How to calculate formulas in C#, Formulas and Functions using C#, C# Manage Built-in Functions, How to Use Add-in Functions with C#, How to Use Array Formula via C#, How to Use R1C1 Formula in C#.
 ---
 
 ## **Introduction**
 
 One of the of Microsoft Excel's compelling features is its ability to process data with formulas and functions. Microsoft Excel provides a set of built-in functions and formulas that helps users to perform complex calculations quickly. Aspose.Cells also provides a huge set of built-in functions and formulas that help developers compute values easily. Aspose.Cells also supports add-in functions. Moreover, Aspose.Cells support array and R1C1 formulas in Aspose.Cells.
 
-## **Using Formulae and Functions**
+## **How to Use Formulas and Functions**
 
 Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class provides a [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection. Each item in the Cells collection represents an object of the [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) class.
 
@@ -22,7 +24,7 @@ It is possible to apply formulas to cells using properties and methods offered b
 - Working with array formulas.
 - Creating a R1C1 formula.
 
-## **Using Built-in Functions**
+## **How to Use Built-in Functions**
 
 Built-in functions or formulas are provided as ready-made functions to reduce developers' efforts and time. See [a list of built-in functions](/cells/net/supported-formula-functions/) supported by Aspose.Cells. The functions are listed in alphabetical order. More functions will be supported in future.
 
@@ -42,7 +44,7 @@ In the example below, a complex formula is applied to the first cell of a worksh
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-ProcessDataUsingBuiltinfunction-1.cs" >}}
 
-## **Using Add-in Functions**
+## **How to Use Add-in Functions**
 
 We can have some user defined formulas that we want to include as an excel add-in. When setting the cell.Formula function built-in functions work fine however there is a need to set the custom functions or formulas using the add-in functions.
 
@@ -56,7 +58,7 @@ Following XLAM file shall be downloaded for registering the add in function in t
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-RegisterAndCallFuncFromAddIn-1.cs" >}}
 
-## **Using Array Formula**
+## **How to Use Array Formula**
 
 Array formulas are formulas that take arrays, instead of individual numbers, as arguments to the functions that make up the formula. When an array formula is displayed, it is surrounded by braces ({}).
 
@@ -70,7 +72,7 @@ It is possible to apply an array formula to a cell by calling the [**Cell**](htt
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-ProcessDataUsingArrayFunction-1.cs" >}}
 
-## **Using R1C1 Formula**
+## **How to Use R1C1 Formula**
 
 Add an **R1C1** reference style formula to a cell with the [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) class' [**R1C1Formula**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/r1c1formula) property.
 

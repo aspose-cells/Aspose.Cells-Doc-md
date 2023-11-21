@@ -3,9 +3,9 @@ title: Getting Started
 linktitle: Getting Started
 type: docs
 weight: 4
-url: /python-net/getting-started/ 
-keywords: "python, excel, install"
-description: Setup Aspose.Cells for Python via .NET and installation guidelines.
+url: /python-net/getting-started/
+description: Learn how to install Aspose.Cells for Python via .NET and create Hello World Application.
+keywords: How to install Aspose.Cells for Python via .NET in Windows Linux and MacOS, installation guidelines for Aspose.Cells for Python via .NET, Python Via .NET Hello World program. 
 ---
 
 ## **System Requirements**
@@ -65,7 +65,7 @@ cp ./SkiaSharp.NativeAssets.macOS.2.88.3/runtimes/osx/native/libSkiaSharp.dylib 
 
 Of course, if you want it simpler, you can also download [libSkiaSharp.dylib](libSkiaSharp.dylib) and then **copy** it to the **/usr/local/lib** directory.
 
-## **Creating the Hello World Application**
+## **How to Create the Hello World Application using Aspose.Cells for Python via .NET**
 
 - Create a file named **CreatingHelloWorldFile.py** and use the following sample code:
 

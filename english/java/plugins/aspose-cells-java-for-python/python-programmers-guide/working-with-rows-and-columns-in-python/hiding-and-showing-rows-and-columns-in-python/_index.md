@@ -3,10 +3,12 @@ title: Hiding and Showing Rows and Columns in Python
 type: docs
 weight: 50
 url: /java/hiding-and-showing-rows-and-columns-in-python/
+description: Learn how to Hide and Show Rows and Columns through the Aspose.Cells for Python Via Java API.
+keywords: How to Hide and Show Rows and Columns in Python Via Java, Hide Rows and Columns using Python Via Java, Python Via Java Show Rows and Columns. 
 ---
 
 ## **Aspose.Cells - Controlling the Visibility of Rows & Columns**
-### **Hiding Rows and Columns**
+### **How to Hide Rows and Columns**
 Developers can hide a row or column by calling the HideRow and HideColumn methods of the Cells collection respectively. Both methods take the row/column index as a parameter to hide the specific row or column.
 
 **Ruby Code**
@@ -40,7 +42,7 @@ workbook.save(self.dataDir + "Hide Rows And Columns.xls")
 print "Hide Rows And Columns Successfully." 
 
 {{< /highlight >}}
-### **Showing Rows and Columns**
+### **How to Show Rows and Columns**
 Developers can unhide any hidden row or column by calling the UnhideRow and UnhideColumn methods of the Cells collection respectively. Both methods take two parameters:
 
 - **Rowor column index** - the index of a row or column that is used to show the specific row or column.

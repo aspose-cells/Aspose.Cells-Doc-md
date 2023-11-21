@@ -1,7 +1,7 @@
 ---
 title: Format cells
 description: Learn how to format and style cells in Aspose.Cells for .NET, including number formatting, date formatting, font styles, and other cell style options. Our guide will help you create attractive and professional-looking spreadsheets.
-keywords: Aspose.Cells for .NET, cell formatting, styling, number formatting, date formatting, font style, cell style options, spreadsheet, create, professional look.
+keywords: Aspose.Cells for .NET, cell formatting, styling, number formatting, date formatting, font style, cell style options, spreadsheet, create, professional look, format rows and columns.
 linktitle: Format cells
 type: docs
 weight: 120
@@ -16,17 +16,17 @@ Aspose.Cells provides the [**GetStyle**](https://reference.aspose.com/cells/net/
 
 {{% /alert %}}
 
-## **Format Cells using GetStyle and SetStyle Methods**
+## **How to Format Cells using GetStyle and SetStyle Methods**
 
 Apply different kinds of formatting styles on cells to set background or foreground colors, borders, fonts, horizontal and vertical alignments, indentation level, text direction, rotation angle and much more.
 
-### **Using the GetStyle and SetStyle Methods**
+### **How to Use the GetStyle and SetStyle Methods**
 
 If developers need to apply different formatting styles to different cells then it's better to get the [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) of the cell using [**Cell.GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) method, specify the style attributes and then apply the formatting using [**Cell.SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) method. An example is given below to demonstrate this approach to apply various formatting on a cell.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ApproachesToFormatData-UsingGetStyleSetStyle-1.cs" >}}
 
-### **Using Style Object to Format Different Cells**
+### **How to Use Style Object to Format Different Cells**
 
 If developers need to apply the Same formatting style to different cells then they can use [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object. Please follow the steps below to use the [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object:
 
@@ -39,7 +39,7 @@ This approach can greatly improve the efficiency of your applications and save m
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ApproachesToFormatData-UsingStyleObject-1.cs" >}}
 
-### **Using Microsoft Excel 2007 Predefined Styles**
+### **How to Use Microsoft Excel 2007 Predefined Styles**
 
 If you need to apply different formatting styles for Microsoft Excel 2007, apply styles using the Aspose.Cells API. An example is given below to demonstrate this approach to apply a predefined style on a cell.
 
@@ -47,13 +47,13 @@ If you need to apply different formatting styles for Microsoft Excel 2007, apply
 
 
 
-## **Formatting Selected Characters in a Cell**
+## **How to Format Selected Characters in a Cell**
 
 Dealing with Font Settings explains how to format text in cells, but it only explains how to format all of the cell content. What if you want to format only selected characters?
 
 Aspose.Cells supports this feature too. This topic explains how to we use this feature effectively.
 
-### **Formatting Selected Characters**
+### **How to Format Selected Characters**
 
 Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class contains the [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection that allows access to each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class provides a [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection. Each item in the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection represents an object of the [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) class.
 
@@ -72,7 +72,7 @@ If you are interested in formatting a portion of Rich Text in a cell, consider u
 
 {{% /alert %}}
 
-## **Formatting Rows and Columns**
+## **How to Format Rows and Columns**
 
 Sometimes, developers need to apply the same formatting on rows or columns. Applying formatting on cells one by one often takes longer and is not a good solution.
 To address this issue, Aspose.Cells provides a simple, fast way discussed in detail in this article.
@@ -81,7 +81,7 @@ To address this issue, Aspose.Cells provides a simple, fast way discussed in det
 
 Aspose.Cells provides a class, the [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class provides a [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection. The [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection provides a [**Rows**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/rows) collection.
 
-### **Formatting a Row**
+### **How to Format a Row**
 
 Each item in the [**Rows**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/rows) collection represents a [**Row**](https://reference.aspose.com/cells/net/aspose.cells/row) object. The [**Row**](https://reference.aspose.com/cells/net/aspose.cells/row) object offers the [**ApplyStyle**](https://reference.aspose.com/cells/net/aspose.cells/row/methods/applystyle) method used to set the row's formatting. To apply the same formatting to a row, use the [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object. The steps below show how to use it.
 
@@ -92,7 +92,7 @@ Each item in the [**Rows**](https://reference.aspose.com/cells/net/aspose.cells/
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-FormatRowsColumns-FormattingARow-1.cs" >}}
 
-### **Formatting a Column**
+### **How to Format a Column**
 
 The [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection also provides a [**Columns**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/columns) collection. Each item in the [**Columns**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/columns) collection represents a [**Column**](https://reference.aspose.com/cells/net/aspose.cells/column) object. Similar to a [**Row**](https://reference.aspose.com/cells/net/aspose.cells/row) object, the [**Column**](https://reference.aspose.com/cells/net/aspose.cells/column) object also offers the [**ApplyStyle**](https://reference.aspose.com/cells/net/aspose.cells/row/methods/applystyle) method for formatting a column.
 

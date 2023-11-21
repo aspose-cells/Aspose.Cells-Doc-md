@@ -3,9 +3,12 @@ title: Add Data in Cells
 type: docs
 weight: 10
 url: /net/add-data-in-cells/
+description: This article explains how to Add Data in Cells using Aspose.Cells for .NET APIs.
+keywords: C# Add Data in Cells, C# Insert Data to Worksheet, C# Set Data of Cell.
 ---
 
-## **Aspose.Cells - Add Data in Cells**
+
+## **How Add Data in Cells Using Aspose.Cells for .NET**
 Aspose.Cells provides a class, Workbook, that represents a Microsoft Excel file. Workbook class contains a WorksheetCollection that allows access to each worksheet in the Excel file. A worksheet is represented by the Worksheet class. The Worksheet class provides a Cellscollection. Each item in the Cells collection represents an object of the Cell class.
 
 **C#**

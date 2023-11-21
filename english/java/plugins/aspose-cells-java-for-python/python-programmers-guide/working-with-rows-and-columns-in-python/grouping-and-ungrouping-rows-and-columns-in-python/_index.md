@@ -3,10 +3,12 @@ title: Grouping and Ungrouping Rows and Columns in Python
 type: docs
 weight: 40
 url: /java/grouping-and-ungrouping-rows-and-columns-in-python/
+description: Learn how to Group and Ungroup Rows and Columns through the Aspose.Cells for Python Via Java API.
+keywords: How to Group and Ungroup Rows and Columns in Python Via Java, Group Rows and Columns using Python Via Java, Python Via Java Ungroup Rows and Columns. 
 ---
 
-## **Aspose.Cells - Group Management of Rows & Columns**
-### **Grouping Rows & Columns**
+## **Group and Ungroup Management of Rows & Columns in Aspose.Cells for Python via Java**
+### **How to Group Rows & Columns in Python**
 It is possible to group rows or columns by calling the groupRows and groupColumns methods of the Cells collection. Both methods take the following parameters:
 
 - First row/column index, the first row or column in the group.
@@ -44,7 +46,7 @@ workbook.save(self.dataDir + "Group Rows And Columns.xls")
 print "Group Rows And Columns Successfully." 
 
 {{< /highlight >}}
-### **Ungrouping Rows & Columns**
+### **How to Ungroup Rows & Columns using Python**
 Ungroup grouped rows or columns by calling the Cells collection's UngroupRows and UngroupColumns methods. Both methods take the same parameters:
 
 - First row or column index, the first row/column to be ungrouped.

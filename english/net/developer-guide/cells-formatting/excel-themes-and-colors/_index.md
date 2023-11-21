@@ -11,14 +11,14 @@ keywords: C# to Create and Apply Color Schemes, c# programmatically Create a Cus
 Document themes make it easy to coordinate colors, fonts, and graphic formatting effects of Excel documents and update them quickly. 
 Themes provide a unified look with named styles, graphical effects and other objects used in a workbook. For example, the Accent1 style, for example, looks different in the Office and the Apex themes. Often, you apply a document theme and then amend it to how you want it.
 
-### **Apply a Color Scheme in Excel**
+### **How to Apply a Color Scheme in Excel**
 1. Open Excel and go to the "Page Layout" tab in the Excel ribbon.
 1. Click on the "Colors" button in the "Themes" section.
 <br>
 <img src="color.png" width=70% />
 1. Choose a color palette that matches your requirements or hover over a scheme to see a live preview.
 
-### **Create a Custom Color Scheme in Excel**
+### **How to Create a Custom Color Scheme in Excel**
 You can create your own color set to give your document a fresh, unique look or comply with your organization’s brand standards.
 
 1. Open Excel and go to the "Page Layout" tab in the Excel ribbon.
@@ -37,7 +37,7 @@ You can create your own color set to give your document a fresh, unique look or 
 ## **How to Create and Apply Color Scheme in Aspose.Cells**
 Aspose.Cells provides features for customizing themes and colors.
 
-### **Create Custom Color Theme in Aspose.Cells**
+### **How to Create Custom Color Theme in Aspose.Cells**
 If theme colors are used in the file, we don't need to modify each cell individually, we just need to modify the colors in the theme.
 
 The following example shows how to apply custom themes with your desired colors. We use a sample template file manually created in Microsoft Excel 2007.
@@ -46,13 +46,13 @@ The following example loads a template XLSX file, defines colors for different t
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Excel2007Themes-CustomizeThemes-1.cs" >}}
 
-### **Apply Theme Colors in Aspose.Cells**
+### **How to Apply Theme Colors in Aspose.Cells**
 
 The following example applies a cell’s foreground and font colors based on the default theme (of the workbook) color types. It also saves the excel file to disk.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Excel2007Themes-UtilizeThemeColors-1.cs" >}}
 
-### **Get and Set Theme Colors in Aspose.Cells**
+### **How to Get and Set Theme Colors in Aspose.Cells**
  Below are a few methods and properties that implement theme colors.
 
 - [**Style.ForegroundThemeColor**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundthemecolor): Used to set the foreground color.

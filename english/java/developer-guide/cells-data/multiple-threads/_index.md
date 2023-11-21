@@ -4,6 +4,8 @@ linktitle: Multiple Threads
 type: docs
 weight: 1100
 url: /java/reading-cell-values-in-multiple-threads-simultaneously/
+description: Learn how to Read Cell Values in Multiple Threads Simultaneously with Aspose.Cells for Java APIs.
+keywords: Java Read Cell Values in Multiple Threads Simultaneously, Multiple Threads for Aspose.Cells for Java APIs.
 ---
 
 {{% alert color="primary" %}}
@@ -11,6 +13,8 @@ url: /java/reading-cell-values-in-multiple-threads-simultaneously/
 Needing to read cell values in multiple threads simultaneously is a common requirement. This article explains how to use Aspose.Cells for this purpose.
 
 {{% /alert %}}
+
+## **How to Read Cell Values in Multiple Threads Simultaneously with Aspose.Cells for Java**
 
 To read cell values in more than one thread simultaneously, set [**Worksheet.getCells().setMultiThreadReading()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MultiThreadReading) to **true**. If you do not, you might get the wrong cell values. Please note, some features such as formatting cell values are not supported for multiple-threads. So MultiThreadReading only enable you to access cell's original data only. In multiple-threads environment if you try to get cell's formatted value, such as by Cell.getStringValue() for numeric values, you may get unexpected result or exception.
 

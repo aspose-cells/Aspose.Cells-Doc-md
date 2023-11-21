@@ -1,18 +1,18 @@
 ---
 title: Number Settings
 description: Aspose.Cells is a .NET library for working with spreadsheet files that supports many different cell number settings. This article will introduce how to use Aspose.Cells library to manage the number settings of cells so that users can adjust the number format in the spreadsheet as needed.
-keywords: Aspose.Cells, .NET library, electronic spreadsheet, cell number settings, formatting, management
+keywords: Aspose.Cells, .NET library, electronic spreadsheet, cell number settings, formatting, management, Formats of Numbers and Dates
 type: docs
 weight: 10
 url: /net/cells-number-settings/
 ---
 
-## **Setting Display Formats of Numbers and Dates**
+## **How to Set Display Formats of Numbers and Dates**
 
 A very strong feature of Microsoft Excel is that it allows users to set the display formats of numeric values and dates. We know that numeric data can be used to represent different values including decimal, currency, percentage, fraction or accounting values, etc. All these numerical values are displayed in different formats depending on the type of information it represents. Similarly, there are many formats in which a date or time can be displayed.
 Aspose.Cells supports this functionality and allows developers to set any display format for a number or date.
 
-### **Setting Display Formats in Microsoft Excel**
+### **How to Set Display Formats in Microsoft Excel**
 
 To set display formats in Microsoft Excel:
 
@@ -25,7 +25,7 @@ Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells
 
 Aspose.Cells provides [**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) and [**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) methods for the [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) class. These methods are used to get and set a cell's formatting. The [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) class provides some useful properties for dealing with the display formats of numbers and dates.
 
-### **Using Built-in Number Formats**
+### **How to Use Built-in Number Formats**
 
 Aspose.Cells offers some built-in number formats to configure the display formats of the numbers and dates. These built-in number formats can be applied by using the [**Number**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/number) property of the [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object. All built-in number formats are given unique numeric values. Developers can assign any desired numeric value to the [**Number**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/number) property of the [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object to apply the display format. This approach is fast. The built-in number formats supported by Aspose.Cells are listed below.
 
@@ -70,7 +70,7 @@ Aspose.Cells offers some built-in number formats to configure the display format
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-SettingDisplayFormats-UsingBuiltInNumberFormats-1.cs" >}}
 
-### **Using Custom Number Formats**
+### **How to Use Custom Number Formats**
 
 To define your own customized format string for setting the display format, use the [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object's [**Custom**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom) property. This approach is not as fast as using pre-set formats but it is more flexible.
 
