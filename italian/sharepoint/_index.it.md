@@ -21,7 +21,7 @@ Di seguito sono riportati i collegamenti ad alcune risorse utili di cui potresti
 
 - [Aspose.Cells for SharePoint Documentazione in linea](/cells/it/sharepoint/)
 - [Aspose.Cells for SharePoint Caratteristiche](/cells/it/sharepoint/features/)
-- [Aspose.Cells for SharePoint Note di rilascio](/cells/it/sharepoint/release-notes/)
+- [Aspose.Cells for SharePoint Note di rilascio](https://releases.aspose.com/cells/sharepoint/release-notes/)
 - [Aspose.Cells for SharePoint Pagina prodotto](https://products.aspose.com/cells/python-java/)
 - [Scarica Aspose.Cells for SharePoint](https://downloads.aspose.com/cells/sharepoint)
 - [Aspose.Cells for SharePoint Forum di supporto gratuito](https://forum.aspose.com/c/cells/9)

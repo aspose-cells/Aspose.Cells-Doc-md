@@ -22,7 +22,7 @@ Di seguito sono riportati i collegamenti ad alcune risorse utili di cui potresti
 
 - [Aspose.Cells for .NET Documentazione in linea](/cells/it/net/)(Aspose.Cells for Python via .NET è molto simile a Aspose.Cells for .NET. Quindi, puoi usare la stessa documentazione)
 - [Aspose.Cells for Python via .NET Caratteristiche](/cells/it/python-net/features/)
-- [Aspose.Cells for Python via .NET Note di rilascio](/cells/it/python-net/release-notes/)
+- [Aspose.Cells for Python via .NET Note di rilascio](https://releases.aspose.com/cells/python-net/release-notes/)
 - [Aspose.Cells for Python via .NET Pagina prodotto](https://products.aspose.com/cells/python-net/)
 - [Scarica Aspose.Cells for Python via .NET](https://downloads.aspose.com/cells/python-net)
 - [Aspose.Cells for Python via .NET Forum di supporto gratuito](https://forum.aspose.com/c/cells/9)

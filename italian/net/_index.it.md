@@ -30,7 +30,7 @@ Aspose.Cells for .NET supporta i popolari fogli di calcolo (XLS, XLSX, XLSM, XLS
 				<li><a href="/cells/it/net/what-s-new-in-aspose-cells-for-net/">Cosa c'è di nuovo in Aspose.Cells for .NET</a></li>
 				<li><a href="/cells/it/net/product-overview/">Panoramica del Prodotto</a></li>
 				<li><a href="/cells/it/net/licensing/">Licenza e Abbonamento</a></li>
-			    <li><a href="/cells/it/net/release-notes/">Aspose.Cells for .NET Note di rilascio</a></li>
+			    <li><a href="https://releases.aspose.com/cells/net/release-notes/">Aspose.Cells for .NET Note di rilascio</a></li>
 			</ul>            
 	        <p>Risorse utili</p>
 			<ul>
@@ -65,7 +65,7 @@ Aspose.Cells for .NET supporta i popolari fogli di calcolo (XLS, XLSX, XLSM, XLS
 				<li><a href="/cells/it/net/convert-workbook-to-different-formats/">Rendering e Conversione</a></li>
 				<li><a href="/cells/it/net/print-and-preview/">Stampa e Anteprima</a></li>
 				<li><a href="https://reference.aspose.com/cells/net">Aspose.Cells for .NET API Guida di riferimento</a></li>
-			</ul>	
+			</ul>
 			<p>Supporto tecnico</p>
 			<ul>
 				<li><a href="https://forum.aspose.com/c/cells/9">Aspose.Cells for .NET Forum di supporto gratuito</a></li>
@@ -73,4 +73,3 @@ Aspose.Cells for .NET supporta i popolari fogli di calcolo (XLS, XLSX, XLSM, XLS
 			</ul>
 	</div>
 </div>
-

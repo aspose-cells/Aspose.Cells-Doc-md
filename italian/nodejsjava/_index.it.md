@@ -22,10 +22,9 @@ Di seguito sono riportati i collegamenti ad alcune risorse utili di cui potresti
 - [Aspose.Cells for Java Documentazione in linea](/cells/it/java/)(Aspose.Cells for Node.js tramite Java viene trasferito da Aspose.Cells for Java. Quindi, puoi utilizzare la stessa documentazione)
 - [Aspose.Cells for Node.js via Java Caratteristiche](/cells/it/nodejs-java/features/)
 - [Aspose.Cells for Node.js via Java Limitazioni e differenze API](/cells/it/nodejs-java/limitations-and-api-differences/)
-- [Aspose.Cells for Node.js via Java Note di rilascio](/cells/it/nodejs-java/release-notes/)
+- [Aspose.Cells for Node.js via Java Note di rilascio](https://releases.aspose.com/cells/nodejs/release-notes/)
 - [Aspose.Cells for Node.js via Java Pagina prodotto](https://products.aspose.com/cells/nodejs-java/)
 - [Scarica Aspose.Cells for Node.js via Java](https://downloads.aspose.com/cells/nodejs)
 - [Aspose.Cells for Node.js via Java Guida di riferimento API](https://reference.aspose.com/cells/nodejs)
 - [Aspose.Cells for Node.js via Java Forum di supporto gratuito](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Node.js via Java Helpdesk di supporto a pagamento](https://helpdesk.aspose.com/)
-
