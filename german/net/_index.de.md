@@ -30,7 +30,7 @@ Aspose.Cells for .NET unterstützt die gängigen Dateiformate für Tabellenkalku
 				<li><a href="/cells/de/net/what-s-new-in-aspose-cells-for-net/">Was ist neu in Aspose.Cells for .NET</a></li>
 				<li><a href="/cells/de/net/product-overview/">Produktübersicht</a></li>
 				<li><a href="/cells/de/net/licensing/">Lizenzierung und Abonnement</a></li>
-			    <li><a href="/cells/de/net/release-notes/">Aspose.Cells for .NET Versionshinweise</a></li>
+			    <li><a href="https://releases.aspose.com/de/cells/net/release-notes/">Aspose.Cells for .NET Versionshinweise</a></li>
 			</ul>            
 	        <p>Nützliche Ressourcen</p>
 			<ul>
@@ -65,7 +65,7 @@ Aspose.Cells for .NET unterstützt die gängigen Dateiformate für Tabellenkalku
 				<li><a href="/cells/de/net/convert-workbook-to-different-formats/">Rendering und Konvertierung</a></li>
 				<li><a href="/cells/de/net/print-and-preview/">Drucken und Vorschau</a></li>
 				<li><a href="https://reference.aspose.com/cells/net">Aspose.Cells for .NET API Referenzhandbuch</a></li>
-			</ul>	
+			</ul>
 			<p>Technischer Support</p>
 			<ul>
 				<li><a href="https://forum.aspose.com/c/cells/9">Aspose.Cells for .NET Kostenloses Support-Forum</a></li>
@@ -73,4 +73,3 @@ Aspose.Cells for .NET unterstützt die gängigen Dateiformate für Tabellenkalku
 			</ul>
 	</div>
 </div>
-
