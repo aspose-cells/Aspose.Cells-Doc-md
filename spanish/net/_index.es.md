@@ -30,7 +30,7 @@ Aspose.Cells for .NET es compatible con los populares formatos de archivo de hoj
 				<li><a href="/cells/es/net/what-s-new-in-aspose-cells-for-net/">Lo nuevo en Aspose.Cells for .NET</a></li>
 				<li><a href="/cells/es/net/product-overview/">Descripción del producto</a></li>
 				<li><a href="/cells/es/net/licensing/">Licencias y suscripción</a></li>
-			    <li><a href="/cells/es/net/release-notes/">Aspose.Cells for .NET Notas de la versión</a></li>
+			    <li><a href="https://releases.aspose.com/es/cells/net/release-notes/">Aspose.Cells for .NET Notas de la versión</a></li>
 			</ul>            
 	        <p>Recursos útiles</p>
 			<ul>
@@ -65,7 +65,7 @@ Aspose.Cells for .NET es compatible con los populares formatos de archivo de hoj
 				<li><a href="/cells/es/net/convert-workbook-to-different-formats/">Representación y conversión</a></li>
 				<li><a href="/cells/es/net/print-and-preview/">Imprimir y previsualizar</a></li>
 				<li><a href="https://reference.aspose.com/cells/net">Aspose.Cells for .NET API Guía de referencia</a></li>
-			</ul>	
+			</ul>
 			<p>Soporte técnico</p>
 			<ul>
 				<li><a href="https://forum.aspose.com/c/cells/9">Aspose.Cells for .NET Foro de soporte gratuito</a></li>
@@ -73,4 +73,3 @@ Aspose.Cells for .NET es compatible con los populares formatos de archivo de hoj
 			</ul>
 	</div>
 </div>
-

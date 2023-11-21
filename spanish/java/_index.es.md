@@ -28,11 +28,10 @@ Los siguientes son los enlaces a algunos recursos útiles que puede necesitar pa
 - [Aspose.Cells for Java Documentación en línea](/cells/es/java/)
 - [Aspose.Cells for Java Características](/cells/es/java/feature-overview/)
 - [Aspose.Cells for Java Limitaciones](/cells/es/java/aspose-cells-features/)
-- [Aspose.Cells for Java Notas de la versión](/cells/es/java/aspose-cells-for-java/)
+- [Aspose.Cells for Java Notas de la versión](https://releases.aspose.com/es/cells/java/release-notes/)
 - [Aspose.Cells for Java Página del producto](https://products.aspose.com/cells/java/)
-- [Descargar Aspose.Cells for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)
+- [Descargar Aspose.Cells for Java](https://releases.aspose.com/java/repo/com/aspose/aspose-cells/)
 - [Instale Aspose.Cells for Java desde el repositorio Maven](/cells/es/java/installation/)
 - [Aspose.Cells for Java API Guía de referencia](https://reference.aspose.com/cells/java)
 - [Aspose.Cells for Java Foro de soporte gratuito](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Java Soporte técnico de pago](https://helpdesk.aspose.com/)
-
