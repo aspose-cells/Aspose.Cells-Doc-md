@@ -30,7 +30,7 @@ Aspose.Cells for .NET يدعم تنسيقات ملفات جداول البيان
 				<li><a href="/cells/ar/net/what-s-new-in-aspose-cells-for-net/">ما الجديد في Aspose.Cells for .NET</a></li>
 				<li><a href="/cells/ar/net/product-overview/">نظرة عامة على المنتج</a></li>
 				<li><a href="/cells/ar/net/licensing/">الترخيص والاشتراك</a></li>
-			    <li><a href="/cells/ar/net/release-notes/">Aspose.Cells for .NET ملاحظات الإصدار</a></li>
+			    <li><a href="https://releases.aspose.com/cells/net/release-notes/">Aspose.Cells for .NET ملاحظات الإصدار</a></li>
 			</ul>            
 	        <p>موارد مفيدة</p>
 			<ul>
@@ -65,7 +65,7 @@ Aspose.Cells for .NET يدعم تنسيقات ملفات جداول البيان
 				<li><a href="/cells/ar/net/convert-workbook-to-different-formats/">التقديم والتحويل</a></li>
 				<li><a href="/cells/ar/net/print-and-preview/">طباعة ومعاينة</a></li>
 				<li><a href="https://reference.aspose.com/cells/net">Aspose.Cells for .NET API الدليل المرجعي</a></li>
-			</ul>	
+			</ul>
 			<p>دعم فني</p>
 			<ul>
 				<li><a href="https://forum.aspose.com/c/cells/9">Aspose.Cells for .NET منتدى الدعم المجاني</a></li>
@@ -73,4 +73,3 @@ Aspose.Cells for .NET يدعم تنسيقات ملفات جداول البيان
 			</ul>
 	</div>
 </div>
-

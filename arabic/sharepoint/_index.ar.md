@@ -21,7 +21,7 @@ Aspose.Cells for SharePoint هو حل مرن يدعم تحويل جداول ال
 
 - [Aspose.Cells for SharePoint التوثيق عبر الإنترنت](/cells/ar/sharepoint/)
 - [Aspose.Cells for SharePoint الميزات](/cells/ar/sharepoint/features/)
-- [Aspose.Cells for SharePoint ملاحظات الإصدار](/cells/ar/sharepoint/release-notes/)
+- [Aspose.Cells for SharePoint ملاحظات الإصدار](https://releases.aspose.com/cells/sharepoint/release-notes/)
 - [Aspose.Cells for SharePoint صفحة المنتج](https://products.aspose.com/cells/python-java/)
 - [تحميل Aspose.Cells for SharePoint](https://downloads.aspose.com/cells/sharepoint)
 - [Aspose.Cells for SharePoint منتدى الدعم المجاني](https://forum.aspose.com/c/cells/9)

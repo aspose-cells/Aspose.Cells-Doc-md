@@ -22,7 +22,7 @@ Aspose.Cells for Python via .NET يمكّن تطبيقاتك من أداء مج�
 
 - [Aspose.Cells for .NET التوثيق عبر الإنترنت](/cells/ar/net/)(Aspose.Cells for Python via .NET مشابه جدًا لـ Aspose.Cells for .NET. لذلك ، يمكنك استخدام نفس الوثائق)
 - [Aspose.Cells for Python via .NET الميزات](/cells/ar/python-net/features/)
-- [Aspose.Cells for Python via .NET ملاحظات الإصدار](/cells/ar/python-net/release-notes/)
+- [Aspose.Cells for Python via .NET ملاحظات الإصدار](https://releases.aspose.com/cells/python-net/release-notes/)
 - [Aspose.Cells for Python via .NET صفحة المنتج](https://products.aspose.com/cells/python-net/)
 - [تحميل Aspose.Cells for Python via .NET](https://downloads.aspose.com/cells/python-net)
 - [Aspose.Cells for Python via .NET منتدى الدعم المجاني](https://forum.aspose.com/c/cells/9)

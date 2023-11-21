@@ -28,11 +28,10 @@ Aspose.Cells for Java يدعم تنسيقات ملفات جداول البيان
 - [Aspose.Cells for Java التوثيق عبر الإنترنت](/cells/ar/java/)
 - [Aspose.Cells for Java الميزات](/cells/ar/java/feature-overview/)
 - [Aspose.Cells for Java القيود](/cells/ar/java/aspose-cells-features/)
-- [Aspose.Cells for Java ملاحظات الإصدار](/cells/ar/java/aspose-cells-for-java/)
+- [Aspose.Cells for Java ملاحظات الإصدار](https://releases.aspose.com/cells/java/release-notes/)
 - [Aspose.Cells for Java صفحة المنتج](https://products.aspose.com/cells/java/)
-- [تحميل Aspose.Cells for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)
+- [تحميل Aspose.Cells for Java](https://releases.aspose.com/java/repo/com/aspose/aspose-cells/)
 - [قم بتثبيت Aspose.Cells for Java من مستودع Maven](/cells/ar/java/installation/)
 - [Aspose.Cells for Java API الدليل المرجعي](https://reference.aspose.com/cells/java)
 - [Aspose.Cells for Java منتدى الدعم المجاني](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Java مكتب مساعدة الدعم المدفوع](https://helpdesk.aspose.com/)
-
