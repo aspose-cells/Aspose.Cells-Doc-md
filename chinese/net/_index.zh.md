@@ -30,7 +30,7 @@ Aspose.Cells for .NET 支持您的企业日常使用的流行电子表格 (XLS, 
 				<li><a href="/cells/zh/net/what-s-new-in-aspose-cells-for-net/">Aspose.Cells for .NET 中的新功能</a></li>
 				<li><a href="/cells/zh/net/product-overview/">产品概览</a></li>
 				<li><a href="/cells/zh/net/licensing/">许可和订阅</a></li>
-			    <li><a href="/cells/zh/net/release-notes/">Aspose.Cells for .NET 发行说明</a></li>
+			    <li><a href="https://releases.aspose.com/zh/cells/net/release-notes/">Aspose.Cells for .NET 发行说明</a></li>
 			</ul>            
 	        <p>有用资源</p>
 			<ul>
@@ -65,7 +65,7 @@ Aspose.Cells for .NET 支持您的企业日常使用的流行电子表格 (XLS, 
 				<li><a href="/cells/zh/net/convert-workbook-to-different-formats/">渲染和转换</a></li>
 				<li><a href="/cells/zh/net/print-and-preview/">打印和预览</a></li>
 				<li><a href="https://reference.aspose.com/cells/net">Aspose.Cells for .NET API 参考指南</a></li>
-			</ul>	
+			</ul>
 			<p>技术支援</p>
 			<ul>
 				<li><a href="https://forum.aspose.com/c/cells/9">Aspose.Cells for .NET 免费支持论坛</a></li>
@@ -73,4 +73,3 @@ Aspose.Cells for .NET 支持您的企业日常使用的流行电子表格 (XLS, 
 			</ul>
 	</div>
 </div>
-

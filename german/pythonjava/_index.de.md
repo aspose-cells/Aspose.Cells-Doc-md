@@ -22,7 +22,7 @@ Im Folgenden finden Sie Links zu einigen nützlichen Ressourcen, die Sie möglic
 
 - [Aspose.Cells for Java Online-Dokumentation](/cells/de/java/)(Aspose.Cells for Python via Java ist Aspose.Cells for Java sehr ähnlich. Sie können also dieselbe Dokumentation verwenden.)
 - [Aspose.Cells for Python via Java Eigenschaften](/cells/de/pythonjava/features/)
-- [Aspose.Cells for Python via Java Versionshinweise](/cells/de/pythonjava/release-notes/)
+- [Aspose.Cells for Python via Java Versionshinweise](https://releases.aspose.com/de/cells/python-java/release-notes/)
 - [Aspose.Cells for Python via Java Produktseite](https://products.aspose.com/cells/python-java/)
 - [Herunterladen Aspose.Cells for Python via Java](https://downloads.aspose.com/cells/python-java)
 - [Aspose.Cells for Python via Java API Referenzhandbuch](https://reference.aspose.com/cells/python)

@@ -22,7 +22,7 @@ Aspose.Cells for Python via Java 使您的应用程序能够执行范围广泛�
 
 - [Aspose.Cells for Java 在线文档](/cells/zh/java/)（Aspose.Cells for Python via Java 与 Aspose.Cells for Java 非常相似。因此，您可以使用相同的文档）
 - [Aspose.Cells for Python via Java 特点](/cells/zh/pythonjava/features/)
-- [Aspose.Cells for Python via Java 发行说明](/cells/zh/pythonjava/release-notes/)
+- [Aspose.Cells for Python via Java 发行说明](https://releases.aspose.com/zh/cells/python-java/release-notes/)
 - [Aspose.Cells for Python via Java 产品页面](https://products.aspose.com/cells/python-java/)
 - [下载 Aspose.Cells for Python via Java](https://downloads.aspose.com/cells/python-java)
 - [Aspose.Cells for Python via Java API 参考指南](https://reference.aspose.com/cells/python)

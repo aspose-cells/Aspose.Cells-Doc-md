@@ -22,10 +22,9 @@ is_root: true
 - [Aspose.Cells for Java التوثيق عبر الإنترنت](/cells/ar/java/)(Aspose.Cells for Node.js عبر Java يتم نقله من Aspose.Cells for Java. لذلك ، يمكنك استخدام نفس الوثائق)
 - [Aspose.Cells for Node.js via Java الميزات](/cells/ar/nodejs-java/features/)
 - [Aspose.Cells for Node.js via Java القيود و API الاختلافات](/cells/ar/nodejs-java/limitations-and-api-differences/)
-- [Aspose.Cells for Node.js via Java ملاحظات الإصدار](/cells/ar/nodejs-java/release-notes/)
+- [Aspose.Cells for Node.js via Java ملاحظات الإصدار](https://releases.aspose.com/cells/ar/nodejs/release-notes/)
 - [Aspose.Cells for Node.js via Java صفحة المنتج](https://products.aspose.com/cells/nodejs-java/)
 - [تحميل Aspose.Cells for Node.js via Java](https://downloads.aspose.com/cells/nodejs)
 - [Aspose.Cells for Node.js via Java API دليل مرجعي](https://reference.aspose.com/cells/nodejs)
 - [Aspose.Cells for Node.js via Java منتدى الدعم المجاني](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Node.js via Java مكتب مساعدة الدعم المدفوع](https://helpdesk.aspose.com/)
-

@@ -22,10 +22,9 @@ Aspose.Cells for Node.js via Java は、Node.js を使用した Aspose.Cells for
 - [Aspose.Cells for Java オンライン ドキュメント](/cells/ja/java/)(Java 経由の Aspose.Cells for Node.js は Aspose.Cells for Java から移植されています。したがって、同じドキュメントを使用できます)
 - [Aspose.Cells for Node.js via Java 特徴](/cells/ja/nodejs-java/features/)
 - [Aspose.Cells for Node.js via Java 制限事項と API 相違点](/cells/ja/nodejs-java/limitations-and-api-differences/)
-- [Aspose.Cells for Node.js via Java リリースノート](/cells/ja/nodejs-java/release-notes/)
+- [Aspose.Cells for Node.js via Java リリースノート](https://releases.aspose.com/ja/cells/nodejs/release-notes/)
 - [Aspose.Cells for Node.js via Java 商品ページ](https://products.aspose.com/cells/nodejs-java/)
 - [ダウンロード Aspose.Cells for Node.js via Java](https://downloads.aspose.com/cells/nodejs)
 - [Aspose.Cells for Node.js via Java API リファレンスガイド](https://reference.aspose.com/cells/nodejs)
 - [Aspose.Cells for Node.js via Java 無料サポートフォーラム](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Node.js via Java 有料サポート ヘルプデスク](https://helpdesk.aspose.com/)
-

@@ -22,7 +22,7 @@ Aspose.Cells for Python via Java يمكّن تطبيقاتك من أداء مج�
 
 - [Aspose.Cells for Java التوثيق عبر الإنترنت](/cells/ar/java/)(Aspose.Cells for Python via Java مشابه جدًا لـ Aspose.Cells for Java. لذلك ، يمكنك استخدام نفس الوثائق)
 - [Aspose.Cells for Python via Java الميزات](/cells/ar/pythonjava/features/)
-- [Aspose.Cells for Python via Java ملاحظات الإصدار](/cells/ar/pythonjava/release-notes/)
+- [Aspose.Cells for Python via Java ملاحظات الإصدار](https://releases.aspose.com/cells/python-java/release-notes/)
 - [Aspose.Cells for Python via Java صفحة المنتج](https://products.aspose.com/cells/python-java/)
 - [تحميل Aspose.Cells for Python via Java](https://downloads.aspose.com/cells/python-java)
 - [Aspose.Cells for Python via Java API دليل مرجعي](https://reference.aspose.com/cells/python)

@@ -28,11 +28,10 @@ Aspose.Cells for Java 支持您的企业日常使用的流行电子表格 (XLS, 
 - [Aspose.Cells for Java 在线文档](/cells/zh/java/)
 - [Aspose.Cells for Java 特点](/cells/zh/java/feature-overview/)
 - [Aspose.Cells for Java 限制](/cells/zh/java/aspose-cells-features/)
-- [Aspose.Cells for Java 发行说明](/cells/zh/java/aspose-cells-for-java/)
+- [Aspose.Cells for Java 发行说明](https://releases.aspose.com/zh/cells/java/release-notes/)
 - [Aspose.Cells for Java 产品页面](https://products.aspose.com/cells/java/)
-- [下载 Aspose.Cells for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)
+- [下载 Aspose.Cells for Java](https://releases.aspose.com/java/repo/com/aspose/aspose-cells/)
 - [从 Maven 存储库安装 Aspose.Cells for Java](/cells/zh/java/installation/)
 - [Aspose.Cells for Java API 参考指南](https://reference.aspose.com/cells/java)
 - [Aspose.Cells for Java 免费支持论坛](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Java 付费支持服务台](https://helpdesk.aspose.com/)
-

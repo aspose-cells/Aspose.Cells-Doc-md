@@ -30,7 +30,7 @@ Aspose.Cells for .NET は、ビジネスで毎日使用する一般的なスプ�
 				<li><a href="/cells/ja/net/what-s-new-in-aspose-cells-for-net/">Aspose.Cells for .NET の新着情報</a></li>
 				<li><a href="/cells/ja/net/product-overview/">製品の概要</a></li>
 				<li><a href="/cells/ja/net/licensing/">ライセンスとサブスクリプション</a></li>
-			    <li><a href="/cells/ja/net/release-notes/">Aspose.Cells for .NET リリースノート</a></li>
+			    <li><a href="https://releases.aspose.com/ja/cells/net/release-notes/">Aspose.Cells for .NET リリースノート</a></li>
 			</ul>            
 	        <p>便利なリソース</p>
 			<ul>
@@ -65,7 +65,7 @@ Aspose.Cells for .NET は、ビジネスで毎日使用する一般的なスプ�
 				<li><a href="/cells/ja/net/convert-workbook-to-different-formats/">レンダリングと変換</a></li>
 				<li><a href="/cells/ja/net/print-and-preview/">印刷とプレビュー</a></li>
 				<li><a href="https://reference.aspose.com/cells/net">Aspose.Cells for .NET API リファレンスガイド</a></li>
-			</ul>	
+			</ul>
 			<p>技術サポート</p>
 			<ul>
 				<li><a href="https://forum.aspose.com/c/cells/9">Aspose.Cells for .NET 無料サポートフォーラム</a></li>
@@ -73,4 +73,3 @@ Aspose.Cells for .NET は、ビジネスで毎日使用する一般的なスプ�
 			</ul>
 	</div>
 </div>
-

@@ -22,10 +22,9 @@ Vous trouverez ci-dessous des liens vers des ressources utiles dont vous pourrie
 - [Aspose.Cells for Java Documentation en ligne](/cells/fr/java/)(Aspose.Cells for PHP via Java est porté depuis Aspose.Cells for Java. Vous pouvez donc utiliser la même documentation)
 - [Aspose.Cells for PHP via Java Caractéristiques](/cells/fr/php-java/features/)
 - [Aspose.Cells for PHP via Java Limites et API Différences](/cells/fr/php-java/limitations-and-api-differences/)
-- [Aspose.Cells for PHP via Java Notes de mise à jour](/cells/fr/php-java/release-notes/)
+- [Aspose.Cells for PHP via Java Notes de mise à jour](https://releases.aspose.com/fr/cells/php/release-notes/)
 - [Aspose.Cells for PHP via Java Page produit](https://products.aspose.com/cells/php-java/)
 - [Télécharger Aspose.Cells for PHP via Java](https://downloads.aspose.com/cells/php)
 - [Aspose.Cells for PHP via Java API Guide de référence](https://reference.aspose.com/cells/php)
 - [Aspose.Cells for PHP via Java Forum d'assistance gratuit](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for PHP via Java Service d'assistance payant](https://helpdesk.aspose.com/)
-

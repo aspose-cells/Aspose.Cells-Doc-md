@@ -21,7 +21,7 @@ Im Folgenden finden Sie Links zu einigen nützlichen Ressourcen, die Sie möglic
 
 - [Aspose.Cells for JasperReports Online-Dokumentation](/cells/de/jasperreports/)
 - [Aspose.Cells for JasperReports Eigenschaften](/cells/de/jasperreports/feature-overview/)
-- [Aspose.Cells for JasperReports Versionshinweise](/cells/de/jasperreports/release-notes/)
+- [Aspose.Cells for JasperReports Versionshinweise](https://releases.aspose.com/de/cells/jasperreports/release-notes/)
 - [Aspose.Cells for JasperReports Produktseite](https://products.aspose.com/cells/jasperreports/)
 - [Herunterladen Aspose.Cells for JasperReports](https://downloads.aspose.com/cells/jasperreports)
 - [Aspose.Cells for JasperReports Kostenloses Support-Forum](https://forum.aspose.com/c/cells/9)

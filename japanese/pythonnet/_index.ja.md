@@ -22,7 +22,7 @@ Aspose.Cells for Python via .NET を使用すると、アプリケーション�
 
 - [Aspose.Cells for .NET オンライン ドキュメント](/cells/ja/net/)(Aspose.Cells for Python via .NET は Aspose.Cells for .NET と非常によく似ています。したがって、同じドキュメントを使用できます)
 - [Aspose.Cells for Python via .NET 特徴](/cells/ja/python-net/features/)
-- [Aspose.Cells for Python via .NET リリースノート](/cells/ja/python-net/release-notes/)
+- [Aspose.Cells for Python via .NET リリースノート](https://releases.aspose.com/ja/cells/python-net/release-notes/)
 - [Aspose.Cells for Python via .NET 商品ページ](https://products.aspose.com/cells/python-net/)
 - [ダウンロード Aspose.Cells for Python via .NET](https://downloads.aspose.com/cells/python-net)
 - [Aspose.Cells for Python via .NET 無料サポートフォーラム](https://forum.aspose.com/c/cells/9)

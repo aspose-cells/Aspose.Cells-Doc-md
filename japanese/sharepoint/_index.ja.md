@@ -21,7 +21,7 @@ Aspose.Cells for SharePoint は、Microsoft SharePoint アプリケーション�
 
 - [Aspose.Cells for SharePoint オンライン ドキュメント](/cells/ja/sharepoint/)
 - [Aspose.Cells for SharePoint 特徴](/cells/ja/sharepoint/features/)
-- [Aspose.Cells for SharePoint リリースノート](/cells/ja/sharepoint/release-notes/)
+- [Aspose.Cells for SharePoint リリースノート](https://releases.aspose.com/ja/cells/sharepoint/release-notes/)
 - [Aspose.Cells for SharePoint 商品ページ](https://products.aspose.com/cells/python-java/)
 - [ダウンロード Aspose.Cells for SharePoint](https://downloads.aspose.com/cells/sharepoint)
 - [Aspose.Cells for SharePoint 無料サポートフォーラム](https://forum.aspose.com/c/cells/9)

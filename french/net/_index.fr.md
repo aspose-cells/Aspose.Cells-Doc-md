@@ -30,7 +30,7 @@ Aspose.Cells for .NET prend en charge les formats de fichier de feuille de calcu
 				<li><a href="/cells/fr/net/what-s-new-in-aspose-cells-for-net/">Quoi de neuf au Aspose.Cells for .NET</a></li>
 				<li><a href="/cells/fr/net/product-overview/">Présentation du produit</a></li>
 				<li><a href="/cells/fr/net/licensing/">Licence et abonnement</a></li>
-			    <li><a href="/cells/fr/net/release-notes/">Aspose.Cells for .NET Notes de mise à jour</a></li>
+			    <li><a href="https://releases.aspose.com/fr/cells/net/release-notes/">Aspose.Cells for .NET Notes de mise à jour</a></li>
 			</ul>            
 	        <p>Ressources utiles</p>
 			<ul>
@@ -65,7 +65,7 @@ Aspose.Cells for .NET prend en charge les formats de fichier de feuille de calcu
 				<li><a href="/cells/fr/net/convert-workbook-to-different-formats/">Rendu et conversion</a></li>
 				<li><a href="/cells/fr/net/print-and-preview/">Imprimer et prévisualiser</a></li>
 				<li><a href="https://reference.aspose.com/cells/net">Aspose.Cells for .NET API Guide de référence</a></li>
-			</ul>	
+			</ul>
 			<p>Soutien technique</p>
 			<ul>
 				<li><a href="https://forum.aspose.com/c/cells/9">Aspose.Cells for .NET Forum d'assistance gratuit</a></li>
@@ -73,4 +73,3 @@ Aspose.Cells for .NET prend en charge les formats de fichier de feuille de calcu
 			</ul>
 	</div>
 </div>
-

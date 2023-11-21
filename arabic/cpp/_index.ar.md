@@ -22,7 +22,7 @@ Aspose.Cells for C++ هي مكتبة C ++ أصلية تمكن مطوري C ++ م
 
 - [Aspose.Cells for C++ التوثيق عبر الإنترنت](/cells/ar/cpp/)
 - [Aspose.Cells for C++ الميزات](/cells/ar/cpp/product-overview/)
-- [Aspose.Cells for C++ ملاحظات الإصدار](/cells/ar/cpp/release-notes/)
+- [Aspose.Cells for C++ ملاحظات الإصدار](https://releases.aspose.com/cells/cpp/release-notes/)
 - [Aspose.Cells for C++ صفحة المنتج](https://products.aspose.com/cells/cpp/)
 - [قم بتثبيت Aspose.Cells for C++ NuGet Package](https://www.nuget.org/packages/Aspose.Cells.CPP/)
 - [Aspose.Cells for C++ API الدليل المرجعي](https://reference.aspose.com/cells/cpp)

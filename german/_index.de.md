@@ -21,7 +21,7 @@ Im Folgenden finden Sie Links zu einigen nützlichen Ressourcen, die Sie möglic
 - [Aspose.Cells for .NET Online-Dokumentation](/cells/de/net/)
 - [Aspose.Cells for .NET Eigenschaften](/cells/de/net/feature-overview/)
 - [Aspose.Cells for .NET Einschränkungen](/cells/de/net/what-document-features-are-supported/)
-- [Aspose.Cells for .NET Versionshinweise](/cells/de/net/release-notes/)
+- [Aspose.Cells for .NET Versionshinweise](https://releases.aspose.com/de/cells/net/release-notes/)
 - [Aspose.Cells for .NET Produktseite](https://products.aspose.com/cells/net/)
 - [Installieren Sie das Paket Aspose.Cells for .NET NuGet](https://www.nuget.org/packages/Aspose.Cells/)
 - [Aspose.Cells for .NET API Referenzhandbuch](https://reference.aspose.com/cells/net)
@@ -45,9 +45,9 @@ Im Folgenden finden Sie Links zu einigen nützlichen Ressourcen, die Sie möglic
 - [Aspose.Cells for Java Online-Dokumentation](/cells/de/java/)
 - [Aspose.Cells for Java Eigenschaften](/cells/de/java/feature-overview/)
 - [Aspose.Cells for Java Einschränkungen](/cells/de/java/aspose-cells-features/)
-- [Aspose.Cells for Java Versionshinweise](/cells/de/java/aspose-cells-for-java/)
+- [Aspose.Cells for Java Versionshinweise](https://releases.aspose.com/de/cells/java/release-notes/)
 - [Aspose.Cells for Java Produktseite](https://products.aspose.com/cells/java/)
-- [Herunterladen Aspose.Cells for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)
+- [Herunterladen Aspose.Cells for Java](https://releases.aspose.com/java/repo/com/aspose/aspose-cells/)
 - [Installieren Sie Aspose.Cells for Java aus dem Maven-Repository](/cells/de/java/installation/)
 - [Aspose.Cells for Java API Referenzhandbuch](https://reference.aspose.com/cells/java)
 - [Aspose.Cells for Java Kostenloses Support-Forum](https://forum.aspose.com/c/cells/9)
@@ -69,7 +69,7 @@ Im Folgenden finden Sie Links zu einigen nützlichen Ressourcen, die Sie möglic
 
 - [Aspose.Cells for C++ Online-Dokumentation](/cells/de/cpp/)
 - [Aspose.Cells for C++ Eigenschaften](/cells/de/cpp/product-overview/)
-- [Aspose.Cells for C++ Versionshinweise](/cells/de/cpp/release-notes/)
+- [Aspose.Cells for C++ Versionshinweise](https://releases.aspose.com/de/cells/cpp/release-notes/)
 - [Aspose.Cells for C++ Produktseite](https://products.aspose.com/cells/cpp/)
 - [Installieren Sie das Paket Aspose.Cells for C++ NuGet](https://www.nuget.org/packages/Aspose.Cells.CPP/)
 - [Aspose.Cells for C++ API Referenzhandbuch](https://reference.aspose.com/cells/cpp)
@@ -94,7 +94,7 @@ Im Folgenden finden Sie Links zu einigen nützlichen Ressourcen, die Sie möglic
 - [Aspose.Cells for Java Online-Dokumentation](/cells/de/java/)(Aspose.Cells for Android via Java ist Aspose.Cells for Java sehr ähnlich. Sie können also dieselbe Dokumentation verwenden.)
 - [Aspose.Cells for Android via Java Eigenschaften](/cells/de/java/aspose-cells-for-android-via-java-features/)
 - [Aspose.Cells for Android via Java Einschränkungen und API Unterschiede](/cells/de/java/aspose-cells-for-android-via-java-limitations-and-api-differences/)
-- [Aspose.Cells for Android via Java Versionshinweise](/cells/de/java/aspose-cells-for-android-via-java/)
+- [Aspose.Cells for Android via Java Versionshinweise](https://releases.aspose.com/de/cells/androidjava/release-notes/)
 - [Aspose.Cells for Android via Java Produktseite](https://products.aspose.com/cells/android-java/)
 - [Herunterladen Aspose.Cells for Android via Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)
 - [Installieren Sie Aspose.Cells for Android via Java von Maven](/cells/de/java/aspose-cells-for-android-via-java-installation/#install-asposecells-for-android-via-java-from-maven-repository)
@@ -117,7 +117,7 @@ Im Folgenden finden Sie Links zu einigen nützlichen Ressourcen, die Sie möglic
 - [Aspose.Cells for Java Online-Dokumentation](/cells/de/java/)(Aspose.Cells for Node.js über Java wird von Aspose.Cells for Java portiert. Sie können also dieselbe Dokumentation verwenden)
 - [Aspose.Cells for Node.js via Java Eigenschaften](/cells/de/nodejsjava/features/)
 - [Aspose.Cells for Node.js via Java Einschränkungen und API Unterschiede](/cells/de/nodejsjava/limitations-and-api-differences/)
-- [Aspose.Cells for Node.js via Java Versionshinweise](/cells/de/nodejsjava/release-notes/)
+- [Aspose.Cells for Node.js via Java Versionshinweise](https://releases.aspose.com/de/cells/nodejs/release-notes/)
 - [Aspose.Cells for Node.js via Java Produktseite](https://products.aspose.com/cells/nodejs-java/)
 - [Herunterladen Aspose.Cells for Node.js via Java](https://downloads.aspose.com/cells/nodejs)
 - [Aspose.Cells for Node.js via Java API Referenzhandbuch](https://reference.aspose.com/cells/nodejs)
@@ -141,7 +141,7 @@ Im Folgenden finden Sie Links zu einigen nützlichen Ressourcen, die Sie möglic
 - [Aspose.Cells for Java Online-Dokumentation](/cells/de/java/)(Aspose.Cells for PHP über Java wird von Aspose.Cells for Java portiert. Sie können also dieselbe Dokumentation verwenden)
 - [Aspose.Cells for PHP via Java Eigenschaften](/cells/de/phpjava/features/)
 - [Aspose.Cells for PHP via Java Einschränkungen und API Unterschiede](/cells/de/java/aspose-cells-for-php-via-java-limitations-and-api-differences/)
-- [Aspose.Cells for PHP via Java Versionshinweise](/cells/de/phpjava/release-notes/)
+- [Aspose.Cells for PHP via Java Versionshinweise](https://releases.aspose.com/de/cells/php/release-notes/)
 - [Aspose.Cells for PHP via Java Produktseite](https://products.aspose.com/cells/php-java/)
 - [Herunterladen Aspose.Cells for PHP via Java](https://downloads.aspose.com/cells/php)
 - [Aspose.Cells for PHP via Java API Referenzhandbuch](https://reference.aspose.com/cells/php)
@@ -164,7 +164,7 @@ Im Folgenden finden Sie Links zu einigen nützlichen Ressourcen, die Sie möglic
 
 - [Aspose.Cells for Java Online-Dokumentation](/cells/de/java/)(Aspose.Cells for Python via Java ist Aspose.Cells for Java sehr ähnlich. Sie können also dieselbe Dokumentation verwenden.)
 - [Aspose.Cells for Python via Java Eigenschaften](/cells/de/python-java/features/)
-- [Aspose.Cells for Python via Java Versionshinweise](/cells/de/python-java/release-notes/)
+- [Aspose.Cells for Python via Java Versionshinweise](https://releases.aspose.com/de/cells/python-java/release-notes/)
 - [Aspose.Cells for Python via Java Produktseite](https://products.aspose.com/cells/python-java/)
 - [Herunterladen Aspose.Cells for Python via Java](https://downloads.aspose.com/cells/python-java)
 - [Aspose.Cells for Python via Java API Referenzhandbuch](https://reference.aspose.com/cells/python-java)
@@ -175,7 +175,7 @@ Im Folgenden finden Sie Links zu einigen nützlichen Ressourcen, die Sie möglic
 
 ![Aspose.Cells for Reporting Services Produktlogo](aspose-cells-for-ssrs.png)
 
-**Willkommen unter Aspose.Cells for Reporting Services** 
+**Willkommen unter Aspose.Cells for Reporting Services**
 
 Aspose.Cells for Reporting Services ist eine Lösung für Entwickler, die Microsoft Excel-Berichte in Reporting Services bereitstellen müssen. Es fügt den Reporting Services flexible und benutzerfreundliche Funktionen über das Tool Aspose.Cells.Report.Designer hinzu. Der API kann alle Aufgaben im Zusammenhang mit der Entwicklung von Berichten in Reporting Services ausführen, z. B. das Einrichten von Datenquellen, das Erstellen von Abfragen, das Entwerfen von Berichten und das Veröffentlichen von Berichten auf dem Berichtsserver. Da Aspose.Cells.Report.Designer Microsoft Excel als Berichtsvorlage verwendet, können Benutzer die leistungsstarken Funktionen von Microsoft Excel nutzen.
 
@@ -187,7 +187,7 @@ Im Folgenden finden Sie Links zu einigen nützlichen Ressourcen, die Sie möglic
 
 - [Aspose.Cells for Reporting Services Online-Dokumentation](/cells/de/reportingservices/)
 - [Aspose.Cells for Reporting Services Eigenschaften](/cells/de/reportingservices/features/)
-- [Aspose.Cells for Reporting Services Versionshinweise](/cells/de/reportingservices/release-notes/)
+- [Aspose.Cells for Reporting Services Versionshinweise](https://releases.aspose.com/de/cells/reportingservices/release-notes/)
 - [Aspose.Cells for Reporting Services Produktseite](https://products.aspose.com/cells/reporting-services/)
 - [Herunterladen Aspose.Cells for Reporting Services](https://downloads.aspose.com/cells/reportingservices)
 - [Aspose.Cells for Reporting Services Kostenloses Support-Forum](https://forum.aspose.com/c/cells/9)
@@ -209,7 +209,7 @@ Im Folgenden finden Sie Links zu einigen nützlichen Ressourcen, die Sie möglic
 
 - [Aspose.Cells for SharePoint Online-Dokumentation](/cells/de/sharepoint/)
 - [Aspose.Cells for SharePoint Eigenschaften](/cells/de/sharepoint/features/)
-- [Aspose.Cells for SharePoint Versionshinweise](/cells/de/sharepoint/release-notes/)
+- [Aspose.Cells for SharePoint Versionshinweise](https://releases.aspose.com/de/cells/sharepoint/release-notes/)
 - [Aspose.Cells for SharePoint Produktseite](https://products.aspose.com/cells/sharepoint/)
 - [Herunterladen Aspose.Cells for SharePoint](https://downloads.aspose.com/cells/sharepoint)
 - [Aspose.Cells for SharePoint Kostenloses Support-Forum](https://forum.aspose.com/c/cells/9)
@@ -231,7 +231,7 @@ Im Folgenden finden Sie Links zu einigen nützlichen Ressourcen, die Sie möglic
 
 - [Aspose.Cells for JasperReports Online-Dokumentation](/cells/de/jasperreports/)
 - [Aspose.Cells for JasperReports Eigenschaften](/cells/de/jasperreports/feature-overview/)
-- [Aspose.Cells for JasperReports Versionshinweise](/cells/de/jasperreports/release-notes/)
+- [Aspose.Cells for JasperReports Versionshinweise](https://releases.aspose.com/de/cells/jasperreports/release-notes/)
 - [Aspose.Cells for JasperReports Produktseite](https://products.aspose.com/cells/jasperreports/)
 - [Herunterladen Aspose.Cells for JasperReports](https://downloads.aspose.com/cells/jasperreports)
 - [Aspose.Cells for JasperReports Kostenloses Support-Forum](https://forum.aspose.com/c/cells/9)
@@ -252,9 +252,8 @@ Aspose.Cells for Python via .NET ermöglicht es Ihren Anwendungen, eine Vielzahl
 Im Folgenden finden Sie Links zu einigen nützlichen Ressourcen, die Sie möglicherweise zur Erfüllung Ihrer Aufgaben benötigen.
 
 - [Aspose.Cells for Python via .NET Eigenschaften](/cells/de/python-net/features/)
-- [Aspose.Cells for Python via .NET Versionshinweise](/cells/de/python-net/release-notes/)
+- [Aspose.Cells for Python via .NET Versionshinweise](https://releases.aspose.com/de/cells/python-net/release-notes/)
 - [Aspose.Cells for Python via .NET Produktseite](https://products.aspose.com/cells/python-net/)
 - [Herunterladen Aspose.Cells for Python via .NET](https://downloads.aspose.com/cells/python-net)
 - [Aspose.Cells for Python via .NET Kostenloses Support-Forum](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Python via .NET Kostenpflichtiger Support-Helpdesk](https://helpdesk.aspose.com/)
-

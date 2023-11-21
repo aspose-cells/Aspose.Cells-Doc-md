@@ -21,7 +21,7 @@ is_root: true
 
 - [Aspose.Cells for JasperReports オンライン ドキュメント](/cells/ja/jasperreports/)
 - [Aspose.Cells for JasperReports 特徴](/cells/ja/jasperreports/feature-overview/)
-- [Aspose.Cells for JasperReports リリースノート](/cells/ja/jasperreports/release-notes/)
+- [Aspose.Cells for JasperReports リリースノート](https://releases.aspose.com/ja/cells/jasperreports/release-notes/)
 - [Aspose.Cells for JasperReports 商品ページ](https://products.aspose.com/cells/jasperreports/)
 - [ダウンロード Aspose.Cells for JasperReports](https://downloads.aspose.com/cells/jasperreports)
 - [Aspose.Cells for JasperReports 無料サポートフォーラム](https://forum.aspose.com/c/cells/9)

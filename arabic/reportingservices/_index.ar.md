@@ -16,7 +16,7 @@ Aspose.Cells for Reporting Services هو حل للمطورين الذين يحت
 
 - [Aspose.Cells for Reporting Services التوثيق عبر الإنترنت](/cells/ar/reportingservices/)
 - [Aspose.Cells for Reporting Services الميزات](/cells/ar/reportingservices/features/)
-- [Aspose.Cells for Reporting Services ملاحظات الإصدار](/cells/ar/reportingservices/release-notes/)
+- [Aspose.Cells for Reporting Services ملاحظات الإصدار](https://releases.aspose.com/cells/reportingservices/release-notes/)
 - [Aspose.Cells for Reporting Services صفحة المنتج](https://products.aspose.com/cells/reporting-services/)
 - [تحميل Aspose.Cells for Reporting Services](https://downloads.aspose.com/cells/reportingservices)
 - [Aspose.Cells for Reporting Services منتدى الدعم المجاني](https://forum.aspose.com/c/cells/9)
