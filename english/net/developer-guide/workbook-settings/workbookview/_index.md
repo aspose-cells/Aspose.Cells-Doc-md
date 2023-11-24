@@ -8,7 +8,7 @@ keywords: How to Control Workbook View, Set Excel View, Operate Workbook View, S
 ---
 
 ## **Possible Usage Scenarios**
-When you need to adjust the display of Excel pages, you need to know how to control each module, such as horizontal and vertical scrollbars, whether to hide open Excel files, and so on. Aspose.Cells offers this feature. Aspose.Cells provides the following properties and methods to help you achieve your goals.
+When you need to adjust the display of Excel pages, you need to know how to control each module, such as horizontal and vertical scrollbars, whether to hide open Excel files, and so on. Aspose.Cells offers this feature. Aspose.Cells provides the following properties and methods to help you to achieve your goals.
 
 - [**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/ishscrollbarvisible/)
 - [**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/isvscrollbarvisible/)
