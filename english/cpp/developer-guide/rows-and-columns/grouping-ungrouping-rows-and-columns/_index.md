@@ -10,11 +10,11 @@ In a Microsoft Excel file, you can create an outline for the data to let you sho
 
 Click the **Outline Symbols**, 1,2,3, + and - to quickly display only the rows or columns that provide summaries or headings for sections in a worksheet, or you can use the symbols to see details under an individual summary or heading.
 ## **Group Management of Rows & Columns**
-Aspose.Cells provides a class, [IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) that represents a Microsoft Excel file. The [IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) class contains a [IWorksheets](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [IWorksheet](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) class. The [IWorksheet](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) class provides an [ICells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) collection that represents all cells in the worksheet.
+Aspose.Cells provides a class, [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) that represents a Microsoft Excel file. The [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class contains a [Worksheets](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class. The [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class provides an [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) collection that represents all cells in the worksheet.
 
-The [ICells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) collection provides several methods to manage rows or columns in a worksheet, few of these are discussed below in more detail.
+The [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) collection provides several methods to manage rows or columns in a worksheet, few of these are discussed below in more detail.
 ### **Grouping Rows & Columns**
-It is possible to group rows or columns by calling the [GroupRows](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a88e0180ed1a4a423e0bd3ac599ef9332) and [GroupColumns](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#aaa14179e2a84ba5c2857f8434570d3d8) methods of the [ICells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) collection. Both methods take the following parameters:
+It is possible to group rows or columns by calling the [GroupRows](https://reference.aspose.com/cells/cpp/aspose.cells/cells/grouprows/) and [GroupColumns](https://reference.aspose.com/cells/cpp/aspose.cells/cells/groupcolumns/) methods of the [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) collection. Both methods take the following parameters:
 
 - The first row/column index, the first row or column in the group.
 - The last row/column index, the last row or column in the group.
@@ -22,18 +22,18 @@ It is possible to group rows or columns by calling the [GroupRows](https://refer
 
 
 
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-GroupingUngroupingRowsAndColumns-GroupingRowsColumns.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-GroupingUngroupingRowsAndColumns-GroupingRowsColumns-new.cpp" >}}
 #### **Group Settings**
 Microsoft Excel allows you to configure group settings for displaying:
 
 - Summary rows below detail.
 - Summary columns to the right of detail.
 ## **Ungrouping Rows & Columns**
-To ungroup any grouped rows or columns, call the [ICells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) collection's [UngroupRows](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#adc1f6418506854ab41707bfef453ddb1) and [UngroupColumns](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#aa3bf9a9510d4e85f68db9ebdcadc8406) methods. Both methods take two parameters:
+To ungroup any grouped rows or columns, call the [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) collection's [UngroupRows](https://reference.aspose.com/cells/cpp/aspose.cells/cells/ungrouprows/) and [UngroupColumns](https://reference.aspose.com/cells/cpp/aspose.cells/cells/ungroupcolumns/) methods. Both methods take two parameters:
 
 - The first row or column index, the first row/column to be ungrouped.
 - The last row or column index, the last row/column to be ungrouped.
 
 
 
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-GroupingUngroupingRowsAndColumns-UnGroupingRowsColumns.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-GroupingUngroupingRowsAndColumns-UnGroupingRowsColumns-new.cpp" >}}
