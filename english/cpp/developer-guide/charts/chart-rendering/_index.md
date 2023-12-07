@@ -11,39 +11,45 @@ Aspose.Cells APIs support to create a verity of Excel charts as detailed under t
 
 {{< highlight cpp >}}
 
-     // Create a new workbook
+Aspose::Cells::Startup();
 
-	intrusive_ptr<IWorkbook> workbook = Factory::CreateIWorkbook();
+// Output directory path
+U16String outDir(u"..\\Data\\02_OutputDirectory\\");
 
-	// Get first worksheet which is created by default
+// Create a new workbook
+Workbook workbook;
 
-	intrusive_ptr<IWorksheet> worksheet = workbook->GetIWorksheets()->GetObjectByIndex(0);
+// Get first worksheet which is created by default
+Worksheet worksheet = workbook.GetWorksheets().Get(0);
 
-	// Adding sample values to cells
+// Adding sample values to cells
+worksheet.GetCells().Get(u"A1").PutValue(50);
+worksheet.GetCells().Get(u"A2").PutValue(100);
+worksheet.GetCells().Get(u"A3").PutValue(150);
+worksheet.GetCells().Get(u"B1").PutValue(4);
+worksheet.GetCells().Get(u"B2").PutValue(20);
+worksheet.GetCells().Get(u"B3").PutValue(50);
 
-	worksheet->GetICells()->GetObjectByIndex(new String("A1"))->PutValue(50);
+// Adding a chart to the worksheet
+int chartIndex = worksheet.GetCharts().Add(Aspose::Cells::Charts::ChartType::Column, 5, 0, 20, 8);
 
-	worksheet->GetICells()->GetObjectByIndex(new String("A2"))->PutValue(100);
+// Accessing the instance of the newly added chart
+Chart chart = worksheet.GetCharts().Get(chartIndex);
 
-	worksheet->GetICells()->GetObjectByIndex(new String("A3"))->PutValue(150);
+// Adding SeriesCollection (chart data source) to the chart ranging from "A1" cell to "B3"
+chart.GetNSeries().Add(u"A1:B3", true);
 
-	worksheet->GetICells()->GetObjectByIndex(new String("B1"))->PutValue(4);
+// Path of output image file
+U16String outputChartImage = outDir + u"out1image.png";
+chart.ToImage(outputChartImage, ImageType::Png);
 
-	worksheet->GetICells()->GetObjectByIndex(new String("B2"))->PutValue(20);
+// Path of output pdf file
+U16String outputPdfFile = outDir + u"out1pdf.pdf";
 
-	worksheet->GetICells()->GetObjectByIndex(new String("B3"))->PutValue(50);
+// Saving chart to PDF
+chart.ToPdf(outputPdfFile);
 
-	// Adding a chart to the worksheet
-
-	int chartIndex = worksheet->GetICharts()->Add(Aspose::Cells::Charts::ChartType::ChartType_Column, 5, 0, 20, 8);
-
-	// Accessing the instance of the newly added chart
-
-	intrusive_ptr<Aspose::Cells::Charts::IChart> chart = worksheet->GetICharts()->GetObjectByIndex(chartIndex);
-
-	// Adding SeriesCollection (chart data source) to the chart ranging from "A1" cell to "B3"
-
-	chart->GetNISeries()->Add(new String("A1:B3"), true);
+Aspose::Cells::Cleanup();
 
 {{< /highlight >}}
 
@@ -57,17 +63,11 @@ The Chart.toImage method has a verity of overloads to support simple as well a
 
 {{< highlight cpp >}}
 
- // Output directory path
-
-StringPtr outDir = new String("..\\Data\\02_OutputDirectory\\");
-
 // Path of output image file
-
-StringPtr outputChartImage = outDir->StringAppend(new String("out1image.png"));
+U16String outputChartImage = outDir + u"out1image.png";
 
 // Saving the chart to image file
-
-chart->ToImage(outputChartImage, Aspose::Cells::System::Drawing::Imaging::ImageFormat::GetPng());
+chart.ToImage(outputChartImage, ImageType::Png);
 
 {{< /highlight >}}
 
@@ -77,13 +77,11 @@ In order to render the chart to PDF format, the Aspose.Cells APIs have exposed t
 
 {{< highlight cpp >}}
 
- // Path of output pdf file
-
-StringPtr outputPdfFile = outDir->StringAppend(new String("out1pdf.pdf"));
+// Path of output pdf file
+U16String outputPdfFile = outDir + u"out1pdf.pdf";
 
 // Saving chart to PDF
-
-chart->ToPdf(outputPdfFile);
+chart.ToPdf(outputPdfFile);
 
 {{< /highlight >}}
 
