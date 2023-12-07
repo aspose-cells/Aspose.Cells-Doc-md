@@ -13,10 +13,11 @@ Use WordArt to add special text or picture effects to spreadsheets. For example,
 
 The following example shows how to add a text as WordArt to set a background watermark for a worksheet.
 
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-Add-Text-WordArtWatermark.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-Add-Text-WordArtWatermark-new.cpp" >}}
 
-The following example shows how to add a picture as WordArt to set a background watermark for a worksheet.
+The following example shows how to add a picture as WordArt to set a background watermark for a worksheet. <a href="watermark.png"  download="watermark.png">Source file</a>
 
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-Add-Picture-WordArtWatermark.cpp" >}}
+
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-Add-Picture-WordArtWatermark-new.cpp" >}}
 
 

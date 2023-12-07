@@ -18,8 +18,8 @@ In the rest of the discussion, we will describe how can you add horizontal or ve
 
 {{% /alert %}} 
 ## **Page Breaks**
-Aspose.Cells provides a class [IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) that represents an Excel file. The [IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) class contains a [Worksheets](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection) collection that allows access to each worksheet in the Excel file.
+Aspose.Cells provides a class [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook) that represents an Excel file. The [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook) class contains a [Worksheets](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection) collection that allows access to each worksheet in the Excel file.
 
-A worksheet is represented by the [IWorksheet](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) class. The [IWorksheet](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) class provides a wide range of methods used to manage a worksheet. To add the page breaks, use the [AddPageBreaks](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#a5f8dd5624b81e0ee2e7455f2b83380f6) method of the [IWorksheet](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) class.
+A worksheet is represented by the [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class. The [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class provides a wide range of methods used to manage a worksheet. To add the page breaks, use the [AddPageBreaks](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/addpagebreaks) method of the [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class.
 ### **Adding Page Breaks**
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManagingPageBreaks-AddingPageBreaks.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManagingPageBreaks-AddingPageBreaks-new.cpp" >}}
