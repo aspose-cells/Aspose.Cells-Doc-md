@@ -8,6 +8,19 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 23.12
+
+* Support for PDF/A-2 and PDF/A-3 compliance while converting to pdf
+* Support calculating discrete grouping of pivot table
+* Support to export cells data to generic list
+* Support to import cross references using linked tables for smart markers
+* Support MAKEARRAY function for formulas
+* Support to render cell text with rotation angle for GridJS
+* Support more options for importing/exporting datatable for GridDesktop
+* Support render picture with rotation for GridDesktop
+* Support to adjust worksheet order for GridDesktop
+* Support option of showing/hidding formula warning message for GridDesktop 
+
 ## Aspose.Cells for .NET 23.11
 
 * Support to convert spreadsheets to PDF file version 1.7(ISO32000-1:2008)

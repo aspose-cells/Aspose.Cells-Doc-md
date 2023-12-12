@@ -302,6 +302,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 ###### **M**
 |**Function**|**Summary**|
 | :- | :- |
+|MAKEARRAY|**Logical**: Returns a calculated array of a specified row and column size, by applying a LAMBDA
 |MAP|**Logical**: Returns an array formed by mapping each value in array(s) to a new value by applying a LAMBDA
 |MATCH|**Lookup and reference**: Looks up values in a reference or array
 |MAX|**Statistical**: Returns the maximum value in a list of arguments
