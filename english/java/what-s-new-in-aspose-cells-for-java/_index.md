@@ -8,6 +8,14 @@ url: /java/what-s-new-in-aspose-cells-for-java/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for Java 23.12
+
+* Support for PDF/A-2 and PDF/A-3 compliance while converting to pdf
+* Support calculating discrete grouping of pivot table
+* Support to export cells data to generic list
+* Support to import cross references using linked tables for smart markers
+* Support MAKEARRAY function for formulas
+
 ## Aspose.Cells for Java 23.11
 
 * Support to convert spreadsheets to PDF file version 1.7(ISO32000-1:2008)
