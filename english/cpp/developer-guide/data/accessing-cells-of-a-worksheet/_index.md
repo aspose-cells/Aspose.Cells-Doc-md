@@ -11,13 +11,13 @@ We know that all worksheets may contain data that is basically stored in cells (
 
 {{% /alert %}} 
 ## **Accessing Cells**
-Aspose.Cells provides a class [IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) that represents an Excel file. The [IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) class contains a [Worksheets](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection) collection that allows to access each worksheet in the Excel file. A worksheet is represented by the [IWorksheet](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) class. The [IWorksheet](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) class provides a [Cells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) collection that represents all cells in the worksheet.
+Aspose.Cells provides a class [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) that represents an Excel file. The [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class contains a [Worksheets](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) collection that allows to access each worksheet in the Excel file. A worksheet is represented by the [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class. The [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class provides a [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) collection that represents all cells in the worksheet.
 
-We can use [Cells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) collection to access cells in a worksheet. Aspose.Cells provides three basic approaches to access cells in a worksheet:
+We can use [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) collection to access cells in a worksheet. Aspose.Cells provides three basic approaches to access cells in a worksheet:
 
 1. Using cell name.
 1. Using a cell's row and column index.
-1. Using a cell index in the [Cells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) collection
+1. Using a cell index in the [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) collection
 
 {{% alert color="primary" %}} 
 
@@ -25,18 +25,18 @@ We have mentioned that the 3rd approach is the fastest and the 1st approach is t
 
 {{% /alert %}} 
 ### **Using Cell Name**
-Developers can access any specific cell by passing its cell name to the [Cells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) collection of the [IWorksheet](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) class as an index.
+Developers can access any specific cell by passing its cell name to the [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) collection of the [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class as an index.
 
-If you create a blank worksheet at start, the count of [Cells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) collection is zero. When you use this approach to access a cell, it will check whether this cell exists in the collection or not. If yes, it returns the cell object in the collection otherwise, it creates a new [ICell](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) object, adds the object to the [Cells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) collection and then returns that object. This approach is the easiest way to access the cell if you are familiar with Microsoft Excel but it's the slowest one as compared to other approaches.
+If you create a blank worksheet at start, the count of [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) collection is zero. When you use this approach to access a cell, it will check whether this cell exists in the collection or not. If yes, it returns the cell object in the collection otherwise, it creates a new [Cell](https://reference.aspose.com/cells/cpp/aspose.cells/cell/) object, adds the object to the [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) collection and then returns that object. This approach is the easiest way to access the cell if you are familiar with Microsoft Excel but it's the slowest one as compared to other approaches.
 
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AccessingCellsOfWorksheet-AccessingCellsUsingCellName.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AccessingCellsOfWorksheet-AccessingCellsUsingCellName-new.cpp" >}}
 ### **Using Row & Column Index of the Cell**
-Developers can access any specific cell by passing the indices of its row and column to the [Cells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) collection of the [IWorksheet](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) class. This approach works in the same way as that of the first approach.
+Developers can access any specific cell by passing the indices of its row and column to the [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) collection of the [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class. This approach works in the same way as that of the first approach.
 
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AccessingCellsOfWorksheet-AccessingCellsUsingRowAndColumnIndexOfTheCell.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AccessingCellsOfWorksheet-AccessingCellsUsingRowAndColumnIndexOfTheCell-new.cpp" >}}
 ## **Accessing Maximum Display Range of Worksheet**
 Aspose.Cells allows developers to access a worksheet's maximum display range. The maximum display range - the range of cells between the first and last cell with content - is useful when you need to copy, select or display the entire contents of a worksheet in an image.
 
-You can access a worksheet's maximum display range using [MaxDisplayIRange](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#ad351277ccaa0a4e1e8cd0693a1e2e988) method of the [Cells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) collection.
+You can access a worksheet's maximum display range using [MaxDisplayRange](https://reference.aspose.com/cells/cpp/aspose.cells/cells/getmaxdisplayrange/) method of the [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) collection.
 
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AccessingCellsOfWorksheet-AccessingMaximumDisplayRangeOfWorksheet.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AccessingCellsOfWorksheet-AccessingMaximumDisplayRangeOfWorksheet-new.cpp" >}}

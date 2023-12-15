@@ -12,4 +12,4 @@ The following sample code loads the [sample excel file](23167015.xlsx) and then 
 
 ![todo:image_alt_text](create-and-manipulate-excel-table_1.png)
 ## **Sample Code**
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-TechnicalArticles-CreateAndManipulateExcelTable.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-TechnicalArticles-CreateAndManipulateExcelTable-new.cpp" >}}

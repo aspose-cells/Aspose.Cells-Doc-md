@@ -10,4 +10,4 @@ Microsoft Excel supports many formats like XLS, XLSX, XLSM, XLSB, CSV, tab-delim
 ## **Read and Write Tab Delimited File Format**
 The following sample code loads the [source tab-delimited file](23166997.txt) and reads its cell A1 and then copies its contents to cell C4 and saves it as [output tab-delimited file](23166996.txt).
 ## **Sample Code**
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-ReadAndWriteTabDelimitedFileFormat.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-ReadAndWriteTabDelimitedFileFormat-new.cpp" >}}

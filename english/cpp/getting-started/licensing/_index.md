@@ -29,10 +29,8 @@ When you call the SetLicense method, the license name that you pass should be th
 **C++**
 
 {{< highlight csharp >}}
-
- intrusive_ptr<License> license = new License();
-
-license->SetLicense(new String("Aspose.Cells.lic"));
+  License license;
+  license.SetLicense(u"Aspose.Cells.lic");
 
 {{< /highlight >}}
 ### **Loading a License from a Stream Object**
@@ -42,10 +40,11 @@ The following example shows how to load a license from a stream.
 
 {{< highlight csharp >}}
 
- intrusive_ptr<License>license = new License();
+  License license;
 
-intrusive_ptr<FileStream> myStream = new FileStream(new String("Aspose.Cells.lic"), FileMode_Open);
+  //You need to write your own code to read the contents of the license file into this variable.
+  Vector<uint8_t> myStream{0}; //"Aspose.Cells.lic"
 
-license->SetLicense(myStream);
+  license.SetLicense(myStream);
 
 {{< /highlight >}}

@@ -7,7 +7,7 @@ url: /cpp/names-and-indices/
 
 ## **Get Cell Name from Row and Column Indices**
 It is possible to find a cell's name given the row and column index. This article explains how.
-Aspose.Cells provides the ICellsHelper.CellIndexToName_i method which allows developers to get a cell's name if they provide the row and column index.
+Aspose.Cells provides the [CellsHelper::CellIndexToName](https://reference.aspose.com/cells/cpp/aspose.cells/cellshelper/cellindextoname/) method which allows developers to get a cell's name if they provide the row and column index.
 
 {{% alert color="primary" %}} 
 
@@ -15,14 +15,14 @@ Unlike Microsoft Excel, where row and column indices start from 1, Aspose.Cells 
 
 {{% /alert %}} 
 
-The following sample code illustrates how to use ICellsHelper.CellIndexToName_i to access the a cell's name given a known row and column index. The code generates the following output.
+The following sample code illustrates how to use [CellsHelper::CellIndexToName](https://reference.aspose.com/cells/cpp/aspose.cells/cellshelper/cellindextoname/) to access the a cell's name given a known row and column index. The code generates the following output.
 
 
 
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-GetCellNameFromRowAndColumn.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-GetCellNameFromRowAndColumn-new.cpp" >}}
 ## **Get Row and Column Indices from Cell Name**
 It is possible to find a row and column index of the cell from its name. This article explains how.
-Aspose.Cells provides the ICellsHelper.CellNameToIndex_i method which allows developers to get a row and column index from the cell's name.
+Aspose.Cells provides the [CellsHelper.CellNameToIndex](https://reference.aspose.com/cells/cpp/aspose.cells/cellshelper/cellnametoindex/) method which allows developers to get a row and column index from the cell's name.
 
 {{% alert color="primary" %}} 
 
@@ -30,8 +30,8 @@ Unlike Microsoft Excel, where row and column indices start from 1, Aspose.Cells 
 
 {{% /alert %}} 
 
-The following sample code illustrates how to use CellsHelper.CellNameToIndex to get the row and column index from the cell's name. The code generates the following output.
+The following sample code illustrates how to use [CellsHelper::CellNameToIndex](https://reference.aspose.com/cells/cpp/aspose.cells/cellshelper/cellnametoindex/) to get the row and column index from the cell's name. The code generates the following output.
 
 
 
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-GetRowAndColumnFromCellName.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-GetRowAndColumnFromCellName-new.cpp" >}}

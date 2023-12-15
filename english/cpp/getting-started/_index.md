@@ -34,27 +34,33 @@ You can also download it from the nuget web page for aspose.cells:
 
 1. Download Aspose.Cells for C++ from the following page:
 [Download Aspose.Cells for C++(Windows)](https://downloads.aspose.com/cells/cpp/)
-2. Unzip the package and you will find a Demo which is on how to use Aspose.Cells for C++.
-3. Open the Demo.sln with Visual Studio 2017 or higher version
+2. Unzip the package and you will find a example which is on how to use Aspose.Cells for C++.
+3. Open the example.sln with Visual Studio 2017 or higher version
 4. main.cpp: this file shows how to code to test Aspose.Cells for C++
-5. sourceFile/resultFile: these two folders are storage directories used in main.cpp 
 
-### **How to use Aspose.Cells for C++ on Linux OS**
+### **A demo for using Aspose.Cells for C++ on Linux**
 
 1. Download Aspose.Cells for C++ from the following page:
 [Download Aspose.Cells for C++(Linux)](https://downloads.aspose.com/cells/cpp/)
-2. Unzip the package and you will find a Demo which is on how to use Aspose.Cells for C++ for Linux.
-3. Run "cd Demo" in your Linux command line
-4. Run "rm -rf build;mkdir build;cd build"
-5. Run "cmake .." will create a Makefile by CMakeLists.txt in Demo folder
-6. Run "make" to compile
-7. Run "./demo" you will see the result 
+2. Unzip the package and you will find a example which is on how to use Aspose.Cells for C++ for Linux.
+3. Make sure you are in the path where example is located.
+4. Run "cmake -S example -B example/build -DCMAKE_BUILD_TYPE=Release"
+5. Run "cmake --build example/build"
+
+### **A demo for using Aspose.Cells for C++ on Mac OS**
+
+1. Download Aspose.Cells for C++ from the following page:
+[Download Aspose.Cells for C++(MacOS)](https://downloads.aspose.com/cells/cpp/)
+2. Unzip the package and you will find a example which is on how to use Aspose.Cells for C++ for MacOS.
+3. Make sure you are in the path where example is located.
+4. Run "cmake -S example -B example/build -DCMAKE_BUILD_TYPE=Release"
+5. Run "cmake --build example/build"
 
 ## **Creating the Hello World Application**
 
 The steps below creates the Hello World application using the Aspose.Cells API:
 
-1. Create an instance of the [Workbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) class.
+1. Create an instance of the [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) class.
 1. If you have a license, then [apply it](/cells/cpp/licensing/).
    If you are using the evaluation version, skip the license related code lines.
 1. Access any desired cell of a worksheet in the Excel file.
@@ -67,10 +73,10 @@ The implementation of the above steps is demonstrated in the examples below.
 
 The following example creates a new workbook from the scratch, inserts "**Hello World!**" into cell A1 on the first worksheet and saves the Excel file.
 
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CPP-Introduction-FirstApplication-1.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CPP-Introduction-FirstApplication-1-new.cpp" >}}
 
 ### **Code Sample: Opening an Existing File**
 
 The following example opens an existing Microsoft Excel template file, gets a cell and checks the value in the cell A1.
 
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CPP-Introduction-OpenExistingFile-1.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CPP-Introduction-OpenExistingFile-1-new.cpp" >}}

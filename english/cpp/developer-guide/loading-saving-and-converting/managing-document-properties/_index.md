@@ -14,7 +14,7 @@ The following sample code loads [sample excel file](23166989.xlsx) and reads the
 
 ![todo:image_alt_text](managing-document-properties_2.png)
 ## **Sample Code**
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-ManagingDocumentProperties.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-ManagingDocumentProperties-new.cpp" >}}
 
 
 ## **Console Output**

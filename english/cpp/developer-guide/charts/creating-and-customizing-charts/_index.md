@@ -13,19 +13,19 @@ A chart is a visual display of information. Aspose.Cells allows developers to vi
 
 When the example code is executed, a pyramid chart is added to the worksheet. Please see the [output Excel file](66519068.xlsx) of the following sample code.
 
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_PyramidChart.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_PyramidChart-new.cpp" >}}
 
 ## **Line Chart**
 
-In the above example, simply changing the [**ChartType**](https://reference.aspose.com/cells/cpp/namespace/aspose.cells.charts#a2f17e69bcefc754569019185d0621b70) to [**ChartType_Line**](https://reference.aspose.com/cells/cpp/namespace/aspose.cells.charts#a2f17e69bcefc754569019185d0621b70ad12ff1561ab1424a0c3095b6dc07ac25) creates a line chart. The complete source is provided below. when the code is executed, a line chart is added to the worksheet. Please see the [output Excel file](66519069.xlsx) of the following sample code.
+In the above example, simply changing the [**ChartType**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/charttype/) to **`ChartType::Line`** creates a line chart. The complete source is provided below. when the code is executed, a line chart is added to the worksheet. Please see the [output Excel file](66519069.xlsx) of the following sample code.
 
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_LineChart.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_LineChart-new.cpp" >}}
 
 ## **Bubble Chart**
 
-In order to create a bubble chart, the [**ChartType**](https://reference.aspose.com/cells/cpp/namespace/aspose.cells.charts#a2f17e69bcefc754569019185d0621b70) has to be set to [**ChartType_Bubble**](https://reference.aspose.com/cells/cpp/namespace/aspose.cells.charts#a2f17e69bcefc754569019185d0621b70a5efa533b454f9415e4497dbb2ab28b3d) and few extra properties such as [**SetBubbleSizes**](https://reference.aspose.com/cells/cpp/class/aspose.cells.charts.i_series#a00cf890ba7ab419d31a522ab52b02e9d) & [**SetXValues**](https://reference.aspose.com/cells/cpp/class/aspose.cells.charts.i_series#a788ff4aa51dbf9bed5327298af93a6db) need to be set accordingly. Upon executing the following code, a bubble chart is added to the worksheet. Please see the [output Excel file](66519070.xlsx) of the following sample code.
+In order to create a bubble chart, the [**ChartType**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/charttype/) has to be set to **`ChartType_Bubble`** and few extra properties such as [**SetBubbleSizes**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/series/setbubblesizes/) & [**SetXValues**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/series/setxvalues/) need to be set accordingly. Upon executing the following code, a bubble chart is added to the worksheet. Please see the [output Excel file](66519070.xlsx) of the following sample code.
 
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_BubbleChart.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_BubbleChart-new.cpp" >}}
 
 ## **Creating Custom Charts**
 
@@ -35,4 +35,4 @@ A chart is composed of a data series. When creating a custom chart, developers h
 
 The example code below demonstrates how to create custom charts. In this example, we are going to use a column chart for the first data series and a line chart for the second series. The result is that we add a column chart, combined with a line chart, to the worksheet. Please see the [output Excel file](66519071.xlsx) of the following sample code.
 
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_CustomChart.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_CustomChart-new.cpp" >}}

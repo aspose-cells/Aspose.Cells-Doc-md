@@ -10,4 +10,4 @@ The following sample code shows how to create subtotals using Aspose.Cells. The 
 
 ![todo:image_alt_text](creating-subtotals_1.png)
 ## **Sample Code**
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-CreatingSubtotals.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-CreatingSubtotals-new.cpp" >}}
