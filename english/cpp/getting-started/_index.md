@@ -34,21 +34,27 @@ You can also download it from the nuget web page for aspose.cells:
 
 1. Download Aspose.Cells for C++ from the following page:
 [Download Aspose.Cells for C++(Windows)](https://downloads.aspose.com/cells/cpp/)
-2. Unzip the package and you will find a Demo which is on how to use Aspose.Cells for C++.
-3. Open the Demo.sln with Visual Studio 2017 or higher version
+2. Unzip the package and you will find a example which is on how to use Aspose.Cells for C++.
+3. Open the example.sln with Visual Studio 2017 or higher version
 4. main.cpp: this file shows how to code to test Aspose.Cells for C++
-5. sourceFile/resultFile: these two folders are storage directories used in main.cpp 
 
-### **How to use Aspose.Cells for C++ on Linux OS**
+### **A demo for using Aspose.Cells for C++ on Linux**
 
 1. Download Aspose.Cells for C++ from the following page:
 [Download Aspose.Cells for C++(Linux)](https://downloads.aspose.com/cells/cpp/)
-2. Unzip the package and you will find a Demo which is on how to use Aspose.Cells for C++ for Linux.
-3. Run "cd Demo" in your Linux command line
-4. Run "rm -rf build;mkdir build;cd build"
-5. Run "cmake .." will create a Makefile by CMakeLists.txt in Demo folder
-6. Run "make" to compile
-7. Run "./demo" you will see the result 
+2. Unzip the package and you will find a example which is on how to use Aspose.Cells for C++ for Linux.
+3. Make sure you are in the path where example is located.
+4. Run "cmake -S example -B example/build -DCMAKE_BUILD_TYPE=Release"
+5. Run "cmake --build example/build"
+
+### **A demo for using Aspose.Cells for C++ on Mac OS**
+
+1. Download Aspose.Cells for C++ from the following page:
+[Download Aspose.Cells for C++(MacOS)](https://downloads.aspose.com/cells/cpp/)
+2. Unzip the package and you will find a example which is on how to use Aspose.Cells for C++ for MacOS.
+3. Make sure you are in the path where example is located.
+4. Run "cmake -S example -B example/build -DCMAKE_BUILD_TYPE=Release"
+5. Run "cmake --build example/build"
 
 ## **Creating the Hello World Application**
 

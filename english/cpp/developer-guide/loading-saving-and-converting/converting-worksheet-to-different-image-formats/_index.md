@@ -17,7 +17,7 @@ As a developer, you might need to present worksheets as images. For example, you
 
 Aspose.Cells supports converting Excel worksheets to images. To use this feature, you need to import the [Aspose.Cells.Rendering](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/) namespace to your program or project. It has several valuable classes for rendering and printing, for example, [SheetRender](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/), [ImageOrPrintOptions](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/) and others.
 
-The `Aspose.Cells.Rendering.ISheetRender` class represents a worksheet to render as images. It has an overloaded method, [ToImage](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/toimage/), that can convert a worksheet to image file(s) with different attributes or options. Several image formats are supported, for example, BMP, PNG, GIF, JPG, JPEG, TIFF, EMF.
+The `Aspose.Cells.Rendering.ISheetRender` class represents a worksheet to render as images. It has an overloaded method, [ToImage](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/toimage/), that can convert a worksheet to image file(s) with different attributes or options. Several image formats are supported, for example, BMP, PNG, GIF, JPG, JPEG, EMF.
 
 The following code snippet shows how to convert a worksheet in an Excel file to an image file.
 ### **PNG Format**

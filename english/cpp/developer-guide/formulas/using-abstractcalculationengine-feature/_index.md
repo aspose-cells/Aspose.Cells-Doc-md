@@ -5,8 +5,13 @@ weight: 20
 url: /cpp/using-abstractcalculationengine-feature/
 ---
 
+## Features are still under development, so stay tuned.
+
+
 ## **Introduction**
 This article provides an understanding of how to use the [AbstractCalculationEngine](https://reference.aspose.com/cells/cpp/aspose.cells/abstractcalculationengine/) feature to implement custom functions with Aspose.Cells APIs.
+
+<!--
 
 The AbstractCalculationEngine interface allows you to add custom formula calculation functions to extend the Aspose.Cells core calculation engine in order to meet certain requirements. This feature is useful to define custom (user defined) functions in a template file or in a code where the custom function can be implemented and evaluated using Aspose.Cells APIs like any other default Microsoft Excel function.
 ## **Using AbstractCalculationEngine Feature**
@@ -23,3 +28,4 @@ The following sample code implements the AbstractCalculationEngine interface whi
 Value of A2: YOUR sample function was called successfully.
 
 {{< /highlight >}}
+-->
