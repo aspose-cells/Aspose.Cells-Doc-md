@@ -12,7 +12,7 @@ The following sample code explains how to create a *Named Range* via Aspose.Cel
 ## **Sample Code**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-CreateNamedRangeInWorkbook-new.cpp" >}}
 ## **Console Output**
-The following console output prints the values of [GetFullText](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_name#a5b450ef193365dec035c58280fbe9563) and `GetRefersTo` methods of the created *Named Range* in the above code.
+The following console output prints the values of [GetFullText](https://reference.aspose.com/cells/cpp/aspose.cells/name/getfulltext/) and [GetRefersTo](https://reference.aspose.com/cells/cpp/aspose.cells/name/getrefersto/) methods of the created *Named Range* in the above code.
 
 {{< highlight java >}}
 
