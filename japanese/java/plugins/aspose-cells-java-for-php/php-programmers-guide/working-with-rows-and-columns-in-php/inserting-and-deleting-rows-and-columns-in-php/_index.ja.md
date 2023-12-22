@@ -1,14 +1,16 @@
-﻿---
+---
 title: PHP での行と列の挿入と削除
 type: docs
 weight: 60
 url: /ja/java/inserting-and-deleting-rows-and-columns-in-php/
+description: Aspose.Cells for PHP via Java API を使用して行と列を挿入および削除する方法を学習します。
+keywords: How to Insert and Delete Rows and Columns in PHP, Insert Rows and Columns using PHP, PHP Delete Rows and Columns, Insert Rows or Columns with PHP, Delete Rows or Columns via PHP.
 ---
-## **Aspose.Cells - 行/列の管理**
-### **行の挿入**
-Cells コレクションの insertRows メソッドを呼び出して、任意の場所に行を挿入します。 insertRows メソッドは、新しい行が挿入される行のインデックスを最初の引数として取り、挿入される行の数を 2 番目の引数として取ります。
+##  **Aspose.Cells - 行/列の管理**
+###  **行の挿入**
+Cells コレクションの insertRows メソッドを呼び出して、任意の場所に行を挿入します。 insertRows メソッドは、新しい行が挿入される行のインデックスを最初の引数として受け取り、挿入される行の数を 2 番目の引数として受け取ります。
 
-**PHP コード**
+**PHPコード**
 
 {{< highlight "php" >}}
 
@@ -37,13 +39,13 @@ Cells コレクションの insertRows メソッドを呼び出して、任意�
 }  
 
 {{< /highlight >}}
-### **複数行の挿入**
-ワークシートに複数の行を挿入するには、Cells コレクションの insertRows メソッドを呼び出します。 InsertRows メソッドは、次の 2 つのパラメーターを取ります。
+###  **複数の行の挿入**
+ワークシートに複数の行を挿入するには、Cells コレクションの insertRows メソッドを呼び出します。 InsertRows メソッドは 2 つのパラメータを取ります。
 
 - 行インデックス。新しい行が挿入される行のインデックス。
-- 行数、挿入する必要がある行の総数。
+- 行数、挿入する必要がある行の合計数。
 
-**PHP コード**
+**PHPコード**
 
 {{< highlight "php" >}}
 
@@ -72,13 +74,13 @@ Cells コレクションの insertRows メソッドを呼び出して、任意�
 }
 
 {{< /highlight >}}
-### **行の削除**
-任意の場所で行を削除するには、Cells コレクションの deleteRows メソッドを呼び出します。 DeleteRows メソッドは、次の 2 つのパラメーターを取ります。
+###  **行の削除**
+任意の場所の行を削除するには、Cells コレクションの deleteRows メソッドを呼び出します。 DeleteRows メソッドは 2 つのパラメータを取ります。
 
 - 行インデックス。行が削除される行のインデックス。
-- 行数、削除する必要がある行の総数。
+- 行数、削除する必要がある行の合計数。
 
-**PHP コード**
+**PHPコード**
 
 {{< highlight "php" >}}
 
@@ -107,13 +109,13 @@ Cells コレクションの insertRows メソッドを呼び出して、任意�
 }
 
 {{< /highlight >}}
-### **複数行の削除**
-ワークシートから複数の行を削除するには、Cells コレクションの deleteRows メソッドを呼び出します。 DeleteRows メソッドは、次の 2 つのパラメーターを取ります。
+###  **複数の行の削除**
+ワークシートから複数の行を削除するには、Cells コレクションの deleteRows メソッドを呼び出します。 DeleteRows メソッドは 2 つのパラメータを取ります。
 
 - 行インデックス。行が削除される行のインデックス。
-- 行数、削除する必要がある行の総数。
+- 行数、削除する必要がある行の合計数。
 
-**PHP コード**
+**PHPコード**
 
 {{< highlight "php" >}}
 
@@ -142,13 +144,13 @@ Cells コレクションの insertRows メソッドを呼び出して、任意�
 }
 
 {{< /highlight >}}
-### **列の挿入**
-開発者は、Cells コレクションの insertColumns メソッドを呼び出して、ワークシートの任意の場所に列を挿入することもできます。 insertColumns メソッドは 2 つのパラメーターを取ります。
+###  **列の挿入**
+開発者は、Cells コレクションの insertColumns メソッドを呼び出して、ワークシートの任意の場所に列を挿入することもできます。 insertColumns メソッドは 2 つのパラメータを取ります。
 
 - 列インデックス、列が挿入される列のインデックス
-- 列数、挿入が必要な列の総数
+- 列数、挿入する必要がある列の合計数
 
-**PHP コード**
+**PHPコード**
 
 {{< highlight "php" >}}
 
@@ -177,14 +179,14 @@ Cells コレクションの insertRows メソッドを呼び出して、任意�
 }
 
 {{< /highlight >}}
-### **列の削除**
-ワークシートの任意の場所から列を削除するには、Cells コレクションの deleteColumns メソッドを呼び出します。 deleteColumns メソッドは、次のパラメーターを取ります。
+###  **列の削除**
+ワークシートの任意の場所から列を削除するには、Cells コレクションの deleteColumns メソッドを呼び出します。 deleteColumns メソッドは次のパラメーターを受け取ります。
 
-- 列インデックス、列が削除される列のインデックス。
-- 列数、削除する必要がある列の総数。
-- セルをシフトします。削除後にセルを左にシフトするかどうかを示すブール型パラメーター。
+- 列インデックス。列が削除される列のインデックス。
+- 列の数、削除する必要がある列の合計数。
+- セルをシフト。削除後にセルを左にシフトするかどうかを示すブール型パラメータ。
 
-**PHP コード**
+**PHPコード**
 
 {{< highlight "php" >}}
 
@@ -213,7 +215,7 @@ Cells コレクションの insertRows メソッドを呼び出して、任意�
 }  
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**行/列の管理 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+##  **実行コードをダウンロード**
+ダウンロード**行/列の管理 (Aspose.Cells)**以下のソーシャル コーディング サイトのいずれかから:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

@@ -1,69 +1,71 @@
-﻿---
+---
 title: Lista över nummerformat som stöds
+description: Aspose.Cells är ett .NET-bibliotek för bearbetning av kalkylbladsfiler, som stöder en rad talformat. Den här artikeln ger en lista över talformat som stöds så att användare kan välja lämpligt format efter deras behov.
+keywords: Aspose.Cells, .NET library, spreadsheet, number format, list, supported
 type: docs
 weight: 30
 url: /sv/net/list-of-supported-number-formats/
 ---
-## **Aspose.Cells**
+##  **Aspose.Cells**
  Aspose.Cells-komponenten erbjuder några inbyggda talformat för att konfigurera visningsformaten för siffror och datum. Dessa inbyggda talformat kan användas med hjälp av**siffra** egendom av**Stil** objekt. Alla inbyggda talformat ges unika numeriska värden. Utvecklare kan tilldela vilket önskat numeriskt värde som helst till*siffra* egendom av**Stil** objektet och följaktligen tillämpas visningsformatet. Detta tillvägagångssätt är snabbare. De inbyggda nummerformaten som stöds av komponenten Aspose.Cells anges nedan:
 
 |**Värde**|**Typ**|**Formatera sträng**|
-|:- |:- |:- |
-|0 | Allmän| Allmän|
-|1 | Decimal|0 |
-|2 | Decimal|0.00 |
-|3 | Decimal|# ,##0
+| :- | :- | :- |
+|0 |General | Allmän|
+|1 |Decimal |0 |
+|2 |Decimal |0.00 |
+|3 |Decimal |# ,##0
 |
-|4 | Decimal|# ,##0.00
+|4 |Decimal |# ,##0.00
 |
-|5 | Valuta|$#,##0;$-#,##0 |
-|6 | Valuta|$#,##0;$-#,##0 |
-|7 | Valuta|$#,##0.00;$-#,##0.00 |
-|8 | Valuta|$#,##0.00;$-#,##0.00 |
-|9 | Procentsats|0% |
-|10 | Procentsats|0.00% |
-|11 | Vetenskaplig| 0,00E+00|
-|12 |Fraktion|# ?/?
+|5 |Currency |$#,##0;$-#,##0 |
+|6 |Currency |$#,##0;$-#,##0 |
+|7 |Currency |$#,##0.00;$-#,##0.00 |
+|8 |Currency |$#,##0.00;$-#,##0.00 |
+|9 |Percentage |0% |
+|10 |Percentage |0.00% |
+|11 |Scientific | 0,00E+00|
+|12 |Fraction |#  ?/?
 |
-|13 |Fraktion|# */*
+|13 |Fraction |#  */*
 |
-|14 | Datum| m/d/åå|
-|15 | Datum| d-mmm-åå|
-|16 | Datum| d-mmm|
-|17 | Datum| mmm-åå|
-|18 | Tid| h:mm AM/PM|
-|19 | Tid| h:mm:ss AM/PM|
-|20 | Tid| h:mm|
-|21 | Tid| h:mm:ss|
-|22 | Tid| m/d/åå h:mm|
-|37 | Valuta|# ,##0;-#,##0
+|14 |Date | m/d/åå|
+|15 |Date | d-mmm-åå|
+|16 |Date | d-mmm|
+|17 |Date | mmm-åå|
+|18 |Time | h:mm AM/PM|
+|19 |Time | h:mm:ss AM/PM|
+|20 |Time | h:mm|
+|21 |Time | h:mm:ss|
+|22 |Time | m/d/åå h:mm|
+|37 |Currency |# ,##0;-#,##0
 |
-|38 | Valuta|# ,##0;-#,##0
+|38 |Currency |# ,##0;-#,##0
 |
-|39 | Valuta|# ,##0.00;-#,##0.00
+|39 |Currency |# ,##0.00;-#,##0.00
 |
-|40 | Valuta|# ,##0.00;-#,##0.00
+|40 |Currency |# ,##0.00;-#,##0.00
 |
-|41 | Bokföring|_ * #,##0_ ;_ * "_ ;_ @_ |
-|42 | Bokföring|_ $* #,##0_ ;_ $* "_ ;_ @_ |
-|43 | Bokföring|_ * #,##0.00_ ;_ * "??_ ;_ @_ |
-|44 | Bokföring|_ $* #,##0.00_ ;_ $* "??_ ;_ @_ |
-|45 | Tid| mm:ss|
-|46 | Tid| h :mm:ss|
-|47 | Tid| mm:ss.0|
-|48 | Vetenskaplig|## 0,0E+00
+|41 |Accounting |_ * #,##0_ ;_ * "_ ;_ @_ |
+|42 |Accounting |_ $* #,##0_ ;_ $* "_ ;_ @_ |
+|43 |Accounting |_ * #,##0.00_ ;_ * "??_ ;_ @_ |
+|44 |Accounting |_ $* #,##0.00_ ;_ $* "??_ ;_ @_ |
+|45 |Time | mm:ss|
+|46 |Time | h :mm:ss|
+|47 |Time | mm:ss.0|
+|48 |Scientific |## 0,0E+00
 |
-|49 | Text|@ |
-## **Aspose.Cells Grid Suite**
+|49 |Text |@ |
+##  **Aspose.Cells Grid Suite**
 Som vi vet finns det två Aspose.Cells Grid-kontroller: Aspose.Cells.GridDesktop & Aspose.Cells.GridWeb. Båda kontrollerna stöder ett stort antal talformat, som är uppdelade i två sektioner med avseende på varje kontroll enligt följande:
 
 - Nummerformat som stöds i Aspose.Cells.GridDesktop
 - Nummerformat som stöds i Aspose.Cells.GridWeb
-### **Nummerformat som stöds i Aspose.Cells.GridDesktop**
+###  **Nummerformat som stöds i Aspose.Cells.GridDesktop**
 Aspose.Cells.GridWeb stöder också 59 typer av talformat som listas nedan:
 
 |**Index**|**Nummerformat**|
-|:- |:- |
+| :- | :- |
 |0 | Allmän|
 |1 |0 |
 |2 |0.00 |
@@ -80,7 +82,7 @@ Aspose.Cells.GridWeb stöder också 59 typer av talformat som listas nedan:
 |11 | 0,00E+00|
 |12 |# ?/?
 |
-|13 |# */*
+|13 |#  */*
 |
 |14 | m/d/åå|
 |15 | d-mmm-åå|
@@ -109,10 +111,10 @@ Aspose.Cells.GridWeb stöder också 59 typer av talformat som listas nedan:
 |38 |_(#,##0 );(#,##0) |
 |39 |_(#,##0.00 );(#,##0.00) |
 |40 |_(#,##0.00 );(#,##0.00) |
-|41 |*(\"$\"* ***#,##0** **);*** **(\"$\"** *_(#,##0);* (\"$\"*\"-\" *);* (@_) |
-|42 |*(* ***#,##0** **);*** **(** *_(#,##0);* (*-\" *);* (@_) |
-|43 |*(* ***#,##0.00** **);*** **(** *_(#,##0.00);* (*-\"?? *);* (@_) |
-|44 |*(\"$\"* ***#,##0.00** **);*** **(\"$\"** *_(#,##0.00);* (\"$\"*\"-\"?? *);* (@_) |
+|41 |*(\"$\"* ***#,##0** **);*** **(\"$\"** _(#,##0);* (\"$\"*\"-\" *);* (@_) |
+|42 |*(* ***#,##0** **);*** *(** _(#,##0);* (*-\" *);* (@_) |
+|43 |*(* ***#,##0.00** **);*** *(** _(#,##0.00);* (*-\"?? *);* (@_) |
+|44 |*(\"$\"* ***#,##0.00** **);*** **(\"$\"** _(#,##0.00);* (\"$\"*\"-\"?? *);* (@_) |
 |45 | mm:ss|
 |46 | h:mm:ss|
 |47 | mm:ss.0|
@@ -131,14 +133,14 @@ Aspose.Cells.GridWeb stöder också 59 typer av talformat som listas nedan:
 
 {{% alert color="primary" %}} 
 
-vissa sifferformat kanske du märker vissa tecken som 月. Dessa är faktiskt kinesiska tecken och kan användas i kinesiska och japanska versioner av MS Excel.
+I vissa sifferformat kanske du märker vissa tecken som 月. Dessa är faktiskt kinesiska tecken och kan användas i kinesiska och japanska versioner av MS Excel.
 
 {{% /alert %}} 
-### **Nummerformat som stöds i Aspose.Cells.GridWeb**
+###  **Nummerformat som stöds i Aspose.Cells.GridWeb**
 Aspose.Cells.GridWeb stöder också 59 typer av talformat som listas nedan:
 
 |**Nummerformatstyper**|**Nummerformat**|
-|:- |:- |
+| :- | :- |
 | Allmän| Allmän|
 | Decimal1|0 |
 | Decimal 2|0.00 |
@@ -149,7 +151,7 @@ Aspose.Cells.GridWeb stöder också 59 typer av talformat som listas nedan:
 | Valuta1|$#,##0;$-#,##0 |
 | Valuta2|$#,##0;$-#,##0 |
 | Valuta3|$#,##0.00;$-#,##0.00 |
-| Valuta4|$#,##0.00;$-#,##0.00 |
+|Valuta4|$#,##0.00;$-#,##0.00 |
 | Valuta5|# ,##0;-#,##0
 |
 | Valuta6|# ,##0;-#,##0
@@ -169,7 +171,7 @@ Aspose.Cells.GridWeb stöder också 59 typer av talformat som listas nedan:
 |
 | Bråk 1|# ?/?
 |
-| Bråk 2|# */*
+| Bråk 2|#  */*
 |
 | Datum 1| m/d/åå|
 | Datum 2| d-mmm-åå|
@@ -186,7 +188,7 @@ Aspose.Cells.GridWeb stöder också 59 typer av talformat som listas nedan:
 | Bokföring 1|_ * #,##0_ ;_ * "_ ;_ @_ |
 | Bokföring 2|_ $* #,##0_ ;_ $* "_ ;_ @_ |
 | Bokföring 3|_ * #,##0.00_ ;_ * "??_ ;_ @_ |
-| Bokföring 4|_ $* #,##0.00_ ;_ $* "??_ ;_ @_ |
+| Bokföring4|_ $* #,##0.00_ ;_ $* "??_ ;_ @_ |
 | Text|@ |
 | EasternDate1| ÅÅÅÅ?M?|
 | EasternDate2| M?D?|
@@ -195,7 +197,7 @@ Aspose.Cells.GridWeb stöder också 59 typer av talformat som listas nedan:
 | EasternDate5| ÅÅÅÅ?M?D?|
 | EasternDate6| ÅÅÅÅ?M?|
 | EasternDate7| ÅÅÅÅ?M?|
-|EasternDate8| M?D?|
+| EasternDate8| M?D?|
 | EasternDate9| ÅÅÅÅ?M?|
 | EasternDate10| M?D?|
 | EasternDate11| M?D?|

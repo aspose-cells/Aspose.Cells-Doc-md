@@ -1,12 +1,14 @@
-﻿---
+---
 title: عرض أو إخفاء خطوط الشبكة في Python
 type: docs
 weight: 10
 url: /ar/java/display-or-hide-gridlines-in-python/
+description: تعرف على كيفية إظهار أو إخفاء خطوط الشبكة من خلال Aspose.Cells for Python عبر Java API.
+keywords: How to Display or Hide Gridlines in Python Via Java, Display or Hide Gridlines using Python Via Java, Python Show or Hide Gridlines. 
 ---
-## **Aspose.Cells - عرض اخفاء خطوط الشبكة**
-### **إخفاء خطوط الشبكة**
- لإخفاء ورقة العمل باستخدام**Aspose.Cells Java لروبي** ، مكالمة**displayhidegridlines** وحدة.
+##  **Aspose.Cells - كيفية إظهار أو إخفاء خطوط الشبكة**
+###  **كيفية إخفاء خطوط الشبكة**
+ لإخفاء ورقة العمل باستخدام**Aspose.Cells Java لروبي **، اتصل بـ **displayhidegridlines** وحدة.
 
 **Python كود**
 
@@ -33,8 +35,8 @@ workbook.save(self.dataDir + "output.xls")
 print "Grid lines are now hidden on sheet 1, please check the output document."
 
 {{< /highlight >}}
-### **جعل خطوط الشبكة مرئية**
-لجعل خطوط الشبكة مرئية ، استخدم طريقة setGridlinesVisible (true) لفئة ورقة العمل.
+###  **كيفية عرض خطوط الشبكة**
+لجعل خطوط الشبكة مرئية، استخدم طريقة setGridlinesVisible(true) الخاصة بفئة ورقة العمل.
 
 **Python كود**
 
@@ -45,7 +47,7 @@ print "Grid lines are now hidden on sheet 1, please check the output document."
 worksheet.setGridlinesVisible(True)
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**DisplayHideGridlines (Aspose.Cells)** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+##  **تحميل كود التشغيل**
+ تحميل**عرض إخفاء خطوط الشبكة (Aspose.Cells)** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

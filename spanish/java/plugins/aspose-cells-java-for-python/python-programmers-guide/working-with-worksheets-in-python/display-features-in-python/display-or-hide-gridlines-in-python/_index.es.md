@@ -1,14 +1,16 @@
-﻿---
-title: Mostrar u ocultar líneas de cuadrícula en Python
+---
+title: Mostrar u ocultar líneas de división en Python
 type: docs
 weight: 10
 url: /es/java/display-or-hide-gridlines-in-python/
+description: Aprenda a mostrar u ocultar líneas de cuadrícula a través de Aspose.Cells for Python a través de Java API.
+keywords: How to Display or Hide Gridlines in Python Via Java, Display or Hide Gridlines using Python Via Java, Python Show or Hide Gridlines. 
 ---
-## **Aspose.Cells - Mostrar Ocultar líneas de cuadrícula**
-### **Ocultar líneas de cuadrícula**
- Para ocultar la hoja de trabajo usando**Aspose.Cells Java para rubí** , llamada**mostrar ocultar líneas de cuadrícula** módulo.
+##  **Aspose.Cells - Cómo mostrar u ocultar líneas de división**
+###  **Cómo ocultar líneas de división**
+ Para ocultar la hoja de trabajo usando**Aspose.Cells Java para Ruby**, llame a **displayhidegridlines** módulo.
 
-**Código Python**
+**Python Código**
 
 {{< highlight "java" >}}
 
@@ -33,10 +35,10 @@ workbook.save(self.dataDir + "output.xls")
 print "Grid lines are now hidden on sheet 1, please check the output document."
 
 {{< /highlight >}}
-### **Hacer visibles las líneas de cuadrícula**
+###  **Cómo mostrar líneas de cuadrícula**
 Para hacer visibles las líneas de cuadrícula, utilice el método setGridlinesVisible(true) de la clase Worksheet.
 
-**Código Python**
+**Python Código**
 
 {{< highlight "python" >}}
 
@@ -45,7 +47,7 @@ Para hacer visibles las líneas de cuadrícula, utilice el método setGridlinesV
 worksheet.setGridlinesVisible(True)
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Mostrar Ocultar líneas de cuadrícula (Aspose.Cells)** de cualquiera de los sitios de codificación social mencionados a continuación:
+##  **Descargar código de ejecución**
+ Descargar**Mostrar líneas de cuadrícula ocultas (Aspose.Cells)** de cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

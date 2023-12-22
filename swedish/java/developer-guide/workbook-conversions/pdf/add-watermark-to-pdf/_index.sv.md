@@ -14,7 +14,7 @@ När du konverterar Excel-fil till pdf kan du ha krav på att lägga till vatten
 
 ##  **Lägg till bildvattenstämpel till PDF**
 
- Du kan lägga till bildvattenstämpel till pdf bara genom att ange bildbytes för en bild. Du kan också ställa in justering, offset, rotation, opacitet, förgrund/bakgrund och skala för att bläddra in[Rendering Vattenstämpel](https://reference.aspose.com/cells/java/com.aspose.cells/renderingwatermark/).
+Du kan lägga till bildvattenstämpel till pdf bara genom att ange bildbytes för en bild. Du kan också ställa in justering, offset, rotation, opacitet, förgrund/bakgrund och skala för att bläddra in[Rendering Vattenstämpel](https://reference.aspose.com/cells/java/com.aspose.cells/renderingwatermark/).
 
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Docs-Pdf-AddTextWatermarkToPdf.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Docs-Pdf-AddImageWatermarkToPdf.java" >}}
 

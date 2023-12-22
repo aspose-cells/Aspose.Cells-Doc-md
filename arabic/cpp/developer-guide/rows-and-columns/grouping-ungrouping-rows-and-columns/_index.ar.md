@@ -1,38 +1,38 @@
-﻿---
-title: تجميع وإلغاء تجميع الصفوف والأعمدة
+---
+title: التجميع وفك تجميع الصفوف والأعمدة
 type: docs
 weight: 30
 url: /ar/cpp/grouping-ungrouping-rows-and-columns/
 ---
-## **مقدمة**
-في ملف Excel Microsoft ، يمكنك إنشاء مخطط تفصيلي للبيانات للسماح لك بإظهار مستويات التفاصيل وإخفائها بنقرة واحدة بالماوس.
+##  **مقدمة**
+في ملف Excel Microsoft، يمكنك إنشاء مخطط تفصيلي للبيانات للسماح لك بإظهار وإخفاء مستويات التفاصيل بنقرة واحدة بالماوس.
 
- انقر على**رموز المخطط التفصيلي**، 1 ، 2 ، 3 ، + و - لعرض الصفوف أو الأعمدة التي توفر ملخصات أو عناوين للأقسام في ورقة العمل فقط بسرعة ، أو يمكنك استخدام الرموز لمشاهدة التفاصيل ضمن عنوان أو ملخص فردي.
-## **إدارة المجموعة للصفوف والأعمدة**
- Aspose.Cells يوفر فصل دراسي ،[IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) يمثل ملف Excel Microsoft. ال[IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) فئة تحتوي على[أوراق العمل](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection) مجموعة تسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[IWorksheet](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) صف دراسي. ال[IWorksheet](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) فئة توفر[آيسيلس](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)مجموعة تمثل جميع الخلايا في ورقة العمل.
+انقر فوق *رموز المخطط التفصيلي** و1،2،3، + و- لعرض الصفوف أو الأعمدة التي توفر ملخصات أو عناوين للأقسام في ورقة العمل بسرعة، أو يمكنك استخدام الرموز لرؤية التفاصيل ضمن ملخص فردي أو عنوان.
+##  **إدارة المجموعة للصفوف والأعمدة**
+ Aspose.Cells يوفر فئة،[دفتر العمل](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) الذي يمثل ملف Excel Microsoft. ال[دفتر العمل](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) يحتوي الفصل على أ[أوراق عمل](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) المجموعة التي تسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[ورقة عمل](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) فصل. ال[ورقة عمل](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) يوفر الفصل[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/)المجموعة التي تمثل كافة الخلايا في ورقة العمل.
 
- ال[آيسيلس](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)توفر المجموعة عدة طرق لإدارة الصفوف أو الأعمدة في ورقة العمل ، وقد تمت مناقشة القليل منها أدناه بمزيد من التفصيل.
-### **تجميع الصفوف والأعمدة**
- من الممكن تجميع الصفوف أو الأعمدة عن طريق استدعاء[GroupRows](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a88e0180ed1a4a423e0bd3ac599ef9332) و[GroupColumns](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#aaa14179e2a84ba5c2857f8434570d3d8) طرق[آيسيلس](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)مجموعة. تأخذ كلتا الطريقتين المعلمات التالية:
+ ال[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/)توفر المجموعة عدة طرق لإدارة الصفوف أو الأعمدة في ورقة العمل، ويتم مناقشة القليل منها أدناه بمزيد من التفاصيل.
+###  **تجميع الصفوف والأعمدة**
+ من الممكن تجميع الصفوف أو الأعمدة عن طريق استدعاء[صفوف المجموعة](https://reference.aspose.com/cells/cpp/aspose.cells/cells/grouprows/) و[أعمدة المجموعة](https://reference.aspose.com/cells/cpp/aspose.cells/cells/groupcolumns/) أساليب[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/)مجموعة. تأخذ كلتا الطريقتين المعلمات التالية:
 
-- أول صف / فهرس العمود ، أول صف أو عمود في المجموعة.
-- آخر صف / فهرس العمود ، آخر صف أو عمود في المجموعة.
-- مخفي ، معلمة منطقية تحدد ما إذا كان سيتم إخفاء الصفوف / الأعمدة بعد التجميع أم لا.
+- فهرس الصف/العمود الأول، الصف أو العمود الأول في المجموعة.
+- فهرس الصف/العمود الأخير، آخر صف أو عمود في المجموعة.
+- مخفي، وهو معلمة منطقية تحدد ما إذا كان سيتم إخفاء الصفوف/الأعمدة بعد التجميع أم لا.
 
 
 
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-GroupingUngroupingRowsAndColumns-GroupingRowsColumns.cpp" >}}
-#### **إعدادات المجموعة**
-Microsoft يسمح لك Excel بتكوين إعدادات المجموعة لعرض:
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-GroupingUngroupingRowsAndColumns-GroupingRowsColumns-new.cpp" >}}
+####  **إعدادات المجموعة**
+Microsoft يتيح لك Excel تكوين إعدادات المجموعة لعرض:
 
 - صفوف التلخيص أدناه التفاصيل.
 - أعمدة التلخيص على يمين التفاصيل.
-## **فك تجميع الصفوف والأعمدة**
- لفك تجميع أي صفوف أو أعمدة مجمعة ، قم باستدعاء[آيسيلس](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) المجموعة[UngroupRows](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#adc1f6418506854ab41707bfef453ddb1) و[UngroupColumns](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#aa3bf9a9510d4e85f68db9ebdcadc8406)أساليب. تأخذ كلتا الطريقتين معلمتين:
+##  **فك تجميع الصفوف والأعمدة**
+ لفك تجميع أي صفوف أو أعمدة مجمعة، اتصل بـ[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) المجموعة[فك تجميع الصفوف](https://reference.aspose.com/cells/cpp/aspose.cells/cells/ungrouprows/) و[فك تجميع الأعمدة](https://reference.aspose.com/cells/cpp/aspose.cells/cells/ungroupcolumns/)طُرق. تأخذ كلتا الطريقتين معلمتين:
 
-- الصف الأول أو فهرس العمود ، الصف / العمود الأول المراد فك تجميعه.
-- آخر صف أو فهرس العمود ، آخر صف / عمود سيتم فك تجميعه.
+- فهرس الصف أو العمود الأول، أول صف/عمود سيتم فك تجميعه.
+- فهرس الصف أو العمود الأخير، آخر صف/عمود سيتم فك تجميعه.
 
 
 
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-GroupingUngroupingRowsAndColumns-UnGroupingRowsColumns.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-GroupingUngroupingRowsAndColumns-UnGroupingRowsColumns-new.cpp" >}}

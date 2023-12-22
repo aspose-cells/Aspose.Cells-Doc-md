@@ -1,16 +1,16 @@
-﻿---
-title: GridWeb sayfa değişikliğinde istemci tarafı işlevini yürütün
+---
+title: GridWeb sayfası değişikliğinde istemci tarafı işlevini yürütün
 type: docs
 weight: 70
 url: /tr/java/execute-client-side-function-on-gridweb-page-change/
 ---
-## **Olası Kullanım Senaryoları**
-Bazen, GridWeb sayfası değiştiğinde müşteri tarafı işlevinizi yürütmeniz gerekir. Aspose.Cells.GridWeb, bu amaçla OnPageChangeClientFunction özelliğini sağlar. Lütfen bu özelliği, yürütmek istediğiniz istemci tarafı işleviyle ayarlayın.
-## **GridWeb sayfa değişikliğinde istemci tarafı işlevini yürütün**
-Aşağıdaki java kodu, GridWebBean.setOnPageChangeClientFunction() özelliğinin nasıl kullanılacağını açıklar. Özelliği, MyOnPageChange adlı istemci tarafı işleviyle ayarlar. Lütfen unutmayın, bu özellik yalnızca sayfalamayı etkinleştirdiyseniz geçerlidir, yani GridWebBean.setEnablePaging(true). Şimdi, GridWeb sayfasını ne zaman değiştirirseniz, istemci tarafı işlevi MyOnPageChange'i çağıracaktır.**geçerli sayfa dizini** üzerinde**konsol** bu ekran görüntüsünde gösterildiği gibi.
+##  **Olası Kullanım Senaryoları**
+Bazen GridWeb sayfası değiştiğinde istemci tarafı işlevinizi yürütmeniz gerekir. Aspose.Cells.GridWeb, bu amaç için OnPageChangeClientFunction özelliğini sağlar. Lütfen bu özelliği, yürütmek istediğiniz istemci tarafı işleviyle ayarlayın.
+##  **GridWeb sayfası değişikliğinde istemci tarafı işlevini yürütün**
+ Aşağıdaki Java kodu GridWebBean.setOnPageChangeClientFunction() özelliğinin nasıl kullanılacağını açıklamaktadır. Özelliği MyOnPageChange adlı istemci tarafı işleviyle ayarlar. Lütfen bu özelliğin yalnızca sayfalamayı etkinleştirdiyseniz, yani GridWebBean.setEnablePaging(true) geçerli olduğunu unutmayın. Artık GridWeb sayfasını değiştirdiğinizde, istemci tarafı işlevi MyOnPageChange'i çağıracak ve bu işlev aşağıdakileri yazdıracaktır:**geçerli sayfa dizini** üzerinde**konsol** bu ekran görüntüsünde gösterildiği gibi.
 
-![yapılacaklar:resim_alternatif_metin](execute-client-side-function-on-gridweb-page-change_1.png)
-## **Basit kod**
+![yapılacak şey:image_alt_text](execute-client-side-function-on-gridweb-page-change_1.png)
+##  **Basit kod**
 Bu, bu satır nedeniyle yürütülecek olan istemci tarafı işlevi MyOnPageChange'in kodudur, yani Gridweb.setOnPageChangeClientFunction("MyOnPageChange");
 
 {{< highlight "java" >}}
@@ -23,7 +23,7 @@ Bu, bu satır nedeniyle yürütülecek olan istemci tarafı işlevi MyOnPageChan
 
 {{< /highlight >}}
 
-Aşağıdaki kod, disk belleğinin nasıl etkinleştirileceğini ve OnPageChangeClientFunction özelliğinin nasıl ayarlanacağını açıklar.
+Aşağıdaki kod, sayfalamanın nasıl etkinleştirileceğini ve OnPageChangeClientFunction özelliğinin nasıl ayarlanacağını açıklamaktadır.
 
 {{< highlight "java" >}}
 

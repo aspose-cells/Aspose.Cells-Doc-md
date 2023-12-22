@@ -7,6 +7,45 @@ url: /de/java/what-s-new-in-aspose-cells-for-java/
 ---
 Auf dieser Seite werden die interessantesten neuen Aspose.Cells-Funktionen beschrieben, die in den letzten Versionen eingeführt wurden.
 
+##  Aspose.Cells for Java 23.12
+
+* Unterstützung für die Einhaltung von PDF/A-2 und PDF/A-3 beim Konvertieren in PDF
+* Unterstützt die Berechnung der diskreten Gruppierung der Pivot-Tabelle
+* Unterstützung für den Export von Zelldaten in eine generische Liste
+* Unterstützung für den Import von Querverweisen mithilfe verknüpfter Tabellen für Smart Marker
+* Unterstützt die MAKEARRAY-Funktion für Formeln
+
+##  Aspose.Cells for Java 23.11
+
+* Unterstützung für die Konvertierung von Tabellenkalkulationen in die Dateiversion PDF, Version 1.7 (ISO32000-1:2008)
+
+##  Aspose.Cells for Java 23.10
+
+* Unterstützung für das direkte Setzen von Hyperlinks auf einen Bereich
+* Unterstützung für das gleichzeitige Kopieren mehrerer Arbeitsblätter
+* Unterstützung zur Überprüfung, ob ein Bereich für Zelldaten leer ist
+
+##  Aspose.Cells for Java 23.9
+
+* Unterstützung zur Berechnung neuer Funktionen in der Formel: LAMBDA,LET,MAP,SCAN
+* Unterstützung für den Import/Export von EPUB-Dateien
+* Unterstützung zum Filtern von Diagrammreihen
+
+##  Aspose.Cells for Java 23.8
+
+* Unterstützung, um Füllraum in Formeln beizubehalten
+* Unterstützung zum Ersetzen/Einfügen von Text durch Formatierung für Richtext der Zelle
+
+##  Aspose.Cells for Java 23.7
+
+* Verbesserte Dateiformaterkennung für einige neue Formate wie Visio-Datei, OneNote-Paketdatei.
+
+##  Aspose.Cells for Java 23.6
+
+* Unterstützung für den Export und die Hervorhebung von Revisionsprotokollen
+* Unterstützung für das Durchlaufen vorhandener Row-Objekte aus RowCollection in umgekehrter Reihenfolge
+* Unterstützung zum Aktualisieren mehrerer Konsolidierungsbereiche von Pivottable
+
 ##  Aspose.Cells for Java 23.5
 
 * Unterstützung für die Aktualisierung externer Verweise externer Blattdaten auf das lokale Blatt der aktuellen Arbeitsmappe

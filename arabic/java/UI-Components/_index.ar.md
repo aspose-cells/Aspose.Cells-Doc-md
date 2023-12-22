@@ -1,4 +1,4 @@
-﻿---
+---
 title: مكونات واجهة المستخدم
 second_title: Aspose.Cells.GridWeb
 type: docs

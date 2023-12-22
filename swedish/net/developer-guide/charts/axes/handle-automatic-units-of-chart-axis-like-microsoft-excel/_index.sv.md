@@ -1,14 +1,16 @@
-﻿---
+---
 title: Hantera automatiska enheter för diagramaxeln som Microsoft Excel
+description: Lär dig hur du hanterar automatiska enheter på sjökortsaxlar i Aspose.Cells for .NET, liknande Microsoft Excel. Vår guide visar dig hur du konfigurerar och anpassar automatiska enheter på en kartaxel, inklusive visning av vetenskaplig notation och justering av skalan.
+keywords: Aspose.Cells for .NET, chart axes, automatic units, Microsoft Excel, configuration, customization, scientific notation, scaling.
 type: docs
 weight: 120
 url: /sv/net/handle-automatic-units-of-chart-axis-like-microsoft-excel/
 ---
-## **Möjliga användningsscenarier**
+##  **Möjliga användningsscenarier**
 Tidiga versioner av Aspose.Cells kunde inte hantera automatiska enheter av sjökortsaxeln korrekt när sjökortet renderas till bild eller PDF. Nu stöder Aspose.Cells hanteringen av automatiska enheter för sjökortsaxeln. Det finns ingen kodändring. Konvertera bara ditt diagram till bild eller PDF och det kommer att återge diagramaxeln precis som Microsoft Excel återger den.
-## **Hantera automatiska enheter för diagramaxeln som Microsoft Excel**
- Följande exempelkod laddar[exempel på Excel-fil](61767755.xlsx) och genererar[utgång PDF diagram](61767752.pdf). Skärmdumpen visar de automatiska enheterna för diagramaxeln i röda rektanglar och jämför även exemplet på Excel-fildiagrammet med utdatadiagrammet PDF. Båda är exakt lika.
+##  **Hantera automatiska enheter för diagramaxeln som Microsoft Excel**
+ Följande exempelkod laddar[exempel på Excel-fil](61767755.xlsx) och genererar[utgång PDF diagram](61767752.pdf)Skärmdumpen visar de automatiska enheterna för diagramaxeln i röda rektanglar och jämför även exemplet på Excel-fildiagrammet med utdatadiagrammet PDF. Båda är exakt lika.
 
 ![todo:image_alt_text](handle-automatic-units-of-chart-axis-like-microsoft-excel_1.png)
-## **Exempelkod**
+##  **Exempelkod**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Charts-HandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.cs" >}}

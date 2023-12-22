@@ -1,5 +1,7 @@
-﻿---
+---
 title: Använd skuggning på alternativa rader och kolumner med villkorlig formatering
+description: Hur man använder Aspose.Cells-biblioteket i C# för att tillämpa villkorliga formateringsskuggor för alternerande rader och kolumner. Genom att justera dessa kriterier har du mer kontroll över hur celler ser ut och visas.
+keywords: Aspose.Cells, Conditional Formatting, C#, Alternate Rows, Alternate Columns, Shadows
 type: docs
 weight: 30
 url: /sv/net/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/
@@ -12,8 +14,8 @@ url: /sv/net/apply-shading-to-alternate-rows-and-columns-with-conditional-format
 
 Den här artikeln använder sig av Excels inbyggda funktioner som ROW, COLUMN & MOD. Här är några detaljer om dessa funktioner för en bättre förståelse av kodavsnittet som tillhandahålls i förväg.
 
-- **RAD()** funktion returnerar radnumret för en cellreferens. Om referensparametern utelämnas antar den att referensen är den celladress där ROW-funktionen har skrivits in.
-- **KOLUMN()** funktion returnerar kolumnnumret för en cellreferens. Om referensparametern utelämnas, förutsätter den att referensen är den celladress där funktionen COLUMN har skrivits in.
+- **ROW()** funktion returnerar radnumret för en cellreferens. Om referensparametern utelämnas antar den att referensen är den celladress där ROW-funktionen har skrivits in.
+- **COLUMN()**funktion returnerar kolumnnumret för en cellreferens. Om referensparametern utelämnas, förutsätter den att referensen är den celladress där funktionen COLUMN har skrivits in.
 - **MOD()** funktion returnerar resten efter att ett tal har dividerats med en divisor, där den första parametern till funktionen är det numeriska värdet vars återstod du vill hitta och den andra parametern är talet som används för att dela in i talparametern. Om divisorn är 0, kommer den att returnera #DIV/0! fel.
 
 Låt oss börja skriva lite kod för att uppnå detta mål med hjälp av Aspose.Cells for .NET API.
@@ -23,10 +25,10 @@ Låt oss börja skriva lite kod för att uppnå detta mål med hjälp av Aspose.
 Följande ögonblicksbild visar det resulterande kalkylbladet laddat i Excel-applikationen.
 
 |![todo:image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_1.png)|
-|:- |
+| :- |
 
- För att tillämpa skuggningen på alternativa kolumner behöver du bara ändra formeln**=MOD(RAD();2)=0** som**=MOD(KOLUMN(),2)=0** , det är; istället för att hämta radindexet, ändra formeln för att hämta kolumnindexet.
+ För att tillämpa skuggningen på alternativa kolumner behöver du bara ändra formeln**=MOD(RAD();2)=0** som *=MOD(KOLUMN(),2)=0**, det vill säga; istället för att hämta radindexet, ändra formeln för att hämta kolumnindexet.
 Det resulterande kalkylarket, i det här fallet, kommer att se ut som följer.
 
 |![todo:image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)|
-|:- |
+| :- |

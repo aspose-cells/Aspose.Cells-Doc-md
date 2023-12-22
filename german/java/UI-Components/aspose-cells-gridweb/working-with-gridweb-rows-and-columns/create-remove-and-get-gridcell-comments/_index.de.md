@@ -1,15 +1,15 @@
-﻿---
-title: GridCell-Kommentare erstellen und abrufen
+---
+title: Erstellen Sie GridCell-Kommentare zum Entfernen und Abrufen
 type: docs
 weight: 10
 url: /de/java/create-remove-and-get-gridcell-comments/
 ---
-## **Mögliche Nutzungsszenarien**
-Im folgenden Artikel wird erläutert, wie GridCell-Kommentare im GridWeb-Arbeitsblatt erstellt, entfernt und abgerufen werden. Es ist erwähnenswert, dass GridWeb Kommentare als Tooltip wie MS-Excel anzeigt, wenn Sie mit der Maus über die Zelle fahren, wie in diesem Screenshot gezeigt.
+##  **Mögliche Nutzungsszenarien**
+Im folgenden Artikel wird erläutert, wie Sie GridCell-Kommentare im GridWeb-Arbeitsblatt erstellen, entfernen und abrufen. Es ist erwähnenswert, dass GridWeb Kommentare als Tooltip wie MS-Excel anzeigt, wenn Sie mit der Maus über die Zelle fahren, wie in diesem Screenshot gezeigt.
 
-![todo: Bild_alt_Text](create-remove-and-get-gridcell-comments_1.png)
-## **Kommentarobjekt innerhalb von Cell erstellen**
-Bitte verwenden Sie die GridCell.CreateComment-Methode, um ein Kommentarobjekt innerhalb der Zelle zu erstellen. Der folgende Beispielcode erstellt einen Beispielkommentar in Zelle B4 des ersten Arbeitsblatts von GridWeb.
+![todo:image_alt_text](create-remove-and-get-gridcell-comments_1.png)
+##  **Erstellen Sie ein Kommentarobjekt in Cell**
+Bitte verwenden Sie die Methode GridCell.CreateComment, um ein Kommentarobjekt innerhalb der Zelle zu erstellen. Der folgende Beispielcode erstellt einen Beispielkommentar in Zelle B4 des ersten Arbeitsblatts von GridWeb.
 
 {{< highlight "java" >}}
 
@@ -28,8 +28,8 @@ GridCell cell = sheet.getCells().get("B4");
 cell.createComment("This is a B4 note.", "Peter", true);
 
 {{< /highlight >}}
-## **Kommentarobjekt von Cell entfernen**
-Bitte verwenden Sie die GridCell.RemoveComment-Methode, um ein Kommentarobjekt aus einer Zelle zu entfernen. Der folgende Beispielcode entfernt den Kommentar zu Zelle B4 im ersten Arbeitsblatt von GridWeb.
+##  **Entfernen Sie das Kommentarobjekt aus Cell**
+Bitte verwenden Sie die Methode GridCell.RemoveComment, um ein Kommentarobjekt aus der Zelle zu entfernen. Der folgende Beispielcode entfernt den Kommentar der Zelle B4 im ersten Arbeitsblatt von GridWeb.
 
 
 
@@ -48,7 +48,7 @@ GridCell cell = sheet.getCells().get("B4");
 cell.removeComment();
 
 {{< /highlight >}}
-## **Holen Sie sich das Kommentarobjekt von Cell**
+##  **Holen Sie sich das Kommentarobjekt von Cell**
 Bitte verwenden Sie die Methode GridCell.GetComment(), um das Kommentarobjekt aus der Zelle abzurufen. Der folgende Beispielcode ruft das Kommentarobjekt aus Zelle B4 ab und greift dann auf seine verschiedenen Eigenschaften wie Autor, Notiz, Sichtbarkeit usw. zu.
 
 {{< highlight "java" >}}

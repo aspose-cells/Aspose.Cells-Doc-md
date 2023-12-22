@@ -1,19 +1,21 @@
-﻿---
-title: ハイパーリンク タイプの検出
+---
+title: ハイパーリンクの種類の検出
 type: docs
 weight: 160
 url: /ja/net/detect-hyperlink-type/
+description: Aspose.Cells for .NET API を通じてハイパーリンク タイプを検出する方法を学習します。
+keywords: Detect hyperlink type, Detect the type of hyperlink, Get the type of hyperlink
 ---
-## **ハイパーリンク タイプの検出**
+##  **ハイパーリンクの種類の検出**
 
- Excel ファイルには、外部、セル参照、ファイル パスなど、さまざまな種類のハイパーリンクを含めることができます。Aspose.Cells は、ハイパーリンクの種類を検出する機能をサポートしています。ハイパーリンクの種類は、[**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype)列挙。の[**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype)Enumeration には次のメンバーがあります。
+Excel ファイルには、外部リンク、セル参照、ファイル パスなどのさまざまなタイプのハイパーリンクを含めることができます。Aspose.Cells は、ハイパーリンクのタイプを検出する機能をサポートしています。ハイパーリンクの種類は次のように表されます。[**ターゲットモードタイプ**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype)列挙。の[**ターゲットモードタイプ**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype)Enumeration には次のメンバーがあります。
 
 - 外部: 外部リンク
-- FilePath: ファイル\フォルダーへのローカルおよびフル パス。
+- FilePath: ファイル/フォルダーへのローカルおよびフルパス。
 - 電子メール: 電子メール
 - CellReference: セルまたは名前付き範囲へのリンク。
 
-ハイパーリンクの種類を確認するには、[**ハイパーリンク**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink)クラスは[**リンクタイプ**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype)戻り値の型を持つプロパティ[**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype).次のコード スニペットは、[**リンクタイプ**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype)これを利用したプロパティ[ソースエクセルファイル](94896195.xlsx).
+ハイパーリンクの種類を確認するには、[**ハイパーリンク**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink)クラスが提供するのは[**リンクタイプ**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype)戻り値の型が次のプロパティ[**ターゲットモードタイプ**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype)。次のコード スニペットは、[**リンクタイプ**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype)これを使用してプロパティを[ソースエクセルファイル](94896195.xlsx).
 
 ### ソースコード
 

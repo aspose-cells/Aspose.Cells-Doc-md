@@ -1,50 +1,49 @@
-﻿---
-title: الترخيص
+---
+title: Licensing
 type: docs
 weight: 50
 url: /ar/cpp/licensing/
 ---
-## **قيود إصدار التقييم**
- يمكن تنزيل نسخة تقييم مجانية من Aspose.Cells for C++ من قسم التنزيلات في موقع الويب Aspose على:<https://downloads.aspose.com/cells/cpp>.
-## **تطبيق الترخيص باستخدام ملف أو كائن دفق**
-يمكن تحميل الترخيص من ملف أو كائن دفق. Aspose.Cells for C++ سيحاول العثور على الترخيص في المواقع التالية:
+##  **قيود إصدار التقييم**
+ يمكن تنزيل نسخة تقييمية مجانية من Aspose.Cells for C++ من قسم التنزيلات في موقع الويب الخاص بـ Aspose على:<https://downloads.aspose.com/cells/cpp>.
+##  **تطبيق الترخيص باستخدام ملف أو كائن دفق**
+يمكن تحميل الترخيص من ملف أو كائن دفق. Aspose.Cells for C++ سيحاول العثور على الرخصة في المواقع التالية:
 
-1. مسار صريح.
+1. المسار الصريح.
 1. المجلد الذي يحتوي على Aspose.Cells.dll.
 1. المجلد الذي يحتوي على التجميع الذي يسمى Aspose.Cells.dll.
-1. المجلد الذي يحتوي على تجميع الإدخال (الخاص بك. exe).
+1. المجلد الذي يحتوي على مجموعة الإدخال (.exe الخاص بك).
 1. مورد مضمن في التجميع يسمى Aspose.Cells.dll.
 
-أسهل طريقة لتعيين ترخيص هي وضع ملف الترخيص في نفس المجلد مثل ملف Aspose.Cells.dll وتحديد اسم الملف ، بدون مسار ، كما هو موضح في المثال أدناه.
-### **تحميل ترخيص من ملف**
-أسهل طريقة لتطبيق ترخيص هي وضع ملف الترخيص في نفس المجلد مثل ملف Aspose.Cells.dll وتحديد اسم الملف فقط بدون مسار.
+أسهل طريقة لتعيين ترخيص هي وضع ملف الترخيص في نفس المجلد مثل الملف Aspose.Cells.dll وتحديد اسم الملف، بدون مسار، كما هو موضح في المثال أدناه.
+###  **تحميل الترخيص من الملف**
+أسهل طريقة لتطبيق الترخيص هي وضع ملف الترخيص في نفس المجلد مثل الملف Aspose.Cells.dll وتحديد اسم الملف فقط بدون مسار.
 
 {{% alert color="primary" %}} 
 
-عند استدعاء طريقة SetLicense ، يجب أن يكون اسم الترخيص الذي تمرره هو اسم ملف الترخيص. على سبيل المثال ، إذا قمت بتغيير اسم ملف الترخيص إلى "Aspose.Cells.lic.xml" ، فمرر اسم الملف هذا إلى الأسلوب Cells-> SetLicense (…).
+عند استدعاء الأسلوب SetLicense، يجب أن يكون اسم الترخيص الذي تقوم بتمريره هو اسم ملف الترخيص. على سبيل المثال، إذا قمت بتغيير اسم ملف الترخيص إلى "Aspose.Cells.lic.xml"، فقم بتمرير اسم الملف هذا إلى الأسلوب Cells->SetLicense(...).
 
 {{% /alert %}} 
 
-**C ++**
+**C++**
 
 {{< highlight "csharp" >}}
-
- intrusive_ptr<License> license = new License();
-
-license->SetLicense(new String("Aspose.Cells.lic"));
+  License license;
+  license.SetLicense(u"Aspose.Cells.lic");
 
 {{< /highlight >}}
-### **تحميل ترخيص من كائن تيار**
-يوضح المثال التالي كيفية تحميل ترخيص من دفق.
+###  **تحميل ترخيص من كائن دفق**
+يوضح المثال التالي كيفية تحميل ترخيص من الدفق.
 
-**C ++**
+**C++**
 
 {{< highlight "csharp" >}}
 
- intrusive_ptr<License>license = new License();
+  License license;
 
-intrusive_ptr<FileStream> myStream = new FileStream(new String("Aspose.Cells.lic"), FileMode_Open);
+  //You need to write your own code to read the contents of the license file into this variable.
+  Vector<uint8_t> myStream{0}; //"Aspose.Cells.lic"
 
-license->SetLicense(myStream);
+  license.SetLicense(myStream);
 
 {{< /highlight >}}

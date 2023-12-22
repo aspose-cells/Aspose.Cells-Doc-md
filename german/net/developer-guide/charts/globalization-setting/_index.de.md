@@ -1,5 +1,7 @@
 ---
 title: Konvertieren Sie das Diagramm in ein lokalisiertes Bild
+description: Erfahren Sie, wie Sie Globalisierungskonfigurationen für Diagramme mithilfe von Aspose.Cells for .NET festlegen. Unser Leitfaden zeigt, wie Sie das Diagramm so konfigurieren, dass es mehrere Sprachen und regionale Formate unterstützt, um Text, Datumsangaben und Zahlen in verschiedenen Sprachen korrekt anzuzeigen.
+keywords: Aspose.Cells for .NET, Charts, Globalization Settings, Multiple Languages, Regional Formats, Display, Text, Dates, Numbers.
 linktitle: Legen Sie die lokalisierte Region fest
 type: docs
 weight: 50
@@ -14,9 +16,9 @@ In diesem Thema zeigen wir Ihnen, wie Sie ein Diagramm in ein lokalisiertes Bild
 
 ##  **Szenario**
 
-In welchem Szenario müssten wir eine lokalisierte Region für ein Diagramm festlegen?
+ In welchem Szenario müssten wir eine lokalisierte Region für ein Diagramm festlegen?
 
- Wenn Sie eine XLSX-Datei mit einem Diagramm in Excel öffnen, nehmen wir in diesem Fall an, dass Sie sie mit einer spanischen Regionaleinstellung in Excel öffnen, können Sie die Elemente im Diagrammbereich sehen, wie z. B. Diagrammtitel, Länge, sie werden ins Spanische übersetzt. Wenn Sie dieses Diagramm jedoch als Bild mit Aspose.Cells speichern, kann das folgende Problem auftreten:
+Wenn Sie eine XLSX-Datei mit einem Diagramm in Excel öffnen, nehmen wir in diesem Fall an, dass Sie sie mit einer spanischen Regionaleinstellung in Excel öffnen, können Sie die Elemente im Diagrammbereich sehen, wie z. B. Diagrammtitel, Länge, sie werden ins Spanische übersetzt. Wenn Sie dieses Diagramm jedoch als Bild mit Aspose.Cells speichern, kann das folgende Problem auftreten:
 
 **![Globales Problem](GlobalIssue.png)**
 

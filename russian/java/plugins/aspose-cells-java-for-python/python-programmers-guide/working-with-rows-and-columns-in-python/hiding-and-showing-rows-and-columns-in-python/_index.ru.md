@@ -1,11 +1,13 @@
-﻿---
+---
 title: Скрытие и отображение строк и столбцов в Python
 type: docs
 weight: 50
 url: /ru/java/hiding-and-showing-rows-and-columns-in-python/
+description: Узнайте, как скрывать и показывать строки и столбцы с помощью Aspose.Cells for Python через Java API.
+keywords: How to Hide and Show Rows and Columns in Python Via Java, Hide Rows and Columns using Python Via Java, Python Via Java Show Rows and Columns. 
 ---
-## **Aspose.Cells — Управление видимостью строк и столбцов**
-### **Скрытие строк и столбцов**
+##  **Aspose.Cells - Управление видимостью строк и столбцов**
+###  **Как скрыть строки и столбцы**
 Разработчики могут скрыть строку или столбец, вызвав методы HideRow и HideColumn коллекции Cells соответственно. Оба метода принимают индекс строки/столбца в качестве параметра, чтобы скрыть конкретную строку или столбец.
 
 **Рубиновый код**
@@ -39,11 +41,11 @@ workbook.save(self.dataDir + "Hide Rows And Columns.xls")
 print "Hide Rows And Columns Successfully." 
 
 {{< /highlight >}}
-### **Отображение строк и столбцов**
+###  **Как показать строки и столбцы**
 Разработчики могут отобразить любую скрытую строку или столбец, вызвав методы UnhideRow и UnhideColumn коллекции Cells соответственно. Оба метода принимают два параметра:
 
-- **Индекс столбца строки**- индекс строки или столбца, который используется для отображения конкретной строки или столбца.
-- **Высота строки или ширина столбца**- высота строки или ширина столбца, назначенная строке или столбцу после его отображения.
+- **Индекс столбца строки**— индекс строки или столбца, который используется для отображения конкретной строки или столбца.
+- **Высота строки или ширина столбца**— высота строки или ширина столбца, назначенная строке или столбцу после ее отображения.
 
 **Рубиновый код**
 
@@ -76,7 +78,7 @@ workbook.save(self.dataDir + "Unhide Rows And Columns.xls")
 print "Unhide Rows And Columns Successfully." 
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Управление видимостью строк и столбцов (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+##  **Загрузить рабочий код**
+ Скачать**Управление видимостью строк и столбцов (Aspose.Cells)**с любого из перечисленных ниже сайтов социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

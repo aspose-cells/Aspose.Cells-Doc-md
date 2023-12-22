@@ -1,5 +1,5 @@
 ---
-title: 入門
+title: はじめる
 type: docs
 weight: 10
 url: /ja/net/getting-started/
@@ -16,7 +16,7 @@ url: /ja/net/getting-started/
 
 NuGet は、Aspose.Cells for .NET をダウンロードしてインストールする最も簡単な方法です。
 
-1.  Microsoft Visual Studio および NuGet パッケージ マネージャーを開きます。
+1. Microsoft Visual Studio および NuGet パッケージ マネージャーを開きます。
 1.  「aspose.cells」を検索して、目的の Aspose.Cells for .NET を見つけます。
 1. 「インストール」をクリックすると、Aspose.Cells for .NET がダウンロードされ、プロジェクト内で参照されます。
 **![Aspose Cells ～ NuGet をインストール](install-through-nuget.png)**
@@ -44,7 +44,7 @@ NuGet は、Aspose.Cells for .NET をダウンロードしてインストール�
 2. ファイル「AsposeCellsTest.csproj」を開き、Aspose.Cells パッケージ参照として次の行を追加します。
 {{< highlight "plain" >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="23.5" />
+    <PackageReference Include="Aspose.Cells" Version="23.12" />
   </ItemGroup>
 {{< /highlight >}}
 3. Ubuntu 上の VSCode でプロジェクトを開きます。

@@ -1,12 +1,14 @@
-﻿---
+---
 title: Anpassa diagram
+description: Lär dig hur du anpassar diagram i Aspose.Cells for .NET. Vår guide visar dig hur du ändrar diagramlayouter, lägger till och formaterar dataserier, justerar axlar och använder olika formateringsalternativ för att förbättra utseendet och användbarheten av dina diagram.
+keywords: Aspose.Cells for .NET, charting, customization, layouts, data series, axes, formatting, appearance, usability.
 type: docs
 weight: 40
 url: /sv/net/customizing-charts/
 ---
 {{% alert color="primary" %}}
 
-## **Skapa anpassade diagram**
+##  **Skapa anpassade diagram**
 
 Hittills, när vi har diskuterat diagram, har vi tittat på standarddiagram som har sina standardformateringsinställningar. Vi definierar bara datakällan, ställer in några få egenskaper och diagrammet skapas med dess standardformatinställningar. Men Aspose.Cells API:er stöder också att skapa anpassade diagram som gör det möjligt för utvecklare att skapa diagram med sina egna formatinställningar.
 

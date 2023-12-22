@@ -1,7 +1,7 @@
-﻿---
+---
 title: Funciones de Excel compatibles
-type: docs
 toc: false
+type: docs
 weight: 10
 url: /es/java/supported-formula-functions/
 description: Funciones de Excel compatibles para leer/configurar/calcular fórmulas
@@ -9,492 +9,506 @@ keywords: formula function calculate
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells Las API admiten la mayoría de las funciones estándar y la fórmula integrada de Excel. A continuación, puede encontrar todas las funciones admitidas en orden alfabético.
+Aspose.Cells Las API admiten la mayoría de las funciones estándar y la fórmula integrada de Excel. A continuación, puede encontrar todas las funciones compatibles en orden alfabético.
 
-||||||||||||||
+| | | | | | | | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|**[Automóvil club británico)** |**[Cama y desayuno)** |**[C](#c)** |**[D](#d)** |**[E](#e)** |**[F](#f)** |**[G](#g)** |**[S.S)** |**[yo](#yo)** |**[J](#j)** |**[K](#k)** |**[L](#l)** |**[M](#m)** |
-|**[N](#n)** |**[O](#o)** |**[Páginas)** |**[Q](#q)** |**[R](#r)** |**[S](#s)** |**[T](#t)** |**[U](#u)** |**[V](#v)** |**[W](#w)** |**[X](#x)** |**[A](#a)** |**[Z](#z)** |
+| **[Automóvil club británico)** | **[Cama y desayuno)** | **[C](#c)** | **[D](#d)** | **[E](#e)** | **[F](#f)** | **[G](#g)** | **[S.S)** | **[yo](#yo)** | **[J](#j)** | **[K](#k)** | **[L](#l)** | **[M](#m)** |
+| **[N](#n)** | **[O](#o)** | **[Páginas)** | **[Q](#q)** | **[R](#r)** | **[S](#s)** | **[T](#t)** | **[U](#u)** | **[V](#v)** | **[W](#w)** | **[X](#x)** | **[Y](#y)** | **[Z](#z)** |
 
 {{% /alert %}}
 
-Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular los resultados de las siguientes fórmulas y funciones.
+Aspose.Cells' El motor de cálculo de fórmulas le permite configurar, leer y calcular los resultados de las siguientes fórmulas y funciones.
 
-###### **A**
+######  *A**
 |**Función**|**Resumen**|
-|:- |:- |
-|abdominales|
-|ACTA|
+| :- | :- |
+|ABS|
+|ACCRINT|
 |ACCRINTM|
 |ACOS|
 |ACOSH|
-|DIRECCIÓN|
-|AGREGAR|
+|ADDRESS|
+|AGGREGATE|
 |AMORDEGRC|
 |AMORLINC|
-|Y|
+|ANCHORARRAY|
+|AND|
 |AREAS|
 |ASC|
-|COMO EN|
+|ASIN|
 |ASINH|
-|UN BRONCEADO|
+|ATAN|
 |ATAN2|
 |ATANH|
 |AVEDEV|
-|PROMEDIO|
-|PROMEDIOA|
-|PROMEDIO SI|
-|PROMEDIOSIS|
+|AVERAGE|
+|AVERAGEA|
+|AVERAGEIF|
+|AVERAGEIFS|
 
-###### **B**
+######  *B**
 |**Función**|**Resumen**|
-|:- |:- |
+| :- | :- |
 |BESSELI|
 |BESSELJ|
 |BESSELK|
 |BESSELY|
 |BETADIST|
-|DISTR.BETA.|
+|DISTR.BETA|
 |BETAINV|
-|INV.BETA|
+|BETA.INV|
 |BIN2DEC|
 |BIN2HEX|
 |BIN2OCT|
-|DISTR.BINOM|
+|BINOMDIST|
 |DISTR.BINOM.|
 |BITAND|
-|CAMBIO DE BITS|
+|BITLSHIFT|
 |BITOR|
-|CAMBIO DE BITS|
+|BITRSHIFT|
 |BITXOR|
 
-###### **C**
+######  *C**
 |**Función**|**Resumen**|
-|:- |:- |
-|TECHO|
-|MATEMÁTICAS DE TECHO|
-|TECHO. PRECISO|
-|CELDA|
-|CARBONIZARSE|
-|CHIDISTA|
+| :- | :- |
+|CEILING|
+|TECHO.MATEMÁTICAS|
+|TECHO.PRECISO|
+|CELL|
+|CHAR|
+|CHIDIST|
 |CHIINV|
-|PRUEBA CHI|
-|DISTR.CHICUAD.|
-|DISTR.CHICUAD.RT|
+|CHITEST|
+|DISTR.CHISQ|
+|DISTRITO.CHISQ.RT|
 |CHISQ.INV.RT|
-|PRUEBA CHISQ.|
-|ESCOGER|
-|LIMPIO|
-|CÓDIGO|
-|COLUMNA|
-|COLUMNAS|
-|COMBINAR|
-|COMPLEJO|
+|PRUEBA CHISQ|
+|CHOOSE|
+|CHOOSECOLS|
+|CHOOSEROWS|
+|CLEAN|
+|CODE|
+|COLUMN|
+|COLUMNS|
+|COMBIN|
+|COMPLEX|
 |CONCAT|
-|CONCATENAR|
-|CONFIANZA|
+|CONCATENATE|
+|CONFIDENCE|
 |CONFIANZA.NORMA|
-|CONVERTIR|
+|CONVERT|
 |CORREL|
-|porque|
-|APORREAR|
-|CONTAR|
-|CONTARA|
-|CUENTA EN BLANCO|
-|CONTAR.SI|
+|COS|
+|COSH|
+|COUNT|
+|COUNTA|
+|COUNTBLANK|
+|COUNTIF|
 |COUNTIFS|
 |COUPDAYBS|
-|CUPONES|
+|COUPDAYS|
 |COUPDAYSNC|
 |COUPNCD|
-|CUPÓN|
+|COUPNUM|
 |COUPPCD|
 |COVAR|
 |COVARIANZA.P|
-|COVARIANZA.S|
+|COVARIANCIA.S|
 |CRITBINOM|
-|CUMIPTO|
-|CUMPLIMIENTO|
+|CUMIPMT|
+|CUMPRINC|
 
-###### **D**
+######  *D**
 |**Función**|**Resumen**|
-|:- |:- |
-|FECHA|
-|SIFECHA|
-|FECHAVALO|
-|PROMEDIO|
-|DÍA|
-|DIAS|
-|DÍAS360|
-|base de datos|
-|DCUENTO|
-|DCUENTAA|
+| :- | :- |
+|DATE|
+|DATEDIF|
+|DATEVALUE|
+|DAVERAGE|
+|DAY|
+|DAYS|
+|DAYS360|
+|DB|
+|DCOUNT|
+|DCOUNTA|
 |DDB|
 |DEC2BIN|
 |DEC2HEX|
 |DEC2OCT|
-|GRADOS|
+|DEGREES|
 |DELTA|
 |DEVSQ|
 |DGET|
-|DESCT|
+|DISC|
 |DMAX|
 |DMIN|
-|DÓLAR|
-|DÓLAR|
-|DÓLARFR|
-|DPRODUCTO|
-|DESVEST.|
+|DOLLAR|
+|DOLLARDE|
+|DOLLARFR|
+|DPRODUCT|
+|DSTDEV|
 |DSTDEVP|
 |DSUM|
-|DURACIÓN|
+|DURATION|
 |DVAR|
 |DVARP|
 
-###### **MI**
+######  *MI**
 |**Función**|**Resumen**|
-|:- |:- |
-|FECHA DE FECHA|
-|EFECTO|
-|EOMES|
+| :- | :- |
+|EDATE|
+|EFFECT|
+|ENCODEURL|
+|EOMONTH|
 |ERF|
 |ERFC|
-|TIPO.ERROR|
-|INCLUSO|
-|EXACTO|
-|Exp|
-|EXPONDISTA|
+|TIPO DE ERROR|
+|EVEN|
+|EXACT|
+|EXP|
+|EXPONDIST|
 
-###### **F**
+######  *F**
 |**Función**|**Resumen**|
-|:- |:- |
-|HECHO|
-|HECHO DOBLE|
-|FALSO|
+| :- | :- |
+|FACT|
+|FACTDOUBLE|
+|FALSE|
 |DISTR.F.|
-|DISTR.F|
-|DISTR.F.RT|
-|FILTRAR|
-|ENCONTRAR|
-|ENCONTRARDB|
+|FDIST|
+|F.DIST.RT|
+|FILTER|
+|FIND|
+|FINDB|
 |F.INV.RT|
 |FINV|
-|PESCADOR|
+|FISHER|
 |FISHERINV|
-|FIJADO|
-|PISO|
+|FIXED|
+|FLOOR|
 |PISO.MATEMÁTICAS|
-|PRONÓSTICO|
+|FORECAST|
 |PRONÓSTICO.LINEAL|
-|FÓRMULATEXTO|
-|FRECUENCIA|
-|VF|
-|HORARIO DE VEHÍCULOS|
+|FORMULATEXT|
+|FREQUENCY|
+|FV|
+|FVSCHEDULE|
 
-###### **GRAMO**
+######  *GRAMO**
 |**Función**|**Resumen**|
-|:- |:- |
+| :- | :- |
 |DISTR.GAMMA|
-|DISTR.GAMMA|
-|INV.GAMMA|
-|INV.GAMMA|
+|GAMMADIST|
+|GAMMA.INV|
+|GAMMAINV|
 |GAMMALN|
-|MCD|
+|GCD|
 |GEOMEAN|
 |GESTEP|
-|OBTENER DATOS DE PIVOTE|
-|CRECIMIENTO|
+|GETPIVOTDATA|
+|GROWTH|
 
-###### **H**
+######  *H**
 |**Función**|**Resumen**|
-|:- |:- |
+| :- | :- |
 |HARMEAN|
 |HEX2BIN|
 |HEX2DEC|
 |HEX2OCT|
-|BUSCARH|
-|HORA|
-|HIPERVÍNCULO|
-|DISTR.HIPGEOM|
-|DISTR.HIPGEOMD|
+|HLOOKUP|
+|HOUR|
+|HSTACK|
+|HYPERLINK|
+|DISTRIBUCIÓN HYPGEOM|
+|HYPGEOMDIST|
 
-###### **YO**
+######  *I**
 |**Función**|**Resumen**|
-|:- |:- |
-|SI|
-|SI ERROR|
+| :- | :- |
+|IF|
+|IFERROR|
 |IFNA|
 |IFS|
 |IMABS|
-|IMAGINARIO|
-|IMÁGENES|
-|INCONJUGADO|
+|IMAGINARY|
+|IMARGUMENT|
+|IMCONJUGATE|
 |IMCOS|
 |IMDIV|
 |IMEXP|
 |IMLN|
 |IMLOG10|
 |IMLOG2|
-|IMPORTAR|
-|IMPRODUCTO|
-|SOY REAL|
+|IMPOWER|
+|IMPRODUCT|
+|IMREAL|
 |IMSIN|
-|IMQRT|
+|IMSQRT|
 |IMSUB|
 |IMSUM|
-|ÍNDICE|
-|INDIRECTO|
-|EN T|
-|INTERCEPTAR|
-|INTRATO|
+|INDEX|
+|INDIRECT|
+|INT|
+|INTERCEPT|
+|INTRATE|
 |IPMT|
-|TIR|
-|ESTÁ EN BLANCO|
-|ESRR|
-|ESERROR|
-|INCLUSO|
-|ISLOGICO|
+|IRR|
+|ISBLANK|
+|ISERR|
+|ISERROR|
+|ISEVEN|
+|ISFORMULA|
+|ISLOGICAL|
 |ISNA|
-|NO ES TEXTO|
-|ES NÚMERO|
-|ES IMPAR|
+|ISNONTEXT|
+|ISNUMBER|
+|ISODD|
 |ISREF|
-|ISTEXTO|
-|NÚMERO DE SEMANA ISO|
+|ISTEXT|
+|ISOWEEKNUM|
 |ISPMT|
 
-###### **K**
+######  *K**
 |**Función**|**Resumen**|
-|:- |:- |
-|kurt|
+| :- | :- |
+|KURT|
 
-###### **L**
+######  *L**
 |**Función**|**Resumen**|
-|:- |:- |
-|GRANDE|
-|MCM|
-|IZQUIERDA|
-|IZQUIERDAB|
-|LARGO|
+| :- | :- |
+|LAMBDA|
+|LET|
+|LARGE|
+|LCM|
+|LEFT|
+|LEFTB|
+|LEN|
 |LENB|
-|ESTIMACION.LINEAL|
+|LET|
+|LINEST|
 |LN|
-|INICIAR SESIÓN|
+|LOG|
 |LOG10|
-|INICIAR SESIÓN|
+|LOGEST|
 |LOGINV|
 |DISTR.LOGNORM.|
 |INV.LOGNORM|
-|DISTR.LOG.NORM|
-|BUSCAR|
-|MÁS BAJO|
+|LOGNORMDIST|
+|LOOKUP|
+|LOWER|
 
-###### **METRO**
+######  *METRO**
 |**Función**|**Resumen**|
-|:- |:- |
-|FÓSFORO|
-|MÁX.|
+| :- | :- |
+|MAKEARRAY|
+|MAP|
+|MATCH|
+|MAX|
 |MAXA|
 |MAXIFS|
 |MDETERM|
-|DURACION|
-|MEDIANA|
-|MEDIO|
+|MDURATION|
+|MEDIAN|
+|MID|
 |MIDB|
-|MÍN.|
+|MIN|
 |MINIFS|
 |MINA|
-|MINUTO|
-|MINVERSO|
-|ESPEJO|
+|MINUTE|
+|MINVERSE|
+|MIRR|
 |MMULT|
-|MODIFICACIÓN|
-|MODO|
+|MOD|
+|MODE|
 |MODO.MULT|
 |MODO.SNGL|
-|MES|
-|REDONDO|
+|MONTH|
+|MROUND|
 |MULTINOMIAL|
 
-###### **NORTE**
+######  *NORTE**
 |**Función**|**Resumen**|
-|:- |:- |
-|norte|
-|N / A|
-|DISTR.BINOM.NEG|
-|DISTR.NEGBINOM|
-|DÍAS LABORABLES|
-|DIAS.RED.INTL|
+| :- | :- |
+|N|
+|NA|
+|DISTR.NEGBINOM.|
+|NEGBINOMDIST|
+|NETWORKDAYS|
+|NETWORKDAYS.INTL|
 |NOMINAL|
-|DISTR.NORM|
-|DISTR.NORM|
-|INV NORMAL|
-|INV.NORM|
-|NORM.S.DIST|
-|DISTR.NORM.DIST.|
-|INV.NORM.S.|
-|DISTR.NORM.INV|
-|NO|
-|AHORA|
+|DISTR.NORM.|
+|NORMDIST|
+|NORMINV|
+|INV.NORMA|
+|DISTR.NORMA.S.|
+|NORMSDIST|
+|NORMAS.INV.S.|
+|NORMSINV|
+|NOT|
+|NOW|
 |NPER|
-|VAN|
-|NÚMEROVALOR|
+|NPV|
+|NUMBERVALUE|
 
-###### **O**
+######  *O**
 |**Función**|**Resumen**|
-|:- |:- |
+| :- | :- |
 |OCT2BIN|
-|OCT2DIC|
+|OCT2DEC|
 |OCT2HEX|
-|IMPAR|
-|PRECIO IMPAR|
+|ODD|
+|ODDFPRICE|
 |ODDFYIELD|
-|PRECIO IMPAR|
-|CAMPO EXTRAÑO|
-|COMPENSAR|
-|O|
+|ODDLPRICE|
+|ODDLYIELD|
+|OFFSET|
+|OR|
 
-###### **PAG**
+######  *PAG**
 |**Función**|**Resumen**|
-|:- |:- |
+| :- | :- |
 |PEARSON|
 |PERCENTIL.EXC|
 |PERCENTIL.INC|
-|PERCENTIL|
-|RANGO PORCENTUAL.EXC|
-|RANGO.PERCENTIL.INC|
-|RANGO PORCENTUAL|
-|PERMUTACIÓN|
-|Pi|
-|PAGO|
+|PERCENTILE|
+|RANGO PORCENTAJE.EXC|
+|PERCENTRANK.INC|
+|PERCENTRANK|
+|PERMUT|
+|PI|
+|PMT|
 |DISTR.POISSON|
-|VENENO|
-|PODER|
+|POISSON|
+|POWER|
 |PPMT|
-|PRECIO|
-|PRECIODISCO|
-|PRECIO|
-|PROBLEMA|
-|PRODUCTO|
-|CORRECTO|
-|fotovoltaica|
+|PRICE|
+|PRICEDISC|
+|PRICEMAT|
+|PROB|
+|PRODUCT|
+|PROPER|
+|PV|
 
-###### **P**
+######  *P**
 |**Función**|**Resumen**|
-|:- |:- |
-|CUARTILLA|
+| :- | :- |
+|QUARTILE|
 |CUARTIL.EXC|
-|CUARTIL.INC|
-|COCIENTE|
+|CUARTILO.INC|
+|QUOTIENT|
 
-###### **R**
+######  *R**
 |**Función**|**Resumen**|
-|:- |:- |
-|RADIANES|
+| :- | :- |
+|RADIANS|
 |RAND|
 |RANDARRAY|
-|ALEATORIO ENTRE|
+|RANDBETWEEN|
 |RANGO.PROMEDIO|
 |RANGO.EQ|
-|RANGO|
-|VELOCIDAD|
-|RECIBIÓ|
-|REEMPLAZAR|
-|REEMPLAZAR|
-|REPETIR|
-|CORRECTO|
-|DERECHAB|
-|ROMANO|
-|RONDA|
-|REDONDEAR A LA BAJA|
-|REDONDEO|
-|FILA|
-|FILAS|
+|RANK|
+|RATE|
+|RECEIVED|
+|REPLACE|
+|REPLACEB|
+|REPT|
+|RIGHT|
+|RIGHTB|
+|ROMAN|
+|ROUND|
+|ROUNDDOWN|
+|ROUNDUP|
+|ROW|
+|ROWS|
 |RSQ|
 
-###### **S**
+######  *S**
 |**Función**|**Resumen**|
-|:- |:- |
-|BÚSQUEDA|
-|BUSCARB|
-|SEGUNDO|
-|SECUENCIA|
-|SERIESUMA|
-|HOJA|
-|HOJAS|
-|SIGNO|
-|PECADO|
+| :- | :- |
+|SCAN|
+|SEARCH|
+|SEARCHB|
+|SECOND|
+|SEQUENCE|
+|SERIESSUM|
+|SHEET|
+|SHEETS|
+|SIGN|
+|SIN|
 |SINH|
-|SESGAR|
+|SINGLE|
+|SKEW|
 |SLN|
-|PENDIENTE|
-|PEQUEÑA|
-|TIPO|
-|ORDENAR POR|
+|SLOPE|
+|SMALL|
+|SORT|
+|SORTBY|
 |SQRT|
 |SQRTPI|
-|ESTANDARIZAR|
-|DESVEST|
+|STANDARDIZE|
+|STDEV|
 |DESVEST.P|
 |DESVEST.S|
 |STDEVA|
-|DESVEST|
-|DESVESTPA|
+|STDEVP|
+|STDEVPA|
 |STEYX|
-|SUSTITUTO|
-|TOTAL PARCIAL|
-|SUMA|
-|SUMAR.SI|
-|SUMAMOS|
-|SUMAPRODUCTO|
+|SUBSTITUTE|
+|SUBTOTAL|
+|SUM|
+|SUMIF|
+|SUMIFS|
+|SUMPRODUCT|
 |SUMSQ|
 |SUMX2MY2|
 |SUMX2PY2|
 |SUMXMY2|
-|CAMBIAR|
+|SWITCH|
 |SYD|
 
-###### **T**
+######  *T**
 |**Función**|**Resumen**|
-|:- |:- |
+| :- | :- |
 |T|
-|BRONCEARSE|
+|TAN|
 |TANH|
 |TBILLEQ|
-|BILBILLPRICE|
-|BILLYIELD|
+|TBILLPRICE|
+|TBILLYIELD|
 |DISTR.T.2T|
 |DISTR.T.RT|
-|DISTR.T|
-|TEXTO|
-|TEXTO UNIRSE|
-|HORA|
-|VALOR DEL TIEMPO|
+|TDIST|
+|TEXT|
+|TEXTJOIN|
+|TIME|
+|TIMEVALUE|
 |T.INV.2T|
 |TINV|
-|HOY|
-|TRANSPONER|
-|TENDENCIA|
-|RECORTAR|
-|RECORTE|
-|CIERTO|
-|TRONCO|
-|PRUEBA T|
-|PRUEBA T|
-|ESCRIBE|
+|TODAY|
+|TRANSPOSE|
+|TREND|
+|TRIM|
+|TRIMMEAN|
+|TRUE|
+|TRUNC|
+|T.PRUEBA|
+|TTEST|
+|TYPE|
 
-###### **T**
+######  *U**
 |**Función**|**Resumen**|
-|:- |:- |
-|UNICAR|
-|UNICODIGO|
-|ÚNICO|
-|SUPERIOR|
+| :- | :- |
+|UNICHAR|
+|UNICODE|
+|UNIQUE|
+|UPPER|
+|USDOLLAR|
 
-###### **V**
+######  *V**
 |**Función**|**Resumen**|
-|:- |:- |
-|VALOR|
+| :- | :- |
+|VALUE|
 |VAR|
 |VAR.P|
 |VAR.S|
@@ -502,37 +516,38 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 |VARP|
 |VARPA|
 |VDB|
-|BUSCARV|
+|VLOOKUP|
+|VSTACK|
 
-###### **M**
+######  *W**
 |**Función**|**Resumen**|
-|:- |:- |
-|DÍA LABORABLE|
-|NÚMERO DE SEMANA|
+| :- | :- |
+|WEEKDAY|
+|WEEKNUM|
 |WEIBULL|
-|DISTR.WEIBULL|
-|DÍA DE TRABAJO|
+|DISTRIBUCIÓN WEIBULL|
+|WORKDAY|
 |DÍA LABORAL.INTL|
 
-###### **X**
+######  *X**
 |**Función**|**Resumen**|
-|:- |:- |
+| :- | :- |
 |XIRR|
-|BUSCARX|
+|XLOOKUP|
 |XNPV|
 
-###### **Y**
+######  *Sí**
 |**Función**|**Resumen**|
-|:- |:- |
-|AÑO|
-|FRAC AÑO|
-|RENDIR|
-|DISCO DE RENDIMIENTO|
-|RENDIMIENTO|
+| :- | :- |
+|YEAR|
+|YEARFRAC|
+|YIELD|
+|YIELDDISC|
+|YIELDMAT|
 
-###### **Z**
+######  *Z**
 |**Función**|**Resumen**|
-|:- |:- |
+| :- | :- |
 |PRUEBA Z|
-|PRUEBA Z|
+|ZTEST|
 

@@ -1,8 +1,10 @@
-﻿---
+---
 title: Verifiera att Cell-värdet uppfyller reglerna för datavalidering
 type: docs
 weight: 210
 url: /sv/net/verify-that-cell-value-satisfies-data-validation-rules/
+description: Lär dig hur du verifierar Cell-värdet uppfyller reglerna för datavalidering genom Aspose.Cells for .NET API..
+keywords: Get Cell Validation Value, Obtain Cell Validation Value, Verify whether a value satisfies the data validation rules applied to the cell
 ---
 {{% alert color="primary" %}} 
 
@@ -11,15 +13,15 @@ Microsoft Excel tillåter användare att lägga till datavalideringsregler i cel
 Ibland är det nödvändigt att verifiera om ett värde uppfyller datavalideringsreglerna som tillämpas på cellen programmatiskt. I fallet ovan bör till exempel posten misslyckas.
 
 {{% /alert %}} 
-## **Introduktion**
- Aspose.Cells tillhandahåller[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) metod för att validera cellvärden programmatiskt. Om värdet i en cell inte uppfyller datavalideringsregeln som tillämpas på den cellen, returneras det**Falsk** , annat**Sann**.
+##  **Introduktion**
+ Aspose.Cells tillhandahåller[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue)metod för att validera cellvärden programmatiskt. Om värdet i en cell inte uppfyller datavalideringsregeln som tillämpas på den cellen, returnerar det *False**, annars *Sant**.
 
- Följande exempelkod illustrerar hur[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) metoden fungerar. Först anger den värdet 3 i C1. Eftersom detta inte uppfyller regeln för datavalidering,[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) metod returnerar**Falsk** . Sedan anger den värdet 15 i C1. Eftersom detta värde uppfyller datavalideringsregeln,[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) metod returnerar**Sann** . På samma sätt återkommer den**Falsk** för värde 30.
+ Följande exempelkod illustrerar hur[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) metoden fungerar. Först anger den värdet 3 i C1. Eftersom detta inte uppfyller regeln för datavalidering,[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) metod returnerar**Falsk**. Sedan anger den värdet 15 i C1. Eftersom detta värde uppfyller datavalideringsregeln, returnerar metoden [Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) **True**. På samma sätt returnerar den **False** för värde 30.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DataValidationRules-1.cs" >}}
-### **Produktion**
+###  **Produktion**
 {{< highlight "java" >}}
 
  Is 3 a Valid Value for this Cell: False

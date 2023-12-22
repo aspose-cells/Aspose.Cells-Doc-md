@@ -1,4 +1,4 @@
-﻿---
+---
 title: UI-Komponenten
 second_title: Aspose.Cells.GridWeb
 type: docs

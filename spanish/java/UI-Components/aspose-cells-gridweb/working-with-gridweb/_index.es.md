@@ -1,12 +1,12 @@
-﻿---
-title: Trabajando con GridWeb
+---
+title: Trabajar con GridWeb
 type: docs
 weight: 20
 url: /es/java/working-with-gridweb/
 ---
-## **Abrir un archivo de Excel Microsoft**
+##  **Abrir un archivo Excel Microsoft**
 
-Aspose.Cells. El control GridWeb puede abrir y cargar Microsoft archivos de Excel completos con datos, formato, gráficos, imágenes, etc. Este tema explica cómo hacerlo.
+Aspose.Cells.El control GridWeb puede abrir y cargar Microsoft archivos Excel, completos con datos, formato, gráficos, imágenes, etc. Este tema explica cómo.
 
 Para abrir un archivo de Excel usando el control GridWeb:
 
@@ -14,59 +14,59 @@ Para abrir un archivo de Excel usando el control GridWeb:
 1. Importe el archivo de Excel especificando la ruta del archivo.
 1. Ejecute la aplicación o abra la página.
 
-Para cargar el contenido de un archivo de Excel al control Aspose.Cells.GridWeb, debe llamar al método importExcelFile para especificar la ruta del archivo de Excel. Después de eso, el control GridWeb encontrará automáticamente el archivo de la ruta especificada y mostrará su contenido en él. A continuación se proporciona un fragmento de código que carga el contenido de un archivo de Excel.
+Para cargar el contenido de un archivo de Excel al control Aspose.Cells.GridWeb, debe llamar al método importExcelFile para especificar la ruta del archivo de Excel. Después de eso, el control GridWeb buscará automáticamente el archivo en la ruta especificada y mostrará su contenido en él. A continuación se proporciona un fragmento de código que carga el contenido de un archivo de Excel.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-OpeningfromFile-OpeningfromFile.jsp" >}}
 
-El fragmento de código anterior se puede utilizar de la forma que desee. Por ejemplo, para cargar un archivo de Excel automáticamente cuando se carga un formulario web, agregue este código al evento Page_Load del formulario que haya especificado usted mismo.
+El fragmento de código anterior se puede utilizar de la forma que desee. Por ejemplo, para cargar un archivo de Excel automáticamente cuando se carga un formulario web, agregue este código al evento Page_Load del formulario que usted mismo haya especificado.
 
-**Un archivo de Excel se carga en GridWeb**
+**Se carga un archivo de Excel en GridWeb**
 
-![todo:imagen_alternativa_texto](working-with-gridweb_1.png)
+![todo:image_alt_text](working-with-gridweb_1.png)
 
-## **Guardar un archivo de Excel Microsoft**
+##  **Guardar un archivo Excel Microsoft**
 
-Es posible crear nuevos archivos Excel Microsoft o manipularlos existentes, en sitios web en modo GUI usando el control Aspose.Cells.GridWeb. Los archivos se pueden guardar en archivos de Excel. Aspose.Cells.GridWeb sirve efectivamente como un editor de hojas de cálculo en línea. Este tema describe cómo guardar el contenido de la cuadrícula en archivos de Excel.
+Es posible crear archivos Excel Microsoft nuevos o manipular los existentes en sitios web en modo GUI utilizando el control Aspose.Cells.GridWeb. Luego, los archivos se pueden guardar en archivos de Excel. Aspose.Cells.GridWeb sirve eficazmente como editor de hojas de cálculo en línea. Este tema describe cómo guardar el contenido de la cuadrícula en archivos de Excel.
 
-### **Guardar como archivo**
+###  **Guardar como un archivo**
 
 Para guardar el contenido del control Aspose.Cells.GridWeb como un archivo de Excel:
 
 1. Agregue el control Aspose.Cells.GridWeb a un formulario o página web.
-1. Guarde su trabajo como un archivo de Excel en una ruta específica.
+1. Guarde su trabajo como un archivo de Excel en una ruta especificada.
 1. Ejecute la aplicación o abra la página.
 
 El siguiente ejemplo de código ilustra cómo guardar el contenido de la cuadrícula en un archivo de Excel.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-SavingasFile-SavingasFile.jsp" >}}
 
- El fragmento de código anterior se puede utilizar de varias maneras. Una forma común es agregar un botón que guarde el contenido de la cuadrícula en un archivo de Excel cuando se hace clic. Aspose.Cells.GridWeb ofrece un enfoque más sencillo para la tarea. Aspose.Cells. GridWeb tiene un evento llamado SaveCommand. El fragmento de código anterior se puede agregar al controlador de eventos del evento SaveCommand, lo que permite a los usuarios guardar su trabajo haciendo clic en Aspose.Cells.**Ahorrar** botón.
+ El fragmento de código anterior se puede utilizar de varias maneras. Una forma común es agregar un botón que guarda el contenido de la cuadrícula en un archivo de Excel cuando se hace clic. Aspose.Cells.GridWeb ofrece un enfoque más sencillo para la tarea. Aspose.Cells.GridWeb tiene un evento llamado SaveCommand. El fragmento de código anterior se puede agregar al controlador de eventos del evento SaveCommand, que permite a los usuarios guardar su trabajo haciendo clic en el archivo integrado Aspose.Cells.GridWeb.**Ahorrar** botón.
 
-## **Cambio de tamaño Aspose.Cells.GridWeb y su barra de encabezado**
+##  **Cambiar el tamaño de Aspose.Cells.GridWeb y su barra de encabezado**
 
-Este artículo explica cómo cambiar el tamaño de GridWeb en tiempo de ejecución usando Aspose.Cells.GridWeb API. También explica cómo cambiar el tamaño de las barras de encabezado del control Aspose.Cells.GridWeb para que sus datos sean más fáciles de leer.
+Este artículo explica cómo cambiar el tamaño de GridWeb en tiempo de ejecución utilizando Aspose.Cells.GridWeb API. También explica cómo cambiar el tamaño de las barras de encabezado del control Aspose.Cells.GridWeb para que sus datos sean más fáciles de leer.
 
-### **Cambio de ancho y alto de Aspose.Cells.GridWeb**
+###  **Cambio de ancho y alto de Aspose.Cells.GridWeb**
 
-Cambiar el ancho y la altura del control Aspose.Cells.GridWeb es una característica simple pero importante. El control Aspose.Cells.GridWeb está representado por la clase GridWeb en API. Para cambiar el tamaño del ancho y el alto del control GridWeb, simplemente use sus propiedades de ancho y alto.
+Cambiar el ancho y alto del control Aspose.Cells.GridWeb es una característica simple pero importante. El control Aspose.Cells.GridWeb está representado por la clase GridWeb en API. Para cambiar el tamaño del ancho y alto del control GridWeb, simplemente use sus propiedades de ancho y alto.
 
 {{% alert color="primary" %}}
 
-El ancho y la altura del control se pueden definir en píxeles o puntos.
+El ancho y alto del control se pueden definir en píxeles o puntos.
 
 {{% /alert %}}
 
 El resultado del fragmento de código que sigue se muestra a continuación.
 
-**Se modificó el ancho y la altura del control GridWeb.**
+**Se modificó el ancho y alto del control GridWeb.**
 
-![todo:imagen_alternativa_texto](working-with-gridweb_2.png)
+![todo:image_alt_text](working-with-gridweb_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-ChangedwidthheightofGridWebcontrol-ChangedwidthheightofGridWebcontrol.jsp" >}}
 
-### **Cambiar el ancho y la altura de la barra de encabezado**
+###  **Cambiar el ancho y la altura de la barra del encabezado**
 
-Aspose.Cells. El control GridWeb contiene dos barras de encabezado de la siguiente manera:
+Aspose.Cells.El control GridWeb contiene dos barras de encabezado de la siguiente manera:
 
 - Barra de encabezado superior, esta barra de encabezado representa columnas como A, B, C, D, etc.
 - Barra de encabezado izquierda, esta barra de encabezado representa filas como 1, 2, 3, 4, etc.
@@ -75,56 +75,56 @@ Ambas barras de encabezado se muestran a continuación.
 
 **Barras de encabezado**
 
-![todo:imagen_alternativa_texto](working-with-gridweb_3.png)
+![todo:image_alt_text](working-with-gridweb_3.png)
 
-Cambie la altura de la barra de encabezado superior y el ancho de la barra de encabezado izquierda mediante las propiedades HeaderBarHeight y HeaderBarWidth del control GridWeb, respectivamente. La siguiente figura muestra el resultado del ejemplo de código que sigue.
+Cambie la altura de la barra de encabezado superior y el ancho de la barra de encabezado izquierda usando las propiedades HeaderBarHeight y HeaderBarWidth del control GridWeb respectivamente. La siguiente figura muestra el resultado del siguiente ejemplo de código.
 
-**Se modificó el ancho y la altura de la barra de encabezado.**
+**Se modificó el ancho y alto de la barra de encabezado.**
 
-![todo:imagen_alternativa_texto](working-with-gridweb_4.png)
+![todo:image_alt_text](working-with-gridweb_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-ChangingWidthandHeightofHeaderBar-ChangingWidthandHeightofHeaderBar.jsp" >}}
 
-## **Trabajando con Aspose.Cells.GridWeb Events**
+##  **Trabajar con Aspose.Cells.GridWeb Events**
 
-Todos los desarrolladores deben estar familiarizados con los eventos y su propósito. Los eventos se utilizan para enviar notificaciones de cambios que pueden ocurrir en un control o clase. Aspose.Cells.GridWeb tiene varios eventos que pueden usarse para realizar tareas específicas cuando ocurren ciertos cambios en el control.
+Todos los desarrolladores deben estar familiarizados con los eventos y su propósito. Los eventos se utilizan para enviar notificaciones de cambios que puedan ocurrir en un control o clase. Aspose.Cells.GridWeb tiene varios eventos que se pueden utilizar para realizar tareas específicas cuando ocurren ciertos cambios en el control.
 
 Este tema proporciona una introducción a todos los eventos admitidos por el control Aspose.Cells.GridWeb junto con algunos detalles sobre cómo manejar estos eventos.
 
-### **Introducción a los eventos de cuadrícula**
+###  **Introducción a los eventos de cuadrícula**
 
-Aspose.Cells. El control GridWeb admite varios eventos que brindan más control para realizar operaciones cuando se activan eventos específicos en el control. Una lista completa de eventos compatibles con Aspose.Cells. El control GridWeb se puede encontrar a continuación.
+Aspose.Cells.El control GridWeb admite varios eventos que brindan más control para realizar operaciones cuando se activan eventos específicos en el control. A continuación se puede encontrar una lista completa de eventos admitidos por el control Aspose.Cells.GridWeb.
 
 |**Eventos**|**Descripción**|
-|:- |:- |
+| :- | :- |
 |Comando celular|Ocurre cuando se hace clic en el hipervínculo de comando de una celda. Cuando se activa este evento, su parámetro e.Argument proporciona el nombre del comando.|
-|CellDoubleClick|Ocurre cuando se hace doble clic en la celda.|
-|Columna Eliminada|Ocurre cuando un usuario elimina una columna de una hoja de trabajo usando el menú del lado del cliente.|
-|Columna Eliminación|Ocurre cuando un usuario intenta eliminar una columna de una hoja de trabajo usando el menú del lado del cliente.|
-|ColumnDoubleClick|Ocurre cuando se hace doble clic en el encabezado de la columna.|
-|Columna Insertada|Ocurre cuando un usuario inserta una columna en una hoja de trabajo usando el menú del lado del cliente.|
+|CeldaDobleClic|Ocurre cuando se hace doble clic en la celda.|
+|Columna eliminada|Ocurre cuando un usuario elimina una columna de una hoja de trabajo usando el menú del lado del cliente.|
+|ColumnaEliminar|Ocurre cuando un usuario intenta eliminar una columna de una hoja de trabajo usando el menú del lado del cliente.|
+|ColumnaDobleClic|Ocurre cuando se hace doble clic en el encabezado de la columna.|
+|Columna insertada|Ocurre cuando un usuario inserta una columna en una hoja de trabajo usando el menú del lado del cliente.|
 |Comando personalizado|Ocurre cuando un usuario hace clic en un botón de comando personalizado.|
-|Cargar datos personalizados|Ocurre cuando la propiedad EnableSession del control se establece en false y necesita cargar datos de la hoja de cálculo. Puede manejar este evento en modo sin sesión para cargar datos de hojas de cálculo desde un archivo o una base de datos.|
-|PageIndexChanged|Se produce cuando se cambia el índice de página de la hoja del control.|
+|Cargar datos personalizados|Ocurre cuando la propiedad EnableSession del control está establecida en false y necesita cargar datos de la hoja de cálculo. Puede controlar este evento en modo sin sesión para cargar datos de la hoja de trabajo desde un archivo o base de datos.|
+|Índice de página cambiado|Ocurre cuando se cambia el índice de la página de la hoja del control.|
 |FilaEliminada|Ocurre cuando un usuario elimina una fila de la hoja de trabajo usando el menú del lado del cliente.|
-|FilaEliminación|Ocurre cuando un usuario intenta eliminar una fila de una hoja de trabajo usando el menú del lado del cliente.|
+|FilaEliminar|Ocurre cuando un usuario intenta eliminar una fila de una hoja de trabajo usando el menú del lado del cliente.|
 |FilaDobleClic|Ocurre cuando se hace doble clic en el encabezado de la fila.|
-|FilaInsertado|Ocurre cuando un usuario inserta una fila en la hoja de trabajo usando el menú del lado del cliente.|
-|GuardarComando| Ocurre cuando el**Ahorrar** se hace clic en el botón.|
-|FichaHojaClic|Ocurre cuando se hace clic en la pestaña de una hoja.|
-|EnviarComando| Ocurre cuando el**Enviar** se hace clic en el botón.|
-|DeshacerComando| Ocurre cuando el**Deshacer** se hace clic en el botón.|
-|AjaxCallFinalizado|Se dispara cuando finaliza la actualización AJAX del control. (el EnableAJAX se establecerá en verdadero).|
-|CellModifiedOnAjax|Se dispara cuando la celda se modifica en la llamada AJAX.|
-|AfterColumnFilter|Se activa cuando el filtro se aplica en una columna.|
+|Fila insertada|Ocurre cuando un usuario inserta una fila en la hoja de trabajo usando el menú del lado del cliente.|
+|Guardarcomando| Ocurre cuando el**Ahorrar** Se hace clic en el botón.|
+|HojaTabClic|Ocurre cuando se hace clic en la pestaña de una hoja.|
+|Enviar comando| Ocurre cuando el**Entregar** Se hace clic en el botón.|
+|Deshacer comando| Ocurre cuando el**Deshacer** Se hace clic en el botón.|
+|AjaxLlamadaFinalizado|Se dispara cuando finaliza la actualización AJAX del control. (EnableAJAX se establecerá en verdadero).|
+|CellModifiedOnAjax|Se dispara cuando la celda se modifica en una llamada AJAX.|
+|Después del filtro de columna|Se activa cuando el filtro se aplica a una columna.|
 
-### **Manejo de eventos de cuadrícula**
+###  **Manejo de eventos de cuadrícula**
 
-Para realizar una operación específica al desencadenar un evento específico, debemos crear un controlador de eventos. Un controlador de eventos realiza la tarea deseada cuando se activa un determinado evento. El siguiente ejemplo muestra cómo manejar un evento de cuadrícula simple.
+Para realizar una operación específica para desencadenar un evento específico, tenemos que crear un controlador de eventos. Un controlador de eventos realiza la tarea deseada cuando se desencadena un determinado evento. El siguiente ejemplo muestra cómo manejar un evento de cuadrícula simple.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-HandlingGridEvents-HandlingGridEvents.jsp" >}}
 
-## **Trabajar con eventos de doble clic**
+##  **Trabajar con eventos de doble clic**
 
 Aspose.Cells.GridWeb contiene tres tipos de eventos de doble clic:
 
@@ -132,77 +132,77 @@ Aspose.Cells.GridWeb contiene tres tipos de eventos de doble clic:
 - ColumnDoubleClick, se activa cuando se hace doble clic en el encabezado de una columna.
 - RowDoubleClick, se activa cuando se hace doble clic en el encabezado de una fila.
 
-Este tema trata sobre cómo habilitar eventos de doble clic en Aspose.Cells.GridWeb. También analiza la creación de controladores de eventos para estos eventos.
+Este tema analiza cómo habilitar eventos de doble clic en Aspose.Cells.GridWeb. También analiza la creación de controladores de eventos para estos eventos.
 
-### **Habilitación de eventos de doble clic**
+###  **Habilitar eventos de doble clic**
 
 Todos los tipos de eventos de doble clic se pueden habilitar en el lado del cliente estableciendo la propiedad EnableDoubleClickEvent del control GridWeb en verdadero.
 
 {{% alert color="primary" %}}
 
-De forma predeterminada, la propiedad EnableDoubleClickEvent se establece en falso. Esto significa que los eventos de doble clic no están habilitados de forma predeterminada. Para implementar dichos eventos, primero habilite la función.
+De forma predeterminada, la propiedad EnableDoubleClickEvent está establecida en falso. Esto significa que los eventos de doble clic no están habilitados de forma predeterminada. Para implementar tales eventos, primero habilite la función.
 
 {{% /alert %}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-EnablingDoubleClickEvents-EnablingDoubleClickEvents.jsp" >}}
 
-Una vez que los eventos de doble clic están habilitados, es posible crear controladores de eventos para cualquier evento de doble clic. Estos controladores de eventos realizan tareas específicas cuando se activa un evento de doble clic determinado.
+Una vez habilitados los eventos de doble clic, es posible crear controladores de eventos para cualquier evento de doble clic. Estos controladores de eventos realizan tareas específicas cuando se activa un evento de doble clic determinado.
 
-### **Gestión de eventos de doble clic**
+###  **Manejo de eventos de doble clic**
 
-#### **Doble clic Cell**
+####  **Doble clic Cell**
 
 El controlador de eventos para el evento CellDoubleClick proporciona un argumento del tipo CellEventArgs, que proporciona la información completa de la celda en la que se hace doble clic.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-DoubleClickCell-DoubleClickCell.jsp" >}}
 
-#### **Encabezado de columna de doble clic**
+####  **Encabezado de columna de doble clic**
 
 El controlador de eventos para el evento ColumnDoubleClick proporciona un argumento del tipo RowColumnEventArgs que proporciona el número de índice de la columna del encabezado en el que se hizo doble clic y otra información.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-DoubleClickColumnHeader-DoubleClickColumnHeader.jsp" >}}
 
-#### **Encabezado de fila de doble clic**
+####  **Encabezado de fila de doble clic**
 
 El controlador de eventos para el evento RowDoubleClick proporciona un argumento del tipo RowColumnEventArgs que proporciona el número de índice de la fila del encabezado en el que se hizo doble clic y otra información relacionada.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-DoubleClickRowHeader-DoubleClickRowHeader.jsp" >}}
 
-## **Configuración de estilo o apariencia de Aspose.Cells.GridWeb**
+##  **Configuración de estilo o apariencia de Aspose.Cells.GridWeb**
 
-Aspose.Cells.GridWeb tiene su propia apariencia predeterminada, pero es posible cambiar su apariencia. Aspose.Cells.GridWeb proporciona varias propiedades para permitir que los desarrolladores controlen completamente su apariencia. En este tema se analizan algunas de esas propiedades.
+Aspose.Cells.GridWeb tiene su propia apariencia predeterminada, pero es posible cambiar su apariencia. Aspose.Cells.GridWeb proporciona varias propiedades para permitir a los desarrolladores controlar completamente su apariencia. En este tema se analizan algunas de esas propiedades.
 
-### **Configuración de estilo o apariencia de Aspose.Cells.GridWeb**
+###  **Configuración de estilo o apariencia de Aspose.Cells.GridWeb**
 
-#### **Estilos preestablecidos**
+####  **Estilos preestablecidos**
 
-Para ahorrar los esfuerzos de los desarrolladores, Aspose.Cells.GridWeb ofrece algunos estilos preestablecidos. Simplemente seleccione un estilo de la lista para aplicar el estilo.
+Para ahorrar esfuerzos a los desarrolladores, Aspose.Cells.GridWeb ofrece algunos estilos preestablecidos. Simplemente seleccione un estilo de la lista para aplicarlo.
 
 |**Estilos**|**Esquema de colores**|
-|:- |:- |
+| :- | :- |
 |Estándar|Plata|
-|Colorido1|Rosa|
-|Colorido2|Azul|
+|colorido1|Rosa|
+|colorido2|Azul|
 |Profesional1|cian|
-|Profesional2|cian otra vez|
+|Profesional2|Cian otra vez|
 |Tradicional1|Oscuro|
 |Tradicional2|Gris|
-|Disfraz|personalizado|
-Cuando se selecciona un estilo particular, cambia toda la apariencia del control GridWeb. Los desarrolladores pueden seleccionar un estilo preestablecido para aplicarlo en el tiempo de ejecución utilizando el API flexible de Aspose.Cells.GridWeb.
+|Costumbre|Personalizado|
+Cuando se selecciona un estilo particular, cambia toda la apariencia del control GridWeb. Los desarrolladores pueden seleccionar un estilo preestablecido para aplicarlo en tiempo de ejecución utilizando el flexible API de Aspose.Cells.GridWeb.
 
 El control GridWeb proporciona la propiedad PresetStyle a la que los desarrolladores pueden asignar cualquier estilo preestablecido que deseen.
 
-El resultado del fragmento de código siguiente se muestra a continuación.
+El resultado del siguiente fragmento de código se muestra a continuación.
 
 **Control GridWeb con estilo Colorful1 aplicado**
 
-![todo:imagen_alternativa_texto](working-with-gridweb_5.png)
+![todo:image_alt_text](working-with-gridweb_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-Colorful1style-Colorful1style.jsp" >}}
 
-#### **Estilo de barra de encabezado**
+####  **Estilo de barra de encabezado**
 
-Si observa el control GridWeb, notará dos barras de encabezado. Uno para columnas (es decir A, B, C, D, etc.) y otro para filas (es decir 1, 2, 3, 4, etc.). Aspose.Cells.GridWeb permite a los desarrolladores controlar la apariencia de estas barras de encabezado. Los desarrolladores pueden establecer el estilo de las barras de encabezado en tiempo de ejecución.
+Si observa el control GridWeb, notará dos barras de encabezado. Uno para las columnas (es decir, A, B, C, D, etc.) y otro para las filas (es decir, 1, 2, 3, 4, etc.). Aspose.Cells.GridWeb permite a los desarrolladores controlar la apariencia de estas barras de encabezado. Los desarrolladores pueden configurar el estilo de las barras de encabezado en tiempo de ejecución.
 
 {{% alert color="primary" %}}
 
@@ -212,19 +212,19 @@ El control GridWeb proporciona la propiedad HeaderBarStyle que aplica un estilo 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-Colorful1style-Colorful1style.jsp" >}}
 
-#### **Estilo de la barra de pestañas**
+####  **Estilo de barra de pestañas**
 
-También es posible establecer el estilo de la barra de pestañas. Por favor vea el siguiente código
+También es posible configurar el estilo de la barra de pestañas. Por favor vea el siguiente código
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-HeaderBarStyle-HeaderBarStyle.jsp" >}}
 
-#### **Cargando archivo de estilo**
+####  **Cargando archivo de estilo**
 
-Para aplicar la configuración de estilo de un archivo de estilo existente al control GridWeb, los desarrolladores pueden establecer la ruta del archivo de estilo en la propiedad CustomStyleFileName del control. Pero, antes de hacerlo, debe establecer la propiedad PresetStyle del control en Custom. Es porque ese archivo de estilo contiene información de estilo personalizada que ya está definida por un desarrollador.
+Para aplicar la configuración de estilo de un archivo de estilo existente al control GridWeb, los desarrolladores pueden establecer la ruta del archivo de estilo en la propiedad CustomStyleFileName del control. Pero antes de hacer eso es necesario establecer la propiedad PresetStyle del control en Personalizado. Esto se debe a que ese archivo de estilo contiene información de estilo personalizada que ya está definida por un desarrollador.
 
 Consulte la siguiente imagen que muestra GridWeb con el estilo personalizado aplicado.
 
-![todo:imagen_alternativa_texto](working-with-gridweb_6.png)
+![todo:image_alt_text](working-with-gridweb_6.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-CustomStyleSheet-CustomStyleSheet.jsp" >}}
 
@@ -234,7 +234,7 @@ IMPORTANTE: Cargar un archivo de estilo en el control GridWeb no afecta la confi
 
 {{% /alert %}}
 
-#### **Ejemplo de plantilla de estilo personalizado**
+####  **Plantilla de estilo personalizado de muestra**
 
 Aquí está la plantilla de estilo personalizado de muestra. Puede modificarlo según sus requisitos.
 
@@ -244,17 +244,17 @@ Aquí está la plantilla de estilo personalizado de muestra. Puede modificarlo s
 
 {{< /highlight >}}
 
-## **Creación de control en un formulario web**
+##  **Crear control en un formulario web**
 
-Este artículo lo guiará sobre cómo crear un formulario web simple JSP (Java Página del servidor) que tenga control de GridWeb.
+Este artículo le guiará sobre cómo crear un formulario web simple JSP (página de servidor Java) que tenga control GridWeb.
 
 **Paso 1: crear una estructura de directorio**
 
  Debe crear la siguiente estructura de directorios en el**aplicaciones web**directorio del servidor Tomcat
 
-![todo:imagen_alternativa_texto](working-with-gridweb_7.png)
+![todo:image_alt_text](working-with-gridweb_7.png)
 
- Estos son los directorios y archivos que necesita crear. Por favor, lea los comentarios y sígalos. Puede obtener los últimos archivos de versión Aspose.Cells.GridWeb for Java de[este enlace](https://downloads.aspose.com/cells/java).
+ Estos son los directorios y archivos que necesita crear. Por favor lee los comentarios y síguelos. Puede obtener los archivos de versión más recientes de Aspose.Cells.GridWeb for Java en[este enlace](https://downloads.aspose.com/cells/java).
 
 {{< highlight "java" >}}
 
@@ -286,9 +286,9 @@ SamplePageGridWebJava\SamplePage.jsp
 
 {{< /highlight >}}
 
-**Paso 2: Agregar códigos en archivos creados**
+**Paso 2: agregar códigos en archivos creados**
 
-Esta sección muestra el código de varios archivos creados en la estructura de directorios anterior. Obtenga estos códigos y agréguelos a sus archivos abriéndolos en el Bloc de notas y cópielos/péguelos.
+Esta sección muestra el código de varios archivos creados en la estructura de directorios anterior. Obtenga estos códigos y agréguelos a sus archivos abriéndolos en el Bloc de notas y cópielos y péguelos.
 
 **Web.xml**
 
@@ -436,7 +436,7 @@ span.wrap {
 
 {{< /highlight >}}
 
-**SamplePage.jsp**
+**Página de muestra.jsp**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-SamplePage-SamplePage.jsp" >}}
 
@@ -450,23 +450,23 @@ Ahora lo has hecho todo. Es hora de ejecutar la página web. Inicie su servidor 
 
 {{< /highlight >}}
 
-Verá algo como la siguiente captura de pantalla. Felicidades, ha utilizado con éxito el control GridWeb en su página JSP.
+Verá algo como la siguiente captura de pantalla. Felicitaciones, ha utilizado con éxito el control GridWeb en su página JSP.
 
-![todo:imagen_alternativa_texto](working-with-gridweb_8.png)
+![todo:image_alt_text](working-with-gridweb_8.png)
 
-## **Cuadrícula De ImpresiónWeb**
+##  **Impresión GridWeb**
 
-Hay momentos en que los desarrolladores necesitan imprimir el contenido de GridWeb incluido desde una página web sin guardar un archivo de Excel Microsoft. El control Aspose.Cells.GridWeb admite esta función.
+Hay ocasiones en las que los desarrolladores necesitan imprimir el contenido de GridWeb incluido desde una página web sin guardar un archivo Excel Microsoft. El control Aspose.Cells.GridWeb admite esta característica.
 
-### **Cuadrícula De ImpresiónWeb**
+###  **Impresión GridWeb**
 
-Para imprimir sin guardar un archivo separado, llame al método print() de la clase GridWeb en el lado del cliente para imprimir la cuadrícula. También puede elegir algún evento apropiado.
+Para imprimir sin guardar un archivo separado, llame al método print() de la clase GridWeb en el lado del cliente para imprimir la cuadrícula. También puedes elegir algún evento apropiado.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-PrintingGridWeb-PrintingGridWeb.jsp" >}}
 
-Como lo está llamando desde el lado del cliente, primero tendrá que obtener la identificación del cliente gridweb. Puede obtener la identificación del cliente usando el método gridweb.getClientID().
+Dado que lo está llamando desde el lado del cliente, primero deberá obtener la identificación del cliente de gridweb. Puede obtener la identificación del cliente utilizando el método gridweb.getClientID().
 
-### **Código de muestra del lado del cliente**
+###  **Código de muestra del lado del cliente**
 
 Consulte el siguiente enlace que llama al método gridweb.print() desde el lado del cliente.
 
@@ -478,53 +478,53 @@ Consulte el siguiente enlace que llama al método gridweb.print() desde el lado 
 
 {{< /highlight >}}
 
-## **Introducción a los diferentes modos de cuadrícula**
+##  **Introducción a diferentes modos de cuadrícula**
 
-Este artículo describe los diferentes modos de Aspose.Cells.GridWeb. Estos modos se diferencian lógicamente por sus diferentes características y comportamientos. Hemos identificado diferentes tipos de modo como:
+Este artículo describe los diferentes modos de Aspose.Cells.GridWeb. Estos modos se diferencian lógicamente por sus diferentes características y comportamientos. Hemos identificado diferentes tipos de modalidad como:
 
 - Modo de edición
 - Modo de vista
 
 Todos estos modos tienen sus propias características. Los desarrolladores pueden trabajar con Aspose.Cells.GridWeb en cualquier modo según sus requisitos. Veremos cada modo a continuación.
 
-### **Modo de edición**
+###  **Modo de edición**
 
-De forma predeterminada, el control Aspose.Cells.GridWeb está en modo de edición. En el modo de edición, puede editar o modificar completamente el contenido de la cuadrícula utilizando todas las funciones que ofrece el control Aspose.Cells.GridWeb. Estas características incluyen:
+De forma predeterminada, el control Aspose.Cells.GridWeb está en modo de edición. En el modo Edición, puede editar o modificar completamente el contenido de la cuadrícula utilizando todas las funciones que ofrece el control Aspose.Cells.GridWeb. Estas características incluyen:
 
-- Guardar el contenido de la cuadrícula en Microsoft archivos de Excel.
+- Guardar el contenido de la cuadrícula en archivos Excel Microsoft.
 - Envío de datos a un servidor.
-- Cálculo de fórmulas.
+- Calcular fórmulas.
 - Deshacer o descartar acciones anteriores.
 - Manejo de filas y columnas.
 - Cortar, copiar o pegar datos.
-- Formateo de celdas, etc.
+- Formatear celdas, etc.
 
 **Control GridWeb en modo de edición**
 
-![todo:imagen_alternativa_texto](working-with-gridweb_9.png)
+![todo:image_alt_text](working-with-gridweb_9.png)
 
 Los desarrolladores también pueden cambiar al modo de edición mediante programación estableciendo la propiedad EditMode del control GridWeb en verdadero.
 
-### **Ejemplo de código**
+###  **Ejemplo de código**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-GridWebEditMode-GridWebEditMode.jsp" >}}
 
-### **Modo de vista**
+###  **Modo de vista**
 
-Cuando el control GridWeb está en modo Ver, los usuarios no pueden editar ni modificar el contenido de la cuadrícula, lo que significa que los usuarios solo pueden ver el contenido de la cuadrícula. Es por eso que este modo se llama modo Ver. En el modo Ver, algunos botones (**Enviar**, **Ahorrar** y**Deshacer** ) están ocultos y el menú que aparece al hacer clic con el botón derecho solo contiene los**Copiar** y**Encontrar** opción.
+Cuando el control GridWeb está en modo Ver, los usuarios no pueden editar ni modificar el contenido de la cuadrícula, lo que significa que los usuarios solo pueden ver el contenido de la cuadrícula. Por eso este modo se llama modo Ver. En el modo Ver, algunos botones (**Enviar**,**Ahorrar** y**Deshacer**) están ocultos y el menú que aparece al hacer clic derecho solo contiene el comando **Copiar** y**Encontrar** opción.
 
-**Control GridWeb en modo de vista** 
+**Control GridWeb en modo de visualización** 
 
-![todo:imagen_alternativa_texto](working-with-gridweb_10.png)
+![todo:image_alt_text](working-with-gridweb_10.png)
 
- Si los desarrolladores desean que sus usuarios solo vean datos, pueden cambiar al modo Ver mediante programación configurando la propiedad EditMode del control GridWeb en**falso**.
+Si los desarrolladores desean que sus usuarios solo vean datos, pueden cambiar al modo Ver mediante programación configurando la propiedad EditMode del control GridWeb en *false**.
 
-### **Ejemplo de código**
+###  **Ejemplo de código**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-GridWebViewMode-GridWebViewMode.jsp" >}}
 
 {{% alert color="primary" %}}
 
-Incluso en el modo Ver, los usuarios pueden cambiar la altura y el ancho de las filas y columnas.
+Incluso en el modo Ver, los usuarios pueden cambiar el alto y el ancho de filas y columnas.
 
 {{% /alert %}}

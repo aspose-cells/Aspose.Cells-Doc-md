@@ -1,18 +1,20 @@
-﻿---
-title: Читать подзаголовок диаграммы из файла ODS
+---
+title: Чтение подзаголовка диаграммы из файла ODS
+description: Узнайте, как использовать Aspose.Cells for .NET для чтения подзаголовка диаграммы из файла электронной таблицы OpenDocument (ODS). Наше руководство покажет, как извлечь подзаголовок диаграммы и получить к нему доступ для дальнейшего анализа или отображения.
+keywords: Aspose.Cells for .NET, Read Chart Subtitle, OpenDocument Spreadsheet, ODS File, Chart Extraction, Data Analysis.
 type: docs
 weight: 160
 url: /ru/net/read-chart-subtitle-from-ods-file/
 ---
-## **Читать подзаголовок диаграммы из файла ODS**
+##  **Чтение подзаголовка диаграммы из файла ODS**
 
-Aspose.Cells предоставляет вам возможность читать субтитры диаграмм в файлах ODS с помощью[**Диаграмма.Подзаголовок**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/subtitle) имущество. Следующий пример кода загружает[образец файла ODS](89620481.ods) и читает подзаголовок диаграммы, используя[**Диаграмма.Подзаголовок**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/subtitle) свойство и распечатывает его в окне консоли. Для справки см. консольный вывод кода, приведенного ниже.
+Aspose.Cells предоставляет вам возможность читать субтитры диаграмм в файлах ODS с помощью[**Диаграмма.Подзаголовок**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/subtitle) свойство. Следующий пример кода загружает[образец файла ODS](89620481.ods) и читает подзаголовок диаграммы, используя[**Диаграмма.Подзаголовок**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/subtitle) свойство и печатает его в окне консоли. Для справки см. консольный вывод кода, приведенного ниже.
 
-## **Образец кода**
+##  **Образец кода**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-GetChartSubTitleForODSFile-1.cs" >}}
 
-## **Консольный вывод**
+##  **Консольный вывод**
 
 {{< highlight "java" >}}
 

@@ -1,5 +1,7 @@
-﻿---
+---
 title: Inaktivera textbrytning för dataetiketter i diagrammet
+description: Lär dig hur du inaktiverar textbrytning för dataetiketter i diagram med Aspose.Cells for .NET. Vår guide visar dig hur du förhindrar att långa etiketter överlappar och ger mer läsbara och tydliga diagramvisningar.
+keywords: Aspose.Cells for .NET, charting, data labels, text wrapping, overlapping, readability, displays.
 type: docs
 weight: 70
 url: /sv/net/disable-text-wrapping-for-data-labels-of-the-chart/

@@ -1,17 +1,19 @@
-﻿---
-title: Gleichzeitiges Lesen von Cell-Werten in mehreren Threads
+---
+title: Cell-Werte in mehreren Threads gleichzeitig lesen
 linktitle: Mehrere Threads
 type: docs
 weight: 1800
 url: /de/net/reading-cell-values-in-multiple-threads-simultaneously/
+description: Erfahren Sie, wie Sie Cell-Werte in mehreren Threads gleichzeitig über Aspose.Cells for .NET API lesen.
+keywords: Read Cell Values in Multiple Threads Simultaneously, Aspose.Cells C# Multiple Threads, Read data in Multiple Threads
 ---
 {{% alert color="primary" %}}
 
-Das gleichzeitige Lesen von Zellenwerten in mehreren Threads ist eine häufige Anforderung. Dieser Artikel erklärt, wie Sie Aspose.Cells für diesen Zweck verwenden.
+Das gleichzeitige Lesen von Zellwerten in mehreren Threads ist eine häufige Anforderung. In diesem Artikel wird erläutert, wie Sie Aspose.Cells für diesen Zweck verwenden.
 
 {{% /alert %}}
 
- Um Zellenwerte in mehr als einem Thread gleichzeitig zu lesen, set[**Arbeitsblatt.Cells.MultiThreadReading**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/multithreadreading) zu**wahr**. Wenn Sie dies nicht tun, erhalten Sie möglicherweise die falschen Zellenwerte.
+ Um Zellwerte in mehr als einem Thread gleichzeitig zu lesen, legen Sie fest[**Arbeitsblatt.Cells.MultiThreadReading**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/multithreadreading)zu *wahr**. Andernfalls erhalten Sie möglicherweise falsche Zellwerte.
 
 Der folgende Code:
 
@@ -29,7 +31,7 @@ Wenn Sie diese Zeile kommentieren:
 
 {{< /highlight >}}
 
-dann kommt folgende meldung:
+dann wird folgende Meldung angezeigt:
 
 {{< highlight "java" >}}
 
@@ -43,6 +45,6 @@ dann kommt folgende meldung:
 
 {{< /highlight >}}
 
-Andernfalls läuft das Programm ohne Meldung, was bedeutet, dass alle aus Zellen gelesenen Werte korrekt sind.
+Andernfalls läuft das Programm ohne Anzeige einer Meldung, was bedeutet, dass alle aus den Zellen gelesenen Werte korrekt sind.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ReadingCellValuesInMultipleThreadsSimultaneously-1.cs" >}}

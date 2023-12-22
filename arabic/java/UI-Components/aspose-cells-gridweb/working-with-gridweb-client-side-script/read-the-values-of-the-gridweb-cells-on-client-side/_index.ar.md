@@ -1,23 +1,23 @@
-﻿---
+---
 title: اقرأ قيم خلايا GridWeb على جانب العميل
 type: docs
 weight: 10
 url: /ar/java/read-the-values-of-the-gridweb-cells-on-client-side/
 ---
-## **سيناريوهات الاستخدام الممكنة**
-يمكنك قراءة قيم خلايا GridWeb على البرنامج النصي من جانب العميل باستخدام طريقة gridwebinstance.getCellsArray (). بمجرد أن تسميها ، ستعيد مجموعة جميع الخلايا في ورقة العمل النشطة. يمكنك بعد ذلك استخدام الطرق التالية لاسترداد القيمة والمعلومات الأخرى للخلايا.
+##  **سيناريوهات الاستخدام المحتملة**
+يمكنك قراءة قيم خلايا GridWeb على البرنامج النصي من جانب العميل باستخدام طريقة Gridwebinstance.getCellsArray(). بمجرد الاتصال به، سيعيد مصفوفة جميع الخلايا في ورقة العمل النشطة. يمكنك بعد ذلك استخدام الطرق التالية لاسترداد القيمة والمعلومات الأخرى الخاصة بالخلايا.
 
-- Gridwebinstance.getCellName ()
-- Gridwebinstance.getCellValueByCell ()
-- Gridwebinstance.getCellRow ()
-- Gridwebinstance.getCellColumn ()
-## **اقرأ قيم خلايا GridWeb على جانب العميل**
-يسترد نموذج التعليمات البرمجية التالي جميع الخلايا ثم يطبع الاسم والقيمة والصف والعمود. يمكنك رؤية إخراج وحدة التحكم الخاصة به في الجزء السفلي من هذه المقالة. تُظهر لقطة الشاشة التالية إخراج وحدة التحكم لعينة التعليمات البرمجية على Google Chrome.
-## **لقطة شاشة**
-![ما يجب القيام به: image_بديل_نص](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
+- Gridwebinstance.getCellName()
+- Gridwebinstance.getCellValueByCell()
+- Gridwebinstance.getCellRow()
+- Gridwebinstance.getCellColumn()
+##  **اقرأ قيم خلايا GridWeb على جانب العميل**
+يقوم نموذج التعليمات البرمجية التالي باسترداد كافة الخلايا ثم طباعة اسمها وقيمتها والصف والعمود الخاص بها. يمكنك رؤية مخرجات وحدة التحكم الخاصة بها في أسفل هذه المقالة. تعرض لقطة الشاشة التالية إخراج وحدة التحكم لنموذج التعليمات البرمجية على Google Chrome.
+##  **لقطة شاشة**
+![ما يجب القيام به:image_alt_text](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
 
 
-## **عينة من الرموز**
+##  **عينة من الرموز**
 {{< highlight "java" >}}
 
  <%@page language="java" contentType="text/html; charset=UTF-8" import="com.aspose.gridweb.*"  pageEncoding="UTF-8"%>
@@ -125,8 +125,8 @@ out.print(gridweb.getHTMLBody());
 </html>
 
 {{< /highlight >}}
-## **إخراج وحدة التحكم**
-هذا هو إخراج وحدة التحكم لعينة التعليمات البرمجية أعلاه.
+##  **إخراج وحدة التحكم**
+هذا هو إخراج وحدة التحكم لنموذج التعليمات البرمجية أعلاه.
 
 {{< highlight "java" >}}
 

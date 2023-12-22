@@ -4,11 +4,11 @@ type: docs
 weight: 20
 url: /tr/java/installation/
 ---
-##  **Aspose.Cells for Java'i Maven Deposundan yükleme**
+##  **Aspose.Cells for Java'in Maven Deposundan yüklenmesi**
 
-Aspose, tüm Java API'lerini barındırır[Maven depo](https://releases.aspose.com/java/repo/) . rahatlıkla kullanabilirsiniz[Aspose.Cells for Java API](https://releases.aspose.com/cells/java/) basit yapılandırmalarla doğrudan Maven Projelerinizde.
+Aspose, tüm Java API'lerini barındırır[Maven deposu](https://releases.aspose.com/java/repo/) . Kolayca kullanabilirsiniz[Aspose.Cells for Java API](https://releases.aspose.com/cells/java/) Basit konfigürasyonlarla doğrudan Maven Projelerinizde.
 
-Öncelikle, Maven pom.xml dosyanızda Aspose Maven Depo yapılandırmasını/konumunu aşağıdaki gibi belirtmeniz gerekir:
+Öncelikle Maven pom.xml dosyanızda Aspose Maven Depo yapılandırmasını/konumunu aşağıdaki gibi belirtmeniz gerekir:
 
 {{< highlight "java" >}}
 
@@ -28,7 +28,7 @@ Aspose, tüm Java API'lerini barındırır[Maven depo](https://releases.aspose.c
 
 {{< /highlight >}}
 
-Gradle için build.gradle betiğinizde aşağıdaki gibi:
+build.gradle betiğinizdeki Gradle için aşağıdaki gibi:
 {{< highlight "java" >}}
 //Add Aspose maven repository
 repositories {
@@ -39,7 +39,7 @@ repositories {
 }
 {{< /highlight >}}
 
-Ardından, pom.xml'nizde Aspose.Cells for Java API bağımlılığını aşağıdaki gibi tanımlayın (Bu, her şeyi içerecektir, örneğin ana jar dosyası, Java Belgeler ve buna göre diğer kitaplıklar):
+Daha sonra pom.xml dosyanızda Aspose.Cells for Java API bağımlılığını aşağıdaki gibi tanımlayın (Buna göre her şey dahil olacaktır, örneğin ana jar dosyası, Java Dokümanlar ve diğer kütüphaneler):
 
 {{< highlight "java" >}}
 
@@ -51,7 +51,7 @@ Ardından, pom.xml'nizde Aspose.Cells for Java API bağımlılığını aşağı
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>23.5</version>
+            <version>23.12</version>
 
         </dependency>
 
@@ -61,7 +61,7 @@ Ardından, pom.xml'nizde Aspose.Cells for Java API bağımlılığını aşağı
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>23.5</version>
+            <version>23.12</version>
 
             <classifier>javadoc</classifier>
 
@@ -73,7 +73,7 @@ Ardından, pom.xml'nizde Aspose.Cells for Java API bağımlılığını aşağı
 
             <artifactId>bcprov-jdk15on</artifactId>
 
-            <version>1.60</version>
+            <version>1.68</version>
 
         </dependency>        
 
@@ -83,7 +83,7 @@ Ardından, pom.xml'nizde Aspose.Cells for Java API bağımlılığını aşağı
 
             <artifactId>bcpkix-jdk15on</artifactId>
 
-            <version>1.60</version>
+            <version>1.68</version>
 
         </dependency>        
 

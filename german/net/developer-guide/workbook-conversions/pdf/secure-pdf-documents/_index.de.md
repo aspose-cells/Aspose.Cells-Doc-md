@@ -1,23 +1,32 @@
-﻿---
-title: PDF Dokumente sichern
+---
+title: Sichere PDF-Dokumente
 type: docs
 weight: 120
 url: /de/net/secure-pdf-documents/
 ---
 {{% alert color="primary" %}}
 
-Manchmal müssen Entwickler mit verschlüsselten PDF-Dateien arbeiten. Beispielsweise müssen sie Dokumente mit Benutzer- und Eigentümerkennwörtern sichern, damit nicht jeder sie öffnen kann, oder sie möchten einschränken, ob der Dokumentinhalt gedruckt oder extrahiert werden kann.
+Manchmal müssen Entwickler mit verschlüsselten PDF-Dateien arbeiten. Zum Beispiel:
 
-In diesem Artikel wird erläutert, wie Sie PDF-Sicherheitsoptionen übergeben, wenn Sie Tabellenkalkulationen unter PDF speichern.
+- Sichern Sie die Dokumente mit Besitzer- und Benutzerkennwörtern, damit nicht jeder sie öffnen kann.
+- Legen Sie Einschränkungen oder Berechtigungen für das Dokument fest, nachdem das Dokument geöffnet wurde. Sie können beispielsweise einschränken, ob der Inhalt des Dokuments gedruckt oder extrahiert werden kann.
+
+In diesem Artikel wird erläutert, wie Sie beim Speichern von Tabellenkalkulationen in PDF Sicherheitsoptionen für PDF übergeben.
 
 {{% /alert %}}
 
- Aspose.Cells bietet die[**Aspose.Cells.Rendering.PdfSecurity**](https://reference.aspose.com/cells/net/aspose.cells.rendering.pdfsecurity) Namespace für die Arbeit mit Sicherheit. Der folgende Beispielcode beschreibt, wie Sie PDFs mit Aspose.Cells sichern.
+ Aspose.Cells bietet[**PDFSecurityOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/)für die Arbeit mit Sicherheit. Sie können beim Speichern unter PDF Eigentümer- und Benutzerkennwörter festlegen. Das Eigentümerkennwort oder Benutzerkennwort ist erforderlich, um das verschlüsselte Dokument PDF zum Anzeigen zu öffnen.
+
+- Das Benutzerkennwort kann null oder eine leere Zeichenfolge sein. In diesem Fall ist beim Öffnen des Dokuments PDF kein Kennwort vom Benutzer erforderlich.
+- Das Öffnen des Dokuments PDF mit dem richtigen Besitzerpasswort ermöglicht den vollständigen Zugriff (ohne Angabe von Zugriffsbeschränkungen) auf das Dokument.
+- Das Öffnen des Dokuments PDF mit dem richtigen Benutzerkennwort (oder das Öffnen eines Dokuments ohne Benutzerkennwort) ermöglicht einen eingeschränkten Zugriff entsprechend den angegebenen Berechtigungen.
+
+Der folgende Beispielcode beschreibt, wie Sie PDFs mit Aspose.Cells sichern.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SecurePDFDocuments-1.cs" >}}
 
 {{% alert color="primary" %}}
 
- Wenn die Tabelle Formeln enthält, rufen Sie am besten an[**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)kurz vor dem Rendern in PDF. Dadurch wird sichergestellt, dass formelabhängige Werte neu berechnet und die richtigen Werte in PDF gerendert werden.
+ Wenn die Tabelle Formeln enthält, rufen Sie am besten an[**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) kurz bevor es in PDF gerendert wird. Dadurch wird sichergestellt, dass formelabhängige Werte neu berechnet werden und die richtigen Werte in PDF gerendert werden.
 
 {{% /alert %}}

@@ -1,5 +1,5 @@
-﻿---
-title: Wasserfalldiagramm erstellen
+---
+title: So erstellen Sie ein Wasserfalldiagramm
 type: docs
 weight: 160
 url: /de/net/creating-waterfall-chart/
@@ -8,17 +8,17 @@ keywords: c# create waterfall chart in excel, c# creating waterfall chart in exc
 ---
 {{% alert color="primary" %}}
 
-Ein Wasserfalldiagramm ist eine spezielle Art von Diagramm, das normalerweise verwendet wird, um zu zeigen, wie die Ausgangsposition entweder zunimmt oder abnimmt. Microsoft Excel verfügt über viele vordefinierte Diagrammtypen, darunter Säulen-, Linien-, Kreis-, Balken-, Radardiagramme usw. Das Wasserfalldiagramm geht jedoch über die grundlegenden Diagramme hinaus und kann mit den vorhandenen Diagrammtypen mit wenig oder mehr Anpassungen erstellt werden.
+Ein Wasserfalldiagramm ist ein spezieller Diagrammtyp, der normalerweise verwendet wird, um zu zeigen, wie die Ausgangsposition entweder zu- oder abnimmt. Microsoft Excel verfügt über viele vordefinierte Diagrammtypen, darunter Säulen-, Linien-, Kreis-, Balken-, Radardiagramme usw. Das Wasserfalldiagramm geht jedoch über die grundlegenden Diagramme hinaus und kann mit den vorhandenen Diagrammtypen mit wenig oder mehr Anpassung erstellt werden.
 
 {{% /alert %}} 
 
- Aspose.Cells APIs ermöglicht das Erstellen eines Wasserfalldiagramms mit Hilfe von Liniendiagrammen. Mit API können Sie auch das Erscheinungsbild des Diagramms anpassen, um ihm die Form eines Wasserfalls zu geben, indem Sie festlegen[**Serie.UpBars**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/upbars) & [**Serie.DownBars**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/downbars)Eigenschaften.
+ Aspose.Cells APIs ermöglichen die Erstellung eines Wasserfalldiagramms mithilfe eines Liniendiagramms. Mit der Nummer API können Sie auch das Erscheinungsbild des Diagramms anpassen, um ihm die Form eines Wasserfalls zu verleihen[**Series.UpBars**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/upbars) & [**Series.DownBars**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/downbars)Eigenschaften.
 
-Das unten bereitgestellte Code-Snippet zeigt die Verwendung von Aspose.Cells for .NET API, um ein Wasserfalldiagramm von Grund auf neu zu erstellen.
+Der unten bereitgestellte Codeausschnitt zeigt die Verwendung von Aspose.Cells for .NET API zum Erstellen eines Wasserfalldiagramms von Grund auf.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreateWaterfallChart-1.cs" >}}
 
-## Zum Thema passende Artikel
+##  In Verbindung stehende Artikel
 
-- [Erstellen von Diagrammen](/cells/de/net/creating-charts/)
+- [Diagramme erstellen](/cells/de/net/creating-charts/)
 - [Anpassen von Diagrammen](/cells/de/net/customizing-charts/)

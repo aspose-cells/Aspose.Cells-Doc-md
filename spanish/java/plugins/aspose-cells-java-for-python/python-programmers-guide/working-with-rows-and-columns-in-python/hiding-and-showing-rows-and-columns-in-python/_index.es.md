@@ -1,14 +1,16 @@
-﻿---
+---
 title: Ocultar y mostrar filas y columnas en Python
 type: docs
 weight: 50
 url: /es/java/hiding-and-showing-rows-and-columns-in-python/
+description: Aprenda a ocultar y mostrar filas y columnas a través de Aspose.Cells for Python a través de Java API.
+keywords: How to Hide and Show Rows and Columns in Python Via Java, Hide Rows and Columns using Python Via Java, Python Via Java Show Rows and Columns. 
 ---
-## **Aspose.Cells - Control de la visibilidad de filas y columnas**
-### **Ocultar filas y columnas**
+##  **Aspose.Cells - Controlar la visibilidad de filas y columnas**
+###  **Cómo ocultar filas y columnas**
 Los desarrolladores pueden ocultar una fila o columna llamando a los métodos HideRow y HideColumn de la colección Cells respectivamente. Ambos métodos toman el índice de fila/columna como parámetro para ocultar la fila o columna específica.
 
-**código rubí**
+**Código Rubí**
 
 {{< highlight "ruby" >}}
 
@@ -39,13 +41,13 @@ workbook.save(self.dataDir + "Hide Rows And Columns.xls")
 print "Hide Rows And Columns Successfully." 
 
 {{< /highlight >}}
-### **Mostrar filas y columnas**
+###  **Cómo mostrar filas y columnas**
 Los desarrolladores pueden mostrar cualquier fila o columna oculta llamando a los métodos UnhideRow y UnhideColumn de la colección Cells respectivamente. Ambos métodos toman dos parámetros:
 
-- **Índice de fila o columna**- el índice de una fila o columna que se utiliza para mostrar la fila o columna específica.
-- **Alto de fila o ancho de columna**- el alto de fila o el ancho de columna asignado a la fila o columna después de mostrarse.
+- **Índice de columna Rowor**el índice de una fila o columna que se utiliza para mostrar la fila o columna específica.
+- **Alto de fila o ancho de columna**- la altura de la fila o el ancho de la columna asignado a la fila o columna después de que se muestra.
 
-**código rubí**
+**Código Rubí**
 
 {{< highlight "ruby" >}}
 
@@ -76,7 +78,7 @@ workbook.save(self.dataDir + "Unhide Rows And Columns.xls")
 print "Unhide Rows And Columns Successfully." 
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Control de la visibilidad de filas y columnas (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+##  **Descargar código de ejecución**
+ Descargar**Controlar la visibilidad de filas y columnas (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

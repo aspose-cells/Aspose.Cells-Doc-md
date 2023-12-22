@@ -1,22 +1,24 @@
-﻿---
+---
 title: Interrompre ou annuler le calcul de la formule du classeur
+description: Cet article explique comment utiliser la bibliothèque Aspose.Cells pour interrompre ou annuler les calculs de formules de classeurs dans Microsoft Excel. En chargeant un fichier Excel existant ou en en créant un nouveau, nous pouvons utiliser les méthodes fournies par Aspose.Cells pour interrompre ou annuler le calcul de la formule et obtenir le résultat. Enfin, nous enregistrons le fichier Excel modifié sur le disque.
+keywords: Aspose.Cells, Excel, workbooks, formula calculations, breaks, cancellations
 type: docs
 weight: 50
 url: /fr/net/interrupt-or-cancel-the-formula-calculation-of-workbook/
 ---
-## **Scénarios d'utilisation possibles**
+##  **Scénarios d'utilisation possibles**
 
-Aspose.Cells fournit un mécanisme pour interrompre ou annuler le calcul de la formule du classeur à l'aide de la[**AbstractCalculationMonitor.Interrupt()**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor/methods/interrupt)méthode. Ceci est utile lorsque le calcul de la formule du classeur prend trop de temps et que vous souhaitez annuler son traitement.
+Aspose.Cells fournit un mécanisme pour interrompre ou annuler le calcul de la formule du classeur à l'aide du[**AbstractCalculationMonitor.Interrupt()**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor/methods/interrupt)méthode. Ceci est utile lorsque le calcul de la formule du classeur prend trop de temps et que vous souhaitez annuler son traitement.
 
-## **Interrompre ou annuler le calcul de la formule du classeur**
+##  **Interrompre ou annuler le calcul de la formule du classeur**
 
-L'exemple de code suivant implémente le[**AvantCalcul()**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor/methods/beforecalculate)méthode de[**RésuméCalculMoniteur**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor) classe. Dans cette méthode, il trouve le nom de la cellule à l'aide des paramètres d'index de ligne et de colonne. Si le nom de la cellule est B8, il interrompt le processus de calcul en appelant le[**AbstractCalculationMonitor.Interrupt()**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor/methods/interrupt)méthode. Autrefois, la classe concrète de[**RésuméCalculMoniteur**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor)classe est implémentée, son instance est affectée à[**CalculationOptions.CalculationMonitor**](https://reference.aspose.com/cells/net/aspose.cells/calculationoptions/properties/calculationmonitor)la propriété. Pour terminer,[**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula/index)s'appelle en passant[**Options de calcul**](https://reference.aspose.com/cells/net/aspose.cells/calculationoptions) comme paramètre. Veuillez consulter le[exemple de fichier Excel](51740731.xlsx)utilisé à l'intérieur du code ainsi que la sortie console du code donné ci-dessous pour référence.
+L'exemple de code suivant implémente le[**BeforeCalculate()**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor/methods/beforecalculate)méthode de[**RésuméCalculMoniteur**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor) classe. Dans cette méthode, il trouve le nom de la cellule à l’aide des paramètres d’index de ligne et de colonne. Si le nom de la cellule est B8, il interrompt le processus de calcul en appelant le[**AbstractCalculationMonitor.Interrupt()**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor/methods/interrupt)méthode. Une fois, la classe concrète de[**RésuméCalculMoniteur**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor)la classe est implémentée, son instance est affectée à[**CalculationOptions.CalculationMonitor**](https://reference.aspose.com/cells/net/aspose.cells/calculationoptions/properties/calculationmonitor)propriété. Enfin,[**Classeur.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula/index)est appelé en passant[**Options de calcul**](https://reference.aspose.com/cells/net/aspose.cells/calculationoptions) comme paramètre. Veuillez consulter le[exemple de fichier Excel](51740731.xlsx) utilisé à l'intérieur du code ainsi que la sortie console du code donné ci-dessous pour référence.
 
-## **Exemple de code**
+##  **Exemple de code**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-InterruptOrCancelFormulaCalculationOfWorkbook.cs" >}}
 
-## **Sortie console**
+##  **Sortie console**
 
 {{< highlight "java" >}}
 

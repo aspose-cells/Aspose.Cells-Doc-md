@@ -1,16 +1,18 @@
-﻿---
-title: Ottieni set di icone, barre dati o scale di colori Oggetti utilizzati nella formattazione condizionale
+---
+title: Ottieni set di icone, barre dati o oggetti scale di colori utilizzati nella formattazione condizionale
+description: Aspose.Cells è una libreria .NET per lavorare con file di fogli di calcolo. Supporta l'uso di set di icone, barre dati e oggetti scala di colori nella formattazione condizionale per visualizzare i dati dai fogli di calcolo. In questo articolo viene descritto come utilizzare la libreria Aspose.Cells per recuperare i dati per questi oggetti.
+keywords: Aspose.Cells, Conditional Formatting, Icon Set, Data Bar, Color Scale, Spreadsheet
 type: docs
 weight: 10
 url: /it/net/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/
 ---
 {{% alert color="primary" %}} 
 
-A volte, è necessario recuperare set di icone utilizzati nella formattazione condizionale di una cella o di un intervallo di celle e creare un file immagine basato su di esso. Potrebbe essere necessario leggere le barre dei dati o le scale di colori utilizzate nella formattazione condizionale. Aspose.Cells supporta questa funzione.
+A volte è necessario recuperare i set di icone utilizzati nella formattazione condizionale di una cella o di un intervallo di celle e si desidera creare un file immagine basato su di essi. Potrebbe essere necessario leggere le barre dei dati o le scale di colori utilizzate nella formattazione condizionale. Aspose.Cells supporta questa funzione.
 
 {{% /alert %}} 
 
-L'esempio di codice seguente mostra come leggere i set di icone usati per la formattazione condizionale. Con il semplice API di Aspose.Cell, i dati dell'immagine del set di icone vengono salvati come immagine.
+Nell'esempio di codice seguente viene illustrato come leggere i set di icone utilizzati per la formattazione condizionale. Con il semplice API di Aspose.Cell, i dati immagine del set di icone vengono salvati come immagine.
 
 
 

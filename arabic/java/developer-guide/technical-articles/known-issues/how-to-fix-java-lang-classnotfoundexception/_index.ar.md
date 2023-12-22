@@ -1,25 +1,27 @@
-﻿---
+---
 title: كيفية إصلاح java.lang.ClassNotFoundException
 type: docs
 weight: 30
 url: /ar/java/how-to-fix-java-lang-classnotfoundexception/ 
+description: تعرف على كيفية إصلاح java.lang.ClassNotFoundException في Aspose.Cells for Java.
+keywords: How to fix BouncyCastleProvider ClassNotFoundException in Java, Solve BouncyCastleProvider exception using Java, Java solve ClassNotFoundException BouncyCastleProvider.
 ---
-Aspose.Cells for Java API يعتمد على بعض المكتبات الإضافية ، إذا كانت مفقودة ، فقد يتم طرح استثناء باسم "java.lang.ClassNotFoundException".
-تسرد هذه المقالة هذا النوع من الاستثناءات وتوضح المكتبات المثبتة لحلها.
+Aspose.Cells for Java API يعتمد على بعض المكتبات الإضافية، إذا كانت مفقودة، قد يتم طرح استثناء كـ "java.lang.ClassNotFoundException".
+تسرد هذه المقالة هذا النوع من الاستثناءات وتشرح المكتبات المثبتة لحلها.
 
-## كيفية إصلاح ClassNotFoundException: org.bouncycastle.jce.provider.BouncyCastleProvider
-### **ملخص**
-Aspose.Cells for Java API يعتمد على Bouncy Castle لميزات التشفير وفك التشفير ، أي إذا كان البرنامج مطلوبًا لتحميل أو حفظ جداول البيانات المشفرة ، فيجب إضافة مرجع bcprov-jdk16-146.jar في مسار فئة المشروع.
-### **أعراض**
- يمكنك الحصول على java.lang.ClassNotFoundException: org.bouncycastle.jce.provider.BouncyCastleProvider.
-### **المحلول**
+##  كيفية إصلاح ClassNotFoundException: org.bouncycastle.jce.provider.BouncyCastleProvider
+###  **ملخص**
+Aspose.Cells for Java API يعتمد على Bouncy Castle في ميزات التشفير وفك التشفير، أي أنه إذا كان البرنامج مطلوبًا لتحميل أو حفظ جداول البيانات المشفرة، فيجب إضافة مرجع bcprov-jdk16-146.jar في مسار فئة المشروع.
+###  **أعراض**
+ قد تحصل على java.lang.ClassNotFoundException: org.bouncycastle.jce.provider.BouncyCastleProvider.
+###  **حل**
 الحل في الواقع بسيط للغاية كما هو مفصل أدناه.
 
-1. قم بتنزيل أي إصدار رئيسي من[Aspose.Cells for Java](https://downloads.aspose.com/cells/java).
-1. قم باستخراج الأرشيف الذي تم تنزيله واستعرض وصولاً إلى دليل \ JDK 1.6 \ aspose-cells-xx0-java \ lib.
-1. ارجع إلى bcprov-jdk16-146.jar في مسار الفصل الدراسي للمشروع.
+1.  قم بتنزيل أي إصدار رئيسي من[Aspose.Cells for Java](https://downloads.aspose.com/cells/java).
+1. قم باستخراج الأرشيف الذي تم تنزيله وتصفح الدليل \JDK 1.6\aspose-cells-xx0-java\lib.
+1. قم بالإشارة إلى bcprov-jdk16-146.jar في مسار الفصل الخاص بالمشروع.
 
-بدلاً من ذلك ، يمكنك إضافة التبعية في ملف pom.xml والسماح للمشروع بحل التبعية عبر maven.
+وبدلاً من ذلك، يمكنك إضافة التبعية في ملف pom.xml والسماح للمشروع بحل التبعية عبر maven.
 
 {{< highlight "java" >}}
 

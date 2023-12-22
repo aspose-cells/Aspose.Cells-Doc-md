@@ -1,22 +1,24 @@
-﻿---
+---
 title: Hämta HTML5-sträng från Cell
 type: docs
 weight: 90
 url: /sv/net/get-html5-string-from-cell/
+description: Lär dig hur du hämtar HTML5-sträng från Cell till Aspose.Cells for .NET API.
+keywords: Get HTML5 string from Cell, Obtain HTML5 string from Cell, Manage HTML5 string of Cell
 ---
-## **Möjliga användningsscenarier**
+##  **Möjliga användningsscenarier**
 
 Aspose.Cells returnerar HTML-strängen för cellen med[**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring) metod som accepterar en boolesk parameter. Om du passerar**falsk** som en parameter kommer den att returnera Normal HTML men om du klarar**Sann** som en parameter returnerar den HTML5-sträng.
 
-## **Hämta HTML5-sträng från Cell**
+##  **Hämta HTML5-sträng från Cell**
 
 Följande exempelkod skapar ett arbetsboksobjekt och lägger till lite text i cell A1 i det första kalkylbladet. Den får sedan strängen Normal HTML och HTML5 från cell A1 med hjälp av[**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring)metod och skriver ut dem på konsolen.
 
-## **Exempelkod**
+##  **Exempelkod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "HTML-GetHTML5StringFromCell.cs" >}}
 
-## **Konsolutgång**
+##  **Konsolutgång**
 
 {{< highlight "java" >}}
 

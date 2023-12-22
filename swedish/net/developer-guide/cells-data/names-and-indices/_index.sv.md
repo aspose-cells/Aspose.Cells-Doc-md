@@ -1,11 +1,13 @@
-﻿---
+---
 title: Konvertering mellan cellnamn och rad-/kolumnindex
 linktitle: Cell Namn och indexkonvertering
 type: docs
 weight: 10
 url: /sv/net/names-and-indices/
+description: Lär dig hur du får konvertering mellan cellnamn och rad-/kolumnindex genom Aspose.Cells for .NET API.
+keywords: Get Cell Name from Row and Column Indices, Get Row and Column Indices from Cell Name, Create safe worksheet names, Add safe worksheet names
 ---
-## **Hämta Cell Namn från rad- och kolumnindex**
+##  **Hämta Cell Namn från rad- och kolumnindex**
 Det är möjligt att hitta en cells namn med tanke på rad- och kolumnindex. Den här artikeln förklarar hur.
 Aspose.Cells tillhandahåller metoden CellsHelper.CellIndexToName som tillåter utvecklare att få en cells namn om de tillhandahåller rad- och kolumnindex.
 
@@ -20,7 +22,7 @@ Följande exempelkod illustrerar hur du använder CellsHelper.CellIndexToName f�
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-CellsHelperClass-IndexToName-1.cs" >}}
-## **Hämta rad- och kolumnindex från Cell Namn**
+##  **Hämta rad- och kolumnindex från Cell Namn**
 Det är möjligt att hitta ett rad- och kolumnindex för cellen från dess namn. Den här artikeln förklarar hur.
 Aspose.Cells tillhandahåller metoden CellsHelper.CellNameToIndex som tillåter utvecklare att hämta ett rad- och kolumnindex från cellens namn.
 
@@ -35,7 +37,7 @@ Följande exempelkod illustrerar hur du använder CellsHelper.CellNameToIndex f�
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-CellsHelperClass-NameToIndex-1.cs" >}}
-## **Skapa säkra bladnamn**
+##  **Skapa säkra bladnamn**
  Ibland finns det ett behov av att tilldela arknamnet vid körning. I det här scenariot kan det finnas arknamn som kan innehålla några ytterligare tecken som<>+(?”. Det finns ett behov av att ersätta alla sådana tecken, som inte är tillåtna som ett arknamn med något förinställt tecken som tillhandahålls av användaren. På samma sätt kan längden öka till mer än 31 tecken som måste trunkeras. Apache POI tillhandahåller vissa funktioner för att skapa säkra namn, därför tillhandahålls liknande funktion av Aspose.Cells för att hantera alla dessa problem. Följande exempelkod visar denna funktion:
 
 

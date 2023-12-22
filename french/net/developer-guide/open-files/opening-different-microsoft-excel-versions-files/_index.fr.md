@@ -1,60 +1,62 @@
-﻿---
-title: Ouverture de différents fichiers de versions Excel Microsoft
+---
+title: Ouvrir différents fichiers de versions Excel Microsoft
 type: docs
 weight: 20
 url: /fr/net/opening-different-microsoft-excel-versions-files/
+description: Cet article explique comment ouvrir différentes versions d'Excel en utilisant Aspose.Cells for .NET API.
+keywords: C# Open Different Microsoft Excel file, How do I open Encrypted Excel Files.
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells peut ouvrir une gamme de différents fichiers de versions Excel Microsoft, tels que Microsoft Excel 95/97 - 2003, SpreadsheetML, Opening Microsoft Excel 2007/2010/2013/2016/2019 et Office 365 XLSX ou des fichiers Excel cryptés.
+Aspose.Cells peut ouvrir une gamme de différents fichiers de versions Excel Microsoft, tels que Microsoft Excel 95/97 - 2003, SpreadsheetML, Ouverture Microsoft Excel 2007/2010/2013/2016/2019 et Office 365 XLSX ou En Fichiers Excel cryptés.
 
 {{% /alert %}}
 
-## **Ouverture de fichiers de différentes versions d'Excel Microsoft**
+##  **Comment ouvrir des fichiers de différentes versions d'Excel Microsoft**
 
- Une application doit souvent pouvoir ouvrir des fichiers Excel Microsoft créés dans différentes versions, par exemple, Microsoft Excel 95,97, ou Microsoft Excel 2007/2010/2013/2016/2019 et Office 365 . Vous devrez peut-être charger un fichier dans l'un des nombreux formats, y compris XLS, XLSX, XLSM, XLSB, SpreadsheetML, TabDelimited ou TSV, CSV, ODS et ainsi de suite. Utilisez le constructeur ou spécifiez le**[Cahier](https://reference.aspose.com/cells/net/aspose.cells/workbook)** classe'**[Format de fichier](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/fileformat)**attribut de type qui spécifie le format à l'aide de l'attribut**[FileFormatType](https://reference.aspose.com/cells/net/aspose.cells/fileformattype)**énumération.
+ Une application doit souvent être capable d'ouvrir des fichiers Excel Microsoft créés dans différentes versions, par exemple Microsoft Excel 95,97 ou Microsoft Excel 2007/2010/2013/2016/2019 et Office 365. Vous devrez peut-être charger un fichier dans l'un des formats suivants, notamment XLS, XLSX, XLSM, XLSB, SpreadsheetML, TabDelimited ou TSV, CSV, ODS, etc. Utilisez le constructeur ou spécifiez le**[Cahier d'exercices](https://reference.aspose.com/cells/net/aspose.cells/workbook)**classe'**[Format de fichier](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/fileformat)** attribut type qui spécifie le format à l'aide de l'attribut**[FileFormatType](https://reference.aspose.com/cells/net/aspose.cells/fileformattype)**énumération.
 
- Le**[FileFormatType](https://reference.aspose.com/cells/net/aspose.cells/fileformattype)**énumération contient de nombreux formats de fichiers prédéfinis dont certains sont donnés ci-dessous.
+ Le**[FileFormatType](https://reference.aspose.com/cells/net/aspose.cells/fileformattype)**L'énumération contient de nombreux formats de fichiers prédéfinis, dont certains sont indiqués ci-dessous.
 
 |**Types de formats de fichiers**|**Description**|
-|:- |:- |
+| :- | :- |
 |CSV|Représente un fichier CSV|
-|Excel97To2003|Représente un fichier Excel 97 - 2003|
-|Xlsx|Représente un fichier Excel 2007/2010/2013/2016/2019 et Office 365 XLSX|
+|Excel97À2003|Représente un fichier Excel 97 - 2003|
+|XLSX|Représente un fichier Excel 2007/2010/2013/2016/2019 et Office 365 XLSX|
 |Xlsm|Représente un fichier Excel 2007/2010/2013/2016/2019 et Office 365 XLSM|
-|XLTX|Représente un fichier de modèle Excel 2007/2010/2013/2016/2019 et Office 365 XLTX|
-|Xltm|Représente un fichier Excel 2007/2010/2013/2016/2019 et Office 365 prenant en charge les macros XLTM|
-|Xlsb|Représente un fichier Excel 2007/2010/2013/2016/2019 et Office 365 binaire XLSB|
+|XLTX|Représente un fichier de modèle Excel 2007/2010/2013/2016/2019 et Office 365 XLTX.|
+|XLTM|Représente un fichier XLTM prenant en charge les macros Excel 2007/2010/2013/2016/2019 et Office 365.|
+|Xlsb|Représente un fichier binaire XLSB Excel 2007/2010/2013/2016/2019 et Office 365.|
 |SpreadsheetML|Représente un fichier SpreadsheetML|
 |Tsv|Représente un fichier de valeurs séparées par des tabulations|
 |TabDelimited|Représente un fichier texte délimité par des tabulations|
-|cotes|Représente un fichier ODS|
+|Cotes|Représente un fichier ODS|
 |HTML|Représente un fichier HTML|
 |Mhtml|Représente un fichier MHTML|
 
-### **Ouverture des fichiers Microsoft Excel 95/5.0**
+###  **Ouvrir les fichiers Excel Microsoft 95/5.0**
 
-Pour ouvrir un fichier Microsoft Excel 95/5.0, utilisez**[Options de chargement] (https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**et définissez l'attribut associé pour le**[Options de chargement] (https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**class pour le fichier modèle à charger. Un exemple de fichier pour tester cette fonctionnalité peut être téléchargé à partir du lien suivant :
+Pour ouvrir un fichier Excel 95/5.0 Microsoft, utilisez**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**et définissez l'attribut associé pour le**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**classe pour le fichier modèle à charger. Un exemple de fichier pour tester cette fonctionnalité peut être téléchargé à partir du lien suivant :
 
 [Fichier Excel95](Excel95.xls)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningMicrosoftExcel95Files-1.cs" >}}
 
-### **Ouverture des fichiers Microsoft Excel 97 - 2003**
+###  **Ouvrir les fichiers Microsoft Excel 97 - 2003**
 
- Pour ouvrir un fichier Microsoft Excel 97 - 2003, utilisez**[Options de chargement] (https://reference.aspose.com/cells/net/aspose.cells/loadoptions)** et définissez l'attribut associé pour le**[Options de chargement] (https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**class pour le fichier modèle à charger.
+ Pour ouvrir un fichier Excel Microsoft 97 - 2003, utilisez**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)** et définissez l'attribut associé pour le**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**classe pour le fichier modèle à charger.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningMicrosoftExcel972003Files-1.cs" >}}
 
-### **Ouverture Microsoft Fichiers Excel 2007/2010/2013/2016/2019 et Office 365 XLSX**
+###  **Ouvrir les fichiers Excel Microsoft 2007/2010/2013/2016/2019 et Office 365 XLSX**
 
-Pour ouvrir un format Microsoft Excel 2007/2010/2013/2016/2019 et Office 365, c'est-à-dire XLSX ou XLSB, indiquez le chemin du fichier. Vous pouvez aussi utiliser**[Options de chargement] (https://reference.aspose.com/cells/net/aspose.cells/loadoptions)** et définissez les attributs/options associés du**[Options de chargement] (https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**class pour le fichier modèle à charger.
+Pour ouvrir un format Microsoft Excel 2007/2010/2013/2016/2019 et Office 365, c'est-à-dire XLSX ou XLSB, précisez le chemin du fichier. Vous pouvez aussi utiliser**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)** et définissez les attributs/options associés du**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**classe pour le fichier modèle à charger.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningMicrosoftExcel2007XlsxFiles-1.cs" >}}
 
-### **Ouverture de fichiers Excel cryptés**
+###  **Ouvrir des fichiers Excel cryptés**
 
- Il est possible de créer des fichiers Excel cryptés en utilisant Microsoft Excel. Pour ouvrir un fichier crypté, utilisez le**[Options de chargement] (https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**et définir ses attributs et options (par exemple, donner un mot de passe) pour le fichier modèle à charger.
+ Il est possible de créer des fichiers Excel cryptés en utilisant Microsoft Excel. Pour ouvrir un fichier crypté, utilisez le**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**et définissez ses attributs et options (par exemple, donnez un mot de passe) pour que le fichier modèle soit chargé.
 Un exemple de fichier pour tester cette fonctionnalité peut être téléchargé à partir du lien suivant :
 
 [Excel crypté](EncryptedExcel.xlsx)

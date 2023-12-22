@@ -1,5 +1,7 @@
-﻿---
+---
 title: Lägg till WordArt vattenstämpel i diagrammet
+description: Lär dig hur du använder Aspose.Cells for .NET för att lägga till ett WordArt-vattenmärke till ett diagram i Microsoft Excel. Vår guide kommer att visa hur du skapar och placerar ett WordArt-vattenstämpel för att förbättra ditt diagrams visuella tilltalande och unika.
+keywords: Aspose.Cells for .NET, WordArt Watermark, Chart Watermark, Microsoft Excel, Visual Appeal, Chart Uniqueness.
 type: docs
 weight: 50
 url: /sv/net/add-wordart-watermark-to-chart/

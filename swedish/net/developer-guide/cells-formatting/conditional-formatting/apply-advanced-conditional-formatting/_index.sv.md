@@ -1,5 +1,7 @@
-﻿---
+---
 title: Använd avancerad villkorlig formatering
+description: Hur man använder Aspose.Cells-biblioteket i C# för att tillämpa avancerad villkorlig formatering. Genom att justera dessa kriterier har du mer kontroll över hur celler ser ut och visas.
+keywords: Aspose.Cells, Advanced Conditional Formatting, C#, Conditional, Formatting
 type: docs
 weight: 70
 url: /sv/net/apply-advanced-conditional-formatting/
@@ -9,7 +11,7 @@ url: /sv/net/apply-advanced-conditional-formatting/
 Microsoft Excel 2007 och senare versioner (2010/2013/2016) innehåller några avancerade funktioner för villkorlig formatering. Till exempel låter den dig tillämpa cellskuggning, ramar, färgade ikoner, pilar, flaggor och teckensnittsformatering, etc. som har blivit ganska sofistikerad.
 
 {{% /alert %}} 
-## **Tillämpa avancerad villkorlig formatering på Microsoft Excel-filer**
+##  **Tillämpa avancerad villkorlig formatering på Microsoft Excel-filer**
 Villkorlig formatering kan:
 
 - Lägg till skuggade datastaplar för att grafiskt förbättra de underliggande siffrorna genom att bädda in ett enkelt stapeldiagram i cellerna.
@@ -21,7 +23,7 @@ Aspose.Cells stöder fullt ut den villkorliga formateringen som tillhandahålls 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConditionalFormatting-1.cs" >}}
-### **Beräkna färgen vald av Microsoft Excel för ColorScale villkorlig formatering**
+###  **Beräkna färgen vald av Microsoft Excel för ColorScale villkorlig formatering**
 Aspose.Cells låter dig beräkna färgen vald av Microsoft Excel när ColorScale villkorlig formatering används i en mallfil. Se exempelkoden nedan för att lära dig hur du beräknar färgen som valts av Microsoft Excel.
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Çalışma Sayfasına WordArt Filigranı Ekleme
 linktitle: WordArt'ı Yönetme
 type: docs
@@ -7,18 +7,24 @@ url: /tr/java/add-wordart-watermark-to-worksheet/
 ---
 {{% alert color="primary" %}}
 
-Elektronik tablolara özel metin efektleri eklemek için WordArt'ı kullanın. Örneğin, dosyanın üst kısmına bir başlık uzatın, metni süsleyin ve metni önceden ayarlanmış bir şekle sığdırın veya metni bir Excel sayfasına Arka plan filigranı olarak uygulayın. WordArt, dekorasyon eklemek için elektronik tablolarda taşıyabileceğiniz veya konumlandırabileceğiniz bir nesne haline gelir.
+Elektronik tablolara özel metin efektleri eklemek için WordArt'ı kullanın. Örneğin, bir başlığı dosyanın üst kısmına uzatın, metni süsleyin ve metni önceden belirlenmiş bir şekle sığdırın veya metni bir Excel sayfasına arka plan filigranı olarak uygulayın. WordArt, dekorasyon eklemek için elektronik tablolarda taşıyabileceğiniz veya konumlandırabileceğiniz bir nesneye dönüşür.
 
 {{% /alert %}}
 
-## **Çalışma Sayfasına WordArt Filigranı Ekleme**
+##  **Çalışma Sayfasına WordArt Filigranı Ekleme**
 
-Aşağıdaki örnek, bir çalışma sayfası için arka plan filigranı ayarlamak üzere WordArt şeklinin nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, bir çalışma sayfasına arka plan filigranı ayarlamak için WordArt şeklinin nasıl ekleneceğini gösterir.
 
-Kodu çalıştırdıktan sonra çıktı dosyası soluk kırmızı bir WordArt filigranı içerir.
+Kodu çalıştırdıktan sonra çıktı dosyasında soluk kırmızı bir WordArt filigranı bulunur.
 
-**çıktı dosyası**
+**Çıkış dosyası**
 
-![yapılacaklar:resim_alternatif_metin](add-wordart-watermark-to-worksheet_1.png)
+![yapılacak şey:image_alt_text](add-wordart-watermark-to-worksheet_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddWordArtWatermarkToWorksheet-AddWordArtWatermarkToWorksheet.java" >}}
+
+##  **İleri konular**
+- [Yerleşik Stillerle Word Art Metni Ekleme](/cells/tr/java/add-word-art-text-with-built-in-styles/)
+- [Grafiğe WordArt Filigranı Ekleme](/cells/tr/java/add-wordart-watermark-to-chart/)
+- [WordArt Filigranını Kilitleme](/cells/tr/java/locking-wordart-watermark/)
+- [Önceden ayarlanmış WordArt stilini şeklin metnine ayarlama](/cells/tr/java/set-preset-wordart-style-to-the-text-of-the-shape/)

@@ -1,10 +1,12 @@
-﻿---
+---
 title: Itera righe e colonne
 type: docs
 weight: 50
 url: /it/java/iterate-rows-and-columns/
+description: Scopri come ripetere righe e colonne tramite le API Aspose.Cells for Java.
+keywords: How to Iterate Rows and Columns in Java, Iterate Rows using Java, Java Iterate Columns. 
 ---
-## **Aspose.Cells - Itera righe e colonne**
+##  **Come ripetere righe e colonne utilizzando Aspose.Cells for Java**
 
 Righe e colonne possono essere ripetute utilizzando la raccolta di righe e colonne.
 
@@ -14,7 +16,7 @@ Righe e colonne possono essere ripetute utilizzando la raccolta di righe e colon
 
  //Accedi all'intervallo di visualizzazione massimo
 
-Intervallo intervallo = foglio di lavoro.getCells().getMaxDisplayRange();
+Intervallo intervallo = worksheet.getCells().getMaxDisplayRange();
 
 int tcols = range.getColumnCount();
 
@@ -22,11 +24,11 @@ int trows = range.getRowCount();
 
 System.out.println("Righe totali:" + trows);
 
-System.out.println("Totale colonne:" + tcols);
+System.out.println("Col. totali:" + tcols);
 
-RowCollection righe = cells.getRows();
+RowCollection righe = cellule.getRows();
 
- per (int i = 0 ; i< rows.getCount() ; i++)
+ for (int i = 0 ; i< rows.getCount() ; i++)
 
 {
 
@@ -44,9 +46,9 @@ RowCollection righe = cells.getRows();
 
 {{< /highlight >}}
 
-## **Apache POI SS - HSSF XSSF - Itera righe e colonne**
+##  **Apache POI SS - HSSF XSSF - Itera righe e colonne**
 
-Le righe e Cells possono essere ripetute su Sheet. Il codice di esempio è menzionato di seguito:
+Le righe e Cells possono essere ripetute sul foglio. Il codice di esempio è menzionato di seguito:
 
 **Java**
 
@@ -72,11 +74,11 @@ for (Row row : sheet)
 
 {{< /highlight >}}
 
-## **Scarica il codice in esecuzione**
+##  **Scarica il codice in esecuzione**
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 
-## **Scarica il codice di esempio**
+##  **Scarica il codice di esempio**
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/iterate)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/iterate)
 

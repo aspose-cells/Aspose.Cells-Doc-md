@@ -4,115 +4,126 @@ type: docs
 weight: 250
 url: /ar/net/aspose-cells-gridjs/highlight/
 description: توضح هذه المقالة كيفية استخدام GridJs لتمييز نص الخلية ونطاقات الخلايا والأشكال والصور.
-keywords: highlight, highlight spreadsheet
+keywords: highlight, highlight spreadsheet,redaction,remarks
 ---
 #  العمل مع ميزة GridJs Highlight
- نحن ندعم JS APIs أدناه لميزة Highlight
+ نحن ندعم واجهات برمجة التطبيقات JS أدناه لميزة Highlight
 
 
--  قم بتمكين التمييز وتعيين نمط الإبراز ، لن تسري جميع واجهات برمجة التطبيقات المميزة إلا بعد تعيين نمط التمييز
+-  قم بتمكين التمييز وتعيين نمط التمييز، ولن يتم تفعيل جميع واجهات برمجة التطبيقات الخاصة بالتمييز إلا بعد تعيين نمط التمييز في ورقة العمل النشطة
 ```javascript
-xs.showHighlights(style)
+xs.sheet.showHighlights(style)
  // the parameter is:
  style: the style for highlight ,currently only support color
  for example: {'color':'rgba(85, 57, 47, 0.08)'}
 ```
 
--  تعطيل التمييز
+-  قم بتحديث نمط التمييز المحدد في ورقة العمل النشطة
 ```javascript
-xs.hideHighlights()
+xs.sheet.updateHighlightStyle(style)
+ // the parameter is:
+ style: the style for highlight ,currently only support color
+ for example: {'color':'rgba(85, 57, 47, 0.08)'}
 ```
--  أضف نص خلية لتمييزه
+
+
+-  تعطيل التمييز في ورقة العمل النشطة
+```javascript
+xs.sheet.hideHighlights()
+```
+-  أضف نص خلية لتمييزه في ورقة العمل النشطة
 ```javascript
 xs.sheet.addHighlightText(row,col,startpostion,endposition)
     // the parameters are:
-    row:row index 
+	row:row index 
 	col:column index
 	startpostion: highlight start postion in cell text 
 	endpostion: highlight end postion in cell text 
     //it support multiple range postion inside one cell
 ```
 
--  قم بإزالة التمييز لنص الخلية في المصفوفة
+-  إزالة التمييز لنص الخلية في الصفيف في ورقة العمل النشطة
 ```javascript
-xs.sheet.removeHighlightText(row,col)
+xs.sheet.removeHighlightText(row,col,startpostion,endposition)
     // the parameters are:
-    row:row index 
+	row:row index 
 	col:column index
+	startpostion: highlight start postion in cell text 
+	endpostion: highlight end postion in cell text 
 ```
 
--  الحصول على مصفوفة لتمييز نص الخلية
+- احصل على مصفوفة لتمييز نص الخلية في ورقة العمل النشطة
 ```javascript
 xs.sheet.getHighlightTexts()
 ```
 
--  أضف نطاق خلايا لتمييزه
+-  أضف نطاق خلايا لتمييزه في ورقة العمل النشطة
 ```javascript
 xs.sheet.addHighlightRange(sri,sci,eri,eci)
     // the parameters are:
-    sri:start row index of cell range
+	sri:start row index of cell range
 	sci:start column index of cell range
-	 eri:end row index of cell range
+	eri:end row index of cell range
 	eci:end column index of cell range
 ```
 
--  قم بإزالة التمييز لنطاق الخلايا في المصفوفة
+-  إزالة التمييز لنطاق الخلايا في الصفيف في ورقة العمل النشطة
 ```javascript
 xs.sheet.removeHighlightRange(sri,sci,eri,eci)
      // the parameters are:
-    sri:start row index of cell range
+	sri:start row index of cell range
 	sci:start column index of cell range
-	 eri:end row index of cell range
+	eri:end row index of cell range
 	eci:end column index of cell range
 ```
 
--  احصل على صفيف لتمييز نطاق الخلايا
+-  احصل على مصفوفة لتسليط الضوء على نطاق الخلايا في ورقة العمل النشطة
 ```javascript
 xs.sheet.getHighlightRanges()
 ```
 
--  اضبط نطاق الخلايا على عكس الضوء
+-  قم بتعيين نطاق الخلايا لعكس التمييز في ورقة العمل النشطة
 ```javascript
 xs.sheet.setHighlightInverseRange(sri,sci,eri,eci)
     // the parameters are:
-    sri:start row index of cell range
+	sri:start row index of cell range
 	sci:start column index of cell range
-	 eri:end row index of cell range
+	eri:end row index of cell range
 	eci:end column index of cell range
 ```
 
--  إزالة التمييز لعكس الضوء
+-  قم بإزالة التمييز من أجل التمييز العكسي في ورقة العمل النشطة
 ```javascript
 xs.sheet.removeHighlightInverseRange()
      
 ```
 
--  الحصول على نطاق خلية تمييز معكوس
+-  احصل على نطاق خلايا التمييز العكسي في ورقة العمل النشطة
 ```javascript
 xs.sheet.getHighlightInverseRange()
 ```
 
 
--  أضف شكلًا لإبراز المصفوفة
+-  أضف شكلاً لتمييز المصفوفة في ورقة العمل النشطة
 ```javascript
 xs.sheet.addHighlightShape(shapeid)
     // the parameters are:
     shapeid: the id of shape, can be find in xs.sheet.data.shapes
 ```
 
--  إزالة شكل التمييز في المصفوفة
+-  قم بإزالة شكل التمييز في الصفيف في ورقة العمل النشطة
 ```javascript
 xs.sheet.removeHighlightShape(shapeid)
      // the parameters are:
     shapeid: the id of shape, can be find in xs.sheet.data.shapes
 ```
 
--  احصل على مجموعة لإبراز الشكل
+-  احصل على مصفوفة لشكل التمييز في ورقة العمل النشطة
 ```javascript
 xs.sheet.getHighlightShaps()
 ```
 
--  إضافة مربع نص لإبرازه ، مربع النص هو نوع خاص من الأشكال التي تكون خاصية الكتابة هي: "TextBox" ،
+-  أضف مربع نص لتسليط الضوء عليه، مربع النص هو نوع خاص من الأشكال وخاصية النوع هي:"TextBox"، في ورقة العمل النشطة
 ```javascript
 xs.sheet.addHighlightTextBox(shapeid, startpostion, endposition)
     // the parameters are:
@@ -123,7 +134,7 @@ xs.sheet.addHighlightTextBox(shapeid, startpostion, endposition)
 ```
 
 
-- قم بإزالة نطاق التمييز في مربع النص ، مربع النص هو نوع خاص من الأشكال التي تكون خاصية الكتابة هي: "TextBox" ،
+-  إزالة نطاق التمييز في مربع النص، مربع النص هو نوع خاص من الأشكال التي تكون خاصية النوع هي:"TextBox"، في ورقة العمل النشطة
 ```javascript
 xs.sheet.removeHighlightTextBox(shapeid, startpostion, endposition)
     // the parameters are:
@@ -133,14 +144,14 @@ xs.sheet.removeHighlightTextBox(shapeid, startpostion, endposition)
     //it support multiple range postion inside one textbox
 ```
 
--  إضافة صورة لتسليط الضوء على مجموعة
+-  أضف صورة لتسليط الضوء على المصفوفة في ورقة العمل النشطة
 ```javascript
 xs.sheet.addHighlightImage(imageid)
     // the parameters are:
     imageid: the id of image, can be find in xs.sheet.data.images
 ```
 
--  قم بإزالة صورة التمييز في المصفوفة
+- قم بإزالة الصورة المميزة في الصفيف في ورقة العمل النشطة
 ```javascript
 xs.sheet.removeHighlightImage(imageid)
      // the parameters are:
@@ -152,7 +163,7 @@ xs.sheet.removeHighlightImage(imageid)
 xs.sheet.getHighlightImages()
 ```
 
--  قم بتعيين ما إذا كنت تريد تمييز كل ورقة العمل ، وتضمين جميع الأشكال والصور
+-  قم بتعيين ما إذا كان سيتم تمييز كافة الكائنات في ورقة العمل النشطة، بما في ذلك جميع الأشكال والصور وكل منطقة ورقة العمل
 ```javascript
 xs.sheet.setHighlightAll(ishighlightall,isrerender=true)
    // the parameters are:
@@ -175,9 +186,15 @@ xs.sheet.setCustomHighlightImgFunc(func)
     
 ```
 
+-  مسح إعداد التمييز لورقة العمل النشطة
+```javascript
+xs.sheet.clearHighlights()
+
+```
+
 ###  تسليط الضوء على كائن مربع النص
-مربع النص هو نوع خاص من الأشكال حيث تكون خاصية الكتابة هي: "TextBox" ،
-على سبيل المثال: سيُظهر الرمز أدناه الشكل الذي يمثل مربع نص
+مربع النص هو نوع خاص من الأشكال وخاصية النوع هي:"TextBox"،
+على سبيل المثال: سيوضح الكود أدناه الشكل الذي يمثله مربع النص
 
 ```javascript
 for (let shape of xs.sheet.data.shapes) {
@@ -186,7 +203,7 @@ for (let shape of xs.sheet.data.shapes) {
     }
 }
 ```
--  أضف تسليط الضوء على كائن مربع النص
+-  إضافة تمييز لكائن مربع النص
 ```javascript
     addHighlight(startpostion,endposition)
     // the parameters are:
@@ -212,7 +229,7 @@ const textbox=xs.sheet.data.shapes[0];
      textbox.removeHighlight(5,10);
 ```
 
--  الحصول على تمييز لكائن مربع النص
+-  الحصول على تسليط الضوء على كائن مربع النص
 ```javascript
     getHighlight()
     //for example,we assume shape 0 is a textbox object
@@ -236,7 +253,7 @@ const textbox=xs.sheet.data.shapes[0];
         boolvalue: if true,will change background color and the text color of the textbox object;if false,restore to original appearence
 ```
 
--  إخفاء / إظهار محتوى النص في كائن مربع النص
+-  إخفاء/إظهار محتوى النص في كائن مربع النص
 ```javascript
     hideText(boolvalue)
     // the parameters are:
@@ -245,4 +262,4 @@ const textbox=xs.sheet.data.shapes[0];
 
 
 
-يمكنك العثور على المزيد في صفحة العرض التوضيحي الخاصة بنا على github https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html
+يمكنك العثور على المزيد في صفحتنا التجريبية على github https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html

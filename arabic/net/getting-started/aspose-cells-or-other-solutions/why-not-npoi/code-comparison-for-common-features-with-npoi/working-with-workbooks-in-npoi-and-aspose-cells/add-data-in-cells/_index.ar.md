@@ -1,11 +1,13 @@
-﻿---
+---
 title: أضف البيانات في Cells
 type: docs
 weight: 10
 url: /ar/net/add-data-in-cells/
+description: تشرح هذه المقالة كيفية إضافة البيانات في Cells باستخدام Aspose.Cells for .NET APIs.
+keywords: C# Add Data in Cells, C# Insert Data to Worksheet, C# Set Data of Cell.
 ---
-## **Aspose.Cells - أضف بيانات في Cells**
-يوفر Aspose.Cells فئة ، مصنف ، يمثل ملف إكسل Microsoft. تحتوي فئة المصنف على مجموعة أوراق العمل التي تتيح الوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة فئة ورقة العمل. توفر فئة ورقة العمل مجموعة الخلايا. يمثل كل عنصر في مجموعة Cells عنصرًا من فئة Cell.
+##  **كيفية إضافة البيانات في Cells باستخدام Aspose.Cells for .NET**
+يوفر Aspose.Cells فئة، Workbook، التي تمثل ملف Excel Microsoft. تحتوي فئة المصنف على WorksheetCollection الذي يسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة فئة ورقة العمل. توفر فئة ورقة العمل مجموعة خلايا. يمثل كل عنصر في مجموعة Cells كائنًا من فئة Cell.
 
 **C#**
 
@@ -13,15 +15,15 @@ url: /ar/net/add-data-in-cells/
 
  // إنشاء كائن مصنف
 
-مصنف المصنف = مصنف جديد () ؛
+مصنف المصنف = مصنف جديد ()؛
 
 // الوصول إلى ورقة العمل المضافة في ملف Excel
 
-ورقة عمل ورقة العمل = workbook.Worksheets [0] ؛
+ورقة عمل ورقة العمل = Workbook.Worksheets[0];
 
-كثافة العمليات س = 1 ؛
+كثافة العمليات س = 1؛
 
- لـ (int i = 1 ؛ i<= 15; i++)
+من أجل (int i = 1؛ i<= 15; i++)
 
 {
 
@@ -39,22 +41,22 @@ workbook.Save("test.xlsx");
 
 
 {{< /highlight >}}
-## **NPOI HSSF XSSF - أضف البيانات في Cells**
-في NPOI row.createCell (1). يمكن استخدام setCellValue لإضافة البيانات في الخلايا.
+##  **NPOI HSSF XSSF - أضف البيانات في Cells**
+في NPOI، يمكن استخدام Row.createCell(1).setCellValue لإضافة البيانات في الخلايا.
 
 **C#**
 
 {{< highlight "cs" >}}
 
- مصنف IWorkbook = جديد XSSFWorkbook () ؛
+ IWorkbook Workbook = new XSSFWorkbook();
 
-ISheet sheet1 = workbook.CreateSheet ("Sheet1") ؛
+ISheet Sheet1 = Workbook.CreateSheet("Sheet1");
 
-sheet1.CreateRow (0) .CreateCell (0) .SetCellValue ("This is a Sample") ؛
+Sheet1.CreateRow(0).CreateCell(0).SetCellValue("هذه عينة");
 
-كثافة العمليات س = 1 ؛
+كثافة العمليات س = 1؛
 
- لـ (int i = 1 ؛ i<= 15; i++)
+من أجل (int i = 1؛ i<= 15; i++)
 
 {
 
@@ -77,13 +79,13 @@ workbook.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+##  **تحميل كود التشغيل**
  تحميل**أضف البيانات في Cells** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Add.Data.In.Cells.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[إضافة البيانات إلى Cells](/cells/ar/net/add-data-in-cells/).
+ لمزيد من التفاصيل، قم بزيارة[إضافة البيانات إلى Cells](/cells/ar/net/add-data-in-cells/).
 
 {{% /alert %}}

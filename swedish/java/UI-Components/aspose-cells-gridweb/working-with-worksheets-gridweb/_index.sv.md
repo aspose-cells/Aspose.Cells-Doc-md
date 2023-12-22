@@ -1,10 +1,10 @@
-﻿---
+---
 title: Arbeta med kalkylblad GridWeb
 type: docs
 weight: 30
 url: /sv/java/working-with-worksheets-gridweb/
 ---
-## **Åtkomst till arbetsblad**
+##  **Åtkomst till arbetsblad**
 
 Det här ämnet diskuterar åtkomst till kalkylblad för GridWeb-kontrollen. Vi kan också kalla dessa arbetsblad för webbkalkylblad eftersom de tillhör GridWeb och används i webbapplikationer.
 
@@ -14,7 +14,7 @@ Utvecklare kan komma åt ett specifikt kalkylblad genom att ange dess arkindex s
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-AccessingWorksheet-AccessingWorksheet.jsp" >}}
 
-## **Ta bort ett arbetsblad**
+##  **Ta bort ett arbetsblad**
 
 Det här avsnittet ger kort information om hur du tar bort kalkylblad från Microsoft Excel-filer med hjälp av GridWeb API. Ta bort ett kalkylblad genom att ange dess arkindex.
 
@@ -22,11 +22,11 @@ Utvecklare kan ta bort ett specifikt kalkylblad genom att ange dess arkindex med
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-RemovingWorksheet-RemovingWorksheet.jsp" >}}
 
-## **Lägga till arbetsblad**
+##  **Lägga till arbetsblad**
 
 Arbetsblad är en integrerad del av GridWeb. All data hanteras och lagras i form av arbetsblad. GridWeb tillåter utvecklare att lägga till ett eller flera kalkylblad till Aspose.Cells.GridWeb-kontrollen. Det här ämnet visar enkla metoder för att lägga till kalkylblad till GridWeb.
 
-### **Utan att ange arbetsbladsnamn**
+###  **Utan att ange arbetsbladsnamn**
 
 Det enklaste sättet att lägga till ett kalkylblad till Aspose.Cells.GridWeb är att anropa GridWorksheetCollection-klassens add-metod i GridWeb-kontrollen. Detta skapar kalkylblad som använder standardnamn (det vill säga Sheet1, Sheet2, Sheet3 och så vidare) och lägger till dem i GridWeb-kontrollen.
 
@@ -36,7 +36,7 @@ Det enklaste sättet att lägga till ett kalkylblad till Aspose.Cells.GridWeb ä
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-AddingWorksheetWithoutSpecificName-AddingWorksheetWithoutSpecificName.jsp" >}}
 
-### **Med specificerat bladnamn**
+###  **Med specificerat bladnamn**
 
 För att lägga till ett kalkylblad med ett specifikt namn till GridWeb-kontrollen istället för att använda standardnamnschemat, anropa en överbelastad version av add-metoden som tar den angivna strängen SheetName. Exempelvis lägger exemplet nedan till ett kalkylblad med namnet Faktura.
 
@@ -52,11 +52,11 @@ För att lägga till ett kalkylblad med ett specifikt namn till GridWeb-kontroll
 
 {{% /alert %}}
 
-## **Byta namn på ett arbetsblad**
+##  **Byta namn på ett arbetsblad**
 
 Att byta namn på ett kalkylblad kan vara mycket användbart när man arbetar med många kalkylblad i GridWeb och bestämmer sig för att ändra deras namn för att göra dem mer meningsfulla. Till exempel kan ett kalkylblad som innehåller en faktura döpas om till Faktura istället för Blad1. Det här avsnittet beskriver denna enkla men användbara funktion.
 
-### **Byta namn på ett arbetsblad**
+###  **Byta namn på ett arbetsblad**
 
 Alla kalkylblad innehåller en Name-egenskap som tillåter utvecklare att komma åt eller ändra kalkylbladens namn. Så här byter du namn på ett kalkylblad:
 
@@ -83,16 +83,16 @@ Efter att ha kört koden byts kalkylbladet om till Faktura.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-RenamingWorksheet-RenamingWorksheet.jsp" >}}
 
-## **Kopiera ett arbetsblad**
+##  **Kopiera ett arbetsblad**
 
 [Lägga till arbetsblad](/cells/sv/java/working-with-worksheets-gridweb/#workingwithworksheetsgridweb-addingworksheets)beskriver hur man lägger till nya kalkylblad till GridWeb. Det är också möjligt att lägga till en kopia (eller replika) av ett annat kalkylblad till Aspose.Cells.GridWeb-kontrollen. Den här funktionen kan vara användbar när identiska eller liknande data i ett kalkylblad också krävs i ett annat kalkylblad. När så är fallet är det lättare att kopiera ett befintligt kalkylblad och lägga till det i Aspose.Cells.GridWeb som ett nytt kalkylblad istället för att skapa det från början.
 
-### **Använder Sheet index**
+###  **Använder Sheet index**
 
 Exempelkoden nedan visar hur man lägger till en kopia av ett kalkylblad till GridWeb-kontrollen genom att ange kalkylbladets index i GridWorksheetCollections addCopy-metod.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-CopyWorksheetUsingSheetIndex-CopyWorksheetUsingSheetIndex.jsp" >}}
-### **Använder arknamn**
+###  **Använder arknamn**
 Exempelkoden nedan visar hur man lägger till en kopia av ett kalkylblad till GridWeb-kontrollen genom att ange kalkylbladets namn i GridWorksheetCollections addCopy-metod.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-CopyWorksheetUsingSheetName-CopyWorksheetUsingSheetName.jsp" >}}
@@ -103,7 +103,7 @@ Exempelkoden nedan visar hur man lägger till en kopia av ett kalkylblad till Gr
 
 {{% /alert %}}
 
-## **Arbeta med Named Ranges**
+##  **Arbeta med Named Ranges**
 
 Normalt används kolumn- och radetiketter för att unikt referera till celler. Men du kan skapa beskrivande namn för att representera celler, cellintervall, formler eller konstanta värden.
 
@@ -113,7 +113,7 @@ Normalt används kolumn- och radetiketter för att unikt referera till celler. M
 
 Användare kan tilldela ett namn till ett intervall och använda det namnet i formler. Aspose.Cells.GridWeb stöder den här funktionen.
 
-### **Lägga till/refera till namngivna intervall i formler**
+###  **Lägga till/refera till namngivna intervall i formler**
 
 GridWeb-kontrollen tillhandahåller två klasser (GridName och GridNameCollection) för att arbeta med namngivna intervall.
 
@@ -121,13 +121,13 @@ Följande kodavsnitt hjälper dig att förstå hur du använder dem.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-AddingNamedRangesinFormulas-AddingNamedRangesinFormulas.jsp" >}}
 
-## **Hantera kommentarer i arbetsblad**
+##  **Hantera kommentarer i arbetsblad**
 
 Det här ämnet diskuterar att lägga till, komma åt och ta bort kommentarer från kalkylblad. Kommentarer är användbara för att lägga till anteckningar eller användbar information för användare som ska arbeta med arket. Utvecklare har flexibiliteten att lägga till kommentarer till valfri cell i kalkylbladet.
 
-### **Arbeta med kommentarer**
+###  **Arbeta med kommentarer**
 
-#### **Lägger till kommentarer**
+####  **Lägger till kommentarer**
 
 För att lägga till en kommentar till arbetsbladet, följ stegen nedan:
 
@@ -142,7 +142,7 @@ För att lägga till en kommentar till arbetsbladet, följ stegen nedan:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-AddingComments-AddingComments.jsp" >}}
 
-#### **Åtkomst till kommentarer**
+####  **Åtkomst till kommentarer**
 
 För att komma åt en kommentar:
 
@@ -153,7 +153,7 @@ För att komma åt en kommentar:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-AccessingComments-AccessingComments.jsp" >}}
 
-#### **Ta bort kommentarer**
+####  **Ta bort kommentarer**
 
 Så här tar du bort en kommentar:
 
@@ -162,20 +162,20 @@ Så här tar du bort en kommentar:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-RemovingComments-RemovingComments.jsp" >}}
 
-## **Hantera hyperlänkar i arbetsblad**
+##  **Hantera hyperlänkar i arbetsblad**
 
 Det här ämnet diskuterar vilka typer av hyperlänkar som stöds i Aspose.Cells.GridWeb och hur man hanterar dem programmatiskt. Hyperlänkar kan användas för att antingen skapa länkar till webbadresser eller för att utföra återsändning till en server.
 
-### **Typer av hyperlänkar**
+###  **Typer av hyperlänkar**
 
 Följande hyperlänkar stöds av Aspose.Cells.GridWeb:
 
 - Text URL-hyperlänkar, URL-hyperlänkar som tillämpas på texten.
 - Bild-URL-hyperlänkar, URL-hyperlänkar som tillämpas på bilder.
 
-#### **Text URL hyperlänkar**
+####  **Text URL hyperlänkar**
 
- Exemplet nedan lägger till två hyperlänkar till ett kalkylblad. Man har en_ tomt mål medan det andra är inställt på_förälder.
+Exemplet nedan lägger till två hyperlänkar till ett kalkylblad. Den ena har ett _blank mål medan den andra är inställd på _parent.
 
 ![todo:image_alt_text](working-with-worksheets-gridweb_6.png)
 
@@ -183,7 +183,7 @@ Följande hyperlänkar stöds av Aspose.Cells.GridWeb:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-TextURLHyperlinks-TextURLHyperlinks.jsp" >}}
 
-#### **Bild URL-hyperlänkar**
+####  **Bild URL-hyperlänkar**
 
 Exemplet nedan lägger till hyperlänk för bildadress till ett kalkylblad.
 
@@ -193,13 +193,13 @@ Exemplet nedan lägger till hyperlänk för bildadress till ett kalkylblad.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-ImageURLHyperlinks-ImageURLHyperlinks.jsp" >}}
 
-## **Sortering av data**
+##  **Sortering av data**
 
 Sortering är en mycket värdefull funktion när det kommer till databehandling. Osorterade data är jobbigt för användare när de söker efter specifik information. Aspose.Cells.GridWeb stöder kraftfulla sorteringsfunktioner. Det här ämnet diskuterar sortering av data med hjälp av Aspose.Cells.GridWeb API.
 
 Aspose.Cells.GridWeb låter utvecklare sortera data horisontellt och vertikalt så att utvecklare kan sortera data från topp till botten eller vänster till höger.
 
-### **Från topp till tå**
+###  **Från topp till tå**
 
 Så här sorterar du data från topp till botten:
 
@@ -223,7 +223,7 @@ Efter exekvering av koden sorteras data i stigande ordning.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-datasortedfromtoptobottomascendingorder-datasortedfromtoptobottomascendingorder.jsp" >}}
 
-### **Från vänster till höger**
+###  **Från vänster till höger**
 
 Så här sorterar du data från vänster till höger:
 
@@ -247,11 +247,11 @@ Efter exekvering av koden sorteras data i stigande ordning.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-datasortedfromleftrightascendingorder-datasortedfromleftrightascendingorder.jsp" >}}
 
-## **Söka och ersätta**
+##  **Söka och ersätta**
 
 Ett av de snabbaste sätten att göra repetitiva ändringar i ett stort kalkylblad är att använda sök- och ersätt-funktionen. Find hjälper dig att hitta en textsträng eller data och ersätta den med ett nytt värde. Aspose.Cells.GridWeb tillhandahåller denna funktion. Det gör att du kan söka efter och ersätta med en specifik textsträng eller värde i kalkylbladets klientsida genom en enkel dialog. Det låter dig till och med leta efter partiella data.
 
-### **Dialogrutan Sök/Ersätt**
+###  **Dialogrutan Sök/Ersätt**
 
 Det finns två sätt att öppna dialogrutan Sök/Ersätt:
 
@@ -284,32 +284,32 @@ Om ditt sökkriterium inte hittas visas en dialogruta som talar om för dig.
 
 {{% /alert %}}
 
-### **Sökalternativ**
+###  **Sökalternativ**
 
 Det finns några sökalternativ som du kan anpassa i dialogrutan. Tabellen nedan listar dem.
 
 |**Nej.**|**Alternativets namn**|**Beskrivning**|
-|:- |:- |:- |
+| :- | :- | :- |
 |1|Liknande fall|Anger om skiftlägeskänsligt ska användas vid sökning.|
 |2|Matcha hela ordet|Anger om hela ordet ska matchas vid sökning.|
 |3|Sök upp|Indikerar om sökningen kommer att göras från botten till toppen.|
 |4|Vanligt uttryck|När den är markerad kommer kontrollen att behandla strängen i textrutan Hitta vad som ett reguljärt uttryck i sökprocessen.|
 |5|Hitta i Formler/Värden|När formlerna är vald kommer kontrollen att matcha formeln eller det oformaterade värdet för cellerna om formeln eller det oformaterade värdet finns. När värden är vald kommer kontrollen endast att matcha det visade värdet för cellerna.|
 
-### **Använder Ersätt**
+###  **Använder Ersätt**
 
 Så här ersätter du text eller värden:
 
-1.  Öppna dialogrutan Sök/Ersätt genom att trycka på**CTRL+F** , eller välj högerklicka på en cell och välj**Hitta** innan du klickar**Byta ut**.
+1.  Öppna dialogrutan Sök/Ersätt genom att trycka på**CTRL+F**, eller välj högerklicka på en cell och välj **Sök** innan du klickar på *Ersätt**.
 1.  Skriv ersättningssträngen i**Ersätta med**fält.
-1.  Klick**Byta ut**.
+1. Klicka på *Ersätt**.
 
 Så här ersätter du text:
 
 1. Öppna dialogrutan.
 1.  Skriv in texten du vill hitta i**Hitta vad** fältet och texten du vill ersätta det inom**Ersätta med** fält.
-1.  Ersätt en förekomst i taget genom att klicka**Hitta nästa** följd av**Byta ut**.
-1.  Om du är väldigt säker på vad arbetsbladet innehåller, klicka**Ersätt alla**.
+1.  Ersätt en förekomst i taget genom att klicka**Hitta nästa** följt av *Ersätt**.
+1. Om du är mycket säker på vad kalkylbladet innehåller, klicka på *Ersätt alla**.
 
 {{% alert color="primary" %}}
 
@@ -321,7 +321,7 @@ Så här ersätter du text:
 
 Aspose.Cells GridWeb stöder nu att lägga till och ta bort hyperlänkar från klientsidan. För detta tillhandahåller API funktionerna "addCelllink" och "delCelllink". Följande kodsnuttar visar hur man lägger till och tar bort hyperlänkar från klientsidan i GridWeb.
 
-### Exempelkod
+###  Exempelkod
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-add-remove-hyperlink-from-client-side-1.jsp" >}}
 
@@ -329,35 +329,35 @@ Du kan också länka till arket med hjälp av följande kodavsnitt.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-add-remove-hyperlink-from-client-side-2.jsp" >}}
 
-## Uppdatera teckensnittsinställningar från klientsidan
+##  Uppdatera teckensnittsinställningar från klientsidan
 
 Aspose.Cells GridWeb stöder nu ändring av teckensnittsinställningar från klientsidan. För detta tillhandahåller API följande funktioner
 
-- **uppdateraCellFontStyle**: Params - r/i/b/ib för vanlig/kursiv/fet/kursiv&&fet
-- **uppdateraCellFontSize**: Params - teckensnittsnamn, etc. 'System'
-- **uppdateraCellFontName**: Params - teckenstorlek, etc. '12pt'
-- **uppdateraCellFontColor**: Params - ingen/u/l/ul/ för ingen/understruken/överstruken/understruken&&överstruken
-- **uppdateraCellFontLine**: Params - HTML-färg som #aa22ee eller välkänt färgnamn som grönt, rött,...
-- **uppdateraCellBackGroundColor**: Params - HTML-färg som #aa22ee eller välkänt färgnamn som grönt, rött,...
+- *updateCellFontStyle**: Params - r/i/b/ib för vanlig/kursiv/fet/kursiv&&fet
+- *updateCellFontSize**: Params - teckensnittsnamn, etc. 'System'
+- *updateCellFontName**: Params - fontsize, etc. '12pt'
+- *updateCellFontColor**: Params - none/u/l/ul/ för ingen/understrecka/överstruken/understruken&&överstruken
+- *updateCellFontLine**: Params - html-färg som #aa22ee eller välkänt färgnamn som grönt, rött,...
+- *updateCellBackGroundColor**: Params - html-färg som #aa22ee eller välkänt färgnamn som grönt, rött,...
 
 Följande kodavsnitt visar hur du ändrar teckensnittsinställningar från klientsidan i GridWeb.
 
-### Exempelkod
+###  Exempelkod
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-update_font_from_client_side-1.jsp" >}}
 
-## Lägg till/ta bort kommentarer från klientsidan
+##  Lägg till/ta bort kommentarer från klientsidan
 
 Aspose.Cells GridWeb stöder nu att lägga till och ta bort kommentarer från klientsidan. För detta tillhandahåller API funktionerna "addcomments" och "decomments". Följande kodavsnitt visar hur man lägger till och tar bort kommentarer från klientsidan i GridWeb.
 
-### Exempelkod
+###  Exempelkod
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-add_remove_comments_from_client_side.jsp" >}}
 
-## Visa knappar för att lägga till/ta bort kalkylblad
+##  Visa knappar för att lägga till/ta bort kalkylblad
 
- Aspose.Cells GridWeb stöder nu att lägga till och ta bort ark genom att använda knappar i verktygsfältet. För att knapparna ska vara synliga på fronten måste du ställa in**GridWeb1.ShowAddButton** till**Sann**. Följande kodavsnitt visar hur man lägger till Lägg till/ta bort-knappar i GridWeb-verktygsfältet.
+ Aspose.Cells GridWeb stöder nu att lägga till och ta bort ark genom att använda knappar i verktygsfältet. För att knapparna ska vara synliga på fronten måste du ställa in**GridWeb1.ShowAddButton** till *sant**. Följande kodavsnitt visar hur man lägger till Lägg till/ta bort-knappar i GridWeb-verktygsfältet.
 
-### Exempelkod
+###  Exempelkod
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "GridWeb-show_add_remove_worksheet_buttons.java" >}}

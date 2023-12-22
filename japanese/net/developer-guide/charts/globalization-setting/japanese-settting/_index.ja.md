@@ -1,5 +1,7 @@
 ---
 title: 日本地域のチャートを画像に変換
+description: Aspose.Cells の使用方法を学ぶ for .NET はチャートの日本語構成を設定します。このガイドでは、日本語の文字と書式設定 (フォント、サイズ、テキストの方向など) をサポートするようにグラフを構成する方法を説明します。
+keywords: Aspose.Cells for .NET, Charts, Japanese configuration, font, font size, text direction, support.
 linktitle: 日本の地域を設定する
 type: docs
 weight: 10
@@ -44,7 +46,7 @@ alias: [/net/set-japanese-configuration-for-chart/]
 |軸ユニット名|百,千...|何百、何千...|
 |チャートのタイトル名|グラフ タイトル|チャートのタイトル|
 |レジェンド増加名|ぞうか|増加|
-|凡例の名前の減少|削減|下降|
+|凡例の名前の減少|削減|減少|
 |凡例の合計名|すべての|合計|
 |ほかの名前|その他|他の|
 |シリーズ名|シリーズ|シリーズ|

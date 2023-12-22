@@ -1,10 +1,12 @@
-﻿---
+---
 title: Iterera rader och kolumner
 type: docs
 weight: 50
 url: /sv/java/iterate-rows-and-columns/
+description: "Lär dig hur du itererar rader och kolumner genom API:erna Aspose.Cells for Java."
+keywords: How to Iterate Rows and Columns in Java, Iterate Rows using Java, Java Iterate Columns. 
 ---
-## **Aspose.Cells - Iterera rader och kolumner**
+##  **Hur man itererar rader och kolumner med Aspose.Cells for Java**
 
 Rader och kolumner kan itereras med rader och kolumner.
 
@@ -44,7 +46,7 @@ RowCollection rows = cells.getRows();
 
 {{< /highlight >}}
 
-## **Apache POI SS - HSSF XSSF - Iterera rader och kolumner**
+##  **Apache POI SS - HSSF XSSF - Iterera rader och kolumner**
 
 Rader och Cells kan itereras på Kalkylark. Exempelkod nämns nedan:
 
@@ -72,11 +74,11 @@ for (Row row : sheet)
 
 {{< /highlight >}}
 
-## **Ladda ner Running Code**
+##  **Ladda ner Running Code**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 
-## **Ladda ner provkod**
+##  **Ladda ner provkod**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/iterate)
 

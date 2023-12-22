@@ -1,17 +1,17 @@
-﻿---
-title: GridWebのページ変更時にクライアントサイド関数を実行する
+---
+title: GridWebページ変更時にクライアント側関数を実行
 type: docs
 weight: 70
 url: /ja/java/execute-client-side-function-on-gridweb-page-change/
 ---
-## **考えられる使用シナリオ**
-GridWeb ページが変更されたときに、クライアント側の関数を実行する必要がある場合があります。 Aspose.Cells.GridWeb は、この目的のために OnPageChangeClientFunction プロパティを提供します。実行したいクライアント側関数でこのプロパティを設定してください。
-## **GridWebのページ変更時にクライアントサイド関数を実行する**
-次の Java コードは、GridWebBean.setOnPageChangeClientFunction() プロパティを使用する方法を説明しています。 MyOnPageChange という名前のクライアント側関数でプロパティを設定します。このプロパティは、ページングを有効にしている場合、つまり GridWebBean.setEnablePaging(true) のみ有効であることに注意してください。これで、GridWeb ページを変更するたびに、クライアント側関数 MyOnPageChange が呼び出され、**現在のページ インデックス**上で**コンソール**このスクリーンショットに示すように。
+##  **考えられる使用シナリオ**
+GridWeb ページが変更されたときに、クライアント側の関数を実行する必要がある場合があります。 Aspose.Cells.GridWeb は、この目的のために OnPageChangeClientFunction プロパティを提供します。このプロパティは実行したいクライアント側関数で設定してください。
+##  **GridWebページ変更時にクライアント側関数を実行**
+次の Java コードは、GridWebBean.setOnPageChangeClientFunction() プロパティの使用方法を説明しています。 MyOnPageChange という名前のクライアント側関数を使用してプロパティを設定します。このプロパティは、ページングを有効にした場合 (つまり GridWebBean.setEnablePaging(true)) にのみ有効であることに注意してください。これで、GridWeb ページを変更するたびに、クライアント側関数 MyOnPageChange が呼び出され、**現在のページのインデックス**で**コンソール**このスクリーンショットに示されているように。
 
-![todo:画像_代替_文章](execute-client-side-function-on-gridweb-page-change_1.png)
-## **サンプルコード**
-これは、この行、つまり Gridweb.setOnPageChangeClientFunction("MyOnPageChange"); のために実行されるクライアント側関数 MyOnPageChange のコードです。
+![todo:image_alt_text](execute-client-side-function-on-gridweb-page-change_1.png)
+##  **サンプルコード**
+これは、この行によって実行されるクライアント側関数 MyOnPageChange のコードです。すなわち Gridweb.setOnPageChangeClientFunction("MyOnPageChange");
 
 {{< highlight "java" >}}
 
@@ -23,7 +23,7 @@ GridWeb ページが変更されたときに、クライアント側の関数を
 
 {{< /highlight >}}
 
-次のコードは、ページングを有効にして OnPageChangeClientFunction プロパティを設定する方法を説明しています。
+次のコードは、ページングを有効にして OnPageChangeClientFunction プロパティを設定する方法を説明します。
 
 {{< highlight "java" >}}
 

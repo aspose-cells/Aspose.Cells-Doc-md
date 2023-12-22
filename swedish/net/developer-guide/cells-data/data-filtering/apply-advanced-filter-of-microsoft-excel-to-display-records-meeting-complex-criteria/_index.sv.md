@@ -1,10 +1,12 @@
-﻿---
+---
 title: Använd avancerat filter av Microsoft Excel för att visa poster som uppfyller komplexa kriterier
 type: docs
 weight: 280
 url: /sv/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/
+description: Lär dig hur du använder det avancerade filtret i Microsoft Excel för att visa poster som uppfyller komplexa kriterier genom att använda Aspose.Cells for .NET API.
+keywords: Apply Advanced Filter, Set Advanced Filter, Add Advanced Filter, Create Advanced Filter, How to add Advanced Filter to a range 
 ---
-## **Möjliga användningsscenarier**
+##  **Möjliga användningsscenarier**
 
  Microsoft Excel låter dig ansöka*Avancerat filter* på kalkylbladsdata för att visa poster som uppfyller komplexa kriterier. Du kan använda Advanced Filter med Microsoft Excel via dess*Data > Avancerat*kommandot som visas i den här skärmdumpen.
 
@@ -24,7 +26,7 @@ Listomfånget.
 
 Kriterierna varierar.
 
-**kopiera till**
+**kopia till**
 
 Området dit kopiering av data till.
 
@@ -32,12 +34,12 @@ Området dit kopiering av data till.
 
 Visar eller kopierar endast unika rader.
 
-## **Använd avancerat filter av Microsoft Excel för att visa poster som uppfyller komplexa kriterier**
+##  **Använd avancerat filter av Microsoft Excel för att visa poster som uppfyller komplexa kriterier**
 
 Följande exempelkod tillämpar det avancerade filtret på[Exempel på Excel-fil](48496692.xlsx) och genererar[Utdata Excel-fil](48496691.xlsx). Skärmdumpen visar båda filerna för jämförelse. Som du kan se inuti skärmdumpen har data filtrerats in i Excel-utdatafilen enligt komplexa kriterier.
 
 ![todo:image_alt_text](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_2.png)
 
-## **Exempelkod**
+##  **Exempelkod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-ApplyAdvancedFilterOfMicrosoftExcel.cs" >}}

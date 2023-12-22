@@ -1,130 +1,133 @@
-﻿---
+---
 title: サポートされている Excel 関数
-type: docs
 toc: false
+type: docs
 weight: 10
 url: /ja/java/supported-formula-functions/
-description: 数式の読み込み・設定・計算に対応したエクセル関数
+description: 数式の読み取り/設定/計算のための Excel 関数をサポート
 keywords: formula function calculate
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells API は、ほとんどの標準関数と Excel の組み込み式をサポートしています。以下に、サポートされているすべての機能をアルファベット順に示します。
+Aspose.Cells API は、ほとんどの標準関数と Excel の組み込み数式をサポートしています。以下に、サポートされているすべての関数をアルファベット順に示します。
 
-||||||||||||||
+| | | | | | | | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|**[A](#a)** |**[B](#b)** |**[C](#c)** |**[D](#d)** |**[E](#e)** |**[F](#f)** |**[G](#g)** |**[H](#h)** |**[私](#私)** |**[J](#j)** |**[K](#k)** |**[L](#l)** |**[んん）** |
-|**[N](#n)** |**[お](#o)** |**[P](#p)** |**[Q](#q)** |**[R](#r)** |**[S](#s)** |**[T](#t)** |**[う](#う)** |**[V](#v)** |**[W](#w)** |**[X](#x)** |**[Y](#y)** |**[グーグー）** |
+| **[A](#a)** | **[B](#b)** | **[C](#c)** | **[D](#d)** | **[E](#e)** | **[F](#f)** | **[G](#g)** | **[H](#h)** | **[I](#i)** | **[J](#j)** | **[K](#k)** | **[L](#l)** | **[んん）** |
+| **[N](#n)** | **[O](#o)** | **[P](#p)** | **[Q](#q)** | **[R](#r)** | **[S](#s)** | **[T](#t)** | **[U](#u)** | **[V](#v)** | **[W](#w)** | **[X](#x)** | **[Y](#y)** | **[グーグー）** |
 
 {{% /alert %}}
 
 Aspose.Cells' 数式計算エンジンを使用すると、次の数式と関数の結果を設定、読み取り、計算できます。
 
-###### **あ**
-|**関数**|**概要**|
-|:- |:- |
+######  *A**
+|**関数**|**まとめ**|
+| :- | :- |
 |ABS|
 |ACCRINT|
 |ACCRINTM|
 |ACOS|
-|アコッシュ|
-|住所|
-|集計|
+|ACOSH|
+|ADDRESS|
+|AGGREGATE|
 |AMORDEGRC|
-|アモーリンク|
-|と|
-|エリア|
+|AMORLINC|
+|ANCHORARRAY|
+|AND|
+|AREAS|
 |ASC|
 |ASIN|
-|アシン|
-|日焼け|
+|ASINH|
+|ATAN|
 |ATAN2|
-|アタン|
-|アヴェデフ|
-|平均|
-|平均|
-|平均的な|
-|平均値|
+|ATANH|
+|AVEDEV|
+|AVERAGE|
+|AVERAGEA|
+|AVERAGEIF|
+|AVERAGEIFS|
 
-###### **B**
-|**関数**|**概要**|
-|:- |:- |
-|ベッセリ|
-|ベッセルジ|
-|ベッセルク|
-|ベッセリー|
-|ベータディスト|
-|BETA.DIST|
+######  *B**
+|**関数**|**まとめ**|
+| :- | :- |
+|BESSELI|
+|BESSELJ|
+|BESSELK|
+|BESSELY|
+|BETADIST|
+|ベータ距離|
 |BETAINV|
 |BETA.INV|
 |BIN2DEC|
 |BIN2HEX|
 |BIN2OCT|
-|ビノムディスト|
+|BINOMDIST|
 |BINOM.DIST|
 |BITAND|
-|ビットシフト|
-|ビター|
-|ビットシフト|
-|ビットソー|
+|BITLSHIFT|
+|BITOR|
+|BITRSHIFT|
+|BITXOR|
 
-###### **C**
-|**関数**|**概要**|
-|:- |:- |
-|天井|
+######  *C**
+|**関数**|**まとめ**|
+| :- | :- |
+|CEILING|
 |天井.数学|
-|天井高精度|
-|細胞|
+|天井の精度|
+|CELL|
 |CHAR|
-|チディスト|
+|CHIDIST|
 |CHIINV|
-|チテスト|
-|CHISQ.DIST|
-|CHISQ.DIST.RT|
-|CHISQ.INV.RT|
-|CHISQ.TEST|
-|選ぶ|
-|綺麗|
-|コード|
-|桁|
-|列|
-|組み合わせる|
-|繁雑|
+|CHITEST|
+|化学距離|
+|チスク地区RT|
+|チスク株式会社|
+|心理テスト|
+|CHOOSE|
+|CHOOSECOLS|
+|CHOOSEROWS|
+|CLEAN|
+|CODE|
+|COLUMN|
+|COLUMNS|
+|COMBIN|
+|COMPLEX|
 |CONCAT|
-|連結する|
-|自信|
-|信頼度.NORM|
-|変換|
-|コレル|
+|CONCATENATE|
+|CONFIDENCE|
+|自信、規範|
+|CONVERT|
+|CORREL|
 |COS|
-|コッシュ|
-|カウント|
-|カウンター|
-|カウントブランク|
+|COSH|
+|COUNT|
+|COUNTA|
+|COUNTBLANK|
 |COUNTIF|
-|カウント|
+|COUNTIFS|
 |COUPDAYBS|
 |COUPDAYS|
 |COUPDAYSNC|
 |COUPNCD|
 |COUPNUM|
 |COUPPCD|
-|コヴァール|
+|COVAR|
 |共分散.P|
-|COVARIANCE.S|
-|クリトビノム|
+|共分散.S|
+|CRITBINOM|
 |CUMIPMT|
-|カンプリン|
+|CUMPRINC|
 
-###### **D**
-|**関数**|**概要**|
-|:- |:- |
-|日にち|
+######  *D**
+|**関数**|**まとめ**|
+| :- | :- |
+|DATE|
 |DATEDIF|
 |DATEVALUE|
-|ダメージ|
-|日|
-|日々|
+|DAVERAGE|
+|DAY|
+|DAYS|
 |DAYS360|
 |DB|
 |DCOUNT|
@@ -133,103 +136,105 @@ Aspose.Cells' 数式計算エンジンを使用すると、次の数式と関数
 |DEC2BIN|
 |DEC2HEX|
 |DEC2OCT|
-|度|
-|デルタ|
+|DEGREES|
+|DELTA|
 |DEVSQ|
 |DGET|
-|ディスク|
+|DISC|
 |DMAX|
 |DMIN|
-|ドル|
-|ドルデ|
+|DOLLAR|
+|DOLLARDE|
 |DOLLARFR|
 |DPRODUCT|
 |DSTDEV|
 |DSTDEVP|
 |DSUM|
-|間隔|
+|DURATION|
 |DVAR|
 |DVARP|
 
-###### **え**
-|**関数**|**概要**|
-|:- |:- |
+######  *え**
+|**関数**|**まとめ**|
+| :- | :- |
 |EDATE|
-|効果|
+|EFFECT|
+|ENCODEURL|
 |EOMONTH|
 |ERF|
 |ERFC|
-|ERROR.TYPE|
-|平|
-|ちょうど|
-|経験値|
+|エラーの種類|
+|EVEN|
+|EXACT|
+|EXP|
 |EXPONDIST|
 
-###### **ファ**
-|**関数**|**概要**|
-|:- |:- |
-|実際|
-|ファクトダブル|
-|間違い|
+######  *ファ**
+|**関数**|**まとめ**|
+| :- | :- |
+|FACT|
+|FACTDOUBLE|
+|FALSE|
 |F.DIST|
 |FDIST|
 |F.DIST.RT|
-|フィルター|
-|探す|
+|FILTER|
+|FIND|
 |FINDB|
 |F.INV.RT|
 |FINV|
-|フィッシャー|
+|FISHER|
 |FISHERINV|
-|修繕|
-|床|
-|FLOOR.MATH|
-|予報|
-|FORECAST.LINEAR|
-|数式テキスト|
-|周波数|
-|V|
+|FIXED|
+|FLOOR|
+|フロア数学|
+|FORECAST|
+|予測.線形|
+|FORMULATEXT|
+|FREQUENCY|
+|FV|
 |FVSCHEDULE|
 
-###### **G**
-|**関数**|**概要**|
-|:- |:- |
-|GAMMA.DIST|
-|ガンマディスト|
+######  *G**
+|**関数**|**まとめ**|
+| :- | :- |
+|ガンマ.ディスト|
+|GAMMADIST|
 |GAMMA.INV|
-|ガンマイン|
-|ガンマルン|
+|GAMMAINV|
+|GAMMALN|
 |GCD|
-|ジオミアン|
-|ゲシュテプ|
+|GEOMEAN|
+|GESTEP|
 |GETPIVOTDATA|
-|成長|
+|GROWTH|
 
-###### **は**
-|**関数**|**概要**|
-|:- |:- |
-|ハルミアン|
+######  *は**
+|**関数**|**まとめ**|
+| :- | :- |
+|HARMEAN|
 |HEX2BIN|
 |HEX2DEC|
 |HEX2OCT|
 |HLOOKUP|
-|時間|
-|ハイパーリンク|
+|HOUR|
+|HSTACK|
+|HYPERLINK|
 |HYPGEOM.DIST|
 |HYPGEOMDIST|
 
-###### **私**
-|**関数**|**概要**|
-|:- |:- |
-|もしも|
-|イフエラー|
+######  *私**
+|**関数**|**まとめ**|
+| :- | :- |
+|IF|
+|IFERROR|
 |IFNA|
 |IFS|
-|イマブ|
-|架空の|
-|免責事項|
-|共役|
-|イムコス|
+|IMABS|
+|IMAGINARY|
+|IMARGUMENT|
+|IMCONJUGATE|
+|IMCOS|
 |IMDIV|
 |IMEXP|
 |IMLN|
@@ -237,25 +242,26 @@ Aspose.Cells' 数式計算エンジンを使用すると、次の数式と関数
 |IMLOG2|
 |IMPOWER|
 |IMPRODUCT|
-|私は本物|
-|イムシン|
+|IMREAL|
+|IMSIN|
 |IMSQRT|
 |IMSUB|
-|イムサム|
-|索引|
-|間接的|
+|IMSUM|
+|INDEX|
+|INDIRECT|
 |INT|
-|インターセプト|
-|インレート|
+|INTERCEPT|
+|INTRATE|
 |IPMT|
-|内部利益率|
-|イスブランク|
+|IRR|
+|ISBLANK|
 |ISERR|
 |ISERROR|
-|伊勢えん|
-|論理的でない|
-|イスナ|
-|ISNOTEXT|
+|ISEVEN|
+|ISFORMULA|
+|ISLOGICAL|
+|ISNA|
+|ISNONTEXT|
 |ISNUMBER|
 |ISODD|
 |ISREF|
@@ -263,276 +269,285 @@ Aspose.Cells' 数式計算エンジンを使用すると、次の数式と関数
 |ISOWEEKNUM|
 |ISPMT|
 
-###### **K**
-|**関数**|**概要**|
-|:- |:- |
-|カート|
+######  *き**
+|**関数**|**まとめ**|
+| :- | :- |
+|KURT|
 
-###### **L**
-|**関数**|**概要**|
-|:- |:- |
-|大きい|
+######  *ラ**
+|**関数**|**まとめ**|
+| :- | :- |
+|LAMBDA|
+|LET|
+|LARGE|
 |LCM|
-|左|
-|左TB|
-|レン|
-|レンブ|
+|LEFT|
+|LEFTB|
+|LEN|
+|LENB|
+|LET|
 |LINEST|
 |LN|
-|ログ|
+|LOG|
 |LOG10|
-|ロジェスト|
-|ログインN|
+|LOGEST|
+|LOGINV|
 |LOGNORM.DIST|
-|LOGNORM.INV|
+|ログノーム株式会社|
 |LOGNORMDIST|
-|見上げる|
-|低い|
+|LOOKUP|
+|LOWER|
 
-###### **M**
-|**関数**|**概要**|
-|:- |:- |
-|マッチ|
-|最大|
-|マクサ|
-|マキシフ|
+######  *マ**
+|**関数**|**まとめ**|
+| :- | :- |
+|MAKEARRAY|
+|MAP|
+|MATCH|
+|MAX|
+|MAXA|
+|MAXIFS|
 |MDETERM|
 |MDURATION|
-|中央値|
-|ミッド|
+|MEDIAN|
+|MID|
 |MIDB|
-|最小|
-|ミニフ|
-|ミナ|
-|分|
+|MIN|
+|MINIFS|
+|MINA|
+|MINUTE|
 |MINVERSE|
-|ミラー|
+|MIRR|
 |MMULT|
-|モッド|
-|モード|
-|MODE.MULT|
-|モード.SNGL|
-|月|
-|ラウンド|
-|多項式|
+|MOD|
+|MODE|
+|モード.マルチ|
+|MODE.SNGL|
+|MONTH|
+|MROUND|
+|MULTINOMIAL|
 
-###### **な**
-|**関数**|**概要**|
-|:- |:- |
+######  *N**
+|**関数**|**まとめ**|
+| :- | :- |
 |N|
 |NA|
 |NEGBINOM.DIST|
 |NEGBINOMDIST|
-|ネットワーク日数|
+|NETWORKDAYS|
 |NETWORKDAYS.INTL|
-|公称|
+|NOMINAL|
 |NORM.DIST|
 |NORMDIST|
-|ノルミン|
+|NORMINV|
 |NORM.INV|
 |NORM.S.DIST|
 |NORMSDIST|
 |NORM.S.INV|
 |NORMSINV|
-|いいえ|
-|今|
+|NOT|
+|NOW|
 |NPER|
 |NPV|
 |NUMBERVALUE|
 
-###### **お**
-|**関数**|**概要**|
-|:- |:- |
+######  *O**
+|**関数**|**まとめ**|
+| :- | :- |
 |OCT2BIN|
 |OCT2DEC|
 |OCT2HEX|
-|奇数|
+|ODD|
 |ODDFPRICE|
-|ODDFIELD|
-|奇数価格|
+|ODDFYIELD|
+|ODDLPRICE|
 |ODDLYIELD|
-|オフセット|
-|また|
+|OFFSET|
+|OR|
 
-###### **は**
-|**関数**|**概要**|
-|:- |:- |
-|ピアソン|
+######  *パ**
+|**関数**|**まとめ**|
+| :- | :- |
+|PEARSON|
 |パーセンタイル.EXC|
-|パーセンタイル株式会社|
-|パーセンタイル|
-|PERCENTRANK.EXC|
-|PERCENTRANK.INC|
-|パーセントランク|
-|パーマット|
+|株式会社パーセンタイル|
+|PERCENTILE|
+|パーセントランク.EXC|
+|株式会社パーセントランク|
+|PERCENTRANK|
+|PERMUT|
 |PI|
 |PMT|
-|POISSON.DIST|
-|ポアソン|
-|パワー|
+|ポアソン.ディスト|
+|POISSON|
+|POWER|
 |PPMT|
-|価格|
-|価格ディスク|
-|プライスマット|
-|問題|
-|製品|
-|ちゃんとした|
+|PRICE|
+|PRICEDISC|
+|PRICEMAT|
+|PROB|
+|PRODUCT|
+|PROPER|
 |PV|
 
-###### **Q**
-|**関数**|**概要**|
-|:- |:- |
-|四分位|
+######  *Q**
+|**関数**|**まとめ**|
+| :- | :- |
+|QUARTILE|
 |四分位.EXC|
 |株式会社クォータイル|
-|商|
+|QUOTIENT|
 
-###### **R**
-|**関数**|**概要**|
-|:- |:- |
-|ラジアン|
-|ランド|
-|ランダレイ|
-|RANDBETWEN|
-|RANK.AVG|
-|RANK.EQ|
-|ランク|
-|割合|
-|受け取った|
-|交換|
+######  *R**
+|**関数**|**まとめ**|
+| :- | :- |
+|RADIANS|
+|RAND|
+|RANDARRAY|
+|RANDBETWEEN|
+|ランク.平均|
+|ランクEQ|
+|RANK|
+|RATE|
+|RECEIVED|
+|REPLACE|
 |REPLACEB|
-|繰り返す|
-|正しい|
-|右B|
-|ローマン|
-|円形|
-|ラウンドダウン|
-|切り上げする|
-|行|
-|行|
+|REPT|
+|RIGHT|
+|RIGHTB|
+|ROMAN|
+|ROUND|
+|ROUNDDOWN|
+|ROUNDUP|
+|ROW|
+|ROWS|
 |RSQ|
 
-###### **S**
-|**関数**|**概要**|
-|:- |:- |
-|探す|
-|検索する|
-|2番目|
-|順序|
-|シリーズサム|
-|シート|
-|シート|
-|サイン|
-|罪|
-|シン|
-|斜め|
+######  *す**
+|**関数**|**まとめ**|
+| :- | :- |
+|SCAN|
+|SEARCH|
+|SEARCHB|
+|SECOND|
+|SEQUENCE|
+|SERIESSUM|
+|SHEET|
+|SHEETS|
+|SIGN|
+|SIN|
+|SINH|
+|SINGLE|
+|SKEW|
 |SLN|
-|スロープ|
-|小さな|
-|選別|
-|並び替え|
+|SLOPE|
+|SMALL|
+|SORT|
+|SORTBY|
 |SQRT|
 |SQRTPI|
-|標準化する|
+|STANDARDIZE|
 |STDEV|
 |STDEV.P|
 |STDEV.S|
 |STDEVA|
 |STDEVP|
 |STDEVPA|
-|ステクス|
-|代わりの|
-|小計|
-|和|
-|スミフ|
-|サミット|
+|STEYX|
+|SUBSTITUTE|
+|SUBTOTAL|
+|SUM|
+|SUMIF|
+|SUMIFS|
 |SUMPRODUCT|
-|サムスク|
+|SUMSQ|
 |SUMX2MY2|
 |SUMX2PY2|
-|SUMMXMY2|
-|スイッチ|
-|シド|
+|SUMXMY2|
+|SWITCH|
+|SYD|
 
-###### **T**
-|**関数**|**概要**|
-|:- |:- |
+######  *た**
+|**関数**|**まとめ**|
+| :- | :- |
 |T|
-|タン|
-|タン|
-|ビレック|
+|TAN|
+|TANH|
+|TBILLEQ|
 |TBILLPRICE|
 |TBILLYIELD|
 |T.DIST.2T|
 |T.DIST.RT|
 |TDIST|
-|文章|
-|テキスト結合|
-|時間|
+|TEXT|
+|TEXTJOIN|
+|TIME|
 |TIMEVALUE|
 |T.INV.2T|
 |TINV|
-|今日|
-|転置|
-|傾向|
-|トリム|
-|トリムミアン|
-|真実|
+|TODAY|
+|TRANSPOSE|
+|TREND|
+|TRIM|
+|TRIMMEAN|
+|TRUE|
 |TRUNC|
-|T.TEST|
+|T.テスト|
 |TTEST|
-|タイプ|
+|TYPE|
 
-###### **う**
-|**関数**|**概要**|
-|:- |:- |
-|ユニチャー|
-|ユニコード|
-|個性的|
-|アッパー|
+######  *う**
+|**関数**|**まとめ**|
+| :- | :- |
+|UNICHAR|
+|UNICODE|
+|UNIQUE|
+|UPPER|
+|USDOLLAR|
 
-###### **V**
-|**関数**|**概要**|
-|:- |:- |
-|価値|
+######  *V**
+|**関数**|**まとめ**|
+| :- | :- |
+|VALUE|
 |VAR|
 |VAR.P|
 |VAR.S|
-|ヴァラ|
+|VARA|
 |VARP|
-|ヴァルパ|
+|VARPA|
 |VDB|
 |VLOOKUP|
+|VSTACK|
 
-###### **わ**
-|**関数**|**概要**|
-|:- |:- |
-|平日|
+######  *わ**
+|**関数**|**まとめ**|
+| :- | :- |
+|WEEKDAY|
 |WEEKNUM|
-|ワイブル|
-|WEIBULL.DIST|
-|勤務日|
+|WEIBULL|
+|ワイブル.ディスト|
+|WORKDAY|
 |WORKDAY.INTL|
 
-###### **バツ**
-|**関数**|**概要**|
-|:- |:- |
+######  *バツ**
+|**関数**|**まとめ**|
+| :- | :- |
 |XIRR|
 |XLOOKUP|
 |XNPV|
 
-###### **はい**
-|**関数**|**概要**|
-|:- |:- |
-|年|
-|イヤーフラック|
-|収率|
-|収量ディスク|
-|イールドマット|
+######  *はい**
+|**関数**|**まとめ**|
+| :- | :- |
+|YEAR|
+|YEARFRAC|
+|YIELD|
+|YIELDDISC|
+|YIELDMAT|
 
-###### **Z**
-|**関数**|**概要**|
-|:- |:- |
-|Z.TEST|
+######  *Z**
+|**関数**|**まとめ**|
+| :- | :- |
+|Z.テスト|
 |ZTEST|
 

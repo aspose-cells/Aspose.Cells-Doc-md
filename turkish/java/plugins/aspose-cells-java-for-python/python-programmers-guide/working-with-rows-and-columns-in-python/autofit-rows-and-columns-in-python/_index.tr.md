@@ -1,14 +1,16 @@
-﻿---
+---
 title: Python'de Satırları ve Sütunları Otomatik Sığdır
 type: docs
 weight: 20
 url: /tr/java/autofit-rows-and-columns-in-python/
+description: Aspose.Cells for Python Via Java API aracılığıyla Satırları ve Sütunları nasıl otomatik olarak sığdıracağınızı öğrenin.
+keywords: How to Autofit Rows and Columns in Python Via Java, Autofit Rows Data in workbook using Python Via Java, Python Via Java Autofit Columns Data. 
 ---
-## **Aspose.Cells - Satırları ve Sütunları Otomatik Sığdır**
-### **Satırı Otomatik Sığdır**
-Bir satırın genişliğini ve yüksekliğini otomatik olarak boyutlandırmak için en basit yaklaşım, Worksheet sınıfının autoFitRow yöntemini çağırmaktır. autoFitRow yöntemi, parametre olarak bir satır dizini (yeniden boyutlandırılacak satırın) alır.
+##  **Satırları ve Sütunları Otomatik Olarak Sığdırma**
+###  **Satırı Otomatik Olarak Sığdırma**
+Bir satırın genişliğini ve yüksekliğini otomatik olarak boyutlandırmaya yönelik en basit yaklaşım, Worksheet sınıfının autoFitRow yöntemini çağırmaktır. autoFitRow yöntemi, parametre olarak (yeniden boyutlandırılacak satırın) satır dizinini alır.
 
-**Python Kod**
+**Python Kodu**
 
 {{< highlight "python" >}}
 
@@ -39,10 +41,10 @@ workbook.save(self.dataDir + "Autofit Row.xls")
 print "Autofit Row Successfully." 
 
 {{< /highlight >}}
-### **Otomatik Sığdırma Sütunu**
-Bir sütunun genişliğini ve yüksekliğini otomatik olarak boyutlandırmanın en kolay yolu, Worksheet sınıfının autoFitColumn yöntemini çağırmaktır. autoFitColumn yöntemi, sütun dizinini (yeniden boyutlandırılmak üzere olan sütunun) parametre olarak alır.
+###  **Sütun Nasıl Otomatik Sığdırılır**
+Bir sütunun genişliğini ve yüksekliğini otomatik olarak boyutlandırmanın en kolay yolu, Worksheet sınıfının autoFitColumn yöntemini çağırmaktır. autoFitColumn yöntemi, parametre olarak sütun dizinini (yeniden boyutlandırılmak üzere olan sütunun) alır.
 
-**Python Kod**
+**Python Kodu**
 
 {{< highlight "python" >}}
 
@@ -73,7 +75,7 @@ workbook.save(self.dataDir + "Autofit Column.xls")
 print "Autofit Column Successfully." 
 
 {{< /highlight >}}
-## **Çalışan Kodu İndir**
+##  **Çalışan Kodu İndir**
 İndirmek**Satırları ve Sütunları Otomatik Sığdır (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

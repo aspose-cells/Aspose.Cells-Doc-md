@@ -1,13 +1,15 @@
-﻿---
-title: Satır ve Sütunu Otomatik Sığdır
+---
+title: Satırı ve Sütunu Otomatik Sığdır
 type: docs
 weight: 10
 url: /tr/java/auto-fit-row-and-column/
+description: Aspose.Cells for Java API numaralı telefondan Satır ve Sütunları nasıl otomatik olarak sığdıracağınızı öğrenin.
+keywords: How to Autofit Row and Column in Java, Autofit Row Data in workbook using Java, Java Autofit Column Data. 
 ---
-## **Aspose.Cells - Satır ve Sütunu Otomatik Sığdır**
-Bir satırın genişliğini ve yüksekliğini otomatik olarak boyutlandırmak için en basit yaklaşım, Worksheet.autoFitRow yöntemini çağırmaktır. autoFitRow yöntemi, parametre olarak bir satır dizini (yeniden boyutlandırılacak satırın) alır.
+##  **Aspose.Cells for Java Kullanılarak Satır ve Sütun Nasıl Otomatik Sığdırılır**
+Bir satırın genişliğini ve yüksekliğini otomatik olarak boyutlandırmaya yönelik en basit yaklaşım Worksheet.autoFitRow yöntemini çağırmaktır. autoFitRow yöntemi, parametre olarak (yeniden boyutlandırılacak satırın) satır dizinini alır.
 
-**Lütfen aklınızda bulundurun:**Java'i kullanarak Excel elektronik tablolarındaki satırları ve sütunları otomatik olarak sığdırmak istiyorsanız, lütfen şu adresi ziyaret edin:[Satırları ve Sütunları Otomatik Sığdır](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
+**Lütfen aklınızda bulundurun:**Java'i kullanarak Excel e-tablolarındaki satırları ve sütunları otomatik olarak sığdırmak istiyorsanız lütfen şu adresi ziyaret edin:[Satırları ve Sütunları Otomatik Sığdır](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
 
 **Java**
 
@@ -29,8 +31,8 @@ workbook.save("AutoFit_Aspose.xls");
 
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Satır ve Sütunu Otomatik Sığdır**
-Apache POI SS - HSSF ve XSSF, sütunları otomatik sığdırmak için Sheet.autoSizeColumn sağlar
+##  **Apache POI SS - HSSF XSSF - Satırı ve Sütunu Otomatik Sığdır**
+Apache POI SS - HSSF ve XSSF, sütunların otomatik olarak sığdırılması için Sheet.autoSizeColumn'u sağlar
 
 **Java**
 
@@ -55,7 +57,7 @@ workbook.write(fileOut);
 fileOut.close();
 
 {{< /highlight >}}
-## **Çalışan Kodu İndir**
+##  **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Örnek Kodu İndir**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/autofitrowandcolumn)
+##  **Örnek Kodu İndirin**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/Java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/autofitrowandcolumn)

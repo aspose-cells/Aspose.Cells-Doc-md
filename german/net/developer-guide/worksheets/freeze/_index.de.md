@@ -19,14 +19,14 @@ Wenn Sie eine große Datenmenge unter einer gemeinsamen Überschrift haben, kön
 **![Fenster in Excel einfrieren](Freeze-panes.png)**
 
 
-1. Wenn Sie Bereiche einfrieren möchten, um Zeilen und Spalten einzufrieren, wählen Sie zunächst eine Zelle aus (z. B. B2).
+1. Wenn Sie Fensterbereiche, Zeilen und Spalten einfrieren möchten, wählen Sie zunächst eine Zelle aus (z. B. B2).
 2. Klicken Sie auf Ansicht > Fenster einfrieren.
 3. Klicken Sie im Dropdown-Menü auf Fenster einfrieren.
 4. Wenn Sie nach unten oder rechts scrollen, werden die erste Zeile und Spalte eingefroren.
 
-**![Fonzen panges](Frozen-Panes.png)**
+**![Fonzen panes](Frozen-Panes.png)**
 
-Wie Sie sehen können, sind die erste Zeile und die Spalte A eingefroren, in der zweiten Zeile wird 32 angezeigt und in der zweiten sichtbaren Spalte ist D.
+ Wie Sie sehen können, sind die erste Zeile und Spalte A eingefroren, die zweite Zeile ist 32 und die zweite sichtbare Spalte ist D.
 
 Mit eingefrorenen Fenstern können Sie Ihre großen Datenmengen anzeigen, ohne die Zeilen- oder Spaltenbezeichnung im Auge behalten zu müssen.
 

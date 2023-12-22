@@ -1,181 +1,179 @@
-﻿---
+---
 title: チャートのレンダリング
 type: docs
 weight: 30
 url: /ja/cpp/chart-rendering/
 ---
-## **チャートの作成**
+##  **チャートの作成**
 
-Aspose.Cells API は、トピックで詳述されているように、Excel チャートの真正性を作成することをサポートします[Excel チャートの作成とカスタマイズ](/cells/ja/cpp/creating-and-customizing-charts/)Aspose.Cells API を使用して画像と PDF 形式でグラフをレンダリングする方法を示すために、次のスニペットに従って列タイプのグラフを作成します。
-
-{{< highlight "cpp" >}}
-
-     // Create a new workbook
-
-	intrusive_ptr<IWorkbook> workbook = Factory::CreateIWorkbook();
-
-	// Get first worksheet which is created by default
-
-	intrusive_ptr<IWorksheet> worksheet = workbook->GetIWorksheets()->GetObjectByIndex(0);
-
-	// Adding sample values to cells
-
-	worksheet->GetICells()->GetObjectByIndex(new String("A1"))->PutValue(50);
-
-	worksheet->GetICells()->GetObjectByIndex(new String("A2"))->PutValue(100);
-
-	worksheet->GetICells()->GetObjectByIndex(new String("A3"))->PutValue(150);
-
-	worksheet->GetICells()->GetObjectByIndex(new String("B1"))->PutValue(4);
-
-	worksheet->GetICells()->GetObjectByIndex(new String("B2"))->PutValue(20);
-
-	worksheet->GetICells()->GetObjectByIndex(new String("B3"))->PutValue(50);
-
-	// Adding a chart to the worksheet
-
-	int chartIndex = worksheet->GetICharts()->Add(Aspose::Cells::Charts::ChartType::ChartType_Column, 5, 0, 20, 8);
-
-	// Accessing the instance of the newly added chart
-
-	intrusive_ptr<Aspose::Cells::Charts::IChart> chart = worksheet->GetICharts()->GetObjectByIndex(chartIndex);
-
-	// Adding SeriesCollection (chart data source) to the chart ranging from "A1" cell to "B3"
-
-	chart->GetNISeries()->Add(new String("A1:B3"), true);
-
-{{< /highlight >}}
-
-## **チャートのレンダリング**
-
-Aspose.Cells API は、Excel チャートを画像や PDF 形式に変換することをサポートしており、追加のツールやアプリケーションは必要ありません。レンダリング サポートを提供するために、Chart クラスは、アプリケーションの要件に最適なオーバーロードの真偽を使用して ToImage および ToPdf メソッドを公開しました。
-
-### **グラフを画像にレンダリングする**
-
-Chart.toImage メソッドには、単純なレンダリングだけでなく高度なレンダリングもサポートするための多数のオーバーロードがあります。アプリケーションの要件がチャートをデフォルトの寸法でレンダリングすることである場合、次のように Chart.toImage メソッドを使用することをお勧めします。
+Aspose.Cells API は、トピックで詳しく説明されているとおり、Excel グラフの作成をサポートします。[Excel グラフの作成とカスタマイズ](/cells/ja/cpp/creating-and-customizing-charts/)。 Aspose.Cells API を使用してグラフを画像および PDF 形式でレンダリングする方法を示すために、次のスニペットのように列タイプのグラフを作成します。
 
 {{< highlight "cpp" >}}
 
- // Output directory path
+Aspose::Cells::Startup();
 
-StringPtr outDir = new String("..\\Data\\02_OutputDirectory\\");
+// Output directory path
+U16String outDir(u"..\\Data\\02_OutputDirectory\\");
+
+// Create a new workbook
+Workbook workbook;
+
+// Get first worksheet which is created by default
+Worksheet worksheet = workbook.GetWorksheets().Get(0);
+
+// Adding sample values to cells
+worksheet.GetCells().Get(u"A1").PutValue(50);
+worksheet.GetCells().Get(u"A2").PutValue(100);
+worksheet.GetCells().Get(u"A3").PutValue(150);
+worksheet.GetCells().Get(u"B1").PutValue(4);
+worksheet.GetCells().Get(u"B2").PutValue(20);
+worksheet.GetCells().Get(u"B3").PutValue(50);
+
+// Adding a chart to the worksheet
+int chartIndex = worksheet.GetCharts().Add(Aspose::Cells::Charts::ChartType::Column, 5, 0, 20, 8);
+
+// Accessing the instance of the newly added chart
+Chart chart = worksheet.GetCharts().Get(chartIndex);
+
+// Adding SeriesCollection (chart data source) to the chart ranging from "A1" cell to "B3"
+chart.GetNSeries().Add(u"A1:B3", true);
 
 // Path of output image file
+U16String outputChartImage = outDir + u"out1image.png";
+chart.ToImage(outputChartImage, ImageType::Png);
 
-StringPtr outputChartImage = outDir->StringAppend(new String("out1image.png"));
+// Path of output pdf file
+U16String outputPdfFile = outDir + u"out1pdf.pdf";
 
-// Saving the chart to image file
+// Saving chart to PDF
+chart.ToPdf(outputPdfFile);
 
-chart->ToImage(outputChartImage, Aspose::Cells::System::Drawing::Imaging::ImageFormat::GetPng());
+Aspose::Cells::Cleanup();
 
 {{< /highlight >}}
 
-### **PDF へのレンダリング チャート**
+##  **レンダリングチャート**
 
-チャートを PDF 形式でレンダリングするために、Aspose.Cells API は、結果の PDF をディスク パスまたはストリームに格納する機能を備えた Chart.ToPdf メソッドを公開しました。
+Aspose.Cells API は、追加のツールやアプリケーションを必要とせずに、Excel グラフを画像および PDF 形式に変換することをサポートします。レンダリングのサポートを提供するために、Chart クラスは、アプリケーション要件に最適な多数のオーバーロードを備えた ToImage メソッドと ToPdf メソッドを公開しました。
+
+###  **チャートを画像にレンダリングする**
+
+Chart.toImage メソッドには、単純なレンダリングだけでなく高度なレンダリングもサポートする多数のオーバーロードがあります。アプリケーションの要件がデフォルトの寸法でグラフをレンダリングすることである場合は、次のように Chart.toImage メソッドを使用することをお勧めします。
 
 {{< highlight "cpp" >}}
 
- // Path of output pdf file
+// Path of output image file
+U16String outputChartImage = outDir + u"out1image.png";
 
-StringPtr outputPdfFile = outDir->StringAppend(new String("out1pdf.pdf"));
-
-// Saving chart to PDF
-
-chart->ToPdf(outputPdfFile);
+// Saving the chart to image file
+chart.ToImage(outputChartImage, ImageType::Png);
 
 {{< /highlight >}}
 
-## **レンダリングでサポートされているグラフの種類**
+###  **PDFまでのレンダリングチャート**
 
-現在、レンダリングがサポートされていないチャート タイプがいくつかあります。このようなチャート タイプには、次のものが含まれます。**N** の**下表の**列をサポート。
+グラフを PDF 形式でレンダリングするために、Aspose.Cells API は、結果の PDF をディスク パスまたはストリームに保存する機能を備えた Chart.ToPdf メソッドを公開しました。
 
-|**グラフの種類**|**チャートのサブタイプ**|**対応**|
-|:- |:- |:- |
-|**桁**|桁|**はい**|
-||積み上げ列|**はい**|
-||Column100PercentStacked|**はい**|
-||列 3DClustered|**はい**|
-||Column3D積み上げ|**はい**|
-||Column3D100PercentStacked|**はい**|
-||列 3D|**はい**|
-|**バー**|バー|**はい**|
-||棒積み上げ|**はい**|
-||Bar100Percent積み上げ|**はい**|
-||Bar3DClustered|**はい**|
-||Bar3D積み上げ|**はい**|
-||Bar3D100PercentStacked|**はい**|
-|**ライン**|ライン|**はい**|
-||LineStacked|**はい**|
-||Line100PercentStacked|**はい**|
-||LineWithDataMarkers|**はい**|
-||LineStackedWithDataMarkers|**はい**|
-||Line100PercentStackedWithDataMarkers|**はい**|
-||Line3D|**はい**|
-|**パイ**|パイ|**はい**|
-||Pie3D|**はい**|
-||パイパイ|**はい**|
-||パイ爆発|**はい**|
-||Pie3DExploded|**はい**|
-||パイバー|**はい**|
-|**散布**|散布|**はい**|
-||ScatterConnectedByCurvesWithDataMarker|**はい**|
-||ScatterConnectedByCurvesWithoutDataMarker|**はい**|
-||ScatterConnectedByLinesWithDataMarker|**はい**|
-||ScatterConnectedByLinesWithoutDataMarker|**はい**|
-|**範囲**|範囲|**はい**|
-||エリア積み上げ|**はい**|
-||Area100PercentStacked|**はい**|
-||エリア3D|**はい**|
-||Area3D積み上げ|**はい**|
-||Area3D100PercentStacked|**はい**|
-|**ドーナツ**|ドーナツ|**はい**|
-||ドーナツ爆発|**はい**|
-|**レーダー**|レーダー|**はい**|
-||RadarWithDataMarkers|**はい**|
-||レーダーいっぱい|**はい**|
-|**水面**|Surface3D|N|
-||SurfaceWireframe3D|N|
-||表面輪郭|N|
-||SurfaceContourWireframe|N|
-|**バブル**|バブル|**はい**|
-||バブル3D|N|
-|ストック|株価高低終値|**はい**|
-||株式オープン高低クローズ|**はい**|
-||在庫高低終値|**はい**|
-||在庫量OpenHighLowClose|**はい**|
-|**シリンダー**|シリンダー|**はい**|
-||円柱積み上げ|**はい**|
-||円柱 100%積み上げ|**はい**|
-||円柱棒|**はい**|
-||円柱棒積み上げ|**はい**|
-||CylindricalBar100PercentStacked|**はい**|
-||円筒柱 3D|**はい**|
-|**円錐**|円錐|**はい**|
-||円錐積み上げ|**はい**|
-||円錐 100% 積み上げ|**はい**|
-||円錐バー|**はい**|
-||円錐棒積み上げ|**はい**|
-||ConicalBar100PercentStacked|**はい**|
-||ConicalColumn3D|**はい**|
-|**ピラミッド**|ピラミッド|**はい**|
-||ピラミッド積み上げ|**はい**|
-||Pyramid100PercentStacked|**はい**|
-||ピラミッドバー|**はい**|
-||ピラミッド棒積み上げ|**はい**|
-||PyramidBar100PercentStacked|**はい**|
-||PyramidColumn3D|**はい**|
-|**箱ひげ**|箱ひげ|よ|
-|**漏斗**|漏斗|**はい**|
-|**パレートライン**|パレートライン|**はい**|
-|**サンバースト**|サンバースト|**はい**|
-|**ツリーマップ**|ツリーマップ|**はい**|
-|**滝**|滝|**はい**|
-|**ヒストグラム**|ヒストグラム|よ|
-|**地図**|地図|**な**|
+{{< highlight "cpp" >}}
+
+// Path of output pdf file
+U16String outputPdfFile = outDir + u"out1pdf.pdf";
+
+// Saving chart to PDF
+chart.ToPdf(outputPdfFile);
+
+{{< /highlight >}}
+
+##  **レンダリングでサポートされているグラフの種類**
+
+現在レンダリングがサポートされていないグラフの種類がいくつかあります。このようなグラフの種類には次のものがあります。**** の N** サポートされています**下の表の欄。
+
+|**グラフの種類**|**グラフのサブタイプ**|**サポートされています**|
+| :- | :- | :- |
+|**カラム**|カラム|*はい**|
+| |列積み上げ|*はい**|
+| |列100パーセント積み上げ|*はい**|
+| |列3Dクラスター化|*はい**|
+| |列 3D 積み上げ|*はい**|
+| |列 3D100 パーセント積み上げ|*はい**|
+| |コラム3D|*はい**|
+|**バー**|バー|*はい**|
+| |バー積み上げ|*はい**|
+| |バー100パーセント積み上げ|*はい**|
+| |バー3Dクラスター化|*はい**|
+| |Bar3D積み上げ|*はい**|
+| |Bar3D100パーセント積み上げ|*はい**|
+|**ライン**|ライン|*はい**|
+| |ラインスタック|*はい**|
+| |線100パーセント積み上げ|*はい**|
+| |LineWithDataMarkers|*はい**|
+| |LineStackedWithDataMarkers|*はい**|
+| |Line100PercentStackedWithDataMarkers|*はい**|
+| |ライン3D|*はい**|
+|**パイ**|パイ|*はい**|
+| |パイ3D|*はい**|
+| |パイパイ|*はい**|
+| |パイ爆発|*はい**|
+| |パイ3D分解|*はい**|
+| |パイバー|*はい**|
+|**散布**|散布|*はい**|
+| |ScatterConnectedByCurvesWithDataMarker|*はい**|
+| |データマーカーなしの曲線による散乱接続|*はい**|
+| |ScatterConnectedByLinesWithDataMarker|*はい**|
+| |ScatterConnectedByLinesWithoutDataMarker|*はい**|
+|**エリア**|エリア|*はい**|
+| |積み上げられたエリア|*はい**|
+| |面積100パーセント積み上げ|*はい**|
+| |エリア3D|*はい**|
+| |エリア3D積み上げ|*はい**|
+| |エリア3D100パーセント積み上げ|*はい**|
+|**ドーナツ**|ドーナツ|*はい**|
+| |ドーナツ爆発|*はい**|
+|**レーダー**|レーダー|*はい**|
+| |レーダーとデータマーカー|*はい**|
+| |レーダー充填済み|*はい**|
+|**表面**|表面3D|N|
+| |表面ワイヤーフレーム3D|N|
+| |表面輪郭|N|
+| |表面輪郭ワイヤーフレーム|N|
+|**バブル**|バブル|*はい**|
+| |バブル3D|N|
+|ストック|株価高安値終値|*はい**|
+| |株価オープン高値安値クローズ|*はい**|
+| |株価出来高高安値終値|*はい**|
+| |株価出来高オープン高値安値クローズ|*はい**|
+|**シリンダー**|シリンダー|*はい**|
+| |シリンダー積み上げ|*はい**|
+| |シリンダー100パーセント積み上げ|*はい**|
+| |円筒形バー|*はい**|
+| |円筒形バー積み上げ|*はい**|
+| |円柱バー100パーセント積み上げ|*はい**|
+| |円柱柱3D|*はい**|
+|**円錐**|円錐|*はい**|
+| |コーン積み上げ|*はい**|
+| |コーン100パーセント積み上げ|*はい**|
+| |コニカルバー|*はい**|
+| |円錐形バー積み上げ|*はい**|
+| |円錐バー100パーセント積み上げ|*はい**|
+| |円錐柱3D|*はい**|
+|**ピラミッド**|ピラミッド|*はい**|
+| |ピラミッド積み上げ|*はい**|
+| |ピラミッド100パーセント積み上げ|*はい**|
+| |ピラミッドバー|*はい**|
+| |ピラミッドバー積み上げ|*はい**|
+| |ピラミッドバー100パーセント積み上げ|*はい**|
+| |ピラミッド柱3D|*はい**|
+|**ボックスウィスカー**|ボックスウィスカー|Y|
+|**漏斗**|漏斗|*はい**|
+|**パレートライン**|パレートライン|*はい**|
+|**サンバースト**|サンバースト|*はい**|
+|**ツリーマップ**|ツリーマップ|*はい**|
+|**滝**|滝|*はい**|
+|**ヒストグラム**|ヒストグラム|Y|
+|**地図**|地図|*N**|
 
 {{% alert color="primary" %}}
 
-サポートされていないチャート タイプを画像または PDF にレンダリングしようとすると、サイズが 0 の画像または空白の PDF になる可能性があります。
+サポートされていないグラフ タイプを画像または PDF にレンダリングしようとすると、サイズが 0 の画像または空白の PDF が表示される可能性があります。
 
 {{% /alert %}}

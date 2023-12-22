@@ -7,6 +7,68 @@ url: /sv/net/what-s-new-in-aspose-cells-for-net/
 ---
 Den här sidan beskriver de mest intressanta nya Aspose.Cells-funktionerna som introducerats i de senaste utgåvorna.
 
+##  Aspose.Cells for .NET 23.12
+
+* Stöd för PDF/A-2 och PDF/A-3 överensstämmelse vid konvertering till pdf
+* Stöd för beräkning av diskret gruppering av pivottabellen
+* Stöd för att exportera celldata till generisk lista
+* Stöd för att importera korsreferenser med hjälp av länkade tabeller för smarta markörer
+* Stöd MAKEARRAY funktion för formler
+* Stöd för att rendera celltext med rotationsvinkel för GridJS
+* Stöd fler alternativ för att importera/exportera datatabeller för GridDesktop
+* Stöd rendera bild med rotation för GridDesktop
+* Stöd för att justera kalkylbladsordning för GridDesktop
+*  Stödalternativ för att visa/dölja formelvarningsmeddelande för GridDesktop
+
+##  Aspose.Cells for .NET 23.11
+
+* Stöd för att konvertera kalkylblad till PDF filversion 1.7(ISO32000-1:2008)
+* Stöd för att infoga formulärkontroller för GridJS
+* Stöd för att visa gradientfyllning av cellbakgrund för GridJS
+* Stöd för att kopiera/ta bort/infoga/byta namn på kalkylblad för GridDesktop
+* Stöd automatisk förlängning av max rader/kolumner när du klistrar in för GridDesktop
+* Support SheetPrintingPreview för GridDesktop
+*  Tillhandahåll .NET Core build av GridDesktop
+
+##  Aspose.Cells for .NET 23.10
+
+* Stöd adaptiv pastaoperation när storleken på målområdet skiljer sig från källområdet
+* Stöd för att ställa in hyperlänkar direkt till en Range
+* Stöd för att kopiera flera kalkylblad samtidigt
+* Stöd för att kontrollera om ett område är tomt för celldata
+
+##  Aspose.Cells for .NET 23.9
+
+* Stöd för att beräkna nya funktioner i formeln: LAMBDA,LET,MAP,SCAN
+* Stöd för att importera/exportera EPUB-filer
+* Stöd för att filtrera diagramserier
+* Stöd lokalisering för GridDesktop
+* Tillhandahåll GridWeb för .net7-windows-plattformen
+
+##  Aspose.Cells for .NET 23.8
+
+* Stöd för att bevara stoppningsutrymme i formler
+* Stöd för att ersätta/infoga text med formatering för riktext av cellen
+* Stöd för att återge ActiveX-kontroll och formkontroll för spin-knapp i GridJs
+* Stöd fler typer av validering för GridJs: textlängd/decimal, välj lista, formeluttryck
+
+##  Aspose.Cells for .NET 23.7
+
+* Förbättring av många funktioner i GridJS såsom renderingskontroller, serverside saveback för combobox, ... etc.
+* Förbättrad detektering av filformat för vissa nya format som visio-fil, OneNote-paketfil.
+* Stöd XAdES-signaturer för CSharp X509Certificate2
+* Support för att arbeta i Blazor Web Assembly
+
+##  Aspose.Cells for .NET 23.6
+
+* Stöd för att exportera och markera revisionsloggar
+* Stöd för att korsa befintliga radobjekt från RowCollection i omvänd ordning
+* Stöd för att uppdatera flera konsolideringsintervall av vridbara
+* Stöd för att visa diagramblad i GridJs
+* Stöd för att visa cellspillinnehåll i GridJs
+* Stöd för att visa bakgrundsbild för GridJs
+* Stöd för att filtrera efter datum och tid i GridJs
+
 ##  Aspose.Cells for .NET 23.5
 
 * Stöd för att uppdatera externa referenser av externa arkdata till det lokala arket i aktuell arbetsbok

@@ -1,19 +1,21 @@
-﻿---
-title: تعيين نص إدخال وسيلة إيضاح الرسم البياني إلى لا شيء باستخدام Aspose.Cells
+---
+title: قم بتعيين ملء نص إدخال وسيلة إيضاح المخطط على لا شيء باستخدام Aspose.Cells
+description: تعرف على كيفية استخدام Aspose.Cells for .NET لتعيين ملء نص إدخال وسيلة إيضاح المخطط على لا شيء. سيوضح دليلنا كيفية تعديل لون تعبئة إدخالات وسيلة الإيضاح في مخططات Excel Microsoft للحصول على تصور وتخصيص أفضل.
+keywords: Aspose.Cells for .NET, Chart Legend Entry Fill, Microsoft Excel, Visualization, Customization.
 type: docs
 weight: 320
 url: /ar/net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/
 ---
 {{% alert color="primary" %}}
 
- إذا كنت تريد تعيين نص إدخال وسيلة إيضاح الرسم البياني على لا شيء حتى لا يتم عرضه داخل وسيلة إيضاح الرسم البياني ، فيرجى تعيين[**إدخال الأسطورة. IsTextNoFill**](https://reference.aspose.com/cells/net/aspose.cells.charts/legendentry/properties/istextnofill) إلى**حقيقي**.
+ إذا كنت تريد تعيين ملء نص إدخال وسيلة إيضاح المخطط على لا شيء بحيث لا يتم عرضه داخل وسيلة إيضاح المخطط، فيرجى تعيين[**LegendEntry.IsTextNoFill**](https://reference.aspose.com/cells/net/aspose.cells.charts/legendentry/properties/istextnofill) إلى *صحيح**.
 
 {{% /alert %}}
 
- يعين نموذج التعليمات البرمجية التالي نص تعبئة إدخال وسيلة الإيضاح الثانية للمخطط إلى بلا. يرجى تنزيل ملف[نموذج ملف اكسل](5115219.xlsx) المستخدمة في هذا الرمز و[ملف اكسل الناتج](5115217.xlsx) ولدت به للرجوع اليها.
+يقوم نموذج التعليمات البرمجية التالي بتعيين نص تعبئة إدخال وسيلة الإيضاح الثاني للمخطط على لا شيء. يرجى تنزيل[عينة من ملف اكسل](5115219.xlsx) المستخدمة في هذا الرمز و[إخراج ملف إكسل](5115217.xlsx) تم إنشاؤها بواسطة ذلك للرجوع إليها.
 
-توضح لقطة الشاشة التالية تأثير هذا الرمز على[نموذج ملف اكسل](5115219.xlsx).
+توضح لقطة الشاشة التالية تأثير هذا الرمز على[عينة من ملف اكسل](5115219.xlsx).
 
-![ما يجب القيام به: image_بديل_نص](set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells_1.png)
+![ما يجب القيام به:image_alt_text](set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells_1.png)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChartLegendEntry-1.cs" >}}

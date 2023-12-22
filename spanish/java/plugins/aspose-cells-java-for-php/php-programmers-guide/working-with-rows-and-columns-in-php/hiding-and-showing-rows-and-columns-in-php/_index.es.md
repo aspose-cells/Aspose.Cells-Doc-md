@@ -1,11 +1,13 @@
-﻿---
+---
 title: Ocultar y mostrar filas y columnas en PHP
 type: docs
 weight: 50
 url: /es/java/hiding-and-showing-rows-and-columns-in-php/
+description: Aprenda a ocultar y mostrar filas y columnas a través de las API Aspose.Cells for PHP via Java.
+keywords: How to Hide and Show Rows and Columns in PHP, Hide Rows or Columns using PHP, PHP Show Rows or Columns. 
 ---
-## **Aspose.Cells - Control de la visibilidad de filas y columnas**
-### **Ocultar filas y columnas**
+##  **Aspose.Cells for PHP - Controlar la visibilidad de filas y columnas**
+###  **Cómo ocultar filas y columnas en PHP**
 Los desarrolladores pueden ocultar una fila o columna llamando a los métodos HideRow y HideColumn de la colección Cells respectivamente. Ambos métodos toman el índice de fila/columna como parámetro para ocultar la fila o columna específica.
 
 **Código PHP**
@@ -43,11 +45,11 @@ Los desarrolladores pueden ocultar una fila o columna llamando a los métodos Hi
 }
 
 {{< /highlight >}}
-### **Mostrar filas y columnas**
+###  **Cómo mostrar filas y columnas usando PHP**
 Los desarrolladores pueden mostrar cualquier fila o columna oculta llamando a los métodos UnhideRow y UnhideColumn de la colección Cells respectivamente. Ambos métodos toman dos parámetros:
 
-- **Índice de fila o columna**- el índice de una fila o columna que se utiliza para mostrar la fila o columna específica.
-- **Alto de fila o ancho de columna**- el alto de fila o el ancho de columna asignado a la fila o columna después de mostrarse.
+- **Índice de columna Rowor**el índice de una fila o columna que se utiliza para mostrar la fila o columna específica.
+- **Alto de fila o ancho de columna**- la altura de la fila o el ancho de la columna asignado a la fila o columna después de que se muestra.
 
 **Código PHP**
 
@@ -84,7 +86,7 @@ Los desarrolladores pueden mostrar cualquier fila o columna oculta llamando a lo
 }
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Control de la visibilidad de filas y columnas (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+##  **Descargar código de ejecución**
+ Descargar**Controlar la visibilidad de filas y columnas (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

@@ -32,6 +32,7 @@ Aspose.Cells' 数式計算エンジンを使用すると、次の数式と関数
 |AGGREGATE|
 |AMORDEGRC|
 |AMORLINC|
+|ANCHORARRAY|
 |AND|
 |AREAS|
 |ASC|
@@ -158,6 +159,7 @@ Aspose.Cells' 数式計算エンジンを使用すると、次の数式と関数
 | :- | :- |
 |EDATE|
 |EFFECT|
+|ENCODEURL|
 |EOMONTH|
 |ERF|
 |ERFC|
@@ -256,6 +258,7 @@ Aspose.Cells' 数式計算エンジンを使用すると、次の数式と関数
 |ISERR|
 |ISERROR|
 |ISEVEN|
+|ISFORMULA|
 |ISLOGICAL|
 |ISNA|
 |ISNONTEXT|
@@ -274,12 +277,14 @@ Aspose.Cells' 数式計算エンジンを使用すると、次の数式と関数
 ######  *ラ**
 |**関数**|**まとめ**|
 | :- | :- |
+|LAMBDA|
 |LARGE|
 |LCM|
 |LEFT|
 |LEFTB|
 |LEN|
 |LENB|
+|LET|
 |LINEST|
 |LN|
 |LOG|
@@ -295,6 +300,8 @@ Aspose.Cells' 数式計算エンジンを使用すると、次の数式と関数
 ######  *マ**
 |**関数**|**まとめ**|
 | :- | :- |
+|MAKEARRAY|
+|MAP|
 |MATCH|
 |MAX|
 |MAXA|
@@ -418,6 +425,7 @@ Aspose.Cells' 数式計算エンジンを使用すると、次の数式と関数
 ######  *す**
 |**関数**|**まとめ**|
 | :- | :- |
+|SCAN|
 |SEARCH|
 |SEARCHB|
 |SECOND|
@@ -428,6 +436,7 @@ Aspose.Cells' 数式計算エンジンを使用すると、次の数式と関数
 |SIGN|
 |SIN|
 |SINH|
+|SINGLE|
 |SKEW|
 |SLN|
 |SLOPE|
@@ -493,6 +502,7 @@ Aspose.Cells' 数式計算エンジンを使用すると、次の数式と関数
 |UNICODE|
 |UNIQUE|
 |UPPER|
+|USDOLLAR|
 
 ######  *V**
 |**関数**|**まとめ**|

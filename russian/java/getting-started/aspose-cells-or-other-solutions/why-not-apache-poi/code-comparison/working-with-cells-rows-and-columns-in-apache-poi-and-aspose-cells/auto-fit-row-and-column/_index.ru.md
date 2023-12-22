@@ -1,13 +1,15 @@
-﻿---
-title: Автоподбор строки и столбца
+---
+title: Автоматическая подгонка строки и столбца
 type: docs
 weight: 10
 url: /ru/java/auto-fit-row-and-column/
+description: Узнайте, как автоматически подогнать строку и столбец с помощью Aspose.Cells for Java API.
+keywords: How to Autofit Row and Column in Java, Autofit Row Data in workbook using Java, Java Autofit Column Data. 
 ---
-## **Aspose.Cells - Автоподбор строки и столбца**
+##  **Как автоматически подогнать строку и столбец с помощью Aspose.Cells for Java**
 Самый простой подход к автоматическому изменению ширины и высоты строки — вызвать метод Worksheet.autoFitRow. Метод autoFitRow принимает в качестве параметра индекс строки (строки, размер которой нужно изменить).
 
-**Пожалуйста, обрати внимание:**Если вы хотите автоматически подогнать строки и столбцы в электронных таблицах Excel с помощью Java, посетите страницу[Автоподбор строк и столбцов](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
+**Пожалуйста, обрати внимание:**Если вы хотите автоматически подогнать строки и столбцы в таблицах Excel с помощью Java, посетите[Автоподбор строк и столбцов](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
 
 **Java**
 
@@ -29,8 +31,8 @@ workbook.save("AutoFit_Aspose.xls");
 
 
 {{< /highlight >}}
-## **Apache POI SS — HSSF XSSF — автоподбор строки и столбца**
-Apache POI SS — HSSF и XSSF предоставляют Sheet.autoSizeColumn для автоматического подбора столбцов
+##  **Apache POI SS — HSSF XSSF — автоматическое подгонка строки и столбца**
+Apache POI SS — HSSF и XSSF предоставляют Sheet.autoSizeColumn для автоматической подгонки столбцов.
 
 **Java**
 
@@ -55,7 +57,7 @@ workbook.write(fileOut);
 fileOut.close();
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/autofitrowandcolumn)
+##  **Загрузить рабочий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+##  **Скачать пример кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/autofitrowandcolumn)

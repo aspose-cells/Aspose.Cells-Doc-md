@@ -1,5 +1,7 @@
 ---
 title:  Verwenden der ChartGlobalizationSettings-Klasse zum Festlegen einer anderen Sprache für die Diagrammkomponente
+description: Erfahren Sie, wie Sie die ChartGlobalizationSettings-Klasse in Aspose.Cells for .NET verwenden, um verschiedene Sprachen für Diagrammkomponenten festzulegen. Unser Leitfaden hilft Ihnen zu verstehen, wie Sie Diagrammelemente, Beschriftungen und Legenden in verschiedene Sprachen lokalisieren, sodass Sie Ihre Daten auf kulturell angemessene Weise präsentieren können.
+keywords: Aspose.Cells for .NET, charting, chart globalization, languages, localization, ChartGlobalizationSettings, elements, labels, legends.
 type: docs
 weight: 2200
 url: /de/net/using-chartglobalizationsettings-class-to-set-different-language-for-chart-component/
@@ -10,7 +12,7 @@ url: /de/net/using-chartglobalizationsettings-class-to-set-different-language-fo
 
 ##  **Einführung in die ChartGlobalizationSettings-Klasse**
 
- Der[**ChartGlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/)Die Klasse bietet derzeit die folgenden 8 Methoden, die in einer benutzerdefinierten Klasse überschrieben werden können, um z. B. AxisTitle-Name, AxisUnit-Name, ChartTitle-Name usw. in eine andere Sprache zu übersetzen.
+ Der[**ChartGlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/)Die Klasse bietet derzeit die folgenden 8 Methoden, die in einer benutzerdefinierten Klasse überschrieben werden können, um beispielsweise den Namen „AxisTitle“, den Namen „AxisUnit“, den Namen „ChartTitle“ usw. in eine andere Sprache zu übersetzen.
 1. [**GetAxisTitleName**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getaxistitlename/): Ruft den Namen des Titels für die Achse ab.
 1. [**GetAxisUnitName**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getaxisunitname/): Ruft den Namen der Achseneinheit ab.
 1. [**GetChartTitleName**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getcharttitlename/): Ruft den Namen des Diagrammtitels ab.

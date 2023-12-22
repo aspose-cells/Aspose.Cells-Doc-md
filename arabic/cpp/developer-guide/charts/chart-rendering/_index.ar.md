@@ -1,181 +1,179 @@
-﻿---
-title: عرض المخطط
+---
+title: عرض الرسم البياني
 type: docs
 weight: 30
 url: /ar/cpp/chart-rendering/
 ---
-## **إنشاء الرسوم البيانية**
+##  **إنشاء الرسوم البيانية**
 
-دعم Aspose.Cells APIs لإنشاء حقيقة من مخططات Excel كما هو مفصل تحت الموضوع[إنشاء وتخصيص مخططات Excel](/cells/ar/cpp/creating-and-customizing-charts/). لتوضيح استخدام واجهات برمجة تطبيقات Aspose.Cells لعرض المخططات في صورة وتنسيق PDF ، سنقوم بإنشاء مخطط من النوع Column وفقًا للمقتطف التالي.
-
-{{< highlight "cpp" >}}
-
-     // Create a new workbook
-
-	intrusive_ptr<IWorkbook> workbook = Factory::CreateIWorkbook();
-
-	// Get first worksheet which is created by default
-
-	intrusive_ptr<IWorksheet> worksheet = workbook->GetIWorksheets()->GetObjectByIndex(0);
-
-	// Adding sample values to cells
-
-	worksheet->GetICells()->GetObjectByIndex(new String("A1"))->PutValue(50);
-
-	worksheet->GetICells()->GetObjectByIndex(new String("A2"))->PutValue(100);
-
-	worksheet->GetICells()->GetObjectByIndex(new String("A3"))->PutValue(150);
-
-	worksheet->GetICells()->GetObjectByIndex(new String("B1"))->PutValue(4);
-
-	worksheet->GetICells()->GetObjectByIndex(new String("B2"))->PutValue(20);
-
-	worksheet->GetICells()->GetObjectByIndex(new String("B3"))->PutValue(50);
-
-	// Adding a chart to the worksheet
-
-	int chartIndex = worksheet->GetICharts()->Add(Aspose::Cells::Charts::ChartType::ChartType_Column, 5, 0, 20, 8);
-
-	// Accessing the instance of the newly added chart
-
-	intrusive_ptr<Aspose::Cells::Charts::IChart> chart = worksheet->GetICharts()->GetObjectByIndex(chartIndex);
-
-	// Adding SeriesCollection (chart data source) to the chart ranging from "A1" cell to "B3"
-
-	chart->GetNISeries()->Add(new String("A1:B3"), true);
-
-{{< /highlight >}}
-
-## **تقديم المخططات**
-
-تدعم واجهات برمجة تطبيقات Aspose.Cells تحويل مخططات Excel إلى صور وتنسيقات PDF دون الحاجة إلى أي أدوات أو تطبيقات إضافية. من أجل توفير دعم العرض ، كشفت فئة الرسم البياني طرق ToImage & ToPdf مع حقيقة من الأحمال الزائدة لتناسب متطلبات التطبيق على أفضل وجه.
-
-### **تقديم المخططات للصور**
-
-طريقة Chart.toImage لديها حقيقة من الأحمال الزائدة لدعم التصيير البسيط والمتقدم. إذا كان مطلب التطبيق هو عرض المخطط بأبعاده الافتراضية ، فإننا نقترح عليك استخدام طريقة Chart.toImage على النحو التالي.
+Aspose.Cells دعم واجهات برمجة التطبيقات (APIs) لإنشاء مجموعة حقيقية من مخططات Excel كما هو مفصل تحت الموضوع[إنشاء وتخصيص مخططات Excel](/cells/ar/cpp/creating-and-customizing-charts/). من أجل توضيح استخدام Aspose.Cells APIs لعرض المخططات في صورة وتنسيق PDF، سنقوم بإنشاء مخطط من النوع عمود وفقًا للمقتطف التالي.
 
 {{< highlight "cpp" >}}
 
- // Output directory path
+Aspose::Cells::Startup();
 
-StringPtr outDir = new String("..\\Data\\02_OutputDirectory\\");
+// Output directory path
+U16String outDir(u"..\\Data\\02_OutputDirectory\\");
+
+// Create a new workbook
+Workbook workbook;
+
+// Get first worksheet which is created by default
+Worksheet worksheet = workbook.GetWorksheets().Get(0);
+
+// Adding sample values to cells
+worksheet.GetCells().Get(u"A1").PutValue(50);
+worksheet.GetCells().Get(u"A2").PutValue(100);
+worksheet.GetCells().Get(u"A3").PutValue(150);
+worksheet.GetCells().Get(u"B1").PutValue(4);
+worksheet.GetCells().Get(u"B2").PutValue(20);
+worksheet.GetCells().Get(u"B3").PutValue(50);
+
+// Adding a chart to the worksheet
+int chartIndex = worksheet.GetCharts().Add(Aspose::Cells::Charts::ChartType::Column, 5, 0, 20, 8);
+
+// Accessing the instance of the newly added chart
+Chart chart = worksheet.GetCharts().Get(chartIndex);
+
+// Adding SeriesCollection (chart data source) to the chart ranging from "A1" cell to "B3"
+chart.GetNSeries().Add(u"A1:B3", true);
 
 // Path of output image file
+U16String outputChartImage = outDir + u"out1image.png";
+chart.ToImage(outputChartImage, ImageType::Png);
 
-StringPtr outputChartImage = outDir->StringAppend(new String("out1image.png"));
+// Path of output pdf file
+U16String outputPdfFile = outDir + u"out1pdf.pdf";
 
-// Saving the chart to image file
+// Saving chart to PDF
+chart.ToPdf(outputPdfFile);
 
-chart->ToImage(outputChartImage, Aspose::Cells::System::Drawing::Imaging::ImageFormat::GetPng());
+Aspose::Cells::Cleanup();
 
 {{< /highlight >}}
 
-### **تقديم مخطط إلى PDF**
+##  **تقديم المخططات**
 
-من أجل تقديم المخطط إلى تنسيق PDF ، كشفت واجهات برمجة التطبيقات Aspose.Cells طريقة Chart.ToPdf مع القدرة على تخزين الناتج PDF في مسار القرص أو التدفق.
+تدعم واجهات برمجة التطبيقات Aspose.Cells تحويل مخططات Excel إلى صور وتنسيقات PDF دون الحاجة إلى أي أدوات أو تطبيقات إضافية. من أجل توفير دعم العرض، كشفت فئة Chart عن أساليب ToImage وToPdf مع وجود أحمال زائدة لتناسب متطلبات التطبيق بشكل أفضل.
+
+###  **تقديم المخططات إلى الصور**
+
+تحتوي طريقة Chart.toImage على الكثير من الأحمال الزائدة لدعم العرض البسيط والمتقدم. إذا كانت متطلبات التطبيق هي عرض المخطط بأبعاده الافتراضية، فنقترح عليك استخدام طريقة Chart.toImage على النحو التالي.
 
 {{< highlight "cpp" >}}
 
- // Path of output pdf file
+// Path of output image file
+U16String outputChartImage = outDir + u"out1image.png";
 
-StringPtr outputPdfFile = outDir->StringAppend(new String("out1pdf.pdf"));
-
-// Saving chart to PDF
-
-chart->ToPdf(outputPdfFile);
+// Saving the chart to image file
+chart.ToImage(outputChartImage, ImageType::Png);
 
 {{< /highlight >}}
 
-## **أنواع الرسوم البيانية المدعومة للتقديم**
+###  **تقديم الرسم البياني إلى PDF**
 
-هناك عدد قليل من أنواع المخططات التي لا يتم دعمها حاليًا للعرض. تحتوي هذه الأنواع من المخططات على ملفات**N ** في**عمود ** المدعوم من الجدول أدناه.
+من أجل تقديم المخطط إلى تنسيق PDF، كشفت واجهات برمجة التطبيقات Aspose.Cells عن طريقة Chart.ToPdf مع القدرة على تخزين PDF الناتج على مسار القرص أو الدفق.
 
-|**نوع التخطيط**|**النوع الفرعي للمخطط**|**أيد**|
-|:- |:- |:- |
-|**عمود**|عمود|** نعم **|
-||العمود مكدسة|** نعم **|
-||عمود 100 نسبة مكدسة|** نعم **|
-||Column3D العنقودية|** نعم **|
-||العمود 3D مكدسة|** نعم **|
-||عمود 3 D100Percent مكدسة|** نعم **|
-||العمود 3 د|** نعم **|
-|**شريط**|شريط|** نعم **|
-||بار مكدسة|** نعم **|
-||شريط 100٪ مكدسة|** نعم **|
-||شريط ثلاثي الأبعاد متفاوت|** نعم **|
-||Bar3D مكدسة|** نعم **|
-||شريط ثلاثي الأبعاد 100٪ مكدس|** نعم **|
-|**خط**|خط|** نعم **|
-||LineStacked|** نعم **|
-||Line100Percent مكدس|** نعم **|
-||LineWithDataMarkers|** نعم **|
-||LineStackedWithDataMarkers|** نعم **|
-||Line100PercentStackedWithDataMarkers|** نعم **|
-||Line3D|** نعم **|
-|**فطيرة**|فطيرة|** نعم **|
-||Pie3D|** نعم **|
-||فطيرة فطيرة|** نعم **|
-||انفجرت الفطيرة|** نعم **|
-||انفجرت Pie3D|** نعم **|
-||بي بار|** نعم **|
-|**مبعثر**|مبعثر|** نعم **|
-||ScatterConnectedByCurvesWithDataMarker|** نعم **|
-||ScatterConnectedByCurvesWithoutDataMarker|** نعم **|
-||ScatterConnectedByLinesWithDataMarker|** نعم **|
-||ScatterConnectedByLinesWithoutDataMarker|** نعم **|
-|**منطقة**|منطقة|** نعم **|
-||المنطقة مكدسة|** نعم **|
-||مساحة 100٪ مكدسة|** نعم **|
-||Area3D|** نعم **|
-||Area3D مكدس|** نعم **|
-||Area3D100Percent مكدس|** نعم **|
-|**الدونات**|الدونات|** نعم **|
-||انفجرت العجين|** نعم **|
-|**رادار**|رادار|** نعم **|
-||RadarWithDataMarkers|** نعم **|
-||الرادار|** نعم **|
-|**سطح - المظهر الخارجي**|Surface3D|ن|
-||SurfaceWireframe3D|ن|
-||SurfaceContour|ن|
-||SurfaceContourWireframe|ن|
-|**فقاعة**|فقاعة|** نعم **|
-||فقاعة ثلاثية الأبعاد|ن|
-|مخزون|StockHighLowClose|** نعم **|
-||مخزون OpenHighLowClose|** نعم **|
-||حجم المخزن HighLowClose|** نعم **|
-||حجم المخزون OpenHighLowClose|** نعم **|
-|**اسطوانة**|اسطوانة|** نعم **|
-||اسطوانة مكدسة|** نعم **|
-||اسطوانة 100٪ مكدسة|** نعم **|
-||أسطواني بار|** نعم **|
-||أسطواني بار مكدس|** نعم **|
-||شريط أسطواني 100٪ مكدس|** نعم **|
-||عمود أسطواني ثلاثي الأبعاد|** نعم **|
-|**مخروط**|مخروط|** نعم **|
-||مخروط|** نعم **|
-||مخروط 100٪ مكدسة|** نعم **|
-||مخروطي الشكل|** نعم **|
-||مخروطي الشكل مكدس|** نعم **|
-||مخروطي الشكل 100٪ مكدس|** نعم **|
-||عمود مخروطي ثلاثي الأبعاد|** نعم **|
-|**هرم**|هرم|** نعم **|
-||الهرم مكدسة|** نعم **|
-||الهرم 100٪ مكدسة|** نعم **|
-||هرم بار|** نعم **|
-||PyramidBar مكدس|** نعم **|
-||PyramidBar100Percent مكدسة|** نعم **|
-||الهرم عمود 3 د|** نعم **|
-|**BoxWhisker**|BoxWhisker|ص|
-|**قمع**|قمع|** نعم **|
-|**باريتولين**|باريتولين|** نعم **|
-|**أمة الله**|أمة الله|** نعم **|
-|**مخطط Treemap**|مخطط Treemap|** نعم **|
-|**شلال**|شلال|** نعم **|
-|**الرسم البياني**|الرسم البياني|ص|
-|**خريطة**|خريطة|**ن**|
+{{< highlight "cpp" >}}
+
+// Path of output pdf file
+U16String outputPdfFile = outDir + u"out1pdf.pdf";
+
+// Saving chart to PDF
+chart.ToPdf(outputPdfFile);
+
+{{< /highlight >}}
+
+##  **أنواع المخططات المدعومة للعرض**
+
+هناك بعض أنواع المخططات غير المدعومة حاليًا للعرض. تحتوي أنواع المخططات هذه على**N** في **مدعوم**عمود الجدول أدناه.
+
+|**نوع التخطيط**|**النوع الفرعي للرسم البياني**|**أيد**|
+| :- | :- | :- |
+|**عمود**|عمود|*ص**|
+| |عمود مكدس|*ص**|
+| |عمود100%مكدس|*ص**|
+| |Column3Dمجمع|*ص**|
+| |Column3DStacked|*ص**|
+| |العمود3D100٪مكدس|*ص**|
+| |عمود3D|*ص**|
+|**حاجِز**|حاجِز|*ص**|
+| |BarStacked|*ص**|
+| |شريط مكدس بنسبة 100%|*ص**|
+| |Bar3Dمجمع|*ص**|
+| |Bar3DStacked|*ص**|
+| |شريط3D100%مكدس|*ص**|
+|**خط**|خط|*ص**|
+| |LineStacked|*ص**|
+| |Line100%مكدس|*ص**|
+| |LineWithDataMarkers|*ص**|
+| |LineStackedWithDataMarkers|*ص**|
+| |Line100%مكدس مع علامات البيانات|*ص**|
+| |Line3D|*ص**|
+|**فطيرة**|فطيرة|*ص**|
+| |فطيرة3D|*ص**|
+| |فطيرة فطيرة|*ص**|
+| |فطيرة انفجرت|*ص**|
+| |Pie3DExploded|*ص**|
+| |بيبار|*ص**|
+|**مبعثر**|مبعثر|*ص**|
+| |مبعثر متصل بواسطة منحنيات مع DataMarker|*ص**|
+| |مبعثر متصل بواسطة منحنيات بدون علامة البيانات|*ص**|
+| |ScatterConnectedByLinesWithDataMarker|*ص**|
+| |ScatterConnectedByLinesWithoutDataMarker|*ص**|
+|**منطقة**|منطقة|*ص**|
+| |منطقة مكدسة|*ص**|
+| |المساحة 100%مكدسة|*ص**|
+| |منطقة3D|*ص**|
+| |Area3DStacked|*ص**|
+| |المساحة 3D100%مكدسة|*ص**|
+|**كعكة محلاة**|كعكة محلاة|*ص**|
+| |دوناتانفجرت|*ص**|
+|**رادار**|رادار|*ص**|
+| |الرادار مع علامات البيانات|*ص**|
+| |رادار معبأ|*ص**|
+|**سطح**|سطح3D|N|
+| |SurfaceWireframe3D|N|
+| |SurfaceContour|N|
+| |SurfaceContourWireframe|N|
+|**فقاعة**|فقاعة|*ص**|
+| |Bubble3D|N|
+|مخزون|StockHighLowClose|*ص**|
+| |ستوك أوبن هاي لو كلوز|*ص**|
+| |حجم المخزون مرتفع، منخفض، إغلاق|*ص**|
+| |حجم المخزون، فتح، ارتفاع، انخفاض، إغلاق|*ص**|
+|**اسطوانة**|اسطوانة|*ص**|
+| |CylinderStacked|*ص**|
+| |الأسطوانة مكدسة بنسبة 100%|*ص**|
+| |شريط اسطواني|*ص**|
+| |CylindricalBarStacked|*ص**|
+| |شريط أسطواني مكدس بنسبة 100%|*ص**|
+| |عمود أسطواني3D|*ص**|
+|**مخروط**|مخروط|*ص**|
+| |ConeStacked|*ص**|
+| |مخروطي100%مكدس|*ص**|
+| |ConicalBar|*ص**|
+| |ConicalBarStacked|*ص**|
+| |شريط مخروطي بنسبة 100% مكدس|*ص**|
+| |ConicalColumn3D|*ص**|
+|**هرم**|هرم|*ص**|
+| |الهرممكدس|*ص**|
+| |الهرم مكدس بنسبة 100%|*ص**|
+| |PyramidBar|*ص**|
+| |PyramidBarStacked|*ص**|
+| |PyramidBar100%مكدس|*ص**|
+| |الهرم العمود3D|*ص**|
+|**BoxWhisker**|BoxWhisker|Y|
+|**قمع**|قمع|*ص**|
+|**باريتولين**|باريتولين|*ص**|
+|**أمة الله**|أمة الله|*ص**|
+|**خريطة هيكلية**|خريطة هيكلية|*ص**|
+|**شلال**|شلال|*ص**|
+|**الرسم البياني**|الرسم البياني|Y|
+|**خريطة**|خريطة|*ن**|
 
 {{% alert color="primary" %}}
 
-في حالة محاولة تقديم أنواع المخططات غير المدعومة إلى صورة أو PDF ، فقد ينتهي بك الأمر بصور بحجم 0 أو PDF فارغًا.
+في حالة محاولتك تقديم أنواع المخططات غير المدعومة إلى صورة أو PDF، فقد ينتهي بك الأمر بصور بحجم 0 أو PDF فارغة.
 
 {{% /alert %}}

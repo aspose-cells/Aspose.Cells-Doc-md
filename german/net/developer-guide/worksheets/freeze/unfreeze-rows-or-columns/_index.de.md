@@ -10,7 +10,7 @@ keywords: Unfreeze panes, Unfreeze rows, Unfreeze columns, unFreeze window.
 {{% alert color="primary" %}}
 
 In diesem Artikel erfahren Sie, wie Sie die Fixierung von Zeilen, Spalten und Fenstern aufheben.
-Wenn Arbeitsblätter in den Excel-Dateien eingefroren sind, möchten wir sie manchmal entsperren oder eingefrorene Zeilen, Spalten oder Bereiche anpassen.
+Wenn Arbeitsblätter in den Excel-Dateien eingefroren sind, möchten wir manchmal die Arbeitsblattfreigabe aufheben oder eingefrorene Zeilen, Spalten oder Bereiche anpassen.
 
 {{% /alert %}}
 

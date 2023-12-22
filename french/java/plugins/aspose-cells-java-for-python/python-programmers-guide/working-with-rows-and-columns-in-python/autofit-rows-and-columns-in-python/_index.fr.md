@@ -1,14 +1,16 @@
-﻿---
+---
 title: Ajustement automatique des lignes et des colonnes dans Python
 type: docs
 weight: 20
 url: /fr/java/autofit-rows-and-columns-in-python/
+description: Découvrez comment ajuster automatiquement les lignes et les colonnes via le Aspose.Cells for Python via Java API.
+keywords: How to Autofit Rows and Columns in Python Via Java, Autofit Rows Data in workbook using Python Via Java, Python Via Java Autofit Columns Data. 
 ---
-## **Aspose.Cells - Ajustement automatique des lignes et des colonnes**
-### **Ligne d'ajustement automatique**
-L'approche la plus simple pour dimensionner automatiquement la largeur et la hauteur d'une ligne consiste à appeler la méthode autoFitRow de la classe Worksheet. La méthode autoFitRow prend un index de ligne (de la ligne à redimensionner) comme paramètre.
+##  **Comment ajuster automatiquement les lignes et les colonnes**
+###  **Comment ajuster automatiquement la ligne**
+L’approche la plus simple pour dimensionner automatiquement la largeur et la hauteur d’une ligne consiste à appeler la méthode autoFitRow de la classe Worksheet. La méthode autoFitRow prend un index de ligne (de la ligne à redimensionner) comme paramètre.
 
-**Code Python**
+**Python Code**
 
 {{< highlight "python" >}}
 
@@ -39,10 +41,10 @@ workbook.save(self.dataDir + "Autofit Row.xls")
 print "Autofit Row Successfully." 
 
 {{< /highlight >}}
-### **Colonne d'ajustement automatique**
-Le moyen le plus simple de redimensionner automatiquement la largeur et la hauteur d'une colonne consiste à appeler la méthode autoFitColumn de la classe Worksheet. La méthode autoFitColumn prend l'index de colonne (de la colonne sur le point d'être redimensionnée) comme paramètre.
+###  **Comment ajuster automatiquement la colonne**
+Le moyen le plus simple de dimensionner automatiquement la largeur et la hauteur d’une colonne consiste à appeler la méthode autoFitColumn de la classe Worksheet. La méthode autoFitColumn prend l'index de la colonne (de la colonne sur le point d'être redimensionnée) comme paramètre.
 
-**Code Python**
+**Python Code**
 
 {{< highlight "python" >}}
 
@@ -73,7 +75,7 @@ workbook.save(self.dataDir + "Autofit Column.xls")
 print "Autofit Column Successfully." 
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
+##  **Télécharger le code d'exécution**
 Télécharger**Ajustement automatique des lignes et des colonnes (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

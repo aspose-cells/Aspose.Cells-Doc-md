@@ -1,18 +1,18 @@
-﻿---
-title: Utilizzando OnAjaxCallFinishedClientFunction di GridWeb
+---
+title: Utilizzo della funzione OnAjaxCallFinishClient di GridWeb
 type: docs
 weight: 20
 url: /it/java/using-onajaxcallfinishedclientfunction-of-gridweb/
 ---
-## **Possibili scenari di utilizzo**
-OnAjaxCallFinishedClientFunction è una funzione lato client che viene chiamata quando l'utente copia alcuni dati nel foglio di lavoro GridWeb. Questa funzione è utile quando la maggior parte delle celle viene aggiornata e si desidera tenere traccia di tali celle aggiornate sul lato client (ad esempio nei browser Web come FireFox, Google Chrome ecc.).
-## **Utilizzando OnAjaxCallFinishedClientFunction di GridWeb**
-Il seguente codice di esempio spiega come utilizzare la funzione client OnAjaxCallFinishedClientFunction. Gli screenshot mostrano l'output della console in Google Chrome e FireFox quando il codice viene eseguito. Una volta eseguito il codice, copiare/incollare alcuni dati che si estendono su più celle all'interno del foglio di lavoro GridWeb e quindi controllare la console del browser Web come mostrato negli screenshot.
-## **Google Uscita console cromata**
+##  **Possibili scenari di utilizzo**
+OnAjaxCallFinishClientFunction è una funzione lato client che viene chiamata quando l'utente copia alcuni dati nel foglio di lavoro GridWeb. Questa funzione è utile quando viene aggiornata la maggior parte delle celle e desideri tenere traccia di tali celle aggiornate sul lato client (ad esempio nei browser Web come FireFox, Google Chrome ecc.).
+##  **Utilizzo della funzione OnAjaxCallFinishClient di GridWeb**
+Il seguente codice di esempio spiega come utilizzare la funzione client OnAjaxCallFinishClientFunction. Gli screenshot mostrano l'output della console in Google Chrome e FireFox quando il codice viene eseguito. Una volta eseguito il codice, copia/incolla alcuni dati che si estendono su più celle all'interno del foglio di lavoro GridWeb e quindi controlla la console del browser Web come mostrato negli screenshot.
+##  **Google Uscita Console Cromata**
 ![cose da fare:immagine_alt_testo](using-onajaxcallfinishedclientfunction-of-gridweb_1.png)
-## **Uscita console FireFox**
+##  **Uscita della console FireFox**
 ![cose da fare:immagine_alt_testo](using-onajaxcallfinishedclientfunction-of-gridweb_2.png)
-## **Codice d'esempio**
+##  **Codice d'esempio**
 {{< highlight "java" >}}
 
  <%@page language="java" contentType="text/html; charset=UTF-8" import="com.aspose.gridweb.*"  pageEncoding="UTF-8"%>

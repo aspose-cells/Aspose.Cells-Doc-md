@@ -3,6 +3,8 @@ title: Verwalten Sie die HTML-Zeichenfolge Cells
 type: docs
 weight: 600
 url: /de/net/manage-cells-html-string/
+description: Erfahren Sie, wie Sie den HTML-String Cells über Aspose.Cells for .NET API verwalten.
+keywords: Add HTML String inside the Cell, Set HTML String inside the Cell, Add HTML String, Get HTML String of Cell, Manage Cells Html String
 ---
 ##  **Mögliche Nutzungsszenarien**
 Wenn Sie formatierte Daten für eine bestimmte Cell festlegen müssen, können Sie Cell eine HTML-Zeichenfolge zuweisen. Natürlich können Sie auch die Zeichenfolge HTML der Zelle abrufen. Aspose.Cells bietet diese Funktion. Aspose.Cells bietet die folgenden Eigenschaften und Methoden, die Ihnen beim Erreichen Ihrer Ziele helfen.

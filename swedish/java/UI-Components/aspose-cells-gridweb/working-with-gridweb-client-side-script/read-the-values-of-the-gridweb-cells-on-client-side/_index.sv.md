@@ -1,23 +1,23 @@
-﻿---
+---
 title: Läs värdena för GridWeb-cellerna på klientsidan
 type: docs
 weight: 10
 url: /sv/java/read-the-values-of-the-gridweb-cells-on-client-side/
 ---
-## **Möjliga användningsscenarier**
+##  **Möjliga användningsscenarier**
 Du kan läsa värdena för GridWeb-celler på klientsidans skript med metoden gridwebinstance.getCellsArray() . En gång, du kommer att kalla det, kommer det att returnera arrayen av alla celler i det aktiva kalkylbladet. Du kan sedan använda följande metoder för att hämta värdet och annan information för cellerna.
 
 - gridwebinstance.getCellName()
 - gridwebinstance.getCellValueByCell()
 - gridwebinstance.getCellRow()
 - gridwebinstance.getCellColumn()
-## **Läs värdena för GridWeb-cellerna på klientsidan**
+##  **Läs värdena för GridWeb-cellerna på klientsidan**
 Följande exempelkod hämtar alla celler och skriver sedan ut deras namn, värde, rad och kolumn. Du kan se dess konsolutgång längst ner i den här artikeln. Följande skärmdump visar konsolutgången för exempelkoden på Google Chrome.
-## **Skärmdump**
+##  **Skärmdump**
 ![todo:image_alt_text](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
 
 
-## **Exempelkod**
+##  **Exempelkod**
 {{< highlight "java" >}}
 
  <%@page language="java" contentType="text/html; charset=UTF-8" import="com.aspose.gridweb.*"  pageEncoding="UTF-8"%>
@@ -125,7 +125,7 @@ out.print(gridweb.getHTMLBody());
 </html>
 
 {{< /highlight >}}
-## **Konsolutgång**
+##  **Konsolutgång**
 Detta är konsolutgången för ovanstående exempelkod.
 
 {{< highlight "java" >}}

@@ -1,11 +1,13 @@
-﻿---
+---
 title: Скрытие и отображение строк и столбцов в PHP
 type: docs
 weight: 50
 url: /ru/java/hiding-and-showing-rows-and-columns-in-php/
+description: Узнайте, как скрывать и показывать строки и столбцы с помощью API Aspose.Cells for PHP via Java.
+keywords: How to Hide and Show Rows and Columns in PHP, Hide Rows or Columns using PHP, PHP Show Rows or Columns. 
 ---
-## **Aspose.Cells — Управление видимостью строк и столбцов**
-### **Скрытие строк и столбцов**
+##  **Aspose.Cells for PHP - Управление видимостью строк и столбцов**
+###  **Как скрыть строки и столбцы в PHP**
 Разработчики могут скрыть строку или столбец, вызвав методы HideRow и HideColumn коллекции Cells соответственно. Оба метода принимают индекс строки/столбца в качестве параметра, чтобы скрыть конкретную строку или столбец.
 
 **PHP-код**
@@ -43,11 +45,11 @@ url: /ru/java/hiding-and-showing-rows-and-columns-in-php/
 }
 
 {{< /highlight >}}
-### **Отображение строк и столбцов**
+###  **Как показать строки и столбцы с помощью PHP**
 Разработчики могут отобразить любую скрытую строку или столбец, вызвав методы UnhideRow и UnhideColumn коллекции Cells соответственно. Оба метода принимают два параметра:
 
-- **Индекс столбца строки**- индекс строки или столбца, который используется для отображения конкретной строки или столбца.
-- **Высота строки или ширина столбца**- высота строки или ширина столбца, назначенная строке или столбцу после его отображения.
+- **Индекс столбца строки**— индекс строки или столбца, который используется для отображения конкретной строки или столбца.
+- **Высота строки или ширина столбца**— высота строки или ширина столбца, назначенная строке или столбцу после ее отображения.
 
 **PHP-код**
 
@@ -84,7 +86,7 @@ url: /ru/java/hiding-and-showing-rows-and-columns-in-php/
 }
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Управление видимостью строк и столбцов (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+##  **Загрузить рабочий код**
+ Скачать**Управление видимостью строк и столбцов (Aspose.Cells)**с любого из перечисленных ниже сайтов социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

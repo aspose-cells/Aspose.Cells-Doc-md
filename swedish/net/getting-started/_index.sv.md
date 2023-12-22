@@ -38,13 +38,13 @@ Den här sidan visar hur du installerar Aspose Cells och skapar en Hello World-a
 
 ###  **Installera Aspose.Cells på linux**
 
-I det här exemplet använder jag Ubuntu för att visa hur man börjar använda Aspose.Cells på linux.
+det här exemplet använder jag Ubuntu för att visa hur man börjar använda Aspose.Cells på linux.
 
 1. Skapa en .netcore-applikation med namnet "AsposeCellsTest".
 2. Öppna filen "AsposeCellsTest.csproj", lägg till följande rader i den för Aspose.Cells paketreferenser:
 {{< highlight "plain" >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="23.5" />
+    <PackageReference Include="Aspose.Cells" Version="23.12" />
   </ItemGroup>
 {{< /highlight >}}
 3. Öppna projektet med VSCode på Ubuntu:
@@ -83,7 +83,7 @@ Gäller: NetStandard2.0, NetCore2.1, NetCore3.1, Net5.0, Net6.0 och avancerad ve
 Stegen nedan skapar Hello World-applikationen med hjälp av Aspose.Cells API:
 
 1.  Om du har en licens, då[tillämpa den](/cells/sv/net/licensing/).
-Om du använder utvärderingsversionen, hoppa över de licensrelaterade kodraderna.
+ Om du använder utvärderingsversionen, hoppa över de licensrelaterade kodraderna.
 1.  Skapa en instans av[Arbetsbok](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass för att skapa en ny Excel-fil, eller öppna en befintlig Excel-fil.
 1. Få åtkomst till valfri cell i ett kalkylblad i Excel-filen.
 1.  Sätt in orden**Hello World!** in i en cell som nås.

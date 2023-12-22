@@ -1,5 +1,7 @@
-﻿---
+---
 title: Formatera kalkylblad Cells i en arbetsbok
+description: Aspose.Cells är ett .NET-bibliotek för att arbeta med kalkylarksfiler. Det stöder formatering av kalkylbladsceller i arbetsböcker, så att användarna kan anpassa cellernas utseende och stil. Den här artikeln kommer att introducera hur du formaterar kalkylbladsceller med Aspose.Cells-biblioteket.
+keywords: Aspose.Cells, Workbook, Worksheet, Cell, Formatting, Appearance, Style
 type: docs
 weight: 2000
 url: /sv/net/format-worksheet-cells-in-a-workbook/
@@ -21,7 +23,7 @@ Den här artikeln visar hur du:
 
 {{% /alert %}}
 
-## **Dataformatering**
+##  **Dataformatering**
 
 Formatering används för att skilja mellan olika typer av information och för att visa data tydligt.
 
@@ -33,7 +35,7 @@ Aspose.Cells ger dig möjlighet att enkelt rita gränser runt celler och interva
 
 Den här artikeln visar hur du skapar en konsolapplikation i Visual Studio.Net som genererar en årlig försäljningsrapport. Arbetsboken skapas från grunden, sedan infogas data och kalkylbladet formateras. Vi visar hur man skapar en enkel konsolapplikation som skapar en Excel-arbetsbok (du kan också använda en mallfil), infogar försäljningsdata i det första kalkylbladet, formaterar data och sparar en Excel-fil.
 
-### **Bearbeta**
+###  **Bearbeta**
 
 Nedan följer stegen för hur man skapar ett kalkylblad och formaterar olika celler i olika rader och kolumner i ett kalkylblad.
 

@@ -1,5 +1,7 @@
 ---
 title: Çin Bölgesi için Grafiği Resme Dönüştür
+description: Grafikler için Aspose.Cells for .NET set Çince yapılandırmasını nasıl kullanacağınızı öğrenin. Kılavuzumuz, yazı tipleri, boyutlar, metin yönleri ve daha fazlası dahil olmak üzere Çince karakterleri ve formatları destekleyecek şekilde grafiklerin nasıl yapılandırılacağını gösterecektir.
+keywords: Aspose.Cells for .NET, Charts, Chinese Configuration, Fonts, Font Size, Text Direction, Support.
 linktitle: Çin Bölgesini Ayarla
 type: docs
 weight: 9
@@ -8,18 +10,18 @@ alias: [/net/set-chinese-configuration-for-chart/]
 ---
 {{% alert color="primary" %}}
 
-Bu başlıkta, size bir grafik için Çin Bölgesini nasıl ayarlayacağınızı göstereceğiz.
+Bu başlıkta size bir grafik için Çin Bölgesini nasıl ayarlayacağınızı göstereceğiz.
 
 {{% /alert %}}
 
-##  **Bir kalıtım sınıfı tanımlar**
+##  **Bir miras sınıfını tanımlar**
 
-İlk adım, buradan miras alan bir "ChartChineseSettings" sınıfı tanımlamanız gerekir.[**ChartGlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/). 
-Ardından, ilgili işlevleri yeniden yazarak, grafik öğelerinin metnini kendi dilinizde ayarlayabilirsiniz.
+ İlk adım, miras alan bir "ChartChineseSettings" sınıfını tanımlamanız gerekir.[**GrafikKüreselleşmeAyarlar**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/). 
+Daha sonra ilgili fonksiyonları yeniden yazarak grafik elemanlarının metnini kendi dilinizde ayarlayabilirsiniz.
 Kod örneği:
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "ChartChineseSetttings.cs" >}}
 
-##  **Grafik İçin Çince Ayarı Yapılandır**
+##  **Grafik İçin Çince Ayarını Yapılandırma**
 
 Bu adımda bir önceki adımda tanımladığınız "ChartChineseSettings" sınıfını kullanacaksınız.
 Kod örneği:
@@ -31,20 +33,20 @@ Kod örneği:
 	chart0.ToImage("Output.png");
 ```
 
-Ardından çıktı görüntüsündeki efekti görebilirsiniz, grafikteki öğeler ayarlarınıza göre işlenecektir.
+Daha sonra çıktı görüntüsündeki efekti görebilirsiniz; grafikteki öğeler ayarlarınıza göre oluşturulacaktır.
 
 ##  **Çözüm**
 
-Bu örnekte, bir grafik için Çin Bölgesini ayarlamazsanız, aşağıdaki grafik öğeleri İngilizce gibi varsayılan dilde gösterilebilir.
-Yukarıdaki işlemden sonra, Çin Bölgesi ile bir çıktı grafiği resmi elde edebiliriz.
+Bu örnekte, bir grafik için Çin Bölgesini ayarlamazsanız aşağıdaki grafik öğeleri İngilizce gibi varsayılan dilde görüntülenebilir.
+Yukarıdaki işlemden sonra Çin Bölgesi ile çıktı grafiği resmi elde edebiliriz.
 
-|**desteklenen öğeler**|**Bu örnekteki değer**|**İngiliz ortamındaki varsayılan değer**|
+|**Desteklenen öğeler**|**Bu örnekteki değer**|**İngilizce ortamında varsayılan değer**|
 | :- | :- | :- |
-|Eksen Başlık Adı|坐标轴标题|Eksen Başlığı|
-|Eksen Birimi Adı|百,千...|Yüzlerce, Binlerce...|
+|Eksen Başlığı Adı|坐标轴标题|Eksen Başlığı|
+|Eksen Birimi Adı|百,千...|Yüzlerce, binlerce...|
 |Grafik Başlığı Adı|图表标题|Grafik başlığı|
 |Efsane Artış Adı|增加|Arttırmak|
-|Efsane Azaltma Adı|减少|Azaltmak|
-|Açıklama Toplam Adı|汇总|Toplam|
-|Diğer İsim|其他|Diğer|
+|Açıklama Adı Azaltma|减少|Azaltmak|
+|Efsane Toplam Adı|汇总|Toplam|
+|Diğer Ad|其他|Diğer|
 |Seri Adı|系列|Seri|

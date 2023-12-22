@@ -1,16 +1,16 @@
-﻿---
+---
 title: Establecer sugerencia de encabezado de columna
 type: docs
 weight: 90
 url: /es/java/set-column-header-tip/
 ---
-## **Posibles escenarios de uso**
-Es posible que deba configurar información sobre herramientas para su columna personalizada al crear la tabla en la hoja de trabajo. Aspose.Cells. GridWeb le permite cambiar el nombre del título de una columna y puede configurar la información sobre herramientas en la columna, para que los usuarios puedan entender fácilmente para qué sirve la columna.
-## **Configuración de la sugerencia de encabezado de columna**
-A continuación se proporciona un ejemplo completo para demostrar cómo cambiar los títulos de las columnas y aplicar texto de información sobre herramientas. Después de ejecutar el código de ejemplo, el texto de información sobre herramientas aparecerá cuando coloque el cursor del mouse sobre el encabezado de la columna especificada.
+##  **Posibles escenarios de uso**
+Es posible que necesite configurar información sobre herramientas para su columna personalizada mientras crea la tabla en la hoja de trabajo. Aspose.Cells.GridWeb le permite cambiar el nombre del título de una columna y puede configurar información sobre herramientas para la columna, para que los usuarios puedan entender fácilmente para qué sirve la columna.
+##  **Configuración de la sugerencia del encabezado de columna**
+A continuación se proporciona un ejemplo completo para demostrar cómo cambiar los títulos de las columnas y aplicar el texto de información sobre herramientas. Después de ejecutar el código de ejemplo, el texto de información sobre herramientas aparecerá cuando coloque el cursor del mouse sobre el encabezado de la columna especificada.
 
-## **Código de muestra**
-Aquí está el código de muestra del**prueba.jsp** expediente.
+##  **Código de muestra**
+Aquí está el código de muestra del**prueba.jsp** archivo.
 
 {{< highlight "java" >}}
 

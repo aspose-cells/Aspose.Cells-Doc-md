@@ -1,10 +1,11 @@
-﻿---
-title: Hantera data för Excel-filer.
+---
+title: Hantera data i Excel-filer
 linktitle: Cells Data
 type: docs
 weight: 110
 url: /sv/net/view-and-edit-excel-data/
 description: Den här artikeln beskriver hur du visar och redigerar data i Excel-filer med Aspose.Cells-biblioteket.
+keywords: Aspose.Cells C# Manage data of Excel file, add data to Excel file, get data from excel file, How to Improve Efficiency of adding data, manage cells data, update cells data, get cells data, insert cells data
 ---
 {{% alert color="primary" %}}
 
@@ -12,19 +13,19 @@ description: Den här artikeln beskriver hur du visar och redigerar data i Excel
 
 {{% /alert %}}
 
-## **Lägger till data till Cells**
+##  **Hur man lägger till data till Cells**
 
  Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , som representerar en Microsoft Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass innehåller en[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) samling som ger åtkomst till varje kalkylblad i Excel-filen. Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass. De[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass ger en[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) samling. Varje objekt i[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) samlingen representerar ett föremål för[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)klass.
 
-Aspose.Cells tillåter utvecklare att lägga till data till cellerna i kalkylblad genom att anropa[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) klass'[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) metod. Aspose.Cells tillhandahåller överbelastade versioner av[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) metod som låter utvecklare lägga till olika typer av data till celler. Genom att använda dessa överbelastade versioner av[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)metod är det möjligt att lägga till ett booleskt, sträng-, dubbel-, heltal eller datum/tid, etc. värden till cellen.
+ Aspose.Cells tillåter utvecklare att lägga till data till cellerna i kalkylblad genom att anropa[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)klass'[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) metod. Aspose.Cells tillhandahåller överbelastade versioner av[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) metod som låter utvecklare lägga till olika typer av data till celler. Genom att använda dessa överbelastade versioner av[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)metod är det möjligt att lägga till ett booleskt, sträng-, dubbel-, heltal eller datum/tid, etc. värden till cellen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AddingDataToCells-1.cs" >}}
 
-## **Förbättring av effektiviteten**
+##  **Hur man förbättrar effektiviteten**
 
  Om du använder[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)metod för att lägga en stor mängd data till ett kalkylblad, bör du lägga till värden i cellerna, först efter rader och sedan efter kolumner. Detta tillvägagångssätt förbättrar effektiviteten av dina applikationer avsevärt.
 
-## **Hämtar data från Cells**
+##  **Hur man hämtar data från Cells**
 
  Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) som representerar en Microsoft Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass innehåller en[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) samling som ger åtkomst till kalkylblad i filen. Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass. De[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass ger en[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) samling. Varje objekt i[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) samlingen representerar ett föremål för[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)klass.
 
@@ -35,14 +36,14 @@ Aspose.Cells tillåter utvecklare att lägga till data till cellerna i kalkylbla
 - [**BoolValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/boolvalue): returnerar cellens booleska värde.
 - [**DateTimeValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/datetimevalue): returnerar cellens datum/tidsvärde.
 - [**FloatValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/floatvalue): returnerar flytvärdet för cellen.
-- [**IntValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/intvalue)returnerar cellens heltalsvärde.
+- [**IntValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/intvalue): returnerar cellens heltalsvärde.
 
  När ett fält inte är ifyllt, celler med[**DoubleValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/doublevalue) eller[**FloatValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/floatvalue)ger ett undantag.
 
- Typen av data som finns i en cell kan också kontrolleras med hjälp av[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) klass'[**Typ**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) fast egendom. Faktum är att[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) klass'[**Typ**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) egendom är baserad på[**CellValueType**](https://reference.aspose.com/cells/net/aspose.cells/cellvaluetype)uppräkning vars fördefinierade värden är listade nedan:
+ Typen av data som finns i en cell kan också kontrolleras med hjälp av[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)klass'[**Typ**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) fast egendom. Faktum är att[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)klass'[**Typ**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) egendom är baserad på[**CellValueType**](https://reference.aspose.com/cells/net/aspose.cells/cellvaluetype)uppräkning vars fördefinierade värden listas nedan:
 
 |**Cell Värdetyper**|**Beskrivning**|
-|:- |:- |
+| :- | :- |
 |IsBool|Anger att cellvärdet är booleskt.|
 |IsDateTime|Anger att cellvärdet är datum/tid.|
 |Är inget|Representerar en tom cell.|
@@ -60,7 +61,7 @@ När du arbetar med kalkylblad kan användare lägga till olika typer av data i 
 
 {{% /alert %}}
 
-## **Förhandsämnen**
+##  **Förhandsämnen**
 - [Åtkomst till Cells i ett arbetsblad](/cells/sv/net/accessing-cells-of-a-worksheet/)
 - [Konvertera numeriska textdata till nummer](/cells/sv/net/convert-text-numeric-data-to-number/)
 - [Skapa delsummor](/cells/sv/net/creating-subtotals/)

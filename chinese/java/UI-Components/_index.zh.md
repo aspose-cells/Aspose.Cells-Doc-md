@@ -1,4 +1,4 @@
-﻿---
+---
 title: 用户界面组件
 second_title: Aspose.Cells.GridWeb
 type: docs

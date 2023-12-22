@@ -1,17 +1,19 @@
-﻿---
-title: Cell Değerlerini Birden Çok Konuda Aynı Anda Okumak
+---
+title: Birden Fazla Konudaki Cell Değerlerini Aynı Anda Okumak
 linktitle: Çoklu Konular
 type: docs
 weight: 1800
 url: /tr/net/reading-cell-values-in-multiple-threads-simultaneously/
+description: Aspose.Cells for .NET API aracılığıyla Cell Birden Fazla Konudaki Değerleri Aynı anda nasıl okuyacağınızı öğrenin.
+keywords: Read Cell Values in Multiple Threads Simultaneously, Aspose.Cells C# Multiple Threads, Read data in Multiple Threads
 ---
 {{% alert color="primary" %}}
 
-Aynı anda birden çok iş parçacığındaki hücre değerlerini okuma ihtiyacı yaygın bir gereksinimdir. Bu makalede, Aspose.Cells'in bu amaçla nasıl kullanılacağı açıklanmaktadır.
+Aynı anda birden fazla iş parçacığında hücre değerlerinin okunmasının gerekliliği ortak bir gereksinimdir. Bu makalede, bu amaçla Aspose.Cells'in nasıl kullanılacağı açıklanmaktadır.
 
 {{% /alert %}}
 
- Aynı anda birden fazla iş parçacığındaki hücre değerlerini okumak için,[**Worksheet.Cells.MultiThreadReading**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/multithreadreading) ile**doğru**. Bunu yapmazsanız, yanlış hücre değerleri alabilirsiniz.
+ Birden fazla iş parçacığında hücre değerlerini aynı anda okumak için[**Çalışma Sayfası.Cells.MultiThreadReading**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/multithreadreading)*doğruya**. Bunu yapmazsanız yanlış hücre değerlerini alabilirsiniz.
 
 Aşağıdaki kod:
 
@@ -19,9 +21,9 @@ Aşağıdaki kod:
 1. Bir çalışma sayfası ekler.
 1. Çalışma sayfasını dize değerleriyle doldurur.
 1. Daha sonra rastgele hücrelerden değerleri aynı anda okuyan iki iş parçacığı oluşturur.
- Okunan değerler doğruysa hiçbir şey olmaz. Okunan değerler yanlışsa bir mesaj görüntülenir.
+ Okunan değerler doğru ise hiçbir şey olmaz. Okunan değerler hatalıysa bir mesaj görüntülenir.
 
-Bu satırı yorumlarsanız:
+Bu satıra yorum yaparsanız:
 
 {{< highlight "java" >}}
 
@@ -43,6 +45,6 @@ ardından aşağıdaki mesaj görüntülenir:
 
 {{< /highlight >}}
 
-Aksi takdirde program herhangi bir mesaj göstermeden çalışır, bu da hücrelerden okunan tüm değerlerin doğru olduğu anlamına gelir.
+Aksi takdirde program herhangi bir mesaj vermeden çalışır, bu da hücrelerden okunan tüm değerlerin doğru olduğu anlamına gelir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ReadingCellValuesInMultipleThreadsSimultaneously-1.cs" >}}

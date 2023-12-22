@@ -1,12 +1,14 @@
-﻿---
+---
 title: PHP'de Satırları ve Sütunları Gizleme ve Gösterme
 type: docs
 weight: 50
 url: /tr/java/hiding-and-showing-rows-and-columns-in-php/
+description: Aspose.Cells for PHP via Java API'leri aracılığıyla Satırları ve Sütunları nasıl Gizleyeceğinizi ve Göstereceğinizi öğrenin.
+keywords: How to Hide and Show Rows and Columns in PHP, Hide Rows or Columns using PHP, PHP Show Rows or Columns. 
 ---
-## **Aspose.Cells - Satırların ve Sütunların Görünürlüğünü Kontrol Etme**
-### **Satırları ve Sütunları Gizleme**
-Geliştiriciler, sırasıyla Cells koleksiyonunun HideRow ve HideColumn yöntemlerini çağırarak bir satırı veya sütunu gizleyebilirsiniz. Her iki yöntem de belirli satır veya sütunu gizlemek için satır/sütun dizinini parametre olarak alır.
+##  **Aspose.Cells for PHP - Satır ve Sütunların Görünürlüğünü Kontrol Etme**
+###  **PHP'de Satır ve Sütunlar Nasıl Gizlenir**
+Geliştiriciler, sırasıyla Cells koleksiyonunun HideRow ve HideColumn yöntemlerini çağırarak bir satırı veya sütunu gizleyebilir. Her iki yöntem de belirli bir satırı veya sütunu gizlemek için satır/sütun dizinini parametre olarak alır.
 
 **PHP Kodu**
 
@@ -43,11 +45,11 @@ Geliştiriciler, sırasıyla Cells koleksiyonunun HideRow ve HideColumn yönteml
 }
 
 {{< /highlight >}}
-### **Satırları ve Sütunları Gösterme**
+###  **PHP Kullanarak Satırları ve Sütunları Gösterme**
 Geliştiriciler, sırasıyla Cells koleksiyonunun UnhideRow ve UnhideColumn yöntemlerini çağırarak herhangi bir gizli satırı veya sütunu gösterebilir. Her iki yöntem de iki parametre alır:
 
-- **Rowor sütun dizini**- belirli bir satır veya sütunu göstermek için kullanılan bir satır veya sütun dizini.
-- **Satır yüksekliği veya sütun genişliği**- gösterildikten sonra satıra veya sütuna atanan satır yüksekliği veya sütun genişliği.
+- **Satır sütun dizini**belirli bir satırı veya sütunu göstermek için kullanılan bir satır veya sütunun dizini.
+- **Satır yüksekliği veya sütun genişliği**- gösterildikten sonra satır veya sütuna atanan satır yüksekliği veya sütun genişliği.
 
 **PHP Kodu**
 
@@ -84,7 +86,7 @@ Geliştiriciler, sırasıyla Cells koleksiyonunun UnhideRow ve UnhideColumn yön
 }
 
 {{< /highlight >}}
-## **Çalışan Kodu İndir**
+##  **Çalışan Kodu İndir**
  İndirmek**Satırların ve Sütunların Görünürlüğünü Kontrol Etme (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

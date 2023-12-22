@@ -1,12 +1,12 @@
 ---
-title: GridJs İstemci Tarafı ile Çalışma
+title: GridJs İstemci Tarafıyla Çalışmak
 type: docs
 weight: 250
 url: /tr/net/aspose-cells-gridjs/client/
 keywords: custom,logo,setting,api
 ---
-#  GridJs İstemci Tarafı ile Çalışma
- GridJs istemcisini temel alarak geliştirdik[x-elektronik tablo](https://github.com/myliang/x-spreadsheet).
+#  GridJs İstemci Tarafıyla Çalışmak
+ GridJs istemcisini temel alarak geliştirdik[x-e-tablosu](https://github.com/myliang/x-spreadsheet).
 
 ##  ana adımlar şunlardır:
 
@@ -20,6 +20,7 @@ xs = x_spreadsheet(id, options)
 	    updateMode:  currently we only support 'server'
 	    updateUrl:  set the server side  url for update action based on json
 	    mode: read means readonly spread sheet/edit means we can edit the spread sheet
+            allowSelectTextInTextBoxInReadMode: whether allow select text in TextBox control when in read mode,the default value is false
 	    showToolbar:   means whether to show toolbar
 	    showFileName:  whether to show the filename 
 	    local:         support multiple language for menus ,the locale can be:
@@ -30,7 +31,7 @@ xs = x_spreadsheet(id, options)
 			        ko,th,tr,vi,cht
                            for  Korean,Thai,Turkey,Vietnamese,Traditional Chinese                  
 	    showContextmenu:   means whether to show contextmenu on right click on a cell
-
+            loadingGif:  the loading gif url when loading the image/shape .it is optional,the default value is:content/img/updating.gif
 	for example the below code init a x_spreadsheet object.
 	xs = x_spreadsheet('#gridjs-demo', {
 			updateMode:'server',
@@ -42,19 +43,19 @@ xs = x_spreadsheet(id, options)
 			})
 ```
     
--  json verileriyle yükle
+-  json verileriyle yükleme
 ```javascript
 xs.loadData(data)
 // the parameters is:
 	data: the json data which describ the data structure for the worksheets
 ```
--  aktif sayfayı sayfa adına göre ayarla
+-  etkin sayfayı sayfa adına göre ayarla
 ```javascript
 xs.setActiveSheetByName(sheetname)
 // the parameters is:
 	sheetname: the sheet name 
 ```
--  aktif sayfayı kimliğe göre ayarla
+-  etkin sayfayı kimliğe göre ayarla
 ```javascript
 xs.setActiveSheet(id)
 // the parameters is:
@@ -69,7 +70,7 @@ xs.setActiveCell(row,col);
 	col: the cell column
 ```
 
-- sunucu tarafı eylemi için şekil/resim işlemi için bilgi ayarla
+- sunucu tarafı eylemi için şekil/görüntü işlemlerine ilişkin bilgileri ayarlayın
 ```javascript
 xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActionUrl, imageCopyActionUrl, zindex, loadingGif);
 // the parameters are:
@@ -88,7 +89,7 @@ xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActio
     xs.setImageInfo(imageurl, imageuploadurl1, imageuploadurl2, imagecopyurl, basiczorder);
 ```
 
-- sunucu tarafı eylemi için indirme işlemi için bilgi ayarla
+- sunucu tarafı eylemi için indirme işlemine ilişkin bilgileri ayarlayın
 ```javascript
 xs.setFileDownloadInfo(downloadActionUrl);
 // the parameters are:
@@ -99,7 +100,7 @@ xs.setFileDownloadInfo(downloadActionUrl);
             xs.setFileDownloadInfo(fileDownloadUrl);
 ```
 
-- sunucu tarafı eylemi için ole nesne işlemi için bilgi ayarla
+- sunucu tarafı eylemi için ole nesnesi işlemine ilişkin bilgileri ayarla
 ```javascript
 xs.setOleDownloadInfo(oleActionUrl);
 // the parameters are:
@@ -111,18 +112,18 @@ xs.setOleDownloadInfo(oleActionUrl);
   
 
 _
-##  diğer faydalı api'ler
+##  diğer yararlı API'ler
 -  Görünümü oluştur
 ```javascript
 xs.reRender()
 ```
 
--  aktif sayfa kimliği al
+-  aktif sayfa kimliğini al
 ```javascript
 xs.getActiveSheet()
 ```
 
--  Yakınlaştırma seviyesini ayarla
+-  Yakınlaştırma düzeyini ayarla
 ```javascript
 xs.setZoomLevel(zoom)
 // the parameters is:
@@ -136,7 +137,7 @@ xs.setFileName(name)
 	name:the file name with extension ,for example trip.xlsx
 ```
 
--  GridJ'ler için pencere anahtarı olayının etkinleştirilip etkinleştirilmeyeceği
+- GridJ'ler için pencere anahtarı olayının etkinleştirilip etkinleştirilmeyeceği
 ```javascript
 xs.enableKeyEvent(isenable)
 // the parameters is:
@@ -144,13 +145,13 @@ xs.enableKeyEvent(isenable)
 //when has other controls in the same page, you may want to ignore the key event in GridJs 
 ```
 
--  pencere anahtarı olayı ve pencere yeniden boyutlandırma olayı dahil olmak üzere GridJ'lere bağlı tüm olayların bağlantısını kaldırın.
+-  Pencere anahtarı olayı ve pencere yeniden boyutlandırma olayı da dahil olmak üzere GridJ'lere bağlı tüm olayların bağlantısını kesin.
 ```javascript
 xs.destroy()
 ```
 
 
--  görüntü/şekil için görünür filtre ayarla
+-  resim/şekil için görünür filtre ayarla
 ```javascript
     // need to set a function which return true(for visible) or false(for invisible) for the visible filter with the below parameters :
 	sheet:the sheet instance
@@ -166,7 +167,7 @@ xs.destroy()
 		xs.setActiveSheet(xs.getActiveSheet())
 ```
 
-- Seçili görüntüyü/şekli alın, eğer hiçbir şey seçilmezse null değeri döndürülür
+-  Seçilen görüntüyü/şekli alın, eğer hiçbir şey seçilemezse null değerini döndürür
 ```javascript
 xs.sheet.selector.getObj()
 ```
@@ -179,14 +180,14 @@ shape.setControlable(isenable)
       isenable: when set to true,the image or shape can be selectable and movable/resizeable
 ```
 
--  Hücre nesnesini al
+-  Hücre nesnesini alın
 ```javascript
 xs.sheet.data.getCell(ri,ci)
     // the parameters are:
 	ri:row index 
 	ci:column index
 ```
--  Hücre stilini al
+-  Hücre stilini edinin
 ```javascript
 xs.sheet.data.getCellStyle(ri,ci)
     // the parameters are:
@@ -200,10 +201,10 @@ xs.sheet.data.setCellText(ri,ci,value,state)
 	ri:row index 
 	ci:column index
 	value:the cell value
-	state: input | finished
+	state: input | finished ,if finished ,it will do update action to servside
 ```
 
--  Seçili hücre aralığını Al/Ayarla
+-  Seçilen hücre aralığını al/ayarla
 ```javascript
 xs.sheet.data.selector.range
 ```
@@ -213,7 +214,7 @@ xs.sheet.data.setSelectedCellText(value)
     // the parameters are:
 	value:the  value for the cell
 ```
--  Seçilen hücre veya hücre alanı için stili ayarlayın
+-  Seçilen hücre veya hücre alanının stilini ayarlama
 ```javascript
 xs.sheet.data.setSelectedCellAttr(attributename,value)
     // the parameters are:
@@ -230,13 +231,13 @@ xs.sheet.data.merge()
 ```javascript
 xs.sheet.data.unmerge()
 ```
--  Seçili hücreyi sil
+-  Seçilen hücreyi sil
 ```javascript
 xs.sheet.data.deleteCell(type)
     // the parameters are:
 	type:all|format  all: means delete the cell and clear the style ;format means delete the cell value and keep the cell style
 ```
--  Dondur bölmesini ayarla
+-  Dondurma bölmesini ayarlayın
 ```javascript
 xs.sheet.data.setFreeze(ri,ci)
     // the parameters are:
@@ -244,28 +245,44 @@ xs.sheet.data.setFreeze(ri,ci)
 	ci:column index
 ```
 
--  Seçili hücreye satır veya sütun ekle
+-  Seçilen hücreye satır veya sütun ekle
 ```javascript
 xs.sheet.data.insert(type, n)
     // the parameters are:
 	type: row | column
 	n:the row or column number
 ```
--  Seçili hücredeki satır veya sütunları sil
+-  Seçilen hücredeki satır veya sütunları sil
 ```javascript
 xs.sheet.data.delete(type)
     // the parameters are:
 	type: row | column
 ```
 
--  Sütun için genişliği ayarlayın
+-  Sütunun genişliğini ayarlayın
 ```javascript
 xs.sheet.data.setColWidth(ci,width)
     // the parameters are:
 	ci:column index
 	width:the width for the column
 ```
--  Sütun için genişliği alın
+-  Sütunların genişliğini ayarlayın
+```javascript
+xs.sheet.data.setColsWidth(sci,eci,width)
+    // the parameters are:
+	sci:the start column index
+	eci:the end column index
+	width:the width for the column
+```
+
+-  Tüm sütunların genişliğini ayarlayın
+```javascript
+xs.sheet.data.setAllColsWidth(width)
+    // the parameters are:
+	width:the width for the columns
+```
+
+-  Sütunun genişliğini alın
 ```javascript
 xs.sheet.data.cols.sumWidth(min,max)
     // the parameters are:
@@ -273,26 +290,44 @@ xs.sheet.data.cols.sumWidth(min,max)
 	max:the end column index,not include
 ```
 
--  Satır için yüksekliği ayarlayın
+-  Satırın yüksekliğini ayarlayın
 ```javascript
 xs.sheet.data.setRowHeight(ri,height)
     // the parameters are:
 	ri:row index
 	height:the height for the row
 ```
--  Satır için yüksekliği al
+-  Satırların yüksekliğini ayarlayın
+```javascript
+xs.sheet.data.setRowsHeight(sri,eri,height)
+    // the parameters are:
+	sri:start row index
+	eri:end row index
+	height:the height for the rows
+```
+
+- Tüm satırların yüksekliğini ayarlayın
+```javascript
+xs.sheet.data.setAllRowsHeight(height)
+    // the parameters are:
+	height:the height for the rows
+```
+
+
+-  Satırın yüksekliğini alın
 ```javascript
 xs.sheet.data.rows.sumHeight(min,max)
     // the parameters are:
 	min:the start row index
 	max:the end row index,not include
 ```
--  Ekran yönünü Al/Ayarla
+
+-  Görüntüleme yönünü al/ayarla
 ```javascript
 xs.sheet.data.displayRight2Left
 ```
 
-##  olay geri araması
+##  olay geri arama
 -  aşağıdaki olayları takip edebiliriz
 ```javascript
  xs.on('cell-selected', (cell, ri, ci) => {
@@ -309,6 +344,8 @@ xs.sheet.data.displayRight2Left
                 console.log('shape or image selected id:', shapeOrImageObj.id, ', type: ', shapeOrImageObj.type);
             }).on('sheet-selected', (id,name) => {
                 console.log('sheet selected id:', id, ', name: ',name);
+            }).on('sheet-loaded', (id,name) => {
+                console.log('sheet load finished:', id, ', name: ',name);
             }).on('cell-edited', (text, ri, ci) => {
                 console.log('text:', text, ', ri: ', ri, ', ci:', ci);
             });
@@ -336,7 +373,7 @@ xs.sheet.menubar.hide()
 ```
 
 
-detaylı bilgi için buradan örneği inceleyebilirsiniz
+detaylı bilgi için buradaki örneği inceleyebilirsiniz
 <https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
 
 

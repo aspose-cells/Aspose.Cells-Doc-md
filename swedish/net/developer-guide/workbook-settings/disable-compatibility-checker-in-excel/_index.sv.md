@@ -1,11 +1,12 @@
-﻿---
+---
 title: Inaktivera kompatibilitetskontrollen i Excel
 type: docs
 weight: 170
 url: /sv/net/disable-compatibility-checker-in-excel/
-keywords: c# excel disable compatibility checke
+description: Den här artikeln visar hur du inaktiverar kompatibilitetskontrollen via Aspose.Cells for .NET API.
+keywords: C# Disable Compatibility Checker, Excel Disable Compatibility Checker in C#, Disable Compatibility Checker in Workbook. 
 ---
-## Inaktivera kompatibilitetskontrollen i Excel-kalkylblad i C#
+##  Inaktivera kompatibilitetskontrollen i Excel-kalkylblad i C#
 
 {{% alert color="primary" %}}
 
@@ -17,18 +18,18 @@ Ibland måste du inaktivera kompatibilitetskontrollen för ett visst kalkylblad.
 
 {{% /alert %}}
 
-## **Använder Microsoft Excel**
+##  **Så här inaktiverar du kompatibilitetskontrollen med Microsoft Excel**
 
 Så här inaktiverar du kompatibilitetskontrollen i Microsoft Excel (till exempel Microsoft Excel 2007/2010):
 
--  (Excel 2007) Klicka på Office-knappen**Förbereda** , då**Kör kompatibilitetskontrollen** , och rensa sedan**Kontrollera kompatibiliteten när du sparar den här arbetsboken** alternativ.
--  (Excel 2010) Klicka på fliken Arkiv**Info** , då**Kontrollera om det finns problem** , klick**Kontrollera kompatibilitet** , och slutligen, rensa**Kontrollera kompatibiliteten när du sparar den här arbetsboken** alternativ.
+-  (Excel 2007) Klicka på Office-knappen**Förbered**, sedan **Kör kompatibilitetskontroll** och rensa sedan **Kontrollera kompatibilitet när du sparar den här arbetsboken** alternativ.
+-  (Excel 2010) Klicka på fliken Arkiv**Info**, sedan **Sök efter problem**, klicka på **Kontrollera kompatibilitet**, och slutligen, rensa **Kontrollera kompatibilitet när du sparar den här arbetsboken** alternativ.
 
-## **Använder Aspose.Cells API:er**
+##  **Så här inaktiverar du kompatibilitetskontrollen med Aspose.Cells API:er**
 
  Ställ in[**Arbetsbok.Inställningar.Kontrollera kompatibilitet**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/checkcompatibility) egendom till**Falsk** för att inaktivera Microsoft Excels kompatibilitetskontroll.
 
-### **Kodexempel**
+###  **Kodexempel**
 
 Kodexemplen som följer visar hur du inaktiverar kompatibilitetskontrollen med Aspose.Cells for .NET.
 

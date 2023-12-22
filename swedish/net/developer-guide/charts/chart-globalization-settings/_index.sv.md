@@ -1,5 +1,7 @@
 ---
 title:  Använda ChartGlobalizationSettings Class för att ställa in annat språk för diagramkomponent
+description: Lär dig hur du använder klassen ChartGlobalizationSettings i Aspose.Cells for .NET för att ställa in olika språk för diagramkomponenter. Vår guide hjälper dig att förstå hur du lokaliserar diagramelement, etiketter och legender till olika språk, så att du kan presentera dina data på ett kulturellt lämpligt sätt.
+keywords: Aspose.Cells for .NET, charting, chart globalization, languages, localization, ChartGlobalizationSettings, elements, labels, legends.
 type: docs
 weight: 2200
 url: /sv/net/using-chartglobalizationsettings-class-to-set-different-language-for-chart-component/

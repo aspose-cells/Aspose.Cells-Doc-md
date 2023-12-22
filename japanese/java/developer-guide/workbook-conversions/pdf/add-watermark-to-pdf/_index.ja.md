@@ -16,5 +16,5 @@ Excel ファイルを PDF に変換する際、PDF ファイルに透かしを�
 
 画像の画像バイトを指定するだけで、PDF に画像の透かしを追加できます。また、配置、オフセット、回転、不透明度、前景/背景、ページのスケールを設定することもできます。[レンダリング透かし](https://reference.aspose.com/cells/java/com.aspose.cells/renderingwatermark/).
 
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Docs-Pdf-AddTextWatermarkToPdf.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Docs-Pdf-AddImageWatermarkToPdf.java" >}}
 

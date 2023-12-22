@@ -1,118 +1,129 @@
 ---
-title: GridJs Highlight özelliği ile çalışma
+title: GridJ'in Vurgulama özelliğiyle çalışma
 type: docs
 weight: 250
 url: /tr/net/aspose-cells-gridjs/highlight/
-description: Bu makale, hücre metnini, hücre aralıklarını, şekilleri ve resimleri vurgulamak için GridJ'lerin nasıl kullanılacağını açıklamaktadır.
-keywords: highlight, highlight spreadsheet
+description: Bu makalede hücre metnini, hücre aralıklarını, şekilleri ve resimleri vurgulamak için GridJ'lerin nasıl kullanılacağı açıklanmaktadır.
+keywords: highlight, highlight spreadsheet,redaction,remarks
 ---
-#  GridJs Highlight özelliği ile çalışma
+#  GridJ'in Vurgulama özelliğiyle çalışma
  Vurgulama özelliği için aşağıdaki JS API'lerini destekliyoruz
 
 
--  Vurgulamayı etkinleştir ve Vurgu stilini ayarla , tüm vurgu API'leri yalnızca vurgu stili ayarlandıktan sonra etkili olacaktır
+-  Vurgulamayı etkinleştirin ve Vurgulama stilini ayarlayın; tüm vurgulama API'leri yalnızca etkin çalışma sayfasında vurgulama stili ayarlandıktan sonra etkili olur
 ```javascript
-xs.showHighlights(style)
+xs.sheet.showHighlights(style)
  // the parameter is:
  style: the style for highlight ,currently only support color
  for example: {'color':'rgba(85, 57, 47, 0.08)'}
 ```
 
--  Vurgulamayı devre dışı bırak
+-  etkin çalışma sayfasında ayarlanan vurgulama stilini güncelleme
 ```javascript
-xs.hideHighlights()
+xs.sheet.updateHighlightStyle(style)
+ // the parameter is:
+ style: the style for highlight ,currently only support color
+ for example: {'color':'rgba(85, 57, 47, 0.08)'}
 ```
--  Vurgulamak için hücre metni ekleyin
+
+
+-  Etkin çalışma sayfasında vurgulamayı devre dışı bırak
+```javascript
+xs.sheet.hideHighlights()
+```
+-  Etkin çalışma sayfasında vurgulamak için hücre metni ekleyin
 ```javascript
 xs.sheet.addHighlightText(row,col,startpostion,endposition)
     // the parameters are:
-    row:row index 
+	row:row index 
 	col:column index
 	startpostion: highlight start postion in cell text 
 	endpostion: highlight end postion in cell text 
     //it support multiple range postion inside one cell
 ```
 
--  Dizideki hücre metni için vurgulamayı kaldır
+-  Etkin çalışma sayfasındaki dizideki hücre metninin vurgusunu kaldır
 ```javascript
-xs.sheet.removeHighlightText(row,col)
+xs.sheet.removeHighlightText(row,col,startpostion,endposition)
     // the parameters are:
-    row:row index 
+	row:row index 
 	col:column index
+	startpostion: highlight start postion in cell text 
+	endpostion: highlight end postion in cell text 
 ```
 
--  Hücre metni için vurgulama için dizi alın
+- Etkin çalışma sayfasındaki hücre metnini vurgulamak için dizi alın
 ```javascript
 xs.sheet.getHighlightTexts()
 ```
 
--  Vurgulamak için hücre aralığı ekleyin
+-  Etkin çalışma sayfasında vurgulamak için hücre aralığını ekleyin
 ```javascript
 xs.sheet.addHighlightRange(sri,sci,eri,eci)
     // the parameters are:
-    sri:start row index of cell range
+	sri:start row index of cell range
 	sci:start column index of cell range
-	 eri:end row index of cell range
+	eri:end row index of cell range
 	eci:end column index of cell range
 ```
 
--  Dizideki hücre aralığı için vurgulamayı kaldır
+-  Etkin çalışma sayfasındaki dizideki hücre aralığının vurgusunu kaldır
 ```javascript
 xs.sheet.removeHighlightRange(sri,sci,eri,eci)
      // the parameters are:
-    sri:start row index of cell range
+	sri:start row index of cell range
 	sci:start column index of cell range
-	 eri:end row index of cell range
+	eri:end row index of cell range
 	eci:end column index of cell range
 ```
 
--  Hücre aralığı için vurgulamak için dizi alın
+-  Etkin çalışma sayfasındaki hücre aralığını vurgulamak için dizi alın
 ```javascript
 xs.sheet.getHighlightRanges()
 ```
 
--  Hücre aralığını ters vurgu olarak ayarla
+-  Etkin çalışma sayfasında hücre aralığını vurguyu tersine çevirecek şekilde ayarlayın
 ```javascript
 xs.sheet.setHighlightInverseRange(sri,sci,eri,eci)
     // the parameters are:
-    sri:start row index of cell range
+	sri:start row index of cell range
 	sci:start column index of cell range
-	 eri:end row index of cell range
+	eri:end row index of cell range
 	eci:end column index of cell range
 ```
 
--  Ters vurgu için vurguyu kaldır
+-  Etkin çalışma sayfasında ters çevrilmiş vurgu için vurguyu kaldır
 ```javascript
 xs.sheet.removeHighlightInverseRange()
      
 ```
 
--  Ters vurgu hücre aralığını alın
+-  Etkin çalışma sayfasında ters vurgu hücre aralığını alın
 ```javascript
 xs.sheet.getHighlightInverseRange()
 ```
 
 
--  Diziyi vurgulamak için şekil ekleyin
+-  Etkin çalışma sayfasında diziyi vurgulamak için şekil ekleyin
 ```javascript
 xs.sheet.addHighlightShape(shapeid)
     // the parameters are:
     shapeid: the id of shape, can be find in xs.sheet.data.shapes
 ```
 
--  Dizideki vurgulama şeklini kaldır
+-  Etkin çalışma sayfasındaki dizideki vurgulama şeklini kaldır
 ```javascript
 xs.sheet.removeHighlightShape(shapeid)
      // the parameters are:
     shapeid: the id of shape, can be find in xs.sheet.data.shapes
 ```
 
--  Vurgu şekli için dizi alın
+-  Aktif çalışma sayfasında şekli vurgulamak için dizi alın
 ```javascript
 xs.sheet.getHighlightShaps()
 ```
 
--  Vurgulamak için metin kutusu ekleyin, metin kutusu, tip özelliğinin : "TextBox" olduğu özel bir şekil türüdür.
+-  Vurgulamak için metin kutusu ekleyin, metin kutusu, etkin çalışma sayfasında özelliği "TextBox" olan özel bir şekil türüdür
 ```javascript
 xs.sheet.addHighlightTextBox(shapeid, startpostion, endposition)
     // the parameters are:
@@ -123,7 +134,7 @@ xs.sheet.addHighlightTextBox(shapeid, startpostion, endposition)
 ```
 
 
-- Metin kutusundaki vurgu aralığını kaldır, metin kutusu, tip özelliğinin : "TextBox" olduğu özel bir şekil türüdür.
+-  Metin kutusundaki vurgu aralığını kaldırın, metin kutusu, etkin çalışma sayfasındaki özelliği "TextBox" olan özel bir şekil türüdür
 ```javascript
 xs.sheet.removeHighlightTextBox(shapeid, startpostion, endposition)
     // the parameters are:
@@ -133,26 +144,26 @@ xs.sheet.removeHighlightTextBox(shapeid, startpostion, endposition)
     //it support multiple range postion inside one textbox
 ```
 
--  Diziyi vurgulamak için resim ekleyin
+-  Etkin çalışma sayfasındaki vurgu dizisine resim ekleyin
 ```javascript
 xs.sheet.addHighlightImage(imageid)
     // the parameters are:
     imageid: the id of image, can be find in xs.sheet.data.images
 ```
 
--  Dizideki vurgulanan görüntüyü kaldır
+- Etkin çalışma sayfasındaki dizideki vurgulanan görüntüyü kaldırın
 ```javascript
 xs.sheet.removeHighlightImage(imageid)
      // the parameters are:
     imageid: the id of image, can be find in xs.sheet.data.images
 ```
 
--  Vurgu resmi için dizi alın
+-  Vurgu görseli için dizi alın
 ```javascript
 xs.sheet.getHighlightImages()
 ```
 
--  tüm çalışma sayfasının vurgulanıp vurgulanmayacağını, tüm şekillerin ve resimlerin dahil edilip edilmeyeceğini ayarlayın
+-  Etkin çalışma sayfasındaki tüm nesnelerin vurgulanıp vurgulanmayacağını, tüm şekilleri, görüntüleri ve tüm çalışma sayfası alanını dahil edip etmeyeceğini ayarlayın
 ```javascript
 xs.sheet.setHighlightAll(ishighlightall,isrerender=true)
    // the parameters are:
@@ -161,7 +172,7 @@ xs.sheet.setHighlightAll(ishighlightall,isrerender=true)
 ```
 
 
--  Özel görüntü vurgulama işlevini ayarla
+-  Özel görüntü vurgulama işlevini ayarlayın
 ```javascript
 xs.sheet.setCustomHighlightImgFunc(func)
    // the parameters are:
@@ -175,9 +186,15 @@ xs.sheet.setCustomHighlightImgFunc(func)
     
 ```
 
-###  Metin kutusu nesnesi için vurgula
-textbox, tip özelliğinin :"TextBox" olduğu özel bir şekil türüdür.
-örneğin: aşağıdaki kod hangi şeklin metin kutusu olduğunu gösterecek
+-  etkin çalışma sayfası için vurgulama ayarını temizle
+```javascript
+xs.sheet.clearHighlights()
+
+```
+
+###  Metin kutusu nesnesini vurgula
+metin kutusu, tür özelliği :"TextBox" olan özel bir şekil türüdür,
+örneğin: aşağıdaki kod hangi şeklin metin kutusu olduğunu gösterecektir
 
 ```javascript
 for (let shape of xs.sheet.data.shapes) {
@@ -186,7 +203,7 @@ for (let shape of xs.sheet.data.shapes) {
     }
 }
 ```
--  Metin kutusu nesnesi için vurgu ekle
+-  Metin kutusu nesnesi için vurgu ekleme
 ```javascript
     addHighlight(startpostion,endposition)
     // the parameters are:
@@ -201,7 +218,7 @@ const textbox=xs.sheet.data.shapes[0];
  textbox.addHighlight(18,28);
 ```
 
--  Metin kutusu nesnesi için vurguyu kaldır
+-  Metin kutusu nesnesinin vurgusunu kaldır
 ```javascript
     removeHighlight(startpostion,endposition)
     // the parameters are:
@@ -212,7 +229,7 @@ const textbox=xs.sheet.data.shapes[0];
      textbox.removeHighlight(5,10);
 ```
 
--  Metin kutusu nesnesi için vurguyu alın
+-  Metin kutusu nesnesi için vurgulama alın
 ```javascript
     getHighlight()
     //for example,we assume shape 0 is a textbox object
@@ -220,7 +237,7 @@ const textbox=xs.sheet.data.shapes[0];
      textbox.getHighlight();
 ```
 
--  Metin kutusu nesnesi için arka plan rengini değiştir
+-  Metin kutusu nesnesinin arka plan rengini değiştirme
 ```javascript
     setBackgroundColor(color)
     // the parameters are:
@@ -229,7 +246,7 @@ const textbox=xs.sheet.data.shapes[0];
      const textbox=xs.sheet.data.shapes[0];
      textbox.setBackgroundColor('#FFFF00');
 ```
--  Görsel bir aktif efekt elde etmek için arka plan rengini ve metin rengini otomatik olarak değiştirin
+-  Görsel aktif bir efekt elde etmek için arka plan rengini ve metin rengini otomatik olarak değiştirin
 ```javascript
     setActiveEffect(boolvalue)
     // the parameters are:
@@ -245,4 +262,4 @@ const textbox=xs.sheet.data.shapes[0];
 
 
 
-Github demo sayfamızda daha fazlasını bulabilirsiniz https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html
+Daha fazlasını github demo sayfamızda bulabilirsiniz https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html

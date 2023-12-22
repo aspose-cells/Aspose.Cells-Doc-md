@@ -1,12 +1,14 @@
-﻿---
+---
 title: Adatta automaticamente righe e colonne in Python
 type: docs
 weight: 20
 url: /it/java/autofit-rows-and-columns-in-python/
+description: Scopri come adattare automaticamente righe e colonne tramite Aspose.Cells for Python tramite Java API.
+keywords: How to Autofit Rows and Columns in Python Via Java, Autofit Rows Data in workbook using Python Via Java, Python Via Java Autofit Columns Data. 
 ---
-## **Aspose.Cells - Adatta automaticamente righe e colonne**
-### **Riga di adattamento automatico**
-L'approccio più diretto al ridimensionamento automatico della larghezza e dell'altezza di una riga consiste nel chiamare il metodo autoFitRow della classe Worksheet. Il metodo autoFitRow accetta un indice di riga (della riga da ridimensionare) come parametro.
+##  **Come adattare automaticamente righe e colonne**
+###  **Come adattare automaticamente la riga**
+L'approccio più semplice per ridimensionare automaticamente la larghezza e l'altezza di una riga consiste nel chiamare il metodo autoFitRow della classe Worksheet. Il metodo autoFitRow accetta come parametro un indice di riga (della riga da ridimensionare).
 
 **Python Cod**
 
@@ -39,8 +41,8 @@ workbook.save(self.dataDir + "Autofit Row.xls")
 print "Autofit Row Successfully." 
 
 {{< /highlight >}}
-### **Colonna Adatta automaticamente**
-Il modo più semplice per ridimensionare automaticamente la larghezza e l'altezza di una colonna consiste nel chiamare il metodo autoFitColumn della classe Worksheet. Il metodo autoFitColumn accetta l'indice di colonna (della colonna che sta per essere ridimensionata) come parametro.
+###  **Come adattare automaticamente la colonna**
+Il modo più semplice per ridimensionare automaticamente la larghezza e l'altezza di una colonna è chiamare il metodo autoFitColumn della classe Worksheet. Il metodo autoFitColumn prende come parametro l'indice della colonna (della colonna che sta per essere ridimensionata).
 
 **Python Cod**
 
@@ -73,7 +75,7 @@ workbook.save(self.dataDir + "Autofit Column.xls")
 print "Autofit Column Successfully." 
 
 {{< /highlight >}}
-## **Scarica il codice in esecuzione**
-Scaricamento**Adatta automaticamente righe e colonne (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+##  **Scarica il codice in esecuzione**
+Scaricamento**Adatta automaticamente righe e colonne (Aspose.Cells)**da uno qualsiasi dei siti di social coding indicati di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

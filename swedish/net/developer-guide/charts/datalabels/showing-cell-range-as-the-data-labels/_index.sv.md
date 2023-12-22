@@ -1,5 +1,7 @@
-﻿---
+---
 title: Visar Cell intervall som dataetiketter
+description: Lär dig hur du visar ett intervall av celler som dataetiketter i diagram med Aspose.Cells for .NET. Vår guide visar hur du länkar etiketterna till din datakälla och formaterar dem för att ge korrekt och meningsfull information i dina diagram.
+keywords: Aspose.Cells for .NET, charting, data labels, cell range, data source, formatting, accuracy, meaningful information.
 type: docs
 weight: 130
 url: /sv/net/showing-cell-range-as-the-data-labels/
@@ -10,13 +12,13 @@ I Microsoft Excel 2013 kan du visa ett cellintervall för dataetiketter. Aspose.
 
 {{% /alert %}}
 
-## **Kryssa i rutan för att visa Cell intervall som dataetiketter**
+##  **Kryssa i rutan för att visa Cell intervall som dataetiketter**
 
 Så här visar du cellintervallet som dataetiketter i Microsoft Excel:
 
 1. Välj seriedataetiketterna och högerklicka för att öppna snabbmenyn.
-1.  Välj**Formatera dataetiketter**. Etikettalternativ visas.
-1.  Välj eller avmarkera alternativet**Etikett innehåller - Värde från Cells**.
+1. Välj *Formatera dataetiketter**. Etikettalternativ visas.
+1. Välj eller avmarkera alternativet *Etikett innehåller - värde från Cells**.
 
  Exempelkoden nedan ger åtkomst till en diagramseries dataetiketter och ställer in[**DataLabels.ShowCellRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/showcellrange) egendom till**Sann** för att välja**Etikett innehåller - Värde från Cells** alternativ.
 

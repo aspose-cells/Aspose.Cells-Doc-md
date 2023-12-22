@@ -1,5 +1,7 @@
-﻿---
+---
 title: Använd villkorlig formatering i kalkylblad
+description: Hur man använder Aspose.Cells-biblioteket i C# för att tillämpa villkorlig formatering i kalkylblad. Genom att justera dessa kriterier har du mer kontroll över hur celler ser ut och visas.
+keywords: Aspose.Cells, Conditional Formatting, C#, Worksheet, Formatting
 type: docs
 weight: 130
 url: /sv/net/apply-conditional-formatting-in-worksheets/
@@ -12,28 +14,28 @@ Villkorlig formatering är en avancerad funktion i Microsoft Excel som låter di
 
 Det är möjligt att tillämpa villkorlig formatering med Microsoft Office Automation men det har sina nackdelar. Det finns flera orsaker och frågor inblandade: till exempel säkerhet, stabilitet, skalbarhet och hastighet. Den främsta anledningen till att hitta en annan lösning är att Microsoft själva starkt rekommenderar Office Automation för mjukvarulösningar.
 
-Den här artikeln visar hur du skapar en konsolapplikation, lägger till villkorlig formatering på celler med några enklaste rader kod med hjälp av Aspose.Cells API.
+Den här artikeln visar hur man skapar en konsolapplikation, lägger till villkorlig formatering på celler med några enklaste rader kod med hjälp av Aspose.Cells API.
 
 {{% /alert %}}
 
-## **Använda Aspose.Cells för att tillämpa villkorlig formatering baserat på Cell-värde**
+##  **Använda Aspose.Cells för att tillämpa villkorlig formatering baserat på Cell-värde**
 
-1. **Ladda ner och installera Aspose.Cells**.
+1. *Ladda ner och installera Aspose.Cells**.
  1. Ladda ner Aspose.Cells for .NET.
 1. Installera det på din utvecklingsdator.
-Alla Aspose-komponenter, när de är installerade, fungerar i utvärderingsläge. Utvärderingsläget har ingen tidsbegränsning och det injicerar bara vattenstämplar i producerade dokument.
-1. **Skapa ett projekt**.
+ Alla Aspose-komponenter, när de är installerade, fungerar i utvärderingsläge. Utvärderingsläget har ingen tidsbegränsning och det injicerar bara vattenstämplar i producerade dokument.
+1. *Skapa ett projekt**.
  Starta Visual Studio.NET och skapa en ny konsolapplikation. Det här exemplet skapar en C# konsolapplikation, men du kan också använda VB.NET.
-1. **Lägg till referenser**.
+1. *Lägg till referenser**.
  Lägg till en referens till Aspose.Cells till ditt projekt, till exempel lägg till en referens till ….\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll
 1. *Använd villkorlig formatering baserat på cellvärde.
- Nedan finns koden som används för att utföra uppgiften. Jag tillämpar villkorlig formatering på en cell.
+Nedan finns koden som används för att utföra uppgiften. Jag tillämpar villkorlig formatering på en cell.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ApplyConditionalFormatting-ApplyConditionalFormattingCellValue-1.cs" >}}
 
 När ovanstående kod exekveras, tillämpas villkorlig formatering på cell "A1" i det första kalkylbladet i utdatafilen (output.xls). Den villkorliga formateringen som tillämpas på A1 beror på cellvärdet. Om cellvärdet för A1 är mellan 50 och 100 är bakgrundsfärgen röd på grund av den villkorliga formateringen som tillämpats.
 
-## **Använda Aspose.Cells för att tillämpa villkorlig formatering baserad på formel**
+##  **Använda Aspose.Cells för att tillämpa villkorlig formatering baserad på formel**
 
 1. Tillämpa villkorlig formatering beroende på formel (kodavsnitt)
  Nedan finns koden för att utföra uppgiften. Den tillämpar villkorlig formatering på B3.

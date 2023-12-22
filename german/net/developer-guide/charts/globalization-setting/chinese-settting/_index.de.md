@@ -1,5 +1,7 @@
 ---
 title: Konvertieren Sie das Diagramm in ein Bild für die chinesische Region
+description: Erfahren Sie, wie Sie Aspose.Cells verwenden. for .NET legt die chinesische Konfiguration für Diagramme fest. Unser Leitfaden zeigt, wie Sie Diagramme so konfigurieren, dass sie chinesische Schriftzeichen und Formate unterstützen, einschließlich Schriftarten, Größen, Textrichtungen und mehr.
+keywords: Aspose.Cells for .NET, Charts, Chinese Configuration, Fonts, Font Size, Text Direction, Support.
 linktitle: Stellen Sie die chinesische Region ein
 type: docs
 weight: 9
@@ -14,7 +16,7 @@ In diesem Thema zeigen wir Ihnen, wie Sie die chinesische Region für ein Diagra
 
 ##  **Definiert eine Vererbungsklasse**
 
-Im ersten Schritt müssen Sie eine Klasse „ChartChineseSetttings“ definieren, von der geerbt wird[**ChartGlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/). 
+ Im ersten Schritt müssen Sie eine Klasse „ChartChineseSetttings“ definieren, von der geerbt wird[**ChartGlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/). 
 Anschließend können Sie durch Umschreiben der zugehörigen Funktionen den Text der Diagrammelemente in Ihrer eigenen Sprache festlegen.
 Codebeispiel:
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "ChartChineseSetttings.cs" >}}

@@ -1,5 +1,7 @@
 ---
-title: Japon Bölgesi için Grafiği Resme Dönüştür
+title: Japonya Bölgesi için Grafiği Resme Dönüştür
+description: Grafiğin Japonca yapılandırmasını ayarlama Aspose.Cells for .NET'in nasıl kullanılacağını öğrenin. Kılavuzumuz, yazı tipleri, boyut, metin yönü ve daha fazlası dahil olmak üzere Japonca karakterleri ve biçimlendirmeyi destekleyecek şekilde grafiklerin nasıl yapılandırılacağını gösterecektir.
+keywords: Aspose.Cells for .NET, Charts, Japanese configuration, font, font size, text direction, support.
 linktitle: Japon Bölgesini Ayarla
 type: docs
 weight: 10
@@ -8,20 +10,20 @@ alias: [/net/set-japanese-configuration-for-chart/]
 ---
 {{% alert color="primary" %}}
 
-Bu konuda size bir grafik için Japon Bölgesini nasıl ayarlayacağınızı göstereceğiz.
+Bu başlıkta size bir grafik için Japon Bölgesini nasıl ayarlayacağınızı göstereceğiz.
 
 {{% /alert %}}
 
-##  **Bir kalıtım sınıfı tanımlar**
+##  **Bir miras sınıfını tanımlar**
 
- İlk adım, buradan miras alan bir "ChartJapaneseSettings" sınıfı tanımlamanız gerekir.[**ChartGlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/). 
-Ardından, ilgili işlevleri yeniden yazarak, grafik öğelerinin metnini kendi dilinizde ayarlayabilirsiniz.
+ İlk adım, miras alan bir "ChartJapaneseSettings" sınıfını tanımlamanız gerekir.[**GrafikKüreselleşmeAyarlar**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/). 
+Daha sonra ilgili fonksiyonları yeniden yazarak grafik elemanlarının metnini kendi dilinizde ayarlayabilirsiniz.
 Kod örneği:
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "ChartJapaneseSetttings.cs" >}}
 
-##  **Grafik İçin Japonca Ayarı Yapılandır**
+##  **Grafik İçin Japonca Ayarını Yapılandırma**
 
-Bu adımda, bir önceki adımda tanımladığınız "ChartJapaneseSettings" sınıfını kullanacaksınız.
+Bu adımda bir önceki adımda tanımladığınız "ChartJapaneseSettings" sınıfını kullanacaksınız.
 Kod örneği:
 
 ```
@@ -31,20 +33,20 @@ Kod örneği:
 	chart0.ToImage("Output.png");
 ```
 
-Ardından çıktı görüntüsündeki efekti görebilirsiniz, grafikteki öğeler ayarlarınıza göre işlenecektir.
+Daha sonra çıktı görüntüsündeki efekti görebilirsiniz; grafikteki öğeler ayarlarınıza göre oluşturulacaktır.
 
 ##  **Çözüm**
 
-Bu örnekte, bir grafik için Japon Bölgesini ayarlamazsanız, aşağıdaki grafik öğeleri İngilizce gibi varsayılan dilde gösterilebilir.
-Yukarıdaki işlemden sonra Japon Bölgesi ile bir çıktı grafiği resmi elde edebiliriz.
+Bu örnekte, bir grafik için Japonca Bölgesini ayarlamazsanız aşağıdaki grafik öğeleri İngilizce gibi varsayılan dilde görüntülenebilir.
+Yukarıdaki işlemden sonra Japon Bölgesi ile çıktı grafiği resmi elde edebiliriz.
 
-|**desteklenen öğeler**|**Bu örnekteki değer**|**İngiliz ortamındaki varsayılan değer**|
+|**Desteklenen öğeler**|**Bu örnekteki değer**|**İngilizce ortamında varsayılan değer**|
 | :- | :- | :- |
-|Eksen Başlık Adı|軸タイトル|Eksen Başlığı|
-|Eksen Birimi Adı|百,千...|Yüzlerce, Binlerce...|
+|Eksen Başlığı Adı|軸タイトル|Eksen Başlığı|
+|Eksen Birimi Adı|百,千...|Yüzlerce, binlerce...|
 |Grafik Başlığı Adı|グラフ タイトル|Grafik başlığı|
 |Efsane Artış Adı|ぞうか|Arttırmak|
-|Efsane Azaltma Adı|削減|Azaltmak|
-|Açıklama Toplam Adı|すべての|Toplam|
-|Diğer İsim|その他|Diğer|
+|Açıklama Adı Azaltma|削減|Azaltmak|
+|Efsane Toplam Adı|すべての|Toplam|
+|Diğer Ad|その他|Diğer|
 |Seri Adı|シリーズ|Seri|

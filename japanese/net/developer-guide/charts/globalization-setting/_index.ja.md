@@ -1,5 +1,7 @@
 ---
 title: チャートをローカライズされた画像に変換
+description: Aspose.Cells for .NET を使用してグラフのグローバリゼーション構成を設定する方法について説明します。このガイドでは、複数の言語と地域形式をサポートし、さまざまな言語でテキスト、日付、数値を正しく表示するようにグラフを構成する方法を説明します。
+keywords: Aspose.Cells for .NET, Charts, Globalization Settings, Multiple Languages, Regional Formats, Display, Text, Dates, Numbers.
 linktitle: ローカライズされた領域を設定する
 type: docs
 weight: 50
@@ -16,7 +18,7 @@ alias: [/net/how-to-set-globalization-configuration-for-chart/]
 
 どのようなシナリオでチャートのローカライズされた領域を設定する必要がありますか?
 
- Excel でグラフを含む xlsx ファイルを開くと (この場合、Excel でスペイン語の地域設定を使用してファイルを開いたとします)、グラフ領域内の要素 (グラフのタイトル、長さなど) がスペイン語に翻訳されて表示されます。ただし、このグラフを Aspose.Cells の画像として保存すると、次の問題が発生する可能性があります。
+Excel でグラフを含む xlsx ファイルを開くと (この場合、Excel でスペイン語の地域設定を使用してファイルを開いたとします)、グラフ領域内の要素 (グラフのタイトル、長さなど) がスペイン語に翻訳されて表示されます。ただし、このグラフを Aspose.Cells の画像として保存すると、次の問題が発生する可能性があります。
 
 **![グローバル問題](GlobalIssue.png)**
 
@@ -32,7 +34,7 @@ alias: [/net/how-to-set-globalization-configuration-for-chart/]
 |軸ユニット名|何百、何千...|
 |チャートのタイトル名|チャートのタイトル|
 |レジェンド増加名|増加|
-|凡例の名前の減少|下降|
+|凡例の名前の減少|減少|
 |凡例の合計名|合計|
 |ほかの名前|他の|
 |シリーズ名|シリーズ|

@@ -1,5 +1,7 @@
 ---
 title: PDF へのチャート
+description: Aspose.Cells for .NET を使用してグラフを PDF ドキュメントに変換する方法を学びます。私たちのガイドでは、Microsoft Excel からグラフをエクスポートし、その後の配布やアーカイブのために PDF として保存する方法を説明します。
+keywords: Aspose.Cells for .NET, Chart to PDF, Microsoft Excel, PDF Conversion, Export, Distribution, Archiving.
 type: docs
 weight: 47
 url: /ja/net/chart-to-pdf/

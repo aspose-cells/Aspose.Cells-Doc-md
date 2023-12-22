@@ -1,12 +1,14 @@
-﻿---
-title: احتواء تلقائي للصفوف والأعمدة في Python
+---
+title: الصفوف والأعمدة التلقائية في Python
 type: docs
 weight: 20
 url: /ar/java/autofit-rows-and-columns-in-python/
+description: تعرف على كيفية الاحتواء التلقائي للصفوف والأعمدة من خلال Aspose.Cells for Python عبر Java API.
+keywords: How to Autofit Rows and Columns in Python Via Java, Autofit Rows Data in workbook using Python Via Java, Python Via Java Autofit Columns Data. 
 ---
-## **Aspose.Cells - احتواء تلقائي للصفوف والأعمدة**
-### **صف احتواء تلقائي**
-الطريقة الأكثر مباشرة لتغيير حجم عرض الصف وارتفاعه تلقائيًا هي استدعاء طريقة autoFitRow لفئة ورقة العمل. تأخذ طريقة autoFitRow فهرس صف (للصف المراد تغيير حجمه) كمعامل.
+##  **كيفية الاحتواء التلقائي للصفوف والأعمدة**
+###  **كيفية الاحتواء التلقائي للصف**
+الطريقة الأكثر مباشرة للتحجيم التلقائي لعرض الصف وارتفاعه هي استدعاء أسلوب autoFitRow الخاص بفئة ورقة العمل. تأخذ الطريقة autoFitRow فهرس الصف (الصف الذي سيتم تغيير حجمه) كمعلمة.
 
 **Python كود**
 
@@ -39,8 +41,8 @@ workbook.save(self.dataDir + "Autofit Row.xls")
 print "Autofit Row Successfully." 
 
 {{< /highlight >}}
-### **عمود الاحتواء التلقائي**
-أسهل طريقة لتغيير حجم عرض العمود وارتفاعه تلقائيًا هي استدعاء طريقة autoFitColumn لفئة ورقة العمل. تأخذ طريقة autoFitColumn فهرس العمود (الخاص بالعمود على وشك تغيير حجمه) كمعامل.
+###  **كيفية الاحتواء التلقائي للعمود**
+أسهل طريقة لتحديد حجم عرض العمود وارتفاعه تلقائيًا هي استدعاء أسلوب autoFitColumn الخاص بفئة ورقة العمل. تأخذ الطريقة autoFitColumn فهرس العمود (العمود الذي على وشك تغيير حجمه) كمعلمة.
 
 **Python كود**
 
@@ -73,7 +75,7 @@ workbook.save(self.dataDir + "Autofit Column.xls")
 print "Autofit Column Successfully." 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**احتواء تلقائي للصفوف والأعمدة (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+##  **تحميل كود التشغيل**
+تحميل**الاحتواء التلقائي للصفوف والأعمدة (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

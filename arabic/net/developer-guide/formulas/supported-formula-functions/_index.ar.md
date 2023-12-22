@@ -1,24 +1,24 @@
 ---
-title: وظائف Excel المعتمدة
+title: وظائف Excel المدعومة
 toc: false
 type: docs
 weight: 10
 url: /ar/net/supported-formula-functions/
-description: وظائف Excel المدعومة لقراءة / ضبط / حساب الصيغ
+description: وظائف Excel المدعومة لقراءة/إعداد/حساب الصيغ
 keywords: formula function calculate
 ---
 {{% alert color="primary" %}}
 
-تدعم واجهات برمجة التطبيقات Aspose.Cells معظم الوظائف القياسية والصيغة المضمنة في Excel. أدناه ، يمكنك العثور على جميع الوظائف المدعومة بترتيب أبجدي.
+تدعم واجهات برمجة التطبيقات Aspose.Cells معظم الوظائف القياسية وصيغة Excel المضمنة. أدناه، يمكنك العثور على جميع الوظائف المدعومة بالترتيب الأبجدي.
 
 | | | | | | | | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **[أ] (# أ)** | **[ب] (# ب)** | **[نسخة)** | **[د] (# د)** | **[E] (# هـ)** | **[F] (# f)** | **[G] (# غ)** | **[ح ح)** | **[أنا] (# أنا)** | **[J] (# ي)** | **[K] (# ك)** | **[L] (# لتر)** | **[مم)** |
-| **[N] (# ن)** | **[س] (# س)** | **[P] (# ع)** | **[س] (# ف)** | **[R] (# ص)** | **[S] (# ثانية)** | **[T] (# طن)** | **[U] (# ش)** | **[V] (# الخامس)** | **[W] (# أسبوع)** | **[X] (# x)** | **[Y] (# س)** | **[Z] (# z)** |
+| **[أ](#أ)** | **[ب](#ب)** | **[نسخة)** | **[د](#د)** | **[ه](#ه)** | **[و](#و)** | **[ز](#ز)** | **[ح ح)** | **[أنا](#ط)** | **[ي](#ي)** | **[ك](#ك)** | **[ل](#ل)** | **[مم)** |
+| **[ن](#ن)** | **[س](#س)** | **[ف](#ع)** | **[س](#ف)** | **[ص](#ص)** | **[س](#ق)** | **[ت](#ر)** | **[ش](#ش)** | **[الخامس](#ت)** | **[ث](#ث)** | **[X](#x)** | **[ص](#ص)** | **[ض](#ض)** |
 
 {{% /alert %}}
 
-يسمح لك محرك حساب الصيغة Aspose.Cells 'بضبط وقراءة وحساب نتائج الصيغ والوظائف التالية.
+Aspose.Cells يتيح لك محرك حساب الصيغة تعيين وقراءة وحساب نتائج الصيغ والوظائف التالية.
 
 ######  *أ**
 |**وظيفة**|**ملخص**|
@@ -32,6 +32,7 @@ keywords: formula function calculate
 |AGGREGATE|
 |AMORDEGRC|
 |AMORLINC|
+|ANCHORARRAY|
 |AND|
 |AREAS|
 |ASC|
@@ -54,26 +55,26 @@ keywords: formula function calculate
 |BESSELK|
 |BESSELY|
 |BETADIST|
-|بيتا ديست|
+|BETA.DIST|
 |BETAINV|
-|بيتا|
+|BETA.INV|
 |BIN2DEC|
 |BIN2HEX|
 |BIN2OCT|
 |BINOMDIST|
-|قائمة BINOM.DIST|
+|BINOM.DIST|
 |BITAND|
 |BITLSHIFT|
 |BITOR|
 |BITRSHIFT|
 |BITXOR|
 
-######  * ج **
+######  *ج**
 |**وظيفة**|**ملخص**|
 | :- | :- |
 |CEILING|
-|السقف|
-|السقف|
+|CEILING.MATH|
+|السقف.دقيق|
 |CELL|
 |CHAR|
 |CHIDIST|
@@ -82,7 +83,7 @@ keywords: formula function calculate
 |CHISQ.DIST|
 |CHISQ.DIST.RT|
 |CHISQ.INV.RT|
-|CHISQ.TEST|
+|اختبار CHISQ|
 |CHOOSE|
 |CHOOSECOLS|
 |CHOOSEROWS|
@@ -95,7 +96,7 @@ keywords: formula function calculate
 |CONCAT|
 |CONCATENATE|
 |CONFIDENCE|
-|الثقة|
+|الثقة.المعيار|
 |CONVERT|
 |CORREL|
 |COS|
@@ -112,8 +113,8 @@ keywords: formula function calculate
 |COUPNUM|
 |COUPPCD|
 |COVAR|
-|تغطية|
-|التباين|
+|التباين.P|
+|التباين.S|
 |CRITBINOM|
 |CUMIPMT|
 |CUMPRINC|
@@ -153,15 +154,16 @@ keywords: formula function calculate
 |DVAR|
 |DVARP|
 
-######  * ه **
+######  *ه**
 |**وظيفة**|**ملخص**|
 | :- | :- |
 |EDATE|
 |EFFECT|
+|ENCODEURL|
 |EOMONTH|
 |ERF|
 |ERFC|
-|نوع الخطأ|
+|خطأ.نوع|
 |EVEN|
 |EXACT|
 |EXP|
@@ -185,18 +187,18 @@ keywords: formula function calculate
 |FISHERINV|
 |FIXED|
 |FLOOR|
-|FLOOR.MATH|
+|FLOR.MATH|
 |FORECAST|
-|FORECAST.LINEAR|
+|توقعات.خطية|
 |FORMULATEXT|
 |FREQUENCY|
 |FV|
 |FVSCHEDULE|
 
-######  * ز **
+######  *ز**
 |**وظيفة**|**ملخص**|
 | :- | :- |
-|جاما|
+|GAMMA.DIST|
 |GAMMADIST|
 |GAMMA.INV|
 |GAMMAINV|
@@ -207,7 +209,7 @@ keywords: formula function calculate
 |GETPIVOTDATA|
 |GROWTH|
 
-######  * ح **
+######  *ح**
 |**وظيفة**|**ملخص**|
 | :- | :- |
 |HARMEAN|
@@ -256,6 +258,7 @@ keywords: formula function calculate
 |ISERR|
 |ISERROR|
 |ISEVEN|
+|ISFORMULA|
 |ISLOGICAL|
 |ISNA|
 |ISNONTEXT|
@@ -271,30 +274,34 @@ keywords: formula function calculate
 | :- | :- |
 |KURT|
 
-######  * لام **
+######  *ل**
 |**وظيفة**|**ملخص**|
 | :- | :- |
+|LAMBDA|
 |LARGE|
 |LCM|
 |LEFT|
 |LEFTB|
 |LEN|
 |LENB|
+|LET|
 |LINEST|
 |LN|
 |LOG|
 |LOG10|
 |LOGEST|
 |LOGINV|
-|قائمة LOGNORM.DIST|
+|LOGNORM.DIST|
 |LOGNORM.INV|
 |LOGNORMDIST|
 |LOOKUP|
 |LOWER|
 
-######  * م **
+######  *م**
 |**وظيفة**|**ملخص**|
 | :- | :- |
+|MAKEARRAY|
+|MAP|
 |MATCH|
 |MAX|
 |MAXA|
@@ -313,8 +320,8 @@ keywords: formula function calculate
 |MMULT|
 |MOD|
 |MODE|
-|الوضع|
-|الوضع|
+|الوضع.متعدد|
+|MODE.SNGL|
 |MONTH|
 |MROUND|
 |MULTINOMIAL|
@@ -333,9 +340,9 @@ keywords: formula function calculate
 |NORMDIST|
 |NORMINV|
 |NORM.INV|
-|قائمة نورم|
+|NORM.SDIST|
 |NORMSDIST|
-|NORM.SINV|
+|NORM.S.INV|
 |NORMSINV|
 |NOT|
 |NOW|
@@ -343,7 +350,7 @@ keywords: formula function calculate
 |NPV|
 |NUMBERVALUE|
 
-######  * يا **
+######  *يا**
 |**وظيفة**|**ملخص**|
 | :- | :- |
 |OCT2BIN|
@@ -357,11 +364,11 @@ keywords: formula function calculate
 |OFFSET|
 |OR|
 
-######  * ف **
+######  *ف**
 |**وظيفة**|**ملخص**|
 | :- | :- |
 |PEARSON|
-|PERCENTILE.EXC|
+|المئوي.EXC|
 |PERCENTILE.INC|
 |PERCENTILE|
 |PERCENTRANK.EXC|
@@ -382,7 +389,7 @@ keywords: formula function calculate
 |PROPER|
 |PV|
 
-######  * س **
+######  *س**
 |**وظيفة**|**ملخص**|
 | :- | :- |
 |QUARTILE|
@@ -390,15 +397,15 @@ keywords: formula function calculate
 |QUARTILE.INC|
 |QUOTIENT|
 
-######  * ص **
+######  *ص**
 |**وظيفة**|**ملخص**|
 | :- | :- |
 |RADIANS|
 |RAND|
 |RANDARRAY|
 |RANDBETWEEN|
-|الترتيب. AVG|
-|الترتيب|
+|متوسط|
+|RANK.EQ|
 |RANK|
 |RATE|
 |RECEIVED|
@@ -418,6 +425,7 @@ keywords: formula function calculate
 ######  *س**
 |**وظيفة**|**ملخص**|
 | :- | :- |
+|SCAN|
 |SEARCH|
 |SEARCHB|
 |SECOND|
@@ -428,6 +436,7 @@ keywords: formula function calculate
 |SIGN|
 |SIN|
 |SINH|
+|SINGLE|
 |SKEW|
 |SLN|
 |SLOPE|
@@ -457,7 +466,7 @@ keywords: formula function calculate
 |SWITCH|
 |SYD|
 
-######  * تي **
+######  *ت**
 |**وظيفة**|**ملخص**|
 | :- | :- |
 |T|
@@ -482,17 +491,18 @@ keywords: formula function calculate
 |TRIMMEAN|
 |TRUE|
 |TRUNC|
-|TEST|
+|اختبار تي|
 |TTEST|
 |TYPE|
 
-######  * ش **
+######  *ش**
 |**وظيفة**|**ملخص**|
 | :- | :- |
 |UNICHAR|
 |UNICODE|
 |UNIQUE|
 |UPPER|
+|USDOLLAR|
 
 ######  *الخامس**
 |**وظيفة**|**ملخص**|
@@ -500,7 +510,7 @@ keywords: formula function calculate
 |VALUE|
 |VAR|
 |VAR.P|
-|VAR.S|
+|حكم الفيديو المساعد|
 |VARA|
 |VARP|
 |VARPA|
@@ -508,7 +518,7 @@ keywords: formula function calculate
 |VLOOKUP|
 |VSTACK|
 
-######  * ث **
+######  *ث**
 |**وظيفة**|**ملخص**|
 | :- | :- |
 |WEEKDAY|
@@ -516,16 +526,16 @@ keywords: formula function calculate
 |WEIBULL|
 |WEIBULL.DIST|
 |WORKDAY|
-|WORKDAY.INTL|
+|يوم العمل.INTL|
 
-######  * X **
+######  *X**
 |**وظيفة**|**ملخص**|
 | :- | :- |
 |XIRR|
 |XLOOKUP|
 |XNPV|
 
-######  * نعم **
+######  *ص**
 |**وظيفة**|**ملخص**|
 | :- | :- |
 |YEAR|
@@ -534,9 +544,9 @@ keywords: formula function calculate
 |YIELDDISC|
 |YIELDMAT|
 
-######  * ي **
+######  *ض**
 |**وظيفة**|**ملخص**|
 | :- | :- |
-|Z.TEST|
+|اختبار Z|
 |ZTEST|
 

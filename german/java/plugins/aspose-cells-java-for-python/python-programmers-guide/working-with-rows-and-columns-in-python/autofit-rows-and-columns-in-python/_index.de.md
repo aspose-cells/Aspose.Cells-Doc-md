@@ -1,12 +1,14 @@
-﻿---
+---
 title: Zeilen und Spalten automatisch anpassen in Python
 type: docs
 weight: 20
 url: /de/java/autofit-rows-and-columns-in-python/
+description: Erfahren Sie, wie Sie Zeilen und Spalten über Aspose.Cells for Python Via Java API automatisch anpassen.
+keywords: How to Autofit Rows and Columns in Python Via Java, Autofit Rows Data in workbook using Python Via Java, Python Via Java Autofit Columns Data. 
 ---
-## **Aspose.Cells – Zeilen und Spalten automatisch anpassen**
-### **Zeile automatisch anpassen**
-Der einfachste Ansatz zum automatischen Anpassen der Breite und Höhe einer Zeile besteht darin, die autoFitRow-Methode der Worksheet-Klasse aufzurufen. Die autoFitRow-Methode nimmt einen Zeilenindex (der Zeile, deren Größe geändert werden soll) als Parameter.
+##  **So passen Sie Zeilen und Spalten automatisch an**
+###  **So passen Sie eine Zeile automatisch an**
+Der einfachste Ansatz zum automatischen Anpassen der Breite und Höhe einer Zeile besteht darin, die autoFitRow-Methode der Worksheet-Klasse aufzurufen. Die autoFitRow-Methode verwendet einen Zeilenindex (der Zeile, deren Größe geändert werden soll) als Parameter.
 
 **Python Code**
 
@@ -39,8 +41,8 @@ workbook.save(self.dataDir + "Autofit Row.xls")
 print "Autofit Row Successfully." 
 
 {{< /highlight >}}
-### **Spalte automatisch anpassen**
-Die einfachste Möglichkeit, die Breite und Höhe einer Spalte automatisch anzupassen, besteht darin, die autoFitColumn-Methode der Worksheet-Klasse aufzurufen. Die autoFitColumn-Methode nimmt den Spaltenindex (der Spalte, deren Größe geändert werden soll) als Parameter.
+###  **So passen Sie eine Spalte automatisch an**
+Der einfachste Weg, die Breite und Höhe einer Spalte automatisch anzupassen, besteht darin, die Methode autoFitColumn der Worksheet-Klasse aufzurufen. Die autoFitColumn-Methode verwendet den Spaltenindex (der Spalte, deren Größe geändert werden soll) als Parameter.
 
 **Python Code**
 
@@ -73,7 +75,7 @@ workbook.save(self.dataDir + "Autofit Column.xls")
 print "Autofit Column Successfully." 
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Zeilen und Spalten automatisch anpassen (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+##  **Laden Sie Running Code herunter**
+Herunterladen**Zeilen und Spalten automatisch anpassen (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

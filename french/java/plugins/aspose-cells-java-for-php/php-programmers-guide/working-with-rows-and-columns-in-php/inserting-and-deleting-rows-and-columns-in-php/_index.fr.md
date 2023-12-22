@@ -1,12 +1,14 @@
-﻿---
+---
 title: Insertion et suppression de lignes et de colonnes en PHP
 type: docs
 weight: 60
 url: /fr/java/inserting-and-deleting-rows-and-columns-in-php/
+description: Découvrez comment insérer et supprimer des lignes et des colonnes via les API Aspose.Cells for PHP via Java.
+keywords: How to Insert and Delete Rows and Columns in PHP, Insert Rows and Columns using PHP, PHP Delete Rows and Columns, Insert Rows or Columns with PHP, Delete Rows or Columns via PHP.
 ---
-## **Aspose.Cells - Gestion des lignes/colonnes**
-### **Insertion d'une ligne**
-Insérez une ligne dans n'importe quel emplacement en appelant la méthode insertRows de la collection Cells. La méthode insertRows prend l'index de la ligne où la nouvelle ligne sera insérée comme premier argument, et le nombre de lignes à insérer comme deuxième argument.
+##  **Aspose.Cells - Gestion des lignes/colonnes**
+###  **Insérer une ligne**
+Insérez une ligne à n’importe quel emplacement en appelant la méthode insertRows de la collection Cells. La méthode insertRows prend l'index de la ligne où la nouvelle ligne sera insérée comme premier argument, et le nombre de lignes à insérer comme deuxième argument.
 
 **Code PHP**
 
@@ -37,7 +39,7 @@ Insérez une ligne dans n'importe quel emplacement en appelant la méthode inser
 }  
 
 {{< /highlight >}}
-### **Insertion de plusieurs lignes**
+###  **Insertion de plusieurs lignes**
 Pour insérer plusieurs lignes dans la feuille de calcul, appelez la méthode insertRows de la collection Cells. La méthode InsertRows prend deux paramètres :
 
 - Index de ligne, l'index de la ligne à partir de laquelle les nouvelles lignes seront insérées.
@@ -72,8 +74,8 @@ Pour insérer plusieurs lignes dans la feuille de calcul, appelez la méthode in
 }
 
 {{< /highlight >}}
-### **Suppression d'une ligne**
-Pour supprimer une ligne à n'importe quel emplacement, appelez la méthode deleteRows de la collection Cells. La méthode DeleteRows prend deux paramètres :
+###  **Supprimer une ligne**
+Pour supprimer une ligne à n’importe quel emplacement, appelez la méthode deleteRows de la collection Cells. La méthode DeleteRows prend deux paramètres :
 
 - Index de ligne, l'index de la ligne à partir de laquelle les lignes seront supprimées.
 - Nombre de lignes, nombre total de lignes à supprimer.
@@ -107,7 +109,7 @@ Pour supprimer une ligne à n'importe quel emplacement, appelez la méthode dele
 }
 
 {{< /highlight >}}
-### **Suppression de plusieurs lignes**
+###  **Suppression de plusieurs lignes**
 Pour supprimer plusieurs lignes d'une feuille de calcul, appelez la méthode deleteRows de la collection Cells. La méthode DeleteRows prend deux paramètres :
 
 - Index de ligne, l'index de la ligne à partir de laquelle les lignes seront supprimées.
@@ -142,7 +144,7 @@ Pour supprimer plusieurs lignes d'une feuille de calcul, appelez la méthode del
 }
 
 {{< /highlight >}}
-### **Insertion d'une colonne**
+###  **Insérer une colonne**
 Les développeurs peuvent également insérer une colonne dans la feuille de calcul à n'importe quel endroit en appelant la méthode insertColumns de la collection Cells. La méthode insertColumns prend deux paramètres :
 
 - Index de colonne, l'index de la colonne à partir de laquelle la colonne sera insérée
@@ -177,12 +179,12 @@ Les développeurs peuvent également insérer une colonne dans la feuille de cal
 }
 
 {{< /highlight >}}
-### **Supprimer une colonne**
-Pour supprimer une colonne de la feuille de calcul à n'importe quel emplacement, appelez la méthode deleteColumns de la collection Cells. La méthode deleteColumns prend les paramètres suivants :
+###  **Supprimer une colonne**
+Pour supprimer une colonne de la feuille de calcul à n’importe quel emplacement, appelez la méthode deleteColumns de la collection Cells. La méthode deleteColumns prend les paramètres suivants :
 
 - Index de colonne, l'index de la colonne à partir de laquelle la colonne sera supprimée.
 - Nombre de colonnes, nombre total de colonnes à supprimer.
-- Décaler les cellules, paramètre booléen pour indiquer s'il faut décaler les cellules vers la gauche après la suppression.
+- Shift Cells, paramètre booléen pour indiquer s'il faut décaler les cellules vers la gauche après suppression.
 
 **Code PHP**
 
@@ -213,7 +215,7 @@ Pour supprimer une colonne de la feuille de calcul à n'importe quel emplacement
 }  
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
+##  **Télécharger le code d'exécution**
  Télécharger**Gestion des lignes/colonnes (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

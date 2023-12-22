@@ -1,10 +1,11 @@
-﻿---
+---
 title: Aspose.Cells for .NET
 type: docs
 weight: 10
 url: /sv/net/
 is_root: true
-description: A powerful and fast Speadsheet programming library written in C#. It supports the popular Excel (XLS, XLSX, XLSM, XLSB, XLTX, XLTM,SpreadsheetML,CSV), OpenOffice(ODS),HTML and JSON file formats and allows exporting Excel files to PDF,DOCX, PPTX, JSON, XPS, HTML, MHTML, vanlig text och populära bildformat inklusive 97611.
+description: Aspose.Cells for .NET stöder det populära Excel (XLS, XLSX, XLSM, XLSB, XLTX, XLTM,0816187304 Öppen), 1),HTML och JSON filformat och tillåter export av Excel-filer till PDF,DOCX, PPTX, JSON, XPS, HTML, MHTML, vanlig text och populära bildformat inklusive TIFF, JPG, PNG, BMP and SVG.
+keywords: Aspose.Cells for .NET create, repair, modify, parse, merge, convert JSON Excel XML PDF HTML TSV SQL TXT PNG JPEG and more formats using C#, Aspose Excel C#
 ---
 {{% alert color="primary" %}}
 
@@ -12,9 +13,9 @@ description: A powerful and fast Speadsheet programming library written in C#. I
 
 **Välkommen till Aspose.Cells for .NET**
 
- Aspose.Cells for .NET är ett programmeringsklassbibliotek som tillåter programutvecklare att manipulera och bearbeta kalkylbladsfiler i sina egna applikationer.
+Aspose.Cells for .NET är ett programmeringsklassbibliotek som tillåter programutvecklare att manipulera och bearbeta kalkylbladsfiler i sina egna applikationer.
 
- kombination med API:er och GUI-kontroller snabbar Aspose.Cells for .NET upp Microsoft Excel®-programmering och konvertering.
+I kombination med API:er och GUI-kontroller snabbar Aspose.Cells for .NET upp Microsoft Excel®-programmering och konvertering.
 
 Aspose.Cells for .NET stöder de populära kalkylarksfilformaten (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) som ditt företag använder varje dag. Det tillåter också export av Excel-filer till PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, JSON, vanlig text och populära bildformat inklusive TIFF, JPG, PNG, BMP and SVG.
 

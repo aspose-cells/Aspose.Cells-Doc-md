@@ -1,23 +1,23 @@
-﻿---
-title: Lire les valeurs des cellules GridWeb côté client
+---
+title: Lisez les valeurs des cellules GridWeb côté client
 type: docs
 weight: 10
 url: /fr/java/read-the-values-of-the-gridweb-cells-on-client-side/
 ---
-## **Scénarios d'utilisation possibles**
-Vous pouvez lire les valeurs des cellules GridWeb sur le script côté client à l'aide de la méthode gridwebinstance.getCellsArray(). Une fois que vous l'appelez, il renverra le tableau de toutes les cellules de la feuille de calcul active. Vous pouvez ensuite utiliser les méthodes suivantes pour récupérer la valeur et d'autres informations des cellules.
+##  **Scénarios d'utilisation possibles**
+Vous pouvez lire les valeurs des cellules GridWeb sur le script côté client à l'aide de la méthode gridwebinstance.getCellsArray(). Une fois que vous l’appellerez, il renverra le tableau de toutes les cellules de la feuille de calcul active. Vous pouvez ensuite utiliser les méthodes suivantes pour récupérer la valeur et d'autres informations des cellules.
 
-- gridwebinstance.getCellName()
-- gridwebinstance.getCellValueByCell()
-- gridwebinstance.getCellRow()
-- gridwebinstance.getCellColumn()
-## **Lire les valeurs des cellules GridWeb côté client**
+- grillewebinstance.getCellName()
+- grillewebinstance.getCellValueByCell()
+- grillewebinstance.getCellRow()
+- grillewebinstance.getCellColumn()
+##  **Lisez les valeurs des cellules GridWeb côté client**
 L'exemple de code suivant récupère toutes les cellules, puis imprime leur nom, leur valeur, leur ligne et leur colonne. Vous pouvez voir sa sortie console au bas de cet article. La capture d'écran suivante montre la sortie de la console de l'exemple de code sur Google Chrome.
-## **Capture d'écran**
-![tâche : image_autre_texte](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
+##  **Capture d'écran**
+![tâche : image_alt_text](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
 
 
-## **Exemple de code**
+##  **Exemple de code**
 {{< highlight "java" >}}
 
  <%@page language="java" contentType="text/html; charset=UTF-8" import="com.aspose.gridweb.*"  pageEncoding="UTF-8"%>
@@ -125,7 +125,7 @@ out.print(gridweb.getHTMLBody());
 </html>
 
 {{< /highlight >}}
-## **Sortie console**
+##  **Sortie console**
 Il s'agit de la sortie console de l'exemple de code ci-dessus.
 
 {{< highlight "java" >}}

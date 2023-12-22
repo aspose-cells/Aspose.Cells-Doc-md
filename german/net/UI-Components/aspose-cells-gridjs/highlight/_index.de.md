@@ -4,115 +4,126 @@ type: docs
 weight: 250
 url: /de/net/aspose-cells-gridjs/highlight/
 description: In diesem Artikel wird beschrieben, wie Sie GridJs verwenden, um Zellentext, Zellbereiche, Formen und Bilder hervorzuheben.
-keywords: highlight, highlight spreadsheet
+keywords: highlight, highlight spreadsheet,redaction,remarks
 ---
 #  Arbeiten mit der Highlight-Funktion von GridJ
  Wir unterstützen die folgenden JS-APIs für die Hervorhebungsfunktion
 
 
--  Aktivieren Sie die Hervorhebung und legen Sie den Hervorhebungsstil fest. Alle Hervorhebungs-APIs werden erst wirksam, nachdem der Hervorhebungsstil festgelegt wurde
+-  Aktivieren Sie die Hervorhebung und legen Sie den Hervorhebungsstil fest. Alle Hervorhebungs-APIs werden erst wirksam, nachdem der Hervorhebungsstil im aktiven Arbeitsblatt festgelegt wurde
 ```javascript
-xs.showHighlights(style)
+xs.sheet.showHighlights(style)
  // the parameter is:
  style: the style for highlight ,currently only support color
  for example: {'color':'rgba(85, 57, 47, 0.08)'}
 ```
 
--  Hervorhebung deaktivieren
+-  Aktualisieren Sie den im aktiven Arbeitsblatt festgelegten Hervorhebungsstil
 ```javascript
-xs.hideHighlights()
+xs.sheet.updateHighlightStyle(style)
+ // the parameter is:
+ style: the style for highlight ,currently only support color
+ for example: {'color':'rgba(85, 57, 47, 0.08)'}
 ```
--  Fügen Sie Zellentext zum Hervorheben hinzu
+
+
+-  Deaktivieren Sie die Hervorhebung im aktiven Arbeitsblatt
+```javascript
+xs.sheet.hideHighlights()
+```
+-  Fügen Sie Zelltext hinzu, um ihn im aktiven Arbeitsblatt hervorzuheben
 ```javascript
 xs.sheet.addHighlightText(row,col,startpostion,endposition)
     // the parameters are:
-    row:row index 
+	row:row index 
 	col:column index
 	startpostion: highlight start postion in cell text 
 	endpostion: highlight end postion in cell text 
     //it support multiple range postion inside one cell
 ```
 
--  Hervorhebung für Zellentext im Array entfernen
+-  Entfernen Sie die Hervorhebung für Zellentext im Array im aktiven Arbeitsblatt
 ```javascript
-xs.sheet.removeHighlightText(row,col)
+xs.sheet.removeHighlightText(row,col,startpostion,endposition)
     // the parameters are:
-    row:row index 
+	row:row index 
 	col:column index
+	startpostion: highlight start postion in cell text 
+	endpostion: highlight end postion in cell text 
 ```
 
--  Holen Sie sich ein Array zur Hervorhebung des Zellentextes
+- Rufen Sie ein Array zur Hervorhebung des Zellentexts im aktiven Arbeitsblatt ab
 ```javascript
 xs.sheet.getHighlightTexts()
 ```
 
--  Fügen Sie den hervorzuhebenden Zellbereich hinzu
+-  Fügen Sie den Zellbereich hinzu, um ihn im aktiven Arbeitsblatt hervorzuheben
 ```javascript
 xs.sheet.addHighlightRange(sri,sci,eri,eci)
     // the parameters are:
-    sri:start row index of cell range
+	sri:start row index of cell range
 	sci:start column index of cell range
-	 eri:end row index of cell range
+	eri:end row index of cell range
 	eci:end column index of cell range
 ```
 
--  Hervorhebung für Zellbereich im Array entfernen
+-  Entfernen Sie die Hervorhebung des Zellbereichs im Array im aktiven Arbeitsblatt
 ```javascript
 xs.sheet.removeHighlightRange(sri,sci,eri,eci)
      // the parameters are:
-    sri:start row index of cell range
+	sri:start row index of cell range
 	sci:start column index of cell range
-	 eri:end row index of cell range
+	eri:end row index of cell range
 	eci:end column index of cell range
 ```
 
--  Holen Sie sich ein Array zur Hervorhebung des Zellbereichs
+-  Rufen Sie das Array zur Hervorhebung des Zellbereichs im aktiven Arbeitsblatt ab
 ```javascript
 xs.sheet.getHighlightRanges()
 ```
 
--  Stellen Sie den Zellbereich auf „Hervorhebung umkehren“ ein
+-  Stellen Sie den Zellbereich so ein, dass die Hervorhebung im aktiven Arbeitsblatt umgekehrt wird
 ```javascript
 xs.sheet.setHighlightInverseRange(sri,sci,eri,eci)
     // the parameters are:
-    sri:start row index of cell range
+	sri:start row index of cell range
 	sci:start column index of cell range
-	 eri:end row index of cell range
+	eri:end row index of cell range
 	eci:end column index of cell range
 ```
 
--  Entfernen Sie die Hervorhebung, um die Hervorhebung umzukehren
+-  Entfernen Sie die Hervorhebung, um die Hervorhebung im aktiven Arbeitsblatt umzukehren
 ```javascript
 xs.sheet.removeHighlightInverseRange()
      
 ```
 
--  Holen Sie sich den inversen Hervorhebungszellenbereich
+-  Holen Sie sich den inversen Hervorhebungszellenbereich im aktiven Arbeitsblatt
 ```javascript
 xs.sheet.getHighlightInverseRange()
 ```
 
 
--  Fügen Sie eine Form hinzu, um das Array hervorzuheben
+-  Fügen Sie eine Form hinzu, um das Array im aktiven Arbeitsblatt hervorzuheben
 ```javascript
 xs.sheet.addHighlightShape(shapeid)
     // the parameters are:
     shapeid: the id of shape, can be find in xs.sheet.data.shapes
 ```
 
--  Hervorhebungsform im Array entfernen
+-  Hervorhebungsform im Array im aktiven Arbeitsblatt entfernen
 ```javascript
 xs.sheet.removeHighlightShape(shapeid)
      // the parameters are:
     shapeid: the id of shape, can be find in xs.sheet.data.shapes
 ```
 
--  Holen Sie sich ein Array für die Hervorhebungsform
+-  Rufen Sie das Array für die Hervorhebungsform im aktiven Arbeitsblatt ab
 ```javascript
 xs.sheet.getHighlightShaps()
 ```
 
--  Fügen Sie ein Textfeld zur Hervorhebung hinzu. Das Textfeld ist eine spezielle Art von Form, deren Typeigenschaft „TextBox“ lautet.
+-  Fügen Sie ein Textfeld zur Hervorhebung hinzu. Das Textfeld ist eine spezielle Art von Form, deren Typeigenschaft „TextBox“ im aktiven Arbeitsblatt ist
 ```javascript
 xs.sheet.addHighlightTextBox(shapeid, startpostion, endposition)
     // the parameters are:
@@ -123,7 +134,7 @@ xs.sheet.addHighlightTextBox(shapeid, startpostion, endposition)
 ```
 
 
-- Entfernen Sie den Hervorhebungsbereich im Textfeld. Das Textfeld ist eine spezielle Art von Form, deren Typeigenschaft „TextBox“ lautet.
+-  Entfernen Sie den Hervorhebungsbereich im Textfeld. Das Textfeld ist eine spezielle Art von Form, deren Typeigenschaft im aktiven Arbeitsblatt „TextBox“ lautet
 ```javascript
 xs.sheet.removeHighlightTextBox(shapeid, startpostion, endposition)
     // the parameters are:
@@ -133,14 +144,14 @@ xs.sheet.removeHighlightTextBox(shapeid, startpostion, endposition)
     //it support multiple range postion inside one textbox
 ```
 
--  Bild hinzufügen, um Array hervorzuheben
+-  Fügen Sie ein Bild hinzu, um das Array im aktiven Arbeitsblatt hervorzuheben
 ```javascript
 xs.sheet.addHighlightImage(imageid)
     // the parameters are:
     imageid: the id of image, can be find in xs.sheet.data.images
 ```
 
--  Hervorhebungsbild im Array entfernen
+- Hervorhebungsbild im Array im aktiven Arbeitsblatt entfernen
 ```javascript
 xs.sheet.removeHighlightImage(imageid)
      // the parameters are:
@@ -152,7 +163,7 @@ xs.sheet.removeHighlightImage(imageid)
 xs.sheet.getHighlightImages()
 ```
 
--  Legen Sie fest, ob das gesamte Arbeitsblatt sowie alle Formen und Bilder hervorgehoben werden sollen
+-  Legen Sie fest, ob alle Objekte im aktiven Arbeitsblatt, einschließlich aller Formen und Bilder sowie des gesamten Arbeitsblattbereichs, hervorgehoben werden sollen
 ```javascript
 xs.sheet.setHighlightAll(ishighlightall,isrerender=true)
    // the parameters are:
@@ -173,6 +184,12 @@ xs.sheet.setCustomHighlightImgFunc(func)
             imgobj.applyFilters();
         }
     
+```
+
+-  klare Hervorhebungseinstellung für das aktive Arbeitsblatt
+```javascript
+xs.sheet.clearHighlights()
+
 ```
 
 ###  Hervorhebung für Textfeldobjekt

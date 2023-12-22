@@ -1,46 +1,48 @@
-﻿---
-title: Rahmeneinstellungen
+---
+title: Randeinstellungen
+description: So verwenden Sie die Bibliothek Aspose.Cells in C#, um den Rahmenstil und die Farbe von Zellen festzulegen. Durch Anpassen der Breite, des Stils und der Farbe des Rahmens haben Sie mehr Kontrolle darüber, wie Zellen aussehen und angezeigt werden.
+keywords: Aspose.Cells, Cell Border Settings, C#, Border Width, Border Style, Border Color
 type: docs
 weight: 40
 url: /de/net/cells-border-settings/
 ---
-## **Grenzen zu Cells hinzufügen**
+##  **Hinzufügen von Rändern zu Cells**
 
-Microsoft Excel ermöglicht Benutzern das Formatieren von Zellen durch Hinzufügen von Rahmen. Die Art der Umrandung hängt davon ab, wo sie hinzugefügt wird. Ein oberer Rand wird beispielsweise an der obersten Position einer Zelle hinzugefügt. Benutzer können auch den Linienstil und die Farbe der Rahmen ändern.
+Microsoft Excel ermöglicht Benutzern das Formatieren von Zellen durch Hinzufügen von Rändern. Die Art des Rahmens hängt davon ab, wo er hinzugefügt wird. Beispielsweise wird ein oberer Rand an der oberen Position einer Zelle hinzugefügt. Benutzer können auch den Linienstil und die Farbe der Rahmen ändern.
 
-Mit Aspose.Cells können Entwickler Rahmen hinzufügen und deren Aussehen auf die gleiche flexible Weise wie in Microsoft Excel anpassen.
+Mit Aspose.Cells können Entwickler Rahmen hinzufügen und deren Aussehen auf die gleiche flexible Weise anpassen wie in Microsoft Excel.
 
-### **Grenzen zu Cells hinzufügen**
+###  **Hinzufügen von Rändern zu Cells**
 
- Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) das stellt eine Microsoft Excel-Datei dar. Das[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse enthält a[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Sammlung, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse. Das[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse bietet die[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) Sammlung. Jeder Artikel in der[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) Sammlung stellt ein Objekt der[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)Klasse.
+ Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) das stellt eine Microsoft Excel-Datei dar. Der[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse enthält a[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Sammlung, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse. Der[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse bietet die[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) Sammlung. Jedes Element in der[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) Die Sammlung stellt ein Objekt dar[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)Klasse.
 
- Aspose.Cells bietet die[**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle/index)Methode in der[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)Klasse. Das[**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle/index)-Methode wird verwendet, um den Formatierungsstil einer Zelle festzulegen. Das[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style)-Klasse bietet Eigenschaften zum Hinzufügen von Rahmen zu Zellen.
+ Aspose.Cells bietet die[**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle/index)Methode in der[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)Klasse. Der[**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle/index)Die Methode wird verwendet, um den Formatierungsstil einer Zelle festzulegen. Der[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style)Die Klasse stellt Eigenschaften zum Hinzufügen von Rahmen zu Zellen bereit.
 
-#### **Rahmen zu Cell hinzufügen**
+####  **Hinzufügen von Rändern zu einer Cell**
 
-Entwickler können Rahmen zu einer Zelle hinzufügen, indem sie die verwenden[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) Objekt[**Grenzen**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) Sammlung. Der Rahmentyp wird als Index an die übergeben[**Grenzen**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) Sammlung. Alle Randtypen sind in der vordefiniert[**BorderType**](https://reference.aspose.com/cells/net/aspose.cells/bordertype) Aufzählung.
+Entwickler können einer Zelle Rahmen hinzufügen, indem sie die verwenden[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) Objekt[**Grenzen**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) Sammlung. Der Rahmentyp wird als Index an übergeben[**Grenzen**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) Sammlung. Alle Rahmentypen sind im vordefiniert[**BorderType**](https://reference.aspose.com/cells/net/aspose.cells/bordertype) Aufzählung.
 
 **Grenzaufzählung**
 
-|**Grenztypen**|**Beschreibung**|
-|:- |:- |
+|**Randtypen**|**Beschreibung**|
+| :- | :- |
 |Untere Grenze|Eine untere Grenzlinie|
-|DiagonalUnten|Eine diagonale Linie von links oben nach rechts unten|
-|Diagonal nach oben|Eine diagonale Linie von links unten nach rechts oben|
+|DiagonalDown|Eine diagonale Linie von links oben nach rechts unten|
+|DiagonalUp|Eine diagonale Linie von links unten nach rechts oben|
 |Linker Rand|Eine linke Grenzlinie|
-|Rechter Rand|Eine rechte Grenzlinie|
-|Oberer Rand|Eine obere Grenzlinie|
+|RightBorder|Eine rechte Grenzlinie|
+|TopBorder|Eine obere Grenzlinie|
 
-Das[**Grenzen**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders)Sammlung speichert alle Grenzen. Jede Grenze in der[**Grenzen**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) Sammlung wird vertreten durch a[**Grenze**](https://reference.aspose.com/cells/net/aspose.cells/border) Objekt, das zwei Eigenschaften bereitstellt,[**Farbe**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/color) und[**Linienstil**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle), um die Linienfarbe und den Stil eines Rahmens einzustellen.
+Der[**Grenzen**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders)Die Sammlung speichert alle Grenzen. Jede Grenze in der[**Grenzen**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) Die Sammlung wird durch a repräsentiert[**Grenze**](https://reference.aspose.com/cells/net/aspose.cells/border) Objekt, das zwei Eigenschaften bereitstellt,[**Farbe**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/color) Und[**Linienstil**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle)um die Linienfarbe und den Linienstil eines Rahmens festzulegen.
 
-Um die Linienfarbe eines Rahmens festzulegen, wählen Sie eine Farbe mithilfe der Color-Enumeration (Teil des .NET-Frameworks) aus und weisen Sie sie der Color-Eigenschaft des Border-Objekts zu.
+Um die Linienfarbe eines Rahmens festzulegen, wählen Sie mithilfe der Color-Enumeration (Teil des .NET-Frameworks) eine Farbe aus und weisen Sie sie der Color-Eigenschaft des Border-Objekts zu.
 
- Der Linienstil des Rahmens wird durch Auswahl eines Linienstils aus festgelegt[**CellRandType**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype)Aufzählung.
+ Der Linienstil des Rahmens wird durch Auswahl eines Linienstils aus festgelegt[**CellBorderType**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype)Aufzählung.
 
 **CellBorderType-Aufzählung**
 
 |**Linienstile**|**Beschreibung**|
-|:- |:- |
+| :- | :- |
 |Strich Punkt|Dünne strichpunktierte Linie|
 |DashDotDot|Dünne Strich-Punkt-Punkt-Linie|
 |Gestrichelt|Gestrichelte Linie|
@@ -49,7 +51,7 @@ Um die Linienfarbe eines Rahmens festzulegen, wählen Sie eine Farbe mithilfe de
 |Haar|Haaransatz|
 |MediumDashDot|Mittlere strichpunktierte Linie|
 |MediumDashDotDot|Mittlere Strich-Punkt-Punkt-Linie|
-|Mittelgestrichelt|Mittlere gestrichelte Linie|
+|MediumDashed|Mittlere gestrichelte Linie|
 |Keiner|Keine Linie|
 |Mittel|Mittlere Linie|
 |SlantedDashDot|Schräge mittlere strichpunktierte Linie|
@@ -61,52 +63,23 @@ Wählen Sie einen der Linienstile aus und weisen Sie ihn dann dem zu[**Grenze**]
 
 {{% alert color="primary" %}}
 
-Sie sollten sowohl den Linienstil als auch die Farbe gleichzeitig festlegen. Die beiden diagonalen Grenzlinien sollten denselben Linienstil und dieselbe Farbe haben.
+Sie sollten sowohl den Linienstil als auch die Farbe gleichzeitig festlegen. Die beiden diagonalen Randlinien sollten den gleichen Linienstil und die gleiche Farbe haben.
 
 {{% /alert %}}
 
-#### **Hinzufügen von Grenzen zu einem Bereich von Cells**
+####  **Hinzufügen von Grenzen zu einem Bereich von Cells**
 
-Es ist auch möglich, Grenzen zu einem Bereich von Zellen hinzuzufügen, statt nur zu einer einzelnen Zelle. Erstellen Sie dazu zunächst einen Zellbereich, indem Sie die aufrufen[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) Sammlung[**Bereich erstellen**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/1) Methode. Es nimmt die folgenden Parameter:
+ Es ist auch möglich, Rahmen zu einem Bereich von Zellen statt nur zu einer einzelnen Zelle hinzuzufügen. Erstellen Sie dazu zunächst einen Zellbereich, indem Sie den aufrufen[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) Sammlung[**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/1) Methode. Es werden folgende Parameter benötigt:
 
-- Erste Reihe, die erste Reihe des Bereichs.
-- Erste Spalte, stellt die erste Spalte des Bereichs dar.
+- Erste Zeile, die erste Zeile des Bereichs.
+- Erste Spalte stellt die erste Spalte des Bereichs dar.
 - Anzahl der Zeilen, die Anzahl der Zeilen im Bereich.
 - Anzahl der Spalten, die Anzahl der Spalten im Bereich.
 
- Das[**Bereich erstellen**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/1) Methode gibt a zurück[**Bereich**](https://reference.aspose.com/cells/net/aspose.cells/range) Objekt, das den angegebenen Zellbereich enthält. Das[**Bereich**](https://reference.aspose.com/cells/net/aspose.cells/range) Objekt bietet a[**SetOutlineBorder**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/setoutlineborder) Methode, die die folgenden Parameter verwendet, um dem Zellbereich einen Rahmen hinzuzufügen:
+ Der[**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/1) Methode gibt a zurück[**Reichweite**](https://reference.aspose.com/cells/net/aspose.cells/range) Objekt, das den angegebenen Zellbereich enthält. Der[**Reichweite**](https://reference.aspose.com/cells/net/aspose.cells/range) Objekt bietet a[**SetOutlineBorder**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/setoutlineborder) Methode, die die folgenden Parameter verwendet, um dem Zellbereich einen Rahmen hinzuzufügen:
 
-- **Grenztyp** , der Rahmentyp, ausgewählt aus der[**BorderType**](https://reference.aspose.com/cells/net/aspose.cells/bordertype)Aufzählung.
-- **Linienstil** , der Rahmenlinienstil, ausgewählt aus der[**CellRandType**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype)Aufzählung.
-- **Farbe**, die Linienfarbe, ausgewählt aus der Color-Enumeration.
+-  *Rahmentyp**, der Rahmentyp, ausgewählt aus[**BorderType**](https://reference.aspose.com/cells/net/aspose.cells/bordertype)Aufzählung.
+-  *Linienstil**, der Rahmenlinienstil, ausgewählt aus[**CellBorderType**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype)Aufzählung.
+- *Farbe**, die Linienfarbe, ausgewählt aus der Color-Enumeration.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Borders-AddingBorderstoRange-1.cs" >}}
-
-## **Farben und Palette**
-
-Eine Palette ist die Anzahl der Farben, die zur Verwendung beim Erstellen eines Bildes zur Verfügung stehen. Die Verwendung einer standardisierten Palette in einer Präsentation ermöglicht es dem Benutzer, ein konsistentes Erscheinungsbild zu erstellen. Jede Microsoft Excel (97-2003)-Datei hat eine Palette von 56 Farben, die auf Zellen, Schriftarten, Gitterlinien, Grafikobjekte, Füllungen und Linien in einem Diagramm angewendet werden können.
-
-Mit Aspose.Cells ist es möglich, nicht nur die vorhandenen Farben der Palette, sondern auch benutzerdefinierte Farben zu verwenden. Bevor Sie eine benutzerdefinierte Farbe verwenden, fügen Sie sie zuerst der Palette hinzu.
-
-In diesem Thema wird erläutert, wie Sie der Palette benutzerdefinierte Farben hinzufügen.
-
-### **Hinzufügen benutzerdefinierter Farben zur Palette**
-
-Aspose.Cells unterstützt die 56-Farben-Palette von Microsoft Excel. Um eine benutzerdefinierte Farbe zu verwenden, die nicht in der Palette definiert ist, fügen Sie die Farbe der Palette hinzu.
-
- Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , die eine Microsoft Excel-Datei darstellt. Das[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse bietet a[**Palette ändern**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/changepalette) Methode, die die folgenden Parameter benötigt, um eine benutzerdefinierte Farbe hinzuzufügen, um die Palette zu ändern:
-
-- Benutzerdefinierte Farbe, die hinzuzufügende benutzerdefinierte Farbe.
-- Index, der Index der Farbe in der Palette, die durch die benutzerdefinierte Farbe ersetzt wird. Sollte zwischen 0-55 liegen.
-
-Im folgenden Beispiel wird der Palette eine benutzerdefinierte Farbe (Orchidee) hinzugefügt, bevor sie auf eine Schriftart angewendet wird.
-
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ColorsAndPalette-1.cs" >}}
-
-{{% alert color="primary" %}}
-
-Die Palette enthält nur 56 Farben. Wenn Sie der Palette eine benutzerdefinierte Farbe hinzufügen, wird die Palette geändert und alle Elemente in der Datei, die mit der vorherigen Farbe formatiert wurden, werden geändert. Seien Sie also bitte sehr vorsichtig, wenn Sie die Palette ändern. Darüber hinaus ist dies nur die Einschränkung im Dateiformat XLS (Excel 97 - 2003), da es keine solche Einschränkung für XLSX oder andere erweiterte MS Excel-Dateiformate (2007/2010 oder 2013) gibt.
-
-{{% /alert %}}
-
-

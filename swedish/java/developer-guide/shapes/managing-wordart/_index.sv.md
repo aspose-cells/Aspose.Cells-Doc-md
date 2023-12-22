@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lägg till WordArt vattenstämpel i arbetsbladet
 linktitle: Hantera WordArt
 type: docs
@@ -11,7 +11,7 @@ Använd WordArt för att lägga till speciella texteffekter i kalkylblad. Till e
 
 {{% /alert %}}
 
-## **Lägger till WordArt-vattenstämpel i arbetsbladet**
+##  **Lägger till WordArt-vattenstämpel i arbetsbladet**
 
 Följande exempel visar hur du lägger till en WordArt-form för att ställa in en bakgrundsvattenstämpel för ett kalkylblad.
 
@@ -22,3 +22,9 @@ Efter att ha kört koden innehåller utdatafilen en blekröd WordArt-vattenstäm
 ![todo:image_alt_text](add-wordart-watermark-to-worksheet_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddWordArtWatermarkToWorksheet-AddWordArtWatermarkToWorksheet.java" >}}
+
+##  **Förhandsämnen**
+- [Lägg till Word Art-text med inbyggda stilar](/cells/sv/java/add-word-art-text-with-built-in-styles/)
+- [Lägg till WordArt vattenstämpel i diagrammet](/cells/sv/java/add-wordart-watermark-to-chart/)
+- [Låsning av WordArt vattenstämpel](/cells/sv/java/locking-wordart-watermark/)
+- [Ställ in förinställd WordArt-stil på formens text](/cells/sv/java/set-preset-wordart-style-to-the-text-of-the-shape/)

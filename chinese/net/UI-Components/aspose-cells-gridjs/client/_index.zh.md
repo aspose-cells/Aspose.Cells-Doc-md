@@ -6,7 +6,7 @@ url: /zh/net/aspose-cells-gridjs/client/
 keywords: custom,logo,setting,api
 ---
 # 使用 GridJs 客户端
-我们开发了基于GridJs的客户端[x-电子表格](https://github.com/myliang/x-spreadsheet).
+我们基于 GridJs 客户端开发[电子表格](https://github.com/myliang/x-spreadsheet).
 
 ## 主要步骤是：
 
@@ -20,6 +20,7 @@ xs = x_spreadsheet(id, options)
 	    updateMode:  currently we only support 'server'
 	    updateUrl:  set the server side  url for update action based on json
 	    mode: read means readonly spread sheet/edit means we can edit the spread sheet
+            allowSelectTextInTextBoxInReadMode: whether allow select text in TextBox control when in read mode,the default value is false
 	    showToolbar:   means whether to show toolbar
 	    showFileName:  whether to show the filename 
 	    local:         support multiple language for menus ,the locale can be:
@@ -30,7 +31,7 @@ xs = x_spreadsheet(id, options)
 			        ko,th,tr,vi,cht
                            for  Korean,Thai,Turkey,Vietnamese,Traditional Chinese                  
 	    showContextmenu:   means whether to show contextmenu on right click on a cell
-
+            loadingGif:  the loading gif url when loading the image/shape .it is optional,the default value is:content/img/updating.gif
 	for example the below code init a x_spreadsheet object.
 	xs = x_spreadsheet('#gridjs-demo', {
 			updateMode:'server',
@@ -54,7 +55,7 @@ xs.setActiveSheetByName(sheetname)
 // the parameters is:
 	sheetname: the sheet name 
 ```
-- 通过 id 设置活动表
+- 通过 id 设置活动工作表
 ```javascript
 xs.setActiveSheet(id)
 // the parameters is:
@@ -69,7 +70,7 @@ xs.setActiveCell(row,col);
 	col: the cell column
 ```
 
-- 为服务器端操作的形状/图像操作设置信息
+- 设置服务器端操作的形状/图像操作信息
 ```javascript
 xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActionUrl, imageCopyActionUrl, zindex, loadingGif);
 // the parameters are:
@@ -88,7 +89,7 @@ xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActio
     xs.setImageInfo(imageurl, imageuploadurl1, imageuploadurl2, imagecopyurl, basiczorder);
 ```
 
-- 为服务器端操作设置下载操作信息
+- 设置服务器端操作的下载操作信息
 ```javascript
 xs.setFileDownloadInfo(downloadActionUrl);
 // the parameters are:
@@ -99,7 +100,7 @@ xs.setFileDownloadInfo(downloadActionUrl);
             xs.setFileDownloadInfo(fileDownloadUrl);
 ```
 
-- 为服务器端操作的 ole 对象操作设置信息
+- 设置服务器端操作的 ole 对象操作信息
 ```javascript
 xs.setOleDownloadInfo(oleActionUrl);
 // the parameters are:
@@ -111,7 +112,7 @@ xs.setOleDownloadInfo(oleActionUrl);
   
 
 _
-## 其他有用的api
+## 其他有用的 api
 - 渲染视图
 ```javascript
 xs.reRender()
@@ -136,7 +137,7 @@ xs.setFileName(name)
 	name:the file name with extension ,for example trip.xlsx
 ```
 
-- GridJs 是否开启窗口按键事件
+- 是否为GridJs启用窗口按键事件
 ```javascript
 xs.enableKeyEvent(isenable)
 // the parameters is:
@@ -144,13 +145,13 @@ xs.enableKeyEvent(isenable)
 //when has other controls in the same page, you may want to ignore the key event in GridJs 
 ```
 
-- 解除绑定到 GridJs 的所有事件，包括窗口键事件和窗口调整大小事件。
+- 取消绑定GridJs上的所有事件，包括窗口按键事件和窗口调整大小事件。
 ```javascript
 xs.destroy()
 ```
 
 
-- 为图像/形状设置可见过滤器
+- 设置图像/形状的可见过滤器
 ```javascript
     // need to set a function which return true(for visible) or false(for invisible) for the visible filter with the below parameters :
 	sheet:the sheet instance
@@ -166,7 +167,7 @@ xs.destroy()
 		xs.setActiveSheet(xs.getActiveSheet())
 ```
 
-- 获取选中的图片/形状，如果没有选中则返回null
+- 获取选择的图像/形状，如果没有选择将返回null
 ```javascript
 xs.sheet.selector.getObj()
 ```
@@ -200,20 +201,20 @@ xs.sheet.data.setCellText(ri,ci,value,state)
 	ri:row index 
 	ci:column index
 	value:the cell value
-	state: input | finished
+	state: input | finished ,if finished ,it will do update action to servside
 ```
 
-- 获取/设置选中的单元格范围
+- 获取/设置选定的单元格范围
 ```javascript
 xs.sheet.data.selector.range
 ```
-- 为选中的单元格或单元格区域设置单元格值
+- 设置选定单元格或单元格区域的单元格值
 ```javascript
 xs.sheet.data.setSelectedCellText(value)
     // the parameters are:
 	value:the  value for the cell
 ```
-- 设置所选单元格或单元格区域的样式
+- 设置选定单元格或单元格区域的样式
 ```javascript
 xs.sheet.data.setSelectedCellAttr(attributename,value)
     // the parameters are:
@@ -221,7 +222,7 @@ xs.sheet.data.setSelectedCellAttr(attributename,value)
 	value:the  value for the attribute
 ```
 
-- 合并选中的单元格区域
+- 合并选定的单元格区域
 ```javascript
 xs.sheet.data.merge()
 ```
@@ -244,14 +245,14 @@ xs.sheet.data.setFreeze(ri,ci)
 	ci:column index
 ```
 
-- 在所选单元格中插入行或列
+- 在选定的单元格处插入行或列
 ```javascript
 xs.sheet.data.insert(type, n)
     // the parameters are:
 	type: row | column
 	n:the row or column number
 ```
-- 删除所选单元格中的行或列
+- 删除所选单元格处的行或列
 ```javascript
 xs.sheet.data.delete(type)
     // the parameters are:
@@ -265,6 +266,22 @@ xs.sheet.data.setColWidth(ci,width)
 	ci:column index
 	width:the width for the column
 ```
+- 设置列的宽度
+```javascript
+xs.sheet.data.setColsWidth(sci,eci,width)
+    // the parameters are:
+	sci:the start column index
+	eci:the end column index
+	width:the width for the column
+```
+
+- 设置所有列的宽度
+```javascript
+xs.sheet.data.setAllColsWidth(width)
+    // the parameters are:
+	width:the width for the columns
+```
+
 - 获取列的宽度
 ```javascript
 xs.sheet.data.cols.sumWidth(min,max)
@@ -280,6 +297,23 @@ xs.sheet.data.setRowHeight(ri,height)
 	ri:row index
 	height:the height for the row
 ```
+- 设置行的高度
+```javascript
+xs.sheet.data.setRowsHeight(sri,eri,height)
+    // the parameters are:
+	sri:start row index
+	eri:end row index
+	height:the height for the rows
+```
+
+- 设置所有行的高度
+```javascript
+xs.sheet.data.setAllRowsHeight(height)
+    // the parameters are:
+	height:the height for the rows
+```
+
+
 - 获取行的高度
 ```javascript
 xs.sheet.data.rows.sumHeight(min,max)
@@ -287,6 +321,7 @@ xs.sheet.data.rows.sumHeight(min,max)
 	min:the start row index
 	max:the end row index,not include
 ```
+
 - 获取/设置显示方向
 ```javascript
 xs.sheet.data.displayRight2Left
@@ -309,6 +344,8 @@ xs.sheet.data.displayRight2Left
                 console.log('shape or image selected id:', shapeOrImageObj.id, ', type: ', shapeOrImageObj.type);
             }).on('sheet-selected', (id,name) => {
                 console.log('sheet selected id:', id, ', name: ',name);
+            }).on('sheet-loaded', (id,name) => {
+                console.log('sheet load finished:', id, ', name: ',name);
             }).on('cell-edited', (text, ri, ci) => {
                 console.log('text:', text, ', ri: ', ri, ', ci:', ci);
             });
@@ -336,7 +373,7 @@ xs.sheet.menubar.hide()
 ```
 
 
-有关详细信息，您可以在此处查看示例
+有关详细信息，您可以查看此处的示例
 <https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
 
 

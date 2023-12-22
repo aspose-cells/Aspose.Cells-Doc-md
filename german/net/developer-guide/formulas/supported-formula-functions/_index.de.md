@@ -32,6 +32,7 @@ Mit der Formula Calculation Engine Aspose.Cells können Sie die Ergebnisse der f
 |AGGREGATE|
 |AMORDEGRC|
 |AMORLINC|
+|ANCHORARRAY|
 |AND|
 |AREAS|
 |ASC|
@@ -158,6 +159,7 @@ Mit der Formula Calculation Engine Aspose.Cells können Sie die Ergebnisse der f
 | :- | :- |
 |EDATE|
 |EFFECT|
+|ENCODEURL|
 |EOMONTH|
 |ERF|
 |ERFC|
@@ -256,6 +258,7 @@ Mit der Formula Calculation Engine Aspose.Cells können Sie die Ergebnisse der f
 |ISERR|
 |ISERROR|
 |ISEVEN|
+|ISFORMULA|
 |ISLOGICAL|
 |ISNA|
 |ISNONTEXT|
@@ -274,12 +277,14 @@ Mit der Formula Calculation Engine Aspose.Cells können Sie die Ergebnisse der f
 ######  *L**
 |**Funktion**|**Zusammenfassung**|
 | :- | :- |
+|LAMBDA|
 |LARGE|
 |LCM|
 |LEFT|
 |LEFTB|
 |LEN|
 |LENB|
+|LET|
 |LINEST|
 |LN|
 |LOG|
@@ -295,6 +300,8 @@ Mit der Formula Calculation Engine Aspose.Cells können Sie die Ergebnisse der f
 ######  *M**
 |**Funktion**|**Zusammenfassung**|
 | :- | :- |
+|MAKEARRAY|
+|MAP|
 |MATCH|
 |MAX|
 |MAXA|
@@ -418,6 +425,7 @@ Mit der Formula Calculation Engine Aspose.Cells können Sie die Ergebnisse der f
 ######  *S**
 |**Funktion**|**Zusammenfassung**|
 | :- | :- |
+|SCAN|
 |SEARCH|
 |SEARCHB|
 |SECOND|
@@ -428,6 +436,7 @@ Mit der Formula Calculation Engine Aspose.Cells können Sie die Ergebnisse der f
 |SIGN|
 |SIN|
 |SINH|
+|SINGLE|
 |SKEW|
 |SLN|
 |SLOPE|
@@ -493,6 +502,7 @@ Mit der Formula Calculation Engine Aspose.Cells können Sie die Ergebnisse der f
 |UNICODE|
 |UNIQUE|
 |UPPER|
+|USDOLLAR|
 
 ######  *V**
 |**Funktion**|**Zusammenfassung**|

@@ -6,7 +6,7 @@ url: /ru/net/aspose-cells-gridjs/client/
 keywords: custom,logo,setting,api
 ---
 #  Работа с клиентской частью GridJs
- Мы разработали клиент GridJs на основе[x-таблица](https://github.com/myliang/x-spreadsheet).
+ Мы разработали клиент GridJs на основе[X-таблица](https://github.com/myliang/x-spreadsheet).
 
 ##  основные шаги:
 
@@ -20,6 +20,7 @@ xs = x_spreadsheet(id, options)
 	    updateMode:  currently we only support 'server'
 	    updateUrl:  set the server side  url for update action based on json
 	    mode: read means readonly spread sheet/edit means we can edit the spread sheet
+            allowSelectTextInTextBoxInReadMode: whether allow select text in TextBox control when in read mode,the default value is false
 	    showToolbar:   means whether to show toolbar
 	    showFileName:  whether to show the filename 
 	    local:         support multiple language for menus ,the locale can be:
@@ -30,7 +31,7 @@ xs = x_spreadsheet(id, options)
 			        ko,th,tr,vi,cht
                            for  Korean,Thai,Turkey,Vietnamese,Traditional Chinese                  
 	    showContextmenu:   means whether to show contextmenu on right click on a cell
-
+            loadingGif:  the loading gif url when loading the image/shape .it is optional,the default value is:content/img/updating.gif
 	for example the below code init a x_spreadsheet object.
 	xs = x_spreadsheet('#gridjs-demo', {
 			updateMode:'server',
@@ -42,7 +43,7 @@ xs = x_spreadsheet(id, options)
 			})
 ```
     
--  загрузить данные json
+-  загрузить данные JSON
 ```javascript
 xs.loadData(data)
 // the parameters is:
@@ -69,7 +70,7 @@ xs.setActiveCell(row,col);
 	col: the cell column
 ```
 
-- установить информацию для операции формы/изображения для действия на стороне сервера
+- установить информацию для работы с фигурами/изображениями для действия на стороне сервера
 ```javascript
 xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActionUrl, imageCopyActionUrl, zindex, loadingGif);
 // the parameters are:
@@ -99,7 +100,7 @@ xs.setFileDownloadInfo(downloadActionUrl);
             xs.setFileDownloadInfo(fileDownloadUrl);
 ```
 
-- установить информацию для операции объекта ole для действия на стороне сервера
+- установить информацию для операции с оле-объектом для действия на стороне сервера
 ```javascript
 xs.setOleDownloadInfo(oleActionUrl);
 // the parameters are:
@@ -136,7 +137,7 @@ xs.setFileName(name)
 	name:the file name with extension ,for example trip.xlsx
 ```
 
--  следует ли включить событие клавиши окна для GridJs
+- включить ли событие ключа окна для GridJs
 ```javascript
 xs.enableKeyEvent(isenable)
 // the parameters is:
@@ -144,7 +145,7 @@ xs.enableKeyEvent(isenable)
 //when has other controls in the same page, you may want to ignore the key event in GridJs 
 ```
 
--  отвязать все события, прикрепленные к GridJs, включая событие ключа окна и событие изменения размера окна.
+-  отмените привязку всех событий, прикрепленных к GridJ, включая событие ключа окна и событие изменения размера окна.
 ```javascript
 xs.destroy()
 ```
@@ -166,7 +167,7 @@ xs.destroy()
 		xs.setActiveSheet(xs.getActiveSheet())
 ```
 
-- Получить выбранное изображение/форму, если ничего не выбрать, будет возвращено значение null
+-  Получите выбранное изображение/форму, если ничего не выбрано, вернет ноль
 ```javascript
 xs.sheet.selector.getObj()
 ```
@@ -200,20 +201,20 @@ xs.sheet.data.setCellText(ri,ci,value,state)
 	ri:row index 
 	ci:column index
 	value:the cell value
-	state: input | finished
+	state: input | finished ,if finished ,it will do update action to servside
 ```
 
 -  Получить/установить выбранный диапазон ячеек
 ```javascript
 xs.sheet.data.selector.range
 ```
--  Установите значение ячейки для выбранной ячейки или области ячейки
+-  Установите значение ячейки для выбранной ячейки или области ячеек.
 ```javascript
 xs.sheet.data.setSelectedCellText(value)
     // the parameters are:
 	value:the  value for the cell
 ```
--  Установите стиль для выбранной ячейки или области ячейки
+-  Установите стиль для выбранной ячейки или области ячейки.
 ```javascript
 xs.sheet.data.setSelectedCellAttr(attributename,value)
     // the parameters are:
@@ -226,7 +227,7 @@ xs.sheet.data.setSelectedCellAttr(attributename,value)
 xs.sheet.data.merge()
 ```
 
--  Разъединить выбранную область ячейки
+-  Отменить объединение выделенной области ячеек
 ```javascript
 xs.sheet.data.unmerge()
 ```
@@ -236,7 +237,7 @@ xs.sheet.data.deleteCell(type)
     // the parameters are:
 	type:all|format  all: means delete the cell and clear the style ;format means delete the cell value and keep the cell style
 ```
--  Установите область заморозки
+-  Установить область заморозки
 ```javascript
 xs.sheet.data.setFreeze(ri,ci)
     // the parameters are:
@@ -258,13 +259,29 @@ xs.sheet.data.delete(type)
 	type: row | column
 ```
 
--  Установить ширину столбца
+-  Установите ширину столбца
 ```javascript
 xs.sheet.data.setColWidth(ci,width)
     // the parameters are:
 	ci:column index
 	width:the width for the column
 ```
+-  Установите ширину столбцов
+```javascript
+xs.sheet.data.setColsWidth(sci,eci,width)
+    // the parameters are:
+	sci:the start column index
+	eci:the end column index
+	width:the width for the column
+```
+
+-  Установите ширину для всех столбцов
+```javascript
+xs.sheet.data.setAllColsWidth(width)
+    // the parameters are:
+	width:the width for the columns
+```
+
 -  Получить ширину столбца
 ```javascript
 xs.sheet.data.cols.sumWidth(min,max)
@@ -273,13 +290,30 @@ xs.sheet.data.cols.sumWidth(min,max)
 	max:the end column index,not include
 ```
 
--  Установить высоту строки
+-  Установите высоту строки
 ```javascript
 xs.sheet.data.setRowHeight(ri,height)
     // the parameters are:
 	ri:row index
 	height:the height for the row
 ```
+-  Установите высоту строк
+```javascript
+xs.sheet.data.setRowsHeight(sri,eri,height)
+    // the parameters are:
+	sri:start row index
+	eri:end row index
+	height:the height for the rows
+```
+
+- Установите высоту для всех строк
+```javascript
+xs.sheet.data.setAllRowsHeight(height)
+    // the parameters are:
+	height:the height for the rows
+```
+
+
 -  Получить высоту строки
 ```javascript
 xs.sheet.data.rows.sumHeight(min,max)
@@ -287,6 +321,7 @@ xs.sheet.data.rows.sumHeight(min,max)
 	min:the start row index
 	max:the end row index,not include
 ```
+
 -  Получить/установить направление отображения
 ```javascript
 xs.sheet.data.displayRight2Left
@@ -309,6 +344,8 @@ xs.sheet.data.displayRight2Left
                 console.log('shape or image selected id:', shapeOrImageObj.id, ', type: ', shapeOrImageObj.type);
             }).on('sheet-selected', (id,name) => {
                 console.log('sheet selected id:', id, ', name: ',name);
+            }).on('sheet-loaded', (id,name) => {
+                console.log('sheet load finished:', id, ', name: ',name);
             }).on('cell-edited', (text, ri, ci) => {
                 console.log('text:', text, ', ri: ', ri, ', ci:', ci);
             });
@@ -316,7 +353,7 @@ xs.sheet.data.displayRight2Left
 
 ##  настройка
 
--  установить домашний значок и ссылку
+-  установить значок дома и ссылку
 ```javascript
 xs.sheet.menubar.icon.setHomeIcon(iconUrl,targetUrl)
     // the parameters are:

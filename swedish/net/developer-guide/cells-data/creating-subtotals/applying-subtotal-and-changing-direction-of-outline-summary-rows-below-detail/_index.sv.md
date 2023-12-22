@@ -1,8 +1,10 @@
-﻿---
+---
 title: Tillämpa delsumma och ändra riktning på kontursammanfattningsraderna under detalj
 type: docs
 weight: 100
 url: /sv/net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/
+description: Lär dig hur du tillämpar delsumma och ändrar riktning för kontursammanfattningen. Raderna nedan detalj genom att använda Aspose.Cells for .NET API.
+keywords: Apply subtotal, Add subtotal, change direction of outline summary Rows below Detail, change direction of outline summary Columns to right of Detail, Create subtotal and change direction of outline summary Rows below Detail
 ---
 {{% alert color="primary" %}}
 
@@ -10,10 +12,10 @@ Den här artikeln kommer att förklara hur du tillämpar delsumma på data och �
 
  Du kan tillämpa delsumma på data med hjälp av[**Arbetsblad.Cells.Subtotal()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/subtotal/index) metod. Den kräver följande parametrar.
 
-- **CellArea** Intervallet att tillämpa delsumma på
+- **CellArea** - Intervallet att tillämpa delsumma på
 - **Grupp av** - Fältet att gruppera efter, som en nollbaserad heltalsoffset
 - **Fungera** - Deltotalfunktionen.
-- **Totallista** - En matris med nollbaserade fältförskjutningar, som indikerar de fält till vilka delsummorna läggs till.
+- **Totallista** En matris med nollbaserade fältförskjutningar, som indikerar de fält till vilka delsummorna läggs till.
 - **Byta ut** - Indikerar om de nuvarande delsummorna ersätts
 - **Pagebreaks** - Anger om man lägger till sidbrytning mellan grupper
 - **SammanfattningBelowData** - Indikerar om du lägger till sammanfattning under data.
@@ -24,7 +26,7 @@ Den här artikeln kommer att förklara hur du tillämpar delsumma på data och �
 
 {{% /alert %}}
 
-## Bilder av käll- och utdatafiler
+##  Bilder av käll- och utdatafiler
 
 Följande skärmdump visar källfilen för Excel som används i exempelkoden nedan som innehåller vissa data i kolumnerna A och B.
 

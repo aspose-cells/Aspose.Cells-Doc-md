@@ -1,14 +1,16 @@
-﻿---
-title: Показать или скрыть линии сетки в Python
+---
+title: Отобразить или скрыть линии сетки в Python
 type: docs
 weight: 10
 url: /ru/java/display-or-hide-gridlines-in-python/
+description: Узнайте, как отображать или скрывать линии сетки с помощью Aspose.Cells for Python и Java API.
+keywords: How to Display or Hide Gridlines in Python Via Java, Display or Hide Gridlines using Python Via Java, Python Show or Hide Gridlines. 
 ---
-## **Aspose.Cells - Показать скрыть линии сетки**
-### **Скрытие линий сетки**
- Чтобы скрыть рабочий лист, используя**Aspose.Cells Java для рубина** , вызов**displayhidegridlines** модуль.
+##  **Aspose.Cells - Как отобразить или скрыть линии сетки**
+###  **Как скрыть линии сетки**
+ Чтобы скрыть рабочий лист, используя**Aspose.Cells Java для Ruby**, позвоните **displayhidegridlines** модуль.
 
-**Python Код**
+**Код Python**
 
 {{< highlight "java" >}}
 
@@ -33,10 +35,10 @@ workbook.save(self.dataDir + "output.xls")
 print "Grid lines are now hidden on sheet 1, please check the output document."
 
 {{< /highlight >}}
-### **Делаем линии сетки видимыми**
+###  **Как отобразить линии сетки**
 Чтобы сделать линии сетки видимыми, используйте метод setGridlinesVisible(true) класса Worksheet.
 
-**Python Код**
+**Код Python**
 
 {{< highlight "python" >}}
 
@@ -45,7 +47,7 @@ print "Grid lines are now hidden on sheet 1, please check the output document."
 worksheet.setGridlinesVisible(True)
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**DisplayHideGridlines (Aspose.Cells)** с любого из нижеперечисленных сайтов социального кодирования:
+##  **Загрузить рабочий код**
+ Скачать**DisplayHideGridlines (Aspose.Cells)** с любого из перечисленных ниже сайтов социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

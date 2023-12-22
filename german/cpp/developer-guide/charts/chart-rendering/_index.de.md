@@ -1,181 +1,179 @@
-﻿---
+---
 title: Diagrammdarstellung
 type: docs
 weight: 30
 url: /de/cpp/chart-rendering/
 ---
-## **Erstellen von Diagrammen**
+##  **Diagramme erstellen**
 
-Aspose.Cells API-Unterstützung zum Erstellen einer Vielzahl von Excel-Diagrammen, wie unter dem Thema beschrieben[Erstellen und Anpassen von Excel-Diagrammen](/cells/de/cpp/creating-and-customizing-charts/). Um die Verwendung von Aspose.Cells-APIs zum Rendern der Diagramme im Bild- und PDF-Format zu demonstrieren, erstellen wir ein Diagramm vom Typ Column gemäß dem folgenden Snippet.
-
-{{< highlight "cpp" >}}
-
-     // Create a new workbook
-
-	intrusive_ptr<IWorkbook> workbook = Factory::CreateIWorkbook();
-
-	// Get first worksheet which is created by default
-
-	intrusive_ptr<IWorksheet> worksheet = workbook->GetIWorksheets()->GetObjectByIndex(0);
-
-	// Adding sample values to cells
-
-	worksheet->GetICells()->GetObjectByIndex(new String("A1"))->PutValue(50);
-
-	worksheet->GetICells()->GetObjectByIndex(new String("A2"))->PutValue(100);
-
-	worksheet->GetICells()->GetObjectByIndex(new String("A3"))->PutValue(150);
-
-	worksheet->GetICells()->GetObjectByIndex(new String("B1"))->PutValue(4);
-
-	worksheet->GetICells()->GetObjectByIndex(new String("B2"))->PutValue(20);
-
-	worksheet->GetICells()->GetObjectByIndex(new String("B3"))->PutValue(50);
-
-	// Adding a chart to the worksheet
-
-	int chartIndex = worksheet->GetICharts()->Add(Aspose::Cells::Charts::ChartType::ChartType_Column, 5, 0, 20, 8);
-
-	// Accessing the instance of the newly added chart
-
-	intrusive_ptr<Aspose::Cells::Charts::IChart> chart = worksheet->GetICharts()->GetObjectByIndex(chartIndex);
-
-	// Adding SeriesCollection (chart data source) to the chart ranging from "A1" cell to "B3"
-
-	chart->GetNISeries()->Add(new String("A1:B3"), true);
-
-{{< /highlight >}}
-
-## **Diagramme rendern**
-
-Aspose.Cells-APIs unterstützen die Konvertierung der Excel-Diagramme in Bilder und PDF-Formate, ohne dass zusätzliche Tools oder Anwendungen erforderlich sind. Um die Renderingunterstützung bereitzustellen, hat die Chart-Klasse ToImage- und ToPdf-Methoden mit einer Vielzahl von Überladungen verfügbar gemacht, um den Anwendungsanforderungen am besten zu entsprechen.
-
-### **Rendern von Diagrammen in Bilder**
-
-Die Chart.toImage-Methode verfügt über eine Reihe von Überladungen, um sowohl einfaches als auch erweitertes Rendern zu unterstützen. Wenn die Anforderung der Anwendung darin besteht, das Diagramm in seinen Standardabmessungen zu rendern, empfehlen wir Ihnen, die Chart.toImage-Methode wie folgt zu verwenden.
+Aspose.Cells APIs unterstützen die Erstellung einer Vielzahl von Excel-Diagrammen, wie im Thema beschrieben[Erstellen und Anpassen von Excel-Diagrammen](/cells/de/cpp/creating-and-customizing-charts/). Um die Verwendung von Aspose.Cells-APIs zum Rendern der Diagramme im Bild- und PDF-Format zu demonstrieren, erstellen wir ein Diagramm vom Typ „Säule“ gemäß dem folgenden Snippet.
 
 {{< highlight "cpp" >}}
 
- // Output directory path
+Aspose::Cells::Startup();
 
-StringPtr outDir = new String("..\\Data\\02_OutputDirectory\\");
+// Output directory path
+U16String outDir(u"..\\Data\\02_OutputDirectory\\");
+
+// Create a new workbook
+Workbook workbook;
+
+// Get first worksheet which is created by default
+Worksheet worksheet = workbook.GetWorksheets().Get(0);
+
+// Adding sample values to cells
+worksheet.GetCells().Get(u"A1").PutValue(50);
+worksheet.GetCells().Get(u"A2").PutValue(100);
+worksheet.GetCells().Get(u"A3").PutValue(150);
+worksheet.GetCells().Get(u"B1").PutValue(4);
+worksheet.GetCells().Get(u"B2").PutValue(20);
+worksheet.GetCells().Get(u"B3").PutValue(50);
+
+// Adding a chart to the worksheet
+int chartIndex = worksheet.GetCharts().Add(Aspose::Cells::Charts::ChartType::Column, 5, 0, 20, 8);
+
+// Accessing the instance of the newly added chart
+Chart chart = worksheet.GetCharts().Get(chartIndex);
+
+// Adding SeriesCollection (chart data source) to the chart ranging from "A1" cell to "B3"
+chart.GetNSeries().Add(u"A1:B3", true);
 
 // Path of output image file
+U16String outputChartImage = outDir + u"out1image.png";
+chart.ToImage(outputChartImage, ImageType::Png);
 
-StringPtr outputChartImage = outDir->StringAppend(new String("out1image.png"));
+// Path of output pdf file
+U16String outputPdfFile = outDir + u"out1pdf.pdf";
 
-// Saving the chart to image file
+// Saving chart to PDF
+chart.ToPdf(outputPdfFile);
 
-chart->ToImage(outputChartImage, Aspose::Cells::System::Drawing::Imaging::ImageFormat::GetPng());
+Aspose::Cells::Cleanup();
 
 {{< /highlight >}}
 
-### **Rendering-Diagramm bis PDF**
+##  **Rendering-Diagramme**
 
-Um das Diagramm in das PDF-Format zu rendern, haben die Aspose.Cells-APIs die Chart.ToPdf-Methode mit der Fähigkeit verfügbar gemacht, das Ergebnis PDF auf dem Datenträgerpfad oder Stream zu speichern.
+Aspose.Cells APIs unterstützen die Konvertierung von Excel-Diagrammen in Bilder und PDF Formate, ohne dass zusätzliche Tools oder Anwendungen erforderlich sind. Um die Rendering-Unterstützung bereitzustellen, hat die Chart-Klasse ToImage- und ToPdf-Methoden mit einer Vielzahl von Überladungen bereitgestellt, um den Anwendungsanforderungen optimal gerecht zu werden.
+
+###  **Rendern von Diagrammen in Bilder**
+
+Die Chart.toImage-Methode verfügt über eine Vielzahl von Überladungen, um sowohl einfaches als auch erweitertes Rendering zu unterstützen. Wenn die Anwendungsanforderung darin besteht, das Diagramm in seinen Standardabmessungen darzustellen, empfehlen wir Ihnen, die Chart.toImage-Methode wie folgt zu verwenden.
 
 {{< highlight "cpp" >}}
 
- // Path of output pdf file
+// Path of output image file
+U16String outputChartImage = outDir + u"out1image.png";
 
-StringPtr outputPdfFile = outDir->StringAppend(new String("out1pdf.pdf"));
-
-// Saving chart to PDF
-
-chart->ToPdf(outputPdfFile);
+// Saving the chart to image file
+chart.ToImage(outputChartImage, ImageType::Png);
 
 {{< /highlight >}}
 
-## **Unterstützte Diagrammtypen für das Rendern**
+###  **Rendering-Diagramm bis PDF**
 
-Es gibt einige Diagrammtypen, die derzeit nicht für das Rendern unterstützt werden. Solche Diagrammtypen enthalten**N** im**Unterstützte ** Spalte der folgenden Tabelle.
+Um das Diagramm im PDF-Format zu rendern, haben die Aspose.Cells-APIs die Chart.ToPdf-Methode mit der Möglichkeit bereitgestellt, das resultierende PDF im Datenträgerpfad oder Stream zu speichern.
 
-|**Diagramm Typ**|**Diagrammuntertyp**|**Unterstützt**|
-|:- |:- |:- |
-|**Spalte**|Spalte|**Y**|
-||Spalte gestapelt|**Y**|
-||Spalte 100 Prozent gestapelt|**Y**|
-||Column3DClustered|**Y**|
-||Column3DStacked|**Y**|
-||Column3D100PercentStacked|**Y**|
-||Spalte3D|**Y**|
-|**Bar**|Bar|**Y**|
-||BarStacked|**Y**|
-||Balken 100 Prozent gestapelt|**Y**|
-||Bar3DClustered|**Y**|
-||Bar3DStacked|**Y**|
-||Bar3D100PercentStacked|**Y**|
-|**Linie**|Linie|**Y**|
-||LineStacked|**Y**|
-||Zeile 100 Prozent gestapelt|**Y**|
-||LineWithDataMarkers|**Y**|
-||LineStackedWithDataMarkers|**Y**|
-||Line100PercentStackedWithDataMarkers|**Y**|
-||Line3D|**Y**|
-|**Kuchen**|Kuchen|**Y**|
-||Pie3D|**Y**|
-||PiePie|**Y**|
-||Kuchenexplodiert|**Y**|
-||Pie3D Explodiert|**Y**|
-||PieBar|**Y**|
-|**Streuen**|Streuen|**Y**|
-||ScatterConnectedByCurvesWithDataMarker|**Y**|
-||ScatterConnectedByCurvesWithoutDataMarker|**Y**|
-||ScatterConnectedByLinesWithDataMarker|**Y**|
-||ScatterConnectedByLinesWithoutDataMarker|**Y**|
-|**Bereich**|Bereich|**Y**|
-||BereichStacked|**Y**|
-||Area100ProcentStacked|**Y**|
-||Bereich3D|**Y**|
-||Area3DStacked|**Y**|
-||Area3D100ProzentStacked|**Y**|
-|**Krapfen**|Krapfen|**Y**|
-||Donut Explodiert|**Y**|
-|**Radar**|Radar|**Y**|
-||RadarWithDataMarkers|**Y**|
-||Radargefüllt|**Y**|
+{{< highlight "cpp" >}}
+
+// Path of output pdf file
+U16String outputPdfFile = outDir + u"out1pdf.pdf";
+
+// Saving chart to PDF
+chart.ToPdf(outputPdfFile);
+
+{{< /highlight >}}
+
+##  **Unterstützte Diagrammtypen für das Rendering**
+
+Es gibt einige Diagrammtypen, deren Darstellung derzeit nicht unterstützt wird. Solche Diagrammtypen enthalten**N** in der Kategorie **Unterstützt**Spalte der folgenden Tabelle.
+
+|**Diagramm Typ**|**Untertyp des Diagramms**|**Unterstützt**|
+| :- | :- | :- |
+|**Spalte**|Spalte|*J**|
+| |ColumnStacked|*J**|
+| |Column100PercentStacked|*J**|
+| |Column3DClustered|*J**|
+| |Column3DStacked|*J**|
+| |Column3D100PercentStacked|*J**|
+| |Column3D|*J**|
+|**Bar**|Bar|*J**|
+| |BarStacked|*J**|
+| |Bar100PercentStacked|*J**|
+| |Bar3DClustered|*J**|
+| |Bar3DStacked|*J**|
+| |Bar3D100PercentStacked|*J**|
+|**Linie**|Linie|*J**|
+| |LineStacked|*J**|
+| |Line100PercentStacked|*J**|
+| |LineWithDataMarkers|*J**|
+| |LineStackedWithDataMarkers|*J**|
+| |Line100PercentStackedWithDataMarkers|*J**|
+| |Line3D|*J**|
+|**Kuchen**|Kuchen|*J**|
+| |Pie3D|*J**|
+| |PiePie|*J**|
+| |PieExploded|*J**|
+| |Pie3DEExploded|*J**|
+| |PieBar|*J**|
+|**Streuen**|Streuen|*J**|
+| |ScatterConnectedByCurvesWithDataMarker|*J**|
+| |ScatterConnectedByCurvesWithoutDataMarker|*J**|
+| |ScatterConnectedByLinesWithDataMarker|*J**|
+| |ScatterConnectedByLinesWithoutDataMarker|*J**|
+|**Bereich**|Bereich|*J**|
+| |BereichGestapelt|*J**|
+| |Fläche100PercentStacked|*J**|
+| |Area3D|*J**|
+| |Area3DStacked|*J**|
+| |Area3D100PercentStacked|*J**|
+|**Krapfen**|Krapfen|*J**|
+| |DonutExplodiert|*J**|
+|**Radar**|Radar|*J**|
+| |RadarWithDataMarkers|*J**|
+| |Radargefüllt|*J**|
 |**Oberfläche**|Surface3D|N|
-||SurfaceWireframe3D|N|
-||Oberflächenkontur|N|
-||SurfaceContourWireframe|N|
-|**Blase**|Blase|**Y**|
-||Bubble3D|N|
-|Aktie|StockHighLowClose|**Y**|
-||StockOpenHighLowClose|**Y**|
-||StockVolumeHighLowClose|**Y**|
-||StockVolumeOpenHighLowClose|**Y**|
-|**Zylinder**|Zylinder|**Y**|
-||Zylinder gestapelt|**Y**|
-||Zylinder 100 Prozent gestapelt|**Y**|
-||Zylindrischer Stab|**Y**|
-||ZylindrischBarStacked|**Y**|
-||ZylindrischBar100ProzentGestapelt|**Y**|
-||ZylindrischeSäule3D|**Y**|
-|**Kegel**|Kegel|**Y**|
-||Kegelgestapelt|**Y**|
-||Kegel 100 Prozent gestapelt|**Y**|
-||Konische Stange|**Y**|
-||ConicalBarStacked|**Y**|
-||ConicalBar100ProcentStacked|**Y**|
-||KonischeSäule3D|**Y**|
-|**Pyramide**|Pyramide|**Y**|
-||PyramidStacked|**Y**|
-||Pyramid100Prozent gestapelt|**Y**|
-||PyramidBar|**Y**|
-||PyramidBarStacked|**Y**|
-||PyramidBar100PercentStacked|**Y**|
-||PyramidColumn3D|**Y**|
+| |OberflächeWireframe3D|N|
+| |Oberflächenkontur|N|
+| |SurfaceContourWireframe|N|
+|**Blase**|Blase|*J**|
+| |Bubble3D|N|
+|Aktie|StockHighLowClose|*J**|
+| |StockOpenHighLowClose|*J**|
+| |StockVolumeHighLowClose|*J**|
+| |StockVolumeOpenHighLowClose|*J**|
+|**Zylinder**|Zylinder|*J**|
+| |Zylindergestapelt|*J**|
+| |Zylinder100PercentStacked|*J**|
+| |Zylindrischer Balken|*J**|
+| |CylindricalBarStacked|*J**|
+| |CylindricalBar100PercentStacked|*J**|
+| |Zylindrische Spalte3D|*J**|
+|**Kegel**|Kegel|*J**|
+| |Kegelgestapelt|*J**|
+| |Cone100PercentStacked|*J**|
+| |ConicalBar|*J**|
+| |ConicalBarStacked|*J**|
+| |ConicalBar100PercentStacked|*J**|
+| |ConicalColumn3D|*J**|
+|**Pyramide**|Pyramide|*J**|
+| |PyramidStacked|*J**|
+| |Pyramid100PercentStacked|*J**|
+| |PyramidBar|*J**|
+| |PyramidBarStacked|*J**|
+| |PyramidBar100PercentStacked|*J**|
+| |PyramidColumn3D|*J**|
 |**BoxWhisker**|BoxWhisker|Y|
-|**Trichter**|Trichter|**Y**|
-|**ParetoLine**|ParetoLine|**Y**|
-|**Sonnendurchbruch**|Sonnendurchbruch|**Y**|
-|**Baumkarte**|Baumkarte|**Y**|
-|**Wasserfall**|Wasserfall|**Y**|
+|**Trichter**|Trichter|*J**|
+|**ParetoLinie**|ParetoLinie|*J**|
+|**Sonnendurchbruch**|Sonnendurchbruch|*J**|
+|**Baumkarte**|Baumkarte|*J**|
+|**Wasserfall**|Wasserfall|*J**|
 |**Histogramm**|Histogramm|Y|
-|**Karte**|Karte|**N**|
+|**Karte**|Karte|*N**|
 
 {{% alert color="primary" %}}
 
-Falls Sie versuchen, die nicht unterstützten Diagrammtypen als Bild oder PDF zu rendern, erhalten Sie möglicherweise Bilder der Größe 0 oder leere PDF.
+Wenn Sie versuchen, die nicht unterstützten Diagrammtypen als Bild oder PDF zu rendern, erhalten Sie möglicherweise Bilder der Größe 0 oder leere PDF.
 
 {{% /alert %}}

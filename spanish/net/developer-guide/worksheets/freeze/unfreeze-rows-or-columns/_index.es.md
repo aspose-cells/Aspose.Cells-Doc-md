@@ -10,7 +10,7 @@ keywords: Unfreeze panes, Unfreeze rows, Unfreeze columns, unFreeze window.
 {{% alert color="primary" %}}
 
 En este artículo, aprenderemos cómo descongelar filas, columnas y paneles.
-Si las hojas de trabajo en los archivos de Excel están congeladas, a veces queremos descongelarlas o ajustar filas, columnas o paneles congelados.
+Si las hojas de cálculo de los archivos de Excel están congeladas, a veces queremos descongelarlas o ajustar las filas, columnas o paneles congelados.
 
 {{% /alert %}}
 
@@ -23,13 +23,13 @@ Si las hojas de trabajo en los archivos de Excel están congeladas, a veces quer
 
 
 
-##  **Descongele filas, columnas o paneles con Aspose.Cells para .Net**
- Es fácil descongelar paneles con Aspose.Cells para .Net. Por favor use el[**Hoja de trabajo.UnFreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/unfreezepanes)método para descongelar paneles.
+##  **Descongelar filas, columnas o paneles con Aspose.Cells para .Net**
+ Es sencillo descongelar paneles con Aspose.Cells para .Net. Por favor use el[**Hoja de trabajo.UnFreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/unfreezepanes)Método para desacoplar los cristales.
 
-1. Construya Workbook para abrir el archivo congelado.
-2. Descongele los paneles con el método Worksheet.UnFreezePanes().
+1. Construya el libro de trabajo para abrir el archivo congelado.
+2. Descongelar paneles con el método Worksheet.UnFreezePanes().
 3. Guarde el archivo.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Unfreeze-Pane.cs" >}}
 
- Adjunto[ejemplo de archivo de origen de Excel](Frozen.xlsx).
+ Adjunto[archivo Excel fuente de muestra](Frozen.xlsx).

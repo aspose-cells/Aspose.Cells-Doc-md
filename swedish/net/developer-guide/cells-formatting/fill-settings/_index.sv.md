@@ -1,23 +1,25 @@
-﻿---
+---
 title: Fyll i inställningar
+description: Aspose.Cells är ett .NET-bibliotek för att arbeta med kalkylarksfiler. Det stöder att ställa in fyllningsinställningarna för celler, så att användare kan anpassa bakgrunden och stilen på celler. Den här artikeln kommer att introducera hur du använder Aspose.Cells-biblioteket för att ställa in cellfyllningsinställningar.
+keywords: Aspose.Cells, Cells, Fill Settings, Background, Style
 type: docs
 weight: 50
 url: /sv/net/cells-fill-settings/
 ---
-## **Färger och bakgrundsmönster**
+##  **Färger och bakgrundsmönster**
 
 Microsoft Excel kan ställa in förgrunds- (kontur) och bakgrunds- (fyll)färger för celler och bakgrundsmönster.
 
 Aspose.Cells stöder även dessa funktioner på ett flexibelt sätt. I det här ämnet lär vi oss att använda dessa funktioner med Aspose.Cells.
 
-### **Ställa in färger och bakgrundsmönster**
+###  **Ställa in färger och bakgrundsmönster**
 
  Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) som representerar en Microsoft Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass innehåller en[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) samling som ger åtkomst till varje kalkylblad i Excel-filen. Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass. De[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass ger en[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) samling. Varje objekt i[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) samlingen representerar ett föremål för[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)klass.
 
  De[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) har[**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle/index) och[**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle/index) metoder som används för att hämta och ställa in en cells formatering. De[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style)klass tillhandahåller egenskaper för att ställa in förgrunds- och bakgrundsfärgerna för cellerna. Aspose.Cells tillhandahåller en[**Bakgrundstyp**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype)uppräkning som innehåller en uppsättning fördefinierade typer av bakgrundsmönster som ges nedan.
 
 |**Bakgrundsmönster**|**Beskrivning**|
-|:- |:- |
+| :- | :- |
 |Diagonal Crosshatch|Representerar diagonalt rutmönster|
 |Diagonal Stripe|Representerar diagonalt randmönster|
 |Grå6|Representerar 6,25 % grått mönster|
@@ -42,26 +44,26 @@ I exemplet nedan är förgrundsfärgen för A1-cellen inställd men A2 är konfi
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ColorsAndBackground-1.cs" >}}
 
-### **Viktigt att veta**
+###  **Viktigt att veta**
 
 {{% alert color="primary" %}}
 
 -  För att ställa in en cells förgrunds- eller bakgrundsfärg, använd[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) föremål[**Förgrundsfärg**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor) eller[**Bakgrundsfärg**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/backgroundcolor) egenskaper. Båda egenskaperna träder i kraft endast om[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) föremål[**Mönster**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern)egenskapen är konfigurerad.
 -  De[**Förgrundsfärg**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor)egenskapen anger cellens nyansfärg.
- De[**Mönster**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern)egenskapen anger typen av bakgrundsmönster som används för förgrunden eller bakgrundsfärgen. Aspose.Cells tillhandahåller en uppräkning,[**Bakgrundstyp**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype)som innehåller en uppsättning fördefinierade typer av bakgrundsmönster.
+ De[**Mönster**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern)egenskapen anger typen av bakgrundsmönster som används för förgrunden eller bakgrundsfärgen. Aspose.Cells tillhandahåller en uppräkning,[**Bakgrundstyp**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype). som innehåller en uppsättning fördefinierade typer av bakgrundsmönster.
 -  Om du väljer*BackgroundType.None* värde från[**Bakgrundstyp**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype)uppräkning tillämpas inte förgrundsfärgen.
  På samma sätt tillämpas inte bakgrundsfärgen om du väljer*BackgroundType.None* eller*BackgroundType.Solid* värden.
--  Vid hämtning av cellens skuggnings-/fyllningsfärg, om[**Stil.mönster**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern) är*BackgroundType.None*, [**Style.Förgrundsfärg**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor) kommer tillbaka*Färg.Tom*.
+-  Vid hämtning av cellens skuggnings-/fyllningsfärg, om[**Stil.mönster**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern) är *BackgroundType.None*,[**Style.Förgrundsfärg**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor) kommer att returnera *Color.Empty*.
 
 {{% /alert %}}
 
-### **Tillämpa övertoningsfyllningseffekter**
+###  **Tillämpa övertoningsfyllningseffekter**
 
  För att applicera önskade gradientfyllningseffekter på cellen, använd[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) föremål[**SetTwoColorGradient**](https://reference.aspose.com/cells/net/aspose.cells/style/methods/settwocolorgradient)metoden i enlighet därmed.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ApproachesToFormatData-ApplyingGradientFillEffects-1.cs" >}}
 
-## **Färger och palett**
+##  **Färger och palett**
 
 En palett är antalet tillgängliga färger för att skapa en bild. Användningen av en standardiserad palett i en presentation gör att användaren kan skapa ett konsekvent utseende. Varje Microsoft Excel-fil (97-2003) har en palett med 56 färger som kan appliceras på celler, teckensnitt, rutnät, grafiska objekt, fyllningar och linjer i ett diagram.
 
@@ -69,7 +71,7 @@ Med Aspose.Cells är det möjligt att inte bara använda palettens befintliga f�
 
 Det här ämnet diskuterar hur man lägger till anpassade färger till paletten.
 
-### **Lägga till anpassade färger till paletten**
+###  **Lägga till anpassade färger till paletten**
 
 Aspose.Cells stöder Microsoft Excels 56 färgpalett. För att använda en anpassad färg som inte är definierad i paletten, lägg till färgen i paletten.
 

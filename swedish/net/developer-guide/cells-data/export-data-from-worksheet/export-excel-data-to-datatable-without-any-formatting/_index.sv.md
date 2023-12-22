@@ -1,8 +1,10 @@
-﻿---
+---
 title: Exportera Excel-data till DataTable utan någon formatering
 type: docs
 weight: 280
 url: /sv/net/export-excel-data-to-datatable-without-any-formatting/
+description: Lär dig hur du exporterar Excel-data till DataTable utan någon formatering genom Aspose.Cells for .NET API.
+keywords: Export Excel Data to DataTable without any Formatting, Specify Cell Value Format Strategy, Add Format Strategy When Exporting Data to DataTable. 
 ---
 {{% alert color="primary" %}}
 
@@ -16,13 +18,13 @@ Ibland vill användare exportera Excel-data till en datatabell utan någon forma
 
 {{% /alert %}}
 
-## Exempelkod
+##  Exempelkod
 
  Följande exempel förklarar användningen av[**ExportTableOptions.FormatStrategy**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/formatstrategy)egenskap för att exportera Excel-data med och utan formatering.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-ExportExcelDataToDataTableWithoutFormatting-ExportExcelDataToDataTableWithoutFormatting.cs" >}}
 
-## **Konsolutgång**
+##  **Konsolutgång**
 
 Nedan är konsolens felsökningsutgång för ovanstående exempelkod
 

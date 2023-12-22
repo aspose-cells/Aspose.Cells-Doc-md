@@ -1,12 +1,12 @@
 ---
-title: Lavorare con GridJs lato client
+title: Lavorare con il lato client di GridJs
 type: docs
 weight: 250
 url: /it/net/aspose-cells-gridjs/client/
 keywords: custom,logo,setting,api
 ---
-#  Lavorare con GridJs lato client
- Abbiamo sviluppato il client GridJs basato su[foglio di calcolo x](https://github.com/myliang/x-spreadsheet).
+#  Lavorare con il lato client di GridJs
+ Abbiamo sviluppato il client GridJs basato su[x-foglio di calcolo](https://github.com/myliang/x-spreadsheet).
 
 ##  i passaggi principali sono:
 
@@ -20,6 +20,7 @@ xs = x_spreadsheet(id, options)
 	    updateMode:  currently we only support 'server'
 	    updateUrl:  set the server side  url for update action based on json
 	    mode: read means readonly spread sheet/edit means we can edit the spread sheet
+            allowSelectTextInTextBoxInReadMode: whether allow select text in TextBox control when in read mode,the default value is false
 	    showToolbar:   means whether to show toolbar
 	    showFileName:  whether to show the filename 
 	    local:         support multiple language for menus ,the locale can be:
@@ -30,7 +31,7 @@ xs = x_spreadsheet(id, options)
 			        ko,th,tr,vi,cht
                            for  Korean,Thai,Turkey,Vietnamese,Traditional Chinese                  
 	    showContextmenu:   means whether to show contextmenu on right click on a cell
-
+            loadingGif:  the loading gif url when loading the image/shape .it is optional,the default value is:content/img/updating.gif
 	for example the below code init a x_spreadsheet object.
 	xs = x_spreadsheet('#gridjs-demo', {
 			updateMode:'server',
@@ -42,19 +43,19 @@ xs = x_spreadsheet(id, options)
 			})
 ```
     
--  caricare con dati json
+-  caricare con dati JSON
 ```javascript
 xs.loadData(data)
 // the parameters is:
 	data: the json data which describ the data structure for the worksheets
 ```
--  imposta il foglio attivo per nomefoglio
+-  imposta il foglio attivo in base al nome del foglio
 ```javascript
 xs.setActiveSheetByName(sheetname)
 // the parameters is:
 	sheetname: the sheet name 
 ```
--  imposta il foglio attivo per id
+-  imposta il foglio attivo tramite ID
 ```javascript
 xs.setActiveSheet(id)
 // the parameters is:
@@ -69,7 +70,7 @@ xs.setActiveCell(row,col);
 	col: the cell column
 ```
 
-- impostare le informazioni per il funzionamento di forme/immagini per l'azione lato server
+- imposta le informazioni per il funzionamento di forme/immagini per l'azione lato server
 ```javascript
 xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActionUrl, imageCopyActionUrl, zindex, loadingGif);
 // the parameters are:
@@ -99,7 +100,7 @@ xs.setFileDownloadInfo(downloadActionUrl);
             xs.setFileDownloadInfo(fileDownloadUrl);
 ```
 
-- impostare le informazioni per l'operazione dell'oggetto ole per l'azione lato server
+- impostare le informazioni per il funzionamento dell'oggetto oleo per l'azione lato server
 ```javascript
 xs.setOleDownloadInfo(oleActionUrl);
 // the parameters are:
@@ -112,12 +113,12 @@ xs.setOleDownloadInfo(oleActionUrl);
 
 _
 ##  altre API utili
--  Renderizza la vista
+-  Rendering della vista
 ```javascript
 xs.reRender()
 ```
 
--  ottenere ID foglio attivo
+-  ottieni l'ID del foglio attivo
 ```javascript
 xs.getActiveSheet()
 ```
@@ -129,14 +130,14 @@ xs.setZoomLevel(zoom)
 	zoom:the zoom level ,can be number ,for example 0.5 for zoom out, or 2 for zoom in
 ```
 
--  Imposta nome file
+-  Imposta il nome del file
 ```javascript
 xs.setFileName(name)
 // the parameters is:
 	name:the file name with extension ,for example trip.xlsx
 ```
 
--  se abilitare l'evento chiave della finestra per GridJs
+- se abilitare l'evento chiave finestra per GridJs
 ```javascript
 xs.enableKeyEvent(isenable)
 // the parameters is:
@@ -144,13 +145,13 @@ xs.enableKeyEvent(isenable)
 //when has other controls in the same page, you may want to ignore the key event in GridJs 
 ```
 
--  separa tutti gli eventi collegati a GridJs, inclusi l'evento chiave della finestra e l'evento di ridimensionamento della finestra.
+-  separa tutti gli eventi allegati a GridJs, inclusi l'evento chiave finestra e l'evento ridimensionamento finestra.
 ```javascript
 xs.destroy()
 ```
 
 
--  imposta filtro visibile per immagine/forma
+-  imposta il filtro visibile per immagine/forma
 ```javascript
     // need to set a function which return true(for visible) or false(for invisible) for the visible filter with the below parameters :
 	sheet:the sheet instance
@@ -166,12 +167,12 @@ xs.destroy()
 		xs.setActiveSheet(xs.getActiveSheet())
 ```
 
-- Ottieni l'immagine/forma selezionata, se non c'è niente select restituirà null
+-  Ottieni l'immagine/forma selezionata, se non viene selezionata nulla verrà restituito null
 ```javascript
 xs.sheet.selector.getObj()
 ```
 
--  impostare lo stato selezionabile per immagine/forma
+-  imposta lo stato selezionabile per l'immagine/forma
 ```javascript
 const shape=xs.sheet.selector.getObj();
 shape.setControlable(isenable)
@@ -200,14 +201,14 @@ xs.sheet.data.setCellText(ri,ci,value,state)
 	ri:row index 
 	ci:column index
 	value:the cell value
-	state: input | finished
+	state: input | finished ,if finished ,it will do update action to servside
 ```
 
--  Ottieni/Imposta l'intervallo di celle selezionato
+-  Ottieni/imposta l'intervallo di celle selezionato
 ```javascript
 xs.sheet.data.selector.range
 ```
--  Impostare il valore della cella per la cella o l'area della cella selezionata
+-  Imposta il valore della cella per la cella o l'area della cella selezionata
 ```javascript
 xs.sheet.data.setSelectedCellText(value)
     // the parameters are:
@@ -244,14 +245,14 @@ xs.sheet.data.setFreeze(ri,ci)
 	ci:column index
 ```
 
--  Inserisci righe o colonne nella cella selezionata
+-  Inserisci riga o colonne nella cella selezionata
 ```javascript
 xs.sheet.data.insert(type, n)
     // the parameters are:
 	type: row | column
 	n:the row or column number
 ```
--  Elimina righe o colonne nella cella selezionata
+-  Elimina riga o colonne nella cella selezionata
 ```javascript
 xs.sheet.data.delete(type)
     // the parameters are:
@@ -265,6 +266,22 @@ xs.sheet.data.setColWidth(ci,width)
 	ci:column index
 	width:the width for the column
 ```
+-  Imposta la larghezza delle colonne
+```javascript
+xs.sheet.data.setColsWidth(sci,eci,width)
+    // the parameters are:
+	sci:the start column index
+	eci:the end column index
+	width:the width for the column
+```
+
+-  Imposta la larghezza per tutte le colonne
+```javascript
+xs.sheet.data.setAllColsWidth(width)
+    // the parameters are:
+	width:the width for the columns
+```
+
 -  Ottieni la larghezza della colonna
 ```javascript
 xs.sheet.data.cols.sumWidth(min,max)
@@ -280,20 +297,38 @@ xs.sheet.data.setRowHeight(ri,height)
 	ri:row index
 	height:the height for the row
 ```
--  Ottieni l'altezza per la riga
+-  Imposta l'altezza delle righe
+```javascript
+xs.sheet.data.setRowsHeight(sri,eri,height)
+    // the parameters are:
+	sri:start row index
+	eri:end row index
+	height:the height for the rows
+```
+
+- Imposta l'altezza per tutte le righe
+```javascript
+xs.sheet.data.setAllRowsHeight(height)
+    // the parameters are:
+	height:the height for the rows
+```
+
+
+-  Ottieni l'altezza della riga
 ```javascript
 xs.sheet.data.rows.sumHeight(min,max)
     // the parameters are:
 	min:the start row index
 	max:the end row index,not include
 ```
--  Ottieni/Imposta la direzione del display
+
+-  Ottieni/imposta la direzione di visualizzazione
 ```javascript
 xs.sheet.data.displayRight2Left
 ```
 
-##  richiamo dell'evento
--  possiamo tenere traccia degli eventi di seguito
+##  richiamata dell'evento
+-  possiamo tenere traccia degli eventi seguenti
 ```javascript
  xs.on('cell-selected', (cell, ri, ci) => {
                 console.log('cell selected:', cell, ', ri:', ri, ', ci:', ci);
@@ -309,6 +344,8 @@ xs.sheet.data.displayRight2Left
                 console.log('shape or image selected id:', shapeOrImageObj.id, ', type: ', shapeOrImageObj.type);
             }).on('sheet-selected', (id,name) => {
                 console.log('sheet selected id:', id, ', name: ',name);
+            }).on('sheet-loaded', (id,name) => {
+                console.log('sheet load finished:', id, ', name: ',name);
             }).on('cell-edited', (text, ri, ci) => {
                 console.log('text:', text, ', ri: ', ri, ', ci:', ci);
             });
@@ -316,7 +353,7 @@ xs.sheet.data.displayRight2Left
 
 ##  personalizzazione
 
--  impostare l'icona e il collegamento a casa
+-  imposta l'icona e il collegamento home
 ```javascript
 xs.sheet.menubar.icon.setHomeIcon(iconUrl,targetUrl)
     // the parameters are:
@@ -325,7 +362,7 @@ xs.sheet.menubar.icon.setHomeIcon(iconUrl,targetUrl)
 	for example ,the below code will set the new logo and with link to google.com
 	xs.sheet.menubar.icon.setHomeIcon('https://forum.aspose.com/letter_avatar_proxy/v4/letter/y/3e96dc/45.png','https://www.google.com')
 ```
--  mostra la barra dei menu
+-  mostrare la barra dei menu
 ```javascript
 xs.sheet.menubar.show()
 ```

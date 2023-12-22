@@ -1,78 +1,80 @@
-﻿---
-title: احتواء تلقائي للصفوف والأعمدة
+---
+title: الاحتواء التلقائي للصفوف والأعمدة
 type: docs
 weight: 20
 url: /ar/net/autofit-rows-and-columns/
+description: توضح هذه المقالة كيفية الاحتواء التلقائي للصفوف والأعمدة وصفوف الخلايا المدمجة والصف في نطاق من الخلايا بواسطة Aspose.Cells for .NET API.
+keywords: Autofit rows, autofit columns, autofit row in a range of cells, autofit rows of merged cells
 ---
 {{% alert color="primary" %}}
 
-Microsoft يسمح Excel للمستخدمين تلقائيًا بتغيير حجم عرض الخلايا وارتفاعها وفقًا لمحتواها. تتوفر هذه الميزة أيضًا من خلال Aspose.Cells بحيث يمكن للمطورين تغيير حجم أبعاد الخلية تلقائيًا في وقت التشغيل.
+Microsoft يتيح Excel للمستخدمين ضبط حجم عرض وارتفاع الخلايا تلقائيًا وفقًا لمحتواها. تتوفر هذه الميزة أيضًا من خلال Aspose.Cells حتى يتمكن المطورون من تغيير حجم أبعاد الخلية تلقائيًا في وقت التشغيل.
 
 {{% /alert %}}
 
-## **تركيب تلقائي**
+##  **تركيب السيارات**
 
-يوفر Aspose.Cells أ[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook)فئة تمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook)فئة تحتوي على[**أوراق عمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)مجموعة تسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي. ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) توفر class مجموعة واسعة من الخصائص والأساليب لإدارة ورقة العمل. تبحث هذه المقالة في استخدام[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)فئة للاحتواء التلقائي للصفوف أو الأعمدة.
+Aspose.Cells يوفر أ[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook)فئة تمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook)يحتوي الفصل على أ[**أوراق عمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)مجموعة تسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) فصل. ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) يوفر class نطاقًا واسعًا من الخصائص والأساليب لإدارة ورقة العمل. تتناول هذه المقالة استخدام[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)فئة لضبط الصفوف أو الأعمدة تلقائيًا.
 
-### **صف الاحتواء التلقائي - بسيط**
+###  **صف الاحتواء التلقائي - بسيط**
 
- تتمثل الطريقة الأكثر مباشرة في تغيير حجم عرض الصف وارتفاعه تلقائيًا في استدعاء[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي[**AutoFitRow**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrow/index) طريقة. ال[**AutoFitRow**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrow/index)تأخذ الطريقة فهرس الصف (للصف الذي سيتم تغيير حجمه) كمعامل.
+ الطريقة الأكثر مباشرة لتحديد الحجم التلقائي لعرض الصف وارتفاعه هي استدعاء[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) فصل[**AutoFitRow**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrow/index) طريقة. ال[**AutoFitRow**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrow/index)تأخذ الطريقة فهرس الصف (الصف المراد تغيير حجمه) كمعلمة.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-AutofitRowsandColumns-1.cs" >}}
 
-### **صف الاحتواء التلقائي في نطاق Cells**
+###  **كيفية الاحتواء التلقائي للصف في نطاق Cells**
 
- يتكون الصف من عدة أعمدة. يسمح Aspose.Cells للمطورين بملاءمة صف تلقائيًا استنادًا إلى المحتوى في نطاق من الخلايا داخل الصف عن طريق استدعاء نسخة محملة بشكل زائد من[**AutoFitRow**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitrow/methods/1)طريقة. يأخذ المعلمات التالية:
+ يتكون الصف من عدة أعمدة. Aspose.Cells يسمح للمطورين باحتواء الصف تلقائيًا استنادًا إلى المحتوى الموجود في نطاق من الخلايا داخل الصف عن طريق استدعاء إصدار محمّل بشكل زائد من[**AutoFitRow**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitrow/methods/1)طريقة. يستغرق المعلمات التالية:
 
-- **فهرس الصف**، فهرس الصف الذي سيتم تركيبه تلقائيًا.
-- **فهرس العمود الأول**، فهرس العمود الأول للصف.
-- **فهرس العمود الأخير**، فهرس العمود الأخير للصف.
+- *فهرس الصف**، فهرس الصف الذي سيتم تركيبه تلقائيًا.
+- *فهرس العمود الأول**، فهرس العمود الأول من الصف.
+- *فهرس العمود الأخير**، فهرس العمود الأخير في الصف.
 
- ال[**AutoFitRow**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitrow/methods/1)يتحقق الأسلوب من محتويات جميع الأعمدة في الصف ثم يقوم تلقائيًا بملاءمة الصف.
+ ال[**AutoFitRow**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitrow/methods/1)تتحقق الطريقة من محتويات كافة الأعمدة الموجودة في الصف ثم تقوم باحتواء الصف تلقائيًا.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-AutofitRowinSpecificRange-1.cs" >}}
 
-### **عمود الاحتواء التلقائي في نطاق Cells**
+###  **كيفية الاحتواء التلقائي للعمود في نطاق Cells**
 
- يتكون العمود من عدة صفوف. من الممكن أن يتم احتواء عمود تلقائيًا استنادًا إلى المحتوى الموجود في نطاق من الخلايا في العمود عن طريق استدعاء نسخة محملة بشكل زائد من[**AutoFitColumn**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1)الطريقة التي تأخذ المعلمات التالية:
+ يتكون العمود من عدة صفوف من الممكن احتواء عمود تلقائيًا استنادًا إلى المحتوى الموجود في نطاق من الخلايا في العمود عن طريق استدعاء إصدار محمّل بشكل زائد من[**AutoFitColumn**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1)الطريقة التي تأخذ المعلمات التالية:
 
-- **فهرس العمود**، فهرس العمود الذي على وشك أن يتم تركيبه تلقائيًا.
-- **فهرس الصف الأول**، فهرس الصف الأول للعمود.
-- **فهرس الصف الأخير**، فهرس الصف الأخير للعمود.
+- *فهرس العمود**، فهرس العمود الذي سيتم تركيبه تلقائيًا.
+- *فهرس الصف الأول**، فهرس الصف الأول من العمود.
+- *فهرس الصف الأخير**، فهرس الصف الأخير من العمود.
 
- ال[**AutoFitColumn**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1)يتحقق الأسلوب من محتويات جميع الصفوف في العمود ثم يقوم تلقائيًا بملاءمة العمود.
+ ال[**AutoFitColumn**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1)تتحقق الطريقة من محتويات جميع الصفوف في العمود ثم تقوم باحتواء العمود تلقائيًا.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-AutofitColumninSpecificRange-1.cs" >}}
 
-### **صفوف AutoFit للدمج Cells**
+###  **كيفية الاحتواء التلقائي للصفوف المدمجة Cells**
 
- مع Aspose.Cells ، من الممكن احتواء الصفوف تلقائيًا حتى للخلايا التي تم دمجها باستخدام[**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions) API. [**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)فئة تقدم[**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions/properties/autofitmergedcellstype) الخاصية التي يمكن استخدامها للاحتواء التلقائي للصفوف للخلايا المدمجة.[**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions/properties/autofitmergedcellstype)يقبل[**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitmergedcellstype) معدود يضم الأعضاء التالية أسماؤهم.
+ باستخدام Aspose.Cells، من الممكن ضبط الصفوف تلقائيًا حتى بالنسبة للخلايا التي تم دمجها باستخدام[**خيارات AutoFitter**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions) API. [**خيارات AutoFitter**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)يوفر الفصل[**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions/properties/autofitmergedcellstype) الخاصية التي يمكن استخدامها لضبط الصفوف تلقائيًا للخلايا المدمجة.[**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions/properties/autofitmergedcellstype)يقبل[**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitmergedcellstype) enumerable الذي يحتوي على الأعضاء التاليين.
 
-- بلا: تجاهل الخلايا المدمجة.
-- FirstLine: يوسع ارتفاع الصف الأول فقط.
-- LastLine: يوسع ارتفاع الصف الأخير فقط.
-- EveryLine: يوسع فقط ارتفاع كل صف.
+- لا شيء: تجاهل الخلايا المدمجة.
+- FirstLine: يقوم بتوسيع ارتفاع الصف الأول فقط.
+- LastLine: يقوم بتوسيع ارتفاع الصف الأخير فقط.
+- EachLine: يقوم فقط بتوسيع ارتفاع كل صف.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-AutofitRowsforMergedCells-1.cs" >}}
 
 {{% alert color="primary" %}}
 
- يمكنك أيضًا محاولة استخدام الإصدارات المحملة بشكل زائد من[**AutoFitRows**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrows) & [**الأعمدة التلقائية**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitcolumns) الطرق التي تقبل نطاقًا من الصفوف / الأعمدة ومثيلًا لـ[**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions) لملاءمة الصفوف / الأعمدة المحددة تلقائيًا مع ما تريده[**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)وفقاً لذلك.
+ يمكنك أيضًا محاولة استخدام الإصدارات المحملة بشكل زائد من[**AutoFitRows**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrows) & [**AutoFitColumns**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitcolumns) الأساليب التي تقبل نطاقًا من الصفوف/الأعمدة ومثيلًا لها[**خيارات AutoFitter**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions) لملاءمة الصفوف/الأعمدة المحددة تلقائيًا مع ما تريد[**خيارات AutoFitter**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)وفقاً لذلك.
 
-تواقيع الطرق المذكورة هي كما يلي:
+التوقيعات على الطرق المذكورة هي كما يلي:
 
-1.  AutoFitRows (int startRow، int endRow،[**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)والخيارات)
-1. AutoFitColumns (int firstColumn ، int lastColumn ،[**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)والخيارات)
+1.  AutoFitRows(int startRow، int endRow،[**خيارات AutoFitter**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)خيارات)
+1.  AutoFitColumns (int firstColumn، int lastColumn،[**خيارات AutoFitter**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)خيارات)
 
 {{% /alert %}}
 
-## **من المهم أن تعرف**
+##  **من المهم أن تعرف**
 
 {{% alert color="primary" %}}
 
- إذا تم دمج خلية ، فلن يتم تطبيق أساليب الاحتواء التلقائي ، وهو نفس السلوك كما في Microsoft Excel. يمكنك التغلب على هذا باستخدام المرشح التلقائي API. علاوة على ذلك ، إذا تم التفاف النص في الخلية ،[**AutoFitColumn**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1) لن يتم تطبيق الطريقة أيضًا. شيء آخر تحتاج إلى معرفته هو أن ملف*احتواء تلقائي*الأساليب تستغرق وقتًا طويلاً. لذلك ، يجب أن تسمي هذه الطرق نادرًا ما يكون ذلك ممكنًا لضمان كفاءة تطبيقك.
+إذا تم دمج خلية، فلن يتم تطبيق أساليب الاحتواء التلقائي، وهو نفس السلوك كما في Microsoft Excel. يمكنك التغلب على ذلك باستخدام الفلتر التلقائي API. علاوة على ذلك، إذا كان النص الموجود في الخلية ملتفًا، فإن[**AutoFitColumn**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1) ولن يتم تطبيق الطريقة أيضًا. شيء آخر تحتاج إلى معرفته هو أن*احتواء تلقائي*الأساليب تستغرق وقتًا طويلاً. لذا، يجب عليك استدعاء هذه الأساليب نادرًا قدر الإمكان لضمان كفاءة تطبيقك.
 
 {{% /alert %}}
 
-## **موضوعات مسبقة**
-- [صفوف AutoFit للدمج Cells](/cells/ar/net/autofit-rows-for-merged-cells/)
+##  **مواضيع متقدمة**
+- [صفوف الاحتواء التلقائي للدمج Cells](/cells/ar/net/autofit-rows-for-merged-cells/)

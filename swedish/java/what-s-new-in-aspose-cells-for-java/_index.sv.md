@@ -7,6 +7,45 @@ url: /sv/java/what-s-new-in-aspose-cells-for-java/
 ---
 Den här sidan beskriver de mest intressanta nya Aspose.Cells-funktionerna som introducerats i de senaste utgåvorna.
 
+##  Aspose.Cells for Java 23.12
+
+* Stöd för PDF/A-2 och PDF/A-3 överensstämmelse vid konvertering till pdf
+* Stöd för beräkning av diskret gruppering av pivottabellen
+* Stöd för att exportera celldata till generisk lista
+* Stöd för att importera korsreferenser med hjälp av länkade tabeller för smarta markörer
+* Stöd MAKEARRAY funktion för formler
+
+##  Aspose.Cells for Java 23.11
+
+* Stöd för att konvertera kalkylblad till PDF filversion 1.7(ISO32000-1:2008)
+
+##  Aspose.Cells for Java 23.10
+
+* Stöd för att ställa in hyperlänkar direkt till en Range
+* Stöd för att kopiera flera kalkylblad samtidigt
+* Stöd för att kontrollera om ett område är tomt för celldata
+
+##  Aspose.Cells for Java 23.9
+
+* Stöd för att beräkna nya funktioner i formeln: LAMBDA,LET,MAP,SCAN
+* Stöd för att importera/exportera EPUB-filer
+* Stöd för att filtrera diagramserier
+
+##  Aspose.Cells for Java 23.8
+
+* Stöd för att bevara stoppningsutrymme i formler
+* Stöd för att ersätta/infoga text med formatering för riktext av cellen
+
+##  Aspose.Cells for Java 23.7
+
+* Förbättrad detektering av filformat för vissa nya format som visio-fil, OneNote-paketfil.
+
+##  Aspose.Cells for Java 23.6
+
+* Stöd för att exportera och markera revisionsloggar
+* Stöd för att korsa befintliga radobjekt från RowCollection i omvänd ordning
+* Stöd för att uppdatera flera konsolideringsintervall av vridbara
+
 ##  Aspose.Cells for Java 23.5
 
 * Stöd för att uppdatera externa referenser av externa arkdata till det lokala arket i aktuell arbetsbok

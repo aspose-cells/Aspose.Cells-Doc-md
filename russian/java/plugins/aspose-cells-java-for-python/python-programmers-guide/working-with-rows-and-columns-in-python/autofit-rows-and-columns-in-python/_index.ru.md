@@ -1,14 +1,16 @@
-﻿---
+---
 title: Автоподбор строк и столбцов в Python
 type: docs
 weight: 20
 url: /ru/java/autofit-rows-and-columns-in-python/
+description: Узнайте, как автоматически подогнать строки и столбцы с помощью Aspose.Cells for Python через Java API.
+keywords: How to Autofit Rows and Columns in Python Via Java, Autofit Rows Data in workbook using Python Via Java, Python Via Java Autofit Columns Data. 
 ---
-## **Aspose.Cells - Автоподбор строк и столбцов**
-### **Автоподбор строки**
+##  **Как автоматически подогнать строки и столбцы**
+###  **Как автоподбор строки**
 Самый простой подход к автоматическому изменению ширины и высоты строки — вызвать метод autoFitRow класса Worksheet. Метод autoFitRow принимает в качестве параметра индекс строки (строки, размер которой нужно изменить).
 
-**Python Код**
+**Код Python**
 
 {{< highlight "python" >}}
 
@@ -39,10 +41,10 @@ workbook.save(self.dataDir + "Autofit Row.xls")
 print "Autofit Row Successfully." 
 
 {{< /highlight >}}
-### **Автоподбор столбца**
-Самый простой способ автоматически изменить ширину и высоту столбца — вызвать метод autoFitColumn класса Worksheet. Метод autoFitColumn принимает в качестве параметра индекс столбца (столбца, размер которого должен быть изменен).
+###  **Как автоматически подогнать столбец**
+Самый простой способ автоматически настроить ширину и высоту столбца — вызвать метод autoFitColumn класса Worksheet. Метод autoFitColumn принимает индекс столбца (столбца, размер которого будет изменен) в качестве параметра.
 
-**Python Код**
+**Код Python**
 
 {{< highlight "python" >}}
 
@@ -73,7 +75,7 @@ workbook.save(self.dataDir + "Autofit Column.xls")
 print "Autofit Column Successfully." 
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Автоподбор строк и столбцов (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+##  **Загрузить рабочий код**
+Скачать**Автоподбор строк и столбцов (Aspose.Cells)**с любого из перечисленных ниже сайтов социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

@@ -32,6 +32,7 @@ Aspose.Cells' Formelberäkningsmotorn låter dig ställa in, läsa och beräkna 
 |AGGREGATE|
 |AMORDEGRC|
 |AMORLINC|
+|ANCHORARRAY|
 |AND|
 |AREAS|
 |ASC|
@@ -158,6 +159,7 @@ Aspose.Cells' Formelberäkningsmotorn låter dig ställa in, läsa och beräkna 
 | :- | :- |
 |EDATE|
 |EFFECT|
+|ENCODEURL|
 |EOMONTH|
 |ERF|
 |ERFC|
@@ -256,6 +258,7 @@ Aspose.Cells' Formelberäkningsmotorn låter dig ställa in, läsa och beräkna 
 |ISERR|
 |ISERROR|
 |ISEVEN|
+|ISFORMULA|
 |ISLOGICAL|
 |ISNA|
 |ISNONTEXT|
@@ -274,12 +277,14 @@ Aspose.Cells' Formelberäkningsmotorn låter dig ställa in, läsa och beräkna 
 ######  *L**
 |**Fungera**|**Sammanfattning**|
 | :- | :- |
+|LAMBDA|
 |LARGE|
 |LCM|
 |LEFT|
 |LEFTB|
 |LEN|
 |LENB|
+|LET|
 |LINEST|
 |LN|
 |LOG|
@@ -295,6 +300,8 @@ Aspose.Cells' Formelberäkningsmotorn låter dig ställa in, läsa och beräkna 
 ######  *M**
 |**Fungera**|**Sammanfattning**|
 | :- | :- |
+|MAKEARRAY|
+|MAP|
 |MATCH|
 |MAX|
 |MAXA|
@@ -418,6 +425,7 @@ Aspose.Cells' Formelberäkningsmotorn låter dig ställa in, läsa och beräkna 
 ######  *S**
 |**Fungera**|**Sammanfattning**|
 | :- | :- |
+|SCAN|
 |SEARCH|
 |SEARCHB|
 |SECOND|
@@ -428,6 +436,7 @@ Aspose.Cells' Formelberäkningsmotorn låter dig ställa in, läsa och beräkna 
 |SIGN|
 |SIN|
 |SINH|
+|SINGLE|
 |SKEW|
 |SLN|
 |SLOPE|
@@ -493,6 +502,7 @@ Aspose.Cells' Formelberäkningsmotorn låter dig ställa in, läsa och beräkna 
 |UNICODE|
 |UNIQUE|
 |UPPER|
+|USDOLLAR|
 
 ######  *V**
 |**Fungera**|**Sammanfattning**|

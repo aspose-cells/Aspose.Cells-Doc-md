@@ -1,8 +1,10 @@
-﻿---
+---
 title: Ta reda på om cellvärdet börjar med ett citattecken
 type: docs
 weight: 270
 url: /sv/net/find-if-the-cell-value-starts-with-single-quote-mark/
+description: Lär dig hur du hittar om cellvärdet börjar med ett enda citattecken genom Aspose.Cells for .NET API.
+keywords: Find cell value starts with a single quote mark, Search cell value starts with a single quote mark
 ---
 {{% alert color="primary" %}}
 

@@ -1,10 +1,29 @@
-﻿---
+---
 title: Introduktion av GridWeb
 type: docs
 weight: 10
 url: /sv/java/introduction-of-gridweb/
 ---
-## **Hur man kör Aspose.Cells för GridWeb Java Demos**
+##  **Grunderna i GridWeb**
+ Aspose.Cells.GridWeb är en GUI-baserad webbkontroll som kan bäddas in i JSP-webbsidor eller vilken HTML-sida som helst i Java-servern.
+{{% alert color="primary" %}} 
+
+Det är lätt och enkelt att använda.
+
+Det hjälper dig att snabbt bygga webbredigerare online för kalkylarksfiler.
+
+Det stöder också import och export av alla typer av kalkylarksformatfiler som är 100% kompatibla med MS Excel-filen.
+
+##  **Aspose.Cells.GridWeb - Demos**
+{{% alert color="primary" %}} 
+
+För att du ska komma igång snabbt tillhandahåller vi ett antal kodexempel och demos som visar hur du använder Aspose.Cells.GridWeb API.
+
+Ladda ner demos från länken nedan:
+[Aspose.Cells.GridWeb Demos](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb)
+
+
+##  **Hur man kör Aspose.Cells för GridWeb Java Demos**
 {{% alert color="primary" %}} 
 
  Aspose.Cells för GridWeb Java demos är lätta att köra. Du behöver bara distribuera**gridwebdemo.war** i din webbserver. Ladda ner demos från denna[länk](https://forum.aspose.com/uploads/discourse_instance3/22292).
@@ -12,7 +31,7 @@ url: /sv/java/introduction-of-gridweb/
 Den här artikeln beskriver hur du kör Aspose.Cells för GridWeb Java Demos i Apache Tomcat Server.
 
 {{% /alert %}} 
-### **Steg-för-steg-guide för att köra GridWeb Java Demos**
+###  **Steg-för-steg-guide för att köra GridWeb Java Demos**
 1.  Extrahera**apache-tomcat-7.0.52.zip** i vilken katalog som helst, t.ex. C:\Tomcat
 
 ![todo:image_alt_text](introduction-of-gridweb_1.png)
@@ -29,7 +48,7 @@ Den här artikeln beskriver hur du kör Aspose.Cells för GridWeb Java Demos i A
 
 ![todo:image_alt_text](introduction-of-gridweb_3.png)
 
-1. Öppna**tomcat-users.xml** fil.
+1.  Öppna**tomcat-users.xml** fil.
 
 ![todo:image_alt_text](introduction-of-gridweb_4.png)
 
@@ -60,7 +79,7 @@ Den här artikeln beskriver hur du kör Aspose.Cells för GridWeb Java Demos i A
 
 ![todo:image_alt_text](introduction-of-gridweb_7.png)
 
-1.  Öppna nu webbläsaren och skriv**lokal värd: 8080**.
+1. Öppna nu webbläsaren och skriv *localhost:8080**.
  Webbsidan för Apache Tomcat visas.
 
    **Apache Tomcat webbsida** 
@@ -72,15 +91,15 @@ Den här artikeln beskriver hur du kör Aspose.Cells för GridWeb Java Demos i A
 ![todo:image_alt_text](introduction-of-gridweb_9.png)
 
 1.  Scrolla ner till avsnittet**WAR-fil att distribuera** och bläddra i**gridwebdemo.war** fil.
-1.  Klick**Distribuera**. 
+1.  Klicka på *Distribuera**.
 
 ![todo:image_alt_text](introduction-of-gridweb_10.png)
 
-1.  Bläddra**gridwebdemo.war** fil.
+1. Bläddra**gridwebdemo.war** fil.
 
 ![todo:image_alt_text](introduction-of-gridweb_11.png)
 
-1.  Klick**Distribuera**. 
+1.  Klicka på *Distribuera**.
 
 ![todo:image_alt_text](introduction-of-gridweb_12.png)
 
@@ -112,22 +131,16 @@ Den här artikeln beskriver hur du kör Aspose.Cells för GridWeb Java Demos i A
 **HeaderBar och CommandButton-demo körs** 
 
 ![todo:image_alt_text](introduction-of-gridweb_17.png)
-## **Aspose.Cells.GridWeb - Demos**
-{{% alert color="primary" %}} 
 
-För att du ska komma igång snabbt tillhandahåller vi ett antal kodexempel och demos som visar hur du använder Aspose.Cells.GridWeb API.
-
-Ladda ner demos från länken nedan:
-[Aspose.Cells.GridWeb Demos](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb)
 
 {{% /alert %}} 
-## **Webbläsarfunktioner och Aspose.Cells.GridWeb**
+##  **Webbläsarfunktioner och Aspose.Cells.GridWeb**
 Aspose.Cells.GridWeb är en GUI-baserad webbkontroll som kan bäddas in i JSP-webbsidor som andra webbkontroller. Det viktigaste med webbkontroll är att tillhandahålla stöd över webbläsare. Aspose.Cells.GridWeb tillhandahåller stöd för flera webbläsare.
-### **Jämförelse**
+###  **Jämförelse**
 Aspose.Cells.GridWeb stöds fullt ut på Microsoft:s Internet Explorer (IE). På andra webbläsare har den dock mindre begränsningar. Det här avsnittet ger en detaljerad jämförelse av vilka funktioner som stöds av olika webbläsare.
 
 |**Funktioner på klientsidan**|**Microsoft Internet Explorer**|**Google Chrome**|**Mozilla Firefox**|**Opera**|
-|:- |:- |:- |:- |:- |
+| :- | :- | :- | :- | :- |
 |Snabbmeny för Cell|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
 |Validering på klientsidan|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Dubbelklicka på händelse|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

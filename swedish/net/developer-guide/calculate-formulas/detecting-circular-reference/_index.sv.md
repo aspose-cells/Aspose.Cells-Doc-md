@@ -1,14 +1,16 @@
-﻿---
+---
 title: Detekterar cirkulär referens
+description: Den här artikeln introducerar hur du använder Aspose.Cells-biblioteket för att upptäcka cirkulära referenser i Microsoft Excel. Genom att ladda en befintlig Excel-fil eller skapa en ny kan vi använda metoden som tillhandahålls av Aspose.Cells för att upptäcka cirkulära referenser och få resultaten. Slutligen sparar vi den modifierade Excel-filen på disken.
+keywords: Aspose.Cells, Excel, circular references, detection
 type: docs
 weight: 70
 url: /sv/net/detecting-circular-reference/
 ---
-## **Introduktion**
+##  **Introduktion**
 
 Arbetsböcker kan ha cirkulära referenser och ibland finns det ett behov av att upptäcka om cirkulära referenser finns där eller inte.
 
-## **Konceptet bakom att detektera den cirkulära referensen**
+##  **Konceptet bakom att detektera den cirkulära referensen**
 
 Cirkulära referenser kan bara upptäckas när formeln beräknas eftersom referenserna för en formel vanligtvis beror på det beräknade resultatet av andra delar eller andra formler. Så vi tillhandahåller nya API:er för detta krav (för att samla celler med cirkulära referenser) i processen för formelberäkning:
 

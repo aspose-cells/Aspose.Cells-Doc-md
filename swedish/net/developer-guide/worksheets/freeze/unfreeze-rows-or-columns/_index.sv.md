@@ -10,7 +10,7 @@ keywords: Unfreeze panes, Unfreeze rows, Unfreeze columns, unFreeze window.
 {{% alert color="primary" %}}
 
 I den här artikeln kommer vi att lära oss hur man låser upp rader, kolumner och rutor.
-Om kalkylblad i Excel-filer är frysta vill vi ibland frysa upp dem eller justera frysta rader, kolumner eller rutor.
+Om kalkylblad i Excel-filer är frysta, ibland vill vi frysa kalkylblad eller justera frysta rader, kolumner eller rutor.
 
 {{% /alert %}}
 

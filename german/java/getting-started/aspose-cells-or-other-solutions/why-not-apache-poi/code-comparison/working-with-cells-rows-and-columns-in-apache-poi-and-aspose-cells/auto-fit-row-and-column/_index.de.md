@@ -1,11 +1,13 @@
-﻿---
+---
 title: Zeile und Spalte automatisch anpassen
 type: docs
 weight: 10
 url: /de/java/auto-fit-row-and-column/
+description: Erfahren Sie, wie Sie Zeilen und Spalten mithilfe von Aspose.Cells for Java API automatisch anpassen.
+keywords: How to Autofit Row and Column in Java, Autofit Row Data in workbook using Java, Java Autofit Column Data. 
 ---
-## **Aspose.Cells – Zeile und Spalte automatisch anpassen**
-Der einfachste Ansatz zum automatischen Anpassen der Breite und Höhe einer Zeile besteht darin, die Worksheet.autoFitRow-Methode aufzurufen. Die autoFitRow-Methode nimmt einen Zeilenindex (der Zeile, deren Größe geändert werden soll) als Parameter.
+##  **So passen Sie Zeilen und Spalten automatisch mit Aspose.Cells for Java an**
+Der einfachste Ansatz zum automatischen Anpassen der Breite und Höhe einer Zeile ist der Aufruf der Worksheet.autoFitRow-Methode. Die autoFitRow-Methode verwendet einen Zeilenindex (der Zeile, deren Größe geändert werden soll) als Parameter.
 
 **Bitte beachten Sie:**Wenn Sie Zeilen und Spalten in Excel-Tabellen mit Java automatisch anpassen möchten, besuchen Sie bitte[Zeilen und Spalten automatisch anpassen](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
 
@@ -29,8 +31,8 @@ workbook.save("AutoFit_Aspose.xls");
 
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Zeile und Spalte automatisch anpassen**
-Apache POI SS - HSSF und XSSF stellt Sheet.autoSizeColumn bereit, um Spalten automatisch anzupassen
+##  **Apache POI SS – HSSF XSSF – Automatische Anpassung von Zeile und Spalte**
+Apache POI SS – HSSF und XSSF bietet Sheet.autoSizeColumn zum automatischen Anpassen von Spalten
 
 **Java**
 
@@ -55,7 +57,7 @@ workbook.write(fileOut);
 fileOut.close();
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
+##  **Laden Sie Running Code herunter**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Beispielcode herunterladen**
+##  **Beispielcode herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/autofitrowandcolumn)

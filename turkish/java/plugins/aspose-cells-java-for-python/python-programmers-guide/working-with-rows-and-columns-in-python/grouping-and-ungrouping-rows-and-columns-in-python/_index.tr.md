@@ -1,18 +1,20 @@
-﻿---
-title: Python'de Satırları ve Sütunları Gruplandırma ve Grubu Çözme
+---
+title: Python'de Satırları ve Sütunları Gruplama ve Grubu Çözme
 type: docs
 weight: 40
 url: /tr/java/grouping-and-ungrouping-rows-and-columns-in-python/
+description: Aspose.Cells for Python Via Java API aracılığıyla Satırları ve Sütunları nasıl gruplandıracağınızı ve gruplarını çözeceğinizi öğrenin.
+keywords: How to Group and Ungroup Rows and Columns in Python Via Java, Group Rows and Columns using Python Via Java, Python Via Java Ungroup Rows and Columns. 
 ---
-## **Aspose.Cells - Satırlar ve Sütunların Grup Yönetimi**
-### **Satırları ve Sütunları Gruplama**
-Cells koleksiyonunun groupRows ve groupColumns yöntemlerini çağırarak satırları veya sütunları gruplamak mümkündür. Her iki yöntem de aşağıdaki parametreleri alır:
+##  **Aspose.Cells for Python via Java'de Satır ve Sütunların Grup ve Gruplandırma Yönetimi**
+###  **Python'de Satırları ve Sütunları Gruplandırma**
+Cells koleksiyonunun groupRows ve groupColumns yöntemlerini çağırarak satırları veya sütunları gruplandırmak mümkündür. Her iki yöntem de aşağıdaki parametreleri alır:
 
 - İlk satır/sütun dizini, gruptaki ilk satır veya sütun.
 - Son satır/sütun dizini, gruptaki son satır veya sütun.
-- Gizlidir, gruplamadan sonra satırların/sütunların gizlenip gizlenmeyeceğini belirten bir Boolean parametresidir.
+- Gizlidir, gruplandırma sonrasında satırların/sütunların gizlenip gizlenmeyeceğini belirten bir Boolean parametresidir.
 
-**Python Kod**
+**Python Kodu**
 
 {{< highlight "python" >}}
 
@@ -43,13 +45,13 @@ workbook.save(self.dataDir + "Group Rows And Columns.xls")
 print "Group Rows And Columns Successfully." 
 
 {{< /highlight >}}
-### **Satırları ve Sütunları Çözme**
+###  **Python'i kullanarak Satırların ve Sütunların Grubunu Çözme**
 Cells koleksiyonunun UngroupRows ve UngroupColumns yöntemlerini çağırarak gruplandırılmış satırların veya sütunların grubunu çözün. Her iki yöntem de aynı parametreleri alır:
 
-- İlk satır veya sütun dizini, grubu çözülecek ilk satır/sütun.
+- İlk satır veya sütun dizini, gruplandırılacak ilk satır/sütun.
 - Son satır veya sütun dizini, grubu çözülecek son satır/sütun.
 
-**Python Kod**
+**Python Kodu**
 
 {{< highlight "python" >}}
 
@@ -80,7 +82,7 @@ workbook.save(self.dataDir + "Ungroup Rows And Columns.xls")
 print "Ungroup Rows And Columns Successfully." 
 
 {{< /highlight >}}
-## **Çalışan Kodu İndir**
- İndirmek**Satırları ve Sütunları Gruplandırma ve Grubu Çözme (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+##  **Çalışan Kodu İndir**
+ İndirmek**Satırları ve Sütunları Gruplama ve Grubu Çözme (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

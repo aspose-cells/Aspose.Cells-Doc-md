@@ -1,20 +1,22 @@
-﻿---
+---
 title: إرجاع نطاق من القيم باستخدام AbstractCalculationEngine
+description: تقدم هذه المقالة محرك حساب تجريدي يقوم بإرجاع نطاق من القيم في Microsoft Excel باستخدام مكتبة Aspose.Cells. عن طريق تحميل ملف Excel موجود أو إنشاء ملف Excel جديد، يمكننا استخدام الطرق التي يوفرها Aspose.Cells للحصول على نطاق من القيم وإرجاع النتيجة. وأخيرًا، نقوم بحفظ ملف Excel المعدل على القرص.
+keywords: Aspose.Cells, Excel, an abstract calculation engine that returns a series of values
 type: docs
 weight: 55
 url: /ar/net/returning-a-range-of-values-using-abstractcalculationengine/
 ---
 {{% alert color="primary" %}}
 
- يوفر Aspose.Cells[**الخلاصةحساب المحرك**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine) فئة تُستخدم لتنفيذ وظائف معرّفة من قبل المستخدم أو وظائف مخصصة لا يدعمها Microsoft Excel كوظائف مضمنة.
+ Aspose.Cells يوفر[**AbstractCalculationEngine**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine) فئة تُستخدم لتنفيذ الوظائف المحددة من قبل المستخدم أو المخصصة التي لا يدعمها Microsoft Excel كوظائف مضمنة.
 
- تشرح هذه المقالة كيفية إرجاع نطاق القيم من[**الخلاصةحساب المحرك**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine).
+ تشرح هذه المقالة كيفية إرجاع نطاق القيم من[**AbstractCalculationEngine**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine).
 
 {{% /alert %}}
 
- يوضح الكود التالي استخدام امتداد[**الخلاصةحساب المحرك**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine) class وإرجاع نطاق القيم عبر طريقتها.
+ الكود التالي يوضح استخدام[**AbstractCalculationEngine**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine) class وإرجاع نطاق القيم عبر طريقته.
 
- إنشاء فئة مع وظيفة*احسبدالة مخصصة*. هذه الفئة تنفذ[**الخلاصةحساب المحرك**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine).
+قم بإنشاء فئة باستخدام دالة *CalculateCustomFunction*. تنفذ هذه الفئة[**AbstractCalculationEngine**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-ReturnRangeOfValuesUsingAbstractCalculationEngine-CustomFunctionStaticValue.cs" >}}
 

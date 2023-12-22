@@ -1,118 +1,129 @@
 ---
-title: Lavorare con la funzione Highlight di GridJ
+title: Lavorare con la funzione Evidenzia di GridJ
 type: docs
 weight: 250
 url: /it/net/aspose-cells-gridjs/highlight/
-description: Questo articolo descrive come utilizzare GridJs per evidenziare il testo della cella, gli intervalli di celle, le forme e le immagini.
-keywords: highlight, highlight spreadsheet
+description: Questo articolo descrive come utilizzare GridJs per evidenziare il testo delle celle, gli intervalli di celle, le forme e le immagini.
+keywords: highlight, highlight spreadsheet,redaction,remarks
 ---
-#  Lavorare con la funzione Highlight di GridJ
- Supportiamo le seguenti API JS per la funzione Highlight
+#  Lavorare con la funzione Evidenzia di GridJ
+ Supportiamo le seguenti API JS per la funzione Evidenzia
 
 
--  Abilita l'evidenziazione e imposta lo stile di evidenziazione, tutte le API di evidenziazione avranno effetto solo dopo aver impostato lo stile di evidenziazione
+-  Abilita evidenziazione e Imposta stile di evidenziazione, tutte le API di evidenziazione avranno effetto solo dopo aver impostato lo stile di evidenziazione nel foglio di lavoro attivo
 ```javascript
-xs.showHighlights(style)
+xs.sheet.showHighlights(style)
  // the parameter is:
  style: the style for highlight ,currently only support color
  for example: {'color':'rgba(85, 57, 47, 0.08)'}
 ```
 
--  Disabilita l'evidenziazione
+-  aggiorna lo stile di evidenziazione impostato nel foglio di lavoro attivo
 ```javascript
-xs.hideHighlights()
+xs.sheet.updateHighlightStyle(style)
+ // the parameter is:
+ style: the style for highlight ,currently only support color
+ for example: {'color':'rgba(85, 57, 47, 0.08)'}
 ```
--  Aggiungi il testo della cella da evidenziare
+
+
+-  Disabilita l'evidenziazione nel foglio di lavoro attivo
+```javascript
+xs.sheet.hideHighlights()
+```
+-  Aggiungi il testo della cella da evidenziare nel foglio di lavoro attivo
 ```javascript
 xs.sheet.addHighlightText(row,col,startpostion,endposition)
     // the parameters are:
-    row:row index 
+	row:row index 
 	col:column index
 	startpostion: highlight start postion in cell text 
 	endpostion: highlight end postion in cell text 
     //it support multiple range postion inside one cell
 ```
 
--  Rimuovi l'evidenziazione per il testo della cella nell'array
+-  Rimuovi l'evidenziazione per il testo della cella nell'array nel foglio di lavoro attivo
 ```javascript
-xs.sheet.removeHighlightText(row,col)
+xs.sheet.removeHighlightText(row,col,startpostion,endposition)
     // the parameters are:
-    row:row index 
+	row:row index 
 	col:column index
+	startpostion: highlight start postion in cell text 
+	endpostion: highlight end postion in cell text 
 ```
 
--  Ottieni matrice per l'evidenziazione per il testo della cella
+- Ottieni l'array per l'evidenziazione del testo della cella nel foglio di lavoro attivo
 ```javascript
 xs.sheet.getHighlightTexts()
 ```
 
--  Aggiungi l'intervallo di celle da evidenziare
+-  Aggiungi l'intervallo di celle da evidenziare nel foglio di lavoro attivo
 ```javascript
 xs.sheet.addHighlightRange(sri,sci,eri,eci)
     // the parameters are:
-    sri:start row index of cell range
+	sri:start row index of cell range
 	sci:start column index of cell range
-	 eri:end row index of cell range
+	eri:end row index of cell range
 	eci:end column index of cell range
 ```
 
--  Rimuovi l'evidenziazione per l'intervallo di celle nell'array
+-  Rimuovi l'evidenziazione per l'intervallo di celle nella matrice nel foglio di lavoro attivo
 ```javascript
 xs.sheet.removeHighlightRange(sri,sci,eri,eci)
      // the parameters are:
-    sri:start row index of cell range
+	sri:start row index of cell range
 	sci:start column index of cell range
-	 eri:end row index of cell range
+	eri:end row index of cell range
 	eci:end column index of cell range
 ```
 
--  Ottieni l'array per l'evidenziazione dell'intervallo di celle
+-  Ottieni la matrice per l'evidenziazione dell'intervallo di celle nel foglio di lavoro attivo
 ```javascript
 xs.sheet.getHighlightRanges()
 ```
 
--  Imposta l'intervallo di celle sull'evidenziazione inversa
+-  Imposta l'intervallo di celle sull'evidenziazione inversa nel foglio di lavoro attivo
 ```javascript
 xs.sheet.setHighlightInverseRange(sri,sci,eri,eci)
     // the parameters are:
-    sri:start row index of cell range
+	sri:start row index of cell range
 	sci:start column index of cell range
-	 eri:end row index of cell range
+	eri:end row index of cell range
 	eci:end column index of cell range
 ```
 
--  Rimuovi l'evidenziazione per l'evidenziazione inversa
+-  Rimuovi l'evidenziazione per l'evidenziazione inversa nel foglio di lavoro attivo
 ```javascript
 xs.sheet.removeHighlightInverseRange()
      
 ```
 
--  Ottieni l'intervallo di celle di evidenziazione inverso
+-  Ottieni l'intervallo di celle di evidenziazione inversa nel foglio di lavoro attivo
 ```javascript
 xs.sheet.getHighlightInverseRange()
 ```
 
 
--  Aggiungi forma per evidenziare la matrice
+-  Aggiungi forma per evidenziare l'array nel foglio di lavoro attivo
 ```javascript
 xs.sheet.addHighlightShape(shapeid)
     // the parameters are:
     shapeid: the id of shape, can be find in xs.sheet.data.shapes
 ```
 
--  Rimuovi la forma di evidenziazione nell'array
+-  Rimuovi la forma evidenziata nella matrice nel foglio di lavoro attivo
 ```javascript
 xs.sheet.removeHighlightShape(shapeid)
      // the parameters are:
     shapeid: the id of shape, can be find in xs.sheet.data.shapes
 ```
 
--  Ottieni l'array per la forma evidenziata
+-  Ottieni l'array per la forma evidenziata nel foglio di lavoro attivo
 ```javascript
 xs.sheet.getHighlightShaps()
 ```
 
--  Aggiungi la casella di testo per evidenziare, la casella di testo è un tipo speciale di forma la cui proprietà di tipo è: "TextBox",
+-  Aggiungi la casella di testo per evidenziare, la casella di testo è un tipo speciale di forma la cui proprietà di tipo è: "TextBox", nel foglio di lavoro attivo
 ```javascript
 xs.sheet.addHighlightTextBox(shapeid, startpostion, endposition)
     // the parameters are:
@@ -123,7 +134,7 @@ xs.sheet.addHighlightTextBox(shapeid, startpostion, endposition)
 ```
 
 
-- Rimuovi l'intervallo di evidenziazione nella casella di testo, la casella di testo è un tipo speciale di forma la cui proprietà di tipo è: "TextBox",
+-  Rimuovi l'intervallo di evidenziazione nella casella di testo, la casella di testo è un tipo speciale di forma la cui proprietà di tipo è: "TextBox", nel foglio di lavoro attivo
 ```javascript
 xs.sheet.removeHighlightTextBox(shapeid, startpostion, endposition)
     // the parameters are:
@@ -133,14 +144,14 @@ xs.sheet.removeHighlightTextBox(shapeid, startpostion, endposition)
     //it support multiple range postion inside one textbox
 ```
 
--  Aggiungi un'immagine per evidenziare l'array
+-  Aggiungi un'immagine per evidenziare l'array nel foglio di lavoro attivo
 ```javascript
 xs.sheet.addHighlightImage(imageid)
     // the parameters are:
     imageid: the id of image, can be find in xs.sheet.data.images
 ```
 
--  Rimuovi l'immagine evidenziata nell'array
+- Rimuovi l'immagine evidenziata nell'array nel foglio di lavoro attivo
 ```javascript
 xs.sheet.removeHighlightImage(imageid)
      // the parameters are:
@@ -152,7 +163,7 @@ xs.sheet.removeHighlightImage(imageid)
 xs.sheet.getHighlightImages()
 ```
 
--  impostare se evidenziare tutto il foglio di lavoro, includere tutte le forme e le immagini
+-  imposta se evidenziare tutti gli oggetti nel foglio di lavoro attivo, includere tutte le forme e le immagini e tutta l'area del foglio di lavoro
 ```javascript
 xs.sheet.setHighlightAll(ishighlightall,isrerender=true)
    // the parameters are:
@@ -175,8 +186,14 @@ xs.sheet.setCustomHighlightImgFunc(func)
     
 ```
 
-###  Evidenzia per oggetto casella di testo
-la casella di testo è un tipo speciale di forma la cui proprietà di tipo è :"TextBox",
+-  cancellare l'impostazione di evidenziazione per il foglio di lavoro attivo
+```javascript
+xs.sheet.clearHighlights()
+
+```
+
+###  Evidenzia per l'oggetto casella di testo
+textbox è un tipo speciale di forma la cui proprietà di tipo è: "TextBox",
 ad esempio: il codice seguente mostrerà quale forma è la casella di testo
 
 ```javascript
@@ -186,7 +203,7 @@ for (let shape of xs.sheet.data.shapes) {
     }
 }
 ```
--  Aggiungi l'evidenziazione per l'oggetto casella di testo
+-  Aggiungi evidenziazione per l'oggetto casella di testo
 ```javascript
     addHighlight(startpostion,endposition)
     // the parameters are:
@@ -229,14 +246,14 @@ const textbox=xs.sheet.data.shapes[0];
      const textbox=xs.sheet.data.shapes[0];
      textbox.setBackgroundColor('#FFFF00');
 ```
--  Cambia automaticamente il colore di sfondo e il colore del testo per ottenere un effetto visivo attivo
+-  Cambia automaticamente il colore dello sfondo e il colore del testo per ottenere un effetto visivo attivo
 ```javascript
     setActiveEffect(boolvalue)
     // the parameters are:
         boolvalue: if true,will change background color and the text color of the textbox object;if false,restore to original appearence
 ```
 
--  nascondere/scoprire il contenuto del testo nell'oggetto casella di testo
+-  nascondere/mostrare il contenuto del testo nell'oggetto casella di testo
 ```javascript
     hideText(boolvalue)
     // the parameters are:
@@ -245,4 +262,4 @@ const textbox=xs.sheet.data.shapes[0];
 
 
 
-Puoi trovare di più nella nostra pagina demo github https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html
+Puoi trovare di più nella nostra pagina demo di Github https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html

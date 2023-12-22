@@ -1,5 +1,7 @@
 ---
 title: Konvertera diagram till bild för den kinesiska regionen
+description: Lär dig hur du använder Aspose.Cells for .NET ställer in kinesisk konfiguration för sjökort. Vår guide kommer att visa hur du konfigurerar diagram för att stödja kinesiska tecken och format, inklusive teckensnitt, storlekar, textanvisningar och mer.
+keywords: Aspose.Cells for .NET, Charts, Chinese Configuration, Fonts, Font Size, Text Direction, Support.
 linktitle: Ställ in kinesisk region
 type: docs
 weight: 9
@@ -14,7 +16,7 @@ I det här ämnet kommer vi att visa dig hur du ställer in kinesisk region för
 
 ##  **Definierar en arvsklass**
 
-Första steget måste du definiera en klass "ChartChineseSettings" som ärver från[**ChartGlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/). 
+ Första steget måste du definiera en klass "ChartChineseSettings" som ärver från[**ChartGlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/). 
 Sedan, genom att skriva om de relaterade funktionerna, kan du ställa in texten i diagramelementen på ditt eget språk.
 Kodexempel:
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "ChartChineseSetttings.cs" >}}

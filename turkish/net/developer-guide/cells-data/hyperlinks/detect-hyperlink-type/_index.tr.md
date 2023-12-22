@@ -1,27 +1,29 @@
-﻿---
+---
 title: Köprü Türünü Algıla
 type: docs
 weight: 160
 url: /tr/net/detect-hyperlink-type/
+description: Aspose.Cells for .NET API numaralı telefondan köprü türünü nasıl tespit edeceğinizi öğrenin.
+keywords: Detect hyperlink type, Detect the type of hyperlink, Get the type of hyperlink
 ---
-## **Köprü Türünü Algıla**
+##  **Köprü Türünü Algıla**
 
- Bir Excel dosyası, harici, hücre referansı, dosya yolu vb. gibi farklı köprü türlerine sahip olabilir. Aspose.Cells, köprü türünü algılama özelliğini destekler. Köprü türleri şu şekilde temsil edilir:[**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype)Numaralandırma. bu[**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype)Numaralandırma aşağıdaki üyelere sahiptir.
+ Bir Excel dosyasında harici, hücre referansı, dosya yolu vb. gibi farklı türde köprüler bulunabilir. Aspose.Cells, köprü türünü algılama özelliğini destekler. Köprü türleri aşağıdakilerle temsil edilir:[**HedefMod Türü**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype)Numaralandırma.[**HedefMod Türü**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype)Numaralandırmanın aşağıdaki üyeleri vardır.
 
 - Harici: Harici bağlantı
-- FilePath: Dosyaların\klasörlerin yerel ve tam yolu.
+- FilePath: Dosyaların/klasörlerin yerel ve tam yolu.
 - E-posta: E-posta
 - CellReference: Hücreye veya adlandırılmış aralığa bağlantı.
 
-Köprü tipini kontrol etmek için,[**köprü**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink) sınıf bir sağlar[**Bağlantı Türü**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype) dönüş türüne sahip özellik[**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype). Aşağıdaki kod parçacığı,[**Bağlantı Türü**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype)Bunu kullanarak mülkiyet[kaynak excel dosyası](94896195.xlsx).
+ Köprünün türünü kontrol etmek için,[**Köprü**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink) sınıf sağlar[**Bağlantı Türü**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype) dönüş türüne sahip özellik[**HedefMod Türü**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype). Aşağıdaki kod parçacığı kullanımını göstermektedir[**Bağlantı Türü**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype)bunu kullanarak mülk[kaynak excel dosyası](94896195.xlsx).
 
-### Kaynak kodu
+###  Kaynak kodu
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-DetectLinkTypes-1.cs" >}}
 
-Aşağıdaki, yukarıda verilen kod parçası tarafından üretilen çıktıdır.
+Yukarıda verilen kod parçacığının ürettiği çıktı aşağıdadır.
 
-### Konsol Çıkışı
+###  Konsol Çıkışı
 ```
 LinkTypes.xlsx: FilePath </br>
 C:\Windows\System32\cmd.exe: FilePath </br>

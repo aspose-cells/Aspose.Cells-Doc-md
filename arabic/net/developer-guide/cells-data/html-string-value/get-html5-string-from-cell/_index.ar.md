@@ -1,22 +1,24 @@
-﻿---
+---
 title: احصل على سلسلة HTML5 من Cell
 type: docs
 weight: 90
 url: /ar/net/get-html5-string-from-cell/
+description: تعرف على كيفية الحصول على سلسلة HTML5 من Cell إلى Aspose.Cells for .NET API.
+keywords: Get HTML5 string from Cell, Obtain HTML5 string from Cell, Manage HTML5 string of Cell
 ---
-## **سيناريوهات الاستخدام الممكنة**
+##  **سيناريوهات الاستخدام المحتملة**
 
-تقوم Aspose.Cells بارجاع سلسلة HTML للخلية باستخدام[**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring) الطريقة التي تقبل معلمة منطقية. إذا مررت**خاطئة** كمعامل ، سيعود إلى عادي HTML ولكن إذا نجحت**حقيقي** كمعامل ، فإنه سيعيد سلسلة HTML5.
+Aspose.Cells تقوم بإرجاع السلسلة HTML للخلية باستخدام[**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring) الطريقة التي تقبل معلمة منطقية. إذا نجحت**خطأ شنيع** كمعلمة، فإنه سيعود عادي HTML ولكن إذا نجحت**حقيقي** كمعلمة، فإنه سيتم إرجاع سلسلة HTML5.
 
-## **احصل على سلسلة HTML5 من Cell**
+##  **احصل على سلسلة HTML5 من Cell**
 
-نموذج التعليمات البرمجية التالي ينشئ كائن مصنف ويضيف بعض النص في الخلية A1 من ورقة العمل الأولى. ثم تحصل على السلسلة العادية HTML و HTML5 من الخلية A1 باستخدام امتداد[**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring)الطريقة وطباعتها على وحدة التحكم.
+يقوم نموذج التعليمات البرمجية التالي بإنشاء كائن مصنف وإضافة بعض النص في الخلية A1 من ورقة العمل الأولى. ثم يحصل على سلسلة Normal HTML وHTML5 من الخلية A1 باستخدام[**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring)الطريقة وطباعتها على وحدة التحكم.
 
-## **عينة من الرموز**
+##  **عينة من الرموز**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "HTML-GetHTML5StringFromCell.cs" >}}
 
-## **إخراج وحدة التحكم**
+##  **إخراج وحدة التحكم**
 
 {{< highlight "java" >}}
 

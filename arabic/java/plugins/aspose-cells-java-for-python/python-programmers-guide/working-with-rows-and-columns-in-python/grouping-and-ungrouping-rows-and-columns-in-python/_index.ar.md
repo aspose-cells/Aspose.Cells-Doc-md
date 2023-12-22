@@ -1,16 +1,18 @@
-﻿---
-title: تجميع وإلغاء تجميع الصفوف والأعمدة في Python
+---
+title: تجميع وفك تجميع الصفوف والأعمدة في Python
 type: docs
 weight: 40
 url: /ar/java/grouping-and-ungrouping-rows-and-columns-in-python/
+description: تعرف على كيفية تجميع وفك تجميع الصفوف والأعمدة من خلال Aspose.Cells for Python عبر Java API.
+keywords: How to Group and Ungroup Rows and Columns in Python Via Java, Group Rows and Columns using Python Via Java, Python Via Java Ungroup Rows and Columns. 
 ---
-## **Aspose.Cells - إدارة المجموعة للصفوف والأعمدة**
-### **تجميع الصفوف والأعمدة**
-من الممكن تجميع الصفوف أو الأعمدة عن طريق استدعاء التابعين groupRows و groupColumns للمجموعة Cells. تأخذ كلتا الطريقتين المعلمات التالية:
+##  **إدارة التجميع والتفكيك للصفوف والأعمدة في Aspose.Cells for Python via Java**
+###  **كيفية تجميع الصفوف والأعمدة في Python**
+من الممكن تجميع الصفوف أو الأعمدة عن طريق استدعاء أساليب groupRows وgroupColumns للمجموعة Cells. تأخذ كلتا الطريقتين المعلمات التالية:
 
-- أول صف / فهرس العمود ، أول صف أو عمود في المجموعة.
-- فهرس الصف / العمود الأخير ، الصف أو العمود الأخير في المجموعة.
-- مخفي ، معلمة منطقية تحدد ما إذا كان سيتم إخفاء الصفوف / الأعمدة بعد التجميع أم لا.
+- فهرس الصف/العمود الأول، الصف أو العمود الأول في المجموعة.
+- فهرس الصف/العمود الأخير، آخر صف أو عمود في المجموعة.
+- مخفي، وهو معلمة منطقية تحدد ما إذا كان سيتم إخفاء الصفوف/الأعمدة بعد التجميع أم لا.
 
 **Python كود**
 
@@ -43,11 +45,11 @@ workbook.save(self.dataDir + "Group Rows And Columns.xls")
 print "Group Rows And Columns Successfully." 
 
 {{< /highlight >}}
-### **فك تجميع الصفوف والأعمدة**
-قم بفك تجميع الصفوف أو الأعمدة المجمعة عن طريق استدعاء أساليب UngroupRows و UngroupColumns للمجموعة Cells. تأخذ كلتا الطريقتين نفس المعلمات:
+###  **كيفية فك تجميع الصفوف والأعمدة باستخدام Python**
+قم بفك تجميع الصفوف أو الأعمدة المجمعة عن طريق استدعاء أساليب UngroupRows وUngroupColumns للمجموعة Cells. تأخذ كلتا الطريقتين نفس المعلمات:
 
-- الصف الأول أو فهرس العمود ، الصف / العمود الأول المراد فك تجميعه.
-- فهرس الصف أو العمود الأخير ، الصف / العمود الأخير المراد فك تجميعه.
+- فهرس الصف أو العمود الأول، أول صف/عمود سيتم فك تجميعه.
+- فهرس الصف أو العمود الأخير، آخر صف/عمود سيتم فك تجميعه.
 
 **Python كود**
 
@@ -80,7 +82,7 @@ workbook.save(self.dataDir + "Ungroup Rows And Columns.xls")
 print "Ungroup Rows And Columns Successfully." 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**تجميع وفك تجميع الصفوف والأعمدة (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+##  **تحميل كود التشغيل**
+ تحميل**تجميع الصفوف والأعمدة وفك تجميعها (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

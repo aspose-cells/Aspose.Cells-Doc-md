@@ -1,5 +1,7 @@
 ---
 title: Gráfico a imagen
+description: Aprenda a usar Aspose.Cells for .NET para convertir un gráfico a un formato de imagen, como JPEG o PNG. Nuestra guía le demostrará cómo exportar un gráfico desde Microsoft Excel y guardarlo como una imagen independiente para su uso y manipulación posteriores.
+keywords: Aspose.Cells for .NET, Chart to Image, Microsoft Excel, Image Conversion, Export, Standalone Image.
 linktitle: Gráfico a imagen
 type: docs
 weight: 46
@@ -7,103 +9,103 @@ url: /es/net/chart-to-image/
 ---
 ##  **Representación de gráficos**
 
- Aspose.Cells Soporte de API para convertir los gráficos de Excel a formatos de imágenes sin necesidad de herramientas o aplicaciones adicionales. Para proporcionar soporte de renderizado, el[**Cuadro**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) la clase ha expuesto[**A la imagen**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) métodos con una gran cantidad de sobrecargas para adaptarse mejor a los requisitos de la aplicación.
+ Aspose.Cells Las API admiten la conversión de gráficos de Excel a formatos de imágenes sin necesidad de herramientas o aplicaciones adicionales. Para brindar soporte de prestación, el[**Cuadro**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) la clase ha expuesto[**A la imagen**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) métodos con una variedad de sobrecargas para adaptarse mejor a los requisitos de la aplicación.
 
-###  **Representación de gráficos en imágenes**
+###  **Representar gráficos en imágenes**
 
- El[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) El método tiene una gran cantidad de sobrecargas para admitir renderizado simple y avanzado. Si el requisito de la aplicación es representar el gráfico en sus dimensiones predeterminadas, le sugerimos que utilice el[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)método como sigue.
+ El[**Gráfico.AImagen**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) El método tiene una gran cantidad de sobrecargas para admitir renderizado simple y avanzado. Si el requisito de la aplicación es representar el gráfico en sus dimensiones predeterminadas, le sugerimos que utilice el[**Gráfico.AImagen**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)método como sigue.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImage.cs" >}}
 
- También es posible representar los gráficos en imágenes con configuraciones avanzadas. Aspose.Cells Las API han expuesto una versión sobrecargada de[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) método que podría aceptar una instancia de[**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions), al tiempo que permite especificar parámetros como resolución, modo de suavizado, formato de imagen, etc.
+ También es posible renderizar los gráficos en imágenes con configuraciones avanzadas. Aspose.Cells Las API han expuesto una versión sobrecargada de[**Gráfico.AImagen**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) método que podría aceptar una instancia de[**Opciones de imagen o impresión**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions)al tiempo que permite especificar parámetros como resolución, modo de suavizado, formato de imagen, etc.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImageWithAdvancedOptions.cs" >}}
 
-##  **Tipos de gráficos admitidos para la representación**
+##  **Tipos de gráficos admitidos para renderizado**
 
- Hay algunos tipos de gráficos que actualmente no son compatibles con la representación. Dichos tipos de gráficos contienen**N** en **Compatible** columna de la siguiente tabla.
+ Hay algunos tipos de gráficos que actualmente no son compatibles con la representación. Estos tipos de gráficos contienen**N** en el **Soportado** columna de la siguiente tabla.
 
 |**Tipo de gráfico**|**Subtipo de gráfico**|**Soportado**|
 | :- | :- | :- |
-|**Columna**|Columna|*Y**|
-| |Columna apilada|*Y**|
-| |Columna100PorcentajeApilado|*Y**|
-| |Columna 3D agrupada|*Y**|
-| |Columna3Dapilada|*Y**|
-| |Columna3D100PorcentajeApilado|*Y**|
-| |Columna3D|*Y**|
-|**Bar**|Bar|*Y**|
-| |Barra apilada|*Y**|
-| |Bar100Por CientoApilado|*Y**|
-| |Bar3DCracimo|*Y**|
-| |Bar3DSapilado|*Y**|
-| |Bar3D100Por CientoApilado|*Y**|
-|**Línea**|Línea|*Y**|
-| |línea apilada|*Y**|
-| |Línea100PorcentajeApilado|*Y**|
-| |LíneaConMarcadoresDeDatos|*Y**|
-| |Línea apilada con marcadores de datos|*Y**|
-| |Línea100PorcentajeApiladoConMarcadoresDeDatos|*Y**|
-| |Línea3D|*Y**|
-|**Tarta**|Tarta|*Y**|
-| |Pie3D|*Y**|
-| |Pastel Pastel|*Y**|
-| |PastelExplotado|*Y**|
-| |Pie3DExplotado|*Y**|
-| |PieBar|*Y**|
-|**Dispersión**|Dispersión|*Y**|
-| |ScatterConnectedByCurvesWithDataMarker|*Y**|
-| |DispersiónConectadoPorCurvasSinMarcador de datos|*Y**|
-| |ScatterConnectedByLinesWithDataMarker|*Y**|
-| |ScatterConnectedByLinesWithoutDataMarker|*Y**|
-|**Área**|Área|*Y**|
-| |Área apilada|*Y**|
-| |Área100PorcentajeApilado|*Y**|
-| |Área3D|*Y**|
-| |Area3DSapilado|*Y**|
-| |Área3D100PorcentajeApilado|*Y**|
-|**Rosquilla**|Rosquilla|*Y**|
-| |RosquillaExplotó|*Y**|
-|**Radar**|Radar|*Y**|
-| |RadarConMarcadoresDeDatos|*Y**|
-| |Lleno de radar|*Y**|
+|**Columna**|Columna|*Sí**|
+| |Columna Apilada|*Sí**|
+| |Columna100PorcentajeApilada|*Sí**|
+| |Columna3DClustered|*Sí**|
+| |Columna3DSapilada|*Sí**|
+| |Columna3D100PorcentajeApilado|*Sí**|
+| |Columna3D|*Sí**|
+|**Bar**|Bar|*Sí**|
+| |barra apilada|*Sí**|
+| |Barra100PorCientoApilados|*Sí**|
+| |Bar3DClustered|*Sí**|
+| |Barra3DSapilada|*Sí**|
+| |Bar3D100PorcentajeApilado|*Sí**|
+|**Línea**|Línea|*Sí**|
+| |líneaapilada|*Sí**|
+| |Línea100PorcentajeApilado|*Sí**|
+| |Línea con marcadores de datos|*Sí**|
+| |Línea apilada con marcadores de datos|*Sí**|
+| |Línea 100 por ciento apilada con marcadores de datos|*Sí**|
+| |Línea 3D|*Sí**|
+|**Tarta**|Tarta|*Sí**|
+| |pastel3D|*Sí**|
+| |Pastel Pastel|*Sí**|
+| |PastelExplotado|*Sí**|
+| |pastel3DExplotado|*Sí**|
+| |Barra de pastel|*Sí**|
+|**Dispersión**|Dispersión|*Sí**|
+| |Dispersión conectada por curvas con marcador de datos|*Sí**|
+| |Dispersión conectada por curvas sin marcador de datos|*Sí**|
+| |DispersiónConnectedByLinesWithDataMarker|*Sí**|
+| |DispersiónConectadoPorLineasSinMarcadorDeDatos|*Sí**|
+|**Área**|Área|*Sí**|
+| |ÁreaApilada|*Sí**|
+| |Área100PorCientoApilado|*Sí**|
+| |Área3D|*Sí**|
+| |Área3DSapiladas|*Sí**|
+| |Área3D100PorcentajeApilado|*Sí**|
+|**Rosquilla**|Rosquilla|*Sí**|
+| |DonutExplotado|*Sí**|
+|**Radar**|Radar|*Sí**|
+| |RadarConMarcadores De Datos|*Sí**|
+| |RadarLleno|*Sí**|
 |**Superficie**|Superficie3D|N|
-| |SuperficieAlambrado3D|N|
-| |SuperficieContorno|N|
-| |SuperficieContornoEstructura metálica|N|
-|**Burbuja**|Burbuja|*Y**|
-| |Burbuja3D|N|
-|**Existencias**|InventarioAltoBajoCerrar|*Y**|
-| |InventarioAbiertoAltoBajoCerrar|*Y**|
-| |InventarioVolumenAltoBajoCerrar|*Y**|
-| |StockVolumenAbiertoAltoBajoCerrar|*Y**|
-|**Cilindro**|Cilindro|*Y**|
-| |CilindroApilado|*Y**|
-| |Cilindro100PorcentajeApilado|*Y**|
-| |CilíndricoBar|*Y**|
-| |CilíndricoBarApilado|*Y**|
-| |CilíndricoBar100PorcentajeApilado|*Y**|
-| |CilíndricoColumna3D|*Y**|
-|**Cono**|Cono|*Y**|
-| |ConoApilado|*Y**|
-| |Cono100Por CientoApilado|*Y**|
-| |Barracónica|*Y**|
-| |Barra CónicaApilada|*Y**|
-| |CónicoBar100PorcentajeApilado|*Y**|
-| |ColumnaCónica3D|*Y**|
-|**Pirámide**|Pirámide|*Y**|
-| |Pirámide apilada|*Y**|
-| |Pirámide100Por CientoApilado|*Y**|
-| |PirámideBar|*Y**|
-| |PirámideBarApilado|*Y**|
-| |PirámideBar100PorcentajeApilado|*Y**|
-| |PirámideColumna3D|*Y**|
-|**cajabigotes**|cajabigotes|Y|
-|**Embudo**|Embudo|*Y**|
-|**Línea de Pareto**|Línea de Pareto|*Y**|
-|**rayos de sol**|rayos de sol|*Y**|
-|**Mapa de árbol**|Mapa de árbol|*Y**|
-|**Cascada**|Cascada|*Y**|
+| |SuperficieAlámbrica3D|N|
+| |Contorno de superficie|N|
+| |SuperficieContornoEstructura Alámbrica|N|
+|**Burbuja**|Burbuja|*Sí**|
+| |burbuja3d|N|
+|**Existencias**|StockAltoBajoCerrar|*Sí**|
+| |StockAbiertoAltoBajoCerrar|*Sí**|
+| |StockVolumenAltoBajoCerrar|*Sí**|
+| |StockVolumenAbrirAltoBajoCerrar|*Sí**|
+|**Cilindro**|Cilindro|*Sí**|
+| |CilindroApilado|*Sí**|
+| |Cilindro100PorCientoApilado|*Sí**|
+| |Barra cilíndrica|*Sí**|
+| |CilíndricoBarApilados|*Sí**|
+| |CilíndricoBarra100PorCientoApilado|*Sí**|
+| |CilíndricoColumna3D|*Sí**|
+|**Cono**|Cono|*Sí**|
+| |ConoApilado|*Sí**|
+| |Cono100PorCientoApilados|*Sí**|
+| |Barra cónica|*Sí**|
+| |Barra CónicaApiladas|*Sí**|
+| |Barra cónica 100 por ciento apilada|*Sí**|
+| |Columna Cónica3D|*Sí**|
+|**Pirámide**|Pirámide|*Sí**|
+| |pirámideapilada|*Sí**|
+| |Pirámide100PorCientoApilados|*Sí**|
+| |Barra Pirámide|*Sí**|
+| |PirámideBarApilados|*Sí**|
+| |PyramidBar100PorcentajeApilado|*Sí**|
+| |PirámideColumna3D|*Sí**|
+|**CajaBigote**|CajaBigote|Y|
+|**Embudo**|Embudo|*Sí**|
+|**Línea de Pareto**|Línea de Pareto|*Sí**|
+|**resplandor solar**|resplandor solar|*Sí**|
+|**Mapa de árbol**|Mapa de árbol|*Sí**|
+|**Cascada**|Cascada|*Sí**|
 |**Histograma**|Histograma|Y|
 |**Mapa**|Mapa|*NORTE**|
 

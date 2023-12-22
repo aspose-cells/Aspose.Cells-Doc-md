@@ -1,10 +1,12 @@
-﻿---
-title: Zeilen und Spalten iterieren
+---
+title: Iterieren Sie Zeilen und Spalten
 type: docs
 weight: 50
 url: /de/java/iterate-rows-and-columns/
+description: Erfahren Sie, wie Sie Zeilen und Spalten über die APIs Aspose.Cells for Java iterieren.
+keywords: How to Iterate Rows and Columns in Java, Iterate Rows using Java, Java Iterate Columns. 
 ---
-## **Aspose.Cells – Zeilen und Spalten iterieren**
+##  **So iterieren Sie Zeilen und Spalten mit Aspose.Cells for Java**
 
 Zeilen und Spalten können mithilfe der Zeilen- und Spaltensammlung iteriert werden.
 
@@ -12,19 +14,19 @@ Zeilen und Spalten können mithilfe der Zeilen- und Spaltensammlung iteriert wer
 
 {{< highlight "java" >}}
 
- // Zugriff auf den maximalen Anzeigebereich
+ //Greifen Sie auf den maximalen Anzeigebereich zu
 
-Bereich range = worksheet.getCells().getMaxDisplayRange();
+Bereichsbereich = worksheet.getCells().getMaxDisplayRange();
 
 int tcols = range.getColumnCount();
 
 int trows = range.getRowCount();
 
-System.out.println("Gesamtzeilen:" + trows);
+System.out.println("Total Rows:" + trows);
 
 System.out.println("Total Cols:" + tcols);
 
-RowCollection rows = cells.getRows();
+RowCollection rows = cell.getRows();
 
  für (int i = 0 ; i< rows.getCount() ; i++)
 
@@ -44,9 +46,9 @@ RowCollection rows = cells.getRows();
 
 {{< /highlight >}}
 
-## **Apache POI SS - HSSF XSSF - Zeilen und Spalten durchlaufen**
+##  **Apache POI SS – HSSF XSSF – Zeilen und Spalten iterieren**
 
-Zeilen und Cells können auf Sheet iteriert werden. Beispielcode ist unten erwähnt:
+Zeilen und Cells können auf dem Blatt iteriert werden. Beispielcode ist unten aufgeführt:
 
 **Java**
 
@@ -72,11 +74,11 @@ for (Row row : sheet)
 
 {{< /highlight >}}
 
-## **Laufcode herunterladen**
+##  **Laden Sie Running Code herunter**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 
-## **Beispielcode herunterladen**
+##  **Beispielcode herunterladen**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/iterate)
 

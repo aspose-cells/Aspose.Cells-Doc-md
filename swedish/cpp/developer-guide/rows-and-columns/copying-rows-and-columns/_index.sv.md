@@ -1,25 +1,25 @@
-﻿---
+---
 title: Kopiera rader och kolumner
 type: docs
 weight: 20
 url: /sv/cpp/copying-rows-and-columns/
 ---
-## **Introduktion**
+##  **Introduktion**
 Ibland behöver du kopiera rader och kolumner i ett kalkylblad utan att kopiera hela kalkylbladet. Med Aspose.Cells är det möjligt att kopiera rader och kolumner inom eller mellan arbetsböcker.
 När en rad (eller kolumn) kopieras, kopieras även data som finns i den, inklusive formler - med uppdaterade referenser - och värden, kommentarer, formatering, dolda celler, bilder och andra ritobjekt.
-## **Kopiera rader och kolumner med Microsoft Excel**
+##  **Kopiera rader och kolumner med Microsoft Excel**
 1. Välj den rad eller kolumn som du vill kopiera.
-1.  För att kopiera rader eller kolumner, klicka**Kopiera** på**Standard** verktygsfältet eller tryck på**CTRL**+**C**.
+1.  För att kopiera rader eller kolumner, klicka**Kopiera** på**Standard** verktygsfältet, eller tryck**CTRL**+*C**.
 1. Välj en rad eller kolumn nedan eller till höger om var du vill kopiera ditt val.
 1.  Klicka på när du kopierar rader eller kolumner**Kopierat Cells** på**Föra in** meny.
 
 {{% alert color="primary" %}} 
 
- Om du klickar**Klistra** på**Standard** verktygsfältet eller tryck**CTRL**+** V** istället för att klicka på ett kommando på**Insert**-menyn, allt innehåll i destinationscellerna ersätts.
+ Om du klickar**Klistra** på**Standard** verktygsfältet eller tryck**CTRL**+**V** istället för att klicka på ett kommando på **Infoga** menyn, ersätts allt innehåll i destinationscellerna.
 
 {{% /alert %}} 
-## **Använder Aspose.Cells**
-### **Kopiera rader**
+##  **Använder Aspose.Cells**
+###  **Kopiera rader**
 Aspose.Cells tillhandahåller CopyRow-metoden för klassen Aspose::Cells::ICells. Denna metod kopierar alla typer av data inklusive formler, värden, kommentarer, cellformat, dolda celler, bilder och andra ritobjekt från källraden till målraden.
 
 CopyRow-metoden tar följande parametrar:
@@ -36,7 +36,7 @@ Följande exempel visar hur man kopierar en rad i ett kalkylblad. Den använder 
 
 
 
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-CopyingRowsAndColumns-CopyingRows.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-CopyingRowsAndColumns-CopyingRows-new.cpp" >}}
 
 {{% alert color="primary" %}} 
 
@@ -46,7 +46,7 @@ När du kopierar rader är det viktigt att notera relaterade bilder, diagram ell
 1. De befintliga bilderna, sjökorten etc. i destinationsraden kommer inte att tas bort.
 
 {{% /alert %}} 
-### **Kopiera kolumner**
+###  **Kopiera kolumner**
 Aspose.Cells tillhandahåller CopyColumn-metoden för klassen Aspose::Cells::ICells, denna metod kopierar alla typer av data, inklusive formler - med uppdaterade referenser - och värden, kommentarer, cellformat, dolda celler, bilder och andra ritobjekt från källan kolumnen till destinationskolumnen.
 
 Metoden CopyColumn använder följande parametrar:
@@ -61,4 +61,4 @@ Det här exemplet kopierar en kolumn från ett kalkylblad och klistrar in den i 
 
 
 
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-CopyingRowsAndColumns-CopyingColumns.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-CopyingRowsAndColumns-CopyingColumns-new.cpp" >}}

@@ -6,7 +6,7 @@ url: /ar/net/aspose-cells-gridjs/client/
 keywords: custom,logo,setting,api
 ---
 #  العمل مع جانب عميل GridJs
- قمنا بتطوير عميل GridJs على أساس[x- جدول](https://github.com/myliang/x-spreadsheet).
+ قمنا بتطوير عميل GridJs بناءً على[جدول بيانات x](https://github.com/myliang/x-spreadsheet).
 
 ##  الخطوات الرئيسية هي:
 
@@ -20,6 +20,7 @@ xs = x_spreadsheet(id, options)
 	    updateMode:  currently we only support 'server'
 	    updateUrl:  set the server side  url for update action based on json
 	    mode: read means readonly spread sheet/edit means we can edit the spread sheet
+            allowSelectTextInTextBoxInReadMode: whether allow select text in TextBox control when in read mode,the default value is false
 	    showToolbar:   means whether to show toolbar
 	    showFileName:  whether to show the filename 
 	    local:         support multiple language for menus ,the locale can be:
@@ -30,7 +31,7 @@ xs = x_spreadsheet(id, options)
 			        ko,th,tr,vi,cht
                            for  Korean,Thai,Turkey,Vietnamese,Traditional Chinese                  
 	    showContextmenu:   means whether to show contextmenu on right click on a cell
-
+            loadingGif:  the loading gif url when loading the image/shape .it is optional,the default value is:content/img/updating.gif
 	for example the below code init a x_spreadsheet object.
 	xs = x_spreadsheet('#gridjs-demo', {
 			updateMode:'server',
@@ -42,26 +43,26 @@ xs = x_spreadsheet(id, options)
 			})
 ```
     
--  تحميل بيانات json
+-  تحميل مع بيانات json
 ```javascript
 xs.loadData(data)
 // the parameters is:
 	data: the json data which describ the data structure for the worksheets
 ```
--  تعيين الورقة النشطة بواسطة اسم الورقة
+-  تعيين الورقة النشطة حسب اسم الورقة
 ```javascript
 xs.setActiveSheetByName(sheetname)
 // the parameters is:
 	sheetname: the sheet name 
 ```
--  تعيين ورقة نشطة بواسطة معرف
+-  تعيين الورقة النشطة حسب المعرف
 ```javascript
 xs.setActiveSheet(id)
 // the parameters is:
 	sheetname: the sheet id 
 ```
 
--  تعيين خلية نشطة
+-  تعيين الخلية النشطة
 ```javascript
 xs.setActiveCell(row,col);
 // the parameters are:
@@ -69,7 +70,7 @@ xs.setActiveCell(row,col);
 	col: the cell column
 ```
 
-- قم بتعيين معلومات لعملية الشكل / الصور لإجراء جانب الخادم
+- قم بتعيين المعلومات لعملية الشكل/الصور للعمل من جانب الخادم
 ```javascript
 xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActionUrl, imageCopyActionUrl, zindex, loadingGif);
 // the parameters are:
@@ -88,7 +89,7 @@ xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActio
     xs.setImageInfo(imageurl, imageuploadurl1, imageuploadurl2, imagecopyurl, basiczorder);
 ```
 
-- قم بتعيين معلومات لعملية التنزيل لإجراء جانب الخادم
+- قم بتعيين المعلومات لعملية التنزيل لإجراء جانب الخادم
 ```javascript
 xs.setFileDownloadInfo(downloadActionUrl);
 // the parameters are:
@@ -99,7 +100,7 @@ xs.setFileDownloadInfo(downloadActionUrl);
             xs.setFileDownloadInfo(fileDownloadUrl);
 ```
 
-- تعيين معلومات لعملية كائن Oole لإجراء جانب الخادم
+- قم بتعيين المعلومات لعملية كائن ole للعمل من جانب الخادم
 ```javascript
 xs.setOleDownloadInfo(oleActionUrl);
 // the parameters are:
@@ -111,18 +112,18 @@ xs.setOleDownloadInfo(oleActionUrl);
   
 
 _
-##  واجهات برمجة تطبيقات أخرى مفيدة
+##  واجهات برمجة التطبيقات المفيدة الأخرى
 -  تقديم العرض
 ```javascript
 xs.reRender()
 ```
 
--  الحصول على معرف الورقة النشط
+-  الحصول على معرف الورقة النشطة
 ```javascript
 xs.getActiveSheet()
 ```
 
--  تعيين مستوى التكبير
+-  ضبط مستوى التكبير/التصغير
 ```javascript
 xs.setZoomLevel(zoom)
 // the parameters is:
@@ -136,7 +137,7 @@ xs.setFileName(name)
 	name:the file name with extension ,for example trip.xlsx
 ```
 
--  ما إذا كان سيتم تمكين حدث مفتاح النافذة لـ GridJs
+- ما إذا كان سيتم تمكين حدث مفتاح النافذة لـ GridJs
 ```javascript
 xs.enableKeyEvent(isenable)
 // the parameters is:
@@ -144,13 +145,13 @@ xs.enableKeyEvent(isenable)
 //when has other controls in the same page, you may want to ignore the key event in GridJs 
 ```
 
--  قم بفك ربط جميع الأحداث المرفقة بـ GridJs ، بما في ذلك حدث مفتاح النافذة وحدث تغيير حجم النافذة.
+-  قم بإلغاء ربط جميع الأحداث المرتبطة بـ GridJs، بما في ذلك حدث مفتاح النافذة وحدث تغيير حجم النافذة.
 ```javascript
 xs.destroy()
 ```
 
 
--  تعيين مرشح مرئي للصورة / الشكل
+-  ضبط مرشح مرئي للصورة/الشكل
 ```javascript
     // need to set a function which return true(for visible) or false(for invisible) for the visible filter with the below parameters :
 	sheet:the sheet instance
@@ -166,12 +167,12 @@ xs.destroy()
 		xs.setActiveSheet(xs.getActiveSheet())
 ```
 
-- احصل على الصورة / الشكل المحدد ، إذا لم يتم تحديد أي شيء فسيعود فارغًا
+-  احصل على الصورة/الشكل المحدد، إذا لم يكن هناك شيء محدد فسيعود فارغًا
 ```javascript
 xs.sheet.selector.getObj()
 ```
 
--  اضبط الحالة القابلة للتحديد للصورة / الشكل
+-  اضبط الحالة القابلة للتحديد للصورة/الشكل
 ```javascript
 const shape=xs.sheet.selector.getObj();
 shape.setControlable(isenable)
@@ -179,7 +180,7 @@ shape.setControlable(isenable)
       isenable: when set to true,the image or shape can be selectable and movable/resizeable
 ```
 
--  احصل على كائن الخلية
+-  الحصول على كائن الخلية
 ```javascript
 xs.sheet.data.getCell(ri,ci)
     // the parameters are:
@@ -193,27 +194,27 @@ xs.sheet.data.getCellStyle(ri,ci)
 	ri:row index 
 	ci:column index
 ```
--  عيّن قيمة الخلية
+-  قم بتعيين قيمة الخلية
 ```javascript
 xs.sheet.data.setCellText(ri,ci,value,state)
     // the parameters are:
 	ri:row index 
 	ci:column index
 	value:the cell value
-	state: input | finished
+	state: input | finished ,if finished ,it will do update action to servside
 ```
 
--  الحصول على / تعيين نطاق الخلايا المحدد
+-  الحصول على/تعيين نطاق الخلايا المحدد
 ```javascript
 xs.sheet.data.selector.range
 ```
--  عيّن قيمة الخلية للخلية أو منطقة الخلية المحددة
+-  قم بتعيين قيمة الخلية للخلية أو منطقة الخلية المحددة
 ```javascript
 xs.sheet.data.setSelectedCellText(value)
     // the parameters are:
 	value:the  value for the cell
 ```
--  عيّن النمط للخلية أو منطقة الخلية المحددة
+-  قم بتعيين النمط للخلية أو منطقة الخلية المحددة
 ```javascript
 xs.sheet.data.setSelectedCellAttr(attributename,value)
     // the parameters are:
@@ -236,7 +237,7 @@ xs.sheet.data.deleteCell(type)
     // the parameters are:
 	type:all|format  all: means delete the cell and clear the style ;format means delete the cell value and keep the cell style
 ```
--  اضبط جزء التجميد
+-  قم بتعيين جزء التجميد
 ```javascript
 xs.sheet.data.setFreeze(ri,ci)
     // the parameters are:
@@ -244,27 +245,43 @@ xs.sheet.data.setFreeze(ri,ci)
 	ci:column index
 ```
 
--  أدخل صفًا أو أعمدة في الخلية المحددة
+-  إدراج صف أو أعمدة في الخلية المحددة
 ```javascript
 xs.sheet.data.insert(type, n)
     // the parameters are:
 	type: row | column
 	n:the row or column number
 ```
--  احذف الصف أو الأعمدة في الخلية المحددة
+-  حذف الصف أو الأعمدة في الخلية المحددة
 ```javascript
 xs.sheet.data.delete(type)
     // the parameters are:
 	type: row | column
 ```
 
--  اضبط عرض العمود
+-  قم بتعيين العرض للعمود
 ```javascript
 xs.sheet.data.setColWidth(ci,width)
     // the parameters are:
 	ci:column index
 	width:the width for the column
 ```
+-  ضبط العرض للأعمدة
+```javascript
+xs.sheet.data.setColsWidth(sci,eci,width)
+    // the parameters are:
+	sci:the start column index
+	eci:the end column index
+	width:the width for the column
+```
+
+-  قم بتعيين العرض لجميع الأعمدة
+```javascript
+xs.sheet.data.setAllColsWidth(width)
+    // the parameters are:
+	width:the width for the columns
+```
+
 -  احصل على عرض العمود
 ```javascript
 xs.sheet.data.cols.sumWidth(min,max)
@@ -273,13 +290,30 @@ xs.sheet.data.cols.sumWidth(min,max)
 	max:the end column index,not include
 ```
 
--  اضبط ارتفاع الصف
+-  ضبط الارتفاع للصف
 ```javascript
 xs.sheet.data.setRowHeight(ri,height)
     // the parameters are:
 	ri:row index
 	height:the height for the row
 ```
+-  ضبط الارتفاع للصفوف
+```javascript
+xs.sheet.data.setRowsHeight(sri,eri,height)
+    // the parameters are:
+	sri:start row index
+	eri:end row index
+	height:the height for the rows
+```
+
+- اضبط الارتفاع لجميع الصفوف
+```javascript
+xs.sheet.data.setAllRowsHeight(height)
+    // the parameters are:
+	height:the height for the rows
+```
+
+
 -  احصل على ارتفاع الصف
 ```javascript
 xs.sheet.data.rows.sumHeight(min,max)
@@ -287,7 +321,8 @@ xs.sheet.data.rows.sumHeight(min,max)
 	min:the start row index
 	max:the end row index,not include
 ```
--  الحصول على / تعيين اتجاه العرض
+
+-  الحصول على/ضبط اتجاه العرض
 ```javascript
 xs.sheet.data.displayRight2Left
 ```
@@ -309,6 +344,8 @@ xs.sheet.data.displayRight2Left
                 console.log('shape or image selected id:', shapeOrImageObj.id, ', type: ', shapeOrImageObj.type);
             }).on('sheet-selected', (id,name) => {
                 console.log('sheet selected id:', id, ', name: ',name);
+            }).on('sheet-loaded', (id,name) => {
+                console.log('sheet load finished:', id, ', name: ',name);
             }).on('cell-edited', (text, ri, ci) => {
                 console.log('text:', text, ', ri: ', ri, ', ci:', ci);
             });
@@ -330,13 +367,13 @@ xs.sheet.menubar.icon.setHomeIcon(iconUrl,targetUrl)
 xs.sheet.menubar.show()
 ```
 
--  إخفاء شريط القوائم
+-  إخفاء شريط القائمة
 ```javascript
 xs.sheet.menubar.hide()
 ```
 
 
-للحصول على معلومات تفصيلية ، يمكنك التحقق من المثال هنا
+للحصول على معلومات تفصيلية، يمكنك التحقق من المثال هنا
 <https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
 
 

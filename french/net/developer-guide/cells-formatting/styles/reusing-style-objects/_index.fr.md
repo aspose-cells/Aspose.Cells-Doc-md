@@ -1,5 +1,7 @@
-﻿---
-title: Réutilisation des objets de style
+---
+title: Réutilisation d'objets de style
+description: Dans Aspose.Cells for .NET, en créant et en utilisant des objets de style réutilisables, vous pouvez simplifier la gestion des styles et améliorer l'efficacité du code. Notre guide vous aidera à tirer parti des avantages des objets de style réutilisables et à les implémenter dans votre application.
+keywords: Aspose.Cells for .NET, Reusing Style Objects, Style Management, Code Efficiency, Reusable Styles, Application Development, API Reference, Example Code, Download, Support.
 type: docs
 weight: 3000
 url: /fr/net/reusing-style-objects/
@@ -20,6 +22,6 @@ Pour appliquer une mise en forme à une large plage de cellules dans une feuille
 
 {{% alert color="primary" %}}
 
- Parce que le[**Cell.GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle)/[**Cell.SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) utilise beaucoup moins de mémoire et est efficace, l'ancienne propriété Cell.Style qui consommait beaucoup de mémoire inutile a été supprimée avec la version Aspose.Cells 7.1.0.
+ Parce que le[**Cell.GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle)/[**Cell.SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) Cette approche utilise beaucoup moins de mémoire et est efficace. L'ancienne propriété Cell.Style, qui consommait beaucoup de mémoire inutile, a été supprimée avec la sortie de Aspose.Cells 7.1.0.
 
 {{% /alert %}}

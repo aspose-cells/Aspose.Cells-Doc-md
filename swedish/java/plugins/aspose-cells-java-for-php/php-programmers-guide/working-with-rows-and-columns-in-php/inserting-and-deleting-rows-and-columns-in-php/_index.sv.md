@@ -1,11 +1,13 @@
-﻿---
+---
 title: Infoga och ta bort rader och kolumner i PHP
 type: docs
 weight: 60
 url: /sv/java/inserting-and-deleting-rows-and-columns-in-php/
+description: "Lär dig hur du infogar och tar bort rader och kolumner genom API:erna Aspose.Cells for PHP via Java."
+keywords: How to Insert and Delete Rows and Columns in PHP, Insert Rows and Columns using PHP, PHP Delete Rows and Columns, Insert Rows or Columns with PHP, Delete Rows or Columns via PHP.
 ---
-## **Aspose.Cells - Hantera rader/kolumner**
-### **Infoga en rad**
+##  **Aspose.Cells - Hantera rader/kolumner**
+###  **Infoga en rad**
 Infoga en rad på valfri plats genom att anropa metoden insertRows i samlingen Cells. Metoden insertRows tar indexet för raden där den nya raden kommer att infogas som det första argumentet, och antalet rader som ska infogas som det andra argumentet.
 
 **PHP-kod**
@@ -37,7 +39,7 @@ Infoga en rad på valfri plats genom att anropa metoden insertRows i samlingen C
 }  
 
 {{< /highlight >}}
-### **Infoga flera rader**
+###  **Infoga flera rader**
 Om du vill infoga flera rader i kalkylbladet anropar du metoden insertRows i samlingen Cells. Metoden InsertRows tar två parametrar:
 
 - Radindex, indexet för raden varifrån de nya raderna kommer att infogas.
@@ -72,7 +74,7 @@ Om du vill infoga flera rader i kalkylbladet anropar du metoden insertRows i sam
 }
 
 {{< /highlight >}}
-### **Ta bort en rad**
+###  **Ta bort en rad**
 För att ta bort en rad på valfri plats, anropa metoden deleteRows för samlingen Cells. Metoden DeleteRows tar två parametrar:
 
 - Radindex, indexet för raden där raderna kommer att tas bort.
@@ -107,7 +109,7 @@ För att ta bort en rad på valfri plats, anropa metoden deleteRows för samling
 }
 
 {{< /highlight >}}
-### **Ta bort flera rader**
+###  **Ta bort flera rader**
 Om du vill ta bort flera rader från ett kalkylblad anropar du metoden deleteRows i samlingen Cells. Metoden DeleteRows tar två parametrar:
 
 - Radindex, indexet för raden där raderna kommer att tas bort.
@@ -142,7 +144,7 @@ Om du vill ta bort flera rader från ett kalkylblad anropar du metoden deleteRow
 }
 
 {{< /highlight >}}
-### **Infoga en kolumn**
+###  **Infoga en kolumn**
 Utvecklare kan också infoga en kolumn i kalkylbladet var som helst genom att anropa metoden insertColumns i samlingen Cells. metoden insertColumns tar två parametrar:
 
 - Kolumnindex, indexet för den kolumn varifrån kolumnen kommer att infogas
@@ -177,7 +179,7 @@ Utvecklare kan också infoga en kolumn i kalkylbladet var som helst genom att an
 }
 
 {{< /highlight >}}
-### **Ta bort en kolumn**
+###  **Ta bort en kolumn**
 För att ta bort en kolumn från kalkylbladet på valfri plats, anropa metoden deleteColumns i samlingen Cells. Metoden deleteColumns använder följande parametrar:
 
 - Kolumnindex, indexet för den kolumn där kolumnen kommer att tas bort.
@@ -213,7 +215,7 @@ För att ta bort en kolumn från kalkylbladet på valfri plats, anropa metoden d
 }  
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+##  **Ladda ner Running Code**
  Ladda ner**Hantera rader/kolumner (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

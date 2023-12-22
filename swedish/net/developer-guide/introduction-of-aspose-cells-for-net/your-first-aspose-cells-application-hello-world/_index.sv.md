@@ -1,8 +1,10 @@
-﻿---
+---
 title: Din första Aspose.Cells-ansökan - Hello World
 type: docs
 weight: 30
 url: /sv/net/your-first-aspose-cells-application-hello-world/
+description: Skapa, redigera och spara din första Excel-fil i alla format som stöds med Aspose.Cells for .NET för att uppleva dess enkelhet och kraft i C#.
+keywords: C# Hello World, Aspose.Cells for .NET Hello World, The first application using Aspose.Cells for .NET, The first program via Aspose.Cells for .NET.
 ---
 {{% alert color="primary" %}}
 
@@ -10,7 +12,7 @@ Denna handledning visar hur man skapar en allra första applikation (Hello World
 
 {{% /alert %}}
 
-## **Skapar Hello World-applikationen**
+##  **Hur man skapar Hello World-applikationen**
 
 Stegen nedan skapar Hello World-applikationen med hjälp av Aspose.Cells API:
 
@@ -24,13 +26,13 @@ Stegen nedan skapar Hello World-applikationen med hjälp av Aspose.Cells API:
 
 Implementeringen av stegen ovan visas i exemplen nedan.
 
-### **Kodexempel: Skapa en ny arbetsbok**
+###  **Hur man skapar en ny arbetsbok**
 
 Följande exempel skapar en ny arbetsbok från början, skriver Hello World! i cell A1 på det första kalkylbladet och sparar Excel-filen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-FirstApplication-1.cs" >}}
 
-### **Kodexempel: Öppna en befintlig fil**
+###  **Hur man öppnar en befintlig fil**
 
 Följande exempel öppnar en befintlig Microsoft Excel-mallfil med namnet "Sample.xlsx", matar in "Hello World!" text i A1-cellen i det första kalkylbladet och sparar arbetsboken.
 

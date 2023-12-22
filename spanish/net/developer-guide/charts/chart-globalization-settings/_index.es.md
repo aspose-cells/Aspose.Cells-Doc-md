@@ -1,38 +1,40 @@
 ---
-title:  Uso de la clase ChartGlobalizationSettings para establecer un idioma diferente para el componente de gráfico
+title:  Uso de la clase ChartGlobalizationSettings para establecer un idioma diferente para el componente del gráfico
+description: Aprenda a utilizar la clase ChartGlobalizationSettings en Aspose.Cells for .NET para configurar diferentes idiomas para los componentes del gráfico. Nuestra guía lo ayudará a comprender cómo localizar elementos, etiquetas y leyendas de gráficos a diferentes idiomas, lo que le permitirá presentar sus datos de una manera culturalmente apropiada.
+keywords: Aspose.Cells for .NET, charting, chart globalization, languages, localization, ChartGlobalizationSettings, elements, labels, legends.
 type: docs
 weight: 2200
 url: /es/net/using-chartglobalizationsettings-class-to-set-different-language-for-chart-component/
 ---
 ##  **Posibles escenarios de uso**
 
- Aspose.Cells Las API han expuesto el[**GráficoGlobalizaciónConfiguración**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/) class para manejar los escenarios en los que el usuario desea configurar el componente del gráfico en un idioma diferente. etiquetas personalizadas para subtotales en una hoja de cálculo.
+ Aspose.Cells Las API han expuesto el[**GráficoGlobalizaciónConfiguración**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/) clase para hacer frente a los escenarios en los que el usuario desea configurar el componente del gráfico en un idioma diferente. etiquetas personalizadas para subtotales en una hoja de cálculo.
 
 ##  **Introducción a la clase ChartGlobalizationSettings**
 
- El[**GráficoGlobalizaciónConfiguración**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/)class actualmente ofrece los siguientes 8 métodos que se pueden anular en una clase personalizada para traducir, como el nombre de AxisTitle, el nombre de AxisUnit, el nombre de ChartTitle, etc., a un idioma diferente.
-1. [**GetAxisTitleName**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getaxistitlename/): Obtiene el nombre del Título para Axis.
-1. [**GetAxisUnitName**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getaxisunitname/): Obtiene el Nombre de la Unidad del Eje.
-1. [**ObtenerNombreTítuloGráfico**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getcharttitlename/): Obtiene el nombre del Título del gráfico.
-1. [**GetLegendDecreaseName**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getlegenddecreasename/): Obtiene el nombre de Decrease for Legend.
-1. [**ObtenerLeyendaIncrementarNombre**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getlegendincreasename/): Obtiene el nombre de aumento de Leyenda.
-1. [**ObtenerLeyendaTotalNombre**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getlegendtotalname/): Obtiene el nombre de Total para Legend.
-1. [**ObtenerOtroNombre**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getothername/): Obtiene el nombre de las etiquetas "Otros" para Chart.
-1. [**ObtenerNombreSerie**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getseriesname/): Obtiene el nombre de la Serie en el Gráfico.
+ El[**GráficoGlobalizaciónConfiguración**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/)La clase ofrece actualmente los siguientes 8 métodos que se pueden anular en una clase personalizada para traducir, como el nombre de AxisTitle, el nombre de AxisUnit, el nombre de ChartTitle, etc., a diferentes idiomas.
+1. [**Obtener nombre del título del eje**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getaxistitlename/): Obtiene el nombre del Título del Eje.
+1. [**Obtener nombre de unidad del eje**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getaxisunitname/): Obtiene el nombre de la unidad del eje.
+1. [**Obtener nombre del título del gráfico**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getcharttitlename/): Obtiene el nombre del título del gráfico.
+1. [**ObtenerLegendDecreaseName**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getlegenddecreasename/): Obtiene el nombre de Disminución para Leyenda.
+1. [**ObtenerLegendAumentarNombre**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getlegendincreasename/): Obtiene el nombre del aumento de Leyenda.
+1. [**ObtenerLegendTotalName**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getlegendtotalname/): Obtiene el nombre de Total para Leyenda.
+1. [**Obtener otro nombre**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getothername/): Obtiene el nombre de las etiquetas "Otras" para el gráfico.
+1. [**Obtener nombre de serie**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getseriesname/): Obtiene el nombre de la Serie en el Gráfico.
 
-###  **Traducción personalizada de idiomas**
-Aquí, crearemos un gráfico de cascada basado en los siguientes datos. Los nombres de los componentes del gráfico se mostrarán en inglés en el gráfico. Usaremos un ejemplo de idioma turco para mostrar cómo mostrar el título del gráfico, los nombres de aumento/disminución de la leyenda, el nombre total y el título del eje en turco.
+###  **Traducción de idiomas personalizada**
+Aquí, crearemos un gráfico en cascada basado en los siguientes datos. Los nombres de los componentes del gráfico se mostrarán en inglés en el gráfico. Usaremos un ejemplo en turco para mostrar cómo mostrar el título del gráfico, los nombres de aumento/disminución de la leyenda, el nombre total y el título del eje en turco.
 
-![todo:imagen_alt_texto](sample.png)
+![todo:image_alt_text](sample.png)
 
 ##  **Código de muestra**
- El siguiente código de ejemplo carga el[ejemplo de archivo de Excel](waterfall.xlsx).
+ El siguiente código de muestra carga el[archivo de Excel de muestra](waterfall.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "chartglobalizationsettings.cs" >}}
 
-##  Salida generada por el código de muestra
+##  Salida generada por el código de muestra.
 
-Esta es la salida de la consola del código de muestra anterior.
+Esta es la salida de consola del código de muestra anterior.
 
 {{< highlight "java" >}}
 

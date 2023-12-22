@@ -1,8 +1,10 @@
-﻿---
+---
 title: Hitta den absoluta positionen av formen i arbetsbladet
 type: docs
 weight: 7000
 url: /sv/java/finding-absolute-position-of-shape-inside-the-worksheet/
+description: "Lär dig hur du hittar den absoluta positionen av form i kalkylbladet genom API:erna Aspose.Cells for Java."
+keywords: How to Find Absolute Position of Shape in Java, Get Absolute Position of Shape using Java, Obtain Absolute Position of Shape inside the Worksheet via Java, Measure absolute position of Shape with Java.
 ---
 {{% alert color="primary" %}}
 
@@ -10,11 +12,11 @@ url: /sv/java/finding-absolute-position-of-shape-inside-the-worksheet/
 
 {{% /alert %}}
 
-## **Förklaring av egenskaperna Shape.getLeftToCorner() och Shape.getTopToCorner()**
+##  **Förklaring av egenskaperna Shape.getLeftToCorner() och Shape.getTopToCorner()**
 
-Den här skärmdumpen förklarar vilka avstånd[**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) och[**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner)egenskaper mått.
+ Den här skärmdumpen förklarar vilka avstånd[**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) och[**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner)egenskaper mått.
 
-**Mätning av absolut position**
+**Hur man mäter absolut position**
 
 ![todo:image_alt_text](finding-absolute-position-of-shape-inside-the-worksheet_1.png)
 

@@ -1,18 +1,20 @@
-﻿---
+---
 title: Diagrammtypen
+description: Erfahren Sie mehr über die verschiedenen Diagrammtypen, die von Aspose.Cells for .NET unterstützt werden. Unser Leitfaden führt Sie durch die verschiedenen verfügbaren Diagrammtypen und zeigt Ihnen, wie Sie diese erstellen und ändern, um Ihre Arbeitsblätter zu verbessern.
+keywords: Aspose.Cells for .NET, charting, chart types, supported, creation, modification, worksheets.
 type: docs
 weight: 5
 url: /de/net/chart-types/
 ---
-## **Einführung**
-Ein Diagramm ist eine visuelle Darstellung von Informationen. Aspose.Cells ermöglicht es Entwicklern, Informationen in Diagrammen zu visualisieren, genau wie Microsoft Excel es tut. Die Darstellung von Informationen in Diagrammen ist für Entscheidungsträger immer hilfreich, um schnelle und zeitnahe Entscheidungen zu treffen. Es ist einfacher, Vergleiche, Muster und Trends in Daten mit Diagrammen schnell zu erkennen als mit reinen Zahlen. Das Erstellen von Diagrammen zur Laufzeit, basierend auf den Daten in einer Tabelle, ist eine der leistungsstärksten Funktionen von Aspose.Cells.
-## **Diagrammtypen**
+##  **Einführung**
+Ein Diagramm ist eine visuelle Darstellung von Informationen. Aspose.Cells ermöglicht Entwicklern die Visualisierung von Informationen in Diagrammen, genau wie Microsoft Excel. Die Darstellung von Informationen in Diagrammen ist für Entscheidungsträger immer hilfreich, um schnelle und zeitnahe Entscheidungen zu treffen. Mit Diagrammen lassen sich Vergleiche, Muster und Trends in Daten schneller erkennen als mit rohen Zahlen. Das Erstellen von Diagrammen zur Laufzeit basierend auf den Daten in einer Tabellenkalkulation ist eine der leistungsstärksten Funktionen von Aspose.Cells.
+##  **Diagrammtypen**
 Aspose.Cells unterstützt fast alle Diagrammtypen, die in Microsoft Excel unterstützt werden. Diagramme werden in zwei Hauptkategorien eingeteilt:
 
 - Standardtypen
 - Benutzerdefinierte Typen
-### **Standardtypen**
-Standarddiagramme sind solche, die normalerweise mit Standardformatierung verwendet werden:
+###  **Standardtypen**
+Standarddiagramme werden normalerweise mit Standardformatierung verwendet:
 
 - Spalte
 - Bar
@@ -34,39 +36,39 @@ Standarddiagramme sind solche, die normalerweise mit Standardformatierung verwen
 - Histogramm
 - Box und Whisker
 - Wasserfall
-|:- |:- |
-Jeder der Standard-Diagrammtypen wird unten detaillierter beschrieben.
-#### **Säulendiagramme**
-Säulendiagramme verwenden vertikale Balken (Säulen genannt), um unterschiedliche Werte eines oder mehrerer Datenelemente anzuzeigen. Säulendiagramme werden hauptsächlich verwendet, um Werte über verschiedene Kategorien hinweg zu vergleichen. Sie sind ideal, um Schwankungen im Wert eines Artikels im Laufe der Zeit anzuzeigen, beispielsweise bei einer Budgetanalyse.
+| :- | :- |
+Jeder der Standarddiagrammtypen wird im Folgenden ausführlicher beschrieben.
+####  **Säulendiagramme**
+Säulendiagramme verwenden vertikale Balken (Spalten genannt), um verschiedene Werte eines oder mehrerer Datenelemente anzuzeigen. Säulendiagramme werden hauptsächlich zum Vergleich von Werten verschiedener Kategorien verwendet. Sie eignen sich ideal, um Schwankungen im Wert eines Artikels im Laufe der Zeit anzuzeigen, beispielsweise bei der Durchführung einer Budgetanalyse.
 
 Die folgenden Säulendiagramme werden in Aspose.Cells unterstützt:
 
 - Gruppiertes Säulendiagramm
 - Gestapeltes Säulendiagramm
-- 100 % gestapeltes Säulendiagramm
-- Gruppiertes 3D-Säulendiagramm
+- 100 % gestapeltes Säulendiagramm
+- 3D-Cluster-Säulendiagramm
 - Gestapeltes 3D-Säulendiagramm
 - 3D 100 % gestapeltes Säulendiagramm
 - 3D-Säulendiagramm
-#### **Balkendiagramme**
-Balkendiagramme sind fast vom gleichen Typ wie Säulendiagramme. Der Unterschied besteht darin, dass sie horizontale Balken anstelle von vertikalen verwenden.
+####  **Balkendiagramme**
+Balkendiagramme sind fast vom gleichen Typ wie Säulendiagramme. Der Unterschied besteht darin, dass sie horizontale statt vertikaler Balken verwenden.
 
 Die folgenden Balkendiagramme werden in Aspose.Cells unterstützt:
 
 - Gruppiertes Balkendiagramm
 - Gestapeltes Balkendiagramm
 - 100 % gestapeltes Balkendiagramm
-- Gruppiertes 3D-Balkendiagramm
+- 3D-gruppiertes Balkendiagramm
 - Gestapeltes 3D-Balkendiagramm
-- 3D 100% gestapeltes Balkendiagramm
-#### **Liniendiagramme**
-Liniendiagramme verwenden Linien, um Informationen anzuzeigen. Diese Diagramme sind sehr nützlich, um einen zeitlichen Trend im Laufe der Zeit anzuzeigen, und werden häufig verwendet, um Schwankungen im Wert von mehr als einem Artikel im Laufe der Zeit darzustellen.
+- 3D 100 % gestapeltes Balkendiagramm
+####  **Liniendiagramme**
+Liniendiagramme nutzen Linien zur Darstellung von Informationen. Diese Diagramme sind sehr nützlich, um einen zeitlichen Trend über die Zeit darzustellen und werden oft verwendet, um Schwankungen im Wert von mehr als einem Artikel im Laufe der Zeit darzustellen.
 
 Die folgenden Liniendiagramme werden in Aspose.Cells unterstützt:
 
 - Einfaches Liniendiagramm
 - Gestapeltes Liniendiagramm
-- 100 % gestapeltes Liniendiagramm
+- 100 % gestapeltes Liniendiagramm
 - Liniendiagramm mit Datenmarkierungen
 - Gestapeltes Liniendiagramm mit Datenmarkierungen
 - 100 % gestapeltes Liniendiagramm mit Datenmarkierungen
@@ -74,52 +76,52 @@ Die folgenden Liniendiagramme werden in Aspose.Cells unterstützt:
 
 {{% alert color="primary" %}} 
 
-Datenmarkierungen werden verwendet, um Datenpunkte darzustellen, wobei die einzelnen Werte in einem Diagramm dargestellt werden. Datenmarker gleicher Farbe bilden eine Datenreihe.
+Datenmarkierungen werden verwendet, um Datenpunkte darzustellen, die einzelnen Werte, die in einem Diagramm dargestellt werden. Datenmarkierungen derselben Farbe bilden eine Datenreihe.
 
 {{% /alert %}} 
-#### **Kreisdiagramme**
-Tortendiagramme werden hauptsächlich zur Anzeige von Informationen verwendet, wenn Sie die verschiedenen Teile eines Ganzen oder die Prozentsätze einer Gesamtsumme darstellen möchten.
+####  **Kreisdiagramme**
+Kreisdiagramme werden hauptsächlich zur Anzeige von Informationen verwendet, wenn Sie die verschiedenen Teile eines Ganzen oder die Prozentsätze einer Gesamtsumme darstellen möchten.
 
-Die folgenden Tortendiagramme werden in Aspose.Cells unterstützt:
+Die folgenden Kreisdiagramme werden in Aspose.Cells unterstützt:
 
-- Einfaches Tortendiagramm
+- Einfaches Kreisdiagramm
 - 3D-Kreisdiagramm
-- Tortendiagramm
-- Explodiertes Tortendiagramm
+- Kreisdiagramm
+- Explodiertes Kreisdiagramm
 - 3D-Explosions-Kreisdiagramm
-- Balken des Tortendiagramms
-#### **Streudiagramme**
-Streudiagramme werden hauptsächlich in der Statistik verwendet, um zwei Sätze verwandter quantitativer oder numerischer Daten visuell anzuzeigen und zu vergleichen, indem nur endlich viele Punkte angezeigt werden, die jeweils eine Koordinate auf einer horizontalen ("X") und einer vertikalen ("Y") Achse haben.
+- Balken eines Kreisdiagramms
+####  **Streudiagramme**
+Streudiagramme werden meist in der Statistik verwendet, um zwei Sätze zusammengehöriger quantitativer oder numerischer Daten visuell darzustellen und zu vergleichen, indem nur endlich viele Punkte angezeigt werden, von denen jeder eine Koordinate auf einer horizontalen („X“) und einer vertikalen („Y“) Achse hat.
 
-Die folgenden Punktdiagramme werden in Aspose.Cells unterstützt:
+Die folgenden Streudiagramme werden in Aspose.Cells unterstützt:
 
 - Einfaches Streudiagramm
-- Streudiagramm, verbunden durch Kurven, mit Datenmarkierungen
-- Punktdiagramm verbunden durch Kurven, ohne Datenmarkierungen
-- Streudiagramm, verbunden durch Linien, mit Datenmarkierungen
-- Punktdiagramm verbunden durch Linien, ohne Datenmarkierungen
-#### **Flächendiagramme**
-Ein Flächendiagramm ist eine Art Liniendiagramm, in dem jeder Bereich eine durchgehende Farbe oder ein Muster erhält, um die Beziehungen zwischen den Teilen der Diagramminformationen hervorzuheben.
+- Durch Kurven verbundenes Streudiagramm mit Datenmarkierungen
+- Durch Kurven verbundenes Streudiagramm ohne Datenmarkierungen
+- Durch Linien verbundenes Streudiagramm mit Datenmarkierungen
+- Durch Linien verbundenes Streudiagramm ohne Datenmarkierungen
+####  **Flächendiagramme**
+Ein Flächendiagramm ist eine Art Liniendiagramm, bei dem jeder Bereich eine einfarbige Farbe oder ein Muster erhält, um die Beziehungen zwischen den Diagramminformationen hervorzuheben.
 
 Die folgenden Flächendiagramme werden in Aspose.Cells unterstützt:
 
 - Einfaches Flächendiagramm
 - Gestapeltes Flächendiagramm
-- 100 % gestapeltes Flächendiagramm
+- 100 % gestapeltes Flächendiagramm
 - 3D-Flächendiagramm
 - Gestapeltes 3D-Flächendiagramm
-- 3D 100 % gestapeltes Flächendiagramm
-#### **Donut-Diagramme**
-Ein Ringdiagramm ähnelt einem Tortendiagramm und wird hauptsächlich verwendet, um zu zeigen, wie die Anteile der Daten zum Ganzen beitragen.
+- 3D-100 % gestapeltes Flächendiagramm
+####  **Donut-Diagramme**
+Ein Donut-Diagramm ähnelt einem Kreisdiagramm und wird hauptsächlich verwendet, um zu zeigen, wie Proportionen von Daten zum Ganzen beitragen.
 
-Die folgenden Ringdiagramme werden in Aspose.Cells unterstützt:
+Die folgenden Donut-Diagramme werden in Aspose.Cells unterstützt:
 
 - Einfaches Donut-Diagramm
-- Explosionsdiagramm des Donuts
+- Explosionszeichnung des Donut-Diagramms
 
-#### **Radar-Diagramme**
+####  **Radarkarten**
 
-Netzdiagramme sind am nützlichsten, wenn Sie mehrere verschiedene Faktoren betrachten möchten, die sich auf ein Element beziehen. Diese Diagramme haben mehrere Achsen, entlang derer Daten gezeichnet werden können.
+Netzdiagramme sind am nützlichsten, wenn Sie mehrere unterschiedliche Faktoren betrachten möchten, die sich auf ein und dasselbe Element beziehen. Diese Diagramme verfügen über mehrere Achsen, entlang derer Daten dargestellt werden können.
 
 Die folgenden Radarkarten werden in Aspose.Cells unterstützt:
 
@@ -127,40 +129,40 @@ Die folgenden Radarkarten werden in Aspose.Cells unterstützt:
 - Radardiagramm mit Datenmarkierungen
 - Gefülltes Radardiagramm
 
-#### **Trichterdiagramm**
-Ein Trichterdiagramm zeigt Werte über mehrere Phasen in einem Prozess hinweg. Sie könnten beispielsweise ein Trichterdiagramm verwenden, um die Anzahl der Verkaufsinteressenten in jeder Phase einer Verkaufspipeline anzuzeigen. Normalerweise nehmen die Werte allmählich ab, sodass die Balken einem Trichter ähneln.
+####  **Trichterdiagramm**
+Ein Trichterdiagramm zeigt Werte über mehrere Phasen eines Prozesses hinweg. Sie könnten beispielsweise ein Trichterdiagramm verwenden, um die Anzahl der Verkaufsinteressenten in jeder Phase einer Vertriebspipeline anzuzeigen. Typischerweise nehmen die Werte allmählich ab, sodass die Balken einem Trichter ähneln.
 
 Das Trichterdiagramm wird in Aspose.Cells unterstützt.
 
-#### **Oberflächen-3D-Diagramme**
-Wie andere 3D-Karten basieren auch 3D-Oberflächenkarten auf den X-, Y- und Z-Achsen. Diese Diagramme sind nützlich, um eine Variation der „Z“-Variablen gemäß den anderen beiden Variablen „X“ und „Y“ darzustellen.
+####  **Oberflächen-3D-Karten**
+Wie andere 3D-Diagramme basieren auch 3D-Oberflächendiagramme auf der X-, Y- und Z-Achse. Diese Diagramme sind nützlich, um eine Variation der „Z“-Variablen entsprechend den anderen beiden Variablen „X“ und „Y“ anzuzeigen.
 
 Die folgenden Oberflächen-3D-Karten werden in Aspose.Cells unterstützt:
 
 - 3D-Oberflächendiagramm
-- Drahtgitter-3D-Oberflächendiagramm
+- Wireframe-3D-Oberflächendiagramm
 - Oberflächenkonturdiagramm
-- Drahtmodell-Konturdiagramm
-#### **Blasendiagramme**
-Ein Blasendiagramm ist eine Variation eines Streudiagramms, in dem die Datenpunkte durch Blasen ersetzt werden. Ein Blasendiagramm kann anstelle eines Streudiagramms verwendet werden, wenn Ihre Daten drei Datenreihen haben, von denen jede einen Satz von Werten enthält. Blasendiagramme werden hauptsächlich zur Darstellung von Finanzdaten verwendet.
+- Wireframe-Konturdiagramm
+####  **Blasendiagramme**
+Ein Blasendiagramm ist eine Variante eines Streudiagramms, bei dem die Datenpunkte durch Blasen ersetzt werden. Ein Blasendiagramm kann anstelle eines Streudiagramms verwendet werden, wenn Ihre Daten aus drei Datenreihen bestehen, von denen jede eine Reihe von Werten enthält. Blasendiagramme werden hauptsächlich zur Darstellung von Finanzdaten verwendet.
 
 Die folgenden Blasendiagramme werden in Aspose.Cells unterstützt:
 
 - Einfaches Blasendiagramm
 - 3D-Blasendiagramm
-#### **Aktiencharts**
-Aktiencharts werden hauptsächlich für Aktienkursdaten verwendet, können aber auch für wissenschaftliche Daten verwendet werden.
+####  **Aktiencharts**
+Aktiendiagramme werden hauptsächlich für Aktienkursdaten verwendet, können aber auch für wissenschaftliche Daten verwendet werden.
 
 Die folgenden Aktiencharts werden in Aspose.Cells unterstützt:
 
 - High-Low-Close-Aktiendiagramm
 - Open-High-Low-Close-Aktiendiagramm
-- Volumen-Hoch-Tief-Schließen-Aktiendiagramm
-- Volumen-Open-High-Low-Close-Aktienchart
-#### **Zylindertabellen**
+- Volumen-Höchst-Tief-Schluss-Aktiendiagramm
+- Volumen-Eröffnungs-Hoch-Tief-Schluss-Aktiendiagramm
+####  **Zylinderdiagramme**
 Diese Diagrammtypen verwenden Zylinderdatenmarkierungen, um Säulen-, Balken- und 3D-Säulendiagrammen einen dramatischen Effekt zu verleihen.
 
-Folgende Zylindertabellen werden in Aspose.Cells unterstützt:
+Die folgenden Zylinderdiagramme werden in Aspose.Cells unterstützt:
 
 - Einfaches Zylinderdiagramm
 - Gestapeltes Zylinderdiagramm
@@ -168,20 +170,20 @@ Folgende Zylindertabellen werden in Aspose.Cells unterstützt:
 - Zylindrisches Balkendiagramm
 - Gestapeltes zylindrisches Balkendiagramm
 - 100 % gestapeltes zylindrisches Balkendiagramm
-- Zylindrisches 3D-Säulendiagramm
-#### **Kegeldiagramme**
+- 3D-Zylindersäulendiagramm
+####  **Kegeldiagramme**
 Diese Diagrammtypen verwenden Kegeldatenmarkierungen, um Säulen-, Balken- und 3D-Säulendiagrammen einen dramatischen Effekt zu verleihen.
 
 Die folgenden Kegeldiagramme werden in Aspose.Cells unterstützt:
 
 - Einfaches Kegeldiagramm
 - Gestapeltes Kegeldiagramm
-- 100 % gestapeltes Kegeldiagramm
+- 100 % gestapeltes Kegeldiagramm
 - Konisches Balkendiagramm
 - Gestapeltes konisches Balkendiagramm
 - 100 % gestapeltes konisches Balkendiagramm
-- 3D-Kegelsäulendiagramm
-#### **Pyramidendiagramme**
+- Konisches 3D-Säulendiagramm
+####  **Pyramidendiagramme**
 Diese Diagrammtypen verwenden Pyramidendatenmarkierungen, um Säulen-, Balken- und 3D-Säulendiagrammen einen dramatischen Effekt zu verleihen.
 
 Die folgenden Pyramidendiagramme werden in Aspose.Cells unterstützt:
@@ -189,36 +191,36 @@ Die folgenden Pyramidendiagramme werden in Aspose.Cells unterstützt:
 - Einfaches Pyramidendiagramm
 - Gestapeltes Pyramidendiagramm
 - 100 % gestapeltes Pyramidendiagramm
-- Pyramidendiagramm
-- Gestapeltes Pyramiden-Balkendiagramm
-- 100 % gestapeltes Pyramiden-Balkendiagramm
+- Pyramiden-Balkendiagramm
+- Gestapeltes Pyramidenbalkendiagramm
+- 100 % gestapeltes Pyramidenbalkendiagramm
 - 3D-Pyramiden-Säulendiagramm
-#### **Treemap-Diagramm**
-Ein Treemap-Diagramm bietet eine hierarchische Ansicht Ihrer Daten und erleichtert das Erkennen von Mustern, z. B. welche Artikel die Bestseller eines Geschäfts sind. Die Baumzweige werden durch Rechtecke dargestellt und jeder Unterzweig wird als kleineres Rechteck dargestellt. Das Treemap-Diagramm zeigt Kategorien nach Farbe und Nähe an und kann problemlos viele Daten anzeigen, was mit anderen Diagrammtypen schwierig wäre.
+####  **Treemap-Diagramm**
+Ein Baumdiagramm bietet eine hierarchische Ansicht Ihrer Daten und erleichtert das Erkennen von Mustern, z. B. welche Artikel die Bestseller eines Geschäfts sind. Die Baumzweige werden durch Rechtecke dargestellt und jeder Unterzweig wird als kleineres Rechteck dargestellt. Das Baumkartendiagramm zeigt Kategorien nach Farbe und Nähe an und kann problemlos viele Daten anzeigen, die mit anderen Diagrammtypen schwierig wären.
 
 Das Treemap-Diagramm wird in Aspose.Cells unterstützt.
 
-#### **Sunburst-Diagramm**
-Das Sunburst-Diagramm ist ideal für die Anzeige hierarchischer Daten. Jede Ebene der Hierarchie wird durch einen Ring oder Kreis dargestellt, wobei der innerste Kreis die Spitze der Hierarchie bildet. Ein Sunburst-Diagramm ohne hierarchische Daten (eine Ebene von Kategorien) sieht ähnlich aus wie ein Donut-Diagramm. Ein Sunburst-Diagramm mit mehreren Kategorienebenen zeigt jedoch, wie sich die äußeren Ringe auf die inneren Ringe beziehen. Das Sunburst-Diagramm zeigt am effektivsten, wie ein Ring in seine beitragenden Teile zerlegt wird, während eine andere Art von hierarchischem Diagramm, das Treemap-Diagramm, ideal zum Vergleichen relativer Größen ist.
+####  **Sunburst-Diagramm**
+Das Sunburst-Diagramm eignet sich ideal zur Darstellung hierarchischer Daten. Jede Ebene der Hierarchie wird durch einen Ring oder Kreis dargestellt, wobei der innerste Kreis die Spitze der Hierarchie darstellt. Ein Sunburst-Diagramm ohne hierarchische Daten (eine Kategorieebene) ähnelt einem Donut-Diagramm. Ein Sunburst-Diagramm mit mehreren Kategorienebenen zeigt jedoch, wie sich die äußeren Ringe auf die inneren Ringe beziehen. Das Sunburst-Diagramm zeigt am effektivsten, wie ein Ring in seine Teilstücke zerlegt wird, während eine andere Art von hierarchischem Diagramm, das Treemap-Diagramm, sich ideal zum Vergleich relativer Größen eignet.
 
 Das Sunburst-Diagramm wird in Aspose.Cells unterstützt.
 
-#### **Histogramm-Diagramm**
+####  **Histogramm-Diagramm**
 Ein Histogramm ist ein Säulendiagramm, das Häufigkeitsdaten anzeigt.
 
 Die folgenden Radarkarten werden in Aspose.Cells unterstützt:
 
-- Histogramm-Diagramm
+- Histogrammdiagramm
 - Pareto-Diagramm
 
-#### **Box- und Whisker-Diagramm**
-Ein Box-and-Whisker-Diagramm zeigt die Verteilung der Daten in Quartilen und hebt den Mittelwert und die Ausreißer hervor. Die Kästchen können Linien aufweisen, die sich vertikal erstrecken und „Whisker“ genannt werden. Diese Linien zeigen die Variabilität außerhalb des oberen und unteren Quartils an, und jeder Punkt außerhalb dieser Linien oder Schnurrhaare wird als Ausreißer betrachtet.
+####  **Box- und Whisker-Diagramm**
+Ein Box-and-Whisker-Diagramm zeigt die Verteilung der Daten in Quartile und hebt den Mittelwert und die Ausreißer hervor. Die Kästchen können vertikal verlaufende Linien aufweisen, die „Whisker“ genannt werden. Diese Linien zeigen die Variabilität außerhalb des oberen und unteren Quartils an, und jeder Punkt außerhalb dieser Linien oder Whiskers wird als Ausreißer betrachtet.
 
 Das Box- und Whisker-Diagramm wird in Aspose.Cells unterstützt.
 
-#### **Wasserfalldiagramm**
-Ein Wasserfalldiagramm zeigt eine laufende Summe, wenn Werte addiert oder subtrahiert werden. Es ist nützlich, um zu verstehen, wie ein Anfangswert (z. B. Nettoeinkommen) von einer Reihe positiver und negativer Werte beeinflusst wird.
+####  **Wasserfalldiagramm**
+Ein Wasserfalldiagramm zeigt eine laufende Summe, wenn Werte addiert oder subtrahiert werden. Dies ist nützlich, um zu verstehen, wie ein Anfangswert (z. B. das Nettoeinkommen) durch eine Reihe positiver und negativer Werte beeinflusst wird.
 
 Das Wasserfalldiagramm wird in Aspose.Cells unterstützt.
-### **Benutzerdefinierte Diagrammtypen**
-Mit benutzerdefinierten Diagrammen können Sie Diagramme mit benutzerdefinierter Formatierung erstellen, die auch auf andere Diagramme angewendet werden können. Hier haben wir nur die Standarddiagramme besprochen. Wenn Sie mehr Details über benutzerdefinierte Diagramme erfahren möchten, lesen Sie bitte den Artikel Erstellen benutzerdefinierter Diagramme, in dem beschrieben wird, wie benutzerdefinierte Diagramme erstellt werden.
+###  **Benutzerdefinierte Diagrammtypen**
+Mit benutzerdefinierten Diagrammen können Sie Diagramme mit benutzerdefinierter Formatierung erstellen, die auch auf andere Diagramme angewendet werden kann. Hier haben wir nur die Standarddiagramme besprochen. Wenn Sie weitere Einzelheiten zu benutzerdefinierten Diagrammen erfahren möchten, lesen Sie bitte den Artikel „Benutzerdefinierte Diagramme erstellen“, in dem beschrieben wird, wie Sie benutzerdefinierte Diagramme erstellen.

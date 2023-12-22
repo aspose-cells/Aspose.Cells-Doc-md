@@ -1,67 +1,67 @@
-﻿---
+---
 title: Çalışma Sayfası Görünümleri
 type: docs
 weight: 40
 url: /tr/cpp/worksheet-views/
 ---
-## **Sayfa Sonu Önizlemesi**
+##  **Sayfa Sonu Önizlemesi**
 Tüm çalışma sayfaları iki modda görüntülenebilir:
 
 - Normal görünüm.
 - Sayfa sonu önizlemesi.
 
-Normal görünüm, çalışma sayfasının varsayılan görünümüdür. Sayfa sonu önizlemesi, bir çalışma sayfasını yazdırılacağı şekilde görüntüleyen bir düzenleme görünümüdür. Sayfa sonu önizlemesi, yazdırma alanını ve sayfa sonlarını ayarlayabilmeniz için her sayfada hangi verilerin olacağını gösterir. Aspose.Cells'i kullanan geliştiriciler, normal görünüm veya sayfa sonu önizleme modlarını etkinleştirebilir.
-### **Görünüm Modlarını Kontrol Etme**
- Aspose.Cells bir sınıf sağlar[IÇalışma Kitabı](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) bu bir Microsoft Excel dosyasını temsil eder. bu[IÇalışma Kitabı](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) sınıf bir içerir[çalışma sayfaları](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection)bir Excel dosyasındaki her çalışma sayfasına erişim sağlayan koleksiyon.
+Normal görünüm, çalışma sayfasının varsayılan görünümüdür. Sayfa sonu önizlemesi, bir çalışma sayfasını yazdırılacağı gibi görüntüleyen bir düzenleme görünümüdür. Sayfa sonu önizlemesi her sayfada hangi verilerin yer alacağını gösterir, böylece yazdırma alanını ve sayfa sonlarını ayarlayabilirsiniz. Geliştiriciler Aspose.Cells'i kullanarak normal görünüm veya sayfa sonu önizleme modlarını etkinleştirebilir.
+###  **Görünüm Modlarını Kontrol Etme**
+ Aspose.Cells bir sınıf sağlıyor[Çalışma kitabı](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) bu bir Microsoft Excel dosyasını temsil eder.[Çalışma kitabı](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) sınıf bir içerir[Çalışma sayfaları](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/)Bir Excel dosyasındaki her çalışma sayfasına erişime izin veren koleksiyon.
 
- Bir çalışma sayfası şununla temsil edilir:[IÇalışma Sayfası](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet)sınıf. bu[IÇalışma Sayfası](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) class, çalışma sayfalarını yönetmek için çok çeşitli yöntemler sağlar. Normal veya sayfa sonu önizleme modlarını etkinleştirmek için[IsPageBreakÖnizleme](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#aa1af81cfb7635232c7f839192b442892) yöntemi[IÇalışma Sayfası](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) sınıf.[IsPageBreakÖnizleme](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#aa1af81cfb7635232c7f839192b442892) bir bool değeri döndürür; bu, yalnızca bir**doğru** veya**YANLIŞ** değer.
-#### **Normal Görünümü Etkinleştirme**
-ayarlayarak bir çalışma sayfasını normal görünüme ayarlayın.[IsPageBreakÖnizleme](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#aa1af81cfb7635232c7f839192b442892)yöntemi[IÇalışma Sayfası](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) sınıf**YANLIŞ**.
-#### **Sayfa Sonu Önizlemesini Etkinleştirme**
-ayarlayarak herhangi bir çalışma sayfasını sayfa sonu önizlemesine ayarlayın.[IsPageBreakÖnizleme](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#aa1af81cfb7635232c7f839192b442892)yöntemi[IÇalışma Sayfası](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) sınıf**doğru**Bunu yapmak, çalışma sayfasını normal görünümden sayfa sonu önizlemesine geçirir.
+Bir çalışma sayfası şu şekilde temsil edilir:[Çalışma kağıdı](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/)sınıf.[Çalışma kağıdı](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) class, çalışma sayfalarını yönetmek için çok çeşitli yöntemler sağlar. Normal veya sayfa sonu önizleme modlarını etkinleştirmek için[SetIsPageBreakPreview](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/setispagebreakpreview/) yöntemi[Çalışma kağıdı](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) sınıf.[IsPageBreakÖnizleme](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/ispagebreakpreview/) bir bool değeri döndürür; bu, yalnızca bir değeri saklayabileceği anlamına gelir.**doğru** veya**YANLIŞ** değer.
+####  **Normal Görünümü Etkinleştirme**
+Ayarlayarak bir çalışma sayfasını normal görünüme ayarlayın.[SetIsPageBreakPreview](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/setispagebreakpreview/)yöntemi[Çalışma kağıdı](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/)sınıfı *false** olarak değiştirin.
+####  **Sayfa Sonu Önizlemesini Etkinleştirme**
+Ayarlayarak herhangi bir çalışma sayfasını sayfa sonu önizlemesine ayarlayın.[SetIsPageBreakPreview](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/setispagebreakpreview/)yöntemi[Çalışma kağıdı](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/)sınıfı *true** olarak değiştirin. Bunu yapmak, çalışma sayfasını normal görünümden sayfa sonu önizlemesine geçirir.
 
- nasıl kullanılacağını gösteren eksiksiz bir örnek aşağıda verilmiştir.[IsPageBreakÖnizleme](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#aa1af81cfb7635232c7f839192b442892)bir Excel dosyasının ilk çalışma sayfası için sayfa sonu önizleme modunu etkinleştirme yöntemi.
+Aşağıda, nasıl kullanılacağını gösteren eksiksiz bir örnek verilmiştir.[SetIsPageBreakPreview](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/setispagebreakpreview/)Bir Excel dosyasının ilk çalışma sayfası için sayfa sonu önizleme modunu etkinleştirme yöntemi.
 
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-WorksheetViews-EnablingPageBreakPreview.cpp" >}}
-## **Yakınlaştırma Faktörü**
-### **Microsoft Excel'i kullanma**
-Microsoft Excel, kullanıcıların bir çalışma sayfasının yakınlaştırma veya ölçekleme faktörünü ayarlamasına olanak tanıyan bir özellik sağlar. Bu özellik, kullanıcıların çalışma sayfası içeriğini daha küçük veya daha büyük görünümlerde görmelerine yardımcı olur. Kullanıcılar yakınlaştırma faktörünü herhangi bir değere ayarlayabilir.
-### **Aspose.Cells & Yakınlaştırma Faktörü**
- Aspose.Cells, geliştiricilerin çalışma sayfası yakınlaştırma faktörünü ayarlamasına da olanak tanır. Aspose.Cells bir sınıf sağlar[IÇalışma Kitabı](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) bu bir Microsoft Excel dosyasını temsil eder. bu[IÇalışma Kitabı](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) sınıf bir içerir[çalışma sayfaları](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection)bir Excel dosyasındaki her çalışma sayfasına erişim sağlayan koleksiyon.
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-WorksheetViews-EnablingPageBreakPreview-new.cpp" >}}
+##  **Yakınlaştırma Faktörü**
+###  **Microsoft Excel'i kullanma**
+Microsoft Excel, kullanıcıların çalışma sayfasının yakınlaştırma veya ölçeklendirme faktörünü ayarlamasına olanak tanıyan bir özellik sağlar. Bu özellik, kullanıcıların çalışma sayfası içeriğini daha küçük veya daha büyük görünümlerde görmesine yardımcı olur. Kullanıcılar yakınlaştırma faktörünü herhangi bir değere ayarlayabilir.
+###  **Aspose.Cells & Yakınlaştırma Faktörü**
+ Aspose.Cells ayrıca geliştiricilerin çalışma sayfası yakınlaştırma faktörünü ayarlamasına da olanak tanır. Aspose.Cells bir sınıf sağlıyor[Çalışma kitabı](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) bu bir Microsoft Excel dosyasını temsil eder.[Çalışma kitabı](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) sınıf bir içerir[Çalışma sayfaları](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/)Bir Excel dosyasındaki her çalışma sayfasına erişime izin veren koleksiyon.
 
- Bir çalışma sayfası şununla temsil edilir:[IÇalışma Sayfası](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) sınıf. bu[IÇalışma Sayfası](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet)class, çalışma sayfalarını yönetmek için çok çeşitli yöntemler sağlar. Bir çalışma sayfasının yakınlaştırma faktörünü ayarlamak için[yakınlaştır](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#ad94669a93a4324b3a4b7f9582df5b0ec) yöntemi[IÇalışma Sayfası](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) sınıfa bir sayısal (tamsayı) değer atayarak yakınlaştırma faktörü ayarlanır.[yakınlaştır](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#ad94669a93a4324b3a4b7f9582df5b0ec)yöntem.
+Bir çalışma sayfası şu şekilde temsil edilir:[Çalışma kağıdı](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) sınıf.[Çalışma kağıdı](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/)class, çalışma sayfalarını yönetmek için çok çeşitli yöntemler sağlar. Bir çalışma sayfasının yakınlaştırma faktörünü ayarlamak için[Yakınlaştırmayı Ayarla](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/setzoom/) yöntemi[Çalışma kağıdı](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) sınıf. Yakınlaştırma faktörü, sayısal (tamsayı) bir değer atanarak ayarlanır.[Yakınlaştırmayı Ayarla](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/setzoom/)yöntem.
 
- nasıl kullanılacağını gösteren eksiksiz bir örnek aşağıda verilmiştir.[yakınlaştır](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#ad94669a93a4324b3a4b7f9582df5b0ec)Excel dosyasının ilk çalışma sayfasının yakınlaştırma faktörünü ayarlama yöntemi.
+Aşağıda, nasıl kullanılacağını gösteren eksiksiz bir örnek verilmiştir.[Yakınlaştırmayı Ayarla](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/setzoom/)Excel dosyasının ilk çalışma sayfasının yakınlaştırma faktörünü ayarlama yöntemi.
 
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-WorksheetViews-ZoomFactor.cpp" >}}
-## **Donma bölmeleri**
-### **Microsoft Excel'i kullanma**
-Bölmeleri dondur, Microsoft Excel tarafından sağlanan bir özelliktir. Bölmeleri dondurmak, bir çalışma sayfasında kaydırırken görünür kalacak verileri seçmenize olanak tanır.
-### **Aspose.Cells & Bölmeleri Dondur**
- Aspose.Cells, geliştiricilerin çalışma zamanında çalışma sayfalarına bölmeleri dondurma uygulamasına da izin verir. Aspose.Cells bir sınıf sağlar[IÇalışma Kitabı](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) bu bir Microsoft Excel dosyasını temsil eder. bu[IÇalışma Kitabı](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) sınıf bir içerir[çalışma sayfaları](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection)bir Excel dosyasındaki her çalışma sayfasına erişim sağlayan koleksiyon.
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-WorksheetViews-ZoomFactor-new.cpp" >}}
+##  **Donma bölmeleri**
+###  **Microsoft Excel'i kullanma**
+Bölmeleri dondurma, Microsoft Excel tarafından sağlanan bir özelliktir. Bölmeleri dondurmak, bir çalışma sayfasında kaydırma yaparken verilerin görünür kalmasını seçmenize olanak tanır.
+###  **Aspose.Cells & Bölmeleri Dondur**
+ Aspose.Cells ayrıca geliştiricilerin çalışma zamanında çalışma sayfalarına dondurma bölmeleri uygulamasına da olanak tanır. Aspose.Cells bir sınıf sağlıyor[Çalışma kitabı](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) bu bir Microsoft Excel dosyasını temsil eder.[Çalışma kitabı](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) sınıf bir içerir[Çalışma sayfaları](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/)Bir Excel dosyasındaki her çalışma sayfasına erişime izin veren koleksiyon.
 
- Bir çalışma sayfası şununla temsil edilir:[IÇalışma Sayfası](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) sınıf. bu[IÇalışma Sayfası](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet)class, çalışma sayfalarını yönetmek için çok çeşitli yöntemler sağlar. Bölmeleri dondurmak için,[Donma bölmeleri](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#ac4f68dfe9ac219fb8de6d6824ec1aa22)yöntemi[IÇalışma Sayfası](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) sınıf. bu[Donma bölmeleri](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#ac4f68dfe9ac219fb8de6d6824ec1aa22)yöntem aşağıdaki parametreleri alır:
+Bir çalışma sayfası şu şekilde temsil edilir:[Çalışma kağıdı](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) sınıf.[Çalışma kağıdı](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/)class, çalışma sayfalarını yönetmek için çok çeşitli yöntemler sağlar. Bölmeleri dondurmayı yapılandırmak için[Donma bölmeleri](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/freezepanes/)yöntemi[Çalışma kağıdı](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) sınıf.[Donma bölmeleri](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/freezepanes/)yöntem aşağıdaki parametreleri alır:
 
-- **Sıra**, dondurmanın başlayacağı hücrenin satır dizini.
-- **Kolon**, dondurmanın başlayacağı hücrenin sütun dizini.
-- **Donmuş satırlar**, üst bölmedeki görünür satırların sayısı.
-- **Dondurulmuş sütunlar**, sol bölmedeki görünür sütunların sayısı
+- *Satır**, dondurmanın başlayacağı hücrenin satır dizini.
+- *Sütun**, dondurmanın başlayacağı hücrenin sütun dizini.
+- *Dondurulmuş satırlar**, üst bölmedeki görünür satırların sayısı.
+- *Dondurulmuş sütunlar**, sol bölmedeki görünür sütunların sayısı
 
- nasıl kullanılacağını gösteren eksiksiz bir örnek aşağıda verilmiştir.[Donma bölmeleri](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#ac4f68dfe9ac219fb8de6d6824ec1aa22)Excel dosyasının ilk çalışma sayfasının satırlarını ve sütunlarını (4. satır ve 3. sütunla temsil edilen, satır ve sütunların 0 dizininden başladığı C4'ten başlayarak) dondurma yöntemi.
+ Aşağıda, nasıl kullanılacağını gösteren eksiksiz bir örnek verilmiştir.[Donma bölmeleri](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/freezepanes/)Excel dosyasının ilk çalışma sayfasının satırlarını ve sütunlarını (C4'ten başlayarak, 4. satır ve 3. sütunla temsil edilen, satır ve sütunların 0 dizininden başladığı) dondurma yöntemi.
 
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-WorksheetViews-FreezePanes.cpp" >}}
-## **Bölme Bölmeleri**
-Aynı çalışma sayfasında iki farklı görünüm elde etmek için ekranı bölmeniz gerekiyorsa bölmeleri ayırın. Microsoft Excel, çalışma sayfanızın birden fazla kopyasını görüntülemenize ve çalışma sayfanızın her bölmesinde bağımsız olarak kaydırmanıza izin veren çok kullanışlı bir özellik sunar: bölünmüş bölmeler.
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-WorksheetViews-FreezePanes-new.cpp" >}}
+##  **Bölünmüş Bölmeler**
+Aynı çalışma sayfasında iki farklı görünüm elde etmek için ekranı bölmeniz gerekiyorsa bölmeleri ayırın. Microsoft Excel, çalışma sayfanızın birden fazla kopyasını görüntülemenize ve çalışma sayfanızın her bölmesinde bağımsız olarak gezinebilmenize olanak tanıyan çok kullanışlı bir özellik sunar: bölünmüş bölmeler.
 
-Bölmeler aynı anda çalışır. Birinde değişiklik yaparsanız, değişiklik aynı anda diğerinde de görünür. Aspose.Cells, kullanıcılar için bölünmüş bölmeler özelliği sağlar.
-### **Bölünmüş Bölmeleri Uygulama ve Kaldırma**
-#### **bölme bölmeleri**
- Aspose.Cells bir sınıf sağlar[IÇalışma Kitabı](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) bu bir Microsoft Excel dosyasını temsil eder. bu[IÇalışma Kitabı](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook)class, bir Excel dosyasını yönetmek için çok çeşitli yöntemler sağlar. Bölünmüş görünümler uygulamak için[Bölmek](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#a0e581a3a9528a767c57008521ee02b6f) yöntemi[IÇalışma Sayfası](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) sınıf. Bölünmüş bölmeleri kaldırmak için,[Bölmeyi Kaldır](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#a5b554108c91f686e906400c26248eee5)yöntem.
+Bölmeler aynı anda çalışır. Birinde değişiklik yaptığınızda değişiklik aynı anda diğerinde de görünür. Aspose.Cells kullanıcılara bölmeleri bölme özelliğini sunuyor.
+###  **Bölünmüş Bölmeleri Uygulama ve Kaldırma**
+####  **Bölme Bölmeleri**
+ Aspose.Cells bir sınıf sağlıyor[Çalışma kitabı](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) bu bir Microsoft Excel dosyasını temsil eder.[Çalışma kitabı](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/)class, bir Excel dosyasını yönetmek için çok çeşitli yöntemler sağlar. Bölünmüş görünümleri uygulamak için şunu kullanın:[Bölmek](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/split/) yöntemi[Çalışma kağıdı](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) sınıf. Bölünmüş bölmeleri kaldırmak için şunu kullanın:[Bölmeyi Kaldır](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/removesplit/)yöntem.
 
-Örnekte, yüklenen basit bir şablon dosyası kullanıyoruz, ardından ilk çalışma sayfasındaki bir hücreye bölünmüş bölmeleri ayarla özelliği uygulandı. Güncellenen dosya kaydedilir.
+Örnekte, yüklenen basit bir şablon dosyası kullanıyoruz, ardından ilk çalışma sayfasındaki bir hücreye bölünmüş bölmeleri ayarlama özelliği uygulanıyor. Güncellenen dosya kaydedilir.
 
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-WorksheetViews-SplitPanes.cpp" >}}
-#### **Bölmeleri Kaldırma**
- kullanarak bölünmüş bölmeleri kaldırın.[Bölmeyi Kaldır](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#a5b554108c91f686e906400c26248eee5)yöntem.
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-WorksheetViews-SplitPanes-new.cpp" >}}
+####  **Bölmeleri Çıkarma**
+ kullanarak bölünmüş bölmeleri kaldırın.[Bölmeyi Kaldır](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/removesplit/)yöntem.
 
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-WorksheetViews-RemovingPanes.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-WorksheetViews-RemovingPanes-new.cpp" >}}

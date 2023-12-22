@@ -10,7 +10,7 @@ keywords: custom,logo,setting,api
 
 ##  los pasos principales son:
 
-- crear una instancia de hoja de cálculo x_
+- crear instancia x_spreadsheet
 ```javascript
 xs = x_spreadsheet(id, options)
     // the parameters are:
@@ -20,6 +20,7 @@ xs = x_spreadsheet(id, options)
 	    updateMode:  currently we only support 'server'
 	    updateUrl:  set the server side  url for update action based on json
 	    mode: read means readonly spread sheet/edit means we can edit the spread sheet
+            allowSelectTextInTextBoxInReadMode: whether allow select text in TextBox control when in read mode,the default value is false
 	    showToolbar:   means whether to show toolbar
 	    showFileName:  whether to show the filename 
 	    local:         support multiple language for menus ,the locale can be:
@@ -30,7 +31,7 @@ xs = x_spreadsheet(id, options)
 			        ko,th,tr,vi,cht
                            for  Korean,Thai,Turkey,Vietnamese,Traditional Chinese                  
 	    showContextmenu:   means whether to show contextmenu on right click on a cell
-
+            loadingGif:  the loading gif url when loading the image/shape .it is optional,the default value is:content/img/updating.gif
 	for example the below code init a x_spreadsheet object.
 	xs = x_spreadsheet('#gridjs-demo', {
 			updateMode:'server',
@@ -69,7 +70,7 @@ xs.setActiveCell(row,col);
 	col: the cell column
 ```
 
-- establecer información para la operación de forma/imágenes para la acción del lado del servidor
+- establecer información para la operación de formas/imágenes para la acción del lado del servidor
 ```javascript
 xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActionUrl, imageCopyActionUrl, zindex, loadingGif);
 // the parameters are:
@@ -99,7 +100,7 @@ xs.setFileDownloadInfo(downloadActionUrl);
             xs.setFileDownloadInfo(fileDownloadUrl);
 ```
 
-- establecer información para la operación del objeto ole para la acción del lado del servidor
+- establecer información para la operación de objetos antiguos para la acción del lado del servidor
 ```javascript
 xs.setOleDownloadInfo(oleActionUrl);
 // the parameters are:
@@ -112,12 +113,12 @@ xs.setOleDownloadInfo(oleActionUrl);
 
 _
 ##  otras API útiles
--  Renderizar la vista
+-  renderizar la vista
 ```javascript
 xs.reRender()
 ```
 
--  obtener la identificación de la hoja activa
+-  obtener ID de hoja activa
 ```javascript
 xs.getActiveSheet()
 ```
@@ -136,7 +137,7 @@ xs.setFileName(name)
 	name:the file name with extension ,for example trip.xlsx
 ```
 
--  si habilitar el evento de clave de ventana para GridJs
+- si se debe habilitar el evento de clave de ventana para GridJs
 ```javascript
 xs.enableKeyEvent(isenable)
 // the parameters is:
@@ -144,7 +145,7 @@ xs.enableKeyEvent(isenable)
 //when has other controls in the same page, you may want to ignore the key event in GridJs 
 ```
 
--  desvincule todos los eventos adjuntos a GridJs, incluido el evento de tecla de ventana y el evento de cambio de tamaño de ventana.
+-  desvincula todos los eventos adjuntos a GridJs, incluido el evento de clave de ventana y el evento de cambio de tamaño de ventana.
 ```javascript
 xs.destroy()
 ```
@@ -166,7 +167,7 @@ xs.destroy()
 		xs.setActiveSheet(xs.getActiveSheet())
 ```
 
-- Obtenga la imagen/forma seleccionada, si no selecciona nada, devolverá nulo
+-  Obtenga la imagen/forma seleccionada; si no selecciona nada, devolverá nulo
 ```javascript
 xs.sheet.selector.getObj()
 ```
@@ -200,7 +201,7 @@ xs.sheet.data.setCellText(ri,ci,value,state)
 	ri:row index 
 	ci:column index
 	value:the cell value
-	state: input | finished
+	state: input | finished ,if finished ,it will do update action to servside
 ```
 
 -  Obtener/Establecer el rango de celdas seleccionado
@@ -221,12 +222,12 @@ xs.sheet.data.setSelectedCellAttr(attributename,value)
 	value:the  value for the attribute
 ```
 
--  Combinar el área de la celda seleccionada
+-  Fusionar el área de la celda seleccionada
 ```javascript
 xs.sheet.data.merge()
 ```
 
--  Separar el área de la celda seleccionada
+-  Separar el área de celda seleccionada
 ```javascript
 xs.sheet.data.unmerge()
 ```
@@ -236,7 +237,7 @@ xs.sheet.data.deleteCell(type)
     // the parameters are:
 	type:all|format  all: means delete the cell and clear the style ;format means delete the cell value and keep the cell style
 ```
--  Establecer el panel de congelación
+-  Configurar el panel congelado
 ```javascript
 xs.sheet.data.setFreeze(ri,ci)
     // the parameters are:
@@ -258,13 +259,29 @@ xs.sheet.data.delete(type)
 	type: row | column
 ```
 
--  Establecer el ancho de la columna
+-  Establecer el ancho de la columna.
 ```javascript
 xs.sheet.data.setColWidth(ci,width)
     // the parameters are:
 	ci:column index
 	width:the width for the column
 ```
+-  Establecer el ancho de las columnas.
+```javascript
+xs.sheet.data.setColsWidth(sci,eci,width)
+    // the parameters are:
+	sci:the start column index
+	eci:the end column index
+	width:the width for the column
+```
+
+-  Establecer el ancho para todas las columnas.
+```javascript
+xs.sheet.data.setAllColsWidth(width)
+    // the parameters are:
+	width:the width for the columns
+```
+
 -  Obtener el ancho de la columna.
 ```javascript
 xs.sheet.data.cols.sumWidth(min,max)
@@ -273,27 +290,45 @@ xs.sheet.data.cols.sumWidth(min,max)
 	max:the end column index,not include
 ```
 
--  Establecer la altura de la fila
+-  Establecer la altura de la fila.
 ```javascript
 xs.sheet.data.setRowHeight(ri,height)
     // the parameters are:
 	ri:row index
 	height:the height for the row
 ```
--  Obtener la altura de la fila
+-  Establecer la altura de las filas.
+```javascript
+xs.sheet.data.setRowsHeight(sri,eri,height)
+    // the parameters are:
+	sri:start row index
+	eri:end row index
+	height:the height for the rows
+```
+
+- Establecer la altura para todas las filas.
+```javascript
+xs.sheet.data.setAllRowsHeight(height)
+    // the parameters are:
+	height:the height for the rows
+```
+
+
+-  Obtener la altura de la fila.
 ```javascript
 xs.sheet.data.rows.sumHeight(min,max)
     // the parameters are:
 	min:the start row index
 	max:the end row index,not include
 ```
+
 -  Obtener/Establecer la dirección de visualización
 ```javascript
 xs.sheet.data.displayRight2Left
 ```
 
 ##  devolución de llamada de evento
--  podemos rastrear los siguientes eventos
+-  Podemos rastrear los siguientes eventos.
 ```javascript
  xs.on('cell-selected', (cell, ri, ci) => {
                 console.log('cell selected:', cell, ', ri:', ri, ', ci:', ci);
@@ -309,6 +344,8 @@ xs.sheet.data.displayRight2Left
                 console.log('shape or image selected id:', shapeOrImageObj.id, ', type: ', shapeOrImageObj.type);
             }).on('sheet-selected', (id,name) => {
                 console.log('sheet selected id:', id, ', name: ',name);
+            }).on('sheet-loaded', (id,name) => {
+                console.log('sheet load finished:', id, ', name: ',name);
             }).on('cell-edited', (text, ri, ci) => {
                 console.log('text:', text, ', ri: ', ri, ', ci:', ci);
             });
@@ -316,7 +353,7 @@ xs.sheet.data.displayRight2Left
 
 ##  personalización
 
--  establecer el icono y el enlace de inicio
+-  establecer icono y enlace de inicio
 ```javascript
 xs.sheet.menubar.icon.setHomeIcon(iconUrl,targetUrl)
     // the parameters are:
@@ -336,7 +373,7 @@ xs.sheet.menubar.hide()
 ```
 
 
-para obtener información detallada, puede consultar el ejemplo aquí
+Para obtener información detallada, puede consultar el ejemplo aquí.
 <https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
 
 

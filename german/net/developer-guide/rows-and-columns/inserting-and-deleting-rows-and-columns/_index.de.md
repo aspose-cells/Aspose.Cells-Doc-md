@@ -1,20 +1,22 @@
-﻿---
+---
 title: Einfügen und Löschen von Zeilen und Spalten einer Excel-Datei
 linktitle: Einfügen und Löschen von Zeilen und Spalten
 type: docs
 weight: 70
 url: /de/net/inserting-and-deleting-rows-and-columns/
+description: In diesem Artikel wird gezeigt, wie Sie Zeilen und Spalten mit Aspose.Cells for .NET API einfügen und löschen.
+keywords: Aspose.Cells C# manage rows and columns, insert rows and columns, delete rows and columns
 ---
-## **Einführung**
+##  **Einführung**
 
-Unabhängig davon, ob Sie ein neues Arbeitsblatt von Grund auf neu erstellen oder an einem vorhandenen Arbeitsblatt arbeiten, müssen wir möglicherweise zusätzliche Zeilen oder Spalten hinzufügen, um mehr Daten aufzunehmen. Umgekehrt müssen wir möglicherweise auch Zeilen oder Spalten von bestimmten Positionen im Arbeitsblatt löschen.
-Um diese Anforderungen zu erfüllen, stellt Aspose.Cells einen sehr einfachsten Satz von Klassen und Methoden bereit, die unten besprochen werden.
+Unabhängig davon, ob wir ein neues Arbeitsblatt von Grund auf erstellen oder an einem vorhandenen Arbeitsblatt arbeiten, müssen wir möglicherweise zusätzliche Zeilen oder Spalten hinzufügen, um mehr Daten aufzunehmen. Umgekehrt müssen wir möglicherweise auch Zeilen oder Spalten an bestimmten Positionen im Arbeitsblatt löschen.
+Um diese Anforderungen zu erfüllen, stellt Aspose.Cells einen sehr einfachen Satz von Klassen und Methoden bereit, die unten erläutert werden.
 
-### **Zeilen und Spalten verwalten**
+###  **Zeilen und Spalten verwalten**
 
-Aspose.Cells bietet eine Klasse[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , die eine Microsoft Excel-Datei darstellt. Das[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse enthält a[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) Sammlung, die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse. Das[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse bietet a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)Auflistung, die alle Zellen im Arbeitsblatt darstellt.
+Aspose.Cells bietet eine Klasse[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , das eine Microsoft Excel-Datei darstellt. Der[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse enthält a[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)Sammlung, die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse. Der[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse bietet a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)Sammlung, die alle Zellen im Arbeitsblatt darstellt.
 
- Das[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)Die Sammlung bietet mehrere Methoden zum Verwalten von Zeilen und Spalten in einem Arbeitsblatt. Einige davon werden unten besprochen.
+ Der[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)Die Sammlung bietet mehrere Methoden zum Verwalten von Zeilen und Spalten in einem Arbeitsblatt. Einige davon werden im Folgenden besprochen.
 
 {{% alert color="primary" %}}
 
@@ -23,44 +25,44 @@ Wenn Zeilen oder Spalten hinzugefügt werden, wird der Inhalt im Arbeitsblatt na
 {{% /alert %}}
 
 
-## **Zeilen und Spalten einfügen**
+##  **Fügen Sie Zeilen und Spalten ein**
 
-### **Zeile einfügen**
+###  **So fügen Sie eine Zeile ein**
 
- Fügen Sie an beliebiger Stelle eine Zeile in das Arbeitsblatt ein, indem Sie die aufrufen[**Zeile einfügen**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow) Methode der[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Sammlung. Das[**Zeile einfügen**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow)-Methode nimmt den Index der Zeile, in der die neue Zeile eingefügt wird.
+ Fügen Sie an einer beliebigen Stelle eine Zeile in das Arbeitsblatt ein, indem Sie die aufrufen[**Zeile einfügen**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow) Methode der[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Sammlung. Der[**Zeile einfügen**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow)Die Methode übernimmt den Index der Zeile, in die die neue Zeile eingefügt wird.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-InsertingARow-1.cs" >}}
 
-### **Mehrere Zeilen einfügen**
+###  **So fügen Sie mehrere Zeilen ein**
 
- Um mehrere Zeilen in ein Arbeitsblatt einzufügen, rufen Sie die auf[**Zeilen einfügen**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows) Methode der[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Sammlung. Das[**Zeilen einfügen**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows)Die Methode benötigt zwei Parameter:
+ Um mehrere Zeilen in ein Arbeitsblatt einzufügen, rufen Sie auf[**Zeilen einfügen**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows) Methode der[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Sammlung. Der[**Zeilen einfügen**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows)Die Methode benötigt zwei Parameter:
 
 - Zeilenindex, der Index der Zeile, ab der die neuen Zeilen eingefügt werden.
 - Anzahl der Zeilen, die Gesamtzahl der Zeilen, die eingefügt werden müssen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-InsertingMultipleRows-1.cs" >}}
 
-### **Zeile mit Formatierung einfügen**
+###  **So fügen Sie eine Zeile mit Formatierung ein**
 
-Um eine Zeile mit Formatierungsoptionen einzufügen, verwenden Sie die[**Zeilen einfügen**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows)Überlastung, die dauert[**Einfügeoptionen**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions) als Parameter. Stellen Sie die ein[**CopyFormatType**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype) Eigentum von[**Einfügeoptionen**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions) Klasse mit[**CopyFormatType**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype) Aufzählung. Das[**CopyFormatType**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype)Die Aufzählung hat drei Mitglieder, wie unten aufgeführt.
+Um eine Zeile mit Formatierungsoptionen einzufügen, verwenden Sie die[**Zeilen einfügen**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows)Überlastung, die dauert[**InsertOptions**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions) als Parameter. Stellen Sie die ein[**CopyFormatType**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype) Eigentum von[**InsertOptions**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions) Klasse mit[**CopyFormatType**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype) Aufzählung. Der[**CopyFormatType**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype)Die Aufzählung hat drei Mitglieder, wie unten aufgeführt.
 
 - SameAsAbove: Formatiert die Zeile genauso wie die obige Zeile.
-- SameAsBelow: Formatiert die Zeile genauso wie die untere Zeile.
+- SameAsBelow: Formatiert die Zeile genauso wie die Zeile unten.
 - Löschen: Löscht die Formatierung.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-InsertingARowWithFormatting-1.cs" >}}
 
-### **Spalte einfügen**
+###  **So fügen Sie eine Spalte ein**
 
- Entwickler können auch an beliebiger Stelle eine Spalte in das Arbeitsblatt einfügen, indem sie die aufrufen[**Spalte einfügen**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcolumn) Methode der[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)Sammlung. Das[**Spalte einfügen**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcolumn)-Methode übernimmt den Index der Spalte, in die die neue Spalte eingefügt wird.
+ Entwickler können auch an einer beliebigen Stelle eine Spalte in das Arbeitsblatt einfügen, indem sie die aufrufen[**Spalte einfügen**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcolumn) Methode der[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)Sammlung. Der[**Spalte einfügen**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcolumn)Die Methode übernimmt den Index der Spalte, in die die neue Spalte eingefügt wird.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-InsertingAColumn-1.cs" >}}
 
-## **Zeilen und Spalten löschen**
+##  **Zeilen und Spalten löschen**
 
-### **Mehrere Zeilen löschen**
+###  **So löschen Sie mehrere Zeilen**
 
-Um mehrere Zeilen aus einem Arbeitsblatt zu löschen, rufen Sie die auf[**Zeilen löschen**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows) Methode der[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Sammlung. Das[**Zeilen löschen**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows)Die Methode benötigt zwei Parameter:
+ Um mehrere Zeilen aus einem Arbeitsblatt zu löschen, rufen Sie auf[**Zeilen löschen**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows) Methode der[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Sammlung. Der[**Zeilen löschen**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows)Die Methode benötigt zwei Parameter:
 
 - Zeilenindex, der Index der Zeile, aus der die Zeilen gelöscht werden.
 - Anzahl der Zeilen, die Gesamtzahl der Zeilen, die gelöscht werden müssen.
@@ -68,8 +70,8 @@ Um mehrere Zeilen aus einem Arbeitsblatt zu löschen, rufen Sie die auf[**Zeilen
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-DeletingMultipleRows-1.cs" >}}
 
 
-### **Löschen Sie eine Spalte**
+###  **So löschen Sie eine Spalte**
 
- Um eine Spalte an einer beliebigen Stelle aus dem Arbeitsblatt zu löschen, rufen Sie die auf[**Spalte löschen**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn) Methode der[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Sammlung. Das[**Spalte löschen**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn)-Methode nimmt den Index der zu löschenden Spalte.
+ Um an einer beliebigen Stelle eine Spalte aus dem Arbeitsblatt zu löschen, rufen Sie auf[**Spalte löschen**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn) Methode der[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Sammlung. Der[**Spalte löschen**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn)Die Methode verwendet den Index der zu löschenden Spalte.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-DeletingAColumn-1.cs" >}}

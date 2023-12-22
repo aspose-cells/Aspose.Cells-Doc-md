@@ -6,9 +6,9 @@ url: /fr/java/installation/
 ---
 ##  **Installation de Aspose.Cells for Java à partir du référentiel Maven**
 
-Aspose héberge toutes les API Java sur[Maven référentiel](https://releases.aspose.com/java/repo/) . Vous pouvez facilement utiliser[Aspose.Cells for Java API](https://releases.aspose.com/cells/java/) directement dans vos projets Maven avec des configurations simples.
+Aspose héberge toutes les API Java sur[Dépôt Maven](https://releases.aspose.com/java/repo/) . Vous pouvez facilement utiliser[Aspose.Cells for Java API](https://releases.aspose.com/cells/java/) directement dans vos Projets Maven avec des configurations simples.
 
-Tout d'abord, vous devez spécifier la configuration/l'emplacement du référentiel Aspose Maven dans votre Maven pom.xml comme ci-dessous :
+Tout d’abord, vous devez spécifier la configuration/l’emplacement du référentiel Aspose Maven dans votre pom.xml Maven comme ci-dessous :
 
 {{< highlight "java" >}}
 
@@ -39,7 +39,7 @@ repositories {
 }
 {{< /highlight >}}
 
-Définissez ensuite la dépendance Aspose.Cells for Java API dans votre pom.xml comme suit (cela inclura tout, par exemple le fichier jar principal, Java Docs et d'autres bibliothèques en conséquence):
+Définissez ensuite la dépendance Aspose.Cells for Java API dans votre pom.xml comme suit (cela inclura tout, par exemple le fichier jar principal, Java Docs et d'autres bibliothèques en conséquence) :
 
 {{< highlight "java" >}}
 
@@ -51,7 +51,7 @@ Définissez ensuite la dépendance Aspose.Cells for Java API dans votre pom.xml 
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>23.5</version>
+            <version>23.12</version>
 
         </dependency>
 
@@ -61,7 +61,7 @@ Définissez ensuite la dépendance Aspose.Cells for Java API dans votre pom.xml 
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>23.5</version>
+            <version>23.12</version>
 
             <classifier>javadoc</classifier>
 
@@ -73,7 +73,7 @@ Définissez ensuite la dépendance Aspose.Cells for Java API dans votre pom.xml 
 
             <artifactId>bcprov-jdk15on</artifactId>
 
-            <version>1.60</version>
+            <version>1.68</version>
 
         </dependency>        
 
@@ -83,7 +83,7 @@ Définissez ensuite la dépendance Aspose.Cells for Java API dans votre pom.xml 
 
             <artifactId>bcpkix-jdk15on</artifactId>
 
-            <version>1.60</version>
+            <version>1.68</version>
 
         </dependency>        
 
@@ -97,4 +97,4 @@ Toutes nos félicitations! Vous avez défini avec succès la dépendance Aspose.
 
 Veuillez vérifier les points suivants pour obtenir une assistance technique rapide
 
-[Aspose.Cells - Forums](https://forum.aspose.com/c/cells/9)
+[Aspose.Cells - Forum](https://forum.aspose.com/c/cells/9)

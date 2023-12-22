@@ -1,22 +1,24 @@
-﻿---
-title: AutoFilter'ı Yeniledikten Sonra Tüm Gizli Satır Dizinlerini Alın
+---
+title: Otomatik Filtreyi Yeniledikten Sonra Tüm Gizli Satır Dizinlerini Al
 type: docs
 weight: 320
 url: /tr/net/get-all-hidden-rows-indices-after-refreshing-autofilter/
+description: Aspose.Cells for .NET API'i kullanarak Otomatik Filtreyi yeniledikten sonra tüm gizli satır dizinlerini nasıl alacağınızı öğrenin.
+keywords: Get All Hidden Rows Indices after Refreshing AutoFilter, Obtain All Hidden Rows Indices after Refreshing AutoFilter, Retrieve All Hidden Rows Indices after Refreshing AutoFilter
 ---
-## **Olası Kullanım Senaryoları**
+##  **Olası Kullanım Senaryoları**
 
-Otomatik filtreyi çalışma sayfası hücrelerine uyguladığınızda, bazı satırlar otomatik olarak gizlenir. Ancak, bazı satırların zaten Excel son kullanıcısı tarafından manuel olarak gizlendiği ve bir otomatik filtre tarafından gizlenmediği durum olabilir. Bu nedenle, hangi satırların otomatik filtre tarafından gizlendiğini ve hangilerinin Excel son kullanıcısı tarafından manuel olarak gizlendiğini bilmek zorlaşır. Aspose.Cells int[] kullanarak bu sorunu çözer[**AutoFilter.Refresh(bool hideRows)**](https://reference.aspose.com/cells/net/aspose.cells.autofilter/refresh/methods/1)yöntem. Bu yöntem, Excel son kullanıcısı tarafından manuel olarak değil, otomatik filtre tarafından gizlenen tüm satırların satır dizinlerini döndürür.
+Otomatik filtreyi çalışma sayfası hücrelerine uyguladığınızda bazı satırlar otomatik olarak gizlenir. Ancak bazı satırların Excel son kullanıcısı tarafından manuel olarak gizlenmiş olması ve otomatik filtreyle gizlenmemiş olması da söz konusu olabilir. Bu nedenle hangi satırların otomatik filtre tarafından gizlendiğini ve hangilerinin Excel son kullanıcısı tarafından manuel olarak gizlendiğini bilmek zorlaştırır. Aspose.Cells bu sorunla int[] kullanarak ilgilenir[**AutoFilter.Refresh(bool hideRows)**](https://reference.aspose.com/cells/net/aspose.cells.autofilter/refresh/methods/1)yöntem. Bu yöntem, Excel son kullanıcısı tarafından manuel olarak değil, otomatik filtre tarafından gizlenen tüm satırların satır dizinlerini döndürür.
 
-## **AutoFilter'ı Yeniledikten Sonra Tüm Gizli Satır Dizinlerini Alın**
+##  **Otomatik Filtreyi Yeniledikten Sonra Tüm Gizli Satır Dizinlerini Al**
 
- Lütfen yükleyen aşağıdaki örnek koda bakın.[örnek excel dosyası](64716909.xlsx) Excel son kullanıcısı tarafından manuel olarak gizlenen bazı satırları içerir. Kod, otomatik filtreyi uygular ve int[] kullanarak yeniler.[**AutoFilter.Refresh(bool hideRows)**](https://reference.aspose.com/cells/net/aspose.cells.autofilter/refresh/methods/1)otomatik filtre ile tüm gizli satırların satır dizinlerini döndüren yöntem. Daha sonra, hücre adları ve değerleri ile birlikte konsoldaki gizli satırların dizinlerini yazdırır.
+ Lütfen aşağıdaki örnek koda bakın.[örnek Excel dosyası](64716909.xlsx) Excel son kullanıcısı tarafından manuel olarak gizlenen bazı satırları içerir. Kod, otomatik filtreyi uygular ve int[] kullanarak onu yeniler.[**AutoFilter.Refresh(bool hideRows)**](https://reference.aspose.com/cells/net/aspose.cells.autofilter/refresh/methods/1)Otomatik filtreyle tüm gizli satırların satır indekslerini döndüren yöntem. Daha sonra konsoldaki gizli satırların indekslerini hücre adları ve değerleriyle birlikte yazdırır.
 
-## **Basit kod**
+##  **Basit kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-GetAllHiddenRowsIndicesAfterRefreshingAutoFilter.cs" >}}
 
-## **Konsol Çıkışı**
+##  **Konsol Çıkışı**
 
 {{< highlight "java" >}}
 

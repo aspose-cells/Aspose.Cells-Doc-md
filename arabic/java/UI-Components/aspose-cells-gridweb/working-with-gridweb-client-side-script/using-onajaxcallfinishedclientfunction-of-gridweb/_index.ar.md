@@ -1,18 +1,18 @@
-﻿---
-title: استخدام وظيفة OnAjaxCallFinishedClient في GridWeb
+---
+title: استخدام وظيفة OnAjaxCallFinishedClient الخاصة بـ GridWeb
 type: docs
 weight: 20
 url: /ar/java/using-onajaxcallfinishedclientfunction-of-gridweb/
 ---
-## **سيناريوهات الاستخدام الممكنة**
-OnAjaxCallFinishedClientFunction هي وظيفة من جانب العميل تسمى عندما ينسخ المستخدم بعض البيانات إلى ورقة عمل GridWeb. هذه الوظيفة مفيدة عندما يتم تحديث الجزء الأكبر من الخلايا وتريد تتبع تلك الخلايا المحدثة من جانب العميل (على سبيل المثال في متصفحات الويب مثل FireFox و Google Chrome وما إلى ذلك).
-## **استخدام وظيفة OnAjaxCallFinishedClient في GridWeb**
-يوضح نموذج التعليمات البرمجية التالي كيفية الاستفادة من وظيفة العميل OnAjaxCallFinishedClientFunction. تُظهر لقطات الشاشة إخراج وحدة التحكم في Google Chrome و FireFox عند تنفيذ الكود. بمجرد تنفيذ التعليمات البرمجية ، يرجى نسخ / لصق بعض البيانات التي تمتد عبر خلايا متعددة داخل ورقة عمل GridWeb ثم التحقق من وحدة تحكم متصفح الويب كما هو موضح في لقطات الشاشة.
-## **Google إخراج وحدة تحكم كروم**
-![ما يجب القيام به: image_بديل_نص](using-onajaxcallfinishedclientfunction-of-gridweb_1.png)
-## **إخراج وحدة تحكم FireFox**
-![ما يجب القيام به: image_بديل_نص](using-onajaxcallfinishedclientfunction-of-gridweb_2.png)
-## **عينة من الرموز**
+##  **سيناريوهات الاستخدام المحتملة**
+OnAjaxCallFinishedClientFunction هي وظيفة من جانب العميل يتم استدعاؤها عندما يقوم المستخدم بنسخ بعض البيانات إلى ورقة عمل GridWeb. تكون هذه الوظيفة مفيدة عندما يتم تحديث عدد كبير من الخلايا وتريد متابعة مسار تلك الخلايا المحدثة من جانب العميل (على سبيل المثال، في متصفحات الويب مثل FireFox وGoogle Chrome وما إلى ذلك).
+##  **استخدام وظيفة OnAjaxCallFinishedClient الخاصة بـ GridWeb**
+يشرح نموذج التعليمات البرمجية التالي كيفية الاستفادة من وظيفة العميل OnAjaxCallFinishedClientFunction. تُظهر لقطات الشاشة إخراج وحدة التحكم في Google Chrome وFireFox عند تنفيذ التعليمات البرمجية. بمجرد تنفيذ التعليمات البرمجية، يرجى نسخ/لصق بعض البيانات الممتدة على خلايا متعددة داخل ورقة عمل GridWeb ثم التحقق من وحدة تحكم متصفح الويب كما هو موضح في لقطات الشاشة.
+##  **Google مخرج وحدة تحكم كروم**
+![ما يجب القيام به:image_alt_text](using-onajaxcallfinishedclientfunction-of-gridweb_1.png)
+##  **مخرجات وحدة تحكم فايرفوكس**
+![ما يجب القيام به:image_alt_text](using-onajaxcallfinishedclientfunction-of-gridweb_2.png)
+##  **عينة من الرموز**
 {{< highlight "java" >}}
 
  <%@page language="java" contentType="text/html; charset=UTF-8" import="com.aspose.gridweb.*"  pageEncoding="UTF-8"%>

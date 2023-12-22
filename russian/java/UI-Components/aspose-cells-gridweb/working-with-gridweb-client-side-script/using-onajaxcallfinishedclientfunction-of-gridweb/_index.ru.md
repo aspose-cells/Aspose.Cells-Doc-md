@@ -1,18 +1,18 @@
-﻿---
+---
 title: Использование OnAjaxCallFinishedClientFunction GridWeb
 type: docs
 weight: 20
 url: /ru/java/using-onajaxcallfinishedclientfunction-of-gridweb/
 ---
-## **Возможные сценарии использования**
+##  **Возможные сценарии использования**
 OnAjaxCallFinishedClientFunction — это функция на стороне клиента, которая вызывается, когда пользователь копирует некоторые данные на лист GridWeb. Эта функция полезна, когда обновляется большое количество ячеек, и вы хотите отслеживать эти обновленные ячейки на стороне клиента (например, в веб-браузерах, таких как FireFox, Google Chrome и т. д.).
-## **Использование OnAjaxCallFinishedClientFunction GridWeb**
-В следующем примере кода показано, как использовать клиентскую функцию OnAjaxCallFinishedClientFunction. На снимках экрана показан вывод консоли в Google Chrome и FireFox при выполнении кода. После выполнения кода скопируйте/вставьте некоторые данные, охватывающие несколько ячеек, на листе GridWeb, а затем проверьте консоль веб-браузера, как показано на снимках экрана.
-## **Google Вывод консоли Chrome**
-![дело:изображение_альтернативный_текст](using-onajaxcallfinishedclientfunction-of-gridweb_1.png)
-## **Вывод консоли FireFox**
-![дело:изображение_альтернативный_текст](using-onajaxcallfinishedclientfunction-of-gridweb_2.png)
-## **Образец кода**
+##  **Использование OnAjaxCallFinishedClientFunction GridWeb**
+В следующем примере кода объясняется, как использовать клиентскую функцию OnAjaxCallFinishedClientFunction. На скриншотах показан вывод консоли в Google Chrome и FireFox при выполнении кода. После выполнения кода скопируйте/вставьте некоторые данные, охватывающие несколько ячеек внутри листа GridWeb, а затем проверьте консоль веб-браузера, как показано на скриншотах.
+##  **Google Выход консоли Chrome**
+![задача: image_alt_text](using-onajaxcallfinishedclientfunction-of-gridweb_1.png)
+##  **Вывод консоли FireFox**
+![задача: image_alt_text](using-onajaxcallfinishedclientfunction-of-gridweb_2.png)
+##  **Образец кода**
 {{< highlight "java" >}}
 
  <%@page language="java" contentType="text/html; charset=UTF-8" import="com.aspose.gridweb.*"  pageEncoding="UTF-8"%>

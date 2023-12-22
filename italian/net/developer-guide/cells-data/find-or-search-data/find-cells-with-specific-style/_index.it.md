@@ -1,12 +1,14 @@
-﻿---
+---
 title: Trova Cells con stile specifico
 type: docs
 weight: 190
 url: /it/net/find-cells-with-specific-style/
+description: Scopri come trovare o cercare celle con uno stile particolare applicato tramite Aspose.Cells for .NET API.
+keywords: Find cells with a particular style applied, Search cells with a particular style applied
 ---
 {{% alert color="primary" %}}
 
- A volte, è necessario trovare celle con uno stile particolare applicato. Puoi utilizzare Aspose.Cells per trovare tutte le celle con uno stile comune. Aspose.Cells fornisce il[**FindOptions.Style**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/style) proprietà che è possibile utilizzare per specificare lo stile per la ricerca delle celle.
+ A volte è necessario trovare celle a cui è applicato uno stile particolare. Puoi utilizzare Aspose.Cells per trovare tutte le celle con uno stile comune. Aspose.Cells fornisce il[**FindOptions.Style**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/style) proprietà che puoi utilizzare per specificare lo stile per la ricerca delle celle.
 
 {{% /alert %}}
 

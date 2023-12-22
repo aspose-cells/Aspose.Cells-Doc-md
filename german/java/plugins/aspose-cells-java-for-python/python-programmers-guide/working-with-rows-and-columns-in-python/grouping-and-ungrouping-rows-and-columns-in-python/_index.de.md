@@ -1,15 +1,17 @@
-﻿---
+---
 title: Gruppieren und Aufheben der Gruppierung von Zeilen und Spalten in Python
 type: docs
 weight: 40
 url: /de/java/grouping-and-ungrouping-rows-and-columns-in-python/
+description: Erfahren Sie, wie Sie Zeilen und Spalten über Aspose.Cells for Python über Java API gruppieren und die Gruppierung aufheben.
+keywords: How to Group and Ungroup Rows and Columns in Python Via Java, Group Rows and Columns using Python Via Java, Python Via Java Ungroup Rows and Columns. 
 ---
-## **Aspose.Cells - Gruppenverwaltung von Zeilen und Spalten**
-### **Gruppieren von Zeilen und Spalten**
-Es ist möglich, Zeilen oder Spalten zu gruppieren, indem die Methoden groupRows und groupColumns der Sammlung Cells aufgerufen werden. Beide Methoden nehmen die folgenden Parameter:
+##  **Gruppieren und Gruppieren Sie die Verwaltung von Zeilen und Spalten in Aspose.Cells for Python via Java**
+###  **So gruppieren Sie Zeilen und Spalten in Python**
+Es ist möglich, Zeilen oder Spalten zu gruppieren, indem Sie die Methoden „groupRows“ und „groupColumns“ der Sammlung Cells aufrufen. Beide Methoden verwenden die folgenden Parameter:
 
 - Index der ersten Zeile/Spalte, die erste Zeile oder Spalte in der Gruppe.
-- Letzter Zeilen-/Spaltenindex, die letzte Zeile oder Spalte in der Gruppe.
+- Index der letzten Zeile/Spalte, die letzte Zeile oder Spalte in der Gruppe.
 - Ist ausgeblendet, ein boolescher Parameter, der angibt, ob Zeilen/Spalten nach der Gruppierung ausgeblendet werden sollen oder nicht.
 
 **Python Code**
@@ -43,11 +45,11 @@ workbook.save(self.dataDir + "Group Rows And Columns.xls")
 print "Group Rows And Columns Successfully." 
 
 {{< /highlight >}}
-### **Gruppierung von Zeilen und Spalten aufheben**
-Heben Sie die Gruppierung gruppierter Zeilen oder Spalten auf, indem Sie die Methoden UngroupRows und UngroupColumns der Sammlung Cells aufrufen. Beide Methoden verwenden die gleichen Parameter:
+###  **So heben Sie die Gruppierung von Zeilen und Spalten mit Python auf**
+Heben Sie die Gruppierung gruppierter Zeilen oder Spalten auf, indem Sie die Methoden UngroupRows und UngroupColumns der Sammlung Cells aufrufen. Beide Methoden verwenden dieselben Parameter:
 
 - Index der ersten Zeile oder Spalte, die erste Zeile/Spalte, deren Gruppierung aufgehoben werden soll.
-- Letzter Zeilen- oder Spaltenindex, die letzte Zeile/Spalte, deren Gruppierung aufgehoben werden soll.
+- Index der letzten Zeile oder Spalte, die letzte Zeile/Spalte, deren Gruppierung aufgehoben werden soll.
 
 **Python Code**
 
@@ -80,7 +82,7 @@ workbook.save(self.dataDir + "Ungroup Rows And Columns.xls")
 print "Ungroup Rows And Columns Successfully." 
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Zeilen und Spalten gruppieren und Gruppierung aufheben (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+##  **Laden Sie Running Code herunter**
+ Herunterladen**Zeilen und Spalten gruppieren und Gruppierung aufheben (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

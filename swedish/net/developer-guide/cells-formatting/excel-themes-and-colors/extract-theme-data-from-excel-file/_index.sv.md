@@ -1,5 +1,7 @@
-﻿---
+---
 title: Extrahera temadata från Excel-fil
+description: Aspose.Cells är ett .NET-bibliotek för att arbeta med kalkylarksfiler. Det stöder extrahering av temadata från Excel-filer, vilket gör det möjligt för användare att få stil och formateringsinformation för dokument. Den här artikeln kommer att introducera hur man extraherar ämnesdata från Excel-filer med hjälp av Aspose.Cells-biblioteket.
+keywords: Aspose.Cells, Excel File, Theme Data, Style, Format
 type: docs
 weight: 120
 url: /sv/net/extract-theme-data-from-excel-file/
@@ -12,7 +14,7 @@ Du kan tillämpa tema på din arbetsbok med Microsoft Excel via kommandot Sidlay
 
 {{% /alert %}}
 
-## C# kod för att extrahera temadata från Excel-fil
+##  C# kod för att extrahera temadata från Excel-fil
 
 Följande exempelkod extraherar temanamnet som tillämpas på källarbetsboken och extraherar sedan temafärgen som tillämpas på cell A1 och temafärgen som tillämpas på cellens nedre kant.
 

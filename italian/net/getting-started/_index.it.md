@@ -12,29 +12,29 @@ Questa pagina ti mostrerà come installare Aspose Cells e creare un'applicazione
 
 ##  **Installazione**
 
-###  **Installa da Aspose.Cells a NuGet**
+###  **Installare da Aspose.Cells a NuGet**
 
  NuGet è il modo più semplice per scaricare e installare Aspose.Cells for .NET.
 
 1.  Apri Microsoft Visual Studio e NuGet gestore pacchetti.
-1.  Cerca "aspose.cells" per trovare il Aspose.Cells for .NET desiderato.
-1. Clicca su "Installa", Aspose.Cells for .NET verrà scaricato e referenziato nel tuo progetto.
-**![Installa da Aspose Cells a NuGet](install-through-nuget.png)**
+1.  Cerca "aspose.cells" per trovare lo Aspose.Cells for .NET desiderato.
+1. Fai clic su "Installa", Aspose.Cells for .NET verrà scaricato e referenziato nel tuo progetto.
+**![Installa da Aspose a Cells fino a NuGet](install-through-nuget.png)**
 
  Puoi anche scaricarlo dalla pagina web nuget per aspose.cells:
-[Aspose.Cells for .NET NuGet Confezione](https://www.nuget.org/packages/Aspose.Cells/)
+[Aspose.Cells for .NET NuGet Pacchetto](https://www.nuget.org/packages/Aspose.Cells/)
 
-[Più passo per i dettagli](/cells/it/net/installation/)
+[Ulteriori passaggi per i dettagli](/cells/it/net/installation/)
 
 ###  **Installa Aspose.Cells su Windows**
 
-1. Scarica Aspose.Cells.msi dalla seguente pagina:
+1. Scaricare Aspose.Cells.msi dalla seguente pagina:
 [Scarica Aspose.Cells.msi](https://downloads.aspose.com/cells/net/)
 1. Fare doppio clic su Aspose Cells msi e seguire le istruzioni per installarlo:
 
 **![Installa Aspose Cells su Windows](install-on-windows.png)**
 
-[Più passo per i dettagli](/cells/it/net/installing-aspose-cells-on-windows/)
+[Ulteriori passaggi per i dettagli](/cells/it/net/installing-aspose-cells-on-windows/)
 
 ###  **Installa Aspose.Cells su Linux**
 
@@ -44,31 +44,31 @@ In questo esempio, utilizzo Ubuntu per mostrare come iniziare a utilizzare Aspos
 2. Apri il file "AsposeCellsTest.csproj", aggiungi le seguenti righe per i riferimenti al pacchetto Aspose.Cells:
 {{< highlight "plain" >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="23.5" />
+    <PackageReference Include="Aspose.Cells" Version="23.12" />
   </ItemGroup>
 {{< /highlight >}}
 3. Apri il progetto con VSCode su Ubuntu:
-**![Installa Aspose Cells su Linux](install-on-linux.png)**
-4. eseguire test con il seguente codice:
+**![Installa Aspose Cells su linux](install-on-linux.png)**
+4. eseguire il test con il seguente codice:
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-StartOnLinux.cs" >}}
 
-Nota: Aspose.Cells Per .NetStandard può supportare le tue esigenze su Linux.
+Nota: Aspose.Cells per .NetStandard può supportare i tuoi requisiti su Linux.
 
 Si applica a: NetStandard2.0, NetCore2.1, NetCore3.1, Net5.0, Net6.0 e versione avanzata.
 
 ###  **Installa Aspose.Cells su MAC OS**
 
-In questo esempio, utilizzo macOS High Sierra per mostrare come iniziare a utilizzare Aspose.Cells su MAC OS.
+In questo esempio utilizzo macOS High Sierra per mostrare come iniziare a utilizzare Aspose.Cells su MAC OS.
 
 1. Crea un'applicazione .netcore, denominata "AsposeCellsTest".
-2. Aprire l'applicazione con Visual Studio per Mac, quindi installare Aspose Cells tramite NuGet:
+2. Apri l'applicazione con Visual Studio per Mac, quindi installa da Aspose a Cells fino a NuGet:
 **![Installa Aspose Cells su macOS](install-on-mac-os.png)**
 3. eseguire il test con il seguente codice:
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-StartOnMacOS.cs" >}}
 4. Se è necessario utilizzare funzionalità relative al disegno, installare libgdiplus in macOS, vedere:
 [Come installare libgdiplus su macOS](/cells/it/net/how-to-install-libgdiplus-in-macos/)
 
-Nota: Aspose.Cells per .NetStandard può supportare le tue esigenze su MAC OS.
+Nota: Aspose.Cells Per .NetStandard può supportare i tuoi requisiti su MAC OS.
 
 Si applica a: NetStandard2.0, NetCore2.1, NetCore3.1, Net5.0, Net6.0 e versione avanzata.
 
@@ -82,8 +82,8 @@ Si applica a: NetStandard2.0, NetCore2.1, NetCore3.1, Net5.0, Net6.0 e versione 
 
 I passaggi seguenti creano l'applicazione Hello World utilizzando Aspose.Cells API:
 
-1.  Se hai una licenza, allora[applicarlo](/cells/it/net/licensing/).
-Se stai utilizzando la versione di valutazione, salta le righe di codice relative alla licenza.
+1.  Se hai la licenza, allora[applicarlo](/cells/it/net/licensing/).
+ Se stai utilizzando la versione di valutazione, salta le righe di codice relative alla licenza.
 1.  Crea un'istanza di[Cartella di lavoro](https://reference.aspose.com/cells/net/aspose.cells/workbook) class per creare un nuovo file Excel o aprire un file Excel esistente.
 1. Accedi a qualsiasi cella desiderata di un foglio di lavoro nel file Excel.
 1.  Inserisci le parole**Hello World!** in una cella a cui si accede.

@@ -1,12 +1,12 @@
-﻿---
-title: Ara Toplamlar Oluşturma
+---
+title: Alt Toplamlar Oluşturma
 type: docs
 weight: 70
 url: /tr/cpp/creating-subtotals/
 ---
-## **Ara Toplamlar Oluşturma**
- Aşağıdaki örnek kod, Aspose.Cells kullanılarak ara toplamların nasıl oluşturulacağını gösterir.[örnek excel dosyası](21266433.xlsx) ve B13:C19 hücre aralığında ara toplamlar oluşturur ve[çıktı excel dosyası](21266437.xlsx). Aşağıdaki ekran görüntüsü, örnek ve çıktı excel dosyasının kodun yürütülmesinden sonra nasıl göründüğünü gösterir.
+##  **Alt Toplamlar Oluşturma**
+ Aşağıdaki örnek kod, Aspose.Cells kullanılarak alt toplamların nasıl oluşturulacağını gösterir.[örnek excel dosyası](21266433.xlsx) B13:C19 hücre aralığında alt toplamlar oluşturur ve[excel dosyasının çıktısını almak](21266437.xlsx). Aşağıdaki ekran görüntüsü, kodun yürütülmesinden sonra örnek ve çıktı excel dosyasının nasıl göründüğünü gösterir.
 
-![yapılacaklar:resim_alternatif_metin](creating-subtotals_1.png)
-## **Basit kod**
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-CreatingSubtotals.cpp" >}}
+![yapılacak şey:image_alt_text](creating-subtotals_1.png)
+##  **Basit kod**
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-CreatingSubtotals-new.cpp" >}}

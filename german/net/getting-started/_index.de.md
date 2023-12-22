@@ -1,5 +1,5 @@
 ---
-title: Einstieg
+title: Erste Schritte
 type: docs
 weight: 10
 url: /de/net/getting-started/
@@ -44,7 +44,7 @@ In diesem Beispiel verwende ich Ubuntu, um zu zeigen, wie man Aspose.Cells unter
 2. Öffnen Sie die Datei „AsposeCellsTest.csproj“ und fügen Sie die folgenden Zeilen für Aspose.Cells-Paketreferenzen hinzu:
 {{< highlight "plain" >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="23.5" />
+    <PackageReference Include="Aspose.Cells" Version="23.12" />
   </ItemGroup>
 {{< /highlight >}}
 3. Öffnen Sie das Projekt mit VSCode unter Ubuntu:
@@ -83,7 +83,7 @@ Gilt für: NetStandard2.0, NetCore2.1, NetCore3.1, Net5.0, Net6.0 und die erweit
 Mit den folgenden Schritten wird die Anwendung Hello World unter Verwendung von Aspose.Cells API erstellt:
 
 1.  Wenn Sie eine Lizenz haben, dann[Wende es an](/cells/de/net/licensing/).
-Wenn Sie die Testversion verwenden, überspringen Sie die lizenzbezogenen Codezeilen.
+ Wenn Sie die Testversion verwenden, überspringen Sie die lizenzbezogenen Codezeilen.
 1.  Erstellen Sie eine Instanz von[Arbeitsmappe](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse, um eine neue Excel-Datei zu erstellen oder eine vorhandene Excel-Datei zu öffnen.
 1. Greifen Sie auf jede gewünschte Zelle eines Arbeitsblatts in der Excel-Datei zu.
 1.  Fügen Sie die Wörter ein**Hello World!** in eine Zelle, auf die zugegriffen wird.

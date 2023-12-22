@@ -3,6 +3,8 @@ title: Hantera Cells Html String
 type: docs
 weight: 600
 url: /sv/net/manage-cells-html-string/
+description: Lär dig hur du hanterar Cells HTML-sträng genom Aspose.Cells for .NET API.
+keywords: Add HTML String inside the Cell, Set HTML String inside the Cell, Add HTML String, Get HTML String of Cell, Manage Cells Html String
 ---
 ##  **Möjliga användningsscenarier**
 När du behöver ställa in formaterad data för specifik Cell kan du tilldela en html-sträng till Cell. Naturligtvis kan du också få HTML-strängen för cellen. Aspose.Cells erbjuder denna funktion. Aspose.Cells tillhandahåller följande egenskaper och metoder för att hjälpa dig att uppnå dina mål.

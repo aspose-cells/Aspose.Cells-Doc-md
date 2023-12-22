@@ -1,12 +1,14 @@
-﻿---
+---
 title: إخفاء وإظهار الصفوف والأعمدة في PHP
 type: docs
 weight: 50
 url: /ar/java/hiding-and-showing-rows-and-columns-in-php/
+description: تعرف على كيفية إخفاء وإظهار الصفوف والأعمدة من خلال واجهات برمجة التطبيقات Aspose.Cells for PHP via Java.
+keywords: How to Hide and Show Rows and Columns in PHP, Hide Rows or Columns using PHP, PHP Show Rows or Columns. 
 ---
-## **Aspose.Cells - التحكم في رؤية الصفوف والأعمدة**
-### **إخفاء الصفوف والأعمدة**
-يمكن للمطورين إخفاء صف أو عمود عن طريق استدعاء أساليب HideRow و HideColumn لمجموعة Cells على التوالي. تأخذ كلتا الطريقتين فهرس الصف / العمود كمعامل لإخفاء الصف أو العمود المحدد.
+##  **Aspose.Cells for PHP - التحكم في رؤية الصفوف والأعمدة**
+###  **كيفية إخفاء الصفوف والأعمدة في PHP**
+يمكن للمطورين إخفاء صف أو عمود عن طريق استدعاء طريقتي HideRow وHideColumn للمجموعة Cells على التوالي. تأخذ كلتا الطريقتين فهرس الصف/العمود كمعلمة لإخفاء الصف أو العمود المحدد.
 
 **كود PHP**
 
@@ -43,11 +45,11 @@ url: /ar/java/hiding-and-showing-rows-and-columns-in-php/
 }
 
 {{< /highlight >}}
-### **إظهار الصفوف والأعمدة**
-يمكن للمطورين إظهار أي صف أو عمود مخفي عن طريق استدعاء أساليب UnhideRow و UnhideColumn لمجموعة Cells على التوالي. تأخذ كلتا الطريقتين معلمتين:
+###  **كيفية إظهار الصفوف والأعمدة باستخدام PHP**
+يمكن للمطورين إظهار أي صف أو عمود مخفي عن طريق استدعاء طريقتي UnhideRow وUnhideColumn للمجموعة Cells على التوالي. تأخذ كلتا الطريقتين معلمتين:
 
-- **فهرس عمود الصف**- فهرس صف أو عمود يُستخدم لإظهار الصف أو العمود المحدد.
-- **ارتفاع الصف أو عرض العمود**- ارتفاع الصف أو عرض العمود المخصص للصف أو العمود بعد عرضهما.
+- **فهرس عمود الصف**فهرس الصف أو العمود الذي يستخدم لإظهار الصف أو العمود المحدد.
+- **ارتفاع الصف أو عرض العمود**- ارتفاع الصف أو عرض العمود المخصص للصف أو العمود بعد عرضه.
 
 **كود PHP**
 
@@ -84,7 +86,7 @@ url: /ar/java/hiding-and-showing-rows-and-columns-in-php/
 }
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+##  **تحميل كود التشغيل**
  تحميل**التحكم في رؤية الصفوف والأعمدة (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

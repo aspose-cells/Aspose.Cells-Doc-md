@@ -1,9 +1,11 @@
-﻿---
+---
 title: Läser Cell Värden i flera trådar samtidigt
 linktitle: Flera trådar
 type: docs
 weight: 1100
 url: /sv/java/reading-cell-values-in-multiple-threads-simultaneously/
+description: "Lär dig hur du läser Cell-värden i flera trådar samtidigt med Aspose.Cells for Java API:er."
+keywords: Java Read Cell Values in Multiple Threads Simultaneously, Multiple Threads for Aspose.Cells for Java APIs.
 ---
 {{% alert color="primary" %}}
 
@@ -11,7 +13,9 @@ Att behöva läsa cellvärden i flera trådar samtidigt är ett vanligt krav. De
 
 {{% /alert %}}
 
- För att läsa cellvärden i mer än en tråd samtidigt, ställ in[**Worksheet.getCells().setMultiThreadReading()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MultiThreadReading) till**Sann**Om du inte gör det kan du få fel cellvärden. Observera att vissa funktioner som formatering av cellvärden inte stöds för flera trådar. Så med MultiThreadReading kan du bara komma åt cellens ursprungliga data. Om du försöker få cellens formaterade värde i en miljö med flera trådar, till exempel med Cell.getStringValue() för numeriska värden, kan du få oväntade resultat eller undantag.
+##  **Hur man läser Cell-värden i flera trådar samtidigt med Aspose.Cells for Java**
+
+ För att läsa cellvärden i mer än en tråd samtidigt, ställ in[**Worksheet.getCells().setMultiThreadReading()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MultiThreadReading)till *sant**. Om du inte gör det kan du få fel cellvärden. Observera att vissa funktioner som formatering av cellvärden inte stöds för flera trådar. Så med MultiThreadReading kan du bara komma åt cellens ursprungliga data. Om du försöker få cellens formaterade värde i en miljö med flera trådar, till exempel med Cell.getStringValue() för numeriska värden, kan du få oväntade resultat eller undantag.
 
 Följande kod:
 

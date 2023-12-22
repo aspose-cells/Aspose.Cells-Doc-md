@@ -1,5 +1,7 @@
 ---
 title: Konvertera diagram till bild för japansk region
+description: Lär dig hur du använder Aspose.Cells for .NET ställer in den japanska konfigurationen för diagrammet. Vår guide kommer att visa hur du konfigurerar diagram för att stödja japanska tecken och formatering, inklusive teckensnitt, storlek, textriktning och mer.
+keywords: Aspose.Cells for .NET, Charts, Japanese configuration, font, font size, text direction, support.
 linktitle: Ställ in japansk region
 type: docs
 weight: 10
@@ -21,7 +23,7 @@ Kodexempel:
 
 ##  **Konfigurera japansk inställning för diagram**
 
-I det här steget kommer du att använda klassen "ChartJapaneseSettings" som du definierade i föregående steg.
+det här steget kommer du att använda klassen "ChartJapaneseSettings" som du definierade i föregående steg.
 Kodexempel:
 
 ```

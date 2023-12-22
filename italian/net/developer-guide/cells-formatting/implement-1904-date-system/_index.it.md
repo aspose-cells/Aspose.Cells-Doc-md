@@ -1,25 +1,27 @@
-﻿---
+---
 title: Implementare il sistema di data 1904
+description: Aspose.Cells è una libreria .NET per lavorare con file di fogli di calcolo. Supporta l'implementazione del sistema di data del 1904, consentendo agli utenti di calcolare e formattare in base al sistema di data del 1 gennaio 1904. Questo articolo descrive come implementare il sistema di data 1904 utilizzando la libreria Aspose.Cells.
+keywords: Aspose.Cells, 1904 date system, spreadsheet, calculation, formatting
 type: docs
 weight: 7000
 url: /it/net/implement-1904-date-system/
 ---
 {{% alert color="primary" %}} 
 
-Microsoft Excel supporta due sistemi di data: il sistema di data 1900 (il sistema di data predefinito implementato in Excel per Windows) e il sistema di data 1904. Il sistema di data 1904 viene normalmente utilizzato per garantire la compatibilità con i file Macintosh Excel ed è il sistema predefinito se si utilizza Excel per Macintosh. È possibile impostare il sistema di data 1904 per i file Excel utilizzando Aspose.Cells.
+Microsoft Excel supporta due sistemi di data: il sistema di data 1900 (il sistema di data predefinito implementato in Excel per Windows) e il sistema di data 1904. Il sistema di data 1904 viene normalmente utilizzato per garantire la compatibilità con i file Excel Macintosh ed è il sistema predefinito se si utilizza Excel per Macintosh. È possibile impostare il sistema di data 1904 per i file Excel utilizzando Aspose.Cells.
 
 {{% /alert %}} 
 
 Per implementare il sistema di data 1904 in Microsoft Excel (ad esempio Microsoft Excel 2003):
 
-1.  Dal**Utensili** menù, selezionare**Opzioni** e selezionare il**Calcolo** scheda.
+1.  Dal**Utensili** menu, selezionare**Opzioni** e seleziona **Calcolo** scheda.
 1.  Seleziona il**Sistema di data 1904** opzione.
-1.  Clic**OK**.
+1. Fare clic su *OK**.
 
 |**Selezione del sistema di data 1904 in Microsoft Excel**|
-|:- |
+| :- |
 |![cose da fare:immagine_alt_testo](implement-1904-date-system_1.png)|
-Vedere il codice di esempio seguente su come ottenere questo risultato utilizzando le API Aspose.Cells.
+Consulta il seguente codice di esempio su come ottenere questo risultato utilizzando le API Aspose.Cells.
 
 
 

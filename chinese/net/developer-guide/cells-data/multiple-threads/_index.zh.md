@@ -1,27 +1,29 @@
-﻿---
-title: Cell 同时读取多个线程中的值
+---
+title: 同时读取多个线程中的 Cell 值
 linktitle: 多线程
 type: docs
 weight: 1800
 url: /zh/net/reading-cell-values-in-multiple-threads-simultaneously/
+description: 了解如何通过 Aspose.Cells for .NET API 同时读取多个线程中的 Cell 值。
+keywords: Read Cell Values in Multiple Threads Simultaneously, Aspose.Cells C# Multiple Threads, Read data in Multiple Threads
 ---
 {{% alert color="primary" %}}
 
-需要同时读取多个线程中的单元格值是一个常见的需求。本文介绍了如何为此目的使用 Aspose.Cells。
+需要同时读取多个线程中的单元格值是一种常见的需求。本文介绍了如何使用 Aspose.Cells 来实现此目的。
 
 {{% /alert %}}
 
-要同时读取多个线程中的单元格值，请设置[**工作表.Cells.多线程读取**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/multithreadreading)到**真的**.如果不这样做，您可能会得到错误的单元格值。
+要同时读取多个线程中的单元格值，请设置[**工作表.Cells.MultiThreadReading**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/multithreadreading)为*真**。如果不这样做，您可能会得到错误的单元格值。
 
-以下代码：
+下面的代码：
 
 1. 创建工作簿。
 1. 添加工作表。
 1. 使用字符串值填充工作表。
-1. 然后它创建两个同时从随机单元格中读取值的线程。
-如果读取的值正确，则不会发生任何事情。如果读取的值不正确，则会显示一条消息。
+1. 然后，它创建两个线程，同时从随机单元读取值。
+如果读取的值正确，则不会发生任何情况。如果读取的值不正确，则会显示一条消息。
 
-如果您评论此行：
+如果你评论这一行：
 
 {{< highlight "java" >}}
 

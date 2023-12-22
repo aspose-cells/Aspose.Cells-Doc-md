@@ -1,14 +1,16 @@
-﻿---
-title: Python'de Kılavuz Çizgilerini Görüntüleyin veya Gizle
+---
+title: Python'de Kılavuz Çizgilerini Görüntüleme veya Gizleme
 type: docs
 weight: 10
 url: /tr/java/display-or-hide-gridlines-in-python/
+description: Aspose.Cells for Python Via Java API aracılığıyla Kılavuz Çizgilerini nasıl Görüntüleyeceğinizi veya Gizleyeceğinizi öğrenin.
+keywords: How to Display or Hide Gridlines in Python Via Java, Display or Hide Gridlines using Python Via Java, Python Show or Hide Gridlines. 
 ---
-## **Aspose.Cells - Kılavuz Çizgilerini Gizle'yi Görüntüle**
-### **Kılavuz Çizgilerini Gizleme**
- kullanarak çalışma sayfasını gizlemek için**Yakut için Aspose.Cells Java** , Arama**displayhidegridlines** modül.
+##  **Aspose.Cells - Kılavuz Çizgileri Nasıl Görüntülenir veya Gizlenir**
+###  **Kılavuz Çizgileri Nasıl Gizlenir?**
+ Çalışma sayfasını kullanarak gizlemek için**Ruby** için Aspose.Cells Java'i arayın, **displayhideggridlines'ı arayın** modülü.
 
-**Python Kod**
+**Python Kodu**
 
 {{< highlight "java" >}}
 
@@ -33,10 +35,10 @@ workbook.save(self.dataDir + "output.xls")
 print "Grid lines are now hidden on sheet 1, please check the output document."
 
 {{< /highlight >}}
-### **Kılavuz Çizgilerini Görünür Hale Getirme**
-Kılavuz çizgilerini görünür yapmak için Worksheet sınıfının setGridlinesVisible(true) yöntemini kullanın.
+###  **Kılavuz Çizgileri Nasıl Görüntülenir?**
+Kılavuz çizgilerini görünür kılmak için Worksheet sınıfının setGridlinesVisible(true) yöntemini kullanın.
 
-**Python Kod**
+**Python Kodu**
 
 {{< highlight "python" >}}
 
@@ -45,7 +47,7 @@ Kılavuz çizgilerini görünür yapmak için Worksheet sınıfının setGridlin
 worksheet.setGridlinesVisible(True)
 
 {{< /highlight >}}
-## **Çalışan Kodu İndir**
+##  **Çalışan Kodu İndir**
  İndirmek**DisplayHideGridlines (Aspose.Cells)** aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

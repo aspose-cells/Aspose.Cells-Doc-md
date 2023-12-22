@@ -1,20 +1,22 @@
-﻿---
-title: ワークブックの VBA プロジェクトへのライブラリ参照を追加する
+---
+title: ワークブック内の VBA プロジェクトへのライブラリ参照を追加します。
 type: docs
 weight: 10
 url: /ja/java/add-a-library-reference-to-vba-project-in-workbook/
+description: Aspose.Cells for Java API を通じて、ワークブック内の VBA プロジェクトにライブラリ参照を追加する方法を学習します。
+keywords: How to Add a library reference to VBA project in workbook in Java, Insert a library reference to VBA project in workbook using Java, Java Set library reference to VBA project in workbook. 
 ---
 {{% alert color="primary" %}}
 
-Microsoft Excel では、**ツール > 参照...**手動で。次のダイアログ ボックスが開き、既存の参照から選択したり、自分のライブラリを参照したりできます。
+ Microsoft Excel では、**[ツール] > [参照...]**手動で。次のダイアログ ボックスが開き、既存の参照から選択するか、自分でライブラリを参照することができます。
 
-![todo:画像_代替_文章](add-a-library-reference-to-vba-project-in-workbook_1.png)
+![todo:image_alt_text](add-a-library-reference-to-vba-project-in-workbook_1.png)
 
-ただし、場合によっては、コードを使用してライブラリ参照を VBA プロジェクトに追加または登録する必要があります。 Aspose.Cellsを使用して行うことができます[**VbaProject.getReferences().addRegisteredReference()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaprojectreferencecollection#addRegisteredReference(java.lang.String,%20java.lang.String)） 方法。
+ただし、場合によっては、コードを通じて VBA プロジェクトにライブラリ参照を追加または登録する必要があります。 Aspose.Cellsを使用して行うことができます[**VbaProject.getReferences().addRegisteredReference()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaprojectreferencecollection#addRegisteredReference(java.lang.String,%20java.lang.String)） 方法。
 
 {{% /alert %}}
 
-## **ワークブックの VBA プロジェクトへのライブラリ参照を追加する**
+##  **ワークブック内の VBA プロジェクトにライブラリ参照を追加する方法**
 
 次のサンプル コードは、ワークブックの VBA プロジェクトに 2 つのライブラリ参照を追加または登録します。[**VbaProject.getReferences().addRegisteredReference()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaprojectreferencecollection#addRegisteredReference(java.lang.String,%20java.lang.String)） 方法。
 

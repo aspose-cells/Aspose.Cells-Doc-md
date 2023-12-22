@@ -20,6 +20,7 @@ xs = x_spreadsheet(id, options)
 	    updateMode:  currently we only support 'server'
 	    updateUrl:  set the server side  url for update action based on json
 	    mode: read means readonly spread sheet/edit means we can edit the spread sheet
+            allowSelectTextInTextBoxInReadMode: whether allow select text in TextBox control when in read mode,the default value is false
 	    showToolbar:   means whether to show toolbar
 	    showFileName:  whether to show the filename 
 	    local:         support multiple language for menus ,the locale can be:
@@ -30,7 +31,7 @@ xs = x_spreadsheet(id, options)
 			        ko,th,tr,vi,cht
                            for  Korean,Thai,Turkey,Vietnamese,Traditional Chinese                  
 	    showContextmenu:   means whether to show contextmenu on right click on a cell
-
+            loadingGif:  the loading gif url when loading the image/shape .it is optional,the default value is:content/img/updating.gif
 	for example the below code init a x_spreadsheet object.
 	xs = x_spreadsheet('#gridjs-demo', {
 			updateMode:'server',
@@ -136,7 +137,7 @@ xs.setFileName(name)
 	name:the file name with extension ,for example trip.xlsx
 ```
 
--  om fönsternyckelhändelse ska aktiveras för GridJs
+- om fönsternyckelhändelse ska aktiveras för GridJs
 ```javascript
 xs.enableKeyEvent(isenable)
 // the parameters is:
@@ -166,7 +167,7 @@ xs.destroy()
 		xs.setActiveSheet(xs.getActiveSheet())
 ```
 
-- Hämta den valda bilden/formen, om inget välj kommer att returnera null
+-  Hämta den valda bilden/formen, om inget välj kommer att returnera null
 ```javascript
 xs.sheet.selector.getObj()
 ```
@@ -200,7 +201,7 @@ xs.sheet.data.setCellText(ri,ci,value,state)
 	ri:row index 
 	ci:column index
 	value:the cell value
-	state: input | finished
+	state: input | finished ,if finished ,it will do update action to servside
 ```
 
 -  Hämta/ställ in det valda cellintervallet
@@ -265,7 +266,23 @@ xs.sheet.data.setColWidth(ci,width)
 	ci:column index
 	width:the width for the column
 ```
--  Få bredden för kolumnen
+-  Ställ in bredden för kolumnerna
+```javascript
+xs.sheet.data.setColsWidth(sci,eci,width)
+    // the parameters are:
+	sci:the start column index
+	eci:the end column index
+	width:the width for the column
+```
+
+-  Ställ in bredden för alla kolumner
+```javascript
+xs.sheet.data.setAllColsWidth(width)
+    // the parameters are:
+	width:the width for the columns
+```
+
+-  Hämta bredden för kolumnen
 ```javascript
 xs.sheet.data.cols.sumWidth(min,max)
     // the parameters are:
@@ -280,6 +297,23 @@ xs.sheet.data.setRowHeight(ri,height)
 	ri:row index
 	height:the height for the row
 ```
+-  Ställ in höjden för raderna
+```javascript
+xs.sheet.data.setRowsHeight(sri,eri,height)
+    // the parameters are:
+	sri:start row index
+	eri:end row index
+	height:the height for the rows
+```
+
+- Ställ in höjden för alla rader
+```javascript
+xs.sheet.data.setAllRowsHeight(height)
+    // the parameters are:
+	height:the height for the rows
+```
+
+
 -  Få höjden för raden
 ```javascript
 xs.sheet.data.rows.sumHeight(min,max)
@@ -287,6 +321,7 @@ xs.sheet.data.rows.sumHeight(min,max)
 	min:the start row index
 	max:the end row index,not include
 ```
+
 -  Hämta/ställ in visningsriktningen
 ```javascript
 xs.sheet.data.displayRight2Left
@@ -309,6 +344,8 @@ xs.sheet.data.displayRight2Left
                 console.log('shape or image selected id:', shapeOrImageObj.id, ', type: ', shapeOrImageObj.type);
             }).on('sheet-selected', (id,name) => {
                 console.log('sheet selected id:', id, ', name: ',name);
+            }).on('sheet-loaded', (id,name) => {
+                console.log('sheet load finished:', id, ', name: ',name);
             }).on('cell-edited', (text, ri, ci) => {
                 console.log('text:', text, ', ri: ', ri, ', ci:', ci);
             });
@@ -336,7 +373,7 @@ xs.sheet.menubar.hide()
 ```
 
 
-för detaljerad information, kan du kolla exemplet här
+för detaljerad information kan du kolla exemplet här
 <https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
 
 

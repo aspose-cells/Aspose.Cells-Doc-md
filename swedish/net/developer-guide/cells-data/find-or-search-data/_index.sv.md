@@ -1,8 +1,10 @@
-﻿---
+---
 title: Hitta eller sök data
 type: docs
 weight: 50
 url: /sv/net/find-or-search-data/
+description: Lär dig hur du hittar eller söker efter celler i ett kalkylblad som innehåller specificerade data genom Aspose.Cells for .NET API.
+keywords: Find data, Search data, Find Cells Containing a Formula, Search Cells Containing a Formula, Find Data or Formulas using FindOptions, Search Data or Formulas using FindOptions, Find or Search Cells Containing Specified String Value or Number, Find or Search cells contains specified data
 ---
 {{% alert color="primary" %}}
 
@@ -10,15 +12,15 @@ Microsoft Excel tillåter användare att hitta celler i ett kalkylblad som inneh
 
 {{% /alert %}}
 
-## **Hitta Cells Innehåller specificerade data**
+##  **Hitta Cells Innehåller specificerade data**
 
-### **Använder Microsoft Excel**
+###  **Använder Microsoft Excel**
 
  Microsoft Excel tillåter användare att hitta celler i ett kalkylblad som innehåller specificerade data. Om du väljer**Redigera** från**Hitta** menyn i Microsoft Excel kommer du att se en dialogruta där du kan ange sökvärdet.
 
 Här letar vi efter värdet "Apelsiner". Aspose.Cells tillåter också utvecklare att hitta celler i kalkylbladet som innehåller specificerade värden.
 
-### **Använder Aspose.Cells**
+###  **Använder Aspose.Cells**
 
  Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , som representerar en Microsoft Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass innehåller en[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) samling som ger åtkomst till varje kalkylblad i Excel-filen. Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass. De[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass ger en[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) samling som representerar alla celler i kalkylbladet. De[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)samling tillhandahåller flera metoder för att hitta celler i ett kalkylblad som innehåller användarspecificerad data. Några av dessa metoder diskuteras mer i detalj nedan.
 
@@ -28,7 +30,7 @@ Alla sökmetoder returnerar referenserna till cellerna som innehåller den angiv
 
 {{% /alert %}}
 
-## **Hitta Cells som innehåller en formel**
+##  **Hitta Cells som innehåller en formel**
 
  Utvecklare kan hitta en specificerad formel i kalkylbladet genom att anropa[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) samlingens[**Hitta**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/find/index) metod. Vanligtvis är[**Hitta**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/find/index)Metoden accepterar tre parametrar:
 
@@ -40,17 +42,17 @@ I exemplen nedan används kalkylbladsdata för att öva på att hitta metoder:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Find-FindingCellsContainingFormula-1.cs" >}}
 
-## **Hitta data eller formler med FindOptions**
+##  **Hitta data eller formler med FindOptions**
 
  Det är möjligt att hitta specificerade värden med hjälp av[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) samlingens[**Hitta**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/find/index) metod med olika[**Hitta Alternativ**](https://reference.aspose.com/cells/net/aspose.cells/findoptions) . Vanligtvis är[**Hitta**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/find/index)metoden accepterar följande parametrar:
 
-- **Sökvärde**, data eller värde som ska sökas efter.
-- **Föregående cell**, den sista cellen som innehöll samma värde. Denna parameter kan ställas in på null när du söker från början.
-- **Hitta alternativ**, sökalternativen.
+- *Sökvärde**, data eller värde som ska sökas efter.
+- *Föregående cell**, den sista cellen som innehöll samma värde. Denna parameter kan ställas in på null när du söker från början.
+- *Sökalternativ**, sökalternativen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Find-FindingDataOrFormulasUsingFindOptions-1.cs" >}}
 
-## **Hitta Cells som innehåller specificerat strängvärde eller nummer**
+##  **Hitta Cells som innehåller specificerat strängvärde eller nummer**
 
  Det är möjligt att hitta specificerade strängvärden genom att anropa detsamma[**Hitta**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/find/index) metod som finns i[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) samling med olika[**Hitta Alternativ**](https://reference.aspose.com/cells/net/aspose.cells/findoptions).
 
@@ -58,7 +60,7 @@ I exemplen nedan används kalkylbladsdata för att öva på att hitta metoder:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Find-FindingCellsContainingStringValueOrNumber-1.cs" >}}
 
-## **Förhandsämnen**
+##  **Förhandsämnen**
 - [Hitta Cells med specifik stil](/cells/sv/net/find-cells-with-specific-style/)
 - [Ta reda på om cellvärdet börjar med ett citattecken](/cells/sv/net/find-if-the-cell-value-starts-with-single-quote-mark/)
 - [Sök efter data med originalvärden](/cells/sv/net/search-data-using-original-values/)

@@ -26,14 +26,14 @@ Aspose.Cells stöder konvertering av Excel-filer till PDF och bibehåller hög v
 
 ###  **Direkt konvertering**
 
-Aspose.Cells for .NET stöder konvertering från kalkylblad till PDF oberoende av annan programvara. Spara helt enkelt en Excel-fil till PDF med hjälp av**[Arbetsbok](https://reference.aspose.com/cells/net/aspose.cells/workbook)** klass'**[Spara](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** metod. De**[Spara](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** metoden ger**[SaveFormat.Pdf](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**uppräkningsmedlem som konverterar de ursprungliga Excel-filerna till formatet PDF.
+ Aspose.Cells for .NET stöder konvertering från kalkylblad till PDF oberoende av annan programvara. Spara helt enkelt en Excel-fil till PDF med hjälp av**[Arbetsbok](https://reference.aspose.com/cells/net/aspose.cells/workbook)**klass'**[Spara](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** metod. De**[Spara](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** metoden ger**[SaveFormat.Pdf](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**uppräkningsmedlem som konverterar de ursprungliga Excel-filerna till formatet PDF.
 
 Följ stegen nedan för att direkt konvertera Excel-kalkylbladen till formatet PDF:
 
 1.  Instantiera ett objekt av**[Arbetsbok](https://reference.aspose.com/cells/net/aspose.cells/workbook)**klass genom att anropa dess tomma konstruktor.
 1. Du kan öppna/ladda in en befintlig mallfil eller hoppa över det här steget om du skapar arbetsboken från början.
 1. Gör något arbete (mata in data, tillämpa formatering, ange formler, infoga bilder eller andra ritobjekt, och så vidare) på kalkylarket med hjälp av Aspose.Cells' API:er.
-1.  När kalkylarkskoden är klar ringer du**[Arbetsbok](https://reference.aspose.com/cells/net/aspose.cells/workbook)** klass'**[Spara](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**metod för att spara kalkylarket.
+1.  När kalkylarkskoden är klar ringer du**[Arbetsbok](https://reference.aspose.com/cells/net/aspose.cells/workbook)**klass'**[Spara](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**metod för att spara kalkylarket.
 
  Filformatet ska vara PDF så välj*Pdf* (ett fördefinierat värde) från**[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**uppräkning för att generera det slutliga PDF-dokumentet.
 
@@ -51,7 +51,7 @@ Följ stegen nedan för att direkt konvertera Excel-kalkylbladen till formatet P
 
 {{% alert color="primary" %}}
 
- Observera att**[Compliance](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)**egendom lades till när Aspose.Cells for .NET 5.3.0 släpptes.
+Observera att**[Compliance](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)**egendom lades till när Aspose.Cells for .NET 5.3.0 släpptes.
 
 {{% /alert %}}
 
@@ -63,13 +63,13 @@ Följ stegen nedan för att direkt konvertera Excel-kalkylbladen till formatet P
 
 ####  **Ställ in alternativet ContentCopyForAccessibility**
 
-Med**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** klass, kan du få eller ställa in PDF**[AccessibilityExtractContent](https://reference.aspose.com/cells/net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/properties/accessibilityextractcontent)**alternativet för att kontrollera innehållsåtkomsten i den konverterade PDF.
+Med**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** klass, kan du få eller ställa in PDF**[AccessibilityExtractContent](https://reference.aspose.com/cells/net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/properties/accessibilityextractcontent)** alternativet för att kontrollera innehållsåtkomsten i den konverterade PDF.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-SetContentCopyForAccessibility-1.cs" >}}
 
 ####  **Exportera anpassade egenskaper till PDF**
 
-Med**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** klass, kan du exportera de anpassade egenskaperna i källarbetsboken till PDF.**[PdfCustomPropertiesExport](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfcustompropertiesexport)** Enumerator tillhandahålls för att specificera hur egenskaper exporteras. Dessa egenskaper kan observeras i Adobe Acrobat Reader genom att klicka på Arkiv och sedan egenskaper alternativ som visas i följande bild. Mallfilen "sourceWithCustProps.xlsx" kan laddas ner[här](sourceWithCustProps.xlsx) för testning och utdata PDF filen "outSourceWithCustProps" är tillgänglig[här](outSourceWithCustProps.pdf) för analys.
+Med**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** klass, kan du exportera de anpassade egenskaperna i källarbetsboken till PDF.**[PdfCustomPropertiesExport](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfcustompropertiesexport)**Enumerator tillhandahålls för att specificera hur egenskaper exporteras. Dessa egenskaper kan observeras i Adobe Acrobat Reader genom att klicka på Arkiv och sedan egenskaper alternativ som visas i följande bild. Mallfilen "sourceWithCustProps.xlsx" kan laddas ner[här](sourceWithCustProps.xlsx) för testning och utdata PDF filen "outSourceWithCustProps" är tillgänglig[här](outSourceWithCustProps.pdf) för analys.
 
 ![todo:image_alt_text](convert-excel-workbook-to-pdf_1.png)
 
@@ -77,7 +77,7 @@ Med**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsav
 
 ###  **Konverteringsattribut**
 
-Vi arbetar för att förbättra konverteringsfunktionerna med varje ny version. Aspose.Cell's omvandling av Excel till PDF har fortfarande ett par begränsningar. Viss kalkylarksformatering kan gå förlorad vid konvertering till formatet PDF. Dessutom stöds inte vissa ritobjekt ännu.
+Vi arbetar för att förbättra konverteringsfunktionerna med varje ny version. Aspose.Cell's omvandling av Excel till PDF har fortfarande ett par begränsningar. MapChart stöds inte vid konvertering till PDF-format. Vissa ritobjekt stöds inte heller bra.
 
 Tabellen som följer listar alla funktioner som helt eller delvis stöds vid export till PDF med Aspose.Cells. Den här tabellen är inte slutgiltig och täcker inte alla kalkylbladsattribut men den identifierar de funktioner som inte stöds eller delvis stöds för konvertering till PDF .
 
@@ -92,15 +92,15 @@ Tabellen som följer listar alla funktioner som helt eller delvis stöds vid exp
 |Kommentarer| |Ja| |
 |Villkorlig formatering| |Ja| |
 |Dokument egenskaper| |Ja| |
-|Rita objekt| |Delvis|Objekt som stöds: TextBox, Line, Rectangle, Oval, GroupBox, Button, CheckBox, RadioButton, ListBox, ComboBox, Label|
+|Rita objekt| |Delvis|Skugg- och 3D-effekter för att rita objekt stöds inte bra; WordArt och SmartArt stöds delvis.|
 |Font|Storlek|Ja| |
 |Font|Färg|Ja| |
 |Font|Stil|Ja| |
 |Font|Understrykning|Ja| |
-|Font|Effekter|Delvis|Endast genomslagseffekt stöds|
+|Font|Effekter|Ja||
 |Bilder| |Ja| |
 |Hyperlänk| |Ja| |
-|Diagram| |Delvis||
+|Diagram| |Delvis|MapChart stöds inte.|
 |Sammanslagna Cells| |Ja| |
 |Sidbrytning| |Ja| |
 |Utskriftsformat|Sidhuvud/sidfot|Ja| |

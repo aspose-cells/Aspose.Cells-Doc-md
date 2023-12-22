@@ -1,178 +1,176 @@
-﻿---
+---
 title: Representación de gráficos
 type: docs
 weight: 30
 url: /es/cpp/chart-rendering/
 ---
-## **Creación de gráficos**
+##  **Crear gráficos**
 
-Aspose.Cells Compatibilidad con API para crear gráficos de Excel como se detalla en el tema[Creación y personalización de gráficos de Excel](/cells/es/cpp/creating-and-customizing-charts/). Para demostrar el uso de las API Aspose.Cells para representar los gráficos en formato de imagen y PDF, crearemos un gráfico de tipo Columna según el siguiente fragmento.
-
-{{< highlight "cpp" >}}
-
-     // Create a new workbook
-
-	intrusive_ptr<IWorkbook> workbook = Factory::CreateIWorkbook();
-
-	// Get first worksheet which is created by default
-
-	intrusive_ptr<IWorksheet> worksheet = workbook->GetIWorksheets()->GetObjectByIndex(0);
-
-	// Adding sample values to cells
-
-	worksheet->GetICells()->GetObjectByIndex(new String("A1"))->PutValue(50);
-
-	worksheet->GetICells()->GetObjectByIndex(new String("A2"))->PutValue(100);
-
-	worksheet->GetICells()->GetObjectByIndex(new String("A3"))->PutValue(150);
-
-	worksheet->GetICells()->GetObjectByIndex(new String("B1"))->PutValue(4);
-
-	worksheet->GetICells()->GetObjectByIndex(new String("B2"))->PutValue(20);
-
-	worksheet->GetICells()->GetObjectByIndex(new String("B3"))->PutValue(50);
-
-	// Adding a chart to the worksheet
-
-	int chartIndex = worksheet->GetICharts()->Add(Aspose::Cells::Charts::ChartType::ChartType_Column, 5, 0, 20, 8);
-
-	// Accessing the instance of the newly added chart
-
-	intrusive_ptr<Aspose::Cells::Charts::IChart> chart = worksheet->GetICharts()->GetObjectByIndex(chartIndex);
-
-	// Adding SeriesCollection (chart data source) to the chart ranging from "A1" cell to "B3"
-
-	chart->GetNISeries()->Add(new String("A1:B3"), true);
-
-{{< /highlight >}}
-
-## **Representación de gráficos**
-
-Aspose.Cells Compatibilidad con API para convertir los gráficos de Excel en imágenes y PDF formatos sin necesidad de herramientas o aplicaciones adicionales. Para brindar soporte de representación, la clase Chart ha expuesto los métodos ToImage y ToPdf con una gran cantidad de sobrecargas para adaptarse mejor a los requisitos de la aplicación.
-
-### **Representación de gráficos en imágenes**
-
-El método Chart.toImage tiene una gran cantidad de sobrecargas para admitir la representación simple y avanzada. Si el requisito de la aplicación es representar el gráfico en sus dimensiones predeterminadas, le sugerimos que utilice el método Chart.toImage de la siguiente manera.
+Aspose.Cells Las API admiten la creación de una variedad de gráficos de Excel como se detalla en el tema[Crear y personalizar gráficos de Excel](/cells/es/cpp/creating-and-customizing-charts/). Para demostrar el uso de las API Aspose.Cells para representar los gráficos en formato de imagen y PDF, crearemos un gráfico de tipo Columna según el siguiente fragmento.
 
 {{< highlight "cpp" >}}
 
- // Output directory path
+Aspose::Cells::Startup();
 
-StringPtr outDir = new String("..\\Data\\02_OutputDirectory\\");
+// Output directory path
+U16String outDir(u"..\\Data\\02_OutputDirectory\\");
+
+// Create a new workbook
+Workbook workbook;
+
+// Get first worksheet which is created by default
+Worksheet worksheet = workbook.GetWorksheets().Get(0);
+
+// Adding sample values to cells
+worksheet.GetCells().Get(u"A1").PutValue(50);
+worksheet.GetCells().Get(u"A2").PutValue(100);
+worksheet.GetCells().Get(u"A3").PutValue(150);
+worksheet.GetCells().Get(u"B1").PutValue(4);
+worksheet.GetCells().Get(u"B2").PutValue(20);
+worksheet.GetCells().Get(u"B3").PutValue(50);
+
+// Adding a chart to the worksheet
+int chartIndex = worksheet.GetCharts().Add(Aspose::Cells::Charts::ChartType::Column, 5, 0, 20, 8);
+
+// Accessing the instance of the newly added chart
+Chart chart = worksheet.GetCharts().Get(chartIndex);
+
+// Adding SeriesCollection (chart data source) to the chart ranging from "A1" cell to "B3"
+chart.GetNSeries().Add(u"A1:B3", true);
 
 // Path of output image file
+U16String outputChartImage = outDir + u"out1image.png";
+chart.ToImage(outputChartImage, ImageType::Png);
 
-StringPtr outputChartImage = outDir->StringAppend(new String("out1image.png"));
+// Path of output pdf file
+U16String outputPdfFile = outDir + u"out1pdf.pdf";
 
-// Saving the chart to image file
+// Saving chart to PDF
+chart.ToPdf(outputPdfFile);
 
-chart->ToImage(outputChartImage, Aspose::Cells::System::Drawing::Imaging::ImageFormat::GetPng());
+Aspose::Cells::Cleanup();
 
 {{< /highlight >}}
 
-### **Tabla de renderizado al PDF**
+##  **Representación de gráficos**
 
-Para representar el gráfico en formato PDF, las API Aspose.Cells han expuesto el método Chart.ToPdf con la capacidad de almacenar el PDF resultante en la ruta del disco o Stream.
+Las API Aspose.Cells admiten la conversión de gráficos de Excel a imágenes y formatos PDF sin necesidad de herramientas o aplicaciones adicionales. Para brindar soporte de renderizado, la clase Chart ha expuesto los métodos ToImage y ToPdf con una variedad de sobrecargas para adaptarse mejor a los requisitos de la aplicación.
+
+###  **Representar gráficos en imágenes**
+
+El método Chart.toImage tiene una serie de sobrecargas para admitir renderizado simple y avanzado. Si el requisito de la aplicación es representar el gráfico en sus dimensiones predeterminadas, le sugerimos que utilice el método Chart.toImage de la siguiente manera.
 
 {{< highlight "cpp" >}}
 
- // Path of output pdf file
+// Path of output image file
+U16String outputChartImage = outDir + u"out1image.png";
 
-StringPtr outputPdfFile = outDir->StringAppend(new String("out1pdf.pdf"));
-
-// Saving chart to PDF
-
-chart->ToPdf(outputPdfFile);
+// Saving the chart to image file
+chart.ToImage(outputChartImage, ImageType::Png);
 
 {{< /highlight >}}
 
-## **Tipos de gráficos admitidos para la representación**
+###  **Gráfico de renderizado al PDF**
 
-Hay algunos tipos de gráficos que actualmente no son compatibles con la representación. Dichos tipos de gráficos contienen**N** en el**Columna admitida** de la siguiente tabla.
+Para representar el gráfico en formato PDF, las API de Aspose.Cells han expuesto el método Chart.ToPdf con la capacidad de almacenar el PDF resultante en la ruta del disco o en Stream.
+
+{{< highlight "cpp" >}}
+
+// Path of output pdf file
+U16String outputPdfFile = outDir + u"out1pdf.pdf";
+
+// Saving chart to PDF
+chart.ToPdf(outputPdfFile);
+
+{{< /highlight >}}
+
+##  **Tipos de gráficos admitidos para renderizado**
+
+Hay algunos tipos de gráficos que actualmente no son compatibles con la representación. Estos tipos de gráficos contienen**N** en el **Soportado**columna de la siguiente tabla.
 
 |**Tipo de gráfico**|**Subtipo de gráfico**|**Soportado**|
-|:- |:- |:- |
-|**Columna**|Columna|**Y**|
-||Columna apilada|**Y**|
-||Columna100PorcentajeApilado|**Y**|
-||Columna 3D agrupada|**Y**|
-||Columna3Dapilada|**Y**|
-||Columna3D100PorcentajeApilado|**Y**|
-||Columna3D|**Y**|
-|**Bar**|Bar|**Y**|
-||Barra apilada|**Y**|
-||Bar100Por CientoApilado|**Y**|
-||Bar3D Agrupado|**Y**|
-||Bar3DSapilado|**Y**|
-||Bar3D100Por CientoApilado|**Y**|
-|**Línea**|Línea|**Y**|
-||línea apilada|**Y**|
-||Línea100PorcentajeApilado|**Y**|
-||LíneaConMarcadoresDeDatos|**Y**|
-||Línea apilada con marcadores de datos|**Y**|
-||Línea100PorcentajeApiladoConMarcadoresDeDatos|**Y**|
-||Línea3D|**Y**|
-|**Tarta**|Tarta|**Y**|
-||Pie3D|**Y**|
-||Pastel Pastel|**Y**|
-||PastelExplotado|**Y**|
-||Pie3DExplotado|**Y**|
-||PieBar|**Y**|
-|**Dispersión**|Dispersión|**Y**|
-||ScatterConnectedByCurvesWithDataMarker|**Y**|
-||DispersiónConectadoPorCurvasSinMarcador de datos|**Y**|
-||ScatterConnectedByLinesWithDataMarker|**Y**|
-||ScatterConnectedByLinesWithoutDataMarker|**Y**|
-|**Zona**|Zona|**Y**|
-||Área apilada|**Y**|
-||Área100PorcentajeApilado|**Y**|
-||Área3D|**Y**|
-||Area3DSapilado|**Y**|
-||Área3D100PorcentajeApilado|**Y**|
-|**Rosquilla**|Rosquilla|**Y**|
-||RosquillaExplotó|**Y**|
-|**Radar**|Radar|**Y**|
-||RadarConMarcadoresDeDatos|**Y**|
-||Lleno de radar|**Y**|
-|**Superficie**|Superficie3D|norte|
-||SuperficieAlambrado3D|norte|
-||SuperficieContorno|norte|
-||SuperficieContornoEstructura metálica|norte|
-|**Burbuja**|Burbuja|**Y**|
-||Burbuja3D|norte|
-|Existencias|InventarioAltoBajoCerrar|**Y**|
-||InventarioAbiertoAltoBajoCerrar|**Y**|
-||InventarioVolumenAltoBajoCerrar|**Y**|
-||StockVolumenAbiertoAltoBajoCerrar|**Y**|
-|**Cilindro**|Cilindro|**Y**|
-||CilindroApilado|**Y**|
-||Cilindro100PorcentajeApilado|**Y**|
-||CilíndricoBar|**Y**|
-||CilíndricoBarApilado|**Y**|
-||CilíndricoBar100PorcentajeApilado|**Y**|
-||CilíndricoColumna3D|**Y**|
-|**Cono**|Cono|**Y**|
-||ConoApilado|**Y**|
-||Cono100Por CientoApilado|**Y**|
-||Barracónica|**Y**|
-||Barra CónicaApilada|**Y**|
-||CónicoBar100PorcentajeApilado|**Y**|
-||ColumnaCónica3D|**Y**|
-|**Pirámide**|Pirámide|**Y**|
-||Pirámide apilada|**Y**|
-||Pirámide100Por CientoApilado|**Y**|
-||PirámideBar|**Y**|
-||PirámideBarApilado|**Y**|
-||PirámideBar100PorcentajeApilado|**Y**|
-||PirámideColumna3D|**Y**|
-|**cajabigotes**|cajabigotes|Y|
-|**Embudo**|Embudo|**Y**|
-|**Línea de Pareto**|Línea de Pareto|**Y**|
-|**rayos de sol**|rayos de sol|**Y**|
-|**Mapa de árbol**|Mapa de árbol|**Y**|
-|**Cascada**|Cascada|**Y**|
+| :- | :- | :- |
+|**Columna**|Columna|*Sí**|
+| |Columna Apilada|*Sí**|
+| |Columna100PorcentajeApilada|*Sí**|
+| |Columna3DClustered|*Sí**|
+| |Columna3DSapilada|*Sí**|
+| |Columna3D100PorcentajeApilado|*Sí**|
+| |Columna3D|*Sí**|
+|**Bar**|Bar|*Sí**|
+| |barra apilada|*Sí**|
+| |Barra100PorCientoApilados|*Sí**|
+| |Bar3DClustered|*Sí**|
+| |Barra3DSapilada|*Sí**|
+| |Bar3D100PorcentajeApilado|*Sí**|
+|**Línea**|Línea|*Sí**|
+| |líneaapilada|*Sí**|
+| |Línea100PorcentajeApilado|*Sí**|
+| |Línea con marcadores de datos|*Sí**|
+| |Línea apilada con marcadores de datos|*Sí**|
+| |Línea 100 por ciento apilada con marcadores de datos|*Sí**|
+| |Línea 3D|*Sí**|
+|**Tarta**|Tarta|*Sí**|
+| |pastel3D|*Sí**|
+| |Pastel Pastel|*Sí**|
+| |PastelExplotado|*Sí**|
+| |pastel3DExplotado|*Sí**|
+| |Barra de pastel|*Sí**|
+|**Dispersión**|Dispersión|*Sí**|
+| |Dispersión conectada por curvas con marcador de datos|*Sí**|
+| |Dispersión conectada por curvas sin marcador de datos|*Sí**|
+| |DispersiónConnectedByLinesWithDataMarker|*Sí**|
+| |DispersiónConectadoPorLineasSinMarcadorDeDatos|*Sí**|
+|**Área**|Área|*Sí**|
+| |ÁreaApilada|*Sí**|
+| |Área100PorCientoApilado|*Sí**|
+| |Área3D|*Sí**|
+| |Área3DSapiladas|*Sí**|
+| |Área3D100PorcentajeApilado|*Sí**|
+|**Rosquilla**|Rosquilla|*Sí**|
+| |DonutExplotado|*Sí**|
+|**Radar**|Radar|*Sí**|
+| |RadarConMarcadores De Datos|*Sí**|
+| |RadarLleno|*Sí**|
+|**Superficie**|Superficie3D|N|
+| |SuperficieAlámbrica3D|N|
+| |Contorno de superficie|N|
+| |SuperficieContornoEstructura Alámbrica|N|
+|**Burbuja**|Burbuja|*Sí**|
+| |burbuja3d|N|
+|Existencias|StockAltoBajoCerrar|*Sí**|
+| |StockAbiertoAltoBajoCerrar|*Sí**|
+| |StockVolumenAltoBajoCerrar|*Sí**|
+| |StockVolumenAbrirAltoBajoCerrar|*Sí**|
+|**Cilindro**|Cilindro|*Sí**|
+| |CilindroApilado|*Sí**|
+| |Cilindro100PorCientoApilado|*Sí**|
+| |Barra cilíndrica|*Sí**|
+| |CilíndricoBarApilados|*Sí**|
+| |CilíndricoBarra100PorCientoApilado|*Sí**|
+| |CilíndricoColumna3D|*Sí**|
+|**Cono**|Cono|*Sí**|
+| |ConoApilado|*Sí**|
+| |Cono100PorCientoApilados|*Sí**|
+| |Barra cónica|*Sí**|
+| |Barra CónicaApiladas|*Sí**|
+| |Barra cónica 100 por ciento apilada|*Sí**|
+| |Columna Cónica3D|*Sí**|
+|**Pirámide**|Pirámide|*Sí**|
+| |pirámideapilada|*Sí**|
+| |Pirámide100PorCientoApilados|*Sí**|
+| |Barra Pirámide|*Sí**|
+| |PirámideBarApilados|*Sí**|
+| |PyramidBar100PorcentajeApilado|*Sí**|
+| |PirámideColumna3D|*Sí**|
+|**CajaBigote**|CajaBigote|Y|
+|**Embudo**|Embudo|*Sí**|
+|**Línea de Pareto**|Línea de Pareto|*Sí**|
+|**resplandor solar**|resplandor solar|*Sí**|
+|**Mapa de árbol**|Mapa de árbol|*Sí**|
+|**Cascada**|Cascada|*Sí**|
 |**Histograma**|Histograma|Y|
-|**Mapa**|Mapa|**NORTE**|
+|**Mapa**|Mapa|*NORTE**|
 
 {{% alert color="primary" %}}
 

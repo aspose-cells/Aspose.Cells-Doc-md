@@ -10,7 +10,7 @@ keywords: Unfreeze panes, Unfreeze rows, Unfreeze columns, unFreeze window.
 {{% alert color="primary" %}}
 
 この記事では、行、列、ペインのフリーズを解除する方法を学びます。
-Excel ファイル内のワークシートがフリーズされている場合、フリーズを解除したり、フリーズされた行、列、ペインを調整したりする必要がある場合があります。
+Excel ファイル内のワークシートがフリーズされている場合、ワークシートのフリーズを解除したり、フリーズされた行、列、ペインを調整したりする必要がある場合があります。
 
 {{% /alert %}}
 

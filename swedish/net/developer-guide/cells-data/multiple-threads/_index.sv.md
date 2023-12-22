@@ -1,9 +1,11 @@
-﻿---
+---
 title: Läser Cell Värden i flera trådar samtidigt
 linktitle: Flera trådar
 type: docs
 weight: 1800
 url: /sv/net/reading-cell-values-in-multiple-threads-simultaneously/
+description: Lär dig hur du läser Cell-värden i flera trådar samtidigt genom Aspose.Cells for .NET API.
+keywords: Read Cell Values in Multiple Threads Simultaneously, Aspose.Cells C# Multiple Threads, Read data in Multiple Threads
 ---
 {{% alert color="primary" %}}
 
@@ -11,7 +13,7 @@ Att behöva läsa cellvärden i flera trådar samtidigt är ett vanligt krav. De
 
 {{% /alert %}}
 
- För att läsa cellvärden i mer än en tråd samtidigt, ställ in[**Arbetsblad.Cells.MultiThreadReading**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/multithreadreading) till**Sann**. Om du inte gör det kan du få fel cellvärden.
+ För att läsa cellvärden i mer än en tråd samtidigt, ställ in[**Arbetsblad.Cells.MultiThreadReading**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/multithreadreading)till *sant**. Om du inte gör det kan du få fel cellvärden.
 
 Följande kod:
 

@@ -1,5 +1,7 @@
 ---
 title: チャートから画像へ
+description: Aspose.Cells for .NET を使用してグラフを JPEG や PNG などの画像形式に変換する方法について説明します。ガイドでは、Microsoft Excel からグラフをエクスポートし、さらに使用したり操作したりできるようにスタンドアロン画像として保存する方法を説明します。
+keywords: Aspose.Cells for .NET, Chart to Image, Microsoft Excel, Image Conversion, Export, Standalone Image.
 linktitle: チャートから画像へ
 type: docs
 weight: 46
@@ -7,7 +9,7 @@ url: /ja/net/chart-to-image/
 ---
 ##  **レンダリングチャート**
 
-Aspose.Cells API は、追加のツールやアプリケーションを必要とせずに、Excel グラフを画像形式に変換することをサポートしています。レンダリングのサポートを提供するために、[**チャート**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)クラスが暴露した[**画像へ**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)アプリケーション要件に最適な多数のオーバーロードを備えたメソッド。
+ Aspose.Cells API は、追加のツールやアプリケーションを必要とせずに、Excel グラフを画像形式に変換することをサポートしています。レンダリングのサポートを提供するために、[**チャート**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)クラスが暴露した[**画像へ**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)アプリケーション要件に最適な多数のオーバーロードを備えたメソッド。
 
 ###  **チャートを画像にレンダリングする**
 
@@ -25,7 +27,7 @@ Aspose.Cells API は、追加のツールやアプリケーションを必要と
 
 |**グラフの種類**|**グラフのサブタイプ**|**サポートされています**|
 | :- | :- | :- |
-|**桁**|桁|*はい**|
+|**カラム**|カラム|*はい**|
 | |列積み上げ|*はい**|
 | |列100パーセント積み上げ|*はい**|
 | |列3Dクラスター化|*はい**|
@@ -67,7 +69,7 @@ Aspose.Cells API は、追加のツールやアプリケーションを必要と
 |**レーダー**|レーダー|*はい**|
 | |レーダーとデータマーカー|*はい**|
 | |レーダー充填済み|*はい**|
-|**水面**|表面3D|N|
+|**表面**|表面3D|N|
 | |表面ワイヤーフレーム3D|N|
 | |表面輪郭|N|
 | |表面輪郭ワイヤーフレーム|N|

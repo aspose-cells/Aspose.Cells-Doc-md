@@ -1,15 +1,17 @@
-﻿---
-title: ワークシート データをデータ テーブルにエクスポートする際に非表示の列を無視する
+---
+title: ワークシート データをデータ テーブルにエクスポートするときに非表示の列を無視する
 type: docs
 weight: 330
 url: /ja/net/ignore-hidden-columns-while-exporting-worksheet-data-to-data-table/
+description: Aspose.Cells for .NET API を通じてワークシート データをデータ テーブルにエクスポートするときに非表示の列を無視する方法を学習します。
+keywords: Export Visible Columns Data to DataTable, Export unhidden Columns Data to DataTable, Export Columns Data to DataTable and Exclude hidden Columns, Ignore Hidden Columns while Exporting Worksheet Data to Data Table
 ---
 {{% alert color="primary" %}}
 
-ワークシート データをデータ テーブルにエクスポートするときに、非表示の列を無視したい場合があります。を設定することにより、Aspose.Cellsを使用してそれを達成できます[**ExportTableOptions.PlotVisibleColumns**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblecolumns)に**真実** .デフォルトでは、その値は**間違い**、だからあなたはそれを設定する必要があります**真実**非表示の列を無視します。
+ワークシート データをデータ テーブルにエクスポートするときに、非表示の列を無視したい場合があります。 Aspose.Cells を使用してこれを実現するには、[**ExportTableOptions.PlotVisibleColumns**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblecolumns)に**真実**。デフォルトでは、値は **false** であるため、**true に設定する必要があります。**非表示の列を無視します。
 
 {{% /alert %}}
 
-次のサンプル コードは、[**ExportTableOptions.PlotVisibleColumns**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblecolumns)ワークシート全体のデータをデータ テーブルにエクスポートする際に、非表示の列を無視するプロパティ。
+次のサンプルコードは、[**ExportTableOptions.PlotVisibleColumns**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblecolumns)プロパティを使用して、ワークシート全体のデータをデータ テーブルにエクスポートするときに非表示の列を無視します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-IgnoreHiddenColumnsDataTable-1.cs" >}}

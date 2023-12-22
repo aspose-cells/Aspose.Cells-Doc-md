@@ -1,8 +1,10 @@
-﻿---
+---
 title: Åtkomst till Cells i ett arbetsblad
 type: docs
 weight: 10
 url: /sv/net/accessing-cells-of-a-worksheet/
+description: Den här artikeln visar hur du får det maximala visningsintervallet för kalkylblad och åtkomstceller via Aspose.Cells for .NET API.
+keywords: Get Cell object, Access Cells, Get maximum display range of worksheet. 
 ---
 {{% alert color="primary" %}}
 
@@ -10,7 +12,7 @@ Vi vet att alla kalkylblad kan innehålla data som i princip lagras i celler (so
 
 {{% /alert %}}
 
-## **Tillgång till Cells**
+##  **Så här kommer du åt Cells**
 
  Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) som representerar en Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook)klass innehåller en[**Arbetsbladssamling**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)som ger åtkomst till varje kalkylblad i Excel-filen. Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass. De[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass ger en[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)samling som representerar alla celler i kalkylbladet.
 
@@ -22,7 +24,7 @@ Vi vet att alla kalkylblad kan innehålla data som i princip lagras i celler (so
 
 **VIKTIG:**Vi har nämnt att den tredje inflygningen är den snabbaste och den första är den långsammaste. Prestandaskillnaden mellan tillvägagångssätten är mycket liten, så oroa dig inte för prestandaförsämring, vilket tillvägagångssätt du än använder.
 
-### **Använder Cell Namn**
+###  **Hur man får Cell Objekt av Cell Namn**
 
  Utvecklare kan komma åt vilken specifik cell som helst genom att skicka dess cellnamn till[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) samling av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)klass som ett index.
 
@@ -30,7 +32,7 @@ Vi vet att alla kalkylblad kan innehålla data som i princip lagras i celler (so
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-UsingCellName-1.cs" >}}
 
-### **Använda rad- och kolumnindex för Cell**
+###  **Hur man får Cell objekt efter rad och kolumn Index för Cell**
 
  Utvecklare kan komma åt vilken specifik cell som helst genom att skicka indexen för dess rad och kolumn till[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) samling av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)klass.
 
@@ -38,18 +40,18 @@ Detta tillvägagångssätt fungerar på samma sätt som det första tillvägagå
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-UsingRowAndColumnIndexOfCell-1.cs" >}}
 
-### **Använder Cell Index i Cells Collection**
+###  **Så här får du Cell Objekt av Cell Index i Cells samling**
 
  En cell kan också nås genom att skicka cellens numeriska index till[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)samling.
 
- Om du använder det här tillvägagångssättet för att komma åt celler kan ett undantag skapas om cellens numeriska index ligger utanför intervallet. Detta tillvägagångssätt är det snabbaste för att komma åt cellerna men en viktig sak att veta är att om du använder den här metoden för att komma åt ett cellobjekt, kan det numeriska indexet ändras efter att nya celler läggs till i[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) samling. Cellobjekten i[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)samlingen är internt sorterad efter rad- och kolumnindex.
+Om du använder det här tillvägagångssättet för att komma åt celler kan ett undantag skapas om cellens numeriska index ligger utanför intervallet. Detta tillvägagångssätt är det snabbaste för att komma åt cellerna men en viktig sak att veta är att om du använder den här metoden för att komma åt ett cellobjekt, kan det numeriska indexet ändras efter att nya celler läggs till i[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) samling. Cellobjekten i[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)samlingen är internt sorterad efter rad- och kolumnindex.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-UsingCellIndexInCellsCollection-1.cs" >}}
 
-## **Få åtkomst till maximalt visningsområde för arbetsblad**
+##  **Så här får du maximalt visningsområde för arbetsblad**
 
 Aspose.Cells tillåter utvecklare att komma åt ett kalkylblads maximala visningsområde. Det maximala visningsintervallet - cellintervallet mellan den första och sista cellen med innehåll - är användbart när du behöver kopiera, markera eller visa hela innehållet i ett kalkylblad i en bild.
 
- Du kan komma åt ett kalkylblads maximala visningsområde med[**Arbetsblad.Cells.MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange) . Följande exempelkod illustrerar hur du kommer åt[**MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange)fast egendom.
+Du kan komma åt ett kalkylblads maximala visningsområde med[**Arbetsblad.Cells.MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange) . Följande exempelkod illustrerar hur du kommer åt[**MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange)fast egendom.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-AccessingMaximumDisplayRangeofWorksheet-1.cs" >}}

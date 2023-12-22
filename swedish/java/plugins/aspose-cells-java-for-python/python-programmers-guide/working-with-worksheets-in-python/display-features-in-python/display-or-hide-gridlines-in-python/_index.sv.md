@@ -1,12 +1,14 @@
-﻿---
+---
 title: Visa eller dölj rutnät i Python
 type: docs
 weight: 10
 url: /sv/java/display-or-hide-gridlines-in-python/
+description: Lär dig hur du visar eller döljer rutnätslinjer via Aspose.Cells for Python Via Java API.
+keywords: How to Display or Hide Gridlines in Python Via Java, Display or Hide Gridlines using Python Via Java, Python Show or Hide Gridlines. 
 ---
-## **Aspose.Cells - Visa Dölj rutnät**
-### **Dölja rutnät**
- För att dölja kalkylblad med**Aspose.Cells Java för Ruby** , ringa upp**visahidegridlines** modul.
+##  **Aspose.Cells - Hur man visar eller döljer rutnätslinjer**
+###  **Hur man döljer rutnät**
+ För att dölja kalkylblad med**Aspose.Cells Java för Ruby**, ring **displayhidegridlines** modul.
 
 **Python Kod**
 
@@ -33,7 +35,7 @@ workbook.save(self.dataDir + "output.xls")
 print "Grid lines are now hidden on sheet 1, please check the output document."
 
 {{< /highlight >}}
-### **Gör rutnät synliga**
+###  **Hur man visar rutnät**
 För att göra rutnätslinjer synliga, använd arbetsbladsklassens setGridlinesVisible(true) metod.
 
 **Python Kod**
@@ -45,7 +47,7 @@ För att göra rutnätslinjer synliga, använd arbetsbladsklassens setGridlinesV
 worksheet.setGridlinesVisible(True)
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+##  **Ladda ner Running Code**
  Ladda ner**DisplayHide Gridlines (Aspose.Cells)** från någon av nedan nämnda webbplatser för social kodning:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

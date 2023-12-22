@@ -1,5 +1,7 @@
 ---
 title: Diagram till bild
+description: Lär dig hur du använder Aspose.Cells for .NET för att konvertera ett diagram till ett bildformat, till exempel JPEG eller PNG. Vår guide kommer att visa hur du exporterar ett diagram från Microsoft Excel och sparar det som en fristående bild för vidare användning och manipulation.
+keywords: Aspose.Cells for .NET, Chart to Image, Microsoft Excel, Image Conversion, Export, Standalone Image.
 linktitle: Diagram till bild
 type: docs
 weight: 46
@@ -15,7 +17,7 @@ url: /sv/net/chart-to-image/
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImage.cs" >}}
 
- Det är också möjligt att rendera diagrammen till bilder med avancerade inställningar. Aspose.Cells API:er har avslöjat en överbelastningsversion av[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) metod som skulle kunna acceptera en instans av[**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions), samtidigt som du tillåter att ange parametrar som upplösning, utjämningsläge, bildformat och så vidare.
+ Det är också möjligt att rendera diagrammen till bilder med avancerade inställningar. Aspose.Cells API:er har avslöjat en överbelastningsversion av[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) metod som skulle kunna acceptera en instans av[**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions)samtidigt som du tillåter att ange parametrar som upplösning, utjämningsläge, bildformat och så vidare.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImageWithAdvancedOptions.cs" >}}
 

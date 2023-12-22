@@ -9,16 +9,16 @@ keywords: formula function calculate
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells API'ler, standart işlevlerin çoğunu ve Excel'in yerleşik formülünü destekler. Aşağıda, desteklenen tüm işlevleri alfabetik sırayla bulabilirsiniz.
+Aspose.Cells API'ler standart işlevlerin çoğunu ve Excel'in yerleşik formülünü destekler. Aşağıda desteklenen tüm işlevleri alfabetik sırayla bulabilirsiniz.
 
 | | | | | | | | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **[A](#a)** | **[B](#b)** | **[C](#c)** | **[D](#d)** | **[E](#e)** | **[F](#f)** | **[İyi oyun)** | **[H](#h)** | **[ben](#i)** | **[J](#j)** | **[K](#k)** | **[LL)** | **[M](#m)** |
-| **[N](#n)** | **[O](#o)** | **[P](#p)** | **[Q](#q)** | **[R](#r)** | **[S](#s)** | **[T](#t)** | **[U](#u)** | **[V](#v)** | **[W](#w)** | **[X](#x)** | **[Y](#y)** | **[Z](#z)** |
+| **[N](#n)** | **[O](#o)** | **[P](#p)** | **[S](#q)** | **[R](#r)** | **[S](#s)** | **[T](#t)** | **[U](#u)** | **[V](#v)** | **[W](#w)** | **[X](#x)** | **[Y](#y)** | **[Z](#z)** |
 
 {{% /alert %}}
 
-Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri ayarlamanıza, okumanıza ve sonuçlarını hesaplamanıza olanak tanır.
+Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formül ve işlevlerin sonuçlarını ayarlamanıza, okumanıza ve hesaplamanıza olanak tanır.
 
 ######  *A**
 |**İşlev**|**Özet**|
@@ -32,6 +32,7 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 |AGGREGATE|
 |AMORDEGRC|
 |AMORLINC|
+|ANCHORARRAY|
 |AND|
 |AREAS|
 |ASC|
@@ -56,7 +57,7 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 |BETADIST|
 |BETA.DAĞ|
 |BETAINV|
-|BETA.TERS|
+|BETA.INV|
 |BIN2DEC|
 |BIN2HEX|
 |BIN2OCT|
@@ -72,17 +73,17 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 |**İşlev**|**Özet**|
 | :- | :- |
 |CEILING|
-|TAVAN.MATİK|
-|TAVAN.HASSAS|
+|TAVAN.MATEMATİK|
+|TAVAN. HASSAS|
 |CELL|
 |CHAR|
 |CHIDIST|
 |CHIINV|
 |CHITEST|
-|KİK.DAĞ|
-|CHISQ.DAĞ.RT|
-|CHISQ.TERS.RT|
-|KİK.TESTİ|
+|KİŞİK.DAĞ|
+|KİŞİ.DAĞ.RT|
+|CHISQ.INV.RT|
+|ÇİZ.TEST|
 |CHOOSE|
 |CHOOSECOLS|
 |CHOOSEROWS|
@@ -95,7 +96,7 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 |CONCAT|
 |CONCATENATE|
 |CONFIDENCE|
-|GÜVEN.NORM|
+|GÜVEN NORMU|
 |CONVERT|
 |CORREL|
 |COS|
@@ -153,11 +154,12 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 |DVAR|
 |DVARP|
 
-######  *e**
+######  *E**
 |**İşlev**|**Özet**|
 | :- | :- |
 |EDATE|
 |EFFECT|
+|ENCODEURL|
 |EOMONTH|
 |ERF|
 |ERFC|
@@ -185,7 +187,7 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 |FISHERINV|
 |FIXED|
 |FLOOR|
-|ZEMİN.MATİK|
+|KAT.MATEMATİK|
 |FORECAST|
 |TAHMİN.DOĞRUSAL|
 |FORMULATEXT|
@@ -198,7 +200,7 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 | :- | :- |
 |GAMA.DAĞ|
 |GAMMADIST|
-|GAMA.TERS|
+|GAMMA.TERS|
 |GAMMAINV|
 |GAMMALN|
 |GCD|
@@ -218,7 +220,7 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 |HOUR|
 |HSTACK|
 |HYPERLINK|
-|HİPERGEOM.DAĞ|
+|HİPGEOM.DAĞ|
 |HYPGEOMDIST|
 
 ######  *BEN**
@@ -256,6 +258,7 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 |ISERR|
 |ISERROR|
 |ISEVEN|
+|ISFORMULA|
 |ISLOGICAL|
 |ISNA|
 |ISNONTEXT|
@@ -274,12 +277,14 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 ######  *L**
 |**İşlev**|**Özet**|
 | :- | :- |
+|LAMBDA|
 |LARGE|
 |LCM|
 |LEFT|
 |LEFTB|
 |LEN|
 |LENB|
+|LET|
 |LINEST|
 |LN|
 |LOG|
@@ -287,7 +292,7 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 |LOGEST|
 |LOGINV|
 |LOGNORM.DAĞ|
-|LOGNORM.TERS|
+|LOGNORM.INV|
 |LOGNORMDIST|
 |LOOKUP|
 |LOWER|
@@ -295,6 +300,8 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 ######  *M**
 |**İşlev**|**Özet**|
 | :- | :- |
+|MAKEARRAY|
+|MAP|
 |MATCH|
 |MAX|
 |MAXA|
@@ -361,16 +368,16 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 |**İşlev**|**Özet**|
 | :- | :- |
 |PEARSON|
-|YÜZDEBİRLİK.HRC|
-|YÜZDEBİRLİK|
+|Yüzdebirlik.Hariç|
+|YÜZDEBİRLİK.DAHİL|
 |PERCENTILE|
 |YÜZDERANK.HRC|
-|YÜZDERANK.D.Ş.|
+|YÜZDERANK.DHL|
 |PERCENTRANK|
 |PERMUT|
 |PI|
 |PMT|
-|POISSON.DAĞ|
+|POISON.DAĞ|
 |POISSON|
 |POWER|
 |PPMT|
@@ -386,8 +393,8 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 |**İşlev**|**Özet**|
 | :- | :- |
 |QUARTILE|
-|Çeyrek.Harç|
-|Çeyrek. A.Ş.|
+|DÖRTTEBİRLİK.HRC|
+|DÖRTTEBİRLİK.INC|
 |QUOTIENT|
 
 ######  *R**
@@ -418,6 +425,7 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 ######  *S**
 |**İşlev**|**Özet**|
 | :- | :- |
+|SCAN|
 |SEARCH|
 |SEARCHB|
 |SECOND|
@@ -428,6 +436,7 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 |SIGN|
 |SIN|
 |SINH|
+|SINGLE|
 |SKEW|
 |SLN|
 |SLOPE|
@@ -438,7 +447,7 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 |SQRTPI|
 |STANDARDIZE|
 |STDEV|
-|STDEV.P|
+|STDSAPMA.P|
 |STDEV.S|
 |STDEVA|
 |STDEVP|
@@ -482,17 +491,18 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 |TRIMMEAN|
 |TRUE|
 |TRUNC|
-|T.TESTİ|
+|T.TEST|
 |TTEST|
 |TYPE|
 
-######  *S**
+######  *U**
 |**İşlev**|**Özet**|
 | :- | :- |
 |UNICHAR|
 |UNICODE|
 |UNIQUE|
 |UPPER|
+|USDOLLAR|
 
 ######  *V**
 |**İşlev**|**Özet**|
@@ -508,7 +518,7 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 |VLOOKUP|
 |VSTACK|
 
-######  *G**
+######  *B**
 |**İşlev**|**Özet**|
 | :- | :- |
 |WEEKDAY|
@@ -525,7 +535,7 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 |XLOOKUP|
 |XNPV|
 
-######  *Y**
+######  *Evet**
 |**İşlev**|**Özet**|
 | :- | :- |
 |YEAR|
@@ -537,6 +547,6 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 ######  *Z**
 |**İşlev**|**Özet**|
 | :- | :- |
-|Z.TESTİ|
+|Z.TEST|
 |ZTEST|
 

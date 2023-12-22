@@ -1,5 +1,5 @@
-﻿---
-title: UI コンポーネント
+---
+title: UIコンポーネント
 second_title: Aspose.Cells.GridWeb
 type: docs
 weight: 35

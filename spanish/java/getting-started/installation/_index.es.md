@@ -6,9 +6,9 @@ url: /es/java/installation/
 ---
 ##  **Instalación de Aspose.Cells for Java desde el repositorio Maven**
 
-Aspose aloja todas las API Java en[Maven depósito](https://releases.aspose.com/java/repo/) . Puedes usar fácilmente[Aspose.Cells for Java API](https://releases.aspose.com/cells/java/) directamente en tus Proyectos Maven con configuraciones simples.
+Aspose aloja todas las API Java en[Maven repositorio](https://releases.aspose.com/java/repo/) . Puedes usar fácilmente[Aspose.Cells for Java API](https://releases.aspose.com/cells/java/) directamente en tus Proyectos Maven con configuraciones simples.
 
-Primero, debe especificar Aspose Maven Configuración/ubicación del repositorio en su Maven pom.xml como se muestra a continuación:
+Primero, debe especificar la configuración/ubicación del repositorio Aspose Maven en su Maven pom.xml como se muestra a continuación:
 
 {{< highlight "java" >}}
 
@@ -51,7 +51,7 @@ Luego defina la dependencia Aspose.Cells for Java API en su pom.xml de la siguie
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>23.5</version>
+            <version>23.12</version>
 
         </dependency>
 
@@ -61,7 +61,7 @@ Luego defina la dependencia Aspose.Cells for Java API en su pom.xml de la siguie
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>23.5</version>
+            <version>23.12</version>
 
             <classifier>javadoc</classifier>
 
@@ -73,7 +73,7 @@ Luego defina la dependencia Aspose.Cells for Java API en su pom.xml de la siguie
 
             <artifactId>bcprov-jdk15on</artifactId>
 
-            <version>1.60</version>
+            <version>1.68</version>
 
         </dependency>        
 
@@ -83,7 +83,7 @@ Luego defina la dependencia Aspose.Cells for Java API en su pom.xml de la siguie
 
             <artifactId>bcpkix-jdk15on</artifactId>
 
-            <version>1.60</version>
+            <version>1.68</version>
 
         </dependency>        
 
@@ -95,6 +95,6 @@ Luego defina la dependencia Aspose.Cells for Java API en su pom.xml de la siguie
 
 ##  **Apoyo**
 
-Verifique lo siguiente para obtener soporte técnico rápido
+Por favor verifique lo siguiente para obtener soporte técnico rápido
 
 [Aspose.Cells - Foros](https://forum.aspose.com/c/cells/9)

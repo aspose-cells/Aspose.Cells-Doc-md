@@ -1,30 +1,32 @@
-﻿---
-title: 行と列を繰り返す
+---
+title: 行と列を反復する
 type: docs
 weight: 50
 url: /ja/java/iterate-rows-and-columns/
+description: Aspose.Cells for Java API を使用して行と列を反復する方法を学習します。
+keywords: How to Iterate Rows and Columns in Java, Iterate Rows using Java, Java Iterate Columns. 
 ---
-## **Aspose.Cells - 行と列の反復**
+##  **Aspose.Cells for Java を使用して行と列を反復する方法**
 
-行と列は、行と列のコレクションを使用して反復できます。
+行と列のコレクションを使用して、行と列を反復できます。
 
 **Java**
 
 {{< highlight "java" >}}
 
- //最大表示範囲にアクセス
+ //最大表示範囲にアクセスする
 
 範囲範囲 = worksheet.getCells().getMaxDisplayRange();
 
 int tcols = range.getColumnCount();
 
-int トロウ = range.getRowCount();
+int trows = range.getRowCount();
 
-System.out.println("Total Rows:" + トロウ);
+System.out.println("合計行数:" + trows);
 
-System.out.println("Total Cols:" + tcols);
+System.out.println("合計列数:" + tcols);
 
-RowCollection 行 = cells.getRows();
+RowCollection 行 = cell.getRows();
 
  for (int i = 0 ; i< rows.getCount() ; i++)
 
@@ -44,9 +46,9 @@ RowCollection 行 = cells.getRows();
 
 {{< /highlight >}}
 
-## **Apache POI SS - HSSF XSSF - 行と列の反復**
+##  **Apache POI SS - HSSF XSSF - 行と列の反復**
 
-行と Cells はシートで反復できます。サンプルコードを以下に示します。
+行と Cells はシート上で反復できます。サンプルコードを以下に示します。
 
 **Java**
 
@@ -72,11 +74,11 @@ for (Row row : sheet)
 
 {{< /highlight >}}
 
-## **実行中のコードをダウンロード**
+##  **実行コードをダウンロード**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 
-## **サンプルコードをダウンロード**
+##  **サンプルコードをダウンロード**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/iterate)
 

@@ -1,12 +1,12 @@
-﻿---
+---
 title: Arbeta med rader och kolumner GridWeb
 type: docs
 weight: 20
 url: /sv/java/working-with-rows-and-columns-gridweb/
 ---
-## **Infoga rader och kolumner**
+##  **Infoga rader och kolumner**
 Det här avsnittet förklarar hur man infogar nya rader och kolumner i ett kalkylblad med hjälp av Aspose.Cells.GridWeb API. Rader eller kolumner kan infogas var som helst i kalkylbladet.
-### **Infoga rader**
+###  **Infoga rader**
 Så här infogar du en rad var som helst i ett kalkylblad:
 
 1. Lägg till kontrollen Aspose.Cells.GridWeb till webbformuläret eller sidan.
@@ -16,7 +16,7 @@ Så här infogar du en rad var som helst i ett kalkylblad:
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-InsertingRows-InsertingRows.jsp" >}}
-### **Infoga kolumner**
+###  **Infoga kolumner**
 Så här infogar du en kolumn på valfri plats i ett kalkylblad:
 
 1. Lägg till Aspose.Cells.GridWeb-kontrollen till ett webbformulär eller en sida.
@@ -32,9 +32,9 @@ Så här infogar du en kolumn på valfri plats i ett kalkylblad:
 Du kan också använda insertRows()/insertColumns() metoder för att infoga flera rader/kolumner i kalkylbladen i enlighet med detta.
 
 {{% /alert %}} 
-## **Ta bort rader och kolumner**
+##  **Ta bort rader och kolumner**
 Det här avsnittet visar hur man tar bort rader och kolumner från ett kalkylblad med hjälp av Aspose.Cells.GridWeb API. Med hjälp av den här funktionen kan utvecklare ta bort rader eller kolumner under körning.
-### **Ta bort rader**
+###  **Ta bort rader**
 Så här tar du bort en rad från ditt kalkylblad:
 
 1. Lägg till Aspose.Cells.GridWeb-kontrollen till ett webbformulär eller en sida.
@@ -44,7 +44,7 @@ Så här tar du bort en rad från ditt kalkylblad:
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-DeletingRows-DeletingRows.jsp" >}}
-### **Ta bort kolumner**
+###  **Ta bort kolumner**
 Så här tar du bort en kolumn från ditt kalkylblad:
 
 1. Lägg till Aspose.Cells.GridWeb-kontrollen till ett webbformulär eller en sida.
@@ -54,10 +54,10 @@ Så här tar du bort en kolumn från ditt kalkylblad:
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-DeletingColumns-DeletingColumns.jsp" >}}
-## **Ställa in radhöjd och kolumnbredd**
+##  **Ställa in radhöjd och kolumnbredd**
 Ibland är cellvärden bredare än cellen de är i eller finns på flera rader. Sådana värden är inte helt synliga för användare om de inte ändrar höjden och bredden på rader och kolumner. Aspose.Cells.GridWeb stöder fullt ut inställning av radhöjder och kolumnbredd. Det här ämnet diskuterar dessa funktioner i detalj med hjälp av exempel.
-### **Arbeta med radhöjder och kolumnbredd**
-#### **Ställa in radhöjd**
+###  **Arbeta med radhöjder och kolumnbredd**
+####  **Ställa in radhöjd**
 Så här ställer du in höjden på en rad:
 
 1. Lägg till Aspose.Cells.GridWeb-kontrollen till din webbformulär/sida.
@@ -77,7 +77,7 @@ Aspose.Cells.GridWeb accepterar radhöjd och kolumnbreddsmått i punkter, tum, p
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-SettingRowHeight-SettingRowHeight.jsp" >}}
-#### **Ställa in kolumnbredd**
+####  **Ställa in kolumnbredd**
 Så här ställer du in bredden på en kolumn:
 
 1. Lägg till Aspose.Cells.GridWeb-kontrollen till din webbformulär/sida.
@@ -87,9 +87,9 @@ Så här ställer du in bredden på en kolumn:
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-SettingColumnWidth-SettingColumnWidth.jsp" >}}
-## **Anpassa rad- och kolumnrubriker**
+##  **Anpassa rad- och kolumnrubriker**
 Som Microsoft Excel, Aspose.Cells.GridWeb använder också standardrubriker eller bildtexter för rader (siffror som 1, 2, 3 och så vidare) och kolumner (alfabetiska som A, B, C och så vidare). Aspose.Cells.GridWeb gör det också möjligt att anpassa bildtexter. Det här ämnet diskuterar anpassning av rad- och kolumnrubriker vid körning med Aspose.Cells.GridWeb API.
-### **Anpassa radhuvud**
+###  **Anpassa radhuvud**
 Så här anpassar du rubriken eller bildtexten för en rad:
 
 1. Lägg till kontrollen Aspose.Cells.GridWeb till ett webbformulär/-sida.
@@ -103,7 +103,7 @@ Så här anpassar du rubriken eller bildtexten för en rad:
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-CustomizingRowHeader-CustomizingRowHeader.jsp" >}}
-### **Anpassa kolumnrubrik**
+###  **Anpassa kolumnrubrik**
 Så här anpassar du rubriken eller bildtexten för en kolumn:
 
 1. Lägg till kontrollen Aspose.Cells.GridWeb till ett webbformulär/-sida.
@@ -117,9 +117,9 @@ Så här anpassar du rubriken eller bildtexten för en kolumn:
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-CustomizingColumnHeader-CustomizingColumnHeader.jsp" >}}
-## **Frys och lås upp rader och kolumner**
+##  **Frys och lås upp rader och kolumner**
 Det här avsnittet förklarar hur man fryser och släpper rader och kolumner. Frysning av kolumner eller rader tillåter användare att hålla kolumnrubrikerna eller radrubrikerna synliga medan de rullar till andra delar av kalkylbladet. Den här funktionen är mycket användbar när du arbetar med kalkylblad som innehåller stora mängder data. När användare rullar rullas endast data nedåt och rubrikerna stannar på plats, vilket gör datumet lättare att läsa. Funktionen för frysning av rutor stöds endast i Internet Explorer 6.0 eller senare.
-### **Fryser rader och kolumner**
+###  **Fryser rader och kolumner**
 Så här fryser du ett visst antal rader och kolumner:
 
 1. Lägg till kontrollen Aspose.Cells.GridWeb till ett webbformulär/-sida.
@@ -139,7 +139,7 @@ Så här fryser du ett visst antal rader och kolumner:
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-FreezingRowsandColumns-FreezingRowsandColumns.jsp" >}}
-### **Frigör rader och kolumner**
+###  **Frigör rader och kolumner**
 Så här låser du upp rader och kolumner:
 
 1. Lägg till kontrollen Aspose.Cells.GridWeb till ett webbformulär/-sida.
@@ -153,9 +153,9 @@ Så här låser du upp rader och kolumner:
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-UnfreezingRowsandColumns-UnfreezingRowsandColumns.jsp" >}}
-## **Skydda rader och kolumner**
+##  **Skydda rader och kolumner**
 Det här ämnet diskuterar några tekniker för att skydda celler i rader och kolumner från alla typer av åtgärder som utförs av slutanvändare. Utvecklare kan implementera detta skydd med två tekniker: genom att göra celler i rader och kolumner skrivskyddade eller genom att begränsa GridWebs snabbmenyalternativ.
-### **Begränsa kontextmenyalternativ**
+###  **Begränsa kontextmenyalternativ**
 GridWeb tillhandahåller en snabbmeny som slutanvändare kan använda för att utföra operationer på kontrollen. Menyn innehåller många alternativ för att manipulera celler, rader och kolumner.
 
 **Komplettera kontextuella alternativ** 

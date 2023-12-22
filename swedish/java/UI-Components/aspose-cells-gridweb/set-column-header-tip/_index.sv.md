@@ -1,15 +1,15 @@
-﻿---
+---
 title: Ställ in spets för kolumnrubrik
 type: docs
 weight: 90
 url: /sv/java/set-column-header-tip/
 ---
-## **Möjliga användningsscenarier**
+##  **Möjliga användningsscenarier**
 Du kan behöva ställa in verktygstips för din anpassade kolumn när du skapar tabellen i kalkylbladet. Aspose.Cells.GridWeb låter dig byta namn på en kolumns bildtext och du kan ställa in verktygstips till kolumnen, så att användarna enkelt kan förstå vad kolumnen är till för.
-## **Inställning av kolumnrubrik Tips**
+##  **Inställning av kolumnrubrik Tips**
 Ett komplett exempel ges nedan för att demonstrera hur du ändrar kolumns bildtexter och använder verktygstips. Efter exekvering av exempelkoden kommer verktygstipstexten att dyka ut när du placerar muspekaren över den angivna kolumnens rubrik.
 
-## **Exempelkod**
+##  **Exempelkod**
 Här är exempelkoden för**test.jsp** fil.
 
 {{< highlight "java" >}}

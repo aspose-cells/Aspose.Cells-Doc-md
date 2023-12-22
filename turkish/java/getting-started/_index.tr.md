@@ -1,17 +1,17 @@
-﻿---
+---
 title: Başlarken
 type: docs
 weight: 10
 url: /tr/java/getting-started/
-description: Bu makalede, aspose'un nasıl indirilip kurulacağı ve örnek kodların nasıl oluşturulacağı ve çalıştırılacağı açıklanmaktadır.
+description: Bu makalede aspose'un nasıl indirilip kurulacağı ve örnek kodların nasıl oluşturulup yürütüleceği açıklanmaktadır.
 ---
 {{% alert color="primary" %}} 
 
-Bu sayfa size Aspose Cells for Java'i nasıl kuracağınızı ve Hello World uygulamasını nasıl oluşturacağınızı gösterecek.
+Bu sayfada Aspose Cells for Java'in nasıl kurulacağı ve Hello World uygulamasının nasıl oluşturulacağı gösterilecektir.
 
 {{% /alert %}}
 
-## **sistem gereksinimleri**
+##  **sistem gereksinimleri**
 
 Aspose.Cells for Java, aşağıdaki Java sürümlerini destekler:
 
@@ -21,32 +21,31 @@ Aspose.Cells for Java, aşağıdaki Java sürümlerini destekler:
 
 [Daha fazla detay](/cells/tr/java/system-requirements/)
 
-## **Kurulum**
+##  **Kurulum**
 
-### **Aspose Cells for Java'i Maven Deposundan yükleyin**
+###  **Aspose Cells for Java'i Maven Deposundan yükleyin**
 
- Maven Aspose.Cells for Java indirip kurmanın en kolay yolu.
+ Maven, Aspose.Cells for Java'i indirip kurmanın en kolay yoludur.
 
 1.  Maven pom.xml dosyanızda Aspose Maven Depo yapılandırmasını/konumunu belirtin.
- 2. Pom.xml dosyanızda Aspose.Cells for Java API bağımlılığını tanımlayın.
+ 2. Pom.xml'nizde Aspose.Cells for Java API bağımlılığını tanımlayın.
 
 [Ayrıntılar için daha fazla adım](/cells/tr/java/installation/)
 
-### **Aspose Cells for Java'i manuel olarak kurun**
+###  **Aspose Cells for Java'i manuel olarak yükleyin**
 
-1. [aspose-cells-{version}-java.zip dosyasını indirin](https://downloads.aspose.com/cells/java/)
-1. Paketi açın, \JDK 1.6\ dizinine girin, aspose-cells-{version}-java.zip dosyasını açın.
-1. \JDK 1.6\aspose-cells-{version}-java\lib\ dizinine girin, JAR paketlerini Eclipse veya Intellij ile manuel olarak kurun.
+1. [Aspose-cells jar'larını indirin](https://releases.aspose.com/java/repo/com/aspose/aspose-cells/) bir klasöre.
+1. Klasöre girin, JAR paketlerini Eclipse veya Intellij ile manuel olarak yükleyin.
 
-Aspose Cells for Java'i Eclipse ile kurun:
+Eclipse ile Aspose Cells for Java'i yükleyin:
 
 **![Eclipse kurulumu Aspose Cells for Java](Eclipse_install.png)**
 
-Intellij ile Aspose Cells for Java'i kurun:
+Intellij ile Aspose Cells for Java'i yükleyin:
 
 **![IntelliJ kurulumu Aspose Cells for Java](IntelliJ_install.png)**
 
-## **Hello World Uygulamasını Oluşturma**
+##  **Hello World Uygulamasının Oluşturulması**
 
 Aşağıdaki adımlar, Aspose.Cells API'i kullanarak Hello World uygulamasını oluşturur:
 

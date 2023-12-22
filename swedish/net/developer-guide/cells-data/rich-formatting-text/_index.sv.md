@@ -1,9 +1,11 @@
-﻿---
+---
 title: Få åtkomst till och uppdatera delarna av Rich Text på Cell
 linktitle: Rik formateringstext
 type: docs
 weight: 40
 url: /sv/net/access-and-update-the-portions-of-rich-text-of-cell/
+description: Lär dig hur du får åtkomst till och uppdaterar delarna av Rich Text från Cell till Aspose.Cells for .NET API.
+keywords: Access and Update Rich Text of Cell, Get Rich Text of Cell, Edit Rich Text of Cell, Access Rich Text of Cell, Update Rich Text of Cell, Change Rich Text of Cell
 ---
 {{% alert color="primary" %}}
 
@@ -11,11 +13,11 @@ url: /sv/net/access-and-update-the-portions-of-rich-text-of-cell/
 
 {{% /alert %}}
 
-## **Få åtkomst till och uppdatera delarna av Rich Text på Cell**
+##  **Få åtkomst till och uppdatera delarna av Rich Text på Cell**
 
- Följande kod visar användningen av[**Cell.GetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters/index) och[**Cell.SetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) metod med hjälp av[source excel-fil](5112369.xlsx)som du kan ladda ner från den medföljande länken. Excel-källfilen har en rik text i cellen A1. Den har 3 delar och varje del har olika typsnitt. Följande kodsnutt kommer åt dessa delar och uppdaterar den första delen med ett nytt teckensnittsnamn. Slutligen sparar den arbetsboken som[output excel-fil](5112366.xlsx) . När du öppnar den kommer du att se att teckensnittet för den första delen av texten har ändrats till**"Arial"**.
+ Följande kod visar användningen av[**Cell.GetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters/index) och[**Cell.SetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) metod med hjälp av[source excel-fil](5112369.xlsx) som du kan ladda ner från den medföljande länken. Excel-källfilen har en rik text i cellen A1. Den har 3 delar och varje del har olika typsnitt. Följande kodsnutt kommer åt dessa delar och uppdaterar den första delen med ett nytt teckensnittsnamn. Slutligen sparar den arbetsboken som[output excel-fil](5112366.xlsx). När du öppnar den kommer du att se att teckensnittet för den första delen av texten har ändrats till *"Arial"**.
 
-### C# kod för att komma åt och uppdatera delarna av Rich Text av Cell
+###  C# kod för att komma åt och uppdatera delarna av Rich Text av Cell
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UpdateRichTextCells-1.cs" >}}
 

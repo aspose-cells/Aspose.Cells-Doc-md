@@ -3,9 +3,9 @@ title: Komma igång
 linktitle: Komma igång
 type: docs
 weight: 4
-url: /sv/python-net/getting-started/ 
-keywords: python, excel, instal
-description: Installation Aspose.Cells for Python via .NET och installationsriktlinjer.
+url: /sv/python-net/getting-started/
+description: Lär dig hur du installerar Aspose.Cells for Python via .NET och skapar Hello World-applikationen.
+keywords: How to install Aspose.Cells for Python via .NET in Windows Linux and MacOS, installation guidelines for Aspose.Cells for Python via .NET, Python Via .NET Hello World program. 
 ---
 ##  **Systemkrav**
  Aspose.Cells for Python via .NET är plattformsoberoende API och kan användas på vilken plattform som helst (Windows och Linux) där[Python](https://www.python.org/downloads/) är installerad.
@@ -50,7 +50,21 @@ For CentOS/RHEL/Fedora: yum install libgdiplus
 export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/Library/Frameworks/Python.framework/Versions/3.7/lib"
 export LIBRARY_PATH="$LIBRARY_PATH:/Library/Frameworks/Python.framework/Versions/3.7/lib/"
 {{< /highlight >}}
-##  **Skapar Hello World-applikationen**
+
+- Obs: På grund av vårt beroende av SkiaSharps grafikbibliotek, om du stöter på följande fel:
+**System.DllNotFoundException: Det går inte att ladda det delade biblioteket 'libSkiaSharp' eller något av dess beroenden.** vänligen installera SkiaSharp.
+{{< highlight "NET" >}}
+brew  install nuget
+nuget install SkiaSharp.NativeAssets.macOS -Version 2.88.3
+{{< /highlight >}}
+ Efter installationen, kör följande kommando
+{{< highlight "NET" >}}
+cp ./SkiaSharp.NativeAssets.macOS.2.88.3/runtimes/osx/native/libSkiaSharp.dylib /usr/local/lib/.
+{{< /highlight >}}
+
+ Om du vill ha det enklare kan du naturligtvis också ladda ner[libSkiaSharp.dylib](libSkiaSharp.dylib) och då**kopiera** det till**/usr/local/lib** katalog.
+
+##  **Så här skapar du Hello World-applikationen med Aspose.Cells for Python via .NET**
 
 -  Skapa en fil med namnet**Skapar HelloWorldFile.py** och använd följande exempelkod:
 

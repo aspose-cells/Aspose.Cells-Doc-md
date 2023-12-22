@@ -1,5 +1,7 @@
-﻿---
-title: セルのスタイルの取得と設定
+---
+title: セルのスタイルを取得および設定する
+description: Aspose.Cells for .NET でデータの書式設定とスタイル設定 (テキストの書式設定、数値の書式設定、日付の書式設定、その他のスタイル設定オプションを含む) を実行する方法を説明します。私たちのガイドは、魅力的な書式設定を備えたプロフェッショナルな外観のスプレッドシートを作成するのに役立ちます。
+keywords: Aspose.Cells for .NET, data formatting, styling, text formatting, number formatting, date formatting, styling options, spreadsheets, attractive formatting, professional-looking.
 linktitle: スタイル
 type: docs
 weight: 50
@@ -7,13 +9,13 @@ url: /ja/net/styling-and-data-formatting/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells for .NET 4.4.2 では、セルをフォーマットするための 2 つの新しいメソッドが導入されました: Cell.GetStyle および Cell.SetStyle。この記事では、Cell.GetStyle/SetStyle アプローチを調べて、どの手法が自分に最も適しているかを判断できるようにします。
+Aspose.Cells for .NET 4.4.2 では、セルを書式設定するための 2 つの新しいメソッド、Cell.GetStyle と Cell.SetStyle が導入されました。この記事では、どの手法が自分に最適かを判断するのに役立つように、Cell.GetStyle/SetStyle アプローチを検討します。
 
 {{% /alert %}} 
-## **フォーマット Cells**
-以下に示すように、セルをフォーマットするには 2 つの方法があります。
-### **GetStyle() の使用**
-次のコードでは、書式設定時にセルごとに Style オブジェクトが開始されます。 Style オブジェクトは大きなオブジェクトであるため、大量のセルをフォーマットすると大量のメモリが消費されます。これらの Style オブジェクトは、Workbook.Save メソッドが呼び出されるまで解放されません。
+##  **フォーマット中 Cells**
+以下に示すように、セルを書式設定するには 2 つの方法があります。
+###  **GetStyle() の使用**
+次のコードでは、書式設定時にセルごとに Style オブジェクトが開始されます。多数のセルを書式設定すると、Style オブジェクトが大きいため、大量のメモリが消費されます。これらの Style オブジェクトは、Workbook.Save メソッドが呼び出されるまで解放されません。
 
 
 
@@ -21,17 +23,17 @@ Aspose.Cells for .NET 4.4.2 では、セルをフォーマットするための 
 
 {{< highlight "csharp" >}}
 
- cell.GetStyle().Font.IsBold = true;
+cell.GetStyle().Font.IsBold = true;
 
 
 
 {{< /highlight >}}
-### **SetStyle() の使用**
-最初のアプローチは簡単でわかりやすいのに、なぜ 2 番目のアプローチを追加したのでしょうか。
+###  **SetStyle() の使用**
+最初のアプローチは簡単で単純ですが、なぜ 2 番目のアプローチを追加したのでしょうか?
 
-メモリ使用量を最適化する 2 番目のアプローチを追加しました。 Cell.GetStyle メソッドを使用して Style オブジェクトを取得した後、それを変更し、Cell.SetStyle メソッドを使用してそれをこのセルに戻します。この Style オブジェクトは保持されず、参照されていない場合は .NET GC によって収集されます。
+メモリ使用量を最適化するための 2 番目のアプローチを追加しました。 Cell.GetStyle メソッドを使用して Style オブジェクトを取得した後、それを変更し、Cell.SetStyle メソッドを使用してそれをこのセルに設定し直します。この Style オブジェクトは保持されず、参照されていない場合は .NET GC によって収集されます。
 
-Cell.SetStyle メソッドを呼び出すと、Style オブジェクトはセルごとに保存されません。代わりに、この Style オブジェクトを内部の Style オブジェクト プールと比較して、再利用できるかどうかを確認します。 Workbook オブジェクトごとに、既存のものとは異なる Style オブジェクトのみが保持されます。これは、Excel ファイルごとに数千ではなく、数百の Style オブジェクトしかないことを意味します。セルごとに、Style オブジェクト プールへのインデックスのみが保持されます。
+Cell.SetStyle メソッドを呼び出すとき、Style オブジェクトはセルごとに保存されません。代わりに、この Style オブジェクトを内部の Style オブジェクト プールと比較して、再利用できるかどうかを確認します。各 Workbook オブジェクトには、既存のものと異なる Style オブジェクトのみが保持されます。これは、各 Excel ファイルに Style オブジェクトが数千ではなく数百しか存在しないことを意味します。各セルについては、スタイル オブジェクト プールへのインデックスのみが保存されます。
 
 
 
@@ -39,17 +41,17 @@ Cell.SetStyle メソッドを呼び出すと、Style オブジェクトはセル
 
 {{< highlight "csharp" >}}
 
-スタイル スタイル = cell.GetStyle();
+Style style = cell.GetStyle();
 
 style.Font.IsBold = true;
 
-cell.SetStyle(スタイル);
+cell.SetStyle(style);
+{{< /highlight >}}
 
-
-## **先行トピック**
-- [CellsFactory クラスを使用して Style オブジェクトを作成する](/cells/ja/net/create-style-object-using-cellsfactory-class/)
+##  **アドバンストトピック**
+- [CellsFactoryクラスを使用してStyleオブジェクトを作成する](/cells/ja/net/create-style-object-using-cellsfactory-class/)
 - [既存のスタイルを変更する](/cells/ja/net/modify-an-existing-style/)
-- [スタイル オブジェクトの再利用](/cells/ja/net/reusing-style-objects/)
+- [スタイルオブジェクトの再利用](/cells/ja/net/reusing-style-objects/)
 - [組み込みスタイルの使用](/cells/ja/net/using-built-in-styles/)
 
 

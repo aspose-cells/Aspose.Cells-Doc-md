@@ -26,7 +26,7 @@ Aspose.Cells は、Excel ファイルから PDF への変換をサポートし�
 
 ###  **直接変換**
 
-Aspose.Cells for .NET は、他のソフトウェアから独立してスプレッドシートから PDF への変換をサポートします。次のコマンドを使用して Excel ファイルを PDF に保存するだけです。**[ワークブック](https://reference.aspose.com/cells/net/aspose.cells/workbook)**クラス'**[保存](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**方法。の**[保存](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**メソッドが提供するのは、**[SaveFormat.Pdf](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**ネイティブ Excel ファイルを PDF 形式に変換する列挙メンバー。
+ Aspose.Cells for .NET は、他のソフトウェアから独立してスプレッドシートから PDF への変換をサポートします。次のコマンドを使用して Excel ファイルを PDF に保存するだけです。**[ワークブック](https://reference.aspose.com/cells/net/aspose.cells/workbook)**クラス'**[保存](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**方法。の**[保存](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**メソッドが提供するのは、**[SaveFormat.Pdf](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**ネイティブ Excel ファイルを PDF 形式に変換する列挙メンバー。
 
 Excel スプレッドシートを PDF 形式に直接変換するには、以下の手順に従ってください。
 
@@ -77,7 +77,7 @@ Excel スプレッドシートを PDF 形式に直接変換するには、以下
 
 ###  **変換属性**
 
-新しいリリースごとに変換機能の強化に取り組んでいます。 Aspose.Cell の Excel から PDF への変換には、まだいくつかの制限があります。 PDF 形式に変換すると、スプレッドシートの形式の一部が失われる可能性があります。また、一部の描画オブジェクトはまだサポートされていません。
+新しいリリースごとに変換機能の強化に取り組んでいます。 Aspose.Cell の Excel から PDF への変換には、まだいくつかの制限があります。 PDF 形式に変換する場合、MapChart はサポートされません。また、一部の描画オブジェクトは適切にサポートされていません。
 
 次の表には、Aspose.Cells を使用して PDF にエクスポートするときに完全または部分的にサポートされるすべての機能がリストされています。この表は最終的なものではなく、すべてのスプレッドシート属性を網羅しているわけではありませんが、PDF への変換でサポートされない、または部分的にサポートされている機能を示しています。 。
 
@@ -92,15 +92,15 @@ Excel スプレッドシートを PDF 形式に直接変換するには、以下
 |コメント| |はい| |
 |条件付き書式| |はい| |
 |ドキュメントのプロパティ| |はい| |
-|描画オブジェクト| |部分的に|サポートされているオブジェクト: TextBox、Line、Rectangle、Oval、GroupBox、Button、CheckBox、RadioButton、ListBox、ComboBox、Label|
+|描画オブジェクト| |部分的に|描画オブジェクトの影と 3D 効果は十分にサポートされていません。ワードアートとスマートアートは部分的にサポートされています。|
 |フォント|サイズ|はい| |
 |フォント|色|はい| |
 |フォント|スタイル|はい| |
 |フォント|下線|はい| |
-|フォント|効果|部分的に|取り消し線効果のみがサポートされています|
+|フォント|効果|はい||
 |画像| |はい| |
 |ハイパーリンク| |はい| |
-|チャート| |部分的に||
+|チャート| |部分的に|マップチャートはサポートされていません。|
 |合併済み Cells| |はい| |
 |改ページ| |はい| |
 |ページ設定|ヘッダー/フッター|はい| |

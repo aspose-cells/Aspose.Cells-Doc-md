@@ -1,11 +1,13 @@
-﻿---
+---
 title: Konvertering mellan cellnamn och rad-/kolumnindex
 linktitle: Cell Namn och indexkonvertering
 type: docs
 weight: 5
 url: /sv/java/names-and-indices/
+description: "Lär dig hur du får konverteringsresultat mellan cellnamn och rad-/kolumnindex med Aspose.Cells for Java API:er."
+keywords: Java Convert cell index to name, Convert cell name to row/column index using java apis, How to Get Cell Name from Row and Column Indices with java, Java How to Get Row and Column Indices from Cell Name.
 ---
-## **Hämta Cell Namn från rad- och kolumnindex**
+##  **Hur man får Cell-namn från rad- och kolumnindex**
 Det är möjligt att hitta en cells namn med tanke på rad- och kolumnindex. Den här artikeln förklarar hur.
 
  Aspose.Cells tillhandahåller[CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) metod som tillåter utvecklare att få en cells namn om de tillhandahåller rad- och kolumnindex.
@@ -29,7 +31,7 @@ Cell Namn på [0, 4]: E1
 Cell Namn på [2, 2]: C3
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-CellsHelperClass-IndexToName-1.java" >}}
-## **Hämta rad- och kolumnindex från Cell Namn**
+##  **Hur man får rad- och kolumnindex från Cell Namn**
 Det är möjligt att hitta ett rad- och kolumnindex för cellen från dess namn. Den här artikeln förklarar hur.
 
  Aspose.Cells tillhandahåller[CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\)) metod som låter utvecklare få ett rad- och kolumnindex från cellens namn.
@@ -49,8 +51,8 @@ Radindex för Cell C6: 5
 Kolumnindex för Cell C6: 2
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-CellsHelperClass-NameToIndex-1.java" >}}
-## **Skapa säkra bladnamn**
-Ibland finns det ett behov av att tilldela arknamnet vid körning. I det här scenariot kan det finnas arknamn som kan innehålla några ytterligare tecken som<>+(?”. Det finns ett behov av att ersätta alla sådana tecken, som inte är tillåtna som ett arknamn med något förinställt tecken som tillhandahålls av användaren. På samma sätt kan längden öka till mer än 31 tecken som måste trunkeras. Apache POI tillhandahåller vissa funktioner för att skapa säkra namn, därför tillhandahålls liknande funktion av Aspose.Cells för att hantera alla dessa problem. Följande exempelkod visar denna funktion:
+##  **Hur man skapar säkra arknamn**
+ Ibland finns det ett behov av att tilldela arknamnet vid körning. I det här scenariot kan det finnas arknamn som kan innehålla några ytterligare tecken som<>+(?”. Det finns ett behov av att ersätta alla sådana tecken, som inte är tillåtna som ett arknamn med något förinställt tecken som tillhandahålls av användaren. På samma sätt kan längden öka till mer än 31 tecken som måste trunkeras. Apache POI tillhandahåller vissa funktioner för att skapa säkra namn, därför tillhandahålls liknande funktion av Aspose.Cells för att hantera alla dessa problem. Följande exempelkod visar denna funktion:
 
 
 

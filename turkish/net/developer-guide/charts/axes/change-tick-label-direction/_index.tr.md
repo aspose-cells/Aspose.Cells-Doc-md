@@ -1,12 +1,14 @@
-﻿---
-title: Onay İşareti Yönünü Değiştir
+---
+title: Onay Etiketi Yönünü Değiştir
+description: Aspose.Cells for .NET numaralı telefondan onay etiketlerinin yönünü nasıl değiştireceğinizi öğrenin. Kılavuzumuz yatay, dikey ve açılı yönler de dahil olmak üzere eksenlerdeki onay etiketlerinin yönünü nasıl ayarlayacağınızı anlamanıza yardımcı olacaktır.
+keywords: Aspose.Cells for .NET, tick labels, direction, orientation, axes, horizontal, vertical, angled.
 type: docs
 weight: 170
 url: /tr/net/change-tick-label-direction/
 ---
-## **Onay İşareti Yönünü Değiştir**
+##  **Onay Etiketi Yönünü Değiştir**
 
-Aspose.Cells, size grafik işareti etiket yönünü kullanarak değiştirme olanağı sağlar.[**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) Emlak. bu[**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) mülkiyet kabul eder[**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype) numaralandırma değeri. bu[**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype)numaralandırma aşağıdaki üyeleri sağlar
+Aspose.Cells, grafik tik etiketi yönünü değiştirme olanağı sağlar.[**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) mülk.[**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype)mülkiyet kabul eder[**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype) numaralandırma değeri.[**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype)numaralandırma aşağıdaki üyeleri sağlar
 
 - Yatay
 - Dikey
@@ -14,19 +16,19 @@ Aspose.Cells, size grafik işareti etiket yönünü kullanarak değiştirme olan
 - Döndür270
 - Yığılmış
 
-Aşağıdaki görüntü, kaynak ve çıktı dosyalarını karşılaştırır
+Aşağıdaki resim kaynak ve çıktı dosyalarını karşılaştırmaktadır
 
-### **Kaynak dosya resmi**
+###  **Kaynak dosya resmi**
 
-![yapılacaklar:resim_alternatif_metin](change-tick-label-direction_1.jpg)
+![yapılacak şey:image_alt_text](change-tick-label-direction_1.jpg)
 
-### **Çıktı dosyası görüntüsü**
+###  **Çıktı dosyası görüntüsü**
 
-![yapılacaklar:resim_alternatif_metin](change-tick-label-direction_2.jpg)
+![yapılacak şey:image_alt_text](change-tick-label-direction_2.jpg)
 
-Aşağıdaki kod parçacığı, onay etiketi yönünü Rotate90'dan Horizontal'a değiştirir.
+Aşağıdaki kod parçacığı, onay etiketi yönünü Rotate90'dan Yatay'a değiştirir.
 
-## **Basit kod**
+##  **Basit kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChangeTickLabelDirection-1.cs" >}}
 

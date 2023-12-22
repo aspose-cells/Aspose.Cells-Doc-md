@@ -1,10 +1,10 @@
-﻿---
+---
 title: Jobbar med GridWeb
 type: docs
 weight: 20
 url: /sv/java/working-with-gridweb/
 ---
-## **Öppna en Microsoft Excel-fil**
+##  **Öppna en Microsoft Excel-fil**
 
 Aspose.Cells.GridWeb-kontroll kan öppna och ladda Microsoft Excel-filer - komplett med data, formatering, diagram, bilder etc. Detta ämne förklarar hur.
 
@@ -24,11 +24,11 @@ Ovanstående kodavsnitt kan användas hur du vill. Till exempel, för att ladda 
 
 ![todo:image_alt_text](working-with-gridweb_1.png)
 
-## **Sparar en Microsoft Excel-fil**
+##  **Sparar en Microsoft Excel-fil**
 
 Det är möjligt att skapa nya eller manipulera befintliga Microsoft Excel-filer på webbplatser i GUI-läge med Aspose.Cells.GridWeb-kontroll. Filerna kan sedan sparas i Excel-filer. Aspose.Cells.GridWeb fungerar effektivt som kalkylarksredigerare online. Det här avsnittet beskriver hur du sparar rutnätsinnehåll i Excel-filer.
 
-### **Sparar som en fil**
+###  **Sparar som en fil**
 
 Så här sparar du innehållet i Aspose.Cells.GridWeb-kontrollen som en Excel-fil:
 
@@ -42,11 +42,11 @@ Kodexemplet nedan illustrerar hur man sparar rutnätsinnehåll till en Excel-fil
 
  Ovanstående kodavsnitt kan användas på flera sätt. Ett vanligt sätt är att lägga till en knapp som sparar rutnätsinnehållet i en Excel-fil när du klickar på den. Aspose.Cells.GridWeb erbjuder ett enklare tillvägagångssätt för uppgiften. Aspose.Cells.GridWeb har en händelse som heter SaveCommand. Ovanstående kodavsnitt kan läggas till i SaveCommand-händelsens händelsehanterare, vilket tillåter användare att spara sitt arbete genom att klicka på Aspose.Cells.GridWebs inbyggda**Spara** knapp.
 
-## **Ändra storlek på Aspose.Cells.GridWeb och dess huvudfält**
+##  **Ändra storlek på Aspose.Cells.GridWeb och dess huvudfält**
 
 Den här artikeln förklarar hur man ändrar storlek på GridWeb under körning med hjälp av Aspose.Cells.GridWeb API. Den förklarar också hur man ändrar storlek på rubrikfälten för Aspose.Cells.GridWeb-kontrollen för att göra deras data lättare att läsa.
 
-### **Ändra bredd och höjd på Aspose.Cells.GridWeb**
+###  **Ändra bredd och höjd på Aspose.Cells.GridWeb**
 
 Ändra bredd och höjd på Aspose.Cells. GridWeb-kontroll är en enkel men viktig funktion. Aspose.Cells.GridWeb-kontrollen representeras av GridWeb-klassen i API. För att ändra storlek på bredden och höjden på GridWeb-kontrollen, använd helt enkelt dess egenskaper för bredd och höjd.
 
@@ -64,7 +64,7 @@ Utdata från kodavsnittet som följer visas nedan.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-ChangedwidthheightofGridWebcontrol-ChangedwidthheightofGridWebcontrol.jsp" >}}
 
-### **Ändra bredd och höjd på sidhuvudet**
+###  **Ändra bredd och höjd på sidhuvudet**
 
 Aspose.Cells.GridWeb-kontrollen innehåller två huvudfält enligt följande:
 
@@ -85,18 +85,18 @@ Båda dessa rubrikfält visas nedan.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-ChangingWidthandHeightofHeaderBar-ChangingWidthandHeightofHeaderBar.jsp" >}}
 
-## **Arbetar med Aspose.Cells.GridWeb Events**
+##  **Arbetar med Aspose.Cells.GridWeb Events**
 
 Alla utvecklare måste vara bekanta med händelser och deras syfte. Händelser används för att skicka meddelanden om ändringar som kan inträffa i en kontroll eller klass. Aspose.Cells.GridWeb har flera händelser som kan användas för att utföra specifika uppgifter när vissa förändringar sker i kontrollen.
 
 Det här avsnittet ger en introduktion till alla händelser som stöds av Aspose.Cells.GridWeb-kontrollen tillsammans med några detaljer om hur man hanterar dessa händelser.
 
-### **Introduktion till Grid Events**
+###  **Introduktion till Grid Events**
 
 Aspose.Cells.GridWeb-kontroll stöder flera händelser som ger mer kontroll för att utföra operationer när specifika händelser utlöses i kontrollen. En komplett lista över händelser som stöds av Aspose.Cells.GridWeb-kontroll finns nedan.
 
 |**evenemang**|**Beskrivning**|
-|:- |:- |
+| :- | :- |
 |CellCommand|Uppstår när kommandohyperlänken för en cell klickas. När den här händelsen avfyras ger dess parameter e.Argument kommandots namn.|
 |CellDoubleClick|Uppstår när cellen dubbelklickas.|
 |Kolumn Raderad|Uppstår när en användare tar bort en kolumn från ett kalkylblad med hjälp av menyn på klientsidan.|
@@ -118,13 +118,13 @@ Aspose.Cells.GridWeb-kontroll stöder flera händelser som ger mer kontroll för
 |CellModifiedOnAjax|Avfyras när cellen modifieras i AJAX-anrop.|
 |AfterColumnFilter|Avfyras när filtret appliceras på en kolumn.|
 
-### **Hantering av Grid Events**
+###  **Hantering av Grid Events**
 
 För att utföra en specifik operation för att utlösa en specifik händelse, måste vi skapa en händelsehanterare. En händelsehanterare utför den önskade uppgiften när en viss händelse utlöses. Exemplet som följer visar hur man hanterar en enkel grid-händelse.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-HandlingGridEvents-HandlingGridEvents.jsp" >}}
 
-## **Arbeta med Double Click Events**
+##  **Arbeta med Double Click Events**
 
 Aspose.Cells.GridWeb innehåller tre typer av dubbelklickshändelser:
 
@@ -134,7 +134,7 @@ Aspose.Cells.GridWeb innehåller tre typer av dubbelklickshändelser:
 
 Det här ämnet diskuterar hur du aktiverar dubbelklickshändelser i Aspose.Cells.GridWeb. Den diskuterar också att skapa händelsehanterare för dessa händelser.
 
-### **Aktiverar dubbelklickshändelser**
+###  **Aktiverar dubbelklickshändelser**
 
 Alla typer av dubbelklickshändelser kan aktiveras på klientsidan genom att ställa in GridWeb-kontrollens EnableDoubleClickEvent-egenskap till true.
 
@@ -148,38 +148,38 @@ Som standard är egenskapen EnableDoubleClickEvent inställd på false. Detta be
 
 När dubbelklickshändelser är aktiverade är det möjligt att skapa händelsehanterare för alla dubbelklickshändelser. Dessa händelsehanterare utför specifika uppgifter när en given dubbelklickshändelse utlöses.
 
-### **Hantera dubbelklickshändelser**
+###  **Hantera dubbelklickshändelser**
 
-#### **Dubbelklicka Cell**
+####  **Dubbelklicka Cell**
 
 Händelsehanteraren för händelsen CellDoubleClick tillhandahåller ett argument av typen CellEventArgs, som tillhandahåller fullständig information om cellen som dubbelklickas.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-DoubleClickCell-DoubleClickCell.jsp" >}}
 
-#### **Dubbelklicka på kolumnrubrik**
+####  **Dubbelklicka på kolumnrubrik**
 
 Händelsehanteraren för ColumnDoubleClick-händelsen tillhandahåller ett argument av typen RowColumnEventArgs som ger indexnumret för kolumnen för rubriken som dubbelklickades och annan information.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-DoubleClickColumnHeader-DoubleClickColumnHeader.jsp" >}}
 
-#### **Dubbelklicka på radrubrik**
+####  **Dubbelklicka på radrubrik**
 
 Händelsehanteraren för händelsen RowDoubleClick tillhandahåller ett argument av typen RowColumnEventArgs som ger indexnumret för raden för rubriken som dubbelklickades och annan relaterad information.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-DoubleClickRowHeader-DoubleClickRowHeader.jsp" >}}
 
-## **Inställning av stil eller utseende för Aspose.Cells.GridWeb**
+##  **Inställning av stil eller utseende för Aspose.Cells.GridWeb**
 
 Aspose.Cells.GridWeb har sitt eget standardutseende och känsla men det är möjligt att ändra dess utseende. Aspose.Cells.GridWeb tillhandahåller flera egenskaper för att låta utvecklare helt kontrollera dess utseende. Det här ämnet diskuterar några av dessa egenskaper.
 
-### **Inställning av stil eller utseende för Aspose.Cells.GridWeb**
+###  **Inställning av stil eller utseende för Aspose.Cells.GridWeb**
 
-#### **Förinställda stilar**
+####  **Förinställda stilar**
 
 För att spara på utvecklarnas ansträngningar erbjuder Aspose.Cells.GridWeb några förinställda stilar. Välj helt enkelt en stil från listan för att tillämpa stilen.
 
 |**Stilar**|**Färgschema**|
-|:- |:- |
+| :- | :- |
 |Standard|Silver|
 |Färgglad 1|Reste sig|
 |Färgglada 2|Blå|
@@ -200,7 +200,7 @@ Utdata från nedanstående kodavsnitt visas nedan.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-Colorful1style-Colorful1style.jsp" >}}
 
-#### **Header Bar Style**
+####  **Header Bar Style**
 
 Om du tittar på GridWeb-kontrollen kommer du att märka två rubrikfält. En för kolumner (det vill säga A, B, C, D, etc.) och en annan för rader (det vill säga 1, 2, 3, 4, etc.). Aspose.Cells.GridWeb tillåter utvecklare att kontrollera utseendet på dessa sidhuvuden. Utvecklare kan ställa in stilen på sidhuvuden under körning.
 
@@ -212,13 +212,13 @@ GridWeb-kontrollen tillhandahåller egenskapen HeaderBarStyle som tillämpar en 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-Colorful1style-Colorful1style.jsp" >}}
 
-#### **Tabbar stil**
+####  **Tabbar stil**
 
 Det är möjligt att ställa in stilen på flikfältet också. Se följande kod
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-HeaderBarStyle-HeaderBarStyle.jsp" >}}
 
-#### **Laddar stilfil**
+####  **Laddar stilfil**
 
 För att tillämpa stilinställningar från en befintlig stilfil på GridWeb-kontroll kan utvecklare ställa in sökvägen för stilfilen till CustomStyleFileName-egenskapen för kontrollen. Men innan du gör det måste du ställa in PresetStyle-egenskapen för kontrollen till Custom. Det beror på att stilfilen innehåller anpassad stilinformation som redan är definierad av en utvecklare.
 
@@ -234,7 +234,7 @@ VIKTIGT: Att ladda stilfilen till GridWeb-kontrollen påverkar inte formaterings
 
 {{% /alert %}}
 
-#### **Exempel på anpassad stilmall**
+####  **Exempel på anpassad stilmall**
 
 Här är ett exempel på mallen för anpassad stil. Du kan ändra det enligt dina krav.
 
@@ -244,7 +244,7 @@ Här är ett exempel på mallen för anpassad stil. Du kan ändra det enligt din
 
 {{< /highlight >}}
 
-## **Skapa kontroll på ett webbformulär**
+##  **Skapa kontroll på ett webbformulär**
 
 Den här artikeln kommer att guida dig om hur du skapar ett enkelt webbformulär JSP (Java Server Page) med GridWeb-kontroll på den.
 
@@ -454,11 +454,11 @@ Du kommer att se något i stil med följande skärmdump. Grattis, du har framgå
 
 ![todo:image_alt_text](working-with-gridweb_8.png)
 
-## **Utskrift GridWeb**
+##  **Utskrift GridWeb**
 
 Det finns tillfällen då utvecklare behöver skriva ut GridWeb-innehållet från en webbsida utan att spara en Microsoft Excel-fil. Aspose.Cells.GridWeb-kontrollen stöder denna funktion.
 
-### **Utskrift GridWeb**
+###  **Utskrift GridWeb**
 
 För att skriva ut utan att spara en separat fil, anropa GridWeb-klassens print()-metod på klientsidan för att skriva ut rutnätet. Du kan också välja något lämpligt evenemang.
 
@@ -466,7 +466,7 @@ För att skriva ut utan att spara en separat fil, anropa GridWeb-klassens print(
 
 Eftersom du anropar det från klientsidan, så måste du först skaffa gridweb klient-id. Du kan få klient-id:t med gridweb.getClientID()-metoden.
 
-### **Exempelkod på klientsidan**
+###  **Exempelkod på klientsidan**
 
 Se följande länk som anropar gridweb.print()-metoden från klientsidan.
 
@@ -478,7 +478,7 @@ Se följande länk som anropar gridweb.print()-metoden från klientsidan.
 
 {{< /highlight >}}
 
-## **Introduktion till olika rutnätslägen**
+##  **Introduktion till olika rutnätslägen**
 
 Den här artikeln beskriver Aspose.Cells.GridWebs olika lägen. Dessa lägen är logiskt differentierade på grund av deras olika egenskaper och beteenden. Vi har identifierat olika typer av lägen som:
 
@@ -487,7 +487,7 @@ Den här artikeln beskriver Aspose.Cells.GridWebs olika lägen. Dessa lägen är
 
 Alla dessa lägen har sina egna egenskaper. Utvecklare kan arbeta med Aspose.Cells.GridWeb i alla lägen enligt deras krav. Vi kommer att titta på varje läge nedan.
 
-### **Redigeringsläge**
+###  **Redigeringsläge**
 
 Som standard är Aspose.Cells.GridWeb-kontrollen i redigeringsläge. I redigeringsläge kan du helt redigera eller modifiera rutnätets innehåll med alla funktioner som erbjuds av Aspose.Cells.GridWeb-kontrollen. Dessa funktioner inkluderar:
 
@@ -505,21 +505,21 @@ Som standard är Aspose.Cells.GridWeb-kontrollen i redigeringsläge. I redigerin
 
 Utvecklare kan också byta till redigeringsläge programmatiskt genom att ställa in egenskapen EditMode för GridWeb-kontrollen till true.
 
-### **Kodexempel**
+###  **Kodexempel**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-GridWebEditMode-GridWebEditMode.jsp" >}}
 
-### **Visningsläge**
+###  **Visningsläge**
 
-När GridWeb-kontrollen är i visningsläge kan användare inte redigera eller ändra rutnätsinnehåll, vilket innebär att användare bara kan se rutnätsinnehåll. Det är därför detta läge kallas View mode. I visningsläge, några knappar (**Skicka in**, **Spara** och**Ångra** ) är dolda och menyn som visas när du högerklickar innehåller bara**Kopiera** och**Hitta** alternativ.
+När GridWeb-kontrollen är i visningsläge kan användare inte redigera eller ändra rutnätsinnehåll, vilket innebär att användare bara kan se rutnätsinnehåll. Det är därför detta läge kallas View mode. I visningsläge, några knappar (**Skicka**,**Spara** och**Ångra**) är dolda och menyn som visas när du högerklickar innehåller bara **Kopiera** och**Hitta** alternativ.
 
 **GridWeb-kontroll i View Mode** 
 
 ![todo:image_alt_text](working-with-gridweb_10.png)
 
- Om utvecklare vill att deras användare endast ska se data kan de byta till visningsläge programmatiskt genom att ställa in GridWeb-kontrollens EditMode-egenskap till**falsk**.
+Om utvecklare vill att deras användare bara ska se data kan de byta till visningsläge programmatiskt genom att ställa in GridWeb-kontrollens EditMode-egenskap till *false**.
 
-### **Kodexempel**
+###  **Kodexempel**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-GridWebViewMode-GridWebViewMode.jsp" >}}
 

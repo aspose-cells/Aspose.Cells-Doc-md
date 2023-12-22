@@ -26,14 +26,14 @@ Aspose.Cells unterstützt die Konvertierung von Excel-Dateien in PDF und sorgt f
 
 ###  **Direkte Konvertierung**
 
-Aspose.Cells for .NET unterstützt die Konvertierung von Tabellenkalkulationen in PDF unabhängig von anderer Software. Speichern Sie einfach eine Excel-Datei unter PDF mit**[Arbeitsmappe](https://reference.aspose.com/cells/net/aspose.cells/workbook)** Klasse'**[Speichern](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** Methode. Der**[Speichern](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** Methode liefert die**[SaveFormat.Pdf](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**Aufzählungsmitglied, das die nativen Excel-Dateien in das Format PDF konvertiert.
+ Aspose.Cells for .NET unterstützt die Konvertierung von Tabellenkalkulationen in PDF unabhängig von anderer Software. Speichern Sie einfach eine Excel-Datei unter PDF mit**[Arbeitsmappe](https://reference.aspose.com/cells/net/aspose.cells/workbook)**Klasse'**[Speichern](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** Methode. Der**[Speichern](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** Methode bietet die**[SaveFormat.Pdf](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**Aufzählungsmitglied, das die nativen Excel-Dateien in das Format PDF konvertiert.
 
 Führen Sie die folgenden Schritte aus, um die Excel-Tabellen direkt in das Format PDF zu konvertieren:
 
 1.  Instanziieren Sie ein Objekt von**[Arbeitsmappe](https://reference.aspose.com/cells/net/aspose.cells/workbook)**Klasse durch Aufrufen ihres leeren Konstruktors.
 1. Sie können eine vorhandene Vorlagendatei öffnen/laden oder diesen Schritt überspringen, wenn Sie die Arbeitsmappe von Grund auf erstellen.
 1. Führen Sie beliebige Arbeiten (Eingabe von Daten, Anwenden von Formatierungen, Festlegen von Formeln, Einfügen von Bildern oder anderen Zeichenobjekten usw.) in der Tabelle mithilfe der APIs von Aspose.Cells aus.
-1.  Wenn der Tabellenkalkulationscode vollständig ist, rufen Sie auf**[Arbeitsmappe](https://reference.aspose.com/cells/net/aspose.cells/workbook)** Klasse'**[Speichern](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**Methode zum Speichern der Tabelle.
+1.  Wenn der Tabellenkalkulationscode vollständig ist, rufen Sie auf**[Arbeitsmappe](https://reference.aspose.com/cells/net/aspose.cells/workbook)**Klasse'**[Speichern](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**Methode zum Speichern der Tabelle.
 
  Das Dateiformat sollte PDF sein, also wählen Sie es aus*Pdf* (ein vordefinierter Wert) aus dem**[Speicherformat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**Aufzählung, um das endgültige Dokument PDF zu generieren.
 
@@ -51,7 +51,7 @@ Führen Sie die folgenden Schritte aus, um die Excel-Tabellen direkt in das Form
 
 {{% alert color="primary" %}}
 
- Bitte beachten Sie, dass**[Compliance](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)**Die Eigenschaft wurde mit der Veröffentlichung von Aspose.Cells for .NET 5.3.0 hinzugefügt.
+Bitte beachten Sie, dass**[Compliance](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)**Die Eigenschaft wurde mit der Veröffentlichung von Aspose.Cells for .NET 5.3.0 hinzugefügt.
 
 {{% /alert %}}
 
@@ -63,13 +63,13 @@ Führen Sie die folgenden Schritte aus, um die Excel-Tabellen direkt in das Form
 
 ####  **Legen Sie die Option „ContentCopyForAccessibility“ fest**
 
-Mit dem**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** Klasse können Sie die PDF erhalten oder festlegen**[AccessibilityExtractContent](https://reference.aspose.com/cells/net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/properties/accessibilityextractcontent)**Option zur Steuerung des Inhaltszugriffs in der konvertierten PDF.
+Mit dem**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** Klasse können Sie die PDF erhalten oder festlegen**[AccessibilityExtractContent](https://reference.aspose.com/cells/net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/properties/accessibilityextractcontent)** Option zur Steuerung des Inhaltszugriffs in der konvertierten PDF.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-SetContentCopyForAccessibility-1.cs" >}}
 
 ####  **Benutzerdefinierte Eigenschaften nach PDF exportieren**
 
-Mit dem**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** Klasse können Sie die benutzerdefinierten Eigenschaften in der Quellarbeitsmappe nach PDF exportieren.**[PdfCustomPropertiesExport](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfcustompropertiesexport)** Es wird ein Enumerator bereitgestellt, um anzugeben, wie Eigenschaften exportiert werden. Diese Eigenschaften können in Adobe Acrobat Reader angezeigt werden, indem Sie auf „Datei“ und dann auf die Option „Eigenschaften“ klicken, wie in der folgenden Abbildung dargestellt. Die Vorlagendatei „sourceWithCustProps.xlsx“ kann heruntergeladen werden[Hier](sourceWithCustProps.xlsx) Zum Testen und Ausgeben steht die Datei „outSourceWithCustProps“ PDF zur Verfügung[Hier](outSourceWithCustProps.pdf) zur Analyse.
+Mit dem**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** Klasse können Sie die benutzerdefinierten Eigenschaften in der Quellarbeitsmappe nach PDF exportieren.**[PdfCustomPropertiesExport](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfcustompropertiesexport)**Es wird ein Enumerator bereitgestellt, um anzugeben, wie Eigenschaften exportiert werden. Diese Eigenschaften können in Adobe Acrobat Reader angezeigt werden, indem Sie auf „Datei“ und dann auf die Option „Eigenschaften“ klicken, wie in der folgenden Abbildung dargestellt. Die Vorlagendatei „sourceWithCustProps.xlsx“ kann heruntergeladen werden[Hier](sourceWithCustProps.xlsx) Zum Testen und Ausgeben steht die Datei „outSourceWithCustProps“ PDF zur Verfügung[Hier](outSourceWithCustProps.pdf) zur Analyse.
 
 ![todo:image_alt_text](convert-excel-workbook-to-pdf_1.png)
 
@@ -77,7 +77,7 @@ Mit dem**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pd
 
 ###  **Konvertierungsattribute**
 
-Wir arbeiten daran, die Konvertierungsfunktionen mit jeder neuen Version zu verbessern. Die Konvertierung von Aspose.Cell von Excel in PDF weist noch einige Einschränkungen auf. Bei der Konvertierung in das Format PDF gehen möglicherweise einige Tabellenformatierungen verloren. Außerdem werden einige Zeichnungsobjekte noch nicht unterstützt.
+Wir arbeiten daran, die Konvertierungsfunktionen mit jeder neuen Version zu verbessern. Die Konvertierung von Aspose.Cell von Excel in PDF weist noch einige Einschränkungen auf. MapChart wird bei der Konvertierung in das Format PDF nicht unterstützt. Außerdem werden einige Zeichenobjekte nicht gut unterstützt.
 
 Die folgende Tabelle listet alle Funktionen auf, die beim Export nach PDF unter Verwendung von Aspose.Cells vollständig oder teilweise unterstützt werden. Diese Tabelle ist nicht endgültig und deckt nicht alle Tabellenattribute ab, identifiziert jedoch die Funktionen, die für die Konvertierung in PDF nicht oder teilweise unterstützt werden .
 
@@ -92,15 +92,15 @@ Die folgende Tabelle listet alle Funktionen auf, die beim Export nach PDF unter 
 |Kommentare| |Ja| |
 |Bedingte Formatierung| |Ja| |
 |Dokumenteigenschaften| |Ja| |
-|Zeichnungsobjekte| |Teilweise|Unterstützte Objekte: TextBox, Linie, Rechteck, Oval, GroupBox, Button, CheckBox, RadioButton, ListBox, ComboBox, Label|
+|Zeichnungsobjekte| |Teilweise|Schatten- und 3D-Effekte für Zeichenobjekte werden nicht gut unterstützt; WordArt und SmartArt werden teilweise unterstützt.|
 |Schriftart|Größe|Ja| |
 |Schriftart|Farbe|Ja| |
 |Schriftart|Stil|Ja| |
 |Schriftart|Unterstreichen|Ja| |
-|Schriftart|Auswirkungen|Teilweise|Es wird nur der Strike-Through-Effekt unterstützt|
+|Schriftart|Auswirkungen|Ja||
 |Bilder| |Ja| |
 |Hyperlink| |Ja| |
-|Diagramme| |Teilweise||
+|Diagramme| |Teilweise|MapChart wird nicht unterstützt.|
 |Zusammengelegt Cells| |Ja| |
 |Seitenumbruch| |Ja| |
 |Seiteneinrichtung|Kopfzeile Fußzeile|Ja| |
@@ -129,7 +129,7 @@ Die folgende Tabelle listet alle Funktionen auf, die beim Export nach PDF unter 
 - [Konvertieren Sie eine Excel-Datei in das mit PDFA-1a kompatible Format PDF](/cells/de/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
 - [Konvertieren Sie die Datei XLS mit Bildern oder Diagrammen in PDF](/cells/de/net/convert-xls-file-with-images-or-charts-to-pdf/)
 - [Erstellen Sie einen PDFBookmarkEntry für das Diagrammblatt](/cells/de/net/create-pdfbookmarkentry-for-chart-sheet/)
-- [Passen Sie alle Arbeitsblattspalten auf eine einzelne PDF-Seite an](/cells/de/net/fit-all-worksheet-columns-on-single-pdf-page/)
+- [Passen Sie alle Arbeitsblattspalten auf eine einzelne Seite PDF an](/cells/de/net/fit-all-worksheet-columns-on-single-pdf-page/)
 - [Rufen Sie DrawObject und Bound ab, während Sie mit der DrawObjectEventHandler-Klasse auf PDF rendern](/cells/de/net/get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjecteventhandler-class/)
 - [Erhalten Sie Warnungen zur Schriftartersetzung beim Rendern einer Excel-Datei](/cells/de/net/get-warnings-for-font-substitution-while-rendering-excel-file/)
 - [Ignorieren Sie Fehler beim Rendern von Excel auf PDF](/cells/de/net/ignore-errors-while-rendering-excel-to-pdf/)

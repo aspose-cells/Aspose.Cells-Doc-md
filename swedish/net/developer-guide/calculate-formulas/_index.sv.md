@@ -1,10 +1,12 @@
-﻿---
+---
 title: Beräkna formler
+description: Den här artikeln introducerar hur du använder Aspose.Cells-biblioteket för att beräkna formler i Microsoft Excel. Genom att ladda en befintlig Excel-fil eller skapa en ny Excel-fil kan vi använda metoderna som tillhandahålls av Aspose.Cells för att beräkna formeln och få resultatet. Slutligen sparar vi den modifierade Excel-filen på disken.
+keywords: Aspose.Cells, Excel, formulas, calculations, Direct Calculation of Formula, Calculate Formulas repeatedly, add formulas.
 type: docs
 weight: 125
 url: /sv/net/calculate-formulas/
 ---
-## **Lägga till formler och beräkna resultat**
+##  **Lägga till formler och beräkna resultat**
 
 Aspose.Cells har en inbäddad formelberäkningsmotor. Det kan inte bara räkna om formler som importerats från designermallar utan det stöder också att beräkna resultaten av formler som läggs till vid körning.
 
@@ -12,11 +14,11 @@ Aspose.Cells har en inbäddad formelberäkningsmotor. Det kan inte bara räkna o
 
  Använd[**Formel**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/formula) egendom eller[**SetFormula(...)**](https://reference.aspose.com/cells/net/aspose.cells.cell/setformula/methods/2) metoder för[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)klass för att lägga till en formel i en cell. När du använder en formel, börja alltid strängen med ett likhetstecken (=) som du gör när du skapar en formel i Microsoft Excel och använd ett kommatecken (,) för att avgränsa funktionsparametrar.
 
- För att beräkna resultaten av formler kan användaren anropa[**Beräkna Formel**](https://reference.aspose.com/cells/net/aspose.cells.workbook/calculateformula/methods/1) metod för[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook)klass som bearbetar alla formler inbäddade i en Excel-fil. Eller så kan användaren ringa till[**Beräkna Formel**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/calculateformula) metod för[**Worsheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass som bearbetar alla formler inbäddade i ett ark. Eller så kan användaren också ringa[**Beräkna**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/calculate) metod för[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)klass som behandlar formeln för en Cell:
+ För att beräkna resultaten av formler kan användaren anropa[**Beräkna Formel**](https://reference.aspose.com/cells/net/aspose.cells.workbook/calculateformula/methods/1) metod för[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass som bearbetar alla formler inbäddade i en Excel-fil. Eller så kan användaren ringa till[**Beräkna Formel**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/calculateformula) metod för[**Worsheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass som bearbetar alla formler inbäddade i ett ark. Eller så kan användaren också ringa[**Beräkna**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/calculate) metod för[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)klass som behandlar formeln för en Cell:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-CalculatingFormulas-1.cs" >}}
 
-### **Viktigt att veta**
+###  **Viktigt att veta för formler**
 
 {{% alert color="primary" %}}
 
@@ -24,7 +26,7 @@ Aspose.Cells har en inbäddad formelberäkningsmotor. Det kan inte bara räkna o
 
 {{% /alert %}}
 
-## **Direkt beräkning av formel**
+##  **Direkt beräkning av formel**
 
 Aspose.Cells har en inbäddad formelberäkningsmotor. Förutom att beräkna formler som importeras från en designerfil kan Aspose.Cells beräkna formelresultat direkt.
 
@@ -41,13 +43,13 @@ Value of A2: 30
 Result of Sum(A1:A2): 50.0
 {{< /highlight >}}
 
-## **Beräknar formler upprepade gånger**
+##  **Hur man beräknar formler upprepade gånger**
 
- När det finns många formler i arbetsboken och användaren behöver beräkna dem upprepade gånger med endast en liten del av dem, kan det vara till hjälp för prestanda att aktivera formelberäkningskedjan:[**FormulaSettings.EnableCalculationChain**](https://reference.aspose.com/cells/net/aspose.cells/formulasettings/properties/enablecalculationchain).
+När det finns många formler i arbetsboken och användaren behöver beräkna dem upprepade gånger med endast en liten del av dem, kan det vara till hjälp för prestanda att aktivera formelberäkningskedjan:[**FormulaSettings.EnableCalculationChain**](https://reference.aspose.com/cells/net/aspose.cells/formulasettings/properties/enablecalculationchain).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-CalculatingFormulasOnce-1.cs" >}}
 
-### **Viktigt att veta**
+###  **Viktigt att veta**
 
 {{% alert color="primary" %}}
 
@@ -56,7 +58,7 @@ Som standard är beräkningskedjan inaktiverad. Eftersom att skapa kedjan också
 {{% /alert %}}
 
 
-## **Förhandsämnen**
+##  **Förhandsämnen**
 - [Lägg till Cells till Microsoft Excel Formula Watch Window](/cells/sv/net/add-cells-to-microsoft-excel-formula-watch-window/)
 - [Beräknar IFNA-funktion med Aspose.Cells](/cells/sv/net/calculating-ifna-function-using-aspose-cells/)
 - [Beräkning av matrisformel för datatabeller](/cells/sv/net/calculation-of-array-formula-of-data-tables/)

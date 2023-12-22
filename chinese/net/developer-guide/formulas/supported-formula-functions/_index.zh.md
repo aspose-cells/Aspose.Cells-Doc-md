@@ -4,12 +4,12 @@ toc: false
 type: docs
 weight: 10
 url: /zh/net/supported-formula-functions/
-description: 支持读取/设置/计算公式的 excel 函数
+description: 支持读取/设置/计算公式的 Excel 函数
 keywords: formula function calculate
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells API 支持大部分标准函数和 Excel 的内置公式。您可以在下面按字母顺序找到所有支持的功能。
+Aspose.Cells API支持大多数标准函数和Excel的内置公式。您可以在下面按字母顺序找到所有支持的功能。
 
 | | | | | | | | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -18,7 +18,7 @@ Aspose.Cells API 支持大部分标准函数和 Excel 的内置公式。您可�
 
 {{% /alert %}}
 
-Aspose.Cells' 公式计算引擎允许您设置、读取和计算以下公式和函数的结果。
+Aspose.Cells'公式计算引擎允许您设置、读取和计算以下公式和函数的结果。
 
 ######  *A**
 |**功能**|**概括**|
@@ -32,6 +32,7 @@ Aspose.Cells' 公式计算引擎允许您设置、读取和计算以下公式和
 |AGGREGATE|
 |AMORDEGRC|
 |AMORLINC|
+|ANCHORARRAY|
 |AND|
 |AREAS|
 |ASC|
@@ -54,14 +55,14 @@ Aspose.Cells' 公式计算引擎允许您设置、读取和计算以下公式和
 |BESSELK|
 |BESSELY|
 |BETADIST|
-|BETA.DIST|
+|测试版|
 |BETAINV|
-|BETA.INV|
+|测试版|
 |BIN2DEC|
 |BIN2HEX|
 |BIN2OCT|
 |BINOMDIST|
-|二项式.DIST|
+|二元分布|
 |BITAND|
 |BITLSHIFT|
 |BITOR|
@@ -79,9 +80,9 @@ Aspose.Cells' 公式计算引擎允许您设置、读取和计算以下公式和
 |CHIDIST|
 |CHIINV|
 |CHITEST|
-|CHISQ区|
-|CHISQ.DIST.RT|
-|CHISQ INV RT|
+|奇斯克区|
+|CHISQ 区 RT|
+|逆转录酶|
 |CHISQ测试|
 |CHOOSE|
 |CHOOSECOLS|
@@ -95,7 +96,7 @@ Aspose.Cells' 公式计算引擎允许您设置、读取和计算以下公式和
 |CONCAT|
 |CONCATENATE|
 |CONFIDENCE|
-|信心.规范|
+|信心标准|
 |CONVERT|
 |CORREL|
 |COS|
@@ -112,7 +113,7 @@ Aspose.Cells' 公式计算引擎允许您设置、读取和计算以下公式和
 |COUPNUM|
 |COUPPCD|
 |COVAR|
-|协方差.P|
+|协方差|
 |协方差|
 |CRITBINOM|
 |CUMIPMT|
@@ -158,6 +159,7 @@ Aspose.Cells' 公式计算引擎允许您设置、读取和计算以下公式和
 | :- | :- |
 |EDATE|
 |EFFECT|
+|ENCODEURL|
 |EOMONTH|
 |ERF|
 |ERFC|
@@ -185,9 +187,9 @@ Aspose.Cells' 公式计算引擎允许您设置、读取和计算以下公式和
 |FISHERINV|
 |FIXED|
 |FLOOR|
-|地板数学|
+|基础数学|
 |FORECAST|
-|预测.线性|
+|线性预测|
 |FORMULATEXT|
 |FREQUENCY|
 |FV|
@@ -196,9 +198,9 @@ Aspose.Cells' 公式计算引擎允许您设置、读取和计算以下公式和
 ######  *G**
 |**功能**|**概括**|
 | :- | :- |
-|伽马距离|
+|伽玛分布|
 |GAMMADIST|
-|GAMMA.INV|
+|伽玛INV|
 |GAMMAINV|
 |GAMMALN|
 |GCD|
@@ -218,7 +220,7 @@ Aspose.Cells' 公式计算引擎允许您设置、读取和计算以下公式和
 |HOUR|
 |HSTACK|
 |HYPERLINK|
-|地下世界.DIST|
+|超几何分布|
 |HYPGEOMDIST|
 
 ######  *我**
@@ -256,6 +258,7 @@ Aspose.Cells' 公式计算引擎允许您设置、读取和计算以下公式和
 |ISERR|
 |ISERROR|
 |ISEVEN|
+|ISFORMULA|
 |ISLOGICAL|
 |ISNA|
 |ISNONTEXT|
@@ -271,30 +274,34 @@ Aspose.Cells' 公式计算引擎允许您设置、读取和计算以下公式和
 | :- | :- |
 |KURT|
 
-######  *大号**
+######  *长**
 |**功能**|**概括**|
 | :- | :- |
+|LAMBDA|
 |LARGE|
 |LCM|
 |LEFT|
 |LEFTB|
 |LEN|
 |LENB|
+|LET|
 |LINEST|
 |LN|
 |LOG|
 |LOG10|
 |LOGEST|
 |LOGINV|
-|对数函数.DIST|
-|登录规范.INV|
+|对数正态分布|
+|对数正态分布|
 |LOGNORMDIST|
 |LOOKUP|
 |LOWER|
 
-######  *米**
+######  *中号**
 |**功能**|**概括**|
 | :- | :- |
+|MAKEARRAY|
+|MAP|
 |MATCH|
 |MAX|
 |MAXA|
@@ -313,7 +320,7 @@ Aspose.Cells' 公式计算引擎允许您设置、读取和计算以下公式和
 |MMULT|
 |MOD|
 |MODE|
-|模式.MULT|
+|多模式|
 |模式.SNGL|
 |MONTH|
 |MROUND|
@@ -324,18 +331,18 @@ Aspose.Cells' 公式计算引擎允许您设置、读取和计算以下公式和
 | :- | :- |
 |N|
 |NA|
-|负数分布|
+|负值分布|
 |NEGBINOMDIST|
 |NETWORKDAYS|
-|NETWORKDAYS.INTL|
+|国际网络日|
 |NOMINAL|
-|标准距离|
+|标准分布|
 |NORMDIST|
 |NORMINV|
-|NORM.INV|
-|标准距离|
+|标准INV|
+|标准南区|
 |NORMSDIST|
-|规范.S.INV|
+|标准S.INV|
 |NORMSINV|
 |NOT|
 |NOW|
@@ -343,7 +350,7 @@ Aspose.Cells' 公式计算引擎允许您设置、读取和计算以下公式和
 |NPV|
 |NUMBERVALUE|
 
-######  *哦**
+######  *O**
 |**功能**|**概括**|
 | :- | :- |
 |OCT2BIN|
@@ -362,10 +369,10 @@ Aspose.Cells' 公式计算引擎允许您设置、读取和计算以下公式和
 | :- | :- |
 |PEARSON|
 |百分位.EXC|
-|百分位|
+|百分公司|
 |PERCENTILE|
-|百分比排名.EXC|
-|PERCENTRANK.INC|
+|百分比.EXC|
+|PERCENTRANK公司|
 |PERCENTRANK|
 |PERMUT|
 |PI|
@@ -387,7 +394,7 @@ Aspose.Cells' 公式计算引擎允许您设置、读取和计算以下公式和
 | :- | :- |
 |QUARTILE|
 |四分位数.EXC|
-|四分之一公司|
+|四分公司|
 |QUOTIENT|
 
 ######  *R**
@@ -397,8 +404,8 @@ Aspose.Cells' 公式计算引擎允许您设置、读取和计算以下公式和
 |RAND|
 |RANDARRAY|
 |RANDBETWEEN|
-|排名.AVG|
-|等级均衡器|
+|平均排名|
+|情商排名|
 |RANK|
 |RATE|
 |RECEIVED|
@@ -418,6 +425,7 @@ Aspose.Cells' 公式计算引擎允许您设置、读取和计算以下公式和
 ######  *S**
 |**功能**|**概括**|
 | :- | :- |
+|SCAN|
 |SEARCH|
 |SEARCHB|
 |SECOND|
@@ -428,6 +436,7 @@ Aspose.Cells' 公式计算引擎允许您设置、读取和计算以下公式和
 |SIGN|
 |SIN|
 |SINH|
+|SINGLE|
 |SKEW|
 |SLN|
 |SLOPE|
@@ -438,8 +447,8 @@ Aspose.Cells' 公式计算引擎允许您设置、读取和计算以下公式和
 |SQRTPI|
 |STANDARDIZE|
 |STDEV|
-|标准开发程序|
-|标准开发工具|
+|标准差值|
+|标准差值|
 |STDEVA|
 |STDEVP|
 |STDEVPA|
@@ -466,8 +475,8 @@ Aspose.Cells' 公式计算引擎允许您设置、读取和计算以下公式和
 |TBILLEQ|
 |TBILLPRICE|
 |TBILLYIELD|
-|T.DIST.2T|
-|T.DIST.RT|
+|距离2T|
+|RT 区|
 |TDIST|
 |TEXT|
 |TEXTJOIN|
@@ -493,6 +502,7 @@ Aspose.Cells' 公式计算引擎允许您设置、读取和计算以下公式和
 |UNICODE|
 |UNIQUE|
 |UPPER|
+|USDOLLAR|
 
 ######  *V**
 |**功能**|**概括**|
@@ -500,7 +510,7 @@ Aspose.Cells' 公式计算引擎允许您设置、读取和计算以下公式和
 |VALUE|
 |VAR|
 |VAR.P|
-|VAR.S|
+|VAR|
 |VARA|
 |VARP|
 |VARPA|
@@ -514,9 +524,9 @@ Aspose.Cells' 公式计算引擎允许您设置、读取和计算以下公式和
 |WEEKDAY|
 |WEEKNUM|
 |WEIBULL|
-|威布尔分布|
+|威布尔区|
 |WORKDAY|
-|工作日.INTL|
+|国际工作日|
 
 ######  *X**
 |**功能**|**概括**|
@@ -537,6 +547,6 @@ Aspose.Cells' 公式计算引擎允许您设置、读取和计算以下公式和
 ######  *Z**
 |**功能**|**概括**|
 | :- | :- |
-|测试|
+|Z测试|
 |ZTEST|
 

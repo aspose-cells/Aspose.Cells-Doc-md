@@ -4,21 +4,21 @@ toc: false
 type: docs
 weight: 10
 url: /fr/net/supported-formula-functions/
-description: Fonctions Excel prises en charge pour lire/définir/calculer des formules
+description: Fonctions Excel prises en charge pour lire/régler/calculer des formules
 keywords: formula function calculate
 ---
 {{% alert color="primary" %}}
 
-Les API Aspose.Cells prennent en charge la plupart des fonctions standard et la formule intégrée d'Excel. Ci-dessous, vous trouverez toutes les fonctions prises en charge par ordre alphabétique.
+Les API Aspose.Cells prennent en charge la plupart des fonctions standard et la formule intégrée d'Excel. Ci-dessous, vous pouvez trouver toutes les fonctions prises en charge par ordre alphabétique.
 
 | | | | | | | | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **[A](#a)** | **[B](#b)** | **[C](#c)** | **[D](#d)** | **[E](#e)** | **[F](#f)** | **[G](#g)** | **[H](#h)** | **[Je](#je)** | **[J](#j)** | **[K](#k)** | **[Ll)** | **[M](#m)** |
-| **[N](#n)** | **[O](#o)** | **[P](#p)** | **[Q](#q)** | **[R](#r)** | **[S](#s)** | **[T](#t)** | **[U](#u)** | **[V](#v)** | **[W](#w)** | **[X](#x)** | **[Y](#y)** | **[Z](#z)** |
+| **[UNE](#une)** | **[B](#b)** | **[C](#c)** | **[D](#d)** | **[E](#e)** | **[F](#f)** | **[G](#g)** | **[H](#h)** | **[Je](#je)** | **[J](#j)** | **[K](#k)** | **[Ll)** | **[M](#m)** |
+| **[N](#n)** | **[O](#o)** | **[P](#p)** | **[Q](#q)** | **[R](#r)** | **[S](#s)** | **[T](#t)** | **[U](#u)** | **[V](#v)** | **[W](#w)** | **[X](#x)** | **[O](#o)** | **[Z](#z)** |
 
 {{% /alert %}}
 
-Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calculer les résultats des formules et fonctions suivantes.
+Aspose.Cells' Le moteur de calcul de formules vous permet de définir, lire et calculer les résultats des formules et fonctions suivantes.
 
 ######  *UN**
 |**Fonction**|**Résumé**|
@@ -32,6 +32,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |AGGREGATE|
 |AMORDEGRC|
 |AMORLINC|
+|ANCHORARRAY|
 |AND|
 |AREAS|
 |ASC|
@@ -61,7 +62,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |BIN2HEX|
 |BIN2OCT|
 |BINOMDIST|
-|LOI.BINOM.|
+|BINOM.DIST|
 |BITAND|
 |BITLSHIFT|
 |BITOR|
@@ -73,7 +74,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 | :- | :- |
 |CEILING|
 |PLAFOND.MATH|
-|PLAFOND.PRÉCIS|
+|PLAFOND.PRECISE|
 |CELL|
 |CHAR|
 |CHIDIST|
@@ -95,7 +96,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |CONCAT|
 |CONCATENATE|
 |CONFIDENCE|
-|CONFIANCE.NORMALE|
+|CONFIANCE.NORME|
 |CONVERT|
 |CORREL|
 |COS|
@@ -158,10 +159,11 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 | :- | :- |
 |EDATE|
 |EFFECT|
+|ENCODEURL|
 |EOMONTH|
 |ERF|
 |ERFC|
-|TYPE.ERREUR|
+|ERREUR.TYPE|
 |EVEN|
 |EXACT|
 |EXP|
@@ -185,7 +187,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |FISHERINV|
 |FIXED|
 |FLOOR|
-|PLANCHER.MATH|
+|ÉTAGE.MATH|
 |FORECAST|
 |PRÉVISION.LINÉAIRE|
 |FORMULATEXT|
@@ -196,9 +198,9 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 ######  *G**
 |**Fonction**|**Résumé**|
 | :- | :- |
-|DIST.GAMMA|
+|GAMMA.DIST|
 |GAMMADIST|
-|INV.GAMMA|
+|GAMMA.INV|
 |GAMMAINV|
 |GAMMALN|
 |GCD|
@@ -256,6 +258,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |ISERR|
 |ISERROR|
 |ISEVEN|
+|ISFORMULA|
 |ISLOGICAL|
 |ISNA|
 |ISNONTEXT|
@@ -274,19 +277,21 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 ######  *L**
 |**Fonction**|**Résumé**|
 | :- | :- |
+|LAMBDA|
 |LARGE|
 |LCM|
 |LEFT|
 |LEFTB|
 |LEN|
 |LENB|
+|LET|
 |LINEST|
 |LN|
 |LOG|
 |LOG10|
 |LOGEST|
 |LOGINV|
-|DIST.LOGNORMALE|
+|LOGNORM.DIST|
 |LOGNORM.INV|
 |LOGNORMDIST|
 |LOOKUP|
@@ -295,6 +300,8 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 ######  *M**
 |**Fonction**|**Résumé**|
 | :- | :- |
+|MAKEARRAY|
+|MAP|
 |MATCH|
 |MAX|
 |MAXA|
@@ -329,10 +336,10 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |NETWORKDAYS|
 |NETWORKDAYS.INTL|
 |NOMINAL|
-|DIST.NORMALE|
+|DIST.NORME|
 |NORMDIST|
 |NORMINV|
-|NORM.INV|
+|NORME.INV|
 |NORM.S.DIST|
 |NORMSDIST|
 |NORM.S.INV|
@@ -361,10 +368,10 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |**Fonction**|**Résumé**|
 | :- | :- |
 |PEARSON|
-|CENTILE.EXC|
-|CENTILE.INC|
+|PERCENTILE.EXC|
+|PERCENTILE.INC|
 |PERCENTILE|
-|RANG POURCENTAGE.EXC|
+|POURCENTAGE.EXC|
 |PERCENTRANK.INC|
 |PERCENTRANK|
 |PERMUT|
@@ -397,7 +404,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |RAND|
 |RANDARRAY|
 |RANDBETWEEN|
-|RANG.MOY|
+|RANG.MOYENNE|
 |RANG.EQ|
 |RANK|
 |RATE|
@@ -418,6 +425,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 ######  *S**
 |**Fonction**|**Résumé**|
 | :- | :- |
+|SCAN|
 |SEARCH|
 |SEARCHB|
 |SECOND|
@@ -428,6 +436,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |SIGN|
 |SIN|
 |SINH|
+|SINGLE|
 |SKEW|
 |SLN|
 |SLOPE|
@@ -493,6 +502,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |UNICODE|
 |UNIQUE|
 |UPPER|
+|USDOLLAR|
 
 ######  *V**
 |**Fonction**|**Résumé**|
@@ -508,7 +518,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |VLOOKUP|
 |VSTACK|
 
-######  *F**
+######  *W**
 |**Fonction**|**Résumé**|
 | :- | :- |
 |WEEKDAY|
@@ -525,7 +535,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |XLOOKUP|
 |XNPV|
 
-######  *Y**
+######  *O**
 |**Fonction**|**Résumé**|
 | :- | :- |
 |YEAR|

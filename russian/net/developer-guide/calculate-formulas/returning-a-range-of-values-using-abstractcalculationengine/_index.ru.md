@@ -1,20 +1,22 @@
-﻿---
+---
 title: Возврат диапазона значений с помощью AbstractCalculationEngine
+description: В этой статье представлена абстрактная вычислительная машина, которая возвращает диапазон значений в Excel Microsoft с использованием библиотеки Aspose.Cells. Загрузив существующий файл Excel или создав новый файл Excel, мы можем использовать методы, предоставленные Aspose.Cells, чтобы получить диапазон значений и вернуть результат. Наконец, мы сохраняем измененный файл Excel на диск.
+keywords: Aspose.Cells, Excel, an abstract calculation engine that returns a series of values
 type: docs
 weight: 55
 url: /ru/net/returning-a-range-of-values-using-abstractcalculationengine/
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells предоставляет[**АннотацияРасчетДвигатель**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine) класс, который используется для реализации пользовательских или пользовательских функций, которые не поддерживаются Microsoft Excel как встроенные функции.
+ Aspose.Cells обеспечивает[**АннотацияРасчетДвигатель**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine) класс, который используется для реализации пользовательских или пользовательских функций, которые не поддерживаются Excel Microsoft как встроенные функции.
 
  В этой статье объясняется, как вернуть диапазон значений из[**АннотацияРасчетДвигатель**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine).
 
 {{% /alert %}}
 
- Следующий код демонстрирует использование[**АннотацияРасчетДвигатель**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine) class и возвращает диапазон значений через свой метод.
+ Следующий код демонстрирует использование[**АннотацияРасчетДвигатель**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine) class и возвращает диапазон значений через его метод.
 
- Создайте класс с функцией*ВычислитьПользовательскуюФункция*. Этот класс реализует[**АннотацияРасчетДвигатель**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine).
+Создайте класс с функцией *CalculateCustomFunction*. Этот класс реализует[**АннотацияРасчетДвигатель**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-ReturnRangeOfValuesUsingAbstractCalculationEngine-CustomFunctionStaticValue.cs" >}}
 

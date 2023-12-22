@@ -1,18 +1,20 @@
-﻿---
-title: Agrupando y Desagrupando Filas y Columnas en Python
+---
+title: Agrupar y desagrupar filas y columnas en Python
 type: docs
 weight: 40
 url: /es/java/grouping-and-ungrouping-rows-and-columns-in-python/
+description: Aprenda a agrupar y desagrupar filas y columnas a través del Aspose.Cells for Python vía Java API.
+keywords: How to Group and Ungroup Rows and Columns in Python Via Java, Group Rows and Columns using Python Via Java, Python Via Java Ungroup Rows and Columns. 
 ---
-## **Aspose.Cells - Gestión de grupos de filas y columnas**
-### **Agrupación de filas y columnas**
+##  **Gestión de grupos y desagrupaciones de filas y columnas en Aspose.Cells for Python via Java**
+###  **Cómo agrupar filas y columnas en Python**
 Es posible agrupar filas o columnas llamando a los métodos groupRows y groupColumns de la colección Cells. Ambos métodos toman los siguientes parámetros:
 
-- Índice de la primera fila/columna, la primera fila o columna del grupo.
+- Índice de primera fila/columna, la primera fila o columna del grupo.
 - Índice de última fila/columna, la última fila o columna del grupo.
-- Está oculto, un parámetro booleano que especifica si ocultar filas/columnas después de la agrupación o no.
+- Está oculto, un parámetro booleano que especifica si se deben ocultar filas/columnas después de agrupar o no.
 
-**Código Python**
+**Python Código**
 
 {{< highlight "python" >}}
 
@@ -43,13 +45,13 @@ workbook.save(self.dataDir + "Group Rows And Columns.xls")
 print "Group Rows And Columns Successfully." 
 
 {{< /highlight >}}
-### **Desagrupar filas y columnas**
-Desagrupa filas o columnas agrupadas llamando a los métodos UngroupRows y UngroupColumns de la colección Cells. Ambos métodos toman los mismos parámetros:
+###  **Cómo desagrupar filas y columnas usando Python**
+Desagrupe filas o columnas agrupadas llamando a los métodos UngroupRows y UngroupColumns de la colección Cells. Ambos métodos toman los mismos parámetros:
 
-- Índice de la primera fila o columna, la primera fila/columna a desagrupar.
-- Índice de la última fila o columna, la última fila/columna a desagrupar.
+- Índice de la primera fila o columna, la primera fila/columna que se desagrupará.
+- Índice de la última fila o columna, la última fila/columna que se desagrupará.
 
-**Código Python**
+**Python Código**
 
 {{< highlight "python" >}}
 
@@ -80,7 +82,7 @@ workbook.save(self.dataDir + "Ungroup Rows And Columns.xls")
 print "Ungroup Rows And Columns Successfully." 
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
+##  **Descargar código de ejecución**
  Descargar**Agrupar y desagrupar filas y columnas (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

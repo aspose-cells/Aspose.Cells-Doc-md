@@ -1,16 +1,16 @@
-﻿---
-title: Setzen Sie den Tipp für die Spaltenüberschrift
+---
+title: Tipp zum Festlegen der Spaltenüberschrift
 type: docs
 weight: 90
 url: /de/java/set-column-header-tip/
 ---
-## **Mögliche Nutzungsszenarien**
-Möglicherweise müssen Sie QuickInfos für Ihre benutzerdefinierte Spalte festlegen, während Sie die Tabelle im Arbeitsblatt erstellen. Aspose.Cells.GridWeb ermöglicht es Ihnen, die Beschriftung einer Spalte umzubenennen, und Sie können QuickInfos für die Spalte festlegen, damit die Benutzer leicht verstehen können, wofür die Spalte ist.
-## **Tipp zum Einstellen der Spaltenüberschrift**
-Nachfolgend finden Sie ein vollständiges Beispiel, um zu demonstrieren, wie Sie die Spaltenbeschriftungen ändern und QuickInfo-Text anwenden. Nach dem Ausführen des Beispielcodes wird QuickInfo-Text eingeblendet, wenn Sie den Mauszeiger über die Kopfzeile der angegebenen Spalte platzieren.
+##  **Mögliche Nutzungsszenarien**
+Möglicherweise müssen Sie beim Erstellen der Tabelle im Arbeitsblatt einen Tooltip für Ihre benutzerdefinierte Spalte festlegen. Aspose.Cells.GridWeb ermöglicht Ihnen, die Beschriftung einer Spalte umzubenennen und Sie können einen Tooltip für die Spalte festlegen, damit die Benutzer leicht verstehen können, wozu die Spalte dient.
+##  **Tipp zum Festlegen der Spaltenüberschrift**
+Nachfolgend finden Sie ein vollständiges Beispiel, um zu veranschaulichen, wie Sie die Beschriftungen von Spalten ändern und Tooltip-Text anwenden. Nach der Ausführung des Beispielcodes wird ein Tooltip-Text eingeblendet, wenn Sie den Mauszeiger über die Überschrift der angegebenen Spalte platzieren.
 
-## **Beispielcode**
-Hier ist der Beispielcode der**test.jsp** Datei.
+##  **Beispielcode**
+Hier ist der Beispielcode des**test.jsp** Datei.
 
 {{< highlight "java" >}}
 

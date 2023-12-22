@@ -1,8 +1,10 @@
-﻿---
+---
 title: Lägg till bildhyperlänkar
 type: docs
 weight: 140
 url: /sv/net/add-image-hyperlinks/
+description: Lär dig hur du lägger till bildhyperlänkar via Aspose.Cells for .NET API.
+keywords: Add Image Hyperlinks, Insert Image Hyperlinks
 ---
 {{% alert color="primary" %}} 
 

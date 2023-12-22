@@ -39,14 +39,14 @@ VS2022 の Nuget パッケージ マネージャーから Aspose.Cells をイン
 
 3. 「net6.0-windows」サブディレクトリを見つけて、その中にある Aspose.Cells.dll を .net6 アプリケーションに追加します。次の nuget パッケージを .net6 プロジェクトに手動で追加します。
 - System.Drawing.Common、4.7.0。
-- System.Security.Cryptography.Pkcs、6.0.1。
+- System.Security.Cryptography.Pkcs、6.0.3。
 - System.Text.Encoding.CodePages、4.7.0。
 
 このようにして、.Net6 プロジェクトの Windows システムへの依存関係として「System.Drawing.Common」を使用します。この構成では、描画結果は.netcore31以前に近くなります。
 
 4. 「net6.0」サブディレクトリを見つけて、その中にある Aspose.Cells.dll を .net6 アプリケーションに追加します。次の nuget パッケージを .net6 プロジェクトに手動で追加します。
-- スキアシャープ、2.88.3。
-- System.Security.Cryptography.Pkcs、6.0.1。
+- スキアシャープ、2.88.6。
+- System.Security.Cryptography.Pkcs、6.0.3。
 - System.Text.Encoding.CodePages、4.7.0。
 
 このようにして、.Net6 プロジェクトの Windows システムへの依存関係として「SkiaSharp」を使用します。*「SkiaSharp」を依存関係として使用するバージョンは、プリンターへの印刷機能をサポートしていないことに注意してください。*
@@ -65,13 +65,13 @@ OR
 apk update && apk add fontconfig 
 ```
 
-2. nuget パッケージ「SkiaSharp.NativeAssets.Linux 2.88.3」を .net6 プロジェクトに追加します。
+2. nuget パッケージ「SkiaSharp.NativeAssets.Linux 2.88.6」を .net6 プロジェクトに追加します。
 
-3. または、上記の 2 つの手順の代わりに、nuget パッケージ「SkiaSharp.NativeAssets.Linux.NoDependency 2.88.3」を .net6 プロジェクトに追加することもできます。
+3. または、上記の 2 つの手順の代わりに、nuget パッケージ「SkiaSharp.NativeAssets.Linux.NoDependency 2.88.6」を .net6 プロジェクトに追加することもできます。
 
 ###  Ubuntu の Dockerfile の例
 
-1. nuget パッケージ「SkiaSharp.NativeAssets.Linux 2.88.3」を .net6 プロジェクトに追加します。
+1. nuget パッケージ「SkiaSharp.NativeAssets.Linux 2.88.6」を .net6 プロジェクトに追加します。
 
 2. 次の Dockerfile を使用します。
 {{< highlight "plain" >}}
@@ -107,7 +107,7 @@ ENTRYPOINT ["dotnet", "Ubuntu_Docker.dll"]
 
 ###  Alpine の Dockerfile の例
 
-1. nuget パッケージ「SkiaSharp.NativeAssets.Linux 2.88.3」を .net6 プロジェクトに追加します。
+1. nuget パッケージ「SkiaSharp.NativeAssets.Linux 2.88.6」を .net6 プロジェクトに追加します。
 
 2. 次の Dockerfile を使用します。
 {{< highlight "plain" >}}

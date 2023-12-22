@@ -6,9 +6,9 @@ url: /ru/java/installation/
 ---
 ##  **Установка Aspose.Cells for Java из репозитория Maven**
 
-Aspose размещает все Java API на[Maven репозиторий](https://releases.aspose.com/java/repo/) . Вы можете легко использовать[Aspose.Cells for Java API](https://releases.aspose.com/cells/java/) непосредственно в ваших проектах Maven с простыми конфигурациями.
+Aspose содержит все API Java.[Maven хранилище](https://releases.aspose.com/java/repo/) . Вы можете легко использовать[Aspose.Cells for Java API](https://releases.aspose.com/cells/java/) прямо в ваших проектах Maven с простыми конфигурациями.
 
-Во-первых, вам нужно указать конфигурацию/местоположение репозитория Aspose Maven в вашем Maven pom.xml, как показано ниже:
+Сначала вам нужно указать конфигурацию/расположение репозитория Aspose Maven в вашем pom.xml Maven, как показано ниже:
 
 {{< highlight "java" >}}
 
@@ -39,7 +39,7 @@ repositories {
 }
 {{< /highlight >}}
 
-Затем определите зависимость Aspose.Cells for Java API в вашем pom.xml следующим образом (это будет включать все, например, основной файл jar, документы Java и другие библиотеки соответственно):
+Затем определите зависимость Aspose.Cells for Java API в вашем pom.xml следующим образом (это будет включать в себя все, например, основной файл jar, Java Docs и другие библиотеки соответственно):
 
 {{< highlight "java" >}}
 
@@ -51,7 +51,7 @@ repositories {
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>23.5</version>
+            <version>23.12</version>
 
         </dependency>
 
@@ -61,7 +61,7 @@ repositories {
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>23.5</version>
+            <version>23.12</version>
 
             <classifier>javadoc</classifier>
 
@@ -73,7 +73,7 @@ repositories {
 
             <artifactId>bcprov-jdk15on</artifactId>
 
-            <version>1.60</version>
+            <version>1.68</version>
 
         </dependency>        
 
@@ -83,7 +83,7 @@ repositories {
 
             <artifactId>bcpkix-jdk15on</artifactId>
 
-            <version>1.60</version>
+            <version>1.68</version>
 
         </dependency>        
 

@@ -1,26 +1,28 @@
-﻿---
+---
 title: Bevara enstaka citatprefix för Cell värde eller intervall
 type: docs
 weight: 310
 url: /sv/net/preserve-single-quote-prefix-of-cell-value-or-range/
+description: Lär dig hur du bevarar enstaka citatprefix för Cell värde eller intervall genom Aspose.Cells for .NET API.
+keywords: Preserve Single Quote Prefix of Cell Value or Range, Hide leading apostrophe or single quote mark, Show leading apostrophe or single quote mark
 ---
-## **Möjliga användningsscenarier**
+##  **Möjliga användningsscenarier**
 
-När du sätter ett värde inuti cellen som har inledande apostrof eller enstaka citattecken, döljer Microsoft Excel det, men när du markerar cellen visar den den inledande apostrof eller enstaka citattecken i en formelrad som visas i följande skärmdump.
+När du lägger ett värde inuti cellen som har inledande apostrof eller enstaka citattecken, döljer Microsoft Excel det, men när du markerar cellen visar den den inledande apostrof eller enstaka citattecken i en formelrad som visas i följande skärmdump.
 
 ![todo:image_alt_text](preserve-single-quote-prefix-of-cell-value-or-range_1.png)
 
-Aspose.Cells döljer också den ledande apostrof eller enstaka citat som Microsoft Excel men det ställer in[**Style.CitatPrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) som**Sann** för den cellen. Om du ställer in en tom stil för cellen, då[**Style.CitatPrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) blir**falsk** igen. För att hantera denna fråga tillhandahåller Aspose.Cells[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix) egenskap, när den är inställd**falsk** , då[**Style.CitatPrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix)uppdateras inte alls och dess gamla värde bevaras. Det betyder om det gamla värdet av[**Style.CitatPrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix)egendom var**Sann** , det kommer att finnas kvar**Sann** och om det gamla värdet var**falsk** , det kommer att finnas kvar**falsk**.
+Aspose.Cells döljer också den ledande apostrof eller enstaka citat som Microsoft Excel men det ställer in[**Style.CitatPrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) som**Sann** för den cellen. Om du ställer in en tom stil för cellen, då[**Style.CitatPrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) blir**falsk** igen. För att hantera denna fråga tillhandahåller Aspose.Cells[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix) egenskap, när den är inställd**false**, då uppdateras inte [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) alls och dess gamla värde bevaras . Det betyder att om det gamla värdet för egenskapen [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) var **true**, så kommer att förbli **sant** och om det gamla värdet var *falskt** förblir det *falskt**.
 
-## **Bevara enstaka citatprefix för Cell värde eller intervall**
+##  **Bevara enstaka citatprefix för Cell värde eller intervall**
 
- Följande exempelkod förklarar användningen av[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix)egendom som beskrivits tidigare. Vänligen läs kommentarerna i koden och se konsolutgången för koden nedan för mer hjälp.
+Följande exempelkod förklarar användningen av[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix)egendom som beskrivits tidigare. Vänligen läs kommentarerna i koden och se konsolutgången för koden nedan för mer hjälp.
 
-## **Exempelkod**
+##  **Exempelkod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-PreserveSingleQuotePrefixOfCellValueOrRange.cs" >}}
 
-## **Konsolutgång**
+##  **Konsolutgång**
 
 {{< highlight "java" >}}
 

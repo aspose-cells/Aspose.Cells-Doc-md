@@ -1,5 +1,7 @@
-﻿---
+---
 title: Skapa och hantera diagram
+description: Lär dig hur du använder Aspose.Cells for .NET för att skapa diagram i Microsoft Excel. Vår guide kommer att visa de olika typerna av diagram som kan skapas, samt hur man anpassar deras utseende och formatering.
+keywords: Aspose.Cells for .NET, Chart Creation, Microsoft Excel, Chart Types, Customization, Appearance, Formatting.
 linktitle: Diagram
 type: docs
 weight: 130
@@ -13,19 +15,19 @@ Det är möjligt att lägga till en mängd olika diagram till kalkylblad med Asp
 
 {{% /alert %}}
 
-## **Skapa diagram**
+##  **Skapa diagram**
 
-### **Skapa helt enkelt ett diagram**
+###  **Skapa helt enkelt ett diagram**
 Det är enkelt att skapa ett diagram med Aspose.Cells med följande exempelkoder:
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-HowToCreateColumnChart-1.cs" >}}
 
-### **Saker att veta för att skapa ett diagram**
+###  **Saker att veta för att skapa ett diagram**
 
 Innan du skapar diagram är det viktigt att förstå några grundläggande begrepp som är användbara när du skapar diagram med Aspose.Cells.
 
-#### **Kartlägga objekt**
+####  **Kartlägga objekt**
 
-Aspose.Cells tillhandahåller en speciell uppsättning klasser i[**Aspose.Cells.Charts**](https://reference.aspose.com/cells/net/aspose.cells.charts) namnutrymme som används för att skapa diagram som stöds av Aspose.Cells. Dessa klasser används för att skapa**kartlägga objekt**, som fungerar som diagrammets byggstenar. Kartobjekten listas nedan:
+ Aspose.Cells tillhandahåller en speciell uppsättning klasser i[**Aspose.Cells.Charts**](https://reference.aspose.com/cells/net/aspose.cells.charts)namnutrymme som används för att skapa diagram som stöds av Aspose.Cells. Dessa klasser används för att skapa *diagramobjekt**, som fungerar som diagrambyggstenar. Kartobjekten listas nedan:
 
 - Serier, en enda dataserie i ett diagram.
 - Axis, ett diagrams axel.
@@ -48,17 +50,17 @@ Aspose.Cells tillhandahåller en speciell uppsättning klasser i[**Aspose.Cells.
 - TrendlineCollection, en samling av alla Trendline-objekt för den angivna dataserien.
 - Väggar, väggarna i ett 3D-diagram.
 
-#### **Använda diagramobjekt**
+####  **Använda diagramobjekt**
 
 Som nämnts ovan är alla diagramobjekt instanser av sina respektive klasser och tillhandahåller specifika egenskaper och metoder för att utföra specifika uppgifter. Använd diagramobjekt för att skapa diagram.
 
-Lägg till vilken typ av diagram som helst i ett kalkylblad med hjälp av[**Diagram**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts) samling. Varje objekt i[**Diagram**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts) samlingen representerar en[**Diagram**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) objekt. A[**Diagram**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)objekt kapslar in alla andra diagramobjekt som krävs för att anpassa diagrammets utseende. Nästa avsnitt visar hur du använder några grundläggande diagramobjekt för att skapa ett enkelt diagram.
+ Lägg till vilken typ av diagram som helst i ett kalkylblad med hjälp av[**Diagram**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts) samling. Varje objekt i[**Diagram**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts) samlingen representerar en[**Diagram**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) objekt. A[**Diagram**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)objekt kapslar in alla andra diagramobjekt som krävs för att anpassa diagrammets utseende. Nästa avsnitt visar hur du använder några grundläggande diagramobjekt för att skapa ett enkelt diagram.
 
-### **Skapa diagram med Aspose.Cells**
+###  **Skapa diagram med Aspose.Cells**
 
 **Steg:**
 
-1.  Lägg till några data till kalkylbladsceller med[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) föremål[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)metod.
+1. Lägg till några data till kalkylbladsceller med[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) föremål[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)metod.
  Detta kommer att användas som datakälla för diagrammet.
 1.  Lägg till ett diagram i kalkylbladet genom att anropa[**Diagram**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection) samlingens[**Lägg till**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection/methods/add) metod, inkapslad i[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)objekt.
 1.  Ange typen av diagram med[**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)uppräkning.
@@ -71,12 +73,12 @@ När du lägger till källdata till diagrammet kan datakällan vara ett cellinte
 
 Dessa allmänna steg låter dig skapa vilken typ av diagram som helst. Använd olika diagramobjekt för att skapa olika diagram.
 
- Det är möjligt att skapa många olika typer av sjökort med Aspose.Cells. Alla standarddiagram som stöds av Aspose.Cells är fördefinierade i en uppräkning med namnet[**Aspose.Cells.Charts.ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype).
+Det är möjligt att skapa många olika typer av sjökort med Aspose.Cells. Alla standarddiagram som stöds av Aspose.Cells är fördefinierade i en uppräkning med namnet[**Aspose.Cells.Charts.ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype).
 
 De fördefinierade diagramtyperna är:
 
 |**Diagramtyper**|**Beskrivning**|
-|:- |:- |
+| :- | :- |
 |Kolumn|Representerar klustrade kolumndiagram|
 |KolumnStackad|Representerar staplade kolumndiagram|
 |Kolumn100ProcentStackad|Representerar 100 % staplat kolumndiagram|
@@ -89,7 +91,7 @@ De fördefinierade diagramtyperna är:
 |Bar100PercentStacked|Representerar 100 % staplat stapeldiagram|
 |Bar3DClustered|Representerar 3D-klustrade stapeldiagram|
 |Bar3DStacked|Representerar 3D staplade stapeldiagram|
-|Bar3D100PercentStacked|Representerar 3D 100 % staplade stapeldiagram|
+|Bar3D100PercentStacked|Representerar 3D 100 % staplat stapeldiagram|
 |Linje|Representerar linjediagram|
 |LineStacked|Representerar staplade linjediagram|
 |Line100PercentStacked|Representerar 100 % staplade linjediagram|
@@ -152,29 +154,29 @@ När du tilldelar ett cellintervall som datakälla kan du bara ställa in interv
 
 {{% /alert %}}
 
-#### **Pyramiddiagram**
+####  **Pyramiddiagram**
 
 När exempelkoden exekveras läggs ett pyramiddiagram till i kalkylbladet.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-HowToCreatePyramidChart-1.cs" >}}
 
-#### **Linjediagram**
+####  **Linjediagram**
 
  I exemplet ovan ändrar du helt enkelt[**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) till*Linje*skapar ett linjediagram. Den fullständiga källan finns nedan. när koden exekveras läggs ett linjediagram till i kalkylbladet.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-HowToCreateLineChart-1.cs" >}}
 
-#### **Bubbeldiagram**
+####  **Bubbeldiagram**
 
  För att skapa ett bubbeldiagram,[**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) måste ställas in på[**ChartType.Bubble**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)och några extra egenskaper som BubbleSizes, Values & XValues måste ställas in därefter. När följande kod körs läggs ett bubbeldiagram till i kalkylbladet.
 
-#### **Linje med datamarkördiagram**
+####  **Linje med datamarkördiagram**
 
  För att skapa en linje med datamarkeringsdiagrammet,[**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)måste ställas in på*ChartType.LineWithDataMarkers*och några extra egenskaper som bakgrundsområde, seriemarkörer, värden och XValues måste ställas in därefter. När följande kod körs läggs en rad med datamarkörsdiagrammet till i kalkylbladet.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-CreateLineWithDataMarkerChart-1.cs" >}}
 
-## **Förhandsämnen**
+##  **Förhandsämnen**
 - [Läs och manipulera Excel 2016-diagram](/cells/sv/net/read-and-manipulate-excel-2016-charts/)
 - [Hantera axlar i Excel-diagram](/cells/sv/net/chart-axes/)
 - [Ställa in diagrammets utseende](/cells/sv/net/setting-chart-appearance/)
@@ -183,7 +185,7 @@ När exempelkoden exekveras läggs ett pyramiddiagram till i kalkylbladet.
 - [Ställ in datakälla för diagrammet](/cells/sv/net/data-formatting-in-charts/)
 - [Hantera dataetiketter för Excel-diagram](/cells/sv/net/insert-datalabels-to-chart/)
 - [Generera diagram genom att bearbeta smarta markörer](/cells/sv/net/generate-chart-by-processing-smart-markers/)
-- [Skaffa arbetsblad av diagrammet](/cells/sv/net/get-worksheet-of-the-chart/)
+- [Hämta kalkylblad för diagrammet](/cells/sv/net/get-worksheet-of-the-chart/)
 - [Hantera Legend of Excel-diagram](/cells/sv/net/chart-legend/)
 - [Manipulera positionsstorlek och designerdiagram](/cells/sv/net/manipulate-position-size-and-designer-chart/)
 - [Skapa cirkeldiagram med ledarlinjer](/cells/sv/net/creating-pie-chart-with-leader-lines/)

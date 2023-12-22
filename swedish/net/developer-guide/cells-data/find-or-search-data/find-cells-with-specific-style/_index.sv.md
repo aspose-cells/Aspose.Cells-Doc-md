@@ -1,8 +1,10 @@
-﻿---
+---
 title: Hitta Cells med specifik stil
 type: docs
 weight: 190
 url: /sv/net/find-cells-with-specific-style/
+description: Lär dig hur du hittar eller söker efter celler med en viss stil tillämpad genom Aspose.Cells for .NET API.
+keywords: Find cells with a particular style applied, Search cells with a particular style applied
 ---
 {{% alert color="primary" %}}
 

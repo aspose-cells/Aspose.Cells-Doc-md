@@ -1,23 +1,23 @@
-﻿---
+---
 title: Leggere i valori delle celle GridWeb sul lato client
 type: docs
 weight: 10
 url: /it/java/read-the-values-of-the-gridweb-cells-on-client-side/
 ---
-## **Possibili scenari di utilizzo**
+##  **Possibili scenari di utilizzo**
 È possibile leggere i valori delle celle GridWeb sullo script lato client utilizzando il metodo gridwebinstance.getCellsArray(). Una volta, lo chiamerai, restituirà l'array di tutte le celle nel foglio di lavoro attivo. È quindi possibile utilizzare i seguenti metodi per recuperare il valore e altre informazioni delle celle.
 
 - gridwebinstance.getCellName()
 - gridwebinstance.getCellValueByCell()
 - gridwebinstance.getCellRow()
 - gridwebinstance.getCellColumn()
-## **Leggere i valori delle celle GridWeb sul lato client**
-Il codice di esempio seguente recupera tutte le celle e ne stampa il nome, il valore, la riga e la colonna. Puoi vedere l'output della sua console in fondo a questo articolo. Lo screenshot seguente mostra l'output della console del codice di esempio su Google Chrome.
-## **Immagine dello schermo**
+##  **Leggere i valori delle celle GridWeb sul lato client**
+Il codice di esempio seguente recupera tutte le celle e quindi stampa il nome, il valore, la riga e la colonna. Puoi vedere l'output della sua console in fondo a questo articolo. Lo screenshot seguente mostra l'output della console del codice di esempio su Google Chrome.
+##  **Immagine dello schermo**
 ![cose da fare:immagine_alt_testo](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
 
 
-## **Codice d'esempio**
+##  **Codice d'esempio**
 {{< highlight "java" >}}
 
  <%@page language="java" contentType="text/html; charset=UTF-8" import="com.aspose.gridweb.*"  pageEncoding="UTF-8"%>
@@ -125,8 +125,8 @@ out.print(gridweb.getHTMLBody());
 </html>
 
 {{< /highlight >}}
-## **Uscita console**
-Questo è l'output della console del codice di esempio precedente.
+##  **Uscita della console**
+Questo è l'output della console del codice di esempio riportato sopra.
 
 {{< highlight "java" >}}
 

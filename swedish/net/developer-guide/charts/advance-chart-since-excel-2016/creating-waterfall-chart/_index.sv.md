@@ -1,5 +1,5 @@
-﻿---
-title: Skapa vattenfallsdiagram
+---
+title: Hur man skapar vattenfallsdiagram
 type: docs
 weight: 160
 url: /sv/net/creating-waterfall-chart/
@@ -8,7 +8,7 @@ keywords: c# create waterfall chart in excel, c# creating waterfall chart in exc
 ---
 {{% alert color="primary" %}}
 
-Ett vattenfallsdiagram är en speciell typ av sjökort som normalt används för att visa hur startpositionen antingen ökar eller minskar. Microsoft Excel har många fördefinierade diagramtyper, inklusive kolumn, linje, cirkel, stapel, radar, etc. men vattenfallsdiagrammet är bortom de grundläggande graferna och kan skapas med hjälp av befintliga diagramtyper med lite eller mer anpassning.
+Ett vattenfallsdiagram är en speciell typ av sjökort som normalt används för att visa hur startpositionen antingen ökar eller minskar. Microsoft Excel har många fördefinierade diagramtyper, inklusive kolumn, linje, cirkel, stapel, radar, etc. men vattenfallsdiagrammet är bortom de grundläggande graferna och kan skapas med de befintliga diagramtyperna med lite eller mer anpassning.
 
 {{% /alert %}} 
 
@@ -18,7 +18,7 @@ Nedan medföljande kodavsnitt visar användningen av Aspose.Cells for .NET API f
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreateWaterfallChart-1.cs" >}}
 
-## relaterade artiklar
+##  relaterade artiklar
 
 - [Skapa diagram](/cells/sv/net/creating-charts/)
 - [Anpassa diagram](/cells/sv/net/customizing-charts/)

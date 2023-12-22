@@ -7,6 +7,45 @@ url: /ja/java/what-s-new-in-aspose-cells-for-java/
 ---
 このページでは、最近のリリースで導入された最も興味深い Aspose.Cells の新機能について説明します。
 
+##  Aspose.Cells for Java 23.12
+
+* PDF への変換時の PDF/A-2 および PDF/A-3 への準拠のサポート
+* ピボットテーブルの不連続グループ化の計算をサポート
+* セルデータを汎用リストにエクスポートするサポート
+* スマート マーカーのリンク テーブルを使用した相互参照のインポートのサポート
+* 数式の MAKEARRAY 関数をサポート
+
+##  Aspose.Cells for Java 23.11
+
+* スプレッドシートを PDF ファイル バージョン 1.7(ISO32000-1:2008) に変換するサポート
+
+##  Aspose.Cells for Java 23.10
+
+* ハイパーリンクを範囲に直接設定するためのサポート
+* 複数のワークシートの同時コピーのサポート
+* セルデータの 1 つの範囲が空かどうかをチェックするサポート
+
+##  Aspose.Cells for Java 23.9
+
+* 数式での新しい関数の計算のサポート: LAMBDA、LET、MAP、SCAN
+* EPUB ファイルのインポート/エクスポートのサポート
+* チャートシリーズのフィルタリングのサポート
+
+##  Aspose.Cells for Java 23.8
+
+* 数式内のパディングスペースを保持するためのサポート
+* セルのリッチテキストの書式設定によるテキストの置換/挿入のサポート
+
+##  Aspose.Cells for Java 23.7
+
+* visio ファイル、OneNote パッケージ ファイルなどのいくつかの新しい形式に対するファイル形式の検出が強化されました。
+
+##  Aspose.Cells for Java 23.6
+
+* リビジョンログのエクスポートと強調表示のサポート
+* RowCollection からの既存の Row オブジェクトを逆の順序で走査するサポート
+* ピボットテーブルの複数の統合範囲の更新のサポート
+
 ##  Aspose.Cells for Java 23.5
 
 * 外部シート データの外部参照を現在のワークブックのローカル シートに更新するサポート
@@ -77,7 +116,7 @@ url: /ja/java/what-s-new-in-aspose-cells-for-java/
 
 ##  Aspose.Cells for Java 22.5
 
-* LightCells モードでワークブックを保存する際のセル数式設定のメモリ パフォーマンスの改善
+* LightCells モードでワークブックを保存する際のセル数式設定のメモリ パフォーマンスの向上
 
 ##  Aspose.Cells for Java 22.4
 

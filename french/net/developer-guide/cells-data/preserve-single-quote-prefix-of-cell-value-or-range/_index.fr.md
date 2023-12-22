@@ -1,26 +1,28 @@
-﻿---
-title: Conserver le préfixe de guillemets simples de la valeur ou de la plage Cell
+---
+title: Conserver le préfixe de guillemet unique de la valeur ou de la plage Cell
 type: docs
 weight: 310
 url: /fr/net/preserve-single-quote-prefix-of-cell-value-or-range/
+description: Découvrez comment conserver le préfixe de guillemet unique de la valeur ou de la plage Cell via Aspose.Cells for .NET API.
+keywords: Preserve Single Quote Prefix of Cell Value or Range, Hide leading apostrophe or single quote mark, Show leading apostrophe or single quote mark
 ---
-## **Scénarios d'utilisation possibles**
+##  **Scénarios d'utilisation possibles**
 
-Lorsque vous mettez une valeur dans la cellule qui comporte une apostrophe ou un guillemet simple, Microsoft Excel la masque, mais lorsque vous sélectionnez la cellule, elle affiche l'apostrophe ou le guillemet simple dans une barre de formule, comme indiqué dans la capture d'écran suivante.
+Lorsque vous placez une valeur dans la cellule comportant une apostrophe de début ou un guillemet simple, Microsoft Excel la masque, mais lorsque vous sélectionnez la cellule, il affiche l'apostrophe de début ou un guillemet simple dans une barre de formule, comme indiqué dans la capture d'écran suivante.
 
-![tâche : image_autre_texte](preserve-single-quote-prefix-of-cell-value-or-range_1.png)
+![tâche : image_alt_text](preserve-single-quote-prefix-of-cell-value-or-range_1.png)
 
-Aspose.Cells masque également l'apostrophe principale ou le guillemet simple comme Microsoft Excel mais il définit le[**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) comme**vrai** pour cette cellule. Si vous définissez un style de cellule vide, alors[**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) devient**faux** de nouveau. Afin de faire face à ce problème, le Aspose.Cells fournit[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix) propriété, lorsqu'elle est définie**faux** , ensuite[**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix)n'est pas du tout mis à jour et son ancienne valeur est conservée. Cela signifie que si l'ancienne valeur de[**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix)la propriété était**vrai** , il restera**vrai** et si l'ancienne valeur était**faux** , il restera**faux**.
+Aspose.Cells masque également l'apostrophe ou le guillemet simple comme Microsoft Excel, mais il définit le[**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) comme**vrai** pour cette cellule. Si vous définissez un style de cellule vide, alors[**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) devient**FAUX** encore. Afin de résoudre ce problème, le Aspose.Cells propose[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix) propriété, lorsqu'elle est définie**false**, alors [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) n'est pas du tout mis à jour et son ancienne valeur est conservée . Cela signifie que si l'ancienne valeur de la propriété [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) était **true**, elle restera **vrai** et si l'ancienne valeur était *false**, elle restera *false**.
 
-## **Conserver le préfixe de guillemets simples de la valeur ou de la plage Cell**
+##  **Conserver le préfixe de guillemet unique de la valeur ou de la plage Cell**
 
- L'exemple de code suivant explique l'utilisation de[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix)propriété telle que décrite précédemment. Veuillez lire les commentaires à l'intérieur du code et voir la sortie de la console du code ci-dessous pour plus d'aide.
+L'exemple de code suivant explique l'utilisation de[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix)propriété comme décrit précédemment. Veuillez lire les commentaires à l'intérieur du code et consulter la sortie console du code ci-dessous pour plus d'aide.
 
-## **Exemple de code**
+##  **Exemple de code**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-PreserveSingleQuotePrefixOfCellValueOrRange.cs" >}}
 
-## **Sortie console**
+##  **Sortie console**
 
 {{< highlight "java" >}}
 

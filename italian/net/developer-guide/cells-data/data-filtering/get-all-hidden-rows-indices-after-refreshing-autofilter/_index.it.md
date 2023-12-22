@@ -1,22 +1,24 @@
-﻿---
-title: Ottieni tutti gli indici delle righe nascoste dopo l'aggiornamento del filtro automatico
+---
+title: Ottieni tutti gli indici delle righe nascoste dopo aver aggiornato il filtro automatico
 type: docs
 weight: 320
 url: /it/net/get-all-hidden-rows-indices-after-refreshing-autofilter/
+description: Scopri come ottenere tutti gli indici delle righe nascoste dopo aver aggiornato il filtro automatico utilizzando Aspose.Cells for .NET API.
+keywords: Get All Hidden Rows Indices after Refreshing AutoFilter, Obtain All Hidden Rows Indices after Refreshing AutoFilter, Retrieve All Hidden Rows Indices after Refreshing AutoFilter
 ---
-## **Possibili scenari di utilizzo**
+##  **Possibili scenari di utilizzo**
 
-Quando applichi il filtro automatico alle celle del foglio di lavoro, alcune righe vengono nascoste automaticamente. Ma potrebbe accadere che alcune righe siano già nascoste manualmente dall'utente finale di Excel e non siano nascoste da un filtro automatico. Rende quindi difficile sapere quali delle righe sono nascoste dal filtro automatico e quali di esse sono nascoste manualmente dall'utente finale di Excel. Aspose.Cells affronta questo problema usando int[][**AutoFilter.Refresh(bool hideRows)**](https://reference.aspose.com/cells/net/aspose.cells.autofilter/refresh/methods/1)metodo. Questo metodo restituisce gli indici di riga di tutte le righe nascoste dal filtro automatico e non manualmente dall'utente finale di Excel.
+Quando applichi il filtro automatico sulle celle del foglio di lavoro, alcune righe vengono nascoste automaticamente. Ma potrebbe darsi che alcune righe siano già nascoste manualmente dall'utente finale di Excel e non siano nascoste da un filtro automatico. Pertanto è difficile sapere quali righe sono nascoste dal filtro automatico e quali sono nascoste manualmente dall'utente finale di Excel. Aspose.Cells affronta questo problema utilizzando l'int[][**AutoFilter.Refresh(bool hideRows)**](https://reference.aspose.com/cells/net/aspose.cells.autofilter/refresh/methods/1)metodo. Questo metodo restituisce gli indici di riga di tutte le righe nascoste dal filtro automatico e non manualmente dall'utente finale di Excel.
 
-## **Ottieni tutti gli indici delle righe nascoste dopo l'aggiornamento del filtro automatico**
+##  **Ottieni tutti gli indici delle righe nascoste dopo aver aggiornato il filtro automatico**
 
- Vedere il seguente codice di esempio che carica il file[esempio di file Excel](64716909.xlsx) che contiene alcune delle righe nascoste manualmente dall'utente finale di Excel. Il codice applica il filtro automatico e lo aggiorna utilizzando int[][**AutoFilter.Refresh(bool hideRows)**](https://reference.aspose.com/cells/net/aspose.cells.autofilter/refresh/methods/1)metodo che restituisce gli indici di riga di tutte le righe nascoste dal filtro automatico. Quindi stampa gli indici delle righe nascoste sulla console insieme ai nomi e ai valori delle celle.
+ Consulta il seguente codice di esempio che carica il file[file Excel di esempio](64716909.xlsx) che contiene alcune delle righe nascoste manualmente dall'utente finale di Excel. Il codice applica il filtro automatico e lo aggiorna utilizzando l'int[][**AutoFilter.Refresh(bool hideRows)**](https://reference.aspose.com/cells/net/aspose.cells.autofilter/refresh/methods/1)metodo che restituisce gli indici di riga di tutte le righe nascoste dal filtro automatico. Quindi stampa gli indici delle righe nascoste sulla console insieme ai nomi e ai valori delle celle.
 
-## **Codice d'esempio**
+##  **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-GetAllHiddenRowsIndicesAfterRefreshingAutoFilter.cs" >}}
 
-## **Uscita console**
+##  **Uscita della console**
 
 {{< highlight "java" >}}
 

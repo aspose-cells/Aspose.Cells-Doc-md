@@ -1,12 +1,14 @@
-﻿---
-title: إخفاء وإظهار الصفوف والأعمدة رقم Python
+---
+title: إخفاء وإظهار الصفوف والأعمدة في Python
 type: docs
 weight: 50
 url: /ar/java/hiding-and-showing-rows-and-columns-in-python/
+description: تعرف على كيفية إخفاء وإظهار الصفوف والأعمدة من خلال Aspose.Cells for Python عبر Java API.
+keywords: How to Hide and Show Rows and Columns in Python Via Java, Hide Rows and Columns using Python Via Java, Python Via Java Show Rows and Columns. 
 ---
-## **Aspose.Cells - التحكم في رؤية الصفوف والأعمدة**
-### **إخفاء الصفوف والأعمدة**
-يمكن للمطورين إخفاء صف أو عمود عن طريق استدعاء أساليب HideRow و HideColumn لمجموعة Cells على التوالي. تأخذ كلتا الطريقتين فهرس الصف / العمود كمعامل لإخفاء الصف أو العمود المحدد.
+##  **Aspose.Cells - التحكم في رؤية الصفوف والأعمدة**
+###  **كيفية إخفاء الصفوف والأعمدة**
+يمكن للمطورين إخفاء صف أو عمود عن طريق استدعاء طريقتي HideRow وHideColumn للمجموعة Cells على التوالي. تأخذ كلتا الطريقتين فهرس الصف/العمود كمعلمة لإخفاء الصف أو العمود المحدد.
 
 **كود روبي**
 
@@ -39,11 +41,11 @@ workbook.save(self.dataDir + "Hide Rows And Columns.xls")
 print "Hide Rows And Columns Successfully." 
 
 {{< /highlight >}}
-### **إظهار الصفوف والأعمدة**
-يمكن للمطورين إظهار أي صف أو عمود مخفي عن طريق استدعاء أساليب UnhideRow و UnhideColumn لمجموعة Cells على التوالي. تأخذ كلتا الطريقتين معلمتين:
+###  **كيفية إظهار الصفوف والأعمدة**
+يمكن للمطورين إظهار أي صف أو عمود مخفي عن طريق استدعاء طريقتي UnhideRow وUnhideColumn للمجموعة Cells على التوالي. تأخذ كلتا الطريقتين معلمتين:
 
-- **فهرس عمود الصف**- فهرس صف أو عمود يُستخدم لإظهار الصف أو العمود المحدد.
-- **ارتفاع الصف أو عرض العمود**- ارتفاع الصف أو عرض العمود المخصص للصف أو العمود بعد عرضهما.
+- **فهرس عمود الصف**فهرس الصف أو العمود الذي يستخدم لإظهار الصف أو العمود المحدد.
+- **ارتفاع الصف أو عرض العمود**- ارتفاع الصف أو عرض العمود المخصص للصف أو العمود بعد عرضه.
 
 **كود روبي**
 
@@ -76,7 +78,7 @@ workbook.save(self.dataDir + "Unhide Rows And Columns.xls")
 print "Unhide Rows And Columns Successfully." 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+##  **تحميل كود التشغيل**
  تحميل**التحكم في رؤية الصفوف والأعمدة (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

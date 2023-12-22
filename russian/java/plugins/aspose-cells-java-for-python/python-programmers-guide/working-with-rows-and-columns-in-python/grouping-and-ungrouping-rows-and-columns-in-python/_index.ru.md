@@ -1,18 +1,20 @@
-﻿---
+---
 title: Группировка и разгруппировка строк и столбцов в Python
 type: docs
 weight: 40
 url: /ru/java/grouping-and-ungrouping-rows-and-columns-in-python/
+description: Узнайте, как группировать и разгруппировать строки и столбцы с помощью Aspose.Cells for Python через Java API.
+keywords: How to Group and Ungroup Rows and Columns in Python Via Java, Group Rows and Columns using Python Via Java, Python Via Java Ungroup Rows and Columns. 
 ---
-## **Aspose.Cells - Групповое управление строками и столбцами**
-### **Группировка строк и столбцов**
+##  **Группирование и разгруппирование строк и столбцов в Aspose.Cells for Python via Java**
+###  **Как сгруппировать строки и столбцы в Python**
 Можно сгруппировать строки или столбцы, вызвав методы groupRows и groupColumns коллекции Cells. Оба метода принимают следующие параметры:
 
 - Индекс первой строки/столбца, первая строка или столбец в группе.
 - Индекс последней строки/столбца, последняя строка или столбец в группе.
-- Скрыт, логический параметр, указывающий, следует ли скрывать строки/столбцы после группировки или нет.
+- Скрытый — логический параметр, указывающий, следует ли скрывать строки/столбцы после группировки или нет.
 
-**Python Код**
+**Код Python**
 
 {{< highlight "python" >}}
 
@@ -43,13 +45,13 @@ workbook.save(self.dataDir + "Group Rows And Columns.xls")
 print "Group Rows And Columns Successfully." 
 
 {{< /highlight >}}
-### **Разгруппировка строк и столбцов**
+###  **Как разгруппировать строки и столбцы с помощью Python**
 Разгруппируйте сгруппированные строки или столбцы, вызвав методы UngroupRows и UngroupColumns коллекции Cells. Оба метода принимают одни и те же параметры:
 
-- Индекс первой строки или столбца, первая строка/столбец, подлежащий разгруппировке.
-- Индекс последней строки или столбца, последняя строка/столбец для разгруппировки.
+- Индекс первой строки или столбца, первая строка/столбец, которую нужно разгруппировать.
+- Индекс последней строки или столбца, последняя строка/столбец, которую нужно разгруппировать.
 
-**Python Код**
+**Код Python**
 
 {{< highlight "python" >}}
 
@@ -80,7 +82,7 @@ workbook.save(self.dataDir + "Ungroup Rows And Columns.xls")
 print "Ungroup Rows And Columns Successfully." 
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Группировать и разгруппировать строки и столбцы (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+##  **Загрузить рабочий код**
+ Скачать**Группировать и разгруппировать строки и столбцы (Aspose.Cells)**с любого из перечисленных ниже сайтов социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

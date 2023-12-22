@@ -1,10 +1,11 @@
-﻿---
+---
 title: Aspose.Cells for .NET
 type: docs
 weight: 10
 url: /fr/net/
 is_root: true
-description: A powerful and fast Speadsheet programming library written in C#. It supports the popular Excel (XLS, XLSX, XLSM, XLSB, XLTX, XLTM,SpreadsheetML,CSV), OpenOffice(ODS),HTML and JSON file formats and allows exporting Excel files to PDF,DOCX, PPTX, JSON, XPS, HTML, MHTML, texte brut et formats d'image populaires, y compris TIFF, JPG, PNG, BMP and SVG.
+description: Aspose.Cells for .NET prend en charge le populaire Excel (XLS, XLSX, XLSM, XLSB, XLTX, XLTM,SpreadsheetML,CSV), OpenOffice(ODS), HTML et JSON et permet d'exporter des fichiers Excel vers PDF,DOCX, PPTX, JSON, XPS, HTML, MHTML, texte brut et formats d'image populaires, notamment TIFF, JPG, PNG, BMP and SVG.
+keywords: Aspose.Cells for .NET create, repair, modify, parse, merge, convert JSON Excel XML PDF HTML TSV SQL TXT PNG JPEG and more formats using C#, Aspose Excel C#
 ---
 {{% alert color="primary" %}}
 
@@ -12,11 +13,11 @@ description: A powerful and fast Speadsheet programming library written in C#. I
 
 **Bienvenue au Aspose.Cells for .NET**
 
- Aspose.Cells for .NET est une bibliothèque de classes de programmation qui permet aux développeurs de logiciels de manipuler et de traiter des fichiers de feuille de calcul dans leurs propres applications.
+Aspose.Cells for .NET est une bibliothèque de classes de programmation qui permet aux développeurs de logiciels de manipuler et de traiter des fichiers de feuilles de calcul dans leurs propres applications.
 
-Combiné avec des API et des contrôles GUI, Aspose.Cells for .NET accélère la programmation et la conversion Microsoft Excel®.
+Combiné avec les API et les contrôles GUI, Aspose.Cells for .NET accélère la programmation et la conversion Microsoft Excel®.
 
-Aspose.Cells for .NET prend en charge les formats de fichier de feuille de calcul populaires (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) que votre entreprise utilise au quotidien. Il permet également d'exporter des fichiers Excel vers PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, JSON, texte brut et formats d'image populaires, y compris TIFF, JPG, PNG, BMP and SVG.
+Aspose.Cells for .NET prend en charge les formats de fichiers de feuilles de calcul populaires (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) que votre entreprise utilise quotidiennement. Il permet également d'exporter des fichiers Excel aux formats PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, JSON, texte brut et images populaires, notamment TIFF, JPG, PNG, BMP and SVG.
 
 
 {{% /alert %}}
@@ -24,17 +25,17 @@ Aspose.Cells for .NET prend en charge les formats de fichier de feuille de calcu
 
 <div class="row">
 	<div class="col-md-4">
-		<p><b>À propos de Aspose.Cells</b></p>
+		<p><b>À propos du Aspose.Cells</b></p>
 			<hr><p>Aperçu</p></hr>
 			<ul>
 				<li><a href="/cells/fr/net/what-s-new-in-aspose-cells-for-net/">Quoi de neuf au Aspose.Cells for .NET</a></li>
 				<li><a href="/cells/fr/net/product-overview/">Présentation du produit</a></li>
 				<li><a href="/cells/fr/net/licensing/">Licence et abonnement</a></li>
-			    <li><a href="https://releases.aspose.com/fr/cells/net/release-notes/">Aspose.Cells for .NET Notes de mise à jour</a></li>
+			    <li><a href="https://releases.aspose.com/cells/net/release-notes/">Aspose.Cells for .NET Notes de version</a></li>
 			</ul>            
 	        <p>Ressources utiles</p>
 			<ul>
-				<li><a href="https://www.nuget.org/packages/Aspose.Cells/">Télécharger Aspose.Cells for .NET au NuGet</a></li>
+				<li><a href="https://www.nuget.org/packages/Aspose.Cells/">Téléchargez le Aspose.Cells for .NET au NuGet</a></li>
 				<li><a href="https://downloads.aspose.com/cells/net">Télécharger Aspose.Cells for .NET</a></li>
 			</ul>
 	</div>
@@ -60,7 +61,7 @@ Aspose.Cells for .NET prend en charge les formats de fichier de feuille de calcu
 		<p><b>Développer des fonctions</b></p>
 			<hr><p><a href="/cells/fr/net/developer-guide/">Guide</a></p></hr>
 			<ul>
-				<li><a href="/cells/fr/net/introduction-of-aspose-cells-for-net/">Introduction de Aspose.Cells for .NET</a></li>
+				<li><a href="/cells/fr/net/introduction-of-aspose-cells-for-net/">Présentation du Aspose.Cells for .NET</a></li>
 				<li><a href="/cells/fr/net/loading-saving-and-managing/">Charger et enregistrer</a></li>
 				<li><a href="/cells/fr/net/convert-workbook-to-different-formats/">Rendu et conversion</a></li>
 				<li><a href="/cells/fr/net/print-and-preview/">Imprimer et prévisualiser</a></li>

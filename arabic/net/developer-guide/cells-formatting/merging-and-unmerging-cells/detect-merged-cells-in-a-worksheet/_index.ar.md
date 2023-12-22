@@ -1,17 +1,19 @@
-﻿---
-title: كشف Cells مدمج في ورقة عمل
+---
+title: كشف دمج Cells في ورقة عمل
+description: Aspose.Cells هي مكتبة .NET للعمل مع ملفات جداول البيانات. وهو يدعم اكتشاف الخلايا المدمجة في ورقة العمل، مما يسهل على المستخدمين التعرف على هذه الخلايا ومعالجتها. ستقدم هذه المقالة كيفية استخدام مكتبة Aspose.Cells للكشف عن الخلايا المدمجة.
+keywords: Aspose.Cells, Worksheet, Merge Cells, Detect, Identify, Operate
 type: docs
 weight: 80
 url: /ar/net/detect-merged-cells-in-a-worksheet/
 ---
 {{% alert color="primary" %}}
 
-توفر هذه المقالة معلومات حول كيفية الحصول على مناطق خلايا مدمجة في ورقة عمل.
+توفر هذه المقالة معلومات حول كيفية الحصول على مناطق الخلايا المدمجة في ورقة العمل.
 
-يسمح لك Aspose.Cells بالحصول على مساحات الخلايا المدمجة في ورقة العمل. يمكنك إلغاء دمجها (تقسيمها) أيضًا. توضح هذه المقالة أبسط رمز باستخدام**Aspose.Cells API** لأداء المهمة.
+ Aspose.Cells يسمح لك بالحصول على مناطق الخلايا المدمجة في ورقة العمل. يمكنك إلغاء دمجها (تقسيمها) أيضًا. توضح هذه المقالة أبسط التعليمات البرمجية باستخدام**Aspose.Cells API** لأداء المهمة.
 
 {{% /alert %}}
 
-يوفر المكون ملف[**Cells.MergedCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/mergedcells)السمة التي يمكن أن تحصل على ArrayList من مناطق الخلايا المدمجة. يوضح لك نموذج التعليمات البرمجية التالي كيفية اكتشاف الخلايا المدمجة في ورقة عمل.
+يوفر المكون[**Cells.MergedCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/mergedcells)السمة التي يمكنها الحصول على قائمة ArrayList لمناطق الخلايا المدمجة. يوضح نموذج التعليمات البرمجية التالي كيفية اكتشاف الخلايا المدمجة في ورقة العمل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DetectMergedCells-1.cs" >}}

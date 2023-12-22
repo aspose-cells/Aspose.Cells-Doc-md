@@ -1,12 +1,14 @@
 ---
 title:  ChartGlobalizationSettings クラスを使用してグラフ コンポーネントに異なる言語を設定する
+description: Aspose.Cells for .NET の ChartGlobalizationSettings クラスを使用して、グラフ コンポーネントにさまざまな言語を設定する方法を学習します。このガイドは、グラフの要素、ラベル、凡例をさまざまな言語にローカライズする方法を理解し、文化的に適切な方法でデータを表示できるようにするのに役立ちます。
+keywords: Aspose.Cells for .NET, charting, chart globalization, languages, localization, ChartGlobalizationSettings, elements, labels, legends.
 type: docs
 weight: 2200
 url: /ja/net/using-chartglobalizationsettings-class-to-set-different-language-for-chart-component/
 ---
 ##  **考えられる使用シナリオ**
 
-Aspose.Cells API により、[**チャートグローバリゼーション設定**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/)ユーザーがチャートコンポーネントを別の言語に設定したいシナリオに対処するためにクラスを追加します。スプレッドシートの小計のカスタム ラベル。
+ Aspose.Cells API により、[**チャートグローバリゼーション設定**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/)ユーザーがチャートコンポーネントを別の言語に設定したいシナリオに対処するためにクラスを追加します。スプレッドシートの小計のカスタム ラベル。
 
 ##  **ChartGlobalizationSettings クラスの概要**
 

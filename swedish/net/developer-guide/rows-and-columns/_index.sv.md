@@ -1,9 +1,11 @@
-﻿---
+---
 title: Formatera rader och kolumner
 linktitle: Rader och kolumner
 type: docs
 weight: 100
 url: /sv/net/adjusting-row-height-and-column-width/
+description: Aspose.Cells for .NET kan stödja ändra radhöjd eller kolumnbredd, samt tillämpa formatering på rader eller kolumner.
+keywords: Set row height and column width, Adjust row height and column width, change the row height or column width, format rows and columns, how to set row height and column width.
 ---
 {{% alert color="primary" %}}
 
@@ -11,24 +13,24 @@ När du arbetar med kalkylblad och lägger till data i rader eller kolumner kan 
 
 {{% /alert %}}
 
-## **Arbeta med rader**
+##  **Arbeta med rader**
 
-### **Justering av radhöjd**
+###  **Hur man justerar radhöjden**
 
  Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , som representerar en Microsoft Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass innehåller en[**Arbetsbladssamling**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)som ger åtkomst till varje kalkylblad i Excel-filen. Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass. De[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass ger en[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)samling som representerar alla celler i kalkylbladet.
 
  De[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)samling innehåller flera metoder för att hantera rader eller kolumner i ett kalkylblad. Några av dessa diskuteras mer i detalj nedan.
 
-### **Ställa in höjden på en rad**
+###  **Hur man ställer in höjden på en rad**
 
  Det är möjligt att ställa in höjden på en enstaka rad genom att anropa[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) samlingens[**SetRowHeight**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setrowheight) metod. De[**SetRowHeight**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setrowheight)metoden tar följande parametrar enligt följande:
 
-- **Radindex**, indexet för raden som du ändrar höjden på.
-- **Radhöjd**, radhöjden som ska tillämpas på raden.
+- *Radindex**, indexet för raden som du ändrar höjden på.
+- *Radhöjd**, radhöjden som ska tillämpas på raden.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-HeightAndWidth-SettingHeightOfRow-1.cs" >}}
 
-### **Ställa in höjden på alla rader i ett kalkylblad**
+###  **Hur man ställer in höjden på alla rader i ett kalkylblad**
 
  Om utvecklare behöver ställa in samma radhöjd för alla rader i kalkylbladet kan de göra det genom att använda[**Standardhöjd**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/standardheight) egendom av[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)samling.
 
@@ -36,33 +38,33 @@ När du arbetar med kalkylblad och lägger till data i rader eller kolumner kan 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-HeightAndWidth-SettingHeightAllRows-1.cs" >}}
 
-## **Arbeta med kolumner**
+##  **Arbeta med kolumner**
 
-### **Ställa in bredden på en kolumn**
+###  **Hur man ställer in bredden på en kolumn**
 
  Ställ in bredden på en kolumn genom att anropa[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) samlingens[**SetColumnWidth**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidth) metod. De[**SetColumnWidth**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidth)metoden tar följande parametrar:
 
-- **Kolumnindex**, indexet för kolumnen som du ändrar bredden på.
-- **Kolumnbredd**, önskad kolumnbredd.
+- *Kolumnindex**, indexet för kolumnen som du ändrar bredden på.
+- *Kolumnbredd**, önskad kolumnbredd.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-HeightAndWidth-SettingWidthOfColumn-1.cs" >}}
 
-### **Ställa in kolumnbredd i pixlar**
+###  **Hur man ställer in kolumnbredd i pixlar**
 
 Ställ in bredden på en kolumn genom att anropa[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)samlingens[**SetColumnWidthPixel**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidthpixel)metod. De[**SetColumnWidthPixel**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidthpixel)metoden tar följande parametrar:
 
-- **Kolumnindex**, indexet för kolumnen som du ändrar bredden på.
-- **Kolumnbredd**önskad kolumnbredd i pixlar.
+- *Kolumnindex**, indexet för kolumnen som du ändrar bredden på.
+- *Kolumnbredd**, önskad kolumnbredd i pixlar.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-HeightAndWidth-SetColumnWidthInPixels-1.cs" >}}
 
-### **Ställa in bredden på alla kolumner i ett kalkylblad**
+###  **Hur man ställer in bredden på alla kolumner i ett kalkylblad**
 
  För att ställa in samma kolumnbredd för alla kolumner i kalkylbladet, använd[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) samlingens[**Standardbredd**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/standardwidth)fast egendom.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-HeightAndWidth-SettingWidthOfAllColumns-1.cs" >}}
 
-## **Förhandsämnen**
+##  **Förhandsämnen**
 - [Autopassa rader och kolumner](/cells/sv/net/autofit-rows-and-columns/)
 - [Konvertera text till kolumner med Aspose.Cells](/cells/sv/net/convert-text-to-columns-using-aspose-cells/)
 - [Kopiera rader och kolumner](/cells/sv/net/copying-rows-and-columns/)

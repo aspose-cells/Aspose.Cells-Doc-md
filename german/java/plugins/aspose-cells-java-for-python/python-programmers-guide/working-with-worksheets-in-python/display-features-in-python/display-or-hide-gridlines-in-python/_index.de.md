@@ -1,12 +1,14 @@
-﻿---
-title: Gitternetzlinien anzeigen oder ausblenden in Python
+---
+title: Gitterlinien in Python anzeigen oder ausblenden
 type: docs
 weight: 10
 url: /de/java/display-or-hide-gridlines-in-python/
+description: Erfahren Sie, wie Sie Gitterlinien über Aspose.Cells for Python über Java API ein- oder ausblenden.
+keywords: How to Display or Hide Gridlines in Python Via Java, Display or Hide Gridlines using Python Via Java, Python Show or Hide Gridlines. 
 ---
-## **Aspose.Cells - Rasterlinien anzeigen/ausblenden**
-### **Ausblenden von Gitternetzlinien**
- Arbeitsblatt ausblenden mit**Aspose.Cells Java für Rubin** , Anruf**Rasterlinien ausblenden** Modul.
+##  **Aspose.Cells – So zeigen Sie Gitterlinien an oder verbergen sie**
+###  **So verbergen Sie Gitterlinien**
+ Arbeitsblatt ausblenden mit**Aspose.Cells Java für Ruby**, rufen Sie **displayhidegridlines auf** Modul.
 
 **Python Code**
 
@@ -33,8 +35,8 @@ workbook.save(self.dataDir + "output.xls")
 print "Grid lines are now hidden on sheet 1, please check the output document."
 
 {{< /highlight >}}
-### **Rasterlinien sichtbar machen**
-Um Rasterlinien sichtbar zu machen, verwenden Sie die setGridlinesVisible(true)-Methode der Worksheet-Klasse.
+###  **So zeigen Sie Gitterlinien an**
+Um Gitternetzlinien sichtbar zu machen, verwenden Sie die Methode setGridlinesVisible(true) der Worksheet-Klasse.
 
 **Python Code**
 
@@ -45,7 +47,7 @@ Um Rasterlinien sichtbar zu machen, verwenden Sie die setGridlinesVisible(true)-
 worksheet.setGridlinesVisible(True)
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Rasterlinien anzeigenausblenden (Aspose.Cells)** von einer der unten genannten Social-Coding-Sites:
+##  **Laden Sie Running Code herunter**
+ Herunterladen**DisplayHideGridlines (Aspose.Cells)** von einer der unten genannten Social-Coding-Sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

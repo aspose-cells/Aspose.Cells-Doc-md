@@ -3,6 +3,8 @@ title: Cells HTML 文字列を管理します
 type: docs
 weight: 600
 url: /ja/net/manage-cells-html-string/
+description: Aspose.Cells for .NET API を通じて Cells HTML 文字列を管理する方法を学びます。
+keywords: Add HTML String inside the Cell, Set HTML String inside the Cell, Add HTML String, Get HTML String of Cell, Manage Cells Html String
 ---
 ##  **考えられる使用シナリオ**
 特定の Cell にスタイル付きデータを設定する必要がある場合は、HTML 文字列を Cell に割り当てることができます。もちろん、セルの HTML 文字列を取得することもできます。 Aspose.Cells がこの機能を提供しています。 Aspose.Cells は、目標の達成に役立つ次のプロパティとメソッドを提供します。

@@ -4,115 +4,126 @@ type: docs
 weight: 250
 url: /sv/net/aspose-cells-gridjs/highlight/
 description: Den här artikeln beskriver hur du använder GridJs för att markera celltext, cellintervall, former och bilder.
-keywords: highlight, highlight spreadsheet
+keywords: highlight, highlight spreadsheet,redaction,remarks
 ---
 #  Arbeta med GridJs Highlight-funktion
  Vi stöder nedanstående JS API:er för Highlight-funktionen
 
 
--  Aktivera markering och Ange markeringsstil, alla markerings-API:er kommer att påverka först efter att markeringsstilen har ställts in
+-  Aktivera markering och Ställ in markeringsstil, alla markerings-API:er kommer att påverka först efter att markeringsstilen har ställts in i det aktiva kalkylbladet
 ```javascript
-xs.showHighlights(style)
+xs.sheet.showHighlights(style)
  // the parameter is:
  style: the style for highlight ,currently only support color
  for example: {'color':'rgba(85, 57, 47, 0.08)'}
 ```
 
--  Inaktivera markering
+-  uppdatera markeringsstilen i det aktiva kalkylbladet
 ```javascript
-xs.hideHighlights()
+xs.sheet.updateHighlightStyle(style)
+ // the parameter is:
+ style: the style for highlight ,currently only support color
+ for example: {'color':'rgba(85, 57, 47, 0.08)'}
 ```
--  Lägg till celltext för att markera
+
+
+-  Inaktivera markering i det aktiva kalkylbladet
+```javascript
+xs.sheet.hideHighlights()
+```
+-  Lägg till celltext för att markera i det aktiva kalkylbladet
 ```javascript
 xs.sheet.addHighlightText(row,col,startpostion,endposition)
     // the parameters are:
-    row:row index 
+	row:row index 
 	col:column index
 	startpostion: highlight start postion in cell text 
 	endpostion: highlight end postion in cell text 
     //it support multiple range postion inside one cell
 ```
 
--  Ta bort markering för celltext i array
+-  Ta bort markering för celltext i array i det aktiva kalkylbladet
 ```javascript
-xs.sheet.removeHighlightText(row,col)
+xs.sheet.removeHighlightText(row,col,startpostion,endposition)
     // the parameters are:
-    row:row index 
+	row:row index 
 	col:column index
+	startpostion: highlight start postion in cell text 
+	endpostion: highlight end postion in cell text 
 ```
 
--  Få array för markering för celltext
+- Hämta array för markering för celltext i det aktiva kalkylbladet
 ```javascript
 xs.sheet.getHighlightTexts()
 ```
 
--  Lägg till cellintervall för att markera
+-  Lägg till cellintervall för att markera i det aktiva kalkylbladet
 ```javascript
 xs.sheet.addHighlightRange(sri,sci,eri,eci)
     // the parameters are:
-    sri:start row index of cell range
+	sri:start row index of cell range
 	sci:start column index of cell range
-	 eri:end row index of cell range
+	eri:end row index of cell range
 	eci:end column index of cell range
 ```
 
--  Ta bort markering för cellintervall i array
+-  Ta bort markering för cellintervall i array i det aktiva kalkylbladet
 ```javascript
 xs.sheet.removeHighlightRange(sri,sci,eri,eci)
      // the parameters are:
-    sri:start row index of cell range
+	sri:start row index of cell range
 	sci:start column index of cell range
-	 eri:end row index of cell range
+	eri:end row index of cell range
 	eci:end column index of cell range
 ```
 
--  Få array för markering för cellintervall
+-  Hämta array för markering för cellintervall i det aktiva kalkylbladet
 ```javascript
 xs.sheet.getHighlightRanges()
 ```
 
--  Ställ in cellintervallet på invers markering
+-  Ställ in cellintervallet till att invertera markeringen i det aktiva kalkylbladet
 ```javascript
 xs.sheet.setHighlightInverseRange(sri,sci,eri,eci)
     // the parameters are:
-    sri:start row index of cell range
+	sri:start row index of cell range
 	sci:start column index of cell range
-	 eri:end row index of cell range
+	eri:end row index of cell range
 	eci:end column index of cell range
 ```
 
--  Ta bort markering för inversmarkering
+-  Ta bort markering för inversmarkering i det aktiva kalkylbladet
 ```javascript
 xs.sheet.removeHighlightInverseRange()
      
 ```
 
--  Få omvänt markeringscellintervall
+-  Få inverterat markerat cellområde i det aktiva kalkylbladet
 ```javascript
 xs.sheet.getHighlightInverseRange()
 ```
 
 
--  Lägg till form för att markera array
+-  Lägg till form för att markera array i det aktiva kalkylbladet
 ```javascript
 xs.sheet.addHighlightShape(shapeid)
     // the parameters are:
     shapeid: the id of shape, can be find in xs.sheet.data.shapes
 ```
 
--  Ta bort markeringsformen i arrayen
+-  Ta bort markeringsformen i arrayen i det aktiva kalkylbladet
 ```javascript
 xs.sheet.removeHighlightShape(shapeid)
      // the parameters are:
     shapeid: the id of shape, can be find in xs.sheet.data.shapes
 ```
 
--  Få array för högdagerform
+-  Hämta array för markeringsform i det aktiva kalkylbladet
 ```javascript
 xs.sheet.getHighlightShaps()
 ```
 
--  Lägg till textruta för att markera, textbox är en speciell typ av form vars typegenskap är: "TextBox",
+-  Lägg till textruta för att markera, textbox är en speciell typ av form vars typegenskap är: "TextBox", i det aktiva kalkylbladet
 ```javascript
 xs.sheet.addHighlightTextBox(shapeid, startpostion, endposition)
     // the parameters are:
@@ -123,7 +134,7 @@ xs.sheet.addHighlightTextBox(shapeid, startpostion, endposition)
 ```
 
 
-- Ta bort markeringsområde i textrutan, textbox är en speciell typ av form som typegenskapen är:"TextBox",
+-  Ta bort markeringsområde i textrutan, textbox är en speciell typ av form som typegenskapen är: "TextBox", i det aktiva kalkylbladet
 ```javascript
 xs.sheet.removeHighlightTextBox(shapeid, startpostion, endposition)
     // the parameters are:
@@ -133,14 +144,14 @@ xs.sheet.removeHighlightTextBox(shapeid, startpostion, endposition)
     //it support multiple range postion inside one textbox
 ```
 
--  Lägg till bild för att markera array
+-  Lägg till bild för att markera array i det aktiva kalkylbladet
 ```javascript
 xs.sheet.addHighlightImage(imageid)
     // the parameters are:
     imageid: the id of image, can be find in xs.sheet.data.images
 ```
 
--  Ta bort markerad bild i arrayen
+- Ta bort markerad bild i arrayen i det aktiva kalkylbladet
 ```javascript
 xs.sheet.removeHighlightImage(imageid)
      // the parameters are:
@@ -152,7 +163,7 @@ xs.sheet.removeHighlightImage(imageid)
 xs.sheet.getHighlightImages()
 ```
 
--  ställ in om du vill markera alla kalkylblad, inkludera alla former och bilder
+-  ställ in om alla objekt i det aktiva kalkylbladet ska markeras, inkludera alla former och bilder och alla kalkylbladsområde
 ```javascript
 xs.sheet.setHighlightAll(ishighlightall,isrerender=true)
    // the parameters are:
@@ -173,6 +184,12 @@ xs.sheet.setCustomHighlightImgFunc(func)
             imgobj.applyFilters();
         }
     
+```
+
+-  rensa markeringsinställningen för det aktiva kalkylbladet
+```javascript
+xs.sheet.clearHighlights()
+
 ```
 
 ###  Markera för textboxobjekt

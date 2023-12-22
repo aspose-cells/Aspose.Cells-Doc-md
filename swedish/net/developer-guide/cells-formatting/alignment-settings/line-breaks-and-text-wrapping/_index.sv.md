@@ -1,5 +1,7 @@
-﻿---
+---
 title: Radbrytningar och textbrytning
+description: Hur man implementerar textbrytning och radbrytning med Aspose.Cells-biblioteket i C#. Genom att använda biblioteket Aspose.Cells kan du enkelt infoga text i celler och ställa in textbrytningsmetoden, såsom manuell radbrytning, radbrytning, etc. Detta dokument beskriver hur för att implementera dessa funktioner och tillhandahåller exempelkod som referens.
+keywords: Aspose.Cells, line breaks, text wraps, text layout
 type: docs
 weight: 60
 url: /sv/net/line-breaks-and-text-wrapping/
@@ -10,13 +12,13 @@ För att säkerställa att text i en cell kan läsas kan explicita radbrytningar
 
 {{% /alert %}}
 
-## **Att slå in text i en Cell**
+##  **Att slå in text i en Cell**
 
- Om du vill radbryta text i en cell använder du[**Aspose.Cells.Style.IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped)fast egendom.
+Om du vill radbryta text i en cell använder du[**Aspose.Cells.Style.IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped)fast egendom.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LineBreakTextWrapping-WrapText-1.cs" >}}
 
-## **Att använda explicita radbrytningar**
+##  **Att använda explicita radbrytningar**
 
 Du kan använda '\n' i C# och 'vbLf' i VB.NET för att infoga explicita radbrytningar i en cell.
 

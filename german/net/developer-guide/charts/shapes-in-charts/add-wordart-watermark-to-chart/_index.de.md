@@ -1,18 +1,20 @@
-﻿---
-title: WordArt-Wasserzeichen zum Diagramm hinzufügen
+---
+title: Fügen Sie WordArt-Wasserzeichen zum Diagramm hinzu
+description: Erfahren Sie, wie Sie mit Aspose.Cells for .NET ein WordArt-Wasserzeichen zu einem Diagramm in Microsoft Excel hinzufügen. Unser Leitfaden zeigt, wie Sie ein WordArt-Wasserzeichen erstellen und positionieren, um die visuelle Attraktivität und Einzigartigkeit Ihres Diagramms zu verbessern.
+keywords: Aspose.Cells for .NET, WordArt Watermark, Chart Watermark, Microsoft Excel, Visual Appeal, Chart Uniqueness.
 type: docs
 weight: 50
 url: /de/net/add-wordart-watermark-to-chart/
 ---
 {{% alert color="primary" %}} 
 
-Sie können WordArt verwenden, um Tabellenkalkulationen spezielle Texteffekte hinzuzufügen. Strecken Sie beispielsweise einen Titel, dekorieren Sie Text, passen Sie den Text an eine voreingestellte Form an oder wenden Sie den betroffenen Text als Wasserzeichen auf den Plotbereich eines Diagramms an. Das WordArt wird zu einem Objekt, das Sie verschieben oder in Ihren Tabellenkalkulationen positionieren können, um Dekoration hinzuzufügen.
+Mit WordArt können Sie Tabellenkalkulationen spezielle Texteffekte hinzufügen. Dehnen Sie beispielsweise einen Titel, verzieren Sie Text, passen Sie den Text an eine voreingestellte Form an oder wenden Sie den betroffenen Text als Wasserzeichen auf den Plotbereich eines Diagramms an. Das WordArt-Objekt wird zu einem Objekt, das Sie in Ihren Tabellen verschieben oder positionieren können, um Dekorationen hinzuzufügen.
 
 Das folgende Beispiel zeigt, wie Sie eine WordArt-Form als Wasserzeichen für den Diagrammplotbereich hinzufügen.
 
 {{% /alert %}} 
 
-Das folgende Beispiel zeigt, wie Sie eine WordArt-Form als Wasserzeichen für den Zeichnungsbereich eines vorhandenen Diagramms hinzufügen.
+Das folgende Beispiel zeigt, wie Sie eine WordArt-Form als Wasserzeichen für den Plotbereich eines vorhandenen Diagramms hinzufügen.
 
 
 

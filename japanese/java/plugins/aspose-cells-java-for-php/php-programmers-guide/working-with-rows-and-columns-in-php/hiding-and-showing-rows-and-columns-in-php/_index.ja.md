@@ -1,14 +1,16 @@
-﻿---
+---
 title: PHP での行と列の表示と非表示
 type: docs
 weight: 50
 url: /ja/java/hiding-and-showing-rows-and-columns-in-php/
+description: Aspose.Cells for PHP via Java API を使用して行と列を非表示または表示する方法を学習します。
+keywords: How to Hide and Show Rows and Columns in PHP, Hide Rows or Columns using PHP, PHP Show Rows or Columns. 
 ---
-## **Aspose.Cells - 行と列の可視性の制御**
-### **行と列を非表示にする**
-開発者は、Cells コレクションの HideRow メソッドと HideColumn メソッドをそれぞれ呼び出すことで、行または列を非表示にできます。どちらのメソッドも、特定の行または列を非表示にするために、行/列のインデックスをパラメーターとして受け取ります。
+##  **Aspose.Cells for PHP - 行と列の可視性の制御**
+###  **PHP で行と列を非表示にする方法**
+開発者は、Cells コレクションの HideRow メソッドと HideColumn メソッドをそれぞれ呼び出すことで、行または列を非表示にすることができます。どちらのメソッドも、行/列インデックスをパラメータとして受け取り、特定の行または列を非表示にします。
 
-**PHP コード**
+**PHPコード**
 
 {{< highlight "php" >}}
 
@@ -43,13 +45,13 @@ url: /ja/java/hiding-and-showing-rows-and-columns-in-php/
 }
 
 {{< /highlight >}}
-### **行と列の表示**
-開発者は、Cells コレクションの UnhideRow メソッドと UnhideColumn メソッドをそれぞれ呼び出すことで、非表示の行または列を再表示できます。どちらのメソッドも次の 2 つのパラメーターを取ります。
+###  **PHP を使用して行と列を表示する方法**
+開発者は、Cells コレクションの UnhideRow メソッドと UnhideColumn メソッドをそれぞれ呼び出すことで、非表示の行または列を再表示できます。どちらのメソッドも次の 2 つのパラメータを取ります。
 
 - **行または列のインデックス**特定の行または列を表示するために使用される行または列のインデックス。
-- **行の高さまたは列の幅**- 行または列が表示された後に割り当てられる行の高さまたは列の幅。
+- **行の高さまたは列の幅**表示後に行または列に割り当てられる行の高さまたは列の幅。
 
-**PHP コード**
+**PHPコード**
 
 {{< highlight "php" >}}
 
@@ -84,7 +86,7 @@ url: /ja/java/hiding-and-showing-rows-and-columns-in-php/
 }
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**行と列の可視性の制御 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+##  **実行コードをダウンロード**
+ダウンロード**行と列の可視性の制御 (Aspose.Cells)**以下のソーシャル コーディング サイトのいずれかから:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

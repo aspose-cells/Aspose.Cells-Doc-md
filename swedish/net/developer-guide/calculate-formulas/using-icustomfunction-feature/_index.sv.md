@@ -1,5 +1,7 @@
-﻿---
+---
 title: Använder ICustomFunction-funktionen
+description: Den här artikeln beskriver hur du skapar en anpassad funktion i Microsoft Excel med hjälp av ICustomFunction-funktionen i Aspose.Cells-biblioteket. Genom att ladda en befintlig Excel-fil eller skapa en ny Excel-fil kan vi använda metoderna som tillhandahålls av Aspose.Cells för att definiera och registrera anpassade funktioner och få resultaten. Slutligen sparar vi den modifierade Excel-filen på disken.
+keywords: Aspose.Cells, Excel, ICustomFunction features, custom functions
 type: docs
 weight: 30
 url: /sv/net/using-icustomfunction-feature/
@@ -10,9 +12,11 @@ Den här artikeln ger en detaljerad förståelse för hur du använder ICustomFu
 
 ICustomFunction-gränssnittet gör det möjligt att lägga till anpassade formelberäkningsfunktioner för att utöka Aspose.Cells' kärnberäkningsmotor för att uppfylla vissa krav. Den här funktionen är användbar för att definiera anpassade (användardefinierade) funktioner i en mallfil eller i kod där den anpassade funktionen kan implementeras och utvärderas med Aspose.Cells API:er som vilken annan standard Microsoft Excel-funktion som helst.
 
+ Observera att detta gränssnitt har ersatts av[AbstractCalculation Engine](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/) och kommer att tas bort i framtiden. Några tekniska artiklar/exempel om den nya API:[här](/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) och[här](/net/returning-a-range-of-values-using-abstractcalculationengine/)
+
 {{% /alert %}} 
-## **Skapa och utvärdera en användardefinierad funktion**
-Den här artikeln visar implementeringen av ICustomFunction-gränssnittet för att skriva en anpassad funktion och använda den i kalkylarket för att få resultaten. Vi kommer att definiera en anpassad funktion efter namn**MyFunc** som accepterar 2 parametrar med följande detaljer.
+##  **Skapa och utvärdera en användardefinierad funktion**
+ Den här artikeln visar implementeringen av ICustomFunction-gränssnittet för att skriva en anpassad funktion och använda den i kalkylarket för att få resultaten. Vi kommer att definiera en anpassad funktion efter namn**MyFunc** som accepterar 2 parametrar med följande detaljer.
 
 - Den första parametern hänvisar till en enskild cell
 - Den andra parametern hänvisar till ett cellintervall
@@ -31,7 +35,7 @@ Så här använder du den nydefinierade funktionen i ett kalkylblad
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-UsingICustomFunctionfeature-UsingICustomFunctionFeature.cs" >}}
-## **Översikt**
+##  **Översikt**
 Aspose.Cells API:erna placerar bara ReferredArea-objektet i "paramsList" när motsvarande parameter är en referens eller dess beräknade resultat är referens. Om du behöver själva referensen kan du använda ReferredArea direkt. Om du behöver få värdet på en enskild cell från referensen som motsvarar formelns position, kan du använda metoden ReferredArea.GetValue(rowOffset, int colOffset). Om du behöver en cellvärdesarray för hela området kan du använda metoden ReferredArea.GetValues.
 
 Eftersom Aspose.Cells API:erna ger ReferredArea i "paramsList", kommer ReferredAreaCollection i "contextObjects" inte att behövas längre (i gamla versioner kunde den inte alltid ge en-till-en-karta till parametrarna för den anpassade funktionen) därför har tagits bort från "contextObjects".

@@ -1,20 +1,22 @@
-﻿---
+---
 title: Итерация строк и столбцов
 type: docs
 weight: 50
 url: /ru/java/iterate-rows-and-columns/
+description: Узнайте, как перебирать строки и столбцы с помощью API Aspose.Cells for Java.
+keywords: How to Iterate Rows and Columns in Java, Iterate Rows using Java, Java Iterate Columns. 
 ---
-## **Aspose.Cells - Итерация строк и столбцов**
+##  **Как перебирать строки и столбцы, используя Aspose.Cells for Java**
 
-Строки и столбцы можно повторять, используя коллекцию строк и столбцов.
+Строки и столбцы можно перебирать, используя коллекцию строк и столбцов.
 
 **Java**
 
 {{< highlight "java" >}}
 
- // Доступ к максимальному диапазону отображения
+ //Доступ к максимальному диапазону отображения
 
-Диапазон диапазона = рабочий лист.getCells().getMaxDisplayRange();
+Диапазон диапазона = worksheet.getCells().getMaxDisplayRange();
 
 int tcols = range.getColumnCount();
 
@@ -24,9 +26,9 @@ System.out.println("Всего строк:" + trows);
 
 System.out.println("Всего столбцов:" + tcols);
 
-RowCollection rows = Cells.getRows();
+RowCollection rows = cell.getRows();
 
- для (int я = 0 ; я< rows.getCount() ; i++)
+ для (int i = 0; я< rows.getCount() ; i++)
 
 {
 
@@ -44,9 +46,9 @@ RowCollection rows = Cells.getRows();
 
 {{< /highlight >}}
 
-## **Apache POI SS — HSSF XSSF — Итерация строк и столбцов**
+##  **Apache POI SS — HSSF XSSF — перебор строк и столбцов**
 
-Строки и Cells могут повторяться на листе. Пример кода указан ниже:
+Строки и Cells можно повторять на листе. Пример кода указан ниже:
 
 **Java**
 
@@ -72,11 +74,11 @@ for (Row row : sheet)
 
 {{< /highlight >}}
 
-## **Скачать рабочий код**
+##  **Загрузить рабочий код**
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 
-## **Скачать пример кода**
+##  **Скачать пример кода**
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/itate)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/iterate)
 

@@ -6,9 +6,9 @@ url: /it/java/installation/
 ---
 ##  **Installazione di Aspose.Cells for Java dal repository Maven**
 
-Aspose ospita tutte le API Java su[archivio Maven](https://releases.aspose.com/java/repo/) . Puoi facilmente usare[Aspose.Cells for Java API](https://releases.aspose.com/cells/java/) direttamente nei tuoi Maven Progetti con configurazioni semplici.
+Aspose ospita tutte le API Java su[archivio Maven](https://releases.aspose.com/java/repo/) . Puoi usarlo facilmente[Aspose.Cells for Java API](https://releases.aspose.com/cells/java/) direttamente nel tuo Maven Progetti con semplici configurazioni.
 
-Innanzitutto, devi specificare Aspose Maven Configurazione/posizione del repository nel tuo Maven pom.xml come di seguito:
+Innanzitutto, devi specificare la configurazione/posizione del repository Aspose Maven nel tuo pom.xml Maven come di seguito:
 
 {{< highlight "java" >}}
 
@@ -39,7 +39,7 @@ repositories {
 }
 {{< /highlight >}}
 
-Quindi definisci la dipendenza Aspose.Cells for Java API nel tuo pom.xml come segue (questo includerà tutto, ad esempio il file jar principale, Java Docs e altre librerie di conseguenza):
+Quindi definisci la dipendenza Aspose.Cells for Java API nel tuo pom.xml come segue (questo includerà tutto, ad esempio il file jar principale, i documenti Java e altre librerie di conseguenza):
 
 {{< highlight "java" >}}
 
@@ -51,7 +51,7 @@ Quindi definisci la dipendenza Aspose.Cells for Java API nel tuo pom.xml come se
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>23.5</version>
+            <version>23.12</version>
 
         </dependency>
 
@@ -61,7 +61,7 @@ Quindi definisci la dipendenza Aspose.Cells for Java API nel tuo pom.xml come se
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>23.5</version>
+            <version>23.12</version>
 
             <classifier>javadoc</classifier>
 
@@ -73,7 +73,7 @@ Quindi definisci la dipendenza Aspose.Cells for Java API nel tuo pom.xml come se
 
             <artifactId>bcprov-jdk15on</artifactId>
 
-            <version>1.60</version>
+            <version>1.68</version>
 
         </dependency>        
 
@@ -83,7 +83,7 @@ Quindi definisci la dipendenza Aspose.Cells for Java API nel tuo pom.xml come se
 
             <artifactId>bcpkix-jdk15on</artifactId>
 
-            <version>1.60</version>
+            <version>1.68</version>
 
         </dependency>        
 
@@ -91,10 +91,10 @@ Quindi definisci la dipendenza Aspose.Cells for Java API nel tuo pom.xml come se
 
 {{< /highlight >}}
 
-Congratulazioni! Hai definito correttamente la dipendenza Aspose.Cells for Java Maven nel tuo progetto Maven.
+Congratulazioni! Hai definito con successo la dipendenza Aspose.Cells for Java Maven nel tuo progetto Maven.
 
 ##  **Supporto**
 
-Si prega di controllare quanto segue per ottenere un rapido supporto tecnico
+Si prega di verificare quanto segue per ottenere un rapido supporto tecnico
 
 [Aspose.Cells - Forum](https://forum.aspose.com/c/cells/9)

@@ -1,5 +1,7 @@
-﻿---
+---
 title: Ändra en befintlig stil
+description: Aspose.Cells är ett .NET-bibliotek för att arbeta med kalkylbladsfiler som tillåter användare att ändra befintliga cellstilar. Den här artikeln kommer att introducera hur man ändrar en befintlig cellstil med Aspose.Cells-biblioteket så att användare kan ändra utseendet på cellerna efter behov.
+keywords: Modify existing styles, customize the look and feel of your application, guides, tutorials, help documentation, development documentation, API references, sample code, downloads, support.
 type: docs
 weight: 90
 url: /sv/net/modify-an-existing-style/
@@ -16,29 +18,29 @@ Aspose.Cells tillåter modifiering av någon av dessa stilar eller någon annan 
 
 {{% /alert %}}
 
-## **Använder Microsoft Excel**
+##  **Använder Microsoft Excel**
 
 Så här uppdaterar du en stil i Microsoft Excel 97-2003:
 
-1.  På**Formatera** menyn, klicka**Stil**.
+1.  På**Formatera** menyn, klicka på *Stil**.
 1.  Välj den stil du vill ändra från**Stilnamn** lista.
-1.  Klick**Ändra**.
+1. Klicka på *Ändra**.
 1. Välj de stilalternativ du vill använda med flikarna i dialogrutan Format Cells.
-1.  Klick**OK**.
-1.  Under**Stil inkluderar**, ange de stilegenskaper du vill ha.
+1. Klicka på *OK**.
+1. Under *Stil inkluderar** anger du de stilegenskaper du vill ha.
 1.  Klick**OK** för att spara stilen och tillämpa den på det valda intervallet.
 
-## **Använder Aspose.Cells**
+##  **Använder Aspose.Cells**
 
  Följande exempel visar hur man använder[**Style.Update**](https://reference.aspose.com/cells/net/aspose.cells/style/methods/update)metod.
 
-### **Skapa och ändra en stil**
+###  **Skapa och ändra en stil**
 
  Detta exempel skapar en[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) objekt, tillämpar det på ett cellintervall och ändrar[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style)objekt. Ändringarna tillämpas automatiskt på cellen och det område som stilen tillämpades på.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ModifyExistingStyle-ModifyThroughStyleObject-1.cs" >}}
 
-### **Ändra en befintlig stil**
+###  **Ändra en befintlig stil**
 
 Det här exemplet använder en enkel mall i Excel-fil där en stil som heter Procent redan har tillämpats på ett intervall. Exemplet:
 

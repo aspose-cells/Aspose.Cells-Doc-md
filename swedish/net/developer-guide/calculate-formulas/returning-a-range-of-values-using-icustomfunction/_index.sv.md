@@ -1,5 +1,7 @@
-﻿---
+---
 title: Returnera ett värdeintervall med ICustomFunction
+description: Den här artikeln beskriver hur du använder Aspose.Cells-biblioteket för att returnera ett värdeintervall med ICustomFunction i Microsoft Excel. Genom att ladda en befintlig Excel-fil eller skapa en ny Excel-fil kan vi använda metoderna som tillhandahålls av Aspose.Cells för att få en rad värden och returnera resultatet. Slutligen sparar vi den modifierade Excel-filen på disken.
+keywords: Aspose.Cells, Excel, ICustomFunction, returns a series of values
 type: docs
 weight: 50
 url: /sv/net/returning-a-range-of-values-using-icustomfunction/
@@ -22,7 +24,7 @@ url: /sv/net/returning-a-range-of-values-using-icustomfunction/
 
  Följande kod implementerar[**ICustomFunction**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction)och returnerar värdeintervallet via sin metod.
 
- Skapa en klass med en funktion*CalculateCustomFunction*. Denna klass implementerar[**ICustomFunction**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction).
+Skapa en klass med en funktion *CalculateCustomFunction*. Denna klass implementerar[**ICustomFunction**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-ReturnRangeOfValuesUsingICustomFunction-CustomFunctionStaticValue.cs" >}}
 

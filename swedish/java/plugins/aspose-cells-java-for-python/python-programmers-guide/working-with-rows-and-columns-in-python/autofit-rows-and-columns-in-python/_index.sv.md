@@ -1,11 +1,13 @@
-﻿---
+---
 title: Autopassa rader och kolumner i Python
 type: docs
 weight: 20
 url: /sv/java/autofit-rows-and-columns-in-python/
+description: Lär dig hur du automatiskt anpassar rader och kolumner genom Aspose.Cells for Python Via Java API.
+keywords: How to Autofit Rows and Columns in Python Via Java, Autofit Rows Data in workbook using Python Via Java, Python Via Java Autofit Columns Data. 
 ---
-## **Aspose.Cells - Autopassa rader och kolumner**
-### **Autofit rad**
+##  **Hur man automatiskt anpassar rader och kolumner**
+###  **Hur man autopassar rad**
 Det enklaste sättet att automatiskt anpassa bredd och höjd på en rad är att anropa Worksheet-klassens autoFitRow-metod. AutoFitRow-metoden tar ett radindex (för raden som ska ändras storlek) som en parameter.
 
 **Python Kod**
@@ -39,7 +41,7 @@ workbook.save(self.dataDir + "Autofit Row.xls")
 print "Autofit Row Successfully." 
 
 {{< /highlight >}}
-### **Autofit kolumn**
+###  **Hur man automatiskt anpassar kolumn**
 Det enklaste sättet att automatiskt anpassa bredden och höjden på en kolumn är att anropa Worksheet-klassens autoFitColumn-metod. AutoFitColumn-metoden tar kolumnindex (för kolumnen som ska ändras storlek) som en parameter.
 
 **Python Kod**
@@ -73,7 +75,7 @@ workbook.save(self.dataDir + "Autofit Column.xls")
 print "Autofit Column Successfully." 
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+##  **Ladda ner Running Code**
 Ladda ner**Autopassa rader och kolumner (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

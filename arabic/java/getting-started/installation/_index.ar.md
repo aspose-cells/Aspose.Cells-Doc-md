@@ -4,11 +4,11 @@ type: docs
 weight: 20
 url: /ar/java/installation/
 ---
-##  **تركيب Aspose.Cells for Java من مستودع Maven**
+##  **تثبيت Aspose.Cells for Java من مستودع Maven**
 
-يستضيف Aspose جميع واجهات برمجة تطبيقات Java[مستودع Maven](https://releases.aspose.com/java/repo/) . يمكنك بسهولة استخدام ملفات[Aspose.Cells for Java API](https://releases.aspose.com/cells/java/) مباشرة في مشاريعك Maven ذات التكوينات البسيطة.
+Aspose يستضيف جميع واجهات برمجة التطبيقات Java[مستودع Maven](https://releases.aspose.com/java/repo/) . يمكنك استخدامها بسهولة[Aspose.Cells for Java API](https://releases.aspose.com/cells/java/) مباشرة في مشاريعك Maven بتكوينات بسيطة.
 
-أولاً ، تحتاج إلى تحديد تكوين / موقع المستودع Aspose Maven في Maven pom.xml على النحو التالي:
+أولاً، تحتاج إلى تحديد Aspose Maven تكوين/موقع المستودع في Maven pom.xml الخاص بك على النحو التالي:
 
 {{< highlight "java" >}}
 
@@ -28,7 +28,7 @@ url: /ar/java/installation/
 
 {{< /highlight >}}
 
-ل Gradle في بناء سكربت.gradle كما يلي:
+لـ Gradle في البرنامج النصي build.gradle الخاص بك على النحو التالي:
 {{< highlight "java" >}}
 //Add Aspose maven repository
 repositories {
@@ -39,7 +39,7 @@ repositories {
 }
 {{< /highlight >}}
 
-ثم حدد تبعية Aspose.Cells for Java API في ملف pom.xml الخاص بك على النحو التالي (سيشمل ذلك كل شيء ، مثل ملف jar الرئيسي و Java Docs والمكتبات الأخرى وفقًا لذلك):
+ثم قم بتعريف التبعية Aspose.Cells for Java API في pom.xml الخاص بك على النحو التالي (سيشمل هذا كل شيء، على سبيل المثال ملف jar الرئيسي، Java Docs، والمكتبات الأخرى وفقًا لذلك):
 
 {{< highlight "java" >}}
 
@@ -51,7 +51,7 @@ repositories {
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>23.5</version>
+            <version>23.12</version>
 
         </dependency>
 
@@ -61,7 +61,7 @@ repositories {
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>23.5</version>
+            <version>23.12</version>
 
             <classifier>javadoc</classifier>
 
@@ -73,7 +73,7 @@ repositories {
 
             <artifactId>bcprov-jdk15on</artifactId>
 
-            <version>1.60</version>
+            <version>1.68</version>
 
         </dependency>        
 
@@ -83,7 +83,7 @@ repositories {
 
             <artifactId>bcpkix-jdk15on</artifactId>
 
-            <version>1.60</version>
+            <version>1.68</version>
 
         </dependency>        
 
@@ -95,6 +95,6 @@ repositories {
 
 ##  **يدعم**
 
-يرجى التحقق مما يلي للحصول على دعم فني سريع
+يرجى التحقق مما يلي للحصول على الدعم الفني السريع
 
 [Aspose.Cells - المنتديات](https://forum.aspose.com/c/cells/9)

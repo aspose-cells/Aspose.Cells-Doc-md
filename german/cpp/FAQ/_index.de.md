@@ -1,13 +1,17 @@
-﻿---
+---
 title: FAQ
 type: docs
 weight: 100
 url: /de/cpp/faq/
 ---
-## **Verschlüsselung und Entschlüsselung werden für Aspose.Cells for C++ jetzt nicht unterstützt**
-Jetzt werden Verschlüsselung und Entschlüsselung für Aspose.Cells for C++ nicht unterstützt. Wenn Sie also eine Datei mit Kennwort öffnen möchten, löst der Code eine Ausnahme aus.
+##  **Noch nicht**
+
+<!--
+## **Encryption and decryption are not supported for Aspose.Cells for C++ now**
+Now, encryption and decryption are not supported for Aspose.Cells for C++, so if you want to open a file with password the code will throw exception.
 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CPP-OpenFile-with-Password.cpp" >}}
+-->
 

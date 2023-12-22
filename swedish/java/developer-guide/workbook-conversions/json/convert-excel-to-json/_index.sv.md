@@ -1,10 +1,10 @@
-﻿---
+---
 title: Konvertera-Excel-till-JSON
 type: docs
 weight: 20
 url: /sv/java/convert-excel-to-json/
-description: Lär dig hur du konverterar excel-fil till json med Aspose.Cells.
-keywords: Exporting Workbook to json without office 2013, office 2016, office 2019 and office 365
+description: "Lär dig hur du konverterar excel-fil till json med Aspose.Cells for Java API:er."
+keywords: Java Export Workbook to json, Convert Excel to JSON using Java, Save Excel to JSON in Java, Convert Workbook to JSON using Java, Save Workbook to JSON in Java, Export Excel to JSON via Java.
 ---
 {{% alert color="primary" %}}
 
@@ -12,7 +12,7 @@ Aspose.Cells stöder konvertering av en arbetsbok till Json-fil (JavaScript Obje
 
 {{% /alert %}}
 
-## **Konvertera Excel-arbetsbok till JSON**
+##  **Hur man konverterar Excel-arbetsbok till JSON**
 
  Du behöver inte undra hur man konverterar Excel Workbook till JSON, eftersom biblioteket Aspose.Cells Java har bästa beslutet. Aspose.Cells Java API ger stöd för att konvertera kalkylblad till formatet JSON. För att exportera arbetsboken till JSON, godkänn[**SparaFormat.JSON**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat) som den andra parametern för[**Arbetsbok.spara**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.lang.String,%20int) ) metod. Du kan också använda[**JsonSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonSaveOptions) klass för att ange ytterligare inställningar för export av kalkylblad till JSON.
 

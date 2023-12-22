@@ -1,25 +1,27 @@
-﻿---
-title: Licencia
+---
+title: Licensing
 type: docs
 weight: 120
 url: /es/net/licensing/
+description: Aspose.Cells for .NET proporciona diferentes planes de compra u ofrece una prueba gratuita y una licencia temporal de 30 días para evaluación utilizando Licensing y políticas de suscripción en C#.
+keywords: Apply License from Disk or Stream. Set License from Disk or Stream. Apply License in Aspose.Cells.
 ---
 {{% alert color="primary" %}}
 
- Puede descargar fácilmente una versión de evaluación de Aspose.Cells desde su[página de descarga](https://www.nuget.org/packages/Aspose.Cells) @ NuGet repos. La versión de evaluación proporciona absolutamente las mismas capacidades que la versión con licencia del componente. Además, la versión de evaluación simplemente obtiene la licencia cuando compra una licencia y agrega un par de líneas de código para aplicar la licencia.
+ Puede descargar fácilmente una versión de evaluación de Aspose.Cells desde su[pagina de descarga](https://www.nuget.org/packages/Aspose.Cells) @ NuGet repositorios. La versión de evaluación proporciona absolutamente las mismas capacidades que la versión con licencia del componente. Además, la versión de evaluación simplemente adquiere la licencia cuando usted compra una licencia y agrega un par de líneas de código para aplicar la licencia.
 
 {{% /alert %}}
 
-## **Limitaciones de la versión de evaluación**
+##  **Limitaciones de la versión de evaluación**
 
-La versión de evaluación del producto Aspose.Cells (sin una licencia especificada) proporciona la funcionalidad completa del producto, pero está limitada a abrir 100 archivos en un programa y una hoja de trabajo adicional con marca de agua de evaluación.
+La versión de evaluación del producto Aspose.Cells (sin una licencia especificada) proporciona funcionalidad completa del producto, pero está limitada a abrir 100 archivos en un programa y una hoja de trabajo adicional con marca de agua de evaluación.
 
 Las limitaciones se muestran a continuación:
 
 - **Número de archivos abiertos** (Aspose.Cells)
-Al ejecutar su programa, solo puede abrir 100 archivos de Excel usando la biblioteca Aspose.Cells. Si su aplicación excede este número, se lanzará una excepción.
-- **Configuración del archivo de configuración** (Aspose.Cells.GridWeb)
- No puede volver a especificar la ruta del script agregando las siguientes líneas de código en la sección de configuración (por ejemplo, en el archivo web.config). El acw_client es una carpeta que contiene archivos y Aspose.Cells. GridWeb usa esta carpeta para administrar su configuración interna, tiene archivos de script, archivos de imagen y otros archivos para especificar el comportamiento de GridWeb y establecer otras operaciones. El archivo de configuración se usa para evitar que el control use los recursos del cliente incorporado (imágenes, scripts, etc.), lo cual es útil en algunos casos/escenarios. Además, estos ajustes de configuración en el archivo web.config solo tendrán efecto con la versión CON LICENCIA del control.
+ Al ejecutar su programa, solo puede abrir 100 archivos de Excel usando la biblioteca Aspose.Cells. Si su aplicación excede este número, se generará una excepción.
+- **Configuración del archivo de configuración**(Aspose.Cells.GridWeb)
+ No puede volver a especificar la ruta del script agregando las siguientes líneas de código en la sección de configuración (por ejemplo, en el archivo web.config). acw_client es una carpeta que contiene archivos y Aspose.Cells.GridWeb usa esta carpeta para administrar su configuración interna, tiene archivos de script, archivos de imágenes y otros archivos para especificar el comportamiento de GridWeb y establecer otras operaciones. El archivo de configuración se utiliza para evitar que el control utilice los recursos del cliente integrados (imágenes, scripts, etc.), lo cual es útil en algunos casos/escenarios. Además, estos ajustes de configuración en el archivo web.config solo tendrán efecto con la versión CON LICENCIA del control.
 
 **XML**
 
@@ -41,31 +43,31 @@ Esta configuración puede ser obligatoria en algunos casos/escenarios si está u
 
 {{% /alert %}}
 
-Además, una hoja de trabajo con marca de agua de evaluación siempre se mostrará como la hoja de trabajo activa en el archivo de Excel generado usando la biblioteca Aspose.Cells. Solo en la versión con licencia, puede configurar la hoja de trabajo activa en otras hojas de trabajo. En la salida PDF o el archivo de imagen por Aspose.Cells, se pegaría una marca de agua de evaluación en la parte superior del documento/imagen. No puede ocultar la Advertencia de derechos de autor de evaluación (la hoja de trabajo adicional) en el control GridWeb también, siempre se agregará (al final en las pestañas de la hoja de trabajo) en el control.
+Además, una hoja de trabajo con marca de agua de evaluación siempre se mostrará como la hoja de trabajo activa en el archivo Excel generado utilizando la biblioteca Aspose.Cells. Sólo en la versión con licencia, puede configurar la hoja de trabajo activa para otras hojas de trabajo. En la salida PDF o el archivo de imagen de Aspose.Cells, se pegará una marca de agua de evaluación en la parte superior del documento/imagen. No puede ocultar la Advertencia de derechos de autor de evaluación (la hoja de trabajo adicional) en el control GridWeb, siempre se agregará (al final en las pestañas de la hoja de trabajo) en el control.
 
 {{% alert color="primary" %}}
 
- Si desea probar Aspose.Cells sin limitaciones de la versión de evaluación, también puede solicitar una[Licencia temporal de 30 días](https://purchase.aspose.com/temporary-license).
+ Si desea probar Aspose.Cells sin limitaciones de versión de evaluación, también puede solicitar una[Licencia Temporal de 30 Días](https://purchase.aspose.com/temporary-license).
 
 {{% /alert %}}
 
-## **Aplicación de una licencia en el componente Aspose.Cells**
+##  **Cómo aplicar una licencia en el componente Aspose.Cells**
 
-La licencia es un archivo XML de texto sin formato que contiene detalles como el nombre del producto, la cantidad de desarrolladores para los que tiene licencia, la fecha de vencimiento de la suscripción, etc. El archivo está firmado digitalmente, así que no lo modifique. Incluso la adición inadvertida de un salto de línea adicional en el archivo lo invalidará. Debe configurar una licencia antes de utilizar Aspose.Cells si desea evitar su limitación de evaluación. Solo se requiere establecer una licencia una vez por aplicación (o proceso). La licencia se puede cargar desde un archivo, transmisión o un recurso incrustado.
+La licencia es un archivo XML de texto sin formato que contiene detalles como el nombre del producto, la cantidad de desarrolladores para los que tiene licencia, la fecha de vencimiento de la suscripción, etc. El archivo está firmado digitalmente, así que no lo modifique. Incluso la adición inadvertida de un salto de línea adicional al archivo lo invalidará. Debe configurar una licencia antes de utilizar Aspose.Cells si desea evitar su limitación de evaluación. Sólo es necesario establecer una licencia una vez por solicitud (o proceso). La licencia se puede cargar desde un archivo, una secuencia o un recurso integrado.
 
 Aspose.Cells intenta encontrar la licencia en las siguientes ubicaciones:
 
-- Ruta explícita
+- Camino explícito
 - La carpeta que contiene Aspose.Cells.dll
-- La carpeta que contiene el ensamblado llamado Aspose.Cells.dll
+- La carpeta que contiene el ensamblado que llamó Aspose.Cells.dll
 - La carpeta que contiene el ensamblado de entrada (su .exe)
-- Un recurso incrustado en el ensamblado que llamó a Aspose.Cells.dll
+- Un recurso incrustado en el ensamblado que llamó Aspose.Cells.dll
 
-Existen dos métodos comunes para aplicar una licencia, desde un archivo o transmisión, o como un recurso incrustado.
+Existen dos métodos comunes para aplicar una licencia, desde un archivo o secuencia, o como un recurso integrado.
 
-### **Aplicación de una licencia desde disco o transmisión**
+###  **Cómo aplicar una licencia desde Disk o Stream**
 
-La forma más fácil de configurar una licencia es colocar el archivo de licencia en la misma carpeta que el de Aspose.Cells.dll y especificar solo el nombre del archivo sin su ruta.
+La forma más sencilla de configurar una licencia es colocar el archivo de licencia en la misma carpeta que el de Aspose.Cells.dll y especificar solo el nombre del archivo sin su ruta.
 
 {{< highlight "csharp" >}}
 
@@ -79,11 +81,11 @@ license.SetLicense("Aspose.Cells.lic");
 
 {{% alert color="primary" %}}
 
- Cuando llama al método SetLicense, el nombre de la licencia debe ser el mismo que el nombre de su archivo de licencia. Por ejemplo, puede cambiar el nombre del archivo de licencia a**Aspose.Cells.lic.xml**. Luego, en su código, debe usar el nombre de licencia modificado (**Aspose.Cells.lic.xml**) para el método SetLicense.
+Cuando llama al método SetLicense, el nombre de la licencia debe ser el mismo que el nombre del archivo de licencia. Por ejemplo, puede cambiar el nombre del archivo de licencia a *Aspose.Cells.lic.xml**. Luego, en su código, debe usar el nombre de licencia modificado (**Aspose.Cells.lic.xml**) para el método SetLicense.
 
 {{% /alert %}}
 
-También es posible cargar una licencia desde un stream.
+También es posible cargar una licencia desde una secuencia.
 
 {{< highlight "csharp" >}}
 
@@ -95,11 +97,11 @@ license.SetLicense(myStream);
 
 {{< /highlight >}}
 
-### **Aplicación de licencia medida**
+###  **Cómo solicitar una licencia medida**
 
-Aspose.Cells permite a los desarrolladores aplicar la clave medida. Es un nuevo mecanismo de licencia. El nuevo mecanismo de concesión de licencias se utilizará junto con el método de concesión de licencias existente. Aquellos clientes que deseen que se les facture en función del uso de las funciones API pueden utilizar la licencia medida. Para obtener más detalles, consulte[Preguntas frecuentes sobre licencias medidas](https://purchase.aspose.com/faqs/licensing/metered)sección.
+Aspose.Cells permite a los desarrolladores aplicar una clave medida. Es un nuevo mecanismo de concesión de licencias. El nuevo mecanismo de concesión de licencias se utilizará junto con el método de concesión de licencias existente. Aquellos clientes que quieran que se les facture según el uso de las funciones API pueden utilizar la licencia medida. Para obtener más detalles, consulte[Preguntas frecuentes sobre el medidor Licensing](https://purchase.aspose.com/faqs/licensing/metered)sección.
 
-una nueva clase[medido](https://reference.aspose.com/cells/net/aspose.cells/metered)se ha introducido para aplicar la clave medida. El siguiente es el código de muestra que demuestra cómo establecer una clave pública y privada medida.
+una nueva clase[medido](https://reference.aspose.com/cells/net/aspose.cells/metered)Se ha introducido para aplicar la clave medida. A continuación se muestra el código de muestra que demuestra cómo configurar la clave pública y privada medida.
 
 {{< highlight "csharp" >}}
 
@@ -141,14 +143,14 @@ Console.WriteLine(amountAfter);
 
 {{< /highlight >}}
 
-### **Uso de un recurso integrado**
+###  **Cómo utilizar un recurso integrado**
 
-Otra forma ordenada de empaquetar la licencia con su aplicación y asegurarse de que no se pierda es incluirla como un recurso incrustado en uno de los ensamblados que llama al Aspose.Cells. Para incluir el archivo de licencia como un recurso incrustado, realice los siguientes pasos :
+Otra forma elegante de empaquetar la licencia con su aplicación y asegurarse de que no se pierda es incluirla como un recurso integrado en uno de los ensamblados que llama a Aspose.Cells. Para incluir el archivo de licencia como un recurso integrado, realice los siguientes pasos :
 
-1.  En Visual Studio .NET, incluya el archivo de licencia (.lic) en el proyecto mediante la selección**Agregar elemento existente** desde el**Archivo** menú.
-1. Seleccione el archivo en el Explorador de soluciones y establezca**Acción de compilación** a**Recurso integrado** en la ventana Propiedades
+1.  En Visual Studio .NET, incluya el archivo de licencia (.lic) en el proyecto mediante selección**Agregar artículo existente** desde el**Archivo** menú.
+1.  Seleccione el archivo en el Explorador de soluciones y configure**Construir acción** a**Recurso integrado** en la ventana Propiedades
 
- Para acceder a la licencia integrada en el ensamblado (como recurso integrado), no es necesario llamar a los métodos GetExecutingAssembly y GetManifestResourceStream de la clase System.Reflection.Assembly de Microsoft .NET Framework. Todo lo que se necesita hacer es simplemente agregar el archivo de licencia como un recurso incrustado a su proyecto y pasar el nombre del archivo de licencia al método SetLicense. Él**Aspose.Cells.License** class encontrará automáticamente el archivo de licencia en los recursos incrustados. Revise el ejemplo que se proporciona a continuación para comprender este método de configuración de la licencia (incrustada) en sus aplicaciones.
+Para acceder a la licencia integrada en el ensamblado (como recurso integrado), no es necesario llamar a los métodos GetExecutingAssembly y GetManifestResourceStream de la clase System.Reflection.Assembly del Framework Microsoft .NET. Todo lo que necesita hacer es simplemente agregar el archivo de licencia como un recurso integrado a su proyecto y pasar el nombre del archivo de licencia al método SetLicense. El**Aspose.Cells.License** class encontrará automáticamente el archivo de licencia en los recursos integrados. Revise el ejemplo que se proporciona a continuación para comprender este método de configurar la licencia (integrada) en sus aplicaciones.
 
 {{< highlight "csharp" >}}
 
@@ -162,25 +164,25 @@ license.SetLicense("Aspose.Cells.lic");
 
 {{< /highlight >}}
 
-## **Configuración de licencia en Aspose.Cells Grid Controls**
+##  **Cómo configurar la licencia en Aspose.Cells Grid Controls**
 
-En Aspose.Cells Grid Suite, la licencia se puede cargar desde un archivo, flujo o recurso incrustado. Aspose.Cells.GridDesktop / Aspose.Cells.GridWeb intenta encontrar la licencia en las siguientes ubicaciones:
+En Aspose.Cells Grid Suite, la licencia se puede cargar desde un archivo, secuencia o recurso integrado. Aspose.Cells.GridDesktop / Aspose.Cells.GridWeb intenta encontrar la licencia en las siguientes ubicaciones:
 
-1. Ruta explícita
+1. Camino explícito
 1. La carpeta que contiene la dll del componente (incluida en Aspose.Cells.GridDesktop o Aspose.Cells.GridWeb)
 1. La carpeta que contiene el ensamblado que llamó a la dll del componente (incluido en Aspose.Cells.GridDesktop o Aspose.Cells.GridWeb)
 1. La carpeta que contiene el ensamblado de entrada (su .exe)
-1. Un recurso incrustado en el ensamblaje que llamó a la dll del componente (incluido en Aspose.Cells.GridDesktop o Aspose.Cells.GridWeb)
+1. Un recurso incrustado en el ensamblado que llamó a la dll del componente (incluido en Aspose.Cells.GridDesktop o Aspose.Cells.GridWeb)
 
 {{% alert color="primary" %}}
 
-Si utiliza el control Aspose.Cells.GridDesktop, la clase de licencia se utilizará como Aspose.Cells.GridDesktop.License, pero si utiliza el control Aspose.Cells.GridWeb, se utilizará la clase Aspose.Cells.GridWeb.License para configurar la licencia.
+Si está utilizando el control Aspose.Cells.GridDesktop, la clase de licencia se utilizará como Aspose.Cells.GridDesktop.License, pero si está utilizando el control Aspose.Cells.GridWeb, entonces se utilizará la clase Aspose.Cells.GridWeb.License para configurar la licencia.
 
 {{% /alert %}}
 
-### **Aplicación de una licencia desde disco o transmisión**
+###  **Cómo aplicar una licencia desde Disk o Stream**
 
-La forma más fácil de configurar una licencia es colocar el archivo de licencia en la misma carpeta que la dll del componente (incluido en Aspose.Cells.GridWeb) y especificar solo el nombre del archivo sin su ruta.
+La forma más sencilla de configurar una licencia es colocar el archivo de licencia en la misma carpeta que la dll del componente (incluido en Aspose.Cells.GridWeb) y especificar solo el nombre del archivo sin su ruta.
 
 {{< highlight "csharp" >}}
 
@@ -194,11 +196,11 @@ license.SetLicense("MyLicense.lic");
 
 {{% alert color="primary" %}}
 
-Cuando llama al método SetLicense, el nombre de la licencia debe ser el mismo que el nombre de su archivo de licencia. Por ejemplo, puede cambiar el nombre del archivo de licencia a "MyLicense.lic.xml". Luego, en su código, debe usar el nombre de licencia modificado (es decir, MyLicense.lic.xml) para el método SetLicense.
+Cuando llama al método SetLicense, el nombre de la licencia debe ser el mismo que el nombre del archivo de licencia. Por ejemplo, puede cambiar el nombre del archivo de licencia a "MyLicense.lic.xml". Luego, en su código, debe usar el nombre de licencia modificado (es decir, MyLicense.lic.xml) para el método SetLicense.
 
 {{% /alert %}}
 
-También es posible cargar una licencia desde un stream.
+También es posible cargar una licencia desde una secuencia.
 
 {{< highlight "csharp" >}}
 
@@ -210,15 +212,15 @@ license.SetLicense(myStream);
 
 {{< /highlight >}}
 
-### **Aplicación de una licencia como recurso integrado**
+###  **Cómo aplicar una licencia como recurso integrado**
 
-Otra buena forma de empaquetar la licencia con su aplicación y asegurarse de que no se pierda es incluirla como un recurso incrustado en uno de los ensamblados que llama al dll del componente (incluido en Aspose.Cells.GridDesktop). Para incluir el archivo de licencia como un recurso incrustado, realice los siguientes pasos:
+Otra buena forma de empaquetar la licencia con su aplicación y asegurarse de que no se pierda es incluirla como un recurso integrado en uno de los ensamblados que llama al dll del componente (incluido en Aspose.Cells.GridDesktop). Para incluir el archivo de licencia como recurso integrado, realice los siguientes pasos:
 
-1.  En Visual Studio .NET, incluya el archivo de licencia (.lic) en el proyecto usando el**Agregar elemento existente** opción en el**Archivo** menú.
-1. Seleccione el archivo en el Explorador de soluciones y establezca Acción de compilación en Recurso incrustado en la ventana Propiedades.
-1. Para acceder a la licencia incrustada en el ensamblado (como recurso incrustado), no es necesario llamar a los métodos GetExecutingAssembly y GetManifestResourceStream de la clase System.Reflection.Assembly de Microsoft .NET Framework. En su lugar, agregue el archivo de licencia como un recurso incrustado en su proyecto y pase el nombre del archivo de licencia al método SetLicense. La clase de licencia encuentra automáticamente el archivo de licencia en los recursos integrados.
+1.  En Visual Studio .NET, incluya el archivo de licencia (.lic) en el proyecto usando el**Agregar artículo existente** opción en el**Archivo** menú.
+1. Seleccione el archivo en el Explorador de soluciones y configure Acción de compilación en Recurso integrado en la ventana Propiedades.
+1. Para acceder a la licencia integrada en el ensamblado (como recurso integrado), no es necesario llamar a los métodos GetExecutingAssembly y GetManifestResourceStream de la clase System.Reflection.Assembly del Framework Microsoft .NET. En su lugar, agregue el archivo de licencia como un recurso integrado en su proyecto y pase el nombre del archivo de licencia al método SetLicense. La clase Licencia encuentra automáticamente el archivo de licencia en los recursos integrados.
 
-Revise el ejemplo que se proporciona a continuación para comprender este método de aplicar una licencia como un recurso incorporado a sus aplicaciones.
+Revise el ejemplo que se proporciona a continuación para comprender este método de aplicar una licencia como un recurso integrado en sus aplicaciones.
 
 {{< highlight "csharp" >}}
 
@@ -232,9 +234,9 @@ license.SetLicense("Aspose.Total.lic");
 
 {{< /highlight >}}
 
-## **Aplicación de una licencia en Aspose.Cells.GridDesktop para una aplicación WinForm**
+##  **Cómo aplicar una licencia en Aspose.Cells.GridDesktop para una aplicación WinForm**
 
-Se recomienda que coloque su código de licencia antes de que comience su aplicación y lo aplique solo una vez. Por ejemplo, para una aplicación de Windows C#, coloque el código de licencia en el método Principal.
+Se recomienda que coloque su código de licencia antes de que se inicie la aplicación y lo aplique solo una vez. Por ejemplo, para una aplicación de Windows C#, coloque el código de licencia en el método Principal.
 
 {{< highlight "csharp" >}}
 
@@ -320,9 +322,9 @@ gridDesktop1.ActiveSheetIndex = 1;
 
 {{< /highlight >}}
 
-## **Notas sobre la aplicación de una licencia en Aspose.Cells.GridWeb**
+##  **Notas sobre la aplicación de una licencia en Aspose.Cells.GridWeb**
 
-Se recomienda colocar el código de licencia en Global.asax.cs de su aplicación web (se supone que este archivo de licencia se coloca en la unidad "d:\"):
+Se recomienda colocar el código de licencia en Global.asax.cs de su aplicación web (se supone que este archivo de licencia está en la unidad " d:\ "):
 
 {{< highlight "csharp" >}}
 
@@ -338,7 +340,7 @@ Se recomienda colocar el código de licencia en Global.asax.cs de su aplicación
 
 {{< /highlight >}}
 
-Cargar una licencia desde un flujo
+Cargando una licencia desde una secuencia
 
 {{< highlight "csharp" >}}
 

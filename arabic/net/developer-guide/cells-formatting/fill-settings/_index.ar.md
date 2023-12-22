@@ -1,89 +1,91 @@
-﻿---
+---
 title: إعدادات التعبئة
+description: Aspose.Cells هي مكتبة .NET للعمل مع ملفات جداول البيانات. وهو يدعم ضبط إعدادات تعبئة الخلايا، مما يسمح للمستخدمين بتخصيص خلفية الخلايا ونمطها. ستقدم هذه المقالة كيفية استخدام مكتبة Aspose.Cells لضبط إعدادات تعبئة الخلايا.
+keywords: Aspose.Cells, Cells, Fill Settings, Background, Style
 type: docs
 weight: 50
 url: /ar/net/cells-fill-settings/
 ---
-## **الألوان وأنماط الخلفية**
+##  **الألوان وأنماط الخلفية**
 
-Microsoft يمكن لبرنامج Excel تعيين ألوان المقدمة (المخطط التفصيلي) والخلفية (تعبئة) للخلايا وأنماط الخلفية.
+Microsoft يمكن لـ Excel تعيين ألوان المقدمة (المخطط التفصيلي) والخلفية (الملء) للخلايا وأنماط الخلفية.
 
-يدعم Aspose.Cells أيضًا هذه الميزات بطريقة مرنة. في هذا الموضوع ، نتعلم استخدام هذه الميزات باستخدام Aspose.Cells.
+Aspose.Cells يدعم أيضًا هذه الميزات بطريقة مرنة. في هذا الموضوع نتعلم كيفية استخدام هذه الميزات باستخدام الرقم Aspose.Cells.
 
-### **ضبط الألوان وأنماط الخلفية**
+###  **ضبط الألوان وأنماط الخلفية**
 
- Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) يمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) فئة تحتوي على[**أوراق عمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) مجموعة تسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي. ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) فئة توفر أ[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) مجموعة. كل عنصر في[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) تمثل المجموعة كائنًا من[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)صف دراسي.
+ Aspose.Cells يوفر فئة،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) الذي يمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) يحتوي الفصل على أ[**أوراق عمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) المجموعة التي تسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) فصل. ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) يوفر الفصل أ[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) مجموعة. كل عنصر في[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) تمثل المجموعة كائنًا من[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)فصل.
 
- ال[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) لديه[**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle/index) و[**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle/index) الطرق المستخدمة للحصول على تنسيق الخلية وتعيينه. ال[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style)يوفر class خصائص لتعيين ألوان المقدمة والخلفية للخلايا. يوفر Aspose.Cells أ[**نوع الخلفية**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype)التعداد الذي يحتوي على مجموعة من الأنواع المحددة مسبقًا لأنماط الخلفية الموضحة أدناه.
+ ال[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) لديه[**احصل على ستايل**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle/index) و[**سيت ستايل**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle/index) الأساليب المستخدمة للحصول على تنسيق الخلية وتعيينه. ال[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style)توفر الفئة خصائص لتعيين الألوان الأمامية والخلفية للخلايا. Aspose.Cells يوفر أ[**نوع الخلفية**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype)التعداد الذي يحتوي على مجموعة من أنواع أنماط الخلفية المحددة مسبقًا والموضحة أدناه.
 
 |**أنماط الخلفية**|**وصف**|
-|:- |:- |
-|قطري|يمثل نمط التظليل المتقاطع القطري|
-|قطري|يمثل نمط شريط قطري|
-|رمادي 6|يمثل 6.25٪ نمط رمادي|
-|رمادي 12|يمثل 12.5٪ نمط رمادي|
-|رمادي 25|يمثل 25٪ نمط رمادي|
-|رمادي 50|يمثل 50٪ نمط رمادي|
-|رمادي 75|يمثل 75٪ نمط رمادي|
-|أفقي ستريب|يمثل نمط شريط أفقي|
+| :- | :- |
+|قطريCrosshatch|يمثل نمط التظليل المتقاطع القطري|
+|شريط قطري|يمثل نمط شريط قطري|
+|رمادي6|يمثل 6.25% نمط رمادي|
+|رمادي12|يمثل 12.5% نمط رمادي|
+|رمادي25|يمثل 25% نمط رمادي|
+|رمادي50|يمثل 50% نمط رمادي|
+|رمادي75|يمثل 75% نمط رمادي|
+|شريط أفقي|يمثل نمط شريط أفقي|
 |لا أحد|لا يمثل أي خلفية|
-|ReverseDiagonalStripe|يمثل نمط شريط قطري معكوس|
-|صلب|يمثل نمط صلب|
-|سميك قطري متقاطع|يمثل نمط التظليل المتقاطع القطري السميك|
-|ThinDiagonalCrosshatch|يمثل نمط التظليل المتقاطع القطري الرقيق|
-|ThinDiagonalStripe|يمثل نمط شريطي رقيق قطري|
-|رقيق أفقي متقاطع|يمثل نمط التظليل الأفقي الرفيع|
-|ThinHorizontalStripe|يمثل نمط شريط أفقي رقيق|
-|ThinReverseDiagonalStripe|يمثل نمط شريطي قطري عكسي رقيق|
-|ThinVerticalStripe|يمثل نمط شريط عمودي رقيق|
-|عمودي الشريط|يمثل نمط شريط عمودي|
+|شريط قطري عكسي|يمثل نمط شريط قطري عكسي|
+|صلب|يمثل نمطًا ثابتًا|
+|سميكة قطري Crossshatch|يمثل نمط التظليل المتقاطع السميك|
+|ThinDiagonalCrosshatch|يمثل نمط التظليل المتقاطع الرفيع|
+|شريط قطري رفيع|يمثل نمط شريط قطري رفيع|
+|ThinHorizontalCrossshatch|يمثل نمط التظليل الأفقي الرقيق|
+|شريط أفقي رفيع|يمثل نمط شريط أفقي رفيع|
+|شريط قطري عكسي رفيع|يمثل نمط شريط قطري عكسي رفيع|
+|شريط عمودي رقيق|يمثل نمط شريط عمودي رفيع|
+|شريط عمودي|يمثل نمط شريط عمودي|
 
-في المثال أدناه ، تم تعيين لون المقدمة لخلية A1 ولكن تم تكوين A2 بحيث تحتوي على ألوان المقدمة والخلفية بنمط خلفية شريطي عمودي.
+في المثال أدناه، تم تعيين اللون الأمامي للخلية A1 ولكن تم تكوين A2 بحيث تحتوي على ألوان المقدمة والخلفية مع نمط خلفية شريطي عمودي.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ColorsAndBackground-1.cs" >}}
 
-### **من المهم أن تعرف**
+###  **من المهم أن تعرف**
 
 {{% alert color="primary" %}}
 
--  لتعيين لون المقدمة أو الخلفية لخلية ، استخدم تنسيق[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) أشياء[**المقدمة**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor) أو[**لون الخلفية**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/backgroundcolor) الخصائص. تصبح كلتا الخاصيتين ساريتين فقط إذا كان الامتداد[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) أشياء[**نمط**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern)تم تكوين الخاصية.
--  ال[**المقدمة**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor)تعيّن الخاصية لون تظليل الخلية.
- ال[**نمط**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern)تحدد الخاصية نوع نمط الخلفية المستخدم للون المقدمة أو الخلفية. يوفر Aspose.Cells تعداد ،[**نوع الخلفية**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype)الذي يحتوي على مجموعة من أنواع محددة مسبقًا من أنماط الخلفية.
--  إذا اخترت*نوع الخلفية* قيمة من[**نوع الخلفية**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype)التعداد ، لا يتم تطبيق اللون الأمامي.
- وبالمثل ، لا يتم تطبيق لون الخلفية إذا قمت بتحديد ملف*نوع الخلفية* أو*نوع الخلفية* القيم.
--  عند استرداد لون التظليل / التعبئة للخلية ، إذا كان[**أسلوب. نمط**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern) يكون*نوع الخلفية*, [**Style.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor) سيعود*اللون فارغ*.
+-  لتعيين لون المقدمة أو الخلفية للخلية، استخدم[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) أشياء[**لون المقدمة**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor) أو[**لون الخلفية**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/backgroundcolor) ملكيات. لن تصبح كلتا الخاصيتين ساريتين إلا إذا تم[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) أشياء[**نمط**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern)تم تكوين الخاصية.
+-  ال[**لون المقدمة**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor)الخاصية تحدد لون ظل الخلية.
+ ال[**نمط**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern)تحدد الخاصية نوع نمط الخلفية المستخدم للون المقدمة أو الخلفية. Aspose.Cells يوفر التعداد،[**نوع الخلفية**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype). يحتوي على مجموعة من أنواع أنماط الخلفية المحددة مسبقًا.
+-  إذا قمت بتحديد*نوع الخلفية. لا شيء* القيمة من[**نوع الخلفية**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype)التعداد، لا يتم تطبيق اللون الأمامي.
+ وبالمثل، لا يتم تطبيق لون الخلفية إذا قمت بتحديد*نوع الخلفية. لا شيء* أو*نوع الخلفية.صلب* قيم.
+-  عند استرداد لون تظليل/تعبئة الخلية، إذا[**نمط.نمط**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern) هو *BackgroundType.None*،[**Style.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor) سيعود *اللون.فارغ*.
 
 {{% /alert %}}
 
-### **تطبيق تأثيرات تعبئة متدرجة**
+###  **تطبيق تأثيرات التعبئة المتدرجة**
 
- لتطبيق تأثيرات التعبئة المتدرجة التي تريدها على الخلية ، استخدم ملف[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) أشياء[**SetTwoColorGradient**](https://reference.aspose.com/cells/net/aspose.cells/style/methods/settwocolorgradient)الطريقة وفقًا لذلك.
+ لتطبيق تأثيرات التعبئة المتدرجة المطلوبة على الخلية، استخدم[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) أشياء[**SetTwoColorGradient**](https://reference.aspose.com/cells/net/aspose.cells/style/methods/settwocolorgradient)الطريقة وفقا لذلك.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ApproachesToFormatData-ApplyingGradientFillEffects-1.cs" >}}
 
-## **الألوان واللوحة**
+##  **الألوان ولوحة**
 
-اللوح هو عدد الألوان المتاحة للاستخدام في إنشاء صورة. يتيح استخدام لوحة قياسية في عرض تقديمي للمستخدم إنشاء مظهر متناسق. يحتوي كل ملف Microsoft Excel (97-2003) على لوحة من 56 لونًا يمكن تطبيقها على الخلايا والخطوط وخطوط الشبكة والكائنات الرسومية والتعبئة والخطوط في المخطط.
+اللوحة هي عدد الألوان المتاحة للاستخدام في إنشاء الصورة. يتيح استخدام لوحة موحدة في العرض التقديمي للمستخدم إنشاء مظهر متسق. يحتوي كل ملف Microsoft Excel (97-2003) على لوحة مكونة من 56 لونًا يمكن تطبيقها على الخلايا والخطوط وخطوط الشبكة والكائنات الرسومية والتعبئات والخطوط في المخطط.
 
-مع Aspose.Cells لا يمكن فقط استخدام الألوان الموجودة في اللوحة ولكن أيضًا الألوان المخصصة. قبل استخدام لون مخصص ، قم بإضافته إلى اللوحة أولاً.
+مع Aspose.Cells، من الممكن ليس فقط استخدام الألوان الموجودة في اللوحة ولكن أيضًا الألوان المخصصة. قبل استخدام لون مخصص، قم بإضافته إلى اللوحة أولاً.
 
-يناقش هذا الموضوع كيفية إضافة ألوان مخصصة إلى اللوحة.
+يناقش هذا الموضوع كيفية إضافة ألوان مخصصة إلى لوحة الألوان.
 
-### **إضافة ألوان مخصصة إلى لوحة الألوان**
+###  **إضافة ألوان مخصصة إلى لوحة الألوان**
 
-Aspose.Cells يدعم Microsoft لوحة الألوان 56 في Excel. لاستخدام لون مخصص غير محدد في اللوحة ، أضف اللون إلى اللوحة.
+Aspose.Cells يدعم Microsoft لوحة ألوان Excel المكونة من 56 لونًا. لاستخدام لون مخصص غير محدد في لوحة الألوان، قم بإضافة اللون إلى لوحة الألوان.
 
- Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) ، يمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) فئة توفر أ[**ChangePalette**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/changepalette) طريقة تأخذ المعلمات التالية لإضافة لون مخصص لتعديل اللوحة:
+ Aspose.Cells يوفر فئة،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) ، يمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) يوفر الفصل أ[**تغيير لوحة**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/changepalette) الطريقة التي تأخذ المعلمات التالية لإضافة لون مخصص لتعديل اللوحة:
 
-- لون مخصص ، اللون المخصص المراد إضافته.
-- الفهرس ، فهرس اللون في اللوحة الذي سيحل محله اللون المخصص. يجب أن يكون بين 0-55.
+- اللون المخصص، اللون المخصص المراد إضافته.
+- الفهرس، فهرس اللون الموجود في اللوحة الذي سيحل محله اللون المخصص. ينبغي أن يكون بين 0-55.
 
-يضيف المثال أدناه لونًا مخصصًا (Orchid) إلى اللوحة قبل تطبيقه على الخط.
+يضيف المثال أدناه لونًا مخصصًا (Orchid) إلى لوحة الألوان قبل تطبيقه على الخط.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ColorsAndPalette-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-تحتوي اللوحة على 56 لونًا فقط. عندما تضيف لونًا مخصصًا إلى اللوحة ، تتغير اللوحة ويتغير أي عنصر في الملف منسق باللون السابق. لذا ، عند تغيير لوحة الألوان ، يرجى توخي الحذر الشديد. علاوة على ذلك ، هذا هو القيد في تنسيق ملف XLS (Excel 97-2003) فقط حيث لا يوجد مثل هذا القيد على XLSX أو تنسيقات ملفات MS Excel المتقدمة الأخرى (2007/2010 أو 2013).
+تحتوي اللوحة على 56 لونًا فقط. عند إضافة لون مخصص إلى لوحة الألوان، يتم تغيير اللوحة وتغيير أي عنصر في الملف المنسق باللون السابق. لذا، عند تغيير لوحة الألوان، يرجى توخي الحذر الشديد. علاوة على ذلك، هذا هو القيد في تنسيق الملف XLS (Excel 97 - 2003) فقط حيث لا يوجد مثل هذا القيد على XLSX أو تنسيقات ملفات MS Excel المتقدمة الأخرى (2007/2010 أو 2013).
 
 {{% /alert %}}

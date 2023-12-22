@@ -1,45 +1,47 @@
-﻿---
-title: Bir Çalışma Kitabında Çalışma Sayfasını Biçimlendir Cells
+---
+title: Çalışma Kitabındaki Çalışma Sayfası Cells'i Biçimlendirme
+description: Aspose.Cells, elektronik tablo dosyalarıyla çalışmaya yönelik bir .NET kitaplığıdır. Çalışma kitaplarındaki çalışma sayfası hücrelerinin biçimlendirilmesini destekleyerek kullanıcıların hücrelerin görünümünü ve stilini özelleştirmesine olanak tanır. Bu makalede, Aspose.Cells kitaplığı kullanılarak çalışma sayfası hücrelerinin nasıl biçimlendirileceği anlatılacaktır.
+keywords: Aspose.Cells, Workbook, Worksheet, Cell, Formatting, Appearance, Style
 type: docs
 weight: 2000
 url: /tr/net/format-worksheet-cells-in-a-workbook/
 ---
 {{% alert color="primary" %}}
 
-Bu makale şunların nasıl yapılacağını gösterir:
+Bu makalede aşağıdakilerin nasıl yapılacağı gösterilmektedir:
 
 1. Verileri hızla biçimlendirmek için stilleri kullanın.
-1. Satır ve sütunlardaki hücreleri biçimlendirin.
-1. Verileri vurgulamak için kenarlıklar ve renkler kullanın.
-1. Verileri vurgulamak için sayı biçimlerini uygulayın.
+1. Hücreleri satır ve sütunlarda biçimlendirin.
+1. Verileri vurgulamak için kenarlıkları ve renkleri kullanın.
+1. Verileri vurgulamak için sayı formatlarını uygulayın.
 1. Verileri vurgulamak için yazı tiplerini ve nitelikleri kullanın.
 1. Verileri adlandırılmış bir aralıkta biçimlendirin.
 1. Veri hizalamasını ve yönünü değiştirin.
 1. Satır yüksekliğini ve sütun genişliğini ayarlayın.
 
- Örnek proje, tüm bu görevleri yerine getirir ve geliştiricilere bir çalışma kitabının nasıl oluşturulacağı, nasıl veri ekleneceği ve kullanarak biçimlendirmenin nasıl uygulanacağı konusunda ayrıntılı bir açıklama sağlar.[Aspose.Cells](https://products.aspose.com/cells/net/).
+ Örnek proje tüm bu görevleri yerine getirir ve geliştiricilere bir çalışma kitabının nasıl oluşturulacağı, içine nasıl veri ekleneceği ve aşağıdakileri kullanarak biçimlendirmenin nasıl uygulanacağı konusunda ayrıntılı bir açıklama sağlar:[Aspose.Cells](https://products.aspose.com/cells/net/).
 
 {{% /alert %}}
 
-## **Veri Biçimlendirme**
+##  **Veri Formatlama**
 
 Biçimlendirme, farklı bilgi türleri arasında ayrım yapmak ve verileri net bir şekilde görüntülemek için kullanılır.
 
-Biçim, stili temsil eder ve yazı tipleri ve yazı tipi boyutları, sayı biçimleri, hücre sınırları, hücre gölgelendirme, girinti, hizalama ve metin yönü gibi bir dizi özellik olarak tanımlanır. Kenarlıklar, bilgileri vurgulamak için daha fazla yol sağlar. Kenarlık, bir hücrenin veya bir hücre grubunun etrafına çizilen bir çizgidir.
+Biçim, bir stili temsil eder ve yazı tipleri ve yazı tipi boyutları, sayı biçimleri, hücre kenarları, hücre gölgelemesi, girinti, hizalama ve metin yönü gibi bir dizi özellik olarak tanımlanır. Kenarlıklar bilgiyi vurgulamak için daha fazla yol sağlar. Kenarlık, bir hücrenin veya hücre grubunun etrafına çizilen çizgidir.
 
-Sayı biçimleri de verileri daha anlamlı hale getirir. Farklı sayı biçimleri uygulayarak, görünümün arkasındaki sayıyı değiştirmeden sayıların görünümünü değiştirebilirsiniz.
+Sayı formatları aynı zamanda verileri daha anlamlı hale getirir. Farklı sayı formatları uygulayarak, görünümün arkasındaki sayıyı değiştirmeden sayıların görünümünü değiştirebilirsiniz.
 
-Aspose.Cells, hücrelerin ve aralıkların çevresine kolayca kenarlık çizmenizi sağlar. Ayrıca yazı tiplerini ve gölge hücrelerini uygulamanıza da olanak tanır. Bileşen, tam bir satırı veya sütunu biçimlendirmenize, hizalamaları ayarlamanıza, hücrelerdeki metni sarmanıza ve döndürmenize yetecek kadar verimlidir. Aspose.Cells, Microsoft Excel tarafından desteklenen tüm sayı biçimlerini de destekler.
+Aspose.Cells, hücrelerin ve aralıkların etrafına kolayca kenarlık çizmenize olanak sağlar. Ayrıca yazı tipleri ve gölge hücreleri uygulamanıza da olanak tanır. Bileşen, bir satırın veya sütunun tamamını biçimlendirmenize, hizalamaları ayarlamanıza, hücrelerdeki metni sarmanıza ve döndürmenize olanak sağlayacak kadar verimlidir. Aspose.Cells ayrıca Microsoft Excel tarafından desteklenen tüm sayı formatlarını destekler.
 
-Bu makale, Visual Studio.Net'te yıllık satış raporu oluşturan bir konsol uygulamasının nasıl oluşturulacağını gösterir. Çalışma kitabı sıfırdan oluşturulur, ardından veriler eklenir ve çalışma sayfası biçimlendirilir. Bir Excel çalışma kitabı oluşturan (bir şablon dosyası da kullanabilirsiniz) basit bir konsol uygulamasının nasıl oluşturulacağını, satış verilerini ilk çalışma sayfasına nasıl ekleyeceğinizi, verileri biçimlendireceğinizi ve bir Excel dosyasını kaydedeceğinizi gösteriyoruz.
+Bu makalede, Visual Studio.Net'te yıllık satış raporu oluşturan bir konsol uygulamasının nasıl oluşturulacağı gösterilmektedir. Çalışma kitabı sıfırdan oluşturulur, ardından veriler eklenir ve çalışma sayfası biçimlendirilir. Bir Excel çalışma kitabı oluşturan (ayrıca bir şablon dosyası da kullanabilirsiniz), satış verilerini ilk çalışma sayfasına ekleyen, verileri biçimlendiren ve bir Excel dosyasını kaydeden basit bir konsol uygulamasının nasıl oluşturulacağını gösteriyoruz.
 
-### **İşlem**
+###  **İşlem**
 
-Aşağıda, bir elektronik tablonun nasıl oluşturulacağı ve bir çalışma sayfasının farklı satır ve sütunlarındaki farklı hücrelerin nasıl biçimlendirileceği ile ilgili adımlar yer almaktadır.
+Aşağıda bir elektronik tablonun nasıl oluşturulacağı ve bir çalışma sayfasının farklı satır ve sütunlarındaki farklı hücrelerin nasıl biçimlendirileceği ile ilgili adımlar yer almaktadır.
 
 1. Aspose.Cells'i indirin ve yükleyin:
    1. [İndirmek](https://downloads.aspose.com/cells/net) Aspose.Cells for .NET.
- 1. Geliştirme bilgisayarınıza kurun.
+ 1. Geliştirme bilgisayarınıza yükleyin.
 1. Bir proje oluşturun ve referanslar ekleyin:
  1. Visual Studio.Net'i başlatın.
  1. Yeni bir konsol uygulaması oluşturun.

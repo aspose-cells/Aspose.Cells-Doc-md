@@ -1,4 +1,4 @@
-﻿---
+---
 title: Configuration requise
 type: docs
 weight: 10
@@ -9,28 +9,28 @@ url: /fr/net/system-requirements/
 Les composants Aspose.Cells for .NET ne nécessitent pas l'installation d'Excel Microsoft ni côté client ni côté serveur.
 
 {{% /alert %}} 
-## **Systèmes d'exploitation pris en charge**
-### **Windows**
-- Microsoft Windows 2000 (x64, x86)
+##  **Systèmes d'exploitation pris en charge**
+###  **Windows**
+- Microsoft Windows 2000 ( x64, x86)
 - Microsoft Windows XP (x64, x86)
 - Microsoft Windows Serveur 2003 (x64, x86)
 - Microsoft Windows Serveur 2008 (x64, x86)
 - Microsoft Windows Serveur 2012 (x64, x86)
 - Microsoft Windows Serveur 2016 (x64, x86)
 - Microsoft Windows Serveur 2019 (x64, x86)
-- Microsoft Windows Vista (x64, x86)
-- Microsoft Windows 7 (x64, x86)
-- Microsoft Windows 8 (x64, x86)
-- Microsoft Windows 10 (x64, x86)
+- Microsoft Windows Vue (x64, x86)
+- Microsoft Windows7 (x64, x86)
+- Microsoft Windows 8 ( x64, x86)
+- Microsoft Windows 10 ( x64, x86)
 - Microsoft Windows 11
 - Windows Azur
-### **Linux**
+###  **Linux**
 - Linux (Ubuntu, openSUSE, CentOS, Debian, Alpine et autres)
-### **Mac**
+###  **Mac**
 - Mac OS X, macOS High Sierra, etc.
-## **.NET Versions de framework prises en charge**
-Aspose.Cells for .NET prend en charge les frameworks .NET et Mono comme suit :
-### **.NET Cadres**
+##  **.NET Versions du framework prises en charge**
+Aspose.Cells for .NET prend en charge les frameworks .NET et Mono comme suit :
+###  **.NET Cadres**
 - .NET Cadre 2.0
 - .NET Cadre 3.0
 - .NET Cadre 3.5
@@ -45,19 +45,24 @@ Aspose.Cells for .NET prend en charge les frameworks .NET et Mono comme suit :
 - .NET Cadre 4.7.2
 - .NET Cadre 4.8
 - .NET Cadre 4.8.1
-### **.NET Norme**
-- .NET Norme 2.0 (.NET Core 2.1/3.1).
+###  **.NET Norme**
+- .NET Standard 2.0 (.NET Noyau 2.1/3.1).
 - .NET 5.0
 - .NET 6.0
 - .NET 7.0
-#### **Les colis nuget référencés par Aspose.Cells Pour la Norme .NET**
-- System.Drawing.Common, 4.7.0.
+####  **Les colis nuget référencés par Aspose.Cells Pour .NET Standard**
+- Système.Drawing.Common, 5.0.3.
 - System.Text.Encoding.CodePages, 4.7.0.
-- System.Security.Cryptography.Pkcs, 6.0.1.
-### **Mono Cadre**
+- Système.Sécurité.Cryptographie.Pkcs, 5.0.1.
+####  **Les packages nuget référencés par Aspose.Cells Pour .NET6 et .Net7**
+- System.Text.Encoding.CodePages, 4.7.0.
+- Système.Sécurité.Cryptographie.Pkcs, 6.0.3.
+- System.Drawing.Common, 6.0.0 (sur système Windows).
+- SkiaSharp, 2.88.3 (sur les systèmes non Windows).
+###  **Mono Cadre**
 - Mono 1.2 ou plus récent.
-## **Environnements de développement**
-Vous pouvez utiliser Aspose.Cells for .NET pour développer des applications dans n'importe quel environnement de développement qui cible la plate-forme .NET, mais les environnements suivants sont explicitement pris en charge :
+##  **Environnements de développement**
+Vous pouvez utiliser Aspose.Cells for .NET pour développer des applications dans n'importe quel environnement de développement ciblant la plateforme .NET, mais les environnements suivants sont explicitement pris en charge :
 
 - Microsoft Visual Studio 2005
 - Microsoft Visual Studio 2008
@@ -71,24 +76,24 @@ Vous pouvez utiliser Aspose.Cells for .NET pour développer des applications dan
 
 {{% alert color="primary" %}} 
 
-Pour utiliser Aspose.Cells, la machine n'a pas besoin d'avoir Microsoft Excel installé car la bibliothèque elle-même est un moteur de gestion de feuille de calcul. Cependant, pour afficher le fichier Excel généré par le composant, vous devez avoir au moins Microsoft Excel Viewer installé sur votre machine.
+Pour utiliser Aspose.Cells, la machine n'a pas besoin d'avoir Microsoft Excel installé car la bibliothèque elle-même est un moteur de gestion de feuilles de calcul. Cependant, pour afficher le fichier Excel généré par le composant, vous devez avoir au moins Microsoft Excel Viewer installé sur votre ordinateur.
 
 {{% /alert %}} 
-## **Aspose.Cells Configuration requise pour Grid Suite**
-La Grid Suite Aspose.Cells est composée de deux contrôles :
+##  **Aspose.Cells Configuration système requise pour Grid Suite**
+La Grid Suite Aspose.Cells est composée de deux contrôles :
 
 - Aspose.Cells.GridDesktop
 - Aspose.Cells.GridWeb
 
-La configuration système requise pour les deux commandes est décrite séparément.
+La configuration système requise pour les deux contrôles est décrite séparément.
 
 {{% alert color="primary" %}} 
 
-Pour utiliser ces deux contrôles, la machine qui exécute Aspose.Cells.GridDesktop et Aspose.Cells.GridWeb n'a pas besoin d'avoir Microsoft Excel installé en tant que Aspose.Cells.GridDesktop et Aspose.Cells.GridWeb peut ouvrir et enregistrer des feuilles de calcul Excel sans avoir besoin d'Excel Microsoft.
+Pour utiliser ces deux contrôles, la machine pour exécuter Aspose.Cells.GridDesktop et Aspose.Cells.GridWeb n'a pas besoin d'avoir Microsoft Excel installé car Aspose.Cells.GridDesktop et Aspose.Cells.GridWeb peuvent ouvrir et enregistrer des feuilles de calcul Excel sans avoir besoin d'Excel Microsoft.
 
 {{% /alert %}} 
-### **Aspose.Cells.GridDesktop**
-#### **.NET Cadre**
+###  **Aspose.Cells.GridDesktop**
+####  **.NET Cadre**
 - .NET Cadre 2.0
 - .NET Cadre 3.0
 - .NET Cadre 3.5
@@ -104,7 +109,7 @@ Pour utiliser ces deux contrôles, la machine qui exécute Aspose.Cells.GridDesk
 - .NET Cadre 4.8
 - .NET Cadre 4.8.1
 
-#### **Outils de développement**
+####  **Outils de développement**
 - Microsoft Visual Studio 2005
 - Microsoft Visual Studio 2008
 - Microsoft Visual Studio 2010
@@ -113,7 +118,7 @@ Pour utiliser ces deux contrôles, la machine qui exécute Aspose.Cells.GridDesk
 - Microsoft Visual Studio 2015
 - Microsoft Visual Studio 2017
 - Microsoft Visual Studio 2019
-#### **Système opérateur**
+####  **Système opérateur**
 - Microsoft Windows 2000
 - Microsoft Windows XP
 - Microsoft Windows Serveur 2003
@@ -124,8 +129,8 @@ Pour utiliser ces deux contrôles, la machine qui exécute Aspose.Cells.GridDesk
 - Microsoft Windows 8, 8.1
 - Microsoft Windows 10
 - Microsoft Windows 11
-### **Aspose.Cells.GridWeb**
-#### **.NET Cadre**
+###  **Aspose.Cells.GridWeb**
+####  **.NET Cadre**
 - .NET Cadre 2.0
 - .NET Cadre 3.0
 - .NET Cadre 3.5
@@ -140,7 +145,7 @@ Pour utiliser ces deux contrôles, la machine qui exécute Aspose.Cells.GridDesk
 - .NET Cadre 4.7.2
 - .NET Cadre 4.8
 - .NET Cadre 4.8.1
-#### **Outils de développement**
+####  **Outils de développement**
 - Microsoft Visual Studio 2005
 - Microsoft Visual Studio 2008
 - Microsoft Visual Studio 2010
@@ -149,14 +154,14 @@ Pour utiliser ces deux contrôles, la machine qui exécute Aspose.Cells.GridDesk
 - Microsoft Visual Studio 2015
 - Microsoft Visual Studio 2017
 - Microsoft Visual Studio 2019
-#### **Serveur d'informations Internet (IIS)**
+####  **Serveur d'informations Internet (IIS)**
 - IIS 5.0 ou supérieur
-#### **Navigateurs**
+####  **Navigateurs**
 - IE 5.5 ou supérieur
 - Navigateurs Mozilla (y compris Firefox, navigateur Netscape, etc.)
-- Opera (Internet Explorer 6.0 recommandé)
+- Opéra (Internet Explorer 6.0 recommandé)
 - Google Chromé
-#### **Système opérateur**
+####  **Système opérateur**
 - Microsoft Windows 2000
 - Microsoft Windows XP
 - Microsoft Windows Serveur 2003

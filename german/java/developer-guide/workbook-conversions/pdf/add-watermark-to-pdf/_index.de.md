@@ -14,7 +14,7 @@ Beim Konvertieren einer Excel-Datei in eine PDF-Datei müssen Sie möglicherweis
 
 ##  **Bildwasserzeichen zu PDF hinzufügen**
 
- Sie können einem PDF ein Bildwasserzeichen hinzufügen, indem Sie einfach die Bildbytes eines Bildes angeben. Außerdem können Sie Ausrichtung, Versatz, Drehung, Deckkraft, Vordergrund/Hintergrund und Skalierung zum Einblättern festlegen[RenderingWatermark](https://reference.aspose.com/cells/java/com.aspose.cells/renderingwatermark/).
+Sie können einem PDF ein Bildwasserzeichen hinzufügen, indem Sie einfach die Bildbytes eines Bildes angeben. Außerdem können Sie Ausrichtung, Versatz, Drehung, Deckkraft, Vordergrund/Hintergrund und Skalierung zum Einblättern festlegen[RenderingWatermark](https://reference.aspose.com/cells/java/com.aspose.cells/renderingwatermark/).
 
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Docs-Pdf-AddTextWatermarkToPdf.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Docs-Pdf-AddImageWatermarkToPdf.java" >}}
 

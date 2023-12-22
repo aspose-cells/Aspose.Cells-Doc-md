@@ -1,8 +1,8 @@
-﻿---
-title: Utilisation des lignes et des colonnes GridWeb
+---
+title: Travailler avec les lignes et les colonnes GridWeb
 type: docs
 weight: 40
 url: /fr/java/working-with-gridweb-rows-and-columns/
 ---
-## **Articles de cette rubrique**
+##  **Articles dans cette rubrique**
 

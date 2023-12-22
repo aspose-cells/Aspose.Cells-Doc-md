@@ -1,10 +1,12 @@
-﻿---
+---
 title: 开发者指南
 type: docs
 weight: 20
 url: /zh/net/developer-guide/
+description: 本开发人员指南描述了实际场景和技巧，可帮助您使用特定的 Aspose.Cells for .NET 功能、实现特定的 Excel 外观或使用例成为可能。
+keywords: Guidelines for using Aspose.Cells development APIs, Reference manual of Aspose.Cells for .NET APIS
 ---
-本开发者指南提供了在各种实际场景中使用 Aspose.Cells 作为 MS Excel 菜单的信息。
+本开发人员指南提供了有关在各种实际场景中使用 Aspose.Cells 作为 MS Excel 菜单的信息。
 {{< tabs tabTotal="8" tabID="1" tabName1="File" tabName2="Home" tabName3="Insert" tabName4="Page Layout" tabName5="Formulas" tabName6="Data" tabName7="Review" tabName8="View" tabName9="Developer" >}}
 {{< tab tabNum="1" >}}
 <div class="row">
@@ -12,7 +14,7 @@ url: /zh/net/developer-guide/
         <p>信息</p>
         <ul>
             <li><a href="/cells/zh/net/managing-document-properties/">文档属性</a></li>
-            <li><a href="/cells/zh/net/security-features/">安全功能</a></li>
+            <li><a href="/cells/zh/net/security-features/">安全特性</a></li>
         </ul>
         <p>新的</p>
         <ul>
@@ -24,9 +26,9 @@ url: /zh/net/developer-guide/
             <li><a href="/cells/zh/net/opening-different-microsoft-excel-versions-files/">打开不同的 Microsoft Excel 版本文件</a></li>
             <li><a href="/cells/zh/net/opening-files-with-different-formats/">打开不同格式的文件</a></li>
             <li><a href="/cells/zh/net/get-warnings-while-loading-excel-file/">加载 Excel 文件时收到警告</a></li>
-            <li><a href="/cells/zh/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">阅读 Apple Inc. 使用 Aspose.Cells 开发的 Numbers 电子表格</a></li>
+            <li><a href="/cells/zh/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">阅读 Numbers Apple Inc. 使用 Aspose.Cells 开发的电子表格</a></li>
         </ul>
-        <p>救球</p>
+        <p>节省</p>
         <ul>
             <li><a href="/cells/zh/net/different-ways-to-save-files/">保存文件的不同方法</a></li>
             <li><a href="/cells/zh/net/encrypting-excel-files/">加密 Excel 文件</a></li>
@@ -40,7 +42,7 @@ url: /zh/net/developer-guide/
         </ul>
         <p>渲染和转换</p>
         <ul>
-            <li><a href="/cells/zh/net/convert-workbook-to-different-formats/">将工作簿转换为不同的格式</a></li>
+            <li><a href="/cells/zh/net/convert-workbook-to-different-formats/">将工作簿转换为不同格式</a></li>
             <li><a href="/cells/zh/net/convert-excel-workbook-to-pdf/">将 Excel 工作簿转换为 PDF</a></li>
             <li><a href="/cells/zh/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">将 Excel 文件转换为与 PDFA-1a 兼容的 PDF 格式</a></li>
             <li><a href="/cells/zh/net/convert-excel-to-image/">将工作簿转换为不同的图像格式</a></li>
@@ -83,9 +85,9 @@ url: /zh/net/developer-guide/
     <div class="col-md-6">        
         <p>种类</p>
         <ul>
-		 <li><a href="/cells/zh/net/data-sorting/">资料整理</a></li>
+		 <li><a href="/cells/zh/net/data-sorting/">数据排序</a></li>
          <li><a href="/cells/zh/net/sort-data-in-column-with-custom-sort-list/">使用自定义排序列表对列中的数据进行排序</a></li>
-		 <li><a href="/cells/zh/net/specifying-sort-warning-while-sorting-data/">排序数据时指定排序警告</a></li>
+		 <li><a href="/cells/zh/net/specifying-sort-warning-while-sorting-data/">指定数据排序时的排序警告</a></li>
         </ul>
 		 <p>筛选</p>
         <ul>
@@ -93,7 +95,7 @@ url: /zh/net/developer-guide/
          <li><a href="/cells/zh/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/">应用 Microsoft Excel 的高级筛选器显示满足复杂条件的记录</a></li>
 		 <li><a href="/cells/zh/net/get-all-hidden-rows-indices-after-refreshing-autofilter/">刷新自动筛选后获取所有隐藏行索引</a></li>
         </ul>
-        <p>查找&选择</p>
+        <p>查找并选择</p>
         <ul>
 		<li><a href="/cells/zh/net/find-or-search-data/">查找或搜索数据</a></li>
         </ul>
@@ -110,52 +112,52 @@ url: /zh/net/developer-guide/
         <p><a href="/cells/zh/net/create-pivot-table/">数据透视表</a></p>
         <ul>
             <li><a href="/cells/zh/net/create-pivot-table/">创建数据透视表</a></li>
-            <li><a href="/cells/zh/net/formatting-pivot-table/">格式化数据透视表</a></li>
+            <li><a href="/cells/zh/net/formatting-pivot-table/">设置数据透视表格式</a></li>
         </ul>
         <p><a href="/cells/zh/net/create-and-format-table/">桌子</a></p>
          <ul>
-            <li><a href="/cells/zh/net/create-and-format-table/">创建和格式化表格</a></li>
+            <li><a href="/cells/zh/net/create-and-format-table/">创建表格并设置格式</a></li>
             <li><a href="/cells/zh/net/tables-and-ranges/">表格和范围</a></li>
         </ul>
         <ul>
         </ul>
         <p><a href="/cells/zh/net/managing-pictures/">图片</a></p>
         <ul>
-            <li><a href="/cells/zh/net/insert-a-linked-picture-from-web-address/">从网址插入链接图片</a></li>
-            <li><a href="/cells/zh/net/insert-a-picture-based-on-cell-reference/">根据Cell参考插入图片</a></li>
+            <li><a href="/cells/zh/net/insert-a-linked-picture-from-web-address/">插入来自网址的链接图片</a></li>
+            <li><a href="/cells/zh/net/insert-a-picture-based-on-cell-reference/">插入基于 Cell 参考的图片</a></li>
             <li><a href="/cells/zh/net/managing-pictures/#adding-pictures">在Aspose.Cells中插入图片</a></li>
         </ul>
         <p><a href="/cells/zh/net/insert-shapes/">形状</a></p>    
         <ul>
-            <li><a href="/cells/zh/net/insert-shapes/#inserting-a-line-to-worksheet">在工作表中插入一行</a></li>
-            <li><a href="/cells/zh/net/insert-shapes/#inserting-a-line-arrow-to-worksheet">向工作表插入线箭头</a></li>
-            <li><a href="/cells/zh/net/insert-shapes/#inserting-a-rectangle-to-worksheet">在工作表中插入一个矩形</a></li>
+            <li><a href="/cells/zh/net/insert-shapes/#inserting-a-line-to-worksheet">向工作表插入一行</a></li>
+            <li><a href="/cells/zh/net/insert-shapes/#inserting-a-line-arrow-to-worksheet">将线箭头插入工作表</a></li>
+            <li><a href="/cells/zh/net/insert-shapes/#inserting-a-rectangle-to-worksheet">将矩形插入工作表</a></li>
             <li><a href="/cells/zh/net/insert-shapes/#inserting-a-cube-to-worksheet">将多维数据集插入工作表</a></li>
 			<li><a href="/cells/zh/net/insert-shapes/#inserting-a-callout-quad-arrow-to-worksheet">将标注四箭头插入工作表</a></li>
-			<li><a href="/cells/zh/net/insert-shapes/#inserting-a-multiplication-sign-to-worksheet">在工作表中插入乘号</a></li>
+			<li><a href="/cells/zh/net/insert-shapes/#inserting-a-multiplication-sign-to-worksheet">将乘号插入工作表</a></li>
 			<li><a href="/cells/zh/net/insert-shapes/#inserting-a-multidocument-to-worksheet">将多文档插入工作表</a></li>
-			<li><a href="/cells/zh/net/insert-shapes/#inserting-a-five-pointed-star-to-worksheet">在工作表中插入一个五角星</a></li>
-			<li><a href="/cells/zh/net/insert-shapes/#inserting-a-thought-bubble-cloud-to-worksheet">将思想气泡云插入工作表</a></li>
+			<li><a href="/cells/zh/net/insert-shapes/#inserting-a-five-pointed-star-to-worksheet">在工作表中插入五角星</a></li>
+			<li><a href="/cells/zh/net/insert-shapes/#inserting-a-thought-bubble-cloud-to-worksheet">将思想泡泡云插入工作表</a></li>
         </ul>
         <p>图标</p>
         <ul>
-            <li><a href="/cells/zh/net/add-icons-to-worksheet-in-aspose-cells/">在 Aspose.Cells 中将图标插入工作表</a></li>
+            <li><a href="/cells/zh/net/add-icons-to-worksheet-in-aspose-cells/">将图标插入工作表 Aspose.Cells</a></li>
         </ul>
 		<p>链接</p>
         <ul>
-            <li><a href="/cells/zh/net/working-with-hyperlinks-to-link-data/">使用超链接链接数据</a></li>
+            <li><a href="/cells/zh/net/working-with-hyperlinks-to-link-data/">使用超链接来链接数据</a></li>
         </ul>
-        <p>注释</p>
+        <p>评论</p>
         <ul>
             <li><a href="/cells/zh/net/add-comment-in-worksheet/">在工作表中添加评论</a></li>
             <li><a href="/cells/zh/net/how-to-change-the-comment-font-color/">如何更改评论字体颜色</a></li>
-            <li><a href="/cells/zh/net/threaded-comments/">线程评论</a></li>
+            <li><a href="/cells/zh/net/threaded-comments/">线索评论</a></li>
         </ul>
         <p>智能艺术</p>
         <ul>
             <li><a href="/cells/zh/net/determine-if-shape-is-smart-art-shape/">确定形状是否为智能艺术形状</a></li>
             <li><a href="/cells/zh/net/extract-text-from-the-gear-type-smartart-shape/">从齿轮类型 SmartArt 形状中提取文本</a></li>
-            <li><a href="/cells/zh/net/convert-the-smart-art-to-group-shape/">将智能艺术转换为组形</a></li>
+            <li><a href="/cells/zh/net/convert-the-smart-art-to-group-shape/">将智能艺术转换为组形状</a></li>
         </ul>
          <p><a href="/cells/zh/net/creating-charts/">图表</a></p>
 		  <ul>
@@ -174,15 +176,15 @@ url: /zh/net/developer-guide/
         <ul>
             <li><a href="/cells/zh/net/managing-ole-objects/#inserting-ole-objects-into-the-worksheet">管理 OLE 对象</a></li>
         </ul>
-        <p><a href="/cells/zh/net/create-slicer/">切片器</a></p>
+        <p><a href="/cells/zh/net/create-slicer/">切片机</a></p>
         <ul>
             <li><a href="/cells/zh/net/create-slicer/">创建切片器</a></li>
             <li><a href="/cells/zh/net/formatting-slicer/">格式化切片器</a></li>
         </ul>
         <p><a href="/cells/zh/net/managing-charts-and-shapes/">文本框</a</p>
         <ul>
-            <li><a href="/cells/zh/net/add-text-box-to-worksheet-in-aspose-cells/">在 Aspose.Cells 中将文本框添加到工作表</a></li>
-            <li><a href="/cells/zh/net/applying-text-alignment-to-partial-text-inside-the-textbox/">将文本对齐应用于 TextBox 内的部分文本</a></li>
+            <li><a href="/cells/zh/net/add-text-box-to-worksheet-in-aspose-cells/">将文本框添加到 Aspose.Cells 中的工作表</a></li>
+            <li><a href="/cells/zh/net/applying-text-alignment-to-partial-text-inside-the-textbox/">将文本对齐应用于文本框内的部分文本</a></li>
         </ul>
         <p>页眉页脚</p>
         <ul>
@@ -191,7 +193,7 @@ url: /zh/net/developer-guide/
         <p><a href="/cells/zh/net/managing-shapes/">文字艺术</a></p>
         <ul>
             <li><a href="/cells/zh/net/add-wordart-watermark-to-worksheet/">将艺术字水印添加到工作表</a></li>
-            <li><a href="/cells/zh/net/add-wordart-watermark-to-worksheet-in-aspose-cells/">Aspose.Cells 工作表添加艺术字水印</a></li>
+            <li><a href="/cells/zh/net/add-wordart-watermark-to-worksheet-in-aspose-cells/">将艺术字水印添加到Aspose.Cells中的工作表</a></li>
         </ul>
         <p>符号</p>
         <ul>
@@ -216,13 +218,13 @@ url: /zh/net/developer-guide/
          <li><a href="/cells/zh/net/get-paper-width-and-height-of-page-setup-of-worksheet/">获取工作表页面设置的纸张宽度和高度</a></li>
          <li><a href="/cells/zh/net/setting-print-options/">设置打印选项</a></li>
          <li><a href="/cells/zh/net/remove-existing-printersettings-of-worksheets-in-excel-file/">删除 Excel 文件中工作表的现有打印机设置</a></li>
-         <li><a href="/cells/zh/net/implement-custom-paper-size-of-worksheet-for-rendering/">实现工作表的自定义纸张大小以进行渲染</a></li>
+         <li><a href="/cells/zh/net/implement-custom-paper-size-of-worksheet-for-rendering/">实现工作表的自定义纸张尺寸以进行渲染</a></li>
          <li><a href="/cells/zh/net/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/">复印页面设置</a></li>
-         <li><a href="/cells/zh/net/determine-if-paper-size-of-worksheet-is-automatic/">确定工作表的纸张大小是否为自动</a></li>
+         <li><a href="/cells/zh/net/determine-if-paper-size-of-worksheet-is-automatic/">确定工作表的纸张尺寸是否为自动</a></li>
         </ul>
     </div>
     <div class="col-md-6">
-        <p>缩放以适合</p>
+        <p>缩放以适应</p>
         <ul>
 		<li><a href="/cells/zh/net/setting-page-options/#scaling-factor">规模</a></li>
 		<li><a href="/cells/zh/net/setting-page-options/#fittopages-options">宽度和高度</a></li>
@@ -244,12 +246,12 @@ url: /zh/net/developer-guide/
         </ul>
         <p>定义名称</p>
         <ul>
-            <li><a href="/cells/zh/net/create-access-and-copy-named-ranges/">创建访问和复制命名范围</a></li>
+            <li><a href="/cells/zh/net/create-access-and-copy-named-ranges/">创建访问并复制命名范围</a></li>
             <li><a href="/cells/zh/net/setting-formula-for-named-range/">格式化和修改命名范围</a></li>
         </ul>
     </div>
     <div class="col-md-6">
-        <p>配方审核</p>
+        <p>公式审核</p>
         <ul>
             <li><a href="/cells/zh/net/precedents-and-dependents/">先例和家属</a></li>
         </ul>
@@ -271,14 +273,14 @@ url: /zh/net/developer-guide/
 		 <li><a href="/cells/zh/net/modify-existing-sql-data-connection-using-aspose-cells/">使用 Aspose.Cells 修改现有 SQL 数据连接</a></li>
 		 <li><a href="/cells/zh/net/working-with-external-data-connection-of-type-webquery/">使用 WebQuery 类型的外部数据连接</a></li>
         </ul>
-        <p><a href="/cells/zh/net/managing-database-connections/">查询与连接</a></p>
+        <p><a href="/cells/zh/net/managing-database-connections/">查询和连接</a></p>
         <ul>
-		 <li><a href="/cells/zh/net/reading-and-writing-query-table-of-worksheet/">工作表读写查询表</a></li>
+		 <li><a href="/cells/zh/net/reading-and-writing-query-table-of-worksheet/">工作表查询表的读写</a></li>
         </ul>
         <p>种类</p>
         <ul>
          <li><a href="/cells/zh/net/data-sorting/">种类</a></li>
-          <li><a href="/cells/zh/net/specifying-sort-warning-while-sorting-data/">排序数据时指定排序警告</a></li>
+          <li><a href="/cells/zh/net/specifying-sort-warning-while-sorting-data/">指定数据排序时的排序警告</a></li>
         </ul>
          <p>筛选</p>
         <ul>
@@ -305,17 +307,17 @@ url: /zh/net/developer-guide/
 {{< tab tabNum="7" >}}
 <div class="row">
     <div class="col-md-6">
-        <p>注释</p>
+        <p>评论</p>
         <ul>
             <li><a href="/cells/zh/net/add-comment-in-worksheet/">在工作表中添加评论</a></li>
-            <li><a href="/cells/zh/net/manage-comments-in-worksheet/">管理工作表中的评论</a></li>
+            <li><a href="/cells/zh/net/manage-comments-in-worksheet/">管理工作表中的注释</a></li>
             <li><a href="/cells/zh/net/add-a-picture-to-an-excel-comment/">将图片添加到 Excel 注释</a></li>
             <li><a href="/cells/zh/net/how-to-change-the-comment-font-color/">如何更改评论字体颜色</a></li>
             <li><a href="/cells/zh/net/change-text-direction-of-the-comment/">更改评论的文本方向</a></li>
-            <li><a href="/cells/zh/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/">在工作表中设置表格或列表对象的注释</a></li>
-            <li><a href="/cells/zh/net/set-margins-of-comment-or-shape-inside-the-worksheet/">在工作表中设置注释或形状的边距</a></li>
+            <li><a href="/cells/zh/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/">设置工作表内表格或列表对象的注释</a></li>
+            <li><a href="/cells/zh/net/set-margins-of-comment-or-shape-inside-the-worksheet/">设置工作表内注释或形状的边距</a></li>
             <li><a href="/cells/zh/net/disable-downlevel-revealed-comments-while-saving-to/">保存到 HTML 时禁用下层显示评论</a></li>
-            <li><a href="/cells/zh/net/threaded-comments/">线程评论</a></li>
+            <li><a href="/cells/zh/net/threaded-comments/">线索评论</a></li>
         </ul>
     </div>
      <div class="col-md-6">
@@ -366,7 +368,7 @@ url: /zh/net/developer-guide/
 {{< tab tabNum="9" >}}
 <div class="row">
     <div class="col-md-6">
-        <p>控件</p>
+        <p>控制</p>
         <ul>
          <li><a href="/cells/zh/net/workbook-vba-project/">工作簿 VBA 项目</a></li>
         </ul>

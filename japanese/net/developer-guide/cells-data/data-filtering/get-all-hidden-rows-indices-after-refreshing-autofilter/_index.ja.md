@@ -1,22 +1,24 @@
-﻿---
+---
 title: オートフィルターを更新した後にすべての非表示の行インデックスを取得する
 type: docs
 weight: 320
 url: /ja/net/get-all-hidden-rows-indices-after-refreshing-autofilter/
+description: オートフィルターを更新した後に、Aspose.Cells for .NET API を使用してすべての非表示の行インデックスを取得する方法を学習します。
+keywords: Get All Hidden Rows Indices after Refreshing AutoFilter, Obtain All Hidden Rows Indices after Refreshing AutoFilter, Retrieve All Hidden Rows Indices after Refreshing AutoFilter
 ---
-## **考えられる使用シナリオ**
+##  **考えられる使用シナリオ**
 
-ワークシートのセルに自動フィルターを適用すると、一部の行が自動的に非表示になります。ただし、一部の行が Excel エンド ユーザーによって手動で既に非表示にされており、それらが自動フィルターによって非表示にされていない場合があります。したがって、どの行が自動フィルターによって非表示にされ、どの行が Excel エンド ユーザーによって手動で非表示にされているかを知ることが難しくなります。 Aspose.Cells は int[] を使用してこの問題を処理します[**AutoFilter.Refresh(bool hideRows)**](https://reference.aspose.com/cells/net/aspose.cells.autofilter/refresh/methods/1)方法。このメソッドは、自動フィルターによって非表示になり、Excel エンド ユーザーによって手動で非表示にされたすべての行の行インデックスを返します。
+ワークシートのセルに自動フィルターを適用すると、一部の行が自動的に非表示になります。ただし、行の一部がすでに Excel エンド ユーザーによって手動で非表示になっており、自動フィルターによって非表示になっていない場合もあります。したがって、どの行が自動フィルターによって非表示になっているのか、どの行が Excel エンド ユーザーによって手動で非表示になっているのかを知ることが困難になります。 Aspose.Cells は int[] を使用してこの問題に対処しています。[**AutoFilter.Refresh(bool HideRows)**](https://reference.aspose.com/cells/net/aspose.cells.autofilter/refresh/methods/1)方法。このメソッドは、Excel エンド ユーザーが手動で非表示にしたのではなく、自動フィルターによって非表示になったすべての行の行インデックスを返します。
 
-## **オートフィルターを更新した後にすべての非表示の行インデックスを取得する**
+##  **オートフィルターを更新した後にすべての非表示の行インデックスを取得する**
 
-をロードする次のサンプル コードを参照してください。[サンプル Excel ファイル](64716909.xlsx)これには、Excel エンド ユーザーによって手動で非表示にされた行が含まれています。コードは自動フィルターを適用し、int[] を使用して更新します[**AutoFilter.Refresh(bool hideRows)**](https://reference.aspose.com/cells/net/aspose.cells.autofilter/refresh/methods/1)自動フィルターによってすべての非表示行の行インデックスを返すメソッド。次に、非表示の行のインデックスをセルの名前と値とともにコンソールに出力します。
+をロードする次のサンプルコードを参照してください。[サンプル Excel ファイル](64716909.xlsx)これには、Excel エンド ユーザーが手動で非表示にした行の一部が含まれています。このコードは自動フィルターを適用し、int[] を使用してフィルターを更新します。[**AutoFilter.Refresh(bool HideRows)**](https://reference.aspose.com/cells/net/aspose.cells.autofilter/refresh/methods/1)自動フィルターによって非表示になっているすべての行の行インデックスを返すメソッド。次に、非表示の行のインデックスをセル名と値とともにコンソールに出力します。
 
-## **サンプルコード**
+##  **サンプルコード**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-GetAllHiddenRowsIndicesAfterRefreshingAutoFilter.cs" >}}
 
-## **コンソール出力**
+##  **コンソール出力**
 
 {{< highlight "java" >}}
 

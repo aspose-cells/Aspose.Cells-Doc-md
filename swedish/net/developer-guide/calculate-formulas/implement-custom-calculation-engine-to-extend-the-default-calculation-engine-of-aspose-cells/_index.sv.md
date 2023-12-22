@@ -1,10 +1,12 @@
-﻿---
+---
 title: Implementera Custom Calculation Engine för att utöka standardberäkningsmotorn för Aspose.Cells
+description: Den här artikeln beskriver hur du utökar standardberäkningsmotorn genom att implementera en anpassad beräkningsmotor med Aspose.Cells-biblioteket. Genom att ladda en befintlig Excel-fil eller skapa en ny kan vi använda metoderna som tillhandahålls av Aspose.Cells för att implementera en anpassad beräkningsmotor och få resultaten. Slutligen sparar vi den modifierade Excel-filen på disken.
+keywords: Aspose.Cells, Excel, Custom Calculation Engine, extends the default calculation engine
 type: docs
 weight: 80
 url: /sv/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/
 ---
-## **Implementera Custom Calculation Engine**
+##  **Implementera Custom Calculation Engine**
 
 Aspose.Cells har en kraftfull beräkningsmotor som kan beräkna nästan alla Microsoft Excel-formler. Trots detta låter den dig också utöka standardberäkningsmotorn som ger dig större kraft och flexibilitet.
 
@@ -14,25 +16,17 @@ Följande egenskap och klasser används för att implementera denna funktion.
 - **[AbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine)**
 - **[CalculationData](https://reference.aspose.com/cells/net/aspose.cells/calculationdata)**
 
-Följande kod implementerar Custom Calculation Engine. Den implementerar gränssnittet**[AbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine)** som har en**[Calculate(CalculationData data)](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/methods/calculate)** metod. Denna metod kallas mot alla dina formler. Inuti denna metod fångar vi**Belopp** formeln och ökar dess värde med 30. Så om det beräknade värdet Aspose.Cells är 20, kommer vår anpassade motor att göra det till 50 genom att lägga till 30.
+Följande kod implementerar Custom Calculation Engine. Den implementerar gränssnittet**[AbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine)** som har en**[Calculate(CalculationData data)](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/methods/calculate)** metod. Denna metod kallas mot alla dina formler. Inuti denna metod fångar vi**TODAY** funktion och lägg till en dag till systemdatumet. Så om det aktuella datumet är 27/07/2023, kommer den anpassade motorn att beräkna TODAY() som 28/07/2023.
 
-### **Programmeringsexempel**
+###  **Programmeringsexempel**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ImplementCustomCalculationEngine-ImplementCustomCalculationEngine.cs" >}}
 
-### **Konsolutgång**
+###  **Resultat**
 
-Här är konsolutgången för ovanstående exempelkod.
+Kontrollera konsolutgången för ovanstående exempelkod, värdet (datumtid) för A1 med anpassad motor bör vara en dag senare än resultatet utan anpassad motor.
 
-{{< highlight "java" >}}
-
-Without Custom Engine Value of A1: 20
-
-With Custom Engine Value of A1: 50
-
-{{< /highlight >}}
-
-### **Relaterad artikel**
+###  **Relaterad artikel**
 
 {{% alert color="primary" %}}
 

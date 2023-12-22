@@ -1,4 +1,4 @@
-﻿---
+---
 title: Componenti dell'interfaccia utente
 second_title: Aspose.Cells.GridWeb
 type: docs

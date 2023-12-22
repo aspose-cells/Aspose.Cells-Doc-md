@@ -1,16 +1,18 @@
-﻿---
+---
 title: Ställ in texten i diagramförklaringsinmatningen till ingen med Aspose.Cells
+description: Lär dig hur du använder Aspose.Cells for .NET för att ställa in texten i en diagramförklaringsinmatning till ingen. Vår guide kommer att visa hur man ändrar fyllningsfärgen för förklaringsposter i Microsoft Excel-diagram för bättre visualisering och anpassning.
+keywords: Aspose.Cells for .NET, Chart Legend Entry Fill, Microsoft Excel, Visualization, Customization.
 type: docs
 weight: 320
 url: /sv/net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/
 ---
 {{% alert color="primary" %}}
 
- Om du vill ställa in texten i diagrammets förklaringspost fyll till ingen så att den inte ska visas i diagramförklaringen, ställ in[**LegendEntry.IsTextNoFill**](https://reference.aspose.com/cells/net/aspose.cells.charts/legendentry/properties/istextnofill) till**Sann**.
+ Om du vill ställa in texten i diagrammets förklaringspost fyll till ingen så att den inte ska visas i diagramförklaringen, ställ in[**LegendEntry.IsTextNoFill**](https://reference.aspose.com/cells/net/aspose.cells.charts/legendentry/properties/istextnofill) till *sant**.
 
 {{% /alert %}}
 
- Följande exempelkod ställer in texten i diagrammets andra förklaringspostfyllning till ingen. Vänligen ladda ner[exempel på excel-fil](5115219.xlsx) används i den här koden och[output excel-fil](5115217.xlsx) genereras av den för din referens.
+Följande exempelkod ställer in texten i diagrammets andra förklaringspostfyllning till ingen. Vänligen ladda ner[exempel på excel-fil](5115219.xlsx) används i den här koden och[output excel-fil](5115217.xlsx) genereras av den för din referens.
 
 Följande skärmdump belyser effekten av denna kod på[exempel på excel-fil](5115219.xlsx).
 

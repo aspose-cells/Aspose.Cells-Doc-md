@@ -3,6 +3,8 @@ title: Skaffa Cells Range
 type: docs
 weight: 600
 url: /sv/net/get-cells-range/
+description: Lär dig hur du får Cells Range genom Aspose.Cells for .NET API.
+keywords: Get Max Display Range of Cells, Get Max Row of Cells, Get Max Data Row of Cells, Get Max Column of Cells, Get Max Data Column of Cells. 
 ---
 ##  **Möjliga användningsscenarier**
 När du bara behöver manipulera vissa data på kalkylbladet måste du känna till dataintervallet för hela kalkylbladet. Aspose.Cells erbjuder denna funktion. Aspose.Cells tillhandahåller följande egenskaper och metoder för att hjälpa dig att uppnå dina mål.

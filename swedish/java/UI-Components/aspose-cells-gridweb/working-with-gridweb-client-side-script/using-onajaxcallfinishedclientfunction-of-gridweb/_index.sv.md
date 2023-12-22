@@ -1,18 +1,18 @@
-﻿---
+---
 title: Använda OnAjaxCallFinishedClientFunction av GridWeb
 type: docs
 weight: 20
 url: /sv/java/using-onajaxcallfinishedclientfunction-of-gridweb/
 ---
-## **Möjliga användningsscenarier**
+##  **Möjliga användningsscenarier**
 OnAjaxCallFinishedClientFunction är en funktion på klientsidan som anropas när användaren kopierar vissa data till GridWeb-kalkylbladet. Den här funktionen är användbar när en stor del av cellerna uppdateras och du vill hålla koll på de uppdaterade cellerna på klientsidan (dvs i webbläsare som FireFox, Google Chrome etc.).
-## **Använda OnAjaxCallFinishedClientFunction av GridWeb**
+##  **Använda OnAjaxCallFinishedClientFunction av GridWeb**
 Följande exempelkod förklarar hur du använder OnAjaxCallFinishedClientFunction-klientfunktionen. Skärmbilderna visar konsolutgången i Google Chrome och FireFox när koden exekveras. När du har kört koden, kopiera/klistra in lite data som spänner över flera celler i GridWeb-arbetsbladet och kontrollera sedan webbläsarkonsolen som visas i skärmdumpar.
-## **Google Chrome Console-utgång**
+##  **Google Chrome Console-utgång**
 ![todo:image_alt_text](using-onajaxcallfinishedclientfunction-of-gridweb_1.png)
-## **FireFox-konsolutgång**
+##  **FireFox-konsolutgång**
 ![todo:image_alt_text](using-onajaxcallfinishedclientfunction-of-gridweb_2.png)
-## **Exempelkod**
+##  **Exempelkod**
 {{< highlight "java" >}}
 
  <%@page language="java" contentType="text/html; charset=UTF-8" import="com.aspose.gridweb.*"  pageEncoding="UTF-8"%>

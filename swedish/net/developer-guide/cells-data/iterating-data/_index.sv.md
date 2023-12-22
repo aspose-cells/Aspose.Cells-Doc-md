@@ -1,9 +1,11 @@
-﻿---
+---
 title: Hur och var man använder enumerators
 linktitle: Iterera data
 type: docs
 weight: 55
 url: /sv/net/how-and-where-to-use-enumerators/
+description: Lär dig hur och var du använder enumerators via Aspose.Cells for .NET API.
+keywords: How to use Enumerators, Cells Enumerator, Rows Enumerator, Columns Enumerator
 ---
 {{% alert color="primary" %}}
 
@@ -17,9 +19,9 @@ Aspose.Cells API:er tillhandahåller ett gäng uppräknare, men den här artikel
 
 {{% /alert %}}
 
-## **Hur man använder Enumerators**
+##  **Hur man använder Enumerators**
 
-### **Cells Enumerator**
+###  **Cells Enumerator**
 
 Det finns olika sätt att komma åt Cells Enumerator, och man kan använda vilken som helst av dessa metoder baserat på applikationskraven. Här är metoderna som returnerar celluppräkningen.
 
@@ -39,19 +41,19 @@ Följande kodexempel visar implementeringen av IEnumerator-gränssnittet för en
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-CellsEnumerator.cs" >}}
 
-### **Raduppräkning**
+###  **Raduppräkning**
 
  Rows Enumerator kan nås när du använder[**RowCollection.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/rowcollection/methods/getenumerator) metod. Följande kodexempel visar implementeringen av IEnumerator-gränssnittet för[**RowCollection**](https://reference.aspose.com/cells/net/aspose.cells/rowcollection).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-RowEnumerator.cs" >}}
 
-### **Kolumnuppräkning**
+###  **Kolumnuppräkning**
 
  Kolumnuppräkningen kan nås när du använder[**ColumnCollection.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/columncollection) metod. Följande kodexempel visar implementeringen av IEnumerator-gränssnittet för[**Kolumnsamling**](https://reference.aspose.com/cells/net/aspose.cells/columncollection).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-ColumnEnumerator.cs" >}}
 
-## **Var kan man använda Enumerators**
+##  **Var kan man använda Enumerators**
 
 För att diskutera fördelarna med att använda uppräknare, låt oss ta ett exempel i realtid.
 
@@ -59,21 +61,21 @@ För att diskutera fördelarna med att använda uppräknare, låt oss ta ett exe
 
  Ett applikationskrav är att korsa alla celler i en given[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)att läsa deras värderingar. Det kan finnas flera sätt att genomföra detta mål. Några få visas nedan.
 
-### **Använda visningsintervall**
+###  **Använda visningsintervall**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-UsingDisplayRange.cs" >}}
 
-### **Använda MaxDataRow & MaxDataColumn**
+###  **Använda MaxDataRow & MaxDataColumn**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-UsingMaxDataRowAndMaxDataColumn.cs" >}}
 
 Som du kan observera att båda de ovan nämnda tillvägagångssätten använder mer eller mindre liknande logik, det vill säga; loop över alla celler i samlingen för att läsa cellvärdena. Detta kan vara problematiskt av ett antal skäl som diskuteras nedan.
 
 1.  API:er som t.ex[**MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxrow), [**MaxDataRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatarow), [**MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxcolumn), [**MaxDataColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatacolumn) & [**MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange)kräver extra tid för att samla in motsvarande statistik. Om datamatrisen (rader x kolumner) är stor, kan användningen av dessa API:er innebära en prestationsstraff.
-1. I de flesta fall instansieras inte alla celler i ett givet intervall. I sådana situationer är det inte så effektivt att kontrollera varje cell i matrisen jämfört med att kontrollera endast de initialiserade cellerna.
+1. de flesta fall instansieras inte alla celler i ett givet intervall. I sådana situationer är det inte så effektivt att kontrollera varje cell i matrisen jämfört med att kontrollera endast de initialiserade cellerna.
 1. Åtkomst till en cell i en loop som Cells rad, kolumn gör att alla cellobjekt i ett intervall instansieras, vilket så småningom kan orsaka OutOfMemoryException.
 
-## **Slutsats**
+##  **Slutsats**
 
 Baserat på ovan nämnda fakta är följande möjliga scenarier där uppräknare bör användas.
 

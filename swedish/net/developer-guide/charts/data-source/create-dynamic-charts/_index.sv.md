@@ -1,5 +1,7 @@
-﻿---
+---
 title: Skapa dynamiska diagram
+description: Lär dig hur du skapar dynamiska diagram i Aspose.Cells for .NET. Vår guide visar dig hur du dynamiskt uppdaterar diagramdata, serier och formatering baserat på dina krav, så att du kan presentera ändrad data visuellt i dina kalkylblad.
+keywords: Aspose.Cells for .NET, charting, dynamic charts, data, series, formatting, worksheets, updating.
 type: docs
 weight: 240
 url: /sv/net/create-dynamic-charts/
@@ -12,15 +14,15 @@ Den här artikeln visar användningen av Aspose.Cells for .NET API:er för att s
 
 {{% /alert %}}
 
-## **Använda Excel-tabeller**
+##  **Använda Excel-tabeller**
 
 {{% alert color="primary" %}}
 
- Excel-tabeller hänvisas till som ListObjects i Aspose.Cells' perspektiv, därför kommer vi att använda termen "ListObject" istället för "Tabell" för tydlighetens skull. Läs i detalj hur du gör[skapa ListObjects](/cells/sv/net/create-and-format-table/) med Aspose.Cells for .NET API.
+ Excel-tabeller hänvisas till som ListObjects i Aspose.Cells' perspektiv, därför kommer vi att använda termen "ListObject" istället för "Tabell" för tydlighetens skull. Läs i detalj hur du gör[skapa ListObjects](/cells/sv/net/create-and-format-table/)med Aspose.Cells for .NET API.
 
 {{% /alert %}}
 
- ListObjects tillhandahåller den inbyggda funktionen för att sortera och filtrera data vid användarinteraktion. Både sorterings- och filtreringsalternativ tillhandahålls via rullgardinslistorna som automatiskt läggs till i rubrikraden i[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) . På grund av dessa funktioner (sortering och filtrering),[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)verkar vara den perfekta kandidaten för att fungera som datakälla för ett dynamiskt diagram eftersom när sortering eller filtrering ändras kommer representationen av data i diagrammet att ändras för att återspegla det aktuella tillståndet för[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject).
+ ListObjects tillhandahåller den inbyggda funktionen för att sortera och filtrera data vid användarinteraktion. Både sorterings- och filtreringsalternativ tillhandahålls via rullgardinslistorna som automatiskt läggs till i rubrikraden i[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) . På grund av dessa funktioner (sortering och filtrering),[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) verkar vara den perfekta kandidaten för att fungera som datakälla för ett dynamiskt diagram eftersom när sortering eller filtrering ändras kommer representationen av data i diagrammet att ändras för att återspegla det aktuella tillståndet för[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject).
 
  För att hålla demonstrationen enkel att förstå kommer vi att skapa[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook)från början och gå framåt steg för steg enligt beskrivningen nedan.
 
@@ -33,9 +35,9 @@ Den här artikeln visar användningen av Aspose.Cells for .NET API:er för att s
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreateDynamicCharts-CreateDynamicCharts.cs" >}}
 
-## **Använda dynamiska formler**
+##  **Använda dynamiska formler**
 
- Om du inte vill använda[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)som en datakälla till det dynamiska diagrammet är det andra alternativet att använda Excel-funktioner (eller formler) för att skapa ett dynamiskt dataområde, och en kontroll (som ComboBox) för att utlösa dataändringen. I det här scenariot kommer vi att använda VLOOKUP-funktionen för att hämta lämpliga värden baserat på valet av ComboBox. När valet ändras, uppdaterar funktionen VLOOKUP cellens värde. Om ett cellintervall använder funktionen VLOOKUP, kan hela intervallet uppdateras vid användarinteraktion, därför kan det användas som en källa till det dynamiska diagrammet.
+Om du inte vill använda[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)som en datakälla till det dynamiska diagrammet är det andra alternativet att använda Excel-funktioner (eller formler) för att skapa ett dynamiskt dataområde, och en kontroll (som ComboBox) för att utlösa dataändringen. I det här scenariot kommer vi att använda VLOOKUP-funktionen för att hämta lämpliga värden baserat på valet av ComboBox. När valet ändras, uppdaterar funktionen VLOOKUP cellens värde. Om ett cellintervall använder funktionen VLOOKUP, kan hela intervallet uppdateras vid användarinteraktion, därför kan det användas som en källa till det dynamiska diagrammet.
 
 För att hålla demonstrationen enkel att förstå kommer vi att skapa arbetsboken från början och gå vidare steg för steg enligt beskrivningen nedan.
 

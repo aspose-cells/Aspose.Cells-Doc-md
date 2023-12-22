@@ -1,9 +1,11 @@
-﻿---
+---
 title: Lägger till HTML Rich Text i Cell
 linktitle: Html-strängvärde
 type: docs
 weight: 50
 url: /sv/net/adding-html-rich-text-inside-the-cell/
+description: Lär dig hur du lägger till HTML Rich Text i Cell till Aspose.Cells for .NET API.
+keywords: Add HTML Rich Text inside the Cell, Set HTML Rich Text inside the Cell, Add HTML Rich Text in the Cell
 ---
 {{% alert color="primary" %}}
 
@@ -19,7 +21,7 @@ Nedan kodexempel visar hur du lägger till HTML rich text inuti cellen. Se skär
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-AddingHTMLRichTextInCell-AddingHTMLRichTextInCell.cs" >}}
 
-## relaterade artiklar
+##  relaterade artiklar
 
 - [Visa punkter genom att ställa in Cell Värde med HTML](/cells/sv/net/display-bullets-by-setting-cell-value-using/)
 - [Hämta HTML5-sträng från Cell](/cells/sv/net/get-html5-string-from-cell/)

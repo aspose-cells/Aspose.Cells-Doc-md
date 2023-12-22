@@ -1,14 +1,16 @@
-﻿---
-title: Autoajustar filas y columnas en Python
+---
+title: Autoajuste de filas y columnas en Python
 type: docs
 weight: 20
 url: /es/java/autofit-rows-and-columns-in-python/
+description: Aprenda a ajustar automáticamente filas y columnas a través de Aspose.Cells for Python a través de Java API.
+keywords: How to Autofit Rows and Columns in Python Via Java, Autofit Rows Data in workbook using Python Via Java, Python Via Java Autofit Columns Data. 
 ---
-## **Aspose.Cells - Autoajustar filas y columnas**
-### **Autoajustar fila**
-El enfoque más sencillo para cambiar automáticamente el tamaño del ancho y el alto de una fila es llamar al método autoFitRow de la clase Worksheet. El método autoFitRow toma un índice de fila (de la fila a redimensionar) como parámetro.
+##  **Cómo ajustar automáticamente filas y columnas**
+###  **Cómo ajustar automáticamente la fila**
+El enfoque más sencillo para ajustar automáticamente el tamaño del ancho y alto de una fila es llamar al método autoFitRow de la clase Worksheet. El método autoFitRow toma un índice de fila (de la fila cuyo tamaño se va a cambiar) como parámetro.
 
-**Código Python**
+**Python Código**
 
 {{< highlight "python" >}}
 
@@ -39,10 +41,10 @@ workbook.save(self.dataDir + "Autofit Row.xls")
 print "Autofit Row Successfully." 
 
 {{< /highlight >}}
-### **Columna de ajuste automático**
-La forma más fácil de cambiar automáticamente el tamaño del ancho y el alto de una columna es llamar al método autoFitColumn de la clase Worksheet. El método autoFitColumn toma el índice de la columna (de la columna que se va a cambiar de tamaño) como parámetro.
+###  **Cómo ajustar automáticamente la columna**
+La forma más sencilla de ajustar automáticamente el tamaño del ancho y el alto de una columna es llamar al método autoFitColumn de la clase Worksheet. El método autoFitColumn toma el índice de la columna (de la columna a punto de cambiar de tamaño) como parámetro.
 
-**Código Python**
+**Python Código**
 
 {{< highlight "python" >}}
 
@@ -73,7 +75,7 @@ workbook.save(self.dataDir + "Autofit Column.xls")
 print "Autofit Column Successfully." 
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
-Descargar**Autoajustar filas y columnas (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+##  **Descargar código de ejecución**
+Descargar**Autoajuste de filas y columnas (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Компоненты пользовательского интерфейса
 second_title: Aspose.Cells.GridWeb
 type: docs

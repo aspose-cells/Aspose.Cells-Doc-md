@@ -9,16 +9,16 @@ keywords: formula function calculate
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells Las API admiten la mayoría de las funciones estándar y la fórmula integrada de Excel. A continuación, puede encontrar todas las funciones admitidas en orden alfabético.
+Aspose.Cells Las API admiten la mayoría de las funciones estándar y la fórmula integrada de Excel. A continuación, puede encontrar todas las funciones compatibles en orden alfabético.
 
 | | | | | | | | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **[Automóvil club británico)** | **[Cama y desayuno)** | **[C](#c)** | **[D](#d)** | **[E](#e)** | **[F](#f)** | **[G](#g)** | **[S.S)** | **[yo](#i)** | **[J](#j)** | **[K](#k)** | **[L](#l)** | **[M](#m)** |
-| **[N](#n)** | **[O](#o)** | **[Páginas)** | **[Q](#q)** | **[R](#r)** | **[S](#s)** | **[T](#t)** | **[U](#u)** | **[V](#v)** | **[W](#w)** | **[X](#x)** | **[A](#a)** | **[Z](#z)** |
+| **[Automóvil club británico)** | **[Cama y desayuno)** | **[C](#c)** | **[D](#d)** | **[E](#e)** | **[F](#f)** | **[G](#g)** | **[S.S)** | **[yo](#yo)** | **[J](#j)** | **[K](#k)** | **[L](#l)** | **[M](#m)** |
+| **[N](#n)** | **[O](#o)** | **[Páginas)** | **[Q](#q)** | **[R](#r)** | **[S](#s)** | **[T](#t)** | **[U](#u)** | **[V](#v)** | **[W](#w)** | **[X](#x)** | **[Y](#y)** | **[Z](#z)** |
 
 {{% /alert %}}
 
-Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular los resultados de las siguientes fórmulas y funciones.
+Aspose.Cells' El motor de cálculo de fórmulas le permite configurar, leer y calcular los resultados de las siguientes fórmulas y funciones.
 
 ######  *A**
 |**Función**|**Resumen**|
@@ -32,6 +32,7 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 |AGGREGATE|
 |AMORDEGRC|
 |AMORLINC|
+|ANCHORARRAY|
 |AND|
 |AREAS|
 |ASC|
@@ -54,9 +55,9 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 |BESSELK|
 |BESSELY|
 |BETADIST|
-|DISTR.BETA.|
+|DISTR.BETA|
 |BETAINV|
-|INV.BETA|
+|BETA.INV|
 |BIN2DEC|
 |BIN2HEX|
 |BIN2OCT|
@@ -72,17 +73,17 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 |**Función**|**Resumen**|
 | :- | :- |
 |CEILING|
-|MATEMÁTICAS DE TECHO|
-|TECHO. PRECISO|
+|TECHO.MATEMÁTICAS|
+|TECHO.PRECISO|
 |CELL|
 |CHAR|
 |CHIDIST|
 |CHIINV|
 |CHITEST|
-|DISTR.CHICUAD.|
-|DISTR.CHICUAD.RT|
+|DISTR.CHISQ|
+|DISTRITO.CHISQ.RT|
 |CHISQ.INV.RT|
-|PRUEBA CHISQ.|
+|PRUEBA CHISQ|
 |CHOOSE|
 |CHOOSECOLS|
 |CHOOSEROWS|
@@ -113,7 +114,7 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 |COUPPCD|
 |COVAR|
 |COVARIANZA.P|
-|COVARIANZA.S|
+|COVARIANCIA.S|
 |CRITBINOM|
 |CUMIPMT|
 |CUMPRINC|
@@ -158,10 +159,11 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 | :- | :- |
 |EDATE|
 |EFFECT|
+|ENCODEURL|
 |EOMONTH|
 |ERF|
 |ERFC|
-|TIPO.ERROR|
+|TIPO DE ERROR|
 |EVEN|
 |EXACT|
 |EXP|
@@ -175,7 +177,7 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 |FALSE|
 |DISTR.F.|
 |FDIST|
-|DISTR.F.RT|
+|F.DIST.RT|
 |FILTER|
 |FIND|
 |FINDB|
@@ -198,7 +200,7 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 | :- | :- |
 |DISTR.GAMMA|
 |GAMMADIST|
-|INV.GAMMA|
+|GAMMA.INV|
 |GAMMAINV|
 |GAMMALN|
 |GCD|
@@ -218,7 +220,7 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 |HOUR|
 |HSTACK|
 |HYPERLINK|
-|DISTR.HIPGEOM|
+|DISTRIBUCIÓN HYPGEOM|
 |HYPGEOMDIST|
 
 ######  *I**
@@ -256,6 +258,7 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 |ISERR|
 |ISERROR|
 |ISEVEN|
+|ISFORMULA|
 |ISLOGICAL|
 |ISNA|
 |ISNONTEXT|
@@ -274,12 +277,14 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 ######  *L**
 |**Función**|**Resumen**|
 | :- | :- |
+|LAMBDA|
 |LARGE|
 |LCM|
 |LEFT|
 |LEFTB|
 |LEN|
 |LENB|
+|LET|
 |LINEST|
 |LN|
 |LOG|
@@ -295,6 +300,8 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 ######  *METRO**
 |**Función**|**Resumen**|
 | :- | :- |
+|MAKEARRAY|
+|MAP|
 |MATCH|
 |MAX|
 |MAXA|
@@ -324,18 +331,18 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 | :- | :- |
 |N|
 |NA|
-|DISTR.BINOM.NEG|
+|DISTR.NEGBINOM.|
 |NEGBINOMDIST|
 |NETWORKDAYS|
-|DIAS.RED.INTL|
+|NETWORKDAYS.INTL|
 |NOMINAL|
-|DISTR.NORM|
+|DISTR.NORM.|
 |NORMDIST|
 |NORMINV|
-|INV.NORM|
-|NORM.S.DIST|
+|INV.NORMA|
+|DISTR.NORMA.S.|
 |NORMSDIST|
-|INV.NORM.S.|
+|NORMAS.INV.S.|
 |NORMSINV|
 |NOT|
 |NOW|
@@ -364,8 +371,8 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 |PERCENTIL.EXC|
 |PERCENTIL.INC|
 |PERCENTILE|
-|RANGO PORCENTUAL.EXC|
-|RANGO.PERCENTIL.INC|
+|RANGO PORCENTAJE.EXC|
+|PERCENTRANK.INC|
 |PERCENTRANK|
 |PERMUT|
 |PI|
@@ -387,7 +394,7 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 | :- | :- |
 |QUARTILE|
 |CUARTIL.EXC|
-|CUARTIL.INC|
+|CUARTILO.INC|
 |QUOTIENT|
 
 ######  *R**
@@ -418,6 +425,7 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 ######  *S**
 |**Función**|**Resumen**|
 | :- | :- |
+|SCAN|
 |SEARCH|
 |SEARCHB|
 |SECOND|
@@ -428,6 +436,7 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 |SIGN|
 |SIN|
 |SINH|
+|SINGLE|
 |SKEW|
 |SLN|
 |SLOPE|
@@ -482,17 +491,18 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 |TRIMMEAN|
 |TRUE|
 |TRUNC|
-|PRUEBA T|
+|T.PRUEBA|
 |TTEST|
 |TYPE|
 
-######  *T**
+######  *U**
 |**Función**|**Resumen**|
 | :- | :- |
 |UNICHAR|
 |UNICODE|
 |UNIQUE|
 |UPPER|
+|USDOLLAR|
 
 ######  *V**
 |**Función**|**Resumen**|
@@ -508,13 +518,13 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 |VLOOKUP|
 |VSTACK|
 
-######  *M**
+######  *W**
 |**Función**|**Resumen**|
 | :- | :- |
 |WEEKDAY|
 |WEEKNUM|
 |WEIBULL|
-|DISTR.WEIBULL|
+|DISTRIBUCIÓN WEIBULL|
 |WORKDAY|
 |DÍA LABORAL.INTL|
 
@@ -525,7 +535,7 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 |XLOOKUP|
 |XNPV|
 
-######  *Y**
+######  *Sí**
 |**Función**|**Resumen**|
 | :- | :- |
 |YEAR|

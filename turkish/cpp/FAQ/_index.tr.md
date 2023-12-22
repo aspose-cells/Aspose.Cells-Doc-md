@@ -1,13 +1,17 @@
-﻿---
-title: SSS
+---
+title: FAQ
 type: docs
 weight: 100
 url: /tr/cpp/faq/
 ---
-## **Şifreleme ve şifre çözme artık Aspose.Cells for C++ için desteklenmiyor**
-Artık şifreleme ve şifre çözme Aspose.Cells for C++ için desteklenmiyor, bu nedenle bir dosyayı parola ile açmak isterseniz kod istisna atacaktır.
+##  **Henüz değil**
+
+<!--
+## **Encryption and decryption are not supported for Aspose.Cells for C++ now**
+Now, encryption and decryption are not supported for Aspose.Cells for C++, so if you want to open a file with password the code will throw exception.
 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CPP-OpenFile-with-Password.cpp" >}}
+-->
 

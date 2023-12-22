@@ -1,5 +1,7 @@
-﻿---
+---
 title: Anpassade segment- eller sektorfärger i cirkeldiagram
+description: Lär dig hur du använder Aspose.Cells for .NET för att anpassa segment- och sektorfärger i ett cirkeldiagram. Vår guide kommer att visa hur man tilldelar unika färger till varje skiva, sektor eller legion för förbättrad visuell attraktion och datarepresentation.
+keywords: Aspose.Cells for .NET, Pie Chart, Custom Slice Colors, Custom Sector Colors, Visual Appeal, Data Representation.
 type: docs
 weight: 60
 url: /sv/net/custom-slice-or-sector-colors-in-pie-chart/
@@ -13,7 +15,7 @@ Den här artikeln förklarar hur du lägger till anpassade färger till cirkeldi
 Så här ställer du in en anpassad färg för ett cirkeldiagrams enskilda segment eller sektorer:
 
 1.  Få tillgång till[**Serier**](https://reference.aspose.com/cells/net/aspose.cells.charts/series) föremål[**ChartPoint**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint).
-1.  Tilldela den färg du väljer med hjälp av[**ChartPoint.Area.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells.drawing/area/properties/foregroundcolor)fast egendom.
+1. Tilldela den färg du väljer med hjälp av[**ChartPoint.Area.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells.drawing/area/properties/foregroundcolor)fast egendom.
 
 Den här artikeln förklarar också hur du:
 

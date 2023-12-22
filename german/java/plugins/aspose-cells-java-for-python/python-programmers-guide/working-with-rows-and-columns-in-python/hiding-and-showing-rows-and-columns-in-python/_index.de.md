@@ -1,12 +1,14 @@
-﻿---
-title: Ausblenden und Anzeigen von Zeilen und Spalten in Python
+---
+title: Ein- und Ausblenden von Zeilen und Spalten in Python
 type: docs
 weight: 50
 url: /de/java/hiding-and-showing-rows-and-columns-in-python/
+description: Erfahren Sie, wie Sie Zeilen und Spalten über Aspose.Cells for Python über Java API ein- und ausblenden.
+keywords: How to Hide and Show Rows and Columns in Python Via Java, Hide Rows and Columns using Python Via Java, Python Via Java Show Rows and Columns. 
 ---
-## **Aspose.Cells – Steuern der Sichtbarkeit von Zeilen und Spalten**
-### **Zeilen und Spalten ausblenden**
-Entwickler können eine Zeile oder Spalte ausblenden, indem sie die Methoden HideRow und HideColumn der Sammlung Cells aufrufen. Beide Methoden verwenden den Zeilen-/Spaltenindex als Parameter, um die bestimmte Zeile oder Spalte auszublenden.
+##  **Aspose.Cells – Steuern der Sichtbarkeit von Zeilen und Spalten**
+###  **So blenden Sie Zeilen und Spalten aus**
+Entwickler können eine Zeile oder Spalte ausblenden, indem sie die Methoden HideRow bzw. HideColumn der Sammlung Cells aufrufen. Beide Methoden verwenden den Zeilen-/Spaltenindex als Parameter, um die spezifische Zeile oder Spalte auszublenden.
 
 **Ruby-Code**
 
@@ -39,11 +41,11 @@ workbook.save(self.dataDir + "Hide Rows And Columns.xls")
 print "Hide Rows And Columns Successfully." 
 
 {{< /highlight >}}
-### **Zeilen und Spalten anzeigen**
-Entwickler können jede ausgeblendete Zeile oder Spalte sichtbar machen, indem sie die Methoden UnhideRow und UnhideColumn der Sammlung Cells aufrufen. Beide Methoden nehmen zwei Parameter:
+###  **So zeigen Sie Zeilen und Spalten an**
+Entwickler können jede ausgeblendete Zeile oder Spalte einblenden, indem sie die Methoden UnhideRow bzw. UnhideColumn der Sammlung Cells aufrufen. Beide Methoden benötigen zwei Parameter:
 
-- **Rowor-Spaltenindex**- der Index einer Zeile oder Spalte, der verwendet wird, um die bestimmte Zeile oder Spalte anzuzeigen.
-- **Zeilenhöhe oder Spaltenbreite**- die Zeilenhöhe oder Spaltenbreite, die der Zeile oder Spalte zugewiesen wird, nachdem sie angezeigt wurde.
+- **Zeilen- oder Spaltenindex**– der Index einer Zeile oder Spalte, der zur Anzeige der jeweiligen Zeile oder Spalte verwendet wird.
+- **Zeilenhöhe oder Spaltenbreite**– die Zeilenhöhe oder Spaltenbreite, die der Zeile oder Spalte nach der Anzeige zugewiesen wird.
 
 **Ruby-Code**
 
@@ -76,7 +78,7 @@ workbook.save(self.dataDir + "Unhide Rows And Columns.xls")
 print "Unhide Rows And Columns Successfully." 
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Steuern der Sichtbarkeit von Zeilen und Spalten (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+##  **Laden Sie Running Code herunter**
+ Herunterladen**Steuern der Sichtbarkeit von Zeilen und Spalten (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

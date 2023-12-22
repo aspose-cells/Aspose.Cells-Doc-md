@@ -1,23 +1,23 @@
-﻿---
-title: 许可
+---
+title: Licensing
 type: docs
 weight: 50
 url: /zh/cpp/licensing/
 ---
-## **评估版限制**
-可以从 Aspose 网站的下载部分下载 Aspose.Cells for C++ 的免费评估版：<https://downloads.aspose.com/cells/cpp>.
-## **使用文件或流对象申请许可证**
-许可证可以从文件或流对象中加载。 Aspose.Cells for C++ 将尝试在以下位置查找许可证：
+##  **评估版限制**
+Aspose.Cells for C++ 的免费评估版可以从 Aspose 网站的下载部分下载：<https://downloads.aspose.com/cells/cpp>.
+##  **使用文件或流对象应用许可证**
+可以从文件或流对象加载许可证。 Aspose.Cells for C++ 将尝试在以下位置查找许可证：
 
 1. 显式路径。
 1. 包含 Aspose.Cells.dll 的文件夹。
-1. 包含调用 Aspose.Cells.dll 的程序集的文件夹。
-1. 包含入口程序集（您的 .exe）的文件夹。
-1. 称为 Aspose.Cells.dll 的程序集中的嵌入式资源。
+1. 包含名为 Aspose.Cells.dll 的程序集的文件夹。
+1. 包含条目程序集（您的 .exe）的文件夹。
+1. 程序集中名为 Aspose.Cells.dll 的嵌入资源。
 
-设置许可证最简单的方法是将许可证文件放在与 Aspose.Cells.dll 文件相同的文件夹中，并指定文件名，不带路径，如下例所示。
-### **从文件加载许可证**
-申请许可证最简单的方法是将许可证文件放在与 Aspose.Cells.dll 文件相同的文件夹中，并仅指定文件名而不指定路径。
+设置许可证的最简单方法是将许可证文件放在与 Aspose.Cells.dll 文件相同的文件夹中，并指定文件名（不带路径），如下例所示。
+###  **从文件加载许可证**
+应用许可证的最简单方法是将许可证文件放在与 Aspose.Cells.dll 文件相同的文件夹中，并仅指定文件名而不指定路径。
 
 {{% alert color="primary" %}} 
 
@@ -28,23 +28,22 @@ url: /zh/cpp/licensing/
 **C++**
 
 {{< highlight "csharp" >}}
-
- intrusive_ptr<License> license = new License();
-
-license->SetLicense(new String("Aspose.Cells.lic"));
+  License license;
+  license.SetLicense(u"Aspose.Cells.lic");
 
 {{< /highlight >}}
-### **从流对象加载许可证**
-以下示例显示如何从流中加载许可证。
+###  **从流对象加载许可证**
+以下示例显示如何从流加载许可证。
 
 **C++**
 
 {{< highlight "csharp" >}}
 
- intrusive_ptr<License>license = new License();
+  License license;
 
-intrusive_ptr<FileStream> myStream = new FileStream(new String("Aspose.Cells.lic"), FileMode_Open);
+  //You need to write your own code to read the contents of the license file into this variable.
+  Vector<uint8_t> myStream{0}; //"Aspose.Cells.lic"
 
-license->SetLicense(myStream);
+  license.SetLicense(myStream);
 
 {{< /highlight >}}

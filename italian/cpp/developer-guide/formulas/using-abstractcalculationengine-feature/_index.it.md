@@ -1,0 +1,30 @@
+---
+title: Utilizzo della funzionalità AbstractCalculationEngine
+type: docs
+weight: 20
+url: /it/cpp/using-abstractcalculationengine-feature/
+---
+##  Le funzionalità sono ancora in fase di sviluppo, quindi rimanete sintonizzati.
+
+
+##  **introduzione**
+ Questo articolo fornisce informazioni su come utilizzare[Motore di calcolo astratto](https://reference.aspose.com/cells/cpp/aspose.cells/abstractcalculationengine/) funzionalità per implementare funzioni personalizzate con le API Aspose.Cells.
+
+<!--
+
+The AbstractCalculationEngine interface allows you to add custom formula calculation functions to extend the Aspose.Cells core calculation engine in order to meet certain requirements. This feature is useful to define custom (user defined) functions in a template file or in a code where the custom function can be implemented and evaluated using Aspose.Cells APIs like any other default Microsoft Excel function.
+## **Using AbstractCalculationEngine Feature**
+The following sample code implements the AbstractCalculationEngine interface which evaluates and returns the values of the two custom functions i.e. MySampleFunc() and YourSampleFunc(). These custom functions are inside the cells A1 and A2 respectively. Then it calls the Workbook.CalculateFormula(const CalculationOptions& options) method to invoke the implementation of AbstractCalculationEngine .Calculate(CalculationData& data) method. Then, it prints the values of A1 and A2 on console. Please see the Console Output of the sample code below for more help.
+## **Sample Code**
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Formulas-UsingICustomFunctionFeature-new.cpp" >}}
+
+
+## **Console Output**
+{{< highlight java >}}
+
+ Value of A1: MY sample function was called successfully.
+
+Value of A2: YOUR sample function was called successfully.
+
+{{< /highlight >}}
+-->

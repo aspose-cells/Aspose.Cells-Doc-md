@@ -1,5 +1,7 @@
 ---
 title: 中国地域のチャートを画像に変換
+description: Aspose.Cells の使用方法を学習します。 for .NET は、チャートの中国語構成を設定します。このガイドでは、フォント、サイズ、テキストの方向などを含む、中国語の文字と形式をサポートするようにグラフを構成する方法を説明します。
+keywords: Aspose.Cells for .NET, Charts, Chinese Configuration, Fonts, Font Size, Text Direction, Support.
 linktitle: 中国地域の設定
 type: docs
 weight: 9
@@ -44,7 +46,7 @@ alias: [/net/set-chinese-configuration-for-chart/]
 |軸ユニット名|百,千...|何百、何千...|
 |チャートのタイトル名|图表标题|チャートのタイトル|
 |レジェンド増加名|增加|増加|
-|凡例の名前の減少|减少|下降|
+|凡例の名前の減少|减少|減少|
 |凡例の合計名|汇总|合計|
 |ほかの名前|其他|他の|
 |シリーズ名|系列|シリーズ|

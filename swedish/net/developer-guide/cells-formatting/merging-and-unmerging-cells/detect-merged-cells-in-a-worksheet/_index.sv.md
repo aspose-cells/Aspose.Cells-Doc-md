@@ -1,5 +1,7 @@
-﻿---
+---
 title: Identifiera sammanslagna Cells i ett kalkylblad
+description: Aspose.Cells är ett .NET-bibliotek för att arbeta med kalkylarksfiler. Det stöder detektering av sammanslagna celler i ett kalkylblad, vilket gör det enkelt för användare att identifiera och manipulera dessa celler. Den här artikeln kommer att introducera hur du använder Aspose.Cells-biblioteket för att upptäcka sammanslagna celler.
+keywords: Aspose.Cells, Worksheet, Merge Cells, Detect, Identify, Operate
 type: docs
 weight: 80
 url: /sv/net/detect-merged-cells-in-a-worksheet/
@@ -8,7 +10,7 @@ url: /sv/net/detect-merged-cells-in-a-worksheet/
 
 Den här artikeln innehåller information om hur du får sammanslagna cellområden i ett kalkylblad.
 
-Aspose.Cells låter dig få sammanslagna cellområden i ett kalkylblad. Du kan ta bort (dela) dem också. Den här artikeln visar den enklaste koden att använda**Aspose.Cells API** att utföra uppgiften.
+ Aspose.Cells låter dig få sammanslagna cellområden i ett kalkylblad. Du kan ta bort (dela) dem också. Den här artikeln visar den enklaste koden att använda**Aspose.Cells API** att utföra uppgiften.
 
 {{% /alert %}}
 

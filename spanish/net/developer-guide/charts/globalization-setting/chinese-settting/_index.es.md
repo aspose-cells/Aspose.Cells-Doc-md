@@ -1,5 +1,7 @@
 ---
-title: Convertir gráfico a imagen para la región china
+title: Convertir gráfico en imagen para la región china
+description: Aprenda a utilizar Aspose.Cells for .NET establece la configuración china para gráficos. Nuestra guía demostrará cómo configurar gráficos para que admitan caracteres y formatos chinos, incluidas fuentes, tamaños, direcciones de texto y más.
+keywords: Aspose.Cells for .NET, Charts, Chinese Configuration, Fonts, Font Size, Text Direction, Support.
 linktitle: Establecer región china
 type: docs
 weight: 9
@@ -14,14 +16,14 @@ En este tema, le mostraremos cómo configurar la región china para un gráfico.
 
 ##  **Define una clase de herencia**
 
-Primer paso, debe definir una clase "ChartChineseSetttings" que herede de[**GráficoGlobalizaciónConfiguración**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/). 
+ El primer paso es definir una clase "ChartChineseSetttings" que herede de[**GráficoGlobalizaciónConfiguración**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/). 
 Luego, al reescribir las funciones relacionadas, puede configurar el texto de los elementos del gráfico en su propio idioma.
 Ejemplo de código:
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "ChartChineseSetttings.cs" >}}
 
-##  **Configuración de configuración china para el gráfico**
+##  **Configurar la configuración china para el gráfico**
 
-En este paso, utilizará la clase "ChartChineseSetttings" que definió en el paso anterior.
+En este paso, utilizará la clase "ChartChineseSettings" que definió en el paso anterior.
 Ejemplo de código:
 
 ```
@@ -31,20 +33,20 @@ Ejemplo de código:
 	chart0.ToImage("Output.png");
 ```
 
-Luego puede ver el efecto en la imagen de salida, los elementos en el gráfico se representarán de acuerdo con su configuración.
+Luego podrá ver el efecto en la imagen de salida; los elementos del gráfico se representarán de acuerdo con su configuración.
 
 ##  **Conclusión**
 
-En este ejemplo, si no establece la región china para un gráfico, los siguientes elementos del gráfico se pueden representar en el idioma predeterminado, como el inglés.
+En este ejemplo, si no configura la región china para un gráfico, los siguientes elementos del gráfico pueden representarse en el idioma predeterminado, como el inglés.
 Después de la operación anterior, podemos obtener una imagen del gráfico de salida con la región china.
 
-|**Elementos compatibles**|**Valor en este ejemplo**|**valor predeterminado en el entorno inglés**|
+|**Elementos soportados**|**Valor en este ejemplo**|**valor predeterminado en el entorno inglés**|
 | :- | :- | :- |
 |Nombre del título del eje|坐标轴标题|Título del eje|
 |Nombre de la unidad del eje|百,千...|Cientos, miles...|
 |Nombre del título del gráfico|图表标题|Titulo del gráfico|
-|Leyenda Aumentar nombre|增加|Aumentar|
-|Leyenda Disminuir Nombre|减少|Disminuir|
-|Leyenda Total Nombre|汇总|Total|
+|Leyenda Aumentar Nombre|增加|Aumentar|
+|Leyenda Disminución Nombre|减少|Disminuir|
+|Nombre total de la leyenda|汇总|Total|
 |Otro nombre|其他|Otro|
 |Nombre de la serie|系列|Serie|

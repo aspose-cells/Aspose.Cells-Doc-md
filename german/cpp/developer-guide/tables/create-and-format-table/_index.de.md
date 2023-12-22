@@ -1,58 +1,58 @@
-﻿---
+---
 title: Tabelle erstellen und formatieren
 type: docs
 weight: 10
 url: /de/cpp/create-and-format-table/
 ---
-## **Tabelle erstellen**
-Einer der Vorteile von Tabellenkalkulationen besteht darin, dass Sie verschiedene Arten von Listen erstellen können, z. B. Telefonlisten, Aufgabenlisten, Listen mit Transaktionen, Vermögenswerten oder Verbindlichkeiten. Mehrere Benutzer können zusammenarbeiten, um verschiedene Listen zu verwenden, zu erstellen und zu pflegen.
+##  **Tabelle erstellen**
+Einer der Vorteile von Tabellenkalkulationen besteht darin, dass Sie damit verschiedene Arten von Listen erstellen können, beispielsweise Telefonlisten, Aufgabenlisten, Listen mit Transaktionen, Vermögenswerten oder Verbindlichkeiten. Mehrere Benutzer können zusammenarbeiten, um verschiedene Listen zu verwenden, zu erstellen und zu pflegen.
 
 Aspose.Cells unterstützt das Erstellen und Verwalten von Listen.
-### **Vorteile eines Listenobjekts**
+###  **Vorteile eines Listenobjekts**
 Es gibt einige Vorteile, wenn Sie eine Datenliste in ein tatsächliches Listenobjekt konvertieren
 
 - Neue Zeilen und Spalten werden automatisch eingefügt.
-- Eine Summenzeile am Ende Ihrer Liste kann einfach hinzugefügt werden, um SUMME, MITTELWERT, ANZAHL usw. anzuzeigen.
-- Rechts hinzugefügte Spalten werden automatisch in das List-Objekt übernommen.
-- Diagramme, die auf Zeilen und Spalten basieren, werden automatisch erweitert.
+- Eine Gesamtzeile am Ende Ihrer Liste kann einfach hinzugefügt werden, um SUMME, DURCHSCHNITT, ANZAHL usw. anzuzeigen.
+- Rechts hinzugefügte Spalten werden automatisch in das List-Objekt integriert.
+- Auf Zeilen und Spalten basierende Diagramme werden automatisch erweitert.
 - Benannte Bereiche, die Zeilen und Spalten zugewiesen sind, werden automatisch erweitert.
 - Die Liste ist vor versehentlichem Löschen von Zeilen und Spalten geschützt.
-### **Erstellen eines Listenobjekts mit Microsoft Excel**
+###  **Erstellen eines Listenobjekts mit Microsoft Excel**
 
-|**Auswählen des Datenbereichs zum Erstellen des Listenobjekts**|
-|:- |
-|![todo: Bild_alt_Text](jHcNq4o.png)|
+|**Auswählen des Datenbereichs zum Erstellen eines Listenobjekts**|
+| :- |
+|![todo:image_alt_text](jHcNq4o.png)|
 Dadurch wird das Dialogfeld „Liste erstellen“ angezeigt.
 
 |**Dialogfeld „Liste erstellen“.**|
-|:- |
-|![todo: Bild_alt_Text](kJmukRF.png)|
- Implementieren des List-Objekts für die Daten und Angeben der Gesamtzeile (Select**Daten** , dann**Aufführen** , gefolgt von**Gesamtreihe**).
+| :- |
+|![todo:image_alt_text](kJmukRF.png)|
+Implementieren des Listenobjekts für die Daten und Angeben der Gesamtzeile (wählen Sie *Daten**, dann *Liste**, gefolgt von *Gesamtzeile**).
 
 |**Erstellen eines Listenobjekts**|
-|:- |
-|![todo: Bild_alt_Text](ECSGVdR.png)|
-### **Mit Aspose.Cells API**
- Aspose.Cells bietet eine Klasse[IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) das stellt eine Microsoft Excel-Datei dar. Das[IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) Klasse enthält eine[IArbeitsblätter](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection)Sammlung, die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht.
+| :- |
+|![todo:image_alt_text](ECSGVdR.png)|
+###  **Mit Aspose.Cells API**
+ Aspose.Cells bietet eine Klasse[Arbeitsmappe](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) das stellt eine Microsoft Excel-Datei dar. Der[Arbeitsmappe](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) Klasse enthält eine[Arbeitsblätter](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/)Sammlung, die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht.
 
- Ein Arbeitsblatt wird durch dargestellt[IArbeitsblatt](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) Klasse. Das[IArbeitsblatt](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) Die Klasse bietet eine breite Palette von Methoden zum Verwalten eines Arbeitsblatts. Um eine zu erstellen[IListObject](https://reference.aspose.com/cells/cpp/class/aspose.cells.tables.i_list_object) Verwenden Sie in einem Arbeitsblatt die[GetIListObjects](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#a4356bc4b8cffee624891f10ea49a4705) Erhebungsverfahren der[IArbeitsblatt](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) Klasse. Jede `[IListObject]` ist nämlich ein Objekt der[IListObjectCollection](https://reference.aspose.com/cells/cpp/class/aspose.cells.tables.i_list_object_collection) Klasse, die außerdem die[Addieren](https://reference.aspose.com/cells/cpp/class/aspose.cells.tables.i_list_object_collection#ae4afda31b69b75a78558a65bef65ee42)Methode zum Hinzufügen eines `[IListObject]`-Objekts und zum Angeben eines Zellbereichs für die Liste.
+Ein Arbeitsblatt wird durch dargestellt[Arbeitsblatt](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) Klasse. Der[Arbeitsblatt](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) Die Klasse bietet eine breite Palette von Methoden zum Verwalten eines Arbeitsblatts. Um eine zu erstellen[ListObject](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/) Verwenden Sie in einem Arbeitsblatt das[GetListObjects](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/getlistobjects/) Sammelmethode der[Arbeitsblatt](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) Klasse. Jede `[ListObject]` ist tatsächlich ein Objekt der[ListObjectCollection](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobjectcollection/) Klasse, die weiterhin Folgendes bereitstellt[Hinzufügen](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobjectcollection/add/)Methode zum Hinzufügen eines `[ListObject]`-Objekts und zum Angeben eines Zellbereichs für die Liste.
 
- Gemäß dem angegebenen Zellbereich wird das Objekt `[IListObject]` von Aspose.Cells erstellt. Verwenden Sie Attribute (z[Summen anzeigen](https://reference.aspose.com/cells/cpp/class/aspose.cells.tables.i_list_object#a9026460927f035f374f5e1ea74e639f2) und[ListColumns](https://reference.aspose.com/cells/cpp/class/aspose.cells.tables.i_list_object#afeeb7bfabd0971e9fe34a09f0b83ae73)usw.) der Klasse `[IListObject]`, um die Liste zu steuern.
+ Entsprechend dem angegebenen Zellbereich wird das Objekt `[ListObject]` von Aspose.Cells erstellt. Verwenden Sie Attribute (z. B[SetShowTotals](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/setshowtotals/) Und[GetListColumns](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/getlistcolumns/)usw.) der Klasse `[ListObject]` zur Steuerung der Liste.
 
-Im folgenden Beispiel haben wir dieselbe `[IListObject]` mit Aspose.Cells API erstellt, die wir mit Microsoft Excel im obigen Abschnitt erstellt haben.
-
-
-
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-CreatingListObjects.cpp" >}}
-## **Formatiere eine Tabelle**
-Um eine Gruppe verwandter Daten zu verwalten und zu analysieren, ist es möglich, einen Zellbereich in ein Listenobjekt (auch bekannt als Excel-Tabelle) umzuwandeln. Eine Tabelle ist eine Reihe von Zeilen und Spalten, die zugehörige Daten enthalten, die unabhängig von den Daten in anderen Zeilen und Spalten verwaltet werden. Standardmäßig ist für jede Spalte in der Tabelle die Filterung in der Kopfzeile aktiviert, sodass Sie Ihre Listenobjektdaten schnell filtern oder sortieren können. Sie können dem Listenobjekt, das eine Dropdown-Liste mit Aggregatfunktionen für jede Summenzeilenzelle bereitstellt, eine Summenzeile (eine spezielle Zeile in einer Liste, die eine Auswahl von Aggregatfunktionen bereitstellt, die für die Arbeit mit numerischen Daten nützlich sind) hinzufügen. Aspose.Cells bietet Optionen zum Erstellen und Verwalten von Listen (oder Tabellen).
-### **Formatieren eines Listenobjekts**
- Aspose.Cells bietet eine Klasse[IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) das stellt eine Microsoft Excel-Datei dar. Das[IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) Klasse enthält eine[IArbeitsblätter](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection)Sammlung, die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht.
-
- Ein Arbeitsblatt wird durch dargestellt[IArbeitsblatt](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) Klasse. Das[IArbeitsblatt](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) -Klasse bietet eine breite Palette von Methoden zum Verwalten von Arbeitsblättern. Um eine zu erstellen*Listenobjekt*Verwenden Sie in einem Arbeitsblatt `IListObjectCollection`. Jedes `[IListObject]` ist tatsächlich ein Objekt der `IListObjectCollection`-Klasse, die außerdem das bereitstellt[Addieren](https://reference.aspose.com/cells/cpp/class/aspose.cells.tables.i_list_object_collection#ae4afda31b69b75a78558a65bef65ee42)Methode zum Hinzufügen eines `[IListObject]`-Objekts und geben Sie den Zellbereich an, den es umfassen soll. Gemäß dem angegebenen Zellbereich a*Listenobjekt* wird im Arbeitsblatt von Aspose.Cells erstellt. Verwenden Sie Attribute (z. B.[TableStyleType](https://reference.aspose.com/cells/cpp/class/aspose.cells.tables.i_list_object#a5de8b5321b0ccb30dfb09cefe6536462)) der Klasse `[IListObject]`, um die Tabelle für Ihre Anforderungen zu formatieren.
-
-Das folgende Beispiel fügt Beispieldaten zu einem Arbeitsblatt hinzu, fügt ein `[IListObject]` hinzu und wendet Standardstile darauf an. `[IListObject]` Stile werden von Microsoft Excel 2007/2010 unterstützt.
+Im folgenden Beispiel haben wir dieselbe `[ListObject]` mit Aspose.Cells API erstellt wie im obigen Abschnitt mit Microsoft Excel.
 
 
 
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-FormatTable.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-CreatingListObjects-new.cpp" >}}
+##  **Formatieren Sie eine Tabelle**
+Um eine Gruppe zusammengehöriger Daten zu verwalten und zu analysieren, ist es möglich, einen Zellbereich in ein Listenobjekt (auch als Excel-Tabelle bezeichnet) umzuwandeln. Eine Tabelle besteht aus einer Reihe von Zeilen und Spalten, die zusammengehörige Daten enthalten, die unabhängig von den Daten in anderen Zeilen und Spalten verwaltet werden. Standardmäßig ist für jede Spalte in der Tabelle die Filterung in der Kopfzeile aktiviert, sodass Sie Ihre Listenobjektdaten schnell filtern oder sortieren können. Sie können eine Summenzeile (eine spezielle Zeile in einer Liste, die eine Auswahl an Aggregatfunktionen bereitstellt, die für die Arbeit mit numerischen Daten nützlich sind) zum Listenobjekt hinzufügen, das eine Dropdown-Liste mit Aggregatfunktionen für jede Summenzeilenzelle bereitstellt. Aspose.Cells bietet Optionen zum Erstellen und Verwalten von Listen (oder Tabellen).
+###  **Formatieren eines Listenobjekts**
+ Aspose.Cells bietet eine Klasse[Arbeitsmappe](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) das stellt eine Microsoft Excel-Datei dar. Der[Arbeitsmappe](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) Klasse enthält eine[Arbeitsblätter](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/)Sammlung, die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht.
+
+Ein Arbeitsblatt wird durch dargestellt[Arbeitsblatt](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) Klasse. Der[Arbeitsblatt](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) Die Klasse bietet eine breite Palette von Methoden zum Verwalten von Arbeitsblättern. Um eine zu erstellen*ListObject*Verwenden Sie in einem Arbeitsblatt `ListObjectCollection`. Jedes `[ListObject]` ist tatsächlich ein Objekt der Klasse `ListObjectCollection`, die darüber hinaus Folgendes bereitstellt[Hinzufügen](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobjectcollection/add/)Methode zum Hinzufügen eines `[ListObject]`-Objekts und geben Sie den Zellbereich an, den es umfassen soll. Entsprechend dem angegebenen Zellbereich a*ListObject* wird im Arbeitsblatt von Aspose.Cells erstellt. Verwenden Sie Attribute (z. B.[SetTableStyleType](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/settablestyletype/)) der Klasse `[ListObject]`, um die Tabelle entsprechend Ihren Anforderungen zu formatieren.
+
+Im folgenden Beispiel werden Beispieldaten zu einem Arbeitsblatt hinzugefügt, ein `[ListObject]` hinzugefügt und Standardstile darauf angewendet. `[ListObject]`-Stile werden von Microsoft Excel 2007/2010 unterstützt.
+
+
+
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-FormatTable-new.cpp" >}}

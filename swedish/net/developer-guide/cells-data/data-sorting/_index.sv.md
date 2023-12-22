@@ -1,8 +1,10 @@
-﻿---
+---
 title: Datasortering
 type: docs
 weight: 130
 url: /sv/net/sort-data-of-excel/
+description: Lär dig hur du sorterar data genom att använda Aspose.Cells for .NET API.
+keywords: Sort data in ascending or descending order, Sort data based on the background color
 ---
 {{% alert color="primary" %}}
 
@@ -10,7 +12,7 @@ Datasortering är en av Microsoft Excels många användbara funktioner. Det låt
 
 {{% /alert %}}
 
-## **Sortera data i Microsoft Excel**
+##  **Sortera data i Microsoft Excel**
 
 Så här sorterar du data i Microsoft Excel:
 
@@ -19,7 +21,7 @@ Så här sorterar du data i Microsoft Excel:
 
 I allmänhet utförs sortering på en lista - definierad som en sammanhängande grupp av data där data visas i kolumner.
 
-## **Sortera data med Aspose.Cells**
+##  **Sortera data med Aspose.Cells**
 
  Aspose.Cells tillhandahåller[**DataSorter**](https://reference.aspose.com/cells/net/aspose.cells/datasorter)klass som används för att sortera data i stigande eller fallande ordning. Klassen har några viktiga medlemmar, till exempel egenskaper som Key1 ... Key3 och Order1 ... Order3. Dessa medlemmar används för att definiera sorterade nycklar och specificera nyckelsorteringsordningen.
 
@@ -36,13 +38,13 @@ Det här exemplet använder mallfilen "Book1.xls" skapad i Microsoft Excel. Efte
 
 {{% alert color="primary" %}}
 
- Om du vill sortera*Vänster till höger* , Använd[**DataSorter.SortLeftToRight**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/properties/sortlefttoright) attribut.
+ Om du vill sortera *LeftToRight*, använd[**DataSorter.SortLeftToRight**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/properties/sortlefttoright) attribut.
 
 {{% /alert %}}
 
-### **Sortera data med bakgrundsfärg**
+###  **Sortera data med bakgrundsfärg**
 
- Excel tillhandahåller funktioner för att sortera data baserat på bakgrundsfärgen. Samma funktion tillhandahålls med Aspose.Cells med DataSorter där[**SortOnType**](https://reference.aspose.com/cells/net/aspose.cells/sortontype) .CellColor kan användas i[**AddKey()**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/methods/addkey) för att sortera data baserat på bakgrundsfärgen. Alla celler som innehåller specificerad färg i[**AddKey()**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/methods/addkey), funktionen placeras på toppen eller botten enligt SortOrder-inställningen och ordningen på resten av cellerna ändras inte alls.
+Excel tillhandahåller funktioner för att sortera data baserat på bakgrundsfärgen. Samma funktion tillhandahålls med Aspose.Cells med DataSorter där[**SortOnType**](https://reference.aspose.com/cells/net/aspose.cells/sortontype) .CellColor kan användas i[**AddKey()**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/methods/addkey) för att sortera data baserat på bakgrundsfärgen. Alla celler som innehåller specificerad färg i[**AddKey()**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/methods/addkey), funktionen placeras på toppen eller botten enligt SortOrder-inställningen och ordningen på resten av cellerna ändras inte alls.
 
 Följande är exempelfilerna som kan laddas ner för att testa den här funktionen:
 
@@ -52,6 +54,6 @@ Följande är exempelfilerna som kan laddas ner för att testa den här funktion
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SortDataInColumnWithBackgroundColor-1.cs" >}}
 
-## **Förhandsämnen**
+##  **Förhandsämnen**
 - [Sortera data i kolumn med anpassad sorteringslista](/cells/sv/net/sort-data-in-column-with-custom-sort-list/)
 - [Ange sorteringsvarning vid sortering av data](/cells/sv/net/specifying-sort-warning-while-sorting-data/)

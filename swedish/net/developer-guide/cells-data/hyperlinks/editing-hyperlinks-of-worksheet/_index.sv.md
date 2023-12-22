@@ -1,8 +1,10 @@
-﻿---
+---
 title: Redigera hyperlänkar till arbetsblad
 type: docs
 weight: 330
 url: /sv/net/editing-hyperlinks-of-worksheet/
+description: Lär dig hur du redigerar hyperlänkar i arbetsblad genom Aspose.Cells for .NET API.
+keywords: Edit Hyperlinks, Edit Hyperlinks of Worksheet, Edit hyperlink of Cell, Access all the hyperlinks of the worksheet
 ---
 {{% alert color="primary" %}}
 

@@ -1,26 +1,28 @@
-﻿---
-title: احتفظ ببادئة اقتباس فردية بقيمة Cell أو نطاق
+---
+title: احتفظ ببادئة الاقتباس المفردة ذات القيمة أو النطاق Cell
 type: docs
 weight: 310
 url: /ar/net/preserve-single-quote-prefix-of-cell-value-or-range/
+description: تعرف على كيفية الحفاظ على بادئة الاقتباس المفردة للقيمة أو النطاق Cell من خلال Aspose.Cells for .NET API.
+keywords: Preserve Single Quote Prefix of Cell Value or Range, Hide leading apostrophe or single quote mark, Show leading apostrophe or single quote mark
 ---
-## **سيناريوهات الاستخدام الممكنة**
+##  **سيناريوهات الاستخدام المحتملة**
 
-عندما تضع بعض القيمة داخل الخلية التي تحتوي على فاصلة عليا أو علامة اقتباس مفردة ، فإن Microsoft يقوم Excel بإخفائها ، ولكن عند تحديد الخلية ، فإنها تعرض الفاصلة العليا أو علامة الاقتباس الفردية في شريط الصيغة كما هو موضح في لقطة الشاشة التالية.
+عندما تضع بعض القيمة داخل الخلية التي تحتوي على فاصلة عليا بادئة أو علامة اقتباس مفردة، فإن Microsoft يقوم Excel بإخفائها، ولكن عند تحديد الخلية، فإنها تعرض الفاصلة العليا البادئة أو علامة الاقتباس المفردة في شريط الصيغة كما هو موضح في لقطة الشاشة التالية.
 
-![ما يجب القيام به: image_بديل_نص](preserve-single-quote-prefix-of-cell-value-or-range_1.png)
+![ما يجب القيام به:image_alt_text](preserve-single-quote-prefix-of-cell-value-or-range_1.png)
 
-يخفي Aspose.Cells أيضًا الفاصلة العليا أو الاقتباس الفردي مثل Microsoft Excel ولكنه يحدد[**النمط**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) مثل**حقيقي** لتلك الخلية. إذا قمت بتعيين نمط فارغ للخلية ، فحينئذٍ[**النمط**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) يصبح**خاطئة** تكرارا. من أجل التعامل مع هذه المشكلة ، يوفر Aspose.Cells[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix) الملكية ، عندما يتم تعيينها**خاطئة** ، ومن بعد[**النمط**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix)لم يتم تحديثه على الإطلاق ويتم الاحتفاظ بقيمته القديمة. هذا يعني إذا كانت القيمة القديمة[**النمط**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix)كانت الممتلكات**حقيقي** ، ستبقى**حقيقي** وإذا كانت القيمة القديمة**خاطئة** ، ستبقى**خاطئة**.
+Aspose.Cells يخفي أيضًا الفاصلة العليا أو الاقتباس المفرد مثل Microsoft Excel ولكنه يعين[**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) مثل**حقيقي** لتلك الخلية. إذا قمت بتعيين نمط فارغ للخلية، ثم[**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) يصبح**خطأ شنيع** مرة أخرى. ولمعالجة هذه المشكلة يوفر Aspose.Cells[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix) الممتلكات، عندما يتم تعيينها**false**، ثم لم يتم تحديث [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) على الإطلاق ويتم الاحتفاظ بقيمته القديمة . هذا يعني أنه إذا كانت القيمة القديمة لخاصية [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) **صحيحة**، فإنها سيبقى ** صحيحا** وإذا كانت القيمة القديمة *خطأ**، فستبقى *خطأ**.
 
-## **احتفظ ببادئة اقتباس فردية بقيمة Cell أو نطاق**
+##  **احتفظ ببادئة الاقتباس المفردة ذات القيمة أو النطاق Cell**
 
- يشرح نموذج التعليمات البرمجية التالي استخدام[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix)الخاصية كما هو موضح سابقًا. يرجى قراءة التعليقات الموجودة داخل الكود والاطلاع على إخراج وحدة التحكم للرمز الوارد أدناه للحصول على مزيد من المساعدة.
+يشرح نموذج التعليمات البرمجية التالي استخدام[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix)الممتلكات كما هو موضح سابقا. يرجى قراءة التعليقات الموجودة داخل الكود والاطلاع على مخرجات وحدة التحكم للكود الموضح أدناه للحصول على مزيد من المساعدة.
 
-## **عينة من الرموز**
+##  **عينة من الرموز**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-PreserveSingleQuotePrefixOfCellValueOrRange.cs" >}}
 
-## **إخراج وحدة التحكم**
+##  **إخراج وحدة التحكم**
 
 {{< highlight "java" >}}
 

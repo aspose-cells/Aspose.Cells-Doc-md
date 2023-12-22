@@ -1,10 +1,12 @@
-﻿---
+---
 title: Satırları ve Sütunları Yinele
 type: docs
 weight: 50
 url: /tr/java/iterate-rows-and-columns/
+description: Aspose.Cells for Java API'leri aracılığıyla Satırları ve Sütunları yinelemeyi öğrenin.
+keywords: How to Iterate Rows and Columns in Java, Iterate Rows using Java, Java Iterate Columns. 
 ---
-## **Aspose.Cells - Satırları ve Sütunları Yinele**
+##  **Aspose.Cells for Java Kullanılarak Satır ve Sütunlar Nasıl Yinelenir?**
 
 Satırlar ve Sütunlar, satırlar ve sütunlar koleksiyonu kullanılarak yinelenebilir.
 
@@ -12,21 +14,21 @@ Satırlar ve Sütunlar, satırlar ve sütunlar koleksiyonu kullanılarak yinelen
 
 {{< highlight "java" >}}
 
- //Maksimum Görüntüleme Aralığına Erişin
+ //Maksimum Görüntüleme Aralığına Erişim
 
-Aralık aralığı = worksheet.getCells().getMaxDisplayRange();
+Aralık aralığı = çalışma sayfası.getCells().getMaxDisplayRange();
 
 int tcols = range.getColumnCount();
 
 int trows = range.getRowCount();
 
-System.out.println("Toplam Satır:" + trow);
+System.out.println("Toplam Satır:" + satırlar);
 
-System.out.println("Toplam Sütunlar:" + tcols);
+System.out.println("Toplam Sütun:" + tcols);
 
-RowCollection satırları = cell.getRows();
+RowCollection satırları = hücreler.getRows();
 
- için (int ben = 0 ; ben< rows.getCount() ; i++)
+ for (int i = 0 ; ben< rows.getCount() ; i++)
 
 {
 
@@ -44,9 +46,9 @@ RowCollection satırları = cell.getRows();
 
 {{< /highlight >}}
 
-## **Apache POI SS - HSSF XSSF - Satırları ve Sütunları Yinele**
+##  **Apache POI SS - HSSF XSSF - Satırları ve Sütunları Yinele**
 
-Satırlar ve Cells Sayfada yinelenebilir. Örnek kod aşağıda belirtilmiştir:
+Satırlar ve Cells, Sayfada yinelenebilir. Örnek kod aşağıda belirtilmiştir:
 
 **Java**
 
@@ -72,11 +74,11 @@ for (Row row : sheet)
 
 {{< /highlight >}}
 
-## **Çalışan Kodu İndir**
+##  **Çalışan Kodu İndir**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 
-## **Örnek Kodu İndir**
+##  **Örnek Kodu İndirin**
 
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/yineleme)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/Java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/iterate)
 

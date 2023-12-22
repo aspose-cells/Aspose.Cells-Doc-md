@@ -1,4 +1,4 @@
-﻿---
+---
 title: ابدء
 type: docs
 weight: 10
@@ -11,65 +11,71 @@ description: كيفية تثبيت Aspose Cells for C++ وإنشاء تطبيق 
 
 {{% /alert %}}
 
-## **التركيب**
+##  **تثبيت**
 
-### **قم بتثبيت Aspose Cells حتى NuGet**
+###  **تثبيت Aspose Cells حتى NuGet**
 
- NuGet هو أسهل طريقة لتنزيل وتثبيت Aspose.Cells for C++.
-1. قم بإنشاء Microsoft مشروع Visual Studio for C++.
+ NuGet أسهل طريقة للتحميل والتثبيت Aspose.Cells for C++.
+1. إنشاء مشروع Visual Studio Microsoft for C++.
 2. قم بتضمين ملف الرأس "Aspose.Cells.h".
-3. افتح Microsoft Visual Studio و NuGet مدير الحزم.
-4. ابحث عن "aspose.cells.cpp" للعثور على Aspose.Cells for C++ المطلوب.
-5. انقر فوق "تثبيت" ، سيتم تنزيل Aspose.Cells for C++ والإشارة إليه في مشروعك.
+3. افتح Microsoft Visual Studio ومدير الحزم NuGet.
+ 4. ابحث عن "aspose.cells.cpp" للعثور على Aspose.Cells for C++ المطلوب.
+5. انقر على "تثبيت"، وسيتم تنزيل Aspose.Cells for C++ والإشارة إليها في مشروعك.
 
-**! [تثبيت Aspose Cells حتى NuGet] (InstallThroughNuget.png)**
+**![تثبيت Aspose Cells حتى NuGet](InstallThroughNuget.png)**
 
- يمكنك أيضًا تنزيله من صفحة الويب nuget لغرض معين.
-[Aspose.Cells for C++ NuGet الحزمة](https://www.nuget.org/packages/Aspose.Cells.Cpp/)
+ يمكنك أيضًا تنزيله من صفحة الويب nuget الخاصة بـ aspose.cells:
+[Aspose.Cells for C++ NuGet الباقة](https://www.nuget.org/packages/Aspose.Cells.Cpp/)
 
-[مزيد من الخطوات للحصول على التفاصيل](/cells/ar/cpp/installation/)
+[المزيد من الخطوات للحصول على التفاصيل](/cells/ar/cpp/installation/)
 
-### **عرض توضيحي لاستخدام Aspose.Cells for C++ على Windows**
+###  **تجريبي لاستخدام Aspose.Cells for C++ على Windows**
 
-1. تنزيل Aspose.Cells for C++ من الصفحة التالية:
-[تحميل Aspose.Cells for C++ (Windows)](https://downloads.aspose.com/cells/cpp/)
-2. قم بفك ضغط الحزمة وستجد عرضًا توضيحيًا يوضح كيفية استخدام Aspose.Cells for C++.
-3. افتح Demo.sln باستخدام Visual Studio 2017 أو إصدار أعلى
-4. main.cpp: يوضح هذا الملف كيفية كتابة التعليمات البرمجية لاختبار Aspose.Cells for C++
- 5. sourceFile / resultFile: هذين المجلدين هما مجلدات التخزين المستخدمة في main.cpp
+1. حمل Aspose.Cells for C++ من الصفحة التالية:
+[تحميل Aspose.Cells for C++(Windows)](https://downloads.aspose.com/cells/cpp/)
+2. قم بفك ضغط الحزمة وستجد مثالاً لكيفية الاستخدام Aspose.Cells for C++.
+3. افتح example.sln باستخدام Visual Studio 2017 أو إصدار أعلى
+4. main.cpp : هذا الملف يوضح كيفية البرمجة للاختبار Aspose.Cells for C++
 
-### **كيفية استخدام Aspose.Cells for C++ على Linux OS**
+###  **عرض توضيحي لاستخدام Aspose.Cells for C++ على Linux**
 
-1. تنزيل Aspose.Cells for C++ من الصفحة التالية:
-[تنزيل Aspose.Cells for C++ (Linux)](https://downloads.aspose.com/cells/cpp/)
-2. قم بفك ضغط الحزمة وستجد عرضًا توضيحيًا حول كيفية استخدام for C++ Aspose.Cells لنظام التشغيل Linux.
-3. قم بتشغيل "cd Demo" في سطر أوامر Linux
-4. قم بتشغيل "rm -rf build؛ mkdir build؛ cd build"
-5. سيؤدي تشغيل "cmake .." إلى إنشاء ملف Makefile بواسطة CMakeLists.txt في مجلد العرض التوضيحي
-6. قم بتشغيل "make" للترجمة
- 7. قم بتشغيل "./demo" سترى النتيجة
+1. حمل Aspose.Cells for C++ من الصفحة التالية:
+[تنزيل Aspose.Cells for C++ (لينكس)](https://downloads.aspose.com/cells/cpp/)
+2. قم بفك ضغط الحزمة وستجد مثالاً لكيفية استخدام Aspose.Cells for C++ لنظام التشغيل Linux.
+3. تأكد من أنك في المسار الذي يوجد به المثال.
+4. قم بتشغيل "cmake -S example -B example/build -DCMAKE_BUILD_TYPE=Release"
+5. قم بتشغيل "cmake --build example/build"
 
-## **إنشاء تطبيق Hello World**
+###  **عرض توضيحي لاستخدام Aspose.Cells for C++ على نظام التشغيل Mac OS**
 
-تؤدي الخطوات أدناه إلى إنشاء تطبيق Hello World باستخدام Aspose.Cells API:
+1. حمل Aspose.Cells for C++ من الصفحة التالية:
+[تنزيل Aspose.Cells for C++(MacOS)](https://downloads.aspose.com/cells/cpp/)
+2. قم بفك ضغط الحزمة وستجد مثالاً حول كيفية استخدام Aspose.Cells for C++ لنظام التشغيل MacOS.
+3. تأكد من أنك في المسار الذي يوجد به المثال.
+4. قم بتشغيل "cmake -S example -B example/build -DCMAKE_BUILD_TYPE=Release"
+5. قم بتشغيل "cmake --build example/build"
 
-1.  قم بإنشاء مثيل لـ[دفتر العمل](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) صف دراسي.
-1.  إذا كان لديك ترخيص ، إذن[قم بتطبيقه](/cells/ar/cpp/licensing/).
- إذا كنت تستخدم الإصدار التقييمي ، فتخط سطور التعليمات البرمجية المتعلقة بالترخيص.
-1. قم بالوصول إلى أي خلية مرغوبة من ورقة العمل في ملف Excel.
-1. تضاف عبارة "**Hello World!**"في خلية تم الوصول إليها.
+##  **إنشاء تطبيق Hello World**
+
+الخطوات أدناه تنشئ تطبيق Hello World باستخدام Aspose.Cells API:
+
+1.  إنشاء مثيل لـ[دفتر العمل](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) فصل.
+1.  إذا كان لديك ترخيص، ثم[قم بتطبيقه](/cells/ar/cpp/licensing/).
+ إذا كنت تستخدم الإصدار التقييمي، فتخطى سطور التعليمات البرمجية المتعلقة بالترخيص.
+1. الوصول إلى أي خلية مطلوبة من ورقة العمل في ملف Excel.
+1. أدخل الكلمات "**Hello World!**" في الخلية التي تم الوصول إليها.
 1. قم بإنشاء ملف Excel Microsoft المعدل.
 
 يتم توضيح تنفيذ الخطوات المذكورة أعلاه في الأمثلة أدناه.
 
-### **نموذج التعليمات البرمجية: إنشاء مصنف جديد**
+###  **نموذج التعليمات البرمجية: إنشاء مصنف جديد**
 
-ينشئ المثال التالي مصنفًا جديدًا من البداية ، يُدرج "**Hello World!**"في الخلية A1 في ورقة العمل الأولى ويحفظ ملف Excel.
+يقوم المثال التالي بإنشاء مصنف جديد من البداية، وإدراج "**Hello World!**" في الخلية A1 في ورقة العمل الأولى وحفظ ملف Excel.
 
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CPP-Introduction-FirstApplication-1.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CPP-Introduction-FirstApplication-1-new.cpp" >}}
 
-### **نموذج التعليمات البرمجية: فتح ملف موجود**
+###  **نموذج التعليمات البرمجية: فتح ملف موجود**
 
-يفتح المثال التالي ملف قالب Excel Microsoft موجود ، ويحصل على خلية ويتحقق من القيمة في الخلية A1.
+يفتح المثال التالي ملف قالب Excel Microsoft موجودًا، ويحصل على خلية ويتحقق من القيمة في الخلية A1.
 
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CPP-Introduction-OpenExistingFile-1.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CPP-Introduction-OpenExistingFile-1-new.cpp" >}}

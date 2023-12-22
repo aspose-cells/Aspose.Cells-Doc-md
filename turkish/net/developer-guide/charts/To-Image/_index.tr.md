@@ -1,117 +1,119 @@
 ---
 title: Grafikten Görüntüye
+description: Bir grafiği JPEG veya PNG gibi bir görüntü biçimine dönüştürmek için Aspose.Cells for .NET'i nasıl kullanacağınızı öğrenin. Kılavuzumuz, Microsoft Excel'den bir grafiğin nasıl dışa aktarılacağını ve daha sonra kullanmak ve değiştirmek üzere bağımsız bir görüntü olarak nasıl kaydedileceğini gösterecektir.
+keywords: Aspose.Cells for .NET, Chart to Image, Microsoft Excel, Image Conversion, Export, Standalone Image.
 linktitle: Grafikten Görüntüye
 type: docs
 weight: 46
 url: /tr/net/chart-to-image/
 ---
-##  **Oluşturma Grafikleri**
+##  **İşleme Grafikleri**
 
- Aspose.Cells API'ler, herhangi bir ek araç veya uygulama gerektirmeden Excel Grafiklerini resim biçimlerine dönüştürmeyi destekler. Render desteği sağlamak için,[**Çizelge**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) sınıf açığa çıktı[**Hayal etmek**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) uygulama gereksinimlerine en iyi uyacak şekilde aşırı yükleme verisine sahip yöntemler.
+ Aspose.Cells API'ler, herhangi bir ek araç veya uygulama gerektirmeden Excel Grafiklerini görüntü formatlarına dönüştürmeyi destekler. Render desteği sağlamak amacıyla,[**Çizelge**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) sınıf açığa çıktı[**Hayal etmek**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) Uygulama gereksinimlerine en iyi şekilde uyum sağlamak için çeşitli aşırı yüklemelere sahip yöntemler.
 
-###  **Grafikleri Görüntülere Dönüştürme**
+###  **Grafikleri Görsellere Dönüştürme**
 
- bu[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) yöntem, hem basit hem de gelişmiş işlemeyi desteklemek için çeşitli aşırı yüklemelere sahiptir. Uygulama gereksinimi, grafiği varsayılan boyutlarında oluşturmaksa,[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)aşağıdaki gibi yöntem.
+[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) yöntem, basit ve gelişmiş oluşturmayı desteklemek için çok sayıda aşırı yüklemeye sahiptir. Uygulama gereksinimi grafiğin varsayılan boyutlarında oluşturulmasıysa,[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)yöntem aşağıdaki gibidir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImage.cs" >}}
 
- Grafikleri gelişmiş ayarlarla görüntülere dönüştürmek de mümkündür. Aspose.Cells API'ler, bir aşırı yük sürümünü kullanıma sundu[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) örneğini kabul edebilecek bir yöntem[**ResimVeyaBaskıSeçenekleri**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions), çözünürlük, yumuşatma modu, görüntü formatı vb. gibi parametreleri belirlemeye izin verirken.
+ Gelişmiş ayarlarla grafikleri görsellere dönüştürmek de mümkündür. Aspose.Cells API'ler aşırı yükleme sürümünü açığa çıkardı[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) örneğini kabul edebilecek bir yöntem[**Görüntü Veya Yazdırma Seçenekleri**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions)çözünürlük, yumuşatma modu, görüntü formatı vb. gibi parametrelerin belirtilmesine izin verir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImageWithAdvancedOptions.cs" >}}
 
-##  **Oluşturma için Desteklenen Grafik Türleri**
+##  **İşleme için Desteklenen Grafik Türleri**
 
- Şu anda işleme için desteklenmeyen birkaç grafik türü vardır. Bu tür grafik türleri şunları içerir:****Desteklenen içinde N**** aşağıdaki tablonun sütunu.
+ Şu anda oluşturma için desteklenmeyen birkaç grafik türü vardır. Bu tür grafik türleri şunları içerir:****Desteklenen bölümündeki N**** aşağıdaki tablonun sütunu.
 
-|**Grafik tipi**|**Grafik alt türü**|**desteklenen**|
+|**Grafik tipi**|**Grafik alt türü**|**Destekleniyor**|
 | :- | :- | :- |
-|**Kolon**|Kolon|*Y**|
-| |SütunYığılmış|*Y**|
-| |Sütun100YüzdeYığılmış|*Y**|
-| |Sütun3Dkümelenmiş|*Y**|
-| |Sütun3DSığılmış|*Y**|
-| |Sütun3D100YığılmışYüzde|*Y**|
-| |Sütun3D|*Y**|
-|**Çubuk**|Çubuk|*Y**|
-| |Çubuk Yığılmış|*Y**|
-| |Bar100YığılmışYüzde|*Y**|
-| |Bar3Dkümelenmiş|*Y**|
-| |Bar3DSyığılmış|*Y**|
-| |Bar3D100YığılmışYüzde|*Y**|
-|**Astar**|Astar|*Y**|
-| |Sıra Yığılmış|*Y**|
-| |Line100PercentYığılmış|*Y**|
-| |LineWithDataMarkers|*Y**|
-| |LineStackedWithDataMarkers|*Y**|
-| |Line100PercentStackedWithDataMarkers|*Y**|
-| |Çizgi3D|*Y**|
-|**Turta**|Turta|*Y**|
-| |Pasta3D|*Y**|
-| |Turta Turtası|*Y**|
-| |PastaPatladı|*Y**|
-| |Pie3DEpatladı|*Y**|
-| |pasta çubuğu|*Y**|
-|**Dağılım**|Dağılım|*Y**|
-| |DağılımConnectedByCurvesWithDataMarker|*Y**|
-| |ScatterConnectedByCurvesWithoutDataMarker|*Y**|
-| |ScatterConnectedByLinesWithDataMarker|*Y**|
-| |ScatterConnectedByLinesWithoutDataMarker|*Y**|
-|**Alan**|Alan|*Y**|
-| |Yığılmış Alan|*Y**|
-| |Alan100YığılmışYüzde|*Y**|
-| |Alan3D|*Y**|
-| |Alan3Dyığınlanmış|*Y**|
-| |Alan3D100YığılmışYüzde|*Y**|
-|**Tatlı çörek**|Tatlı çörek|*Y**|
-| |DonutPatladı|*Y**|
-|**Radar**|Radar|*Y**|
-| |RadarWithDataMarkers|*Y**|
-| |Radar Dolu|*Y**|
+|**Kolon**|Kolon|*Evet**|
+| |SütunYığılmış|*Evet**|
+| |SütunYüzde100Yığılmış|*Evet**|
+| |Sütun3DKümelenmiş|*Evet**|
+| |Sütun3DSığılmış|*Evet**|
+| |Sütun3D100YüzdeYığınlanmış|*Evet**|
+| |Sütun3D|*Evet**|
+|**Çubuk**|Çubuk|*Evet**|
+| |BarYığılmış|*Evet**|
+| |Bar100PercentYığılmış|*Evet**|
+| |Bar3DKümelenmiş|*Evet**|
+| |Bar3DSığılmış|*Evet**|
+| |Bar3D100YüzdeYığınlanmış|*Evet**|
+|**Astar**|Astar|*Evet**|
+| |HatYığılmış|*Evet**|
+| |Line100PercentYığılmış|*Evet**|
+| |LineWithDataMarkers|*Evet**|
+| |LineStackedWithDataMarkers|*Evet**|
+| |Line100PercentStackedWithDataMarkers|*Evet**|
+| |Hat3D|*Evet**|
+|**Turta**|Turta|*Evet**|
+| |Pasta3D|*Evet**|
+| |TurtaPasta|*Evet**|
+| |Pasta Patladı|*Evet**|
+| |Pie3DEpatladı|*Evet**|
+| |Pasta Barı|*Evet**|
+|**Dağılım**|Dağılım|*Evet**|
+| |ScatterConnectedByCurvesWithDataMarker|*Evet**|
+| |ScatterConnectedByCurvesWithoutDataMarker|*Evet**|
+| |ScatterConnectedByLinesWithDataMarker|*Evet**|
+| |ScatterConnectedByLinesWithoutDataMarker|*Evet**|
+|**Alan**|Alan|*Evet**|
+| |AlanYığılmış|*Evet**|
+| |Alan100YüzdeYığınlanmış|*Evet**|
+| |Alan3D|*Evet**|
+| |Alan3Dyığılmış|*Evet**|
+| |Alan3D100YüzdeYığınlanmış|*Evet**|
+|**Tatlı çörek**|Tatlı çörek|*Evet**|
+| |DonutPatladı|*Evet**|
+|**Radar**|Radar|*Evet**|
+| |RadarWithDataMarkers|*Evet**|
+| |RadarDolu|*Evet**|
 |**Yüzey**|Yüzey3D|N|
-| |SurfaceWireframe3D|N|
-| |Yüzey Konturu|N|
-| |Yüzey Kontur Tel Kafes|N|
-|**kabarcık**|kabarcık|*Y**|
-| |Bubble3D|N|
-|**Stoklamak**|StokYüksekDüşükKapat|*Y**|
-| |StokAçıkYüksekDüşükKapat|*Y**|
-| |StokHacimYüksekDüşükKapat|*Y**|
-| |Stok HacmiAçıkYüksekDüşükKapalı|*Y**|
-|**silindir**|silindir|*Y**|
-| |Silindir Yığılmış|*Y**|
-| |Cylinder100PercentYığılmış|*Y**|
-| |Silindirik Çubuk|*Y**|
-| |Silindirik ÇubukYığılmış|*Y**|
-| |SilindirikÇubukYüzde100Yığılmış|*Y**|
-| |Silindirik Sütun3D|*Y**|
-|**koni**|koni|*Y**|
-| |koni yığılmış|*Y**|
-| |Koni100YüzdeYığılmış|*Y**|
-| |Konik Çubuk|*Y**|
-| |Konik ÇubukYığılmış|*Y**|
-| |ConicalBar100PercentYığılmış|*Y**|
-| |Konik Sütun3D|*Y**|
-|**Piramit**|Piramit|*Y**|
-| |PiramitYığılmış|*Y**|
-| |Piramit100YüzdeYığılmış|*Y**|
-| |PiramitBar|*Y**|
-| |PiramitÇubuğuYığılmış|*Y**|
-| |PiramitBar100PercentYığınlanmış|*Y**|
-| |PiramitSütun3D|*Y**|
-|**KutuBıyık**|KutuBıyık|Y|
-|**Huni**|Huni|*Y**|
-|**ParetoLine**|ParetoLine|*Y**|
-|**güneş patlaması**|güneş patlaması|*Y**|
-|**ağaç haritası**|ağaç haritası|*Y**|
-|**Şelale**|Şelale|*Y**|
-|**histogram**|histogram|Y|
+| |Yüzey Tel Çerçeve3D|N|
+| |YüzeyKontur|N|
+| |YüzeyKonturTel Çerçeve|N|
+|**Kabarcık**|Kabarcık|*Evet**|
+| |Kabarcık3D|N|
+|**Stoklamak**|StokYüksekDüşükKapat|*Evet**|
+| |HisseAçıkYüksekDüşükKapat|*Evet**|
+| |Hisse HacmiYüksekDüşükKapat|*Evet**|
+| |Hisse HacmiAçıkYüksekDüşükKapanış|*Evet**|
+|**Silindir**|Silindir|*Evet**|
+| |SilindirYığılmış|*Evet**|
+| |SilindirYüzde100Yığılmış|*Evet**|
+| |SilindirikBar|*Evet**|
+| |SilindirikBarYığılmış|*Evet**|
+| |SilindirikBar100PercentYığılmış|*Evet**|
+| |Silindirik Sütun3D|*Evet**|
+|**Koni**|Koni|*Evet**|
+| |KoniYığılmış|*Evet**|
+| |KoniYüzde100Yığılmış|*Evet**|
+| |KonikBar|*Evet**|
+| |KonikBarYığılmış|*Evet**|
+| |KonikBar100YüzdeYığınlanmış|*Evet**|
+| |Konik Sütun3D|*Evet**|
+|**Piramit**|Piramit|*Evet**|
+| |PiramitYığılmış|*Evet**|
+| |PiramitYüzde100Yığılmış|*Evet**|
+| |PiramitBar|*Evet**|
+| |PiramitBarYığılmış|*Evet**|
+| |PiramitBar100YüzdeYığınlanmış|*Evet**|
+| |PiramitSütun3D|*Evet**|
+|**Kutu Bıyık**|Kutu Bıyık|Y|
+|**Huni**|Huni|*Evet**|
+|**Pareto Hattı**|Pareto Hattı|*Evet**|
+|**Güneş patlaması**|Güneş patlaması|*Evet**|
+|**Ağaç haritası**|Ağaç haritası|*Evet**|
+|**Şelale**|Şelale|*Evet**|
+|**Histogram**|Histogram|Y|
 |**Harita**|Harita|*N**|
 
 {{% alert color="primary" %}}
 
-Desteklenmeyen grafik türlerini resim veya PDF'e dönüştürmeye çalışırsanız, 0 boyutlu resimler veya boş PDF ile sonuçlanabilirsiniz.
+Desteklenmeyen grafik türlerini görsele veya PDF'e dönüştürmeye çalışırsanız, 0 boyutlu görsellerle veya boş PDF ile karşılaşabilirsiniz.
 
 {{% /alert %}}
 
-##  **ileri konular**
-- [Grafiği PDF'e Dönüştür](/cells/tr/net/chart-to-pdf/)
+##  **İleri konular**
+- [Grafiği PDF'e dönüştür](/cells/tr/net/chart-to-pdf/)

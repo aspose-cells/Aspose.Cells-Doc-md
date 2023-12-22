@@ -1,8 +1,10 @@
-﻿---
+---
 title: Utvecklarguide
 type: docs
 weight: 20
 url: /sv/net/developer-guide/
+description: Den här utvecklarguiden beskriver praktiska scenarier och tips som hjälper dig att använda specifika Aspose.Cells for .NET funktioner, uppnå ett visst Excel-utseende eller göra ett användningsfall möjligt.
+keywords: Guidelines for using Aspose.Cells development APIs, Reference manual of Aspose.Cells for .NET APIS
 ---
 Den här utvecklarguiden ger information om hur du använder Aspose.Cells i en mängd praktiska scenarier som en MS Excel-meny.
 {{< tabs tabTotal="8" tabID="1" tabName1="File" tabName2="Home" tabName3="Insert" tabName4="Page Layout" tabName5="Formulas" tabName6="Data" tabName7="Review" tabName8="View" tabName9="Developer" >}}
@@ -295,7 +297,7 @@ Den här utvecklarguiden ger information om hur du använder Aspose.Cells i en m
         </ul>
     </div>
     <div class="col-md-6">
-        <p>Översikt</p>
+        <p>Skissera</p>
         <ul>
 		<li><a href="/cells/sv/net/creating-subtotals/">Skapa delsummor</a></li>
         </ul>
@@ -345,7 +347,7 @@ Den här utvecklarguiden ger information om hur du använder Aspose.Cells i en m
         <ul>
          <li><a href="/cells/sv/net/worksheet-views/#page-break-preview">Förhandsvisning av sidbrytning</a></li>
         </ul>
-        <p>Visa</p>
+        <p>Show</p>
          <ul>
 		<li><a href="/cells/sv/net/show-and-hide-gridlines-and-row-column-headers/">Visa rutnät och rubrik</a></li>
         </ul>

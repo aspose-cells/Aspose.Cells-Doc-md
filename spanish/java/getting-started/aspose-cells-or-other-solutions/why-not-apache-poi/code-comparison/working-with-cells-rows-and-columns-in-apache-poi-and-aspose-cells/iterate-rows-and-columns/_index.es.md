@@ -1,30 +1,32 @@
-﻿---
+---
 title: Iterar filas y columnas
 type: docs
 weight: 50
 url: /es/java/iterate-rows-and-columns/
+description: Aprenda a iterar filas y columnas a través de las API Aspose.Cells for Java.
+keywords: How to Iterate Rows and Columns in Java, Iterate Rows using Java, Java Iterate Columns. 
 ---
-## **Aspose.Cells - Iterar filas y columnas**
+##  **Cómo iterar filas y columnas usando Aspose.Cells for Java**
 
-Las filas y las columnas se pueden iterar utilizando la colección de filas y columnas.
+Las filas y columnas se pueden iterar utilizando la colección de filas y columnas.
 
 **Java**
 
 {{< highlight "java" >}}
 
- //Acceda al rango máximo de visualización
+ //Acceder al rango máximo de visualización
 
 Rango rango = hoja de trabajo.getCells().getMaxDisplayRange();
 
-int tcols = range.getColumnCount();
+int tcols = rango.getColumnCount();
 
 int trows = range.getRowCount();
 
 System.out.println("Total de filas:" + trows);
 
-System.out.println("Total de columnas:" + tcols);
+System.out.println("Colos totales:" + tcols);
 
-RowCollection filas = celdas.getRows();
+Filas de RowCollection = cell.getRows();
 
  para (int i = 0 ; i< rows.getCount() ; i++)
 
@@ -44,9 +46,9 @@ RowCollection filas = celdas.getRows();
 
 {{< /highlight >}}
 
-## **Apache POI SS - HSSF XSSF - Iterar filas y columnas**
+##  **Apache POI SS - HSSF XSSF - Iterar filas y columnas**
 
-Las filas y Cells se pueden iterar en la hoja. El código de ejemplo se menciona a continuación:
+Las filas y Cells se pueden iterar en la Hoja. El código de muestra se menciona a continuación:
 
 **Java**
 
@@ -72,11 +74,11 @@ for (Row row : sheet)
 
 {{< /highlight >}}
 
-## **Descargar código de ejecución**
+##  **Descargar código de ejecución**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 
-## **Descargar código de muestra**
+##  **Descargar código de muestra**
 
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowcolumns/iterate)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/iterate)
 

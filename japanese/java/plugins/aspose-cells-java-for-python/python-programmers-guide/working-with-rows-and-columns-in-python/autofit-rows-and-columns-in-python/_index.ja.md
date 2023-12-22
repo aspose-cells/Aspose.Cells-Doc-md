@@ -1,12 +1,14 @@
-﻿---
+---
 title: Python の行と列の自動調整
 type: docs
 weight: 20
 url: /ja/java/autofit-rows-and-columns-in-python/
+description: Aspose.Cells for Python Via Java API を通じて行と列を自動調整する方法を学びます。
+keywords: How to Autofit Rows and Columns in Python Via Java, Autofit Rows Data in workbook using Python Via Java, Python Via Java Autofit Columns Data. 
 ---
-## **Aspose.Cells - 行と列の自動調整**
-### **行の自動調整**
-行の幅と高さを自動的にサイズ変更する最も簡単な方法は、Worksheet クラスの autoFitRow メソッドを呼び出すことです。 autoFitRow メソッドは、(サイズ変更する行の) 行インデックスをパラメーターとして受け取ります。
+##  **行と列を自動調整する方法**
+###  **行を自動調整する方法**
+行の幅と高さを自動調整する最も簡単な方法は、Worksheet クラスの autoFitRow メソッドを呼び出すことです。 autoFitRow メソッドは、(サイズ変更される行の) 行インデックスをパラメータとして受け取ります。
 
 **Python コード**
 
@@ -39,8 +41,8 @@ workbook.save(self.dataDir + "Autofit Row.xls")
 print "Autofit Row Successfully." 
 
 {{< /highlight >}}
-### **列の自動調整**
-列の幅と高さを自動的にサイズ変更する最も簡単な方法は、Worksheet クラスの autoFitColumn メソッドを呼び出すことです。 autoFitColumn メソッドは、(サイズ変更しようとしている列の) 列インデックスをパラメーターとして受け取ります。
+###  **列を自動調整する方法**
+列の幅と高さを自動調整する最も簡単な方法は、Worksheet クラスの autoFitColumn メソッドを呼び出すことです。 autoFitColumn メソッドは、(サイズ変更される列の) 列インデックスをパラメータとして受け取ります。
 
 **Python コード**
 
@@ -73,7 +75,7 @@ workbook.save(self.dataDir + "Autofit Column.xls")
 print "Autofit Column Successfully." 
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**行と列の自動調整 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+##  **実行コードをダウンロード**
+ダウンロード**行と列の自動調整 (Aspose.Cells)**以下のソーシャル コーディング サイトのいずれかから:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

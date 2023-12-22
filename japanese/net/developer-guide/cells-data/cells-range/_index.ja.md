@@ -3,6 +3,8 @@ title: Cells 範囲を取得
 type: docs
 weight: 600
 url: /ja/net/get-cells-range/
+description: Aspose.Cells for .NET API を通じて Cells の範囲を取得する方法を学びます。
+keywords: Get Max Display Range of Cells, Get Max Row of Cells, Get Max Data Row of Cells, Get Max Column of Cells, Get Max Data Column of Cells. 
 ---
 ##  **考えられる使用シナリオ**
 ワークシート上の一部のデータのみを操作する必要がある場合は、ワークシート全体のデータ範囲を知っておく必要があります。 Aspose.Cells がこの機能を提供しています。 Aspose.Cells は、目標の達成に役立つ次のプロパティとメソッドを提供します。

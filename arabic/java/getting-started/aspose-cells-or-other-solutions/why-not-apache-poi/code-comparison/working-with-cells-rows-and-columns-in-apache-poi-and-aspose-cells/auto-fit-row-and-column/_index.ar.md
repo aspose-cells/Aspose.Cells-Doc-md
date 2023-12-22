@@ -1,13 +1,15 @@
-﻿---
-title: احتواء تلقائي للصف والعمود
+---
+title: الاحتواء التلقائي للصف والعمود
 type: docs
 weight: 10
 url: /ar/java/auto-fit-row-and-column/
+description: تعرف على كيفية الاحتواء التلقائي للصف والعمود من خلال Aspose.Cells for Java API.
+keywords: How to Autofit Row and Column in Java, Autofit Row Data in workbook using Java, Java Autofit Column Data. 
 ---
-## **Aspose.Cells - احتواء تلقائي للصف والعمود**
-الطريقة الأكثر مباشرة لتغيير حجم عرض الصف وارتفاعه تلقائيًا هي استدعاء طريقة Worksheet.autoFitRow. تأخذ طريقة autoFitRow فهرس صف (للصف المراد تغيير حجمه) كمعامل.
+##  **كيفية الاحتواء التلقائي للصف والعمود باستخدام Aspose.Cells for Java**
+الطريقة الأكثر مباشرة للتحجيم التلقائي لعرض الصف وارتفاعه هي استدعاء الأسلوب Worksheet.autoFitRow. تأخذ الطريقة autoFitRow فهرس الصف (الصف الذي سيتم تغيير حجمه) كمعلمة.
 
-**يرجى الملاحظة:**إذا كنت تريد احتواء الصفوف والأعمدة تلقائيًا في جداول بيانات Excel باستخدام Java ، يرجى زيارة[احتواء تلقائي للصفوف والأعمدة](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
+**يرجى الملاحظة:**إذا كنت تريد الاحتواء التلقائي للصفوف والأعمدة في جداول بيانات Excel باستخدام Java، فيرجى زيارة[الاحتواء التلقائي للصفوف والأعمدة](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
 
 **Java**
 
@@ -29,8 +31,8 @@ workbook.save("AutoFit_Aspose.xls");
 
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - احتواء تلقائي للصف والعمود**
-Apache POI SS - يوفر HSSF و XSSF Sheet.autoSizeColumn لملائمة الأعمدة تلقائيًا
+##  **Apache POI SS - HSSF XSSF - التناسب التلقائي للصف والعمود**
+Apache POI SS - يوفر HSSF وXSSF Sheet.autoSizeColumn لملاءمة الأعمدة تلقائيًا
 
 **Java**
 
@@ -55,7 +57,7 @@ workbook.write(fileOut);
 fileOut.close();
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+##  **تحميل كود التشغيل**
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/ src / main / java / com / aspose / cells / أمثلة / featurescomparison / cellrowscolumns / autofitrowandcolumn)
+##  **تنزيل نموذج التعليمات البرمجية**
+- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/Java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/autofitrowandcolumn)

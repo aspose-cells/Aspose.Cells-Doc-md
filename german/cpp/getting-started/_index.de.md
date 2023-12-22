@@ -1,5 +1,5 @@
-﻿---
-title: Einstieg
+---
+title: Erste Schritte
 type: docs
 weight: 10
 url: /de/cpp/getting-started/
@@ -11,65 +11,71 @@ Auf dieser Seite erfahren Sie, wie Sie Aspose Cells for C++ installieren und ein
 
 {{% /alert %}}
 
-## **Installation**
+##  **Installation**
 
-### **Installieren Sie Aspose Cells bis NuGet**
+###  **Installieren Sie Aspose Cells bis NuGet**
 
  NuGet ist der einfachste Weg, Aspose.Cells for C++ herunterzuladen und zu installieren.
 1. Erstellen Sie ein Microsoft Visual Studio-Projekt for C++.
-2. Header-Datei "Aspose.Cells.h" einbinden.
-3. Öffnen Sie Microsoft Visual Studio und NuGet Paket-Manager.
-4. Suchen Sie „aspose.cells.cpp“, um die gewünschte Aspose.Cells for C++ zu finden.
-5. Klicken Sie auf „Installieren“, Aspose.Cells for C++ wird heruntergeladen und in Ihrem Projekt referenziert.
+2. Header-Datei „Aspose.Cells.h“ einbinden.
+3. Öffnen Sie Microsoft Visual Studio und NuGet Paketmanager.
+ 4. Durchsuchen Sie „aspose.cells.cpp“, um die gewünschte Aspose.Cells for C++ zu finden.
+5. Klicken Sie auf „Installieren“. Aspose.Cells for C++ wird heruntergeladen und in Ihrem Projekt referenziert.
 
-**![Installieren Sie Aspose Cells bis NuGet](InstallThroughNuget.png)**
+**![Aspose Cells bis NuGet installieren](InstallThroughNuget.png)**
 
- Sie können es auch von der nuget-Webseite für aspose.cells herunterladen:
+ Sie können es auch von der Webseite nuget für aspose.cells herunterladen:
 [Aspose.Cells for C++ NuGet Paket](https://www.nuget.org/packages/Aspose.Cells.Cpp/)
 
-[Mehr Schritt für Details](/cells/de/cpp/installation/)
+[Weitere Schritte für Details](/cells/de/cpp/installation/)
 
-### **Eine Demo für die Verwendung von Aspose.Cells for C++ auf Windows**
+###  **Eine Demo für die Verwendung von Aspose.Cells for C++ auf Windows**
 
-1. Download Aspose.Cells for C++ von folgender Seite:
+1. Laden Sie Aspose.Cells for C++ von der folgenden Seite herunter:
 [Herunterladen Aspose.Cells for C++(Windows)](https://downloads.aspose.com/cells/cpp/)
-2. Entpacken Sie das Paket und Sie finden eine Demo zur Verwendung von Aspose.Cells for C++.
-3. Öffnen Sie die Demo.sln mit Visual Studio 2017 oder einer höheren Version
+2. Entpacken Sie das Paket und Sie finden ein Beispiel für die Verwendung von Aspose.Cells for C++.
+3. Öffnen Sie die Datei „example.sln“ mit Visual Studio 2017 oder einer höheren Version
 4. main.cpp: Diese Datei zeigt, wie man codiert, um Aspose.Cells for C++ zu testen
- 5. sourceFile/resultFile: Diese beiden Ordner sind Speicherverzeichnisse, die in main.cpp verwendet werden
 
-### **So verwenden Sie Aspose.Cells for C++ unter Linux OS**
+###  **Eine Demo zur Verwendung von Aspose.Cells for C++ unter Linux**
 
-1. Download Aspose.Cells for C++ von folgender Seite:
-[Herunterladen Aspose.Cells for C++ (Linux)](https://downloads.aspose.com/cells/cpp/)
-2. Entpacken Sie das Paket und Sie finden eine Demo, die zeigt, wie Sie Aspose.Cells for C++ für Linux verwenden.
-3. Führen Sie „cd Demo“ in Ihrer Linux-Befehlszeile aus
-4. Führen Sie "rm -rf build;mkdir build;cd build" aus
-5. Führen Sie „cmake ..“ aus, um ein Makefile von CMakeLists.txt im Demo-Ordner zu erstellen
-6. Führen Sie "make" zum Kompilieren aus
- 7. Führen Sie „./demo“ aus, Sie werden das Ergebnis sehen
+1. Laden Sie Aspose.Cells for C++ von der folgenden Seite herunter:
+[Herunterladen Aspose.Cells for C++(Linux)](https://downloads.aspose.com/cells/cpp/)
+2. Entpacken Sie das Paket und Sie finden ein Beispiel für die Verwendung von Aspose.Cells for C++ für Linux.
+3. Stellen Sie sicher, dass Sie sich im Pfad befinden, in dem sich das Beispiel befindet.
+4. Führen Sie „cmake -S example -B example/build -DCMAKE_BUILD_TYPE=Release“ aus.
+5. Führen Sie „cmake --build example/build“ aus.
 
-## **Erstellen der Hello World-Anwendung**
+###  **Eine Demo zur Verwendung von Aspose.Cells for C++ unter Mac OS**
 
-Die folgenden Schritte erstellen die Hello World-Anwendung unter Verwendung der Aspose.Cells API:
+1. Laden Sie Aspose.Cells for C++ von der folgenden Seite herunter:
+[Herunterladen Aspose.Cells for C++(MacOS)](https://downloads.aspose.com/cells/cpp/)
+2. Entpacken Sie das Paket und Sie finden ein Beispiel für die Verwendung von Aspose.Cells for C++ für MacOS.
+3. Stellen Sie sicher, dass Sie sich im Pfad befinden, in dem sich das Beispiel befindet.
+4. Führen Sie „cmake -S example -B example/build -DCMAKE_BUILD_TYPE=Release“ aus.
+5. Führen Sie „cmake --build example/build“ aus.
 
-1.  Erstellen Sie eine Instanz der[Arbeitsmappe](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) Klasse.
+##  **Erstellen der Hello World-Anwendung**
+
+Mit den folgenden Schritten wird die Anwendung Hello World unter Verwendung von Aspose.Cells API erstellt:
+
+1.  Erstellen Sie eine Instanz von[Arbeitsmappe](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) Klasse.
 1.  Wenn Sie eine Lizenz haben, dann[Wende es an](/cells/de/cpp/licensing/).
- Wenn Sie die Evaluierungsversion verwenden, überspringen Sie die lizenzbezogenen Codezeilen.
-1. Greifen Sie in der Excel-Datei auf eine beliebige Zelle eines Arbeitsblatts zu.
-1. Fügen Sie die Wörter ein "**Hello World!**" in eine Zelle, auf die zugegriffen wird.
+ Wenn Sie die Testversion verwenden, überspringen Sie die lizenzbezogenen Codezeilen.
+1. Greifen Sie auf jede gewünschte Zelle eines Arbeitsblatts in der Excel-Datei zu.
+1. Fügen Sie die Wörter „**Hello World!**“ in eine Zelle ein, auf die zugegriffen wird.
 1. Generieren Sie die geänderte Excel-Datei Microsoft.
 
-Die Implementierung der obigen Schritte wird in den folgenden Beispielen demonstriert.
+Die Umsetzung der oben genannten Schritte wird in den folgenden Beispielen demonstriert.
 
-### **Codebeispiel: Erstellen einer neuen Arbeitsmappe**
+###  **Codebeispiel: Erstellen einer neuen Arbeitsmappe**
 
-Das folgende Beispiel erstellt eine neue Arbeitsmappe von Grund auf, fügt "**Hello World!**" in die Zelle A1 auf dem ersten Arbeitsblatt und speichert die Excel-Datei.
+Das folgende Beispiel erstellt eine neue Arbeitsmappe von Grund auf, fügt „**Hello World!**“ in Zelle A1 im ersten Arbeitsblatt ein und speichert die Excel-Datei.
 
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CPP-Introduction-FirstApplication-1.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CPP-Introduction-FirstApplication-1-new.cpp" >}}
 
-### **Codebeispiel: Öffnen einer vorhandenen Datei**
+###  **Codebeispiel: Öffnen einer vorhandenen Datei**
 
 Das folgende Beispiel öffnet eine vorhandene Excel-Vorlagendatei Microsoft, ruft eine Zelle ab und überprüft den Wert in Zelle A1.
 
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CPP-Introduction-OpenExistingFile-1.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CPP-Introduction-OpenExistingFile-1-new.cpp" >}}

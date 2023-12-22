@@ -1,41 +1,43 @@
-﻿---
-title: Ayrıntı altındaki Anahat Özeti Satırlarının Ara Toplamını Uygulama ve Yönünü Değiştirme
+---
+title: Alt Toplamın Uygulanması ve Detayın Altındaki Anahat Özeti Satırlarının Yönünün Değiştirilmesi
 type: docs
 weight: 100
 url: /tr/net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/
+description: Aspose.Cells for .NET API'i kullanarak alt toplamı nasıl uygulayacağınızı ve Ayrıntı Altındaki Anahat Özet Satırlarının yönünü nasıl değiştireceğinizi öğrenin.
+keywords: Apply subtotal, Add subtotal, change direction of outline summary Rows below Detail, change direction of outline summary Columns to right of Detail, Create subtotal and change direction of outline summary Rows below Detail
 ---
 {{% alert color="primary" %}}
 
-Bu makale, ara toplamın verilere nasıl uygulanacağını ve Ayrıntı altındaki Anahat Özeti Satırlarının yönünün nasıl değiştirileceğini açıklayacaktır.
+Bu makalede, Alt Toplamın verilere nasıl uygulanacağı ve Ayrıntı altındaki Anahat Özet Satırlarının yönünün nasıl değiştirileceği açıklanacaktır.
 
- Alt Toplam'ı kullanarak verilere uygulayabilirsiniz.[**Worksheet.Cells.Ara toplam()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/subtotal/index) yöntem. Aşağıdaki parametreleri alır.
+ Aşağıdakileri kullanarak verilere Alt Toplam uygulayabilirsiniz:[**Çalışma Sayfası.Cells.Subtotal()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/subtotal/index) yöntem. Aşağıdaki parametreleri alır.
 
-- **hücre alanı** Ara toplamın uygulanacağı aralık
-- **Gruplandıran** - Sıfır tabanlı bir tamsayı ofseti olarak gruplandırılacak alan
+- **Hücre Alanı** - Ara toplamın uygulanacağı aralık
+- **Gruplandırmaya Göre** - Sıfır tabanlı tamsayı uzaklığı olarak gruplandırılacak alan
 - **İşlev** - Alt toplam işlevi.
-- **Toplam Liste** - Ara toplamların eklendiği alanları gösteren sıfır tabanlı alan ofsetleri dizisi.
-- **Yer değiştirmek** - Geçerli ara toplamların değiştirilip değiştirilmediğini gösterir
-- **Sayfa Sonları** - Gruplar arasında sayfa sonu eklenip eklenmeyeceğini gösterir
-- **ÖzetVeri Altında** - Verilerin altına özet eklenip eklenmeyeceğini belirtir.
+- **Toplam Liste** Alt toplamların eklendiği alanları gösteren sıfır tabanlı alan uzaklıkları dizisi.
+- **Yer değiştirmek** - Geçerli alt toplamların değiştirilip değiştirilmeyeceğini gösterir
+- **Sayfa Sonları** - Gruplar arasında sayfa sonu eklenip eklenmeyeceğini belirtir
+- **ÖzetAşağıdakiVeriler** - Verilerin altına özet eklenip eklenmeyeceğini belirtir.
 
- Ayrıca, Anahat yönünü de kontrol edebilirsiniz.**Detayın altındaki özet satırları** Worksheet.Outline.SummaryRowBelow özelliği kullanılarak aşağıdaki ekran görüntüsünde gösterildiği gibi. Bu ayarı kullanarak Microsoft Excel'de açabilirsiniz.**Veri > Anahat > Ayarlar**
+ Ayrıca Anahat'ın yönünü de kontrol edebilirsiniz.**Ayrıntıların altındaki özet satırları** Worksheet.Outline.SummaryRowBelow özelliğini kullanarak aşağıdaki ekran görüntüsünde gösterildiği gibi. Bu ayarı Microsoft Excel'de kullanarak açabilirsiniz.**Veri > Anahat > Ayarlar**
 
-![yapılacaklar:resim_alternatif_metin](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_1.png)
+![yapılacak şey:image_alt_text](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_1.png)
 
 {{% /alert %}}
 
-## Kaynak ve çıktı dosyalarının görüntüleri
+##  Kaynak ve çıktı dosyalarının görüntüleri
 
-Aşağıdaki ekran görüntüsü, aşağıdaki örnek kodda kullanılan ve A ve B sütunlarında bazı veriler içeren kaynak Excel dosyasını göstermektedir.
+Aşağıdaki ekran görüntüsü, A ve B sütunlarındaki bazı verileri içeren, aşağıdaki örnek kodda kullanılan kaynak Excel dosyasını göstermektedir.
 
-![yapılacaklar:resim_alternatif_metin](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_2.png)
+![yapılacak şey:image_alt_text](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_2.png)
 
-Aşağıdaki ekran görüntüsü, örnek kod tarafından oluşturulan çıktı Excel dosyasını gösterir. Görüldüğü gibi A2:B11 aralığına ara toplam uygulanmış ve ana hatların yönü detayın altında özet satırları şeklindedir.
+Aşağıdaki ekran görüntüsü örnek kod tarafından oluşturulan çıktı Excel dosyasını gösterir. Gördüğünüz gibi A2:B11 aralığına ara toplam uygulandı ve ana hatların yönü detayın altındaki özet satırlarıdır.
 
-![yapılacaklar:resim_alternatif_metin](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_3.png)
+![yapılacak şey:image_alt_text](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_3.png)
 
-## C# ara toplamı uygulamak ve ana hat özet satırlarının yönünü değiştirmek için kod
+## Alt toplamı uygulamak ve anahat özeti satırlarının yönünü değiştirmek için C# kodu
 
-Yukarıda gösterilen çıktıyı elde etmek için örnek kod aşağıdadır.
+Yukarıda gösterildiği gibi çıktıyı elde etmek için örnek kod aşağıdadır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ApplyingSubtotalChangeSummaryDirection-1.cs" >}}

@@ -1,25 +1,27 @@
-﻿---
-title: قراءة Cell القيم في خيوط متعددة في نفس الوقت
+---
+title: قراءة Cell القيم في مواضيع متعددة في وقت واحد
 linktitle: خيوط متعددة
 type: docs
 weight: 1800
 url: /ar/net/reading-cell-values-in-multiple-threads-simultaneously/
+description: تعرف على كيفية قراءة قيم Cell في مؤشرات الترابط المتعددة في وقت واحد من خلال Aspose.Cells for .NET API.
+keywords: Read Cell Values in Multiple Threads Simultaneously, Aspose.Cells C# Multiple Threads, Read data in Multiple Threads
 ---
 {{% alert color="primary" %}}
 
-تعد الحاجة إلى قراءة قيم الخلايا في خيوط متعددة في وقت واحد مطلبًا شائعًا. تشرح هذه المقالة كيفية استخدام Aspose.Cells لهذا الغرض.
+تعد الحاجة إلى قراءة قيم الخلايا في سلاسل رسائل متعددة في وقت واحد مطلبًا شائعًا. يشرح هذا المقال كيفية استخدام Aspose.Cells لهذا الغرض.
 
 {{% /alert %}}
 
- لقراءة قيم الخلايا في أكثر من مؤشر ترابط واحد في نفس الوقت ، قم بتعيين[**ورقة عمل Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/multithreadreading) إلى**حقيقي**. إذا لم تقم بذلك ، فقد تحصل على قيم خلية خاطئة.
+ لقراءة قيم الخلايا في أكثر من مؤشر ترابط واحد في وقت واحد، قم بتعيين[**ورقة عمل.Cells.قراءة متعددة الخيوط**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/multithreadreading)إلى *صحيح**. إذا لم تقم بذلك، فقد تحصل على قيم الخلايا الخاطئة.
 
 الكود التالي:
 
 1. يقوم بإنشاء مصنف.
-1. يضيف ورقة عمل.
+1. إضافة ورقة عمل.
 1. يملأ ورقة العمل بقيم السلسلة.
-1. ثم يقوم بإنشاء خيطين يقرآن القيم من الخلايا العشوائية في نفس الوقت.
- إذا كانت القيم المقروءة صحيحة ، فلن يحدث شيء. إذا كانت القيم المقروءة غير صحيحة ، فسيتم عرض رسالة.
+1. ثم يقوم بعد ذلك بإنشاء خيطين يقرأان القيم من الخلايا العشوائية في نفس الوقت.
+ إذا كانت القيم المقروءة صحيحة، فلن يحدث شيء. إذا كانت القيم المقروءة غير صحيحة، فسيتم عرض رسالة.
 
 إذا قمت بالتعليق على هذا السطر:
 
@@ -43,6 +45,6 @@ url: /ar/net/reading-cell-values-in-multiple-threads-simultaneously/
 
 {{< /highlight >}}
 
-خلاف ذلك ، يتم تشغيل البرنامج دون إظهار أي رسالة مما يعني أن جميع القيم المقروءة من الخلايا صحيحة.
+وبخلاف ذلك، يعمل البرنامج دون ظهور أي رسالة مما يعني أن جميع القيم المقروءة من الخلايا صحيحة.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ReadingCellValuesInMultipleThreadsSimultaneously-1.cs" >}}
