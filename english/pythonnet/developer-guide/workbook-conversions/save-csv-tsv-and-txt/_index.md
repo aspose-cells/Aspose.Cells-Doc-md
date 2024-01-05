@@ -10,13 +10,13 @@ keywords: Python Convert Excel to CSV,TSV and Txt, Convert Excel to CSV,TSV and 
 
 {{% alert color="primary" %}}
 
-Aspose.Cells makes it possible to convert excel, ods, json and other format files to CSV, TSV and TXT.
+Aspose.Cells for Python via .NET makes it possible to convert excel, ods, json and other format files to CSV, TSV and TXT.
 
 {{% /alert %}}
 
 ## **Saving Workbook to Text or CSV Format**
 
-Sometimes, you want to convert or save a workbook with multiple worksheets into text format. For text formats (for example TXT, TabDelim, CSV, etc.), by default both Microsoft Excel and Aspose.Cells save the contents of the active worksheet only.
+Sometimes, you want to convert or save a workbook with multiple worksheets into text format. For text formats (for example TXT, TabDelim, CSV, etc.), by default both Microsoft Excel and Aspose.Cells for Python via .NET save the contents of the active worksheet only.
 
 The following code example explains how to save an entire workbook into text format. Load the source workbook which could be any Microsoft Excel or OpenOffice spreadsheet file (so XLS, XLSX, XLSM, XLSB, ODS and so on) with any number of worksheets.
 

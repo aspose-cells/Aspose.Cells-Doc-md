@@ -19,11 +19,11 @@ Sometimes, your Excel or CSV file has leading blank columns or rows. For example
 
 Here the first three cells or columns are blank. When you open such a CSV file in Microsoft Excel, then Microsoft Excel discards these leading blank rows and columns.
 
-By default, Aspose.Cells does not discard leading blank columns and rows on saving but if you want to remove them just like Microsoft Excel does, then Aspose.Cells provides **[TxtSaveOptions.trim_leading_blank_row_and_column](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/trim_leading_blank_row_and_column/)** property. Please set it to **true** and then all the leading blank rows and columns will be discarded on saving.
+By default, Aspose.Cells for Python via .NET does not discard leading blank columns and rows on saving but if you want to remove them just like Microsoft Excel does, then Aspose.Cells for Python via .NET provides **[TxtSaveOptions.trim_leading_blank_row_and_column](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/trim_leading_blank_row_and_column/)** property. Please set it to **true** and then all the leading blank rows and columns will be discarded on saving.
 
 {{% alert color="primary" %}}
 
-Prior to the release of Aspose.Cells for .NET 20.4, the default value of **[TxtSaveOptions.trim_leading_blank_row_and_column](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/trim_leading_blank_row_and_column/)** was **false**. Since the 20.4 release, the default value of **[TxtSaveOptions.trim_leading_blank_row_and_column](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/trim_leading_blank_row_and_column/)** is **true.**
+Prior to the release of Aspose.Cells for Python via .NET 20.4, the default value of **[TxtSaveOptions.trim_leading_blank_row_and_column](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/trim_leading_blank_row_and_column/)** was **false**. Since the 20.4 release, the default value of **[TxtSaveOptions.trim_leading_blank_row_and_column](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/trim_leading_blank_row_and_column/)** is **true.**
 
 {{% /alert %}}
 
