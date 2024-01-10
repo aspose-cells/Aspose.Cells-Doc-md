@@ -8,6 +8,14 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 24.1
+
+* Support NET8
+* Support to import csv data with user specified header rows/columns and total rows/columns per sheet
+* Support to export html with custom styles
+* Support auto filling for merged areas
+* Support auto filling data from right to left and bottom to up
+
 ## Aspose.Cells for .NET 23.12
 
 * Support for PDF/A-2 and PDF/A-3 compliance while converting to pdf
