@@ -73,3 +73,7 @@ Of course, if you want it simpler, you can also download [libSkiaSharp.dylib](li
 
 - Now save the code above to "CreatingHelloWorldFile.py" and run "python CreatingHelloWorldFile.py" @command prompt.
 
+## **Python via .NET Example github**
+- Please visit the [Aspose.Cells for Python via .NET Example](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET) github to view more sample codes.
+
+
