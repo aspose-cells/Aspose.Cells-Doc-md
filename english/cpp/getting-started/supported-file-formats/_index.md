@@ -29,6 +29,7 @@ url: /cpp/supported-file-formats/
 |[PDF](https://docs.fileformat.com/pdf/)|Adobe Portable Document Format.| |{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|XML Paper Specification Format.| |{{< emoticons/tick >}}|
 |[SVG](https://docs.fileformat.com/page-description-language/svg/)|Scalable Vector Graphics Format.| |{{< emoticons/tick >}}|
+|[TIFF](https://docs.fileformat.com/image/tiff/)|Tagged Image File Format| |{{< emoticons/tick >}}|
 |[PNG](https://docs.fileformat.com/image/png/)|Portable Network Graphics Format| |{{< emoticons/tick >}}|
 |[BMP](https://docs.fileformat.com/image/bmp/)|Bitmap Image Format| |{{< emoticons/tick >}}|
 |[EMF](https://docs.fileformat.com/image/emf/)|Enhanced metafile Format| |{{< emoticons/tick >}}|
