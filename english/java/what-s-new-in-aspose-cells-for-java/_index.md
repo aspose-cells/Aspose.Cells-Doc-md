@@ -10,6 +10,7 @@ This page describes the most interesting new Aspose.Cells features introduced in
 
 ## Aspose.Cells for Java 24.1
 
+* Support jakarta.servlet for GridWeb
 * Support to import csv data with user specified header rows/columns and total rows/columns per sheet
 * Support to export html with custom styles
 * Support auto filling for merged areas
