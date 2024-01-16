@@ -40,3 +40,6 @@ url: /python-java/supported-file-formats/
 |[FODS](https://docs.fileformat.com/spreadsheet/fods/)|This is an Open Document format stored as flat XML.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[DOCX](https://docs.fileformat.com/word-processing/docx/)|A well-known format for Microsoft Word documents that is a combination of XML and binary files.||{{< emoticons/tick >}}|
 |[PPTX](https://docs.fileformat.com/presentation/pptx/)|The PPTX format is based on the Microsoft PowerPoint open XML presentation file format.||{{< emoticons/tick >}}|
+|[SqlScript](https://docs.fileformat.com/database/sql/)|Structured Query Language.||{{< emoticons/tick >}}|
+|[XHtml](https://docs.fileformat.com/web/xhtml/)|The XHTML is a text based file format with markup in the XML, using a reformulation of HTML 4.0.||{{< emoticons/tick >}}|
+|[Epub](https://docs.fileformat.com/ebook/epub/)|Files with .epub extension are an e-book file format that provide a standard digital publication format for publishers and consumers.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
