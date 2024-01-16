@@ -43,3 +43,5 @@ url: /net/supported-file-formats/
 |[SqlScript](https://docs.fileformat.com/database/sql/)|Structured Query Language.||{{< emoticons/tick >}}|
 |[XHtml](https://docs.fileformat.com/web/xhtml/)|The XHTML is a text based file format with markup in the XML, using a reformulation of HTML 4.0.||{{< emoticons/tick >}}|
 |[Epub](https://docs.fileformat.com/ebook/epub/)|Files with .epub extension are an e-book file format that provide a standard digital publication format for publishers and consumers.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Xml](https://docs.fileformat.com/web/xml/)|XML stands for Extensible Markup Language that is similar to HTML but different in using tags for defining objects.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Ots](https://docs.fileformat.com/spreadsheet/ots/)|Open Document Template Sheet(OTS) file.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
