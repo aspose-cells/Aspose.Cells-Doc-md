@@ -82,16 +82,17 @@ To use Aspose.Cells, the machine doesn't need to have Microsoft Excel installed 
 
 {{% /alert %}} 
 ## **Aspose.Cells Grid Suite System Requirements**
-The Aspose.Cells Grid Suite is composed of two controls:
+The Aspose.Cells Grid Suite is composed of three controls:
 
 - Aspose.Cells.GridDesktop
 - Aspose.Cells.GridWeb
+- Aspose.Cells.GridJs
 
-The system requirements of both controls are described separately.
+The system requirements of the controls are described separately.
 
 {{% alert color="primary" %}} 
 
-To use these two controls, the machine to run Aspose.Cells.GridDesktop and Aspose.Cells.GridWeb doesn't need to have Microsoft Excel installed as Aspose.Cells.GridDesktop and Aspose.Cells.GridWeb can open and save Excel spreadsheets without any need for Microsoft Excel.
+To use these  controls, the machine to run Aspose.Cells.GridDesktop and Aspose.Cells.GridWeb doesn't need to have Microsoft Excel installed as Aspose.Cells.GridDesktop and Aspose.Cells.GridWeb can open and save Excel spreadsheets without any need for Microsoft Excel.
 
 {{% /alert %}} 
 ### **Aspose.Cells.GridDesktop**
@@ -110,16 +111,24 @@ To use these two controls, the machine to run Aspose.Cells.GridDesktop and Aspos
 - .NET Framework 4.7.2
 - .NET Framework 4.8
 - .NET Framework 4.8.1
-
+### **.NET Core**
+- .NET Core 3.1 
+- .NET 7.0 windows
+#### **The nuget packages referenced by Aspose.Cells.GridDesktop For .NET Core 3.1**
+- System.Drawing.Common, 6.0.0.
+- System.Text.Encoding.CodePages, 4.7.0.
+- System.Security.Cryptography.Pkcs, 5.0.1.
+#### **The nuget packages referenced by Aspose.Cells.GridDesktop For .Net7  **
+- System.Text.Encoding.CodePages, 4.7.0.
+- System.Security.Cryptography.Pkcs, 6.0.3.
+- System.Drawing.Common, 7.0.0 (on windows system).
 #### **Development Tools**
-- Microsoft Visual Studio 2005
-- Microsoft Visual Studio 2008
-- Microsoft Visual Studio 2010
 - Microsoft Visual Studio 2012
 - Microsoft Visual Studio 2013
 - Microsoft Visual Studio 2015
 - Microsoft Visual Studio 2017
 - Microsoft Visual Studio 2019
+- Microsoft Visual Studio 2022
 #### **Operating System**
 - Microsoft Windows 2000
 - Microsoft Windows XP
@@ -147,22 +156,26 @@ To use these two controls, the machine to run Aspose.Cells.GridDesktop and Aspos
 - .NET Framework 4.7.2
 - .NET Framework 4.8
 - .NET Framework 4.8.1
+### **.NET Core**
+- .NET 6.0 windows 
+- .NET 7.0 windows
+#### **The nuget packages referenced by Aspose.Cells.GridWeb For .NET Core  **
+- System.Drawing.Common, 7.0.0.
+- System.Text.Encoding.CodePages, 4.7.0.
+- System.Security.Cryptography.Pkcs, 6.0.3.
 #### **Development Tools**
-- Microsoft Visual Studio 2005
-- Microsoft Visual Studio 2008
-- Microsoft Visual Studio 2010
 - Microsoft Visual Studio 2012
 - Microsoft Visual Studio 2013
 - Microsoft Visual Studio 2015
 - Microsoft Visual Studio 2017
 - Microsoft Visual Studio 2019
-#### **Internet Information Server (IIS)**
-- IIS 5.0 or above
+- Microsoft Visual Studio 2022
 #### **Browsers**
-- IE 5.5 or above
+- Chrome
+- Edge
 - Mozilla Browsers (including Firefox, Netscape Browser, etc.)
-- Opera (Internet Explorer 6.0 recommended)
-- Google Chrome
+- Safari
+- Opera 
 #### **Operating System**
 - Microsoft Windows 2000
 - Microsoft Windows XP
@@ -174,3 +187,42 @@ To use these two controls, the machine to run Aspose.Cells.GridDesktop and Aspos
 - Microsoft Windows 8, 8.1
 - Microsoft Windows 10
 - Microsoft Windows 11
+
+### **Aspose.Cells.GridJs**
+### **.NET Standard**
+- .NET Standard 2.0  
+#### **The nuget packages referenced by Aspose.Cells.GridJs For .NET Standard  **
+- System.Drawing.Common, 6.0.0 (on windows system).
+- SkiaSharp, 2.88.3 (on non-windows systems).
+- System.Text.Encoding.CodePages, 4.7.0.
+- System.Security.Cryptography.Pkcs,5.0.1.
+- Aspose.Cells,(always keep same version with GridJs)
+#### **Development Tools**
+- Microsoft Visual Studio 2012
+- Microsoft Visual Studio 2013
+- Microsoft Visual Studio 2015
+- Microsoft Visual Studio 2017
+- Microsoft Visual Studio 2019
+- Microsoft Visual Studio 2022
+
+#### **Browsers**
+- Chrome
+- Edge
+- Mozilla Browsers (including Firefox, Netscape Browser, etc.)
+- Safari
+- Opera 
+#### **Operating System**
+- Microsoft Windows 2000
+- Microsoft Windows XP
+- Microsoft Windows Server 2003
+- Microsoft Windows Server 2008
+- Microsoft Windows Server 2012
+- Microsoft Windows Vista
+- Microsoft Windows 7, 
+- Microsoft Windows 8, 8.1
+- Microsoft Windows 10
+- Microsoft Windows 11
+### **Linux**
+- Linux (Ubuntu, openSUSE, CentOS, Debian, Alpine and others)
+### **Mac**
+- Mac OS X, macOS High Sierra, etc.
