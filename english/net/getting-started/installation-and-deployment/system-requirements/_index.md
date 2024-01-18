@@ -118,7 +118,7 @@ To use these  controls, the machine to run Aspose.Cells.GridDesktop and Aspose.C
 - System.Drawing.Common, 6.0.0.
 - System.Text.Encoding.CodePages, 4.7.0.
 - System.Security.Cryptography.Pkcs, 5.0.1.
-#### **The nuget packages referenced by Aspose.Cells.GridDesktop For .Net7  **
+#### **The nuget packages referenced by Aspose.Cells.GridDesktop For .Net7**
 - System.Text.Encoding.CodePages, 4.7.0.
 - System.Security.Cryptography.Pkcs, 6.0.3.
 - System.Drawing.Common, 7.0.0 (on windows system).
@@ -159,7 +159,7 @@ To use these  controls, the machine to run Aspose.Cells.GridDesktop and Aspose.C
 ### **.NET Core**
 - .NET 6.0 windows 
 - .NET 7.0 windows
-#### **The nuget packages referenced by Aspose.Cells.GridWeb For .NET Core  **
+#### **The nuget packages referenced by Aspose.Cells.GridWeb For .NET Core**
 - System.Drawing.Common, 7.0.0.
 - System.Text.Encoding.CodePages, 4.7.0.
 - System.Security.Cryptography.Pkcs, 6.0.3.
@@ -191,7 +191,7 @@ To use these  controls, the machine to run Aspose.Cells.GridDesktop and Aspose.C
 ### **Aspose.Cells.GridJs**
 ### **.NET Standard**
 - .NET Standard 2.0  
-#### **The nuget packages referenced by Aspose.Cells.GridJs For .NET Standard  **
+#### **The nuget packages referenced by Aspose.Cells.GridJs For .NET Standard**
 - System.Drawing.Common, 6.0.0 (on windows system).
 - SkiaSharp, 2.88.3 (on non-windows systems).
 - System.Text.Encoding.CodePages, 4.7.0.
