@@ -46,7 +46,7 @@ code:
 result:
 ![todo:the validation result](gridvalidation_dropdownlist.png) 
 
-## **GridValidationType.FreeList
+## **GridValidationType.FreeList**
 code:
 ```C#
              GridValidation validationOfList = this.GridWeb1.ActiveSheet.Validations.Add("c1");
@@ -64,7 +64,7 @@ code:
 result:
 ![todo:the validation result](gridvalidation_freelist.png)  
 
-## **GridValidationType.CustomExpression
+## **GridValidationType.CustomExpression**
 code:
 ```C#
              var sheet = GridWeb1.ActiveSheet;
@@ -103,7 +103,7 @@ result:
 after enter invalid value
 ![todo:the validation result](gridvalidation_customexpression.png)  
 
-## **GridValidationType.Boolean
+## **GridValidationType.Boolean**
 code:
 ```C#
  //add boolean validation at d1
@@ -117,7 +117,7 @@ after enter invalid value
 after enter true value 
 ![todo:the validation result](gridvalidation_bool2.png)  
 
-## **GridValidationType.DateTime
+## **GridValidationType.DateTime**
 code:
 ```C#
   //add DateTime validation at d3
@@ -127,7 +127,7 @@ code:
 result:
 ![todo:the validation result](gridvalidation_datetime.png)  
 
-## **GridValidationType.CheckBox
+## **GridValidationType.CheckBox**
 code:
 ```C#
    //add checkbox validation at d1
@@ -138,7 +138,7 @@ result:
 ![todo:the validation result](gridvalidation_checkbox.png)  
 
 
-## **GridValidationType.CustomFunction
+## **GridValidationType.CustomFunction**
 code:
 ```C#
       //add boolean validation at d4
@@ -161,7 +161,7 @@ add javascript function in client page
 result: after enter invalid value at d4
 ![todo:the validation result](gridvalidation_customfunction.png)  
 
-## **GridValidationType.CustomServerFunction
+## **GridValidationType.CustomServerFunction**
 code:
 ```C#
   //define server side validation class which implment GridCustomServerValidation and ISerializable
