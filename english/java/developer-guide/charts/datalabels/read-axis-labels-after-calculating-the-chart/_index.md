@@ -9,7 +9,7 @@ url: /java/read-axis-labels-after-calculating-the-chart/
 
 ## **Possible Usage Scenarios**
 
-You can read axis labels of your chart after calculating its values using the [**Chart.calculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart/#calculate--) method. Please use the [**Axis.getAxisLabels()**](https://reference.aspose.com/cells/java/com.aspose.cells/axis/#getAxisLabels--) method for this purpose that will return the list of axis labels.
+You can read axis labels of your chart after calculating its values using the [**Chart.calculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart/#calculate--) method. Please use the [**Axis.getAxisTexts()**](https://reference.aspose.com/cells/java/com.aspose.cells/axis/#getAxisTexts--) method for this purpose that will return the list of axis labels.
 
 ## **Read Axis Labels after Calculating the Chart**
 
