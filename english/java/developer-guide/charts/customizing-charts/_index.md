@@ -3,6 +3,7 @@ title: Customizing Charts
 type: docs
 weight: 15
 url: /java/creating-and-customizing-charts/
+alias: [/java/customizing-charts/]
 ---
 
 ## **Creating Charts**
