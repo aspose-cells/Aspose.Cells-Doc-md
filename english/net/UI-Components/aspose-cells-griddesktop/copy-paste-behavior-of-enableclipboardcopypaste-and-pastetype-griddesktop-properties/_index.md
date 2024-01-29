@@ -34,12 +34,14 @@ Aspose.Cells.GridDesktop.GridDesktop.PasteType property works only if you set 
 
 ![todo:image_alt_text](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_1.png)
 ## **Behavior Of EnableClipboardCopyPaste and PasteType Properties**
-Given that EnableClipboardCopyPaste is false and PasteType is All, the following screenshot shows that when cell B3 is copied and pasted to cell C5, cell formatting is not copied and only content of cell B3 is copied.
-
-![todo:image_alt_text](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_2.png)
-
-Given that EnableClipboardCopyPaste is true and PasteType is All, the following screenshot shows that when cell B3 is copied and pasted to cell C5, it also copies the formatting of the cell B3 to cell C5.
+Given that EnableClipboardCopyPaste is false and PasteType is All, the following screenshot shows that when cell B3 is copied and pasted to cell C5.
 
 ![todo:image_alt_text](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_3.png)
+
+Given that EnableClipboardCopyPaste is true and PasteType is All,after copy an image from windows . the following screenshot shows that when cell B3 is copied and pasted to cell C5, it also copies the image to cell C5.
+
+![todo:do copy image](copyimage.png)
+
+![todo:after copy do paste](aftercopy.png)
 
 
