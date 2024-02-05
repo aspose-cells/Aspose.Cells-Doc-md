@@ -9,6 +9,12 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
 ## Aspose.Cells for .NET 24.1
+* Support new functions: TEXTAFTER,TEXTBEFORE,TEXTSPLIT,TOROW,TOCOL
+* Support detecting oxps format
+* Improve performance for sorting large dataset
+* Enhancment for operations about filter for GridDesktop: number filter, key word search, clear filter.
+
+## Aspose.Cells for .NET 24.1
 
 * Support NET8
 * Support to import csv data with user specified header rows/columns and total rows/columns per sheet

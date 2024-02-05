@@ -279,7 +279,6 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |**Function**|**Summary**|
 | :- | :- |
 |LAMBDA|**Logical**: Creates custom, reusable functions and call them by a friendly name
-|LET|**Logical**: Assigns names to calculation results
 |LARGE|**Statistical**: Returns the k-th largest value in a data set
 |LCM|**Math and trigonometry**: Returns the least common multiple
 |LEFT|**Text**: Returns the leftmost characters from a text value
@@ -481,12 +480,17 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |T.DIST.RT|**Statistical**: Returns the Student's t-distribution
 |TDIST|**Compatibility**: Returns the Student's t-distribution
 |TEXT|**Text**: Formats a number and converts it to text
+|TEXTAFTER|**Text**: Returns text that occurs after given character or string
+|TEXTBEFORE|**Text**: Returns text that occurs before a given character or string
 |TEXTJOIN|**Text**: Combines the text from multiple ranges and/or strings, and includes a delimiter you specify between each text value that will be combined. If the delimiter is an empty text string, this function will effectively concatenate the ranges.
+|TEXTSPLIT|**Text**: Splits text strings by using column and row delimiters
 |TIME|**Date and time**: Returns the serial number of a particular time
 |TIMEVALUE|**Date and time**: Converts a time in the form of text to a serial number
 |T.INV.2T|**Statistical**: Returns the inverse of the Student's t-distribution
 |TINV|**Compatibility**: Returns the inverse of the Student's t-distribution
+|TOCOL|**Lookup and reference**: Returns the array in a single column
 |TODAY|**Date and time**: Returns the serial number of today's date
+|TOROW|**Lookup and reference**: Returns the array in a single row
 |TRANSPOSE|**Lookup and reference**: Returns the transpose of an array
 |TREND|**Statistical**: Returns values along a linear trend
 |TRIM|**Text**: Removes spaces from text
