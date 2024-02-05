@@ -8,7 +8,7 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
-## Aspose.Cells for .NET 24.1
+## Aspose.Cells for .NET 24.2
 * Support new functions: TEXTAFTER,TEXTBEFORE,TEXTSPLIT,TOROW,TOCOL
 * Support detecting oxps format
 * Improve performance for sorting large dataset
