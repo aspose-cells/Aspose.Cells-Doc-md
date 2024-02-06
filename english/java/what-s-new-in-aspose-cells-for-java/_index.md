@@ -8,6 +8,11 @@ url: /java/what-s-new-in-aspose-cells-for-java/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for Java 24.2
+* Support new functions: TEXTAFTER,TEXTBEFORE,TEXTSPLIT,TOROW,TOCOL
+* Support detecting oxps format
+* Improve performance for sorting large dataset
+
 ## Aspose.Cells for Java 24.1
 
 * Support jakarta.servlet for GridWeb
