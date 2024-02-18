@@ -39,7 +39,7 @@ Aspose.Cells offers some built-in number formats to configure the display format
 |11|Scientific|0.00E+00|
 |12|Fraction|# ?/?|
 |13|Fraction|# */*|
-|14|Date|m/d/yy|
+|14|Date|m/d/yyyy|
 |15|Date|d-mmm-yy|
 |16|Date|d-mmm|
 |17|Date|mmm-yy|
