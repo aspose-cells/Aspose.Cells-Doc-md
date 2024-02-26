@@ -92,7 +92,7 @@ In Excel, both array formulas and dynamic array formulas are used to perform cal
 1. They have new functions like **FILTER**, **SORT**, **UNIQUE**, etc., which can handle arrays natively and return results in a dynamic array format.
 In summary, dynamic array formulas are a more modern and convenient way to work with arrays in Excel, providing automatic spilling of results and simplifying the process of working with arrays compared to traditional array formulas. However, they are only available in the newer versions of Excel that support dynamic arrays.
 
-## **How to Set Dynamic Array Formulas in Excel**
+## **How to Set and Calculate Dynamic Array Formulas in Excel**
 Setting up dynamic array formulas in Excel involves using specific functions that are designed to work with arrays of data and allow the results to automatically spill into neighboring cells. 
 
 Here's a step-by-step guide to setting up dynamic array formulas:
