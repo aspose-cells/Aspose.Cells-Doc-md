@@ -1,5 +1,5 @@
 ---
-title: Dynamic Array Formulas
+title: Setting Dynamic Array Formulas
 description: How to use Aspose.Cells library to calculate dynamic array formulas in Microsoft Excel. By loading an existing Excel file or creating a new Excel file, we can use the method provided by Aspose.Cells to calculate the dynamic array formula and get the result. Finally, we save the modified Excel file to disk.
 keywords: Dynamic Array Formulas, Dynamic Array Formulas in Excel, Set dynamic array formulas, Calculation of dynamic array formulas, operate dynamic array formulas of Excel.
 type: docs
@@ -92,7 +92,7 @@ In Excel, both array formulas and dynamic array formulas are used to perform cal
 1. They have new functions like **FILTER**, **SORT**, **UNIQUE**, etc., which can handle arrays natively and return results in a dynamic array format.
 In summary, dynamic array formulas are a more modern and convenient way to work with arrays in Excel, providing automatic spilling of results and simplifying the process of working with arrays compared to traditional array formulas. However, they are only available in the newer versions of Excel that support dynamic arrays.
 
-## **How to Set and Calculate Dynamic Array Formulas in Excel**
+## **How to Set and Refresh Dynamic Array Formulas in Excel**
 Setting up dynamic array formulas in Excel involves using specific functions that are designed to work with arrays of data and allow the results to automatically spill into neighboring cells. 
 
 Here's a step-by-step guide to setting up dynamic array formulas:
@@ -127,7 +127,7 @@ If you want to clear the spilled data, you can delete the formula from the origi
 
 By following these steps, you can set up dynamic array formulas in Excel to efficiently analyze and manipulate arrays of data, allowing for easier data analysis and reporting tasks.
 
-## **How to Set and Calculate Dynamic Array Formulas Using Aspose.Cells**
+## **How to Set and Refresh Dynamic Array Formulas Using Aspose.Cells**
 Please see the following sample code that loads the [sample Excel file](dynamicArrayFormula.xlsx) which contains some dummy data. After loading the file, call the [Cell.SetDynamicArrayFormula](https://reference.aspose.com/cells/net/aspose.cells/cell/setdynamicarrayformula/#setdynamicarrayformula) function to set dynamic array formula and  [Workbook.RefreshDynamicArrayFormulas](https://reference.aspose.com/cells/net/aspose.cells/workbook/refreshdynamicarrayformulas/#refreshdynamicarrayformulas) function to refresh dynamic array formulas before calling formula calculation, and finally save the workbook as [output Excel file](out.xlsx). 
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Formulas-dynamic-array-formulas.cs" >}}
