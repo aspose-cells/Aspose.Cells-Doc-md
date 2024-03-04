@@ -20,6 +20,7 @@ xs = x_spreadsheet(id, options)
      // the parameters for options:
 	    updateMode:  currently we only support 'server'
 	    updateUrl:  set the server side  url for update action based on json
+		view: set the view size for the sheet,for example `{width: () => 1000, height: ()=> 500}`
 	    mode: read means readonly spread sheet/edit means we can edit the spread sheet
             allowSelectTextInTextBoxInReadMode: whether allow select text in TextBox control when in read mode,the default value is false
 	    showToolbar:   means whether to show toolbar
