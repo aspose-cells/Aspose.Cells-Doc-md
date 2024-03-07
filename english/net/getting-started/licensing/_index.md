@@ -4,53 +4,8 @@ type: docs
 weight: 120
 url: /net/licensing/
 description: Aspose.Cells for .NET provides different plans for purchase or offers a Free Trial and a 30-day Temporary License for evaluation using Licensing and Subscription policies in C#.
-keywords: Apply License from Disk or Stream. Set License from Disk or Stream. Apply License in Aspose.Cells.
+keywords: C# Apply License from Disk or Stream. C# Set License from Disk or Stream. Apply License in Aspose.Cells for NET.
 ---
-
-{{% alert color="primary" %}}
-
-You can easily download an evaluation version of Aspose.Cells from its [download page](https://www.nuget.org/packages/Aspose.Cells) @ NuGet repos. The evaluation version provides absolutely the same capabilities as the licensed version of the component. Furthermore, evaluation version simply becomes licensed when you purchase a license and add a couple of lines of code to apply the license.
-
-{{% /alert %}}
-
-## **Evaluation Version Limitations**
-
-Evaluation version of Aspose.Cells product (without a license specified) provides full product functionality, but it is limited to open 100 files in one program and an extra worksheet with evaluation watermark.
-
-The limitations are shown below:
-
-- **Number of Opened Files** (Aspose.Cells)
-  When running your program, you can only open 100 Excel files using Aspose.Cells library. If your application exceeds this number, an exception will be thrown.
-- **Config file settings** (Aspose.Cells.GridWeb)
-  You can't re-specify the script path by adding the following lines of code into the configuration section (e.g in the web.config file). The acw_client is a folder that contains files and Aspose.Cells.GridWeb uses this folder to manage its internal configuration, it has script files, image files and other files to specify GridWeb's behavior and set other operations. The config file is used to prevent the control from using the embedded client resources (images, scripts, etc.) which is useful in some cases / scenarios. Moreover, this configuration settings in the web.config file will only take effect with the LICENSED version of the control.
-
-**XML**
-
-{{< highlight csharp >}}
-
- <appSettings>
-
-<add key="aspose.cells.gridweb.acw_client_path" value="/acw_client/" />
-
-<add key="aspose.cells.gridweb.force_script_path" value="true" />
-
-</appSettings>
-
-{{< /highlight >}}
-
-{{% alert color="primary" %}}
-
-These settings might be compulsory in some cases / scenarios if you are using Aspose.Cells.GridWeb control in File System Websites or MS Ajax extensions etc.
-
-{{% /alert %}}
-
-Moreover, a worksheet with evaluation watermark will always show as the active worksheet in the generated excel file using Aspose.Cells library. Only in licensed version, you can set the active worksheet to other worksheets. In the output PDF or image file by Aspose.Cells, an evaluation watermark would be pasted at the top of the document/image.You can't hide the Evaluation Copyright Warning (the extra worksheet) in the GridWeb control too, it will always be added (at the end in the worksheet tabs) in the control.
-
-{{% alert color="primary" %}}
-
-If you want to test Aspose.Cells without evaluation version limitations, you can also request a [30 Day Temporary License](https://purchase.aspose.com/temporary-license).
-
-{{% /alert %}}
 
 ## **How to Apply a License in Aspose.Cells Component**
 

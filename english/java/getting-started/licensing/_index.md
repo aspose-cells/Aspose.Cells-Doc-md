@@ -3,39 +3,11 @@ title: Licensing
 type: docs
 weight: 50
 url: /java/licensing/
+description: Aspose.Cells for JAVA provides different plans for purchase or offers a Free Trial and a 30-day Temporary License for evaluation using Licensing and Subscription policies in Java.
+keywords: Java Apply License from Disk or Stream. Java Set License from Disk or Stream. Apply License in Aspose.Cells for Java.
 ---
 
-{{% alert color="primary" %}} 
-
-You can download an evaluation version of **Aspose.Cells** for Java from [its download page](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) @ Maven repos. The evaluation version provides absolutely the same capabilities as the licensed version of the product. Furthermore, evaluation version simply becomes licensed when you purchase a license and add a couple of lines of code to apply the license.
-
-Once you are happy with your evaluation of **Aspose.Cells**, you can [purchase a license](https://purchase.aspose.com) at the Aspose website. Make yourself familiar with the different subscription types offered. If you have any questions, do not hesitate to contact the Aspose sales team.
-
-Every Aspose license carries a one-year subscription for free upgrades to any new versions or fixes that come out during this time. Technical support is free and unlimited and provided both to licensed and evaluation users.
-
-{{% /alert %}} {{% alert color="primary" %}} 
-
-If you want to test **Aspose.Cells** without evaluation version limitations, request a 30-day temporary license. Please refer to [How to get a Temporary License?](https://purchase.aspose.com/temporary-license) for more information.
-
-{{% /alert %}}
-
-## **Evaluation Version Limitations**
-
-Evaluation version of **Aspose.Cells** product (without a license specified) provides full product functionality, but it is limited to open 100 files in one program and an extra worksheet with evaluation watermark.
-
-The limitations are shown below:
-
-### **1st Limitation: Number of Opened Files**
-
-When running your program, you can only open 100 Excel files. If your application exceeds this number, an exception will be thrown.
-
-### **2nd Limitation: Worksheet with Evaluation Watermark**
-
-![todo:image_alt_text](licensing_1.png)
-
-This worksheet will always show as the active worksheet. Only in licensed version, you can set the active worksheet to other worksheets.
-
-## **Setting a License**
+## **How to Apply a License in Aspose.Cells Component**
 
 The license is a plain text XML file that contains details such as the product name, number of developers it is licensed to, subscription expiry date and so on. The file is digitally signed, so do not modify the file; even the inadvertent addition of an extra line break into the file will invalidate it.
 
@@ -48,7 +20,7 @@ The license can be loaded from a stream or file in the following locations:
 
 Use the [License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)) method to license the component. Often the easiest way to set a license is to put the license file in the same folder as Aspose.Cells.jar and specify just the file name without path as shown in the following example:
 
-### **Example 1**
+### **How to Apply a License from Disk**
 
 In this example **Aspose.Cells** will attempt to find the license file in the folder that contain the JARs of your application.
 
@@ -60,7 +32,7 @@ license.setLicense("Aspose.Cells.Java.lic");
 
 {{< /highlight >}}
 
-### **Example 2**
+### **How to Apply a License from Stream**
 
 Initializes a license from a stream.
 
@@ -72,7 +44,7 @@ license.setLicense(new java.io.FileInputStream("Aspose.Cells.Java.lic"));
 
 {{< /highlight >}}
 
-### **Notes on Applying a License in Aspose.Cells.GridWeb**
+### **How to Apply a License in Aspose.Cells.GridWeb**
 
 It's recommended to put the licensing code at a place in your web application where it should be processed first.
 
@@ -86,7 +58,7 @@ lic.setLicense("Aspose.Cells.lic");
 
 {{< /highlight >}}
 
-## **Applying Metered License**
+## **How to Apply Metered License**
 
 Aspose.Cells allows developers to to apply metered key. It is a new licensing mechanism. The new licensing mechanism will be used along with the existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing. For more details, please refer to [Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered) section.
 
