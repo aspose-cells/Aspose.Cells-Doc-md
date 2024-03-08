@@ -8,6 +8,15 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 24.3
+* Support to import AZW3 file
+* Support to save ods with odf 1.3 standard
+* Support to calculate EVALUATE function
+* Support filters for GridDesktop: Top10, Date, Text
+* Add more formulas in insert menu and help tips for GridJS
+* Add categorization feature to formula menu for GridJS
+* Automatically set cell to date format for GridJS when the calculated result is datetime
+
 ## Aspose.Cells for .NET 24.2
 * Support new functions: TEXTAFTER,TEXTBEFORE,TEXTSPLIT,TOROW,TOCOL
 * Support detecting oxps format
