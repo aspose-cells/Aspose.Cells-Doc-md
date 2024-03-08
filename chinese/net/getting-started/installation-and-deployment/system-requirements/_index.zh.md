@@ -50,11 +50,12 @@ Aspose.Cells for .NET 支持 .NET 和 Mono 框架如下：
 - .NET 5.0
 - .NET 6.0
 - .NET 7.0
+- .NET 8.0
 ####  **Aspose.Cells 对于 .NET 标准引用的 nuget 包**
 - 系统.绘图.通用，5.0.3。
 - 系统.文本.编码.代码页，4.7.0。
 - 系统.安全.加密.Pkcs，5.0.1。
-####  **Aspose.Cells For .NET6 和 .Net7 引用的 nuget 包**
+####  **Aspose.Cells 引用的 nuget 包 For .NET6、.Net7 和 .Net8**
 - 系统.文本.编码.代码页，4.7.0。
 - 系统.安全.加密.Pkcs，6.0.3。
 - System.Drawing.Common，6.0.0（在 Windows 系统上）。
@@ -80,16 +81,17 @@ Aspose.Cells for .NET 支持 .NET 和 Mono 框架如下：
 
 {{% /alert %}} 
 ##  **Aspose.Cells 网格套件系统要求**
-Aspose.Cells Grid Suite 由两个控件组成：
+Aspose.Cells Grid Suite 由三个控件组成：
 
 - Aspose.Cells.GridDesktop
 - Aspose.Cells.GridWeb
+- Aspose.Cells.GridJs
 
-两种控件的系统要求分别描述。
+控件的系统要求单独描述。
 
 {{% alert color="primary" %}} 
 
-要使用这两个控件，运行Aspose.Cells.GridDesktop和Aspose.Cells.GridWeb的机器不需要安装Microsoft Excel，因为Aspose.Cells.GridDesktop和Aspose.Cells.GridWeb可以打开和保存Excel电子表格，而不需要Microsoft Excel。
+要使用这些控件，运行 Aspose.Cells.GridDesktop 和 Aspose.Cells.GridWeb 的计算机不需要安装 Microsoft Excel，因为 Aspose.Cells.GridDesktop 和 Aspose.Cells.GridWeb 可以打开和保存 Excel 电子表格，而无需安装 Microsoft Excel。
 
 {{% /alert %}} 
 ###  **Aspose.Cells.GridDesktop**
@@ -108,16 +110,24 @@ Aspose.Cells Grid Suite 由两个控件组成：
 - .NET 框架4.7.2
 - .NET 框架4.8
 - .NET 框架4.8.1
-
+###  **.NET 核心**
+- .NET 核心3.1
+- .NET 7.0 窗口
+####  **Aspose.Cells.GridDesktop For .NET Core 3.1引用的nuget包**
+- 系统.绘图.通用，6.0.0。
+- 系统.文本.编码.代码页，4.7.0。
+- 系统.安全.加密.Pkcs，5.0.1。
+####  **Aspose.Cells.GridDesktop For .Net7引用的nuget包**
+- 系统.文本.编码.代码页，4.7.0。
+- 系统.安全.加密.Pkcs，6.0.3。
+- System.Drawing.Common，7.0.0（在 Windows 系统上）。
 ####  **开发工具**
-- Microsoft 视觉工作室 2005
-- Microsoft Visual Studio 2008
-- Microsoft Visual Studio 2010
 - Microsoft Visual Studio 2012
 - Microsoft Visual Studio 2013
 - Microsoft Visual Studio 2015
 - Microsoft Visual Studio 2017
 - Microsoft Visual Studio 2019
+- Microsoft Visual Studio 2022
 ####  **操作系统**
 - Microsoft Windows 2000
 - Microsoft Windows XP
@@ -145,22 +155,26 @@ Aspose.Cells Grid Suite 由两个控件组成：
 - .NET 框架4.7.2
 - .NET 框架4.8
 - .NET 框架4.8.1
+###  **.NET 核心**
+-  .NET 6.0 窗口
+- .NET 7.0 窗口
+####  **Aspose.Cells.GridWeb For .NET Core 引用的 nuget 包**
+- 系统.绘图.通用，7.0.0。
+- 系统.文本.编码.代码页，4.7.0。
+- 系统.安全.加密.Pkcs，6.0.3。
 ####  **开发工具**
-- Microsoft 视觉工作室 2005
-- Microsoft Visual Studio 2008
-- Microsoft Visual Studio 2010
 - Microsoft Visual Studio 2012
 - Microsoft Visual Studio 2013
 - Microsoft Visual Studio 2015
 - Microsoft Visual Studio 2017
 - Microsoft Visual Studio 2019
-####  **互联网信息服务器 (IIS)**
-- IIS 5.0或以上
+- Microsoft Visual Studio 2022
 ####  **浏览器**
-- IE 5.5或以上
+- 铬合金
+- 边缘
 - Mozilla 浏览器（包括 Firefox、Netscape 浏览器等）
-- Opera（推荐Internet Explorer 6.0）
-- Google 铬
+- 苹果浏览器
+- 歌剧
 ####  **操作系统**
 - Microsoft Windows 2000
 - Microsoft Windows XP
@@ -172,3 +186,42 @@ Aspose.Cells Grid Suite 由两个控件组成：
 - Microsoft Windows 8, 8.1
 - Microsoft Windows 10
 - Microsoft Windows 11
+
+###  **Aspose.Cells.GridJs**
+###  **.NET 标准**
+- .NET 标准2.0
+####  **Aspose.Cells.GridJs For .NET Standard 引用的 nuget 包**
+- System.Drawing.Common，6.0.0（在 Windows 系统上）。
+- SkiaSharp，2.88.3（在非 Windows 系统上）。
+- 系统.文本.编码.代码页，4.7.0。
+- 系统.安全.加密.Pkcs,5.0.1。
+- Aspose.Cells，（始终与GridJs保持相同版本）
+####  **开发工具**
+- Microsoft Visual Studio 2012
+- Microsoft Visual Studio 2013
+- Microsoft Visual Studio 2015
+- Microsoft Visual Studio 2017
+- Microsoft Visual Studio 2019
+- Microsoft Visual Studio 2022
+
+####  **浏览器**
+- 铬合金
+- 边缘
+- Mozilla 浏览器（包括 Firefox、Netscape 浏览器等）
+- 苹果浏览器
+- 歌剧
+####  **操作系统**
+- Microsoft Windows 2000
+- Microsoft Windows XP
+- Microsoft Windows 服务器 2003
+- Microsoft Windows 服务器 2008
+- Microsoft Windows 服务器 2012
+- Microsoft Windows 远景
+- Microsoft Windows 7, 
+- Microsoft Windows 8, 8.1
+- Microsoft Windows 10
+- Microsoft Windows 11
+###  **Linux**
+- Linux（Ubuntu、openSUSE、CentOS、Debian、Alpine 等）
+###  **苹果**
+- Mac OS X、macOS High Sierra 等。

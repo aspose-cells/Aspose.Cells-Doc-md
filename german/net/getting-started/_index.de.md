@@ -44,7 +44,7 @@ In diesem Beispiel verwende ich Ubuntu, um zu zeigen, wie man Aspose.Cells unter
 2. Öffnen Sie die Datei „AsposeCellsTest.csproj“ und fügen Sie die folgenden Zeilen für Aspose.Cells-Paketreferenzen hinzu:
 {{< highlight "plain" >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="23.12" />
+    <PackageReference Include="Aspose.Cells" Version="24.3" />
   </ItemGroup>
 {{< /highlight >}}
 3. Öffnen Sie das Projekt mit VSCode unter Ubuntu:

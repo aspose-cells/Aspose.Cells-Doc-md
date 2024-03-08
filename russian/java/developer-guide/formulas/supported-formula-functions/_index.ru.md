@@ -278,7 +278,6 @@ Aspose.Cells' Механизм расчета формул позволяет у
 |**Функция**|**Краткое содержание**|
 | :- | :- |
 |LAMBDA|
-|LET|
 |LARGE|
 |LCM|
 |LEFT|
@@ -480,12 +479,17 @@ Aspose.Cells' Механизм расчета формул позволяет у
 |Т.РАСП.RT|
 |TDIST|
 |TEXT|
+|TEXTAFTER|
+|TEXTBEFORE|
 |TEXTJOIN|
+|TEXTSPLIT|
 |TIME|
 |TIMEVALUE|
 |Т.ОБР.2Т|
 |TINV|
+|TOCOL|
 |TODAY|
+|TOROW|
 |TRANSPOSE|
 |TREND|
 |TRIM|

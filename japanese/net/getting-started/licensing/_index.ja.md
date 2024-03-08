@@ -4,53 +4,8 @@ type: docs
 weight: 120
 url: /ja/net/licensing/
 description: Aspose.Cells for .NET では、さまざまな購入プランが提供されるか、Licensing と C# のサブスクリプション ポリシーを使用した評価用の無料トライアルと 30 日間の一時ライセンスが提供されます。
-keywords: Apply License from Disk or Stream. Set License from Disk or Stream. Apply License in Aspose.Cells.
+keywords: C# Apply License from Disk or Stream. C# Set License from Disk or Stream. Apply License in Aspose.Cells for NET.
 ---
-{{% alert color="primary" %}}
-
- Aspose.Cells の評価版は、次のサイトから簡単にダウンロードできます。[ダウンロードページ](https://www.nuget.org/packages/Aspose.Cells) @ NuGet リポジトリ。評価版は、コンポーネントのライセンス版とまったく同じ機能を提供します。さらに、評価版は、ライセンスを購入し、ライセンスを適用するコードを数行追加するだけでライセンスが付与されます。
-
-{{% /alert %}}
-
-##  **評価版の制限事項**
-
-Aspose.Cells 製品の評価版 (ライセンスが指定されていない) では、製品のすべての機能が提供されますが、1 つのプログラムで開くことができるファイルは 100 個と、評価用ウォーターマーク付きの追加のワークシートに制限されています。
-
-制限事項を以下に示します。
-
-- **開いているファイルの数** (Aspose.Cells)
-プログラムを実行するとき、Aspose.Cells ライブラリを使用して開くことができる Excel ファイルは 100 個のみです。アプリケーションがこの数を超えると、例外がスローされます。
-- **構成ファイルの設定**(Aspose.Cells.グリッドウェブ)
-次のコード行を構成セクション (web.config ファイルなど) に追加しても、スクリプト パスを再指定することはできません。 acw_client はファイルが含まれるフォルダーで、Aspose.Cells.GridWeb はこのフォルダーを使用して内部構成を管理します。このフォルダーには、GridWeb の動作を指定し、その他の操作を設定するためのスクリプト ファイル、画像ファイル、その他のファイルがあります。構成ファイルは、コントロールが埋め込みクライアント リソース (画像、スクリプトなど) を使用しないようにするために使用され、場合によっては役立ちます。さらに、web.config ファイル内のこの構成設定は、コントロールのライセンス済みバージョンでのみ有効になります。
-
-**XML**
-
-{{< highlight "csharp" >}}
-
- <appSettings>
-
-<add key="aspose.cells.gridweb.acw_client_path" value="/acw_client/" />
-
-<add key="aspose.cells.gridweb.force_script_path" value="true" />
-
-</appSettings>
-
-{{< /highlight >}}
-
-{{% alert color="primary" %}}
-
-ファイル システム Web サイトや MS Ajax 拡張機能などで Aspose.Cells.GridWeb コントロールを使用している場合、これらの設定は場合によっては必須になることがあります。
-
-{{% /alert %}}
-
-さらに、評価ウォーターマークのあるワークシートは、Aspose.Cells ライブラリを使用して生成された Excel ファイル内で常にアクティブなワークシートとして表示されます。ライセンス版のみ、アクティブなワークシートを他のワークシートに設定できます。出力 PDF または Aspose.Cells による画像ファイルでは、評価のウォーターマークがドキュメント/画像の上部に貼り付けられます。GridWeb コントロールでも評価著作権警告 (追加のワークシート) を非表示にすることはできません。常に追加されます。 (ワークシートタブの最後) コントロール内。
-
-{{% alert color="primary" %}}
-
-評価版の制限なしで Aspose.Cells をテストしたい場合は、[30 日間の一時ライセンス](https://purchase.aspose.com/temporary-license).
-
-{{% /alert %}}
-
 ##  **Aspose.Cells コンポーネントにライセンスを適用する方法**
 
 ライセンスは、製品名、ライセンスが付与されている開発者の数、サブスクリプションの有効期限などの詳細が含まれるプレーン テキストの XML ファイルです。ファイルはデジタル署名されているため、ファイルを変更しないでください。ファイルに誤って余分な改行を追加した場合でも、ファイルは無効になります。評価制限を回避したい場合は、Aspose.Cells を利用する前にライセンスを設定する必要があります。ライセンスを設定する必要があるのは、アプリケーション (またはプロセス) ごとに 1 回だけです。ライセンスは、ファイル、ストリーム、または埋め込みリソースからロードできます。

@@ -48,7 +48,7 @@ Så här ställer du in visningsformat i Microsoft Excel:
 |
 |13|Fraction|#  */*
 |
-|14|Date|m/d/åå|
+|14|Date|m/d/åååå|
 |15|Date|d-mmm-åå|
 |16|Date|d-mmm|
 |17|Date|mmm-åå|

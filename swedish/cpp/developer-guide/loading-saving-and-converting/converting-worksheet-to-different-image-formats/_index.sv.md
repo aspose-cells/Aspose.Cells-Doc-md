@@ -16,19 +16,19 @@ Som utvecklare kan du behöva presentera kalkylblad som bilder. Till exempel kan
 
 Aspose.Cells stöder konvertering av Excel-kalkylblad till bilder. För att använda den här funktionen måste du importera[Aspose.Cells.Rendering](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/)namnutrymme till ditt program eller projekt. Den har flera värdefulla klasser för rendering och utskrift, till exempel,[SheetRender](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/), [ImageOrPrintOptions](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/)och andra.
 
-Klassen `Aspose.Cells.Rendering.ISheetRender` representerar ett kalkylblad att rendera som bilder. Den har en överbelastad metod,[Att föreställa sig](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/toimage/), som kan konvertera ett kalkylblad till bildfil(er) med olika attribut eller alternativ. Flera bildformat stöds, till exempel BMP, PNG, GIF, JPG, JPEG, EMF.
+Klassen `Aspose.Cells.Rendering.ISheetRender` representerar ett kalkylblad att rendera som bilder. Den har en överbelastad metod,[Att föreställa sig](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/toimage/), som kan konvertera ett kalkylblad till bildfil(er) med olika attribut eller alternativ. Flera bildformat stöds, till exempel BMP, PNG, GIF, JPG, JPEG, TIFF, EMF.
 
 Följande kodavsnitt visar hur man konverterar ett kalkylblad i en Excel-fil till en bildfil.
 ###  **PNG Format**
  Se följande exempelkod, dess[exempel på Excel-fil](67338402.xlsx) , och den[utgång PNG Bilder](67338401.zip).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_PNG-new.cpp" >}}
-<!--
-### **TIFF Format**
-Please see the following sample code, its [sample Excel file](67338402.xlsx), and the [output TIFF Image](67338419.zip).
+
+###  **TIFF Format**
+ Se följande exempelkod, dess[exempel på Excel-fil](67338402.xlsx) , och den[utgång TIFF Bild](67338419.zip).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_TIFF-new.cpp" >}}
--->
+
 ##  **Konvertera arbetsblad till SVG**
 SVG står för Scalable Vector Graphics. SVG är en specifikation baserad på XML-standarder för tvådimensionell vektorgrafik. Det är en öppen standard som har varit under utveckling av World Wide Web Consortium (W3C) sedan 1999.
 

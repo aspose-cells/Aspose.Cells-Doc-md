@@ -48,7 +48,7 @@ Pour définir les formats d'affichage dans Excel Microsoft :
 |
 |13|Fraction|#  */*
 |
-|14|Date|m/j/aa|
+|14|Date|m/j/aaaa|
 |15|Date|j-mmm-aa|
 |16|Date|d-mmm|
 |17|Date|mmm-aa|

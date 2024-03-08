@@ -50,11 +50,12 @@ Aspose.Cells for .NET يدعم إطاري .NET و Mono على النحو الت�
 - .NET 5.0
 - .NET 6.0
 - .NET 7.0
+- .NET 8.0
 ####  **حزم nuget المشار إليها بواسطة Aspose.Cells لمعيار .NET**
 - System.Drawing.Common، 5.0.3.
 - System.Text.Encoding.CodePages، 4.7.0.
 - System.Security.Cryptography.Pkcs, 5.0.1.
-####  **حزم nuget المشار إليها بواسطة Aspose.Cells لـ .NET6 و.Net7**
+####  **حزم nuget المشار إليها بواسطة Aspose.Cells لـ .NET6 و.Net7 و.Net8**
 - System.Text.Encoding.CodePages، 4.7.0.
 - System.Security.Cryptography.Pkcs, 6.0.3.
 - System.Drawing.Common، 6.0.0 (على نظام ويندوز).
@@ -80,16 +81,17 @@ Aspose.Cells for .NET يدعم إطاري .NET و Mono على النحو الت�
 
 {{% /alert %}} 
 ##  **Aspose.Cells متطلبات نظام جناح الشبكة**
-يتكون جناح الشبكة Aspose.Cells من عنصري تحكم:
+يتكون جناح الشبكة Aspose.Cells من ثلاثة عناصر تحكم:
 
 - Aspose.Cells.GridDesktop
 - Aspose.Cells.GridWeb
+- Aspose.Cells.GridJs
 
-يتم وصف متطلبات النظام لكلا عنصري التحكم بشكل منفصل.
+يتم وصف متطلبات النظام الخاصة بعناصر التحكم بشكل منفصل.
 
 {{% alert color="primary" %}} 
 
-لاستخدام هذين التحكمين، الجهاز الذي يقوم بتشغيل Aspose.Cells.GridDesktop وAspose.Cells.GridWeb لا يحتاج إلى تثبيت Microsoft Excel كـ Aspose.Cells.GridDesktop وAspose.Cells.GridWeb يمكنه فتح جداول بيانات Excel وحفظها دون الحاجة إلى Microsoft Excel.
+لاستخدام عناصر التحكم هذه، الجهاز الذي يقوم بتشغيل Aspose.Cells.GridDesktop وAspose.Cells.GridWeb لا يحتاج إلى تثبيت Microsoft Excel كـ Aspose.Cells.GridDesktop وAspose.Cells.GridWeb يمكنه فتح جداول بيانات Excel وحفظها دون الحاجة إلى Microsoft Excel.
 
 {{% /alert %}} 
 ###  **Aspose.Cells.GridDesktop**
@@ -108,16 +110,24 @@ Aspose.Cells for .NET يدعم إطاري .NET و Mono على النحو الت�
 - .NET الإطار 4.7.2
 - .NET الإطار 4.8
 - .NET الإطار 4.8.1
-
+###  **.NET الأساسية**
+-  .NET كور 3.1
+- .NET 7.0 شبابيك
+####  **حزم nuget المشار إليها بواسطة Aspose.Cells.GridDesktop لـ .NET Core 3.1**
+- System.Drawing.Common، 6.0.0.
+- System.Text.Encoding.CodePages، 4.7.0.
+- System.Security.Cryptography.Pkcs, 5.0.1.
+####  **حزم nuget المشار إليها بواسطة Aspose.Cells.GridDesktop لـ .Net7**
+- System.Text.Encoding.CodePages، 4.7.0.
+- System.Security.Cryptography.Pkcs, 6.0.3.
+- System.Drawing.Common، 7.0.0 (على نظام ويندوز).
 ####  **ادوات التطوير**
-- Microsoft فيجوال ستوديو 2005
-- Microsoft فيجوال ستوديو 2008
-- Microsoft فيجوال ستوديو 2010
 - Microsoft فيجوال ستوديو 2012
 - Microsoft فيجوال ستوديو 2013
 - Microsoft فيجوال ستوديو 2015
 - Microsoft فيجوال ستوديو 2017
 - Microsoft فيجوال ستوديو 2019
+- Microsoft فيجوال ستوديو 2022
 ####  **نظام التشغيل**
 - Microsoft Windows 2000
 - Microsoft Windows XP
@@ -145,22 +155,26 @@ Aspose.Cells for .NET يدعم إطاري .NET و Mono على النحو الت�
 - .NET الإطار 4.7.2
 - .NET الإطار 4.8
 - .NET الإطار 4.8.1
+###  **.NET الأساسية**
+-  .NET 6.0 شبابيك
+- .NET 7.0 شبابيك
+####  **حزم nuget المشار إليها بواسطة Aspose.Cells.GridWeb لـ .NET Core**
+- System.Drawing.Common، 7.0.0.
+- System.Text.Encoding.CodePages، 4.7.0.
+- System.Security.Cryptography.Pkcs, 6.0.3.
 ####  **ادوات التطوير**
-- Microsoft فيجوال ستوديو 2005
-- Microsoft فيجوال ستوديو 2008
-- Microsoft فيجوال ستوديو 2010
 - Microsoft فيجوال ستوديو 2012
 - Microsoft فيجوال ستوديو 2013
 - Microsoft فيجوال ستوديو 2015
 - Microsoft فيجوال ستوديو 2017
 - Microsoft فيجوال ستوديو 2019
-####  **خادم معلومات الإنترنت (IIS)**
-- IIS 5.0 أو أعلى
+- Microsoft فيجوال ستوديو 2022
 ####  **المتصفحات**
-- آي إي 5.5 أو أعلى
+- كروم
+- حافة
 - متصفحات Mozilla (بما في ذلك Firefox وNetscape Browser وما إلى ذلك)
-- Opera (يوصى باستخدام Internet Explorer 6.0)
-- Google كروم
+- سفاري
+-  الأوبرا
 ####  **نظام التشغيل**
 - Microsoft Windows 2000
 - Microsoft Windows XP
@@ -172,3 +186,42 @@ Aspose.Cells for .NET يدعم إطاري .NET و Mono على النحو الت�
 - Microsoft Windows 8, 8.1
 - Microsoft Windows 10
 - Microsoft Windows 11
+
+###  **Aspose.Cells.GridJs**
+###  **.NET قياسي**
+-  .NET ستاندرد 2.0
+####  **حزم nuget المشار إليها بواسطة Aspose.Cells.GridJs لمعيار .NET**
+- System.Drawing.Common، 6.0.0 (على نظام ويندوز).
+- SkiaSharp، 2.88.3 (على الأنظمة التي لا تعمل بنظام Windows).
+- System.Text.Encoding.CodePages، 4.7.0.
+- System.Security.Cryptography.Pkcs,5.0.1.
+- Aspose.Cells (احتفظ دائمًا بنفس الإصدار مع GridJs)
+####  **ادوات التطوير**
+- Microsoft فيجوال ستوديو 2012
+- Microsoft فيجوال ستوديو 2013
+- Microsoft فيجوال ستوديو 2015
+- Microsoft فيجوال ستوديو 2017
+- Microsoft فيجوال ستوديو 2019
+- Microsoft فيجوال ستوديو 2022
+
+####  **المتصفحات**
+- كروم
+- حافة
+- متصفحات Mozilla (بما في ذلك Firefox وNetscape Browser وما إلى ذلك)
+- سفاري
+-  الأوبرا
+####  **نظام التشغيل**
+- Microsoft Windows 2000
+- Microsoft Windows XP
+- Microsoft Windows سيرفر 2003
+- Microsoft Windows سيرفر 2008
+- Microsoft Windows سيرفر 2012
+- Microsoft Windows فيستا
+- Microsoft Windows 7, 
+- Microsoft Windows 8, 8.1
+- Microsoft Windows 10
+- Microsoft Windows 11
+###  **لينكس**
+- Linux (Ubuntu وopenSUSE وCentOS وDebian وAlpine وغيرها)
+###  **ماك**
+- نظام التشغيل Mac OS X، وmacOS High Sierra، وما إلى ذلك.

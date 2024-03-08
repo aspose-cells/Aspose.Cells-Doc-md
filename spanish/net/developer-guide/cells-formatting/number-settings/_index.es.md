@@ -48,7 +48,7 @@ Para configurar formatos de visualización en Microsoft Excel:
 |
 |13|Fraction|#  */*
 |
-|14|Date|m/d/aa|
+|14|Date|m/d/aaaa|
 |15|Date|d-mmm-aa|
 |16|Date|Mmmmm|
 |17|Date|mmm-aa|

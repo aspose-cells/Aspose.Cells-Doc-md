@@ -28,6 +28,7 @@ url: /zh/cpp/supported-file-formats/
 |[PDF](https://docs.fileformat.com/pdf/)|Adobe 便携式文档格式。| |{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|XML 论文规范格式。| |{{< emoticons/tick >}}|
 |[SVG](https://docs.fileformat.com/page-description-language/svg/)|可缩放矢量图形格式。| |{{< emoticons/tick >}}|
+|[TIFF](https://docs.fileformat.com/image/tiff/)|标记图像文件格式| |{{< emoticons/tick >}}|
 |[PNG](https://docs.fileformat.com/image/png/)|便携式网络图形格式| |{{< emoticons/tick >}}|
 |[BMP](https://docs.fileformat.com/image/bmp/)|位图图像格式| |{{< emoticons/tick >}}|
 |[EMF](https://docs.fileformat.com/image/emf/)|增强型图元文件格式| |{{< emoticons/tick >}}|
@@ -38,3 +39,8 @@ url: /zh/cpp/supported-file-formats/
 |[FODS](https://docs.fileformat.com/spreadsheet/fods/)|这是一种存储为平面 XML 的开放文档格式。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[DOCX](https://docs.fileformat.com/word-processing/docx/)|Microsoft Word 文档的一种众所周知的格式，它是 XML 和二进制文件的组合。||{{< emoticons/tick >}}|
 |[PPTX](https://docs.fileformat.com/presentation/pptx/)|PPTX 格式基于 Microsoft PowerPoint 开放 XML 演示文件格式。||{{< emoticons/tick >}}|
+|[SQL脚本](https://docs.fileformat.com/database/sql/)|结构化查询语言。||{{< emoticons/tick >}}|
+|[XHtml](https://docs.fileformat.com/web/xhtml/)|XHTML 是一种基于文本的文件格式，在 XML 中带有标记，使用 HTML 4.0 的重新表述。||{{< emoticons/tick >}}|
+|[电子书](https://docs.fileformat.com/ebook/epub/)|扩展名为 .epub 的文件是一种电子书文件格式，为出版商和消费者提供标准的数字出版物格式。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[XML](https://docs.fileformat.com/web/xml/)|XML 代表可扩展标记语言，与 HTML 类似，但不同之处在于使用标签来定义对象。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[奥茨](https://docs.fileformat.com/spreadsheet/ots/)|打开文档模板表(OTS) 文件。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

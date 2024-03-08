@@ -28,6 +28,7 @@ url: /fr/cpp/supported-file-formats/
 |[PDF](https://docs.fileformat.com/pdf/)|Format de document portable Adobe.| |{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|Format de spécification de papier XML.| |{{< emoticons/tick >}}|
 |[SVG](https://docs.fileformat.com/page-description-language/svg/)|Format de graphiques vectoriels évolutif.| |{{< emoticons/tick >}}|
+|[TIFF](https://docs.fileformat.com/image/tiff/)|Format de fichier image balisé| |{{< emoticons/tick >}}|
 |[PNG](https://docs.fileformat.com/image/png/)|Format graphique réseau portable| |{{< emoticons/tick >}}|
 |[BMP](https://docs.fileformat.com/image/bmp/)|Format d'image bitmap| |{{< emoticons/tick >}}|
 |[EMF](https://docs.fileformat.com/image/emf/)|Format de métafichier amélioré| |{{< emoticons/tick >}}|
@@ -38,3 +39,8 @@ url: /fr/cpp/supported-file-formats/
 |[FODS](https://docs.fileformat.com/spreadsheet/fods/)|Il s'agit d'un format de document ouvert stocké sous forme de XML plat.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[DOCX](https://docs.fileformat.com/word-processing/docx/)|Format bien connu pour les documents Word Microsoft qui est une combinaison de fichiers XML et binaires.||{{< emoticons/tick >}}|
 |[PPTX](https://docs.fileformat.com/presentation/pptx/)|Le format PPTX est basé sur le format de fichier de présentation XML ouvert Microsoft PowerPoint.||{{< emoticons/tick >}}|
+|[SQLScript](https://docs.fileformat.com/database/sql/)|Langage de requêtes structurées.||{{< emoticons/tick >}}|
+|[XHtml](https://docs.fileformat.com/web/xhtml/)|Le XHTML est un format de fichier texte avec balisage au format XML, utilisant une reformulation de HTML 4.0.||{{< emoticons/tick >}}|
+|[Publication électronique](https://docs.fileformat.com/ebook/epub/)|Les fichiers portant l'extension .epub sont un format de fichier de livre électronique qui fournit un format de publication numérique standard pour les éditeurs et les consommateurs.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[XML](https://docs.fileformat.com/web/xml/)|XML signifie Extensible Markup Language qui est similaire à HTML mais différent dans l'utilisation de balises pour définir des objets.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Ots](https://docs.fileformat.com/spreadsheet/ots/)|Ouvrez le fichier de feuille de modèle de document (OTS).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

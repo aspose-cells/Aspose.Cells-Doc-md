@@ -8,7 +8,7 @@ Aspose.Cells for C++ 是一个本机 C++ 库，使 C++ 开发人员能够以编�
 
 ## 支持的操作系统
 
-Aspose.Cells for C++ 支持以下 64 位操作系统和平台：
+Aspose.Cells for C++ 支持以下 64 位或 32 位操作系统和平台：
 
 <table>  
 	<tr>
@@ -17,11 +17,12 @@ Aspose.Cells for C++ 支持以下 64 位操作系统和平台：
 		</tr>
   <tr>
 			<td>Microsoft Windows</td>
-			<td><ul><li>Windows 2008 服务器 (x64)</li><li>Windows 2012 服务器 (x64)</li><li>Windows 2012 R2 服务器 (x64)</li><li>Windows 2016 服务器 (x64)</li><li>Windows 2019 服务器 (x64)</li><li>Windows 远景 (x64)</li><li>Windows 7 (x64)</li><li>Windows 8, 8.1 (x64)</li><li>Windows 10 (x64)</li><li>Windows 11 (x64)</li></ul></td>
-		</tr>
+			<!--- <td><ul><li>Windows 2008 Server (x64)</li><li>Windows 2012 Server (x64)</li><li>Windows 2012 R2 Server (x64)</li><li>Windows 2016 Server (x64)</li><li>Windows 2019 Server (x64)</li><li>Windows Vista (x64)</li><li>Windows 7 (x64)</li><li>Windows 8, 8.1 (x64)</li><li>Windows 10 (x64)</li><li>Windows 11 (x64)</li></ul></td> --->
+			<td><ul><li>Windows x86</li><li>Windowsx86_64</li></ul></td>
+  </tr>
   <tr>
 			<td>Linux</td>
-			<td><ul><li>Ubuntu 20.04 或更高版本</li><li>软呢帽</li><li>开放SUSE</li><li>中央操作系统</li><li>适用于 ARM 的 Linux (aarch64)</li></ul></td>
+			<td><ul><li>Linux x86_64</li><!---li>Ubuntu 20.04 or later</li><li>Fedora</li><li>OpenSUSE</li><li>CentOS</li---><li>适用于 ARM 的 Linux (aarch64)</li></ul></td>
 		</tr>
   <tr>
 			<td>苹果系统</td>
@@ -46,7 +47,7 @@ Aspose.Cells for C++ 支持以下 64 位操作系统和平台：
 			</tr>
 </table>
 
-###  Linux
+### Linux
 
 Aspose.Cells for C++可用于在支持C++11或更高版本的开发环境中开发应用程序，但明确支持以下编译器和工具：
 

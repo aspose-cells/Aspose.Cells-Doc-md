@@ -12,7 +12,7 @@ url: /zh/net/using-icustomfunction-feature/
 
 ICustomFunction接口允许添加自定义公式计算函数来扩展Aspose.Cells'核心计算引擎以满足某些要求。此功能对于在模板文件或代码中定义自定义（用户定义）函数非常有用，其中可以像任何其他默认 Microsoft Excel 函数一样使用 Aspose.Cells API 来实现和评估自定义函数。
 
-请注意，该接口已被替换为[抽象计算引擎](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/)并将在未来被删除。关于新 API 的一些技术文章/示例：[这里](/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)和[这里](/net/returning-a-range-of-values-using-abstractcalculationengine/)
+请注意，该接口已被替换为[抽象计算引擎](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/)并将在未来被删除。关于新 API 的一些技术文章/示例：[这里](/cells/zh/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)和[这里](/cells/zh/net/returning-a-range-of-values-using-abstractcalculationengine/)
 
 {{% /alert %}} 
 ##  **创建和评估用户定义函数**

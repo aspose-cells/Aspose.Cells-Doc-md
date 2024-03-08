@@ -28,6 +28,7 @@ url: /de/cpp/supported-file-formats/
 |[PDF](https://docs.fileformat.com/pdf/)|Adobe Portable Document Format.| |{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|XML-Papierspezifikationsformat.| |{{< emoticons/tick >}}|
 |[SVG](https://docs.fileformat.com/page-description-language/svg/)|Skalierbares Vektorgrafikformat.| |{{< emoticons/tick >}}|
+|[TIFF](https://docs.fileformat.com/image/tiff/)|Markiertes Bilddateiformat| |{{< emoticons/tick >}}|
 |[PNG](https://docs.fileformat.com/image/png/)|Tragbares Netzwerkgrafikformat| |{{< emoticons/tick >}}|
 |[BMP](https://docs.fileformat.com/image/bmp/)|Bitmap-Bildformat| |{{< emoticons/tick >}}|
 |[EMF](https://docs.fileformat.com/image/emf/)|Erweitertes Metadateiformat| |{{< emoticons/tick >}}|
@@ -38,3 +39,8 @@ url: /de/cpp/supported-file-formats/
 |[FODS](https://docs.fileformat.com/spreadsheet/fods/)|Dies ist ein Open-Document-Format, das als flaches XML gespeichert ist.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[DOCX](https://docs.fileformat.com/word-processing/docx/)|Ein bekanntes Format für Microsoft Word-Dokumente, das eine Kombination aus XML- und Binärdateien ist.||{{< emoticons/tick >}}|
 |[PPTX](https://docs.fileformat.com/presentation/pptx/)|Das Format PPTX basiert auf dem offenen XML-Präsentationsdateiformat Microsoft PowerPoint.||{{< emoticons/tick >}}|
+|[SQLScript](https://docs.fileformat.com/database/sql/)|Strukturierte Abfragesprache.||{{< emoticons/tick >}}|
+|[XHtml](https://docs.fileformat.com/web/xhtml/)|Das XHTML ist ein textbasiertes Dateiformat mit Markup im XML, das eine Neuformulierung von HTML 4.0 verwendet.||{{< emoticons/tick >}}|
+|[Epub](https://docs.fileformat.com/ebook/epub/)|Dateien mit der Erweiterung .epub sind ein E-Book-Dateiformat, das ein Standardformat für digitale Veröffentlichungen für Verlage und Verbraucher bietet.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[XML](https://docs.fileformat.com/web/xml/)|XML steht für Extensible Markup Language, die HTML ähnelt, sich jedoch durch die Verwendung von Tags zum Definieren von Objekten unterscheidet.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Ots](https://docs.fileformat.com/spreadsheet/ots/)|Öffnen Sie die OTS-Datei (Document Template Sheet).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

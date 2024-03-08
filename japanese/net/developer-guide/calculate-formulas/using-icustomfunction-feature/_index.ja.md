@@ -12,7 +12,7 @@ url: /ja/net/using-icustomfunction-feature/
 
 ICustomFunction インターフェイスを使用すると、カスタム数式計算関数を追加して、特定の要件を満たすために Aspose.Cells のコア計算エンジンを拡張できます。この機能は、他の既定の Microsoft Excel 関数と同様に、Aspose.Cells API を使用してカスタム関数を実装および評価できるテンプレート ファイルまたはコードでカスタム (ユーザー定義) 関数を定義する場合に便利です。
 
-このインターフェースは次のものに置き換えられていることに注意してください。[抽象的な計算エンジン](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/)そして将来的には削除される予定です。新しい API に関するいくつかの技術記事/例:[ここ](/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)そして[ここ](/net/returning-a-range-of-values-using-abstractcalculationengine/)
+このインターフェースは次のものに置き換えられていることに注意してください。[抽象的な計算エンジン](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/)そして将来的には削除される予定です。新しい API に関するいくつかの技術記事/例:[ここ](/cells/ja/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)そして[ここ](/cells/ja/net/returning-a-range-of-values-using-abstractcalculationengine/)
 
 {{% /alert %}} 
 ##  **ユーザー定義関数の作成と評価**

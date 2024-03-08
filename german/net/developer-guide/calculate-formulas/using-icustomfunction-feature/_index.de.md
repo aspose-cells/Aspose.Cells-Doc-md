@@ -12,7 +12,7 @@ Dieser Artikel bietet detaillierte Informationen zur Verwendung der ICustomFunct
 
 Die ICustomFunction-Schnittstelle ermöglicht das Hinzufügen benutzerdefinierter Formelberechnungsfunktionen zur Erweiterung der Aspose.Cells'-Kernberechnungs-Engine, um bestimmte Anforderungen zu erfüllen. Diese Funktion ist nützlich, um benutzerdefinierte (benutzerdefinierte) Funktionen in einer Vorlagendatei oder in Code zu definieren, wobei die benutzerdefinierte Funktion mithilfe von Aspose.Cells-APIs wie jede andere Standard-Excel-Funktion Microsoft implementiert und ausgewertet werden kann.
 
- Bitte beachten Sie, dass diese Schnittstelle durch ersetzt wurde[AbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/) und wird in Zukunft entfernt. Einige Fachartikel/Beispiele zur neuen API:[Hier](/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) Und[Hier](/net/returning-a-range-of-values-using-abstractcalculationengine/)
+ Bitte beachten Sie, dass diese Schnittstelle durch ersetzt wurde[AbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/) und wird in Zukunft entfernt. Einige Fachartikel/Beispiele zur neuen API:[Hier](/cells/de/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) Und[Hier](/cells/de/net/returning-a-range-of-values-using-abstractcalculationengine/)
 
 {{% /alert %}} 
 ##  **Erstellen und Auswerten einer benutzerdefinierten Funktion**

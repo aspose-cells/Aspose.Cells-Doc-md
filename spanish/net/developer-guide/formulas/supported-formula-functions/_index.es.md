@@ -479,12 +479,17 @@ Aspose.Cells' El motor de cálculo de fórmulas le permite configurar, leer y ca
 |DISTR.T.RT|
 |TDIST|
 |TEXT|
+|TEXTAFTER|
+|TEXTBEFORE|
 |TEXTJOIN|
+|TEXTSPLIT|
 |TIME|
 |TIMEVALUE|
 |T.INV.2T|
 |TINV|
+|TOCOL|
 |TODAY|
+|TOROW|
 |TRANSPOSE|
 |TREND|
 |TRIM|

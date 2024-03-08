@@ -1,4 +1,4 @@
-﻿---
+---
 title: ICustomFunction 機能の使用
 type: docs
 weight: 890
@@ -8,24 +8,24 @@ url: /ja/java/using-icustomfunction-feature/
 
 この記事では、ICustomFunction 機能を使用して Aspose.Cells API でカスタム関数を実装する方法について詳しく説明します。
 
-ICustomFunction インターフェイスを使用すると、特定の要件を満たすために、Aspose.Cells のコア計算エンジンを拡張するカスタム数式計算関数を追加できます。この機能は、カスタム (ユーザー定義) 関数をテンプレート ファイルまたはコードで定義する場合に便利です。カスタム関数は、他の既定の Microsoft Excel 関数と同様に、Aspose.Cells API を使用して実装および評価できます。
+ICustomFunction インターフェイスを使用すると、カスタム数式計算関数を追加して、特定の要件を満たすために Aspose.Cells のコア計算エンジンを拡張できます。この機能は、他の既定の Microsoft Excel 関数と同様に、Aspose.Cells API を使用してカスタム関数を実装および評価できるテンプレート ファイルまたはコードでカスタム (ユーザー定義) 関数を定義する場合に便利です。
 
-このインターフェイスは、[AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine)将来的に削除されます。新しい API に関する技術記事/例:[ここ](/cells/ja/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)と[ここ](/cells/ja/java/returning-a-range-of-values-using-abstractcalculationengine/)
+このインターフェースは次のものに置き換えられていることに注意してください。[抽象的な計算エンジン](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine)そして将来的には削除される予定です。新しい API に関するいくつかの技術記事/例:[ここ](/cells/ja/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)そして[ここ](/cells/ja/java/returning-a-range-of-values-using-abstractcalculationengine/)
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Aspose.Cells for Java API を初めて使用する場合は、チェックしてください[これ](https://docs.aspose.com/cells/java/installation/)プロジェクトで Aspose.Cells for Java を取得して参照する方法については、この記事を参照してください。
+ Aspose.Cells for Java API を初めて使用する場合は、確認してください。[これ](https://docs.aspose.com/cells/java/installation/)プロジェクト内で Aspose.Cells for Java を取得および参照する方法については、この記事を参照してください。
 
 {{% /alert %}} 
-## **ユーザー定義関数の作成と評価**
-この記事では、ICustomFunction インターフェイスを実装してカスタム関数を記述し、それをスプレッドシートで使用して結果を取得する方法を示します。カスタム関数を名前で定義します**MyFunc**これは、次の詳細を持つ 2 つのパラメーターを受け入れます。
+##  **ユーザー定義関数の作成と評価**
+この記事では、カスタム関数を作成し、それをスプレッドシートで使用して結果を取得するための ICustomFunction インターフェイスの実装について説明します。カスタム関数を名前で定義します**マイファンク**これは、次の詳細を含む 2 つのパラメーターを受け入れます。
 
 - 最初のパラメータは単一のセルを参照します
-- 番目のパラメーターは、セルの範囲を参照します
+- 番目のパラメータはセル範囲を参照します
 
-カスタム関数は、2 番目のパラメーターとして指定されたセル範囲からすべての値を追加し、結果を 1 番目のパラメーターの値で除算します。
+カスタム関数は、2 番目のパラメーターとして指定されたセル範囲のすべての値を加算し、結果を 1 番目のパラメーターの値で除算します。
 
-これが calculateCustomFunction メソッドの実装方法です。
+ここでは、calculateCustomFunction メソッドを実装する方法を示します。
 
 **Java**
 
@@ -93,7 +93,7 @@ ICustomFunction インターフェイスを使用すると、特定の要件を�
 
 {{< /highlight >}}
 
-スプレッドシートで新しく定義された関数を使用する方法は次のとおりです
+スプレッドシートで新しく定義した関数を使用する方法は次のとおりです。
 
 **Java**
 
@@ -148,10 +148,10 @@ worksheet.getCells().get("A1").putValue(worksheet.getCells().get("A1").getValue(
 workbook.save(dir + "UsingICustomFunction.xls");
 
 {{< /highlight >}}
-## **概要**
-Aspose.Cells API は、対応するパラメーターが参照であるか、その計算結果が参照である場合、ReferredArea オブジェクトを「paramsList」に入れるだけです。参照自体が必要な場合は、ReferredArea を直接使用できます。数式の位置に対応する参照から単一セルの値を取得する必要がある場合は、ReferredArea.getValue(rowOffset, int colOffset) メソッドを使用できます。領域全体のセル値配列が必要な場合は、ReferredArea.getValues メソッドを使用できます。
+##  **概要**
+Aspose.Cells API は、対応するパラメーターが参照であるか、その計算結果が参照である場合に、ReferredArea オブジェクトを「paramsList」に入れるだけです。参照自体が必要な場合は、ReferredArea を直接使用できます。数式の位置に対応する参照から単一セルの値を取得する必要がある場合は、ReferredArea.getValue(rowOffset, intcolOffset) メソッドを使用できます。エリア全体のセル値配列が必要な場合は、ReferredArea.getValues メソッドを使用できます。
 
-Aspose.Cells API は "paramsList" で ReferredArea を提供するため、"contextObjects" での ReferredAreaCollection はもう必要ありません (古いバージョンでは、カスタム関数のパラメーターに常に 1 対 1 のマップを与えることができませんでした)。 「contextObjects」から削除されました。
+Aspose.Cells API は「paramsList」の ReferredArea を提供するため、「contextObjects」の ReferredAreaCollection は不要になります (古いバージョンでは、常にカスタム関数のパラメーターに 1 対 1 のマップを与えることができませんでした)。 「contextObjects」から削除されました。
 
 {{< highlight "java" >}}
 

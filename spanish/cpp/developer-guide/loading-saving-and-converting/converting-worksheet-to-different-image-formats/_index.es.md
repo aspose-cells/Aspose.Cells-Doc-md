@@ -16,19 +16,19 @@ Como desarrollador, es posible que necesites presentar hojas de trabajo como im�
 
 Aspose.Cells admite la conversión de hojas de cálculo de Excel a imágenes. Para utilizar esta función, debe importar el[Aspose.Cells.Rendering](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/)espacio de nombres para su programa o proyecto. Tiene varias clases valiosas para renderizar e imprimir, por ejemplo,[HojaRenderizado](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/), [Opciones de imagen o impresión](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/)y otros.
 
-La clase `Aspose.Cells.Rendering.ISheetRender` representa una hoja de trabajo para representar como imágenes. Tiene un método sobrecargado,[A la imagen](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/toimage/), que puede convertir una hoja de trabajo en archivos de imagen con diferentes atributos u opciones. Se admiten varios formatos de imagen, por ejemplo, BMP, PNG, GIF, JPG, JPEG, EMF.
+La clase `Aspose.Cells.Rendering.ISheetRender` representa una hoja de trabajo para representar como imágenes. Tiene un método sobrecargado,[A la imagen](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/toimage/)que puede convertir una hoja de trabajo en archivos de imagen con diferentes atributos u opciones. Se admiten varios formatos de imagen, por ejemplo, BMP, PNG, GIF, JPG, JPEG, TIFF, EMF.
 
 El siguiente fragmento de código muestra cómo convertir una hoja de cálculo de un archivo de Excel en un archivo de imagen.
 ###  **PNG Formato**
  Consulte el siguiente código de muestra, su[archivo de Excel de muestra](67338402.xlsx) , y el[salida PNG Imágenes](67338401.zip).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_PNG-new.cpp" >}}
-<!--
-### **TIFF Format**
-Please see the following sample code, its [sample Excel file](67338402.xlsx), and the [output TIFF Image](67338419.zip).
+
+###  **TIFF Formato**
+ Consulte el siguiente código de muestra, su[archivo de Excel de muestra](67338402.xlsx) , y el[salida TIFF Imagen](67338419.zip).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_TIFF-new.cpp" >}}
--->
+
 ##  **Conversión de hoja de trabajo a SVG**
 SVG significa gráficos vectoriales escalables. SVG es una especificación basada en estándares XML para gráficos vectoriales bidimensionales. Es un estándar abierto que ha estado siendo desarrollado por el World Wide Web Consortium (W3C) desde 1999.
 

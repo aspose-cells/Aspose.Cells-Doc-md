@@ -8,7 +8,7 @@ Aspose.Cells for C++ は、C++ 開発者が Office オートメーションや M
 
 ## サポートされているオペレーティング システム
 
-Aspose.Cells for C++ は、次の 64 ビット オペレーティング システムとプラットフォームをサポートしています。
+Aspose.Cells for C++ は、次の 64 ビットまたは 32 ビットのオペレーティング システムとプラットフォームをサポートします。
 
 <table>  
 	<tr>
@@ -17,11 +17,12 @@ Aspose.Cells for C++ は、次の 64 ビット オペレーティング シス�
 		</tr>
   <tr>
 			<td>Microsoft Windows</td>
-			<td><ul><li>Windows 2008 サーバー (x64)</li><li>Windows 2012 サーバー (x64)</li><li>Windows 2012 R2 サーバー (x64)</li><li>Windows 2016 サーバー (x64)</li><li>Windows 2019 サーバー (x64)</li><li>Windows ビスタ (x64)</li><li>Windows 7 (x64)</li><li>Windows 8、8.1 (x64)</li><li>Windows 10 (x64)</li><li>Windows 11 (x64)</li></ul></td>
-		</tr>
+			<!--- <td><ul><li>Windows 2008 Server (x64)</li><li>Windows 2012 Server (x64)</li><li>Windows 2012 R2 Server (x64)</li><li>Windows 2016 Server (x64)</li><li>Windows 2019 Server (x64)</li><li>Windows Vista (x64)</li><li>Windows 7 (x64)</li><li>Windows 8, 8.1 (x64)</li><li>Windows 10 (x64)</li><li>Windows 11 (x64)</li></ul></td> --->
+			<td><ul><li>Windows x86</li><li>Windows x86_64</li></ul></td>
+  </tr>
   <tr>
 			<td>Linux</td>
-			<td><ul><li>Ubuntu 20.04以降</li><li>フェドーラ</li><li>OpenSUSE</li><li>CentOS</li><li>ARM 用 Linux (aarch64)</li></ul></td>
+			<td><ul><li>Linux x86_64</li><!---li>Ubuntu 20.04 or later</li><li>Fedora</li><li>OpenSUSE</li><li>CentOS</li---><li>ARM 用 Linux (aarch64)</li></ul></td>
 		</tr>
   <tr>
 			<td>マックOS</td>
@@ -46,7 +47,7 @@ Windows、Linux、または macOS 用のアプリケーションを開発する�
 			</tr>
 </table>
 
-###  Linux
+### Linux
 
 Aspose.Cells for C++ は、C++11 以降をサポートする開発環境でアプリケーションを開発するために使用できますが、次のコンパイラとツールが明示的にサポートされています。
 

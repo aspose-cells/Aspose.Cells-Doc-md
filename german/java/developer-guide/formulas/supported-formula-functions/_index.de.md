@@ -278,7 +278,6 @@ Mit der Formula Calculation Engine Aspose.Cells können Sie die Ergebnisse der f
 |**Funktion**|**Zusammenfassung**|
 | :- | :- |
 |LAMBDA|
-|LET|
 |LARGE|
 |LCM|
 |LEFT|
@@ -480,12 +479,17 @@ Mit der Formula Calculation Engine Aspose.Cells können Sie die Ergebnisse der f
 |T.DIST.RT|
 |TDIST|
 |TEXT|
+|TEXTAFTER|
+|TEXTBEFORE|
 |TEXTJOIN|
+|TEXTSPLIT|
 |TIME|
 |TIMEVALUE|
 |T.INV.2T|
 |TINV|
+|TOCOL|
 |TODAY|
+|TOROW|
 |TRANSPOSE|
 |TREND|
 |TRIM|

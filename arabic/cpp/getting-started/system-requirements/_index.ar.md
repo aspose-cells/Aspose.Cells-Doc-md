@@ -8,7 +8,7 @@ Aspose.Cells for C++ هي مكتبة C++ أصلية تمكن مطوري C++ من
 
 ##  أنظمة التشغيل المدعومة
 
-Aspose.Cells for C++ يدعم نظام التشغيل والمنصات التالية 64 بت:
+Aspose.Cells for C++ يدعم أنظمة التشغيل والأنظمة الأساسية التالية 64 بت أو 32 بت:
 
 <table>  
 	<tr>
@@ -17,11 +17,12 @@ Aspose.Cells for C++ يدعم نظام التشغيل والمنصات التا�
 		</tr>
   <tr>
 			<td>Microsoft Windows</td>
-			<td><ul><li>Windows خادم 2008 (x64)</li><li>Windows خادم 2012 (x64)</li><li>Windows 2012 خادم R2 (x64)</li><li>Windows خادم 2016 (x64)</li><li>Windows خادم 2019 (x64)</li><li>Windows فيستا (x64)</li><li>Windows 7 (x64)</li><li>Windows 8، 8.1 (x64)</li><li>Windows 10 (x64)</li><li>Windows 11 (x64)</li></ul></td>
-		</tr>
+			<!--- <td><ul><li>Windows 2008 Server (x64)</li><li>Windows 2012 Server (x64)</li><li>Windows 2012 R2 Server (x64)</li><li>Windows 2016 Server (x64)</li><li>Windows 2019 Server (x64)</li><li>Windows Vista (x64)</li><li>Windows 7 (x64)</li><li>Windows 8, 8.1 (x64)</li><li>Windows 10 (x64)</li><li>Windows 11 (x64)</li></ul></td> --->
+			<td><ul><li>Windowsx86</li><li>Windowsx86_64</li></ul></td>
+  </tr>
   <tr>
 			<td>لينكس</td>
-			<td><ul><li>أوبونتو 20.04 أو الأحدث</li><li>فيدورا</li><li>أوبن سوزي</li><li>سينت أو إس</li><li>لينكس لـ ARM (aarch64)</li></ul></td>
+			<td><ul><li>لينكس x86_64</li><!---li>Ubuntu 20.04 or later</li><li>Fedora</li><li>OpenSUSE</li><li>CentOS</li---><li>لينكس لـ ARM (aarch64)</li></ul></td>
 		</tr>
   <tr>
 			<td>ماك</td>

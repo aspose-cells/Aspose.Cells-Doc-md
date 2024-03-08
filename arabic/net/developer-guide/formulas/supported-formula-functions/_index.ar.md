@@ -479,12 +479,17 @@ Aspose.Cells يتيح لك محرك حساب الصيغة تعيين وقراء�
 |T.DIST.RT|
 |TDIST|
 |TEXT|
+|TEXTAFTER|
+|TEXTBEFORE|
 |TEXTJOIN|
+|TEXTSPLIT|
 |TIME|
 |TIMEVALUE|
 |T.INV.2T|
 |TINV|
+|TOCOL|
 |TODAY|
+|TOROW|
 |TRANSPOSE|
 |TREND|
 |TRIM|

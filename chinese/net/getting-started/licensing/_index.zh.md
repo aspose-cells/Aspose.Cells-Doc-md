@@ -4,53 +4,8 @@ type: docs
 weight: 120
 url: /zh/net/licensing/
 description: Aspose.Cells for .NET 提供不同的购买计划，或使用 Licensing 和 C# 中的订阅策略提供免费试用和 30 天临时许可证进行评估。
-keywords: Apply License from Disk or Stream. Set License from Disk or Stream. Apply License in Aspose.Cells.
+keywords: C# Apply License from Disk or Stream. C# Set License from Disk or Stream. Apply License in Aspose.Cells for NET.
 ---
-{{% alert color="primary" %}}
-
-您可以轻松地从其下载 Aspose.Cells 的评估版本[下载页面](https://www.nuget.org/packages/Aspose.Cells) NuGet 仓库。评估版本提供与组件的许可版本完全相同的功能。此外，当您购买许可证并添加几行代码来应用许可证时，评估版就会获得许可。
-
-{{% /alert %}}
-
-##  **评估版限制**
-
-Aspose.Cells 产品的评估版（未指定许可证）提供完整的产品功能，但仅限于在一个程序中打开 100 个文件以及带有评估水印的额外工作表。
-
-限制如下所示：
-
-- **打开文件的数量** (Aspose.Cells)
-运行程序时，您只能使用 Aspose.Cells 库打开 100 个 Excel 文件。如果您的应用程序超过此数量，则会抛出异常。
-- **配置文件设置**(Aspose.Cells.GridWeb)
-您无法通过将以下代码行添加到配置部分（例如在 web.config 文件中）来重新指定脚本路径。 acw_client是一个包含文件和Aspose.Cells的文件夹。GridWeb使用这个文件夹来管理其内部配置，它有脚本文件、图像文件和其他文件来指定GridWeb的行为并设置其他操作。配置文件用于防止控件使用嵌入式客户端资源（图像、脚本等），这在某些情况/场景中很有用。此外，web.config 文件中的此配置设置仅对控件的许可版本有效。
-
-**XML**
-
-{{< highlight "csharp" >}}
-
- <appSettings>
-
-<add key="aspose.cells.gridweb.acw_client_path" value="/acw_client/" />
-
-<add key="aspose.cells.gridweb.force_script_path" value="true" />
-
-</appSettings>
-
-{{< /highlight >}}
-
-{{% alert color="primary" %}}
-
-如果您在文件系统网站或 MS Ajax 扩展等中使用 Aspose.Cells.GridWeb 控件，这些设置在某些情况/场景下可能是强制性的。
-
-{{% /alert %}}
-
-此外，带有评估水印的工作表将始终在使用 Aspose.Cells 库生成的 Excel 文件中显示为活动工作表。仅在许可版本中，您可以将活动工作表设置为其他工作表。在输出 PDF 或 Aspose.Cells 的图像文件中，评估水印将粘贴在文档/图像的顶部。您也无法在 GridWeb 控件中隐藏评估版权警告（额外的工作表），它始终会添加（在工作表选项卡的末尾）在控件中。
-
-{{% alert color="primary" %}}
-
-如果您想测试 Aspose.Cells 而没有评估版限制，您还可以请求[30 天临时许可证](https://purchase.aspose.com/temporary-license).
-
-{{% /alert %}}
-
 ##  **如何在Aspose.Cells组件中申请License**
 
 该许可证是一个纯文本 XML 文件，其中包含产品名称、许可的开发人员数量、订阅到期日期等详细信息。该文件经过数字签名，因此请勿修改该文件。即使无意中在文件中添加了额外的换行符也会使其失效。如果您想避免其评估限制，则需要在使用 Aspose.Cells 之前设置许可证。每个应用程序（或进程）只需设置一次许可证。许可证可以从文件、流或嵌入式资源加载。

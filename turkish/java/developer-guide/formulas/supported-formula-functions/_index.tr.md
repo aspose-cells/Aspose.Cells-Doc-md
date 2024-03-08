@@ -278,7 +278,6 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formül ve işlevlerin sonu
 |**İşlev**|**Özet**|
 | :- | :- |
 |LAMBDA|
-|LET|
 |LARGE|
 |LCM|
 |LEFT|
@@ -480,12 +479,17 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formül ve işlevlerin sonu
 |T.DAĞ.RT|
 |TDIST|
 |TEXT|
+|TEXTAFTER|
+|TEXTBEFORE|
 |TEXTJOIN|
+|TEXTSPLIT|
 |TIME|
 |TIMEVALUE|
 |T.TERS.2T|
 |TINV|
+|TOCOL|
 |TODAY|
+|TOROW|
 |TRANSPOSE|
 |TREND|
 |TRIM|

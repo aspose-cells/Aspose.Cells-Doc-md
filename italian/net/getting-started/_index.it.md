@@ -44,7 +44,7 @@ In questo esempio, utilizzo Ubuntu per mostrare come iniziare a utilizzare Aspos
 2. Apri il file "AsposeCellsTest.csproj", aggiungi le seguenti righe per i riferimenti al pacchetto Aspose.Cells:
 {{< highlight "plain" >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="23.12" />
+    <PackageReference Include="Aspose.Cells" Version="24.3" />
   </ItemGroup>
 {{< /highlight >}}
 3. Apri il progetto con VSCode su Ubuntu:

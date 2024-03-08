@@ -72,3 +72,7 @@ cp ./SkiaSharp.NativeAssets.macOS.2.88.3/runtimes/osx/native/libSkiaSharp.dylib 
 
 - Теперь сохраните приведенный выше код в «CreatingHelloWorldFile.py» и запустите «python MakingHelloWorldFile.py» в командной строке.
 
+##  **Python via .NET Пример github**
+-  Пожалуйста, посетите[Aspose.Cells for Python via .NET Пример](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET) github, чтобы просмотреть больше примеров кода.
+
+

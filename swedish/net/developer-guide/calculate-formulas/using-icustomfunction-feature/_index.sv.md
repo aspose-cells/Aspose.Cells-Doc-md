@@ -12,7 +12,7 @@ Den här artikeln ger en detaljerad förståelse för hur du använder ICustomFu
 
 ICustomFunction-gränssnittet gör det möjligt att lägga till anpassade formelberäkningsfunktioner för att utöka Aspose.Cells' kärnberäkningsmotor för att uppfylla vissa krav. Den här funktionen är användbar för att definiera anpassade (användardefinierade) funktioner i en mallfil eller i kod där den anpassade funktionen kan implementeras och utvärderas med Aspose.Cells API:er som vilken annan standard Microsoft Excel-funktion som helst.
 
- Observera att detta gränssnitt har ersatts av[AbstractCalculation Engine](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/) och kommer att tas bort i framtiden. Några tekniska artiklar/exempel om den nya API:[här](/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) och[här](/net/returning-a-range-of-values-using-abstractcalculationengine/)
+ Observera att detta gränssnitt har ersatts av[AbstractCalculation Engine](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/) och kommer att tas bort i framtiden. Några tekniska artiklar/exempel om nya API:[här](/cells/sv/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) och[här](/cells/sv/net/returning-a-range-of-values-using-abstractcalculationengine/)
 
 {{% /alert %}} 
 ##  **Skapa och utvärdera en användardefinierad funktion**

@@ -16,19 +16,19 @@ Bir geliştirici olarak çalışma sayfalarını resim olarak sunmanız gerekebi
 
 Aspose.Cells, Excel çalışma sayfalarının resimlere dönüştürülmesini destekler. Bu özelliği kullanmak için içe aktarmanız gerekir.[Aspose.Cells.Rendering](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/)programınızın veya projenizin ad alanı. Oluşturma ve yazdırma için çeşitli değerli sınıflara sahiptir; örneğin,[Sayfa İşleme](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/), [Görüntü Veya Yazdırma Seçenekleri](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/)ve diğerleri.
 
-`Aspose.Cells.Rendering.ISheetRender` sınıfı, resim olarak işlenecek bir çalışma sayfasını temsil eder. Aşırı yüklenmiş bir yöntemi vardır,[Hayal etmek](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/toimage/), bir çalışma sayfasını farklı niteliklere veya seçeneklere sahip görüntü dosyalarına dönüştürebilir. Çeşitli görüntü formatları desteklenir; örneğin, BMP, PNG, GIF, JPG, JPEG, EMF.
+`Aspose.Cells.Rendering.ISheetRender` sınıfı, resim olarak işlenecek bir çalışma sayfasını temsil eder. Aşırı yüklenmiş bir yöntemi vardır,[Hayal etmek](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/toimage/)bir çalışma sayfasını farklı niteliklere veya seçeneklere sahip görüntü dosyalarına dönüştürebilir. Çeşitli görüntü formatları desteklenir; örneğin, BMP, PNG, GIF, JPG, JPEG, TIFF, EMF.
 
 Aşağıdaki kod parçacığı, Excel dosyasındaki bir çalışma sayfasının görüntü dosyasına nasıl dönüştürüleceğini gösterir.
 ###  **PNG Biçimi**
  Lütfen aşağıdaki örnek koda bakın;[örnek Excel dosyası](67338402.xlsx) , ve[çıktı PNG Görüntüler](67338401.zip).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_PNG-new.cpp" >}}
-<!--
-### **TIFF Format**
-Please see the following sample code, its [sample Excel file](67338402.xlsx), and the [output TIFF Image](67338419.zip).
+
+###  **TIFF Biçimi**
+ Lütfen aşağıdaki örnek koda bakın;[örnek Excel dosyası](67338402.xlsx) , ve[çıkış TIFF Görüntü](67338419.zip).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_TIFF-new.cpp" >}}
--->
+
 ##  **Çalışma Sayfasını SVG'e Dönüştürme**
 SVG, Ölçeklenebilir Vektör Grafikleri anlamına gelir. SVG, iki boyutlu vektör grafiklerine yönelik XML standartlarını temel alan bir spesifikasyondur. World Wide Web Konsorsiyumu (W3C) tarafından 1999 yılından bu yana geliştirilmekte olan açık bir standarttır.
 

@@ -8,7 +8,7 @@ Aspose.Cells for C++ — это встроенная библиотека C++, �
 
 ##  Поддерживаемые операционные системы
 
-Aspose.Cells for C++ поддерживает следующие 64-битные операционные системы и платформы:
+Aspose.Cells for C++ поддерживает следующие 64-битные или 32-битные операционные системы и платформы:
 
 <table>  
 	<tr>
@@ -17,11 +17,12 @@ Aspose.Cells for C++ поддерживает следующие 64-битные
 		</tr>
   <tr>
 			<td>Microsoft Windows</td>
-			<td><ul><li>Windows Сервер 2008 (x64)</li><li>Windows Сервер 2012 (x64)</li><li>Windows Сервер 2012 R2 (x64)</li><li>Windows Сервер 2016 (x64)</li><li>Windows Сервер 2019 (x64)</li><li>Windows Виста (x64)</li><li>Windows 7 (х64)</li><li>Windows 8, 8,1 (х64)</li><li>Windows 10 (х64)</li><li>Windows 11 (х64)</li></ul></td>
-		</tr>
+			<!--- <td><ul><li>Windows 2008 Server (x64)</li><li>Windows 2012 Server (x64)</li><li>Windows 2012 R2 Server (x64)</li><li>Windows 2016 Server (x64)</li><li>Windows 2019 Server (x64)</li><li>Windows Vista (x64)</li><li>Windows 7 (x64)</li><li>Windows 8, 8.1 (x64)</li><li>Windows 10 (x64)</li><li>Windows 11 (x64)</li></ul></td> --->
+			<td><ul><li>Windows х86</li><li>Windows x86_64</li></ul></td>
+  </tr>
   <tr>
 			<td>Линукс</td>
-			<td><ul><li>Убунту 20.04 или новее</li><li>Федора</li><li>OpenSUSE</li><li>ЦентОС</li><li>Linux для ARM (aarch64)</li></ul></td>
+			<td><ul><li>Linux x86_64</li><!---li>Ubuntu 20.04 or later</li><li>Fedora</li><li>OpenSUSE</li><li>CentOS</li---><li>Linux для ARM (aarch64)</li></ul></td>
 		</tr>
   <tr>
 			<td>macOS</td>
@@ -67,7 +68,7 @@ Aspose.Cells for C++ можно использовать для разработ
 1. Установка fontconfig в Fedora или CentOs<br>
 `sudo yum install fontconfig`
 
-###  macOS
+### macOS
 Aspose.Cells for C++ можно использовать для разработки приложений в следующих средах разработки:
 * Xcode 12.5.1 или новее
 * Clang и libc++ (которые по умолчанию поставляются с Xcode)

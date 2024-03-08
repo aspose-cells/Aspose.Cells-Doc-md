@@ -50,11 +50,12 @@ Aspose.Cells for .NET поддерживает следующие платфор
 - .NET 5.0
 - .NET 6.0
 - .NET 7.0
+- .NET 8.0
 ####  **Пакеты nuget, на которые ссылается Aspose.Cells, для стандарта .NET.**
 - Система.Рисование.Общий, 5.0.3.
 - System.Text.Encoding.CodePages, 4.7.0.
 - System.Security.Cryptography.Pkcs, 5.0.1.
-####  **Пакеты nuget, на которые ссылается Aspose.Cells. Для .NET6 и .Net7.**
+####  **Пакеты nuget, на которые ссылается Aspose.Cells. Для .NET6, .Net7 и .Net8.**
 - System.Text.Encoding.CodePages, 4.7.0.
 - System.Security.Cryptography.Pkcs, 6.0.3.
 - System.Drawing.Common, 6.0.0 (в системе Windows).
@@ -80,16 +81,17 @@ Aspose.Cells for .NET поддерживает следующие платфор
 
 {{% /alert %}} 
 ##  **Aspose.Cells Системные требования Grid Suite**
-Aspose.Cells Grid Suite состоит из двух элементов управления:
+Aspose.Cells Grid Suite состоит из трех элементов управления:
 
 - Aspose.Cells.GridDesktop
 - Aspose.Cells.GridWeb
+- Aspose.Cells.GridJs
 
-Системные требования обоих элементов управления описаны отдельно.
+Системные требования элементов управления описаны отдельно.
 
 {{% alert color="primary" %}} 
 
-Чтобы использовать эти два элемента управления, на компьютере с Aspose.Cells.GridDesktop и Aspose.Cells.GridWeb не обязательно должен быть установлен Microsoft Excel как Aspose.Cells.GridDesktop и Aspose.Cells.GridWeb могут открывать и сохранять электронные таблицы Excel без необходимости в Microsoft Excel.
+Чтобы использовать эти элементы управления, на компьютере с Aspose.Cells.GridDesktop и Aspose.Cells.GridWeb не обязательно должен быть установлен Microsoft Excel, а Aspose.Cells.GridDesktop и Aspose.Cells.GridWeb могут открывать и сохранять электронные таблицы Excel без необходимости в Microsoft Excel.
 
 {{% /alert %}} 
 ###  **Aspose.Cells.GridDesktop**
@@ -108,16 +110,24 @@ Aspose.Cells Grid Suite состоит из двух элементов упра
 - .NET Каркас 4.7.2
 - .NET Каркас 4.8
 - .NET Каркас 4.8.1
-
+###  **.NET Ядро**
+-  .NET Ядро 3.1
+- .NET окна 7.0
+####  **Пакеты nuget, на которые ссылается Aspose.Cells.GridDesktop для .NET Core 3.1.**
+- Система.Рисование.Общий, 6.0.0.
+- System.Text.Encoding.CodePages, 4.7.0.
+- System.Security.Cryptography.Pkcs, 5.0.1.
+####  **Пакеты nuget, на которые ссылается Aspose.Cells.GridDesktop для .Net7.**
+- System.Text.Encoding.CodePages, 4.7.0.
+- System.Security.Cryptography.Pkcs, 6.0.3.
+- System.Drawing.Common, 7.0.0 (в системе Windows).
 ####  **Инструменты разработки**
-- Microsoft Visual Studio 2005
-- Microsoft Visual Studio 2008
-- Microsoft Visual Studio 2010
 - Microsoft Visual Studio 2012
 - Microsoft Visual Studio 2013
 - Microsoft Visual Studio 2015
 - Microsoft Visual Studio 2017
 - Microsoft Visual Studio 2019
+- Microsoft Visual Studio 2022
 ####  **Операционная система**
 - Microsoft Windows 2000
 - Microsoft Windows XP
@@ -145,22 +155,26 @@ Aspose.Cells Grid Suite состоит из двух элементов упра
 - .NET Каркас 4.7.2
 - .NET Каркас 4.8
 - .NET Каркас 4.8.1
+###  **.NET Ядро**
+-  .NET окна 6.0
+- .NET окна 7.0
+####  **Пакеты nuget, на которые ссылается Aspose.Cells.GridWeb для ядра .NET.**
+- Система.Рисование.Общий, 7.0.0.
+- System.Text.Encoding.CodePages, 4.7.0.
+- System.Security.Cryptography.Pkcs, 6.0.3.
 ####  **Инструменты разработки**
-- Microsoft Visual Studio 2005
-- Microsoft Visual Studio 2008
-- Microsoft Visual Studio 2010
 - Microsoft Visual Studio 2012
 - Microsoft Visual Studio 2013
 - Microsoft Visual Studio 2015
 - Microsoft Visual Studio 2017
 - Microsoft Visual Studio 2019
-####  **Информационный сервер Интернета (IIS)**
-- IIS 5.0 или выше
+- Microsoft Visual Studio 2022
 ####  **Браузеры**
-- IE 5.5 или выше
+- Хром
+- Край
 - Браузеры Mozilla (включая Firefox, Netscape Browser и т. д.)
-- Opera (рекомендуется Internet Explorer 6.0)
-- Google Хром
+- Сафари
+-  Опера
 ####  **Операционная система**
 - Microsoft Windows 2000
 - Microsoft Windows XP
@@ -172,3 +186,42 @@ Aspose.Cells Grid Suite состоит из двух элементов упра
 - Microsoft Windows 8, 8.1
 - Microsoft Windows 10
 - Microsoft Windows 11
+
+###  **Aspose.Cells.GridJs**
+###  **.NET Стандарт**
+-  .NET Стандарт 2.0
+####  **Пакеты nuget, на которые ссылается Aspose.Cells.GridJs для стандарта .NET.**
+- System.Drawing.Common, 6.0.0 (в системе Windows).
+- SkiaSharp, 2.88.3 (в системах, отличных от Windows).
+- System.Text.Encoding.CodePages, 4.7.0.
+- System.Security.Cryptography.Pkcs,5.0.1.
+- Aspose.Cells, (всегда сохраняйте одну и ту же версию с GridJ)
+####  **Инструменты разработки**
+- Microsoft Visual Studio 2012
+- Microsoft Visual Studio 2013
+- Microsoft Visual Studio 2015
+- Microsoft Visual Studio 2017
+- Microsoft Visual Studio 2019
+- Microsoft Visual Studio 2022
+
+####  **Браузеры**
+- Хром
+- Край
+- Браузеры Mozilla (включая Firefox, Netscape Browser и т. д.)
+- Сафари
+-  Опера
+####  **Операционная система**
+- Microsoft Windows 2000
+- Microsoft Windows XP
+- Microsoft Windows Сервер 2003
+- Microsoft Windows Сервер 2008
+- Microsoft Windows Сервер 2012
+- Microsoft Windows Виста
+- Microsoft Windows 7, 
+- Microsoft Windows 8, 8.1
+- Microsoft Windows 10
+- Microsoft Windows 11
+###  **Линукс**
+- Linux (Ubuntu, openSUSE, CentOS, Debian, Alpine и другие)
+###  **Мак**
+- Mac OS X, macOS High Sierra и т. д.

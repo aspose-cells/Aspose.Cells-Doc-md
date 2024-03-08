@@ -278,7 +278,6 @@ Aspose.Cells' Il motore di calcolo delle formule consente di impostare, leggere 
 |**Funzione**|**Riepilogo**|
 | :- | :- |
 |LAMBDA|
-|LET|
 |LARGE|
 |LCM|
 |LEFT|
@@ -480,12 +479,17 @@ Aspose.Cells' Il motore di calcolo delle formule consente di impostare, leggere 
 |T.DIST.RT|
 |TDIST|
 |TEXT|
+|TEXTAFTER|
+|TEXTBEFORE|
 |TEXTJOIN|
+|TEXTSPLIT|
 |TIME|
 |TIMEVALUE|
 |T.INV.2T|
 |TINV|
+|TOCOL|
 |TODAY|
+|TOROW|
 |TRANSPOSE|
 |TREND|
 |TRIM|

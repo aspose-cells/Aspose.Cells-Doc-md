@@ -44,7 +44,7 @@ url: /zh/net/getting-started/
 2. 打开文件“AsposeCellsTest.csproj”，将以下行添加到其中以获取 Aspose.Cells 包引用：
 {{< highlight "plain" >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="23.12" />
+    <PackageReference Include="Aspose.Cells" Version="24.3" />
   </ItemGroup>
 {{< /highlight >}}
 3.在Ubuntu上使用VSCode打开项目：

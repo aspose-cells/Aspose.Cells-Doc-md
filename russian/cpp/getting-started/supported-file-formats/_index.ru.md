@@ -28,6 +28,7 @@ url: /ru/cpp/supported-file-formats/
 |[PDF](https://docs.fileformat.com/pdf/)|Формат переносимого документа Adobe.| |{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|Формат спецификации бумаги XML.| |{{< emoticons/tick >}}|
 |[SVG](https://docs.fileformat.com/page-description-language/svg/)|Масштабируемый формат векторной графики.| |{{< emoticons/tick >}}|
+|[TIFF](https://docs.fileformat.com/image/tiff/)|Формат файла изображения с тегами| |{{< emoticons/tick >}}|
 |[PNG](https://docs.fileformat.com/image/png/)|Формат портативной сетевой графики| |{{< emoticons/tick >}}|
 |[BMP](https://docs.fileformat.com/image/bmp/)|Формат растрового изображения| |{{< emoticons/tick >}}|
 |[EMF](https://docs.fileformat.com/image/emf/)|Расширенный формат метафайла| |{{< emoticons/tick >}}|
@@ -38,3 +39,8 @@ url: /ru/cpp/supported-file-formats/
 |[FODS](https://docs.fileformat.com/spreadsheet/fods/)|Это формат открытого документа, хранящийся в виде плоского XML.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[DOCX](https://docs.fileformat.com/word-processing/docx/)|Хорошо известный формат документов Word Microsoft, представляющий собой комбинацию XML и двоичных файлов.||{{< emoticons/tick >}}|
 |[PPTX](https://docs.fileformat.com/presentation/pptx/)|Формат PPTX основан на формате файла презентации открытого XML Microsoft PowerPoint.||{{< emoticons/tick >}}|
+|[SQLScript](https://docs.fileformat.com/database/sql/)|Язык структурированных запросов.||{{< emoticons/tick >}}|
+|[XHtml](https://docs.fileformat.com/web/xhtml/)|XHTML — это текстовый формат файла с разметкой в XML, использующий переформулировку HTML 4.0.||{{< emoticons/tick >}}|
+|[Электронная публикация](https://docs.fileformat.com/ebook/epub/)|Файлы с расширением .epub — это формат файлов электронных книг, который обеспечивает стандартный формат цифровых публикаций для издателей и потребителей.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[XML](https://docs.fileformat.com/web/xml/)|XML означает расширяемый язык разметки, который похож на HTML, но отличается использованием тегов для определения объектов.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Отс](https://docs.fileformat.com/spreadsheet/ots/)|Откройте файл листа шаблона документа (OTS).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

@@ -48,7 +48,7 @@ So legen Sie Anzeigeformate in Microsoft Excel fest:
 |
 |13|Fraction|#  */*
 |
-|14|Date|m/t/jj|
+|14|Date|m/t/jjjj|
 |15|Date|d-mmm-jj|
 |16|Date|d-mmm|
 |17|Date|mmm-jj|

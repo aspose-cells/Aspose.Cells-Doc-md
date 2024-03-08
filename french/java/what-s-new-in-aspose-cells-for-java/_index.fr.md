@@ -7,6 +7,19 @@ url: /fr/java/what-s-new-in-aspose-cells-for-java/
 ---
 Cette page décrit les nouvelles fonctionnalités Aspose.Cells les plus intéressantes introduites dans les versions récentes.
 
+##  Aspose.Cells for Java 24.2
+* Prise en charge de nouvelles fonctions : TEXTAFTER,TEXTBEFORE,TEXTSPLIT,TOROW,TOCOL
+* Prise en charge de la détection du format oxps
+* Améliorer les performances pour le tri de grands ensembles de données
+
+##  Aspose.Cells for Java 24.1
+
+* Prise en charge de jakarta.servlet pour GridWeb
+* Prise en charge de l'importation de données CSV avec les lignes/colonnes d'en-tête spécifiées par l'utilisateur et le nombre total de lignes/colonnes par feuille
+* Prise en charge de l'exportation de HTML avec des styles personnalisés
+* Prise en charge du remplissage automatique pour les zones fusionnées
+* Prise en charge du remplissage automatique des données de droite à gauche et de bas en haut
+
 ##  Aspose.Cells for Java 23.12
 
 * Prise en charge de la conformité PDF/A-2 et PDF/A-3 lors de la conversion en PDF

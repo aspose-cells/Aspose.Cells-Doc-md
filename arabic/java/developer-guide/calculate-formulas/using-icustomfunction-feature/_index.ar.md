@@ -1,4 +1,4 @@
-﻿---
+---
 title: استخدام ميزة ICustomFunction
 type: docs
 weight: 890
@@ -6,26 +6,26 @@ url: /ar/java/using-icustomfunction-feature/
 ---
 {{% alert color="primary" %}} 
 
-تقدم هذه المقالة فهمًا تفصيليًا لكيفية استخدام ميزة ICustomFunction لتنفيذ وظائف مخصصة مع واجهات برمجة تطبيقات Aspose.Cells.
+توفر هذه المقالة فهمًا تفصيليًا لكيفية استخدام ميزة ICustomFunction لتنفيذ الوظائف المخصصة باستخدام واجهات برمجة التطبيقات Aspose.Cells.
 
-تسمح واجهة ICustomFunction بإضافة وظائف حساب الصيغة المخصصة لتوسيع محرك الحساب الأساسي Aspose.Cells من أجل تلبية متطلبات معينة. هذه الميزة مفيدة لتعريف الوظائف المخصصة (المعرفة من قبل المستخدم) في ملف قالب أو في التعليمات البرمجية حيث يمكن تنفيذ الوظيفة المخصصة وتقييمها باستخدام واجهات برمجة تطبيقات Aspose.Cells مثل أي وظيفة إكسل Microsoft افتراضية أخرى.
+تسمح واجهة ICustomFunction بإضافة وظائف حساب الصيغة المخصصة لتوسيع محرك الحساب الأساسي Aspose.Cells من أجل تلبية متطلبات معينة. هذه الميزة مفيدة لتحديد الوظائف المخصصة (المحددة من قبل المستخدم) في ملف قالب أو في التعليمات البرمجية حيث يمكن تنفيذ الوظيفة المخصصة وتقييمها باستخدام Aspose.Cells APIs مثل أي وظيفة Excel افتراضية أخرى Microsoft.
 
- يرجى ملاحظة أنه تم استبدال هذه الواجهة بـ[الخلاصةحساب المحرك](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) وستتم إزالتها في المستقبل. بعض المقالات / الأمثلة الفنية حول API الجديد:[هنا](/cells/ar/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) و[هنا](/cells/ar/java/returning-a-range-of-values-using-abstractcalculationengine/)
+ يرجى ملاحظة أنه تم استبدال هذه الواجهة بـ[AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine)وسيتم إزالتها في المستقبل. بعض المقالات/الأمثلة الفنية حول API الجديد:[هنا](/cells/ar/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) و[هنا](/cells/ar/java/returning-a-range-of-values-using-abstractcalculationengine/)
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- إذا كنت مستخدمًا جديدًا لـ Aspose.Cells for Java APIs ، فيرجى التحقق[هذه](https://docs.aspose.com/cells/java/installation/) مقال لمعرفة كيف يمكنك الحصول على Aspose.Cells for Java والرجوع إليه في مشروعك.
+ إذا كنت جديدًا على Aspose.Cells for Java APIs، يرجى التحقق[هذا](https://docs.aspose.com/cells/java/installation/) مقال لتعرف كيف يمكنك الحصول على Aspose.Cells for Java والإشارة إليه في مشروعك.
 
 {{% /alert %}} 
-## **إنشاء وتقييم وظيفة محددة من قبل المستخدم**
-توضح هذه المقالة تنفيذ واجهة ICustomFunction لكتابة وظيفة مخصصة واستخدامها في جدول البيانات للحصول على النتائج. سنحدد وظيفة مخصصة بالاسم**MyFunc** والتي ستقبل معاملين مع التفاصيل التالية.
+##  **إنشاء وتقييم وظيفة محددة من قبل المستخدم**
+ توضح هذه المقالة تنفيذ واجهة ICustomFunction لكتابة دالة مخصصة واستخدامها في جدول البيانات للحصول على النتائج. سوف نقوم بتحديد وظيفة مخصصة بالاسم**MyFunc** والتي سوف تقبل معلمتين مع التفاصيل التالية.
 
 - تشير المعلمة الأولى إلى خلية واحدة
 - تشير المعلمة الثانية إلى نطاق من الخلايا
 
-ستضيف الوظيفة المخصصة جميع القيم من نطاق الخلايا المحدد كمعلمة ثانية وتقسيم النتيجة بالقيمة في المعلمة الأولى.
+ستضيف الوظيفة المخصصة جميع القيم من نطاق الخلايا المحدد كمعلمة ثانية وتقسم النتيجة على القيمة الموجودة في المعلمة الأولى.
 
-إليك كيفية تنفيذنا لطريقة calculateCustomFunction.
+إليك كيفية تنفيذ طريقة accountCustomFunction.
 
 **Java**
 
@@ -93,7 +93,7 @@ url: /ar/java/using-icustomfunction-feature/
 
 {{< /highlight >}}
 
-فيما يلي كيفية استخدام الوظيفة المحددة حديثًا في جدول بيانات
+فيما يلي كيفية استخدام الوظيفة المحددة حديثًا في جدول البيانات
 
 **Java**
 
@@ -148,10 +148,10 @@ worksheet.getCells().get("A1").putValue(worksheet.getCells().get("A1").getValue(
 workbook.save(dir + "UsingICustomFunction.xls");
 
 {{< /highlight >}}
-## **ملخص**
-قامت واجهات برمجة التطبيقات Aspose.Cells بوضع الكائن RefifiedArea في "قائمة paramsList" عندما تكون المعلمة المقابلة مرجعًا أو تكون النتيجة المحسوبة مرجعًا. إذا كنت بحاجة إلى المرجع نفسه ، فيمكنك استخدام RefifiedArea مباشرة. إذا كنت بحاجة إلى الحصول على قيمة خلية واحدة من المرجع المطابق لموضع الصيغة ، فيمكنك استخدام أسلوب RefifiedArea.getValue (rowOffset ، int colOffset). إذا كنت بحاجة إلى مصفوفة قيم الخلية للمنطقة بأكملها ، فيمكنك استخدام طريقة RefifiedArea.getValues.
+##  **ملخص**
+تقوم واجهات برمجة التطبيقات Aspose.Cells فقط بوضع كائن ReferredArea في "paramsList" عندما تكون المعلمة المقابلة مرجعًا أو تكون النتيجة المحسوبة مرجعًا. إذا كنت بحاجة إلى المرجع نفسه، فيمكنك استخدام المنطقة المشار إليها مباشرة. إذا كنت تريد الحصول على قيمة خلية واحدة من المرجع المتوافق مع موضع الصيغة، فيمكنك استخدام طريقة ReferredArea.getValue(rowOffset, int colOffset). إذا كنت بحاجة إلى مصفوفة قيم الخلايا للمنطقة بأكملها، فيمكنك استخدام طريقة ReferredArea.getValues.
 
-نظرًا لأن واجهات برمجة التطبيقات Aspose.Cells تعطي RefifiedArea في "paramsList" ، فلن تكون هناك حاجة إلى مجموعة RefifiedAreaCollection في "ContextObjects" بعد الآن (في الإصدارات القديمة ، لم تكن قادرة على إعطاء مخطط واحد لواحد لمعلمات الوظيفة المخصصة دائمًا) تمت إزالته من "ContextObjects".
+نظرًا لأن واجهات برمجة التطبيقات Aspose.Cells تعطي المنطقة المشار إليها في "paramsList"، فلن تكون هناك حاجة إلى ReferredAreaCollection في "contextObjects" بعد الآن (في الإصدارات القديمة لم يكن قادرًا على إعطاء خريطة فردية لمعلمات الوظيفة المخصصة دائمًا) لذلك تمت إزالته من "كائنات السياق".
 
 {{< highlight "java" >}}
 

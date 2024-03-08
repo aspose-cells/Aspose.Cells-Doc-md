@@ -72,3 +72,7 @@ cp ./SkiaSharp.NativeAssets.macOS.2.88.3/runtimes/osx/native/libSkiaSharp.dylib 
 
 - 次に、上記のコードを「CreatingHelloWorldFile.py」に保存し、「python CreationHelloWorldFile.py」@コマンド プロンプトを実行します。
 
+##  **Python via .NET github の例**
+- にアクセスしてください。[Aspose.Cells for Python via .NET 例](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET)github でさらにサンプル コードを表示します。
+
+

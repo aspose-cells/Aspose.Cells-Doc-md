@@ -1,4 +1,4 @@
-﻿---
+---
 title: Använder ICustomFunction-funktionen
 type: docs
 weight: 890
@@ -10,15 +10,15 @@ Den här artikeln ger en detaljerad förståelse för hur du använder ICustomFu
 
 ICustomFunction-gränssnittet gör det möjligt att lägga till anpassade formelberäkningsfunktioner för att utöka Aspose.Cells' kärnberäkningsmotor för att uppfylla vissa krav. Den här funktionen är användbar för att definiera anpassade (användardefinierade) funktioner i en mallfil eller i kod där den anpassade funktionen kan implementeras och utvärderas med Aspose.Cells API:er som vilken annan standard Microsoft Excel-funktion som helst.
 
- Observera att detta gränssnitt har ersatts av[AbstractCalculation Engine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) och kommer att tas bort i framtiden. Några tekniska artiklar/exempel om den nya API:[här](/cells/sv/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) och[här](/cells/sv/java/returning-a-range-of-values-using-abstractcalculationengine/)
+ Observera att detta gränssnitt har ersatts av[AbstractCalculation Engine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) och kommer att tas bort i framtiden. Några tekniska artiklar/exempel om nya API:[här](/cells/sv/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) och[här](/cells/sv/java/returning-a-range-of-values-using-abstractcalculationengine/)
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
  Om du är ny med Aspose.Cells for Java API:er, kontrollera[detta](https://docs.aspose.com/cells/java/installation/) artikel för att veta hur du kan förvärva och referera till Aspose.Cells for Java i ditt projekt.
 
 {{% /alert %}} 
-## **Skapa och utvärdera en användardefinierad funktion**
-Den här artikeln visar implementeringen av ICustomFunction-gränssnittet för att skriva en anpassad funktion och använda den i kalkylarket för att få resultaten. Vi kommer att definiera en anpassad funktion efter namn**MyFunc** som accepterar 2 parametrar med följande detaljer.
+##  **Skapa och utvärdera en användardefinierad funktion**
+ Den här artikeln visar implementeringen av ICustomFunction-gränssnittet för att skriva en anpassad funktion och använda den i kalkylarket för att få resultaten. Vi kommer att definiera en anpassad funktion efter namn**MyFunc** som accepterar 2 parametrar med följande detaljer.
 
 - Den första parametern hänvisar till en enskild cell
 - Den andra parametern hänvisar till ett cellintervall
@@ -148,7 +148,7 @@ worksheet.getCells().get("A1").putValue(worksheet.getCells().get("A1").getValue(
 workbook.save(dir + "UsingICustomFunction.xls");
 
 {{< /highlight >}}
-## **Översikt**
+##  **Översikt**
 Aspose.Cells API:erna placerar bara ReferredArea-objektet i "paramsList" när motsvarande parameter är en referens eller dess beräknade resultat är referens. Om du behöver själva referensen kan du använda ReferredArea direkt. Om du behöver få värdet på en enskild cell från referensen som motsvarar formelns position, kan du använda metoden ReferredArea.getValue(rowOffset, int colOffset). Om du behöver en cellvärdesarray för hela området kan du använda metoden ReferredArea.getValues.
 
 Eftersom Aspose.Cells API:erna ger ReferredArea i "paramsList", kommer ReferredAreaCollection i "contextObjects" inte att behövas längre (i gamla versioner kunde den inte alltid ge en-till-en-karta till parametrarna för den anpassade funktionen) därför har tagits bort från "contextObjects".

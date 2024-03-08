@@ -278,7 +278,6 @@ Aspose.Cells'公式计算引擎允许您设置、读取和计算以下公式和�
 |**功能**|**概括**|
 | :- | :- |
 |LAMBDA|
-|LET|
 |LARGE|
 |LCM|
 |LEFT|
@@ -480,12 +479,17 @@ Aspose.Cells'公式计算引擎允许您设置、读取和计算以下公式和�
 |RT 区|
 |TDIST|
 |TEXT|
+|TEXTAFTER|
+|TEXTBEFORE|
 |TEXTJOIN|
+|TEXTSPLIT|
 |TIME|
 |TIMEVALUE|
 |T.INV.2T|
 |TINV|
+|TOCOL|
 |TODAY|
+|TOROW|
 |TRANSPOSE|
 |TREND|
 |TRIM|

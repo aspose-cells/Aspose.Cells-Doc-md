@@ -44,7 +44,7 @@ url: /ru/net/getting-started/
 2. Откройте файл «AsposeCellsTest.csproj», добавьте в него следующие строки для ссылок на пакет Aspose.Cells:
 {{< highlight "plain" >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="23.12" />
+    <PackageReference Include="Aspose.Cells" Version="24.3" />
   </ItemGroup>
 {{< /highlight >}}
 3. Откройте проект с помощью VSCode в Ubuntu:

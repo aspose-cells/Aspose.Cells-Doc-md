@@ -12,7 +12,7 @@ url: /ar/net/using-icustomfunction-feature/
 
 تسمح واجهة ICustomFunction بإضافة وظائف حساب الصيغة المخصصة لتوسيع محرك الحساب الأساسي Aspose.Cells من أجل تلبية متطلبات معينة. هذه الميزة مفيدة لتحديد الوظائف المخصصة (المحددة من قبل المستخدم) في ملف قالب أو في التعليمات البرمجية حيث يمكن تنفيذ الوظيفة المخصصة وتقييمها باستخدام Aspose.Cells APIs مثل أي وظيفة Excel افتراضية أخرى Microsoft.
 
- يرجى ملاحظة أنه تم استبدال هذه الواجهة بـ[AbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/) وسيتم إزالتها في المستقبل. بعض المقالات/الأمثلة الفنية حول API الجديد:[هنا](/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) و[هنا](/net/returning-a-range-of-values-using-abstractcalculationengine/)
+ يرجى ملاحظة أنه تم استبدال هذه الواجهة بـ[AbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/)وسيتم إزالتها في المستقبل. بعض المقالات/الأمثلة الفنية حول API الجديد:[هنا](/cells/ar/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) و[هنا](/cells/ar/net/returning-a-range-of-values-using-abstractcalculationengine/)
 
 {{% /alert %}} 
 ##  **إنشاء وتقييم وظيفة محددة من قبل المستخدم**

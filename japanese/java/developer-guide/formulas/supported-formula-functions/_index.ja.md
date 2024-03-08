@@ -278,7 +278,6 @@ Aspose.Cells' 数式計算エンジンを使用すると、次の数式と関数
 |**関数**|**まとめ**|
 | :- | :- |
 |LAMBDA|
-|LET|
 |LARGE|
 |LCM|
 |LEFT|
@@ -480,12 +479,17 @@ Aspose.Cells' 数式計算エンジンを使用すると、次の数式と関数
 |T.DIST.RT|
 |TDIST|
 |TEXT|
+|TEXTAFTER|
+|TEXTBEFORE|
 |TEXTJOIN|
+|TEXTSPLIT|
 |TIME|
 |TIMEVALUE|
 |T.INV.2T|
 |TINV|
+|TOCOL|
 |TODAY|
+|TOROW|
 |TRANSPOSE|
 |TREND|
 |TRIM|

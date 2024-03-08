@@ -16,19 +16,19 @@ Aspose.Cells يسمح لك بتصدير ورقة عمل من مصنف وتحوي
 
 Aspose.Cells يدعم تحويل أوراق عمل Excel إلى صور. لاستخدام هذه الميزة، تحتاج إلى استيراد ملف[Aspose.Cells.Rendering](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/)مساحة الاسم لبرنامجك أو مشروعك. لديها عدة فئات قيمة للعرض والطباعة، على سبيل المثال،[SheetRender](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/), [خيارات الصورة أو الطباعة](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/)و اخرين.
 
-تمثل الفئة `Aspose.Cells.Rendering.ISheetRender` ورقة عمل لعرضها كصور. لديها طريقة مثقلة ،[ToImage](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/toimage/)، يمكنه تحويل ورقة العمل إلى ملف (ملفات) صورة بسمات أو خيارات مختلفة. يتم دعم العديد من صيغ الصور، على سبيل المثال، BMP، PNG، GIF، JPG، JPEG، EMF.
+تمثل الفئة `Aspose.Cells.Rendering.ISheetRender` ورقة عمل لعرضها كصور. لديها طريقة مثقلة ،[ToImage](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/toimage/)، يمكنه تحويل ورقة العمل إلى ملف (ملفات) صورة بسمات أو خيارات مختلفة. يتم دعم العديد من صيغ الصور، على سبيل المثال، BMP، PNG، GIF، JPG، JPEG، TIFF، EMF.
 
 يوضح مقتطف التعليمات البرمجية التالي كيفية تحويل ورقة عمل في ملف Excel إلى ملف صورة.
 ###  **PNG تنسيق**
  الرجاء مراجعة نموذج التعليمات البرمجية التالي، الخاص به[عينة من ملف إكسل](67338402.xlsx) ، و ال[إخراج PNG الصور](67338401.zip).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_PNG-new.cpp" >}}
-<!--
-### **TIFF Format**
-Please see the following sample code, its [sample Excel file](67338402.xlsx), and the [output TIFF Image](67338419.zip).
+
+###  **TIFF تنسيق**
+ الرجاء مراجعة نموذج التعليمات البرمجية التالي، الخاص به[عينة من ملف إكسل](67338402.xlsx) ، و ال[إخراج TIFF صورة](67338419.zip).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_TIFF-new.cpp" >}}
--->
+
 ##  **تحويل ورقة العمل إلى SVG**
 SVG يرمز إلى رسومات المتجهات القابلة للتطوير. SVG هي مواصفات تعتمد على معايير XML للرسومات المتجهة ثنائية الأبعاد. وهو معيار مفتوح قيد التطوير بواسطة اتحاد شبكة الويب العالمية (W3C) منذ عام 1999.
 

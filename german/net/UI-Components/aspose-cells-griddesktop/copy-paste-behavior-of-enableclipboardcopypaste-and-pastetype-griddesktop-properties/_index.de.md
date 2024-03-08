@@ -1,15 +1,15 @@
-﻿---
-title: Copy-Paste-Verhalten von EnableClipboardCopyPaste- und PasteType-GridDesktop-Eigenschaften
+---
+title: Verhalten beim Kopieren und Einfügen der GridDesktop-Eigenschaften „EnableClipboardCopyPaste“ und „PasteType“.
 type: docs
 weight: 80
 url: /de/net/copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties/
 ---
-## **Mögliche Nutzungsszenarien**
-GridDesktop bietet mit der Eigenschaft Aspose.Cells.GridDesktop.GridDesktop.PasteType verschiedene Arten von Optionen zum Kopieren und Einfügen. Diese Optionen werden mit der Aufzählung Aspose.Cells.GridDesktop.Data.GridPasteType angegeben. Einige davon sind wie folgt
+##  **Mögliche Nutzungsszenarien**
+GridDesktop bietet verschiedene Arten von Optionen zum Kopieren und Einfügen mit der Eigenschaft Aspose.Cells.GridDesktop.GridDesktop.PasteType. Diese Optionen werden mit der Enumeration Aspose.Cells.GridDesktop.Data.GridPasteType angegeben. Einige davon sind wie folgt
 
 - GridPasteType.All
 
-Es kopiert und fügt alles von Quellzellen zu Zielzellen ein.
+Es kopiert und fügt alles von den Quellzellen in die Zielzellen ein.
 
 - GridPasteType.Formulas
 
@@ -28,17 +28,19 @@ Es kopiert und fügt Zeilenhöhen von Quellzellen in Zielzellen ein.
 Es kopiert und fügt Spaltenbreiten von Quellzellen in Zielzellen ein.
 
 usw.
-## **Setzen Sie die EnableClipboardCopyPaste-Eigenschaft auf True, um die PasteType-Eigenschaft zu aktivieren**
-Die Eigenschaft Aspose.Cells.GridDesktop.GridDesktop.PasteType funktioniert nur, wenn Sie die Eigenschaft Aspose.Cells.GridDesktop.GridDesktop.EnableClipboardCopyPaste wie in diesem Screenshot gezeigt auf true setzen.
+##  **Setzen Sie die Eigenschaft „EnableClipboardCopyPaste“ auf „True“, um die Eigenschaft „PasteType“ zu aktivieren**
+Die Eigenschaft Aspose.Cells.GridDesktop.GridDesktop.PasteType funktioniert nur, wenn Sie die Eigenschaft Aspose.Cells.GridDesktop.GridDesktop.EnableClipboardCopyPaste auf true setzen, wie in diesem Screenshot gezeigt.
 
-![todo: Bild_alt_Text](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_1.png)
-## **Verhalten der Eigenschaften EnableClipboardCopyPaste und PasteType**
-Da EnableClipboardCopyPaste false und PasteType All ist, zeigt der folgende Screenshot, dass beim Kopieren und Einfügen von Zelle B3 in Zelle C5 die Zellenformatierung nicht kopiert wird und nur der Inhalt von Zelle B3 kopiert wird.
+![todo:image_alt_text](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_1.png)
+##  **Verhalten der Eigenschaften „EnableClipboardCopyPaste“ und „PasteType“.**
+Vorausgesetzt, dass EnableClipboardCopyPaste „false“ und „PasteType“ „All“ ist, zeigt der folgende Screenshot, dass Zelle B3 kopiert und in Zelle C5 eingefügt wird.
 
-![todo: Bild_alt_Text](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_2.png)
+![todo:image_alt_text](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_3.png)
 
-Da „EnableClipboardCopyPaste“ auf „true“ und „PasteType“ auf „All“ gesetzt ist, zeigt der folgende Screenshot, dass beim Kopieren und Einfügen von Zelle B3 in Zelle C5 auch die Formatierung der Zelle B3 in Zelle C5 kopiert wird.
+Vorausgesetzt, dass EnableClipboardCopyPaste „true“ und „PasteType“ „All“ ist, wird nach dem Kopieren eines Bilds aus Windows ein Wert angezeigt. Der folgende Screenshot zeigt, dass beim Kopieren und Einfügen von Zelle B3 in Zelle C5 auch das Bild in Zelle C5 kopiert wird.
 
-![todo: Bild_alt_Text](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_3.png)
+![Todo: Bild kopieren](copyimage.png)
+
+![Todo: Nach dem Kopieren einfügen](aftercopy.png)
 
 

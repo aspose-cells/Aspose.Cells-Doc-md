@@ -28,6 +28,7 @@ url: /it/cpp/supported-file-formats/
 |[PDF](https://docs.fileformat.com/pdf/)|Formato documento portatile Adobe.| |{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|Formato delle specifiche cartacee XML.| |{{< emoticons/tick >}}|
 |[SVG](https://docs.fileformat.com/page-description-language/svg/)|Formato grafico vettoriale scalabile.| |{{< emoticons/tick >}}|
+|[TIFF](https://docs.fileformat.com/image/tiff/)|Formato file immagine contrassegnato| |{{< emoticons/tick >}}|
 |[PNG](https://docs.fileformat.com/image/png/)|Formato grafico di rete portatile| |{{< emoticons/tick >}}|
 |[BMP](https://docs.fileformat.com/image/bmp/)|Formato immagine bitmap| |{{< emoticons/tick >}}|
 |[EMF](https://docs.fileformat.com/image/emf/)|Formato metafile migliorato| |{{< emoticons/tick >}}|
@@ -38,3 +39,8 @@ url: /it/cpp/supported-file-formats/
 |[FODS](https://docs.fileformat.com/spreadsheet/fods/)|Si tratta di un formato di documento aperto archiviato come XML piatto.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[DOCX](https://docs.fileformat.com/word-processing/docx/)|Un formato noto per i documenti Word Microsoft che è una combinazione di file XML e binari.||{{< emoticons/tick >}}|
 |[PPTX](https://docs.fileformat.com/presentation/pptx/)|Il formato PPTX è basato sul formato di file di presentazione XML aperto Microsoft PowerPoint.||{{< emoticons/tick >}}|
+|[SQLScript](https://docs.fileformat.com/database/sql/)|Structured Query Language.||{{< emoticons/tick >}}|
+|[XHtml](https://docs.fileformat.com/web/xhtml/)|XHTML è un formato di file basato su testo con markup in XML, utilizzando una riformulazione di HTML 4.0.||{{< emoticons/tick >}}|
+|[Epub](https://docs.fileformat.com/ebook/epub/)|I file con estensione .epub sono un formato di file di e-book che fornisce un formato di pubblicazione digitale standard per editori e consumatori.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[XML](https://docs.fileformat.com/web/xml/)|XML sta per Extensible Markup Language che è simile a HTML ma diverso nell'utilizzo dei tag per la definizione degli oggetti.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Ots](https://docs.fileformat.com/spreadsheet/ots/)|Aprire il file Document Template Sheet (OTS).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

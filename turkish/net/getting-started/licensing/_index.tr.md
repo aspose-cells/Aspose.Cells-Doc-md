@@ -4,53 +4,8 @@ type: docs
 weight: 120
 url: /tr/net/licensing/
 description: Aspose.Cells for .NET, farklı satın alma planları sunar veya Licensing'i ve C#'deki Abonelik politikalarını kullanarak değerlendirme için Ücretsiz Deneme ve 30 günlük Geçici Lisans sunar.
-keywords: Apply License from Disk or Stream. Set License from Disk or Stream. Apply License in Aspose.Cells.
+keywords: C# Apply License from Disk or Stream. C# Set License from Disk or Stream. Apply License in Aspose.Cells for NET.
 ---
-{{% alert color="primary" %}}
-
- Aspose.Cells'in değerlendirme sürümünü buradan kolayca indirebilirsiniz.[indirme sayfası](https://www.nuget.org/packages/Aspose.Cells) @ NuGet depo. Değerlendirme sürümü, bileşenin lisanslı sürümüyle kesinlikle aynı yetenekleri sağlar. Ayrıca, bir lisans satın aldığınızda ve lisansı uygulamak için birkaç satır kod eklediğinizde değerlendirme sürümü kolayca lisanslanır.
-
-{{% /alert %}}
-
-##  **Değerlendirme Sürümü Sınırlamaları**
-
-Aspose.Cells ürününün değerlendirme sürümü (lisans belirtilmeden) tam ürün işlevselliği sağlar, ancak bir programda 100 dosya açmak ve değerlendirme filigranı içeren ekstra bir çalışma sayfasıyla sınırlıdır.
-
-Sınırlamalar aşağıda gösterilmiştir:
-
-- **Açılan Dosya Sayısı** (Aspose.Cells)
- Programınızı çalıştırırken Aspose.Cells kütüphanesini kullanarak sadece 100 adet Excel dosyasını açabilirsiniz. Başvurunuz bu sayıyı aşarsa bir istisna atılacaktır.
-- **Yapılandırma dosyası ayarları**(Aspose.Cells.GridWeb)
- Aşağıdaki kod satırlarını yapılandırma bölümüne (örneğin web.config dosyasına) ekleyerek komut dosyasının yolunu yeniden belirleyemezsiniz. Acw_client, dosyaları içeren bir klasördür ve Aspose.Cells.GridWeb, dahili yapılandırmasını yönetmek için bu klasörü kullanır. İçinde GridWeb'in davranışını belirlemek ve diğer işlemleri ayarlamak için komut dosyaları, görüntü dosyaları ve diğer dosyalar bulunur. Yapılandırma dosyası, kontrolün bazı durumlarda/senaryolarda yararlı olan gömülü istemci kaynaklarını (resimler, komut dosyaları vb.) kullanmasını önlemek için kullanılır. Ayrıca web.config dosyasındaki bu yapılandırma ayarları yalnızca kontrolün LİSANSLI sürümünde geçerli olacaktır.
-
-**XML**
-
-{{< highlight "csharp" >}}
-
- <appSettings>
-
-<add key="aspose.cells.gridweb.acw_client_path" value="/acw_client/" />
-
-<add key="aspose.cells.gridweb.force_script_path" value="true" />
-
-</appSettings>
-
-{{< /highlight >}}
-
-{{% alert color="primary" %}}
-
-Dosya Sistemi Web Sitelerinde veya MS Ajax uzantılarında vb. Aspose.Cells.GridWeb kontrolünü kullanıyorsanız bazı durumlarda/senaryolarda bu ayarlar zorunlu olabilir.
-
-{{% /alert %}}
-
-Ayrıca, değerlendirme filigranı içeren bir çalışma sayfası, Aspose.Cells kütüphanesi kullanılarak oluşturulan excel dosyasında her zaman aktif çalışma sayfası olarak görünecektir. Yalnızca lisanslı sürümde etkin çalışma sayfasını diğer çalışma sayfalarına ayarlayabilirsiniz. PDF çıktısında veya Aspose.Cells görüntü dosyasında, belgenin/görüntünün üst kısmına bir değerlendirme filigranı yapıştırılır. Değerlendirme Telif Hakkı Uyarısını (ekstra çalışma sayfası) GridWeb kontrolünde de gizleyemezsiniz, her zaman eklenecektir (çalışma sayfası sekmelerinin sonunda) kontrolde.
-
-{{% alert color="primary" %}}
-
- Aspose.Cells'i değerlendirme sürümü sınırlaması olmadan test etmek istiyorsanız, ayrıca bir talepte bulunabilirsiniz.[30 Günlük Geçici Lisans](https://purchase.aspose.com/temporary-license).
-
-{{% /alert %}}
-
 ##  **Aspose.Cells Bileşeninde Lisans Nasıl Başvurulur**
 
 Lisans, ürün adı, lisanslandığı geliştirici sayısı, aboneliğin sona erme tarihi vb. ayrıntıları içeren düz metinli bir XML dosyasıdır. Dosya dijital olarak imzalanmıştır, dolayısıyla dosyayı değiştirmeyin. Dosyaya yanlışlıkla fazladan bir satır sonu eklenmesi bile dosyayı geçersiz kılacaktır. Değerlendirme sınırlamasından kaçınmak istiyorsanız Aspose.Cells'i kullanmadan önce bir lisans ayarlamanız gerekir. Her uygulama (veya işlem) için yalnızca bir kez lisans ayarlamanız gerekir. Lisans bir dosyadan, akıştan veya yerleşik bir kaynaktan yüklenebilir.

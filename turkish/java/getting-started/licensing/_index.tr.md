@@ -1,55 +1,27 @@
-﻿---
-title: lisanslama
+---
+title: Licensing
 type: docs
 weight: 50
 url: /tr/java/licensing/
+description: JAVA için Aspose.Cells, farklı satın alma planları sağlar veya Licensing'i ve Java'deki Abonelik politikalarını kullanarak değerlendirme için Ücretsiz Deneme ve 30 günlük Geçici Lisans sunar.
+keywords: Java Apply License from Disk or Stream. Java Set License from Disk or Stream. Apply License in Aspose.Cells for Java.
 ---
-{{% alert color="primary" %}} 
+##  **Aspose.Cells Bileşeninde Lisans Nasıl Başvurulur**
 
- değerlendirme sürümünü indirebilirsiniz.**Aspose.Cells** for Java gelen[indirme sayfası](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) @ Maven deposu. Değerlendirme sürümü, ürünün lisanslı sürümüyle kesinlikle aynı yetenekleri sağlar. Ayrıca, bir lisans satın aldığınızda ve lisansı uygulamak için birkaç satır kod eklediğinizde, değerlendirme sürümü kolayca lisanslanır.
+Lisans, ürün adı, lisanslandığı geliştirici sayısı, aboneliğin sona erme tarihi vb. ayrıntıları içeren düz metinli bir XML dosyasıdır. Dosya dijital olarak imzalanmıştır; dolayısıyla dosyayı değiştirmeyin; dosyaya yanlışlıkla fazladan bir satır sonu eklenmesi bile dosyayı geçersiz kılacaktır.
 
- Değerlendirmenizden memnun olduğunuzda**Aspose.Cells** , yapabilirsin[lisans satın al](https://purchase.aspose.com)Aspose web sitesinde. Sunulan farklı abonelik türleri hakkında bilgi sahibi olun. Herhangi bir sorunuz varsa, Aspose satış ekibiyle iletişime geçmekten çekinmeyin.
+Değerlendirme sınırlamalarından kaçınmak istiyorsanız Aspose.Cells'i kullanmadan önce bir lisans ayarlamanız gerekir. Her uygulama veya işlem için yalnızca bir kez lisans ayarlamanız gerekir.
 
-Her Aspose lisansı, bu süre içinde çıkan tüm yeni sürümlere veya düzeltmelere ücretsiz yükseltmeler için bir yıllık abonelik içerir. Teknik destek ücretsiz ve sınırsızdır ve hem lisanslı hem de değerlendirme kullanıcılarına sağlanır.
-
-{{% /alert %}} {{% alert color="primary" %}} 
-
- test etmek istersen**Aspose.Cells** değerlendirme sürümü sınırlamaları olmadan, 30 günlük bir geçici lisans talep edin. Bakınız[Geçici Lisans nasıl alınır?](https://purchase.aspose.com/temporary-license) daha fazla bilgi için.
-
-{{% /alert %}}
-
-## **Değerlendirme Sürümü Sınırlamaları**
-
- değerlendirme versiyonu**Aspose.Cells** ürün (belirtilen bir lisans olmadan), tam ürün işlevselliği sağlar, ancak bir programda 100 dosya ve değerlendirme filigranlı fazladan bir çalışma sayfası açmakla sınırlıdır.
-
-Sınırlamalar aşağıda gösterilmiştir:
-
-### **1. Sınırlama: Açılan Dosya Sayısı**
-
-Programınızı çalıştırırken sadece 100 Excel dosyası açabilirsiniz. Uygulamanız bu sayıyı aşarsa bir istisna atılır.
-
-### **2. Sınırlama: Değerlendirme Filigranlı Çalışma Sayfası**
-
-![yapılacaklar:resim_alternatif_metin](licensing_1.png)
-
-Bu çalışma sayfası her zaman etkin çalışma sayfası olarak gösterilir. Yalnızca lisanslı sürümde, aktif çalışma sayfasını diğer çalışma sayfalarına ayarlayabilirsiniz.
-
-## **Lisans Ayarlama**
-
-Lisans, ürün adı, lisanslandığı geliştirici sayısı, abonelik bitiş tarihi gibi ayrıntıları içeren düz metin bir XML dosyasıdır. Dosya dijital olarak imzalanmıştır, bu nedenle dosyayı değiştirmeyin; dosyaya yanlışlıkla fazladan bir satır sonu eklenmesi bile dosyayı geçersiz kılacaktır.
-
-Değerlendirme sınırlamalarından kaçınmak istiyorsanız, Aspose.Cells'i kullanmadan önce bir lisans ayarlamanız gerekir. Uygulama veya işlem başına yalnızca bir kez lisans ayarlamanız gerekir.
-
-Lisans, aşağıdaki konumlardaki bir akıştan veya dosyadan yüklenebilir:
+Lisans aşağıdaki konumlardaki bir akıştan veya dosyadan yüklenebilir:
 
 1. Açık yol.
 1. Aspose.Cells.jar dosyasını içeren klasör.
 
- Kullan[Lisans.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)) bileşeni lisanslama yöntemi. Genellikle bir lisans ayarlamanın en kolay yolu, lisans dosyasını Aspose.Cells.jar ile aynı klasöre koymak ve aşağıdaki örnekte gösterildiği gibi yolsuz sadece dosya adını belirtmektir:
+ Kullan[Lisans.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)bileşeni lisanslama yöntemi. Genellikle lisans ayarlamanın en kolay yolu, lisans dosyasını Aspose.Cells.jar ile aynı klasöre koymak ve aşağıdaki örnekte gösterildiği gibi yol olmadan yalnızca dosya adını belirtmektir:
 
-### **örnek 1**
+###  **Diskten Lisans Nasıl Başvurulur**
 
- Bu örnekte**Aspose.Cells** uygulamanızın JAR'larını içeren klasörde lisans dosyasını bulmaya çalışacaktır.
+ Bu örnekte**Aspose.Cells** Uygulamanızın JAR'larını içeren klasördeki lisans dosyasını bulmaya çalışacaktır.
 
 {{< highlight "csharp" >}}
 
@@ -59,9 +31,9 @@ license.setLicense("Aspose.Cells.Java.lic");
 
 {{< /highlight >}}
 
-### **Örnek 2**
+###  **Akıştan Lisans Nasıl Başvurulur**
 
-Akıştan bir lisans başlatır.
+Bir akıştan bir lisans başlatır.
 
 {{< highlight "csharp" >}}
 
@@ -71,9 +43,9 @@ license.setLicense(new java.io.FileInputStream("Aspose.Cells.Java.lic"));
 
 {{< /highlight >}}
 
-### **Aspose.Cells.GridWeb'de Lisans Uygulamaya İlişkin Notlar**
+###  **Aspose.Cells.GridWeb'de Lisans Nasıl Başvurulur**
 
-Lisans kodunu web uygulamanızda ilk olarak işlenmesi gereken bir yere koymanız önerilir.
+Lisans kodunu web uygulamanızda ilk işleneceği yere koymanız tavsiye edilir.
 
 {{< highlight "csharp" >}}
 
@@ -85,11 +57,11 @@ lic.setLicense("Aspose.Cells.lic");
 
 {{< /highlight >}}
 
-## **Tarifeli Lisansı Uygulama**
+##  **Ölçülü Lisans Nasıl Başvurulur**
 
-Aspose.Cells, geliştiricilerin ölçülü anahtar uygulamasına izin verir. Yeni bir lisanslama mekanizmasıdır. Yeni lisanslama mekanizması, mevcut lisanslama yöntemiyle birlikte kullanılacaktır. API özelliğinin kullanımına göre faturalandırılmak isteyen müşterilerimiz tarifeli lisanslamayı kullanabilirler. Daha fazla ayrıntı için lütfen bkz.[Ölçülü Lisanslama SSS](https://purchase.aspose.com/faqs/licensing/metered)bölüm.
+Aspose.Cells, geliştiricilerin ölçülü anahtar uygulamasına olanak tanır. Yeni bir lisanslama mekanizmasıdır. Yeni lisanslama mekanizması mevcut lisanslama yöntemiyle birlikte kullanılacaktır. API özelliğinin kullanımına göre faturalandırılmak isteyen müşterilerimiz, ölçülü lisanslamayı kullanabilirler. Daha fazla ayrıntı için lütfen bkz.[Ölçülü Licensing SSS](https://purchase.aspose.com/faqs/licensing/metered)bölüm.
 
-yeni bir sınıf[ölçülü](https://reference.aspose.com/cells/java/com.aspose.cells/Metered)ölçülü anahtarı uygulamak için tanıtıldı. Ölçülü genel ve özel anahtarın nasıl ayarlanacağını gösteren örnek kod aşağıdadır.
+Yeni bir sınıf[Ölçülü](https://reference.aspose.com/cells/java/com.aspose.cells/Metered)ölçülü anahtarı uygulamak için tanıtıldı. Ölçülü genel ve özel anahtarın nasıl ayarlanacağını gösteren örnek kod aşağıda verilmiştir.
 
 {{< highlight "java" >}}
 

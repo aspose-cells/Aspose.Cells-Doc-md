@@ -72,3 +72,7 @@ cp ./SkiaSharp.NativeAssets.macOS.2.88.3/runtimes/osx/native/libSkiaSharp.dylib 
 
 - Enregistrez maintenant le code ci-dessus dans "CreatingHelloWorldFile.py" et exécutez l'invite de commande @python CréationHelloWorldFile.py.
 
+##  **Python via .NET Exemple github**
+-  Veuillez visiter le[Aspose.Cells for Python via .NET Exemple](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET) github pour voir plus d'exemples de codes.
+
+

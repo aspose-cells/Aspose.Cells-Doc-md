@@ -4,53 +4,8 @@ type: docs
 weight: 120
 url: /de/net/licensing/
 description: Aspose.Cells for .NET bietet verschiedene Kaufpläne oder eine kostenlose Testversion und eine 30-tägige temporäre Lizenz zur Evaluierung unter Verwendung von Licensing und Abonnementrichtlinien in C#.
-keywords: Apply License from Disk or Stream. Set License from Disk or Stream. Apply License in Aspose.Cells.
+keywords: C# Apply License from Disk or Stream. C# Set License from Disk or Stream. Apply License in Aspose.Cells for NET.
 ---
-{{% alert color="primary" %}}
-
- Sie können ganz einfach eine Evaluierungsversion von Aspose.Cells herunterladen[Download-Seite](https://www.nuget.org/packages/Aspose.Cells) @ NuGet Repos. Die Evaluierungsversion bietet absolut die gleichen Funktionen wie die lizenzierte Version der Komponente. Darüber hinaus wird die Evaluierungsversion einfach lizenziert, wenn Sie eine Lizenz erwerben und ein paar Codezeilen hinzufügen, um die Lizenz anzuwenden.
-
-{{% /alert %}}
-
-##  **Einschränkungen der Evaluierungsversion**
-
-Die Evaluierungsversion des Produkts Aspose.Cells (ohne Angabe einer Lizenz) bietet die volle Produktfunktionalität, ist jedoch auf das Öffnen von 100 Dateien in einem Programm und ein zusätzliches Arbeitsblatt mit Evaluierungswasserzeichen beschränkt.
-
-Die Einschränkungen sind unten aufgeführt:
-
-- **Anzahl der geöffneten Dateien** (Aspose.Cells)
- Wenn Sie Ihr Programm ausführen, können Sie mit der Bibliothek Aspose.Cells nur 100 Excel-Dateien öffnen. Wenn Ihre Bewerbung diese Zahl überschreitet, wird eine Ausnahme ausgelöst.
-- **Einstellungen der Konfigurationsdatei**(Aspose.Cells.GridWeb)
- Sie können den Skriptpfad nicht neu angeben, indem Sie die folgenden Codezeilen zum Konfigurationsabschnitt hinzufügen (z. B. in der Datei web.config). Der acw_client ist ein Ordner, der Dateien und Aspose.Cells enthält. GridWeb verwendet diesen Ordner zur Verwaltung seiner internen Konfiguration. Er verfügt über Skriptdateien, Bilddateien und andere Dateien, um das Verhalten von GridWeb festzulegen und andere Vorgänge festzulegen. Die Konfigurationsdatei wird verwendet, um zu verhindern, dass die Steuerung die eingebetteten Client-Ressourcen (Bilder, Skripte usw.) verwendet, was in manchen Fällen/Szenarien nützlich ist. Darüber hinaus werden diese Konfigurationseinstellungen in der Datei web.config nur mit der LIZENZIERTEN Version des Steuerelements wirksam.
-
-**XML**
-
-{{< highlight "csharp" >}}
-
- <appSettings>
-
-<add key="aspose.cells.gridweb.acw_client_path" value="/acw_client/" />
-
-<add key="aspose.cells.gridweb.force_script_path" value="true" />
-
-</appSettings>
-
-{{< /highlight >}}
-
-{{% alert color="primary" %}}
-
-Diese Einstellungen können in einigen Fällen/Szenarien obligatorisch sein, wenn Sie das Aspose.Cells.GridWeb-Steuerelement in Dateisystem-Websites oder MS Ajax-Erweiterungen usw. verwenden.
-
-{{% /alert %}}
-
-Darüber hinaus wird ein Arbeitsblatt mit Bewertungswasserzeichen immer als aktives Arbeitsblatt in der generierten Excel-Datei unter Verwendung der Bibliothek Aspose.Cells angezeigt. Nur in der lizenzierten Version können Sie das aktive Arbeitsblatt auf andere Arbeitsblätter festlegen. In der Ausgabe PDF oder der Bilddatei von Aspose.Cells würde ein Bewertungswasserzeichen oben in das Dokument/Bild eingefügt. Sie können die Bewertungs-Copyright-Warnung (das zusätzliche Arbeitsblatt) auch im GridWeb-Steuerelement nicht ausblenden, sie wird immer hinzugefügt (am Ende in den Arbeitsblattregisterkarten) im Steuerelement.
-
-{{% alert color="primary" %}}
-
- Wenn Sie Aspose.Cells ohne Einschränkungen der Evaluierungsversion testen möchten, können Sie auch eine anfordern[Temporäre 30-Tage-Lizenz](https://purchase.aspose.com/temporary-license).
-
-{{% /alert %}}
-
 ##  **So beantragen Sie eine Lizenz in der Komponente Aspose.Cells**
 
 Die Lizenz ist eine reine XML-Textdatei, die Details wie den Produktnamen, die Anzahl der Entwickler, an die sie lizenziert ist, das Ablaufdatum des Abonnements usw. enthält. Die Datei ist digital signiert. Ändern Sie sie daher nicht. Selbst das versehentliche Einfügen eines zusätzlichen Zeilenumbruchs in die Datei führt dazu, dass die Datei ungültig wird. Sie müssen vor der Verwendung von Aspose.Cells eine Lizenz festlegen, wenn Sie die Testbeschränkung vermeiden möchten. Es ist nur einmal erforderlich, eine Lizenz pro Anwendung (oder Prozess) festzulegen. Die Lizenz kann aus einer Datei, einem Stream oder einer eingebetteten Ressource geladen werden.

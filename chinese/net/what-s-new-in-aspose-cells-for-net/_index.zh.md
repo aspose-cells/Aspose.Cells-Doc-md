@@ -7,6 +7,29 @@ url: /zh/net/what-s-new-in-aspose-cells-for-net/
 ---
 本页介绍了最近版本中引入的最有趣的新 Aspose.Cells 功能。
 
+##  Aspose.Cells for .NET 24.3
+* 支持导入AZW3文件
+* 支持以odf 1.3标准保存ods
+* 支持计算EVALUATE函数
+* 支持 GridDesktop 过滤器：Top10、日期、文本
+* 在插入菜单中添加更多公式以及 GridJS 的帮助提示
+* 为 GridJS 的公式菜单添加分类功能
+* 当计算结果为日期时间时，自动将GridJS的单元格设置为日期格式
+
+##  Aspose.Cells for .NET 24.2
+* 支持新功能：TEXTAFTER、TEXTBEFORE、TEXTSPLIT、TOROW、TOCOL
+* 支持检测oxps格式
+* 提高大型数据集排序的性能
+* GridDesktop过滤操作增强：数字过滤、关键词搜索、清除过滤。
+
+##  Aspose.Cells for .NET 24.1
+
+* 支持NET8
+* 支持导入带有用户指定的标题行/列以及每张表的总行/列的 csv 数据
+* 支持导出带有自定义样式的html
+* 支持合并区域自动填充
+* 支持从右到左、从下到上自动填充数据
+
 ##  Aspose.Cells for .NET 23.12
 
 * 转换为 pdf 时支持 PDF/A-2 和 PDF/A-3 合规性

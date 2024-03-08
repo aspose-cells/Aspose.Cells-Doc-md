@@ -50,11 +50,12 @@ Aspose.Cells for .NET は、次のように .NET および Mono フレームワ�
 - .NET 5.0
 - .NET 6.0
 - .NET 7.0
+- .NET 8.0
 ####  **.NET 標準の Aspose.Cells によって参照される nuget パッケージ**
 - System.Drawing.Common、5.0.3。
 - System.Text.Encoding.CodePages、4.7.0。
 - System.Security.Cryptography.Pkcs、5.0.1。
-####  **Aspose.Cells によって参照される nuget パッケージ (.NET6 および .Net7 の場合)**
+####  **Aspose.Cells によって参照される nuget パッケージ (.NET6、.Net7、および .Net8 の場合)**
 - System.Text.Encoding.CodePages、4.7.0。
 - System.Security.Cryptography.Pkcs、6.0.3。
 - System.Drawing.Common、6.0.0 (Windows システム上)。
@@ -80,16 +81,17 @@ Aspose.Cells を使用するには、マシンに Microsoft がインストー�
 
 {{% /alert %}} 
 ##  **Aspose.Cells グリッド スイートのシステム要件**
-Aspose.Cells Grid Suite は 2 つのコントロールで構成されています。
+Aspose.Cells Grid Suite は 3 つのコントロールで構成されています。
 
 - Aspose.Cells.GridDesktop
 - Aspose.Cells.GridWeb
+- Aspose.Cells.GridJs
 
-両方のコントロールのシステム要件については、個別に説明します。
+コントロールのシステム要件については、別途説明します。
 
 {{% alert color="primary" %}} 
 
-これら 2 つのコントロールを使用するには、Aspose.Cells.GridDesktop および Aspose.Cells.GridWeb を実行するマシンに Microsoft Excel がインストールされている必要はありません。Aspose.Cells.GridDesktop および Aspose.Cells.GridWeb は、Microsoft Excel を必要とせずに Excel スプレッドシートを開いて保存できます。
+これらのコントロールを使用するには、Aspose.Cells.GridDesktop および Aspose.Cells.GridWeb を実行するマシンに Microsoft Excel がインストールされている必要はありません。Aspose.Cells.GridDesktop および Aspose.Cells.GridWeb は、Microsoft Excel を必要とせずに Excel スプレッドシートを開いて保存できます。
 
 {{% /alert %}} 
 ###  **Aspose.Cells.GridDesktop**
@@ -108,16 +110,24 @@ Aspose.Cells Grid Suite は 2 つのコントロールで構成されていま�
 - .NET フレームワーク 4.7.2
 - .NET フレームワーク 4.8
 - .NET フレームワーク 4.8.1
-
+###  **.NET コア**
+- .NET コア 3.1
+- .NET 7.0 ウィンドウ
+####  **.NET Core 3.1 の Aspose.Cells.GridDesktop によって参照される nuget パッケージ**
+- System.Drawing.Common、6.0.0。
+- System.Text.Encoding.CodePages、4.7.0。
+- System.Security.Cryptography.Pkcs、5.0.1。
+####  **Aspose.Cells.GridDesktop For .Net7 によって参照される nuget パッケージ**
+- System.Text.Encoding.CodePages、4.7.0。
+- System.Security.Cryptography.Pkcs、6.0.3。
+- System.Drawing.Common、7.0.0 (Windows システム上)。
 ####  **開発ツール**
-- Microsoft Visual Studio 2005
-- Microsoft Visual Studio 2008
-- Microsoft Visual Studio 2010
 - Microsoft Visual Studio 2012
 - Microsoft Visual Studio 2013
 - Microsoft Visual Studio 2015
 - Microsoft Visual Studio 2017
 - Microsoft Visual Studio 2019
+- Microsoft Visual Studio 2022
 ####  **オペレーティング·システム**
 - Microsoft Windows 2000
 - Microsoft Windows XP
@@ -145,22 +155,26 @@ Aspose.Cells Grid Suite は 2 つのコントロールで構成されていま�
 - .NET フレームワーク 4.7.2
 - .NET フレームワーク 4.8
 - .NET フレームワーク 4.8.1
+###  **.NET コア**
+-  .NET 6.0 ウィンドウ
+- .NET 7.0 ウィンドウ
+####  **.NET コアの Aspose.Cells.GridWeb によって参照される nuget パッケージ**
+- System.Drawing.Common、7.0.0。
+- System.Text.Encoding.CodePages、4.7.0。
+- System.Security.Cryptography.Pkcs、6.0.3。
 ####  **開発ツール**
-- Microsoft Visual Studio 2005
-- Microsoft Visual Studio 2008
-- Microsoft Visual Studio 2010
 - Microsoft Visual Studio 2012
 - Microsoft Visual Studio 2013
 - Microsoft Visual Studio 2015
 - Microsoft Visual Studio 2017
 - Microsoft Visual Studio 2019
-####  **インターネット インフォメーション サーバー (IIS)**
-- IIS 5.0以降
+- Microsoft Visual Studio 2022
 ####  **ブラウザ**
-- IE5.5以上
+- クロム
+- 角
 - Mozilla ブラウザ (Firefox、Netscape ブラウザなどを含む)
-- Opera (Internet Explorer 6.0 推奨)
-- Google クロム
+- サファリ
+- オペラ
 ####  **オペレーティング·システム**
 - Microsoft Windows 2000
 - Microsoft Windows XP
@@ -172,3 +186,42 @@ Aspose.Cells Grid Suite は 2 つのコントロールで構成されていま�
 - Microsoft Windows 8, 8.1
 - Microsoft Windows 10
 - Microsoft Windows 11
+
+###  **Aspose.Cells.GridJs**
+###  **.NET 標準**
+- .NET スタンダード 2.0
+####  **Aspose.Cells.GridJs For .NET Standard によって参照される nuget パッケージ**
+- System.Drawing.Common、6.0.0 (Windows システム上)。
+- SkiaSharp、2.88.3 (Windows 以外のシステム上)。
+- System.Text.Encoding.CodePages、4.7.0。
+- System.Security.Cryptography.Pkcs、5.0.1。
+- Aspose.Cells、(GridJ と常に同じバージョンを維持)
+####  **開発ツール**
+- Microsoft Visual Studio 2012
+- Microsoft Visual Studio 2013
+- Microsoft Visual Studio 2015
+- Microsoft Visual Studio 2017
+- Microsoft Visual Studio 2019
+- Microsoft Visual Studio 2022
+
+####  **ブラウザ**
+- クロム
+- 角
+- Mozilla ブラウザ (Firefox、Netscape ブラウザなどを含む)
+- サファリ
+- オペラ
+####  **オペレーティング·システム**
+- Microsoft Windows 2000
+- Microsoft Windows XP
+- Microsoft Windows サーバー 2003
+- Microsoft Windows サーバー 2008
+- Microsoft Windows サーバー 2012
+- Microsoft Windows ビスタ
+- Microsoft Windows 7, 
+- Microsoft Windows 8, 8.1
+- Microsoft Windows 10
+- Microsoft Windows 11
+###  **Linux**
+- Linux (Ubuntu、openSUSE、CentOS、Debian、Alpine など)
+###  **マック**
+- Mac OS X、macOS High Sierraなど

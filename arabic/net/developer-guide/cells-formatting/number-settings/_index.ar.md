@@ -48,7 +48,7 @@ url: /ar/net/cells-number-settings/
 |
 |13|Fraction|#  */*
 |
-|14|Date|م/د/س س|
+|14|Date|م/د/س س س س|
 |15|Date|د-ط ط ط-س ص|
 |16|Date|د ط ط ط|
 |17|Date|ش ش ص ص|

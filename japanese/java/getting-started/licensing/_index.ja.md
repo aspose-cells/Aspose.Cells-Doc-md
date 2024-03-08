@@ -1,55 +1,27 @@
-﻿---
-title: ライセンス
+---
+title: Licensing
 type: docs
 weight: 50
 url: /ja/java/licensing/
+description: JAVA の Aspose.Cells では、さまざまな購入プランが提供されるか、Licensing と Java のサブスクリプション ポリシーを使用した評価用の無料トライアルと 30 日間の一時ライセンスが提供されます。
+keywords: Java Apply License from Disk or Stream. Java Set License from Disk or Stream. Apply License in Aspose.Cells for Java.
 ---
-{{% alert color="primary" %}} 
+##  **Aspose.Cells コンポーネントにライセンスを適用する方法**
 
-の評価版をダウンロードできます**Aspose.Cells**for Java から[そのダウンロードページ](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) Maven リポジトリ。評価版は、製品のライセンス版とまったく同じ機能を提供します。さらに、評価版は、ライセンスを購入し、数行のコードを追加してライセンスを適用するだけで、ライセンスが付与されます。
+ライセンスは、製品名、ライセンスが付与されている開発者の数、サブスクリプションの有効期限などの詳細が含まれるプレーン テキストの XML ファイルです。ファイルはデジタル署名されているため、ファイルを変更しないでください。ファイルに不注意で余分な改行を追加した場合でも、ファイルは無効になります。
 
-評価に満足したら**Aspose.Cells**、 あなたはできる[ライセンスを購入する](https://purchase.aspose.com)Aspose ウェブサイトで。提供されるさまざまなサブスクリプションの種類に慣れてください。ご不明な点がございましたら、お気軽に Aspose 営業チームまでお問い合わせください。
-
-すべての Aspose ライセンスには、この期間中に出てくる新しいバージョンまたは修正への無料アップグレードのための 1 年間のサブスクリプションが含まれています。テクニカル サポートは無料で無制限で、ライセンス ユーザーと評価ユーザーの両方に提供されます。
-
-{{% /alert %}} {{% alert color="primary" %}} 
-
-テストしたい場合**Aspose.Cells**評価版の制限がない場合は、30 日間の一時ライセンスをリクエストしてください。を参照してください。[仮免許を取得するには？](https://purchase.aspose.com/temporary-license)詳細については。
-
-{{% /alert %}}
-
-## **評価版の制限事項**
-
-の評価版**Aspose.Cells**製品 (ライセンスが指定されていない) は製品の全機能を提供しますが、1 つのプログラムで 100 個のファイルを開くことができ、評価用のウォーターマーク付きの追加のワークシートに制限されています。
-
-制限事項を以下に示します。
-
-### **第 1 の制限: 開いているファイルの数**
-
-プログラムを実行すると、100 個の Excel ファイルしか開くことができません。アプリケーションがこの数を超えると、例外がスローされます。
-
-### **2 番目の制限: 評価用透かし付きワークシート**
-
-![todo:画像_代替_文章](licensing_1.png)
-
-このワークシートは常にアクティブなワークシートとして表示されます。ライセンス版のみ、アクティブなワークシートを他のワークシートに設定できます。
-
-## **ライセンスの設定**
-
-ライセンスは、製品名、ライセンスが付与されている開発者の数、サブスクリプションの有効期限などの詳細を含むプレーン テキストの XML ファイルです。ファイルはデジタル署名されているため、ファイルを変更しないでください。ファイルに余分な改行を誤って追加しても、それは無効になります。
-
-評価制限を回避したい場合は、Aspose.Cells を利用する前にライセンスを設定する必要があります。アプリケーションまたはプロセスごとに 1 回だけライセンスを設定する必要があります。
+Aspose.Cells の評価制限を回避するには、Aspose.Cells を利用する前にライセンスを設定する必要があります。ライセンスを設定する必要があるのは、アプリケーションまたはプロセスごとに 1 回だけです。
 
 ライセンスは、次の場所にあるストリームまたはファイルからロードできます。
 
 1. 明示的なパス。
-1. Aspose.Cells.jar を含むフォルダー。
+1. Aspose.Cells.jar が含まれるフォルダー。
 
-使用[License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)) コンポーネントのライセンスを取得する方法。多くの場合、ライセンスを設定する最も簡単な方法は、次の例に示すように、ライセンス ファイルを Aspose.Cells.jar と同じフォルダーに置き、パスを指定せずにファイル名のみを指定することです。
+使用[License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)) メソッドでコンポーネントのライセンスを取得します。多くの場合、ライセンスを設定する最も簡単な方法は、次の例に示すように、ライセンス ファイルを Aspose.Cells.jar と同じフォルダーに置き、パスを指定せずにファイル名だけを指定することです。
 
-### **例 1**
+###  **ディスクからライセンスを適用する方法**
 
-この例では**Aspose.Cells**は、アプリケーションの JAR を含むフォルダーでライセンス ファイルを見つけようとします。
+この例では**Aspose.Cells**は、アプリケーションの JAR が含まれるフォルダー内のライセンス ファイルの検索を試みます。
 
 {{< highlight "csharp" >}}
 
@@ -59,7 +31,7 @@ license.setLicense("Aspose.Cells.Java.lic");
 
 {{< /highlight >}}
 
-### **例 2**
+###  **ストリームからライセンスを適用する方法**
 
 ストリームからライセンスを初期化します。
 
@@ -71,9 +43,9 @@ license.setLicense(new java.io.FileInputStream("Aspose.Cells.Java.lic"));
 
 {{< /highlight >}}
 
-### **Aspose.Cells.GridWebでのライセンス申請に関する注意事項**
+###  **Aspose.Cells.GridWeb でライセンスを適用する方法**
 
-ライセンス コードは、最初に処理する Web アプリケーション内の場所に配置することをお勧めします。
+ライセンス コードは、Web アプリケーション内の最初に処理される場所に配置することをお勧めします。
 
 {{< highlight "csharp" >}}
 
@@ -85,11 +57,11 @@ lic.setLicense("Aspose.Cells.lic");
 
 {{< /highlight >}}
 
-## **従量制ライセンスの適用**
+##  **従量制課金ライセンスを適用する方法**
 
-Aspose.Cells を使用すると、開発者は従量制のキーを適用できます。これは、新しいライセンス メカニズムです。新しいライセンス メカニズムは、既存のライセンス方法と共に使用されます。 API 機能の使用量に基づいて課金されることを希望するお客様は、従量制ライセンスを使用できます。詳細については、を参照してください。[従量制ライセンスに関する FAQ](https://purchase.aspose.com/faqs/licensing/metered)セクション。
+Aspose.Cells を使用すると、開発者は従量制キーを適用できます。これは新しいライセンスメカニズムです。新しいライセンス メカニズムは、既存のライセンス方式と併用されます。 API 機能の使用量に基づいて請求されることを希望する顧客は、従量制ライセンスを使用できます。詳細については、を参照してください。[従量制 Licensing よくある質問](https://purchase.aspose.com/faqs/licensing/metered)セクション。
 
-新しいクラス[従量制](https://reference.aspose.com/cells/java/com.aspose.cells/Metered)従量制キーを適用するために導入されました。以下は、従量制の公開鍵と秘密鍵を設定する方法を示すサンプル コードです。
+新しいクラス[従量制](https://reference.aspose.com/cells/java/com.aspose.cells/Metered)従量制キーを適用するために導入されました。以下は、従量制の公開キーと秘密キーを設定する方法を示すサンプル コードです。
 
 {{< highlight "java" >}}
 

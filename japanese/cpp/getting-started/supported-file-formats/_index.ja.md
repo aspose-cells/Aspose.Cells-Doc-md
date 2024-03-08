@@ -28,6 +28,7 @@ url: /ja/cpp/supported-file-formats/
 |[PDF](https://docs.fileformat.com/pdf/)|Adobe ポータブル ドキュメント フォーマット。| |{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|XML 用紙仕様フォーマット。| |{{< emoticons/tick >}}|
 |[SVG](https://docs.fileformat.com/page-description-language/svg/)|スケーラブルなベクター グラフィックス形式。| |{{< emoticons/tick >}}|
+|[TIFF](https://docs.fileformat.com/image/tiff/)|タグ付き画像ファイル形式| |{{< emoticons/tick >}}|
 |[PNG](https://docs.fileformat.com/image/png/)|ポータブルネットワークグラフィックフォーマット| |{{< emoticons/tick >}}|
 |[BMP](https://docs.fileformat.com/image/bmp/)|ビットマップ画像フォーマット| |{{< emoticons/tick >}}|
 |[EMF](https://docs.fileformat.com/image/emf/)|拡張メタファイル形式| |{{< emoticons/tick >}}|
@@ -38,3 +39,8 @@ url: /ja/cpp/supported-file-formats/
 |[FODS](https://docs.fileformat.com/spreadsheet/fods/)|これは、フラット XML として保存される Open Document 形式です。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[DOCX](https://docs.fileformat.com/word-processing/docx/)|Microsoft Word ドキュメントのよく知られた形式で、XML ファイルとバイナリ ファイルを組み合わせたものです。||{{< emoticons/tick >}}|
 |[PPTX](https://docs.fileformat.com/presentation/pptx/)|PPTX 形式は、Microsoft PowerPoint オープン XML プレゼンテーション ファイル形式に基づいています。||{{< emoticons/tick >}}|
+|[SQLスクリプト](https://docs.fileformat.com/database/sql/)|構造化クエリ言語。||{{< emoticons/tick >}}|
+|[XHTML](https://docs.fileformat.com/web/xhtml/)|XHTML は、HTML 4.0 の再定式化を使用した、XML のマークアップを備えたテキスト ベースのファイル形式です。||{{< emoticons/tick >}}|
+|[Epub](https://docs.fileformat.com/ebook/epub/)|.epub 拡張子を持つファイルは、出版社と消費者に標準のデジタル出版形式を提供する電子書籍ファイル形式です。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[XML](https://docs.fileformat.com/web/xml/)|XML は Extensible Markup Language の略で、HTML に似ていますが、オブジェクトを定義するためのタグの使用が異なります。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[オッツ](https://docs.fileformat.com/spreadsheet/ots/)|ドキュメント テンプレート シート (OTS) ファイルを開きます。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

@@ -1,27 +1,28 @@
-﻿---
+---
 title: Anpassa diagram
 type: docs
 weight: 15
 url: /sv/java/creating-and-customizing-charts/
+alias: [/java/customizing-charts/]
 ---
-## **Skapa diagram**
+##  **Skapa diagram**
 
 Det är möjligt att lägga till en mängd olika diagram till kalkylblad med Aspose.Cells. Aspose.Cells tillhandahåller många flexibla diagramobjekt. Det här ämnet diskuterar Aspose.Cells' diagramobjekt.
 
-### **Skapa helt enkelt ett diagram**
+###  **Skapa helt enkelt ett diagram**
 
 Det är enkelt att skapa ett diagram med Aspose.Cells med följande exempelkoder:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-Charts-ManipulateChart-HowToCreateColumnChart-1.java" >}}
 
 
-### **Saker att veta för att skapa ett diagram**
+###  **Saker att veta för att skapa ett diagram**
 
 Innan du skapar diagram är det viktigt att förstå några grundläggande begrepp som är användbara när du skapar diagram med Aspose.Cells.
 
-#### **Kartlägga objekt**
+####  **Kartlägga objekt**
 
- Aspose.Cells tillhandahåller en speciell uppsättning klasser som används för att skapa alla typer av diagram. Dessa klasser används för att skapa**kartlägga objekt**, som fungerar som diagrammets byggstenar. Kartobjekten listas nedan:
+Aspose.Cells tillhandahåller en speciell uppsättning klasser som används för att skapa alla typer av diagram. Dessa klasser används för att skapa *kartläggningsobjekt**, som fungerar som diagrammets byggstenar. Kartobjekten listas nedan:
 
 - [**Axel**](https://reference.aspose.com/cells/java/com.aspose.cells/Axis), ett diagrams axel.
 - [**Diagram**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart), ett enda Excel-diagram.
@@ -38,24 +39,24 @@ Innan du skapar diagram är det viktigt att förstå några grundläggande begre
 - [**Linje**](https://reference.aspose.com/cells/java/com.aspose.cells/Line), diagramlinjen.
 - [**Seriekollektion**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) , en samling av[**Serier**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)föremål.
 - [**Serier**](https://reference.aspose.com/cells/java/com.aspose.cells/Series), representerar en enskild dataserie i ett diagram.
-- [**TickLabels**](https://reference.aspose.com/cells/java/com.aspose.cells/TickLabels), bockmarkeringsetiketterna som är associerade med bockmarkeringar på en diagramaxel.
+- [**TickLabels**](https://reference.aspose.com/cells/java/com.aspose.cells/TickLabels)bockmarkeringsetiketterna som är associerade med bockmarkeringar på en diagramaxel.
 - [**Titel**](https://reference.aspose.com/cells/java/com.aspose.cells/Title), titeln på ett diagram eller en axel.
 - [**Trendlinje**](https://reference.aspose.com/cells/java/com.aspose.cells/Trendline), en trendlinje i ett diagram.
 - [**TrendlineCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/TrendlineCollection), en samling av alla Trendline-objekt för den angivna dataserien.
 - [**Väggar**](https://reference.aspose.com/cells/java/com.aspose.cells/Walls), väggarna i ett 3D-diagram.
 
-#### **Använda diagramobjekt**
+####  **Använda diagramobjekt**
 
 Som nämnts ovan är alla diagramobjekt instanser av sina respektive klasser och tillhandahåller specifika egenskaper och metoder för att utföra specifika uppgifter. Använd diagramobjekt för att skapa diagram.
 
-Lägg till vilken typ av diagram som helst i ett kalkylblad med hjälp av[**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) samling. Varje objekt i[**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) samlingen representerar en[**Diagram**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) objekt. A[**Diagram**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)objekt kapslar in alla diagramobjekt som krävs för att anpassa diagrammets utseende. Nästa avsnitt visar hur du använder några grundläggande diagramobjekt för att skapa ett enkelt diagram.
+ Lägg till vilken typ av diagram som helst i ett kalkylblad med hjälp av[**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) samling. Varje objekt i[**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) samlingen representerar en[**Diagram**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) objekt. A[**Diagram**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)objekt kapslar in alla diagramobjekt som krävs för att anpassa diagrammets utseende. Nästa avsnitt visar hur du använder några grundläggande diagramobjekt för att skapa ett enkelt diagram.
 
-### **Skapa ett enkelt diagram**
+###  **Skapa ett enkelt diagram**
 
- Det är möjligt att skapa många olika typer av sjökort med Aspose.Cells. Alla standarddiagram som stöds av Aspose.Cells är fördefinierade i en uppräkning med namnet[**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType). De fördefinierade diagramtyperna är:
+Det är möjligt att skapa många olika typer av sjökort med Aspose.Cells. Alla standarddiagram som stöds av Aspose.Cells är fördefinierade i en uppräkning med namnet[**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType). De fördefinierade diagramtyperna är:
 
 |**Diagramtyper**|**Beskrivning**|
-|:- |:- |
+| :- | :- |
 |Kolumn|Representerar det klustrade kolumndiagrammet|
 |KolumnStackad|Representerar staplade kolumndiagram|
 |Kolumn100ProcentStackad|Representerar 100 % staplat kolumndiagram|
@@ -68,7 +69,7 @@ Lägg till vilken typ av diagram som helst i ett kalkylblad med hjälp av[**Char
 |Bar100PercentStacked|Representerar 100 % staplat stapeldiagram|
 |Bar3DClustered|Representerar 3D-klustrade stapeldiagram|
 |Bar3DStacked|Representerar 3D staplade stapeldiagram|
-|Bar3D100PercentStacked|Representerar 3D 100 % staplade stapeldiagram|
+|Bar3D100PercentStacked|Representerar 3D 100 % staplat stapeldiagram|
 |Linje|Representerar linjediagram|
 |LineStacked|Representerar staplade linjediagram|
 |Line100PercentStacked|Representerar 100 % staplade linjediagram|
@@ -127,7 +128,7 @@ Lägg till vilken typ av diagram som helst i ett kalkylblad med hjälp av[**Char
 |PyramidColumn3D|Representerar 3D Pyramid Column Chart|
 Så här skapar du ett diagram med Aspose.Cells:
 
-1.  Lägg till några data till kalkylbladsceller med[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) föremål[**satt värde**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value)metod.
+1. Lägg till några data till kalkylbladsceller med[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) föremål[**satt värde**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value)metod.
  Detta kommer att användas som datakälla för diagrammet.
 1.  Lägg till ett diagram i kalkylbladet genom att anropa[**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) samlingens[*Lägg till*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add(int,%20int,%20int,%20int,%20int) ) metod, inkapslad i[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)objekt.
 1.  Ange typen av diagram med[**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType)uppräkning.
@@ -162,17 +163,17 @@ När exempelkoden exekveras läggs ett pyramiddiagram till i kalkylbladet som vi
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-HowToCreateBubbleChart-HowToCreateBubbleChart.java" >}}
 
-#### **Linje med datamarkördiagram**
+####  **Linje med datamarkördiagram**
 
 För att skapa en linje med ett datamarkeringsdiagram,[**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType)måste ställas in på[**ChartType.LINE_WITH_DATA_MARKERS**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#LINE_WITH_DATA_MARKERS) och några extra egenskaper som bakgrundsområde, seriemarkörer , värden & XValues måste ställas in i enlighet därmed. När följande kod körs läggs en rad med ett datamarkeringsdiagram till i kalkylbladet.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-CreateLineWithDataMarkerChart-1.java" >}}
 
-## **Skapa anpassade diagram**
+##  **Skapa anpassade diagram**
 
 Hittills, när vi har diskuterat diagram, har vi tittat på standarddiagram som har sina standardformateringsinställningar. Vi definierar bara datakällan, ställer in några få egenskaper och diagrammet skapas med dess standardformatinställningar. Men Aspose.Cells stöder också att skapa anpassade diagram som gör det möjligt för utvecklare att skapa diagram med sina egna formatinställningar.
 
-### **Skapa anpassade diagram**
+###  **Skapa anpassade diagram**
 
 Utvecklare kan skapa anpassade diagram vid körning med Aspose.Cells enkel API.
 
@@ -180,7 +181,7 @@ Utvecklare kan skapa anpassade diagram vid körning med Aspose.Cells enkel API.
 
 {{% alert color="primary" %}}
 
- För närvarande stöder Aspose.Cells endast anpassade diagram som kombinerar cirkel-, linje-, kolumn- och kolumndiagram men fler diagram kommer att stödjas i framtida utgåvor. För en fullständig lista över standarddiagram som Aspose.Cells stöder, läs[Diagramtyper](/cells/sv/java/chart-types/) artikel.
+För närvarande stöder Aspose.Cells endast anpassade diagram som kombinerar cirkel-, linje-, kolumn- och kolumndiagram men fler diagram kommer att stödjas i framtida utgåvor. För en fullständig lista över standarddiagram som Aspose.Cells stöder, läs[Diagramtyper](/cells/sv/java/chart-types/) artikel.
 
 {{% /alert %}}
 

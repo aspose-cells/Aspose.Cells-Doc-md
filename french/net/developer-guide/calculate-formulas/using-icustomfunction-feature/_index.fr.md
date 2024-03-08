@@ -12,7 +12,7 @@ Cet article fournit une compréhension détaillée de la façon d’utiliser la 
 
 L'interface ICustomFunction permet d'ajouter des fonctions de calcul de formule personnalisées pour étendre le moteur de calcul de base Aspose.Cells' afin de répondre à certaines exigences. Cette fonctionnalité est utile pour définir des fonctions personnalisées (définies par l'utilisateur) dans un fichier modèle ou dans du code où la fonction personnalisée peut être implémentée et évaluée à l'aide des API Aspose.Cells comme toute autre fonction Excel Microsoft par défaut.
 
- Attention, cette interface a été remplacée par[RésuméCalculMoteur](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/) et sera supprimé à l'avenir. Quelques articles/exemples techniques sur le nouveau API :[ici](/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) et[ici](/net/returning-a-range-of-values-using-abstractcalculationengine/)
+ Attention, cette interface a été remplacée par[RésuméCalculMoteur](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/) et sera supprimé à l'avenir. Quelques articles/exemples techniques sur le nouveau API :[ici](/cells/fr/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) et[ici](/cells/fr/net/returning-a-range-of-values-using-abstractcalculationengine/)
 
 {{% /alert %}} 
 ##  **Création et évaluation d'une fonction définie par l'utilisateur**

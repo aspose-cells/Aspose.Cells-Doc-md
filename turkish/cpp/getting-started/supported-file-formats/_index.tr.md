@@ -28,6 +28,7 @@ url: /tr/cpp/supported-file-formats/
 |[PDF](https://docs.fileformat.com/pdf/)|Adobe Taşınabilir Belge Formatı.| |{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|XML Kağıt Belirtim Formatı.| |{{< emoticons/tick >}}|
 |[SVG](https://docs.fileformat.com/page-description-language/svg/)|Ölçeklenebilir Vektör Grafik Formatı.| |{{< emoticons/tick >}}|
+|[TIFF](https://docs.fileformat.com/image/tiff/)|Etiketli Resim Dosyası Formatı| |{{< emoticons/tick >}}|
 |[PNG](https://docs.fileformat.com/image/png/)|Taşınabilir Ağ Grafik Formatı| |{{< emoticons/tick >}}|
 |[BMP](https://docs.fileformat.com/image/bmp/)|Bitmap Görüntü Formatı| |{{< emoticons/tick >}}|
 |[EMF](https://docs.fileformat.com/image/emf/)|Geliştirilmiş meta dosyası Formatı| |{{< emoticons/tick >}}|
@@ -38,3 +39,8 @@ url: /tr/cpp/supported-file-formats/
 |[FODS](https://docs.fileformat.com/spreadsheet/fods/)|Bu, düz XML olarak saklanan bir Açık Belge biçimidir.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[DOCX](https://docs.fileformat.com/word-processing/docx/)|XML ve ikili dosyaların birleşiminden oluşan, Microsoft Word belgeleri için iyi bilinen bir format.||{{< emoticons/tick >}}|
 |[PPTX](https://docs.fileformat.com/presentation/pptx/)|PPTX biçimi, Microsoft PowerPoint açık XML sunum dosyası biçimini temel alır.||{{< emoticons/tick >}}|
+|[SQLScript](https://docs.fileformat.com/database/sql/)|Yapılandırılmış sorgu dili.||{{< emoticons/tick >}}|
+|[XHtml](https://docs.fileformat.com/web/xhtml/)|XHTML, HTML 4.0 yeniden formülasyonunu kullanan, XML'de işaretleme bulunan metin tabanlı bir dosya formatıdır.||{{< emoticons/tick >}}|
+|[Epub](https://docs.fileformat.com/ebook/epub/)|.epub uzantılı dosyalar, yayıncılar ve tüketiciler için standart bir dijital yayın formatı sağlayan bir e-kitap dosya formatıdır.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[XML](https://docs.fileformat.com/web/xml/)|XML, HTML'e benzer, ancak nesneleri tanımlamak için etiket kullanımı açısından farklı olan Genişletilebilir İşaretleme Dili anlamına gelir.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Otlar](https://docs.fileformat.com/spreadsheet/ots/)|Belge Şablon Sayfası (OTS) dosyasını açın.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

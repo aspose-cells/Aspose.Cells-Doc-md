@@ -44,7 +44,7 @@ Dans cet exemple, j'utilise Ubuntu pour montrer comment commencer à utiliser As
 2. Ouvrez le fichier "AsposeCellsTest.csproj", ajoutez-y les lignes suivantes pour les références du package Aspose.Cells :
 {{< highlight "plain" >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="23.12" />
+    <PackageReference Include="Aspose.Cells" Version="24.3" />
   </ItemGroup>
 {{< /highlight >}}
 3. Ouvrez le projet avec VSCode sur Ubuntu :

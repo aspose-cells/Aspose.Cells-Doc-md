@@ -48,7 +48,7 @@ Microsoft Excel'de görüntü formatlarını ayarlamak için:
 |
 |13|Fraction|#  */*
 |
-|14|Date|a/g/yy|
+|14|Date|a/g/yyyy|
 |15|Date|d-aaa-yy|
 |16|Date|d-aa|
 |17|Date|mmm-yy|

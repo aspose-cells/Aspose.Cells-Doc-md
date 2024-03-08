@@ -8,7 +8,7 @@ Aspose.Cells for C++ est une bibliothèque native C++ qui permet aux développeu
 
 ##  Systèmes d'exploitation pris en charge
 
-Aspose.Cells for C++ prend en charge les systèmes d'exploitation et plates-formes 64 bits suivants :
+Aspose.Cells for C++ prend en charge les systèmes d'exploitation et plates-formes 64 bits ou 32 bits suivants :
 
 <table>  
 	<tr>
@@ -17,11 +17,12 @@ Aspose.Cells for C++ prend en charge les systèmes d'exploitation et plates-form
 		</tr>
   <tr>
 			<td>Microsoft Windows</td>
-			<td><ul><li>Windows Serveur 2008 (x64)</li><li>Windows Serveur 2012 (x64)</li><li>Windows Serveur R2 2012 (x64)</li><li>Windows Serveur 2016 (x64)</li><li>Windows 2019 Serveur (x64)</li><li>Windows Vue (x64)</li><li>Windows7 (x64)</li><li>Windows 8, 8.1 (x64)</li><li>Windows 10 (x64)</li><li>Windows 11 (x64)</li></ul></td>
-		</tr>
+			<!--- <td><ul><li>Windows 2008 Server (x64)</li><li>Windows 2012 Server (x64)</li><li>Windows 2012 R2 Server (x64)</li><li>Windows 2016 Server (x64)</li><li>Windows 2019 Server (x64)</li><li>Windows Vista (x64)</li><li>Windows 7 (x64)</li><li>Windows 8, 8.1 (x64)</li><li>Windows 10 (x64)</li><li>Windows 11 (x64)</li></ul></td> --->
+			<td><ul><li>Windowsx86</li><li>Windowsx86_64</li></ul></td>
+  </tr>
   <tr>
 			<td>Linux</td>
-			<td><ul><li>Ubuntu 20.04 ou version ultérieure</li><li>Feutre</li><li>OuvrirSUSE</li><li>CentOS</li><li>Linux pour ARM (aarch64)</li></ul></td>
+			<td><ul><li>Linuxx86_64</li><!---li>Ubuntu 20.04 or later</li><li>Fedora</li><li>OpenSUSE</li><li>CentOS</li---><li>Linux pour ARM (aarch64)</li></ul></td>
 		</tr>
   <tr>
 			<td>macOS</td>

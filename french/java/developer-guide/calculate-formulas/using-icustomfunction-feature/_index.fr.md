@@ -1,4 +1,4 @@
-﻿---
+---
 title: Utilisation de la fonctionnalité ICustomFunction
 type: docs
 weight: 890
@@ -6,24 +6,24 @@ url: /fr/java/using-icustomfunction-feature/
 ---
 {{% alert color="primary" %}} 
 
-Cet article explique en détail comment utiliser la fonctionnalité ICustomFunction pour implémenter des fonctions personnalisées avec les API Aspose.Cells.
+Cet article fournit une compréhension détaillée de la façon d’utiliser la fonctionnalité ICustomFunction pour implémenter des fonctions personnalisées avec les API Aspose.Cells.
 
-L'interface ICustomFunction permet d'ajouter des fonctions de calcul de formules personnalisées pour étendre le moteur de calcul de base Aspose.Cells afin de répondre à certaines exigences. Cette fonctionnalité est utile pour définir des fonctions personnalisées (définies par l'utilisateur) dans un fichier de modèle ou dans du code où la fonction personnalisée peut être implémentée et évaluée à l'aide des API Aspose.Cells comme toute autre fonction Excel Microsoft par défaut.
+L'interface ICustomFunction permet d'ajouter des fonctions de calcul de formule personnalisées pour étendre le moteur de calcul de base Aspose.Cells' afin de répondre à certaines exigences. Cette fonctionnalité est utile pour définir des fonctions personnalisées (définies par l'utilisateur) dans un fichier modèle ou dans du code où la fonction personnalisée peut être implémentée et évaluée à l'aide des API Aspose.Cells comme toute autre fonction Excel Microsoft par défaut.
 
  Attention, cette interface a été remplacée par[RésuméCalculMoteur](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) et sera supprimé à l'avenir. Quelques articles/exemples techniques sur le nouveau API :[ici](/cells/fr/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) et[ici](/cells/fr/java/returning-a-range-of-values-using-abstractcalculationengine/)
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Si vous débutez avec les API Aspose.Cells for Java, veuillez vérifier[cette](https://docs.aspose.com/cells/java/installation/) article pour savoir comment vous pouvez acquérir et référencer le Aspose.Cells for Java dans votre projet.
+ Si vous êtes nouveau sur les API Aspose.Cells for Java, veuillez vérifier[ce](https://docs.aspose.com/cells/java/installation/) article pour savoir comment acquérir et référencer le Aspose.Cells for Java dans votre projet.
 
 {{% /alert %}} 
-## **Création et évaluation d'une fonction définie par l'utilisateur**
-Cet article illustre l'implémentation de l'interface ICustomFunction pour écrire une fonction personnalisée et l'utiliser dans la feuille de calcul pour obtenir les résultats. Nous allons définir une fonction personnalisée par son nom**MaFonction** qui acceptera 2 paramètres avec les détails suivants.
+##  **Création et évaluation d'une fonction définie par l'utilisateur**
+ Cet article montre l'implémentation de l'interface ICustomFunction pour écrire une fonction personnalisée et l'utiliser dans la feuille de calcul pour obtenir les résultats. Nous définirons une fonction personnalisée par son nom**MaFonction** qui acceptera 2 paramètres avec les détails suivants.
 
 - Le 1er paramètre fait référence à une seule cellule
 - Le 2ème paramètre fait référence à une plage de cellules
 
-La fonction personnalisée ajoutera toutes les valeurs de la plage de cellules spécifiée comme 2ème paramètre et divisera le résultat avec la valeur dans le 1er paramètre.
+La fonction personnalisée ajoutera toutes les valeurs de la plage de cellules spécifiée comme 2ème paramètre et divisera le résultat avec la valeur du 1er paramètre.
 
 Voici comment nous avons implémenté la méthode calculateCustomFunction.
 
@@ -148,10 +148,10 @@ worksheet.getCells().get("A1").putValue(worksheet.getCells().get("A1").getValue(
 workbook.save(dir + "UsingICustomFunction.xls");
 
 {{< /highlight >}}
-## **Aperçu**
-Les API Aspose.Cells placent simplement l'objet ReferredArea dans "paramsList" lorsque le paramètre correspondant est une référence ou que son résultat calculé est une référence. Si vous avez besoin de la référence elle-même, vous pouvez utiliser directement la ReferredArea. Si vous avez besoin d'obtenir la valeur d'une seule cellule à partir de la référence correspondant à la position de la formule, vous pouvez utiliser la méthode ReferredArea.getValue(rowOffset, int colOffset). Si vous avez besoin d'un tableau de valeurs de cellule pour toute la zone, vous pouvez utiliser la méthode ReferredArea.getValues.
+##  **Aperçu**
+Les API Aspose.Cells placent simplement l'objet ReferredArea dans la "paramsList" lorsque le paramètre correspondant est une référence ou que son résultat calculé est une référence. Si vous avez besoin de la référence elle-même, vous pouvez utiliser directement ReferredArea. Si vous avez besoin d'obtenir la valeur d'une seule cellule à partir de la référence correspondant à la position de la formule, vous pouvez utiliser la méthode ReferredArea.getValue(rowOffset, int colOffset). Si vous avez besoin d'un tableau de valeurs de cellules pour toute la zone, vous pouvez utiliser la méthode ReferredArea.getValues.
 
-Comme les API Aspose.Cells donnent le ReferredArea dans "paramsList", le ReferredAreaCollection dans "contextObjects" ne sera plus nécessaire (dans les anciennes versions, il n'était pas toujours possible de donner une carte un à un aux paramètres de la fonction personnalisée) donc il a été supprimé des "contextObjects".
+Comme les API Aspose.Cells donnent la ReferredArea dans "paramsList", la ReferredAreaCollection dans "contextObjects" ne sera plus nécessaire (dans les anciennes versions, il n'était pas toujours possible de donner une carte un à un aux paramètres de la fonction personnalisée), donc il a été supprimé des "contextObjects".
 
 {{< highlight "java" >}}
 

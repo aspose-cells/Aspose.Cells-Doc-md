@@ -28,6 +28,7 @@ url: /sv/cpp/supported-file-formats/
 |[PDF](https://docs.fileformat.com/pdf/)|Adobe Portable Document Format.| |{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|XML Paper Specification Format.| |{{< emoticons/tick >}}|
 |[SVG](https://docs.fileformat.com/page-description-language/svg/)|Skalbart vektorgrafikformat.| |{{< emoticons/tick >}}|
+|[TIFF](https://docs.fileformat.com/image/tiff/)|Taggad bildfilformat| |{{< emoticons/tick >}}|
 |[PNG](https://docs.fileformat.com/image/png/)|Portabelt nätverksgrafikformat| |{{< emoticons/tick >}}|
 |[BMP](https://docs.fileformat.com/image/bmp/)|Bitmapp bildformat| |{{< emoticons/tick >}}|
 |[EMF](https://docs.fileformat.com/image/emf/)|Förbättrat metafilformat| |{{< emoticons/tick >}}|
@@ -38,3 +39,8 @@ url: /sv/cpp/supported-file-formats/
 |[FODS](https://docs.fileformat.com/spreadsheet/fods/)|Detta är ett Open Document-format som lagras som platt XML.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[DOCX](https://docs.fileformat.com/word-processing/docx/)|Ett välkänt format för Microsoft Word-dokument som är en kombination av XML och binära filer.||{{< emoticons/tick >}}|
 |[PPTX](https://docs.fileformat.com/presentation/pptx/)|PPTX-formatet är baserat på Microsoft PowerPoint öppet XML-presentationsfilformat.||{{< emoticons/tick >}}|
+|[SQLScript](https://docs.fileformat.com/database/sql/)|Structured Query Language.||{{< emoticons/tick >}}|
+|[XHtml](https://docs.fileformat.com/web/xhtml/)|XHTML är ett textbaserat filformat med markering i XML, med en omformulering av HTML 4.0.||{{< emoticons/tick >}}|
+|[Epub](https://docs.fileformat.com/ebook/epub/)|Filer med filtillägget .epub är ett e-boksfilformat som tillhandahåller ett standardformat för digitala publikationer för förlag och konsumenter.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Xml](https://docs.fileformat.com/web/xml/)|XML står för Extensible Markup Language som liknar HTML men skiljer sig från att använda taggar för att definiera objekt.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Ots](https://docs.fileformat.com/spreadsheet/ots/)|Öppna filen Document Template Sheet (OTS).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

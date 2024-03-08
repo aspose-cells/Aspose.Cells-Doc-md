@@ -1,11 +1,11 @@
-﻿---
-title: EnableClipboardCopyPaste ve PasteType GridDesktop Özelliklerinin Kopyala Yapıştır Davranışı
+---
+title: EnableClipboardCopyPaste ve PasteType GridDesktop Özelliklerinin Kopyala Yapıştırma Davranışı
 type: docs
 weight: 80
 url: /tr/net/copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties/
 ---
-## **Olası Kullanım Senaryoları**
-GridDesktop, Aspose.Cells.GridDesktop.GridDesktop.PasteType özelliği ile farklı tiplerde kopyala yapıştır türü seçenekleri sunar. Bu seçenekler Aspose.Cells.GridDesktop.Data.GridPasteType numaralandırması ile belirtilir. Bunlardan bazıları aşağıdaki gibidir
+##  **Olası Kullanım Senaryoları**
+GridDesktop, Aspose.Cells.GridDesktop.GridDesktop.PasteType özelliği ile farklı türde kopyala yapıştır türü seçenekleri sunar. Bu seçenekler Aspose.Cells.GridDesktop.Data.GridPasteType numaralandırmasıyla belirtilir. Bunlardan bazıları aşağıdaki gibidir
 
 - GridPasteType.All
 
@@ -13,32 +13,34 @@ Kaynak hücrelerden hedef hücrelere kadar her şeyi kopyalayıp yapıştırır.
 
 - GridPasteType.Formulas
 
-Kaynak hücrelerden formülleri kopyalayıp hedef hücrelere yapıştırır.
+Formülleri kaynak hücrelerden hedef hücrelere kopyalayıp yapıştırır.
 
 - GridPasteType.Comments
 
-Yorumları kaynak hücrelerden kopyalayıp hedef hücrelere yapıştırır.
+Yorumları kaynak hücrelerden hedef hücrelere kopyalayıp yapıştırır.
 
 - GridPasteType.RowHeights
 
-Kaynak hücrelerden hedef hücrelere satır yüksekliklerini kopyalayıp yapıştırır.
+Satır yüksekliklerini kaynak hücrelerden hedef hücrelere kopyalayıp yapıştırır.
 
 - GridPasteType.ColumnWidths
 
-Kaynak hücrelerden hedef hücrelere sütun genişliklerini kopyalar ve yapıştırır.
+Sütun genişliklerini kaynak hücrelerden hedef hücrelere kopyalayıp yapıştırır.
 
-vb.
-## **PasteType Özelliğini Etkinleştirmek İçin EnableClipboardCopyPaste Özelliğini True Olarak Ayarlayın**
-Aspose.Cells.GridDesktop.GridDesktop.PasteType özelliği, yalnızca Aspose.Cells.GridDesktop.GridDesktop.EnableClipboardCopyPaste özelliğini bu ekran görüntüsünde gösterildiği gibi doğru ayarlarsanız çalışır.
+vesaire.
+##  **PasteType Özelliğini Etkinleştirmek için EnableClipboardCopyPaste Özelliğini True Olarak Ayarlayın**
+Aspose.Cells.GridDesktop.GridDesktop.PasteType özelliği yalnızca Aspose.Cells.GridDesktop.GridDesktop.EnableClipboardCopyPaste özelliğini bu ekran görüntüsünde gösterildiği gibi true olarak ayarlarsanız çalışır.
 
-![yapılacaklar:resim_alternatif_metin](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_1.png)
-## **EnableClipboardCopyPaste ve PasteType Özelliklerinin Davranışı**
-EnableClipboardCopyPaste öğesinin false ve PasteType öğesinin All olduğu göz önüne alındığında, aşağıdaki ekran görüntüsü, B3 hücresinin kopyalanıp C5 hücresine yapıştırıldığında, hücre biçimlendirmesinin kopyalanmadığını ve yalnızca B3 hücresinin içeriğinin kopyalandığını gösterir.
+![yapılacak şey:image_alt_text](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_1.png)
+##  **EnableClipboardCopyPaste ve PasteType Özelliklerinin Davranışı**
+EnableClipboardCopyPaste'in yanlış ve PasteType'ın Tümü olduğu göz önüne alındığında, aşağıdaki ekran görüntüsü B3 hücresinin kopyalanıp C5 hücresine yapıştırıldığını gösterir.
 
-![yapılacaklar:resim_alternatif_metin](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_2.png)
+![yapılacak şey:image_alt_text](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_3.png)
 
-EnableClipboardCopyPaste'in true ve PasteType'ın All olduğu göz önüne alındığında, aşağıdaki ekran görüntüsü, B3 hücresinin kopyalanıp C5 hücresine yapıştırıldığında, B3 hücresinin biçimlendirmesini de C5 hücresine kopyaladığını gösterir.
+EnableClipboardCopyPaste'in doğru ve PasteType'ın All olduğu göz önüne alındığında, Windows'tan bir görüntü kopyaladıktan sonra. Aşağıdaki ekran görüntüsü, B3 hücresi kopyalanıp C5 hücresine yapıştırıldığında görüntüyü C5 hücresine de kopyaladığını göstermektedir.
 
-![yapılacaklar:resim_alternatif_metin](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_3.png)
+![yapılacak:görüntüyü kopyala](copyimage.png)
+
+![yapılacaklar: kopyaladıktan sonra yapıştır](aftercopy.png)
 
 

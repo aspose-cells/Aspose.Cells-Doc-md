@@ -28,6 +28,7 @@ url: /ar/cpp/supported-file-formats/
 |[PDF](https://docs.fileformat.com/pdf/)|أدوبي تنسيق المستندات المحمولة.| |{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|تنسيق مواصفات ورق XML.| |{{< emoticons/tick >}}|
 |[SVG](https://docs.fileformat.com/page-description-language/svg/)|تنسيق الرسومات المتجهة القابلة للتطوير.| |{{< emoticons/tick >}}|
+|[TIFF](https://docs.fileformat.com/image/tiff/)|تنسيق ملف الصورة ذات العلامات| |{{< emoticons/tick >}}|
 |[PNG](https://docs.fileformat.com/image/png/)|تنسيق رسومات الشبكة المحمولة| |{{< emoticons/tick >}}|
 |[BMP](https://docs.fileformat.com/image/bmp/)|تنسيق الصورة النقطية| |{{< emoticons/tick >}}|
 |[EMF](https://docs.fileformat.com/image/emf/)|تنسيق ملف التعريف المحسن| |{{< emoticons/tick >}}|
@@ -38,3 +39,8 @@ url: /ar/cpp/supported-file-formats/
 |[FODS](https://docs.fileformat.com/spreadsheet/fods/)|هذا هو تنسيق Open Document المُخزن بتنسيق XML المسطح.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[DOCX](https://docs.fileformat.com/word-processing/docx/)|تنسيق معروف لمستندات Word Microsoft وهو عبارة عن مزيج من ملفات XML والملفات الثنائية.||{{< emoticons/tick >}}|
 |[PPTX](https://docs.fileformat.com/presentation/pptx/)|يعتمد تنسيق PPTX على تنسيق ملف عرض XML المفتوح Microsoft PowerPoint.||{{< emoticons/tick >}}|
+|[SQLScript](https://docs.fileformat.com/database/sql/)|لغة الاستعلام الهيكلية.||{{< emoticons/tick >}}|
+|[XHTML](https://docs.fileformat.com/web/xhtml/)|XHTML هو تنسيق ملف قائم على النص مع ترميز في XML، باستخدام إعادة صياغة HTML 4.0.||{{< emoticons/tick >}}|
+|[النشر الإلكتروني](https://docs.fileformat.com/ebook/epub/)|الملفات ذات الامتداد ‎.epub هي تنسيق ملف كتاب إلكتروني يوفر تنسيقًا قياسيًا للنشر الرقمي للناشرين والمستهلكين.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[XML](https://docs.fileformat.com/web/xml/)|يرمز XML إلى لغة التوصيف القابلة للتوسيع والتي تشبه HTML ولكنها تختلف في استخدام العلامات لتعريف الكائنات.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[أوتس](https://docs.fileformat.com/spreadsheet/ots/)|افتح ملف ورقة قالب المستند (OTS).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

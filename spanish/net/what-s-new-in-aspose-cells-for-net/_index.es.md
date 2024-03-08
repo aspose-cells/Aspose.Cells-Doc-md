@@ -7,6 +7,29 @@ url: /es/net/what-s-new-in-aspose-cells-for-net/
 ---
 Esta página describe las nuevas funciones Aspose.Cells más interesantes introducidas en versiones recientes.
 
+##  Aspose.Cells for .NET 24.3
+* Soporte para importar archivos AZW3
+* Soporte para guardar ods con el estándar odf 1.3
+* Soporte para calcular la función EVALUAR
+* Filtros de soporte para GridDesktop: Top10, Fecha, Texto
+* Agregue más fórmulas en el menú Insertar y consejos de ayuda para GridJS
+* Agregue una función de categorización al menú de fórmulas para GridJS
+* Establezca automáticamente el formato de celda a fecha para GridJS cuando el resultado calculado sea fecha y hora
+
+##  Aspose.Cells for .NET 24.2
+* Admite nuevas funciones: TEXTAFTER,TEXTBEFORE,TEXTSPLIT,TOROW,TOCOL
+* Soporte para detectar formato oxps
+* Mejorar el rendimiento para ordenar conjuntos de datos grandes
+* Mejora de las operaciones sobre el filtro para GridDesktop: filtro numérico, búsqueda de palabras clave, filtro claro.
+
+##  Aspose.Cells for .NET 24.1
+
+* Soporte NET8
+* Soporte para importar datos csv con filas/columnas de encabezado especificadas por el usuario y filas/columnas totales por hoja
+* Soporte para exportar html con estilos personalizados.
+* Admite autocompletar para áreas fusionadas
+* Admite datos de autocompletar de derecha a izquierda y de abajo hacia arriba
+
 ##  Aspose.Cells for .NET 23.12
 
 * Compatibilidad con PDF/A-2 y PDF/A-3 durante la conversión a PDF

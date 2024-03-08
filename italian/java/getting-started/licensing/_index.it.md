@@ -1,53 +1,25 @@
-﻿---
-title: Licenza
+---
+title: Licensing
 type: docs
 weight: 50
 url: /it/java/licensing/
+description: Aspose.Cells per JAVA fornisce diversi piani di acquisto o offre una prova gratuita e una licenza temporanea di 30 giorni per la valutazione utilizzando lo Licensing e le politiche di abbonamento allo Java.
+keywords: Java Apply License from Disk or Stream. Java Set License from Disk or Stream. Apply License in Aspose.Cells for Java.
 ---
-{{% alert color="primary" %}} 
+##  **Come applicare una licenza nel componente Aspose.Cells**
 
- È possibile scaricare una versione di valutazione di**Aspose.Cells** for Java da[la sua pagina di download](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) @ Maven repos. La versione di valutazione offre assolutamente le stesse funzionalità della versione con licenza del prodotto. Inoltre, la versione di valutazione diventa semplicemente concessa in licenza quando acquisti una licenza e aggiungi un paio di righe di codice per applicare la licenza.
+La licenza è un file XML di testo semplice che contiene dettagli come il nome del prodotto, il numero di sviluppatori a cui è concessa la licenza, la data di scadenza dell'abbonamento e così via. Il file è firmato digitalmente, quindi non modificare il file; anche l'aggiunta involontaria di un'interruzione di riga aggiuntiva nel file lo invaliderà.
 
- Una volta che sei soddisfatto della tua valutazione di**Aspose.Cells** , puoi[acquistare una licenza](https://purchase.aspose.com)sul sito Aspose. Acquisisci familiarità con i diversi tipi di abbonamento offerti. In caso di domande, non esitare a contattare il team di vendita Aspose.
-
-Ogni licenza Aspose comporta un abbonamento di un anno per aggiornamenti gratuiti a eventuali nuove versioni o correzioni che escono durante questo periodo. Il supporto tecnico è gratuito e illimitato e viene fornito sia agli utenti con licenza che a quelli di valutazione.
-
-{{% /alert %}} {{% alert color="primary" %}} 
-
- Se vuoi fare una prova**Aspose.Cells** senza limitazioni della versione di valutazione, richiedi una licenza temporanea di 30 giorni. Per favore riferisci a[Come ottenere una licenza temporanea?](https://purchase.aspose.com/temporary-license) per maggiori informazioni.
-
-{{% /alert %}}
-
-## **Limiti della versione di valutazione**
-
- Versione di valutazione di**Aspose.Cells** Il prodotto (senza una licenza specificata) fornisce funzionalità complete del prodotto, ma è limitato all'apertura di 100 file in un programma e un foglio di lavoro aggiuntivo con filigrana di valutazione.
-
-Le limitazioni sono mostrate di seguito:
-
-### **1a limitazione: numero di file aperti**
-
-Quando esegui il tuo programma, puoi aprire solo 100 file Excel. Se la tua applicazione supera questo numero, verrà generata un'eccezione.
-
-### **2a limitazione: foglio di lavoro con filigrana di valutazione**
-
-![cose da fare:immagine_alt_testo](licensing_1.png)
-
-Questo foglio di lavoro verrà sempre visualizzato come foglio di lavoro attivo. Solo nella versione con licenza, puoi impostare il foglio di lavoro attivo su altri fogli di lavoro.
-
-## **Impostazione di una licenza**
-
-La licenza è un file XML di testo semplice che contiene dettagli come il nome del prodotto, il numero di sviluppatori a cui è concesso in licenza, la data di scadenza dell'abbonamento e così via. Il file è firmato digitalmente, quindi non modificare il file; anche l'aggiunta involontaria di un'ulteriore interruzione di riga nel file lo invaliderà.
-
-È necessario impostare una licenza prima di utilizzare Aspose.Cells se si desidera evitare i suoi limiti di valutazione. È necessario impostare una licenza solo una volta per applicazione o processo.
+È necessario impostare una licenza prima di utilizzare Aspose.Cells se si desidera evitare le sue limitazioni di valutazione. È necessario impostare una licenza solo una volta per applicazione o processo.
 
 La licenza può essere caricata da un flusso o da un file nelle seguenti posizioni:
 
 1. Percorso esplicito.
-1. La cartella che contiene Aspose.Cells.jar.
+1. La cartella che contiene il file Aspose.Cells.jar.
 
- Usa il[Licenza.setLicenza](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)) metodo per concedere in licenza il componente. Spesso il modo più semplice per impostare una licenza consiste nell'inserire il file di licenza nella stessa cartella di Aspose.Cells.jar e specificare solo il nome del file senza percorso, come mostrato nell'esempio seguente:
+ Usa il[License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)) metodo per ottenere la licenza del componente. Spesso il modo più semplice per impostare una licenza è inserire il file di licenza nella stessa cartella di Aspose.Cells.jar e specificare solo il nome del file senza percorso, come mostrato nell'esempio seguente:
 
-### **Esempio 1**
+###  **Come applicare una licenza da disco**
 
  In questo esempio**Aspose.Cells** tenterà di trovare il file di licenza nella cartella che contiene i JAR della tua applicazione.
 
@@ -59,7 +31,7 @@ license.setLicense("Aspose.Cells.Java.lic");
 
 {{< /highlight >}}
 
-### **Esempio 2**
+###  **Come applicare una licenza da Stream**
 
 Inizializza una licenza da un flusso.
 
@@ -71,7 +43,7 @@ license.setLicense(new java.io.FileInputStream("Aspose.Cells.Java.lic"));
 
 {{< /highlight >}}
 
-### **Note sull'applicazione di una licenza in Aspose.Cells.GridWeb**
+###  **Come applicare una licenza in Aspose.Cells.GridWeb**
 
 Si consiglia di inserire il codice di licenza in un punto dell'applicazione Web in cui deve essere elaborato per primo.
 
@@ -85,11 +57,11 @@ lic.setLicense("Aspose.Cells.lic");
 
 {{< /highlight >}}
 
-## **Applicazione della licenza misurata**
+##  **Come applicare la licenza a consumo**
 
-Aspose.Cells consente agli sviluppatori di applicare la chiave misurata. È un nuovo meccanismo di licenza. Il nuovo meccanismo di licenza verrà utilizzato insieme al metodo di licenza esistente. I clienti che desiderano essere fatturati in base all'utilizzo delle funzionalità API possono utilizzare le licenze a consumo. Per maggiori dettagli, fare riferimento a[Domande frequenti sulle licenze misurate](https://purchase.aspose.com/faqs/licensing/metered)sezione.
+Aspose.Cells consente agli sviluppatori di applicare la chiave a consumo. Si tratta di un nuovo meccanismo di concessione delle licenze. Il nuovo meccanismo di licenza verrà utilizzato insieme al metodo di licenza esistente. I clienti che desiderano ricevere una fattura in base all'utilizzo delle funzionalità API possono utilizzare la licenza a consumo. Per ulteriori dettagli, fare riferimento a[Con tassametro Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered)sezione.
 
-Una nuova classe[Misurato](https://reference.aspose.com/cells/java/com.aspose.cells/Metered)è stato introdotto per applicare la chiave misurata. Di seguito è riportato il codice di esempio che illustra come impostare la chiave pubblica e privata misurata.
+Una nuova classe[Misurato](https://reference.aspose.com/cells/java/com.aspose.cells/Metered)è stato introdotto per applicare la chiave misurata. Di seguito è riportato il codice di esempio che mostra come impostare la chiave pubblica e privata misurata.
 
 {{< highlight "java" >}}
 

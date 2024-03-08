@@ -1,4 +1,4 @@
-﻿---
+---
 title: ICustomFunction Özelliğini Kullanma
 type: docs
 weight: 890
@@ -6,22 +6,22 @@ url: /tr/java/using-icustomfunction-feature/
 ---
 {{% alert color="primary" %}} 
 
-Bu makale, Aspose.Cells API'leri ile özel işlevleri uygulamak için ICustomFunction özelliğinin nasıl kullanılacağına ilişkin ayrıntılı bir anlayış sağlar.
+Bu makale, Aspose.Cells API'leriyle özel işlevleri uygulamak için ICustomFunction özelliğinin nasıl kullanılacağına ilişkin ayrıntılı bir anlayış sağlar.
 
-ICustomFunction arabirimi, belirli gereksinimleri karşılamak amacıyla Aspose.Cells' çekirdek hesaplama motorunu genişletmek için özel formül hesaplama işlevleri eklemeye izin verir. Bu özellik, bir şablon dosyasında veya kodda özel (kullanıcı tanımlı) işlevleri tanımlamak için kullanışlıdır; burada özel işlev, diğer herhangi bir varsayılan Microsoft Excel işlevi gibi Aspose.Cells API'leri kullanılarak uygulanıp değerlendirilebilir.
+ICustomFunction arayüzü, belirli gereksinimleri karşılamak amacıyla Aspose.Cells' temel hesaplama motorunu genişletmek için özel formül hesaplama fonksiyonlarının eklenmesine olanak tanır. Bu özellik, bir şablon dosyasında veya özel işlevin diğer herhangi bir varsayılan Microsoft Excel işlevi gibi Aspose.Cells API'leri kullanılarak uygulanabileceği ve değerlendirilebileceği kodda özel (kullanıcı tanımlı) işlevler tanımlamak için kullanışlıdır.
 
- Lütfen dikkat, bu arayüz şu şekilde değiştirildi:[SoyutHesaplamaMotoru](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) ve gelecekte kaldırılacaktır. Yeni API ile ilgili bazı teknik makaleler/örnekler:[Burada](/cells/tr/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) ve[Burada](/cells/tr/java/returning-a-range-of-values-using-abstractcalculationengine/)
+ Lütfen bu arayüzün değiştirildiğini unutmayın.[ÖzetHesaplamaMotoru](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) ve gelecekte kaldırılacaktır. Yeni API ile ilgili bazı teknik makaleler/örnekler:[Burada](/cells/tr/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) Ve[Burada](/cells/tr/java/returning-a-range-of-values-using-abstractcalculationengine/)
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Aspose.Cells for Java API'lerinde yeniyseniz, lütfen kontrol edin[Bu](https://docs.aspose.com/cells/java/installation/) Aspose.Cells for Java'i projenizde nasıl edinebileceğinizi ve referans alabileceğinizi öğrenmek için makale.
+ Aspose.Cells for Java API'lerinde yeniyseniz lütfen kontrol edin[Bu](https://docs.aspose.com/cells/java/installation/) Projenizde Aspose.Cells for Java numarasını nasıl edinebileceğinizi ve referans alabileceğinizi öğrenmek için makale.
 
 {{% /alert %}} 
-## **Kullanıcı Tanımlı Bir İşlev Oluşturma ve Değerlendirme**
-Bu makale, sonuçları almak için özel bir işlev yazmak ve bunu elektronik tabloda kullanmak için ICustomFunction arabiriminin uygulanmasını gösterir. Ada göre özel bir işlev tanımlayacağız**MyFunc** aşağıdaki ayrıntılarla 2 parametreyi kabul edecek.
+##  **Kullanıcı Tanımlı Fonksiyon Oluşturma ve Değerlendirme**
+ Bu makalede, özel bir işlev yazmak ve sonuçları almak için bunu elektronik tabloda kullanmak için ICustomFunction arabiriminin uygulanması gösterilmektedir. Özel bir işlevi ada göre tanımlayacağız**İşlevim** aşağıdaki ayrıntılara sahip 2 parametreyi kabul edecektir.
 
 - 1. parametre tek bir hücreyi ifade eder
-- 2. parametre, bir hücre aralığını ifade eder
+- 2. parametre bir hücre aralığını ifade eder
 
 Özel işlev, 2. parametre olarak belirtilen hücre aralığındaki tüm değerleri toplayacak ve sonucu 1. parametredeki değere bölecektir.
 
@@ -93,7 +93,7 @@ HesaplamaCustomFunction yöntemini şu şekilde uyguladık.
 
 {{< /highlight >}}
 
-Yeni tanımlanmış işlevi bir elektronik tabloda nasıl kullanacağınız aşağıda açıklanmıştır
+Yeni tanımlanan işlevin bir e-tabloda nasıl kullanılacağı aşağıda açıklanmıştır
 
 **Java**
 
@@ -148,10 +148,10 @@ worksheet.getCells().get("A1").putValue(worksheet.getCells().get("A1").getValue(
 workbook.save(dir + "UsingICustomFunction.xls");
 
 {{< /highlight >}}
-## **genel bakış**
-Aspose.Cells API'leri, karşılık gelen parametre bir referans olduğunda veya hesaplanan sonucu referans olduğunda, ReferredArea nesnesini "paramsList" içine koyar. Referansın kendisine ihtiyacınız varsa, doğrudan ReferredArea'yı kullanabilirsiniz. Formülün konumuna karşılık gelen referanstan tek bir hücrenin değerini almanız gerekiyorsa, ReferredArea.getValue(rowOffset, int colOffset) yöntemini kullanabilirsiniz. Tüm alan için hücre değerleri dizisine ihtiyacınız varsa o zaman ReferredArea.getValues yöntemini kullanabilirsiniz.
+##  **Genel Bakış**
+Aspose.Cells API'leri, karşılık gelen parametre bir referans olduğunda veya hesaplanan sonucu referans olduğunda, ReferredArea nesnesini "paramsList"e yerleştirir. Referansın kendisine ihtiyacınız varsa, doğrudan ReferredArea'yı kullanabilirsiniz. Formülün konumuna karşılık gelen referanstan tek bir hücrenin değerini almanız gerekiyorsa ReferredArea.getValue(rowOffset, int colOffset) yöntemini kullanabilirsiniz. Alanın tamamı için hücre değerleri dizisine ihtiyacınız varsa ReferredArea.getValues yöntemini kullanabilirsiniz.
 
-Aspose.Cells API'leri "paramsList" içindeki ReferredArea'yı verdiğinden, "contextObjects" içindeki ReferredAreaCollection'a artık gerek kalmayacak (eski sürümlerde her zaman özel işlevin parametrelerine bire bir harita veremiyordu), bu nedenle "contextObjects"ten kaldırıldı.
+Aspose.Cells API'leri "paramsList"te ReferredArea değerini verdiğinden, "contextObjects" içindeki ReferredAreaCollection'a artık ihtiyaç duyulmayacak (eski sürümlerde özel işlevin parametrelerine her zaman bire bir harita veremiyordu), bu nedenle "contextObjects"ten kaldırıldı.
 
 {{< highlight "java" >}}
 

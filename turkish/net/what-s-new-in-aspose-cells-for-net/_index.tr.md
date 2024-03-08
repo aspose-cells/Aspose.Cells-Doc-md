@@ -7,6 +7,29 @@ url: /tr/net/what-s-new-in-aspose-cells-for-net/
 ---
 Bu sayfada son sürümlerde sunulan en ilginç Aspose.Cells özellikleri açıklanmaktadır.
 
+##  Aspose.Cells for .NET 24.3
+* AZW3 dosyasını içe aktarma desteği
+* Odf 1.3 standardıyla ods kaydetme desteği
+* DEĞERLENDİRME fonksiyonunu hesaplama desteği
+* GridDesktop için destek filtreleri: Top10, Tarih, Metin
+* Ekle menüsüne daha fazla formül ekleyin ve GridJS için yardım ipuçları
+* GridJS için formül menüsüne kategorizasyon özelliği ekleyin
+* Hesaplanan sonuç tarihsaat olduğunda GridJS için hücreyi tarih biçimine otomatik olarak ayarla
+
+##  Aspose.Cells for .NET 24.2
+* Yeni işlevleri destekleyin: TEXTAFTER,TEXTBEFORE,TEXTSPLIT,TOROW,TOCOL
+* Oxps formatını tespit etme desteği
+* Büyük veri kümesini sıralamak için performansı artırın
+* GridDesktop filtresiyle ilgili işlemlere yönelik geliştirmeler: sayı filtresi, anahtar kelime arama, filtreyi temizleme.
+
+##  Aspose.Cells for .NET 24.1
+
+* NET8'i destekleyin
+* Kullanıcı tarafından belirlenen başlık satırları/sütunları ve sayfa başına toplam satır/sütunlarla csv verilerini içe aktarma desteği
+* Özel stillerle html'yi dışa aktarma desteği
+* Birleştirilmiş alanlar için otomatik doldurma desteği
+* Sağdan sola ve aşağıdan yukarıya doğru otomatik doldurma verilerini destekleyin
+
 ##  Aspose.Cells for .NET 23.12
 
 * PDF'ye dönüştürürken PDF/A-2 ve PDF/A-3 uyumluluğu desteği

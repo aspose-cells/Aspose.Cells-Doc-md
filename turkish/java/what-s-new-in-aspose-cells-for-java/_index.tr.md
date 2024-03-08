@@ -7,6 +7,19 @@ url: /tr/java/what-s-new-in-aspose-cells-for-java/
 ---
 Bu sayfada son sürümlerde sunulan en ilginç Aspose.Cells özellikleri açıklanmaktadır.
 
+##  Aspose.Cells for Java 24.2
+* Yeni işlevleri destekleyin: TEXTAFTER,TEXTBEFORE,TEXTSPLIT,TOROW,TOCOL
+* Oxps formatını tespit etme desteği
+* Büyük veri kümesini sıralamak için performansı artırın
+
+##  Aspose.Cells for Java 24.1
+
+* GridWeb için jakarta.servlet'i destekleyin
+* Kullanıcı tarafından belirlenen başlık satırları/sütunları ve sayfa başına toplam satır/sütunlarla csv verilerini içe aktarma desteği
+* Özel stillerle html'yi dışa aktarma desteği
+* Birleştirilmiş alanlar için otomatik doldurma desteği
+* Sağdan sola ve aşağıdan yukarıya doğru otomatik doldurma verilerini destekleyin
+
 ##  Aspose.Cells for Java 23.12
 
 * PDF'ye dönüştürürken PDF/A-2 ve PDF/A-3 uyumluluğu desteği

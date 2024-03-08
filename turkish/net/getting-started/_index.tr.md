@@ -44,7 +44,7 @@ Bu örnekte, Linux'ta Aspose.Cells'i kullanmaya nasıl başlayacağımı göster
 2. "AsposeCellsTest.csproj" dosyasını açın, Aspose.Cells paket referansları için aşağıdaki satırları dosyaya ekleyin:
 {{< highlight "plain" >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="23.12" />
+    <PackageReference Include="Aspose.Cells" Version="24.3" />
   </ItemGroup>
 {{< /highlight >}}
 3. Projeyi Ubuntu'da VSCode ile açın:

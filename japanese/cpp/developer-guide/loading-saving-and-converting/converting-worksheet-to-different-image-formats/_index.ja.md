@@ -16,19 +16,19 @@ Aspose.Cells を使用すると、ワークブックからワークシートを�
 
 Aspose.Cells は、Excel ワークシートの画像への変換をサポートしています。この機能を使用するには、[Aspose.Cells.Rendering](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/)名前空間をプログラムまたはプロジェクトに追加します。これには、レンダリングと印刷のためのいくつかの貴重なクラスがあります。たとえば、[シートレンダリング](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/), [画像または印刷オプション](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/)その他。
 
-`Aspose.Cells.Rendering.ISheetRender` クラスは、画像としてレンダリングするワークシートを表します。オーバーロードされたメソッドがあり、[画像へ](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/toimage/)、ワークシートをさまざまな属性またはオプションを持つ画像ファイルに変換できます。いくつかの画像形式がサポートされています (例: BMP、PNG、GIF、JPG、JPEG、EMF)。
+`Aspose.Cells.Rendering.ISheetRender` クラスは、画像としてレンダリングするワークシートを表します。オーバーロードされたメソッドがあり、[画像へ](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/toimage/)、ワークシートをさまざまな属性またはオプションを持つ画像ファイルに変換できます。いくつかの画像形式がサポートされています (例: BMP、PNG、GIF、JPG、JPEG、TIFF、EMF)。
 
 次のコード スニペットは、Excel ファイル内のワークシートを画像ファイルに変換する方法を示しています。
 ###  **PNG フォーマット**
 次のサンプルコードを参照してください。[サンプル Excel ファイル](67338402.xlsx)、 そしてその[出力 PNG 画像](67338401.zip).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_PNG-new.cpp" >}}
-<!--
-### **TIFF Format**
-Please see the following sample code, its [sample Excel file](67338402.xlsx), and the [output TIFF Image](67338419.zip).
+
+###  **TIFF フォーマット**
+次のサンプルコードを参照してください。[サンプル Excel ファイル](67338402.xlsx)、 そしてその[出力 TIFF 画像](67338419.zip).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_TIFF-new.cpp" >}}
--->
+
 ##  **ワークシートをSVGに変換中**
 SVG はスケーラブル ベクター グラフィックスの略です。 SVG は、2 次元ベクトル グラフィックスの XML 標準に基づいた仕様です。これは、World Wide Web Consortium (W3C) によって 1999 年から開発が進められているオープン標準です。
 

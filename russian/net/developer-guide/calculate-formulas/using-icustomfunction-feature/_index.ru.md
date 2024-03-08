@@ -12,7 +12,7 @@ url: /ru/net/using-icustomfunction-feature/
 
 Интерфейс ICustomFunction позволяет добавлять пользовательские функции расчета формул для расширения основного механизма вычислений Aspose.Cells' и удовлетворения определенных требований. Эта функция полезна для определения пользовательских (определяемых пользователем) функций в файле шаблона или в коде, где пользовательская функция может быть реализована и оценена с использованием API-интерфейсов Aspose.Cells, как и любая другая функция Excel по умолчанию Microsoft.
 
- Обратите внимание: этот интерфейс был заменен на[АннотацияРасчетДвигатель](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/) и будет удален в будущем. Некоторые технические статьи/примеры о новом API:[здесь](/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) и[здесь](/net/returning-a-range-of-values-using-abstractcalculationengine/)
+ Обратите внимание: этот интерфейс был заменен на[АннотацияРасчетДвигатель](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/) и будет удален в будущем. Некоторые технические статьи/примеры о новом API:[здесь](/cells/ru/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) и[здесь](/cells/ru/net/returning-a-range-of-values-using-abstractcalculationengine/)
 
 {{% /alert %}} 
 ##  **Создание и оценка пользовательской функции**

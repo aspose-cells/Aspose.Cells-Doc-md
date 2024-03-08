@@ -50,11 +50,12 @@ Aspose.Cells for .NET unterstützt die Frameworks .NET und Mono wie folgt:
 - .NET 5.0
 - .NET 6.0
 - .NET 7.0
+- .NET 8.0
 ####  **Die nuget-Pakete, auf die Aspose.Cells für .NET Standard verweist**
 - System.Drawing.Common, 5.0.3.
 - System.Text.Encoding.CodePages, 4.7.0.
 - System.Security.Cryptography.Pkcs, 5.0.1.
-####  **Die nuget-Pakete, auf die Aspose.Cells verweist. Für .NET6 und .Net7**
+####  **Die nuget-Pakete, auf die Aspose.Cells verweist. Für .NET6, .Net7 und .Net8**
 - System.Text.Encoding.CodePages, 4.7.0.
 - System.Security.Cryptography.Pkcs, 6.0.3.
 - System.Drawing.Common, 6.0.0 (auf Windows-System).
@@ -80,16 +81,17 @@ Um Aspose.Cells verwenden zu können, muss auf dem Computer nicht Microsoft Exce
 
 {{% /alert %}} 
 ##  **Aspose.Cells Grid Suite-Systemanforderungen**
-Die Aspose.Cells Grid Suite besteht aus zwei Steuerelementen:
+Die Aspose.Cells Grid Suite besteht aus drei Steuerelementen:
 
 - Aspose.Cells.GridDesktop
 - Aspose.Cells.GridWeb
+- Aspose.Cells.GridJs
 
-Die Systemvoraussetzungen beider Steuerungen werden separat beschrieben.
+Die Systemvoraussetzungen der Steuerungen werden gesondert beschrieben.
 
 {{% alert color="primary" %}} 
 
-Um diese beiden Steuerelemente verwenden zu können, muss auf dem Computer zum Ausführen von Aspose.Cells.GridDesktop und Aspose.Cells.GridWeb Microsoft Excel nicht installiert sein, da Aspose.Cells.GridDesktop und Aspose.Cells.GridWeb Excel-Tabellen öffnen und speichern können, ohne dass Microsoft Excel erforderlich ist.
+Um diese Steuerelemente verwenden zu können, muss auf dem Computer zum Ausführen von Aspose.Cells.GridDesktop und Aspose.Cells.GridWeb Microsoft Excel nicht installiert sein, da Aspose.Cells.GridDesktop und Aspose.Cells.GridWeb Excel-Tabellen öffnen und speichern können, ohne dass Microsoft Excel erforderlich ist.
 
 {{% /alert %}} 
 ###  **Aspose.Cells.GridDesktop**
@@ -108,16 +110,24 @@ Um diese beiden Steuerelemente verwenden zu können, muss auf dem Computer zum A
 - .NET Rahmen 4.7.2
 - .NET Rahmen 4.8
 - .NET Rahmen 4.8.1
-
+###  **.NET Kern**
+-  .NET Kern 3.1
+- .NET 7.0 Windows
+####  **Die nuget-Pakete, auf die Aspose.Cells.GridDesktop für .NET Core 3.1 verweist**
+- System.Drawing.Common, 6.0.0.
+- System.Text.Encoding.CodePages, 4.7.0.
+- System.Security.Cryptography.Pkcs, 5.0.1.
+####  **Die nuget-Pakete, auf die Aspose.Cells.GridDesktop für .Net7 verweist**
+- System.Text.Encoding.CodePages, 4.7.0.
+- System.Security.Cryptography.Pkcs, 6.0.3.
+- System.Drawing.Common, 7.0.0 (auf Windows-System).
 ####  **Entwicklungswerkzeuge**
-- Microsoft Visual Studio 2005
-- Microsoft Visual Studio 2008
-- Microsoft Visual Studio 2010
 - Microsoft Visual Studio 2012
 - Microsoft Visual Studio 2013
 - Microsoft Visual Studio 2015
 - Microsoft Visual Studio 2017
 - Microsoft Visual Studio 2019
+- Microsoft Visual Studio 2022
 ####  **Betriebssystem**
 - Microsoft Windows 2000
 - Microsoft Windows XP
@@ -145,22 +155,26 @@ Um diese beiden Steuerelemente verwenden zu können, muss auf dem Computer zum A
 - .NET Rahmen 4.7.2
 - .NET Rahmen 4.8
 - .NET Rahmen 4.8.1
+###  **.NET Kern**
+-  .NET 6.0 Windows
+- .NET 7.0 Windows
+####  **Die nuget-Pakete, auf die Aspose.Cells.GridWeb für .NET Core verweist**
+- System.Drawing.Common, 7.0.0.
+- System.Text.Encoding.CodePages, 4.7.0.
+- System.Security.Cryptography.Pkcs, 6.0.3.
 ####  **Entwicklungswerkzeuge**
-- Microsoft Visual Studio 2005
-- Microsoft Visual Studio 2008
-- Microsoft Visual Studio 2010
 - Microsoft Visual Studio 2012
 - Microsoft Visual Studio 2013
 - Microsoft Visual Studio 2015
 - Microsoft Visual Studio 2017
 - Microsoft Visual Studio 2019
-####  **Internetinformationsserver (IIS)**
-- IIS 5.0 oder höher
+- Microsoft Visual Studio 2022
 ####  **Browser**
-- IE 5.5 oder höher
+- Chrom
+- Rand
 - Mozilla-Browser (einschließlich Firefox, Netscape Browser usw.)
-- Opera (Internet Explorer 6.0 empfohlen)
-- Google Chrom
+- Safari
+-  Oper
 ####  **Betriebssystem**
 - Microsoft Windows 2000
 - Microsoft Windows XP
@@ -172,3 +186,42 @@ Um diese beiden Steuerelemente verwenden zu können, muss auf dem Computer zum A
 - Microsoft Windows 8, 8.1
 - Microsoft Windows 10
 - Microsoft Windows 11
+
+###  **Aspose.Cells.GridJs**
+###  **.NET Standard**
+-  .NET Standard 2.0
+####  **Die nuget-Pakete, auf die von Aspose.Cells.GridJs für .NET Standard verwiesen wird**
+- System.Drawing.Common, 6.0.0 (auf Windows-System).
+- SkiaSharp, 2.88.3 (auf Nicht-Windows-Systemen).
+- System.Text.Encoding.CodePages, 4.7.0.
+- System.Security.Cryptography.Pkcs,5.0.1.
+- Aspose.Cells, (mit GridJs immer die gleiche Version behalten)
+####  **Entwicklungswerkzeuge**
+- Microsoft Visual Studio 2012
+- Microsoft Visual Studio 2013
+- Microsoft Visual Studio 2015
+- Microsoft Visual Studio 2017
+- Microsoft Visual Studio 2019
+- Microsoft Visual Studio 2022
+
+####  **Browser**
+- Chrom
+- Rand
+- Mozilla-Browser (einschließlich Firefox, Netscape Browser usw.)
+- Safari
+-  Oper
+####  **Betriebssystem**
+- Microsoft Windows 2000
+- Microsoft Windows XP
+- Microsoft Windows Server 2003
+- Microsoft Windows Server 2008
+- Microsoft Windows Server 2012
+- Microsoft Windows Vista
+- Microsoft Windows 7, 
+- Microsoft Windows 8, 8.1
+- Microsoft Windows 10
+- Microsoft Windows 11
+###  **Linux**
+- Linux (Ubuntu, openSUSE, CentOS, Debian, Alpine und andere)
+###  **Mac**
+- Mac OS X, macOS High Sierra usw.
