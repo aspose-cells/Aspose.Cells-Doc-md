@@ -1,7 +1,7 @@
 ---
 title: Evaluation Version Limitations
 type: docs
-weight: 50
+weight: 110
 url: /net/evaluation-version-limitations/
 description: Aspose.Cells for .NET provides different plans for purchase or offers a Free Trial and a 30-day Temporary License for evaluation using Licensing and Subscription policies in C#.
 keywords: Evaluation Version Limitations, Number of Opened Files in Evaluation Version, Evaluation Watermark using Evaluation Version.
