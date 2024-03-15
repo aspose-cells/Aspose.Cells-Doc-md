@@ -4,7 +4,7 @@ type: docs
 weight: 138
 url: /net/how-to-run-aspose-cells-in-blazor/
 description: Learn how to How to Run Aspose.Cells in Blazor.
-keywords: C# Run Aspose.Cells in Blazor, Use Aspose.Cells in Blazor
+keywords: C# Run Aspose.Cells in Blazor, Use Aspose.Cells in Blazor, Blazor Server Application with Aspose.Cells
 ---
 
 ## Overview
@@ -13,11 +13,11 @@ To run Aspose.Cells in Blazor, you need the .NET6 (or later) platforms, compare 
 
 For Apose.Cells product, we have conducted the evaluation and have completed the migration of the graphics library. We use SkiaSharp instead of System.Drawing.Common in non-Windows systems, as suggested in Microsoft's official documentation. Please note that this critical change will take effect in Aspose.Cells 22.10.1 or later for .Net6.
 
-## First Blazor Application with Aspose.Cells
+## Blazor Server Application with Aspose.Cells
 
 In this example, you create a simple blazor server application that adds some data and graphics, and render them into images to display on the webpage. During the project creation process, you can configure options according to your own needs. For example, when you check the "Enable Docker" option, the blazor application can then be built and run in Docker..
 
-### Create the First Blazor Application
+### Create Blazor Server Application
 
 Let's use the VS2022 tool as an example to create the first blazor application with Aspose.Cells, follow the steps below:
 1. Select File ->New ->Project and filter using the blazer keyword to select the corresponding project template.
@@ -42,7 +42,7 @@ Let's use the VS2022 tool as an example to create the first blazor application w
 <br>
 <img src="7.png" width=70% />
 
-### Sample Code in the First Blazor Application
+### Sample Code in Blazor Sever Application
 
 The following sample code is included in the Index.razor file:
 ```
