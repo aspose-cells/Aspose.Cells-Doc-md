@@ -135,7 +135,6 @@ The following table attempts to provide a feature overview on how Aspose.Cells f
 |Set complex formulae through API |  |  |Supported |
 |Conditional formatting |  |Supported   |Supported |
 |Activating sheets and making an active Cell in the workbook. |Supported |Supported |Supported |
-
 |**Advanced Features**| | | |
 |Smart markers |  |  |Supported |
 |Create standard charts (column, bar, line, pie, scatter, area, doughnut, radar, surface 3D, bubble, stock, cylinder, cone, pyramid etc.) | | |Supported |
