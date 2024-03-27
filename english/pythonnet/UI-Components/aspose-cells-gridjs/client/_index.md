@@ -3,7 +3,7 @@ title: Working with GridJs Client Side
 type: docs
 weight: 250
 url: /python-net/aspose-cells-gridjs/client/
-keywords: custom,logo,setting,api
+keywords: custom,logo,setting,api,gridjs,python,edit,spreadsheet,view,viewer,editor,excel
 ---
 
 # Working with GridJs Client Side

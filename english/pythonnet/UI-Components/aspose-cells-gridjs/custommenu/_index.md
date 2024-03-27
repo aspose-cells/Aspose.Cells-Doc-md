@@ -2,9 +2,9 @@
 title: Custom context menus for GridJs  
 type: docs
 weight: 250
-url: /net/aspose-cells-gridjs/custommenu/
+url: /python-net/aspose-cells-gridjs/custommenu/
 description: This article describes how to configure context menus for GridJs.
-keywords: custom menu items, context menu
+keywords: gridjs,menu,custom menu, context menu
 ---
 
 # Custom context menus
@@ -99,7 +99,7 @@ xs.sheet.addImageContextMenuItems(itemsarray)
  for example: ['key4','key3']
 ```
 
-You can find more in our github demo page https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html
+You can find more in our github demo page https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/tree/main/Examples_GridJs_Python_Net/wwwroot/xspread/index.html
 
 
  
