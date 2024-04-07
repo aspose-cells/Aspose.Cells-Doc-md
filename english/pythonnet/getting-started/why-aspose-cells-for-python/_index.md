@@ -9,6 +9,13 @@ keywords: Python Excel, Excel Python, Excel Python via NET, Python via NET Excel
 
 ## **Possible Usage Scenarios**
 When you need to compare which product is best for your solution, there are many criteria to evaluate, but the main focus will often be the functionality and effort required to use the product. If you are looking for a faster, simpler, and lighter file format library to process files, then you might want to compare Aspose.Cells for Python via NET and other excel python libraries. Then you will be able to notice that in fact these products do not compete, but solve slightly different user tasks.
+<br>
+By comparing the three strongest Python libraries (**pandas**, **xlwings**, and **Aspose.Cells for Python via NET**) for reading data from Excel file, writing data to Excel file and adding chart to Excel file. You can discover the ease of use, high performance, and other unique advantages of the **Aspose.Cells for Python via NET** library.
+<ul>
+<li><a href="#read-data-from-excel-file">Read data from Excel file using xlwings, pandas and Aspose.Cells python excel library</a></li>
+<li><a href="#write-data-to-excel-file">Write data to Excel file using xlwings, pandas and Aspose.Cells python excel library</a></li>
+<li><a href="#add-chart-to-excel-file">Add chart to Excel file using xlwings, pandas and Aspose.Cells python excel library</a></li>
+</ul>
 
 ## **Comparison of Multiple Excel Libraries in Python**
 Let's first take a look at the comparison of ten libraries in Python that can operate Excel files.
