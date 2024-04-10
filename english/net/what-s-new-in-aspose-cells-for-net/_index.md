@@ -8,7 +8,7 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
-## Aspose.Cells for .NET 24.3
+## Aspose.Cells for .NET 24.4
 * Provide simple implementations of interrupt monitor for user's convenience
 * Support to embed attachments when converting OLE Object to pdf
 * Support to render auto shape of ChartX to image

@@ -8,6 +8,13 @@ url: /java/what-s-new-in-aspose-cells-for-java/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for Java 24.4
+* Provide simple implementations of interrupt monitor for user's convenience
+* Support to embed attachments when converting OLE Object to pdf
+* Support to render auto shape of ChartX to image
+* Support to embed image into cell("Place in Cell" operation for picture in ms excel)
+* Enhancements for importing Numbers file: merged cells, hidden rows/columns, ...etc.
+
 ## Aspose.Cells for Java 24.3
 * Support to import AZW3 file
 * Support to save ods with odf 1.3 standard
