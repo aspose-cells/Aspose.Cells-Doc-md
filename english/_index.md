@@ -3,6 +3,8 @@ title: Aspose.Cells Product Family
 type: docs
 weight: 10
 url: /
+description: Aspose.Cells is a class library that can be used by developers for various platforms for a variety of excel processing tasks.
+keywords: Aspose.Cells Create repair parse merge convert JSON Excel XML PDF HTML TSV SQL TXT PNG JPEG and more formats, Python Excel, Java Excel, C# Excel, PHP Excel, CPP Excel, Nodejs Excel, Android Excel. 
 ---
 
 {{% alert color="primary" %}}
