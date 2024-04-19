@@ -2,7 +2,9 @@
 title: How to use FormulaBar with Aspose.Cells.GridDesktop
 type: docs
 weight: 20
-url: /net/how-to-use-formulabar-with-aspose-cells-griddesktop/
+url: /net/aspose-cells-griddesktop/how-to-use-formulabar-with-aspose-cells-griddesktop/
+keywords: formulabar
+description: This article introduce the use of formulabar in GridDesktop.
 ---
 
 ## **Using FormulaBar with Aspose.Cells.GridDesktop**

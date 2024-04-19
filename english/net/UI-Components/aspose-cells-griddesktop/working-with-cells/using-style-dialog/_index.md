@@ -1,8 +1,10 @@
 ---
-title: Using Style Dialog
+title: Use Style Dialog
 type: docs
 weight: 70
-url: /net/using-style-dialog/
+url: /net/aspose-cells-griddesktop/use-style-dialog/
+keywords: GridDesktop,style dialog,style
+description: This article introduces the Style Dialog in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

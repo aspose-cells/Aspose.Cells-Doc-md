@@ -2,7 +2,9 @@
 title: Render PivotTable in GridDesktop
 type: docs
 weight: 10
-url: /net/render-pivottable-in-griddesktop/
+url: /net/aspose-cells-griddesktop/render-pivottable-in-griddesktop/
+keywords: GridDesktop,pivot tables,pivot,render pivot table,
+description: This article introduces the use of pivot tables in GridDesktop.
 ---
 
 ## **Possible Usage Scenarios**

@@ -2,7 +2,9 @@
 title: Exporting Data from Grid
 type: docs
 weight: 60
-url: /net/exporting-data-from-grid/
+url: /net/aspose-cells-griddesktop/export-data-from-grid/
+keywords: GridDesktop,export,data,export data
+description: This article introduces how to export data in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

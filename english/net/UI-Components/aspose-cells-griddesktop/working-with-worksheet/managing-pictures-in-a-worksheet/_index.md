@@ -2,7 +2,9 @@
 title: Managing Pictures in a Worksheet
 type: docs
 weight: 100
-url: /net/managing-pictures-in-a-worksheet/
+url: /net/aspose-cells-griddesktop/manage-pictures-in-a-worksheet/
+keywords: GridDesktop,picture,pictures
+description: This article introduces how to work with picture in worksheet in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

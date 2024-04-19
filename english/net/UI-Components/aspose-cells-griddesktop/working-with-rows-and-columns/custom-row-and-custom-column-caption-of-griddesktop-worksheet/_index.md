@@ -2,7 +2,9 @@
 title: Custom Row and Custom Column Caption of GridDesktop Worksheet
 type: docs
 weight: 120
-url: /net/custom-row-and-custom-column-caption-of-griddesktop-worksheet/
+url: /net/aspose-cells-griddesktop/custom-row-and-custom-column-caption-of-griddesktop-worksheet/
+keywords: GridDesktop,caption,row,column
+description: This article introduces how to custom row/column caption in GridDesktop.
 ---
 
 ## **Possible Usage Scenarios**

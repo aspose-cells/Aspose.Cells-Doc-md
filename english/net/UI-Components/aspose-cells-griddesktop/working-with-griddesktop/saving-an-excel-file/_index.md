@@ -2,7 +2,9 @@
 title: Saving an Excel File
 type: docs
 weight: 20
-url: /net/saving-an-excel-file/
+url: /net/aspose-cells-griddesktop/save-an-excel-file/
+keywords: GridDesktop,save,file
+description: This article introduces how to save file in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

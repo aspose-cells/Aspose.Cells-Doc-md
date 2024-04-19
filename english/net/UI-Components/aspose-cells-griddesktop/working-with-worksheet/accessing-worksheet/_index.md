@@ -2,7 +2,9 @@
 title: Accessing Worksheet
 type: docs
 weight: 10
-url: /net/accessing-worksheet/
+url: /net/aspose-cells-griddesktop/access-worksheet/
+keywords: GridDesktop,worksheet
+description: This article introduces how to work with worksheet in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

@@ -2,7 +2,9 @@
 title: Formatting a Range of Cells
 type: docs
 weight: 60
-url: /net/formatting-a-range-of-cells/
+url: /net/aspose-cells-griddesktop/formatting-a-range-of-cells/
+keywords: GridDesktop,format,style,cells
+description: This article introduces how to apply style format on cells in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

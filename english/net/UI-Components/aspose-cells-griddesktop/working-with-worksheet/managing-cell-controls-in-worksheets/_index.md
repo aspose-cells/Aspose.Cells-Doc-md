@@ -2,7 +2,9 @@
 title: Managing Cell Controls in Worksheets
 type: docs
 weight: 130
-url: /net/managing-cell-controls-in-worksheets/
+url: /net/aspose-cells-griddesktop/manage-cell-controls-in-worksheets/
+keywords: GridDesktop,cell control,control,controls
+description: This article introduces how to work with cell controls in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

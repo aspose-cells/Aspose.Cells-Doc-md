@@ -2,7 +2,9 @@
 title: Moving Worksheets
 type: docs
 weight: 150
-url: /net/moving-worksheets/
+url: /net/aspose-cells-griddesktop/move-worksheets/
+keywords: GridDesktop,move,worksheet
+description: This article introduces how to work with worksheet in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

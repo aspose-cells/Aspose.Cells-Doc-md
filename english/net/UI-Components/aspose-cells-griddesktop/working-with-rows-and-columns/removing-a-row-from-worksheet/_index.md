@@ -2,7 +2,9 @@
 title: Removing a Row from Worksheet
 type: docs
 weight: 40
-url: /net/removing-a-row-from-worksheet/
+url: /net/aspose-cells-griddesktop/remove-a-row-from-worksheet/
+keywords: GridDesktop,remove,row
+description: This article introduces how to remove row in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

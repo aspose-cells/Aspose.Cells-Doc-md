@@ -2,7 +2,9 @@
 title: Adding or Inserting a Row into Worksheet
 type: docs
 weight: 30
-url: /net/adding-or-inserting-a-row-into-worksheet/
+url: /net/aspose-cells-griddesktop/add-or-insert-a-row-into-worksheet/
+keywords: GridDesktop,insert,add,row,insert row,add row
+description: This article introduces how to add or insert row in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

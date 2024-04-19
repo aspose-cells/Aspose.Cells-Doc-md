@@ -2,8 +2,9 @@
 title: custom localization
 type: docs
 weight: 40
-url: /net/griddesktop-localization/
-keywords: custom,localization,translation,globalization
+url: /net/aspose-cells-griddesktop/griddesktop-localization/
+keywords: GridDesktop,custom,localization,translation,globalization
+description: This article introduces how to customize localization in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

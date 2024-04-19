@@ -1,13 +1,15 @@
 ---
-title: Adding Formulas to Cells
+title: Adding Formula to cell
 type: docs
 weight: 30
-url: /net/adding-formulas-to-cells/
+url: /net/aspose-cells-griddesktop/adding-formula-to-cell/
+keywords: GridDesktop,formula
+description: This article introduces how to get or set formula  in the cell in the Worksheet in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 
 
-A cell cannot only just contain a simple value like a numeric figure or some text but we can also insert a formula in a cell as its value. A formula is used in a cell when the value of a cell needs to be determined after some calculations. In this topic, we will discuss that how can we access and modify a formula applied on a cell.
+A cell can contain not only a simple value like a numeric figure or some text, but also a formula as its value. A formula is used in a cell when the cell's value needs to be determined after some calculations. In this topic, we will discuss how to access and modify a formula applied to a cell.
 
 {{% /alert %}} 
 ## **Adding Formula to a Cell**

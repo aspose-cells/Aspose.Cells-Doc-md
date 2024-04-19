@@ -2,7 +2,9 @@
 title: Display and Hide Scroll Bars
 type: docs
 weight: 140
-url: /net/display-and-hide-scroll-bars/
+url: /net/aspose-cells-griddesktop/display-and-hide-scroll-bars/
+keywords: GridDesktop,show,hide,scroll,scroll bar
+description: This article introduces how to show or hide the scroll bar in GridDesktop.
 ---
 
 {{% alert color="primary" %}}

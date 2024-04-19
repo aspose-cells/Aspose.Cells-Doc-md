@@ -1,13 +1,15 @@
 ---
-title: Changing the Font and Color of a Cell
+title: Change Font and Color of a Cell
 type: docs
 weight: 40
-url: /net/changing-the-font-and-color-of-a-cell/
+url: /net/aspose-cells-griddesktop/change-the-font-and-color-of-a-cell/
+keywords: GridDesktop,font,color,change font,change color
+description: This article introduces how to update font and color in the cell in the Worksheet in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 
 
-In this topic, we will discuss about changing the font and font color of a cell. This feature provides more in depth control of worksheets to developers. Using this feature, developers can customize the font and color of any desired cell.
+In this topic, we will discuss about changing the font and font color of a cell in GridDesktop. This feature provides more in depth control of worksheets to developers. Using this feature, developers can customize the font and color of any desired cell.
 
 {{% /alert %}} 
 ## **Changing the Font & Color of a Cell**

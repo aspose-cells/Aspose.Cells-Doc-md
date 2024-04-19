@@ -1,13 +1,15 @@
 ---
-title: Adding Cell Protection in Worksheet
+title: Add Protection in Worksheet
 type: docs
 weight: 130
-url: /net/adding-cell-protection-in-worksheet/
+url: /net/aspose-cells-griddesktop/adding-cell-protection-in-worksheet/
+keywords: GridDesktop,protect
+description: This article introduces how to protect cells in the Worksheet in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells for GridDesktop allows you to protect your cells in a worksheet. You first need to protect your worksheet, then you can protect your desired cells in a worksheet. In order to protect worksheet, please set **Worksheet.Protected** property to true, then use **Worksheet.SetProtected()** method to protect the range of cells.
+Aspose.Cells for GridDesktop allows you to protect cells in a worksheet.First you need to protect your worksheet, then you can protect your desired cells in the worksheet. In order to protect worksheet, please set **Worksheet.Protected** property to true, then use **Worksheet.SetProtected()** method to protect the range of cells.
 
 {{% /alert %}} 
 ## **Protect Cell using Aspose.Cells.GridDesktop**

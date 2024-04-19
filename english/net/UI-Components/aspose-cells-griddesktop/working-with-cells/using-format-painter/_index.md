@@ -1,8 +1,10 @@
 ---
-title: Using Format Painter
+title: Use Format Painter
 type: docs
 weight: 80
-url: /net/using-format-painter/
+url: /net/aspose-cells-griddesktop/use-format-painter/
+keywords: GridDesktop,format painter
+description: This article introduces the format painter in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

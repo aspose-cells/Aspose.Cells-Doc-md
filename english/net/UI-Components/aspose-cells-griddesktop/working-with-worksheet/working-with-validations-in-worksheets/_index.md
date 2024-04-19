@@ -2,7 +2,9 @@
 title: Working with Validations in Worksheets
 type: docs
 weight: 70
-url: /net/working-with-validations-in-worksheets/
+url: /net/aspose-cells-griddesktop/work-with-validations-in-worksheets/
+keywords: GridDesktop,validations,validation
+description: This article introduces how to work with validation in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

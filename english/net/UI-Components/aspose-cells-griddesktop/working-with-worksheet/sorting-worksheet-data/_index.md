@@ -2,7 +2,9 @@
 title: Sorting Worksheet Data
 type: docs
 weight: 80
-url: /net/sorting-worksheet-data/
+url: /net/aspose-cells-griddesktop/sorting-worksheet-data/
+keywords: GridDesktop,sort,sorting,sort data,data sorting
+description: This article introduces how to sort data in worksheet in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

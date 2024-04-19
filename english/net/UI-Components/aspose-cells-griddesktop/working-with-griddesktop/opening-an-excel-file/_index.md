@@ -2,7 +2,9 @@
 title: Opening an Excel File
 type: docs
 weight: 10
-url: /net/opening-an-excel-file/
+url: /net/aspose-cells-griddesktop/openg-an-excel-file/
+keywords: GridDesktop,open,file
+description: This article introduces how to open file in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

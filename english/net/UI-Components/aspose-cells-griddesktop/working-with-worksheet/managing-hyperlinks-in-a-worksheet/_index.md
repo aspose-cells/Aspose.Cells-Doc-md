@@ -2,7 +2,9 @@
 title: Managing Hyperlinks in a Worksheet
 type: docs
 weight: 90
-url: /net/managing-hyperlinks-in-a-worksheet/
+url: /net/aspose-cells-griddesktop/manage-hyperlinks-in-a-worksheet/
+keywords: GridDesktop,hyper,link,hyperlink,hyperlinks
+description: This article introduces how to work with hyperlink in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

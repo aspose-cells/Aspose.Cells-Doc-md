@@ -2,11 +2,13 @@
 title: List of Supported Functions
 type: docs
 weight: 10
-url: /net/list-of-supported-functions/
+url: /net/aspose-cells-griddesktop/list-of-supported-functions/
+keywords: GridDesktop,functions,formula
+description: This article introduces the supported functions in GridDesktop.
 ---
 
 ## **Introduction**
-There are a lot of built-in functions supported by Aspose.Cells Grid Controls. These functions belong to following categories:
+There are a lot of built-in functions supported by Aspose.Cells.GridDesktop Control. These functions belong to following categories:
 
 - **Math Functions** , provides a huge set of functions that can be used in numerous mathematical calculations
 - **Text and Data Functions** , provides various functions to perform different kinds of operations on text and data

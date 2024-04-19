@@ -2,7 +2,9 @@
 title: Working with Aspose.Cells.GridDesktop Events
 type: docs
 weight: 30
-url: /net/working-with-aspose-cells-griddesktop-events/
+url: /net/aspose-cells-griddesktop/work-with-aspose-cells-griddesktop-events/
+keywords: GridDesktop,event,events
+description: This article introduces how to use events in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

@@ -2,7 +2,9 @@
 title: Remove a Worksheet
 type: docs
 weight: 30
-url: /net/remove-a-worksheet/
+url: /net/aspose-cells-griddesktop/remove-a-worksheet/
+keywords: GridDesktop,remove,worksheet
+description: This article introduces how to remove worksheet in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

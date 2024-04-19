@@ -1,8 +1,10 @@
 ---
-title: Handling Events after Deleting Columns and Rows in GridDesktop
+title: Handling Events after Delete Columns and Rows in GridDesktop
 type: docs
 weight: 80
-url: /net/handling-events-after-deleting-columns-and-rows-in-griddesktop/
+url: /net/aspose-cells-griddesktop/handle-events-after-delete-columns-and-rows-in-griddesktop/
+keywords: GridDesktop,events,delete row,delete column
+description: This article introduces the events after delete row/column in GridDesktop.
 ---
 
 ## **Possible Usage Scenarios**

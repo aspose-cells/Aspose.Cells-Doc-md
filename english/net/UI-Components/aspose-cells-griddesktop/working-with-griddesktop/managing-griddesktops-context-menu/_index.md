@@ -2,7 +2,9 @@
 title: Managing GridDesktops Context Menu
 type: docs
 weight: 40
-url: /net/managing-griddesktops-context-menu/
+url: /net/aspose-cells-griddesktop/manage-griddesktops-context-menu/
+keywords: GridDesktop,context,context menu
+description: This article introduces how to customize context menu in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

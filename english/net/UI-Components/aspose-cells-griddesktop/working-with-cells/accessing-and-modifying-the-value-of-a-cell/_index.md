@@ -2,7 +2,9 @@
 title: Accessing  and  Modifying the Value of a Cell
 type: docs
 weight: 20
-url: /net/accessing-and-modifying-the-value-of-a-cell/
+url: /net/aspose-cells-griddesktop/accessing-and-modifying-the-value-of-a-cell/
+keywords: GridDesktop,cell,modify cell,get cell,modify cell value,get cell value
+description: This article introduces how to get and modify cell value in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

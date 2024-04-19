@@ -1,8 +1,10 @@
 ---
-title: Using Named Ranges
+title: Use Named Ranges
 type: docs
 weight: 110
-url: /net/using-named-ranges/
+url: /net/aspose-cells-griddesktop/use-named-ranges/
+keywords: GridDesktop,named ranges,names
+description: This article introduces the named ranges in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

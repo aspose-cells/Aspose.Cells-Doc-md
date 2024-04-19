@@ -1,8 +1,10 @@
 ---
-title: Using Undo and Redo Feature
+title: Use Undo and Redo Feature
 type: docs
 weight: 120
-url: /net/using-undo-and-redo-feature/
+url: /net/aspose-cells-griddesktop/use-undo-and-redo-feature/
+keywords: GridDesktop,undo,redo
+description: This article introduces undo and redo feature in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

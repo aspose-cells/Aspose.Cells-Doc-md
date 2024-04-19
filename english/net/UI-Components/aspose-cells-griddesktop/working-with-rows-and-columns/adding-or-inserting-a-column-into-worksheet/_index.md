@@ -2,7 +2,9 @@
 title: Adding or Inserting a Column into Worksheet
 type: docs
 weight: 10
-url: /net/adding-or-inserting-a-column-into-worksheet/
+url: /net/aspose-cells-griddesktop/add-or-insert-a-column-into-worksheet/
+keywords: GridDesktop,insert,add,column,insert column,insert row
+description: This article introduces how to insert or add column in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

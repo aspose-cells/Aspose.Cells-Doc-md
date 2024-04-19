@@ -2,7 +2,9 @@
 title: Adding Cell Controls in Columns
 type: docs
 weight: 90
-url: /net/adding-cell-controls-in-columns/
+url: /net/aspose-cells-griddesktop/add-cell-controls-in-columns/
+keywords: GridDesktop,add,control,controls
+description: This article introduces how to add control in column in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

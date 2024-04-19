@@ -2,7 +2,7 @@
 title: Working with Worksheet
 type: docs
 weight: 40
-url: /net/working-with-worksheet/
+url: /net/aspose-cells-griddesktop/working-with-worksheet/
 ---
 
 

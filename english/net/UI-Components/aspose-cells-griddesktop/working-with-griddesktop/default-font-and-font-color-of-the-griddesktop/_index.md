@@ -2,7 +2,9 @@
 title: Default Font and Font Color of the GridDesktop
 type: docs
 weight: 70
-url: /net/default-font-and-font-color-of-the-griddesktop/
+url: /net/aspose-cells-griddesktop/default-font-and-font-color-of-the-griddesktop/
+keywords: GridDesktop,font,color
+description: This article introduces the default font and font color in GridDesktop.
 ---
 
 ## **Possible Usage Scenarios**

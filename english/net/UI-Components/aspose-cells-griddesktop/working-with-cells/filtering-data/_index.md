@@ -2,7 +2,9 @@
 title: Filtering Data
 type: docs
 weight: 100
-url: /net/filtering-data/
+url: /net/aspose-cells-griddesktop/filtering-data/
+keywords: GridDesktop,filter,filter data,AutoFilter,RowFilterr
+description: This article introduces how to filter data in the Worksheet in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

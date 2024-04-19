@@ -1,17 +1,19 @@
 ---
-title: Merging and Unmerging Cells in GridDesktop
+title: Merge and Unmerge Cells in GridDesktop
 linktitle: Merging and Unmerging Cells
 type: docs
 weight: 90
-url: /net/merging-and-unmerging-cells-griddesktop/
+url: /net/aspose-cells-griddesktop/merge-and-unmerge-cells-griddesktop/
+keywords: GridDesktop,merge,unmerge
+description: This article introduces merge and unmerge in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 
 
-In this topic, we will discuss a utility feature of merging and unmerging cells of a worksheet. This feature is useful in those cases when we need to span some rows or columns to enhance the readability of data.
+In this topic, we will discuss a utility feature of merge and unmerge cells of a worksheet. This feature is useful in those cases when we need to span some rows or columns to enhance the readability of data.
 
 {{% /alert %}} 
-## **Merging Cells**
+## **Merge Cells**
 To merge cells into a single large cell, please follow the steps below:
 
 - Access any desired **Worksheet**
@@ -23,7 +25,7 @@ You can use **Merge** method of **Worksheet** to merge cells. However, a range o
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-MergingAndUnMergingCells-MergeCells.cs" >}}
-## **Unmerging Cells**
+## **Unmerge Cells**
 To unmerge a large cell into many cells, please follow the steps below:
 
 - Access any desired **Worksheet**

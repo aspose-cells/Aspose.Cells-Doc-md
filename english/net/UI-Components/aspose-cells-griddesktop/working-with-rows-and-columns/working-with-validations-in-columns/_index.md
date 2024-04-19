@@ -2,7 +2,9 @@
 title: Working with Validations in Columns
 type: docs
 weight: 80
-url: /net/working-with-validations-in-columns/
+url: /net/aspose-cells-griddesktop/work-with-validations-in-columns/
+keywords: GridDesktop,validation,validations
+description: This article introduces how to use validations in columns in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

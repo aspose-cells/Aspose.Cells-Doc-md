@@ -2,7 +2,9 @@
 title: Text overflows from GridDesktop cell if it is too long
 type: docs
 weight: 140
-url: /net/text-overflows-from-griddesktop-cell-if-it-is-too-long/
+url: /net/aspose-cells-griddesktop/text-overflows-from-griddesktop-cell-if-it-is-too-long/
+keywords: GridDesktop,overflow
+description: This article introduces the text overflow in GridDesktop.
 ---
 
 ## **Possible Usage Scenarios**

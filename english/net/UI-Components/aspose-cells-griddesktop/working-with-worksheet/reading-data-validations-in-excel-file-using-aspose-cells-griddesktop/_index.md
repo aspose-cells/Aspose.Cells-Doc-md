@@ -2,7 +2,9 @@
 title: Reading Data Validations in Excel file using Aspose.Cells.GridDesktop
 type: docs
 weight: 170
-url: /net/reading-data-validations-in-excel-file-using-aspose-cells-griddesktop/
+url: /net/aspose-cells-griddesktop/read-data-validations-in-excel-file-using-aspose-cells-griddesktop/
+keywords: GridDesktop,get,validation,validations
+description: This article introduces how to work with validation in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

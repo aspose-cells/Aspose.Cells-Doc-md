@@ -2,7 +2,9 @@
 title: Managing Cell Controls in Columns
 type: docs
 weight: 100
-url: /net/managing-cell-controls-in-columns/
+url: /net/aspose-cells-griddesktop/manage-cell-controls-in-columns/
+keywords: GridDesktop,controls,control
+description: This article introduces how to set control in column GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

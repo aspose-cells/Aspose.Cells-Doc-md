@@ -1,13 +1,15 @@
 ---
-title: Applying Styles on Cells
+title: Apply Style on cell
 type: docs
 weight: 50
-url: /net/applying-styles-on-cells/
+url: /net/aspose-cells-griddesktop/apply-style-on-cell/
+keywords: GridDesktop,format,style,number formats,number format,NumberFormat
+description: This article introduces how to get or set style format  in the cell in the Worksheet in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 
 
-This topic deals with applying styles on cells so, we will try to cover almost everything that can be used to apply style on a cell. Besides some basic formatting settings, we will also discuss about drawing borders and setting number format of cells in detail.
+This topic deals with applying style format on a cell , we will cover almost every related properties that can be used to apply style on a cell. Besides some basic formatting settings, we will also discuss about drawing borders and setting number format on the cell in detail.
 
 {{% /alert %}} 
 ## **Applying a Custom Style on a Cell - An Example**
@@ -54,7 +56,7 @@ A border is composed of a line. Changing the type of line, changes the appearanc
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-ApplyStyleOnCells-SummingUp.cs" >}}
 ## **Setting Number Formats**
-Aspose.Cells.GridDesktop also provides a strong feature of setting number formats for the values entered into cells. There are 58 built-in number formats offered by Aspose.Cells.GridDesktop. To see a complete list of all supported number formats, please refer to [Supported Number Formats.](/cells/net/list-of-supported-number-formats/)
+Aspose.Cells.GridDesktop also provides kinds of  number formats setting. There are 58 built-in number formats offered by Aspose.Cells.GridDesktop. To see a complete list of all supported number formats, please refer to [Supported Number Formats.](/cells/net/list-of-supported-number-formats/)
 
 All built-in number formats are assigned an **Index** number. **For example** the **Index** number of **0.00E+00** number format is **11** . To use a built-in number format in any cell, developers can set the NumberFormat property of **Style** object to the **Index** number of that specific number format. However,if developers need to have their own custom number format then they can also use Custom property of **Style** object.
 

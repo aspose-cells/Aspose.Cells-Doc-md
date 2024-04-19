@@ -2,7 +2,9 @@
 title: Importing Data from a DataTable to Grid
 type: docs
 weight: 50
-url: /net/importing-data-from-a-datatable-to-grid/
+url: /net/aspose-cells-griddesktop/import-data-from-a-datatable-to-grid/
+keywords: GridDesktop,import,data,datatable
+description: This article introduces how to import data in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

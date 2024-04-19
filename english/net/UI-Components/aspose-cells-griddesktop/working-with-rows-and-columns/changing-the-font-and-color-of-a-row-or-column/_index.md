@@ -2,7 +2,9 @@
 title: Changing the Font and Color of a Row or Column
 type: docs
 weight: 110
-url: /net/changing-the-font-and-color-of-a-row-or-column/
+url: /net/aspose-cells-griddesktop/change-the-font-and-color-of-a-row-or-column/
+keywords: GridDesktop,font,color
+description: This article introduces how to change the font and color in row or column in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

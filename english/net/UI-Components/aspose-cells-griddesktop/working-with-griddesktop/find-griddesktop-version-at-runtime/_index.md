@@ -2,7 +2,9 @@
 title: Find GridDesktop Version at Runtime
 type: docs
 weight: 60
-url: /net/find-griddesktop-version-at-runtime/
+url: /net/aspose-cells-griddesktop/find-griddesktop-version-at-runtime/
+keywords: GridDesktop,version
+description: This article introduces how to get version in GridDesktop.
 ---
 
 ## **Possible Usage Scenarios**

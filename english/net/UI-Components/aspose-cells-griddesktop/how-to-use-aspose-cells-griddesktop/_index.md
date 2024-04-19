@@ -2,7 +2,9 @@
 title: How to Use Aspose.Cells.GridDesktop
 type: docs
 weight: 10
-url: /net/how-to-use-aspose-cells-griddesktop/
+url: /net/aspose-cells-griddesktop/how-to-use-aspose-cells-griddesktop/
+keywords: GridDesktop
+description: This article introduce the use of GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

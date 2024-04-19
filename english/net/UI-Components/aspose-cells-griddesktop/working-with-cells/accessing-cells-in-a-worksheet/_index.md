@@ -1,8 +1,10 @@
 ---
-title: Accessing Cells in a Worksheet
+title: Access GridCell in a Worksheet
 type: docs
 weight: 10
-url: /net/accessing-cells-in-a-worksheet/
+url: /net/aspose-cells-griddesktop/access-cell-in-a-worksheet/
+keywords: GridDesktop,GridCell,get cell
+description: This article introduces how to get cell object (GridCell) in the Worksheet in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 
@@ -10,11 +12,11 @@ url: /net/accessing-cells-in-a-worksheet/
 We have discussed about working with worksheets, rows and columns so far but this is the time to go more deeper and talk about cells. So, in this topic, we would start our discussion about cells with a basic feature of accessing cells.
 
 {{% /alert %}} 
-## **Accessing Cells in a Worksheet**
-We can access any cell of a worksheet using the API of Aspose.Cells.GridDesktop. There could be three possible ways to access cells as follows:
+## **Accessing Cell in a Worksheet**
+We can access any cell of a worksheet using the API of Aspose.Cells.GridDesktop. There could be three possible ways to access cell as follows:
 
 - **Using Cell Name**
-- **Using Cell's Row & Column Indices**
+- **Using Row & Column Indices**
 - **Getting Focused Cell**
 
 Let's discuss all above three approaches one by one.

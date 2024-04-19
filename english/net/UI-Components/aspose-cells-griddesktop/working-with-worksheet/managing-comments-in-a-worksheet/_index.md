@@ -2,7 +2,9 @@
 title: Managing Comments in a Worksheet
 type: docs
 weight: 110
-url: /net/managing-comments-in-a-worksheet/
+url: /net/aspose-cells-griddesktop/manage-comments-in-a-worksheet/
+keywords: GridDesktop,commment,commments
+description: This article introduces how to work with comment in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 
