@@ -2,7 +2,9 @@
 title: Access Hyperlink object of the GridWeb Cell
 type: docs
 weight: 100
-url: /net/access-hyperlink-object-of-the-gridweb-cell/
+url: /net/aspose-cells-gridweb/access-hyperlink-object-of-the-gridweb-cell/
+keywords: GridWeb,hyperlink
+description: This article introduces how to work with hyperlink in GridWeb.
 ---
 
 ## **Possible Usage Scenarios**

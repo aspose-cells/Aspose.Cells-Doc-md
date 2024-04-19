@@ -2,7 +2,9 @@
 title: Import Microsoft Excel File
 type: docs
 weight: 40
-url: /net/import-microsoft-excel-file/
+url: /net/aspose-cells-gridweb/import-microsoft-excel-file/
+keywords: GridWeb,import
+description: This article introduces how to import file in GridWeb.
 ---
 
 {{% alert color="primary" %}} 
@@ -20,7 +22,7 @@ To open an Excel file using Aspose.Cells.GridWeb control:
 
 {{% alert color="primary" %}} 
 
-If you don't know how to add the control to a web form, refer to [Add GridWeb to Web Form](/cells/net/add-gridweb-to-web-form/).
+If you don't know how to add the control to a web form, refer to [Add GridWeb to Web Form](/cells/net/aspose-cells-gridweb/add-gridweb-to-web-form/).
 
 {{% /alert %}} 
 

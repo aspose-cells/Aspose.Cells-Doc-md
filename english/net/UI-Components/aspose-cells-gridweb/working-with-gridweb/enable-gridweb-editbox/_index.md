@@ -2,12 +2,14 @@
 title: Enable GridWeb EditBox
 type: docs
 weight: 110
-url: /net/enable-gridweb-editbox/
+url: /net/aspose-cells-gridweb/enable-gridweb-editbox/
+keywords: GridWeb,editbox,formula bar
+description: This article introduces how to work with formula bar or edit box  in GridWeb.
 ---
 
 {{% alert color="primary" %}} 
 
-The GridWeb's Edit Box is a toolbar that is rendered at the top of control that you can use to see/enter or copy data/formula into cells. It also shows the cell's name which you are editing. After clicking the frame or when you start writing data or type an equal (=) symbol, the Edit Box will be activated.
+The GridWeb's Edit Box (in Excel called formula bar) is a toolbar that is rendered at the top of control that you can use it to display or enter value or copy data/formula for the focused cell. It also shows the cell's name which you are editing. After clicking the frame or when you start writing data or type an equal (=) symbol, the Edit Box will be activated.
 
 {{% /alert %}} 
 ## **Setting the Edit Box of Aspose.Cells.GridWeb**

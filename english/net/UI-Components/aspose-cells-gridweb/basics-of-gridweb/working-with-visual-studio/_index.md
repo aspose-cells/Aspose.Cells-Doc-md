@@ -2,7 +2,9 @@
 title: Working with Visual Studio
 type: docs
 weight: 20
-url: /net/working-with-visual-studio/
+url: /net/aspose-cells-gridweb/work-with-visual-studio/
+keywords: GridWeb,visualstudio
+description: This article introduces how to use GridWeb in visual studio.
 ---
 
 {{% alert color="primary" %}} 
@@ -98,7 +100,7 @@ You can simply add Aspose.Cells.GridWeb (or GridWeb) control to a web page by dr
 
 {{% alert color="primary" %}} 
 
-If you don't know about how to add Aspose.Cells.GridWeb to the toolbox, refer to [Integrate Aspose.Cells Grid Controls with Visual Studio.NET](/cells/net/integrate-aspose-cells-grid-controls-with-visual-studio-net/). 
+If you don't know about how to add Aspose.Cells.GridWeb to the toolbox, refer to [Integrate Aspose.Cells Grid Controls with Visual Studio.NET](/cells/net/aspose-cells-gridweb/integrate-aspose-cells-grid-controls-with-visual-studio-net/). 
 
 {{% /alert %}} 
 

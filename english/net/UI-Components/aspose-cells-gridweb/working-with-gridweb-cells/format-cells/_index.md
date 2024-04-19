@@ -1,8 +1,10 @@
 ---
-title: Format Cells
+title: Format Cell
 type: docs
 weight: 40
-url: /net/format-grid-cells/
+url: /net/aspose-cells-gridweb/format-grid-cell/
+keywords: GridWeb,format,style
+description: This article introduces how to set or apply style format for a cell (GridCell) in GridWeb.
 ---
 
 {{% alert color="primary" %}} 
@@ -13,7 +15,7 @@ It covers formatting cells in GUI mode using the Aspose.Cells.GridWeb control's 
 
 {{% /alert %}} 
 ## **Formatting Cells Using the Style Dialog**
-Cells can be formatted [programmatically](/cells/net/format-cells/) but the easiest way to format cells in the Aspose.Cells.GridWeb control in a WYSIWYG way, is using the Style dialog.
+Cells can be formatted [programmatically](/cells/net/aspose-cells-gridweb/format-cells/) but the easiest way to format cells in the Aspose.Cells.GridWeb control in a WYSIWYG way, is using the Style dialog.
 
 To use the Style dialog:
 Select a range of cells then right-click and select **Format Cell**. 
@@ -144,7 +146,7 @@ To set borders on a range of cells:
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-FormatCells.aspx-ApplyRangeBorderStyles.cs" >}}
 ### **Setting Number Formats**
-Aspose.Cells.GridWeb supports setting number formats. There are 59 built-in number formats. To see them, please refer to this [list of supported number formats](/cells/net/list-of-supported-number-formats/).
+Aspose.Cells.GridWeb supports setting number formats. There are 59 built-in number formats. To see them, please refer to this [list of supported number formats](/cells/net/aspose-cells-gridweb/list-of-supported-number-formats/).
 
 All built-in number formats are in the NumberType enumeration. To use a built-in number format, set the NumberType using SetNumberType method of a cell's object to a number format from the NumberType enumeration.
 

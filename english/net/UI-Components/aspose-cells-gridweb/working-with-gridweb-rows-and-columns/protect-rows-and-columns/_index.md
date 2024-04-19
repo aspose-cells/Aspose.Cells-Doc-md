@@ -2,7 +2,9 @@
 title: Protect Rows and Columns
 type: docs
 weight: 60
-url: /net/protect-rows-and-columns/
+url: /net/aspose-cells-gridweb/protect-rows-and-columns/
+keywords: GridWeb,protect
+description: This article introduces how to protect rows and columns in GridWeb.
 ---
 
 {{% alert color="primary" %}} 

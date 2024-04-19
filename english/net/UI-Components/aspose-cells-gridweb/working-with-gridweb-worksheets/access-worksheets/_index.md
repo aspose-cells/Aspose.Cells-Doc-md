@@ -1,8 +1,10 @@
 ---
-title: Access Worksheets
+title: Access Worksheet
 type: docs
 weight: 10
-url: /net/access-worksheets/
+url: /net/aspose-cells-gridweb/access-worksheet/
+keywords: GridWeb,GridWorksheetCollection,GridWorksheet 
+description: This article introduces how to get worksheet (GridWorksheet) in GridWeb.
 ---
 
 {{% alert color="primary" %}} 

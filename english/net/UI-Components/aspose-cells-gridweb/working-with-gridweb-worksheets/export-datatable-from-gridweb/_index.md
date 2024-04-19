@@ -2,12 +2,14 @@
 title: Export DataTable from GridWeb
 type: docs
 weight: 70
-url: /net/export-datatable-from-gridweb/
+url: /net/aspose-cells-gridweb/export-datatable-from-gridweb/
+keywords: GridWeb,export
+description: This article introduces how to export datatable in GridWeb.
 ---
 
 {{% alert color="primary" %}} 
 
-[Import DataView to GridWeb](/cells/net/import-dataview-to-gridweb/) talked about importing the contents of a DataView to the Aspose.Cells.GridWeb control. This topic discusses exporting the data in from the Aspose.Cells.GridWeb control to a DataTable.
+[Import DataView to GridWeb](/cells/net/aspose-cells-gridweb/import-dataview-to-gridweb/) talked about importing the contents of a DataView to the Aspose.Cells.GridWeb control. This topic discusses exporting the data in from the Aspose.Cells.GridWeb control to a DataTable.
 
 {{% /alert %}} 
 ## **Exporting Worksheet Data**

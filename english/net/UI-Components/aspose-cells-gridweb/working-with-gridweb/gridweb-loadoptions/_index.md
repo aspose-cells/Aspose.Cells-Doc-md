@@ -2,15 +2,16 @@
 title: LoadOptions for GridWeb
 type: docs
 weight: 90
-url: /net/aspose-cells-gridweb/loadoptions/
-keywords: loadoption,loadoptions,setting,
+url: /net/aspose-cells-gridweb/aspose-cells-gridweb/loadoptions/
+keywords: loadoption,loadoptions,setting,load,options,option
+description: This article introduces how to work with load options in GridWeb.
 ---
 
 {{% alert color="primary" %}} 
 
 There are some loadoptions we can set before import the file.
 
-we can use [GridLoadOptions](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridloadoptions/) (for general file) and [GridTxtLoadOptions](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridtxtloadoptions/) (for csv file)	
+we can use [GridLoadOptions](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridloadoptions/) (for general file) and [GridTxtLoadOptions](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridtxtloadoptions/) (for csv file)	
  
 {{% /alert %}} 
 ## **load with other encode **

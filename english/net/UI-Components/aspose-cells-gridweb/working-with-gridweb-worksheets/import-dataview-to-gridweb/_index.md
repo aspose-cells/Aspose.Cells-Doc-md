@@ -2,7 +2,9 @@
 title: Import DataView to GridWeb
 type: docs
 weight: 60
-url: /net/import-dataview-to-gridweb/
+url: /net/aspose-cells-gridweb/import-dataview-to-gridweb/
+keywords: GridWeb,import
+description: This article introduces how to import data in GridWeb.
 ---
 
 {{% alert color="primary" %}} 
@@ -23,7 +25,7 @@ When data is imported from a DataView object, a new worksheet is created to hold
 
 ![todo:image_alt_text](import-dataview-to-gridweb_1.png)
 
-The widths of the columns are adjusted to show all the data they contain. When the data is imported from DataView, column widths are not adjusted automatically. Users need to adjust them by themselves. To adjust the column widths programmatically, refer to [Resize Rows and Columns](/cells/net/resize-rows-and-columns/).
+The widths of the columns are adjusted to show all the data they contain. When the data is imported from DataView, column widths are not adjusted automatically. Users need to adjust them by themselves. To adjust the column widths programmatically, refer to [Resize Rows and Columns](/cells/net/aspose-cells-gridweb/resize-rows-and-columns/).
 
 
 

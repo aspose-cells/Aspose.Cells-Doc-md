@@ -2,7 +2,9 @@
 title: How to use Aspose.Cells.GridWeb with .NET Core
 type: docs
 weight: 40
-url: /net/how-to-use-aspose-cells-gridweb-with-net-core/
+url: /net/aspose-cells-gridweb/how-to-use-aspose-cells-gridweb-with-net-core/
+keywords: GridWeb,dotnetcore
+description: This article introduces how to use GridWeb in .net core web application
 ---
 
 {{% alert color="primary" %}} 

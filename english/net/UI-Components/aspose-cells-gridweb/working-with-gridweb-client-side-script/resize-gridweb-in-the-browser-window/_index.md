@@ -2,7 +2,9 @@
 title: Resize GridWeb in the browser window
 type: docs
 weight: 40
-url: /net/resize-gridweb-in-the-browser-window/
+url: /net/aspose-cells-gridweb/resize-gridweb-in-the-browser-window/
+keywords: GridWeb,resize
+description: This article introduces how to resize in GridWeb.
 ---
 
 ## **Possible Usage Scenarios**

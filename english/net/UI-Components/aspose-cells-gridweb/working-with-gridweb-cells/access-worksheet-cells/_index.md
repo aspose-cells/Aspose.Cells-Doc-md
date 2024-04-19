@@ -1,8 +1,10 @@
 ---
-title: Access Worksheet Cells
+title: Access Worksheet Cell
 type: docs
 weight: 10
-url: /net/access-worksheet-cells/
+url: /net/aspose-cells-gridweb/access-worksheet-cell/
+keywords: GridWeb,cell,GridCell
+description: This article introduces how to get cell (GridCell) in GridWeb.
 ---
 
 {{% alert color="primary" %}} 

@@ -2,7 +2,9 @@
 title: Search and Replace in GridWeb
 type: docs
 weight: 90
-url: /net/search-and-replace-in-gridweb/
+url: /net/aspose-cells-gridweb/search-and-replace-in-gridweb/
+keywords: GridWeb,search,replace
+description: This article introduces how to search and replace in GridWeb.
 ---
 
 {{% alert color="primary" %}} 

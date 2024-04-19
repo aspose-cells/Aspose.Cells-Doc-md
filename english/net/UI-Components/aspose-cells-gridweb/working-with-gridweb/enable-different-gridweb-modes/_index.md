@@ -2,7 +2,9 @@
 title: Enable Different GridWeb Modes
 type: docs
 weight: 60
-url: /net/enable-different-gridweb-modes/
+url: /net/aspose-cells-gridweb/enable-different-gridweb-modes/
+keywords: GridWeb,EditMode,SessionMode
+description: This article introduces how to work with EditMode and SessionMode in GridWeb.
 ---
 
 {{% alert color="primary" %}} 
@@ -94,6 +96,6 @@ If you want to use SQL Server or StateServer to hold sessions, use Session mode.
 
 Please check the following article for more help.
 
-- [Working of GridWeb when ASP.NET Session state mode is SQL Server](/cells/net/working-of-gridweb-when-asp-net-session-state-mode-is-sql-server/)
+- [Working of GridWeb when ASP.NET Session state mode is SQL Server](/cells/net/aspose-cells-gridweb/working-of-gridweb-when-asp-net-session-state-mode-is-sql-server/)
 
 {{% /alert %}}

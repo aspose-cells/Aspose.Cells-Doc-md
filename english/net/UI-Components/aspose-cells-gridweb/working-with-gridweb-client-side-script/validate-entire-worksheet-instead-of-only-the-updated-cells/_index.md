@@ -2,7 +2,9 @@
 title: Validate entire worksheet instead of only the updated cells
 type: docs
 weight: 140
-url: /net/validate-entire-worksheet-instead-of-only-the-updated-cells/
+url: /net/aspose-cells-gridweb/validate-entire-worksheet-instead-of-only-the-updated-cells/
+keywords: GridWeb,validate,js,client
+description: This article introduces how to validate in client js function in GridWeb.
 ---
 
 ## **Possible Usage Scenarios**

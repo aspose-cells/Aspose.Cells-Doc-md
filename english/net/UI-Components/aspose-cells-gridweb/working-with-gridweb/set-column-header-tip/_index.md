@@ -2,7 +2,9 @@
 title: Set Column Header Tip
 type: docs
 weight: 150
-url: /net/set-column-header-tip/
+url: /net/aspose-cells-gridweb/set-column-header-tip/
+keywords: GridWeb,column,header,tip
+description: This article introduces how to set column header tip in GridWeb.
 ---
 
 ## **Possible Usage Scenarios**

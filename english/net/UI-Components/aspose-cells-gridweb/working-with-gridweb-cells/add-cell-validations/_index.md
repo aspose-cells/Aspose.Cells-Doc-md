@@ -2,7 +2,9 @@
 title: Add Cell Validations
 type: docs
 weight: 70
-url: /net/add-cell-validations/
+url: /net/aspose-cells-gridweb/add-cell-validations/
+keywords: GridWeb,GridValidation,list validation,custom expression validation
+description: This article introduces how to add list validation,drop-down list validation and custom expression validation in GridWeb.
 ---
 
 {{% alert color="primary" %}} 

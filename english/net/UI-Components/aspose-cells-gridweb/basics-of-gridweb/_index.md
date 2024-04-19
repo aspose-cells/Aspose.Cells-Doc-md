@@ -2,7 +2,9 @@
 title: Basics of GridWeb
 type: docs
 weight: 10
-url: /net/basics-of-gridweb/
+url: /net/aspose-cells-gridweb/basics-of-gridweb/
+keywords: GridWeb
+description: This article introduces  GridWeb.
 ---
 ## Basics of GridWeb
 GridWeb is a simple to use .net/java webcontrol for display and edit spreadsheet file.

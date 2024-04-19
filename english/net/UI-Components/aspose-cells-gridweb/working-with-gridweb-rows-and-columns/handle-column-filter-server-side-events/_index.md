@@ -2,7 +2,9 @@
 title: Handle Column Filter Server Side Events
 type: docs
 weight: 90
-url: /net/handle-column-filter-server-side-events/
+url: /net/aspose-cells-gridweb/handle-column-filter-server-side-events/
+keywords: GridWeb,filter,OnBeforeColumnFilter,OnAfterColumnFilter
+description: This article introduces how to handle column filter event in GridWeb.
 ---
 
 {{% alert color="primary" %}} 
@@ -40,6 +42,6 @@ On the other hand, if the requirement is to get number of filtered rows after th
 
 {{% alert color="primary" %}} 
 
-Check introduction to all [Working with GridWeb Events](/cells/net/working-with-gridweb-events/) along with some details on how to handle these event.
+Check introduction to all [Working with GridWeb Events](/cells/net/aspose-cells-gridweb/working-with-gridweb-events/) along with some details on how to handle these event.
 
 {{% /alert %}}

@@ -2,7 +2,9 @@
 title: Filter Data
 type: docs
 weight: 80
-url: /net/filter-data/
+url: /net/aspose-cells-gridweb/filter-data/
+keywords: GridWeb,filter,filter data,data filtering
+description: This article introduces how to filter data in GridWeb.
 ---
 
 {{% alert color="primary" %}} 

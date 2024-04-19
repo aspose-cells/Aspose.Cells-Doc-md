@@ -2,7 +2,9 @@
 title: Change the decimal separator from Numeric keypad
 type: docs
 weight: 150
-url: /net/change-the-decimal-separator-from-numeric-keypad/
+url: /net/aspose-cells-gridweb/change-the-decimal-separator-from-numeric-keypad/
+keywords: GridWeb,decimal,decimal separator
+description: This article introduces how to change decimal separator in GridWeb.
 ---
 
 ## **Possible Usage Scenarios**

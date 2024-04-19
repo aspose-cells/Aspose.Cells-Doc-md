@@ -2,7 +2,9 @@
 title: Show buttons to Add/Remove Worksheets
 type: docs
 weight: 150
-url: /net/show-add-remove-worksheet-button/
+url: /net/aspose-cells-gridweb/manage-worksheet-button/
+keywords: GridWeb,button,create sheet button,remove sheet button
+description: This article introduces how to work with ShowAddButton option to  Add/Remove buttons to Add/Remove worksheet (GridWorksheet) in GridWeb.
 ---
 
 {{% alert color="primary" %}}

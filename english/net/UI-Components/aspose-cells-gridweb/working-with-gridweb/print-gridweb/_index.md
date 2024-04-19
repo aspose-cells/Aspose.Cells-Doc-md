@@ -2,7 +2,9 @@
 title: Print GridWeb
 type: docs
 weight: 90
-url: /net/print-gridweb/
+url: /net/aspose-cells-gridweb/print-gridweb/
+keywords: GridWeb,print
+description: This article introduces how to print in GridWeb.
 ---
 
 {{% alert color="primary" %}} 

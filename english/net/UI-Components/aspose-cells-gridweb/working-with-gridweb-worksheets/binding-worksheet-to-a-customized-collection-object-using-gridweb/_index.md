@@ -2,18 +2,20 @@
 title: Binding Worksheet to a Customized Collection Object using GridWeb
 type: docs
 weight: 130
-url: /net/binding-worksheet-to-a-customized-collection-object-using-gridweb/
+url: /net/aspose-cells-gridweb/bind-worksheet-to-a-customized-collection-object-using-gridweb/
+keywords: GridWeb,bind
+description: This article introduces how to bind worksheet to collection in GridWeb. 
 ---
 
 {{% alert color="primary" %}} 
 
-The Microsoft .NET Framework offers many collection classes but sometimes they don't fulfill the development requirements so developers create **custom collections**, and may require to bind such custom collections with Aspose.Cells.GridWeb.
+The Microsoft .NET Framework offers many collection classes but sometimes they don't fulfill the development requirement so developers create **custom collections**, and you can bind a worksheet with such custom collections in GridWeb.
 
 {{% /alert %}} 
 ## **Binding a Worksheet with a Custom Collection**
 To illustrate this feature, this article goes through how to create a sample application, step by step. First, create a custom collection and then use that collection to binding with a worksheet.
 ### **Step 1: Creating a Custom Record**
-Before creating a custom collection, create a class to hold the custom records that will be stored in the collection. The purpose of this article is to give an idea of how to create your own custom collections and bind them with Aspose.Cells.GridWeb, so how you create the custom record is up to you.
+Before creating a custom collection, create a class to hold the custom records that will be stored in the collection. The purpose of this article is to give an idea of how to create your own custom collections and bind them with GridWeb, so how you create the custom record is up to you.
 
 The example below uses the MyCustomRecord class which contains five private fields and five public properties that control access to the private fields. Here is the structure of properties:
 

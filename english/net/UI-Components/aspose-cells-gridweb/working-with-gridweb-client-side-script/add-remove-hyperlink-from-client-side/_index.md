@@ -2,7 +2,9 @@
 title: Add/Remove Hyperlinks From Client Side
 type: docs
 weight: 160
-url: /net/add-remove-hyperlink-from-client-side/
+url: /net/aspose-cells-gridweb/add-remove-hyperlink-from-client-side/
+keywords: GridWeb,add,remove,hyperlink,js
+description: This article introduces how to work with hyperlink in client side js in GridWeb.
 ---
 
 {{% alert color="primary" %}}

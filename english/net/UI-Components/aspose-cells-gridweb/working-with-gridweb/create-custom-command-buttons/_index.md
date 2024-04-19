@@ -2,7 +2,9 @@
 title: Create Custom Command Buttons
 type: docs
 weight: 100
-url: /net/create-custom-command-buttons/
+url: /net/aspose-cells-gridweb/create-custom-command-buttons/
+keywords: GridWeb,command,command buttons,custom
+description: This article introduces how to custom command buttons in GridWeb.
 ---
 
 {{% alert color="primary" %}} 

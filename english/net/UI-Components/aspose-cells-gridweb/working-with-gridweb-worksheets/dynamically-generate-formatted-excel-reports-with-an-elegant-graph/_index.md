@@ -2,7 +2,9 @@
 title: Dynamically Generate Formatted Excel Reports with an Elegant Graph
 type: docs
 weight: 130
-url: /net/dynamically-generate-formatted-excel-reports-with-an-elegant-graph/
+url: /net/aspose-cells-gridweb/dynamically-generate-formatted-excel-reports-with-an-elegant-graph/
+keywords: GridWeb,generate report,report
+description: This article introduces how to generate report in GridWeb.
 ---
 
 {{% alert color="primary" %}} 

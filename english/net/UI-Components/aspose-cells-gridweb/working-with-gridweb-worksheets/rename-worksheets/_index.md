@@ -2,7 +2,9 @@
 title: Rename Worksheets
 type: docs
 weight: 40
-url: /net/rename-worksheets/
+url: /net/aspose-cells-gridweb/rename-worksheet/
+keywords: GridWeb,rename,rename worksheet,rename GridWorksheet
+description: This article introduces how to rename worksheet (GridWorksheet) in GridWeb.
 ---
 
 {{% alert color="primary" %}} 
@@ -20,7 +22,7 @@ All worksheets contain a Name property that allows developers to access or modif
 
 {{% alert color="primary" %}} 
 
-For more details on how to access worksheets in Aspose.Cells.GridWeb, please refer to [Access Worksheets](/cells/net/access-worksheets/).
+For more details on how to access worksheets in Aspose.Cells.GridWeb, please refer to [Access Worksheets](/cells/net/aspose-cells-gridweb/access-worksheets/).
 
 {{% /alert %}} 
 

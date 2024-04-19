@@ -2,7 +2,9 @@
 title: Browsers Capabilities
 type: docs
 weight: 10
-url: /net/browsers-capabilities/
+url: /net/aspose-cells-gridweb/browsers-capabilities/
+keywords: GridWeb,browsers-capabilities,capability
+description: This article introduces the browser capability for GridWeb.
 ---
 
 {{% alert color="primary" %}} 

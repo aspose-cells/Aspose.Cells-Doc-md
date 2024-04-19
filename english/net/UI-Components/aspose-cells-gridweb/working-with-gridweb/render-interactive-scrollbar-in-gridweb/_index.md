@@ -2,7 +2,9 @@
 title: Render Interactive Scrollbar in GridWeb
 type: docs
 weight: 170
-url: /net/render-interactive-scrollbar-in-gridweb/
+url: /net/aspose-cells-gridweb/render-interactive-scrollbar-in-gridweb/
+keywords: GridWeb,scrollbar
+description: This article introduces how to work with scrollbar in GridWeb.
 ---
 
 ## **Possible Usage Scenarios**

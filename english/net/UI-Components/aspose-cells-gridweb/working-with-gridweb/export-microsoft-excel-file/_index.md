@@ -2,7 +2,9 @@
 title: Export Microsoft Excel File
 type: docs
 weight: 50
-url: /net/export-microsoft-excel-file/
+url: /net/aspose-cells-gridweb/export-microsoft-excel-file/
+keywords: GridWeb,export
+description: This article introduces how to export file in GridWeb.
 ---
 
 {{% alert color="primary" %}} 
@@ -20,7 +22,7 @@ To save the content of Aspose.Cells.GridWeb control as an Excel file:
 
 {{% alert color="primary" %}} 
 
-If you don't know about how to add Aspose.Cells.GridWeb control to your web form then you should refer to [Add GridWeb to Web Form](/cells/net/add-gridweb-to-web-form/)
+If you don't know about how to add Aspose.Cells.GridWeb control to your web form then you should refer to [Add GridWeb to Web Form](/cells/net/aspose-cells-gridweb/add-gridweb-to-web-form/)
 
 {{% /alert %}} 
 
@@ -50,7 +52,7 @@ The above code snippet can be used in several ways. A common way is to add a but
 
 {{% alert color="primary" %}} 
 
-If you are working in Visual Studio you can easily create the SaveCommand event's event handler by double-clicking the event in the **Properties** pane. To learn more about this, please refer to [Working with GridWeb Events](/cells/net/working-with-gridweb-events/)
+If you are working in Visual Studio you can easily create the SaveCommand event's event handler by double-clicking the event in the **Properties** pane. To learn more about this, please refer to [Working with GridWeb Events](/cells/net/aspose-cells-gridweb/working-with-gridweb-events/)
 
 {{% /alert %}} 
 ### **Export as a Stream**

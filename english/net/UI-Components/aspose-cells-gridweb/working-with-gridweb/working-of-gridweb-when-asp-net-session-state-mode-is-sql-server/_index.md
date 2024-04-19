@@ -2,7 +2,9 @@
 title: Working of GridWeb when ASP.NET Session state mode is SQL Server
 type: docs
 weight: 160
-url: /net/working-of-gridweb-when-asp-net-session-state-mode-is-sql-server/
+url: /net/aspose-cells-gridweb/working-of-gridweb-when-asp-net-session-state-mode-is-sql-server/
+keywords: GridWeb,web session state,sqlserver,session state mode
+description: This article introduces how to configure in GridWeb when web session state mode is SQL Server.
 ---
 
 ## **Possible Usage Scenarios**
@@ -18,4 +20,4 @@ You will set the GridWeb.SessionMode to SessionMode.Session and use the follow
 
 {{< /highlight >}}
 ## **Reference Article**
-- [Enable Different GridWeb Modes](/cells/net/enable-different-gridweb-modes/)
+- [Enable Different GridWeb Modes](/cells/net/aspose-cells-gridweb/enable-different-gridweb-modes/)

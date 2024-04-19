@@ -1,18 +1,20 @@
 ---
-title: Access and Modify Cell Values
+title: Access and Modify Cell Value
 type: docs
 weight: 20
-url: /net/access-and-modify-cell-values/
+url: /net/aspose-cells-gridweb/access-and-modify-cell-value/
+keywords: GridWeb,cell value,modify,value
+description: This article introduces how to get and modify cell value in GridWeb.
 ---
 
 {{% alert color="primary" %}} 
 
-[Access Worksheet Cells](/cells/net/access-worksheet-cells/) discussed accessing cells. This topic extends that discussion to show how to access and modify cell values using the Aspose.Cells.GridWeb API.
+[Access Worksheet Cells](/cells/net/aspose-cells-gridweb/access-worksheet-cells/) discussed accessing cells. This topic extends that discussion to show how to access and modify cell values using the Aspose.Cells.GridWeb API.
 
 {{% /alert %}} 
 ## **Accessing & Modifying a Cell's Value**
 ### **String Values**
-Before accessing and modifying the value of a cell, you need to know how to access cells. For details about the different approaches for accessing cells, refer to [Access Worksheet Cells](/cells/net/access-worksheet-cells/).
+Before accessing and modifying the value of a cell, you need to know how to access cells. For details about the different approaches for accessing cells, refer to [Access Worksheet Cells](/cells/net/aspose-cells-gridweb/access-worksheet-cells/).
 
 Each cell has a property named StringValue. Once a cell is accessed, developers can use the StringValue property to access the cells string value. To modify cell values, a special method PutValue is provided, which can be used to update the cell's string value.
 

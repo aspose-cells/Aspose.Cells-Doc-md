@@ -2,7 +2,9 @@
 title: Working with GridWeb Events
 type: docs
 weight: 70
-url: /net/working-with-gridweb-events/
+url: /net/aspose-cells-gridweb/gridweb-events/
+keywords: GridWeb,events,event
+description: This article introduces how to work with kinds of event  in GridWeb.
 ---
 
 {{% alert color="primary" %}} 

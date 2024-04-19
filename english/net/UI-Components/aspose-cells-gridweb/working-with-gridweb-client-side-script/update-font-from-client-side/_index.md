@@ -2,7 +2,9 @@
 title: Update Font Settings From Client Side
 type: docs
 weight: 170
-url: /net/update-font-from-client-side/
+url: /net/aspose-cells-gridweb/update-font-from-client-side/
+keywords: GridWeb,update font,font,js
+description: This article introduces how to update font in client js  in GridWeb.
 ---
 
 {{% alert color="primary" %}}

@@ -2,7 +2,9 @@
 title: Working with GridWeb Double Click Events
 type: docs
 weight: 80
-url: /net/working-with-gridweb-double-click-events/
+url: /net/aspose-cells-gridweb/gridweb-double-click-event/
+keywords: GridWeb,double click,click event,event
+description: This article introduces how to use the double click event in GridWeb.
 ---
 
 {{% alert color="primary" %}} 

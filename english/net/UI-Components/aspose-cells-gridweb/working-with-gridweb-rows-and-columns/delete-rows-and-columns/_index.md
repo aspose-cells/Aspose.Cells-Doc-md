@@ -2,7 +2,9 @@
 title: Delete Rows and Columns
 type: docs
 weight: 20
-url: /net/delete-rows-and-columns/
+url: /net/aspose-cells-gridweb/delete-rows-and-columns/
+keywords: GridWeb,delete rows,delete columns
+description: This article introduces how to delete rows and delete columns in GridWeb.
 ---
 
 {{% alert color="primary" %}} 

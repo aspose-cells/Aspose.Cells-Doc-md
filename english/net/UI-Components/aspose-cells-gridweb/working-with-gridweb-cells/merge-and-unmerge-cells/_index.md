@@ -2,7 +2,9 @@
 title: Merge and Unmerge Cells
 type: docs
 weight: 60
-url: /net/merge-and-unmerge-cells/
+url: /net/aspose-cells-gridweb/merge-and-unmerge-cells/
+keywords: GridWeb,merge,unmerge
+description: This article introduces how to merge/unmerge cells in GridWeb.
 ---
 
 {{% alert color="primary" %}} 

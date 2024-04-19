@@ -2,7 +2,9 @@
 title: Apply Styles to GridWeb
 type: docs
 weight: 20
-url: /net/apply-styles-to-gridweb/
+url: /net/aspose-cells-gridweb/apply-styles-to-gridweb/
+keywords: GridWeb,style,styles
+description: This article introduces how to apply or set style in GridWeb.
 ---
 
 {{% alert color="primary" %}} 

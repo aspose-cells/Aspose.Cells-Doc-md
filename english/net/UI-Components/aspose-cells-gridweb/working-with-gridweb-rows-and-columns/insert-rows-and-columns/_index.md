@@ -2,7 +2,9 @@
 title: Insert Rows and Columns
 type: docs
 weight: 10
-url: /net/insert-rows-and-columns/
+url: /net/aspose-cells-gridweb/insert-rows-and-columns/
+keywords: GridWeb,insert,insert rows,insert columns,rows,columns
+description: This article introduces how to insert rows and columns in GridWeb.
 ---
 
 {{% alert color="primary" %}} 

@@ -2,7 +2,9 @@
 title: Add Custom Server-side Function Validation
 type: docs
 weight: 110
-url: /net/add-custom-server-side-function-validation/
+url: /net/aspose-cells-gridweb/add-custom-server-side-function-validation/
+keywords: GridWeb,server side validation
+description: This article introduces how to work with server side validation in GridWeb.
 ---
 
 ## **Possible Usage Scenarios**

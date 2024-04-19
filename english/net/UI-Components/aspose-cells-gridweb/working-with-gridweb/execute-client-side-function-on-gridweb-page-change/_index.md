@@ -2,7 +2,9 @@
 title: Execute client side function on GridWeb page change
 type: docs
 weight: 140
-url: /net/execute-client-side-function-on-gridweb-page-change/
+url: /net/aspose-cells-gridweb/execute-client-side-function-on-gridweb-page-change/
+keywords: GridWeb,client,js,javascript,function
+description: This article introduces how to work with client js function in GridWeb.
 ---
 
 ## **Possible Usage Scenarios**

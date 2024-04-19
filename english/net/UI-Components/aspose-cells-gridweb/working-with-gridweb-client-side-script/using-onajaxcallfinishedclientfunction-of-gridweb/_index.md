@@ -2,7 +2,9 @@
 title: Using OnAjaxCallFinishedClientFunction of GridWeb
 type: docs
 weight: 20
-url: /net/using-onajaxcallfinishedclientfunction-of-gridweb/
+url: /net/aspose-cells-gridweb/using-onajaxcallfinishedclientfunction-of-gridweb/
+keywords: GridWeb,ajacall,onajaxcallfinishedclientfunction,OnAjaxCallFinishedClientFunction 
+description: This article introduces how to work with OnAjaxCallFinishedClientFunction  in GridWeb.
 ---
 
 ## **Possible Usage Scenarios**

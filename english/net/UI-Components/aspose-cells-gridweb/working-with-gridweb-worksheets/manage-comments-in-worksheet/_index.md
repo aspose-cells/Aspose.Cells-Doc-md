@@ -2,7 +2,9 @@
 title: Manage Comments in Worksheet
 type: docs
 weight: 110
-url: /net/manage-comments-in-worksheet/
+url: /net/aspose-cells-gridweb/manage-comment-in-worksheet/
+keywords: GridWeb,comment
+description: This article introduces how to work with comment in GridWeb.
 ---
 
 {{% alert color="primary" %}} 

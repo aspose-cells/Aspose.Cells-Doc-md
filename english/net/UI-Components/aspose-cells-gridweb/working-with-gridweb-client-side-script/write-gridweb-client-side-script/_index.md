@@ -2,7 +2,9 @@
 title: Write GridWeb Client Side Script
 type: docs
 weight: 10
-url: /net/write-gridweb-client-side-script/
+url: /net/aspose-cells-gridweb/write-gridweb-client-side-script/
+keywords: GridWeb,client,js,javascript
+description: This article introduces how to work with client js apis in GridWeb.
 ---
 
 {{% alert color="primary" %}} 
@@ -62,7 +64,7 @@ Aspose.Cells.GridWeb also exposes functions especially for client-side scripting
 |getSelectRange()|Returns the last selected range.|
 |setSelectRange()|Selects the given range.|
 |clearSelections()|Clears all selection excluding current active cell.|
-|getCellsArray()|It is used with other related functions like getCellName(), getCellValueByCell(), getCellRow() and getCellColumn(). Please read this article for more information regarding the usage of this function: [Read the values of the GridWeb cells on Client Side](/cells/net/read-the-values-of-the-gridweb-cells-on-client-side/)|
+|getCellsArray()|It is used with other related functions like getCellName(), getCellValueByCell(), getCellRow() and getCellColumn(). Please read this article for more information regarding the usage of this function: [Read the values of the GridWeb cells on Client Side](/cells/net/aspose-cells-gridweb/read-the-values-of-the-gridweb-cells-on-client-side/)|
 To create a test application containing client-side scripts that work with Aspose.Cells.GridWeb, follow the steps below:
 
 1. Create JavaScript functions to be invoked by GridWeb.

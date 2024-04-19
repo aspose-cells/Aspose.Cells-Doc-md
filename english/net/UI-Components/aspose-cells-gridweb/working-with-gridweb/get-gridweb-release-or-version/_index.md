@@ -2,7 +2,9 @@
 title: Get GridWeb Release or Version
 type: docs
 weight: 120
-url: /net/get-gridweb-release-or-version/
+url: /net/aspose-cells-gridweb/get-gridweb-release-or-version/
+keywords: GridWeb,version
+description: This article introduces how to get the version in GridWeb.
 ---
 
 {{% alert color="primary" %}} 

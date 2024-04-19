@@ -2,7 +2,9 @@
 title: Sort Worksheet Data
 type: docs
 weight: 80
-url: /net/sort-worksheet-data/
+url: /net/aspose-cells-gridweb/sort-worksheet-data/
+keywords: GridWeb,sort
+description: This article introduces how to sort data in GridWeb.
 ---
 
 {{% alert color="primary" %}} 

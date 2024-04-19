@@ -2,7 +2,9 @@
 title: Read the values of the GridWeb cells on Client Side
 type: docs
 weight: 30
-url: /net/read-the-values-of-the-gridweb-cells-on-client-side/
+url: /net/aspose-cells-gridweb/read-the-values-of-the-gridweb-cells-on-client-side/
+keywords: GridWeb,cell,cell value
+description: This article introduces how to get the cell value in GridWeb.
 ---
 
 ## **Possible Usage Scenarios**

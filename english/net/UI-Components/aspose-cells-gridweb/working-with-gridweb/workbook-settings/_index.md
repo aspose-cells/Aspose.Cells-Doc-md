@@ -2,16 +2,16 @@
 title: Settings for workbook
 type: docs
 weight: 250
-url: /net/aspose-cells-gridweb/workbook-settings/
-description: This article describes the workbook settings for GridWeb.
-keywords: settings
+url: /net/aspose-cells-gridweb/aspose-cells-gridweb/workbook-settings/
+description: This article describes the workbook settings in GridWeb.
+keywords: GridWeb,settings
 ---
 
 
 There are some settings we can specified by set GridWorkbookSettings :
 
  
-- **[GridWorkbookSettings](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/GridWorkbookSettings)**
+- **[GridWorkbookSettings](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/GridWorkbookSettings)**
 
 |**Name** |**Description** |
 | :- | :- |

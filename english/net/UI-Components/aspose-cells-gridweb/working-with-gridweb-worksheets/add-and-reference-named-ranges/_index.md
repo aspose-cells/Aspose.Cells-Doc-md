@@ -2,7 +2,9 @@
 title: Add and Reference Named Ranges
 type: docs
 weight: 120
-url: /net/add-and-reference-named-ranges/
+url: /net/aspose-cells-gridweb/add-and-reference-named-ranges/
+keywords: GridWeb,GridName,Names
+description: This article introduces how to work with named ranges in GridWeb. 
 ---
 
 {{% alert color="primary" %}} 
