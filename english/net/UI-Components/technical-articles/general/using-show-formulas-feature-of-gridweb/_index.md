@@ -1,8 +1,10 @@
 ---
-title: Using Show Formulas Feature of GridWeb
+title: Use Show Formulas Feature of GridWeb
 type: docs
 weight: 30
-url: /net/using-show-formulas-feature-of-gridweb/
+url: /net/aspose-cells-gridweb/use-show-formulas-feature/
+keywords: GridWeb,show formulas,formula
+description: This article describes how to show formulas in GridWeb.
 ---
 
 {{% alert color="primary" %}} 

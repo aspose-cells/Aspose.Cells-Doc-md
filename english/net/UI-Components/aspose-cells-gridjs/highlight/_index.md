@@ -3,8 +3,8 @@ title: Working with GridJs Highlight feature
 type: docs
 weight: 250
 url: /net/aspose-cells-gridjs/highlight/
-description: This article describes how to use GridJs to highlight on cell text, cell ranges ,shapes and pictures.
-keywords: highlight, highlight spreadsheet,redaction,remarks
+description: This article describes how to use highlight on cell text, cell ranges ,shapes and pictures in GridJs.
+keywords: GridJs,highlight, highlight spreadsheet,redaction,remarks
 ---
 
 # Working with GridJs Highlight feature 
@@ -164,7 +164,7 @@ xs.sheet.removeHighlightImage(imageid)
 xs.sheet.getHighlightImages()
 ```
 
--  set whether to highlight all objects in the active worksheet ,include all shapes and images and all worksheet area
+-  Set whether to highlight all objects in the active worksheet ,include all shapes and images and all worksheet area
 ```javascript
 xs.sheet.setHighlightAll(ishighlightall,isrerender=true)
    // the parameters are:
@@ -187,7 +187,7 @@ xs.sheet.setCustomHighlightImgFunc(func)
     
 ```
 
--  clear highlight setting for the active worksheet
+-  Clear highlight setting for the active worksheet
 ```javascript
 xs.sheet.clearHighlights()
 
@@ -238,28 +238,6 @@ const textbox=xs.sheet.data.shapes[0];
      textbox.getHighlight();
 ```
 
--  Change background color for textbox object
-```javascript
-    setBackgroundColor(color)
-    // the parameters are:
-        color: the html color value in hex string value
-    //for example,we assume shape 0 is a textbox object,this will set the background color to Yellow 
-     const textbox=xs.sheet.data.shapes[0];
-     textbox.setBackgroundColor('#FFFF00');
-```
--  Auto change the background color and text color to get a visual active effect
-```javascript
-    setActiveEffect(boolvalue)
-    // the parameters are:
-        boolvalue: if true,will change background color and the text color of the textbox object;if false,restore to original appearence
-```
-
--  hide/unhide the text content in the textbox object
-```javascript
-    hideText(boolvalue)
-    // the parameters are:
-        boolvalue: if true,will not display the text in the textbox object;if false,restore to original appearence
-```
 
 
 

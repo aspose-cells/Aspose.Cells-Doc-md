@@ -4,7 +4,7 @@ type: docs
 weight: 250
 url: /net/aspose-cells-gridjs/custommenu/
 description: This article describes how to configure context menus for GridJs.
-keywords: custom menu items, context menu
+keywords: GridJs,custom menu items, context menu,custom,context,menu
 ---
 
 # Custom context menus

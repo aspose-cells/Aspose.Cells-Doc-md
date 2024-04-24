@@ -2,7 +2,9 @@
 title: Binding Worksheet to a DataSet using GridWebs Worksheets Designer
 type: docs
 weight: 20
-url: /net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/
+url: /net/aspose-cells-gridweb/bind-worksheet-to-a-dataset-use-designer/
+keywords: GridWeb,bind,DataSet,Designer,designer
+description: This article introduce how to use Worksheets Designer to bind worksheet to a DataSet  in GridWeb.
 ---
 
 {{% alert color="primary" %}} 
@@ -397,7 +399,7 @@ private void GridWeb1_SaveCommand(object sender, System.EventArgs e)
 
         //Getting the modified data of worksheet as a DataSet
 
-        DataSet dataset = (DataSet)GridWeb1.WebWorksheets[0].DataSource;
+        DataSet dataset = (DataSet)GridWeb1.WorkSheets[0].DataSource;
 
         //Updating database according to modified DataSet
 
@@ -433,7 +435,7 @@ Private Sub GridWeb1_SaveCommand(ByVal sender As Object, ByVal e As System.Event
 
         'Getting the modified data of worksheet as a DataSet
 
-        Dim dataset As DataSet = CType(GridWeb1.WebWorksheets(0).DataSource, DataSet)
+        Dim dataset As DataSet = CType(GridWeb1.WorkSheets(0).DataSource, DataSet)
 
         'Updating database according to modified DataSet
 

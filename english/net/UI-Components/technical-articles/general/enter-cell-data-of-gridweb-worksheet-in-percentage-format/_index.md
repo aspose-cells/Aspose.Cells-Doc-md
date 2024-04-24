@@ -2,7 +2,9 @@
 title: Enter Cell Data of GridWeb Worksheet in Percentage Format
 type: docs
 weight: 80
-url: /net/enter-cell-data-of-gridweb-worksheet-in-percentage-format/
+url: /net/aspose-cells-gridweb/enter-cell-data-in-percentage-format/
+keywords: GridWeb,percentage,format
+description: This article introduce enter cell data with percentage format in GridWeb .
 ---
 
 

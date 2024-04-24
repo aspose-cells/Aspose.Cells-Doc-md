@@ -2,7 +2,9 @@
 title: How to Deploy ASP.NET Core MVC application using Gridjs
 type: docs
 weight: 190
-url: /net/how-to-deploy-gridjs/
+url: /net/aspose-cells-gridjs/how-to-deploy-gridjs/
+keywords: GridJs,deploy
+description: This article introduce how to use GridJs to implment excel editor step by step.
 ---
 
 

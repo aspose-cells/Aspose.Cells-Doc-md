@@ -2,8 +2,10 @@
 title:  Custom Validation in GridWeb
 type: docs
 weight: 90
-url: /net/custom-validation-in-gridweb/
-keywords: validation,custom,server
+url: /net/aspose-cells-gridweb/custom-validation-in-gridweb/
+keywords: GridWeb,validation,custom,server
+description: This article introduce custom validation in GridWeb .
+
 ---
 
 

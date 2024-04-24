@@ -1,8 +1,10 @@
 ---
-title: Aspose.Cells.GridJs
+title: Aspose.Cells.GridJs features
 type: docs
 weight: 40
-url: /net/aspose-cells-gridjs-features/
+url: /net/aspose-cells-gridjs/features/
+keywords: GridJs,features,feature
+description: This article introduce features for GridJs .
 ---
 
 ## **Aspose.Cells.GridJs**

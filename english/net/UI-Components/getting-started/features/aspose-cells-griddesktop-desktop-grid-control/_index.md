@@ -2,7 +2,9 @@
 title: Aspose.Cells.GridDesktop - Desktop Grid Control
 type: docs
 weight: 30
-url: /net/aspose-cells-griddesktop-desktop-grid-control/
+url: /net/aspose-cells-griddesktop/features/
+keywords: GridDesktop,features,feature
+description: This article introduce features for GridDesktop .
 ---
 
 ## **Aspose.Cells.GridDesktop – Desktop Grid Control**

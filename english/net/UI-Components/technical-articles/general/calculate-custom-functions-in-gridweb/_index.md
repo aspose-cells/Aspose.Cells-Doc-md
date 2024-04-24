@@ -2,7 +2,9 @@
 title: Calculate Custom Functions in GridWeb
 type: docs
 weight: 90
-url: /net/calculate-custom-functions-in-gridweb/
+url: /net/aspose-cells-gridweb/calculate-custom-functions-in-gridweb/
+keywords: GridWeb,custom functions,custom,function
+description: This article introduce features of custom functions in GridWeb .
 ---
 
 

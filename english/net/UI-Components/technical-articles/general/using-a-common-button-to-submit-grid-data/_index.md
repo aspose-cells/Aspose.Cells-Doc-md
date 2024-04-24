@@ -2,7 +2,9 @@
 title: Using a Common Button to Submit Grid Data
 type: docs
 weight: 20
-url: /net/using-a-common-button-to-submit-grid-data/
+url: /net/aspose-cells-gridweb/using-a-common-button-to-submit-grid-data/
+keywords: GridWeb,submit,button,custom
+description: This article describes the use of submit button in GridWeb.
 ---
 
 {{% alert color="primary" %}} 

@@ -1,8 +1,10 @@
 ---
-title: Using Your Own Icons Instead of the GridWeb Default Icons
+title: Use Your Own Icons Instead of the GridWeb Default Icons
 type: docs
 weight: 10
-url: /net/using-your-own-icons-instead-of-the-gridweb-default-icons/
+url: /net/aspose-cells-gridweb/use-your-own-icons-instead-of-the-default-icons/
+keywords: GridWeb,icon,icons
+description: This article describes how to use icons in GridWeb.
 ---
 
 {{% alert color="primary" %}} 

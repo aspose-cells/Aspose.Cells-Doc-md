@@ -3,7 +3,8 @@ title: Working with GridJs Client Side
 type: docs
 weight: 250
 url: /net/aspose-cells-gridjs/client/
-keywords: custom,logo,setting,api
+keywords: GridJs,custom,logo,setting,api
+description: This article introduce the client javascript APIs  or functions  in GridJs.
 ---
 
 # Working with GridJs Client Side
@@ -329,8 +330,8 @@ xs.sheet.data.rows.sumHeight(min,max)
 xs.sheet.data.displayRight2Left
 ```
 
-## event call back
--  we can track the below events
+## Event call back
+-  We can track the below events
 ```javascript
  xs.on('cell-selected', (cell, ri, ci) => {
                 console.log('cell selected:', cell, ', ri:', ri, ', ci:', ci);
@@ -353,9 +354,9 @@ xs.sheet.data.displayRight2Left
             });
 ```
 
-## customization
+## Customization
 
--  set home icon and link
+-  Set home icon and link
 ```javascript
 xs.sheet.menubar.icon.setHomeIcon(iconUrl,targetUrl)
     // the parameters are:
@@ -364,16 +365,51 @@ xs.sheet.menubar.icon.setHomeIcon(iconUrl,targetUrl)
 	for example ,the below code will set the new logo and with link to google.com
 	xs.sheet.menubar.icon.setHomeIcon('https://forum.aspose.com/letter_avatar_proxy/v4/letter/y/3e96dc/45.png','https://www.google.com')
 ```
--  show the menu bar
+-  Show the menu bar
 ```javascript
 xs.sheet.menubar.show()
 ```
 
--  hide the menu bar
+-  Hide the menu bar
 ```javascript
 xs.sheet.menubar.hide()
 ```
 
+ 
+## APIs for TextBox object
+TextBox is a special kind of shape which type property is :"TextBox",
+for example: the below code will show which shape is textbox
+
+```javascript
+for (let shape of xs.sheet.data.shapes) {
+    if (shape.type === 'TextBox') {
+        console.log(shape.id + ' is a textbox');
+    }
+}
+```
+
+-  Change background color for textbox object
+```javascript
+    setBackgroundColor(color)
+    // the parameters are:
+        color: the html color value in hex string value
+    //for example,we assume shape 0 is a textbox object,this will set the background color to Yellow 
+     const textbox=xs.sheet.data.shapes[0];
+     textbox.setBackgroundColor('#FFFF00');
+```
+-  Auto change the background color and text color to get a visual active effect
+```javascript
+    setActiveEffect(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will change background color and the text color of the textbox object;if false,restore to original appearence
+```
+
+-  Hide/unhide the text content in the textbox object
+```javascript
+    hideText(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will not display the text in the textbox object;if false,restore to original appearence
+```
 
 for detail info ,you can check the example here
 <https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>

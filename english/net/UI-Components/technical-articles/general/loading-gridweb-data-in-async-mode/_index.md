@@ -2,7 +2,9 @@
 title: Loading GridWeb Data in Async Mode
 type: docs
 weight: 40
-url: /net/loading-gridweb-data-in-async-mode/
+url: /net/aspose-cells-gridweb/loading-data-in-async-mode/
+description: This article describes how to use async mode to get better performance in GridWeb.
+keywords: GridWeb,performance,async,async mode
 ---
 
 {{% alert color="primary" %}} 

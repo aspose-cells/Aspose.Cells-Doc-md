@@ -3,6 +3,8 @@ title: Aspose.Cells.GridJs Basics
 type: docs
 weight: 250
 url: /net/aspose-cells-gridjs/basics/
+keywords: GridJs
+description: This article introduce the basic steps to set up a web application for GridJs.
 ---
 
 ## Basics of GridJs

@@ -2,7 +2,9 @@
 title: Implementing GridDesktop Data Binding Feature in Worksheets
 type: docs
 weight: 10
-url: /net/implementing-griddesktops-data-binding-feature-in-worksheets/
+url: /net/aspose-cells-griddesktop/implementing-data-binding-feature-in-worksheets/
+keywords: GridDesktop,data binding,data,bind
+description: This article introduce how to do data binding in GridDesktop.
 ---
 
 {{% alert color="primary" %}} 

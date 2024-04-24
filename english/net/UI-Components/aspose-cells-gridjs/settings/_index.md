@@ -4,7 +4,7 @@ type: docs
 weight: 250
 url: /net/aspose-cells-gridjs/settings/
 description: This article describes the setting for GridJs.
-keywords: settings
+keywords: GridJs,settings,GridWorkbookSettings
 ---
 
 

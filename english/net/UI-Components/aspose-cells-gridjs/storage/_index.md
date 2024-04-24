@@ -3,7 +3,7 @@ title: Working with GridJs storage
 type: docs
 weight: 250
 url: /net/aspose-cells-gridjs/storage/
-description: This article describes the general processing for  Aspose.Cells.GridJs.
+description: This article describes the general file processing for GridJs.
 keywords: file cache,storage,GridJs,GridJs storage,GridJs uid,download,uniqueid
 ---
 

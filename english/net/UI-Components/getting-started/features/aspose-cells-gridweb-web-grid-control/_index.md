@@ -2,7 +2,9 @@
 title: Aspose.Cells.GridWeb - Web Grid Control
 type: docs
 weight: 40
-url: /net/aspose-cells-gridweb-web-grid-control/
+url: /net/aspose-cells-gridweb/features/
+keywords: GridWeb,features,feature
+description: This article introduce features for GridWeb .
 ---
 
 ## **Aspose.Cells.GridWeb – Web Grid Control**

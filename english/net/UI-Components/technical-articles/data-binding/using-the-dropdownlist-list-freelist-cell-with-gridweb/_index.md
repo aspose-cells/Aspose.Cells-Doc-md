@@ -2,7 +2,9 @@
 title: Using the DropDownList, List, FreeList Cell with GridWeb
 type: docs
 weight: 60
-url: /net/using-the-dropdownlist-list-freelist-cell-with-gridweb/
+url: /net/aspose-cells-gridweb/using-the-dropdownlist-list-freelist-gridweb/
+keywords: GridWeb,dropdownlist,freelist,list
+description: This article introduce how to use list in GridWeb.
 ---
 
 {{% alert color="primary" %}} 
@@ -17,11 +19,11 @@ In the code below, "1" is the value of the list item, and "1:test" is the list i
 
  // Adds to a bindcolumn
 
-GridWeb1.WebWorksheets[0].BindColumns["CategoryID"].Validation.ValueList.Add("1,1:test");
+GridWeb1.WorkSheets[0].BindColumns["CategoryID"].Validation.ValueList.Add("1,1:test");
 
 // Adds to a validation cell
 
-GridWeb1.WebWorksheets[1].Cells["A1"].Validation.ValueList.Add("1,1:test");
+GridWeb1.WorkSheets[1].Cells["A1"].Validation.ValueList.Add("1,1:test");
 
 
 
@@ -33,11 +35,11 @@ GridWeb1.WebWorksheets[1].Cells["A1"].Validation.ValueList.Add("1,1:test");
 
  ' Adds to a bindcolumn
 
-GridWeb1.WebWorksheets(0).BindColumns("CategoryID").Validation.ValueList.Add("1,1:test")
+GridWeb1.WorkSheets(0).BindColumns("CategoryID").Validation.ValueList.Add("1,1:test")
 
 ' Adds to a validation cell
 
-GridWeb1.WebWorksheets(1).Cells("A1").Validation.ValueList.Add("1,1:test")
+GridWeb1.WorkSheets(1).Cells("A1").Validation.ValueList.Add("1,1:test")
 
 
 
@@ -49,7 +51,7 @@ Use the LoadValueList method to load list items from a dataview object:
 
 {{< highlight csharp >}}
 
- GridWeb1.WebWorksheets[0].BindColumns["CategoryID"].Validation.LoadValueList(dataSet31.Categories.DefaultView, "CategoryID", "CategoryName", true);
+ GridWeb1.WorkSheets[0].BindColumns["CategoryID"].Validation.LoadValueList(dataSet31.Categories.DefaultView, "CategoryID", "CategoryName", true);
 
 
 
@@ -59,7 +61,7 @@ Use the LoadValueList method to load list items from a dataview object:
 
 {{< highlight csharp >}}
 
- GridWeb1.WebWorksheets(0).BindColumns("CategoryID").Validation.LoadValueList(dataSet31.Categories.DefaultView, "CategoryID", "CategoryName", True)
+ GridWeb1.WorkSheets(0).BindColumns("CategoryID").Validation.LoadValueList(dataSet31.Categories.DefaultView, "CategoryID", "CategoryName", True)
 
 
 

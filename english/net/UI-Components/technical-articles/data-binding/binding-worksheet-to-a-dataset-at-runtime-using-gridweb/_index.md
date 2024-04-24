@@ -2,12 +2,14 @@
 title: Binding Worksheet to a DataSet at Runtime using GridWeb
 type: docs
 weight: 70
-url: /net/binding-worksheet-to-a-dataset-at-runtime-using-gridweb/
+url: /net/aspose-cells-gridweb/bind-worksheet-to-a-dataset/
+keywords: GridWeb,bind,DataSet
+description: This article introduce how to bind worksheet to a DataSet  in GridWeb.
 ---
 
 ## **Possible Usage Scenarios**
 Aspose.Cells.GridWeb provides an easy API that can be used to dynamically bind a DataSet to Worksheet.
-## **Binding a Worksheet to DataSet**
+## **Bind a Worksheet to DataSet**
 The following sample code explains how to bind a Worksheet to a DataSet at runtime.
 ## **Sample Code**
 {{< highlight java >}}

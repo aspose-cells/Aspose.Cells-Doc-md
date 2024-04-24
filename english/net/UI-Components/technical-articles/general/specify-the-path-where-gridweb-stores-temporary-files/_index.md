@@ -2,8 +2,9 @@
 title: Specify the path where GridWeb stores temporary  files
 type: docs
 weight: 50
-url: /net/gridweb-cache-files/
-keywords: cache,session,storage
+url: /net/aspose-cells-gridweb/gridweb-cache-files/
+keywords: GridWeb,cache,session,storage
+description: This article describes the storage in GridWeb.
 ---
 ### about file cache
 {{% alert color="primary" %}} 

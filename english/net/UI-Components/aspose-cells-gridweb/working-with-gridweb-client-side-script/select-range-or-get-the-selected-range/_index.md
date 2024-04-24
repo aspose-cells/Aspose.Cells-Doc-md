@@ -1,8 +1,10 @@
 ---
-title: Using client side functions to select range or get the selected range in GridWeb
+title: Use client side functions to select range or get the selected range in GridWeb
 type: docs
 weight: 60
-url: /net/using-client-side-functions-to-select-range-or-get-the-selected-range-in-gridweb/
+url: /net/aspose-cells-gridweb/use-client-side-functions-to-select-range-or-get-the-selected-range/
+keywords: GridWeb,selected,range
+description: This article describes how to get selected range in GridWeb.
 ---
 
 {{% alert color="primary" %}} 

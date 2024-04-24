@@ -2,7 +2,9 @@
 title: Rebind Worksheet GridWeb
 type: docs
 weight: 50
-url: /net/rebind-worksheet-gridweb/
+url: /net/aspose-cells-gridweb/rebind-worksheet-gridweb/
+keywords: GridWeb,rebind
+description: This article introduce how to rebind worksheet in GridWeb.
 ---
 
 {{% alert color="primary" %}} 
@@ -37,13 +39,13 @@ Sometimes you may want to rebind the worksheet:
 
 {
 
-    GridWeb1.WebWorksheets[0].Cells.Clear();
+    GridWeb1.WorkSheets[0].Cells.Clear();
 
     // Load data to the dataSet11.
 
     LoadData(dataSet11);
 
-    GridWeb1.WebWorksheets[0].DataBind();
+    GridWeb1.WorkSheets[0].DataBind();
 
 }
 
@@ -59,13 +61,13 @@ Sometimes you may want to rebind the worksheet:
 
 System.EventArgs) Handles Button1.Click
 
-    GridWeb1.WebWorksheets(0).Cells.Clear()
+    GridWeb1.WorkSheets(0).Cells.Clear()
 
     ' Load data to the dataSet11.
 
     LoadData(dataSet11)
 
-    GridWeb1.WebWorksheets(0).DataBind()
+    GridWeb1.WorkSheets(0).DataBind()
 
 End Sub
 

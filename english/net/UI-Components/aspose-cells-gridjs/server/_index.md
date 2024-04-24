@@ -3,7 +3,8 @@ title: Working with GridJs Server Side
 type: docs
 weight: 250
 url: /net/aspose-cells-gridjs/server/
-description: This article describes how to use Aspose.Cells.GridJs library.
+description: This article describes how to use APIs in GridJs .
+keywords: GridJs,server,GridCacheForStream
 ---
 
 

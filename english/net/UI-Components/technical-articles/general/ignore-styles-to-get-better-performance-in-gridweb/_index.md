@@ -3,8 +3,8 @@ title: Ignore styles to get better performance in GridWeb
 type: docs
 weight: 1060
 url: /net/aspose-cells-gridweb/ignorestylewithnodata
-description: This article describes how to use IgnoreStyleWithNoData to get better performance for  Aspose.Cells.GridWeb library.
-keywords: performance
+description: This article describes how to use IgnoreStyleWithNoData to get better performance in GridWeb.
+keywords: GridWeb,performance
 ---
 
 ## **Possible Usage Scenarios**

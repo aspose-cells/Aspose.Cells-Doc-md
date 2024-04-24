@@ -3,7 +3,8 @@ title: Filter objects while loading workbook in GridDesktop
 type: docs
 weight: 1060
 url: /net/aspose-cells-griddesktop/loading-filter
-description: This article describes how to use loading filter for  Aspose.Cells.GridDesktop library.
+description: This article describes how to use loading filter in GridDesktop.
+keywords: GridDesktop,loading,loading filter,filter
 ---
 
 ## **Possible Usage Scenarios**

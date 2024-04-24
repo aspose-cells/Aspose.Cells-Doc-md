@@ -3,6 +3,7 @@ title: Working with custom calculation engine for GridJs
 type: docs
 weight: 250
 url: /net/aspose-cells-gridjs/customcalculation/
+keywords: GridJs,custom,calculation,customcalculation
 description: This article describes how to use the custom calculation engine for  Aspose.Cells.GridJs library.
 ---
 

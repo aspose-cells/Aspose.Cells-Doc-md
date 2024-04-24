@@ -2,7 +2,9 @@
 title: Creating Hierarchical View Sheet
 type: docs
 weight: 30
-url: /net/creating-hierarchical-view-sheet/
+url: /net/aspose-cells-gridweb/create-hierarchical-view-sheet/
+keywords: GridWeb,hierarchical
+description: This article introduce how to create hierarchical view in GridWeb.
 ---
 
 {{% alert color="primary" %}} 
@@ -200,7 +202,7 @@ private void BindWithoutInSheetHeaders()
 
         dataSet21.Customers.DefaultView.RowFilter = "CustomerID<'BSAAA'";
 
-        WebWorksheet sheet = GridWeb1.WebWorksheets[0];
+        WebWorksheet sheet = GridWeb1.WorkSheets[0];
 
         // Clears the sheet.
 
@@ -282,7 +284,7 @@ Private Sub BindWithoutInSheetHeaders()
 
         DataSet21.Customers.DefaultView.RowFilter = "CustomerID<'BSAAA'"
 
-        Dim sheet As WebWorksheet = GridWeb1.WebWorksheets(0)
+        Dim sheet As WebWorksheet = GridWeb1.WorkSheets(0)
 
         ' Clears the sheet.
 

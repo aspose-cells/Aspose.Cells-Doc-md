@@ -3,6 +3,8 @@ title: Integrate Aspose.Cells Grid Controls with Visual Studio.NET
 type: docs
 weight: 10
 url: /net/integrate-aspose-cells-grid-controls-with-visual-studio-net/
+description: This article describes how to use GridWeb and GridDesktop controls in vissual studio .NET.
+keywords:  GridWeb,GridDesktop,visual studio,control,integrate
 ---
 
 {{% alert color="primary" %}} 
@@ -16,8 +18,7 @@ To integrate Aspose.Cells Grid controls with Visual Studio.NET:
 1. Open the Toolbox.
 1. Select the General tab (or any other tab you want to add controls to).
 1. Right-click the General tab.
-1. On Visual Studio.NET 2003: Select **Add/Remove Items** from the menu.
-1. On Visual Studio.NET 2005, select **Choose Items** from the menu. The Customize Toolbox dialog will be appeared (This process is more or less the same for newer VS.NET IDEs (e.g VS.NET 2013/2015 or later)).
+1. On Visual Studio.NET , select **Choose Items** from the menu. The Customize Toolbox dialog will be appeared (This process is more or less the same for newer VS.NET IDEs (e.g VS.NET 2013/2015 or later)).
 1. Click **Browse** and locate the Aspose.Cells.GridDesktop.dll and Aspose.Cells.GridWeb.dll files.
 1. Select the DLLs and then click **Open**. The Customize Toolbox dialog will now contain controls from Aspose.Cells Grid Suite. The newly added controls will be highlighted by the dialog.
 1. Click **OK** to add the controls to your Visual Studio.NET Toolbox.

@@ -3,7 +3,8 @@ title: Loading event in GridDesktop
 type: docs
 weight: 1060
 url: /net/aspose-cells-griddesktop/loading-event
-description: This article describes how to use loading event for  Aspose.Cells.GridDesktop library.
+description: This article describes how to use loading event in GridDesktop.
+keywords: GridDesktop,event,loading event,loading
 ---
 
  
