@@ -8,7 +8,7 @@ keywords: GridDesktop,event,loading event,loading
 ---
 
  
-## ** Loading event for GridDesktop**
+## **Loading event for GridDesktop**
 The following sample code illustrates how to use kinds of loading event for GridDesktop while import a file. Please check the [sample excel file](loading-event.xlsx) . 
 
 The file is password protected, first we try open as a wrong password,then finally in FailLoadFile event ,we use a correct password to open it.
