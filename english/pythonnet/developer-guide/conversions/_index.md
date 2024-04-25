@@ -1,5 +1,5 @@
 ---
-title: NumPy and Pandas
+title: NumPy, Pandas and Python Data
 type: docs
 weight: 30
 url: /python-net/convert-numpy-pandas-to-excel/
