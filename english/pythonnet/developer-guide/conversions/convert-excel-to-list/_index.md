@@ -1,10 +1,10 @@
 ---
-title: Convert Excel to List
+title: Convert Excel to Python Data
 type: docs
 weight: 30
 url: /python-net/convert-excel-to-list/
 description: Convert Excel to List by using Aspose.Cells for Python via .NET API.
-keywords: Convert Excel to List Using Python Excel Library, Convert Workbook to List Using Python Excel Library, Convert Row object to List Using Python Excel Library, Convert COlumn Object to List Using Python Excel Library, Convert Range to List Using Python Excel Library, Convert Worksheet to List Using Python Excel Library.
+keywords: Convert Excel to Dictionary Using Python Excel Library, Convert Workbook to Dictionary Using Python Excel Library, Convert Row object to List Using Python Excel Library, How to Convert ListObject to List, Convert COlumn Object to List Using Python Excel Library, Convert Range to List Using Python Excel Library, Convert Worksheet to List Using Python Excel Library.
 ---
 
 {{% alert color="primary" %}}
@@ -12,6 +12,18 @@ keywords: Convert Excel to List Using Python Excel Library, Convert Workbook to 
 Using Aspose.Cells for Python via .NET API, you can convert Workbook, Worksheet, Range, Row, Column and other excel data to Python list.
 
 {{% /alert %}}
+
+## **How to Convert Workbook to Dictionary**
+Here's an example code snippet to demonstrate how to export excel data to dictionary using Aspose.Cells for Python via .NET:
+1. Load the [sample file](sample_data.xlsx).
+1. Traverse all worksheets and convert workbook to Dictionary using Aspose.Cells for Python Excel library.
+
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Workbook-to-Dictionary.py" >}}
+
+The output result:
+```
+{'Sheet1': [['City', 'Region', 'Store'], ['Chicago', 'Central', 3055], ['New York', 'East', 3036], ['Detroit', 'Central', 3074]], 'Sheet2': [['City2', 'Region2', 'Store3'], ['Seattle', 'West', 3000], ['philadelph', 'East', 3082], ['Detroit', 'Central', 3074]], 'Sheet3': [['City3', 'Region3', 'Store3'], ['Seattle', 'West', 3166], ['New York', 'East', 3090], ['Chicago', 'Central', 3055], ['New York', 'East', 3090]]}
+```
 
 ## **How to Convert Workbook to List**
 Here's an example code snippet to demonstrate how to export excel data to list using Aspose.Cells for Python via .NET:
@@ -22,7 +34,8 @@ Here's an example code snippet to demonstrate how to export excel data to list u
 
 The output result:
 ```
-[[['City', 'Region', 'Store'], ['Chicago', 'Central', 3055], ['New York', 'East', 3036], ['Detroit', 'Central', 3074]], [['City2', 'Region2', 'Store3'], ['Seattle', 'West', 3000], ['philadelph', 'East', 3082], ['Detroit', 'Central', 3074]], [['City3', 'Region3', 'Store3'], ['Seattle', 'West', 3166], ['New York', 'East', 3090], ['Chicago', 'Central', 3055], ['New York', 'East', 3090]]]
+[[['City', 'Region', 'Store'], ['Chicago', 'Central', 3055], ['New York', 'East', 3036], ['Detroit', 'Central', 3074]], 
+[['City2', 'Region2', 'Store3'], ['Seattle', 'West', 3000], ['philadelph', 'East', 3082], ['Detroit', 'Central', 3074]], [['City3', 'Region3', 'Store3'], ['Seattle', 'West', 3166], ['New York', 'East', 3090], ['Chicago', 'Central', 3055], ['New York', 'East', 3090]]]
 ```
 
 ## **How to Convert Worksheet to List**
@@ -38,7 +51,7 @@ The output result:
 [['City', 'Region', 'Store'], ['Chicago', 'Central', 3055], ['New York', 'East', 3036], ['Detroit', 'Central', 3074]]
 ```
 
-## **How to Convert Row to List**
+## **How to Convert a Row of Excel to List**
 Here's an example code snippet to demonstrate how to export Row data to list using Aspose.Cells for Python via .NET:
 1. Load the [sample file](sample_data.xlsx).
 1. Get the first worksheet.
@@ -52,7 +65,7 @@ The output result:
 ['Chicago', 'Central', 3055]
 ```
 
-## **How to Convert Column to List**
+## **How to Convert a Column of Excel to List**
 Here's an example code snippet to demonstrate how to export Column data to list using Aspose.Cells for Python via .NET:
 1. Load the [sample file](sample_data.xlsx).
 1. Get the first worksheet.
@@ -66,8 +79,8 @@ The output result:
 ['Region', 'Central', 'East', 'Central']
 ```
 
-## **How to Convert Range to List**
-Here's an example code snippet to demonstrate how to export worksheet data to list using Aspose.Cells for Python via .NET:
+## **How to Convert a Range of Excel to List**
+Here's an example code snippet to demonstrate how to export range data to list using Aspose.Cells for Python via .NET:
 1. Load the [sample file](sample_data.xlsx).
 1. Get the first worksheet.
 1. Create the Range.
