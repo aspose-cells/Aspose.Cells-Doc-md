@@ -90,7 +90,7 @@ Here's an example code snippet to demonstrate how to export Row data to NumPy nd
 
 The output result:
 ```
-['Chicago' 'Central' '3055']
+['Detroit' 'Central' '3074']
 ```
 
 ## **How to Convert a Column of Excel to NumPy ndarray**
@@ -104,5 +104,5 @@ Here's an example code snippet to demonstrate how to export Column data to NumPy
 
 The output result:
 ```
-['Region' 'Central' 'East' 'Central']
+['Store' '3055' '3036' '3074']
 ```

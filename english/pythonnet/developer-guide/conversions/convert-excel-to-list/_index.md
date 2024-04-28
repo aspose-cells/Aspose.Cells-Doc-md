@@ -51,6 +51,21 @@ The output result:
 [['City', 'Region', 'Store'], ['Chicago', 'Central', 3055], ['New York', 'East', 3036], ['Detroit', 'Central', 3074]]
 ```
 
+## **How to Convert a ListObject of Excel to List**
+Here's an example code snippet to demonstrate how to export ListObject data to list using Aspose.Cells for Python via .NET:
+1. Load the [sample file](sample_data.xlsx).
+1. Get the first worksheet.
+1. Create ListObject object.
+1. Convert ListObject data to list using Aspose.Cells for Python Excel library.
+
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-ListObject-to-List.py" >}}
+
+The output result:
+```
+[['City', 'Region', 'Store'], ['Chicago', 'Central', 3055], ['New York', 'East', 3036], ['Detroit', 'Central', 3074]]
+```
+
+
 ## **How to Convert a Row of Excel to List**
 Here's an example code snippet to demonstrate how to export Row data to list using Aspose.Cells for Python via .NET:
 1. Load the [sample file](sample_data.xlsx).
@@ -62,7 +77,7 @@ Here's an example code snippet to demonstrate how to export Row data to list usi
 
 The output result:
 ```
-['Chicago', 'Central', 3055]
+['Detroit', 'Central', 3074]
 ```
 
 ## **How to Convert a Column of Excel to List**
@@ -76,7 +91,7 @@ Here's an example code snippet to demonstrate how to export Column data to list 
 
 The output result:
 ```
-['Region', 'Central', 'East', 'Central']
+['Store', 3055, 3036, 3074]
 ```
 
 ## **How to Convert a Range of Excel to List**
