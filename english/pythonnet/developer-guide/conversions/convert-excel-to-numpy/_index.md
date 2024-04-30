@@ -4,15 +4,20 @@ type: docs
 weight: 30
 url: /python-net/convert-excel-to-numpy/
 description: Convert Excel to NumPy by using Aspose.Cells for Python via .NET API.
-keywords: Python Convert Excel to NumPy array, Export Excel to NumPy array in Python via NET, Python Convert xlsx to  NumPy array, Excel to NumPy array using Python.
+keywords: Python Convert Excel to NumPy array, Export Workbook to NumPy array in Python via NET, Python Convert Row to  NumPy array, Python Convert Table to NumPy array, Export ListObject to NumPy array in Python via NET, Python Convert Range to  NumPy array, Column to NumPy array using Python.
 ---
 
-{{% alert color="primary" %}}
+## **Introduction to NumPy**
+NumPy (Numerical Python) is an open-source numerical computation extension of Python. This tool can be used to store and process large matrices, which is much more efficient than Python's nested list structure (which can also be used to represent matrices). It supports a large number of dimensional arrays and matrix operations, and also provides a large number of mathematical function libraries for array operations. 
 
-Using Aspose.Cells for Python via .NET API, you can convert Excel, TSV, CSV, Json and many different formats to Numpy data.
+The main functions of NumPy:
+1. Ndarray, a multidimensional array object, is a fast, flexible, and space saving data structure.
+1. Linear algebra operations, including matrix multiplication, transposition, inversion, etc.
+1. Fourier transform, performing a fast Fourier transform on an array.
+1. Fast operation of floating-point arrays.
+1. Integrate C language code into Python to make it run faster.
 
-
-{{% /alert %}}
+Using Aspose.Cells for Python via .NET API, you can convert Excel, TSV, CSV, Json and many different formats to Numpy ndarray.
 
 ## **How to Convert Excel Workbook to NumPy ndarray**
 Here's an example code snippet to demonstrate how to export excel data to a NumPy array using Aspose.Cells for Python via .NET:
