@@ -13,7 +13,7 @@ Using Aspose.Cells for Python via .NET API, you can convert Workbook, Worksheet,
 
 {{% /alert %}}
 
-## **How to Convert Workbook to Dictionary**
+## **How to Convert Excel Workbook to Dictionary**
 Here's an example code snippet to demonstrate how to export excel data to dictionary using Aspose.Cells for Python via .NET:
 1. Load the [sample file](sample_data.xlsx).
 1. Traverse all worksheets and convert workbook to Dictionary using Aspose.Cells for Python Excel library.
@@ -22,10 +22,10 @@ Here's an example code snippet to demonstrate how to export excel data to dictio
 
 The output result:
 ```
-{'Sheet1': [['City', 'Region', 'Store'], ['Chicago', 'Central', 3055], ['New York', 'East', 3036], ['Detroit', 'Central', 3074]], 'Sheet2': [['City2', 'Region2', 'Store3'], ['Seattle', 'West', 3000], ['philadelph', 'East', 3082], ['Detroit', 'Central', 3074]], 'Sheet3': [['City3', 'Region3', 'Store3'], ['Seattle', 'West', 3166], ['New York', 'East', 3090], ['Chicago', 'Central', 3055], ['New York', 'East', 3090]]}
+{'Sheet1': [['City', 'Region', 'Store'], ['Chicago', 'Central', 3055], ['New York', 'East', 3036], ['Detroit', 'Central', 3074]], 'Sheet2': [['City2', 'Region2', 'Store3'], ['Seattle', 'West', 3000], ['philadelph', 'East', 3082], ['Detroit', 'Central', 3074]], 'Sheet3': [['City3', 'Region3', 'Store3'], ['Seattle', 'West', 3166], ['New York', 'East', 3090], ['Chicago', 'Central', 3055]]}
 ```
 
-## **How to Convert Workbook to List**
+## **How to Convert Excel Workbook to List**
 Here's an example code snippet to demonstrate how to export excel data to list using Aspose.Cells for Python via .NET:
 1. Load the [sample file](sample_data.xlsx).
 1. Traverse all worksheets and convert workbook to list using Aspose.Cells for Python Excel library.
@@ -35,7 +35,7 @@ Here's an example code snippet to demonstrate how to export excel data to list u
 The output result:
 ```
 [[['City', 'Region', 'Store'], ['Chicago', 'Central', 3055], ['New York', 'East', 3036], ['Detroit', 'Central', 3074]], 
-[['City2', 'Region2', 'Store3'], ['Seattle', 'West', 3000], ['philadelph', 'East', 3082], ['Detroit', 'Central', 3074]], [['City3', 'Region3', 'Store3'], ['Seattle', 'West', 3166], ['New York', 'East', 3090], ['Chicago', 'Central', 3055], ['New York', 'East', 3090]]]
+[['City2', 'Region2', 'Store3'], ['Seattle', 'West', 3000], ['philadelph', 'East', 3082], ['Detroit', 'Central', 3074]], [['City3', 'Region3', 'Store3'], ['Seattle', 'West', 3166], ['New York', 'East', 3090], ['Chicago', 'Central', 3055]]] 
 ```
 
 ## **How to Convert Worksheet to List**

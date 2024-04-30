@@ -14,12 +14,23 @@ Using Aspose.Cells for Python via .NET API, you can convert NumPy array to Excel
 
 {{% /alert %}}
 
-## **How to Convert NumPy ndarray to Excel**
+## **How to Convert NumPy ndarray to Excel Workbook**
 Here's an example code snippet to demonstrate how to import data from a NumPy array to an Excel file using Aspose.Cells for Python via .NET:
 1. Create a sample NumPy array data.
 1. Traverse NumPy array and import data using Aspose.Cells for Python via .NET.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Numpy-import-ndarray-to-excel.py" >}}
+
+The output result:
+<br>
+<img src="ndarray_excel_workook.png" width=60% />
+
+## **How to Convert NumPy ndarray to Worksheet**
+Here's an example code snippet to demonstrate how to import data from a NumPy array to an Excel file using Aspose.Cells for Python via .NET:
+1. Create a sample NumPy array data.
+1. Traverse NumPy array and import data using Aspose.Cells for Python via .NET.
+
+{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Numpy-import-ndarray-to-worksheet.py" >}}
 
 The output result:
 <br>

@@ -14,7 +14,7 @@ Using Aspose.Cells for Python via .NET API, you can convert Excel, TSV, CSV, Jso
 
 {{% /alert %}}
 
-## **Convert Excel Workbook to NumPy ndarray**
+## **How to Convert Excel Workbook to NumPy ndarray**
 Here's an example code snippet to demonstrate how to export excel data to a NumPy array using Aspose.Cells for Python via .NET:
 1. Load the [sample file](sample_data.xlsx).
 1. Traverse excel data and export data to NumPy ndarray using Aspose.Cells for Python via .NET.
@@ -24,11 +24,20 @@ Here's an example code snippet to demonstrate how to export excel data to a NumP
 
 The output result:
 ```
-['City' 'Region' 'Store' 'Chicago' 'Central' '3055' 'New York' 'East'
- '3036' 'Detroit' 'Central' '3074' 'City2' 'Region2' 'Store3' 'Seattle'
- 'West' '3000' 'philadelph' 'East' '3082' 'Detroit' 'Central' '3074'
- 'City3' 'Region3' 'Store3' 'Seattle' 'West' '3166' 'New York' 'East'
- '3090' 'Chicago' 'Central' '3055' 'New York' 'East' '3090']
+[[['City' 'Region' 'Store']    
+  ['Chicago' 'Central' '3055'] 
+  ['New York' 'East' '3036']   
+  ['Detroit' 'Central' '3074']]
+
+ [['City2' 'Region2' 'Store3']
+  ['Seattle' 'West' '3000']
+  ['philadelph' 'East' '3082']
+  ['Detroit' 'Central' '3074']]
+
+ [['City3' 'Region3' 'Store3']
+  ['Seattle' 'West' '3166']
+  ['New York' 'East' '3090']
+  ['Chicago' 'Central' '3055']]]
 ```
 
 ## **How to Convert Worksheet to NumPy ndarray**

@@ -39,18 +39,7 @@ Although, we have enhanced the Aspose.Cells formula calculation engine and in mo
 
 Users may trace the stack size by themselves using the APIs. Please note, checking the stack for every cell will surely degrade the performance to greater extent. See the sample code segment for your reference:
 
-`     `public class MyCalculationMonitor : AbstractCalculationMonitor 
-`     `{ 
-`         `public override void BeforeCalculate(int sheetIndex, int rowIndex, int colIndex) 
-`         `{ 
-`             `if(new StackTrace(false).FrameCount > 2000) 
-`             `{ 
-`                 `throw new Exception("Stop the formula calculation because risk of StackOverflowException"); 
-`             `} 
-`         `} 
-`     `} 
-
-
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "CalculationMonitor-CustomStackTrace.cs" >}}
 
 {{% alert color="primary" %}} 
 
