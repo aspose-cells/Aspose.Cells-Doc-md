@@ -30,7 +30,7 @@ Access GridCell using cells[cellName] may consume more memory.it will always cre
 
 
 ### **Using Row & Column Indices**
-~~
+ 
 
 A cell can also be recognized by its location in terms of row and column indices. Just pass a cell's row and column indices to the Cells collection of the GridWorksheet. This approach is more faster than the above one.
 
@@ -44,7 +44,7 @@ if we want to get the cell value or cell style and do not want to do the update 
    {
     Console.WriteLine(cell.ToString());
    }
-~
+~~~
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-AccessCells.aspx-AccessCellByRowColumnIndex.cs" >}}
