@@ -14,4 +14,4 @@ The following code snippet demonstrates creating a Union Range by using the [Wo
 
 
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-UpdatePowerQueryFormulaItem-1.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "CreateUnionRange.cs" >}}
