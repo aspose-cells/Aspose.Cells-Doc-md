@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /python-net/consolidation-function/
 description: How to apply ConsolidationFunction to Data Fields of Pivot Table with Aspose.Cells for Python via .NET.
-keywords: ConsolidationFunction to Data Fields of Pivot Table.
+keywords: Aspose.Cells for Python Excel, Excel Python library, ConsolidationFunction to Data Fields of Pivot Table Using Aspose.Cells for Python Excel Library.
 ---
 
 ## **Consolidation function**
@@ -26,7 +26,7 @@ Aspose.Cells for Python via .NET provides [**ConsolidationFunction**](https://re
 - ConsolidationFunction.VAR
 - ConsolidationFunction.VARP
 
-### **Applying ConsolidationFunction to Data Fields of Pivot Table**
+## **How to Apply ConsolidationFunction to Data Fields of Pivot Table Using Aspose.Cells for Python Excel Library**
 
 The following code applies **AVERAGE** consolidation function to the first data field (or value field) and **DISTINCT_COUNT** consolidation function to the second data field (or value field).
 

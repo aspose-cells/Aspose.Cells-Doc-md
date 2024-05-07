@@ -4,7 +4,7 @@ type: docs
 weight: 70
 url: /python-net/parsing-pivot-cached-records-while-loading-excel-file/
 description: How to parse Pivot Cached Records while loading Excel file with Aspose.Cells for Python via .NET.
-keywords: Parse Pivot Cached Records while loading Excel file.
+keywords: Aspose.Cells for Python Excel, Excel Python library, How to Parse Pivot Cached Records while loading Excel file Using Aspose.Cells for Python Excel Library.
 ---
 
 ## **Possible Usage Scenarios**
@@ -13,7 +13,7 @@ When you create a Pivot Table, Microsoft Excel takes a copy of the source data a
 
 When you load your Excel file inside the Workbook object, you can decide whether you also want to load the records of Pivot Cache or not, using the [**LoadOptions.parsing_pivot_cached_records**](https://reference.aspose.com/cells/python-net/aspose.cells/loadoptions/parsing_pivot_cached_records/) property. The default value of this property is **false**. If Pivot Cache is quite big, it can increase the performance. But if you also want to load the records of Pivot Cache, you should set this property as **true**.
 
-## **Parsing Pivot Cached Records while loading Excel file**
+## **How to Parse Pivot Cached Records while loading Excel file**
 
 The following sample code explains the usage of [**LoadOptions.parsing_pivot_cached_records**](https://reference.aspose.com/cells/python-net/aspose.cells/loadoptions/parsing_pivot_cached_records/) property. It loads the [sample Excel file](61767773.xlsx) while parsing the pivot cached records. Then it refreshes the pivot table and saves it as the [output Excel file](61767774.xlsx).
 

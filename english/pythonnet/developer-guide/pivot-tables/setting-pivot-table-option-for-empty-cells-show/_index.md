@@ -4,7 +4,7 @@ type: docs
 weight: 40
 url: /python-net/setting-pivot-table-option-for-empty-cells-show/
 description: This article shows how to set Pivot Table Option with Aspose.Cells for Python via .NET.
-keywords: Set Pivot Table Option
+keywords: Aspose.Cells for Python Excel, Excel Python library, Set Pivot Table Option.
 ---
 
 {{% alert color="primary" %}}
@@ -13,7 +13,7 @@ You can set different pivot table options using Aspose.Cells for Python via .NET
 
 {{% /alert %}}
 
-## **Setting Pivot Table Option in Microsoft Excel**
+## **How to Set Pivot Table Option in Microsoft Excel**
 
 To find and set this option in Microsoft Excel:
 
@@ -22,7 +22,7 @@ To find and set this option in Microsoft Excel:
 1. Select the **Layout & Format** tab.
 1. Select the **For empty cells show** option and specify a string.
 
-## **Setting Pivot Table Option Using Aspose.Cells for Python via .NET**
+## **How to Set Pivot Table Option Using Aspose.Cells for Python Excel Library**
 
 Aspose.Cells for Python via .NET provides the [**PivotTable.display_null_string**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/display_null_string/) and [**PivotTable.null_string**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/null_string/) properties for setting the "For empty cells show" pivot table option.
 

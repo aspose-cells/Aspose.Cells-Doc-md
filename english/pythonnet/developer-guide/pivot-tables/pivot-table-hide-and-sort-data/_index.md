@@ -4,10 +4,10 @@ type: docs
 weight: 120
 url: /python-net/pivot-table-hide-and-sort-data/
 description: This article shows how to hide and sort data in pivot table with Aspose.Cells for Python via .NET.
-keywords: Pivot Table Hide and Sort data
+keywords: Aspose.Cells for Python Excel, Excel Python library, Pivot Table Hide and Sort data.
 ---
 
-## **Pivot Table Hide and Sort data**
+## **Pivot Table Hide and Sort data Using Aspose.Cells for Python Excel Library**
 Aspose.Cells for Python via .NET supports hiding and sorting data in the pivot table. The following code snippet demonstrates this feature by sorting the Score column in descending order and then hiding the rows with a score less than 60.
 
 

@@ -2,7 +2,7 @@
 title: Set Range Border
 type: docs
 weight: 600
-url: /net/set-range-border/
+url: /java/set-range-border/
 ---
 
 ## **Possible Usage Scenarios**
@@ -24,8 +24,8 @@ This example shows how to:
 
 1. Create a workbook.
 1. Add data to cells in the first worksheet.
-1. Create a [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range).
+1. Create a [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/range/).
 1. Set inner border of Range.
 1. Set outer border of Range.
 
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Range-set-border.cs" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Range-set-border.java" >}}

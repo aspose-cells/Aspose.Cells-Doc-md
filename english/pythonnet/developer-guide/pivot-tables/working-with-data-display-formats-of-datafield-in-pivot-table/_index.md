@@ -4,7 +4,7 @@ type: docs
 weight: 140
 url: /python-net/working-with-data-display-formats-of-datafield-in-pivot-table/
 description: How to work with data display formats of DataField in Pivot Table with Aspose.Cells for Python via .NET.
-keywords: Work with data display formats of DataField in Pivot Table.
+keywords: Aspose.Cells for Python Excel, Excel Python library, Work with data display formats of DataField in Pivot Table.
 ---
 
 {{% alert color="primary" %}}
@@ -13,7 +13,7 @@ Aspose.Cells for Python via .NET supports all the data display formats of DataFi
 
 {{% /alert %}}
 
-## **"Rank Smallest to Largest" and "Rank Largest to Smallest" display format option**
+## **How to Set "Rank Smallest to Largest" and "Rank Largest to Smallest" display format option**
 
 Aspose.Cells for Python via .NET provides the ability to set the display format option for pivot fields. For this, the API provides the [**PivotField.data_display_format**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/data_display_format/) property. To rank largest to smallest, you may set the [**PivotField.data_display_format**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/data_display_format/) property to [**PivotFieldDataDisplayFormat.RANK_LARGEST_TO_SMALLEST**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfielddatadisplayformat/). The following code snippet demonstrates setting the display format options.
 

@@ -4,7 +4,7 @@ type: docs
 weight: 90
 url: /python-net/disable-pivot-table-ribbons/
 description: How to disable Pivot Table Ribbons with Aspose.Cells for Python via .NET.
-keywords: Disable Pivot Table Ribbons.
+keywords: Aspose.Cells for Python Excel, Excel Python library, Disable Pivot Table Ribbons Using Aspose.Cells for Python Excel Library.
 ---
 
 {{% alert color="primary" %}}
@@ -13,7 +13,7 @@ Pivot table based reports are useful but prone to error if target users do not h
 
 {{% /alert %}}
 
-## **Disable Pivot Table Ribbon using PivotTable.EnableWizard**
+## **How to Disable Pivot Table Ribbon Using Aspose.Cells for Python Excel Library**
 
 Following code demonstrates this feature by accessing a pivot table from a sheet and then setting [**enable_wizard**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/enable_wizard/) to **false**. Sample pivot table file can be downloaded from this [link](pivot_table_test.xlsx).
 

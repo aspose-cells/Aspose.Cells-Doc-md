@@ -2,7 +2,7 @@
 title: Formatting Pivot Table
 type: docs
 weight: 10
-url: /net/formatting-pivot-table/
+url: /python-net/formatting-pivot-table/
 description: How to format pivot table with Aspose.Cells for Python via .NET.
 keywords: Format pivot table.
 ---
@@ -15,11 +15,11 @@ How to Create a Pivot Table explains how to create a simple pivot table. This ar
 - Pivot fields format options
 - Data field format options
 
-### **Setting Pivot Table Format Options**
+### **How to Set Pivot Table Format Options**
 
 The [**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/) class controls the overall pivot table and can be formatted in a number of ways.
 
-#### **Setting the AutoFormat Type**
+#### **How to Set the AutoFormat Type**
 
 Microsoft Excel offers a number of different pre-set report formats. Aspose.Cells for Python via .NET support these formatting options too. To access them:
 
@@ -28,7 +28,7 @@ Microsoft Excel offers a number of different pre-set report formats. Aspose.Cell
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-SettingAutoFormat-1.py" >}}
 
-#### **Setting Format Options**
+#### **How to Set Format Options**
 
 The code sample below shows how to format the pivot table to show grand totals for rows and columns, and how to set the report's field order. It also shows how to set a customer string for null values.
 
@@ -40,7 +40,7 @@ To formatting how the pivot table report looks manually, instead of using pre-se
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-FormattingLook-1.py" >}}
 
-### **Setting Pivot Field Format Options**
+### **How to Set Pivot Field Format Options**
 
 The [**PivotField**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/) class represents a field in a pivot table and can be formatted in a number of ways. The code sample below shows how to:
 
@@ -49,17 +49,17 @@ The [**PivotField**](https://reference.aspose.com/cells/python-net/aspose.cells.
 - Setting autosort.
 - Setting autoshow.
 
-#### **Setting Row/Column/Page Fields Format**
+#### **How to Set Row/Column/Page Fields Format**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-SettingPageFieldFormat-1.py" >}}
 
-### **Setting Data fields format**
+### **How to Set Data fields format**
 
 The code sample below shows how to set display formats and number format for data fields.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-SettingDataFieldFormat-1.py" >}}
 
-### **Clearing Pivot Fields**
+### **How to Clear Pivot Fields**
 
 The [**PivotFieldCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfieldcollection/) has a method named [**clear()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfieldcollection/clear/#) that allows you to clear pivot fields. Use it when you want to clear all the pivot fields in the areas, for example, page, column, row or data.
 The code sample below shows how to clear all the pivot fields in a data area.

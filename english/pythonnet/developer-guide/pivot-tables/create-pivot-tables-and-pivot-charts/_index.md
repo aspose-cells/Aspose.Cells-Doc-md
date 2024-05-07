@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /python-net/create-pivot-tables-and-pivot-charts/
 description: How to add Pivot Tables and Pivot Charts with Aspose.Cells for Python via .NET.
-keywords: Add Pivot Tables and Pivot Charts.
+keywords: Aspose.Cells for Python Excel, Excel Python library, Add Pivot Tables and Pivot Charts Using Aspose.Cells for Python Excel Library.
 ---
 
 {{% alert color="primary" %}}
@@ -17,7 +17,7 @@ Aspose.Cells for Python via .NET supports [pivot tables](/cells/python-net/creat
 
 {{% /alert %}}
 
-## **Adding Pivot Tables and Charts**
+## **Add Pivot Tables and Charts Using Aspose.Cells for Python Excel Library**
 
 Aspose.Cells for Python via .NET provides a special set of classes used to create pivot tables. These classes are used to create and set PivotTable objects, which act as a PivotTable object's basic building blocks:
 
@@ -26,12 +26,12 @@ Aspose.Cells for Python via .NET provides a special set of classes used to creat
 - PivotTable, a PivotTable report on a worksheet.
 - PivotTables, a collection of all the PivotTable objects on the worksheet.
 
-### **Preparing to use Aspose.Cells for Python via .NET**
+### **Prepare to use Aspose.Cells for Python via .NET**
 1. Install Aspose.Cells for Python via .NET from [pypi](https://pypi.org/project/aspose-cells-python/), use command as: $ pip install aspose-cells-python.
 1. You can also follow the step-by-step instructions on how to install “Aspose.Cells for Python via .NET” to your developer environment.
 
 
-### **Adding a Pivot Table**
+### **How to Add a Pivot Table Using Aspose.Cells for Python Excel Library**
 
 To create a pivot table using Aspose.Cells for Python via .NET:
 
@@ -43,7 +43,7 @@ Code examples are given below.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-CreatePivotTablesPivotCharts-CreatePivotTable-1.py" >}}
 
-### **Adding a Pivot Chart**
+### **How to Add a Pivot Chart Using Aspsoe.Cells for Python Excel Library**
 
 To create a PivotChart using Aspose.Cells for Python via .NET:
 

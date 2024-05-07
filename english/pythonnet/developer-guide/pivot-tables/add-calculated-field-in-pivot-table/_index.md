@@ -4,13 +4,13 @@ type: docs
 weight: 130
 url: /python-net/add-calculated-field-in-pivot-table/
 description: How to add a calculated field in pivot table with Aspose.Cells for Python via .NET.
-keywords: Adding a calculated field in pivot table.
+keywords: Aspose.Cells for Python Excel, Excel Python library, Adding a calculated field in pivot table using Python Excel Library.
 ---
 
 ## **Possible Usage Scenarios**
 When you create a pivot table based on known data, you find that the data in it is not what you want. The data you want is the combination of these original data. For example, you need to add, subtract, multiply and divide the original data before you want the data. At this time, you need to build a calculated field and set the corresponding formula for calculation. Then perform some statistics and other operations on the calculated field. 
 
-## **Add calculated field in Pivot Table in Excel**
+## **How to Add calculated field in Pivot Table in Excel**
 Insert a calculated field in a PivotTable in Excel, follow these steps:
 
 1. Select the PivotTable that you want to add a calculated field to. 
@@ -26,7 +26,7 @@ Insert a calculated field in a PivotTable in Excel, follow these steps:
 <br>
 <img src="2.png" width=80% />
 
-## **Add calculated field in Pivot Table Using C#**
+## **How to Add calculated field in Pivot Table Using Aspose.Cells for Python Excel Library**
 Add calculated field to Excel file using Aspose.Cells for Python via .NET. Please see the following sample code. After executing the example code, a pivot table with calculated field is added to the worksheet.
 1. Set the original data and create a pivot table. 
 2. Create the calculated field according to the existing PivotField in the pivot table.
