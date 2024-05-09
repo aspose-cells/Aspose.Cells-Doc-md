@@ -8,6 +8,12 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 24.5
+* Support new functions: XMATCH, XOR
+* Support to transpose data of the range
+* Support to get properties of advanced filter settings
+* Support to render picture placed in cell to pdf/image
+
 ## Aspose.Cells for .NET 24.4
 * Provide simple implementations of interrupt monitor for user's convenience
 * Support to embed attachments when converting OLE Object to pdf
