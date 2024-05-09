@@ -13,6 +13,8 @@ This page describes the most interesting new Aspose.Cells features introduced in
 * Support to transpose data of the range
 * Support to get properties of advanced filter settings
 * Support to render picture placed in cell to pdf/image
+* Support to copy styles to autofill for GridJS
+* Support chart color setting for GridJS
 
 ## Aspose.Cells for .NET 24.4
 * Provide simple implementations of interrupt monitor for user's convenience
