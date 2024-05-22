@@ -72,4 +72,10 @@ While working on worksheets, users may add different types of data in the cells.
 - [Data Validation](/cells/python-net/data-validation/)
 - [Get Cell String Value with and without Formatting](/cells/python-net/get-cell-string-value-with-format-strategy/)
 - [Adding HTML Rich Text inside the Cell](/cells/python-net/adding-html-rich-text-inside-the-cell/)
-
+- [Find or Search Data](/cells/python-net/find-or-search-data/)
+- [Insert Hyperlinks into Excel or OpenOffice](/cells/python-net/insert-hyperlinks-to-excel/)
+- [Measure the Width and Height of the Cell Value in Unit of Pixels](/cells/python-net/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/)
+- [Conversion between cell name and row/column index](/cells/python-net/names-and-indices/)
+- [Populate Data First by Row then by Column](/cells/python-net/populate-data-first-by-row-then-by-column/)
+- [Preserve Single Quote Prefix of Cell Value or Range](/cells/python-net/preserve-single-quote-prefix-of-cell-value-or-range/)
+- [Access and Update the Portions of Rich Text of Cell](/cells/python-net/access-and-update-the-portions-of-rich-text-of-cell/)
