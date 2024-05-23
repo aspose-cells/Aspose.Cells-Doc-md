@@ -8,7 +8,7 @@ url: /python-java/supported-file-formats/
 |**Format**|**Description**|**Load**|**Save**|
 | :- | :- | :- | :- |
 |[XLS](https://docs.fileformat.com/spreadsheet/xls/)|Excel 95/5.0 - 2003 Workbook.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[XLSX](https://docs.fileformat.com/spreadsheet/xlsx/)|Office Open XML SpreadsheetML Workbook or template file, with or without macros.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[XLSX](https://docs.fileformat.com/spreadsheet/xlsx/)|The Office Open XML SpreadsheetML File Format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[XLSB](https://docs.fileformat.com/spreadsheet/xlsb/)|Excel Binary Workbook.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[XLSM](https://docs.fileformat.com/spreadsheet/xlsm/)|Excel Macro-Enabled Workbook.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[XLT](https://docs.fileformat.com/spreadsheet/xlt/)|Excel 97 - Excel 2003 Template.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -41,7 +41,7 @@ url: /python-java/supported-file-formats/
 |[DOCX](https://docs.fileformat.com/word-processing/docx/)|A well-known format for Microsoft Word documents that is a combination of XML and binary files.||{{< emoticons/tick >}}|
 |[PPTX](https://docs.fileformat.com/presentation/pptx/)|The PPTX format is based on the Microsoft PowerPoint open XML presentation file format.||{{< emoticons/tick >}}|
 |[SqlScript](https://docs.fileformat.com/database/sql/)|Structured Query Language.||{{< emoticons/tick >}}|
-|[XHtml](https://docs.fileformat.com/web/xhtml/)|The XHTML is a text based file format with markup in the XML, using a reformulation of HTML 4.0.||{{< emoticons/tick >}}|
+|[XHtml](https://docs.fileformat.com/web/xhtml/)|The XHTML is a text based file format with markup in the XML, using a reformulation of HTML 4.0.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Epub](https://docs.fileformat.com/ebook/epub/)|Files with .epub extension are an e-book file format that provide a standard digital publication format for publishers and consumers.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Xml](https://docs.fileformat.com/web/xml/)|XML stands for Extensible Markup Language that is similar to HTML but different in using tags for defining objects.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Ots](https://docs.fileformat.com/spreadsheet/ots/)|Open Document Template Sheet(OTS) file.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

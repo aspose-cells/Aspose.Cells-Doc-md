@@ -10,7 +10,7 @@ url: /reportingservices/supported-file-formats/
 |RDL|Report Definition Language|{{< emoticons/tick >}}| |
 |RDLC|Report Definition Language Client|{{< emoticons/tick >}}| |
 |[XLS](https://docs.fileformat.com/spreadsheet/xls/)|Saves the document in the Microsoft Excel 97-2003 Workbook.| |{{< emoticons/tick >}}|
-|[XLSX](https://docs.fileformat.com/spreadsheet/xlsx/)|Saves the document in Office Open XML SpreadsheetML Workbook or template file, with or without macros.| |{{< emoticons/tick >}}|
+|[XLSX](https://docs.fileformat.com/spreadsheet/xlsx/)|The Office Open XML SpreadsheetML File Format.| |{{< emoticons/tick >}}|
 |[XLSM](https://docs.fileformat.com/spreadsheet/xlsm/)|Saves the document in Excel Macro-Enabled Workbook.| |{{< emoticons/tick >}}|
 |[XLSB](https://docs.fileformat.com/spreadsheet/xlsb/)|Saves the document in Excel Binary Workbook.| |{{< emoticons/tick >}}|
 |[CSV](https://docs.fileformat.com/spreadsheet/csv/)|Saves the document in CSV (Comma Separated Value) file.| |{{< emoticons/tick >}}|
