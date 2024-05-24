@@ -140,6 +140,18 @@ xs.setFileName(name)
 	name:the file name with extension ,for example trip.xlsx
 ```
 
+- Callback function for email sending feature.
+```javascript
+xs.setEmailSendCallFunction(callback)
+// the parameters is:
+	callback: the callback function to handle email sending, receives a mailObj parameter
+		callback: function(mailObj) {
+			// mailObj properties:
+			// mailObj.receiver: the email address of the receiver, e.g., 'example@gmail.com'
+			// mailObj.type: the format of the file to be sent, can be 'html', 'xlsx', or 'pdf'
+		}
+```
+
 -   whether to enable window key event for GridJs
 ```javascript
 xs.enableKeyEvent(isenable)
