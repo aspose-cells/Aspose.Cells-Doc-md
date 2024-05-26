@@ -26,3 +26,9 @@ To save files to a stream, create a MemoryStream or FileStream object and save 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-SavingFiles-SavingFileToStream-new.cpp" >}}
+
+## **Saving File to PDF**
+To save the desired content to a PDF file using the Aspose.Cells for C++ library, create a new [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) object or construct a [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) object by reading an existing Excel file, and then [Save](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/) the file to PDF by calling the Save method of the [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) object.    When calling the Save method, use the [SaveFormat](https://reference.aspose.com/cells/cpp/aspose.cells/saveformat/) enumeration to specify the desired file format.
+
+
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-SavingFiles-SavingFileToPdf-new.cpp" >}}
