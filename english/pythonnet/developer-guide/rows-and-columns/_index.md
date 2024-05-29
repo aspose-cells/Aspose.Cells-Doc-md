@@ -66,3 +66,14 @@ To set the same column width for all columns in the worksheet, use the [**Cells*
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "RowsColumns-HeightAndWidth-SettingWidthOfAllColumns-1.py" >}}
 
+## **Advance topics**
+- [AutoFit Rows and Columns](/cells/python-net/autofit-rows-and-columns/)
+- [Convert Text to Columns using Aspose.Cells](/cells/python-net/convert-text-to-columns-using-aspose-cells/)
+- [Copying Rows and Columns](/cells/python-net/copying-rows-and-columns/)
+- [Delete Blank Rows and Columns in a Worksheet](/cells/python-net/delete-blank-rows-and-columns-in-a-worksheet/)
+- [Grouping and Ungrouping Rows and Columns](/cells/python-net/grouping-and-ungrouping-rows-and-columns/)
+- [Hiding and Showing Rows and Columns](/cells/python-net/hiding-and-showing-rows-and-columns/)
+- [Insert or Delete Rows in an Excel Worksheet](/cells/python-net/insert-or-delete-rows-in-an-excel-worksheet/)
+- [Inserting and Deleting Rows and Columns of Excel file](/cells/python-net/inserting-and-deleting-rows-and-columns/)
+- [Remove duplicate rows in a Worksheet](/cells/python-net/remove-duplicate-rows-in-a-worksheet/)
+- [Update references in other worksheets while deleting blank columns and rows in a worksheet](/cells/python-net/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/)
