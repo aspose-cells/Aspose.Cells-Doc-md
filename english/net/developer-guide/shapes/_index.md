@@ -70,14 +70,7 @@ You can use the following method to insert a line in the worksheet.
 
 {{% alert color="primary" %}}
 
-[public LineShape AddLine(
-	int upperLeftRow,
-	int top,
-	int upperLeftColumn,
-	int left,
-	int height,
-	int width
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
+[**public LineShape AddLine(int upperLeftRow, int top, int upperLeftColumn, int left,	int height,	int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
 
 The method returns a [LineShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) object.
 
@@ -111,14 +104,7 @@ You can use the following method to insert a line arrow in the worksheet.
 
 {{% alert color="primary" %}}
 
-[public LineShape AddLine(
-	int upperLeftRow,
-	int top,
-	int upperLeftColumn,
-	int left,
-	int height,
-	int width
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
+[**public LineShape AddLine(int upperLeftRow, int top, int upperLeftColumn,	int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
 
 The method returns a [LineShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) object.
 
@@ -152,14 +138,7 @@ You can use the following method to insert a rectangle in the worksheet.
 
 {{% alert color="primary" %}}
 
-[public RectangleShape AddRectangle(
-	int upperLeftRow,
-	int top,
-	int upperLeftColumn,
-	int left,
-	int height,
-	int width
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addrectangle)
+[**public RectangleShape AddRectangle(int upperLeftRow,	int top, int upperLeftColumn, int left,	int height,	int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addrectangle)
 
 The method returns a [RectangleShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape) object.
 
@@ -193,15 +172,7 @@ You can use the following method to insert a cube in the worksheet.
 
 {{% alert color="primary" %}}
 
-[public Shape AddAutoShape(
-	AutoShapeType type,
-	int upperLeftRow,
-	int top,
-	int upperLeftColumn,
-	int left,
-	int height,
-	int width
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
 The method returns a [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) object.
 
@@ -235,15 +206,7 @@ You can use the following method to insert a callout quad arrow in the worksheet
 
 {{% alert color="primary" %}}
 
-[public Shape AddAutoShape(
-	AutoShapeType type,
-	int upperLeftRow,
-	int top,
-	int upperLeftColumn,
-	int left,
-	int height,
-	int width
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
 The method returns a [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) object.
 
@@ -277,15 +240,7 @@ You can use the following method to insert a multiplication sign in the workshee
 
 {{% alert color="primary" %}}
 
-[public Shape AddAutoShape(
-	AutoShapeType type,
-	int upperLeftRow,
-	int top,
-	int upperLeftColumn,
-	int left,
-	int height,
-	int width
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
 The method returns a [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) object.
 
@@ -319,15 +274,7 @@ You can use the following method to insert a multidocument in the worksheet.
 
 {{% alert color="primary" %}}
 
-[public Shape AddAutoShape(
-	AutoShapeType type,
-	int upperLeftRow,
-	int top,
-	int upperLeftColumn,
-	int left,
-	int height,
-	int width
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
 The method returns a [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) object.
 
@@ -361,15 +308,7 @@ You can use the following method to insert a Five-pointed star in the worksheet.
 
 {{% alert color="primary" %}}
 
-[public Shape AddAutoShape(
-	AutoShapeType type,
-	int upperLeftRow,
-	int top,
-	int upperLeftColumn,
-	int left,
-	int height,
-	int width
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
 The method returns a [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) object.
 
@@ -403,15 +342,7 @@ You can use the following method to insert a thought bubble cloud in the workshe
 
 {{% alert color="primary" %}}
 
-[public Shape AddAutoShape(
-	AutoShapeType type,
-	int upperLeftRow,
-	int top,
-	int upperLeftColumn,
-	int left,
-	int height,
-	int width
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
 The method returns a [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) object.
 
