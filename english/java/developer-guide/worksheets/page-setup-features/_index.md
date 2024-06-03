@@ -264,7 +264,7 @@ The pre-defined values of the [**PrintErrorsType**](https://reference.aspose.com
 
 |**Print Errors Types**|**Description**|
 | :- | :- |
-|[*PRINT_ERRORS_BLANK*](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_BLANK)|Specifies not to print errors.|
+|[**PRINT_ERRORS_BLANK**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_BLANK)|Specifies not to print errors.|
 |[**PRINT_ERRORS_DASH**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DASH)|Specifies to print errors as "--".|
 |[**PRINT_ERRORS_DISPLAYED**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DISPLAYED)|Specifies to print errors as displayed.|
 |[**PRINT_ERRORS_NA**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_NA)|Specifies to print errors as "#N/A".|
