@@ -21,7 +21,7 @@ To remove a named range from Excel, you can follow these steps:
 7. Save the workbook to retain the changes.
 
 
-## **Deletes Named Range using Aspose.Cells for .Net **
+## **Deletes Named Range using Aspose.Cells for .Net**
 With Aspose.Cells for .Net, you can remove named ranges or defined names by [text](https://reference.aspose.com/cells/net/aspose.cells/namecollection/remove/#remove)  or [index](https://reference.aspose.com/cells/net/aspose.cells/namecollection/removeat/#removeat) in the list.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Delete-named-range.cs" >}}
