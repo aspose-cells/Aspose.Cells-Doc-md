@@ -11,7 +11,7 @@ This document describes the changes to the Aspose.Cells API from version 8.2.1 t
 
 {{% /alert %}} 
 ## **Added APIs**
-### **Property BuiltInDocumentPropertyCollection.Version Added**
+### **Added BuiltInDocumentPropertyCollection.Version Property**
 The new property Version has been added to the BuiltInDocumentPropertyCollection class in order to allow developers to retrieve the version of the application that created a given spreadsheet.
 
 {{% alert color="primary" %}} 
@@ -33,7 +33,7 @@ Console.WriteLine(properties.Version);
 {{< /highlight >}}
 
 
-### **Property Chart.Worksheet Added**
+### **Added Chart.Worksheet Property**
 Before the release of Aspose.Cells 8.2.2, it was not possible to retrieve the instance of the Worksheet from a Chart object it holds. Aspose.Cells 8.2.2 has filled up this gap by providing the Chart.Worksheet property.
 
 {{% alert color="primary" %}} 

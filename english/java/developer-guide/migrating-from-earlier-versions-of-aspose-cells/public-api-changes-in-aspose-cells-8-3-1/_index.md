@@ -11,7 +11,7 @@ This document describes the changes to the Aspose.Cells API from version 8.3.0 t
 
 {{% /alert %}} 
 ## **Added APIs**
-### **Property DataLabels.ShowCellRange Added**
+### **Added DataLabels.ShowCellRange Property**
 The getter/setter for the property ShowCellRange have been added to the DataLabels class in order to mimic the Excel's functionality of formatting Chart's Data Labels at run-time. Please note, Excel provides this feature through the following steps. 
 
 1. Select Data Labels of the Series and right click to open the pop up menu.
@@ -54,7 +54,7 @@ Please check the article [Showing Cell Range as the Data Labels](/cells/java/sho
 
 {{% /alert %}} 
 
-### **Methods Cell.getTable & ListObject.putCellValue Added**
+### **Added Cell.getTable & ListObject.putCellValue Methods**
 The methods Cell.getTable & ListObject.putCellValue have been added with Aspose.Cells for Java 8.3.1 in order to facilitate the users to access the ListObject from a cell and add values inside it using the row and column offsets. The following sample code loads the source spreadsheet, and adds values inside the table.
 
 **Java**
@@ -97,7 +97,7 @@ Please check the article [Accessing Table from Cell and Adding Values inside it 
 
 {{% /alert %}} 
 
-### **Methods OdsSaveOptions.isStrictSchema11 & OdsSaveOptions.setStrictSchema11 Added**
+### **Added OdsSaveOptions.isStrictSchema11 & OdsSaveOptions.setStrictSchema11 Methods**
 The methods isStrictSchema11 & setStrictSchema11 have been added to OdsSaveOptions class in order to allow the developers to save the spreadsheet in format conforming to ODF v1.2 specification. The default value of setStrictSchema11 property is false, means, from version 8.3.1 of Aspose.Cells APIs the ODS files will be saved as ODF format version 1.2 by default.
 
 Below provided code snippet saves the ODS file in ODF 1.2 format.
@@ -140,7 +140,7 @@ Please check the article [Save ODS file in ODF 1.1 and 1.2 Specifications](/cell
 
 {{% /alert %}} 
 
-### **Method SparklineCollection.add Added**
+### **Added SparklineCollection.add Method**
 Aspose.Cells APIs have exposed the SparklineCollection.add(String dataRange, int row, int column) method to specify the Data Range and Location of Sparkline Group. Please note, Excel provides the same feature through following steps. 
 
 1. Select the cell containing your Sparkline.

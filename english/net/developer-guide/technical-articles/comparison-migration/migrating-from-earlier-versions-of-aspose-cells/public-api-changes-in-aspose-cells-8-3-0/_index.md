@@ -11,7 +11,7 @@ This document describes the changes to the Aspose.Cells API from version 8.2.2 t
 
 {{% /alert %}} 
 ## **Added APIs**
-### **Property WorkbookSettings.AutoRecover Added**
+### **Added WorkbookSettings.AutoRecover Property**
 The new property AutoRecover has been added to the WorkbookSettings class in order to allow developers to set option of Auto-Recovery for the spreadsheets in their applications.
 
 {{% alert color="primary" %}} 
@@ -33,7 +33,7 @@ settings.AutoRecover = true;
 {{< /highlight >}}
 
 
-### **Property WorkbookSettings.CrashSave Added**
+### **Added WorkbookSettings.CrashSave Property**
 A Boolean type property CrashSave has been added to the WorkbookSettings class that indicates whether the application last saved the workbook file after a crash.
 
 **C#**
@@ -49,7 +49,7 @@ Console.WriteLine(settings.CrashSave);
 {{< /highlight >}}
 
 
-### **Property WorkbookSettings.DataExtractLoad Added**
+### **Added WorkbookSettings.DataExtractLoad Property**
 The property DataExtractLoad has been added to the WorkbookSettings class in order to allow the developers to get the information regarding the last recovery. If the property DataExtractLoad returns true that indicates that the data recovery has been performed on the spreadsheet.
 
 **C#**
@@ -65,7 +65,7 @@ Console.WriteLine(settings.DataExtractLoad);
 {{< /highlight >}}
 
 
-### **Property WorkbookSettings.RepairLoad Added**
+### **Added WorkbookSettings.RepairLoad Property**
 The property RepairLoad indicates if the spreadsheet has been repaired in the last loading with Excel application.
 
 **C#**
@@ -81,7 +81,7 @@ Console.WriteLine(settings.RepairLoad);
 {{< /highlight >}}
 
 
-### **Property TxtLoadOptions.KeepExactFormat Added**
+### **Added TxtLoadOptions.KeepExactFormat Property**
 The property KeepExactFormat has been added to the TxtLoadOptions class that indicates whether the exact formatting should be kept for the cell value when string/text is converted to numbers or DateTime. This property has been added to match the behavior of MS Excel application for loading DateTime or numeric values from CSV files. In order to simulate the MS Excel's behavior, set the KeepExactFormat property to false, whereas the default value is true so the cell value will be formatted as the string in CSV file.
 
 **C#**
@@ -97,7 +97,7 @@ var book = new Workbook("sample.csv", options);
 {{< /highlight >}}
 
 
-### **Property Shape.Id Added**
+### **Added Shape.Id Property**
 The property Id has been added to the Shape class to uniquely identify each shape object in a given spredsheet. This new property also helps in identifying Chart objects in a spreadsheet as demonstrated below.
 
 **C#**
@@ -119,7 +119,7 @@ foreach(Chart chart in book.Worksheets[0].Charts)
 {{< /highlight >}}
 
 
-### **Method PlotArea.SetPositionAuto Added**
+### **Added PlotArea.SetPositionAuto Method**
 The method SetPositionAuto has been added to the PlotArea class that helps in setting the chart's plot area to automatic mode.
 
 **C#**

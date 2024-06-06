@@ -43,7 +43,7 @@ options.setLinkTargetType(HtmlLinkTargetType.BLANK);
 workbook.save(outputFilePath, options);
 
 {{< /highlight >}}
-### **Method VbaModuleCollection.remove Added**
+### **Added VbaModuleCollection.remove Method**
 Aspose.Cells for Java 8.6.1 has exposed another overload of the VbaModuleCollection.remove method that can now accept an instance of Worksheet to remove all the VBA modules associated with the specified Worksheet.
 
 Following is the simple usage scenario.
@@ -65,7 +65,7 @@ VbaModuleCollection modules = workbook.getVbaProject().getModules();
 modules.remove(workbook.getWorksheets().get(0));
 
 {{< /highlight >}}
-### **Method RangeCollection.add Added**
+### **Added RangeCollection.add Method**
 Aspose.Cells for Java 8.6.1 has exposed the RangeCollection.Add method that can be used to add Range objects to the collection of ranges for a particular Worksheet.
 
 Following is the simple usage scenario.
@@ -91,7 +91,7 @@ RangeCollection ranges = cells.getRanges();
 ranges.add(cells.createRange("A1:B4"));
 
 {{< /highlight >}}
-### **Method Cell.setCharacters Added**
+### **Added Cell.setCharacters Method**
 The Cell.setCharacters method can be used to [update the portions of the rich text](/cells/java/access-and-update-the-portions-of-rich-text-of-cell/) of a given Cell object. The Cell.getCharacters method is to be used to access the portions of the text and then amendments can be done using the Cell.setCharacters method whereas the **get** method returns an array of FontSetting objects which can be manipulated to set various properties font name, font color, boldness etc and **set** method can be used to apply the changes.
 
 Following is the simple usage scenario.
@@ -125,7 +125,7 @@ settings[0].getFont().setName("Arial");
 cell.setCharacters(settings);
 
 {{< /highlight >}}
-### **Property VbaProject.isSigned Added**
+### **Added VbaProject.isSigned Property**
 Aspose.Cells for Java 8.6.1 has exposed the VbaProject.isSigned property that can be used to [test if a VbaProject in a Workbook is signed or not](/cells/java/check-if-vba-project-in-a-workbook-is-signed/). Boolean type property returns true if the project is signed.
 
 Following is the simple usage scenario.
@@ -162,8 +162,8 @@ else
 
 {{< /highlight >}}
 ## **Modified APIs**
-### **Method Cell.getFormatConditions Modified**
+### **Modified Cell.getFormatConditions Method**
 With the release of v8.6.1, the Aspose.Cells for Java API has modified the return type of the Cell.getFormatConditions method that now returns an array of type FormatConditionCollection.
 ## **Obsoleted APIs**
-### **Method Workbook.checkWriteProtectedPassword Obsoleted**
+### **Obsoleted Workbook.checkWriteProtectedPassword Method**
 With the release of v8.6.1, the Workbook.checkWriteProtectedPassword method has been marked depreciated. It is advised to use the WorkbookSettings.WriteProtection.validatePassword method that can accept a String value as parameter and returns Boolean if password matches the preset password of the spreadsheet.

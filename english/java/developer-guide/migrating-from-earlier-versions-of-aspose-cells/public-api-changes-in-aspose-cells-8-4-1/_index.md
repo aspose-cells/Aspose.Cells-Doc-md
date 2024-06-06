@@ -273,5 +273,5 @@ renderer.toImage(0, "output.svg");
 
 {{< /highlight >}}
 ## **Obsoleted APIs**
-### **Method Workbook.validateFormula Obsoleted**
+### **Obsoleted Workbook.validateFormula Method**
 Use the Cell.Formula property to validate the formula.

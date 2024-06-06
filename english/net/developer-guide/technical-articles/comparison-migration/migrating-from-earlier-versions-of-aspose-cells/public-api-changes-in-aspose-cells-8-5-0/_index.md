@@ -174,7 +174,7 @@ workbook.Save("output.xlsx", SaveFormat.Xlsx);
 {{< /highlight >}}
 
 
-### **Property SheetRender.PageScale Added**
+### **Added SheetRender.PageScale Property**
 When you set Page Setup Scaling using **Fit to n page(s) wide by m tall** option, Microsoft Excel calculates the Page Setup scaling factor. Same can be achieved using the SheetRender.PageScale property exposed by Aspose.Cells for .NET 8.5.0. This property returns a double value which can be converted to percentage value. For example, if it returns 0.507968245 then it means scaling factor is 51%.
 
 **C#**
@@ -224,7 +224,7 @@ Aspose.Cells for .NET 8.5.0 has added a new enumeration CellValueFormatStrategy 
 1. CellValueFormatStrategy.CellStyle: Only formatted with cell's original format.
 1. CellValueFormatStrategy.DisplayStyle: Formatted with cell's displayed style.
 1. CellValueFormatStrategy.None: Not formatted.
-### **Method Cell.GetStingValue Added**
+### **Added Cell.GetStingValue Method**
 In order to use the CellValueFormatStrategy enumeration, v8.5.0 has exposed the Cell.GetStingValue method that could accept a parameter of type CellValueFormatStrategy and returns the value depends on the specified option.
 
 Following code snippet shows how to use the newly exposed Cells.GetStingValue method.
@@ -272,7 +272,7 @@ Console.WriteLine(value);
 {{< /highlight >}}
 
 
-### **Property ExportTableOptions.FormatStrategy Added**
+### **Added ExportTableOptions.FormatStrategy Property**
 Aspose.Cells for .NET 8.5.0 has exposed ExportTableOptions.FormatStrategy property for the users who wish to export the data to DataTable with or without formatting. This property make use of the CellValueFormatStrategy enumeration and exports the data as per specified option.
 
 Following code explains the use of ExportTableOptions.FormatStrategy property.

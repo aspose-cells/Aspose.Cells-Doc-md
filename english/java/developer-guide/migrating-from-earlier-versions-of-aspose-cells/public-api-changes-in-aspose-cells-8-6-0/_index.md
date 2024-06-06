@@ -35,7 +35,7 @@ metaWorkbook.getCustomDocumentProperties().add("test", "test");
 metaWorkbook.save(filePath);
 
 {{< /highlight >}}
-### **Property HtmlSaveOptions.ExportFrameScriptsAndProperties Added**
+### **Added HtmlSaveOptions.ExportFrameScriptsAndProperties Property**
 Aspose.Cells for Java 8.6.0 has exposed the HtmlSaveOptions.ExportFrameScriptsAndProperties property that can be used to influence the creation of additional scripts while converting the spreadsheets to HTML format. With default settings, the Aspose.Cells APIs export the spreadsheet in HTML format as Excel application does the export, that is; the resultant HTML contains the frames and conditional comments, that detects the browser type & adjusts the layout accordingly. The default value of HtmlSaveOptions.ExportFrameScriptsAndProperties property is true, that means; the export is done as per Excel standards. If the property is set to false, the API will not [generate the scripts related to the frames and conditional comments](/cells/java/disable-exporting-frame-scripts-and-document-properties/). In this case, the resultant HTML can be viewed correctly in any browser, however, it cannot be imported back using Aspose.Cells APIs.
 
 Following is the simple usage scenario.
@@ -59,7 +59,7 @@ options.setExportFrameScriptsAndProperties(false);
 book.save("output.html", options)
 
 {{< /highlight >}}
-### **Property Shape.MarcoName Added**
+### **Added Shape.MarcoName Property**
 Aspose.Cells for Java 8.6.0 has exposed the Shape.MarcoName property that can be used to [assign a VBA module to a form control](/cells/java/assign-macro-code-to-form-control/) such a Button in order to provide the interaction. The property is of type string therefore it can accept the module name and assigns it to the control.
 
 Following is the simple usage scenario.
@@ -115,5 +115,5 @@ button.setMacroName(module.getName() + ".ShowMessage" );
 workbook.save("output.xlsm");
 
 {{< /highlight >}}
-### **Property OoxmlSaveOptions.UpdateZoom Added**
+### **Added OoxmlSaveOptions.UpdateZoom Property**
 With the release of v8.6.0, the Aspose.Cells for Java API has exposed the OoxmlSaveOptions.UpdateZoom property that can be used to update the PageSetup.Zoom if PageSetup.FitToPagesWide and/or PageSetup.FitToPagesTall properties have been used to control the Worksheet scaling.

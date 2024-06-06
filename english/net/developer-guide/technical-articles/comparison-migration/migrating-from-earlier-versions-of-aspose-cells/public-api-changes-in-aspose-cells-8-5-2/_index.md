@@ -60,7 +60,7 @@ bmp.Save("test.png", ImageFormat.Png);
 {{< /highlight >}}
 
 
-### **Method PivotTable.GetCellByDisplayName Added**
+### **Added PivotTable.GetCellByDisplayName Method**
 Aspose.Cells for .NET 8.5.2 has exposed the PivotTable.GetCellByDisplayName method that can be used to [retrieve the Cell object by the name of the PivotField](/cells/net/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/). This method could be useful in scenarios where you wish to highlight or format the PivotField header.
 
 Following is the simple usage scenario.
@@ -104,7 +104,7 @@ workbook.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **Property SaveOptions.MergeAreas Added**
+### **Added SaveOptions.MergeAreas Property**
 Aspose.Cells for .NET 8.5.2 has exposed the SaveOptions.MergeAreas property that can accept Boolean type value. The default value is false however, if set to true, the Aspose.Cells for .NET API tries to merge the individual CellArea before saving the file.
 
 {{% alert color="primary" %}} 
@@ -112,7 +112,7 @@ Aspose.Cells for .NET 8.5.2 has exposed the SaveOptions.MergeAreas property that
 If a spreadsheet has too many individual cells with validation applied, there are chances that the resultant spreadsheet may get corrupted. One possible solution is to merge the cells with identical validation rules or you can now use the SaveOptions.MergeAreas property to direct the API to auto merge the CellAreas before save operation.
 
 {{% /alert %}} 
-### **Property Shape.Geometry.ShapeAdjustValues Added**
+### **Added Shape.Geometry.ShapeAdjustValues Property**
 With the release of v8.5.2, the Aspose.Cells API has exposed the Shape.Geometry.ShapeAdjustValues property that can be used to [make changes to the adjustment points of different shapes](/cells/net/change-adjustment-values-of-the-shape/).
 
 {{% alert color="primary" %}} 

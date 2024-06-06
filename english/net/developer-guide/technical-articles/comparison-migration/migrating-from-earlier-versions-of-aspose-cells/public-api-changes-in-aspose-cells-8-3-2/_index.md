@@ -61,7 +61,7 @@ pic.SignatureLine = s;
 {{< /highlight >}}
 
 
-### **Method Chart.HasAxis Added**
+### **Added Chart.HasAxis Method**
 With the release of v8.3.2, the Aspose.Cells API has provided the Chart.HasAxis(AxisType axisType, bool isPrimary) method to determine if the chart has a particular axis or not.
 
 The following sample code demonstrates the use of Chart.HasAxis method to determine if the sample chart has Primary, Secondary and Value axis.
@@ -103,7 +103,7 @@ Console.WriteLine("Has Secondary Value Axis: " + ret);
 {{< /highlight >}}
 
 
-### **Method WorkbookSettings.CheckWriteProtectedPassword Added**
+### **Added WorkbookSettings.CheckWriteProtectedPassword Method**
 Method WorkbookSettings.CheckWriteProtectedPassword enables the developers to check if a given password to modify the spreadsheet is correct or not.
 
 **C#**
@@ -165,7 +165,7 @@ sr.ToPrinter(printerName, 1, 4);
 {{< /highlight >}}
 
 
-### **Method Worksheet.RefreshPivotTables Added**
+### **Added Worksheet.RefreshPivotTables Method**
 Newly added method Worksheet.RefreshPivotTables allows to refresh all the Pivot Tables in a given spreadsheet in a single call.
 
 **C#**
@@ -177,13 +177,13 @@ Newly added method Worksheet.RefreshPivotTables allows to refresh all the Pivot 
 {{< /highlight >}}
 
 
-### **Method Workbook.GetNamedStyle Added**
+### **Added Workbook.GetNamedStyle Method**
 Aspose.Cells for .NET API has exposed the Workbook.GetNamedStyle method that accepts the string as parameter and retrieves the Style object based on the parameter passed.
-### **Method Cells.ImportTwoDimensionArray Added**
+### **Added Cells.ImportTwoDimensionArray Method**
 Aspose.Cells for .NET API has made possible to import two dimensional arrays to spreadsheet cells by exposing the Cells.ImportTwoDimensionArray(object[,], object[,], int, int, TxtLoadOptions) method. The said method imports a two-dimension array of data into a worksheet with more flexible options defined in TxtLoadOptions.
-### **Properties OnePagePerSheet, PageIndex & PageCount Added**
+### **Added OnePagePerSheet, PageIndex & PageCount Properties**
 Aspose.Cells for .NET 8.3.2 has exposed the OnePagePerSheet, PageIndex & PageCount properties for the XpsSaveOptions class. The user can fit all contents of a spreadsheet on a single page of XPS using the OnePagePerSheet property and/or retrieve the number of pages to be printed using the PageCount property. The PageIndex property gets/sets the 0-based index of the first page to be saved.
-### **Properties NumberDecimalSeparator & NumberGroupSeparator Added**
+### **Added NumberDecimalSeparator & NumberGroupSeparator Properties**
 Aspose.Cells for .NET 8.3.2 has introduced NumberDecimalSeparator & NumberGroupSeparator properties that can get/set the custom separators used for formatting & parsing the numeric values in spreadsheets.
 
 The following sample code illustrates how to specify the Custom Separators using Aspose.Cells API. The following code specifies the custom Decimal and Group separators as dot and space respectively.
@@ -203,7 +203,7 @@ workbook.Settings.NumberGroupSeparator = ' ';
 {{< /highlight >}}
 
 
-### **Property PdfSaveOptions.IsFontSubstitutionCharGranularity Added**
+### **Added PdfSaveOptions.IsFontSubstitutionCharGranularity Property**
 Aspose.Cells for .NET 8.3.2 has exposed the PdfSaveOptions.IsFontSubstitutionCharGranularity property in order to overcome the problem where some Unicode characters cannot be displayed using a specific font family. When PdfSaveOptions.IsFontSubstitutionCharGranularity property is set to true only the font of specific character which is not displayable will be changed to displayable font and rest of the word or sentence should remain in original font.
 
 **C#**
@@ -266,9 +266,9 @@ Following properties have been removed from the Public API.
 - SaveOptions.PdfImageCompression property.
 - TxtSaveOptions.AlwaysQuoted property.
 ## **Obseleted APIs**
-### **Property Workbook.SaveOptions Obsoleted**
+### **Obseleted Workbook.SaveOptions Property**
 An object of SaveOptions has to be passed to the Workbook.Save method after setting proper SaveOptions properties.
-### **Property Workbook.Styles & Class StyleCollection Obsoleted**
+### **Obseleted Workbook.Styles Property & Class StyleCollection**
 It is advised to use the Workbook.CreateStyle method to create and manipulate style for Workbook instance instead of creating a Style with StyleCollection.Add method. Moreover, Workbook.GetNamedStyle(string) method can be used to get named style instead of StyleCollection[string].
-### **Method PivotItem.Move(int count) Obsoleted**
+### **Obsoleted PivotItem.Move(int count) Method**
 With the release of Aspose.Cells 8.3.2, the API has introduced another overload of the PivotItem.Move method that accepts the integer parameter for the count and boolean parameter to move a PivotItem within the parent node.

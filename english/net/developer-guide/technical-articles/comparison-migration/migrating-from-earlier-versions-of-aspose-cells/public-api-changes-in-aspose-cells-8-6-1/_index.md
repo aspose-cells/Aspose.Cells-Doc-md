@@ -44,7 +44,7 @@ workbook.Save(outputFilePath, options);
 {{< /highlight >}}
 
 
-### **Method VbaModuleCollection.Remove Added**
+### **Added VbaModuleCollection.Remove Method**
 Aspose.Cells for .NET 8.6.1 has exposed another overload of the VbaModuleCollection.Remove method that can now accept an instance of Worksheet to remove all the VBA modules associated with the specified Worksheet.
 
 Following is the simple usage scenario.
@@ -68,7 +68,7 @@ modules.Remove(workbook.Worksheets[0]);
 {{< /highlight >}}
 
 
-### **Method RangeCollection.Add Added**
+### **Added RangeCollection.Add Method**
 Aspose.Cells for .NET 8.6.1 has exposed the RangeCollection.Add method that can be used to add Range objects to the collection of ranges for a particular Worksheet.
 
 Following is the simple usage scenario.
@@ -96,7 +96,7 @@ ranges.Add(cells.CreateRange("A1:B4"));
 {{< /highlight >}}
 
 
-### **Method Cell.SetCharacters Added**
+### **Added Cell.SetCharacters Method**
 The Cell.SetCharacters method can be used to [update the portions of the rich text](/cells/net/access-and-update-the-portions-of-rich-text-of-cell/) of a given Cell object. The Cell.GetCharacters method is to be used to access the portions of the text and then amendments can be done using the Cell.SetCharacters method whereas the **Get** method returns an array of FontSetting objects which can be manipulated to set various properties font name, font color, boldness etc and **Set** method can be used to apply the changes.
 
 Following is the simple usage scenario.
@@ -132,7 +132,7 @@ cell.SetCharacters(settings);
 {{< /highlight >}}
 
 
-### **Property VbaProject.IsSigned Added**
+### **Added VbaProject.IsSigned Property**
 Aspose.Cells for .NET 8.6.1 has exposed the VbaProject.IsSigned property that can be used to [test if a VbaProject in a Workbook is signed or not](/cells/net/check-if-vba-project-in-a-workbook-is-signed/). Boolean type property returns true if the project is signed.
 
 Following is the simple usage scenario.
@@ -169,8 +169,8 @@ else
 
 {{< /highlight >}}
 ## **Modified APIs**
-### **Method Cell.GetFormatConditions Modified**
+### **Modified Cell.GetFormatConditions Method**
 With the release of v8.6.1, the Aspose.Cells for .NET API has modified the return type of the Cell.GetFormatConditions method that now returns an array of type FormatConditionCollection.
 ## **Obsoleted APIs**
-### **Method Workbook.CheckWriteProtectedPassword Obsoleted**
+### **Obsoleted Workbook.CheckWriteProtectedPassword Method**
 With the release of v8.6.1, the Workbook.CheckWriteProtectedPassword method has been marked depreciated. It is advised to use the WorkbookSettings.WriteProtection.ValidatePassword method that can accept a string value as parameter and returns Boolean if password matches the preset password of the spreadsheet.

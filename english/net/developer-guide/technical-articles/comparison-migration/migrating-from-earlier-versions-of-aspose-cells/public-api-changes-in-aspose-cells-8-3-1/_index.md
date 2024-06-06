@@ -11,7 +11,7 @@ This document describes the changes to the Aspose.Cells API from version 8.3.0 t
 
 {{% /alert %}} 
 ## **Added APIs**
-### **Property DataLabels.ShowCellRange Added**
+### **Added DataLabels.ShowCellRange Property**
 The property ShowCellRange have been added to the DataLabels class in order to mimic the Excel's functionality of formatting Chart's Data Labels at run-time. Please note, Excel provides this feature through the following steps. 
 
 1. Select Data Labels of the Series and right click to open the pop up menu.
@@ -85,7 +85,7 @@ Please check the article [Showing Cell Range as the Data Labels](http://aspose.c
 
 {{% /alert %}} 
 
-### **Methods Cell.GetTable & ListObject.PutCellValue Added**
+### **Added Cell.GetTable & ListObject.PutCellValue Methods**
 The methods Cell.GetTable & ListObject.PutCellValue have been added with Aspose.Cells for .NET 8.3.1 in order to facilitate the users to access the ListObject from a cell and add values inside it using the row and column offsets. The following sample code loads the source spreadsheet, and adds values inside the table.
 
 **C#**
@@ -164,7 +164,7 @@ Please check the article [Accessing Table from Cell and Adding Values inside it 
 
 {{% /alert %}} 
 
-### **Property OdsSaveOptions.IsStrictSchema11 Added**
+### **Added OdsSaveOptions.IsStrictSchema11 Property**
 The property IsStrictSchema11 has been added to the OdsSaveOptions class in order to allow the developers to save the spreadsheet in format conforming to ODF v1.2 specification. The default value of IsStrictSchema11 property is false, means, from version 8.3.1 of Aspose.Cells APIs the ODS files will be saved as ODF format version 1.2 by default.
 
 Below provided code snippet saves the ODS file in ODF 1.2 format.
@@ -240,7 +240,7 @@ Please check the article [Save ODS file in ODF 1.1 and 1.2 Specifications](http:
 
 {{% /alert %}} 
 
-### **Method SparklineCollection.Add Added**
+### **Added SparklineCollection.Add Method**
 Aspose.Cells APIs have exposed the SparklineCollection.Add(string dataRange, int row, int column) method to specify the Data Range and Location of Sparkline Group. Please note, Excel provides the same feature through following steps. 
 
 1. Select the cell containing your Sparkline.

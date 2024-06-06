@@ -11,7 +11,7 @@ This document describes the changes to the Aspose.Cells API from version 8.5.0 t
 
 {{% /alert %}} 
 ## **Added APIs**
-### **Method Workbook.Dispose Added**
+### **Added Workbook.Dispose Method**
 Aspose.Cells for Java 8.5.1 has exposed the Workbook.dispose method to release the unmanaged resources of the Workbook object. The dispose pattern is used only for objects that access unmanaged resources, such as file and pipe handles, registry handles, wait handles, or pointers to blocks of unmanaged memory. This is because the garbage collector is very efficient at reclaiming unused managed objects, but it is unable to reclaim unmanaged objects.
 
 **Java**
@@ -27,7 +27,7 @@ Workbook book = new Workbook();
 book.dispose();
 
 {{< /highlight >}}
-### **Method Cell.getHeightOfValue Added**
+### **Added Cell.getHeightOfValue Method**
 Aspose.Cells for Java 8.5.1 has exposed the Cell.getHeightOfValue method to get the height of cell value. By using this method you can calculate height of the cell value and then set the height of the row of that cell respectively. Check the detailed article on [how to calculate the cell height & width](/cells/java/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/).
 ### **Enumeration TableDataSourceType Added**
 Aspose.Cells for Java 8.5.1 has exposed the enumeration com.aspose.cells.TableDataSourceType to retrieve the data source type of a ListObject. The TableDataSourceType enumeration as following fields. 
@@ -36,7 +36,7 @@ Aspose.Cells for Java 8.5.1 has exposed the enumeration com.aspose.cells.TableDa
 1. TableDataSourceType.SHARE_POINT
 1. TableDataSourceType.WORKSHEET
 1. TableDataSourceType.XML
-### **Property ListObject.DataSourceType Added**
+### **Added ListObject.DataSourceType Property**
 With the release of v8.5.1, the Aspose.Cells API has exposed the readonly ListObject.DataSourceType property that can be used to detect the data source type of a ListObject.
 
 Here is the simplest usage scenario.

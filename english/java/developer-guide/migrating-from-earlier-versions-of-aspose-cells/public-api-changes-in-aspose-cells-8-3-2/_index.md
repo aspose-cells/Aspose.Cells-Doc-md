@@ -59,7 +59,7 @@ s.setEmail("john.doe@aspose.com");
 pic.setSignatureLine(s);
 
 {{< /highlight >}}
-### **Method Chart.hasAxis Added**
+### **Added Chart.hasAxis Method**
 With the release of v8.3.2, the Aspose.Cells API has provided the Chart.hasAxis(AxisType axisType, bool isPrimary) method to determine if the chart has a particular axis or not.
 
 The following sample code demonstrates the use of Chart.hasAxis method to determine if the sample chart has Primary, Secondary and Value axis.
@@ -99,7 +99,7 @@ ret = chart.hasAxis(AxisType.VALUE, false);
 System.out.println("Has Seconary Value Axis: " + ret);
 
 {{< /highlight >}}
-### **Method WorkbookSettings.checkWriteProtectedPassword Added**
+### **Added WorkbookSettings.checkWriteProtectedPassword Method**
 Method WorkbookSettings.checkWriteProtectedPassword enables the developers to check if a given password to modify the spreadsheet is correct or not.
 
 **Java**
@@ -157,7 +157,7 @@ SheetRender sr = new SheetRender(worksheet, new ImageOrPrintOptions());
 sr.toPrinter(printerName, 1, 4);
 
 {{< /highlight >}}
-### **Method Worksheet.refreshPivotTables Added**
+### **Added Worksheet.refreshPivotTables Method**
 Newly added method Worksheet.refreshPivotTables allows to refresh all the Pivot Tables in a given spreadsheet in a single call.
 
 **Java**
@@ -167,13 +167,13 @@ Newly added method Worksheet.refreshPivotTables allows to refresh all the Pivot 
  worksheet.refreshPivotTables();
 
 {{< /highlight >}}
-### **Method Workbook.getNamedStyle Added**
+### **Added Workbook.getNamedStyle Method**
 Aspose.Cells 8.3.2 has exposed the Workbook.getNamedStyle method that accepts the string as parameter and retrieves the Style object based on the parameter passed.
-### **Method Cells.importTwoDimensionArray Added**
+### **Added Cells.importTwoDimensionArray Method**
 Aspose.Cells API has made possible to import two dimensional arrays to spreadsheet cells by exposing the Cells.importTwoDimensionArray(object[,], object[,], int, int, TxtLoadOptions) method. The said method imports a two-dimension array of data into a worksheet with more flexible options defined in TxtLoadOptions.
-### **Properties OnePagePerSheet, PageIndex & PageCount Added**
+### **Added OnePagePerSheet, PageIndex & PageCount Properties**
 Aspose.Cells for Java 8.3.2 has exposed the OnePagePerSheet, PageIndex & PageCount properties for the XpsSaveOptions class. The user can fit all contents of a spreadsheet on a single page of XPS using the OnePagePerSheet property and/or retrieve the number of pages to be printed using the PageCount property. The PageIndex property gets/sets the 0-based index of the first page to be saved.
-### **Properties NumberDecimalSeparator & NumberGroupSeparator Added**
+### **Added NumberDecimalSeparator & NumberGroupSeparator Properties**
 Aspose.Cells for Java 8.3.2 has introduced NumberDecimalSeparator & NumberGroupSeparator properties that can get/set the custom separators used for formatting & parsing the numeric values in spreadsheets.
 
 The following sample code illustrates how to specify the custom separators using Aspose.Cells API. The following code specifies the custom Decimal and Group separators as dot and space respectively.
@@ -191,7 +191,7 @@ workbook.getSettings().setNumberDecimalSeparator('.');
 workbook.getSettings().setNumberGroupSeparator(' ');
 
 {{< /highlight >}}
-### **Property PdfSaveOptions.setFontSubstitutionCharGranularity Added**
+### **Added PdfSaveOptions.setFontSubstitutionCharGranularity Property**
 Aspose.Cells for Java 8.3.2 has exposed the PdfSaveOptions.setFontSubstitutionCharGranularity property in order to overcome the problem where some Unicode characters cannot be displayed using a specific font family. When PdfSaveOptions.setFontSubstitutionCharGranularity property is set to true only the font of specific character which is not displayable will be changed to displayable font and rest of the word or sentence should remain in original font.
 
 **Java**
@@ -252,9 +252,9 @@ Following properties have been removed from the Public API.
 - SaveOptions.PdfImageCompression property.
 - TxtSaveOptions.AlwaysQuoted property.
 ## **Obseleted APIs**
-### **Property Workbook.saveOptions Obsoleted**
+### **Obsoleted Workbook.saveOptions Property**
 An object of SaveOptions has to be passed to the Workbook.Save method after setting proper SaveOptions properties. 
-### **Property Workbook.Styles & Class StyleCollection Obsoleted**
+### **Obsoleted Workbook.Styles & Class StyleCollection Property**
 It is advised to use the Workbook.createStyle method to create and manipulate style for Workbook instance instead of creating a Style with StyleCollection.add method. Moreover, Workbook.getNamedStyle(string) method can be used to get named style instead of StyleCollection.get(string).
-### **Method PivotItem.move(int count) Obsoleted**
+### **Obsoleted PivotItem.move(int count) Method**
 With the release of Aspose.Cells 8.3.2, the API has introduced another overload of the PivotItem.move method that accepts the integer parameter for the count and boolean parameter to move a PivotItem within the parent node. 

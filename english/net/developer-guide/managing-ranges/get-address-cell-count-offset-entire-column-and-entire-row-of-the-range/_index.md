@@ -29,7 +29,7 @@ Gets a Range object that represents the entire column (or columns) that contains
 Gets a Range object that represents the entire row (or rows) that contains the specified range.
 ## **Get Address, Cell Count, Offset, Entire Column and Entire Row of the Range**
 The following sample code explains the usage of the methods and properties as discussed above. Please see the console output of the code given below for a reference.
-## ` `**Sample Code**
+## **Sample Code**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-GetAddressCellCountOffsetEntireColumnAndEntireRowOfTheRange.cs" >}}
 ## **Console Output**
 {{< highlight java >}}

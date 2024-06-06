@@ -83,7 +83,7 @@ report.setCallBack(new SmartMarkerCallBack(report.getWorkbook()));
 report.process(false);
 
 {{< /highlight >}}
-### **Method Chart.toPdf Added**
+### **Added Chart.toPdf Method**
 Aspose.Cells for Java 8.6.2 has exposed the Chart.toPdf method that can be used to directly render the Chart shape to PDF format. The said method currently accepts a parameter of of type String as file path location to store the resultant file on disk.
 
 Following is the simple usage scenario.
@@ -109,7 +109,7 @@ Chart chart = worksheet.getCharts().get(0);
 chart.toPdf(outputFilePath);
 
 {{< /highlight >}}
-### **Method Workbook.removeUnusedStyles Added**
+### **Added Workbook.removeUnusedStyles Method**
 Aspose.Cells for Java 8.6.2 has exposed the Workbook.removeUnusedStyles method that can be used to [remove all unused Style objects from the pool of styles](/cells/java/remove-unused-styles-inside-the-workbook/). 
 
 Following is the simple usage scenario.
@@ -127,7 +127,7 @@ Workbook workbook = new Workbook(inputFilePath);
 workbook.removeUnusedStyles();
 
 {{< /highlight >}}
-### **Property Cells.Style Added**
+### **Added Cells.Style Property**
 The Cells.Style property can be used to access the Style for the Worksheet representing the default style.
 
 Following is the simple usage scenario.

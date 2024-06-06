@@ -77,7 +77,7 @@ designer.Process(false);
 {{< /highlight >}}
 
 
-### **Method Chart.ToPdf Added**
+### **Added Chart.ToPdf Method**
 Aspose.Cells for .NET 8.6.2 has exposed the Chart.ToPdf method that can be used to [directly render the Chart shape to PDF format](/cells/net/convert-an-excel-chart-to-image/). The said method currently accepts a parameter of of type string as file path location to store the resultant file on disk.
 
 Following is the simple usage scenario.
@@ -105,7 +105,7 @@ chart.ToPdf(outputFilePath);
 {{< /highlight >}}
 
 
-### **Method Workbook.RemoveUnusedStyles Added**
+### **Added Workbook.RemoveUnusedStyles Method**
 Aspose.Cells for .NET 8.6.2 has exposed the Workbook.RemoveUnusedStyles method that can be used to [remove all unused Style objects from the pool of styles](/cells/net/remove-unused-styles-inside-the-workbook/).
 
 Following is the simple usage scenario.
@@ -125,7 +125,7 @@ workbook.RemoveUnusedStyles();
 {{< /highlight >}}
 
 
-### **Property Cells.Style Added**
+### **Added Cells.Style Property**
 The Cells.Style property can be used to access the Style for the Worksheet representing the default style.
 
 Following is the simple usage scenario.

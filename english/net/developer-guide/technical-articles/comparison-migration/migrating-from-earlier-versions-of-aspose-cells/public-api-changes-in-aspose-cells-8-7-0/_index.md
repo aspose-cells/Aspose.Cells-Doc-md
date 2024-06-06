@@ -139,7 +139,7 @@ if (vbaProject.IsSigned)
 {{< /highlight >}}
 
 
-### **Method Protection.VerifyPassword Added**
+### **Added Protection.VerifyPassword Method**
 Aspose.Cells for .NET 8.7.0 has exposed the Protection.VerifyPassword method that can be used to [verify the password used to protect the Worksheet](/cells/net/verify-password-used-to-protect-the-worksheet/). This method accepts an instance of string as parameter and returns true if specified password matches with the password used to protect the Worksheet.
 
 Following is the simple usage scenario.
@@ -181,7 +181,7 @@ else
 {{< /highlight >}}
 
 
-### **Property Protection.IsProtectedWithPassword Added**
+### **Added Protection.IsProtectedWithPassword Property**
 This release of Aspose.Cells for .NET API has also exposed the Protection.IsProtectedWithPassword property that can be useful in [detecting if a Worksheet is password protected or not](/cells/net/detect-if-worksheet-is-password-protected/).
 
 Following is the simple usage scenario.
@@ -223,7 +223,7 @@ else
 {{< /highlight >}}
 
 
-### **Property ColorScale.Is3ColorScale Added**
+### **Added ColorScale.Is3ColorScale Property**
 Aspose.Cells for .NET 8.7.0 has exposed the ColorScale.Is3ColorScale property that can be used to create 2-Color Scale conditional format. The said property is of type Boolean with default value of true which means that the conditional format will be of 3-Color Scale by default. However, switching the ColorScale.Is3ColorScale property to false will [generate a 2-Color Scale conditional format](/cells/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/).
 
 Following is the simple usage scenario.
@@ -275,7 +275,7 @@ formatCondition.ColorScale.Is3ColorScale = false;
 {{< /highlight >}}
 
 
-### **Property TxtLoadOptions.HasFormula Added**
+### **Added TxtLoadOptions.HasFormula Property**
 Aspose.Cells for .NET 8.7.0 has provided support to [identify & parse the formulas while loading CSV/TXT files having delimited plain data](/cells/net/load-or-import-csv-file-with-formulas/). Newly exposed TxtLoadOptions.HasFormula property when set to true directs the API to parse the formulas from the input delimited file and set them to relevant cells without requiring any additional processing.
 
 Following is the simple usage scenario.
@@ -311,7 +311,7 @@ book.Save(outFilePath);
 {{< /highlight >}}
 
 
-### **Property DataLabels.IsResizeShapeToFitText Added**
+### **Added DataLabels.IsResizeShapeToFitText Property**
 Another useful feature that Aspose.Cells for .NET 8.7.0 has exposed is the DataLabels.IsResizeShapeToFitText property that can enable the [Resize shape to fit text](/cells/net/resize-chart-s-data-label-shape-to-fit-text/) feature of Excel application for chart's data labels.
 
 Following is the simple usage scenario.
@@ -347,7 +347,7 @@ chart.Calculate();
 {{< /highlight >}}
 
 
-### **Property PdfSaveOptions.OptimizationType Added**
+### **Added PdfSaveOptions.OptimizationType Property**
 Aspose.Cells for .NET 8.7.0 has exposed the PdfSaveOptions.OptimizationType property along with PdfOptimizationType enumeration in order to facilitate the users to [choose the desired optimization algorithm while exporting spreadsheets to PDF format](/cells/net/save-excel-into-pdf-with-standard-or-minimum-size/). There are 2 possible values for the PdfSaveOptions.OptimizationType property as detailed below.
 
 1. PdfOptimizationType.MinimumSize: Quality is compromised for the resultant file size.

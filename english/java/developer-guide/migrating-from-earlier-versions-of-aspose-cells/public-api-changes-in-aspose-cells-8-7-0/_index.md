@@ -78,7 +78,7 @@ else
 }
 
 {{< /highlight >}}
-### **Method Protection.verifyPassword Added**
+### **Added Protection.verifyPassword Method**
 Aspose.Cells APIs have enhanced the Protection class by introducing the verifyPassword method which allows to specify a password as an instance of String and [verifies if same password has been used to protect the Worksheet](/cells/java/verify-password-used-to-protect-the-worksheet/). The Protection.verifyPassword method returns true if the specified password matches with the password used to protect the given worksheet, and false if specified password does not match. Following piece of code uses the Protection.verifyPassword method in conjunction with Protection.isProtectedWithPassword field to detect the password protection, and verifies the password.
 
 Following is the simple usage scenario.
@@ -122,7 +122,7 @@ if (sheet.getProtection().isProtectedWithPassword())
 }
 
 {{< /highlight >}}
-### **Property Protection.isProtectedWithPassword Added**
+### **Added Protection.isProtectedWithPassword Property**
 This release of Aspose.Cells for Java has also exposed the Protection.isProtectedWithPassword field that can be useful in [detecting if a Worksheet is password protected or not](/cells/java/detect-if-worksheet-is-password-protected/).
 
 Following is the simple usage scenario.
@@ -162,7 +162,7 @@ else
 }
 
 {{< /highlight >}}
-### **Property ColorScale.Is3ColorScale Added**
+### **Added ColorScale.Is3ColorScale Property**
 Aspose.Cells for Java 8.7.0 has exposed the ColorScale.Is3ColorScale property that can be used to [create 2-Color Scale conditional format](/cells/java/adding-2-color-scale-and-3-color-scale-conditional-formattings/). The said property is of type Boolean with default value of true which means that the conditional format will be of 3-Color Scale by default. However, switching the ColorScale.Is3ColorScale property to false will generate a 2-Color Scale conditional format.
 
 Following is the simple usage scenario.
@@ -212,7 +212,7 @@ formatCondition.getColorScale().setIs3ColorScale(false);
 //Set other necessary properties
 
 {{< /highlight >}}
-### **Property TxtLoadOptions.HasFormula Added**
+### **Added TxtLoadOptions.HasFormula Property**
 Aspose.Cells for Java 8.7.0 has provided support to [identify & parse the formulas while loading CSV/TXT files having delimited plain data](/cells/java/load-or-import-csv-file-with-formulas/). Newly exposed TxtLoadOptions.HasFormula property when set to true directs the API to parse the formulas from the input delimited file and set them to relevant cells without requiring any additional processing.
 
 Following is the simple usage scenario.
@@ -246,7 +246,7 @@ book.calculateFormula();
 book.save(outFilePath);
 
 {{< /highlight >}}
-### **Property DataLabels.ResizeShapeToFitText Added**
+### **Added DataLabels.ResizeShapeToFitText Property**
 Another useful feature that Aspose.Cells for Java 8.7.0 has exposed is the DataLabels.ResizeShapeToFitText property that can enable the [resize shape to fit text](/cells/java/resize-chart-s-data-label-shape-to-fit-text/) feature of Excel application for chart's data labels.
 
 Following is the simple usage scenario.
@@ -281,5 +281,5 @@ chart.calculate();
 
 {{< /highlight >}}
 ## **Removed APIs**
-### **Property Workbook.SaveOptions Removed**
+### **Removed Workbook.SaveOptions Property**
 The Workbook.SaveOptions property was marked obsoleted some time back. With this release, it has been completely removed from the public API therefore it is advised to use the Workbook.save(Stream, SaveOptions) or Workbook.save(string, SaveOptions) method as alternative.

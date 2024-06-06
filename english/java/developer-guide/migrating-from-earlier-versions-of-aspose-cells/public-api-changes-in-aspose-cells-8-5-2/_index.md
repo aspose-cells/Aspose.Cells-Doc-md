@@ -63,7 +63,7 @@ File outputfile = new File("test.png");
 ImageIO.write(image, "png", outputfile);
 
 {{< /highlight >}}
-### **Method PivotTable.getCellByDisplayName Added**
+### **Added PivotTable.getCellByDisplayName Method**
 Aspose.Cells for Java 8.5.2 has exposed the PivotTable.getCellByDisplayName method that can be used to [retrieve the Cell object by the name of the PivotField](/cells/java/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/). This method could be useful in scenarios where you wish to highlight or format the PivotField header.
 
 Following is the simple usage scenario.
@@ -107,7 +107,7 @@ pivotTable.format(cell.getRow(), cell.getColumn(), style);
 workbook.save("output.xlsx");
 
 {{< /highlight >}}
-### **Property SaveOptions.MergeAreas Added**
+### **Added SaveOptions.MergeAreas Property**
 Aspose.Cells for Java 8.5.2 has exposed the SaveOptions.MergeAreas property that can accept Boolean type value. The default value is false however, if set to true, the Aspose.Cells for Java API tries to merge the individual CellArea before saving the file.
 
 {{% alert color="primary" %}} 
@@ -115,7 +115,7 @@ Aspose.Cells for Java 8.5.2 has exposed the SaveOptions.MergeAreas property that
 If a spreadsheet has too many individual cells with validation applied, there are chances that the resultant spreadsheet may get corrupted. One possible solution is to merge the cells with identical validation rules or you can now use the SaveOptions.MergeAreas property to direct the API to auto merge the CellAreas before save operation.
 
 {{% /alert %}} 
-### **Property Geometry.ShapeAdjustValues Added**
+### **Added Geometry.ShapeAdjustValues Property**
 With the release of v8.5.2, the Aspose.Cells API has exposed the Geometry.getShapeAdjustValues method that can be used to [access and make changes to the adjustment points of different shapes](/cells/java/change-adjustment-values-of-the-shape/).
 
 {{% alert color="primary" %}} 

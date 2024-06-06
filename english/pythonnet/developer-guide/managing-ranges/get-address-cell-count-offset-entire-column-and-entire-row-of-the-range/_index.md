@@ -32,7 +32,7 @@ Gets a Range object that represents the entire row (or rows) that contains the s
 
 ## **Get Address, Cell Count, Offset, Entire Column and Entire Row of the Range**
 The following sample code explains the usage of the methods and properties as discussed above. Please see the console output of the code given below for a reference.
-## ` `**Sample Code**
+## **Sample Code**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-GetAddressCellCountOffsetEntireColumnAndEntireRowOfTheRange.py" >}}
 ## **Console Output**
 {{< highlight java >}}

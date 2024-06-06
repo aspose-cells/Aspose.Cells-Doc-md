@@ -35,7 +35,7 @@ cells.ImportData(table, 0, 0, importOptions);
 {{< /highlight >}}
 
 
-### **Method Workbook.CreateBuiltinStyle Added**
+### **Added Workbook.CreateBuiltinStyle Method**
 Aspose.Cells for .NET 8.6.3 has exposed the Workbook.CreateBuiltinStyle method that can be used to create an object of the Style class that corresponds to one of the [built-in styles offered by the Excel application](/cells/net/using-built-in-styles/). The Workbook.CreateBuiltinStyle method accepts a constant from the enumeration BuiltinStyleType. Please note, with previous releases of the Aspose.Cells APIs, same task could be accomplished via StyleCollection.CreateBuiltinStyle method but as the recent releases of Aspose.Cells APIs have removed the StyleCollection class therefore the newly exposed Workbook.CreateBuiltinStyle method can be considered as an alternative approach to achieve the same.
 
 Following is the simple usage scenario.
@@ -57,7 +57,7 @@ var style = book.CreateBuiltinStyle(BuiltinStyleType.Title);
 {{< /highlight >}}
 
 
-### **Method Cells.ImportGridView Added**
+### **Added Cells.ImportGridView Method**
 Aspose.Cells for .NET 8.6.3 has exposed an overloaded version of the Cells.ImportGridView that can now accept an instance of ImportTableOptions to give more control over the import process.
 
 Following is the simple usage scenario.
@@ -91,7 +91,7 @@ cells.ImportGridView(gridView, 0, 0, importOptions);
 {{< /highlight >}}
 
 
-### **Property ImportTableOptions.ConvertGridStyle Added**
+### **Added ImportTableOptions.ConvertGridStyle Property**
 In reference the above mentioned enhancements, the latest version of Aspose.Cells for .NET API has also exposed the ImportTableOptions.ConvertGridStyle property. This Boolean type property allows the developers to control the appearance of the imported data, where setting the ImportTableOptions.ConvertGridStyle property to true indicates that the API will apply the style of the GridView to the cells where data has been imported.
 
 Following is the simple usage scenario.
@@ -162,7 +162,7 @@ var book = new Workbook(inputFilePath, loadOptions);
 
 {{< /highlight >}}
 ## **Obsoleted APIs**
-### **Method Worksheet.CopyConditionalFormatting Obsoleted**
+### **Obsoleted Worksheet.CopyConditionalFormatting Method**
 As an alternative to the Worksheet.CopyConditionalFormatting method, it is advised to use any of the Cells.CopyRows or Range.Copy methods.
-### **Property Cells.End Obsoleted**
+### **Obsoleted Cells.End Property**
 Please use Cells.LastCell property as an alternative to the Cells.End property.

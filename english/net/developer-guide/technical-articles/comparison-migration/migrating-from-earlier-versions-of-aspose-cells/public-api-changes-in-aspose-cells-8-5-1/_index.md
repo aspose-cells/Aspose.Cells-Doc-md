@@ -11,7 +11,7 @@ This document describes the changes to the Aspose.Cells API from version 8.5.0 t
 
 {{% /alert %}} 
 ## **Added APIs**
-### **Method Workbook.Dispose Added**
+### **Added Workbook.Dispose Method**
 Workbook object now implements the System.IDisposable interface which has a single Dispose method. You can either directly call the Workbook.Dispose method or create a Workbook object in a Using structure to call this method automatically.
 
 **C#**
@@ -39,16 +39,16 @@ using (Workbook book = new Workbook())
 {{< /highlight >}}
 
 
-### **Method Cell.GetHeightOfValue Added**
+### **Added Cell.GetHeightOfValue Method**
 Aspose.Cells for .NET 8.5.1 has exposed the Cell.GetHeightOfValue method to get the height of cell value. By using this method you can calculate height of the cell value and then set the height of the row of that cell respectively. Check the detailed article on [how to calculate the cell height & width](/cells/net/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/).
-### **Enumeration TableDataSourceType Added**
+### **Added TableDataSourceType Enumeration**
 Aspose.Cells for .NET 8.5.1 has exposed the enumeration Aspose.Cells.Tables.TableDataSourceType to retrieve the data source type of a ListObject. The TableDataSourceType enumeration as following fields.
 
 1. TableDataSourceType.QueryTable
 1. TableDataSourceType.SharePoint
 1. TableDataSourceType.Worksheet
 1. TableDataSourceType.XML
-### **Property ListObject.DataSourceType Added**
+### **Added ListObject.DataSourceType Property**
 With the release of v8.5.1, the Aspose.Cells API has exposed the readonly ListObject.DataSourceType property that can be used to detect the data source type of a ListObject.
 
 Here is the simplest usage scenario.

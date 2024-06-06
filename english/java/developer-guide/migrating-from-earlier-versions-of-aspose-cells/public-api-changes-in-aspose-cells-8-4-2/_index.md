@@ -34,7 +34,7 @@ chart.setChartDataRange("A1:D4", true);
 
 {{< /highlight >}}
 
-### **Method VbaModuleCollection.add Added**
+### **Added VbaModuleCollection.add Method**
 Aspose.Cells for Java 8.4.2 has exposed the VbaModuleCollection.add method to add a new VBA module to the instance of Workbook. The VbaModuleCollection.add method accepts a parameter of type of Worksheet to add a worksheet specific module.
 
 The following code snippet shows how to use the VbaModuleCollection.add method.

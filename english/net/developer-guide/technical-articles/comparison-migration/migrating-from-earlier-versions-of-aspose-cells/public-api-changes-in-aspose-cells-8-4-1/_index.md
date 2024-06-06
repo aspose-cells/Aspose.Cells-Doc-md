@@ -297,5 +297,5 @@ renderer.ToImage(0, "output.svg");
 
 {{< /highlight >}}
 ## **Obseleted APIs**
-### **Method Workbook.ValidateFormula Obsoleted**
+### **Obsoleted Workbook.ValidateFormula Method**
 Use the Cell.Formula method to validate the formula.

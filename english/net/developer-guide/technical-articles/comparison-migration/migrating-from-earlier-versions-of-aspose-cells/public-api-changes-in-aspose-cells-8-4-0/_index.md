@@ -174,7 +174,7 @@ workbook.Save("TabularForm.xlsx");
 
 ### **Class TxtLoadStyleStrategy & Property TxtLoadOptions.LoadStyleStrategy Added**
 Aspose.Cells for .NET 8.4.0 has exposed the TxtLoadStyleStrategy class and TxtLoadOptions.LoadStyleStrategy property in order to specify the strategy to format the parsed values while converting string value to number or date time.
-### **Method DataBar.ToImage Added**
+### **Added DataBar.ToImage Method**
 With the release of v8.4.0, the Aspose.Cells API has provided the DataBar.ToImage method to save the conditionally formatted DataBars in image format. The {DataBar.ToImage}} method accepts two parameters as detailed below.
 
 - The first parameter is of type Aspose.Cells.Cell on which conditional formatting has been applied.
@@ -223,11 +223,11 @@ File.WriteAllBytes("databar.png", imgBytes);
 {{< /highlight >}}
 
 
-### **Property Border.ThemeColor Added**
+### **Added Border.ThemeColor Property**
 Aspose.Cells APIs allow to extract theme related formatting data from the spreadsheets. With the release of Aspose.Cells for .NET 8.4.0, the API has exposed the Border.ThemeColor property that can be used to retrieve the theme color attributes of Cell borders.
-### **Property DrawObject.ImageBytes Added**
+### **Added DrawObject.ImageBytes Property**
 Aspose.Cells for .NET 8.4.0 has exposed the DrawObject.ImageBytes property to get the image data from Chart or Shape.
-### **Property HtmlSaveOptions.ExportBogusRowData Added**
+### **Added HtmlSaveOptions.ExportBogusRowData Property**
 Aspose.Cells for .NET 8.4.0 has provided the {HtmlSaveOptions.ExportBogusRowData}} property. The Boolean type property determines if API will inject bogus bottom row data while exporting spreadsheet to HTML format.
 
 {{% alert color="primary" %}} 
@@ -261,7 +261,7 @@ workbook.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **Property HtmlSaveOptions.CellCssPrefix Added**
+### **Added HtmlSaveOptions.CellCssPrefix Property**
 Newly added property HtmlSaveOptions.CellCssPrefix allows to set the prefix for the CSS files while exporting spreadsheets to HTML format.
 
 {{% alert color="primary" %}} 
@@ -270,7 +270,7 @@ The default value is "" (empty string).
 
 {{% /alert %}}
 ## **Obseleted APIs**
-### **Methods Cells.GetCellByIndex & Row.GetCellByIndex Obsoleted**
+### **Obsoleted Cells.GetCellByIndex & Row.GetCellByIndex Methods**
 Use the GetEnumerator method to iterate all cells instead.
-### **Property DrawObject.Image Obsoleted**
+### **Obsoleted DrawObject.Image Property**
 Use the DrawObject.ImageBytes property to get image data instead.

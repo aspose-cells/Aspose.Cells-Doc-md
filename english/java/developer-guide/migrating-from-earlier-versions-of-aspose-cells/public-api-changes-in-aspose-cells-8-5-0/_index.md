@@ -170,7 +170,7 @@ dstSheet.getCells().get("D4").putValue("Row heights of source range copied to de
 workbook.save("output.xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
-### **Property SheetRender.PageScale Added**
+### **Added SheetRender.PageScale Property**
 When you set Page Setup Scaling using **Fit to n page(s) wide by m tall** option, Microsoft Excel calculates the Page Setup scaling factor. Same can be achieved using the SheetRender.PageScale property exposed by Aspose.Cells for Java 8.5.0. This property returns a double value which can be converted to percentage value. For example, if it returns 0.507968245 then it means scaling factor is 51%.
 
 **Java**
@@ -214,7 +214,7 @@ Aspose.Cells for Java 8.5.0 has added a new enumeration CellValueFormatStrategy 
 1. CellValueFormatStrategy.CELL_STYLE: Only formatted with cell's original format.
 1. CellValueFormatStrategy.DISPLAY_STYLE: Formatted with cell's displayed style.
 1. CellValueFormatStrategy.NONE: Not formatted.
-### **Method Cell.getStringValue Added**
+### **Added Cell.getStringValue Method**
 In order to use the CellValueFormatStrategy enumeration, v8.5.0 has exposed the Cell.getStringValue method that could accept a parameter of type CellValueFormatStrategy and returns the value depends on the specified option.
 
 Following code snippet shows how to use the newly exposed Cells.getStringValue method.
