@@ -44,7 +44,7 @@ Aspose.Cells提供了一个代表Microsoft Excel文件的类，[**Workbook**](ht
 
 根据指定的单元格范围，Aspose.Cells将在工作表中创建列表对象。使用[**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)类的属性（例如ShowTotals、ListColumns等）控制列表。
 
-在下面的示例中，我们使用Aspose.Cells for Python通过Java API创建了与上一节中使用Microsoft Excel创建的相同的[**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)。
+在下面的示例中，我们使用Aspose.Cells for Python via Java API创建了与上一部分使用Microsoft Excel创建的相同的[**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)。
 
 ## 源代码
 

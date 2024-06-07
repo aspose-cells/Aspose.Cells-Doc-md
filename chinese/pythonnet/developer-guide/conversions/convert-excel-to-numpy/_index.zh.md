@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /zh/python-net/convert-excel-to-numpy/
 description: 通过使用Aspose.Cells for Python通过.NET API将Excel转换为NumPy。
-keywords: Python将Excel转换为NumPy数组，在Python中通过.NET导出工作簿到NumPy数组，Python将行转换为NumPy数组，Python将表格转换为NumPy数组，在Python中通过.NET导出ListObject到NumPy数组，Python将范围转换为NumPy数组，使用Python将列转换为NumPy数组。
+keywords: Python将Excel转换为NumPy数组，在Python via NET中将工作簿导出为NumPy数组，将行转换为NumPy数组，将表格转换为NumPy数组，在Python via NET中将ListObject导出为NumPy数组，将范围转换为NumPy数组，使用Python将列转换为NumPy数组。
 ---
 
 ## **NumPy简介**

@@ -3,7 +3,7 @@ title: 在PHP中隐藏和显示行和列
 type: docs
 weight: 50
 url: /zh/java/hiding-and-showing-rows-and-columns-in-php/
-description: 通过Aspose.Cells for PHP通过Java API学习如何隐藏和显示行和列。
+description: 通过Aspose.Cells for PHP via Java API学习如何隐藏和显示行和列。
 keywords: 如何在PHP中隐藏和显示行和列，使用PHP隐藏行或列，PHP显示行或列。 
 ---
 

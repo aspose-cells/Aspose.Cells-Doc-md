@@ -3,8 +3,8 @@ title: 以带有工具提示的方式将 Excel 转换为 HTML
 type: docs
 weight: 200
 url: /zh/python-net/convert-excel-to-html-with-tooltip/
-description: 这个主题向您展示如何使用Aspose.Cells for Python通过.NET将Excel转换为带工具提示的HTML。
-keywords: Python将Excel转换为带工具提示的HTML，使用Python通过.NET将Excel转换为带工具提示的HTML，使用Python通过.NET将Excel转换为带工具提示的HTML，Python工作簿转为带工具提示的HTML。
+description: 本主题向您展示如何使用Aspose.Cells for Python via NET将Excel转换为具有工具提示的HTML。
+keywords: 使用Python将Excel转换为带有工具提示的HTML，使用Python via NET将Excel转换为带有工具提示的HTML，Python via NET将Excel转换为带有工具提示的HTML，使用Python将工作簿转换为带有工具提示的HTML。
 ---
 
 ## **以带有工具提示的方式将 Excel 转换为 HTML**

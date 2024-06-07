@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /zh/java/convert-excel-to-json/
 description: 学习如何使用 Aspose.Cells for Java API 将 excel 文件转换为 json。
-keywords: Java 将工作簿导出为 JSON，使用 Java 将 Excel 转换为 JSON，保存 Excel 为 JSON 在 Java 中，使用 Java 将工作簿转换为 JSON，使用 Java 导出 Excel 为 JSON，使用 Java 通过 JSON 导出工作簿到 JSON。
+keywords: Java将工作簿导出为json，使用Java将Excel转换为JSON，使用Java保存Excel为JSON，使用Java将工作簿转换为JSON，使用Java保存工作簿为JSON，导出Excel为JSON via Java。
 ---
 
 {{% alert color="primary" %}}

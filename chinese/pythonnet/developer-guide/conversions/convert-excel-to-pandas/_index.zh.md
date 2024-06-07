@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /zh/python-net/convert-excel-to-pandas-dataframe/
 description: 通过使用Aspose.Cells for Python通过.NET API将Pandas转换为Excel。
-keywords: Python将Excel转换为Pandas DataFrame，通过.NET在Python中导出Excel到Pandas DataFrame，Python将xlsx转换为Pandas DataFrame，将excel保存为Pandas DataFrame。
+keywords: Python将Excel转换为Pandas DataFrame，在Python via NET中导出Excel到Pandas DataFrame，将xlsx转换为Pandas DataFrame，将excel保存为Pandas DataFrame。
 ---
 
 {{% alert color="primary" %}}

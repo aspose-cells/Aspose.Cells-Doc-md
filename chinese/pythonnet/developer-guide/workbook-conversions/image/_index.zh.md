@@ -4,7 +4,7 @@ type: docs
 weight: 300
 url: /zh/python-net/convert-excel-to-image/
 description: 使用Aspose.Cells for Python通过.NET API将图表转换为图像。
-keywords: Python将图表转换为图像，在Python中导出图表为图像，Python保存图表为图像。
+keywords: Python将图表转换为图像，在Python via NET中导出图表到图像，Python保存图表为图像。
 ---
 
 

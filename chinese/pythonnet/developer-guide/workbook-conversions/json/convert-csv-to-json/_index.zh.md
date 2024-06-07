@@ -4,7 +4,7 @@ type: docs
 weight: 220
 url: /zh/python-net/convert-csv-to-json/
 description: 通过使用Aspose.Cells for Python通过.NET API将CSV转换为JSON。
-keywords: 将CVS转换为JSON，在Python中通过NET转换CSV为JSON，将CSV保存为JSON
+keywords: 将CVS转换为JSON，在Python via NET中将CSV转换为JSON，Python将CSV转换为JSON，保存CSV为JSON
 ---
 
 ## **将CSV转换为JSON**

@@ -4,7 +4,7 @@ type: docs
 weight: 350
 url: /zh/python-net/load-or-import-csv-file-with-formulas/
 description: 通过Aspose.Cells for Python通过.NET API加载或导入带有公式的CSV文件。
-keywords: Python通过.NET导入带有公式的CSV文件，将带有公式的CSV转换为Excel，Python将带有公式的CSV转换为xlsx，在Python中通过NET加载带有公式的CSV文件。
+keywords: 使用带有公式的CSV文件，将带有公式的CSV转换为Excel在Python via NET中，将带有公式的CSV转换为xlsx，将带有公式的CSV加载到Excel文件。
 ---
 
 {{% alert color="primary" %}} 

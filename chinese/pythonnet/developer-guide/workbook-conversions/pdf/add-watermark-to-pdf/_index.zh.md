@@ -4,7 +4,7 @@ type: docs
 weight: 9
 url: /zh/python-net/add-watermark-to-pdf/
 description: 了解如何使用Aspose.Cells for Python通过.NET API向PDF添加水印
-keywords: Python向PDF添加水印，使用Python向PDF添加水印，插入水印到PDF
+keywords: Python向PDF添加水印，向PDF添加水印Pyton via NET，向PDF插入水印。
 ---
 
 在将Excel文件转换为pdf时，您可能需要向pdf文件添加水印。以下示例显示了在呈现为pdf时如何向pdf添加文本和图像水印。

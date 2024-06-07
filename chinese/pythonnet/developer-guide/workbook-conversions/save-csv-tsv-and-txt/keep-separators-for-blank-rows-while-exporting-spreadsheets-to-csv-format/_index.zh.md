@@ -4,7 +4,7 @@ type: docs
 weight: 160
 url: /zh/python-net/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/
 description: 通过使用Aspose.Cells for Python通过.NET API在将电子表格导出为CSV格式时保留空行的分隔符
-keywords: Python在将电子表格导出为CSV格式时保持空行分隔符，在Python通过.NET保存电子表格为CSV格式时保持空行分隔符，在导出电子表格为CSV格式时保持空行分隔符
+keywords: Python在将电子表格导出为CSV格式时保留空行的分隔符，在Python via NET中将电子表格保存为CSV格式时保留空行的分隔符，导出excel时保留空行的分隔符。
 ---
 
 ## **在将电子表格导出为CSV格式时保留空白行的分隔符**

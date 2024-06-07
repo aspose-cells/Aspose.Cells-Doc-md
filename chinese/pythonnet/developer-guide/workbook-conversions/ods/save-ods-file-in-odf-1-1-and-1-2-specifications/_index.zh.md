@@ -6,7 +6,7 @@ type: docs
 weight: 230
 url: /zh/python-net/save-ods-file-in-odf-1-1-and-1-2-specifications/
 description: 如何 使用Aspose.Cells for Python通过.NET AP在ODF 1.1和1.2规范中保存ODS文件。
-keywords: Python 在ODF 1.1和1.2规范中保存ODS文件，通过NET 在ODF 1.1和1.2规范中保存ODS文件通过Python NET
+keywords: Python保存ODS文件符合ODF 1.1和1.2规范，将ODS文件保存为ODF 1.1和1.2规范Pyton via NET。
 ---
 
 {{% alert color="primary" %}}

@@ -4,7 +4,7 @@ type: docs
 weight: 300
 url: /zh/python-net/convert-excel-to-json/
 description: 学习如何使用Aspose.Cells for Python通过.NET API将Excel文件转换为JSON。
-keywords: 将Excel转换为JSON，通过NET将Excel转换为JSON，导出工作簿到JSON，将Excel文件转换为JSON
+keywords: Python将excel转换为json，将excel转换为json Pyton via NET，将工作簿导出为json，将excel文件转换为json。
 ---
 
 {{% alert color="primary" %}}

@@ -3,7 +3,7 @@ title: 保护和取消保护工作表
 type: docs
 weight: 40
 url: /zh/python-java/protect-and-unprotect-worksheet/
-description: 使用Aspose.Cells for Python通过Java保护和取消保护Excel文件的工作表。
+description: 使用Aspose.Cells for Python via Java保护和取消保护Excel文件的工作表。
 ---
 
 

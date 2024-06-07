@@ -10,7 +10,7 @@ url: /zh/python-java/find-if-the-worksheet-is-dialog-sheet/
 
 ![todo:image_alt_text](DialogSheet.png)
 ## **查找工作表是否为对话框工作表**
-Aspose.Cells通过Java为您提供了检查工作表是否是对话框工作表的功能。为此，它提供了[Worksheet.Type](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)属性。如果[Worksheet.Type](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)返回枚举值[SheetType.DIALOG](https://reference.aspose.com/cells/python/asposecells.api/sheettype#DIALOG)，那么意味着您正在处理一个对话框工作表。
+Aspose.Cells for Python via Java提供了检查工作表是否为对话框工作表的能力。为此，它提供了[Worksheet.Type](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)属性。如果[Worksheet.Type](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)返回枚举值[SheetType.DIALOG](https://reference.aspose.com/cells/python/asposecells.api/sheettype#DIALOG)，则表示您正在处理对话框工作表。
 
 以下代码片段显示如何检查对话框工作表。代码生成的控制台输出如下供参考。
 

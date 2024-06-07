@@ -4,7 +4,7 @@ type: docs
 weight: 290
 url: /zh/python-net/convert-revision-of-xlsb-to-xlsm/
 description: 使用 Aspose.Cells for Python 通过 .NET API 将 XLSB 的修订版本转换为 XLSM。
-keywords: Python 将 XLSB 的修订版本转换为 XLSM，通过 NET 将 XLSB 的修订版本转换为 XLSM，Python 通过 NET 将 XLSB 的修订版本转换为 XLSM。
+keywords: Python将XLSB的修订版本转换为XLSM，在Python via NET中将XLSB的修订版本转换为XLSM，Python via NET将XLSB的修订版本转换为XLSM。
 ---
 
 {{% alert color="primary" %}} 

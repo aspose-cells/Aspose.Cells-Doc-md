@@ -4,7 +4,7 @@ type: docs
 weight: 7000
 url: /zh/java/finding-absolute-position-of-shape-inside-the-worksheet/
 description: 了解如何通过Aspose.Cells for Java API在工作表中查找形状的绝对位置。
-keywords: 如何在Java中查找形状的绝对位置，在Java中获取形状的绝对位置，通过Java在工作表中获取形状的绝对位置，使用Java测量形状的绝对位置。
+keywords: 如何在Java中查找形状的绝对位置，使用Java获取形状的绝对位置，在工作表内部获得形状的绝对位置via Java，使用Java测量形状的绝对位置。
 ---
 
 {{% alert color="primary" %}}

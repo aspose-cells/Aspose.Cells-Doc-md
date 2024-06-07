@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /zh/python-net/convert-an-excel-chart-to-image/
 description: 通过使用Aspose.Cells for Python通过.NET API将Excel图表转换为图像。
-keywords: Python将Excel图表转换为图像，在Python中通过.NET导出Excel图表为图像，Python保存Excel图表为图像。
+keywords: Python将Excel图表转换为图像，在Python via NET中导出Excel图表为图像，Python将Excel图表保存为图像。
 ---
 
 {{% alert color="primary" %}}

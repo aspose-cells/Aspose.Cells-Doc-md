@@ -4,7 +4,7 @@ type: docs
 weight: 100
 url: /zh/python-net/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/
 description: 通过使用Aspose.Cells for Python通过.NET API在将电子表格导出为CSV格式时修剪前导空行和列
-keywords: Python通过.NET在将电子表格导出为CSV格式时修剪前导空行和列，通过NET将Excel保存为CSV格式时修剪前导空行和列，在导出Excel为CSV格式时修剪前导空行和列
+keywords: Python在将电子表格导出为CSV格式时修剪前导空行和列，在Python via NET中将电子表格保存为CSV格式时修剪前导空行和列，导出excel时修剪前导空行和列。
 ---
 
 ## **可能的使用场景**

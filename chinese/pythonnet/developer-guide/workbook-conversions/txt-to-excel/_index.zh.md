@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /zh/python-net/convert-csv-tsv-and-txt-to-excel/
 description: 使用Aspose.Cells for Python via .NET API将CSV、TSV和TXT转换为Excel。
-keywords: Python将CSV、TSV和TXT转换为Excel，在Python via .NET中重新保存CSV、TSV和TXT为Excel，Python将CSV、TSV和TXT转换为xlsx，在Excel中导入CSV、TSV和TXT。
+keywords: Python将CSV、TSV和TXT转换成Excel，在Python中重新保存CSV、TSV和TXT为Excel，via NET，Python将CSV、TSV和TXT转换成xlsx，用于导入CSV、TSV和TXT到Excel。
 ---
 
 {{% alert color="primary" %}}

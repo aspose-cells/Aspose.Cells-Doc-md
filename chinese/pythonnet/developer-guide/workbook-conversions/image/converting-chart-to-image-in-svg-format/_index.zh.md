@@ -4,7 +4,7 @@ type: docs
 weight: 240
 url: /zh/python-net/converting-chart-to-image-in-svg-format/
 description: 通过使用Aspose.Cells for Python通过.NET API将图表转换为SVG格式的图像。
-keywords: Python将图表转换为SVG格式的图像，通过.NET导出图表为SVG格式的图像，在Python中通过NET保存图表为SVG格式的图像。
+keywords: Python将图表转换为SVG格式的图像，Python via NET中导出SVG格式的图表为图像，Python将SVG格式的图表保存为图像。
 ---
 
 {{% alert color="primary" %}} 

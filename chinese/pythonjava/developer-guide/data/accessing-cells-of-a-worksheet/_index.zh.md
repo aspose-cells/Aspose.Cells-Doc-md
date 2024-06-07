@@ -6,7 +6,7 @@ url: /zh/python-java/accessing-cells-of-a-worksheet/
 ---
 
 ## **访问单元格**
-Aspose.Cells for Python通过Java允许您通过单元格名称或行列索引来访问工作表中的单元格。本文展示了访问工作表中单元格的这两种方法。
+Aspose.Cells for Python via Java允许您通过单元格名称或行和列的索引访问工作表中的单元格。本文显示了在工作表中访问单元格所使用的这两种方法。
 ### **使用单元格名称访问单元格**
 以下代码片段演示了使用单元格名称访问单元格。示例代码访问单元格"C5"并打印其值。
 

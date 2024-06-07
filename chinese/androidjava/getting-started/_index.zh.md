@@ -5,12 +5,12 @@ weight: 10
 url: /zh/java/aspose-cells-for-android-via-java-features/
 ---
 
-## **通过Java查看Aspose.Cells Android功能概述**
-本节提供了Aspose.Cells for Java和Aspose.Cells for Android via Java之间功能可用性的比较。
+## **Aspose.Cells Android via Java 功能概述**
+本部分提供了 Aspose.Cells for Java 和 Aspose.Cells for Android via Java 功能可用性比较。
 ### **文件格式和转换**
 全球许多客户依赖Aspose.Cells提供的完整文档导入和导出功能。
 
-| **功能** | **描述** | **Aspose.Cells for Java** | **通过Java的Aspose.Cells for Android** |
+|**特性**|**描述**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
 | :- | :- | :- | :- |
 |高质量转换|快速可靠地在几种流行的文档格式之间进行转换。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Microsoft Excel工作簿(XLS/XLSB)|最快速、最完整的XLS/XLSB格式实现。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -24,19 +24,19 @@ url: /zh/java/aspose-cells-for-android-via-java-features/
 ### **渲染和打印**
 Aspose.Cells现在提供了对电子表格页面的高保真度渲染。
 
-| **功能** | **Aspose.Cells for Java** | **通过Java的Aspose.Cells for Android** |
+|**特性**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
 | :- | :- | :- |
 |以高度仿真地分布文档到页面，与Microsoft Excel®完全相同。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |将工作表页渲染为栅格图像（PNG、JPEG等）。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|将工作表页呈现为光栅图像(多页TIFF、GIF)。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|将工作表页面呈现为光栅图像（多页TIFF、GIF）。|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
 |将电子表格页渲染为矢量图像（EMF）。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |指定图像分辨率、质量、压缩和其他选项。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|使用Java打印基础结构打印电子表格页。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|使用Java打印基础结构打印电子表格页面。|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
 |在渲染或打印之前更新页码和其他字段。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **电子表格内容功能**
 Aspose.Cells提供一个丰富的对象模型，包含100多个公共类/接口，允许您以编程方式生成、组合、修改、解析或检查已加载的电子表格。以下是一些关键功能。
 
-| **功能** | **Aspose.Cells for Java** | **通过Java的Aspose.Cells for Android** |
+|**特性**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
 | :- | :- | :- |
 |从数组、ArrayList、ResultSet等中导入/导出数据。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |添加现有工作表的副本（包括图像、图表、其他对象等所有内容）。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -75,7 +75,7 @@ Aspose.Cells提供一个丰富的对象模型，包含100多个公共类/接口�
 ### **电子表格格式设置功能**
 Aspose.Cells提供对所有电子表格元素的格式设置属性的详细编程访问。
 
-| **功能** | **Aspose.Cells for Java** | **通过Java的Aspose.Cells for Android** |
+|**特性**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
 | :- | :- | :- |
 |应用单元格中的所有字符格式设置，包括字体、颜色、效果、边框和底纹|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |应用所有数字格式设置（Microsoft Excel支持）|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -89,7 +89,7 @@ Aspose.Cells提供对所有电子表格元素的格式设置属性的详细编�
 ### **页面设置功能**
 您可以使用Aspose.Cells为工作表实现页面设置选项。
 
-| **功能** | **Aspose.Cells for Java** | **通过Java的Aspose.Cells for Android** |
+|**特性**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
 | :- | :- | :- |
 |调整页面方向、缩放、纸张大小。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |指定页边距和页面居中。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

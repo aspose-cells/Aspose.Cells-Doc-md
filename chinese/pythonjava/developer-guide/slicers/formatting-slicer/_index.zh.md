@@ -6,7 +6,7 @@ url: /zh/python-java/formatting-slicer/
 ---
 
 ## **格式化分割器**
-在Microsoft Excel中，您可以通过设置其列数、样式等来格式化切片器。通过Java的Aspose.Cells for Python提供了Slicer.NumberOfColumns和Slicer.StyleType属性来实现此功能。
+使用Microsoft Excel，您可以通过设置其列数、样式等来格式化切片器。Aspose.Cells for Python via Java提供了Slicer.NumberOfColumns和Slicer.StyleType属性来实现此功能。
 
 以下代码片段加载了包含切片器的[示例Excel文件](106364964.xlsx)。它访问了切片器并设置了其列数和样式类型，然后将其保存为[输出Excel文件](106364965.xlsx)。屏幕截图显示了执行示例代码后切片器的外观。
 

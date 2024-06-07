@@ -7,7 +7,7 @@ url: /zh/python-java/licensing/
 
 {{% alert color="primary" %}} 
 
-您可以使用`pip install aspose-cells`安装**Aspose.Cells** for Python通过Java的评估版本。评估版本提供的功能与许可版本的产品完全相同。此外，只需购买许可证并添加几行代码即可使评估版本简单地成为许可版本。
+您可以通过`pip install aspose-cells`安装Python via Java的Aspose.Cells的评估版本。评估版本提供的功能与产品许可版本完全相同。此外，评估版本在购买许可并添加几行代码应用许可后，简单地变为许可版本。
 
 一旦您满意使用 **Aspose.Cells** 的评估版本，您可以在 Aspose 网站上购买许可证。请熟悉所提供的不同订阅类型。如果有任何疑问，请随时联系 Aspose 销售团队。
 

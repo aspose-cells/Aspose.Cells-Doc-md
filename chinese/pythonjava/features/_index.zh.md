@@ -4,12 +4,12 @@ type: docs
 weight: 5
 url: /zh/python-java/features/
 keywords: "python, excel, api, features"
-description: "Aspose.Cells for Python via Java 特性."
+description: “Aspose.Cells for Python via Java 特性。”
 ---
 
 {{% alert color="primary" %}} 
 
-本页总结了 Aspose.Cells for Python via Java 的功能。
+此页面总结了Aspose.Cells for Python via Java 的特性。
 
 {{% /alert %}} 
 ## **文件格式和转换**

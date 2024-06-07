@@ -4,7 +4,7 @@ type: docs
 weight: 200
 url: /zh/python-net/reading-csv-file-with-multiple-encodings/
 description: 通过Aspose.Cells for Python通过.NET API读取具有多种编码的CSV文件。
-keywords: Python通过.NET读取具有多种编码的CSV文件，将具有多种编码的CSV文件转换为Excel，在Python中通过NET加载具有多种编码的CSV文件。
+keywords: 读取具有多重编码的CSV文件，在Python via NET中将具有多重编码的CSV文件转换为Excel，将具有多重编码的CSV文件转换为xlsx，加载具有多重编码的CSV文件到Excel文件。
 ---
 
 {{% alert color="primary" %}}

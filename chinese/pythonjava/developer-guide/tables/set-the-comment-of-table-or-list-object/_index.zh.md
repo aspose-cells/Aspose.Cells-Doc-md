@@ -6,7 +6,7 @@ url: /zh/python-java/set-the-comment-of-table-or-list-object/
 ---
 
 ## **设置工作表内表格或列表对象的注释**
-通过Java的Aspose.Cells for Python支持添加列表对象的注释。为此，API提供[ListObject.Comment](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment)属性。通过[ListObject.Comment](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment)属性添加的注释将在*xl/tables/tableName.xml*文件中显示。
+Aspose.Cells for Python via Java支持添加List Object的注释。为此，API提供了[ListObject.Comment](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment)属性。由[ListObject.Comment](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment)属性添加的注释将在*xl/tables/tableName.xml*文件中可见。
 
 下面的屏幕截图显示了样本代码创建的评论，位于红色矩形中。
 

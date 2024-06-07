@@ -3,7 +3,7 @@ title: 在PHP中插入和删除行和列
 type: docs
 weight: 60
 url: /zh/java/inserting-and-deleting-rows-and-columns-in-php/
-description: 通过Aspose.Cells for PHP通过Java API学习如何插入和删除行和列。
+description: 通过Aspose.Cells for PHP via Java API学习如何插入和删除行和列。
 keywords: 如何在PHP中插入和删除行和列，使用PHP插入行和列，PHP删除行和列，使用PHP插入行或列，通过PHP删除行或列。
 ---
 

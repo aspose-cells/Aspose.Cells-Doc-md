@@ -15,7 +15,7 @@ url: /zh/nodejs-java/optimizing-memory-usage-while-working-with-big-files-having
 
 ## **优化内存**
 
-以下示例显示了如何在Aspose.Cells for Node.js通过Java处理大数据时优化内存使用。
+以下示例显示如何在Aspose.Cells for Node.js via Java中使用大数据时优化内存使用。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-nodejs-optimize-memory-usage-while-working-with-large-data.java" >}}
 

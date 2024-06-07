@@ -4,7 +4,7 @@ type: docs
 weight: 300
 url: /zh/python-net/convert-workbook-to-json/
 description: 学习如何使用Aspose.Cells for Python通过.NET API将Excel工作簿转换为JSON。
-keywords: Python将Excel工作簿转换为JSON，通过NET将Excel工作簿转换为JSON，导出工作簿为JSON，将Excel工作簿转换为JSON。
+keywords: Python将Excel工作簿转换为json，在Python via NET中将Excel工作簿转换为json，导出工作簿为json，将Excel工作簿转换为json
 ---
 
 {{% alert color="primary" %}}

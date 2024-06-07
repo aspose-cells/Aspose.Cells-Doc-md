@@ -57,7 +57,7 @@ To import data from a collection of objects to a worksheet, use [**ImportCustomO
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromCustomObject-1.cs" >}}
 
-## **How to Import Data into Excel from Custom Objects to merged area**
+## **How to Import Data into Excel from Custom Objects and Check Merged Area**
 
 To import data from a collection of objects to a worksheet containing merged cells, use [**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells) property. If the Excel template has merged cells, set the value of[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells) property to true. Pass the [**ImportTableOptions**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions) object along with the list of columns/properties to the method to display your desired list of objects. The following code sample demonstrates the use of [**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells) property to import data from Custom Objects to merged cells. Please see the attached [source Excel](90112033.xlsx) file and the [output Excel](90112034.xlsx) file for reference.
 
@@ -83,7 +83,7 @@ In this example, a template model is used which initially contains two variables
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDynamicDataTable-1.cs" >}}
 
-## **How to Import Data into Excel from DataColumn (.NET)**
+## **How to Import DataColumn into Excel**
 
 A *DataTable* or *DataView* object is composed of one or more columns. Developers can also import data from any Column/Columns of the *DataTable* or *DataView* by calling the [**ImportData**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index) method of the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection. The [**ImportData**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index) method accepts a parameter of type [**ImportTableOptions**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions). The [**ImportTableOptions**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions) class provides a [**ColumnIndexes**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/columnindexes) property that accepts an array of columns indexes.
 
@@ -91,7 +91,7 @@ The sample code given below demonstrates the use of [**ImportTableOptions.Colum
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataColumn-1.cs" >}}
 
-## **How to Import Data into Excel from DataView (.NET)**
+## **How to Import DataView into Excel**
 
 To import data from a *DataView*, call the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection's [**ImportData**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index) method. There are many overloaded versions of the [**ImportData**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index) method but the one for DataView takes the following parameters:
 
@@ -102,7 +102,7 @@ To import data from a *DataView*, call the [**Cells**](https://reference.aspose.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataView-1.cs" >}}
 
-## **How to Import Data into Excel from DataGrid (.NET)**
+## **How to Import DataGrid into Excel**
 
 It is possible to import data from a *DataGrid* by calling the [**ImportDataGrid**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatagrid/index) method of the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection. There are many overloaded versions of the [**ImportDataGrid**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatagrid/index) method but a typical overload takes the following parameters:
 
@@ -113,7 +113,7 @@ It is possible to import data from a *DataGrid* by calling the [**ImportDataGri
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataGrid-1.cs" >}}
 
-## **How to Import Data into Excel from GridView**
+## **How to Import GridView into Excel**
 
 To import data from a *GridView* control, call the [**ImportGridView**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importgridview) method of the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection.
 

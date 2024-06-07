@@ -5,7 +5,7 @@ type: docs
 weight: 180
 url: /net/export-data-from-worksheet/
 description: This article explains how to export or import data from worksheet into datatable using C#.
-keywords: C# Export Data from Worksheet, C# Export Data to DataTable, Columns Containing Strongly Typed Data, Columns Containing Non-Strongly Typed Data, C# Export Range with flag to skip column name
+keywords: C# Export Data from Worksheet, C# Export Data to DataTable, Columns Containing Strongly Typed Data, Columns Containing Non-Strongly Typed Data, C# Export Range with flag to skip column name, C# How to Export Range with Header.
 ---
 
 ## Overview
@@ -97,7 +97,7 @@ If all values in the columns of a worksheet are not strongly typed (that means t
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-ExportColumnContainingNonStronglyTypedData-1.cs" >}}
 
-## **How to Export Range with flag to skip column name**
+## **How to Export Range with Header**
 
 Data from a range can be exported to [**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8) where a flag is available to skip header row in the exported data. Following code exports a range of data to [**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8) with an argument [**ExportTableOptions**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions) which contains [**ExportColumnName**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/exportcolumnname) flag. It is set to **true** if header information is there, hence it will not be included in data and set to **false** if no header is there and all rows are to be considered as data.
 

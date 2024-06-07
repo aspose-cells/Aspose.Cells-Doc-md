@@ -5,7 +5,7 @@ type: docs
 weight: 20
 url: /zh/python-net/convert-excel-to-ods/
 description: 如何使用Aspose.Cells for Python通过.NET API将Excel转换为Ods（OpenOffice / LibreOffice Calc）或将Ods（OpenOffice / LibreOffice Calc）转换为Excel。
-keywords: Python将Excel工作簿转换为Ods、Sxc和Fods（OpenOffice / LibreOffice Calc），通过NET将Ods（OpenOffice / LibreOffice Calc）转换为Excel，使用Python通过NET将Excel转换为Ods（OpenOffice / LibreOffice Calc）。
+keywords: Python将Excel工作簿转换为Ods、Sxc和Fods（OpenOffice / LibreOffice calc），使用Python将Ods（OpenOffice / LibreOffice calc）转换为Excel，使用Python将Excel转换为Ods（OpenOffice / LibreOffice Calc）via NET。
 ---
 
 ## **关于OpenDocument**

@@ -3,7 +3,7 @@ title: 在Excel中插入背景图像
 type: docs
 weight: 90
 url: /zh/python-java/insert-background-image-to-excel/
-description: "如何通过Java使用Aspose.Cells for Python插入Excel的背景图像。"
+description: 使用Aspose.Cells for Python via Java将背景图像插入Excel的方法。
 ---
 
 {{% alert color="primary" %}} 

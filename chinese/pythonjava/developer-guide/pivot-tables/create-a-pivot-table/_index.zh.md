@@ -6,7 +6,7 @@ url: /zh/python-java/create-a-pivot-table/
 ---
 
 ## **创建数据透视表**
-Aspose.Cells for Python 通过 Java 提供了创建数据透视表的功能。创建数据透视表使用 Aspose.Cells，请按照以下步骤执行:
+Aspose.Cells for Python via Java提供了创建数据透视表的功能。要使用Aspose.Cells创建数据透视表，请按照以下步骤进行操作：
 
 1. 通过 [Cell](https://reference.aspose.com/cells/python/asposecells.api/Cell) 对象的 [setValue](https://reference.aspose.com/cells/python/asposecells.api/cell#Value) 属性向工作表单元格添加一些数据。这些数据将用作数据透视表的数据源。
 1. 通过调用 [PivotTableCollection](https://reference.aspose.com/cells/python/asposecells.api/PivotTableCollection) 的 [add](https://reference.aspose.com/cells/python/asposecells.api/pivottablecollection#add\(java.lang.Object\)) 方法向工作表添加数据透视表，该方法封装在 [Worksheet](https://reference.aspose.com/cells/python/asposecells.api/Worksheet) 对象中。

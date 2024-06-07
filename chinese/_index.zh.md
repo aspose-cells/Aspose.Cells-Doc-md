@@ -83,97 +83,97 @@ Aspose.Cells for C++ 是一个原生 C++ 库，使 C++ 开发人员能够在不�
 
 {{% alert color="primary" %}}
 
-**![Aspose.Cells for Android via Java产品标识](home_4.png)**
+**![Aspose.Cells for Android via Java 产品标志](home_4.png)**
 
 **欢迎使用 Aspose.Cells for Android via Java**
 
-Aspose.Cells for Android via Java 是一个灵活的组件，使 Android 应用程序能够在不需要 Microsoft Excel 的情况下创建和管理 Excel 电子表格。 Aspose.Cells for Android via Java 的最终目标是将 Aspose.Cells for Java 的所有出色功能带到 Android 平台上，从而可以在 Java 中进行原生 Android 开发，可使用 Android Studio 或支持 Android 开发的任何 IDE。 Aspose.Cells for Android via Java 是一个类库，使您的原生 Android 应用程序能够执行大量文档处理任务。 Aspose.Cells for Android via Java 支持 XLS、XLSX、CSV、SpreadsheetML、ODS、分隔符TAB、HTML、PDF、XPS 和其他格式。 使用 Aspose.Cells for Android via Java，您可以生成、修改、转换和呈现电子表格。
+Aspose.Cells for Android via Java 是一个灵活的组件，允许 Android 应用程序创建和管理 Excel 电子表格，无需 Microsoft Excel。Aspose.Cells for Android via Java 的终极目标是将 Aspose.Cells for Java 的所有出色功能带到 Android 平台上，从而可以使用 Java 在 Android Studio 或任何支持 Android 开发的 IDE 上进行本机 Android 开发。Aspose.Cells for Android via Java 是一个类库，使您的本机 Android 应用程序能够执行各种文档处理任务。Aspose.Cells for Android via Java 支持 XLS、XLSX、CSV、SpreadsheetML、ODS、Tab Delimited、HTML、PDF、XPS 和其他格式。使用 Aspose.Cells for Android via Java，您可以生成、修改、转换和呈现电子表格。
 
 {{% /alert %}}
 
-## **通过Java资源的Aspose.Cells for Android**
+## **Aspose.Cells for Android via Java 资源**
 
 以下是一些有用资源的链接，您可能需要完成任务。
 
-- [Aspose.Cells for Java在线文档](/cells/zh/java/)（通过Java的Aspose.Cells for Android与Aspose.Cells for Java非常相似。因此，您可以使用同一文档）
-- [通过Java的Aspose.Cells for Android功能](/cells/zh/java/aspose-cells-for-android-via-java-features/)
+- [Aspose.Cells for Java 在线文档](/cells/zh/java/) (Aspose.Cells for Android via Java 非常类似于 Aspose.Cells for Java。因此，您可以使用相同的文档)
+- [Aspose.Cells for Android via Java 功能](/cells/zh/java/aspose-cells-for-android-via-java-features/)
 - [Aspose.Cells for Android via Java 限制和 API 差异](/cells/zh/java/aspose-cells-for-android-via-java-limitations-and-api-differences/)
 - [Aspose.Cells for Android via Java 发行说明](https://releases.aspose.com/cells/androidjava/release-notes/)
 - [Aspose.Cells for Android via Java 产品页面](https://products.aspose.com/cells/android-java/)
 - [下载 Aspose.Cells for Android via Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)
-- [从 Maven 安装 Aspose.Cells for Android via Java](/cells/zh/java/aspose-cells-for-android-via-java-installation/#install-asposecells-for-android-via-java-from-maven-repository)
-- [通过Java的Aspose.Cells for Android API参考指南](https://reference.aspose.com/cells/java)（通过Java的Aspose.Cells for Android非常类似于Aspose.Cells for Java。因此，您可以使用相同的API参考指南）
+- [从Maven安装Aspose.Cells for Android via Java](/cells/zh/java/aspose-cells-for-android-via-java-installation/#install-asposecells-for-android-via-java-from-maven-repository)
+- [Aspose.Cells for Android via Java API 参考指南](https://reference.aspose.com/cells/java) (Aspose.Cells for Android via Java 非常类似于 Aspose.Cells for Java。因此，您可以使用相同的 API 参考指南)
 
 {{% alert color="primary" %}}
 
-**![通过Java的Aspose.Cells for Node.js产品标识](home_5.png)**
+**![Aspose.Cells for Node.js via Java 产品标志](home_5.png)**
 
-**欢迎使用通过Java的Aspose.Cells for Node.js**
+**欢迎使用Aspose.Cells for Node.js via Java**
 
-通过Java的Aspose.Cells for Node.js展示了使用Node.js进行Aspose.Cells for Java的所有有用功能。通过Java的Aspose.Cells for Node.js是一个类库，可以执行各种电子表格处理任务。通过Java的Aspose.Cells for Node.js是一个可扩展且功能丰富的API，提供电子表格格式转换，工作表样式设置到最细粒度，图表管理和渲染，以及可靠的公式计算引擎。通过Java的Aspose.Cells for Node.js支持XLS，XLSX，ODS，SpreadsheetML，CSV，制表符分隔，HTML/MHTML，PDF，XPS等其他格式。通过Java的Aspose.Cells for Node.js可以生成，修改，转换和渲染Excel文档。
+Aspose.Cells for Node.js via Java通过Node.js呈现了Aspose.Cells for Java的所有实用功能。Aspose.Cells for Node.js via Java是一个类库，允许您执行广泛的电子表格处理任务。Aspose.Cells for Node.js via Java是一个可伸缩且功能丰富的API，提供电子表格格式转换、对工作表的样式进行到最细粒度的管理、图表管理和渲染，以及我们可靠的公式计算引擎。Aspose.Cells for Node.js via Java支持XLS、XLSX、ODS、SpreadsheetML、CSV、分隔符、HTML/MHTML、PDF、XPS等其他格式。使用Aspose.Cells for Node.js via Java，您可以生成、修改、转换和呈现Excel文档。
 
 {{% /alert %}}
 
-## **通过Java的Aspose.Cells for Node.js资源**
+## **Aspose.Cells for Node.js via Java资源**
 
 以下是一些有用资源的链接，您可能需要完成任务。
 
 - [Aspose.Cells for Java在线文档](/cells/zh/java/)（通过Java的Aspose.Cells for Node.js是从Aspose.Cells for Java移植而来。因此，您可以使用同一文档）
-- [通过Java的Aspose.Cells for Node.js特性](/cells/zh/nodejsjava/features/)
-- [通过Java的Aspose.Cells for Node.js限制和API差异](/cells/zh/nodejsjava/limitations-and-api-differences/)
-- [通过Java的Aspose.Cells for Node.js发布说明](https://releases.aspose.com/cells/nodejs/release-notes/)
-- [通过Java的Aspose.Cells for Node.js产品页面](https://products.aspose.com/cells/nodejs-java/)
-- [下载通过Java的Aspose.Cells for Node.js](https://downloads.aspose.com/cells/nodejs)
-- [通过Java的Aspose.Cells for Node.js API参考指南](https://reference.aspose.com/cells/nodejs)
-- [通过Java的Aspose.Cells for Node.js免费支持论坛](https://forum.aspose.com/c/cells/9)
-- [通过Java的Aspose.Cells for Node.js付费支持帮助台](https://helpdesk.aspose.com/)
+- [Aspose.Cells for Node.js via Java功能](/cells/zh/nodejsjava/features/)
+- [Aspose.Cells for Node.js via Java限制和API差异](/cells/zh/nodejsjava/limitations-and-api-differences/)
+- [Aspose.Cells for Node.js via Java发布说明](https://releases.aspose.com/cells/nodejs/release-notes/)
+- [Aspose.Cells for Node.js via Java产品页面](https://products.aspose.com/cells/nodejs-java/)
+- [下载 Aspose.Cells for Node.js via Java](https://downloads.aspose.com/cells/nodejs)
+- [Aspose.Cells for Node.js via Java API 参考指南](https://reference.aspose.com/cells/nodejs)
+- [Aspose.Cells for Node.js via Java 免费支持论坛](https://forum.aspose.com/c/cells/9)
+- [Aspose.Cells for Node.js via Java 付费支持帮助台](https://helpdesk.aspose.com/)
 
 {{% alert color="primary" %}}
 
-**![通过Java的Aspose.Cells for PHP产品标识](home_6.png)**
+**![Aspose.Cells for PHP via Java 产品标志](home_6.png)**
 
-**欢迎使用通过Java的Aspose.Cells for PHP**
+**欢迎使用 Aspose.Cells for PHP via Java**
 
-通过JavaBridge使用Java的Aspose.Cells for PHP提供了Aspose.Cells for Java的所有有价值功能。通过Java的Aspose.Cells for PHP是一个类库，可以执行各种电子表格处理任务。通过Java的Aspose.Cells for PHP是一个可扩展且功能丰富的API，提供电子表格格式转换，工作表样式设置到最细粒度，图表管理和渲染，以及可靠的公式计算引擎。通过Java的Aspose.Cells for PHP支持XLS，XLSX，ODS，SpreadsheetML，CSV，制表符分隔，HTML/MHTML，PDF，XPS等其他格式。通过Java的Aspose.Cells for PHP可以生成，修改，转换和渲染Excel文档。
+Aspose.Cells for PHP via Java 借助 JavaBridge 提供 Aspose.Cells for Java 的所有宝贵功能。Aspose.Cells for PHP via Java 是一个类库，使您能够执行各种电子表格处理任务。Aspose.Cells for PHP via Java 是一个可伸缩且功能丰富的 API，提供电子表格格式转换、对工作表的样式进行最精细的管理、图表管理和呈现，以及我们可靠的公式计算引擎。Aspose.Cells for PHP via Java 支持 XLS、XLSX、ODS、SpreadsheetML、CSV、Tab Delimited、HTML/MHTML、PDF、XPS 和其他格式。使用 Aspose.Cells for PHP via Java，您可以生成、修改、转换和呈现 Excel 文档。
 
 {{% /alert %}}
 
-## **通过Java的Aspose.Cells for PHP资源**
+## **Aspose.Cells for PHP via Java 资源**
 
 以下是一些有用资源的链接，您可能需要完成任务。
 
 - [Aspose.Cells for Java在线文档](/cells/zh/java/)（通过Java的Aspose.Cells for PHP是从Aspose.Cells for Java移植而来。因此，您可以使用同一文档）
-- [通过Java的Aspose.Cells for PHP特性](/cells/zh/phpjava/features/)
-- [通过Java的Aspose.Cells for PHP限制和API差异](/cells/zh/java/aspose-cells-for-php-via-java-limitations-and-api-differences/)
-- [通过Java的Aspose.Cells for PHP发布说明](https://releases.aspose.com/cells/php/release-notes/)
-- [通过Java的Aspose.Cells for PHP产品页面](https://products.aspose.com/cells/php-java/)
-- [下载通过Java的Aspose.Cells for PHP](https://downloads.aspose.com/cells/php)
-- [通过Java的Aspose.Cells for PHP API参考指南](https://reference.aspose.com/cells/php)
-- [通过Java的Aspose.Cells for PHP免费支持论坛](https://forum.aspose.com/c/cells/9)
-- [通过Java的Aspose.Cells for PHP付费支持帮助台](https://helpdesk.aspose.com/)
+- [Aspose.Cells for PHP via Java 功能](/cells/zh/phpjava/features/)
+- [Aspose.Cells for PHP via Java 限制和 API 差异](/cells/zh/java/aspose-cells-for-php-via-java-limitations-and-api-differences/)
+- [Aspose.Cells for PHP via Java 发布说明](https://releases.aspose.com/cells/php/release-notes/)
+- [Aspose.Cells for PHP via Java 产品页面](https://products.aspose.com/cells/php-java/)
+- [下载 Aspose.Cells for PHP via Java](https://downloads.aspose.com/cells/php)
+- [Aspose.Cells for PHP via Java API 参考指南](https://reference.aspose.com/cells/php)
+- [Aspose.Cells for PHP via Java 免费支持论坛](https://forum.aspose.com/c/cells/9)
+- [Aspose.Cells for PHP via Java 付费支持帮助台](https://helpdesk.aspose.com/)
 
 {{% alert color="primary" %}}
 
-**![通过Java的Aspose.Cells for Python产品标识](home_7.png)**
+**![Aspose.Cells for Python via Java 产品标志](home_7.png)**
 
-**欢迎使用通过Python的Aspose.Cells**
+**欢迎使用 Aspose.Cells for Python via Java**
 
-通过Java的Aspose.Cells for Python使您的应用程序能够执行多种电子表格处理任务。通过Java的Aspose.Cells for Python支持您的业务每天使用的流行电子表格（XLS、XLSX、XLSM、XLSB、XLTX、XLTM、CSV、SpreadsheetML、ODS）文件格式。它还允许将Excel®文件导出为PDF、XPS、HTML、MHTML、纯文本和流行的图像格式，包括TIFF、JPG、PNG、BMP和SVG。
+Aspose.Cells for Python via Java 可使您的应用程序执行各种电子表格处理任务。Aspose.Cells for Python via Java 支持您的企业每天使用的流行电子表格（XLS、XLSX、XLSM、XLSB、XLTX、XLTM、CSV、SpreadsheetML、ODS）文件格式。它还允许将 Excel® 文件导出为 PDF、XPS、HTML、MHTML、纯文本和流行的图像格式，包括TIFF、JPG、PNG、BMP和SVG。
 
 {{% /alert %}}
 
-## **通过Python的Aspose.Cells资源**
+## **Aspose.Cells for Python via Java 资源**
 
 以下是一些有用资源的链接，您可能需要完成任务。
 
-- [Aspose.Cells for Java在线文档](/cells/zh/java/)（通过Java的Aspose.Cells for Python与Aspose.Cells for Java非常相似。因此，您可以使用同一文档）
-- [通过Python的Aspose.Cells特性](/cells/zh/python-java/features/)
-- [通过Python的Aspose.Cells发布说明](https://releases.aspose.com/cells/python-java/release-notes/)
-- [通过Python的Aspose.Cells产品页面](https://products.aspose.com/cells/python-java/)
-- [下载通过Python的Aspose.Cells](https://downloads.aspose.com/cells/python-java)
-- [通过Python的Aspose.Cells API参考指南](https://reference.aspose.com/cells/python-java)
-- [通过Python的Aspose.Cells免费支持论坛](https://forum.aspose.com/c/cells/9)
-- [通过Python的Aspose.Cells付费支持帮助台](https://helpdesk.aspose.com/)
+- [Aspose.Cells for Java在线文档](/cells/zh/java/)（Aspose.Cells for Python via Java与Aspose.Cells for Java非常相似，因此可以使用相同的文档）
+- [Aspose.Cells for Python via Java功能](/cells/zh/python-java/features/)
+- [Aspose.Cells for Python via Java发行说明](https://releases.aspose.com/cells/python-java/release-notes/)
+- [Aspose.Cells for Python via Java产品页面](https://products.aspose.com/cells/python-java/)
+- [下载 Aspose.Cells for Python via Java](https://downloads.aspose.com/cells/python-java)
+- [Aspose.Cells for Python via Java API 参考指南](https://reference.aspose.com/cells/python-java)
+- [Aspose.Cells for Python via Java 免费支持论坛](https://forum.aspose.com/c/cells/9)
+- [Aspose.Cells for Python via Java 付费支持帮助台](https://helpdesk.aspose.com/)
 
 {{% alert color="primary" %}}
 

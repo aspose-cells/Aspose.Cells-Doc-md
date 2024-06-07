@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /zh/python-net/add-pdf-bookmarks/
 description: 了解如何使用Aspose.Cells for Python通过.NET API添加pdf书签
-keywords: Python添加PDF书签，使用Python添加PDF书签，插入PDF书签
+keywords: Python添加pdf书签，添加pdf书签Pyton via NET，插入pdf书签。
 ---
 
 {{% alert color="primary" %}}

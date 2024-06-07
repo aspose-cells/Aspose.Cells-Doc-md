@@ -4,7 +4,7 @@ type: docs
 weight: 150
 url: /zh/python-net/working-with-background-in-ods-files/
 description: 如何在ODS文件中使用Aspose.Cells for Python 通过.NET API处理背景
-keywords: Python处理ODS文件中的背景，通过NET读取ODS文件的背景信息，使用Python通过NET为ODS文件添加彩色背景，Python通过NET为ODS文件添加图形背景
+keywords: Python在ODS文件中处理背景信息，在Python via NET中读取ODS文件中的背景信息，使用Python via NET向ODS文件添加有颜色的背景，Python via NET将图形背景添加到ODS文件。
 ---
 
 ## **ODS文件中的背景**

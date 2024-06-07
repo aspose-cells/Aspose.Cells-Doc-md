@@ -77,7 +77,7 @@ noadd和skip参数可以组合使用以在交替行上插入数据。由于模�
 |![todo:image_alt_text](using-smart-markers_3.jpg)|![todo:image_alt_text](using-smart-markers_4.jpg)|
 单元格“C1”包含公式**= A1*B1**，单元格“C2”包含**= A2*B2**，单元格“C3”包含**= A3*B3**。
 
-处理智能标记非常容易。以下是一个通过Java以Python代码展示如何完成的代码片段。
+处理智能标记非常容易。以下是Python via Java中的代码片段，演示了如何执行。
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "SmartMarker-SimpleProcess.py" >}}
 

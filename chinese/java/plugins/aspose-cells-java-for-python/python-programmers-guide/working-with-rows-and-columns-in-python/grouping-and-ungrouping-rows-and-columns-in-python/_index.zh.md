@@ -7,7 +7,7 @@ description: 通过Aspose.Cells for Python Via Java API学习如何对行和列�
 keywords: 如何通过Python Via Java对行和列进行分组和取消分组, 使用Python Via Java对行和列进行分组, Python Via Java取消分组行和列。 
 ---
 
-## **在Aspose.Cells for Python通过Java管理行和列分组与取消分组**
+## **在Aspose.Cells for Python via Java中管理行和列的分组和取消分组**
 ### **如何在Python中对行和列进行分组**
 通过调用Cells集合的groupRows和groupColumns方法，可以对行或列进行分组。这两个方法接受以下参数:
 

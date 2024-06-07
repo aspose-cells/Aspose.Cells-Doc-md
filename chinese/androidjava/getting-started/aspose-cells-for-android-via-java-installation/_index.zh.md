@@ -1,15 +1,15 @@
 ---
-title: 通过Java安装Aspose.Cells for Android
+title: Aspose.Cells for Android via Java安装
 type: docs
 weight: 30
 url: /zh/java/aspose-cells-for-android-via-java-installation/
 ---
 
 ## **系统要求**
-通过Java的Aspose.Cells for Android 是独立于平台的，可在已安装Android Runtime环境且运行Android OS 2.0或更高版本的任何平台上使用，并可在运行Android OS的Android系统上运行。截至目前，该组件已通过以下系统进行了测试:
+Aspose.Cells for Android via Java是独立于平台的，可在安装了Android运行时环境的任何平台上使用，并将在运行Android OS 2.0或更高版本的Android系统上运行。目前，该组件已在以下平台上进行了测试：
 
 - Android 5.1 v 22
-## **从Maven仓库安装通过Java的Aspose.Cells for Android**
+## **从Maven仓库安装Aspose.Cells for Android via Java**
 1. 将maven仓库添加到您的**build.gradle**中 
 1. 将'Aspose.Cells for Android via Java' JAR添加为依赖项
 
@@ -38,8 +38,8 @@ dependencies {
 }
 
 {{< /highlight >}}
-## **如何在Android Studio中使用通过Java的Aspose.Cells for Android**
-本主题将指导您完成在Android Studio IDE中设置Aspose.Cells for Android via Java 的必要步骤，假设您已将最新版本的Android Studio安装在您的计算机上，并且也已获得了通过Java的最新版本的Aspose.Cells for Android package。
+## **如何使用Aspose.Cells for Android via Java**
+此主题将指导您完成在Android Studio IDE中设置Aspose.Cells for Android via Java所需的步骤，假设您已经在您的计算机上安装了最新版本的Android Studio，并且已经获取了Aspose.Cells for Android via Java的最新版本包。
 
 {{% alert color="primary" %}} 
 
@@ -47,13 +47,13 @@ dependencies {
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
-通过[此处](https://downloads.aspose.com/cells/androidjava)下载通过Java的Aspose.Cells for Android package。请注意，每个通过Java的Aspose.Cells for Android package的发布包主要包含以下2个文件。
+您可以从[这里](https://downloads.aspose.com/cells/androidjava)下载Aspose.Cells for Android via Java包。请注意，Aspose.Cells for Android via Java的每个发布包主要包含以下两个文件。
 
-- **aspose-cells-x.x.x.jar** 是包含通过Java的Aspose.Cells for Android API所有命名空间的主要库文件。
-- **aspose-cells-x.x.x-libs.apk** 是APK，包含用于加密和解密功能的第三方bcprov-jdk15-146.jar，由通过Java的Aspose.Cells for Android API提供。
+- **aspose-cells-x.x.x.jar**是包含Aspose.Cells for Android via Java API所有命名空间的主要库文件。
+- **aspose-cells-x.x.x-libs.apk**是包含Aspose.Cells for Android via Java API提供的加密和解密功能所使用的第三方bcprov-jdk15-146.jar的APK。
 
 {{% /alert %}} 
-### **在Android Studio中开始使用通过Java的Aspose.Cells for Android**
+### **在Android Studio中开始使用Aspose.Cells for Android via Java**
 一旦Android Studio IDE加载，点击文件 > 新建 > 新项目，如下所示。
 
 ![todo:image_alt_text](aspose-cells-for-android-via-java-installation_1.png)
@@ -100,10 +100,10 @@ dependencies {
 
 ![todo:image_alt_text](aspose-cells-for-android-via-java-installation_9.png)
 
-接下来，我们将将通过Java的Aspose.Cells for Android Jar添加到项目中。下面详细介绍了2个重要步骤。
+接下来，我们将向项目中添加Aspose.Cells for Android via Java Jar。以下是两个重要的步骤。
 
-- 将通过Java的Aspose.Cells for Android Jar手动复制到**\app\libs**文件夹中。
-- 将通过Java的Aspose.Cells for Android Jar作为库添加到模块中，如下所示。
+- 手动将Aspose.Cells for Android via Java Jar复制到**\app\libs**文件夹。
+- 将Aspose.Cells for Android via Java Jar作为库添加到模块中，如下所示。
 
 ![todo:image_alt_text](aspose-cells-for-android-via-java-installation_10.png)
 

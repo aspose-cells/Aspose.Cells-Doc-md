@@ -4,7 +4,7 @@ type: docs
 weight: 280
 url: /zh/python-net/export-chart-to-svg-with-viewbox-attribute/
 description: 通过使用Aspose.Cells for Python通过.NET API导出带有viewBox属性的SVG图表。
-keywords: Python使用viewBox属性导出图表为SVG，通过NET导出带有viewBox属性的图表为SVG，在Python中将图表转换为具有viewBox属性的SVG。
+keywords: Python导出带有viewBox属性的SVG图表，在Python via NET中导出带有viewBox属性的SVG图表，Python将带有viewBox属性的图表转换为SVG。
 ---
 
 {{% alert color="primary" %}}

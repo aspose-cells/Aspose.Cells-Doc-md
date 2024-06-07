@@ -4,7 +4,7 @@ type: docs
 weight: 60
 url: /zh/java/inserting-and-deleting-rows-and-columns/
 description: 学习如何通过Aspose.Cells for Java API插入和删除行和列。
-keywords: 如何在Java中插入和删除行和列，使用Java插入行和列，Java删除行和列，使用Java插入行或列，通过Java删除行或列。
+keywords: 如何在Java中插入和删除行和列，使用Java插入行和列，Java删除行和列，使用Java插入行或列，删除行和列via Java。
 ---
 
 ## **介绍**

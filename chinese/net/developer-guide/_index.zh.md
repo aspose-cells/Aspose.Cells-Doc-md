@@ -7,7 +7,7 @@ description: 此开发人员指南描述了实际场景和技巧，帮助您使�
 keywords: 使用 Aspose.Cells 开发 API 的指南，Aspose.Cells for .NET API 的参考手册
 ---
 
-此开发人员指南提供了有关在各种实际场景中使用 Aspose.Cells 的信息，如 MS Excel 菜单。
+本开发人员指南提供了有关在各种实际情景中使用 Aspose.Cells 的信息，类似于使用 MS Excel 菜单。
 {{< tabs tabTotal="8" tabID="1" tabName1="File" tabName2="Home" tabName3="Insert" tabName4="Page Layout" tabName5="Formulas" tabName6="Data" tabName7="Review" tabName8="View" tabName9="Developer" >}}
 {{< tab tabNum="1" >}}
 <div class="row">
