@@ -1,25 +1,26 @@
 ---
-title: 将 Excel 文件转换为与 PDFA-1a 兼容的 PDF 格式
+title: 将Excel文件转换为与PDFA-1a兼容的PDF格式
 type: docs
 weight: 130
 url: /zh/python-net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/
-description: 了解如何使用 Aspose.Cells for Python via .NET API 将 Excel 文件转换为与 PDFA-1a 兼容的 PDF 格式。
-keywords: Python Convert Excel file to PDF format compatible with PDFA-1a, PDFA-1a, PDFA-1b, PDF14, PDF15, PDF16, PDF17
+description: 了解如何使用Aspose.Cells for Python通过.NET API将Excel文件转换为与PDFA-1a兼容的PDF格式
+keywords: Python将Excel文件转换为与PDFA-1a兼容的PDF格式，PDFA-1a，PDFA-1b，PDF14，PDF15，PDF16，PDF17
 ---
-##  **可能的使用场景**
 
-PDF/A是PDF的独特风味，专为文档的长期保存而设计。 PDF/A 是可移植文档格式 (PDF) 的 ISO 标准化版本，它是 PDF 的存档格式，将文档中使用的所有字体嵌入到 PDF 文件中。 PDF/A 与 PDF 的不同之处在于禁止诸如字体链接（与字体嵌入相反）和加密等功能。 Aspose.Cells for Python via .NET 使您能够将 Excel 文件保存为 PDF/A 兼容的 PDF 文件（支持 PdfA1a 和 PdfA1b）。本主题介绍如何将 Excel 工作簿保存为 PDF/A 兼容 (PdfA1a) PDF 文件。
+## **可能的使用场景**
 
-##  **将 Excel 文件转换为与 PDFA-1a 兼容的 PDF 格式**
+PDFA是PDF的一种专用版本，旨在长期保存文档。PDFA是PDF的ISO标准化版本，是PDF的存档格式，将文档中使用的所有字体嵌入PDF文件中。 PDFA通过禁止某些功能（例如与字体嵌入相对应的字体链接和加密）与PDF不同。Aspose.Cells for Python通过.NET使您能够将Excel文件保存为符合PDFA标准的PDFA兼容PDF文件（支持PdfA1a和PdfA1b）。本主题描述了如何将Excel工作簿保存为符合PDFA标准（PdfA1a）的PDF文件。
 
-开发者可以使用**[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/)**类为转换设置不同的属性。设置不同的属性**[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/)**类使您可以控制输出 PDF 的打印、字体、安全性和压缩设置。最重要的属性是**[PdfSaveOptions.compliance](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/compliance/)**使您能够将 Excel 文件保存为 PDF/A 兼容的 PDF 文件。
+## **将Excel文件转换为与PDFA-1a兼容的PDF格式**
 
-以下示例代码说明如何将 Excel 文件转换为与 PDFA-1a 兼容的 PDF 格式。请看它的[输出PDF](outputCompliancePdfA1a.pdf)以及供参考的屏幕截图。
+开发人员可以使用**[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/)**类为转换设置不同属性。设置**[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/)**类的不同属性使您可以控制输出PDF的打印、字体、安全性和压缩设置。最重要的属性是**[PdfSaveOptions.compliance](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/compliance/)**，它使您能够将Excel文件保存为符合PDFA标准的PDF文件。
 
-##  **截屏**
+以下示例代码解释了如何将Excel文件转换为与PDFA-1a兼容的PDF格式。请查看其[输出PDF](outputCompliancePdfA1a.pdf)，以及屏幕截图供参考。
 
-![待办事项：图像_替代_文本](convert-excel-file-to-pdf-format-compatible-with-pdfa-1a_1.png)
+## **截图**
 
-##  **示例代码**
+![todo:image_alt_text](convert-excel-file-to-pdf-format-compatible-with-pdfa-1a_1.png)
+
+## **示例代码**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-ConvertExcelFileToPDFA_1a.py" >}}

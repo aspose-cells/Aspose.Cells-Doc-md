@@ -1,13 +1,14 @@
-﻿---
-title: 自动调整工作表中的列
+---
+title: 在工作表中自动调整列宽
 type: docs
 weight: 30
 url: /zh/net/auto-fit-columns-in-worksheet/
 ---
-## **Aspose.Cells - 工作表中的自动调整列**
+
+## **Aspose.Cells - 在工作表中自动调整列宽**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -48,10 +49,10 @@ worksheet.AutoFitColumn(3);
 workbook.Save("AutoFiltRowsandColumns.xls");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - 工作表中的自动调整列**
+## **NPOI - HSSF XSSF - 在工作表中自适应列宽**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  HSSFWorkbook hssfworkbook = new HSSFWorkbook();
 
@@ -79,12 +80,12 @@ file.Close();
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**自动调整列**形成以下任何一个社交编码网站：
+从下面提到的社交编码网站之一下载**自动调整列宽**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Auto.Fit.Columns.zip)
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[使用工作表](/cells/zh/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+有关详细信息，请访问[使用工作表](/cells/zh/net/working-with-worksheets-in-npoi-and-aspose-cells/)
 
 {{% /alert %}}

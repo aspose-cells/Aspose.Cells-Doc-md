@@ -1,38 +1,39 @@
-﻿---
-title: 在 Aspose.Cells 中显示或隐藏行列标题
+---
+title: 在Aspose.Cells中显示或隐藏行列标题
 type: docs
 weight: 60
 url: /zh/net/display-or-hide-row-column-headers-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Excel 文件中的所有工作表均由按行和列排列的单元格组成。所有行和列都有唯一的值，用于标识它们和标识单个单元格。例如，行编号 - 1、2、3、4 等 - 列按字母顺序排序 - A、B、C、D 等。行和列值显示在标题中。使用 Aspose.Cells，开发人员可以控制这些行和列标题的可见性。
+Excel文件中的所有工作表都由排列在行和列中的单元格组成。所有行和列都具有用于标识它们和标识单个单元格的唯一值。例如，行编号为1、2、3、4等，列按字母顺序排列为A、B、C、D等。行和列的值显示在标题中。使用Aspose.Cells，开发人员可以控制这些行和列标题的可见性。
 
 {{% /alert %}}
 
 ## **控制工作表的可见性**
 
-Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)，代表一个 Microsoft Excel 文件。这[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类包含一个[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)允许访问 Excel 文件中每个工作表的集合。
+Aspose.Cells提供了一个代表Microsoft Excel文件的类，[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类。[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类包含一个[**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)集合，允许访问Excel文件中的每个工作表。
 
-工作表由[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)班级。这[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类提供了广泛的属性和方法来管理工作表。要控制行标题和列标题的可见性，请使用[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)班级'[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible)财产。[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible)是一个布尔属性，这意味着它只能存储一个**真的**要么**错误的**价值。
+工作表由[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类表示。[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类提供了用于管理工作表的广泛属性和方法。要控制行和列标题的可见性，请使用[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类的[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible)属性。[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible)是一个布尔属性，这意味着它只能存储**true**或**false**值。
 
-下面给出了一个完整的示例，说明如何使用[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)班级'[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible)隐藏文件中第一个工作表上的行和列标题的属性。
+下面给出了一个完整示例，显示了如何使用[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类的[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible)属性隐藏文件中第一个工作表上的行和列标题。
 
-屏幕截图显示了输入文件 Book1.xls。它包含三个工作表：Sheet1、Sheet2 和 Sheet3。每个工作表都显示行和列标题。
+截图显示了Book1.xls，输入文件。它包含三个工作表：Sheet1、Sheet2和Sheet3。每个工作表都显示了行和列标题。
 
 **Book1.xls：修改前的工作表**
 
-![待办事项：图片_替代_文本](display-or-hide-row-column-headers-in-aspose-cells_1.png)
+![todo:image_alt_text](display-or-hide-row-column-headers-in-aspose-cells_1.png)
 
-Book1.xls 通过调用 Workbook 类的 Open 方法打开，第一个工作表上的行标题和列标题被隐藏。修改后的文件保存为 output.xls。
+通过调用Workbook类的Open方法打开Book1.xls，并隐藏第一个工作表的行和列标题。修改后的文件保存为output.xls。
 
 **Output.xls：修改后的工作表** 
 
-![待办事项：图片_替代_文本](display-or-hide-row-column-headers-in-aspose-cells_2.png)
+![todo:image_alt_text](display-or-hide-row-column-headers-in-aspose-cells_2.png)
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 

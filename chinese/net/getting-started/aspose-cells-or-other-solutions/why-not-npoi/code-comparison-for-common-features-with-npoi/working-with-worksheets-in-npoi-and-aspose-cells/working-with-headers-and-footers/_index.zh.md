@@ -1,13 +1,14 @@
-﻿---
-title: 使用页眉和页脚
+---
+title: 工作表中的页眉和页脚
 type: docs
 weight: 110
 url: /zh/net/working-with-headers-and-footers/
 ---
-## **Aspose.Cells - 使用页眉和页脚**
+
+## **Aspose.Cells - 工作表中的页眉和页脚**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -49,10 +50,10 @@ workbook.Save("../../data/headerfooter.xlsx");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - 使用页眉和页脚**
+## **NPOI - HSSF XSSF - 工作表中的页眉和页脚**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -74,12 +75,12 @@ sw.Close();
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**使用页眉和页脚**形成以下任何一个社交编码网站：
+从以下任何社交编码网站下载**工作表中的页眉和页脚**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Headers.and.Footers.zip)
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[使用工作表](/cells/zh/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+有关详细信息，请访问[使用工作表](/cells/zh/net/working-with-worksheets-in-npoi-and-aspose-cells/)
 
 {{% /alert %}}

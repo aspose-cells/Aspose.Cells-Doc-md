@@ -1,25 +1,26 @@
-﻿---
-title: 格式化数据透视表 Cells
+---
+title: 格式化数据透视表单元格
 type: docs
 weight: 20
 url: /zh/python-java/format-pivot-table-cells/
 ---
+
 {{% alert color="primary" %}}
 
-有时，您想要格式化数据透视表单元格。例如，您想要将背景颜色应用于数据透视表单元格。 Aspose.Cells提供两种方法[**数据透视表.formatAll()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#formatAll(com.aspose.cells.Style) ） 和[**数据透视表.format()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#format(int,%20int,%20com.aspose.cells.Style))，您可以将其用于此目的。
+有时，您希望格式化数据透视表单元格。例如，您希望为数据透视表单元格应用背景颜色。Aspose.Cells提供两种方法[**PivotTable.formatAll()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#formatAll(com.aspose.cells.Style)）和[**PivotTable.format()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#format(int,%20int,%20com.aspose.cells.Style)），您可以用于此目的。
 
-[**数据透视表.formatAll()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#formatAll(com.aspose.cells.Style) ) 将样式应用于整个数据透视表，同时[**数据透视表.format()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#format(int,%20int,%20com.aspose.cells.Style)将样式应用于数据透视表的单个单元格。
+[**PivotTable.formatAll()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#formatAll(com.aspose.cells.Style)）为整个数据透视表应用样式，而[**PivotTable.format()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#format(int,%20int,%20com.aspose.cells.Style)）为数据透视表的单个单元格应用样式。
 
 {{% /alert %}}
 
-以下示例代码将整个数据透视表格式化为浅蓝色，然后将第二个表格行格式化为黄色。
+以下示例代码为整个数据透视表设置浅蓝色，并为第二表行设置黄色。
 
-**输入数据透视表，在执行代码之前**
+**执行代码前的输入数据透视表**
 
-![待办事项：图片_替代_文本](format-pivot-table-cells_1.png)
+![todo:image_alt_text](format-pivot-table-cells_1.png)
 
 **执行代码后的输出数据透视表**
 
-![待办事项：图片_替代_文本](format-pivot-table-cells_2.png)
+![todo:image_alt_text](format-pivot-table-cells_2.png)
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "PivotTables-FormatCells.py" >}}

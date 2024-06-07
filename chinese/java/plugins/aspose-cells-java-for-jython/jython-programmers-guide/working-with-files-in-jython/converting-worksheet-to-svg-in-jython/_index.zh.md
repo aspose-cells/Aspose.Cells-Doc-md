@@ -1,55 +1,56 @@
-﻿---
-title: 在 Jython 中将工作表转换为 SVG
+---
+title: 将工作表转换为Jython中的SVG
 type: docs
 weight: 40
 url: /zh/java/converting-worksheet-to-svg-in-jython/
 ---
-## **Aspose.Cells - 将工作表转换为 SVG**
-使用附加文档**Aspose.Cells Java 对于 Jython**.在这里您可以看到示例代码。
+
+## **Aspose.Cells - 将工作表转换为SVG**
+使用**Aspose.Cells Java for Jython**进行文档追加。这里您可以查看示例代码
 
 **Jython代码**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
-从 aspose-cells 导入设置
+ from aspose-cells import Settings
 
-从 com.aspose.cells 导入工作簿
+from com.aspose.cells import Workbook
 
-从 com.aspose.cells 导入 ImageFormat
+from com.aspose.cells import ImageFormat
 
-从 com.aspose.cells 导入 ImageOrPrintOptions
+from com.aspose.cells import ImageOrPrintOptions
 
-从 com.aspose.cells 导入 SheetRender
+from com.aspose.cells import SheetRender
 
-从 com.aspose.cells 导入 SaveFormat
-
-
-
-类 ConvertingWorksheetToSVG：
-
-定义__在里面__（自己）：
-
- dataDir = Settings.dataDir + 'WorkingWithFiles/ConvertingWorksheetToSVG/'
+from com.aspose.cells import SaveFormat
 
 
 
-保存格式 = 保存格式
+class ConvertingWorksheetToSVG:
 
-工作簿 = 工作簿 (dataDir + "Book1.xls")
+    def __init__(self):
 
- #在单个页面中将每个工作表转换为 svg 格式。
+        dataDir = Settings.dataDir + 'WorkingWithFiles/ConvertingWorksheetToSVG/'
 
- imgOptions = 图像或打印选项()
 
- imgOptions.setSaveFormat(保存格式.SVG)
 
- imgOptions.setOnePagePerSheet(真)
+        saveFormat = SaveFormat
 
- #将每个工作表转换成svg格式
+        workbook = Workbook(dataDir + "Book1.xls")
 
-sheetCount = workbook.getWorksheets().getCount()
+        #Convert each worksheet into svg format in a single page.
 
- #for(我=0;我<sheetCount; i++)
+        imgOptions = ImageOrPrintOptions()
+
+        imgOptions.setSaveFormat(saveFormat.SVG)
+
+        imgOptions.setOnePagePerSheet(True)
+
+        #Convert each worksheet into svg format
+
+        sheetCount = workbook.getWorksheets().getCount()
+
+        #for(i=0; i<sheetCount; i++)
 
         for i in range(sheetCount):
 
@@ -87,6 +88,6 @@ if __name__ == '__main__':
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**附加文件 (Aspose.Cells)**来自以下任何社交编码网站：
+从以下任何社交编码网站下载**追加文档（Aspose.Cells）**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithFiles/ConvertingWorksheetToSVG.py)

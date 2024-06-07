@@ -1,16 +1,17 @@
-﻿---
-title: 在 Ruby 中打开文件
+---
+title: 在Ruby中打开文件
 type: docs
 weight: 10
 url: /zh/java/opening-files-in-ruby/
 ---
-## **Aspose.Cells - 打开 Excel 文件的简单方法**
+
+## **Aspose.Cells - 打开Excel文件的简单方式**
 ### **通过路径打开**
-只需通过引用文件路径打开 Microsoft Excel 文件
+通过引用文件的路径来简单地打开Microsoft Excel文件
 
-**红宝石代码**
+**Ruby代码**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -18,11 +19,11 @@ workbook = Rjb::import('com.aspose.cells.Workbook').new(data_dir + 'Book1.xls')
 
 {{< /highlight >}}
 ### **通过流打开**
-有时，您要打开的 Excel 文件存储为流。在这种情况下，请使用 Open 方法的重载版本，该方法采用包含 Excel 文件的 Stream 对象来打开文件。
+有时，要打开的Excel文件存储为流。在这种情况下，使用包含要打开的Excel文件的**流**对象的重载版本的**Open**方法。
 
-**红宝石代码**
+**Ruby代码**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 

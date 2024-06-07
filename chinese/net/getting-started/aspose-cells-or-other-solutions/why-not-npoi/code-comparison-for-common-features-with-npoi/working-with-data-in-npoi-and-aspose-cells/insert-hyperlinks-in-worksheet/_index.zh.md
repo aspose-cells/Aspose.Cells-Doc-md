@@ -1,17 +1,18 @@
-﻿---
+---
 title: 在工作表中插入超链接
 type: docs
 weight: 20
 url: /zh/net/insert-hyperlinks-in-worksheet/
 ---
-## **Aspose.Cells - 在工作表中插入超链接**
-**在同一文件中添加指向 Cell 的链接**
 
-通过调用 Hyperlink 集合的 Add 方法，可以将超链接添加到同一 Excel 文件中的单元格。 Add 方法适用于内部和外部超链接。
+## **Aspose.Cells - 在工作表中插入超链接**
+**在同一文件中的单元格中添加链接**
+
+通过调用超链接集合的Add方法，可以在同一Excel文件中的单元格中添加超链接。 Add方法适用于内部和外部超链接。
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -64,18 +65,18 @@ workbook.Save("test.xlsx");
 
 {{< /highlight >}}
 
-**添加指向外部文件的链接**
+**在外部文件中添加链接**
 
-通过调用 Hyperlink 集合的 Add 方法，可以将超链接添加到同一 Excel 文件中的单元格。 Add 方法适用于内部和外部超链接。重载方法的一种版本采用以下参数：
+通过调用超链接集合的Add方法，可以向同一Excel文件的单元格添加超链接。Add方法适用于内部和外部超链接。重载方法的一个版本接受以下参数:
 
-- Cell name，要添加超链接的单元格的名称。
-- Number of rows，这个超链接范围内的行数。
-- Number of columns，这个超链接范围内的列数。
+- 单元格名称，将要添加超链接的单元格名称。
+- 行数，此超链接范围中的行数。
+- 列数，此超链接范围中的列数。
 - URL，目标单元格的地址。
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -99,7 +100,7 @@ workbook.Save("C:\\book1.xls");
 ## **NPOI - HSSF XSSF - 在工作表中插入超链接**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook workbook = new XSSFWorkbook();
 
@@ -193,12 +194,12 @@ sw.Close();
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**在工作表中插入超链接**形成以下任何一个社交编码网站：
+从以下任一社交编码站点下载 **Insert Hyperlinks in Worksheet**：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Insert.Hyperlinks.In.Worksheet.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[添加超链接到链接数据](/cells/zh/net/adding-hyperlinks-to-link-data-in-aspose-cells/).
+了解更多详情，请访问 [在 Aspose.Cells 中添加超链接以链接数据](/cells/zh/net/adding-hyperlinks-to-link-data-in-aspose-cells/)。
 
 {{% /alert %}}

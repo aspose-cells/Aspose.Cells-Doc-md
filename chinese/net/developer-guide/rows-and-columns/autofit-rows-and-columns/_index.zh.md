@@ -3,78 +3,79 @@ title: 自动调整行和列
 type: docs
 weight: 20
 url: /zh/net/autofit-rows-and-columns/
-description: 本文介绍如何自动调整行、列、合并单元格的行以及按 Aspose.Cells for .NET API 排列的单元格区域中的行。
-keywords: Autofit rows, autofit columns, autofit row in a range of cells, autofit rows of merged cells
+description: 本文介绍了如何使用Aspose.Cells for .NET API自动调整行、列、合并单元格的行和单元格范围中的行。
+keywords: 自动调整行、自动调整列、自动调整单元格范围中的行、自动调整合并单元格的行
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel 允许用户根据单元格的内容自动调整单元格的宽度和高度。此功能还可通过 Aspose.Cells 获得，因此开发人员可以在运行时自动调整单元格的尺寸。
+Microsoft Excel允许用户根据内容自动调整单元格的宽度和高度。Aspose.Cells API也提供此功能，因此开发人员可以在运行时自动调整单元格的维度。
 
 {{% /alert %}}
 
-##  **汽车配件**
+## **自动适应**
 
-Aspose.Cells 提供[**练习册**](https://reference.aspose.com/cells/net/aspose.cells/workbook)表示 Microsoft Excel 文件的类。这[**练习册**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类包含一个[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)允许访问 Excel 文件中的每个工作表的集合。工作表由以下形式表示[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)班级。这[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类提供了多种用于管理工作表的属性和方法。本文着眼于使用[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类自动调整行或列。
+Aspose.Cells 提供了 [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) 类，代表Microsoft Excel文件。该 [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) 类包含一个 [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) 集合，允许访问Excel文件中的每个工作表。工作表由 [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) 类表示。 [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) 类提供了用于管理工作表的各种属性和方法。本文将介绍如何使用 [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) 类调整行或列。
 
-###  **自动调整行 - 简单**
+### **自动调整行 - 简单**
 
-自动调整行的宽度和高度的最直接方法是调用[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)班级[**自动调整行**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrow/index)方法。这[**自动调整行**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrow/index)方法采用行索引（要调整大小的行的索引）作为参数。
+自动调整行宽度和高度的最简单方法是调用 [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) 类的 [**AutoFitRow**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrow/index) 方法。 [**AutoFitRow**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrow/index) 方法将行索引（要调整大小的行的索引）作为参数。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-AutofitRowsandColumns-1.cs" >}}
 
-###  **如何在 Cells 范围内自动调整行**
+### **如何在单元格范围内自动调整行**
 
-行由许多列组成。 Aspose.Cells 允许开发人员通过调用重载版本来根据行内一系列单元格中的内容自动调整行[**自动调整行**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitrow/methods/1)方法。它需要以下参数：
+一行由许多列组成。Aspose.Cells允许开发人员基于行内单元格范围的内容自动调整行大小，通过调用 [**AutoFitRow**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitrow/methods/1) 方法的重载版本实现。它接受以下参数：
 
-- *行索引**，即将自动拟合的行的索引。
-- *第一列索引**，行第一列的索引。
-- *最后一列索引**，该行最后一列的索引。
+- **行索引**，要自动调整大小的行的索引。
+- **第一列索引**，行的第一列的索引。
+- **最后一列索引**，行的最后一列的索引。
 
-这[**自动调整行**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitrow/methods/1)方法检查该行中所有列的内容，然后自动调整该行。
+ [**AutoFitRow**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitrow/methods/1) 方法检查行中所有列的内容，然后自动调整行。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-AutofitRowinSpecificRange-1.cs" >}}
 
-###  **如何在 Cells 范围内自动调整列**
+### **如何在单元格范围内自动调整列**
 
-一列由许多行组成。通过调用重载版本，可以根据列中一系列单元格中的内容自动调整列[**自动调整列**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1)方法采用以下参数：
+一列由许多行组成。可以根据列中单元格范围的内容自动调整列大小，通过调用 [**AutoFitColumn**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1) 方法的重载版本实现，它接受以下参数：
 
-- *列索引**，即将自动拟合的列的索引。
-- *首行索引**，列第一行的索引。
-- *最后一行索引**，该列最后一行的索引。
+- **列索引**，要自动调整大小的列的索引。
+- **第一行索引**，列的第一行的索引。
+- **最后一行索引**，列的最后一行的索引。
 
-这[**自动调整列**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1)方法检查列中所有行的内容，然后自动调整列。
+[**AutoFitColumn**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1)方法检查列中所有行的内容，然后自动调整列宽。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-AutofitColumninSpecificRange-1.cs" >}}
 
-###  **如何自动调整行以进行合并 Cells**
+### **如何自动调整合并单元格的行高**
 
-使用 Aspose.Cells，即使对于已使用 合并的单元格也可以自动调整行[**自动调整选项**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions) API. [**自动调整选项**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)类提供[**自动调整合并单元格类型**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions/properties/autofitmergedcellstype)属性可用于自动调整合并单元格的行。[**自动调整合并单元格类型**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions/properties/autofitmergedcellstype)接受[**自动调整合并单元格类型**](https://reference.aspose.com/cells/net/aspose.cells/autofitmergedcellstype)具有以下成员的可枚举。
+使用Aspose.Cells可以对已合并的单元格自动调整行高，使用[**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions) API。[**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)类提供[**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions/properties/autofitmergedcellstype)属性，用于对已合并单元格自动调整行高。[**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions/properties/autofitmergedcellstype)接受[**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitmergedcellstype)可枚举，其中包含以下成员。
 
-- 无：忽略合并的单元格。
-- FirstLine：仅扩展第一行的高度。
-- LastLine：仅扩展最后一行的高度。
-- EachLine：仅扩展每行的高度。
+- None: 忽略合并单元格。
+- FirstLine: 仅扩展第一行的高度。
+- LastLine: 仅扩展最后一行的高度。
+- EachLine: 仅扩展每行的高度。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-AutofitRowsforMergedCells-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-您也可以尝试使用重载版本[**自动调整行**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrows) & [**自动调整列**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitcolumns)接受一系列行/列和实例的方法[**自动调整选项**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)根据您的需要自动调整选定的行/列[**自动调整选项**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)因此。
+您也可以尝试使用接受一系列行/列范围和[**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)实例的重载版本的[**AutoFitRows**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrows)和[**AutoFitColumns**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitcolumns)方法，根据您的需要自动调整所选行/列的行高/列宽。
 
 上述方法的签名如下：
 
-1.  AutoFitRows(int startRow, int endRow,[**自动调整选项**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)选项）
-1.  AutoFitColumns(intfirstColumn, intlastColumn,[**自动调整选项**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)选项）
+1. AutoFitRows(int startRow, int endRow, [**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions) 选项)
+1. AutoFitColumns(int firstColumn, int lastColumn, [**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions) 选项)
 
 {{% /alert %}}
 
-##  **重要了解**
+## **重要知识**
 
 {{% alert color="primary" %}}
 
-如果合并单元格，则不会应用自动调整方法，这与 Microsoft Excel 中的行为相同。您可以使用自动过滤器 API 来解决这个问题。此外，如果单元格中的文本被换行，则[**自动调整列**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1)方法也不会被应用。您需要知道的另一件事是*自动调整*方法很耗时。因此，您应该尽可能少地调用这些方法，以确保应用程序的效率。
+如果单元格已合并，则不会应用AutoFit方法，这与Microsoft Excel中的行为相同。您可以通过使用自动筛选API来解决此问题。此外，如果单元格中的文本换行，则也不会应用[**AutoFitColumn**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1)方法。另一件事情是需要知道*AutoFit*方法是耗时的。因此，为确保应用程序的效率，应尽量少调用这些方法。
 
 {{% /alert %}}
 
-##  **高级主题**
-- [用于合并的自动调整行 Cells](/cells/zh/net/autofit-rows-for-merged-cells/)
+## **高级主题**
+- [自动调整合并单元格的行高](/cells/zh/net/autofit-rows-for-merged-cells/)

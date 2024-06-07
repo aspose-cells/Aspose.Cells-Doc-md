@@ -1,12 +1,13 @@
-﻿---
+---
 title: 从自定义对象导入
 type: docs
 weight: 30
 url: /zh/net/importing-from-custom-objects/
 ---
-开发人员可以使用以下方法将对象集合中的数据导入工作表**导入自定义对象**.您可以向该方法提供列/属性列表，以显示所需的对象列表。
 
-{{< highlight "csharp" >}}
+开发人员可以使用ImportCustomObjects从对象集合导入数据到工作表。您可以向该方法提供列/属性的列表以显示您所需的对象列表。
+
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook
 
@@ -36,7 +37,7 @@ list.Add(new WeeklyItem() { AtYarnStage = 7, InWIPStage = 3, Payment = 3, Shipme
 
 sheet.Cells.ImportCustomObjects((System.Collections.ICollection)list,
 
-new string[]{ "Date", "InWIPStage", "Shipment", "Payment" },
+new string[] { "Date", "InWIPStage", "Shipment", "Payment" },
 
 true,
 

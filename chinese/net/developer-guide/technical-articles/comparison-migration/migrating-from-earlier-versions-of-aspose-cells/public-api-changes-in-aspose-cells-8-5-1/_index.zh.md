@@ -1,21 +1,22 @@
-﻿---
-title: 公共 API Aspose.Cells 8.5.1 的变化
+---
+title: Aspose.Cells 8.5.1 中的公共 API 更改
 type: docs
 weight: 170
 url: /zh/net/public-api-changes-in-aspose-cells-8-5-1/
 ---
+
 {{% alert color="primary" %}} 
 
-本文档描述了 Aspose.Cells API 从版本 8.5.0 到 8.5.1 的变化，模块/应用程序开发人员可能会感兴趣。它不仅包括新的和更新的公共方法，[添加类等](/cells/zh/net/public-api-changes-in-aspose-cells-8-5-1/)还描述了 Aspose.Cells 中幕后行为的任何变化。
+本文描述了从版本8.5.0到8.5.1的Aspose.Cells API的更改，可能对模块/应用程序开发人员感兴趣。它不仅包括新的和更新的公共方法，添加的类等，还包括Aspose.Cells幕后行为中的任何更改的描述。
 
 {{% /alert %}} 
-## **添加的 API**
-### **方法 Workbook.Dispose 添加**
-Workbook 对象现在实现了 System.IDisposable 接口，该接口只有一个 Dispose 方法。您可以直接调用 Workbook.Dispose 方法，也可以在 Using 结构中创建一个 Workbook 对象以自动调用此方法。
+## **已添加API**
+### **新增 Workbook.Dispose 方法**
+Workbook 对象现在实现了 System.IDisposable 接口，其中包含一个 Dispose 方法。您可以直接调用 Workbook.Dispose 方法，或者在 Using 结构中创建一个 Workbook 对象以自动调用该方法。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -38,23 +39,23 @@ using (Workbook book = new Workbook())
 {{< /highlight >}}
 
 
-### **添加方法 Cell.GetHeightOfValue**
- Aspose.Cells for .NET 8.5.1暴露了Cell.GetHeightOfValue方法获取单元格高度值。通过使用此方法，您可以计算单元格值的高度，然后分别设置该单元格的行高。查看详细文章[如何计算单元格的高度和宽度](/cells/zh/net/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/).
-### **添加了枚举 TableDataSourceType**
-Aspose.Cells for .NET 8.5.1 公开了枚举 Aspose.Cells.Tables.TableDataSourceType 以检索 ListObject 的数据源类型。 TableDataSourceType 枚举如下字段。
+### **新增 Cell.GetHeightOfValue 方法**
+Aspose.Cells for .NET 8.5.1已公开了Cell.GetHeightOfValue方法，用于获取单元格值的高度。通过使用此方法，您可以计算单元格值的高度，然后相应地设置该单元格所在行的高度。查看关于如何计算单元格高度和宽度的详细文章。
+### **新增 TableDataSourceType 枚举**
+Aspose.Cells for .NET 8.5.1 暴露了枚举 Aspose.Cells.Tables.TableDataSourceType，用于检索 ListObject 的数据源类型。TableDataSourceType 枚举具有以下字段。
 
 1. TableDataSourceType.QueryTable
 1. TableDataSourceType.SharePoint
-1. TableDataSourceType.工作表
-1. 表数据源类型.XML
-### **添加了属性 ListObject.DataSourceType**
-随着v8.5.1的发布，Aspose.Cells API 公开了readonly ListObject.DataSourceType属性，可以用来检测ListObject的数据源类型。
+1. TableDataSourceType.Worksheet
+1. TableDataSourceType.XML
+### **新增 ListObject.DataSourceType 属性**
+随着 v8.5.1 的发布，Aspose.Cells API 暴露了 ListObject.DataSourceType 只读属性，用于检测 ListObject 的数据源类型。
 
 这里是最简单的使用场景。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("D:/book1.xlsx");
 

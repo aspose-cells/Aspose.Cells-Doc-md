@@ -1,23 +1,24 @@
-﻿---
-title: 子报告
+---
+title: 子报表
 type: docs
 weight: 20
 url: /zh/reportingservices/sub-reports/
 ---
+
 {{% alert color="primary" %}} 
 
-我们合并了对在表组行中嵌入子报告的支持。格式为：
+我们增加了对将子报表嵌入到表组行中的支持。格式为：
 
-&=subreport{ReportName=你的报表名称;参数 1 名称 = 参数 1 值； parameter2 名称 = parameter2 值；……} 
+&=subreport{ReportName=您的报表名称; parameter1 name = parameter1 value; parameter2 name = parameter2 value;......} 
 
 {{% /alert %}} 
 ### **例子**
-**表格中的子报表** 
+**表中的子报表** 
 
-![待办事项：图片_替代_文本](sub-reports_1.png)
+![todo:image_alt_text](sub-reports_1.png)
 
-在示例中，子报表的名称为“销售订单明细”。它有一个参数，*销售订单号*.参数的值为*EmpSalesDetail.SalesOrderNumber。*
-#### **使用子报告的限制**
-- 应使用 Aspose.Cells.Reporting Services Designer 工具设计子报表。
-- 子报表只能嵌入到表组行中，组行不能包含子报表以外的其他元素。不允许在表格详细信息行或页脚行中嵌入子报告。
-- 目前不支持嵌套多于一层。子报表不能包含嵌入式报表。
+例如，子报表的名称是“销售订单详细信息”。它有一个参数，*SalesOrderNumber*。参数的值为*EmpSalesDetail.SalesOrderNumber*。
+#### **使用子报表的限制**
+- 子报表应使用Aspose.Cells.Reporting Services Designer工具设计。
+- 子报表只能嵌入在表组行中，组行不能包含子报表以外的其他元素。不允许将子报表嵌入表详细行或页脚行。
+- 当前不支持嵌套超过一层。子报表不能包含嵌入式报表。

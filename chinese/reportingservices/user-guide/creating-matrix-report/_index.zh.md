@@ -1,79 +1,80 @@
-﻿---
-title: 创建矩阵报告
+---
+title: 创建矩阵报表
 type: docs
 weight: 10
 url: /zh/reportingservices/creating-matrix-report/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Reporting Services 可让您在 Microsoft Excel 中设计矩阵。
+Aspose.Cells for Reporting Services 允许您在 Microsoft Excel 中设计矩阵报表。 
 
 {{% /alert %}} 
 ### **矩阵模板**
-在 Aspose.Cells 报告模板中，矩阵由角、行组、列组和数据部分组成。示例矩阵如下所示。
+在 Aspose.Cells 报表模板中，矩阵包括角、行分组、列分组和数据部分。下图显示了一个样本矩阵。
 
-**样本矩阵** 
+**一个样本矩阵** 
 
-![待办事项：图片_替代_文本](creating-matrix-report_1.png)
+![todo:image_alt_text](creating-matrix-report_1.png)
 
-- **矩阵角**：位于左上角，或右上角（对于从右到左 (RTL) 布局）。当您将行组和列组添加到矩阵数据区域时，会自动创建此区域。在此区域中，您可以合并嵌入文本框报表项的单元格。
-- **矩阵列组区域**：位于右上角（RTL布局为左上角）。添加列组时会自动创建此区域。此区域中的单元格表示列组层次结构的成员，并显示列组实例值。图中显示OrderYear的单元格是嵌套的列组，显示OrderQtr的单元格是相邻的列组。
-- **矩阵行组区域**：位于左下角（右下角为 RTL 布局）。添加行组时会自动创建此区域。此区域中的单元格表示行组层次结构的成员，并显示行组实例值。在图中，这些单元格是嵌套的行组。
-- **矩阵数据区**：位于右下角（RTL 布局为左下角）。矩阵数据显示详细信息和分组数据。在此示例中，仅使用聚合数据。默认情况下，包含不包含聚合函数的简单表达式的组行或列中的单元格计算为组中的第一个值。在图中，单元格显示所有销售订单的行总计的总计。
+- **矩阵角**: 位于左上角，或对于从右到左 (RTL) 布局的情况，位于右上角。当您向矩阵数据区域添加行分组和列分组时，会自动创建此区域。在此区域中，您可以合并嵌入的文本框报表项的单元格。
+- **矩阵列分组区域**: 位于右上角 (RTL 布局的左上角)。当您添加列分组时，会自动创建此区域。此区域中的单元格表示列分组层次的成员，并显示列分组实例值。在图中，显示 OrderYear 的单元格是一个嵌套的列分组，显示 OrderQtr 的单元格是相邻列分组。
+- **矩阵行分组区域**: 位于左下角 (RTL 布局的右下角)。当您添加行分组时，会自动创建此区域。此区域中的单元格表示行分组层次的成员，并显示行分组实例值。在图中，这些单元格是嵌套行分组。
+- **矩阵数据区域**: 位于右下角 (RTL 布局的左下角)。矩阵数据显示详细和分组数据。在这个示例中，只使用了聚合数据。默认情况下，组行或列中包含简单表达式的单元格会计算为组中的第一个值，不包括聚合函数。在图中，单元格显示了所有销售订单行总计的聚合总计。
 #### **创建矩阵模板**
-在创建矩阵报表之前，创建数据源、数据集和报表参数（可选）。 （按照说明[数据源和查询](/cells/zh/reportingservices/data-sources-and-queries/)如果您需要帮助。）在示例中，我们使用 SQL Server Reporting Services 2008 附带的 AdventureWorks 示例数据库。
+在创建矩阵报表之前，创建数据源、数据集和报表参数（可选）。（如果需要帮助，请参考 [数据源和查询](/cells/zh/reportingservices/data-sources-and-queries/) 中的说明。）在示例中，我们使用随 SQL Server Reporting Services 2008 附带的 AdventureWorks 示例数据库。
 
-要创建一个新矩阵：
+要创建新的矩阵:
 
-1. 打开 Microsoft Excel。
-1. 点击**打开报告**打开包含预先创建的数据源、数据集和报告参数的 RDL 报告文件。
-一旦文件被成功打开，它的所有信息都可以使用，例如，它的数据集列在**数据集**列表。
-1. 打开 Microsoft Excel 工作表并选择一个数据集。
+1. 打开Microsoft Excel。
+1. 单击 **打开报表** 打开一个包含提前创建的数据源、数据集和报表参数的 RDL 报表文件。
+   一旦文件成功打开，它的所有信息可供使用，例如，其数据集在 **数据集** 列表中列出。
+1. 打开 Microsoft Excel 工作表并选择一个数据集。 
 
-![待办事项：图片_替代_文本](creating-matrix-report_2.png)
-
-
+![todo:image_alt_text](creating-matrix-report_2.png)
 
 
-1. 通过设置行组和列组**集组**. 
 
-![待办事项：图片_替代_文本](creating-matrix-report_3.png)
+
+1. 通过 **设置分组** 设置行分组和列分组。 
+
+![todo:image_alt_text](creating-matrix-report_3.png)
 
 
 
 
 1. 合并单元格以设置矩阵角。
 
-![待办事项：图片_替代_文本](creating-matrix-report_4.png)
+![todo:image_alt_text](creating-matrix-report_4.png)
 
 
 
 
-1. 通过插入公式设置矩阵角点。
+1. 通过插入公式设置矩阵角。 
 
-![待办事项：图片_替代_文本](creating-matrix-report_5.png)
-
-
-
-
-![待办事项：图片_替代_文本](creating-matrix-report_6.png)
+![todo:image_alt_text](creating-matrix-report_5.png)
 
 
 
 
-1. 点击**设置属性**设置矩阵属性。
-
-![待办事项：图片_替代_文本](creating-matrix-report_7.png)
-
-
-
-它由名称、范围、组和顺序组成。
-
-1. 单击修改属性检查并修改当前工作表的所有矩阵属性。
-
-![待办事项：图片_替代_文本](creating-matrix-report_8.png)
+![todo:image_alt_text](creating-matrix-report_6.png)
 
 
 
 
-1. 保存、发布和审查报告。
+1. 单击 **设置属性** 设置矩阵属性。 
+
+![todo:image_alt_text](creating-matrix-report_7.png)
+
+
+
+它包括名称、范围、组和顺序。
+
+1. 单击修改属性，检查和修改当前工作表的所有矩阵属性。
+
+![todo:image_alt_text](creating-matrix-report_8.png)
+
+
+
+
+1. 保存、发布和审阅报表。

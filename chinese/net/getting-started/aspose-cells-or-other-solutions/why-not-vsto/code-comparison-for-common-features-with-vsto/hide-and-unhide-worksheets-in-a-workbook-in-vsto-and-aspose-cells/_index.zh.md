@@ -1,26 +1,27 @@
-﻿---
-title: 在 VSTO 和 Aspose.Cells 的工作簿中隐藏和取消隐藏工作表
+---
+title: 在VSTO和Aspose.Cells中隐藏和显示工作表
 type: docs
 weight: 140
 url: /zh/net/hide-and-unhide-worksheets-in-a-workbook-in-vsto-and-aspose-cells/
 ---
-本文比较了使用 VSTO（使用 C# 或 Visual Basic）隐藏和取消隐藏工作表与使用 Aspose.Cells（再次使用 C# 或 Visual Basic）执行相同的任务。 Aspose.Cells 让您无需安装 Microsoft Excel 即可工作。
 
-隐藏工作表的步骤是：
+本文将隐藏和显示工作表在VSTO中使用C#或Visual Basic，以及在Aspose.Cells中使用C#或Visual Basic的任务进行了比较。 Aspose.Cells允许您无需安装Microsoft Excel即可工作。
 
-1. 打开一个文件。
+隐藏工作表的步骤：
+
+1. 打开文件。
 1. 获取工作表。
 1. 隐藏工作表。
 1. 保存文件。
-要再次取消隐藏工作表，只需打开隐藏工作表的可见性即可。
+   要再次取消隐藏工作表，请简单地为隐藏的工作表切换可见性。
 
-下面的代码示例首先展示了如何隐藏工作表。第一个示例显示了 VSTO 的过程，使用 C#，与使用 Aspose.Cells 相比，再次使用 C#。
+以下代码示例首先显示了如何隐藏工作表。首先的示例展示了使用VSTO进行此过程，使用C#，与再次使用Aspose.Cells进行此过程相比，使用C#。
 
-第二组代码示例显示用于在 VSTO 或 Aspose.Cells 中取消隐藏工作表的行。
+第二组代码示例显示了在VSTO或Aspose.Cells中用于取消隐藏工作表的行。
 ## **隐藏工作表**
-下面是 VSTO 和 Aspose.Cells 的代码示例，说明如何在工作簿中隐藏工作表。
+以下是用于VSTO和Aspose.Cells的代码示例，演示如何在工作簿中隐藏工作表。
 ### **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -65,7 +66,7 @@ excelApp.Quit();
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -93,9 +94,9 @@ workbook.Save("Book1.xls");
 
 {{< /highlight >}}
 ## **取消隐藏工作表**
-下面是 VSTO 和 Aspose.Cells 的代码示例，说明如何取消隐藏工作簿中的工作表。
+以下是用于VSTO和Aspose.Cells的代码示例，演示如何在工作簿中取消隐藏工作表。
 ### **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unhide the worksheet.
 
@@ -103,7 +104,7 @@ workbook.Save("Book1.xls");
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unhide the worksheet.
 
@@ -112,5 +113,5 @@ objSheet.IsVisible = true;
 {{< /highlight >}}
 ## **下载示例代码**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Hide.and.Unhide.Worksheets.in.a.Workbook.Aspose.Cells.zip)
-- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Hide%20and%20Unhide%20Worksheets%20in%20a%20Workbook%20\(Aspose.Cells\).zip/下载）
-- [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Hide%20and%20Unhide%20Worksheets%20in%20a%20Workbook%20\(Aspose.Cells\)。压缩）
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Hide%20and%20Unhide%20Worksheets%20in%20a%20Workbook%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Hide%20and%20Unhide%20Worksheets%20in%20a%20Workbook%20\(Aspose.Cells\).zip)

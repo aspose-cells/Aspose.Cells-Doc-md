@@ -1,16 +1,17 @@
-﻿---
-title: 在 Ruby 中保存文件
+---
+title: 在Ruby中保存文件
 type: docs
 weight: 20
 url: /zh/java/saving-files-in-ruby/
 ---
+
 ## **Aspose.Cells - 保存文件**
 ### **将文件保存到某个位置**
-如果开发人员需要使用**Aspose.Cells Java 红宝石**到某个存储位置，然后他们可以简单地指定文件名（及其完整的存储路径）和所需的文件格式（使用**文件格式类型**枚举），同时调用**救球**的方法**工作簿**目的。
+如果开发人员需要使用**Aspose.Cells Java for Ruby**将文件保存到某个位置，则可以在调用**Workbook**对象的**save**方法时在**FileFormatType**枚举中指定文件名（带其完整存储路径）和所需文件格式。
 
-**红宝石代码**
+**Ruby代码**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -20,7 +21,7 @@ file_format_type = Rjb::import('com.aspose.cells.FileFormatType')
 
 workbook.save(data_dir + "Book1.xls")
 
-# Save in Excel2003 format
+#Save in Excel2003 format
 
 workbook.save(data_dir + "Book1.xls", file_format_type.EXCEL_97_TO_2003)
 

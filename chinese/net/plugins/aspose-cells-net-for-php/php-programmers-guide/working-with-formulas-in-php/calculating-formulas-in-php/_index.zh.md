@@ -1,15 +1,16 @@
-﻿---
-title: 在 PHP 中计算公式
+---
+title: 在PHP中计算公式
 type: docs
 weight: 10
 url: /zh/net/calculating-formulas-in-php/
 ---
+
 ## **计算公式**
 计算公式
 
 **PHP代码**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -65,6 +66,6 @@ url: /zh/net/calculating-formulas-in-php/
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**计算公式 (Aspose.Cells)**来自以下任何社交编码网站：
+从以下任意社交编码网站下载**计算公式（Aspose.Cells）**:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingwithFormulas/CalculatingFormulas.php)

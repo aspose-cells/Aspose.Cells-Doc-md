@@ -1,26 +1,29 @@
-﻿---
+---
 title: 更改行或列的字体和颜色
 type: docs
 weight: 110
-url: /zh/net/changing-the-font-and-color-of-a-row-or-column/
+url: /zh/net/aspose-cells-griddesktop/change-the-font-and-color-of-a-row-or-column/
+keywords: GridDesktop，字体，颜色
+description: 本文介绍如何在GridDesktop中更改行或列中的字体和颜色。
 ---
+
 {{% alert color="primary" %}} 
 
-在本主题中，我们将讨论如何更改工作表的行和列的字体和字体颜色。这是 Aspose.Cells.GridDesktop 提供的基本级别的格式化功能，它使开发人员能够自定义工作表的视图，使其更易于呈现。
+在本主题中，我们将讨论如何更改工作表的行和列的字体和字体颜色。这是Aspose.Cells.GridDesktop提供的一项基本格式功能，使开发人员可以自定义工作表的视图，使其更具展示性。
 
 {{% /alert %}} 
 ## **更改列的字体和颜色**
-要使用 Aspose.Cells.GridDesktop 更改列的字体和颜色，请按照以下步骤操作：
+要使用Aspose.Cells.GridDesktop更改列的字体和颜色，请按照以下步骤操作：
 
-- 访问任何想要的**工作表**
-- 访问一个**柱子**要更改其字体和颜色
+- 访问任何所需的**工作表**
+- 访问要更改字体和颜色的**列**
 - 创建自定义**字体**
-- 设置**字体**的**柱子**到定制的
-- 最后，设置**字体颜色**的**柱子**任何想要的**颜色**
+- 将**列**的**字体**设置为自定义的字体
+- 最后，将**列**的**字体颜色**设置为任何所需的**颜色**
 
 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Accessing the worksheet of the Grid that is currently active
 
@@ -43,16 +46,16 @@ column.SetFont(font);
 column.SetFontColor(Color.Blue);
 
 {{< /highlight >}}
-## **更改一行的字体和颜色**
-- 访问任何想要的**工作表**
-- 访问一个**排**要更改其字体和颜色
+## **更改行的字体和颜色**
+- 访问任何所需的**工作表**
+- 访问要更改字体和颜色的**行**
 - 创建自定义**字体**
-- 设置**字体**的**排**到定制的
-- 最后，设置**字体颜色**的**排**任何想要的**颜色**
+- 将**行**的**字体**设置为自定义的字体
+- 最后，将**行**的**字体颜色**设置为任何所需的**颜色**
 
 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Accessing the worksheet of the Grid that is currently active
 

@@ -1,35 +1,36 @@
-﻿---
-title: 如何在 Excel 中更改评论中的背景
+---
+title: 如何在Excel的评论中更改背景
 linktitle: 评论背景
 type: docs
 weight: 190
 url: /zh/java/how-to-set-comment-background/
-description: 如何在 Excel 的注释中更改颜色。如何在 Excel 的注释中插入图片或图像。
-keywords: add inset picture iamge color comment background excel
+description: 如何在Excel的评论中更改颜色。如何在Excel的评论中插入图片或图像。
+keywords: 在评论中添加插图图片颜色背景Excel
 ---
+
 {{% alert color="primary" %}}
 
-将注释添加到单元格以记录注释，从公式如何工作的细节、值的来源或审阅者的问题等任何内容。当多人在不同时间讨论或审阅同一文档时，注释起着极其重要的作用。如何区分不同人的评论？是的，我们可以为每条评论设置不同的背景颜色。但是当我们需要处理大量的文档和大量的评论时，手动完成是一场灾难。幸运的是[**Aspose.Cells**](https://products.aspose.com/cells/java/)提供一个 API 允许您在代码中执行此操作。
+单元格中添加注释以记录注释，可以记录从公式运算方式的细节，值的来源，到审阅者提出的问题。当多人在不同时间讨论或审阅同一文档时，注释起着极其重要的作用。如何区分不同人的注释？是的，我们可以为每条注释设置不同的背景颜色。但当我们需要处理大量文档和大量注释时，手动处理是灾难性的。幸运的是[**Aspose.Cells**](https://products.aspose.com/cells/java/)提供了一个API，允许您在代码中执行此操作。
 
 {{% /alert %}}
 
-## **如何在 Excel 中更改注释中的颜色**
+## **如何在Excel注释中更改颜色**
 
-当您不需要注释的默认背景颜色时，您可能希望将其替换为您感兴趣的颜色。如何更改 Excel 中“注释”框的背景颜色？
+当您不需要注释的默认背景色时，可能希望用您感兴趣的颜色替换它。如何在Excel中更改注释框的背景颜色？
 
-以下代码将指导您如何使用[**Aspose.Cells**](https://products.aspose.com/cells/java/)将您最喜欢的背景颜色添加到您自己选择的评论中。
+以下代码将指导您如何使用[**Aspose.Cells**](https://products.aspose.com/cells/java/)将您喜欢的背景颜色添加到您喜欢的注释中。
 
-在这里我们准备了一个[样本文件](exmaple.xlsx)为你。此文件用于在下面的代码中初始化 Workbook 对象。
+在此我们为您准备了一个[示例文件](exmaple.xlsx)。此文件用于在下面的代码中初始化Workbook对象。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HowToChangeCommentBackgroundColor.java" >}}
 
-执行上面的代码，你会得到一个[输出文件](result.xlsx).
+执行上述代码，您将获得一个[输出文件](result.xlsx)。
 
-## **如何在Excel中的评论中插入图片或图像**
+## **如何在Excel注释中插入图片或图像**
 
-Microsoft Excel 允许用户在很大程度上自定义电子表格的外观。甚至可以在评论中添加背景图片。添加背景图片可以是一种审美选择，也可以用于强化品牌。
+Microsoft Excel允许用户极大地自定义电子表格的外观。甚至可以向注释添加背景图片。添加背景图片可以是一种美学选择，也可以用于加强品牌。
 
-下面的示例代码使用从头开始创建一个 XLSX 文件[**Aspose.Cells**](https://products.aspose.com/cells/java/)API ，并在单元格 A1 中添加带有图片背景的评论。
+下面的示例代码使用[**Aspose.Cells**](https://products.aspose.com/cells/java/) API从头开始创建一个XLSX文件，并向单元A1添加带有图片背景的注释。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HowToInsertPictureOrImageInComment.java" >}}
 

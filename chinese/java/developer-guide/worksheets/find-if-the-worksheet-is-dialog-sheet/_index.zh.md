@@ -1,20 +1,21 @@
-﻿---
-title: 查找工作表是否为对话框表
+---
+title: 查找工作表是否为对话框工作表
 type: docs
 weight: 100
 url: /zh/java/find-if-the-worksheet-is-dialog-sheet/
 ---
+
 ## **可能的使用场景**
 
-对话框工作表是一种包含对话框的工作表的旧格式。这样的工作表可以由旧版本的 Microsoft Excel（例如 2003）插入，如屏幕截图所示。它也可以在较新版本中使用 VBA 插入，例如 Microsoft Excel 2016。
+对话框工作表是一个包含对话框的旧格式工作表。如屏幕截图所示，这种表格可以由较旧版本的Microsoft Excel（例如2003）插入。也可以在较新版本中通过VBA插入，例如Microsoft Excel 2016。
 
-![待办事项：图片_替代_文本](find-if-the-worksheet-is-dialog-sheet_1.png)
+![todo:image_alt_text](find-if-the-worksheet-is-dialog-sheet_1.png)
 
-您可以找到工作表是对话框工作表还是其他类型的工作表[**工作表.类型**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Type)Aspose.Cells提供的属性，如果返回枚举值[**工作表类型.DIALOG**](https://reference.aspose.com/cells/java/com.aspose.cells/sheettype#DIALOG)，那么这意味着，你正在处理一个对话框表。
+您可以使用Aspose.Cells提供的[**Worksheet.Type**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Type)属性来查看工作表是否是对话框工作表或其他类型的工作表。如果它返回枚举值[**SheetType.DIALOG**](https://reference.aspose.com/cells/java/com.aspose.cells/sheettype#DIALOG)，那么表示您正在处理对话框工作表。
 
-## **查找工作表是否为对话框表**
+## **查找工作表是否为对话框工作表**
 
-下面的示例代码加载[示例 Excel 文件](64716841.xlsx)包含一个对话框表。它检查[**工作表.类型**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Type)财产将其与[**工作表类型.DIALOG**](https://reference.aspose.com/cells/java/com.aspose.cells/sheettype#DIALOG)然后打印消息。请查看下面给出的示例代码的控制台输出以获得更多帮助。
+以下示例代码加载包含对话框工作表的[示例Excel文件](64716841.xlsx)。它检查[**Worksheet.Type**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Type)属性，将其与[**SheetType.DIALOG**](https://reference.aspose.com/cells/java/com.aspose.cells/sheettype#DIALOG)进行比较，然后打印消息。有关更多帮助，请参阅下面给出的示例代码的控制台输出。
 
 ## **示例代码**
 
@@ -22,7 +23,7 @@ url: /zh/java/find-if-the-worksheet-is-dialog-sheet/
 
 ## **控制台输出**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Worksheet is a Dialog Sheet.
 

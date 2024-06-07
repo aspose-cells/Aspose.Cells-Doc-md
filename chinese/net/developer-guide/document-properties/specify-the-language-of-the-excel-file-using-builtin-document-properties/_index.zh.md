@@ -1,18 +1,19 @@
-﻿---
-title: 使用内置文档属性指定 Excel 文件的语言
+---
+title: 使用内置文档属性指定Excel文件的语言
 type: docs
 weight: 30
 url: /zh/net/specify-the-language-of-the-excel-file-using-builtin-document-properties/
 ---
+
 ## **可能的使用场景**
 
-您可以更改 Excel 文件的语言，方法是右键单击文件，然后选择属性 > 详细信息，然后编辑语言字段。请用[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/language)属性以使用 Aspose.Cells API 以编程方式更改它。
+您可以通过右键单击文件并选择“属性 > 详细信息”，然后编辑“语言”字段来更改Excel文件的语言。请使用Aspose.Cells API以编程方式使用[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/language)属性进行修改。
 
-## **使用内置文档属性指定 Excel 文件的语言**
+## **使用内置文档属性指定Excel文件的语言**
 
-以下示例代码创建一个工作簿并更改其名为 Language 的内置文档属性。请参阅[输出Excel文件](64716891.xlsx)由显示修改后的语言字段的代码和屏幕截图生成[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/language)财产。
+以下示例代码创建一个工作簿并更改其内置文档属性，名称为语言。请参阅代码生成的[输出Excel文件](64716891.xlsx)和屏幕截图，显示由[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/language)属性修改的语言字段。
 
-![待办事项：图片_替代_文本](specify-the-language-of-the-excel-file-using-builtin-document-properties_1.png)
+![todo:image_alt_text](specify-the-language-of-the-excel-file-using-builtin-document-properties_1.png)
 
 ## **示例代码**
 

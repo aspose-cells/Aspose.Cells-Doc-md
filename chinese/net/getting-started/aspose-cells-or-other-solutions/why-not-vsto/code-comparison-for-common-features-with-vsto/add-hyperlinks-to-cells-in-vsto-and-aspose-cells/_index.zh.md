@@ -1,30 +1,31 @@
-﻿---
-title: 在 VSTO 和 Aspose.Cells 中添加指向 Cells 的超链接
+---
+title: 在VSTO和Aspose.Cells中为单元格添加超链接
 type: docs
 weight: 20
 url: /zh/net/add-hyperlinks-to-cells-in-vsto-and-aspose-cells/
 ---
-要向电子表格中的单元格添加超链接，请执行以下步骤：
 
-1. 设置工作表：
-1. 实例化一个 Application 对象。（仅限 VSTO。）
- 1. 添加工作簿。
- 1. 拿到第一张纸。
- 1. 将文本添加到要添加超链接的单元格中。
+要在电子表格中为单元格添加超链接，请执行以下步骤：
+
+1. 设置工作表： 
+   1. 实例化一个 Application 对象.(仅适用于 VSTO.)
+   1. 添加一个工作簿.
+   1. 获取第一个工作表.
+   1. 在要添加超链接的单元格中添加文本。
 1. 添加超链接。
 1. 保存文档。
 
-这些步骤显示在下面的代码示例中。第一个示例演示如何将 VSTO 与 C# 一起使用以将超链接添加到单元格。以下示例显示如何使用 Aspose.Cells for .NET 再次使用 C# 执行相同的操作。
+这些步骤显示在下面的代码示例中。第一个示例展示了如何使用VSTO和C#中的单元格添加超链接。接下来的示例展示了如何使用Aspose.Cells for .NET来做同样的事情，同样使用C#。
 
-代码示例生成一个 Excel 文件，该文件在第一个工作表的单元格 A1 中有一个超链接。
+代码示例生成一个Excel文件，在第一个工作表的单元格A1中有一个超链接。
 
-![待办事项：图片_替代_文本](picture1.png)
+![todo:image_alt_text](picture1.png)
 
-一个超链接被添加到单元格 A1。
+向单元格A1添加了一个超链接。
 
 ## **VSTO**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -60,7 +61,7 @@ ExcelApp.Quit();
 
 ## **Aspose.Cells**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook object.
 
@@ -91,5 +92,5 @@ workbook.Save("Hyperlink_test.xls");
 ## **下载示例代码**
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Add.Hyperlinks.to.Cells.Aspose.Cells.zip)
-- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).zip/下载）
-- [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\)。压缩）
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).zip)

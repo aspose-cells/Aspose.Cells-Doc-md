@@ -1,21 +1,23 @@
 ---
-title: 定制本地化
+title: 自定义本地化
 type: docs
 weight: 40
-url: /zh/net/griddesktop-localization/
-keywords: custom,localization,translation,globalization
+url: /zh/net/aspose-cells-griddesktop/griddesktop-localization/
+keywords: GridDesktop,自定义,本地化,翻译,全球化
+description: 本文介绍了如何在 GridDesktop 中自定义本地化。
 ---
+
 {{% alert color="primary" %}} 
 
-如果我们需要对GridDesktop中的所有菜单/消息提示等进行本地化，我们可以定义资源文件，并使用GridDesktop.SetCustomResourceManager来加载该资源。
+如果我们需要为 GridDesktop 中的所有菜单/提示信息等进行本地化，我们可以定义资源文件，并使用 GridDesktop.SetCustomResourceManager 来加载这个资源。
 
 {{% /alert %}} 
-##  **例子**
+## **示例**
 
 首先添加一个新的资源文件：customtest.resx
 
 
-![自定义资源](managing-griddesktops-custom-res.png)
+![custom-resource](managing-griddesktops-custom-res.png)
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-customtest.Designer.cs" >}}
 
@@ -29,5 +31,5 @@ keywords: custom,localization,translation,globalization
 
 执行上述代码后，菜单项显示：
 
-![显示菜单](managing-griddesktops-show-custom.png)
- 
+![show menu](managing-griddesktops-show-custom.png)
+

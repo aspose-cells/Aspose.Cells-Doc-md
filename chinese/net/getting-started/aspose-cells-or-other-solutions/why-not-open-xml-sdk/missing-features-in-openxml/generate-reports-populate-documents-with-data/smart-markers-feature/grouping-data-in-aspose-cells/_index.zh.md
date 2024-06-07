@@ -1,34 +1,35 @@
-﻿---
-title: 分组数据在 Aspose.Cells
+---
+title: 在 Aspose.Cells 中对数据进行分组
 type: docs
 weight: 10
 url: /zh/net/grouping-data-in-aspose-cells/
 ---
-在某些 Excel 报告中，您可能需要将数据分组以使其更易于阅读和分析。将数据分组的主要目的之一是对每组记录运行计算（执行汇总操作）。
 
-Aspose.Cells 智能标记允许您按字段对数据进行分组，并在数据集或数据组之间放置摘要行。例如，如果按 Customers.CustomerID 对数据进行分组，您可以在每次组更改时添加一条摘要记录。
+在某些Excel报告中，您可能需要将数据分组以便更轻松地阅读和分析。将数据分组的主要目的之一是对每组记录运行计算（执行汇总操作）。
 
-下面的示例代码片段显示了如何使用智能标记对 Excel 报告中的数据进行分组。
+Aspose.Cells 智能标记允许您按字段分组数据，并在数据集或数据组之间放置摘要行。例如，如果按 Customers.CustomerID 分组数据，则可以在每次组更改时添加摘要记录。
+
+接下来的示例代码片段显示如何使用智能标记在 Excel 报表中分组数据。
 ## **参数**
-以下是一些用于分组数据的智能标记参数。
-**组：正常/合并/重复**
+以下是用于对数据进行分组的智能标记参数之一。
+**group:normal/merge/repeat**
 
-我们支持三种类型的组，您可以在其中进行选择。
+我们支持三种可供选择的分组类型。
 
-- normal - group by field(s) 值不会对列中的相应记录重复；相反，它们每个数据组打印一次。
-- merge - 与 normal 参数相同的行为，除了它按每个组集的字段合并组中的单元格。
-- repeat - 对相应记录重复按字段分组的值。
+- normal - 对于相应记录中的列，按字段的值不会重复打印；而是每个数据组只打印一次。
+- merge - 与 normal 参数的行为相同，但是它会将每个组设置的按字段值合并成一个单元格。
+- repeat - 对应记录中的按字段值将会重复。
 
-如果您有多个参数，请用逗号分隔它们，但不要使用空格：parameterA,parameterB,parameterC
+如果有多个参数，请用逗号分隔它们，但不留空格：parameterA,parameterB,parameterC
 ### **例子**
-此示例显示了一些实际的分组参数。它使用 Northwind.mdb Microsoft Access 数据库并从名为“Order Details”的表中提取数据。我们在 Microsoft Excel 中创建一个名为 SmartMarker_Designer.xls 的设计器文件，并将智能标记放入工作表中的各个单元格中。处理标记以填充工作表。数据按组字段放置和组织。
+这个示例展示了一些分组参数的实际应用。它使用了 Northwind.mdb 微软访问数据库，并从名为“Order Details”的表中提取数据。我们在 Microsoft Excel 中创建了一个名为 SmartMarker_Designer.xls 的设计文件，并将智能标记放置在工作表的各个单元格中。这些标记将被处理以填充工作表。数据将通过分组字段放置和组织。
 
-设计器文件有两个工作表。首先，我们放置带有分组参数的智能标记，如下面的屏幕截图所示。放置了三个智能标记（带有分组参数）：
+设计文件有两个工作表。在第一个工作表中，我们按照以下截图所示放置了带有分组参数的智能标记。放置了三个带有分组参数的智能标记：
 &=Order Details.OrderID(group:merge,skip:1),
-&=Order Details.Quantity(subtotal9:Order Details.OrderID), and
-&=Order Details.UnitPrice(subtotal9:Order Details.OrderID)分别进入A5、B5、C5。
+&=Order Details.Quantity(subtotal9:Order Details.OrderID)，以及
+&=Order Details.UnitPrice(subtotal9:Order Details.OrderID) 分别放入 A5、B5 和 C5。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a connection object, specify the provider info and set the data source.
 
@@ -84,4 +85,4 @@ wd.Workbook.Save("outSmartMarker_Designer.xls");
 
 {{< /highlight >}}
 ## **下载示例代码**
-- [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Grouping%20Data%20OLE%20DB%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Grouping%20Data%20OLE%20DB%20%28Aspose.Cells%29.zip)

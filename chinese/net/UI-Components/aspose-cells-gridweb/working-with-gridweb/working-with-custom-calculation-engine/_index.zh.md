@@ -1,22 +1,25 @@
-﻿---
-title: 使用自定义计算引擎
+---
+title: 使用自定义计算引擎工作
 type: docs
 weight: 70
-url: /zh/net/working-with-custom-calculation-engine/
+url: /zh/net/aspose-cells-gridweb/custom-calculation-engine/
+keywords: GridWeb、自定义、计算、CalculationEngine、GridAbstractCalculationEngine
+description: 本文介绍了如何使用 GridAbstractCalculationEngine 来自定义 GridWeb 中的计算过程。
 ---
-## **实施自定义计算引擎**
 
-Aspose.Cells.Gridweb有一个强大的计算引擎，可以计算几乎所有的Microsoft Excel公式。尽管如此，它还允许您扩展默认计算引擎，从而为您提供更强大的功能和灵活性。
+## **实现自定义计算引擎**
 
-以下属性和类用于实现此功能。
+Aspose.Cells.GridWeb 具有强大的计算引擎，可以计算几乎所有 Microsoft Excel 的公式。此外，它还允许您扩展默认计算引擎，为您提供更大的功率和灵活性。
 
- 
-- **[网格抽象计算引擎](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridabstractcalculationengine)**
-- **[网格计算数据](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridcalculationdata)**
+实现此功能时，使用以下属性和类。
 
-以下代码实现自定义计算引擎。它实现了接口**[网格抽象计算引擎](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridabstractcalculationengine)**它有一个**[计算（GridCalculationData 数据）](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridabstractcalculationengine/methods/calculate)**方法。针对您的所有公式调用此方法。在这个方法中，我们捕获**我的测试功能**公式并将其第一个参数值乘以 2。
 
-### **编程范例**
+- **[GridAbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridabstractcalculationengine)**
+- **[GridCalculationData](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridcalculationdata)**
+
+下面的代码实现了自定义计算引擎。它实现了接口 **[GridAbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridabstractcalculationengine)**，该接口有一个 **[Calculate(GridCalculationData data)](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridabstractcalculationengine/methods/calculate)** 方法。该方法针对所有公式调用。在该方法中，我们捕获 **MYTESTFUNC** 公式，将其第一个参数值乘以 2。
+
+### **编程示例**
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-CustomCalculation.cs" >}}
 

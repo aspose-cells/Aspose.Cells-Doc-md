@@ -1,19 +1,20 @@
 ---
-title: 指定数据排序时的排序警告
+title: 在排序数据时指定排序警告
 type: docs
 weight: 140
 url: /zh/net/specifying-sort-warning-while-sorting-data/
-description: 了解如何使用 Aspose.Cells for .NET API 对数据进行排序时指定排序警告。
-keywords: Add sort warning when sorting data, set sort warning while sorting data, select sort warning when sorting data.
+description: 学习如何使用Aspose.Cells for .NET API在排序数据时指定排序警告。
+keywords: 在排序数据时添加排序警告，排序数据时设置排序警告，排序数据时选择排序警告。
 ---
-##  **可能的使用场景**
 
-请考虑此文本数据，即 {11, 111, 22}。此文本数据已排序，因为就文本而言，111 位于 22 之前。但是，如果您想将此数据排序为数字而不是文本，那么它将变为 {11, 22, 111}，因为数字上 111 位于 22 之后Aspose.Cells提供[**数据排序器.SortAsNumber**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/properties/sortasnumber)财产来处理这个问题。请设置该属性**真的**您的文本数据将被排序为数字数据。以下屏幕截图显示了 Microsoft Excel 在对看起来像数字数据的文本数据进行排序时显示的排序警告。
+## **可能的使用场景**
 
-![待办事项：图像_替代_文本](specifying-sort-warning-while-sorting-data_1.png)
+请考虑这些文本数据，即{11, 111, 22}。这些文本数据被排序，因为在文本方面，111在22之前。但是，如果你想将这些数据排序为数字而不是文本，那么它将变成{11, 22, 111}，因为在数字上，111在22之后。 Aspose.Cells提供{0}属性来解决这个问题。请将此属性设置为**true**，您的文本数据将被排序为数字数据。以下截图显示了当像数值数据一样排序看起来像数字数据的文本数据时，Microsoft Excel显示的排序警告。
 
-##  **示例代码**
+![todo:image_alt_text](specifying-sort-warning-while-sorting-data_1.png)
 
-下面的示例代码说明了使用[**数据排序器.SortAsNumber**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/properties/sortasnumber)财产如前所述。请检查其[Excel 文件示例](43352075.xlsx)和[输出Excel文件](43352076.xlsx)寻求更多帮助。
+## **示例代码**
+
+下面的示例代码演示了如前面所述使用[**DataSorter.SortAsNumber**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/properties/sortasnumber)属性。请检查其[示例Excel文件](43352075.xlsx)和[输出Excel文件](43352076.xlsx)以获得更多帮助。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SpecifyingSortWarningWhileSortingData.cs" >}}

@@ -1,18 +1,20 @@
-﻿---
-title: GridJs 的设置
+---
+title: GridJs的设置
 type: docs
 weight: 250
 url: /zh/net/aspose-cells-gridjs/settings/
-description: 本文介绍了 GridJs 的设置。
-keywords: settings
+description: 这篇文章描述了GridJs的设置。
+keywords: GridJs，设置，GridWorkbookSettings
 ---
-我们可以通过 set GridWorkbookSettings 指定一些设置：
 
- 
+
+我们可以通过设置GridWorkbookSettings来指定一些设置：
+
+
 - **[GridWorkbookSettings](https://reference.aspose.com/cells/net/aspose.cells.gridjs/GridWorkbookSettings)**
 
 
-例如，以下代码将 ReCalculateOnOpen 设置为 false 以在打开文件时停止计算：
+例如，以下代码将ReCalculateOnOpen设置为false，以停止在打开文件时进行计算：
 ```C#
    GridJsWorkbook gw = new GridJsWorkbook();
    GridWorkbookSettings gws = new GridWorkbookSettings();
@@ -21,7 +23,7 @@ keywords: settings
     gw.Settings = gws;
     gw.ImportExcelFile(@"c:\test.xlsx");
 ```
-以下代码设置文件的作者：
+ 以下代码为文件设置了作者：
 ```C#
    GridJsWorkbook gw = new GridJsWorkbook();
    GridWorkbookSettings gws = new GridWorkbookSettings();
@@ -30,5 +32,5 @@ keywords: settings
     gw.Settings = gws;
     gw.ImportExcelFile(@"c:\test.xlsx");
 ```
-您可以在此类中检查更多设置。
- 
+您可以在此类中查看更多设置。
+

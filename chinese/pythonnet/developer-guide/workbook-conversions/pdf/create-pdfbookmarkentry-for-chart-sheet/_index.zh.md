@@ -1,28 +1,29 @@
 ---
-title: 为图表表创建 PdfBookmarkEntry
+title: 为图表工作表创建PdfBookmarkEntry
 type: docs
 weight: 50
 url: /zh/python-net/create-pdfbookmarkentry-for-chart-sheet/
-description: 了解如何使用 Aspose.Cells for Python via .NET API 为图表创建 PdfBookmarkEntry。
-keywords: Python Create PdfBookmarkEntry for Chart Sheet, Add PdfBookmarkEntry for Chart Sheet using Python, Python Insert PdfBookmarkEntry for Chart Sheet, PdfBookmarkEntry for Chart Sheet in Python
+description: 学习如何使用 Aspose.Cells for Python via .NET API 为图表工作表创建 PdfBookmarkEntry。
+keywords: 在 Python 中为图表工作表创建 PdfBookmarkEntry，使用 Python 为图表工作表添加 PdfBookmarkEntry，在 Python 中插入图表工作表的 PdfBookmarkEntry，在 Python 中为图表工作表创建 PdfBookmarkEntry。
 ---
-##  **可能的使用场景**
 
-早些时候， Aspose.Cells for Python via .NET 将创建[**Pdf书签条目**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfbookmarkentry/)对于普通床单。但现在 Aspose.Cells for Python via .NET 也可以创建[**Pdf书签条目**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfbookmarkentry/)对于图表表。由于图表工作表除了单元格 A1 之外没有任何其他单元格，因此它将创建[**Pdf书签条目**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfbookmarkentry/)仅适用于单元格 A1。
+## **可能的使用场景**
 
-##  **为图表表创建 PdfBookmarkEntry**
+以前，Aspose.Cells for Python via .NET 为普通工作表创建 [**PdfBookmarkEntry**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfbookmarkentry/)。但现在 Aspose.Cells for Python via .NET 也可以为图表工作表创建 [**PdfBookmarkEntry**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfbookmarkentry/)。由于图表工作表除了 A1 单元格之外没有其他单元格，因此只会为 A1 单元格创建 [**PdfBookmarkEntry**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfbookmarkentry/)。
 
-以下示例代码加载[Excel 文件示例](61767756.xlsx)有四张纸。其中两张是普通表格，另外两张是图表表格。它创建四个书签条目，如下所示
+## **为图表工作表创建PdfBookmarkEntry**
+
+以下示例代码加载了一个包含四个工作表的[示例Excel文件](61767756.xlsx)。其中两个是普通工作表，另外两个是图表工作表。它创建以下四个书签条目
 
 - 书签-I
 - 书签-II-图表1
 - 书签-III
-- 书签-IV-Chart2
+- 书签-IV-图表2
 
-下面的屏幕截图显示了[输出PDF](61767757.pdf)生成的示例代码供参考。
+以下截图显示由示例代码生成的[输出PDF](61767757.pdf)供参考。
 
-![待办事项：图像_替代_文本](create-pdfbookmarkentry-for-chart-sheet_1.png)
+![todo:image_alt_text](create-pdfbookmarkentry-for-chart-sheet_1.png)
 
-##  **示例代码**
+## **示例代码**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-CreatePdfBookmarkEntryForChartSheet.py" >}}

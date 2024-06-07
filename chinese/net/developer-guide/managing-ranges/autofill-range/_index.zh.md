@@ -1,19 +1,20 @@
-﻿---
-title: Excel 文件的自动填充范围
-linktitle: 自动填充范围
+---
+title: 在Excel文件中的自动填充范围
+linktitle: 填充范围
 type: docs
 weight: 105
 url: /zh/net/autofill-ranges/
 ---
-## **在 Excel 中的指定范围内执行自动填充**
 
-在 Excel 中，选择一个范围，将鼠标移至右下角，拖动“+”以自动填充数据。
+## **在Excel中指定的范围执行自动填充**
 
-## **使用 Aspose.Cells 自动填充范围**
+在Excel中，选择一个范围，将鼠标移到右下角，拖动“+”以填充数据。
 
-下面的例子展示了如何对Range进行自动填充操作，这里是可以下载用于测试该功能的示例文件：
+## **使用Aspose.Cells自动填充范围**
 
-[范围_自动填充.xlsx](range_autofill.xlsx)
+以下示例展示如何对范围执行自动填充操作，这里是可以下载用于测试此功能的示例文件:
+
+[range_autofill.xlsx](range_autofill.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Range-AutoFill.cs" >}}
 

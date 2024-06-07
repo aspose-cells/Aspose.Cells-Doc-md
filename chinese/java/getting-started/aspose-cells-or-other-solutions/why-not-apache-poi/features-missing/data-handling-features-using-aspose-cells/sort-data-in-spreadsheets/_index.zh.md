@@ -1,23 +1,24 @@
-﻿---
-title: 对电子表格中的数据进行排序
+---
+title: 在电子表格中排序数据
 type: docs
 weight: 70
 url: /zh/java/sort-data-in-spreadsheets/
 ---
-## **Aspose.Cells - 对电子表格中的数据进行排序**
+
+## **Aspose.Cells - 在电子表格中对数据进行排序**
 {{% alert color="primary" %}} 
 
-要使用 Aspose.Cells 对电子表格中的数据进行排序，只需在设置一些易于设置的单元格区域属性后调用 DataSorter.sorter() 方法。
+要使用Aspose.Cells对电子表格中的数据进行排序，只需在设置单元格区域的一些易于设置的属性后调用DataSorter.sorter()方法。
 
-Java代码如下。
+以下是Java代码。
 
 {{% /alert %}} 
 
-使用 Aspose.Cells 对数据进行排序
+使用Aspose.Cells对数据进行排序
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Obtain the DataSorter object in the workbook
 
@@ -71,6 +72,6 @@ sorter.sort(cells, ca);
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[排序数据](/java/sort-data)， 要么[资料整理](/cells/zh/java/data-sorting).
+有关更多详细信息，请访问[排序数据](/java/sort-data)，或[数据排序](/cells/zh/java/data-sorting)。
 
 {{% /alert %}}

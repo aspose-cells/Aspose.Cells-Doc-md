@@ -1,49 +1,50 @@
-﻿---
-title: 获取 Cell 内容
+---
+title: 获取单元格内容
 type: docs
 weight: 10
 url: /zh/java/getting-cell-contents/
 ---
-## **Aspose.Cells - 获取 Cell 内容**
-Cells.get() 方法可用于访问单元格。
+
+## **Aspose.Cells - 获取单元格内容**
+Cells.get()方法可用于访问单元格。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- //访问Excel文件中的第一个工作表
+ //Accessing the first worksheet in the Excel file
 
-工作表worksheet = workbook.getWorksheets().get(0);
+Worksheet worksheet = workbook.getWorksheets().get(0);
 
-Cells 细胞 = worksheet.getCells();
+Cells cells = worksheet.getCells();
 
-//访问最大显示范围
+//Access the Maximum Display Range
 
-范围 range = worksheet.getCells().getMaxDisplayRange();
+Range range = worksheet.getCells().getMaxDisplayRange();
 
 int tcols = range.getColumnCount();
 
 int trows = range.getRowCount();
 
-System.out.println("总行数：" + trows);
+System.out.println("Total Rows:" + trows);
 
-System.out.println("总列数：" + tcols);
+System.out.println("Total Cols:" + tcols);
 
-// 访问Cell B4的值
+// Access value of Cell B4
 
 //=====================================================
 
 System.out.println(cells.get("B4").getValue());
 
-Cell cell = cells.get(3,1); //获取Cell B4的值
+Cell cell = cells.get(3,1); //Access value of Cell B4
 
 System.out.println(cell.getValue());
 
 //=====================================================
 
-RowCollection 行 = cells.getRows();
+RowCollection rows = cells.getRows();
 
-对于 (int i = 0 ; i< rows.getCount() ; i++)
+for (int i = 0 ; i < rows.getCount() ; i++)
 
 {
 
@@ -64,12 +65,12 @@ RowCollection 行 = cells.getRows();
 }
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - 获取 Cell 内容**
-Apache POI 提供 Cell 类来访问单元格的各种属性。
+## **Apache POI SS - HSSF XSSF - 获取单元格内容**
+Apache POI提供Cell类，用于访问单元格的各种属性。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sheet sheet1 = wb.getSheetAt(0);
 
@@ -135,6 +136,6 @@ for (Row row : sheet1) {
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[使用 Aspose.Cells 的数据处理功能](/cells/zh/java/data-handling-features-using-aspose-cells/)
+要了解更多详情，请访问[使用Aspose.Cells进行数据处理特性](/cells/zh/java/data-handling-features-using-aspose-cells/)
 
 {{% /alert %}}

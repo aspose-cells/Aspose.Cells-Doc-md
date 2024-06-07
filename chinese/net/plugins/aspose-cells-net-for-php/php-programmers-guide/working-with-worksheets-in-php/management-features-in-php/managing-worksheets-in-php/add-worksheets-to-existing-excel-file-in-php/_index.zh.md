@@ -1,16 +1,17 @@
-﻿---
-title: 在 PHP 中将工作表添加到现有的 Excel 文件
+---
+title: 在PHP中向现有Excel文件添加工作表
 type: docs
 weight: 10
 url: /zh/net/add-worksheets-to-existing-excel-file-in-php/
 ---
-将工作表添加到现有 Excel 文件
 
-将工作表添加到现有 Excel 文件
+向现有Excel文件添加工作表
+
+向现有Excel文件添加工作表
 
 **PHP代码**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -38,6 +39,6 @@ url: /zh/net/add-worksheets-to-existing-excel-file-in-php/
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**将工作表添加到现有 Excel 文件 (Aspose.Cells)**来自以下任何社交编码网站：
+从以下社交编码站点下载Aspose.Cells中的添加工作表到现有Excel文件
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/AddWorksheetsToExistingExcelFile.php)

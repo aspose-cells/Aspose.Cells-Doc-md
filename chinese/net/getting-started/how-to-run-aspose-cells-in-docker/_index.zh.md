@@ -1,37 +1,38 @@
-﻿---
+---
 title: 如何在 Docker 中运行 Aspose.Cells
 type: docs
-description: 在 Linux、Windows 服务器和任何操作系统的 Docker 容器中运行 Aspose.Cells。
+description: 在 Linux、Windows Server 和任何操作系统中运行 Aspose.Cells 的 Docker 容器。
 weight: 139
 url: /zh/net/how-to-run-aspose-cells-in-docker/
 ---
-微服务与容器化相结合，使得轻松组合技术成为可能。 Docker 允许您轻松地将 Aspose.Cells 功能集成到您的应用程序中，无论您的开发堆栈中采用何种技术。
 
-如果您的目标是微服务，或者您堆栈中的主要技术不是 .NET、C++ 或 Java，但您需要 Aspose.Cells 功能，或者如果您已经在堆栈中使用 Docker，那么您可能有兴趣在 Docker 中使用 Aspose.Cells容器。
+微服务与容器化结合，使得轻松组合各种技术成为可能。Docker 允许您轻松集成 Aspose.Cells 功能到您的应用程序中，无论开发栈中使用的是哪种技术。
+
+如果您的目标是微服务，或者栈中的主要技术不是 .NET、C++ 或 Java，但您需要 Aspose.Cells 的功能，或者您已经在栈中使用 Docker，则您可能有兴趣在 Docker 容器中使用 Aspose.Cells。
 
 ## 先决条件
 
-- 必须在您的系统上安装 Docker。有关如何在 Windows 或 Mac 上安装 Docker 的信息，请参阅“另请参阅”部分中的链接。
+- 您的系统上必须安装 Docker。有关在 Windows 或 Mac 上安装 Docker 的信息，请参考“参见”部分中的链接。
 
-- 另请注意，示例中使用了 Visual Studio 2019、.NET Core 3.1 SDK，如下所示。
+- 还要注意，示例中使用的是 Visual Studio 2019、.NET Core 3.1 SDK。
 
 
-## Hello World 申请
+## Hello World 应用程序
 
-在此示例中，您创建了一个简单的 Hello World 控制台应用程序，它生成一个“Hello World!”文档并将其保存为所有支持的保存格式。然后可以在 Docker 中构建和运行应用程序。
+在此示例中，您将创建一个简单的 Hello World 控制台应用程序，生成并保存一个“Hello World！”文档，支持所有的保存格式。该应用程序可以在 Docker 中构建和运行。
 
 ### 创建控制台应用程序
 
 要创建 Hello World 程序，请按照以下步骤操作：
-1. 安装 Docker 后，确保它使用 Linux 容器（默认）。如有必要，从 Docker 桌面菜单中选择切换到 Linux 容器选项。
-1. 在 Visual Studio 中，创建一个 .NET Core 控制台应用程序。<br>
-![待办事项：图片_替代_文本](create-a-new-project.png)<br>
-1. 从 NuGet 安装最新的 Aspose.Cells 版本。System.Drawing.Common 和 System.Text.Encoding.CodePages 将作为 Aspose.Cells 的依赖项安装。<br>
-![待办事项：图片_替代_文本](nuget-aspose-cells.png)<br>
-1. 由于应用程序将在 Linux 上运行，因此必须安装适当的本机 Linux 资产。从 dotnet core sdk 3.1 基础映像开始并安装 libgdiplus libc6-dev。
-1. 添加所有必需的依赖项后，编写一个简单的程序来创建一个“Hello World！”工作簿并将其保存为所有支持的保存格式：<br>
+1. 安装 Docker 后，请确保它使用的是 Linux 容器（默认设置）。如果需要，请从 Docker Desktop 菜单中选择“切换到 Linux 容器”选项。
+1. In Visual Studio, create a .NET Core console application.<br>
+![todo:image_alt_text](create-a-new-project.png)<br>
+1. Install the latest Aspose.Cells version from NuGet. System.Drawing.Common and System.Text.Encoding.CodePages will be installed as a dependency of Aspose.Cells.<br>
+![todo:image_alt_text](nuget-aspose-cells.png)<br>
+1. 由于应用程序将在 Linux 上运行，因此需要安装适当的本地 Linux 资源。使用 dotnet core sdk 3.1 基础镜像并安装 libgdiplus libc6-dev。
+1. When all required dependencies are added, write a simple program that creates a “Hello World!” workbook and saves it in all supported save formats:<br>
 **.NET**<br>
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 using System;
 namespace Aspose.Cells.Docker
 {
@@ -64,16 +65,16 @@ namespace Aspose.Cells.Docker
 
 {{< /highlight >}}
 
-请注意，“TestOut”文件夹被指定为用于保存输出文档的输出文件夹。当在 Docker 中运行应用程序时，主机上的一个文件夹将被挂载到容器中的这个文件夹中。这将使您能够轻松地在 Docker 容器中查看 Aspose.Cells 生成的输出。
+请注意，“TestOut”文件夹被指定为保存输出文档的输出文件夹。当在 Docker 中运行应用程序时，会将主机机器上的文件夹挂载到容器中的此文件夹。这样您就可以轻松查看 Aspose.Cells 在 Docker 容器中生成的输出。
 
 ### 配置 Dockerfile
 
 下一步是创建和配置 Dockerfile。
 
-1. 创建 Dockerfile 并将其放在应用程序的解决方案文件旁边。保留此文件名，不带扩展名（默认）。
-1. 在 Dockerfile 中，指定：
+1. 创建 Dockerfile，并将其放置在应用程序的解决方案文件旁边。保持文件名不变，不要添加扩展名（使用默认值）。
+1. 在 Dockerfile 中指定：
 
-{{< highlight "plain" >}}
+{{< highlight plain >}}
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster 
 COPY fonts/* /usr/share/fonts/
 WORKDIR /app
@@ -81,72 +82,74 @@ COPY . ./
 RUN apt-get update && \
     apt-get install -y --allow-unauthenticated libgdiplus libc6-dev
 RUN dotnet publish "Aspose.Cells.Docker.csproj" -c Release -o /app/publish
-ENTRYPOINT ["dotnet", "publish/Aspose.Cells.Docker.dll"]{{< /highlight >}}
+ENTRYPOINT ["dotnet", "publish/Aspose.Cells.Docker.dll"]
+{{< /highlight >}}
 
-上面是一个简单的 Dockerfile，其中包含以下指令：
+上述是一个简单的 Dockerfile，其中包含以下指令：
 
-- 要使用的 SDK 镜像。这是 .Net Core SDK 3.1 图像。 Docker 将在构建运行时下载它。 SDK 的版本被指定为一个标签。
-- 安装字体，因为 SDK 映像包含的字体非常少。该命令将字体文件从本地复制到 docker 镜像。确保您有一个本地“字体”目录，其中包含您需要安装的所有字体。在此示例中，本地“字体”目录与 Dockerfile 放在同一目录中。
+- 要使用的 SDK 镜像。这里使用的是 .Net Core SDK 3.1 镜像。Docker 将在构建运行时下载它。 SDK 的版本指定为标签。
+- 安装字体，因为 SDK 镜像中包含的字体很少。该命令将字体文件从本地复制到 Docker 镜像中。确保您有一个名为“fonts”的本地目录，其中包含您需要安装的所有字体。在本示例中，将本地的“fonts”目录放置在与 Dockerfile 相同的目录中。
 - 工作目录，在下一行中指定。
-- 将所有内容复制到容器、发布应用程序并指定入口点的命令。
-- 安装 libgdiplus 的命令在容器中运行。这是 System.Drawing.Common 所要求的。
+- 复制所有内容到容器中，发布应用程序，并指定入口点。
+- 在容器中运行安装 libgdiplus 的命令。这是 System.Drawing.Common 所需的。
 
 ### 在 Docker 中构建和运行应用程序
 
-现在可以在 Docker 中构建和运行应用程序。打开您最喜欢的命令提示符，将目录更改为包含应用程序的文件夹（放置解决方案文件和 Dockerfile 的文件夹）并运行以下命令：
+现在可以在 Docker 中构建和运行应用程序了。打开您喜欢的命令提示符，将目录更改为应用程序所在的文件夹（解决方案文件和 Dockerfile 所在的文件夹），然后运行以下命令：
 
-{{< highlight "plain" >}}
+{{< highlight plain >}}
 docker build -t actest .
 {{< /highlight >}}
 
-第一次执行此命令可能需要更长的时间，因为 Docker 需要下载所需的图像。完成上一个命令后，运行以下命令：
+第一次执行此命令时可能需要更长时间，因为 Docker 需要下载所需的镜像。完成上一个命令后，请运行以下命令：
 
-{{< highlight "plain" >}}
+{{< highlight plain >}}
 docker run --mount type=bind,source=C:\Temp,target=/TestOut --rm actest from Docker
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
 
-注意 mount 参数，因为如前所述，宿主机上的一个文件夹被挂载到容器的文件夹中，以便轻松查看应用程序执行的结果。 Linux 中的路径区分大小写。
+要注意 mount 参数，因为如前所述，将主机机器上的文件夹挂载到容器的文件夹中，以便轻松查看应用程序执行的结果。Linux 中的路径区分大小写。
 
 {{% /alert %}}
 
-## 图片支持 Aspose.Cells
+## 支持 Aspose.Cells 的镜像
 
-- Aspose.Cells for .NET 标准在 Linux 上不支持 EMF 和 TIFF。
+- Aspose.Cells for .NET Standard 在 Linux 上不支持 EMF 和 TIFF。
 
 
-## 更多例子
+## 更多示例
 
-***1.在Windows Server 2019中运行应用***
+***1. 在Windows Server 2019上运行应用程序***
 
-- 文件
+- Dockerfile
 
-{{< highlight "plain" >}}
+{{< highlight plain >}}
 FROM microsoft/dotnet-framework:4.7.2-sdk-windowsservercore-ltsc2019
 WORKDIR /app
 COPY . ./
 RUN dotnet publish "Aspose.Cells.Docker.csproj" -c Release -o /app/publish
-ENTRYPOINT ["dotnet", "publish/Aspose.Cells.Docker.dll"]{{< /highlight >}}
+ENTRYPOINT ["dotnet", "publish/Aspose.Cells.Docker.dll"]
+{{< /highlight >}}
 
-- 构建 Docker 镜像
+- 构建Docker镜像
 
-{{< highlight "plain" >}}
+{{< highlight plain >}}
 docker build -t actest .
 {{< /highlight >}}
 
-- 运行 Docker 镜像
+- 运行Docker镜像
 
-{{< highlight "plain" >}}
+{{< highlight plain >}}
 docker run --mount type=bind,source=C:\Temp,target=c:\TestOut --rm actest from Docker
 {{< /highlight >}}
 
 
-***2. 在 Linux 中运行应用程序***
+***2. 在Linux上运行应用程序***
 
-- 编写一个设置字体文件夹的简单程序，创建一个“Hello World！”工作簿并保存。
+- 编写一个简单的程序，设置字体文件夹，创建一个“Hello World！”工作簿并保存它。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 namespace Aspose.Cells.Docker.Fonts
 {
     using System;
@@ -175,15 +178,15 @@ namespace Aspose.Cells.Docker.Fonts
             {
                 Console.WriteLine("Saving outfonts.xlsx\t\t[FAILED],{0}", e.Message);
             }
-           
+
         }
     }
 }
 
 {{< /highlight >}}
-- 文件
+- Dockerfile
 
-{{< highlight "plain" >}}
+{{< highlight plain >}}
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster 
 WORKDIR /app
 COPY . ./
@@ -192,25 +195,26 @@ RUN apt-get update && \
 WORKDIR /app
 COPY . ./
 RUN dotnet publish "Aspose.Cells.Docker.Fonts.csproj" -c Release -o /app/publish
-ENTRYPOINT ["dotnet", "publish/Aspose.Cells.Docker.Fonts.dll"]{{< /highlight >}}
+ENTRYPOINT ["dotnet", "publish/Aspose.Cells.Docker.Fonts.dll"]
+{{< /highlight >}}
 
-- 构建 Docker 镜像
+- 构建Docker镜像
 
-{{< highlight "plain" >}}
+{{< highlight plain >}}
 docker build -t actest .
 {{< /highlight >}}
 
-- 运行 Docker 镜像
+- 运行Docker镜像
 
-{{< highlight "plain" >}}
+{{< highlight plain >}}
 docker run --mount type=bind,source=C:\Windows\Fonts,target=/Fonts  --mount type=bind,source=C:\Temp,target=/TestOut --rm actest from Docker
 {{< /highlight >}}
 
 
-## 也可以看看
+## 请参阅
 
-- [在 Windows 上安装 Docker Desktop](https://docs.docker.com/docker-for-windows/install/)
-- [在 Mac 上安装 Docker 桌面](https://docs.docker.com/docker-for-mac/install/)
-- [Visual Studio 2019, .NET Core 3.1 SDK](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=netcore31#dependencies)
-- [切换到 Linux 容器](https://docs.docker.com/docker-for-windows/#switch-between-windows-and-linux-containers)选项
-- 有关的附加信息[.NET 核心SDK](https://hub.docker.com/_/microsoft-dotnet-sdk)
+- [在Windows上安装Docker桌面版](https://docs.docker.com/docker-for-windows/install/)
+- [在Mac上安装Docker桌面版](https://docs.docker.com/docker-for-mac/install/)
+- [Visual Studio 2019，.NET Core 3.1 SDK](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=netcore31#dependencies)
+- 切换到[Linux容器](https://docs.docker.com/docker-for-windows/#switch-between-windows-and-linux-containers)选项
+- 关于[.NET Core SDK](https://hub.docker.com/_/microsoft-dotnet-sdk)的其他信息

@@ -1,30 +1,31 @@
 ---
-title: 通过 Aspose.Cells for Python via .NET 渲染输出中的 Unicode 增补字符 PDF
+title: 通过Aspose.Cells for Python通过.NET在输出PDF中呈现Unicode补充字符
 type: docs
 weight: 350
 url: /zh/python-net/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells/
-description: 了解如何在使用 Aspose.Cells for Python via .NET API 将 Excel 转换为 PDF 时呈现 Unicode 增补字符。
-keywords: Python Render Unicode Supplementary characters while saving file to PDF, Print Unicode Supplementary characters while saving Excel to PDF using Python, Python Show Unicode Supplementary characters when converting Excel to PDF, Output Unicode Supplementary characters for excel to pdf
+description: 学习如何在使用Aspose.Cells for Python通过.NET API将Excel转换为PDF时呈现Unicode补充字符。
+keywords: 将文件保存为PDF时使用Python呈现Unicode补充字符，将Excel保存为PDF时使用Python打印Unicode补充字符，将Excel转换为PDF时展示Unicode补充字符，为Excel到PDF输出Unicode补充字符
 ---
+
 {{% alert color="primary" %}}
 
-普通 Unicode 字符的长度为 2 个字节，而 Unicode 补充字符的长度为 4 个字节。 Aspose.Cells for Python via .NET 现在支持这些 4 字节 Unicode 字符的呈现。
+普通Unicode字符占2个字节长度，而Unicode补充字符占4个字节长度。Aspose.Cells for Python通过.NET现在支持渲染这些4个字节的Unicode字符。
 
-在 Unicode 字符标准中，补充字符是分配从 U+10000 到 U+10FFFF 的代码点的字符。换句话说，这些是大于 U+FFFF 的 Unicode 字符。
+在 Unicode 字符标准中，补充字符是指代码点从U+10000到U+10FFFF的字符。换句话说，这些是大于 U+FFFF 的 Unicode 字符。
 
-- 在 UTF-8 中，这些字符每个长度为 4 个字节。
-- 在 UTF-16 中，这些字符需要 2 个代理项（16 位单元）。
+- 在 UTF-8 中，这些字符每个都是4个字节长。
+- 在 UTF-16 中，这些字符需要2个代理对（16位单位）。
 
 {{% /alert %}}
 
-## 通过 Aspose.Cells for Python via .NET 渲染输出中的 Unicode 增补字符 PDF
+## 通过Aspose.Cells for Python通过.NET在输出PDF中呈现Unicode补充字符
 
-下面的截图显示了 Aspose.Cells for Python via .NET 如何渲染[源 Excel 文件](5115563.xlsx)进入[输出PDF](5115564.pdf)。正如您所看到的，所有三个 Unicode 补充字符的呈现方式与 Microsoft Excel 的呈现方式完全相同。
+以下截图显示了Aspose.Cells for Python通过.NET如何将[源Excel文件](5115563.xlsx)渲染成[输出PDF](5115564.pdf)。正如您所见，所有三个Unicode补充字符都被呈现为与Microsoft Excel相同的方式。
 
-![待办事项：图像_替代_文本](output.png)
+![todo:image_alt_text](output.png)
 
 ## 示例代码
 
-您可以使用此示例代码进行转换[源 Excel 文件](5115563.xlsx)进入[输出PDF](5115564.pdf).
+您可以使用这个示例代码将 [源 Excel 文件](5115563.xlsx) 转换为 [输出 PDF](5115564.pdf)。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-RenderUnicodeInOutput.py" >}}

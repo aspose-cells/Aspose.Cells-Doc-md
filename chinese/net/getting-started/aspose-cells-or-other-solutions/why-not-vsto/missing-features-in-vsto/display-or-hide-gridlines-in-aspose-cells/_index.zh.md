@@ -1,38 +1,39 @@
-﻿---
+---
 title: 在 Aspose.Cells 中显示或隐藏网格线
 type: docs
 weight: 50
 url: /zh/net/display-or-hide-gridlines-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-默认情况下，所有 Excel 工作表都有网格线。它们有助于描绘单元格，因此很容易将数据输入特定单元格。网格线使我们能够将工作表视为单元格的集合，其中每个单元格都很容易识别。
+所有 Excel 工作表默认具有网格线。它们有助于区分单元格，使得容易输入数据到特定单元格中。 网格线使我们能够将工作表视为单元格的集合，其中每个单元格都很容易识别。
 
 {{% /alert %}}
 
 ## **控制网格线的可见性**
 
-Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)，代表一个 Microsoft Excel 文件。这[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类包含一个[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)允许访问 Excel 文件中每个工作表的集合。
+Aspose.Cells 提供一个 [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) 类，表示一个 Microsoft Excel 文件。 [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) 类包含一个 [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) 集合，允许访问 Excel 文件中的每个工作表。
 
-工作表由[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)班级。这[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类提供了广泛的属性和方法来管理工作表。要控制网格线的可见性，请使用[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)班级'[**网格线是否可见**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)财产。[**网格线是否可见**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)是一个布尔属性，这意味着它只能存储一个**真的**要么**错误的**价值。
+工作表由 [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) 类表示。 [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) 类提供了广泛的属性和方法来管理工作表。 要控制网格线的可见性，请使用 [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) 类的 [**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) 属性。 [**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) 是一个布尔属性，这意味着它只能存储 **true** 或 **false** 值。
 
-下面给出了一个完整的示例，演示了[**网格线是否可见**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)的财产[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类隐藏 Excel 文件第一个工作表的网格线。
+下面给出了一个完整的示例，演示了使用[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类的[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)属性来隐藏Excel文件的第一个工作表的网格线。
 
-在下面的屏幕截图中，您可以看到 Book1.xls 文件包含三个工作表：Sheet1、Sheet2 和 Sheet3。所有工作表都有网格线。
+在下面的截图中，您可以看到Book1.xls文件包含三个工作表：Sheet1，Sheet2和Sheet3。所有工作表都有网格线。
 
 **Book1.xls：修改前的工作表视图** 
 
-![待办事项：图片_替代_文本](display-or-hide-gridlines-in-aspose-cells_1.png)
+![todo:image_alt_text](display-or-hide-gridlines-in-aspose-cells_1.png)
 
-Book1.xls 文件是使用 Workbook 类打开的，第一个工作表上的网格线是隐藏的。修改后的文件保存为 output.xls。
+通过使用Workbook类打开Book1.xls文件，并隐藏第一个工作表上的网格线。修改后的文件保存为output.xls。
 
 **Output.xls：修改后的工作表** 
 
-![待办事项：图片_替代_文本](display-or-hide-gridlines-in-aspose-cells_2.png)
+![todo:image_alt_text](display-or-hide-gridlines-in-aspose-cells_2.png)
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 

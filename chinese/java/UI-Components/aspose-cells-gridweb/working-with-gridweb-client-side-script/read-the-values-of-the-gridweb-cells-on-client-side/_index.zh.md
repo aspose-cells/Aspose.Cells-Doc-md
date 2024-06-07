@@ -1,24 +1,25 @@
 ---
-title: 读取客户端 GridWeb 单元格的值
+title: 在客户端读取GridWeb单元格的值
 type: docs
 weight: 10
 url: /zh/java/read-the-values-of-the-gridweb-cells-on-client-side/
 ---
-##  **可能的使用场景**
-您可以使用 gridwebinstance.getCellsArray() 方法在客户端脚本上读取 GridWeb 单元格的值。一旦您调用它，它将返回活动工作表中所有单元格的数组。然后，您可以使用以下方法来检索单元格的值和其他信息。
+
+## **可能的使用场景**
+您可以使用 gridwebinstance.getCellsArray() 方法在客户端脚本中读取GridWeb单元格的值。一旦调用它，它将返回活动工作表中所有单元格的数组。然后，您可以使用以下方法检索单元格的值和其他信息。
 
 - gridwebinstance.getCellName()
 - gridwebinstance.getCellValueByCell()
 - gridwebinstance.getCellRow()
 - gridwebinstance.getCellColumn()
-##  **读取客户端 GridWeb 单元格的值**
-以下示例代码检索所有单元格，然后打印它们的名称、值、行和列。您可以在本文底部看到其控制台输出。以下屏幕截图显示了示例代码在 Google Chrome 上的控制台输出。
-##  **截屏**
-![待办事项：图像_替代_文本](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
+## **在客户端读取GridWeb单元格的值**
+以下示例代码检索所有单元格，然后打印它们的名称、值、行和列。您可以在本文底部看到它的控制台输出。以下屏幕截图显示了在Google Chrome上运行示例代码时的控制台输出。
+## **截图**
+![todo:image_alt_text](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
 
 
-##  **示例代码**
-{{< highlight "java" >}}
+## **示例代码**
+{{< highlight java >}}
 
  <%@page language="java" contentType="text/html; charset=UTF-8" import="com.aspose.gridweb.*"  pageEncoding="UTF-8"%>
 
@@ -125,10 +126,10 @@ out.print(gridweb.getHTMLBody());
 </html>
 
 {{< /highlight >}}
-##  **控制台输出**
+## **控制台输出**
 这是上述示例代码的控制台输出。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  0:A1,value is:This ,row:0,col:0
 

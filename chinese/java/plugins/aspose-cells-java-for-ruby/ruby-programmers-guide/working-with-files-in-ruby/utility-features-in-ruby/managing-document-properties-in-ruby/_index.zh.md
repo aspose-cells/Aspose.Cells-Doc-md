@@ -1,15 +1,16 @@
-﻿---
+---
 title: 在 Ruby 中管理文档属性
 type: docs
 weight: 90
 url: /zh/java/managing-document-properties-in-ruby/
 ---
+
 ## **Aspose.Cells - 访问文档属性**
-开发人员可以利用**指数**要么**姓名**从属性中获取特定属性**自定义属性**集合如下例所示。
+开发人员可以使用属性的**Index**或**Name**从**custom_properties**集合中获取特定的属性，如下面的示例所示。
 
-**红宝石代码**
+**Ruby代码**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def get_properties()
 
@@ -37,11 +38,11 @@ end
 
 {{< /highlight >}}
 ## **Aspose.Cells - 添加自定义属性**
-要使用 Aspose.Cells Java 为 Ruby 添加自定义文档属性，请调用**添加自定义属性**的方法**文档**模块。
+要使用 Aspose.Cells Java for Ruby 添加自定义文档属性，请调用**Document**模块的**add_custom_property**方法。
 
-**红宝石代码**
+**Ruby代码**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def add_custom_property()
 
@@ -71,11 +72,11 @@ end   
 
 {{< /highlight >}}
 ## **Aspose.Cells - 删除自定义属性**
-要使用 Aspose.Cells Java 为 Ruby 删除自定义文档属性，请调用**删除自定义属性**的方法**文档**模块。
+要使用 Aspose.Cells Java for Ruby 删除自定义文档属性，请调用**Document**模块的**remove_custom_property**方法。
 
-**红宝石代码**
+**Ruby代码**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_custom_property()
 
@@ -105,6 +106,6 @@ end   
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**访问文档属性 (Aspose.Cells)**来自以下任何社交编码网站：
+从以下社交编码网站之一下载**访问文档属性（Aspose.Cells）**。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/document.rb)

@@ -1,36 +1,37 @@
 ---
-title: 禁用 Excel 中的兼容性检查器
+title: 在 Excel 中禁用兼容性检查器
 type: docs
 weight: 170
 url: /zh/net/disable-compatibility-checker-in-excel/
 description: 本文介绍如何通过 Aspose.Cells for .NET API 禁用兼容性检查器。
-keywords: C# Disable Compatibility Checker, Excel Disable Compatibility Checker in C#, Disable Compatibility Checker in Workbook. 
+keywords: C# 禁用兼容性检查器，Excel 中禁用兼容性检查器，禁用工作簿中的兼容性检查器。 
 ---
-## 在 C# 中禁用 Excel 工作表中的兼容性检查器
+
+## 在C#中禁用Excel工作表中的兼容性检查器 
 
 {{% alert color="primary" %}}
 
-Microsoft 以早期文件格式保存文件时，Excel 的兼容性检查器标记可能会导致功能问题或保真度损失。兼容性检查器是 Microsoft Office Excel 2007 和 Microsoft Excel 2010 的一项功能。
+Microsoft Excel的兼容性检查器会在保存文件为较早的文件格式可能导致功能问题或丢失精度时发出警告。兼容性检查器是Microsoft Office Excel 2007和Microsoft Excel 2010的一个功能。
 
-当您在 Excel 97 到 Excel 2003、Excel 2007 或 Excel 2010 中保存工作簿时，兼容性检查器会扫描工作簿以查看它是否包含早期版本不支持的功能。为了帮助您决定如何处理兼容性问题，兼容性检查器会显示带有选项的对话框。它还可用于创建有关工作簿中任何问题的报告，或禁用该功能。
+当您从Excel 2007或Excel 2010中保存一个工作簿到Excel 97至Excel 2003之前的版本时，兼容性检查器会扫描工作簿，看看它是否包含早期版本不支持的功能。为了帮助您做出关于如何处理兼容性问题的决定，兼容性检查器会显示带有选项的对话框。它还可以用于创建有关工作簿中任何问题的报告，或者禁用该功能。
 
-有时，您需要禁用特定电子表格的兼容性检查器。使用 Aspose.Cells' API，您可以通过编程方式执行此操作，以便用户在手动将文件重新保存到 Microsoft Excel 中时，不会因弹出的兼容性检查器对话框而感到沮丧或困惑。
+有时，您需要为特定电子表格禁用兼容性检查器。使用Aspose.Cells的API，您可以通过编程方式做到这一点，以便当用户手动在Microsoft Excel中重新保存文件时，不会因为兼容性检查器对话框的弹出而感到沮丧或困惑。
 
 {{% /alert %}}
 
-##  **如何使用 Microsoft Excel 禁用兼容性检查器**
+## **如何使用Microsoft Excel禁用兼容性检查器**
 
-要禁用 Microsoft Excel 中的兼容性检查器（例如 Microsoft Excel 2007/2010）：
+要在Microsoft Excel中禁用兼容性检查器（例如Microsoft Excel 2007/2010）：
 
--  (Excel 2007) 在 Office 按钮上，单击**准备**，然后**运行兼容性检查器**，然后清除**保存此工作簿时检查兼容性**选项。
-- (Excel 2010) 在“文件”选项卡上，单击**信息**，然后**检查问题**，单击**检查兼容性**，最后清除**保存此工作簿时检查兼容性**选项。
+-（Excel 2007）单击“Office”按钮，选择**准备**，然后选择**运行兼容性检查器**，最后取消选中“保存此工作簿时检查兼容性”的选项。
+-（Excel 2010）点击“文件”选项卡，选择**信息**，然后选择**检查问题**，点击**检查兼容性**，最后取消选中“保存此工作簿时检查兼容性”的选项。
 
-##  **如何使用 Aspose.Cells API 禁用兼容性检查器**
+## **如何使用Aspose.Cells API禁用兼容性检查器**
 
-设置[**工作簿.设置.检查兼容性**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/checkcompatibility)财产给**错误的**禁用 Microsoft Excel 的兼容性检查器。
+将[**Workbook.Settings.CheckComptiliblity**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/checkcompatibility)属性设置为**False**即可禁用Microsoft Excel的兼容性检查器。
 
-###  **代码示例**
+### **代码示例**
 
-下面的代码示例展示了如何使用 Aspose.Cells for .NET 禁用兼容性检查器。
+以下代码示例演示了如何使用Aspose.Cells for .NET禁用兼容性检查器。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DisableCompatibilityChecker-1.cs" >}}

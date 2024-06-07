@@ -1,13 +1,14 @@
-﻿---
-title: 在命名范围公式中支持德语语言环境
+---
+title: 支持德语区域设置在命名范围公式中
 type: docs
 weight: 60
 url: /zh/net/support-for-german-locale-in-named-range-formulae/
 ---
-英文公式写入命名区域。此 Excel 文件可以在系统配置为德语区域设置的环境中打开，但英语公式应翻译为德语。以下示例演示了此功能，但是它需要安装德语版的 Excel，并且系统区域设置也应设置为德语。
 
-可以从以下链接下载用于测试此功能的示例文件：
+英语公式被写入命名区域。这个Excel文件可以在配置为德语区域设置的环境中打开，但是英语公式将被翻译为德语。以下示例演示了此功能，但需要在德语环境中安装Excel，并将系统区域设置设置为德语。
 
-[示例命名范围测试.xlsm](73990165.xlsm)
+可从以下链接下载用于测试此功能的示例文件：
+
+[sampleNamedRangeTest.xlsm](73990165.xlsm)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookSettings-SupportNamedRangeFormulasInGermanLocale-1.cs" >}}

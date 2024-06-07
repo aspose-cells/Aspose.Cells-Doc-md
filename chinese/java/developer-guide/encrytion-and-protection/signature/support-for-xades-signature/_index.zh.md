@@ -1,12 +1,13 @@
-﻿---
-title: 支持 XAdES 签名
+---
+title: 支持XAdES签名
 type: docs
 weight: 110
 url: /zh/java/support-for-xades-signature/
 ---
-Aspose.Cells 提供支持使用 XAdES 签名对工作簿进行签名。为此，API 提供[**电子签名**](https://reference.aspose.com/cells/java/com.aspose.cells/DigitalSignature)类和[**XAdES类型**](https://reference.aspose.com/cells/java/com.aspose.cells/XAdESType)枚举。
 
-下面的代码片段演示了使用[**电子签名**](https://reference.aspose.com/cells/java/com.aspose.cells/DigitalSignature)类签署[资源](sourceFile.xlsx)工作簿。
+Aspose.Cells 支持使用 XAdES 签名对工作簿进行签名。为此，API 提供了 [**DigitalSignature**](https://reference.aspose.com/cells/java/com.aspose.cells/DigitalSignature) 类和 [**XAdESType**](https://reference.aspose.com/cells/java/com.aspose.cells/XAdESType) 枚举。
+
+以下代码片段演示了对 {1} 中的工作簿进行签名，使用了 {0} 类。
 
 ## **示例代码**
 

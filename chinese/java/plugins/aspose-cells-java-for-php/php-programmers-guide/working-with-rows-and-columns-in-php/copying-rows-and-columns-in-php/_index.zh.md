@@ -1,22 +1,23 @@
-﻿---
-title: 在 PHP 中复制行和列
+---
+title: 在PHP中复制行和列
 type: docs
 weight: 30
 url: /zh/java/copying-rows-and-columns-in-php/
 ---
+
 ## **Aspose.Cells - 复制行和列**
 ### **复制行**
-Aspose.Cells提供了Cells类的copyRow方法。此方法将所有类型的数据（包括公式、值、注释、单元格格式、隐藏单元格、图像和其他绘图对象）从源行复制到目标行。
+Aspose.Cells提供了Cells类的copyRow方法。该方法从源行复制包括公式、数值、注释、单元格格式、隐藏单元格、图像和其他绘图对象在内的所有类型的数据到目标行。
 
-copyRow 方法采用以下参数：
+copyRow方法接受以下参数：
 
-- 源 Cells 对象，
-- 源行索引，和
+- 源Cells对象，
+- 源行索引，以及
 - 目标行索引。
 
 **PHP代码**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function copy_rows($dataDir)
 
@@ -46,17 +47,17 @@ copyRow 方法采用以下参数：
 
 {{< /highlight >}}
 ### **复制列**
-Aspose.Cells 提供了 Cells 类的 copyColumn 方法，该方法将所有类型的数据，包括公式（带有更新的引用）和值、注释、单元格格式、隐藏单元格、图像和其他绘图对象从源列复制到目标列。
+Aspose.Cells提供了Cells类的copyColumn方法，该方法可以从源列复制所有类型的数据，包括带有更新引用的公式和数值、注释、单元格格式、隐藏单元格、图片和其他绘图对象到目标列。
 
-copyColumn 方法采用以下参数：
+copyColumn方法接受以下参数:
 
-- 源 Cells 对象，
-- 源列索引，和
+- 源Cells对象，
+- 源列索引，以及
 - 目标列索引。
 
 **PHP代码**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function copy_columns($dataDir)
 
@@ -125,6 +126,6 @@ copyColumn 方法采用以下参数：
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**复制行和列 (Aspose.Cells)**来自以下任何社交编码网站：
+从下面提到的任何社交编码网站下载**复制行和列（Aspose.Cells）**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

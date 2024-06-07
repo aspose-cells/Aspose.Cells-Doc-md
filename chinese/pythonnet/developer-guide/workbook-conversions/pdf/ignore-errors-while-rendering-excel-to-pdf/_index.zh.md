@@ -1,21 +1,22 @@
 ---
-title: 将 Excel 渲染为 PDF 时忽略错误
+title: 在将Excel渲染为PDF时忽略错误
 type: docs
 weight: 80
 url: /zh/python-net/ignore-errors-while-rendering-excel-to-pdf/
-description: 了解如何使用 Aspose.Cells for Python via .NET API 将 Excel 渲染为 PDF 时忽略错误。
-keywords: Python Ignore Errors while Rendering Excel to PDF, Ignore Errors while saving Excel to PDF using Python, Python Ignore Errors while converting Excel to PDF, Ignore Errors for Excel to PDF in python
+description: 学习如何在将 Excel 转换为 PDF 时忽略错误，使用 Aspose.Cells for Python via .NET API。
+keywords: 在 Python 中将 Excel 转换为 PDF 时忽略错误，使用 Python 保存 Excel 为 PDF 时忽略错误，使用 Python 转换 Excel 为 PDF 时忽略错误，使用 Python 对 Excel 转换为 PDF 时忽略错误
 ---
-##  **可能的使用场景**
 
-有时，当您将 Excel 文件转换为 PDF 时，会出现错误或异常，并且转换过程会终止。您可以使用以下命令在转换过程中忽略所有此类错误[**PdfSaveOptions.ignore_error**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/ignore_error/)财产。这样，转换过程将顺利完成，不会引发任何错误或异常，但可能会发生数据丢失。因此，仅当数据丢失对您来说并不严重时，才请使用此属性。
+## **可能的使用场景**
 
-##  **将 Excel 渲染为 PDF 时忽略错误**
+有时，当您将Excel文件转换为PDF时，会出现错误或异常，导致转换过程中止。您可以通过使用 [**PdfSaveOptions.ignore_error**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/ignore_error/) 属性在转换过程中忽略所有这些错误。这样，转换过程将顺利完成，不会抛出任何错误或异常，但可能会有数据损失。因此，请仅在数据丢失对您不是关键时使用此属性。
 
-以下代码加载[Excel 文件示例](55541778.xlsx)但示例 Excel 文件是错误的，并且在执行期间抛出错误[转换为 PDF](55541779.pdf)在 17.11 但由于我们正在使用[**PdfSaveOptions.ignore_error**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/ignore_error/)属性，它不会抛出错误。然而，一*圆形红色箭头形状*如该屏幕截图所示，丢失了。
+## **在将Excel渲染为PDF时忽略错误**
 
-![待办事项：图像_替代_文本](ignore-errors-while-rendering-excel-to-pdf_1.png)
+以下代码加载了 [示例Excel文件](55541778.xlsx)，但示例Excel文件存在错误，在17.11版本中在[转换为PDF时](55541779.pdf)会引发错误，但由于我们使用了 [**PdfSaveOptions.ignore_error**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/ignore_error/) 属性，它不会引发错误。然而，如此屏幕截图所示，一个*圆形红色箭头形状*会丢失。
 
-##  **示例代码**
+![todo:image_alt_text](ignore-errors-while-rendering-excel-to-pdf_1.png)
+
+## **示例代码**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-IgnoreErrorsWhileRenderingExcelToPdf.py" >}}

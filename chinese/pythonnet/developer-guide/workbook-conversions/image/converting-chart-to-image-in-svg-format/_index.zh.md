@@ -3,20 +3,21 @@ title: 将图表转换为 SVG 格式的图像
 type: docs
 weight: 240
 url: /zh/python-net/converting-chart-to-image-in-svg-format/
-description: 使用 Aspose.Cells for Python via .NET API 将图表转换为 SVG 格式的图像。
-keywords: Python Convert Chart to Image in SVG Format, Export Chart to Image in SVG Format in Python via NET, Python Save Chart to Image in SVG Format.
+description: 通过使用Aspose.Cells for Python通过.NET API将图表转换为SVG格式的图像。
+keywords: Python将图表转换为SVG格式的图像，通过.NET导出图表为SVG格式的图像，在Python中通过NET保存图表为SVG格式的图像。
 ---
+
 {{% alert color="primary" %}} 
 
-可缩放矢量图形 (SVG) 是一种基于 XML 的矢量图像格式，适用于二维图形，还支持交互性和动画。 SVG规范是万维网联盟（W3C）自1999年以来制定的开放标准。
+可伸缩矢量图形 (SVG) 是一种基于 XML 的二维图形矢量图像格式，同时支持交互和动画。 SVG 规范是由万维网联盟 (W3C) 自 1999 年以来开发的开放标准。
 
-SVG 图像及其行为在 XML 文本文件中定义。这意味着它们可以被搜索、索引、编写脚本和压缩。作为 XML 文件，SVG 图像可以使用任何文本编辑器创建和编辑，但更常见的是使用绘图软件创建。
+SVG 图像及其行为是在 XML 文本文件中定义的。 这意味着它们可以被搜索、索引、脚本化和压缩。 作为 XML 文件，SVG 图像可以使用任何文本编辑器创建和编辑，但更常见的是使用绘图软件创建。
 
-Aspose.Cells for Python via .NET可以将图表保存为各种格式的图像，如BMP、JPEG、PNG、GIF、SVG等。本文介绍如何将图表保存为SVG格式。
+Aspose.Cells for Python通过.NET可以将图表保存为多种格式，如BMP、JPEG、PNG、GIF、SVG等。本文解释了如何将图表保存为SVG格式。
 
 {{% /alert %}} 
 
-以下示例代码说明了如何使用 Aspose.Cells for Python via .NET 将图表转换为 SVG 格式的图像。该代码加载源 Microsoft Excel 文件，然后将第一个工作表上找到的第一个图表保存到 SVG。
+以下示例代码解释了如何使用Aspose.Cells for Python via .NET将图表转换为SVG格式图像。该代码加载源Microsoft Excel文件，然后将找到的第一个工作表上的第一个图表保存为SVG。
 
 
 

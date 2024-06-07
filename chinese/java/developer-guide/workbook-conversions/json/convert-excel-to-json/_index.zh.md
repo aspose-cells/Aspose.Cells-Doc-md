@@ -1,25 +1,26 @@
 ---
-title: 将 Excel 转换为 JSON
+title: 将Excel转换为JSON
 type: docs
 weight: 20
 url: /zh/java/convert-excel-to-json/
-description: 了解如何使用 Aspose.Cells for Java API 将 Excel 文件转换为 json。
-keywords: Java Export Workbook to json, Convert Excel to JSON using Java, Save Excel to JSON in Java, Convert Workbook to JSON using Java, Save Workbook to JSON in Java, Export Excel to JSON via Java.
+description: 学习如何使用 Aspose.Cells for Java API 将 excel 文件转换为 json。
+keywords: Java 将工作簿导出为 JSON，使用 Java 将 Excel 转换为 JSON，保存 Excel 为 JSON 在 Java 中，使用 Java 将工作簿转换为 JSON，使用 Java 导出 Excel 为 JSON，使用 Java 通过 JSON 导出工作簿到 JSON。
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells 支持将工作簿转换为 Json（JavaScript 对象表示法）文件。
+Aspose.Cells支持将工作簿转换为JSON(JavaScript对象表示)文件。
 
 {{% /alert %}}
 
-##  **如何将 Excel 工作簿转换为 JSON**
+## **如何将 Excel 工作簿转换为 JSON**
 
-无需想知道如何将 Excel 工作簿转换为 JSON，因为 Aspose.Cells Java 库具有最佳决策。 Aspose.Cells Java API 支持将电子表格转换为 JSON 格式。要将工作簿导出到 JSON，请通过[**保存格式.JSON**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat)作为第二个参数[**工作簿.保存**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.lang.String,%20int)） 方法。您还可以使用[**Json保存选项**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonSaveOptions)类指定将工作表导出到 JSON 的其他设置。
+无需纠结如何将 Excel 工作簿转换为 JSON，因为 Aspose.Cells Java 库有最佳解决方案。Aspose.Cells Java API 支持将电子表格导出为 JSON 格式。要将工作簿导出到 JSON，请将 [**SaveFormat.JSON**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat) 作为 [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.lang.String,%20int) 方法的第二个参数。也可以使用 [**JsonSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonSaveOptions) 类来指定导出工作表到 JSON 的附加设置。
 
-以下代码示例演示将 Excel 工作簿导出到 Json。请参阅要转换的代码[源文件](sample.xlsx)代码生成的Json文件供参考。
+以下代码示例演示了将 Excel 工作簿导出为 JSON。请参阅用于将 [源文件](sample.xlsx) 转换为代码生成的 Json 文件的代码。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Convert-Excel-to-JSON.java" >}}
 
-以下代码示例使用 JsonSaveOptions 类指定其他设置，演示了将 Excel 工作簿导出到 Json。请参阅要转换的代码[源文件](sample.xlsx)代码生成的Json文件供参考。
+以下代码示例使用JsonSaveOptions类指定额外设置来演示将Excel工作簿导出为Json。请查看代码，将源文件(sample.xlsx)转换为代码生成的Json文件以供参考。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Convert-Excel-to-JSON2.java" >}}

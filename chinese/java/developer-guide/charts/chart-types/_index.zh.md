@@ -1,258 +1,259 @@
-﻿---
+---
 title: 图表类型
 type: docs
 weight: 10
 url: /zh/java/chart-types/
 ---
+
 {{% alert color="primary" %}} 
 
-图表是信息的视觉显示。 Aspose.Cells 允许开发人员在图表中可视化信息，就像 Microsoft Excel 一样。在图表中呈现信息总是有助于决策者做出快速及时的决策。使用图表比原始数字更容易快速查看数据的比较、模式和趋势。根据电子表格中的数据在运行时创建图表是 Aspose.Cells 最强大的功能之一。
+图表是信息的可视化显示。Aspose.Cells允许开发人员像Microsoft Excel一样在图表中可视化信息。以图表方式呈现信息对于决策者快速做出及时决策总是有帮助的。通过图表比较、模式和数据趋势比原始数字更容易快速看到。根据电子表格中的数据在运行时创建图表是Aspose.Cells最强大的功能之一。
 
 {{% /alert %}} 
 ## **图表类型**
-Aspose.Cells 几乎支持 Microsoft Excel 支持的所有图表类型。图表分为两大类：
+Aspose.Cells支持几乎所有Microsoft Excel支持的图表类型。图表分为两大类别：
 
-- [标准型](/cells/zh/java/chart-types/).
-- [自定义类型](/cells/zh/java/chart-types/).
+- [标准类型](/cells/zh/java/chart-types/)
+- [自定义类型](/cells/zh/java/chart-types/)
 ### **标准类型**
 标准图表通常使用标准格式：
 
-|<p>- [柱子](/cells/zh/java/chart-types/)</p><p>- [酒吧](/cells/zh/java/chart-types/)</p><p>- [线](/cells/zh/java/chart-types/)</p><p>- [馅饼](/cells/zh/java/chart-types/)</p><p>- [分散](/cells/zh/java/chart-types/)</p><p>- [区域](/cells/zh/java/chart-types/)</p><p>- [油炸圈饼](/cells/zh/java/chart-types/)</p>|<p>- [雷达](/cells/zh/java/chart-types/)</p><p>- [表面 3D](/cells/zh/java/chart-types/)</p><p>- [气泡](/cells/zh/java/chart-types/)</p><p>- [库存](/cells/zh/java/chart-types/)</p><p>- [圆柱](/cells/zh/java/chart-types/)</p><p>- [锥体](/cells/zh/java/chart-types/)</p><p>- [金字塔](/cells/zh/java/chart-types/)</p><p>- [树形图](/cells/zh/java/chart-types/)</p><p>- [森伯斯特](/cells/zh/java/chart-types/)</p><p>- [直方图](/cells/zh/java/chart-types/)</p><p>- [盒子和晶须](/cells/zh/java/chart-types/)</p><p>- [瀑布](/cells/zh/java/chart-types/)</p>|
-|:- |:- |
-下面更详细地描述了每种标准图表类型。
+|<p>- [列](/cells/zh/java/chart-types/)</p><p>- [柱形](/cells/zh/java/chart-types/)</p><p>- [折线](/cells/zh/java/chart-types/)</p><p>- [饼图](/cells/zh/java/chart-types/)</p><p>- [散点](/cells/zh/java/chart-types/)</p><p>- [面积](/cells/zh/java/chart-types/)</p><p>- [圆环图](/cells/zh/java/chart-types/)</p>|<p>- [雷达图](/cells/zh/java/chart-types/)</p><p>- [3D 曲面图](/cells/zh/java/chart-types/)</p><p>- [气泡图](/cells/zh/java/chart-types/)</p><p>- [股票图](/cells/zh/java/chart-types/)</p><p>- [圆柱](/cells/zh/java/chart-types/)</p><p>- [圆锥](/cells/zh/java/chart-types/)</p><p>- [金字塔](/cells/zh/java/chart-types/)</p><p>- [树状图](/cells/zh/java/chart-types/)</p><p>- [日晷图](/cells/zh/java/chart-types/)</p><p>- [直方图](/cells/zh/java/chart-types/)</p><p>- [箱形图](/cells/zh/java/chart-types/)</p><p>- [瀑布图](/cells/zh/java/chart-types/)</p>|
+| :- | :- |
+下面将更详细地描述每种标准图表类型。
 #### **柱形图**
-柱形图使用垂直条（称为柱）来显示一个或多个数据项的不同值。柱形图主要用于比较不同类别的值。它们非常适合显示项目价值随时间的变化，例如，在进行预算分析时。
+柱形图使用垂直条（称为柱）来显示一个或多个数据项的不同值。柱形图通常用于比较不同类别之间的值。它们非常适合显示一个项目的值随时间的变化，例如，在进行预算分析时。
 
-**Microsoft Excel 中支持的柱形图** 
+**Microsoft Excel支持的柱状图** 
 
-![待办事项：图片_替代_文本](chart-types_1.png)
+![todo:image_alt_text](chart-types_1.png)
 
-Aspose.Cells 支持以下柱形图：
+Aspose.Cells支持以下柱形图类型：
 
-- 簇状柱形图
-- 堆积柱形图
-- 100% 堆积柱形图
-- 3D 簇状柱形图
-- 3D 堆积柱形图
-- 3D 100% 堆积柱形图
-- 3D柱形图
+- Clustered column chart
+- Stacked column chart
+- 100% stacked column chart
+- 3D clustered column chart
+- 3D stacked column chart
+- 3D 100% stacked column chart
+- 3D column chart
 #### **条形图**
-条形图与柱形图几乎是同一类型。不同之处在于他们使用水平条而不是垂直条。
+条形图与柱状图几乎是相同类型，区别在于它们使用水平条而不是垂直条。
 
-**Microsoft Excel 中支持的条形图** 
+**Microsoft Excel支持的条形图** 
 
-![待办事项：图片_替代_文本](chart-types_2.png)
+![todo:image_alt_text](chart-types_2.png)
 
-Aspose.Cells 支持以下条形图：
+Aspose.Cells支持以下条形图:
 
-- 簇状条形图
-- 堆积条形图
-- 100% 堆叠条形图
-- 3D 簇状条形图
-- 3D 堆叠条形图
-- 3D 100% 堆积条形图
+- Clustered bar chart
+- Stacked bar chart
+- 100% stacked bar chart
+- 3D clustered bar chart
+- 3D stacked bar chart
+- 3D 100% stacked bar chart
 #### **折线图**
-折线图使用线条来显示信息。这些图表对于显示随时间变化的时间趋势非常有用，并且通常用于显示多个项目的价值随时间的变化。
+折线图利用线条显示信息。这些图表非常有用，能够展示随时间的暂时变化，并经常用于显示多个项目的价值随时间变化的波动。
 
-**Microsoft Excel 中支持的折线图** 
+**Microsoft Excel支持的折线图** 
 
-![待办事项：图片_替代_文本](chart-types_3.png)
+![todo:image_alt_text](chart-types_3.png)
 
-Aspose.Cells 支持以下折线图：
+Aspose.Cells支持以下折线图:
 
-- 简单折线图
-- 堆叠折线图
-- 100% 堆叠折线图
-- 带数据标记的折线图
-- 带有数据标记的堆叠折线图
-- 带数据标记的 100% 堆叠折线图
-- 3D折线图
+- Simple line chart
+- Stacked line chart
+- 100% stacked line chart
+- Line chart with data markers
+- Stacked line chart with data markers
+- 100% stacked line chart with data markers
+- 3D line chart
 
 {{% alert color="primary" %}} 
 
-数据标记用于表示数据点，即绘制在图表中的各个值。相同颜色的数据标记构成一个数据系列。
+数据标记用于表示数据点，即图表中绘制的单个值。相同颜色的数据标记构成一个数据系列。
 
 {{% /alert %}} 
-#### **饼状图**
-当您想要表示整体的不同部分或总数的百分比时，饼图主要用于显示信息。
+#### **饼图**
+饼图主要用于在想要表示整体不同部分或总数百分比时显示信息。
 
-**Microsoft Excel 支持饼图** 
+**Microsoft Excel支持的饼图** 
 
-![待办事项：图片_替代_文本](chart-types_4.png)
+![todo:image_alt_text](chart-types_4.png)
 
-Aspose.Cells 支持以下饼图：
+Aspose.Cells支持以下饼图:
 
-- 简单饼图
-- 3D饼图
-- 饼图饼图
-- 爆炸饼图
-- 3D 分解饼图
-- 条形饼图
+- Simple pie chart
+- 3D pie chart
+- Pie of pie chart
+- Exploded pie chart
+- 3D exploded pie chart
+- Bar of pie chart
 #### **散点图**
-散点图主要用于统计中，通过仅显示有限多个点来直观地显示和比较两组相关的定量或数值数据，每个点在水平（“X”）和垂直（“Y”）轴上都有一个坐标。
+散点图主要用于统计学中，通过在水平（"X"）和垂直（"Y"）轴上各有一个坐标的有限点进行可视化显示和比较两组相关的定量或数值数据。
 
-**Microsoft Excel 中支持的散点图** 
+**Microsoft Excel支持的散点图** 
 
-![待办事项：图片_替代_文本](chart-types_5.png)
+![todo:image_alt_text](chart-types_5.png)
 
 Aspose.Cells支持以下散点图：
 
-- 简单散点图
-- 由曲线连接的散点图，带有数据标记
-- 由曲线连接的散点图，无数据标记
-- 由线连接的散点图，带有数据标记
-- 由线连接的散点图，无数据标记
+- Simple scatter chart
+- Scatter chart connected by curves, with data markers
+- Scatter chart connected by curves, without data markers
+- Scatter chart connected by lines, with data markers
+- Scatter chart connected by lines, without data markers
 #### **面积图**
-面积图是一种折线图，其中每个区域都被赋予纯色或图案以强调图表信息之间的关系。
+面积图是一种线图，其中每个区域都被赋予固体颜色或图案，以突出图表信息之间的关系。
 
-**Microsoft Excel 支持的面积图** 
+**Microsoft Excel支持的面积图** 
 
-![待办事项：图片_替代_文本](chart-types_6.png)
+![todo:image_alt_text](chart-types_6.png)
 
-Aspose.Cells 支持以下面积图：
+Aspose.Cells支持以下面积图：
 
-- 简单面积图
-- 堆积面积图
-- 100% 堆积面积图
-- 3D面积图
-- 3D堆积面积图
-- 3D 100% 堆积面积图
-#### **甜甜圈图**
-圆环图类似于饼图，主要用于显示数据的比例对整体的贡献。
+- Simple area chart
+- Stacked area chart
+- 100% stacked area chart
+- 3D area chart
+- 3D stacked area chart
+- 3D 100% stacked area chart
+#### **圆环图**
+圆环图类似于饼图，主要用于显示数据的比例如何对整体产生影响。
 
-**Microsoft Excel 支持圆环图** 
+**Microsoft Excel支持的环形饼图** 
 
-![待办事项：图片_替代_文本](chart-types_7.png)
+![todo:image_alt_text](chart-types_7.png)
 
-Aspose.Cells 支持以下圆环图：
+Aspose.Cells支持以下圆环图：
 
-- 简单的圆环图
-- 爆炸甜甜圈图
+- Simple doughnut chart
+- Exploded doughnut chart
 #### **雷达图**
-当您想查看与一个项目相关的多个不同因素时，雷达图最有用。这些图表有多个轴，可以沿着这些轴绘制数据。
+雷达图在您想要查看与一项相关的几个不同因素时非常有用。这些图表有多个轴，可以沿着这些轴绘制数据。
 
-**Microsoft Excel 中支持的雷达图** 
+**Microsoft Excel支持的雷达图** 
 
-![待办事项：图片_替代_文本](chart-types_8.png)
+![todo:image_alt_text](chart-types_8.png)
 
-Aspose.Cells 支持以下雷达图：
+下面的雷达图在Aspose.Cells中受支持:
 
-- 简单的雷达图
-- 带有数据标记的雷达图
-- 填充雷达图
-#### **表面 3D 图表**
-与其他 3D 图表一样，曲面 3D 图表基于 X、Y 和 Z 轴。这些图表可用于显示“Z”变量根据其他两个变量“X”和“Y”的变化。
+- Simple radar chart
+- Radar chart with data markers
+- Filled radar chart
+#### **表面3D图表**
+与其他3D图表一样，表面3D图表基于X、Y和Z轴。这些图表有助于显示根据另外两个变量“X”和“Y”中的"Z"变量的变化。
 
-**Microsoft Excel 支持的表面 3D 图表** 
+**Microsoft Excel支持的表面3D图表** 
 
-![待办事项：图片_替代_文本](chart-types_9.png)
+![todo:image_alt_text](chart-types_9.png)
 
-Aspose.Cells 支持以下表面 3D 图表：
+Aspose.Cells支持以下表面3D图表:
 
-- 3D曲面图
-- 线框 3D 曲面图
-- 表面等高线图
-- 线框等高线图
+- 3D surface chart
+- Wireframe 3D surface chart
+- Surface contour chart
+- Wireframe contour chart
 #### **气泡图**
-气泡图是散点图的变体，其中数据点被替换为气泡。如果您的数据具有三个数据系列，每个数据系列都包含一组值，则可以使用气泡图代替散点图。气泡图主要用于显示财务数据。
+气泡图是散点图的一种变体，其中数据点被气泡代替。如果您的数据包含三个包含一组值的数据系列，可以使用气泡图代替散点图。气泡图主要用于显示财务数据。
 
-**Microsoft Excel 中支持的气泡图** 
+**Microsoft Excel支持的气泡图** 
 
-![待办事项：图片_替代_文本](chart-types_10.png)
+![todo:image_alt_text](chart-types_10.png)
 
-Aspose.Cells 支持以下气泡图：
+Aspose.Cells支持以下气泡图:
 
-- 简单气泡图
-- 3D气泡图
-#### **股票图表**
-股票图表主要用于股票价格数据，但也可用于科学数据。
+- Simple bubble chart
+- 3D bubble chart
+#### **股票图**
+股票图主要用于股票价格数据，但也可用于科学数据.
 
-**Microsoft Excel 支持的股票图表** 
+**Microsoft Excel支持的股票图** 
 
-![待办事项：图片_替代_文本](chart-types_11.png)
+![todo:image_alt_text](chart-types_11.png)
 
-Aspose.Cells 支持以下股票图表：
+Aspose.Cells支持以下股票图:
 
-- 高低收盘图
-- 开高低收股票图
-- 成交量高低收盘图
-- 成交量-开盘-高-低-收股票图
+- High-low-close stock chart
+- Open-high-low-close stock chart
+- Volume-high-low-close stock chart
+- Volume-open-high-low-close stock chart
 #### **圆柱图**
-这些图表类型使用圆柱数据标记为柱形图、条形图和 3D 柱形图提供戏剧性的效果。
+这些图表类型使用圆柱形数据标记，可为柱状图、条形图和3D柱状图增添戏剧效果。
 
-**Microsoft Excel 中支持的柱面图** 
+**Microsoft Excel支持的圆柱图** 
 
-![待办事项：图片_替代_文本](chart-types_12.png)
+![todo:image_alt_text](chart-types_12.png)
 
-Aspose.Cells 支持以下柱面图：
+Aspose.Cells支持以下圆柱图:
 
-- 简单的圆柱图
-- 堆积柱面图
-- 100% 堆积柱面图
-- 圆柱条形图
-- 堆积柱形条形图
-- 100% 堆叠圆柱形条形图
-- 3D圆柱柱形图
-#### **圆锥图**
-这些图表类型使用锥形数据标记为柱形图、条形图和 3D 柱形图提供戏剧性的效果。
+- Simple cylinder chart
+- Stacked cylinder chart
+- 100% stacked cylinder chart
+- Cylindrical bar chart
+- Stacked cylindrical bar chart
+- 100% stacked cylindrical bar chart
+- 3D cylindrical column chart
+#### **锥形图**
+这些图表类型使用锥形数据标记，给柱状图、条形图和3D柱状图带来戏剧效果。 
 
-![待办事项：图片_替代_文本](chart-types_13.png)
+![todo:image_alt_text](chart-types_13.png)
 
 
-**Microsoft Excel 中支持的圆锥图**
+**Microsoft Excel支持的圆锥图**
 
-Aspose.Cells 支持以下圆锥图：
+Aspose.Cells支持以下锥形图表:
 
-- 简单圆锥图
-- 堆叠圆锥图
-- 100% 堆叠圆锥图
-- 锥形条形图
-- 堆积锥形条形图
-- 100% 堆积锥形条形图
-- 3D 锥形柱形图
+- Simple cone chart
+- Stacked cone chart
+- 100% stacked cone chart
+- Conical bar chart
+- Stacked conical bar chart
+- 100% stacked conical bar chart
+- 3D conical column chart
 #### **金字塔图表**
-这些图表类型使用金字塔数据标记为柱形图、条形图和 3D 柱形图赋予戏剧性的效果。
+这些图表类型使用金字塔数据标记，给柱状图、条形图和3D柱状图带来戏剧效果。
 
-**Microsoft Excel 中支持的金字塔图表** 
+**Microsoft Excel支持的金字塔图** 
 
-![待办事项：图片_替代_文本](chart-types_14.png)
+![todo:image_alt_text](chart-types_14.png)
 
-Aspose.Cells 支持以下金字塔图：
+Aspose.Cells支持以下金字塔图表:
 
-- 简单金字塔图
-- 堆积金字塔图
-- 100% 堆积金字塔图
-- 金字塔条形图
-- 堆积金字塔条形图
-- 100% 堆叠金字塔条形图
-- 3D金字塔柱形图
-#### **树形图**
-树形图提供了数据的分层视图，可以轻松发现模式，例如哪些商品是商店的畅销商品。树枝由矩形表示，每个子树枝显示为较小的矩形。树形图按颜色和邻近度显示类别，并且可以轻松显示大量数据，而其他图表类型很难显示这些数据。
+- Simple pyramid chart
+- Stacked pyramid chart
+- 100% stacked pyramid chart
+- Pyramid bar chart
+- Stacked pyramid bar chart
+- 100% stacked pyramid bar chart
+- 3D pyramid column chart
+#### **树状图**
+树状图提供了数据的分层视图，帮助用户发现模式，比如哪些商品是店铺的畅销商品。树形分支由矩形表示，每个子分支显示为较小的矩形。树状图通过颜色和相似性显示类别，并可以轻松显示大量数据，其他图表类型难以做到这一点。
 
-Aspose.Cells 支持树形图。
+Aspose.Cells支持树状图。
 
-#### **旭日图**
-旭日图非常适合显示分层数据。层次结构的每一层都由一个环或圆圈表示，最内层的圆圈作为层次结构的顶部。没有任何层次数据（一级类别）的旭日图看起来类似于圆环图。但是，具有多级类别的旭日图显示了外环与内环的关系。旭日图最有效地显示了一个环是如何分解成它的贡献部分的，而另一种类型的层次图，树状图，是比较相对大小的理想选择。
+#### **日光辐射图**
+旭日图适用于显示分层数据。每个层次的数据由一个环或圆表示，最内圈为层次结构的顶部。一个没有任何分层数据的旭日图（一级类别）看起来类似于一个甜甜圈图表。然而，具有多个类别级别的旭日图表显示了外部环与内部环的关系。旭日图最有效地显示了一个环是如何被分解成其组成部分的，而另一种层次图表，树状图表，则适合用来比较相对大小。
 
-Aspose.Cells 支持旭日图。
+Aspose.Cells支持旭日图。
 
-#### **直方图**
-直方图是显示频率数据的柱形图。
+#### **直方图图表**
+直方图是显示频率数据的柱状图。
 
-Aspose.Cells 支持以下雷达图：
+下面的雷达图在Aspose.Cells中受支持:
 
-- 直方图
-- 帕累托图
+- Histogram chart
+- Pareto chart
 
-#### **盒须图**
-盒须图显示数据在四分位数中的分布，突出显示均值和离群值。这些盒子可能有垂直延伸的线条，称为“晶须”。这些线表示上四分位数和下四分位数之外的可变性，并且这些线或晶须之外的任何点都被视为异常值。
+#### **箱式图**
+箱式图显示数据分布到四分位数，突出均值和离群值。箱子可能有垂直延伸的线，称为``天顶”。这些线表示超出上下四分位数的变化，超出这些线或天顶的任何点都被认为是离群值。
 
-Aspose.Cells 支持盒须图。
+箱式图在Aspose.Cells中受支持。
 
 #### **瀑布图**
-瀑布图显示了随着值的增加或减少而运行的总计。它有助于了解初始值（例如，净收入）如何受到一系列正值和负值的影响。
+瀑布图显示随着值的增加或减少而形成的累积总数。它有助于了解一个初始值（例如，净收入）如何受一系列正负值的影响。
 
-Aspose.Cells 支持瀑布图。
+瀑布图在Aspose.Cells中受支持。
 
 ### **自定义图表类型**
-自定义图表允许您创建具有自定义格式的图表，这些格式也可以应用于其他图表。在这里，我们只讨论了标准图表。如果您想了解有关自定义图表的更多详细信息，请阅读[创建自定义图表](/cells/zh/java/creating-and-customizing-charts/#creatingandcustomizingcharts-usingchartingobjects)介绍如何创建自定义图表的文章。
+自定义图表允许您创建具有自定义格式的图表，这些格式也可应用于其他图表。在这里，我们只讨论了标准图表。如果您想了解更多关于自定义图表的详细信息，请阅读【创建自定义图表】(/cells/zh/java/creating-and-customizing-charts/#creatingandcustomizingcharts-usingchartingobjects) 文章，该文章描述了如何创建自定义图表。

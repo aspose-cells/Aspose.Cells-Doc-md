@@ -1,15 +1,16 @@
-﻿---
-title: 在 PHP 中将工作表转换为 SVG
+---
+title: 在PHP中将工作表转换为SVG
 type: docs
 weight: 60
 url: /zh/java/converting-worksheet-to-svg-in-php/
 ---
-## **Aspose.Cells - 将工作表转换为 SVG**
-要在 PHP 中使用 Aspose.Cells for Java 将工作表转换为 SVG，只需调用工作表_到_Converter 模块的 svg() 方法。
+
+## **Aspose.Cells - 将工作表转换为SVG**
+要在PHP中使用Aspose.Cells for Java将工作表转换为SVG，只需调用Converter模块的worksheet_to_svg()方法。
 
 **PHP代码**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $saveFormat = new SaveFormat();
 
@@ -55,6 +56,6 @@ for($i=0; $i < $sheetCount; $i++)
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**将工作表转换为 SVG (Aspose.Cells)**来自以下任何社交编码网站：
+从以下任一社交编码网站下载**将工作表转换为SVG（Aspose.Cells）**：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ConvertingWorksheetToSVG.php)

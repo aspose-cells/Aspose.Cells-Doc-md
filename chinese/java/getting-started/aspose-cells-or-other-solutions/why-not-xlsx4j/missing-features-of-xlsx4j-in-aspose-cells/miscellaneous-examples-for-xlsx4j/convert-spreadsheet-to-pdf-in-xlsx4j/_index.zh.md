@@ -1,15 +1,16 @@
-﻿---
-title: 在 xlsx4j 中将电子表格转换为 PDF
+---
+title: 在xlsx4j中将电子表格转换为PDF
 type: docs
 weight: 10
 url: /zh/java/convert-spreadsheet-to-pdf-in-xlsx4j/
 ---
-## **Aspose.Cells - 将 XLS 转换为 PDF**
-PDF文件被广泛用作组织、政府部门和个人之间交换文件的标准格式。软件开发人员经常被要求设计一种方法来轻松地将 Microsoft Excel 文件转换为 PDF 文档。 Aspose.Cells 支持此功能。
+
+## **Aspose.Cells - 将XLS转换为PDF**
+PDF文档被广泛用作组织、政府部门和个人之间交换文档的标准格式。软件开发人员经常被要求设计一种简单将Microsoft Excel文件转换为PDF文档的方法。Aspose.Cells支持此功能。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook workbook = new Workbook(dataDir + "workbook.xls");
 
@@ -25,6 +26,6 @@ workbook.save(dataDir + "AsposeConvert.pdf", SaveFormat.PDF);
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[将 Excel 转换为 PDF 文件](/java/converting-excel-to-pdf-files).
+有关更多详细信息，请访问【将Excel转换为PDF文件】(/java/converting-excel-to-pdf-files)。
 
 {{% /alert %}}

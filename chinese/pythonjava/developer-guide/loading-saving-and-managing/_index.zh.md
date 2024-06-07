@@ -1,5 +1,5 @@
-﻿---
-title: 打开、保存和管理 Excel 文件
+---
+title: 打开，保存和管理Excel文件
 linktitle: 加载、保存和管理
 type: docs
 weight: 20

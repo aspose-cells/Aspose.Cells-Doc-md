@@ -1,20 +1,21 @@
-﻿---
+---
 title: 将日期转换为日本日期
 type: docs
 weight: 350
 url: /zh/net/convert-dates-to-japanese-dates/
 ---
+
 {{% alert color="primary" %}} 
 
-在日本** **日历中，新时代开始于新天皇的统治。 2019 年 5 月 1 日，新天皇上台，平成时代结束，令和时代开始。
+在日本的历法中，新时代始于新天皇的即位。2019年5月1日，一个新的天皇宣布即位，平成时代结束，令和时代开始。
 
 {{% /alert %}} 
 
 
 
- Aspose.Cells 提供了一种将公历日期转换为日本日期的方法。在这个转换过程中，也考虑到了时代的变化。以下代码片段将[源Excel](90112015.xlsx)包含公历日期的文件[输出 PDF](90112016.pdf)日本日期如下图所示。
+Aspose.Cells提供了一种将公元日期转换为日本日期的方法。在此转换过程中，也考虑到了年代的变化。以下代码片段将包含公元日期的[源Excel](90112015.xlsx)文件转换为展示日本日期的[输出PDF](90112016.pdf)，如下图所示。
 
-![待办事项：图片_替代_文本](convert-dates-to-japanese-dates_1.jpg)
+![todo:image_alt_text](convert-dates-to-japanese-dates_1.jpg)
 
 
 

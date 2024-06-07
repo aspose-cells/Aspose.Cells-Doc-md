@@ -1,24 +1,25 @@
-﻿---
-title: 在 xlsx4j 中追踪先例和从属
+---
+title: 在xlsx4j中跟踪前驱和依赖项
 type: docs
 weight: 70
 url: /zh/java/tracing-precedents-and-dependents-in-xlsx4j/
 ---
-## **Aspose.Cells - 追踪先例和家属**
-复杂的财务工作表，尤其是合作开发的财务工作表，可能会隐藏最令人尴尬的错误。当公式使用引用单元格和依赖单元格时，检查公式的准确性和查找错误来源可能很困难。
 
-- **判例单元格**是由另一个 Cell 中的公式引用的单元格。例如，如果单元格 D10 包含公式 =B5，则单元格 B5 是单元格 D10 的先例。
-- **依赖细胞**包含引用其他单元格的公式。例如，如果单元格 D10 包含公式 =B5，则单元格 D10 是单元格 B5 的从属单元格。
+## **Aspose.Cells - 跟踪前驱和依赖项**
+特别是在协作开发的复杂财务工作表中，可能会隐藏最尴尬的错误。当公式使用前置单元格和后置单元格时，检查公式的准确性并找到错误来源可能会变得困难。
 
-为了使电子表格易于阅读，您可能希望清楚地显示电子表格中的哪些单元格用于公式。同样，您可能想要提取其他单元格的依赖单元格。
+- **前驱单元格**是被另一个单元格公式引用的单元格。例如，如果单元格D10包含公式=B5，则单元格B5是单元格D10的前导。
+- **依赖单元格**包含引用其他单元格的公式。例如，如果单元格D10包含公式=B5，则单元格D10是单元格B5的依赖项。
 
-Aspose.Cells 允许您跟踪单元格并找出链接的单元格。
+为了使电子表格易于阅读，您可能希望清楚地显示电子表格上使用的公式单元格。同样，您可能希望提取其他单元格的后置单元格。
 
-追溯先例
+Aspose.Cells允许您跟踪单元格并找出哪些单元格是链接的。
+
+跟踪先行
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -84,21 +85,21 @@ if(ret != null)
 
 {{< /highlight >}}
 
-追踪家属
+跟踪从属
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- //获取A1单元格
+ //Get the A1 cell
 
 Cell c = cells.get("A5");
 
-//获取A5单元格的所有Dependents
+//Get the all the Dependents of A5 cell
 
-Cell[]dependents = c.getDependents(true);
+Cell[] dependents = c.getDependents(true);
 
-对于 (int i = 0; i< dependents.length; i++)
+for (int i = 0; i< dependents.length; i++)
 
 {
 
@@ -114,6 +115,6 @@ Cell[]dependents = c.getDependents(true);
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[追踪先例和家属](/java/tracing-precedents-and-dependents).
+有关更多详细信息，请访问【跟踪前驱和依赖项】(/java/tracing-precedents-and-dependents)。
 
 {{% /alert %}}

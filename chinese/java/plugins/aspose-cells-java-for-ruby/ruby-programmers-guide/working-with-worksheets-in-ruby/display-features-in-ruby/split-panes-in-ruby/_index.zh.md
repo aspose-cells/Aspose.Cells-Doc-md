@@ -1,15 +1,16 @@
-﻿---
-title: 在 Ruby 中拆分窗格
+---
+title: 在Ruby中拆分窗格
 type: docs
 weight: 80
 url: /zh/java/split-panes-in-ruby/
 ---
-## **Aspose.Cells - 拆分窗格**
-拆分窗格使用**Aspose.Cells Java 红宝石** 只需调用**分割面板**模块。
 
-**红宝石代码**
+## **Aspose.Cells - 分割窗格**
+要使用**Aspose.Cells Java for Ruby**拆分窗格，只需调用**SplitPanes**模块。
 
-{{< highlight "ruby" >}}
+**Ruby代码**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -33,6 +34,6 @@ puts "Panes split successfully."
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**拆分窗格 (Aspose.Cells)**来自以下任何社交编码网站：
+从下面列出的任何社交编码站点下载**拆分窗格（Aspose.Cells）**。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/splitpanes.rb)

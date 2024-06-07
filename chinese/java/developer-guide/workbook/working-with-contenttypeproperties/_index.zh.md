@@ -1,14 +1,15 @@
-﻿---
-title: 使用 ContentTypeProperties
+---
+title: 处理 ContentTypeProperties
 type: docs
 weight: 140
 url: /zh/java/working-with-contenttypeproperties/
 ---
-Aspose.Cells提供[**工作簿.ContentTypeProperties.Add**](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add(java.lang.Object)) 方法将自定义 ContentTypeProperties 添加到 excel 文件。您还可以通过设置[**ContentTypeProperty.IsNillable**](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypeproperty#IsNillable)财产给**真的**.以下代码片段演示了将可选的自定义 ContentTypeProperties 添加到 excel 文件。下图显示了示例代码添加的两个属性。
 
-![待办事项：图片_替代_文本](working-with-contenttypeproperties_1.jpg)
+Aspose.Cells提供了[**Workbook.ContentTypeProperties.Add**](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add(java.lang.Object))方法来向Excel文件添加自定义ContentTypeProperties。您还可以通过将[**ContentTypeProperty.IsNillable**](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypeproperty#IsNillable)属性设置为**true**，使属性成为可选。以下代码片段演示了向Excel文件添加可选自定义ContentTypeProperties。以下图片显示了由示例代码添加的两个属性。
 
-附上示例代码生成的输出文件，供参考。
+![todo:image_alt_text](working-with-contenttypeproperties_1.jpg)
+
+示例代码生成的输出文件已附上供参考。
 
 [输出文件](WorkingWithContentTypeProperties_out.xlsx)
 

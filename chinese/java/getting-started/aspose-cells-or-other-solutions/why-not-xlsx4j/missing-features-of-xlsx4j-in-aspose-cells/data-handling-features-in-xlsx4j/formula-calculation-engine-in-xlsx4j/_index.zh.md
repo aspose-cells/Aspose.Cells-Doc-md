@@ -1,15 +1,16 @@
-﻿---
-title: xlsx4j中的公式计算引擎
+---
+title: 在 xlsx4j 中的公式计算引擎
 type: docs
 weight: 40
 url: /zh/java/formula-calculation-engine-in-xlsx4j/
 ---
+
 ## **Aspose.Cells - 公式计算引擎**
-Aspose.Cells中嵌入了公式计算引擎，它不仅可以对从设计器电子表格文件中导入的公式进行重新计算，还支持计算运行时添加的公式的结果。
+公式计算引擎嵌入在 Aspose.Cells 中。它不仅可以重新计算从设计师电子表格文件中导入的公式，还支持计算在运行时添加的公式的结果。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -65,6 +66,6 @@ book.save(dataDir + "AsposeFormulaEngine.xls");
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[公式计算引擎](/cells/zh/java/formula-calculation-engine-in-aspose-cells).
+要了解更多详情，请访问[公式计算引擎](/cells/zh/java/formula-calculation-engine-in-aspose-cells)。
 
 {{% /alert %}}

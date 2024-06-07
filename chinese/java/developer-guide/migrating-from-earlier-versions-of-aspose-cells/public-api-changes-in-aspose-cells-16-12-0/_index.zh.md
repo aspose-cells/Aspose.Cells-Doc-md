@@ -1,23 +1,24 @@
-﻿---
-title: 公共 API Aspose.Cells 16.12.0 的变化
+---
+title: Aspose.Cells 16.12.0中的公共API更改
 type: docs
 weight: 370
 url: /zh/java/public-api-changes-in-aspose-cells-16-12-0/
 ---
+
 {{% alert color="primary" %}} 
 
-本文档描述了 Aspose.Cells API 从版本 16.11.0 到 16.12.0 的变化，模块/应用程序开发人员可能会感兴趣。它不仅包括新的和更新的公共方法、添加和删除的类等，还包括对 Aspose.Cells 中幕后行为的任何更改的描述。
+本文档描述了从版本16.11.0到16.12.0的Aspose.Cells API的变化，这可能对模块/应用程序开发人员感兴趣。它不仅包括新的和更新的公共方法，添加和删除的类等，还描述了Aspose.Cells背后行为的任何更改。
 
 {{% /alert %}} 
-## **添加的 API**
+## **已添加API**
 ### **在加载时过滤对象**
-Aspose.Cells 16.12.0 公开了 LoadFilter 类和 LoadOptions.LoadFilter 属性，它们一起可以控制在从模板文件初始化工作簿实例时要加载的数据类型。
+Aspose.Cells 16.12.0已经公开了LoadFilter类以及LoadOptions.LoadFilter属性，可以一起控制在从模板文件初始化工作簿实例时要加载的数据类型。
 
-这是一个简单的使用场景，仅从模板文件加载文档属性。
+以下是从模板文件中仅加载文档属性的简单使用场景。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of LoadOptions class
 
@@ -39,11 +40,11 @@ Workbook book = new Workbook(dir + "sample.xlsx", options);
 
 {{< /highlight >}}
 
-以下代码段从现有电子表格加载除图表之外的所有内容。
+以下片段从现有电子表格中加载所有内容，除了图表。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of LoadOptions class
 
@@ -65,11 +66,11 @@ Workbook book = new Workbook(dir + "sample.xlsx", options);
 
 {{< /highlight >}}
 
-以下代码仅加载现有电子表格中的单元格数据（以及公式）和格式。
+以下代码仅从现有电子表格中加载单元格数据（包括公式）和格式。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of LoadOptions class
 
@@ -90,14 +91,14 @@ options.setLoadFilter(filter);
 Workbook book = new Workbook(dir + "sample.xlsx", options);
 
 {{< /highlight >}}
-### **添加了 FileFormatType.OTS 枚举**
-Aspose.Cells 16.12.0 已将 OTS 条目添加到 FileFormatType 枚举中，以检测 OTS 文件的格式。
+### **添加了FileFormatType.OTS枚举。**
+Aspose.Cells 16.12.0已向FileFormatType枚举中添加了OTS条目，用于检测OTS文件的格式。
 
-以下代码段使用了 FileFormatType.OTS。
+以下片段利用了FileFormatType.OTS。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Detect the format of the file
 
@@ -116,20 +117,20 @@ if(fileFormatInfo.getFileFormatType() == FileFormatType.OTS);
 }
 
 {{< /highlight >}}
-### **添加了 BuiltInDocumentPropertyCollection.ScaleCrop 属性**
-Aspose.Cells 16.12.0 已将 ScaleCrop 属性添加到 BuiltInDocumentPropertyCollection 类。 ScaleCrop 表示文档缩略图的显示方式。将此元素设置为 true 可以根据显示缩放文档缩略图，而将其设置为 false 可以裁剪文档缩略图以显示适合显示的部分。
-### **添加了 BuiltInDocumentPropertyCollection.LinksUpToDate 属性**
-Aspose.Cells 16.12.0 还公开了 BuiltInDocumentPropertyCollection 类的 LinksUpToDate 属性。 LinksUpToDate 属性指示文档中的超链接是否是最新的。
-### **添加了 Workbook.exportXml 方法**
-Aspose.Cells 16.12.0 公开了允许将 XML 映射数据存储到指定文件路径的 Workbook.exportXml 方法。 Workbook.exportXml 方法接受 2 个参数，其中字符串类型的第一个参数应该是 XML 映射名称，第二个参数应该是存储 XML 数据的文件路径位置。
-### **添加了 WorksheetCollection.createRange 方法**
-Aspose.Cells 16.12.0 添加了 WorksheetCollection.createRange 方法，允许基于地址（单元格区域引用）和工作表索引创建范围。
+### **添加了BuiltInDocumentPropertyCollection.ScaleCrop属性。**
+Aspose.Cells 16.12.0已向BuiltInDocumentPropertyCollection类添加了ScaleCrop属性。ScaleCrop指示文档缩略图的显示模式。将此元素设置为true可根据显示缩放文档缩略图，而将其设置为false会裁剪文档缩略图以显示适合显示的部分。
+### **添加了BuiltInDocumentPropertyCollection.LinksUpToDate属性。**
+Aspose.Cells 16.12.0还为BuiltInDocumentPropertyCollection类公开了LinksUpToDate属性。LinksUpToDate属性指示文档中的超链接是否是最新的。 
+### **添加了Workbook.exportXml方法**
+Aspose.Cells 16.12.0已公开了Workbook.exportXml方法，允许将XML映射数据存储到指定文件路径。Workbook.exportXml方法接受2个参数，第一个参数应为string类型的XML映射名称，第二个参数应为文件路径位置，用于存储XML数据。
+### **添加了WorksheetCollection.createRange方法**
+Aspose.Cells 16.12.0添加了WorksheetCollection.createRange方法，允许基于地址（单元格区域参考）和工作表索引创建范围。
 
-以下代码段使用 WorksheetCollection.createRange 方法在第一个（默认）工作表中创建跨越 A1 到 A2 的一系列单元格。
+以下代码段利用WorksheetCollection.createRange方法在第一（默认）工作表中创建跨越A1至A2的单元格范围。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -146,29 +147,29 @@ WorksheetCollection sheets = book.getWorksheets();
 Range range = sheets.createRange("A1:A2", 0);
 
 {{< /highlight >}}
-## **过时的 API**
-### **废弃的 LoadOptions.LoadDataOptions 属性**
-请使用 LoadOptions.LoadFilter 属性作为替代。
-### **废弃的 LoadOptions.LoadDataFilterOptions 属性**
-请改用 LoadOptions.LoadFilter 属性。
-### **废弃的 LoadOptions.OnlyLoadDocumentProperties 属性**
-请使用 LoadOptions.LoadFilter 属性作为替代。
-### **废弃的 LoadOptions.LoadDataAndFormatting 属性**
-请改用 LoadOptions.LoadFilter 属性。
+## **已废弃的API**
+### **弃用的LoadOptions.LoadDataOptions属性**
+请使用LoadOptions.LoadFilter属性作为替代。
+### **弃用的LoadOptions.LoadDataFilterOptions属性**
+请使用LoadOptions.LoadFilter属性作为替代。
+### **弃用的LoadOptions.OnlyLoadDocumentProperties属性**
+请使用LoadOptions.LoadFilter属性作为替代。
+### **弃用的LoadOptions.LoadDataAndFormatting属性**
+请使用LoadOptions.LoadFilter属性作为替代。
 
 {{% alert color="primary" %}} 
 
-所有已过时的 API 的代码片段已在上面共享。
+上面已分享了所有弃用API的代码片段。
 
 {{% /alert %}}
-## **已删除的 API**
-### **删除的 DataLabels.Rotation 属性**
+## **已删除的API**
+### **已删除的DataLabels.Rotation属性**
 请改用 DataLabels.RotationAngle 属性。
-### **删除 Title.Rotation 属性**
+### **删除了 Title.Rotation 属性**
 请使用 Title.RotationAngle 属性作为替代。
-### **删除的 DataLabels.Background 属性**
-建议改用 DataLabels.BackgroundMode 属性。
-### **删除 DisplayUnitLabel.Rotation 属性**
+### **删除了 DataLabels.Background 属性**
+建议使用 DataLabels.BackgroundMode 属性。
+### **删除了 DisplayUnitLabel.Rotation 属性**
 请考虑使用 DisplayUnitLabel.RotationAngle 属性来实现相同的目标。
-### **删除了 Title.getCharacters 方法**
-请改用 Title.characters 方法。
+### **删除了Title.getCharacters方法**
+请改用Title.characters方法。

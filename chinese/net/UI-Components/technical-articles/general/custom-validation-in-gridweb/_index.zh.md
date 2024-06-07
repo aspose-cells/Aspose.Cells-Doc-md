@@ -1,22 +1,26 @@
 ---
-title: GridWeb 中的自定义验证
+title: GridWeb中的自定义验证
 type: docs
 weight: 90
-url: /zh/net/custom-validation-in-gridweb/
-keywords: validation,custom,server
+url: /zh/net/aspose-cells-gridweb/custom-validation-in-gridweb/
+keywords: GridWeb，验证，自定义，服务器
+description: 本文介绍了GridWeb中的自定义验证。
+
 ---
-##  **可能的使用场景**
-Aspose.Cells.GridWeb 提供了比单元格验证 API 中正常定义的验证类型。
-单元格中的正常验证类型：<https://docs.aspose.com/cells/net/data-validation/>
 
- GridWeb 演示中的正常验证用法：<https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/GridWeb.Net4/CSharp/Miscellaneous/Common/DataValidation.aspx.cs>
 
-在这里我们可以检查 GridValidationType：<https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridvalidationtype/>
+## **可能的使用场景**
+Aspose.Cells.GridWeb提供了比普通单元格验证API中定义的更多种类的验证。
+the normal validation type in cells :<https://docs.aspose.com/cells/net/data-validation/>
 
-下面是我们可以在 GridWeb 中使用的扩展验证
- 
+the normal validation usage in GridWeb demo: <https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/GridWeb.Net4/CSharp/Miscellaneous/Common/DataValidation.aspx.cs>
 
-##  **GridValidationType.DropDownList**
+here we can check GridValidationType: <https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridvalidationtype/>
+
+以下是可以在GridWeb中使用的扩展验证。
+
+
+## **GridValidationType.DropDownList**
 代码：
 ```C#
             // ExStart:AddDropDownListValidation
@@ -32,7 +36,7 @@ Aspose.Cells.GridWeb 提供了比单元格验证 API 中正常定义的验证类
 
             // Creating DropDownList validation for the "C1" cell
             var validation = cell.CreateValidation(GridValidationType.DropDownList, true);
-                        
+
             // Adding values to DropDownList validation
             var values = new System.Collections.Specialized.StringCollection();
             values.Add("Bachelor");
@@ -42,9 +46,9 @@ Aspose.Cells.GridWeb 提供了比单元格验证 API 中正常定义的验证类
 ```
 
 结果：
-![todo：验证结果](gridvalidation_dropdownlist.png) 
+![todo:the validation result](gridvalidation_dropdownlist.png) 
 
-##  **GridValidationType.FreeList**
+## **GridValidationType.FreeList**
 代码：
 ```C#
              GridValidation validationOfList = this.GridWeb1.ActiveSheet.Validations.Add("c1");
@@ -60,24 +64,24 @@ Aspose.Cells.GridWeb 提供了比单元格验证 API 中正常定义的验证类
 ```
 
 结果：
-![todo：验证结果](gridvalidation_freelist.png)  
+![todo:the validation result](gridvalidation_freelist.png)  
 
-##  **GridValidationType.CustomExpression**
+## **GridValidationType.CustomExpression**
 代码：
 ```C#
              var sheet = GridWeb1.ActiveSheet;
              GridCell cell = sheet.Cells["B1"];
              cell.PutValue("Please enter Date in cell C3 e.g. 2018-02-18");
-	    
+
              //Access cell B3 and add the Date Pattern
              cell = sheet.Cells["B3"];
              cell.PutValue("Date (yyyy-mm-dd):");
-	    
+
              // Access cell C3 and add to it custom expression validation to accept dates in yyyy-mm-dd format
              cell = sheet.Cells["C3"];
              var validation = cell.CreateValidation(GridValidationType.CustomExpression, true);
              validation.RegEx = @"\d{4}-\d{2}-\d{2}";
-	    
+
              //Set the column widths
              sheet.Cells.SetColumnWidth(1, 40);
              sheet.Cells.SetColumnWidth(2, 30);
@@ -86,22 +90,22 @@ Aspose.Cells.GridWeb 提供了比单元格验证 API 中正常定义的验证类
 	     // Assigning the name of JavaScript function to OnCellErrorClientFunction property of GridWeb
              GridWeb1.OnCellErrorClientFunction = "ValidationErrorFunction";
 ```
-在客户端页面添加javascript函数
+add javascript function in client page
 ```javascript
-   
+
          function ValidationErrorFunction()
         {
             // Showing an alert message where "this" refers to GridWeb
             console.log(this.id + ": Please correct your input error.");
         }
-   
+
 ```
 
 结果：
-输入无效值后
-![todo：验证结果](gridvalidation_customexpression.png)  
+after enter invalid value
+![todo:the validation result](gridvalidation_customexpression.png)  
 
-##  **GridValidationType.Boolean**
+## **GridValidationType.Boolean**
 代码：
 ```C#
  //add boolean validation at d1
@@ -109,13 +113,13 @@ Aspose.Cells.GridWeb 提供了比单元格验证 API 中正常定义的验证类
 ```
 
 结果：
-输入无效值后
-![todo：验证结果](gridvalidation_bool.png)  
+after enter invalid value 
+![todo:the validation result](gridvalidation_bool.png)  
 
-输入真值后
-![todo：验证结果](gridvalidation_bool2.png)  
+after enter true value 
+![todo:the validation result](gridvalidation_bool2.png)  
 
-##  **GridValidationType.DateTime**
+## **GridValidationType.DateTime**
 代码：
 ```C#
   //add DateTime validation at d3
@@ -123,9 +127,9 @@ Aspose.Cells.GridWeb 提供了比单元格验证 API 中正常定义的验证类
 ```
 
 结果：
-![todo：验证结果](gridvalidation_datetime.png)  
+![todo:the validation result](gridvalidation_datetime.png)  
 
-##  **GridValidationType.CheckBox**
+## **GridValidationType.CheckBox**
 代码：
 ```C#
    //add checkbox validation at d1
@@ -133,19 +137,19 @@ Aspose.Cells.GridWeb 提供了比单元格验证 API 中正常定义的验证类
 ```
 
 结果：
-![todo：验证结果](gridvalidation_checkbox.png)  
+![todo:the validation result](gridvalidation_checkbox.png)  
 
 
-##  **GridValidationType.CustomFunction**
+## **GridValidationType.CustomFunction**
 代码：
 ```C#
       //add boolean validation at d4
      GridValidation customValidation= GridWeb1.ActiveSheet.Cells[3, 3].CreateValidation(GridValidationType.CustomFunction, true);
      customValidation.ClientValidationFunction = "MyClientValidation";
 ```
-在客户端页面添加javascript函数
+add javascript function in client page
 ```javascript
-   
+
         function MyClientValidation(source, value)
         {
             if (Number(value) > 10000)
@@ -153,13 +157,13 @@ Aspose.Cells.GridWeb 提供了比单元格验证 API 中正常定义的验证类
             else
                 return false;
         }
-   
+
 ```
 
-结果：在 d4 输入无效值后
-![todo：验证结果](gridvalidation_customfunction.png)  
+result: after enter invalid value at d4
+![todo:the validation result](gridvalidation_customfunction.png)  
 
-##  **GridValidationType.CustomServerFunction**
+## **GridValidationType.CustomServerFunction**
 代码：
 ```C#
   //define server side validation class which implment GridCustomServerValidation and ISerializable
@@ -169,7 +173,7 @@ Aspose.Cells.GridWeb 提供了比单元格验证 API 中正常定义的验证类
         string s;
        void ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
        {
-         
+
            info.AddValue("s",s);
        }
        protected myservervalid(SerializationInfo info, StreamingContext context)
@@ -195,7 +199,7 @@ Aspose.Cells.GridWeb 提供了比单元格验证 API 中正常定义的验证类
             }
         }
     }
-         
+
         //add CustomServerFunction validation at G5 to G8
          GridValidation val = this.GridWeb1.ActiveSheet.Validations.Add(new GridCellArea(5,6, 8, 6));
          val.ValidationType = GridValidationType.CustomServerFunction;
@@ -204,9 +208,9 @@ Aspose.Cells.GridWeb 提供了比单元格验证 API 中正常定义的验证类
          val.ErrorMessage=("error message is here");
          val.ErrorTitle=("this is error title");
 ```
-在客户端页面添加javascript函数
+add javascript function in client page
 ```javascript
-   
+
         var lastselectvalue = null;
         var localvalue = {};
         function ValidationErrorClientFunctionCallback(cell,msg)
@@ -231,8 +235,8 @@ Aspose.Cells.GridWeb 提供了比单元格验证 API 中正常定义的验证类
             lastselectvalue = localvalue[key];
             setInnerText(cell.children[0], lastselectvalue);
         }
-   
+
 ```
-结果：在 g6 输入值后
-![todo：验证结果](gridvalidation_customserverfunction.png) 
+result: after enter value at g6
+![todo:the validation result](gridvalidation_customserverfunction.png) 
 

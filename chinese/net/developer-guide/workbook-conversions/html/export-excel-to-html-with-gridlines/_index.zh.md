@@ -1,16 +1,17 @@
-﻿---
-title: 使用 GridLines 将 Excel 导出到 HTML
+---
+title: 将Excel导出为带有网格线的HTML
 type: docs
 weight: 40
 url: /zh/net/export-excel-to-html-with-gridlines/
 ---
+
 {{% alert color="primary" %}} 
 
-如果您想使用 GridLines 将 Excel 文件导出到 HTML，请使用[HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportgridlines)属性并设置它**真的**.
+如果您想将Excel文件导出为带有网格线的HTML，请使用[HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportgridlines)属性，并将其设置为**true**。
 
 {{% /alert %}} 
-## **使用 GridLines 将 Excel 导出到 HTML**
-下面的示例代码创建一个工作簿并用一些值填充其工作表，然后在设置后以 HTML 格式保存它[HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportgridlines)到**真的**.
+## **将Excel导出为带有网格线的HTML**
+以下示例代码创建一个工作簿，将其工作表填充了一些值，然后在将[HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportgridlines)设置为**true**后，将其保存为HTML格式。
 
 
 

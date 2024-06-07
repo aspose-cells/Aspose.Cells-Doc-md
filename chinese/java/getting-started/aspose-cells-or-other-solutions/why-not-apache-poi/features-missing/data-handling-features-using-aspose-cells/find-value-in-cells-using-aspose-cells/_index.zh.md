@@ -1,15 +1,16 @@
-﻿---
-title: 使用 Aspose.Cells 在 Cells 中查找值
+---
+title: 使用Aspose.Cells查找单元格中的值
 type: docs
 weight: 10
 url: /zh/java/find-value-in-cells-using-aspose-cells/
 ---
-## **Aspose.Cells - 在 Cells 中寻找价值**
-在 Microsoft Excel 中，用户可以搜索包含特定数据的单元格。例如，点击**编辑**接着**寻找**打开搜索对话框。用户输入一个值并点击**好的**搜索它。 Excel 突出显示匹配字段。
+
+## **Aspose.Cells - 在单元格中查找值**
+在 Microsoft Excel 中，用户可以搜索包含特定数据的单元格。例如，单击 **编辑** ，然后单击 **查找** 打开搜索对话框。用户输入一个值然后单击 **确定** 来搜索它。Excel 会突出显示匹配字段。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -46,6 +47,6 @@ System.out.println("Name of the cell containing String: " + cell.getName());
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[查找或搜索数据](/cells/zh/java/find-or-search-data).
+要了解更多详情，请访问[查找或搜索数据](/cells/zh/java/find-or-search-data)。
 
 {{% /alert %}}

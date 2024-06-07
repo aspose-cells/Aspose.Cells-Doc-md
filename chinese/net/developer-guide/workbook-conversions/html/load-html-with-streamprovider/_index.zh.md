@@ -1,20 +1,21 @@
-﻿---
-title: 使用 StreamProvider 将 Html 加载到 Excel
+---
+title: 通过StreamProvider加载HTML到Excel
 type: docs
 weight: 80
 url: /zh/net/convert-html-to-excel-with-streamprovider/
 ---
+
 {{% alert color="primary" %}} 
 
-在加载包含外部资源的 html 字段时，我们经常面临以下两个问题：
-1. 加载html流时，无法通过相对路径获取html文件引用的图片和外部资源。
-1. 需要映射html文件中引用的外部资源路径
+当加载包含外部资源的HTML文件时，通常会遇到以下两个问题:
+1. 加载HTML流时，无法通过相对路径获得HTML文件引用的图像和外部资源。
+1. HTML文件中引用的外部资源路径需要映射
 
-这篇文章解释了如何实现[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider)用于设置的界面[HtmlLoadOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/streamprovider/)财产。通过实现这个接口，你将能够在加载Html流时加载外部资源或者这些外部资源是相对的。
+本文介绍了如何为设置HtmlLoadOptions.StreamProvider属性实现[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider)接口。通过实现此接口，您将能够在加载HTML流时加载外部资源或相对这些外部资源。
 
 {{% /alert %}} 
 
-这是显示用法的主要代码[HtmlLoadOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/streamprovider/)财产
+这是展示如何使用[HtmlLoadOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/streamprovider/) 属性的主要代码
 
 
 

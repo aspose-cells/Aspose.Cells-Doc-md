@@ -1,15 +1,16 @@
-﻿---
-title: 从数据表导入
+---
+title: 从DataTable导入
 type: docs
 weight: 40
 url: /zh/net/importing-from-datatable/
 ---
-开发人员可以从**数据表**通过调用他们的工作表**导入数据表**Cells采集方法。有许多重载版本**导入数据表**方法，但典型的重载采用以下参数：**数据表** , 代表**数据表**需要导入内容的对象
 
-- **是否显示字段名称**指定是否应将 DataTable 的列名称作为第一行导入工作表
-- **开始 Cell** 表示从中导入 DataTable 内容的起始单元格的名称（即“A1”）
+开发人员可以通过调用Cells集合的ImportDataTable方法将数据从DataTable导入到其工作表。ImportDataTable方法有许多重载版本，但是典型的重载版本接受以下参数:DataTable，表示需要导入其内容的DataTable对象
 
-{{< highlight "csharp" >}}
+- 是否显示字段名称，指定DataTable的列名是否应作为第一行导入到工作表中
+- 起始单元格，表示从哪个单元格（例如"A1"）开始导入DataTable的内容
+
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -41,11 +42,11 @@ DataRow dr = dataTable.NewRow();
 
 //Adding data to the row
 
-dr[0]= 1;
+dr[0] = 1;
 
-dr[1]= "Aniseed Syrup";
+dr[1] = "Aniseed Syrup";
 
-dr[2]= 15;
+dr[2] = 15;
 
 //Adding filled row to the DataTable object
 
@@ -57,11 +58,11 @@ dr = dataTable.NewRow();
 
 //Adding data to the row
 
-dr[0]= 2;
+dr[0] = 2;
 
-dr[1]= "Boston Crab Meat";
+dr[1] = "Boston Crab Meat";
 
-dr[2]= 123;
+dr[2] = 123;
 
 //Adding filled row to the DataTable object
 
@@ -80,4 +81,4 @@ workbook.Save("Import From Data Table.xls");
 {{< /highlight >}}
 ## **下载示例代码**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Import.to.Worksheet.Aspose.Cells.zip)
-- [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Import%20to%20Worksheet%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Import%20to%20Worksheet%20%28Aspose.Cells%29.zip)

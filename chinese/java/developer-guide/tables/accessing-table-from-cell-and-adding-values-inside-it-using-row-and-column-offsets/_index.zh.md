@@ -1,31 +1,32 @@
-﻿---
-title: 从 Cell 访问表并使用行和列偏移量在其中添加值
+---
+title: 访问表单元格并使用行和列偏移量在其中添加值
 type: docs
 weight: 110
 url: /zh/java/accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets/
 ---
+
 {{% alert color="primary" %}}
 
-通常，您在表或列表对象中添加值使用[**Cell.putValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#putValue(boolean)） 方法。但有时，您可能需要使用行和列偏移量在表或列表对象中添加值。
+通常，您使用 [**Cell.putValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#putValue(boolean)) 方法在表格或列表对象内添加值。 但有时，您可能需要使用行和列偏移在表格或列表对象内添加值。
 
-为了从单元格访问表或列表对象，使用[**Cell.getTable()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getTable() ） 方法。并使用行和列偏移量在其中添加值，使用[**ListObject.putCellValue(rowOffset,columnOffset,value)**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#putCellValue(int,%20int,%20java.lang.Object)） 方法。
+要从单元格访问表格或列表对象，请使用 [**Cell.getTable()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getTable()) 方法。 然后，使用 [**ListObject.putCellValue(rowOffset,columnOffset,value)**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#putCellValue(int,%20int,%20java.lang.Object)) 方法使用行和列偏移在其中添加值。
 
 {{% /alert %}}
 
-## 例子
+## 示例
 
 ### 比较源文件和输出文件的屏幕截图
 
-以下屏幕截图显示了代码中使用的源 Excel 文件。它包含空表并突出显示位于表内的单元格 D5。我们将从单元格 D5 使用访问此表[**Cell.getTable()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getTable() 方法，然后使用两者添加其中的值[**Cell.putValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#putValue(boolean)） 和[**ListObject.putCellValue(rowOffset,columnOffset,value)**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#putCellValue(int,%20int,%20java.lang.Object)） 方法。
+下面的屏幕截图显示了代码中使用的源 Excel 文件。 其中包含空表，并突出显示了位于表内的单元格 D5。我们将使用 [**Cell.getTable()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getTable()) 方法从单元格 D5 访问此表，然后使用 [**Cell.putValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#putValue(boolean)) 和 [**ListObject.putCellValue(rowOffset,columnOffset,value)**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#putCellValue(int,%20int,%20java.lang.Object)) 方法在其中添加值。
 
-![待办事项：图片_替代_文本](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_1.png)
+![todo:image_alt_text](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_1.png)
 
-以下屏幕截图显示了代码生成的输出 Excel 文件。如您所见，单元格 D5 有一个值，而位于表格偏移量 2,2 处的单元格 F6 有一个值。
+下面的截图显示了代码生成的输出Excel文件。正如您所看到的，单元格D5有一个值，表格内偏移为2,2的单元格F6也有一个值。
 
-![待办事项：图片_替代_文本](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_2.png)
+![todo:image_alt_text](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_2.png)
 
-### Java 从单元格访问表格并使用行和列偏移量在其中添加值的代码
+### 使用行和列偏移访问表格并在其中添加值的 Java 代码
 
-以下示例代码加载如上图所示的源 Excel 文件，并在表内添加值并生成如上所示的输出 Excel 文件。
+以下示例代码加载了上述截图中显示的源Excel文件，并在表内添加值，生成了如上所示的输出Excel文件。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AccessingTablefromCell-AccessingTablefromCell.java" >}}

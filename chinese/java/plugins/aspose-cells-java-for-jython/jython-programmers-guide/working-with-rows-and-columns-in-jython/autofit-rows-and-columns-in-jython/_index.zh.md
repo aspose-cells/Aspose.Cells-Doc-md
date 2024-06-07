@@ -1,15 +1,16 @@
-﻿---
-title: Jython 中的自动调整行和列
+---
+title: 在Jython中自适应行和列
 type: docs
 weight: 20
 url: /zh/java/autofit-rows-and-columns-in-jython/
 ---
-## **Aspose.Cells - 自动调整行和列**
-使用附加文档**Aspose.Cells Java 对于 Jython**.在这里您可以看到示例代码。
+
+## **Aspose.Cells - 自适应行和列**
+使用**Aspose.Cells Java for Jython**进行文档追加。这里您可以查看示例代码
 
 **Jython代码**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -102,6 +103,6 @@ if __name__ == '__main__':
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**附加文件 (Aspose.Cells)**来自以下任何社交编码网站：
+从以下任何社交编码网站下载**追加文档（Aspose.Cells）**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithRowsAndColumns/RowsAndColumns.py)

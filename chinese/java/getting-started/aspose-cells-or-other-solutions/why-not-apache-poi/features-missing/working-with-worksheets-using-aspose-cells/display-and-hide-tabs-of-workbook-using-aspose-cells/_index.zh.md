@@ -1,15 +1,16 @@
-﻿---
-title: 使用 Aspose.Cells 显示和隐藏工作簿的选项卡
+---
+title: 显示和隐藏工作簿的选项卡
 type: docs
 weight: 50
 url: /zh/java/display-and-hide-tabs-of-workbook-using-aspose-cells/
 ---
-## **Aspose.Cells - 工作簿的显示和隐藏选项卡**
-Aspose.Cells 提供了一个类 Workbook，它表示一个 Microsoft Excel 文件。 Workbook 类提供了广泛的属性和方法来管理 Excel 文件。要控制 Excel 文件中选项卡的可见性，开发人员可以使用 Workbook 类的 setShowTabs 方法。
+
+## **Aspose.Cells - 显示和隐藏工作簿的选项卡**
+Aspose.Cells提供一个代表Microsoft Excel文件的类 Workbook。Workbook 类为管理Excel文件提供了广泛的属性和方法。开发人员可以使用Workbook类的 setShowTabs 方法来控制Excel文件中选项卡的可见性。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object by excel file path
 

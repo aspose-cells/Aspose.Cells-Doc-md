@@ -1,23 +1,24 @@
-﻿---
-title: 合并或取消合并范围 Cells
+---
+title: 合并或拆分单元格范围
 type: docs
 weight: 70
 url: /zh/java/merge-or-unmerge-range-of-cells/
-description: 使用 Java 代码在 Excel 中的范围内合并和取消合并 Cells。
-keywords: java merge and unmerge cells in a range, java merge and unmerge cells in range, merge and unmerge cells in range with java, merge and unmerge cells in range using java, merge and unmerge cells in excel using java, merge and unmerge cells in excel with java, java merge and unmerge cells in excel, java merge cells in excel, java unmerge cells in excel, merge cells in range with java
+description: 在Excel中用Java代码合并和取消合并范围中的单元格。
+keywords: 在范围中用Java代码合并和拆分单元格，在范围中用Java代码合并和拆分单元格，在范围中用Java代码合并和拆分单元格，在范围中用Java代码合并和拆分单元格，在Excel中用Java代码合并和拆分单元格，在Excel中用Java代码合并和拆分单元格，在Excel中用Java代码合并单元格，Java代码拆分Excel中的单元格，Java代码拆分Excel中的单元格，在Java中范围内合并单元格
 ---
+
 {{% alert color="primary" %}}
 
-您可以使用 Aspose.Cells 合并或拆分一系列单元格。 Aspose.Cells 提供了[**范围.merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#merge() ） 和[**范围.unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#unMerge()) 方法用于此目的。本文介绍如何将一系列单元格合并为一个单元格。
+您可以使用Aspose.Cells合并或拆分一系列单元格。Aspose.Cells为此提供了[**Range.merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#merge())方法和[**Range.unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#unMerge())方法。本文解释了如何将一系列单元格合并成一个单元格。
 
 {{% /alert %}}
 
-下面的示例代码首先创建一个区域 - A1:D4 - 然后使用[**范围.merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#merge()） 方法。
-同样，可以通过创建范围并调用[**范围.unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#unMerge()） 方法。
+以下示例代码首先创建一个范围 - A1:D4 -，然后使用[**Range.merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#merge())方法将范围中的单元格合并为一个单元格。
+类似地，通过创建范围并调用[**Range.unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#unMerge())方法，可以拆分单元格。
 
-下图显示了使用示例代码生成的输出 Excel 文件。如您所见，A1:D4 区域已合并到一个单元格中。
+以下图片显示了使用示例代码生成的输出Excel文件。正如您所见，范围A1:D4已合并为一个单元格。
 
-![待办事项：图片_替代_文本](merge-or-unmerge-range-of-cells_1.png)
+![todo:image_alt_text](merge-or-unmerge-range-of-cells_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-MergeUnmergeRangeofCells-MergeUnmergeRangeofCells.java" >}}
 
@@ -25,6 +26,6 @@ keywords: java merge and unmerge cells in a range, java merge and unmerge cells 
 
 ## **相关文章**
 
-- [合并和拆分单元格](/cells/zh/java/merging-and-unmerging-cells/).
+- [合并和拆分单元格](/cells/zh/java/merging-and-unmerging-cells/)。
 
 {{% /alert %}}

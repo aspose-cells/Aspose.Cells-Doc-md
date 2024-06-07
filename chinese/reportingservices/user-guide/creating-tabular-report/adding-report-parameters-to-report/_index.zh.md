@@ -1,57 +1,58 @@
-﻿---
-title: 将报表参数添加到报表
+---
+title: 向报告添加报告参数
 type: docs
 weight: 60
 url: /zh/reportingservices/adding-report-parameters-to-report/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells' 报表模板支持将 Reporting Services 报表参数作为包含 Reporting Services 参数标记的单元格的数据源。请参阅[Aspose.Cells 模板和智能标记](/cells/zh/reportingservices/aspose-cells-template-and-smart-markers/)了解 Reporting Services 参数标记。报表参数通常放置在表头或表尾的文本区域。
+Aspose.Cells的报告模板支持将报告参数作为数据源的Reporting Services报告单元格，其中包含Reporting Services参数标记。请参阅[Aspose.Cells模板和智能标记](/cells/zh/reportingservices/aspose-cells-template-and-smart-markers/)，了解Reporting Services参数标记。报告参数通常放置在表头或页脚的文本区域中。
 
 {{% /alert %}} 
-### **添加报告参数**
-向报告添加报告参数：
+### **添加一个报表参数**
+要向报告添加报告参数：
 
-1. 选择一个单元格。
+1. 选择一个单元格。 
 
-   **选择一个单元格** 
+   **选择单元格** 
 
-![待办事项：图片_替代_文本](adding-report-parameters-to-report_1.png)
-
-
+![todo:image_alt_text](adding-report-parameters-to-report_1.png)
 
 
-1. 单击 Aspose.Cells.Report.Designer 工具栏上的插入公式 (
 
-![待办事项：图片_替代_文本](adding-report-parameters-to-report_2.png)
+
+1. 单击Aspose.Cells.Report.Designer工具栏上的插入公式（
+
+![todo:image_alt_text](adding-report-parameters-to-report_2.png)
 
 ).
 
-1. 选择**参数**从左侧的参数面板。
-所有参数都列在右侧面板中。
-1. 选择一个参数，在示例中，我们选择了 EmpID。
-1. 双击参数，使表达式出现在窗体顶部的编辑器中。
-一个参数有两个数据属性：label 和 value（默认属性是 value）。
+1. 从左侧的参数面板中选择**参数**。
+   所有参数都列在右侧面板中。 
+1. 选择一个参数，例如，我们选择了EmpID。
+1. 双击参数，使表单顶部的编辑器中显示表达式。
+   一个参数有两个数据属性：标签和值（默认属性为值）。 
 
    **选择参数** 
 
-![待办事项：图片_替代_文本](adding-report-parameters-to-report_3.png)
+![todo:image_alt_text](adding-report-parameters-to-report_3.png)
 
 
 
 
-1. 在示例中，参数的标签应显示在报告中，因此将表达式修改为 Parameters!EmpID.Label。
+1. 在示例中，报表应显示参数的标签，因此修改表达式为Parameters!EmpID.Label。 
 
    **修改参数** 
 
-![待办事项：图片_替代_文本](adding-report-parameters-to-report_4.png)
+![todo:image_alt_text](adding-report-parameters-to-report_4.png)
 
 
 
 
-1. 点击**好的**.
-所选单元格包含一个报告参数标记。
+1. 单击**确定**。
+   所选单元格包含了一个报告参数标记。 
 
-   **插入到单元格中的报告参数** 
+   **将报告参数插入到单元格中** 
 
-![待办事项：图片_替代_文本](adding-report-parameters-to-report_5.png)
+![todo:image_alt_text](adding-report-parameters-to-report_5.png)

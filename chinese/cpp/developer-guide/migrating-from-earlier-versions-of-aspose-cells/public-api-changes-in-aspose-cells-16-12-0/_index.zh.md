@@ -1,23 +1,24 @@
-﻿---
-title: 公共 API Aspose.Cells 16.12.0 的变化
+---
+title: Aspose.Cells 16.12.0中的公共API更改
 type: docs
 weight: 10
 url: /zh/cpp/public-api-changes-in-aspose-cells-16-12-0/
 ---
+
 {{% alert color="primary" %}} 
 
-本文档描述了 Aspose.Cells API 从版本 16.11.0 到 16.12.0 的变化，模块/应用程序开发人员可能会感兴趣。它不仅包括新的和更新的公共方法、添加和删除的类等，还包括对 Aspose.Cells 中幕后行为的任何更改的描述。
+本文档描述了从版本16.11.0到16.12.0的Aspose.Cells API的变化，这可能对模块/应用程序开发人员感兴趣。它不仅包括新的和更新的公共方法，添加和删除的类等，还描述了Aspose.Cells背后行为的任何更改。
 
 {{% /alert %}} 
-## **添加的 API**
+## **已添加API**
 ### **支持数据透视表**
-第二版 Aspose.Cells for C++ 支持数据透视表的创建和操作。 Aspose.Cells for C++ 提供表示数据透视表对象的 IPivotTable 类，而 IPivotTableCollection 表示数据透视表的集合。可以通过 IWorksheet 对象访问 IPivotTableCollection，并且可以在使用 IPivotTableCollection.Add 方法时将新的数据透视表添加到集合中。
+Aspose.Cells for C++的第二个版本支持创建和操作数据透视表。Aspose.Cells for C++提供了表示数据透视表对象的IPivotTable类，而IPivotTableCollection表示数据透视表的集合。可以通过IWorksheet对象访问IPivotTableCollection，并且可以通过IPivotTableCollection.Add方法向集合添加新的数据透视表。
 
-以下代码片段演示了使用 Aspose.Cells for C++ API 是多么简单[从头开始创建数据透视表](/cells/zh/cpp/create-pivot-table/).
+以下代码片段演示了使用Aspose.Cells for C++ API从头开始[创建数据透视表](/cells/zh/cpp/create-pivot-table/)的简便性。
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load the sample excel file
 
@@ -85,13 +86,13 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 
-除了创建新的数据透视表，Aspose.Cells for C++ API 还支持操作现有的数据透视表。 API目前支持更改数据透视表源范围内的数据，然后刷新。根据需要操作数据透视表后，最好使用 IPivotTable.RefreshData 和 IPivotTable.CalculateData 方法根据更新的数据源刷新数据透视表。
+除了创建新的数据透视表外，Aspose.Cells for C++ API还支持操作现有数据透视表。目前，该API支持更改数据透视表的源范围数据，然后刷新它。一旦按需操作数据透视表，最好使用IPivotTable.RefreshData和IPivotTable.CalculateData方法刷新根据更新的数据源数据更新数据透视表。
 
-以下代码片段使用 Aspose.Cells for C++ API 来[操纵现有的数据透视表](/cells/zh/cpp/manipulate-pivot-table/).
+以下代码片段使用Aspose.Cells for C++ API来[操作现有数据透视表](/cells/zh/cpp/manipulate-pivot-table/)。
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load the sample excel file
 
@@ -133,7 +134,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **支持条件格式规则**
-Aspose.Cells for C++ 现在可以通过公开 IFormatCondition 类向工作表添加条件格式设置规则。上述类还提供了以下方法来[应用条件格式规则](/cells/zh/cpp/apply-conditional-formatting-in-worksheet/)根据申请要求。
+Aspose.Cells for C++现在通过公开IFormatCondition类提供了向工作表添加条件格式规则的功能。前述类还提供以下方法，根据应用程序要求[应用条件格式规则](/cells/zh/cpp/apply-conditional-formatting-in-worksheet/)。
 
 - IFormatCondition.GetIAboveAverage
 - IFormatCondition.GetIColorScale
@@ -141,11 +142,11 @@ Aspose.Cells for C++ 现在可以通过公开 IFormatCondition 类向工作表�
 - IFormatCondition.GetIIconSet
 - IFormatCondition.GetITop10
 
-以下示例代码显示如何在单元格 A1 和 B2 上添加类型为 Cell 值的条件格式设置规则。
+以下示例代码演示了如何在单元格A1和B2上添加单元格值类型的条件格式规则。
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an empty workbook
 
@@ -191,11 +192,11 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **支持超链接**
-Aspose.Cells for C++ 现在支持[向工作表单元格添加超链接](/cells/zh/cpp/add-hyperlinks-to-the-cells/).为了提供此功能，Aspose.Cells for C++ 16.12.0 公开了可通过 IWorksheet 对象访问的 IHyperlinkCollection 类，而使用 IHyperlinkCollection.Add 方法可将超链接添加到集合中，如下所示。
+Aspose.Cells for C++ 现在支持[在工作表单元格中添加超链接](/cells/zh/cpp/add-hyperlinks-to-the-cells/)。为了提供此功能，Aspose.Cells for C++ 16.12.0已经暴露了IHyperlinkCollection类，该类可以通过IWorksheet对象访问，而在使用IHyperlinkCollection.Add方法时可以向集合中添加超链接，如下所示。
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a new workbook
 
@@ -225,18 +226,18 @@ wb->Save(dirPath->Append(new String("output.xlsx")), SaveFormat_Xlsx);
 
 {{< /highlight >}}
 ### **支持文档属性**
-Excel 应用程序支持 2 种类型的文档属性，如下所列。
+Excel应用程序支持以下两种类型的文档属性。
 
-- 系统定义（内置）属性：内置属性包含有关文档的一般信息，如文档标题、作者姓名、文档统计信息等。
-- 用户定义（自定义）属性：由最终用户以名称值对的形式定义的自定义属性。
+- 系统定义的(内置)属性：内置属性包含有关文档的一般信息，如文档标题、作者名称、文档统计信息等。
+- 用户自定义(自定义)属性：最终用户以名称值对的形式定义的自定义属性。
 
- Aspose.Cells for C++ 支持[管理两种类型的文档属性，内置和自定义](/cells/zh/cpp/managing-document-properties/)Aspose.Cells' IWorkbook 类表示一个 Excel 文件。要访问内置文档属性，请使用 IWorkbook.GetBuiltInDocumentProperties，而使用 IWorkbook.GetCustomDocumentProperties 方法可以访问自定义文档属性。
+Aspose.Cells for C++支持[管理内置和自定义文档属性](/cells/zh/cpp/managing-document-properties/)。Aspose.Cells的IWorkbook类表示一个Excel文件。为了访问内置文档属性，使用IWorkbook.GetBuiltInDocumentProperties，而可以使用IWorkbook.GetCustomDocumentProperties方法来访问自定义文档属性。
 
-以下示例代码加载现有示例电子表格并读取内置文档属性，例如标题、主题和名为 MyCustom1 的自定义属性。
+以下示例代码加载现有的示例电子表格并读取标题、主题和名为MyCustom1的自定义属性。
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load the sample excel file
 
@@ -285,14 +286,14 @@ wb->GetICustomDocumentProperties()->AddIDocumentProperty(strCustomPropName, strC
 wb->Save(outputPath);
 
 {{< /highlight >}}
-### **支持 ListObjects**
- Excel 表格是包含任意数量的行和列的单元格矩阵，而同一个表格在 Aspose.Cells for C++ API 中被称为列表对象。 Aspose::Cells::Tables 命名空间包含处理与列表对象相关的操作的所有必要类。最值得一提的类是 IListObject 和 IListObjectCollection，它们允许[创建和格式化列表对象](/cells/zh/cpp/create-and-format-table/)等等。
+### **支持ListObjects**
+Excel表是包含任意行和列数量的单元格矩阵，而相同表在Aspose.Cells for C++ API中被称为List Object。Aspose::Cells::Tables命名空间包含处理与List Objects相关操作的所有必要类。最值得一提的类包括IListObject和IListObjectCollection，它们允许[创建和格式化List Objects](/cells/zh/cpp/create-and-format-table/)等操作。
 
-以下示例代码加载示例电子表格文件，然后在 A1:H10 范围内创建一个列表对象（表），然后使用其各种方法显示小计。
+以下示例代码加载示例电子表格文件，然后在范围A1:H10内创建一个List Object(表)，然后利用其各种方法显示小计。
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load the sample excel file
 
@@ -336,13 +337,13 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **支持行和列分组**
-Aspose.Cells for C++ API 可用于在使用 ICells 类时对行和列进行分组，ICells 类基本上是给定工作表中所有单元格的集合。 ICells 类提供了 GroupRows 和 GroupColumns 方法，以便[对行和列进行分组](/cells/zh/cpp/group-rows-and-columns-of-worksheet/)分别。
+Aspose.Cells for C++ API可用于在ICells类中分组行和列，ICells类基本上是给定工作表中所有单元格的集合。ICells类提供了GroupRows和GroupColumns方法，分别用于[分组行和列](/cells/zh/cpp/group-rows-and-columns-of-worksheet/)。
 
 以下代码片段演示了上述两种方法的简单使用场景。
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an empty workbook
 
@@ -422,13 +423,13 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **支持主题**
-Aspose.Cells for C++ API 现在支持使用和操作 Excel 应用程序提供的主题。
-#### **能够应用自定义主题颜色**
-以下代码段尝试[使用自定义颜色创建新主题](/cells/zh/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/)对于工作簿。
+Aspose.Cells for C++ APIs现在支持使用和操作Excel应用程序提供的主题。
+#### **应用自定义主题颜色的能力**
+以下代码片段尝试为工作簿[创建一个具有自定义颜色的新主题](/cells/zh/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/)。
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a workbook
 
@@ -495,12 +496,12 @@ wb->CustomTheme(new String("AnyTheme"), clrs);
 wb->Save(outputPath);
 
 {{< /highlight >}}
-#### **支持主题颜色的操作**
-以下示例代码显示了如何[读取和修改工作簿的主题颜色](/cells/zh/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/).示例代码加载现有电子表格，读取其主题颜色，即 Accent1-Accent6，并在保存电子表格之前修改颜色。
+#### **支持主题颜色操作**
+以下示例代码展示了如何[读取和修改工作簿的主题颜色](/cells/zh/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/)。示例代码加载现有电子表格，读取其主题颜色即Accent1-Accent6，并在保存电子表格之前修改这些颜色。
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load the sample excel file
 
@@ -561,12 +562,12 @@ printf("Accent6: %x\r\n", (clr_Accent6->ToArgb())&0xffffff);
 wb->Save(outputPath);
 
 {{< /highlight >}}
-#### **跨工作簿复制主题的能力**
-以下示例代码显示了如何[将主题从一个工作簿复制到另一个](/cells/zh/cpp/copy-theme-from-one-workbook-to-another/)，这可能有助于在多个电子表格上应用内置或自定义主题。
+#### **能够在工作簿之间复制主题的能力**
+以下示例代码显示了如何[从一个工作簿复制主题到另一个工作簿](/cells/zh/cpp/copy-theme-from-one-workbook-to-another/)，这对于在多个电子表格上应用内置或自定义主题非常有用。
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Read excel file that has Damask theme applied on it
 
@@ -585,54 +586,54 @@ wb->CopyTheme(damask);
 wb->Save(outputPath, SaveFormat_Xlsx);
 
 {{< /highlight >}}
-## **重命名的 API**
-随着Aspose.Cells for C++ 16.12.0的发布，我们对一些方法进行了重命名以保持接口统一。所有重命名的 API 列表如下。
-#### **将 ICell::SetStyle 方法重命名为 ICell::SetIStyle**
-#### **将 ICell::SetCharacters 方法重命名为 ICell::SetIFontSettings**
-#### **将 ICellsColor::SetThemeColor 方法重命名为 ICellsColor::SetIThemeColor**
-#### **将 ICells::SetStyle 方法重命名为 ICells::SetIStyle**
-#### **将 ICellsHelper::GetDPI_i 方法重命名为 ICellsHelper::GetDPI**
-#### **将 ICellsHelper::SetDPI_i 方法重命名为 ICellsHelper::SetDPI**
-#### **将 ICellsHelper::GetVersion_i 方法重命名为 ICellsHelper::GetVersion**
-#### **将 ICellsHelper::IsProtectedByRMS_i 方法重命名为 ICellsHelper::IsProtectedByRMS**
-#### **将 ICellsHelper::IsProtectedByRMS_i 方法重命名为 ICellsHelper::IsProtectedByRMS**
-#### **将 ICellsHelper::CellNameToIndex_i 方法重命名为 ICellsHelper::CellNameToIndex**
-#### **将 ICellsHelper::CellIndexToName_i 方法重命名为 ICellsHelper::CellIndexToName**
-#### **将 ICellsHelper::ColumnIndexToName_i 方法重命名为 ICellsHelper::ColumnIndexToName**
-#### **将 ICellsHelper::ColumnNameToIndex_i 方法重命名为 ICellsHelper::ColumnNameToIndex**
-#### **将 ICellsHelper::RowIndexToName_i 方法重命名为 ICellsHelper::RowIndexToName**
-#### **将 ICellsHelper::RowNameToIndex_i 方法重命名为 ICellsHelper::RowNameToIndex**
-#### **将 ICellsHelper::ConvertR1C1FormulaToA1_i 方法重命名为 ICellsHelper::ConvertR1C1FormulaToA1**
-#### **将 ICellsHelper::ConvertA1FormulaToR1C1_i 方法重命名为 ICellsHelper::ConvertA1FormulaToR1C1**
-#### **将 ICellsHelper::GetDateTimeFromDouble_i 方法重命名为 ICellsHelper::GetDateTimeFromDouble**
-#### **将 ICellsHelper::GetDoubleFromDateTime_i 方法重命名为 ICellsHelper::GetDoubleFromDateTime**
-#### **将 ICellsHelper::DetectLoadFormat_i 方法重命名为 ICellsHelper::DetectLoadFormat**
-#### **将 ICellsHelper::DetectFileFormat_i 方法重命名为 ICellsHelper::DetectFileFormat**
-#### **将 ICellsHelper::GetFontDir_i 方法重命名为 ICellsHelper::GetFontDir**
-#### **将 ICellsHelper::SetFontDir_i 方法重命名为 ICellsHelper::SetFontDir**
-#### **将 ICellsHelper::GetFontDirs_i 方法重命名为 ICellsHelper::GetFontDirs**
-#### **将 ICellsHelper::SetFontDirs_i 方法重命名为 ICellsHelper::SetFontDirs**
-#### **将 ICellsHelper::GetFontFiles_i 方法重命名为 ICellsHelper::GetFontFiles**
-#### **将 ICellsHelper::SetFontFiles_i 方法重命名为 ICellsHelper::SetFontFiles**
-#### **将 ICellsHelper::GetStartupPath_i 方法重命名为 ICellsHelper::GetStartupPath**
-#### **将 ICellsHelper::SetStartupPath_i 方法重命名为 ICellsHelper::SetStartupPath**
-#### **将 ICellsHelper::GetAltStartPath_i 方法重命名为 ICellsHelper::GetAltStartPath**
-#### **将 ICellsHelper::SetAltStartPath_i 方法重命名为 ICellsHelper::SetAltStartPath**
-#### **将 ICellsHelper::GetLibraryPath_i 方法重命名为 ICellsHelper::GetLibraryPath**
-#### **将 ICellsHelper::SetLibraryPath_i 方法重命名为 ICellsHelper::SetLibraryPath**
-#### **将 ICellsHelper::GetUsedColors_i 方法重命名为 ICellsHelper::GetUsedColors**
-#### **将 ICellsHelper::AddAddInFunction_i 方法重命名为 ICellsHelper::AddAddInFunction**
-#### **将 ICellsHelper::MergeFiles_i 方法重命名为 ICellsHelper::MergeFiles**
-#### **将 IColumnCollection::GetByIndex_i 方法重命名为 IColumnCollection::GetIColumn**
-#### **将 IFileFormatUtil::DetectFileFormat_i 方法重命名为 IFileFormatUtil::DetectFileFormat**
-#### **将 IFileFormatUtil::ExtensionToSaveFormat_i 方法重命名为 IFileFormatUtil::ExtensionToSaveFormat**
-#### **将 IFileFormatUtil::IsTemplateFormat_i 方法重命名为 IFileFormatUtil::IsTemplateFormat**
-#### **将 IFileFormatUtil::LoadFormatToExtension_i 方法重命名为 IFileFormatUtil::LoadFormatToExtension**
-#### **将 IFileFormatUtil::LoadFormatToSaveFormat_i 方法重命名为 IFileFormatUtil::LoadFormatToSaveFormat**
-#### **将 IFileFormatUtil::SaveFormatToExtension_i 方法重命名为 IFileFormatUtil::SaveFormatToExtension**
-#### **将 IFileFormatUtil::SaveFormatToLoadFormat_i 方法重命名为 IFileFormatUtil::SaveFormatToLoadFormat**
-#### **将 IRange::SetStyle 方法重命名为 IRange::SetIStyle**
-#### **将 IFindOptions::SetRange 方法重命名为 IFindOptions::SetIRange**
-#### **将 ILoadOptions::SetLoadDataOptions 方法重命名为 ILoadOptions::SetILoadDataOptions**
-#### **将 IWorkbook::SetSettings 方法重命名为 IWorkbook::SetISettings**
-#### **将 IWorkbook::SetDefaultStyle 方法重命名为 IWorkbook::SetDefaultIStyle**
+## **API已重命名**
+随着 Aspose.Cells for C++ 16.12.0 版的发布，为了保持接口统一，我们重命名了一些方法。所有重命名的 API 列表如下。
+#### **重命名 ICell::SetStyle 方法为 ICell::SetIStyle**
+#### **重命名 ICell::SetCharacters 方法为 ICell::SetIFontSettings**
+#### **重命名 ICellsColor::SetThemeColor 方法为 ICellsColor::SetIThemeColor**
+#### **重命名 ICells::SetStyle 方法为 ICells::SetIStyle**
+#### **重命名 ICellsHelper::GetDPI_i 方法为 ICellsHelper::GetDPI**
+#### **重命名 ICellsHelper::SetDPI_i 方法为 ICellsHelper::SetDPI**
+#### **重命名 ICellsHelper::GetVersion_i 方法为 ICellsHelper::GetVersion**
+#### **重命名 ICellsHelper::IsProtectedByRMS_i 方法为 ICellsHelper::IsProtectedByRMS**
+#### **重命名 ICellsHelper::IsProtectedByRMS_i 方法为 ICellsHelper::IsProtectedByRMS**
+#### **重命名 ICellsHelper::CellNameToIndex_i 方法为 ICellsHelper::CellNameToIndex**
+#### **重命名 ICellsHelper::CellIndexToName_i 方法为 ICellsHelper::CellIndexToName**
+#### **重命名 ICellsHelper::ColumnIndexToName_i 方法为 ICellsHelper::ColumnIndexToName**
+#### **重命名 ICellsHelper::ColumnNameToIndex_i 方法为 ICellsHelper::ColumnNameToIndex**
+#### **重命名 ICellsHelper::RowIndexToName_i 方法为 ICellsHelper::RowIndexToName**
+#### **重命名 ICellsHelper::RowNameToIndex_i 方法为 ICellsHelper::RowNameToIndex**
+#### **重命名 ICellsHelper::ConvertR1C1FormulaToA1_i 方法为 ICellsHelper::ConvertR1C1FormulaToA1**
+#### **重命名 ICellsHelper::ConvertA1FormulaToR1C1_i 方法为 ICellsHelper::ConvertA1FormulaToR1C1**
+#### **重命名 ICellsHelper::GetDateTimeFromDouble_i 方法为 ICellsHelper::GetDateTimeFromDouble**
+#### **重命名 ICellsHelper::GetDoubleFromDateTime_i 方法为 ICellsHelper::GetDoubleFromDateTime**
+#### **重命名 ICellsHelper::DetectLoadFormat_i 方法为 ICellsHelper::DetectLoadFormat**
+#### **重命名 ICellsHelper::DetectFileFormat_i 方法为 ICellsHelper::DetectFileFormat**
+#### **重命名 ICellsHelper::GetFontDir_i 方法为 ICellsHelper::GetFontDir**
+#### **重命名 ICellsHelper::SetFontDir_i 方法为 ICellsHelper::SetFontDir**
+#### **重命名 ICellsHelper::GetFontDirs_i 方法为 ICellsHelper::GetFontDirs**
+#### **重命名 ICellsHelper::SetFontDirs_i 方法为 ICellsHelper::SetFontDirs**
+#### **将ICellsHelper::GetFontFiles_i方法重命名为ICellsHelper::GetFontFiles**
+#### **将ICellsHelper::SetFontFiles_i方法重命名为ICellsHelper::SetFontFiles**
+#### **将ICellsHelper::GetStartupPath_i方法重命名为ICellsHelper::GetStartupPath**
+#### **将ICellsHelper::SetStartupPath_i方法重命名为ICellsHelper::SetStartupPath**
+#### **将ICellsHelper::GetAltStartPath_i方法重命名为ICellsHelper::GetAltStartPath**
+#### **将ICellsHelper::SetAltStartPath_i方法重命名为ICellsHelper::SetAltStartPath**
+#### **将ICellsHelper::GetLibraryPath_i方法重命名为ICellsHelper::GetLibraryPath**
+#### **将ICellsHelper::SetLibraryPath_i方法重命名为ICellsHelper::SetLibraryPath**
+#### **将ICellsHelper::GetUsedColors_i方法重命名为ICellsHelper::GetUsedColors**
+#### **将ICellsHelper::AddAddInFunction_i方法重命名为ICellsHelper::AddAddInFunction**
+#### **将ICellsHelper::MergeFiles_i方法重命名为ICellsHelper::MergeFiles**
+#### **将IColumnCollection::GetByIndex_i方法重命名为IColumnCollection::GetIColumn**
+#### **将IFileFormatUtil::DetectFileFormat_i方法重命名为IFileFormatUtil::DetectFileFormat**
+#### **将IFileFormatUtil::ExtensionToSaveFormat_i方法重命名为IFileFormatUtil::ExtensionToSaveFormat**
+#### **将IFileFormatUtil::IsTemplateFormat_i方法重命名为IFileFormatUtil::IsTemplateFormat**
+#### **将IFileFormatUtil::LoadFormatToExtension_i方法重命名为IFileFormatUtil::LoadFormatToExtension**
+#### **将IFileFormatUtil::LoadFormatToSaveFormat_i方法重命名为IFileFormatUtil::LoadFormatToSaveFormat**
+#### **将IFileFormatUtil::SaveFormatToExtension_i方法重命名为IFileFormatUtil::SaveFormatToExtension**
+#### **将IFileFormatUtil::SaveFormatToLoadFormat_i方法重命名为IFileFormatUtil::SaveFormatToLoadFormat**
+#### **将IRange::SetStyle方法重命名为IRange::SetIStyle**
+#### **将IFindOptions::SetRange方法重命名为IFindOptions::SetIRange**
+#### **将ILoadOptions::SetLoadDataOptions方法重命名为ILoadOptions::SetILoadDataOptions**
+#### **将IWorkbook::SetSettings方法重命名为IWorkbook::SetISettings**
+#### **将IWorkbook::SetDefaultStyle方法重命名为IWorkbook::SetDefaultIStyle**

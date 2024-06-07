@@ -1,15 +1,16 @@
-﻿---
-title: 使用 Aspose.Cells 将数据导入工作表
+---
+title: 使用Aspose.Cells将数据导入工作表
 type: docs
 weight: 30
 url: /zh/java/import-data-to-worksheets-using-aspose-cells/
 ---
+
 ## **Aspose.Cells - 将数据导入工作表**
 从数组导入数据
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -25,7 +26,7 @@ Worksheet worksheet= workbook.getWorksheets().get(sheetIndex);
 
 //Creating an array containing names as string values
 
-String[]names = new String[]{"laurence chen", "roman korchagin", "kyle huang"};
+String[] names = new String[]{"laurence chen", "roman korchagin", "kyle huang"};
 
 //Importing the array of names to 1st row and first column vertically
 
@@ -39,7 +40,7 @@ cells.importArray(names,0,0,false);
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  ArrayList<String> list = new ArrayList<String>();
 

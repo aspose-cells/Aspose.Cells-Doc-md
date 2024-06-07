@@ -1,38 +1,39 @@
-﻿---
-title: 旋转 Cell 文本
+---
+title: 旋转单元格文本
 type: docs
 weight: 100
 url: /zh/net/rotating-cell-text/
 ---
+
 {{% alert color="primary" %}}
 
-有时，列标题比下面单元格中的数据宽得多。这会导致页面上出现不必要的空白。一种解决方案是垂直旋转文本，以减少水平空间。在 Microsoft Excel 中，旋转文本很容易。幸运的是，也可以通过编程方式旋转文本，这样开发人员就可以在他们的应用程序中创建的电子表格中旋转标签。
+有时，列标题比单元格中的数据要宽得多。这会在页面上造成不必要的空白。一个解决方案就是将文本垂直旋转，这样可以占用较少的水平空间。在 Microsoft Excel 中，旋转文本很容易。幸运的是，也可以通过编程的方式旋转文本，这样开发人员可以在他们的应用程序中创建电子表格时旋转标签。
 
-本文着眼于如何使用旋转单元格中的文本[Aspose.Cells for .NET](/cells/zh/net/rotating-cell-text/)与做同样的事情相比[VSTO](/cells/zh/net/rotating-cell-text/).
+本文介绍如何使用 [Aspose.Cells for .NET](/cells/zh/net/rotating-cell-text/) 旋转单元格中的文本，以及如何使用 [VSTO](/cells/zh/net/rotating-cell-text/) 进行相同操作的比较。
 
 {{% /alert %}}
 
-## **Cells 中的旋转文本**
+## **在单元格中旋转文本**
 
-要旋转工作表单元格中的文本，请执行以下步骤：
+要在工作表单元格中旋转文本，请执行以下步骤:
 
-1. 创建工作簿并获取工作表。
-1. 添加示例文本。
-1. 格式化文本：旋转，添加背景颜色。
+1. 创建一个工作簿并获取一个工作表.
+1. 添加示例文本.
+1. 格式化文本: 旋转，添加背景颜色.
 1. 保存文件。
 
-下面的代码示例展示了如何首先执行这些步骤[VSTO](/cells/zh/net/rotating-cell-text/)，使用 C# 或 Visual Basic，然后在[Aspose.Cells](/cells/zh/net/rotating-cell-text/), 再次使用 C# 或 Visual Basic。
+随后的代码示例展示了如何首先在 [VSTO](/cells/zh/net/rotating-cell-text/) 中执行这些步骤（使用 C# 或 Visual Basic），然后在 [Aspose.Cells](/cells/zh/net/rotating-cell-text/) 中再次执行这些步骤（使用 C# 或 Visual Basic）。
 
-本文中的代码示例给出如下所示的输出。
+本文中的代码示例给出了下面显示的输出。
 **带有旋转文本的单元格。**
 
-![待办事项：图片_替代_文本](rotating-cell-text_1.png)
+![todo:image_alt_text](rotating-cell-text_1.png)
 
 ### **使用 VSTO 旋转文本**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  using Microsoft.VisualStudio.Tools.Applications.Runtime;
 
@@ -56,7 +57,7 @@ Excel.Worksheet objSheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Put some text into cell B2.
 
-objSheet.Cells[2, 2]= "Aspose Heading";
+objSheet.Cells[2, 2] = "Aspose Heading";
 
 //Define a range object(B2).
 
@@ -90,14 +91,14 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 
-#### **旋转文本 Aspose.Cells for .NET**
+#### **使用 Aspose.Cells for .NET 旋转文本**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Instantiate a new Workbook.
- 
+
  Workbook objworkbook = new Workbook();
 
 // Get the First sheet.

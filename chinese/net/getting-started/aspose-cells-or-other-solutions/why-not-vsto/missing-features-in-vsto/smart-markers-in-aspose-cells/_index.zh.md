@@ -1,10 +1,11 @@
-﻿---
-title: Aspose.Cells 中的智能标记
+---
+title: Aspose.Cells中的智能标记
 type: docs
 weight: 120
 url: /zh/net/smart-markers-in-aspose-cells/
 ---
-本节包含以下主题：
+
+本节包括以下主题：
 
 - [分组数据](/cells/zh/net/grouping-data/)
 - [图像标记](/cells/zh/net/image-markers/)

@@ -1,30 +1,31 @@
-﻿---
-title: 公共 API Aspose.Cells 8.1.0 的变化
+---
+title: Aspose.Cells 8.1.0 中的公共 API 更改
 type: docs
 weight: 40
 url: /zh/net/public-api-changes-in-aspose-cells-8-1-0/
 ---
+
 {{% alert color="primary" %}} 
 
-本文档描述了 Aspose.Cells API 从版本 8.0.2 到 8.1.0 的更改，模块/应用程序开发人员可能会感兴趣。它不仅包括新的和更新的公共方法，还包括对 Aspose.Cells 中幕后行为的任何更改的描述。
+此文档描述了从版本8.0.2到8.1.0的Aspose.Cells API的更改，这可能会引起模块/应用程序开发人员的兴趣。它不仅包括新的和更新的公共方法，还描述了Aspose.Cells背后的行为中的任何更改。
 
 {{% /alert %}} 
-## **添加了 HtmlSaveOptions.ExportHiddenWorksheet 属性**
-HtmlSaveOptions 类公开了 ExportHiddenWorksheet 属性，可用于指定隐藏工作表是否导出为 HTML 格式。默认值是true。而如果设置为 false，Aspose.Cells 将不会导出隐藏的工作表内容。
+## **添加了HtmlSaveOptions.ExportHiddenWorksheet属性**
+HtmlSaveOptions类已公开ExportHiddenWorksheet属性，该属性用于指定是否将隐藏的工作表导出为HTML格式。默认值为true。如果设置为false，则Aspose.Cells将不导出隐藏的工作表内容。
 
 {{% alert color="primary" %}} 
 
-请查看详细文章[防止导出隐藏的工作表](/cells/zh/net/prevent-exporting-hidden-worksheet-contents-on-saving-to/)
+请查阅有关[在保存时阻止导出隐藏工作表内容的详细文章](/cells/zh/net/prevent-exporting-hidden-worksheet-contents-on-saving-to/)
 
 {{% /alert %}}
-## **添加了 Cell.StringValueWithoutFormat 属性**
-StringValueWithoutFormat 属性已添加到 Cell 类，以方便开发人员在不应用任何格式的情况下检索单元格值。
+## **添加了Cell.StringValueWithoutFormat属性**
+StringValueWithoutFormat属性已添加到Cell类，以便开发人员可以检索未应用任何格式的单元格值。
 
-下面提供的代码片段演示了 Cell.StringValueWithoutFormat 属性与 cell.DisplayStringValue 的用法，方法是从头开始创建电子表格并将数字格式应用于其中一个单元格。
+以下提供的代码片段演示了使用Cell.StringValueWithoutFormat属性与通过从头开始创建电子表格并将数字格式应用于其中一个单元格来比较单元格.DisplayStringValue的用法。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -70,12 +71,12 @@ Console.WriteLine(unformatted);
 
 {{% alert color="primary" %}} 
 
-以上代码输出如下
+上述代码的输出如下
 
 123,456
 
 123456
 
 {{% /alert %}}
-## **废弃的字节、字符、CharactersWithSpaces、行、段落属性**
-从 Aspose.Cells for .NET 8.1.0 开始，BuiltInDocumentPropertyCollection 类的许多属性已被标记为过时。这些属性包括字节、字符、带空格的字符、行和段落。原因是，上述属性对 Excel 电子表格的保护没有用，因为 Excel 忽略了它们。这些属性最初是为 Word 文档和 PowerPoint 演示文稿编写的。
+## **弃用Bytes，Characters，CharactersWithSpaces，Lines，Paragraphs属性**
+从Aspose.Cells for .NET 8.1.0开始，BuiltInDocumentPropertyCollection类中的许多属性已被标记为过时。这些属性包括Bytes，Characters，CharactersWithSpaces，Lines和Paragraphs。原因是，上述属性对于保护Excel电子表格没有用处，因为Excel会忽略它们。而这些属性最初是为Word文档和PowerPoint演示文稿编写的。

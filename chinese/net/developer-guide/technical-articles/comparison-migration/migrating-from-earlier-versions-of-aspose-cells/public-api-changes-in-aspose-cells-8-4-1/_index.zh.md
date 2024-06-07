@@ -1,23 +1,24 @@
-﻿---
-title: 公共 API Aspose.Cells 8.4.1 的变化
+---
+title: Aspose.Cells 8.4.1 中的公共 API 更改
 type: docs
 weight: 140
 url: /zh/net/public-api-changes-in-aspose-cells-8-4-1/
 ---
+
 {{% alert color="primary" %}} 
 
-本文档描述了 Aspose.Cells API 从版本 8.4.0 到 8.4.1 的变化，模块/应用程序开发人员可能会感兴趣。它不仅包括新的和更新的公共方法，[添加类等](/cells/zh/net/public-api-changes-in-aspose-cells-8-4-1/)和[删除的类等](/cells/zh/net/public-api-changes-in-aspose-cells-8-4-1/)还描述了 Aspose.Cells 中幕后行为的任何变化。
+本文描述了从版本8.4.0到8.4.1的Aspose.Cells API的更改，可能对模块/应用程序开发人员感兴趣。它不仅包括新的和更新的公共方法，添加的类等，还包括Aspose.Cells幕后行为中的任何更改的描述。
 
 {{% /alert %}} 
-## **添加的 API**
+## **已添加API**
 ### **修改数据库连接的机制**
-Aspose.Cells.ExternalConnections.ExternalConnection 类已包含可用于检查存储在电子表格中的数据库连接详细信息的方法和属性。在 Aspose.Cells for .NET 8.4.1 发布之前，与 Aspose.Cells.ExternalConnections.ExternalConnection 类关联的大部分属性都是只读的。在此版本中，API 也提供了对操作数据库连接设置的支持。
+Aspose.Cells.ExternalConnections.ExternalConnection 类已包含了可用于检查电子表格中存储的数据库连接详细信息的方法和属性。直到 Aspose.Cells for .NET 8.4.1 发布之前，大多数与 Aspose.Cells.ExternalConnections.ExternalConnection 类相关的属性都是只读的。随着此版本的发布，API 提供了支持以操纵数据库连接设置。
 
 以下代码片段显示了如何动态修改数据库连接设置。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -45,38 +46,38 @@ workbook.Save(output);
 
 
 
-以下是 {Aspose.Cells.ExternalConnections.ExternalConnection}} 类公开的一些最重要的属性。
+以下是{Aspose.Cells.ExternalConnections.ExternalConnection}}类暴露的一些最重要的属性。
 
-|**物业名称**|**描述**|
-|:- |:- |
-|后台刷新|指示是否可以在后台（异步）刷新连接。<br>如果连接的首选用法是在后台异步刷新，则为真；<br>如果连接的首选用法是在前台同步刷新，则为 false。|
-|连接说明|指定此连接的用户描述|
-|连接ID|指定此连接的唯一标识符。|
-|证书|指定建立（或重新建立）连接时要使用的身份验证方法。|
-|已删除|指示关联的工作簿连接是否已删除。如果<br>连接已被删除；否则，假的。|
-|是新的|如果第一次没有刷新连接则为真；否则，假的。这个<br>当用户在查询完成返回之前保存文件时，可能会出现这种状态。|
-|活着|当电子表格应用程序应努力保持连接时为真<br>打开。为 false 时，应用程序应在检索到<br>信息。|
-|姓名|指定连接的名称。每个连接都必须有一个唯一的名称。|
-|Odc文件|指定此连接来自的外部连接文件的完整路径<br>创建。如果在尝试刷新数据时连接失败，并且 reconnectionMethod=1，<br>然后电子表格应用程序将使用来自外部连接文件的信息重试<br>而不是工作簿中嵌入的连接对象。|
-|仅使用连接文件|指示电子表格应用程序是否应始终且仅使用<br>odcFile 属性指示的外部连接文件中的连接信息<br>刷新连接时。如果为假，则电子表格应用程序<br>应遵循 reconnectionMethod 属性指示的过程|
-|参数|获取 ODBC 或 Web 查询的 ConnectionParameterCollection。|
-|重新连接方法|指定 reconnectionMethod 类型|
-|刷新内部|指定连接自动刷新之间的分钟数。|
-|加载时刷新|如果在打开文件时应刷新此连接，则为真；否则为真。否则，假的。|
-|保存数据|如果要保存通过连接获取的用于填充表的外部数据，则为真<br>与工作簿；否则，假的。|
-|保存密码|如果要将密码保存为连接字符串的一部分，则为真；否则为真。否则，假。|
-|源文件|当外部数据源是基于文件的时使用。当连接到这样的数据时<br>source 失败，电子表格应用程序尝试直接连接到该文件。也许<br>以 URI 或系统特定的文件路径表示法表示。|
-|SSOId|用于中间体之间身份验证的单点登录 (SSO) 标识符<br>spreadsheetML 服务器和外部数据源。|
-|类型|指定数据源类型。|
+|**属性名称**|**描述**|
+| :- | :- |
+|BackgroundRefresh|指示连接是否可以在后台（异步方式）刷新。 <br>true 表示首选使用连接是在后台异步刷新； <br>false 表示首选使用连接是在前台同步刷新。|
+|ConnectionDescription|指定此连接的用户描述|
+|ConnectionId|指定此连接的唯一标识符。|
+|Credentials|指定建立（或重新建立）连接时要使用的身份验证方法。|
+|IsDeleted|指示关联的工作簿连接是否已被删除。true 表示连接已被删除；否则为 false。|
+|IsNew|如果连接尚未第一次刷新，则为 True；否则为 false。当用户在查询完成返回前保存文件时，可能出现此状态。|
+|KeepAlive|当电子表格应用程序应保持连接打开时为 True。当为 false 时，应用程序在检索信息后关闭连接。|
+|Name|指定连接的名称。每个连接必须具有唯一名称。|
+|OdcFile|指定从中创建此连接的外部连接文件的完整路径。如果在尝试刷新数据时连接失败，并且 reconnectionMethod=1，则电子表格应用程序将尝试使用外部连接文件中的信息再次连接，而不是使用嵌入在工作簿中的连接对象。|
+|OnlyUseConnectionFile|指示电子表格应用程序是否始终且仅使用由 odcFile 属性指示的外部连接文件中的连接信息在刷新连接时。如果为 false，电子表格应用程序应遵循重新连接方法属性所指示的过程。|
+|Parameters|获取ODBC或Web查询的ConnectionParameterCollection。|
+|ReConnectionMethod|指定重新连接的方法类型。|
+|RefreshInternal|指定连接自动刷新之间的分钟数.|
+|RefreshOnLoad|如果打开文件时应刷新此连接，则为True；否则为False。|
+|SaveData|如果通过连接获取的外部数据用于填充表格应随工作簿一起保存，则为 true；否则为 false。|
+|SavePassword|如果密码应作为连接字符串的一部分保存，则为True；否则为False。|
+|SourceFile|当外部数据源为基于文件时使用。当连接到此类数据源失败时，电子表格应用程序将尝试直接连接到此文件。可以表达为 URI 或特定于系统的文件路径表示法。|
+|SSOId|用于中间的密码表服务器和外部数据源之间认证的单点登录(SSO)标识符.|
+|Type|指定数据源类型。|
 
-### **能够格式化 DataLabels 文本的子字符串**
-Aspose.Cells for .NET 8.4.1 公开了 DataLabels.Characters 方法以检索对应于 ChartPoints.DataLabels 的子字符串的 FontSetting 类的实例。反过来，FontSetting 类的实例可用于格式化具有不同字体设置和颜色的 DataLabels 的子字符串。
+### **能够格式化数据标签文本的子字符串**
+Aspose.Cells for .NET 8.4.1已公开了DataLabels.Characters方法，用于检索与ChartPoints.DataLabels的子字符串对应的FontSetting类的实例。反过来，FontSetting类的实例可用于使用不同的字体设置和颜色格式化DataLabels的子字符串。
 
-以下代码片段显示了如何使用 DataLabels.Characters 方法。
+以下代码片段显示了如何使用DataLabels.Characters方法。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a workbook from source Excel file
 
@@ -113,14 +114,14 @@ workbook.Save(output);
 {{< /highlight >}}
 
 
-### **能够为电子表格和图表导出设置所需的图像尺寸**
-Aspose.Cells for .NET 8.4.1 公开了 ImageOrPrintOptions.SetDesiredSize 方法以在将电子表格和图表导出到图像时设置结果图像的尺寸。 ImageOrPrintOptions.SetDesiredSize 方法接受两个整数类型参数，其中第一个是所需的宽度，第二个是所需的高度。
+### **在电子表格和图表导出中设置所需的图像尺寸**
+Aspose.Cells for .NET 8.4.1已公开了ImageOrPrintOptions.SetDesiredSize方法，用于在将电子表格和图表导出为图像时设置结果图像的尺寸。ImageOrPrintOptions.SetDesiredSize方法接受两个整数类型参数，第一个是期望的宽度，第二个是期望的高度。
 
-以下代码片段显示了如何在将工作表导出到 PNG 时设置所需的尺寸。
+以下代码段显示了如何在将工作表导出为PNG时设置所需的尺寸。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source file
 
@@ -152,23 +153,23 @@ renderer.ToImage(0, "output.png");
 
 {{% alert color="primary" %}} 
 
-相同的属性也可用于将图表转换为图像。
+同样的属性也可以用于将图表转换为图像。
 
 {{% /alert %}} 
 
 
-### **将评论呈现给 PDF**
-随着v8.4.1的发布，Aspose.Cells API 提供了PageSetup.PrintComments属性& PrintCommentsType枚举，以便在将电子表格转换为PDF格式时方便注释的呈现。 PrintCommentsType 枚举具有以下常量。
+### **将评论渲染为PDF**
+随着v8.4.1的发布，Aspose.Cells API提供了PageSetup.PrintComments属性和PrintCommentsType枚举，以便在将电子表格转换为PDF格式时渲染评论。PrintCommentsType枚举具有以下常量。
 
-- PrintCommentsType.PrintNoComments：不呈现评论。
-- PrintCommentsType.PrintInPlace：注释将在放置它们的地方呈现。
-- PrintCommentsType.PrintSheetEnd：注释将在工作表末尾呈现。
+- PrintCommentsType.PrintNoComments：不渲染评论。
+- PrintCommentsType.PrintInPlace：在原处渲染评论。
+- PrintCommentsType.PrintSheetEnd：在工作表末尾渲染评论。
 
-以下示例代码演示了如何使用 PageSetup.PrintComments 属性来使用所有可能的 PrintCommentsType 枚举值呈现注释。
+以下示例代码演示了使用PageSetup.PrintComments属性使用所有可能的PrintCommentsType枚举值来渲染评论的方法。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of workbook
 
@@ -205,14 +206,14 @@ workbook.Save("printsheetend.pdf");
 {{< /highlight >}}
 
 
-### **在 Aspose.Cells.GridDesktop 中移动工作表**
-Aspose.Cells.GridDesktop 提供WorksheetCollection.MoveTo 方法，可用于将工作表移动到指定索引。上述方法以源工作表和目标工作表的索引（从零开始）为参数。
+### **在Aspose.Cells.GridDesktop中移动工作表**
+Aspose.Cells.GridDesktop提供了WorksheetCollection.MoveTo方法，可用于将工作表移动到指定的索引。上述方法使用源工作表和目标工作表的索引（从零开始）作为参数。
 
-以下示例代码演示了 WorksheetCollection.MoveTo 属性的用法。
+以下示例代码演示了如何使用WorksheetCollection.MoveTo属性。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Move the second worksheet to 4th position.
 
@@ -221,14 +222,14 @@ GridDesktop1.Worksheets.MoveTo(1, 3);
 {{< /highlight >}}
 
 
-### **添加了 Workbook.IsLicensed 属性**
-Aspose.Cells for .NET 8.4.1 公开了 Workbook.IsLicensed，这对确定许可证是否已成功加载有很大帮助。如果您在设置许可证之前访问此属性，它将返回 false，反之亦然，但是，许可证应该是有效的。
+### **添加了Workbook.IsLicensed属性**
+Aspose.Cells for .NET 8.4.1已公开了Workbook.IsLicensed属性，可以帮助确定许可证是否已成功加载。如果在设置许可证之前访问此属性，它将返回false，反之亦然，但是许可证应该是有效的。
 
-以下示例代码演示了 Workbook.IsLicensed 属性的用法。
+以下示例代码演示了如何使用Workbook.IsLicensed属性。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object before setting a license
 
@@ -259,14 +260,14 @@ else
 {{< /highlight >}}
 
 
-### **添加了 ImageOrPrintOptions.SVGFitToViewPort 属性**
-Aspose.Cells for .NET 8.4.1 公开了 ImageOrPrintOptions 类的 SVGFitToViewPort 属性，可用于在将电子表格或图表导出为 SVG 格式时打开 SVG 文件格式的 viewBox 属性。此属性的默认值为 false，因此在未设置上述属性的情况下生成的 SVG 文件的基本 XML 将不包含 viewBox 属性。
+### **添加了ImageOrPrintOptions.SVGFitToViewPort属性。**
+Aspose.Cells for .NET 8.4.1已经为ImageOrPrintOptions类的SVGFitToViewPort属性提供了支持，可用于在导出电子表格或图表为SVG格式时打开SVG文件格式的viewBox属性。该属性的默认值为false，因此在不设置上述属性的情况下生成的SVG文件的基本XML不包括viewBox属性。
 
-以下示例代码演示了 ImageOrPrintOptions.SVGFitToViewPort 属性的用法。
+以下示例代码演示了如何使用ImageOrPrintOptions.SVGFitToViewPort属性。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source file
 
@@ -295,6 +296,6 @@ Aspose.Cells.Rendering.SheetRender renderer = new Aspose.Cells.Rendering.SheetRe
 renderer.ToImage(0, "output.svg");
 
 {{< /highlight >}}
-## **废弃的 API**
-### **方法 Workbook.ValidateFormula 已废弃**
-使用 Cell.Formula 方法验证公式。
+## **已弃用的API**
+### **已弃用 Workbook.ValidateFormula 方法**
+使用Cell.Formula方法验证公式。

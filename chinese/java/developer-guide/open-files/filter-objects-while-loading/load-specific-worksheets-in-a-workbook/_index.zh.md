@@ -1,12 +1,13 @@
-﻿---
-title: 在工作簿中加载特定工作表
+---
+title: 加载工作簿中的指定工作表
 type: docs
 weight: 230
 url: /zh/java/load-specific-worksheets-in-a-workbook/
 ---
+
 {{% alert color="primary" %}}
 
-默认情况下，Aspose.Cells 将整个电子表格加载到内存中。可以只加载特定的工作表。这可以提高性能并消耗更少的内存。在处理包含多个工作表的大型工作簿时，此方法很有用。
+默认情况下，Aspose.Cells会将整个电子表格加载到内存中。可以只加载特定工作表，以提高性能并减少内存消耗。当处理包含几个工作表的大型工作簿时，这种方法非常有用。
 
 {{% /alert %}}
 

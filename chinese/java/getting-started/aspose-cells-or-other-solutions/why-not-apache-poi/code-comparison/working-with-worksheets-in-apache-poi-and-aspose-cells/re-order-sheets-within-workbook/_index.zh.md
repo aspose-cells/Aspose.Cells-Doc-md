@@ -1,15 +1,16 @@
-﻿---
-title: 在工作簿中重新排序工作表
+---
+title: 重新整理工作簿内工作表
 type: docs
 weight: 50
 url: /zh/java/re-order-sheets-within-workbook/
 ---
-## **Aspose.Cells - 在工作簿中重新排序工作表**
-Aspose.Cells 提供了一种方法，Worksheet.moveTo()，用于将工作表移动到同一电子表格中的另一个位置。
+
+## **Aspose.Cells - 重新排序工作簿中的工作表**
+Aspose.Cells提供一种方法，Worksheet.moveTo()，用于将工作表移动到同一电子表格中的另一个位置。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a new Workbook.
 
@@ -36,12 +37,12 @@ worksheet3.moveTo(2);
 workbook.save(dataDir + "AsposeMoveSheet.xls");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - 在工作簿中重新排序工作表**
-Apache POI 提供了 Workbook.setSheetOrder() 方法来按要求的顺序设置工作表。
+## **Apache POI SS - HSSF XSSF - 重新排序工作簿中的工作表**
+Apache POI提供Workbook.setSheetOrder()方法以按需求顺序设置工作表。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -71,6 +72,6 @@ fileOut.close();
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[复制和移动工作表](/cells/zh/java/copying-and-moving-worksheets).
+有关更多详细信息，请访问[复制和移动工作表](/cells/zh/java/copying-and-moving-worksheets)。
 
 {{% /alert %}}

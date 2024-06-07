@@ -1,23 +1,25 @@
 ---
-title: GridWeb 的加载选项
+title: GridWeb的LoadOptions
 type: docs
 weight: 90
-url: /zh/net/aspose-cells-gridweb/loadoptions/
-keywords: loadoption,loadoptions,setting,
+url: /zh/net/aspose-cells-gridweb/aspose-cells-gridweb/loadoptions/
+keywords: loadoption、loadoptions、setting、load、options、option
+description: 本文介绍了如何在GridWeb中使用加载选项
 ---
+
 {{% alert color="primary" %}} 
 
-在导入文件之前，我们可以设置一些加载选项。
+我们可以在导入文件之前设置一些加载选项
 
-我们可以用[网格加载选项](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridloadoptions/)（对于一般文件）和[GridTxtLoadOptions](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridtxtloadoptions/) （对于 csv 文件）
- 
+我们可以使用[GridLoadOptions](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridloadoptions/)（用于一般文件）和[GridTxtLoadOptions](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridtxtloadoptions/)（用于csv文件）	
+
 {{% /alert %}} 
-##  **加载其他编码**
-对于csv文件，其实是一个文本文件，没有xlsx格式文件中描述的具体编码。
+## **使用其他编码加载**
+对于csv文件，实际上是一个基于文本的文件，在xlsx格式文件中没有特定的编码描述
 
-因此，用户可以在加载文件之前设置特定的字符编码。
+因此，用户可以在加载文件之前设置特定的字符编码
 
-这是一个用中文加载的示例代码：
+这里是一个加载中文样本代码
 
 ```csharp
     GridTxtLoadOptions topt = new GridTxtLoadOptions();

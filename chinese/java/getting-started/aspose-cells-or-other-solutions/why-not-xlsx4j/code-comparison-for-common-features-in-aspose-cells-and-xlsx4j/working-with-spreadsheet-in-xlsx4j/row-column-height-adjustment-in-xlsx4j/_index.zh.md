@@ -1,23 +1,24 @@
-﻿---
-title: xlsx4j中行列高度调整
+---
+title: xlsx4j中的行列高度调整
 type: docs
 weight: 50
 url: /zh/java/row-column-height-adjustment-in-xlsx4j/
 ---
+
 ## **Aspose.Cells - 行列高度调整**
-可以通过调用 Cells 集合的 setRowHeight 方法来设置单行的高度。 setRowHeight 方法采用以下参数：
+可以通过调用Cells集合的setRowHeight方法来设置单行的高度。setRowHeight方法接受以下参数：
 
-- **行索引**，您要更改其高度的行的索引。
-- **行高**应用于行的行高。
+- **行索引**，要更改其高度的行的索引。
+- **行高**，要应用于该行的行高。
 
-通过调用 Cells 集合的 setColumnWidth 方法设置列的宽度。 setColumnWidth 方法采用以下参数：
+通过调用Cells集合的setColumnWidth方法来设置列的宽度。setColumnWidth方法接受以下参数：
 
-- **列索引**，您要更改其宽度的列的索引。
-- **列宽**所需的列宽。
+- **列索引**，要更改其宽度的列的索引。
+- **列宽**，所需的列宽。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -45,11 +46,11 @@ cells.setColumnWidth(1, 17.5);
 
 {{< /highlight >}}
 ## **xlsx4j - 行列高度调整**
-Row.setHt 用于使用 xlsx4j 为行设置自定义高度。 setCustomHeight 应设置为 TRUE。
+Row.setHt用于使用xlsx4j设置行的自定义高度。应该将setCustomHeight设置为TRUE。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  SpreadsheetMLPackage pkg = SpreadsheetMLPackage.createPackage();
 
@@ -95,6 +96,6 @@ sheetData.getRow().add(row);
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[调整行高和列宽](/java/adjusting-row-height-and-volumn-width).
+更多详细信息，请访问[调整行高和列宽](/java/adjusting-row-height-and-volumn-width)。
 
 {{% /alert %}}

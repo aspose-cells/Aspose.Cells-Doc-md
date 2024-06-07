@@ -1,6 +1,8 @@
-﻿---
-title: 使用 GridWeb 工作表
+---
+title: GridWeb工作表操作
 type: docs
 weight: 40
-url: /zh/net/working-with-gridweb-worksheets/
+url: /zh/net/aspose-cells-gridweb/working-with-gridweb-worksheets/
 ---
+
+

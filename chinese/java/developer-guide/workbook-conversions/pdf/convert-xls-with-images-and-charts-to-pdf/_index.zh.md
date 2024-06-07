@@ -1,22 +1,23 @@
-﻿---
-title: 将带有图像和图表的 XLS 转换为 PDF
+---
+title: 将包含图像和图表的XLS文件转换为PDF
 type: docs
 weight: 230
 url: /zh/java/convert-xls-with-images-and-charts-to-pdf/
-description: Java 代码使用 Aspose.Cells for Java API 将带有图像和图表的 Excel 文件转换为 PDF 格式。
-keywords: excel to pdf java, convert excel to pdf, convert excel to pdf java, convert excel with images to pdf java, convert excel with charts to pdf java, convert xls to pdf, convert xlsx to pdf, xls to pdf java, xlsx to pdf java, excel to pdf
+description: 使用Aspose.Cells for Java API将包含图像和图表的Excel文件转换为PDF格式的Java代码。
+keywords: excel转pdf java, 将excel转换为pdf, 将excel转换为pdf java, 将带有图像的excel转换为pdf java, 将带有图表的excel转换为pdf java, 将xls转换为pdf, 将xlsx转换为pdf, xls转换为pdf java, xlsx转换为pdf java, 将excel转换为pdf
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells 支持将包含图像和图表的 XLS 文件转换为 PDF 文档。 Aspose.Cells for Java 可以独立工作，将电子表格转换为 PDF： Aspose.PDF 转换不需要 API。
+Aspose.Cells支持将包含图像和图表的XLS文件转换为PDF文档。Aspose.Cells for Java可以独立工作，将电子表格转换为PDF：不需要Aspose.PDF API进行转换。
 
 {{% /alert %}}
 
-该过程可以在内存中完成，因为该过程不依赖于临时或中间 XML 文件。这意味着可以快速高效地转换大型 Excel 文件，例如包含图像、图表和其他绘图对象的文件。
+该过程可以在内存中完成，因为该过程不依赖于临时或中间XML文件。这意味着可以快速高效地转换大型Excel文件，例如包含图像、图表和其他绘图对象的文件。
 
 {{% alert color="primary" %}}
 
-如果电子表格包含公式，最好调用[**工作簿.计算公式**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()方法就在渲染到 PDF 之前。这样做可以确保重新计算公式相关值，并在 PDF 中渲染正确的值。
+如果电子表格包含公式，最好在转换为PDF之前调用[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula())方法。这样可以确保重新计算公式相关的值，并在PDF中呈现正确的值。
 
 {{% /alert %}}
 
@@ -24,5 +25,5 @@ Aspose.Cells 支持将包含图像和图表的 XLS 文件转换为 PDF 文档。
 
 ## 相关文章
 
-- [将 Excel 文件转换为与 PDFA-1a 兼容的 PDF 格式](/cells/zh/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
+- [将Excel文件转换为与PDFA-1a兼容的PDF格式](/cells/zh/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
 - [图表渲染](/cells/zh/java/chart-rendering/)

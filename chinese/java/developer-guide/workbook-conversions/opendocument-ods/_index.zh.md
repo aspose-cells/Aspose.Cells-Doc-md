@@ -1,18 +1,19 @@
-﻿---
-title: 将 Excel 工作簿转换为 Ods、Sxc 和 Fods (OpenOffice / LibreOffice calc)。
-linktitle: 赔率
+---
+title: 将Excel工作簿转换为Ods、Sxc和Fods（OpenOffice / LibreOffice calc）。
+linktitle: Ods
 type: docs
 weight: 20
 url: /zh/java/opendocument-ods/
 ---
-## **关于开放文档**
 
-这[开放文档格式 (ODF)](https://en.wikipedia.org/wiki/OpenDocument)是一种免费开放的电子办公文档文件格式，最初由 Sun 为 Open Office 套件开发。 OpenDocument 电子表格 (ODS) 是 Excel 文档的文件格式。 OpenDocument 目前是 OASIS 和 ISO 标准。
+## **关于OpenDocument**
 
-## **ODS 在 Aspose.Cells**
+[开放文档格式（ODF）](https://en.wikipedia.org/wiki/OpenDocument)是Sun公司最初为Open Office套件开发的用于电子办公文档的免费开放文件格式。 OpenDocument Spreadsheet（ODS）是Excel文档的文件格式。OpenDocument目前是OASIS和ISO标准。
 
- Aspose.Cells 支持加载 OpenDocument 1.1 和 1.2 文档。 Aspose.Cells 以 OpenDocument 1 .1 格式保存文档。您还可以看到[详细规格](/cells/zh/java/opendocument-ods/)关于支持哪些 OpenDocument 功能。
+## **Aspose.Cells中的ODS**
 
-**由 Aspose.Cells 生成并在 OpenOffice Writer 中打开的示例 ODS 文档** 
+Aspose.Cells支持加载OpenDocument 1.1和1.2文档。Aspose.Cells将文档保存为OpenDocument 1.1格式。您还可以在[详细规范](/cells/zh/java/opendocument-ods/)中查看支持的OpenDocument功能。
 
-![待办事项：图片_替代_文本](opendocument-ods_1.png)
+**由Aspose.Cells生成的样本ODS文档，在OpenOffice Writer中打开** 
+
+![todo:image_alt_text](opendocument-ods_1.png)

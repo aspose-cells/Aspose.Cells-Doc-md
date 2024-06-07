@@ -1,18 +1,19 @@
-﻿---
-title: 在 VSTO 和 Aspose.Cells 中旋转 Cell 文本
+---
+title: 在VSTO和Aspose.Cells中旋转单元格文本
 type: docs
 weight: 210
 url: /zh/net/rotating-cell-text-in-vsto-and-aspose-cells/
 ---
-要旋转工作表单元格中的文本，请执行以下步骤：
 
-1. 创建工作簿并获取工作表。
-1. 添加示例文本。
-1. 格式化文本：旋转，添加背景颜色。
+要在工作表单元格中旋转文本，请执行以下步骤:
+
+1. 创建一个工作簿并获取一个工作表.
+1. 添加示例文本.
+1. 格式化文本: 旋转，添加背景颜色.
 1. 保存文件。
-下面的代码示例展示了如何首先在 VSTO 中使用 C# 执行这些步骤，然后在 Aspose.Cells 中再次使用 C#。
+   接下来的代码示例展示了首先在VSTO中执行这些步骤的方式，使用C#，然后在Aspose.Cells中执行，同样使用C#.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //intiate Application object
 
@@ -28,7 +29,7 @@ Excel.Worksheet objSheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Put some text into cell B2.
 
-objSheet.Cells[2, 2]= "Aspose Heading";
+objSheet.Cells[2, 2] = "Aspose Heading";
 
 //Define a range object(B2).
 
@@ -58,7 +59,7 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Instantiate a new Workbook.
 
@@ -107,5 +108,5 @@ objworkbook.Save("RotateText_test.xlsx");
 {{< /highlight >}}
 ## **下载示例代码**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Rotating.Cell.Text.Aspose.Cells.zip)
-- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Rotating%20Cell%20Text%20\(Aspose.Cells\).zip/下载）
-- [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Rotating%20Cell%20Text%20\(Aspose.Cells\)。压缩）
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Rotating%20Cell%20Text%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Rotating%20Cell%20Text%20\(Aspose.Cells\).zip)

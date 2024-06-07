@@ -1,20 +1,21 @@
-﻿---
-title: 在 PHP 中对行和列进行分组和取消分组
+---
+title: 在PHP中对行和列进行分组和取消分组
 type: docs
 weight: 40
 url: /zh/java/grouping-and-ungrouping-rows-and-columns-in-php/
 ---
-## **Aspose.Cells - 行列分组管理**
-### **分组行和列**
-可以通过调用 Cells 集合的 groupRows 和 groupColumns 方法对行或列进行分组。这两种方法都采用以下参数：
 
-- 第一行/列索引，组中的第一行或第一列。
-- 最后一行/列索引，组中的最后一行或最后一列。
-- is hidden，布尔型参数，指定分组后是否隐藏行/列。
+## **Aspose.Cells - 行和列的分组管理**
+### **分组行和列**
+通过调用Cells集合的groupRows和groupColumns方法，可以对行或列进行分组。这两个方法接受以下参数:
+
+- 第一个行/列索引，组中的第一个行或列。
+- 最后一个行/列索引，组中的最后一个行或列。
+- 是否隐藏，一个布尔参数，指定在分组后是否隐藏行/列。
 
 **PHP代码**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function group_rows_columns($dataDir)
 
@@ -48,14 +49,14 @@ url: /zh/java/grouping-and-ungrouping-rows-and-columns-in-php/
 
 {{< /highlight >}}
 ### **取消分组行和列**
-通过调用 Cells 集合的 UngroupRows 和 UngroupColumns 方法取消分组行或列。两种方法都采用相同的参数：
+通过调用Cells集合的UngroupRows和UngroupColumns方法来取消对行或列进行分组。这两个方法接受相同的参数:
 
-- 第一行或第一列索引，要取消分组的第一行/列。
-- 最后一行或最后一列索引，要取消分组的最后一行/列。
+- 第一行或列索引，要取消分组的第一行/列。
+- 最后一行或列索引，要取消分组的最后一行/列。
 
 **PHP代码**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function ungroup_rows_columns($dataDir)
 
@@ -89,6 +90,6 @@ url: /zh/java/grouping-and-ungrouping-rows-and-columns-in-php/
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**分组和取消分组行和列 (Aspose.Cells)**来自以下任何社交编码网站：
+从下面提到的任何社交编码网站下载**分组和取消分组行和列（Aspose.Cells）**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

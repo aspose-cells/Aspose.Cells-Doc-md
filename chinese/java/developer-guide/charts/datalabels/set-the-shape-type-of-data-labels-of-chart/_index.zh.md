@@ -1,14 +1,15 @@
-﻿---
-title: 设置图表数据标签的形状类型
+---
+title: 设置图表的数据标签的形状类型
 type: docs
 weight: 70
 url: /zh/java/set-the-shape-type-of-data-labels-of-chart/
 ---
+
 ## **可能的使用场景**
 
-您可以使用更改图表数据标签的形状类型[**数据标签.ShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShapeType)财产。它取值[**数据标签形状类型**](https://reference.aspose.com/cells/java/com.aspose.cells/DataLabelShapeType)枚举并相应地更改数据标签的形状类型。它的一些值是
+您可以使用[**DataLabels.ShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShapeType)属性更改图表的数据标签的形状类型。它接受[**DataLabelShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/DataLabelShapeType)枚举的值，并相应地更改数据标签的形状类型。其中一些值为
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 DataLabelShapeType.BENT_LINE_CALLOUT
 
@@ -26,9 +27,9 @@ etc.
 
 ## **设置图表数据标签的形状类型**
 
-以下示例代码将图表数据标签的形状类型更改为[**DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabelshapetype#WEDGE_ELLIPSE_CALLOUT).请参阅[示例 Excel 文件](60489794.xlsx)用于此代码和[输出Excel文件](60489793.xlsx)由它产生。屏幕截图显示了代码对示例 Excel 文件的影响。
+以下示例代码将图表的数据标签形状类型更改为[**DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabelshapetype#WEDGE_ELLIPSE_CALLOUT)。请查看此代码中使用的[sample Excel文件](60489794.xlsx)和由其生成的[output Excel file](60489793.xlsx)。屏幕截图显示了代码对示例Excel文件的影响。
 
-![待办事项：图片_替代_文本](set-the-shape-type-of-data-labels-of-chart_1.png)
+![todo:image_alt_text](set-the-shape-type-of-data-labels-of-chart_1.png)
 
 ## **示例代码**
 

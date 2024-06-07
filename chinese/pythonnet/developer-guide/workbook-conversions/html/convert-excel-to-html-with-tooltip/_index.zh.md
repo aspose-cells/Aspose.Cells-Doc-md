@@ -1,20 +1,21 @@
 ---
-title: 使用工具提示将 Excel 转换为 HTML
+title: 以带有工具提示的方式将 Excel 转换为 HTML
 type: docs
 weight: 200
 url: /zh/python-net/convert-excel-to-html-with-tooltip/
-description: 本主题向您展示如何使用 Aspose.Cells for Python 通过 NET 将 Excel 转换为带有工具提示的 HTML。
-keywords: Python Convert Excel to HTML with tooltip, Convert Excel to HTML with tooltip Python via NET, Python via NET Excel to HTML with tooltip, Python Workbook to HTML with tooltip.
+description: 这个主题向您展示如何使用Aspose.Cells for Python通过.NET将Excel转换为带工具提示的HTML。
+keywords: Python将Excel转换为带工具提示的HTML，使用Python通过.NET将Excel转换为带工具提示的HTML，使用Python通过.NET将Excel转换为带工具提示的HTML，Python工作簿转为带工具提示的HTML。
 ---
-##  **使用工具提示将 Excel 转换为 HTML**
 
-在某些情况下，生成的 HTML 中的文本可能会被截断，而您希望在悬停事件上将完整文本显示为工具提示。 Aspose.Cells 通过提供来支持这一点**[HtmlSaveOptions.add_tooltip_text](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/)**财产。设置**[HtmlSaveOptions.add_tooltip_text](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/)**财产给**真的**将在生成的 HTML 中添加完整的文本作为工具提示。
+## **以带有工具提示的方式将 Excel 转换为 HTML**
+
+在生成的HTML中可能会出现文本被截断的情况，您想要在悬停事件中显示完整文本作为工具提示。Aspose.Cells支持此功能，通过提供**[HtmlSaveOptions.add_tooltip_text](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/)**属性。将**[HtmlSaveOptions.add_tooltip_text](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/)**属性设置为**true**将在生成的HTML中添加完整文本作为工具提示。
 
 下图显示了生成的 HTML 文件中的工具提示。
 
-![待办事项：图像_替代_文本](convert-excel-to-html-with-tooltip_1.jpg)
+![todo:image_alt_text](convert-excel-to-html-with-tooltip_1.jpg)
 
-以下代码示例加载[源 Excel 文件](98107416.xlsx)并生成[输出HTML文件](98107417.zip)与工具提示。
+以下示例代码加载 [源 Excel 文件](98107416.xlsx) 并生成带有工具提示的 [输出 HTML 文件](98107417.zip)。
 
 示例代码
 

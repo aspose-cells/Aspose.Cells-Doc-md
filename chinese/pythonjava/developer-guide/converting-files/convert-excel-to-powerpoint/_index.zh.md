@@ -1,22 +1,23 @@
-﻿---
-title: 将 Excel 转换为 PowerPoint
+---
+title: 将Excel转换为PowerPoint
 type: docs
 weight: 300
 url: /zh/python-java/convert-excel-to-powerpoint/
-description: 使用 Python 将 excel 文件转换为 PPT。
-keywords: Exporting Workbook to slide without office 2013, office 2016, office 2019 and office 365
+description: 使用Python将Excel文件转换为PPT。
+keywords: 在不使用Office 2013、Office 2016、Office 2019和Office 365的情况下导出工作簿到幻灯片
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via Java 支持将 Excel（.xls、xlsx、.xlsb、xlsm）、CSV 和 OpenOffice（.ods）文件转换为 PowerPoint 文件。
+通过Java的Aspose.Cells支持将Excel（.xls、.xlsx、.xlsb、.xlsm）、CSV和OpenOffice（.ods）文件转换为PowerPoint文件。
 
 {{% /alert %}}
 
-## **将 Excel 工作簿转换为 PPT**
+## **将Excel工作簿转换为PPT**
 
-无需考虑如何将 Excel 工作簿转换为 PowerPoint，因为 Aspose.Cells for Python via Java 库有最佳决策。 Aspose.Cells for Python via Java API 支持将电子表格转换为 PowerPoint 格式。要将工作簿导出到 PowerPoint，请通过[**保存格式.PPTX**](https://reference.aspose.com/cells/python-java/asposecells.api/saveformat)作为第二个参数[**工作簿.保存**](https://reference.aspose.com/cells/python-java/asposecells.api/workbook#save\(java.lang.String,%20int\)） 方法。您也可以使用[**PptxSave选项**](https://reference.aspose.com/cells/python-java/asposecells.api/PptxSaveOptions)类以指定将工作表导出到 .pptx 文件的其他设置。
+无需担心如何将Excel工作簿转换为PowerPoint，因为Aspose.Cells通过Java库有最佳解决方法。Aspose.Cells通过Java API支持将电子表格转换为PowerPoint格式。要将工作簿导出到PowerPoint，请将[**SaveFormat.PPTX**](https://reference.aspose.com/cells/python-java/asposecells.api/saveformat)作为[**Workbook.save**](https://reference.aspose.com/cells/python-java/asposecells.api/workbook#save\(java.lang.String,%20int\))方法的第二个参数传递。您还可以使用[**PptxSaveOptions**](https://reference.aspose.com/cells/python-java/asposecells.api/PptxSaveOptions)类指定导出工作表到.pptx文件的其他设置。
 
-下面的代码示例演示了将 Excel 工作簿导出到 PPT。请看代码转换[源文件](sample.xlsx)以代码生成的Word文件作为参考。
+以下代码示例演示了将Excel工作簿导出为PPT。请参考代码将源文件（sample.xlsx）转换为代码生成的Word文件。
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Convert-Excel-to-Pptx.py" >}}
 

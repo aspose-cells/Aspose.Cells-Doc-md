@@ -1,15 +1,16 @@
-﻿---
-title: 通过IFilePathProvider接口提供导出工作表HTML文件路径
+---
+title: 通过IFilePathProvider接口提供导出的工作表HTML文件路径
 type: docs
 weight: 870
 url: /zh/java/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/
 ---
-## **可能的使用场景**
-假设，您有一个包含多个工作表的 Excel 文件，并且您想要将每个工作表导出到单独的 HTML 文件。如果您的任何工作表有指向其他工作表的链接，那么这些链接将在导出的 HTML 中断开。为了解决这个问题，Aspose.Cells 提供[IFilePathProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IFilePathProvider)您可以实现该接口来修复损坏的链接。
-## **通过IFilePathProvider接口提供导出工作表HTML文件路径**
-请下载[示例 excel 文件](5473417.zip)在以下代码及其导出的 HTML 文件中使用。所有这些文件都在*温度*目录。你应该提取它*C：*驾驶。然后就会变成*C:\温度*目录。然后你会打开*Sheet1.html*在浏览器中打开文件，然后单击其中的两个链接。这些链接指的是这两个导出的 HTML 工作表，它们位于*C:\Temp\OtherSheets*目录。
 
-{{< highlight "java" >}}
+## **可能的使用场景**
+假设您有一个包含多个工作表的Excel文件，并且希望将每个工作表导出为单独的HTML文件。如果您的某些工作表链接到其他工作表，则这些链接将在导出的HTML中断开。为解决此问题，Aspose.Cells提供了[IFilePathProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IFilePathProvider)接口，您可以实现此接口以修复断开的链接。
+## **通过 IFilePathProvider 接口提供导出的工作表 HTML 文件路径**
+请下载以下代码中使用的[样本excel文件](5473417.zip)及其导出的HTML文件。所有这些文件都在*Temp*目录中。您应该将其解压到*C:*驱动器上。然后它将变为*C:\Temp*目录。然后您将在浏览器中打开*Sheet1.html*文件并单击其中的两个链接。这些链接指向位于*C:\Temp\OtherSheets*目录中的这两个导出的HTML工作表。
+
+{{< highlight java >}}
 
  file:///C:/Temp/OtherSheets/Sheet2.html#RANGE!A1
 
@@ -17,27 +18,27 @@ file:///C:/Temp/OtherSheets/Sheet3.html#RANGE!A1
 
 {{< /highlight >}}
 
-以下屏幕截图显示了如何*C:\Temp\Sheet1.html*它的链接看起来像
+以下屏幕截图显示了*C:\Temp\Sheet1.html*及其链接的外观
 
-![待办事项：图片_替代_文本](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_1.png)
+![todo:image_alt_text](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_1.png)
 
-以下屏幕截图显示了 HTML 源。如您所见，链接现在指的是*C:\Temp\OtherSheets*目录。这是通过使用[IFilePathProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IFilePathProvider)界面。
+以下屏幕截图显示了HTML源代码。正如您所看到的，这些链接现在指向*C:\Temp\OtherSheets*目录。这是使用[IFilePathProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IFilePathProvider)接口实现的。
 
-![待办事项：图片_替代_文本](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_2.png)
+![todo:image_alt_text](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_2.png)
 ## **示例代码**
-请注意*C:\温度*目录仅用于说明目的。您可以使用您选择和放置的任何目录[示例 excel 文件](5473414.xlsx)在那里并执行提供的示例代码。然后它将创建*其他床单*您的目录中的子目录，并在其中导出第二个和第三个工作表 HTML。请更改*目录路径*在提供的代码中添加变量，并在执行前将其引用到您选择的目录。
+请注意，*C:\Temp*目录仅供说明目的。您可以选择任何目录，并将[样本excel文件](5473414.xlsx)放在其中，并在执行提供的示例代码之前创建*OtherSheets*子目录。请在执行之前更改提供的代码中的*dirPath*变量，并将其引用到您选择的目录。
 
 {{% alert color="primary" %}} 
 
-示例代码仅在您设置 Aspose.Cells 许可证时才有效。如果您尝试在未设置许可证的情况下运行代码，它将进入无限循环。因此，我们添加了一个检查以在未设置许可证时打印消息并停止执行。您可以购买许可证或向 Aspose.Purchase 团队申请 30 天的临时许可证。
+只有在设置 Aspose.Cells 许可证后，示例代码才能运行。如果尝试在没有设置许可证的情况下运行代码，则会陷入无限循环。因此，我们已添加了一个检查来打印消息并在未设置许可证时停止执行。您可以购买许可证或从 Aspose.Purchase 团队申请一个 30 天的临时许可证。
 
 {{% /alert %}} 
 
-请参阅在代码中注释这些行将破坏链接*Sheet1.html*和*Sheet2.html*要么*Sheet3.html*当他们的链接在里面被点击时不会打开*Sheet1.html*
+请查看在代码中注释这些行将打断*Sheet1.html*中的链接，当单击内部链接时，*Sheet2.html*或*Sheet3.html*将不会打开。
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //If you will comment this line, then hyperlinks will be broken
 
@@ -47,7 +48,7 @@ options.setFilePathProvider(new FilePathProvider());
 
 
 
-这是您可以使用提供的执行的完整示例代码[示例 excel 文件](5473414.xlsx).
+以下是完整的示例代码，您可以使用提供的[样本excel文件](5473414.xlsx)执行。
 
 
 

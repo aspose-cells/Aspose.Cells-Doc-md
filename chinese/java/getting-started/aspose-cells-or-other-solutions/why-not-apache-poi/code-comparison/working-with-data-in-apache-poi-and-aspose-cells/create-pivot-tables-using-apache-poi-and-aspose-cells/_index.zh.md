@@ -1,19 +1,20 @@
-﻿---
-title: 使用 Apache POI 和 Aspose.Cells 创建数据透视表
+---
+title: 使用Apache POI和Aspose.Cells创建数据透视表
 type: docs
 weight: 40
 url: /zh/java/create-pivot-tables-using-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - 创建数据透视表**
-使用 Aspose.Cells 创建数据透视表：
 
-1. 使用 Cell 对象的 setValue 方法将一些数据添加到工作表单元格。您还可以使用已填充数据的模板文件。数据将用作数据透视表的数据源。
-1. 通过调用 PivotTableCollection 添加方法（封装在 {{Worksheet }} 对象中）向工作表添加数据透视表。
-1. 通过传递其索引从 PivotTableCollection 集合访问新的 PivotTable 对象。
+## **Aspose.Cells - 创建数据透视表**
+使用Aspose.Cells创建数据透视表:
+
+1. 使用Cell对象的setValue方法向工作表单元格添加一些数据。您还可以使用已填充数据的模板文件。这些数据将用作数据透视表的数据源。
+1. 调用PivotTableCollection的add方法（封装在{{Worksheet}}对象中）向工作表添加数据透视表。
+1. 通过传递其索引从PivotTableCollection集合中访问新的PivotTable对象。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Instantiating a Workbook object
 
@@ -152,10 +153,10 @@ pivotTable.addFieldToArea(PivotFieldType.COLUMN, 1);
 pivotTable.addFieldToArea(PivotFieldType.DATA, 2);
 
 {{< /highlight >}}
-## **Apache POI SS (HSSF + XSSF) - 创建数据透视表**
+## **Apache POI SS（HSSF + XSSF） - 创建数据透视表**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  XSSFWorkbook wb = new XSSFWorkbook();
 
@@ -187,16 +188,16 @@ pivotTable.addReportFilter(3);
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载运行示例**使用 Apache POI 和 Aspose.Cells 创建数据透视表**来自以下任何社交编码网站：
+从以下提到的社交编码站点中下载**使用Apache POI和Aspose.Cells创建数据透视表**的运行示例：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
 ## **下载源代码**
-下载源代码**使用 Apache POI 和 Aspose.Cells 创建数据透视表**来自以下任何社交编码网站：
+从以下提到的社交编码站点中下载**使用Apache POI和Aspose.Cells创建数据透视表**的源代码：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[创建数据透视表和数据透视图](/cells/zh/java/create-pivot-tables-and-pivot-charts/).
+有关更多详细信息，请访问[创建数据透视表和数据透视图] (/cells/zh/java/create-pivot-tables-and-pivot-charts)
 
 {{% /alert %}}

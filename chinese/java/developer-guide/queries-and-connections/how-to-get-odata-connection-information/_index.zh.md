@@ -1,16 +1,17 @@
-﻿---
-title: 如何获取 OData 连接信息
+---
+title: 如何获取OData连接信息
 type: docs
 weight: 60
 url: /zh/java/how-to-get-odata-connection-information/
 ---
-## **获取 OData 连接信息**
 
-在某些情况下，开发人员可能需要从 excel 文件中提取 OData 信息。 Aspose.Cells 提供了[**工作簿.DataMashup**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#DataMashup)返回 Excel 文件中存在的 DataMashup 信息的属性。此信息由 DataMashup 类表示。 DataMashup 类提供返回 PowerQueryFormulaCollction 集合的 PowerQueryFormulas 属性。从 PowerQueryFormulaCollction，您可以访问 PowerQueryFormula 和 PowerQueryFormulaItem。
+## **获取OData连接信息**
 
-以下代码片段演示了如何使用这些类来检索 OData 信息。
+有时，开发人员可能需要从Excel文件中提取OData信息。Aspose.Cells提供了 [DataMashup](ODataSample.xlsx) 属性，它返回Excel文件中存在的DataMashup信息。这些信息由DataMashup类表示。DataMashup类提供了返回PowerQueryFormulaCollction集合的PowerQueryFormulas属性。从PowerQueryFormulaCollction，您可以访问PowerQueryFormula和PowerQueryFormulaItem。
 
-附上以下代码片段中使用的源文件供您参考。
+以下代码片段演示了使用这些类来检索OData信息的用法。
+
+以下代码片段中使用的源文件已附上供您参考。
 
 [源文件](ODataSample.xlsx)
 
@@ -22,10 +23,10 @@ url: /zh/java/how-to-get-odata-connection-information/
 
 连接名称：订单
 
-名称：来源
+名称：源
 
-值：OData.Feed("https://services.odata.org/V3/Northwind/Northwind.svc/", null, [Implementation="2.0"])
+数值：OData.Feed("https://services.odata.org/V3/Northwind/Northwind.svc/", null, [Implementation="2.0"])
 
-名称：订单表
+名称：Orders_table
 
-值：来源{[Name="Orders",Signature="table"]}[Data]
+数值：Source{[名称="Orders",签名="table"]}[数据]

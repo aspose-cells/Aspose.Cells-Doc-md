@@ -1,6 +1,8 @@
-﻿---
-title: 入门
+---
+title: 开始入门
 type: docs
 weight: 10
 url: /zh/net/grid-getting-started/
 ---
+
+

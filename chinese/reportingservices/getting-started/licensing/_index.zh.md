@@ -1,55 +1,56 @@
-﻿---
+---
 title: 许可
 type: docs
 weight: 60
 url: /zh/reportingservices/licensing/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells for Reporting Services 可作为免费、无时间限制的评估从[下载页面](https://downloads.aspose.com/cells/reportingservices).产品的评估版和许可版是相同的。
+Aspose.Cells for Reporting Services 可以在[下载页面](https://downloads.aspose.com/cells/reportingservices)上免费获得，使用时间无限制的评估版本。 产品的评估版和许可版本相同。
 
-如果您对评估版感到满意，请购买许可证。确保您理解并同意订阅条款和条件。
+当您对评估版满意时，请购买许可。 确保您理解并同意订阅条款和条件。
 
 {{% /alert %}} 
-### **获取和使用许可证**
-支付订单后，即可从订单页面下载许可证。
+### **获得并使用许可证**
+订单付款后，许可证将可从订单页面下载。
 
-许可证文件是一个明文、数字签名的 XML 文件。许可证文件包含客户名称、购买的产品和许可证类型等信息。不要修改许可证文件的内容，因为这样做会使它失效。
+许可文件是一个明文的数字签名的XML文件。 许可文件包含客户名称、购买的产品和许可类型等信息。 请不要修改许可文件的内容，这样会使其无效。
 
-将许可证下载到您的计算机并将其复制到必须是以下文件夹之一的文件夹中。
+下载许可证到您的计算机并将其复制到以下文件夹之一。
 
-- $[安装文件夹]\许可证\
+- $[安装文件夹]\License\
 - $[MSSQL Server Reporting Services]\ReportServer\Bin\
-- $[MSSQL 服务器报告服务]\ReportServer\
+- $[MSSQL Server Reporting Services]\ReportServer\
 
-根据您的订阅类型，许可证文件的名称可以是以下之一：
+许可证文件的名称可以根据您的订阅类型之一。
 
 - Aspose.Cells.Reporting.Services.lic
 - Aspose.Total.ReportingServices.lic
 - Aspose.Custom.lic", "Aspose.Total.lic
 - Aspose.Cells.Reporting.Services - Developer Site Subscription.lic
 - Aspose.Cells.Reporting.Services - Developer Subscription.lic
-- Aspose.Cells.Reporting.Services - 多重部署订阅.lic
-- Aspose.Cells.Reporting.Services - 单服务器部署订阅.lic
+- Aspose.Cells.Reporting.Services - Multiple Deployment Subscription.lic
+- Aspose.Cells.Reporting.Services - Single Server Deployment Subscription.lic
 
-要测试许可证文件是否已正确安装，请将任何报告导出为 Microsoft Excel 工作簿。如果工作簿末尾没有水印工作表，则License文件激活成功。
+要测试许可证文件是否已正确安装，请将任何报表导出为Microsoft Excel工作簿。 如果工作簿末尾不包含任何水印工作表，则许可证文件已成功激活。
 
- Aspose.Cells for Reporting Services 在评估模式下工作时注入评估水印工作表。当一个有效的许可证文件时，例如当**Aspose.Cells.ReportingServices.lic**在$[Installation Folder]\License\文件夹下，没有评估水印工作表。
+在评估模式下操作时，Aspose.Cells for Reporting Services 会注入一个评估水印工作表。 当位于$[Installation Folder]\License\文件夹中存在有效的许可证文件，例如**Aspose.Cells.ReportingServices.lic**时，不会出现评估水印工作表。
 
-**在评估模式下创建的文件。注意第二个工作表。** 
+**在评估模式下创建的文件。 请注意第二个工作表。** 
 
-![待办事项：图片_替代_文本](licensing_1.png)
+![todo:image_alt_text](licensing_1.png)
 
 **使用完整许可证创建的文件** 
 
-![待办事项：图片_替代_文本](licensing_2.png)
+![todo:image_alt_text](licensing_2.png)
 
 {{% alert color="primary" %}} 
 
-如果许可证文件有任何问题，错误消息将生成到生成的报告中。
+如果许可证文件出现任何问题，错误消息将被生成到生成的报表中。
 
 {{% /alert %}} 
 
 **指示许可问题的错误消息** 
 
-![待办事项：图片_替代_文本](licensing_3.png)
+![todo:image_alt_text](licensing_3.png)

@@ -1,9 +1,10 @@
-﻿---
-title: 使用 Aspose.Cells 追踪先例和家属
+---
+title: 使用Aspose.Cells进行追踪先例和依赖关系
 type: docs
 weight: 60
 url: /zh/java/tracing-precedents-and-dependents-using-aspose-cells/
 ---
+
 ## **下载运行代码**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **下载示例代码**
@@ -11,6 +12,6 @@ url: /zh/java/tracing-precedents-and-dependents-using-aspose-cells/
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[追踪先例和家属](/cells/zh/java/precedents-and-dependents).
+有关更多详细信息，请访问[追踪前置和依赖项](/cells/zh/java/precedents-and-dependents)。
 
 {{% /alert %}}

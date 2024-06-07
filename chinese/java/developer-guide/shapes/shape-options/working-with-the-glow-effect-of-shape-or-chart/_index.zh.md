@@ -1,20 +1,21 @@
-﻿---
-title: 使用形状或图表的发光效果
+---
+title: 处理形状或图表的发光效果
 type: docs
 weight: 960
 url: /zh/java/working-with-the-glow-effect-of-shape-or-chart/
 ---
+
 ## **可能的使用场景**
-Aspose.Cells 提供了 Shape.Glow 属性来处理形状或图表的发光效果。它包含以下子属性，您可以根据需要设置这些子属性以获得不同的结果。
+Aspose.Cells提供Shape.Glow属性以处理形状或图表的发光效果。它包含以下子属性，您可以设置这些属性以根据您的要求获得不同的结果。
 
-- 发光效果.大小
-- 发光效果.透明度
+- GlowEffect.Size
+- GlowEffect.Transparency
 
-以下截图为Microsoft Excel界面设置形状发光效果。
+以下屏幕截图显示了设置形状的发光效果的Microsoft Excel界面。
 
-![待办事项：图片_替代_文本](working-with-the-glow-effect-of-shape-or-chart_1.png)
-## **使用形状或图表的发光效果**
-下面的示例代码加载[源文件](5472520.xlsx)并访问第一个工作表中的第一个形状并设置 Shape.Glow 属性的子属性，然后将工作簿保存在[输出excel文件](5472527.xlsx).
+![todo:image_alt_text](working-with-the-glow-effect-of-shape-or-chart_1.png)
+## **处理形状或图表的发光效果**
+以下示例代码加载了[源Excel文件](5472520.xlsx)，并访问第一个工作表中的第一个形状，设置Shape.Glow属性的子属性，然后将工作簿保存在[输出Excel文件](5472527.xlsx)中。
 ## **示例代码**
 
 

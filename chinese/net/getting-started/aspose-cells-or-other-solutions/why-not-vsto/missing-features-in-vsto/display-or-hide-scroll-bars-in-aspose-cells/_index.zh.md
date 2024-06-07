@@ -1,37 +1,38 @@
-﻿---
-title: 显示或隐藏滚动条 Aspose.Cells
+---
+title: 在Aspose.Cells中显示或隐藏滚动条
 type: docs
 weight: 70
 url: /zh/net/display-or-hide-scroll-bars-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-滚动条非常适用于浏览任何文件的内容。通常，有两种滚动条：
+滚动条非常适用于导航任何文件的内容。通常有两种滚动条：
 
 - 垂直滚动条
 - 水平滚动条
 
-Microsoft Excel 还提供水平和垂直滚动条，以便用户可以滚动浏览工作表内容。使用 Aspose.Cells，开发人员可以控制 Excel 文件中两种滚动条的可见性。
+Microsoft Excel 还提供水平和垂直滚动条，以便用户可以滚动工作表内容。使用 Aspose.Cells，开发人员可以控制 Excel 文件中两种类型滚动条的可见性。
 
 {{% /alert %}}
 
-Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)表示一个 Excel 文件。这[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类提供了广泛的属性和方法来管理 Excel 文件。要控制滚动条的可见性，请使用[**工作簿设置**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings)班级'[**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible)和[**IsHScrollBar可见**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible)特性。[**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible)和[**IsHScrollBar可见**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible)是布尔属性，这意味着这些属性只能存储**真的**要么**错误的**值。
+Aspose.Cells提供了一个代表Excel文件的类，[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)。[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类提供了一系列属性和方法用于管理Excel文件。要控制滚动条的可见性，请使用[**WorkbookSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings)类的[**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible)和[**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible)属性。[**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible)和[**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible)是布尔属性，这意味着这些属性只能存储**true**或**false**值。
 
-下面是打开 Excel 文件 book1.xls 的完整代码，隐藏两个滚动条，然后将修改后的文件保存为 output.xls 。
+以下是一个完整的代码，打开一个Excel文件book1.xls，隐藏两个滚动条，然后将修改后的文件保存为output.xls。
 
-下面的屏幕截图显示了包含两个滚动条的 Book1.xls 文件。修改后的文件保存为output.xls文件，如下图所示。
+下面的截图显示了Book1.xls文件包含两个滚动条。修改后的文件保存为output.xls文件，如下所示。
 
-**Book1.xls：修改前的Excel文件**
+**Book1.xls：任何修改前的Excel文件**
 
-![待办事项：图片_替代_文本](display-or-hide-scroll-bars-in-aspose-cells_1.png)
+![todo:image_alt_text](display-or-hide-scroll-bars-in-aspose-cells_1.png)
 
 **output.xls：修改后的Excel文件**
 
-![待办事项：图片_替代_文本](display-or-hide-scroll-bars-in-aspose-cells_2.png)
+![todo:image_alt_text](display-or-hide-scroll-bars-in-aspose-cells_2.png)
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 

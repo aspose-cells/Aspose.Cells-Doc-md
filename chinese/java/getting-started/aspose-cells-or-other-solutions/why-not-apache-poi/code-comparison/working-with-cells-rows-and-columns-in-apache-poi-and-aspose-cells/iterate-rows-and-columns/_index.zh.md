@@ -3,32 +3,33 @@ title: 迭代行和列
 type: docs
 weight: 50
 url: /zh/java/iterate-rows-and-columns/
-description: 了解如何通过 Aspose.Cells for Java API 迭代行和列。
-keywords: How to Iterate Rows and Columns in Java, Iterate Rows using Java, Java Iterate Columns. 
+description: 学习如何通过Aspose.Cells for Java API迭代行和列。
+keywords: 如何在Java中迭代行和列，使用Java迭代行，Java迭代列。 
 ---
-##  **如何使用 Aspose.Cells for Java 迭代行和列**
 
-可以使用行和列集合来迭代行和列。
+## **如何使用Aspose.Cells for Java迭代行和列**
+
+可以使用rows和columns集合迭代行和列。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- //访问最大显示范围
+ //Access the Maximum Display Range
 
-范围 range = worksheet.getCells().getMaxDisplayRange();
+Range range = worksheet.getCells().getMaxDisplayRange();
 
 int tcols = range.getColumnCount();
 
 int trows = range.getRowCount();
 
-System.out.println("总行数：" + trows);
+System.out.println("Total Rows:" + trows);
 
-System.out.println("总列数:" + tcols);
+System.out.println("Total Cols:" + tcols);
 
 RowCollection rows = cells.getRows();
 
-对于 (int i = 0 ; i< rows.getCount() ; i++)
+for (int i = 0 ; i < rows.getCount() ; i++)
 
 {
 
@@ -46,13 +47,13 @@ RowCollection rows = cells.getRows();
 
 {{< /highlight >}}
 
-##  **Apache POI SS - HSSF XSSF - 迭代行和列**
+## **Apache POI SS - HSSF XSSF - 迭代行和列**
 
-Rows 和 Cells 可以在 Sheet 上迭代。示例代码如下：
+在Sheet上可以迭代行和单元格。下面提到了示例代码:
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = WorkbookFactory.create(inStream);
 
@@ -74,11 +75,11 @@ for (Row row : sheet)
 
 {{< /highlight >}}
 
-##  **下载运行代码**
+## **下载运行代码**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 
-##  **下载示例代码**
+## **下载示例代码**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/iterate)
 

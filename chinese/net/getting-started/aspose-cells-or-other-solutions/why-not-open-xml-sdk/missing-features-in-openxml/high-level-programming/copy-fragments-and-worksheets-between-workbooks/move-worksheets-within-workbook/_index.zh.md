@@ -1,14 +1,15 @@
-﻿---
-title: 在工作簿中移动工作表
+---
+title: 在工作簿内移动工作表
 type: docs
 weight: 30
 url: /zh/net/move-worksheets-within-workbook/
 ---
-Aspose.Cells提供了一个方法，Aspose.Cells.Worksheet.MoveTo()，用于将工作表移动到电子表格中的另一个位置。该方法将目标工作表索引作为参数。
 
-下面的示例演示如何将工作表移动到工作簿中的另一个位置。
+Aspose.Cells 提供了一个方法 Aspose.Cells.Worksheet.MoveTo()，用于在电子表格中的另一个位置移动工作表。该方法以目标工作表索引作为参数。
 
-{{< highlight "csharp" >}}
+以下示例显示了如何将工作表移动到工作簿中的另一个位置。
+
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -41,4 +42,4 @@ wb.Save(FileName);
 {{< /highlight >}}
 ## **下载示例代码**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Move%20Worksheet%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Move%20Worksheet%20%28Aspose.Cells%29.zip)

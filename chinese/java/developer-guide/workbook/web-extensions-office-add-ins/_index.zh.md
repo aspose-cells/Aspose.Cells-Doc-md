@@ -1,26 +1,27 @@
-﻿---
-title: Web 扩展 - Office 加载项
+---
+title: Web扩展 - 办公插件
 type: docs
 weight: 120
 url: /zh/java/web-extensions-office-add-ins/
 ---
-Web Extensions 扩展 Office 应用程序并与 Office 文档中的内容交互。 Web Extensions 向 Office 客户端添加附加功能以改善用户体验和工作效率。
 
-Aspose.Cells 还提供了使用 Web 扩展的能力。
+Web扩展扩展办公应用程序并与办公文档中的内容交互。Web扩展向办公客户端添加附加功能，以改善用户体验和生产率。
 
-## **添加网络扩展**
+Aspose.Cells还提供了处理Web扩展功能的能力。
 
-您可以通过单击在 Excel 中添加 Web 扩展（Office 加载项）**插入**选项卡，然后单击**店铺**/**获取加载项**关联。在加载项框中，浏览并添加所需的加载项。
+## **添加Web扩展**
 
-Aspose.Cells 还提供了使用 WebExtension 和 WebExtensionTaskPane 类添加 Web 扩展的功能。以下代码示例演示了如何使用 WebExtension 和 WebExtensionTaskPane 类将 Web 扩展添加到 Excel 文件。请参阅[输出Excel文件](AddWebExtension_Out.xlsx)生成的代码供参考。
+您可以通过点击**插入**选项卡，然后点击**商店**/**获取加载项**链接，在Excel中添加Web扩展（Office加载项）。在加载项框中，浏览所需的加载项并将其添加进去。
+
+Aspose.Cells还提供了使用WebExtension和WebExtensionTaskPane类添加Web扩展的功能。以下代码示例演示了如何使用WebExtension和WebExtensionTaskPane类向Excel文件添加Web扩展。请参考由代码生成的[输出Excel文件](AddWebExtension_Out.xlsx)。
 
 ### **示例代码**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-AddWebExtension-1.java" >}}
 
-## **访问 Web 扩展信息**
+## **访问Web扩展信息**
 
-Aspose.Cells 提供访问 Excel 文件中的 Web 扩展信息的能力。下面的代码示例演示了如何通过加载[示例 Excel 文件](WebExtensionsSample.xlsx).请查看代码生成的控制台输出以供参考。
+Aspose.Cells提供了访问Excel文件中Web扩展信息的功能。以下代码示例演示了如何通过加载[sample Excel文件](WebExtensionsSample.xlsx)来访问Web扩展信息。请参考由代码生成的控制台输出。
 
 ### **示例代码**
 
@@ -30,14 +31,14 @@ Aspose.Cells 提供访问 Excel 文件中的 Web 扩展信息的能力。下面�
 
 宽度：350
 
-可见：真
+可见性：True
 
-已锁定：假
+是否锁定：False
 
-码头状态：正确
+停靠状态：右侧
 
-店铺名称：en-US
+商店名称：en-US
 
-店铺类型：OMEX
+商店类型：OMEX
 
 WebExtension.Id: 95D7ECE8-1355-492B-B6BF-27D25D0B0EEF

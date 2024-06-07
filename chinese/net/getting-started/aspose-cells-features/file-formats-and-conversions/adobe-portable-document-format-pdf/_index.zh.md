@@ -1,25 +1,26 @@
-﻿---
-title: Adobe 便携式文档格式 - PDF
+---
+title: Adobe Portable Document Format - PDF
 type: docs
 weight: 40
 url: /zh/net/adobe-portable-document-format-pdf/
 ---
+
 {{% alert color="primary" %}} 
 
-任何加载到 Aspose.Cells 的文档都可以转换为符合[PDF 1.5](https://docs.fileformat.com/pdf/)要么[PDF/A-1b](https://docs.fileformat.com/pdf/a/)规格。 Aspose.Cells 竭尽全力忠实地将 Microsoft Excel 文档转换为 PDF。大多数情况下，最终 PDF 文档的外观与原始 Microsoft Excel 文档没有区别。
+Aspose.Cells中加载的任何文档都可以转换为符合[PDF 1.5](https://docs.fileformat.com/pdf/)或[PDF/A-1b](https://docs.fileformat.com/pdf/a/)规范的PDF。Aspose.Cells会尽力忠实地将Microsoft Excel文档转换为PDF。大多数情况下，最终PDF文档的外观将与原始Microsoft Excel文档无法区分。
 
 {{% /alert %}} 
-## **PDF 在 Aspose.Cells**
-Aspose 解决方案在转换为 PDF 时完全支持以下文档功能：
+## **在Aspose.Cells中的PDF**
+当转换为PDF时，Aspose解决方案彻底支持以下文档功能：
 
-- Cell 数据和文本格式
+- 单元格数据和文本格式
 - 图表和数据透视表
 - 页眉/页脚
-- 条件格式
-- 边框、边框颜色
-- 图像、文本框和绘图形状
+- 条件格式设置
+- 边框，边框颜色
+- 图像，文本框和绘图形状
 - 书签
-- 超级链接
-- 合并 Cells，分页，打印标题
+- 超链接
+- 合并单元格，分页符，打印标题
 
-您还可以看到[详细规格](https://docs.aspose.com/cells/net/convert-excel-workbook-to-pdf/)关于 Aspose.Cells 如何将文档转换为 PDF。
+您还可以查看关于Aspose.Cells如何将文档转换为PDF的[详细规范](https://docs.aspose.com/cells/net/convert-excel-workbook-to-pdf/)。

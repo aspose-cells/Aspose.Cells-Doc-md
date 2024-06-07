@@ -1,33 +1,34 @@
-﻿---
-title: 在 xlsx4j 中将每个工作表保存到不同的 PDF
+---
+title: 在xlsx4j中每个工作表保存为不同的PDF
 type: docs
 weight: 50
 url: /zh/java/save-each-worksheet-to-different-pdf-in-xlsx4j/
 ---
-## **Aspose.Cells - 将每个工作表保存到不同的 PDF**
-Aspose.Cells 支持将 XLS 文件（包含图像、图表等）转换为 PDF 文档。 Aspose.Cells for Java 可以独立工作将电子表格转换为Pdf文档，您不再需要使用Aspose.Pdf for Java进行转换。转换也不需要创建/使用任何临时文件，因为整个过程可以在内存中完成。
+
+## **Aspose.Cells - 将每个工作表保存为不同的PDF**
+Aspose.Cells支持将包含图像、图表等的XLS文件转换为PDF文档。Aspose.Cells for Java可以独立工作，将电子表格转换为PDF文档，您不再需要使用Aspose.Pdf for Java进行转换。转换也不需要创建/使用任何临时文件，因为整个过程可以在内存中完成。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- //获取Excel文件路径
+ //Get the Excel file path
 
 String filePath = dataDir + "workbook.xlsx";
 
-//实例化一个新工作簿并打开Excel
+//Instantiate a new workbook and open the Excel
 
-//文件从它的位置
+//File from its location
 
-工作簿 workbook = new Workbook(filePath);
+Workbook workbook = new Workbook(filePath);
 
-//获取工作簿中工作表的个数
+//Get the count of the worksheets in the workbook
 
 int sheetCount = workbook.getWorksheets().getCount();
 
-//使除第一个工作表外的所有工作表不可见
+//Make all sheets invisible except first worksheet
 
-对于 (int i = 1; i< workbook.getWorksheets().getCount(); i++)
+for (int i = 1; i < workbook.getWorksheets().getCount(); i++)
 
 {
 
@@ -65,6 +66,6 @@ for (int j = 0; j < workbook.getWorksheets().getCount(); j++)
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[将每个工作表保存到不同的 PDF 文件](/cells/zh/java/save-each-worksheet-to-a-different-pdf-file).
+有关详细信息，请访问[将每个工作表保存为不同的PDF文件](/cells/zh/java/save-each-worksheet-to-a-different-pdf-file)。
 
 {{% /alert %}}

@@ -1,37 +1,38 @@
-﻿---
-title: 在 Ruby 中将工作表转换为 SVG
+---
+title: 在Ruby中将工作表转换为SVG
 type: docs
 weight: 70
 url: /zh/java/converting-worksheet-to-svg-in-ruby/
 ---
-## **Aspose.Cells - 将工作表转换为 SVG**
-要在 Ruby 中使用 Aspose.Cells for Java 将工作表转换为 SVG，只需调用工作表_到_Converter 模块的 svg() 方法。
 
-**红宝石代码**
+## **Aspose.Cells - 将工作表转换为SVG**
+要在Ruby中使用Aspose.Cells for Java将工作表转换为SVG，只需调用Converter模块的worksheet_to_svg()方法。
 
-{{< highlight "ruby" >}}
+**Ruby代码**
 
-定义工作表_到_svg（工作簿）
+{{< highlight ruby >}}
 
-# 在单个页面中将每个工作表转换为 svg 格式。
+ def worksheet_to_svg(workbook)
 
-img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').new
+    # Convert each worksheet into svg format in a single page.
 
-save_format = Rjb::import('com.aspose.cells.SaveFormat')
+    img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').new
 
-图片_options.setSaveFormat(保存_格式.SVG)
+    save_format = Rjb::import('com.aspose.cells.SaveFormat')
 
-img_options.setOnePagePerSheet(真)
+    img_options.setSaveFormat(save_format.SVG)
+
+    img_options.setOnePagePerSheet(true)
 
 
 
-# 将每个工作表转换成svg格式
+    # Convert each worksheet into svg format
 
-sheet_count = workbook.getWorksheets().getCount()
+    sheet_count = workbook.getWorksheets().getCount()
 
-我=0
+    i=0
 
-当我< sheet_count
+    while i < sheet_count
 
         sheet = workbook.getWorksheets().get(i)
 
@@ -55,6 +56,6 @@ end 
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**将工作表转换为 SVG (Aspose.Cells)**来自以下任何社交编码网站：
+从以下任一社交编码网站下载**将工作表转换为SVG（Aspose.Cells）**：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

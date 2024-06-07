@@ -1,18 +1,19 @@
-﻿---
-title: 将 XLSB 的修订版转换为 XLSM
+---
+title: 将XLSB文件转换为XLSM文件
 type: docs
 weight: 290
 url: /zh/net/convert-revision-of-xlsb-to-xlsm/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells 现在支持将 XLSB 文件的修订版完全转换为 XLSM 文件。修订位于路径 \xl\revisions 内。您可以通过将 XLSB 文件扩展名更改为 ZIP 来查看它们。 \xl\revisions 路径包含以 .bin 扩展名结尾的文件。
+Aspose.Cells现在支持将XLSB文件的修订版本完全转换为XLSM文件。修订版本位于路径\xl\revisions中。您可以将XLSB文件扩展名更改为ZIP以查看它们。\xl\revisions路径包含以.bin扩展名结尾的文件。
 
-当您使用 Aspose.Cells 将 XLSB 文件转换为 XLSM 文件时，这些 .bin 文件成功转换为 .xml 文件，如这两个屏幕截图所示。
+使用Aspose.Cells将XLSB文件转换为XLSM文件时，这些.bin文件成功转换为.xml文件，如下两个屏幕截图所示。
 
 {{% /alert %}} 
 
-以下代码示例向您展示了如何使用 Aspose.Cells 将 XLSB 文件转换为 XLSM 格式。
+以下代码样本向您展示了如何使用Aspose.Cells将XLSB文件转换为XLSM格式。
 
 
 

@@ -1,18 +1,19 @@
-﻿---
-title: 添加枢轴连接
+---
+title: 添加数据透视表连接
 type: docs
 weight: 30
 url: /zh/net/add-pivot-connection/
-description: 了解如何使用 Aspose.Cells 库添加枢轴连接。
-keywords: Add pivot connection without office 2013, office 2016, office 2019 and office 365.
+description: 学习如何使用Aspose.Cells库添加数据透视表连接。
+keywords: 在不使用office 2013、office 2016、office 2019和office 365的情况下添加数据透视表连接。
 ---
+
 ## **可能的使用场景**
 
-如果要在 Excel 中关联切片器和数据透视表，则需要右键单击切片器并选择“报告连接...”项。在选项列表中，您可以对复选框进行操作。同样，如果您想以编程方式使用 Aspose.Cells API 关联切片器和数据透视表，请使用[**Slicer.AddPivotConnection（数据透视表数据透视表）**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/addpivotconnection/)方法。它将关联切片器和数据透视表。
+如果您希望在Excel中关联缩略图和数据透视表，您需要右键单击缩略图并选择 "Report Connections..." 选项。在选项列表中，您可以操作复选框。同样，如果想使用Aspose.Cells API以编程方式关联缩略图和数据透视表，请使用 [**Slicer.AddPivotConnection(PivotTable pivot)**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/addpivotconnection/) 方法。它将关联缩略图和数据透视表。
 
-## **关联切片器和数据透视表**
+## **关联缩略图和数据透视表**
 
-下面的示例代码加载[示例 Excel 文件](add-pivot-connection.xlsx)包含一个现有的切片器。它访问切片器，然后关联切片器和数据透视表。最后，它将工作簿另存为[输出Excel文件](add-pivot-connection-out.xlsx). 
+以下示例代码加载包含现有缩略图的[sample Excel file](add-pivot-connection.xlsx)，访问缩略图，然后关联缩略图和数据透视表。最后，它将工作簿另存为[output Excel file](add-pivot-connection-out.xlsx)。 
 
 
 ## **示例代码**

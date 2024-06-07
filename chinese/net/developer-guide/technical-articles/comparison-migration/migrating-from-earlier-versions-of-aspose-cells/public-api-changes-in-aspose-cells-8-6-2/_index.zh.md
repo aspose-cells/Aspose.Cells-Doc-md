@@ -1,21 +1,22 @@
-﻿---
-title: 公共 API Aspose.Cells 8.6.2 的变化
+---
+title: Aspose.Cells 8.6.2 中的公共API更改
 type: docs
 weight: 210
 url: /zh/net/public-api-changes-in-aspose-cells-8-6-2/
 ---
+
 {{% alert color="primary" %}} 
 
-本文档描述了 Aspose.Cells API 从版本 8.6.1 到 8.6.2 的变化，模块/应用程序开发人员可能会感兴趣。它不仅包括新的和更新的公共方法、添加的类，还包括对 Aspose.Cells 中幕后行为的任何更改的描述。
+本文档描述了从版本 8.6.1 到 8.6.2 的 Aspose.Cells API 的更改，可能对模块/应用程序开发人员感兴趣。它不仅包括新的和更新的公共方法、添加的类，还描述了在 Aspose.Cells 后台行为中的任何更改。
 
 {{% /alert %}} 
-## **添加的 API**
-### **支持使用智能标记回叫**
-此版本 Aspose.Cells for .NET API 公开了 WorkbookDesigner.CallBack 属性和 ISmartMarkerCallBack 接口，它们一起允许[获取有关正在处理的单元格引用和/或智能标记的通知](/cells/zh/net/getting-notifications-while-merging-data-with-smart-markers/).下面的一段代码演示了如何使用 ISmartMarkerCallBack 接口来定义一个新类来处理 WorkbookDesigner.Process 方法的回调。
+## **已添加API**
+### **支持回调与智能标记**
+这个Aspose.Cells for .NET API的版本公开了WorkbookDesigner.CallBack属性和ISmartMarkerCallBack接口，共同允许获取关于正在处理的单元格引用和/或智能标记的通知。以下代码段演示了使用ISmartMarkerCallBack接口定义一个可处理WorkbookDesigner.Process方法的新类的用法。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  class SmartMarkerCallBack : ISmartMarkerCallBack
 
@@ -47,11 +48,11 @@ url: /zh/net/public-api-changes-in-aspose-cells-8-6-2/
 
 
 
-其余过程包括使用 WorkbookDesigner 加载包含智能标记的设计器电子表格，并通过设置数据源来处理它。但是，为了启用通知，必须在调用 WorkbookDesigner.Process 方法之前设置 WorkbookDesigner.CallBack 属性，如下所示。
+其余流程包括使用 WorkbookDesigner 加载包含智能标记的设计电子表格，并通过设置数据源处理它。然而，为了启用通知，在调用 WorkbookDesigner.Process 方法之前，必须设置 WorkbookDesigner.CallBack 属性，如下所示。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Loading the designer spreadsheet in an instance of Workbook
 
@@ -76,14 +77,14 @@ designer.Process(false);
 {{< /highlight >}}
 
 
-### **添加方法 Chart.ToPdf**
- Aspose.Cells for .NET 8.6.2公开了Chart.ToPdf方法，可以用来[直接将 Chart 形状渲染为 PDF 格式](/cells/zh/net/convert-an-excel-chart-to-image/).该方法目前接受字符串类型的参数作为文件路径位置，将生成的文件存储在磁盘上。
+### **添加Chart.ToPdf方法**
+Aspose.Cells for .NET 8.6.2公开了Chart.ToPdf方法，可用于直接将图表形状渲染为PDF格式。
 
 以下是简单的使用场景。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load spreadsheet containing charts
 
@@ -104,14 +105,14 @@ chart.ToPdf(outputFilePath);
 {{< /highlight >}}
 
 
-### **方法 Workbook.RemoveUnusedStyles 添加**
-Aspose.Cells for .NET 8.6.2公开了Workbook.RemoveUnusedStyles方法，可以用来[从样式池中移除所有未使用的 Style 对象](/cells/zh/net/remove-unused-styles-inside-the-workbook/).
+### **添加Workbook.RemoveUnusedStyles方法**
+Aspose.Cells for .NET 8.6.2公开了Workbook.RemoveUnusedStyles方法，用于从样式池中移除所有未使用的样式对象。
 
 以下是简单的使用场景。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load spreadsheet
 
@@ -124,14 +125,14 @@ workbook.RemoveUnusedStyles();
 {{< /highlight >}}
 
 
-### **物业 Cells. 添加样式**
+### **已添加 Cells.Style 属性**
 Cells.Style 属性可用于访问代表默认样式的工作表的样式。
 
 以下是简单的使用场景。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -144,8 +145,8 @@ Style style = book.Worksheets[0].Cells.Style;
 {{< /highlight >}}
 
 
-### **为 GridWeb 添加的事件**
+### **为 GridWeb 添加了事件**
 Aspose.Cells.GridWeb for .NET 8.6.2 暴露了以下两个新事件。
 
-1. AjaxCallFinished：当控件的 AJAX 更新完成时触发。 （EnableAJAX 应设置为 true）。
-1. CellModifiedOnAjax：在 AJAX 调用中修改单元格时触发。
+1. AjaxCallFinished: 当控件的 AJAX 更新完成时触发。(要将 EnableAJAX 设置为 true)。
+1. CellModifiedOnAjax: 当在 AJAX 调用中修改单元格时触发。

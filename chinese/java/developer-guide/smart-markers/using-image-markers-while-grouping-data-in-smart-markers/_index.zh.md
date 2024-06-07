@@ -1,18 +1,19 @@
-﻿---
-title: 在智能标记中分组数据时使用图像标记
+---
+title: 在智能标记中使用Image Markers分组数据
 type: docs
 weight: 630
 url: /zh/java/using-image-markers-while-grouping-data-in-smart-markers/
 ---
+
 {{% alert color="primary" %}} 
 
-本文提供了一个示例，说明在智能标记中对数据进行分组时图像标记的用法。
+本文提供了一个示例，用于说明在智能标记中分组数据时使用图像标记的用法。
 
 {{% /alert %}} 
-## **在智能标记中分组数据时使用图像标记**
-下面的示例代码创建一个工作簿，然后分别在单元格 D2、E2 和 F2 中添加以下智能标记标签。
+## **在智能标记中分组数据时使用图片标记**
+以下示例代码创建一个工作簿，然后分别在D2、E2和F2单元格添加以下智能标记标记。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  &=Person.Name(group:normal,skip:1)
 
@@ -22,9 +23,9 @@ url: /zh/java/using-image-markers-while-grouping-data-in-smart-markers/
 
 {{< /highlight >}}
 
-然后它用数据填充数据源并调用[WorkbookDesigner.Process()](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process\(\) ) 方法来处理智能标记标签。代码使用这些图像即[月亮.png](5472549.png)和[月亮2.png](5472548.png)但你可以使用任何图像。以下屏幕截图显示了此示例代码的输出。如您所见，E 列和 F 列中的数据根据 D 列中的数据分组。
+然后填充数据源数据，并调用[WorkbookDesigner.Process()](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process\(\))方法来处理智能标记标签。该代码使用了这些图片，即[moon.png](5472549.png)和[moon2.png](5472548.png)，但您可以使用任何图片。以下屏幕截图显示了此示例代码的输出。如您所见，列E和F中的数据相对于D列中的数据进行了分组。
 
-![待办事项：图片_替代_文本](using-image-markers-while-grouping-data-in-smart-markers_1.png)
+![todo:image_alt_text](using-image-markers-while-grouping-data-in-smart-markers_1.png)
 
 
 

@@ -1,6 +1,8 @@
-﻿---
-title: 使用 GridWeb 客户端脚本
+---
+title: 在客户端脚本中使用GridWeb
 type: docs
 weight: 30
-url: /zh/net/working-with-gridweb-client-side-script/
+url: /zh/net/aspose-cells-gridweb/working-with-gridweb-client-side-script/
 ---
+
+

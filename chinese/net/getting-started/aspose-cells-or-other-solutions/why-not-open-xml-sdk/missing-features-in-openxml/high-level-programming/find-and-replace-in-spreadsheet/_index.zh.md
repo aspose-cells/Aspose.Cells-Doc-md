@@ -1,14 +1,15 @@
-﻿---
+---
 title: 在电子表格中查找和替换
 type: docs
 weight: 30
 url: /zh/net/find-and-replace-in-spreadsheet/
 ---
-![待办事项：图片_替代_文本](Find_and_Replace.png)
 
-当我们点击查找按钮时，下面是代码：
+![todo:image_alt_text](Find_and_Replace.png)
 
-{{< highlight "csharp" >}}
+当单击查找按钮时执行以下代码：
+
+{{< highlight csharp >}}
 
  if (TXBX_Find.Text != "")
 
@@ -54,9 +55,9 @@ url: /zh/net/find-and-replace-in-spreadsheet/
 
 {{< /highlight >}}
 
-单击替换按钮将执行以下代码：
+单击替换按钮时执行以下代码：
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  if (TXBX_Find.Text != "" && TXBX_Replace.Text!="")
 
@@ -111,4 +112,4 @@ url: /zh/net/find-and-replace-in-spreadsheet/
 ## **下载示例代码**
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Find%20and%20replace%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Find%20and%20replace%20%28Aspose.Cells%29.zip)

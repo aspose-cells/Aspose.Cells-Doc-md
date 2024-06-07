@@ -1,10 +1,11 @@
-﻿---
+---
 title: 指定图像分辨率、质量、压缩和其他选项
 type: docs
 weight: 30
 url: /zh/net/specify-image-resolution-quality-compression-and-other-options/
 ---
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -81,4 +82,4 @@ chart.ToImage(FileName, options);
 {{< /highlight >}}
 ## **下载示例代码
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Chart%20to%20Image%20with%20Image%20Options%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Chart%20to%20Image%20with%20Image%20Options%20%28Aspose.Cells%29.zip)

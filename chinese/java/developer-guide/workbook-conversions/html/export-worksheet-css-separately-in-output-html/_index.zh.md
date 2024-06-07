@@ -1,26 +1,27 @@
-﻿---
-title: 在输出中单独导出工作表 CSS HTML
+---
+title: 在输出HTML中单独导出工作表CSS
 type: docs
 weight: 80
 url: /zh/java/export-worksheet-css-separately-in-output-html/
 ---
+
 ## **可能的使用场景**
 
-Aspose.Cells 提供在将 Excel 文件转换为 HTML 格式时单独导出工作表 CSS 的功能。请为此使用 HtmlSaveOptions.ExportWorksheetCSSSeparately 属性，并在将 Excel 文件保存为 HTML 格式时将其设置为 true。
+Aspose.Cells提供了将工作表CSS导出到单独文件的功能，当您将Excel文件转换为HTML时。请使用HtmlSaveOptions.ExportWorksheetCSSSeparately属性，并在保存Excel文件为HTML格式时将其设置为true。
 
-## **在输出中单独导出工作表 CSS HTML**
+## **在输出HTML中单独导出工作表CSS**
 
-以下示例代码创建一个 Excel 文件，在单元格 B5 中添加一些红色文本，然后使用 HtmlSaveOptions.ExportWorksheetCSSSeparately 属性将其保存为 HTML 格式。请参阅[输出 HTML](60489780.zip)生成的代码供参考。作为示例代码的结果，您会在其中找到 stylesheet.css。
+以下示例代码创建一个Excel文件，在单元格B5中添加一些红色文本，然后使用HtmlSaveOptions.ExportWorksheetCSSSeparately属性以HTML格式保存它。请查看代码生成的[输出HTML](60489780.zip)进行参考。您会发现其中包含一个样本代码的结果的stylesheet.css。
 
 ## **示例代码**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HTML-ExportWorksheetCSSSeparatelyInOutputHTML.java" >}}
 
-## **导出单张工作簿到HTML**
+## **将单个表格工作簿导出为HTML**
 
-当使用 Aspose.Cells 将具有多个工作表的工作簿转换为 HTML 时，它会创建一个 HTML 文件以及一个包含 CSS 和多个 HTML 文件的文件夹。在浏览器中打开此 HTML 文件时，选项卡可见。具有单个工作表的工作簿在转换为 HTML 时需要相同的行为。之前没有为单个工作表工作簿创建单独的文件夹，只创建了 HTML 文件。这样的 HTML 文件在浏览器中打开时不显示选项卡。 Excel 还为单个工作表创建了适当的文件夹和 HTML，因此使用 Aspose.Cells 实现了相同的行为。可以从以下链接下载示例文件，以在下面的示例代码中使用：
+使用Aspose.Cells将包含多个工作表的工作簿转换为HTML时，它会创建一个HTML文件，同时包含CSS和多个HTML文件的文件夹。当在浏览器中打开此HTML文件时，选项卡是可见的。当将单个工作表的工作簿转换为HTML时，需要相同的行为。之前，单表工作簿不会创建单独的文件夹，只会创建HTML文件。此类HTML文件在浏览器中打开时不会显示选项卡。Excel为单表也创建了正确的文件夹和HTML，因此使用Aspose.Cells实现了相同的行为。可以从以下链接下载用于下面样本代码的样本文件:
 
-[样本单张.xlsx](79527948.xlsx)
+[sampleSingleSheet.xlsx](79527948.xlsx)
 
 ## **示例代码**
 

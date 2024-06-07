@@ -1,41 +1,42 @@
-﻿---
-title: 向 Aspose.Cells 中的链接数据添加超链接
+---
+title: 在Aspose.Cells中添加超链接将数据链接起来
 type: docs
 weight: 10
 url: /zh/net/adding-hyperlinks-to-link-data-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-超链接用于在两个实体之间创建链接。每个人都熟悉超链接的使用，尤其是在网站上。
+超链接用于在两个实体之间创建链接。每个人都熟悉超链接的使用，特别是在网站上。
 
-使用 Aspose.Cells，开发人员可以在 Microsoft Excel 文件中创建不同种类的超链接。本主题讨论 Aspose.Cells 支持哪些类型的超链接以及如何在我们的 Excel 文件中使用它们。
+使用 Aspose.Cells，开发人员可以在 Microsoft Excel 文件中创建不同类型的超链接。本主题讨论了 Aspose.Cells 支持哪些类型的超链接以及如何在 Excel 文件中使用它们。
 
 {{% /alert %}}
 
 ## **添加超链接**
 
-使用 Aspose.Cells 可以将三种类型的超链接添加到单元格：
+使用Aspose.Cells可以向单元格添加三种类型的超链接:
 
-- [添加指向 URL 的链接](#adding-link-to-a-url).
-- [添加指向同一文件中另一个单元格的链接](#adding-a-link-to-a-cell-in-the-same-file).
-- [添加指向外部文件的链接](#adding-a-link-to-an-external-file).
+- [添加到URL的链接](#adding-link-to-a-url).
+- [添加到同一文件中的另一个单元格的链接](#adding-a-link-to-a-cell-in-the-same-file).
+- [添加到外部文件的链接](#adding-a-link-to-an-external-file).
 
-Aspose.Cells 允许开发人员使用 API 或[设计师电子表格](/cells/zh/net/what-is-a-designer-spreadsheet/)（手动创建超链接并使用 Aspose.Cells 将它们导入其他电子表格的电子表格）。
+Aspose.Cells允许开发人员使用API或[设计者电子表格](/cells/zh/net/what-is-a-designer-spreadsheet/)（手动创建超链接的电子表格，然后使用Aspose.Cells将它们导入到其他电子表格中）向Excel文件添加超链接。
 
-Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)表示 Microsoft Excel 文件。这[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类包含一个[**工作表集合**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)允许访问 Excel 文件中的每个工作表。工作表由[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)班级。这[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类提供了向 Excel 文件添加不同超链接的不同方法。
+Aspose.Cells提供了一个代表Microsoft Excel文件的类，[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)。[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类包含一个[**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)，允许访问Excel文件中的每个工作表。工作表由[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类表示。[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类提供了向Excel文件添加不同超链接的不同方法。
 
-### **将链接添加到 URL**
+### **添加超链接到URL**
 
-这[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类包含一个[**超级链接**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks)收藏。超链接集合中的每一项代表一个超链接。通过调用 Hyperlinks 集合的 Add 方法将超链接添加到 URL。添加方法采用以下参数：
+[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类包含一个[**Hyperlinks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks)集合。超链接集合中的每个项代表一个超链接。通过调用超链接集合的Add方法向URL添加超链接。Add方法接受以下参数:
 
-- Cell name，超链接将添加到的单元格的名称。
-- Number of rows，这个超链接范围内的行数。
-- Number of columns，这个超链接范围内的列数
-- 网址，网址地址。
+- 单元格名称，将要添加超链接的单元格名称。
+- 行数，此超链接范围中的行数。
+- 列数，此超链接范围中的列数。
+- URL，URL 地址。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -59,18 +60,18 @@ workbook.Save("C:\\book1.xls");
 
 {{< /highlight >}}
 
-### **在同一文件中添加指向 Cell 的链接**
+### **将链接添加到同一文件中的单元格**
 
-通过调用 Hyperlink 集合的 Add 方法，可以将超链接添加到同一 Excel 文件中的单元格。 Add 方法适用于内部和外部超链接。重载方法的一种版本采用以下参数：
+通过调用超链接集合的Add方法，可以向同一Excel文件的单元格添加超链接。Add方法适用于内部和外部超链接。重载方法的一个版本接受以下参数:
 
-- Cell name，要添加超链接的单元格的名称。
-- Number of rows，这个超链接范围内的行数。
-- Number of columns，这个超链接范围内的列数。
+- 单元格名称，将要添加超链接的单元格名称。
+- 行数，此超链接范围中的行数。
+- 列数，此超链接范围中的列数。
 - URL，目标单元格的地址。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -92,18 +93,18 @@ workbook.Save("C:\\book1.xls");
 
 {{< /highlight >}}
 
-### **添加指向外部文件的链接**
+### **将链接添加到外部文件**
 
-可以通过调用 Hyperlinks 集合的 Add 方法向外部 Excel 文件添加超链接。添加方法采用以下参数：
+通过调用超链接集合的Add方法，可以将超链接添加到外部Excel文件中。Add方法接受以下参数：
 
-- Cell name，超链接将添加到的单元格的名称。
-- Number of rows，这个超链接范围内的行数。
-- Number of columns，这个超链接范围内的列数。
-- URL，目标地址，外部Excel文件。
+- 单元格名称，将要添加超链接的单元格名称。
+- 行数，此超链接范围中的行数。
+- 列数，此超链接范围中的列数。
+- URL，目标的地址，外部 Excel 文件。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 

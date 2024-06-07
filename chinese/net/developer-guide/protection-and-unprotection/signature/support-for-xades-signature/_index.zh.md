@@ -1,12 +1,13 @@
-﻿---
-title: 支持 XAdES 签名
+---
+title: 支持XAdES签名
 type: docs
 weight: 110
 url: /zh/net/support-for-xades-signature/
 ---
- Aspose.Cells 提供支持使用 XAdES 签名对工作簿进行签名。为此，API 提供[**电子签名**](https://reference.aspose.com/cells/net/aspose.cells.digitalsignatures/digitalsignature)类和[**XAdES类型**](https://reference.aspose.com/cells/net/aspose.cells.digitalsignatures/xadestype)枚举。
 
-下面的代码片段演示了使用[**电子签名**](https://reference.aspose.com/cells/net/aspose.cells.digitalsignatures/digitalsignature)类签署[资源](101089323.xlsx)工作簿。
+Aspose.Cells支持使用XAdES签名对工作簿进行签名。为此，API提供了[**DigitalSignature**](https://reference.aspose.com/cells/net/aspose.cells.digitalsignatures/digitalsignature)类和[**XAdESType**](https://reference.aspose.com/cells/net/aspose.cells.digitalsignatures/xadestype)枚举。
+
+以下代码片段演示了如何使用[**DigitalSignature**](https://reference.aspose.com/cells/net/aspose.cells.digitalsignatures/digitalsignature)类对[源](101089323.xlsx)工作簿进行签名。
 
 ## **示例代码**
 

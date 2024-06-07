@@ -1,109 +1,112 @@
-﻿---
-title: 支持的功能列表
+---
+title: 支持函数列表
 type: docs
 weight: 10
-url: /zh/net/list-of-supported-functions/
+url: /zh/net/aspose-cells-griddesktop/list-of-supported-functions/
+keywords: GridDesktop、functions、formula
+description: 本文介绍了GridDesktop中支持的函数。
 ---
-## **介绍**
-Aspose.Cells 网格控件支持很多内置功能。这些函数属于以下类别：
 
-- **数学函数** 提供了大量可用于众多数学计算的函数
-- **文本和数据函数** 提供各种函数来对文本和数据执行不同类型的操作
-- **日期和时间函数** 提供一些与数据和时间相关的有用函数
-- **逻辑函数** 提供一小组逻辑函数来处理对数据的一些逻辑操作
+## **介绍**
+Aspose.Cells.GridDesktop控件支持大量内置函数。这些函数属于以下类别:
+
+- **数学函数**，提供了一组可用于许多数学计算的函数
+- **文本和数据函数**，提供了用于在文本和数据上执行不同类型操作的各种函数
+- **日期和时间函数**，提供了一些与日期和时间相关的有用函数
+- **逻辑函数**，提供了一小组逻辑函数来处理一些数据上的逻辑操作
 ### **数学函数**
 - CEILING、COMBIN、COS、COSH、COUNTIF
-- 学位
-- 偶数，指数
-- 事实，地板
-- 情报局
-- LN,LOG,LOG10
-- 模组
-- 奇怪的
-- PI,POWER,产品
-- 弧度、兰德、舍入、舍入、舍入
-- SIGN，SIN，SINH
+- DEGREES
+- EVEN、EXP
+- FACT、FLOOR
+- INT
+- LN、LOG、LOG10
+- MOD
+- ODD
+- PI、POWER、PRODUCT
+- RADIANS、RAND、ROUND、ROUNDDOWN、ROUNDUP
+- SIGN、SIN、SINH
 - SQRT、SUM、SUMIF、SUMPRODUCT、SUMSQ、SUMX2MY2、SUMX2PY2、SUMXMY2
-- 谭，谭，TRUNC
+- TAN、TANH、TRUNC
 ### **文本和数据函数**
-- 字符、代码、连接
-- 美元
-- 精确的
+- CHAR、CODE、CONCATENATE
+- DOLLAR
+- EXACT
 - 查找，固定
-- 左、伦、下
-- 中
-- 比赛
-- 更换、更换、正确
-- 搜索、替代
+- 左，长度，小写
+- MID
+- MATCH
+- 替换，重复，右
+- 搜索，替换
 - T，文本，修剪
-- 上
-- 价值
-- 抬头
+- UPPER
+- VALUE
+- LOOKUP
 - VLOOKUP
-- 宽字符
+- WIDECHAR
 ### **日期和时间函数**
-- 小时
-- 分钟，月份
-- 现在
-- 第二
+- HOUR
+- 分钟，月
+- NOW
+- SECOND
 - 时间，今天
-- 工作日
-- 年
+- WEEKDAY
+- YEAR
 ### **逻辑函数**
-- 错误的
-- 如果
-- 不是
-- 要么
-- 真的
-### **新功能**
-- 最小值
-- 行（仅在 Aspose.Cells.GridWeb 中支持）
-- ROW S（仅在 Aspose.Cells.GridWeb 中受支持）
-- 列（仅在 Aspose.Cells.GridWeb 中支持）
-- COLUMN S（仅在 Aspose.Cells.GridWeb 中受支持）
-- 地址（仅在 Aspose.Cells.GridWeb 中受支持）
-- 抵消
-- 间接
-- 错误
-- 编号
-- 干净的
+- FALSE
+- IF
+- NOT
+- OR
+- TRUE
+### **新函数**
+- MIN
+- 行（仅在Aspose.Cells.GridWeb中支持）
+- 行 S（仅在Aspose.Cells.GridWeb中支持）
+- 列（仅在Aspose.Cells.GridWeb中支持）
+- 列S（仅在Aspose.Cells.GridWeb中支持）
+- 地址（仅在Aspose.Cells.GridWeb中支持）
+- OFFSET
+- INDIRECT
+- ISERR
+- ISNUMBER
+- CLEAN
 - 人民币
-- 事实双
+- FACTDOUBLE
 - GCD
-- 液晶模组
-- 圆形
-- 多项式
-- 商
-- 随机数
-- 系列
+- LCM
+- MROUND
+- MULTINOMIAL
+- QUOTIENT
+- RANDBETWEEN
+- SERIESSUM
 - SQRTPI
-- 小计
-- 数数
-- 伯爵
-- 指数
-- 细胞
-- 中位数
-- 错误类型
-- 空白
-- 错误
-- 不合逻辑
+- SUBTOTAL
+- COUNT
+- COUNTA
+- INDEX
+- CELL
+- MEDIAN
+- ERROR.TYPE
+- ISBLANK
+- ISERROR
+- ISLOGICAL
 - ISNA
-- 非文本
-- 文本
+- ISNONTEXT
+- ISTEXT
 - ISREF
-- 否
-- 北美
-- 类型
-- 计数空白
-- 大
+- N
+- NA
+- TYPE
+- COUNTBLANK
+- LARGE
 - MAXA
-- 米娜
-- 平均值
-- 模式
-- 百分位数
-- 排名百分比
-- 秩
-- 选择
-- 查询
-- 小（仅在 Aspose.Cells.GridWeb 中支持）
+- MINA
+- AVERAGEA
+- MODE
+- PERCENTILE
+- PERCENTRANK
+- RANK
+- CHOOSE
+- HLOOKUP
+- SMALL ( 仅支持 Aspose.Cells.GridWeb )
 

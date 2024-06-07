@@ -1,19 +1,20 @@
-﻿---
-title: 如何将文本对齐应用于文本框
-linktitle: 对文本框应用/设置文本对齐方式
+---
+title: 如何将文本对齐应用/设置到文本框
+linktitle: 应用/设置文本框对齐方式
 type: docs
 weight: 20
 url: /zh/net/applying-text-alignment-to-partial-text-inside-the-textbox/
-description: 如何在 Aspose.cells 中应用/设置文本对齐到文本框。
-keywords: apply/set alignment TextBox Worksheet Excel Aspose
+description: 如何在Aspose.cells中将文本对齐应用/设置到文本框。
+keywords: 将文本框的工作表Excel Aspose应用/设置对齐
 ---
-TextBoxes 可以提高我们的文档和图表的表现力，对 TextBox 的不同部分应用不同的对齐方式可以帮助突出读者的兴趣点。但是 TextBox 的默认对齐并不能满足我们所有的需求。为此，您可能需要调整每个 TextBox 以满足您的目标要求。如果您没有很多要调整的 TextBox 对象，那么您很幸运。如果有那么多TextBox要调整，我想你会很麻烦。现在别担心，[Aspose.Cells](https://products.aspose.com/cells/)提供了这样一个 API 接口来帮助你做到这一点。
 
-以下示例代码将文本对齐应用于 TextBox。
+文本框可以提升文档和图表的表现力，并为文本框的不同部分应用不同的对齐方式有助于突出读者感兴趣的要点。但是文本框的默认对齐方式并不能满足所有需求。为此，您可能需要调整每个文本框以满足您的目标需求。如果需要调整很多文本框对象，您可能会遇到麻烦。现在不用担心，[Aspose.Cells](https://products.aspose.com/cells/)提供了一个API接口来帮助您做到这一点。
+
+以下示例代码将文本对齐应用到文本框。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "ApplyAlignmentToTextBox.cs" >}}
 
-您还可以使用适当的 HTML 文本更改文本框形状内某些文本的文本对齐方式。以下示例代码将文本对齐方式应用于文本框内的部分文本。
+您还可以使用适当的HTML文本将一些文本内文本框形状的文本对齐。以下示例代码将文本对齐应用于文本框内的部分文本。
 
 [源文件](SampleTextboxExcel2016.xlsx)
 

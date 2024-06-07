@@ -1,16 +1,17 @@
-﻿---
-title: Excel 到 HTML - 使用 PresentationPreference 选项以获得更好的布局
+---
+title: Excel转HTML - 使用PresentationPreference选项获得更好的布局
 type: docs
 weight: 220
 url: /zh/net/excel-to-html-use-presentationpreference-option-for-better-layout/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells 为需要在将 Microsoft Excel 文件保存为 HTML 或 MHT 格式时需要呈现更好布局的开发人员提供了一个有用的 HtmlSaveOptions.PresentationPreference 属性。该属性的默认值为 false。我们建议将此属性设置为 true 以获得更具吸引力的 Excel 报告显示。
+Aspose.Cells为需要将Microsoft Excel文件保存为HTML或MHT格式时获得更好布局的开发人员提供了HtmlSaveOptions.PresentationPreference属性。 该属性的默认值为false。 我们建议将此属性设置为true，以获得Excel报告的更吸引人呈现。
 
 {{% /alert %}} 
 
-请参阅下面的示例代码，该代码演示了如何在显示首选项打开的情况下从 Excel 报告中呈现 HTML 文件。
+请查看下面的示例代码，演示如何在具有演示偏好设置的Excel报告中呈现HTML文件。
 
 
 

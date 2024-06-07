@@ -1,40 +1,43 @@
-﻿---
-title: 将 Aspose.Grid.Web 升级为 Aspose.Cells.GridWeb
+---
+title: 升级 Aspose.Grid.Web 至 Aspose.Cells.GridWeb
 type: docs
 weight: 30
-url: /zh/net/upgrade-aspose-grid-web-to-aspose-cells-gridweb/
+url: /zh/net/aspose-cells-gridweb/upgrade-aspose-grid-web-to-aspose-cells-gridweb/
+keywords: GridWeb 
+description: 这篇文章介绍了如何在 GridWeb 中进行升级。
 ---
-{{% alert color="primary" %}}
-
-为了更容易升级，我们维护了一个文档，描述对现有用户至关重要的信息，尤其是那些使用旧版 Aspose.Grid.Web 并需要升级到合并后的 Aspose.Cells.GridWeb 的用户。
-
-这些都是简短的注释，您应该能够通过查看以下部分找到更多信息[开发者指南](/cells/zh/net/developer-guide/).
-
-{{% /alert %}}
-
-## **升级到 Aspose.Cells.GridWeb**
-
- Aspose.Grid.Web 用户在升级到新版 Aspose.Cells.GridWeb 时可能会遇到问题。需要注意的是，Aspose.Grid.Web 已重命名并成为 Aspose.Cells 的一部分，因此我们不会继续或修改旧版本的控件。
-
-升级到最新的 Aspose.Cells.GridWeb 组件并不难。
 
 {{% alert color="primary" %}}
 
-API 中有一些变化，因为具有成员、结构、枚举等的类保持不变。大部分更改已针对控件的名称空间和其他标记或属性进行。
+为了更易于升级，我们保留了一个描述关键信息的文档，特别是那些使用过旧版 Aspose.Grid.Web 并需要升级至 Aspose.Cells.GridWeb 的用户。
+
+这些备注旨在简洁，并且您可以通过查看 [开发者指南](/cells/zh/net/aspose-cells-gridweb/developer-guide/) 的各节来获取更多信息。
 
 {{% /alert %}}
 
-以下是现在更改的名称空间列表和其他属性/标签：
+## **升级至 Aspose.Cells.GridWeb**
 
-1. Aspose.Grid.Web 命名空间已重命名为 Aspose.Cells.GridWeb。
-1. Aspose.Grid.Web.Data 命名空间已重命名为 Aspose.Cells.GridWeb.Data。
-1. Aspose.Grid.Web.Design 命名空间已重命名为 Aspose.Cells.GridWeb.Design。
-1. Aspose.Grid.Formula 命名空间已重命名为 Aspose.Cells.GridFormula，并且随着组件的最新版本，该命名空间已从公共 API 中完全删除。
-1. agw:GridWeb 标签在aspx 形式中已更改为acw:GridWeb。
-1. 旧的 Aspose.Grid.Web 客户端路径，agw_客户端，已更改为acw_Aspose.Cells.GridWeb 的客户端。
-1.  web.config文件中的客户端路径设置，例如：
+升级到新版 Aspose.Cells.GridWeb 后，Aspose.Grid.Web 用户可能会遇到问题。请注意，Aspose.Grid.Web 已更名并成为 Aspose.Cells 的一部分，因此我们将不再对旧版本的控件进行继续或修改。 
 
-{{< highlight "java" >}}
+升级到最新的 Aspose.Cells.GridWeb 组件并不困难。
+
+{{% alert color="primary" %}}
+
+API 中有一些更改，但类、结构、枚举等成员保持不变。大部分更改已针对控件的名称空间和其他标签或属性进行。
+
+{{% /alert %}}
+
+以下是已更改的名称空间列表和其他属性/标签：
+
+1. Aspose.Grid.Web 命名空间已更名为 Aspose.Cells.GridWeb。
+2. Aspose.Grid.Web.Data 命名空间已更名为 Aspose.Cells.GridWeb.Data。
+3. Aspose.Grid.Web.Design 命名空间已更名为 Aspose.Cells.GridWeb.Design。
+4. Aspose.Grid.Formula 命名空间已更名为 Aspose.Cells.GridFormula，随着组件的最新版本发布，该命名空间已完全从公共 API 中删除。
+5. aspx 表单中的标签 agw:GridWeb 已更改为 acw:GridWeb。
+6. 旧版的 Aspose.Grid.Web 客户端路径 agw_client 已更改为 Aspose.Cells.GridWeb 的 acw_client。
+7. 例如，web.config 文件中的客户端路径设置已更改为 
+
+{{< highlight java >}}
 
  <appSettings> 
 
@@ -48,9 +51,9 @@ API 中有一些变化，因为具有成员、结构、枚举等的类保持不�
 
 {{< /highlight >}}
 
-已更改为
+已更改为 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <appSettings>
 

@@ -1,32 +1,33 @@
-﻿---
-title: 已知问题 - 个人网站集的权限
+---
+title: 已知问题 - 对个人站点集的权限
 type: docs
 weight: 40
 url: /zh/sharepoint/known-issue-permissions-to-personal-site-collections/
 ---
+
 {{% alert color="primary" %}} 
 
-默认情况下，SharePoint 不会向门户管理员授予管理个人网站的完全权限。这就是门户管理员执行个人网站集的激活和停用可能会失败的原因。这包括安装期间的激活和停用。
+SharePoint默认不会向门户管理员授予完整权限来管理个人站点。这就是为什么当由门户管理员执行个人站点集合的激活和停用时可能会失败。这包括在设置期间的激活和停用。
 
 {{% /alert %}} 
-### **授予对个人网站的许可**
-安装期间出现此问题时，Microsoft.SharePoint.SPFeature.Activate() 处的 UnauthorizedAccessException 将记录到 SharePoint 跟踪日志中。当作为卸载的一部分停用失败时，UnauthorizedAccessException 将显示在上次设置屏幕上以显示停用失败。
+### **授予个人站点权限**
+如果在安装期间发生此问题，则会在SharePoint跟踪日志中记录Microsoft.SharePoint.SPFeature.Activate()中的UnauthorizedAccessException。当作为卸载的一部分停用失败时，将在停用失败的最后设置屏幕上显示UnauthorizedAccessException。
 
-为防止出现此问题，请授予门户管理员管理 MySite Web 应用程序的权限：
+为避免此问题，授予门户管理员管理MySite Web应用程序的权限：
 
-1. 去**SharePoint 中央管理**并选择**申请管理**标签。
-1. 选择**网络应用政策**在下面**应用安全**团体。
-1. 确保您在“我的网站”中选择了正确的 Web 应用程序**Web应用程序**列表在右边。
-1. 选择**添加用户**在左上角。
-1. 选择**所有区域**默认情况下**添加用户**屏幕并点击**下一个**.
-1. 添加您希望控制“我的网站”Web 应用程序的适当用户或活动目录组。
-1. 选择控制级别。
+1. 转到 **SharePoint中央管理** 并选择 **应用程序管理** 选项卡。
+1. 在 **应用程序安全性** 组下选择 **Web应用程序策略**。
+1. 确保您在右侧的 **Web应用程序** 列表中选择正确的Web应用程序以供“我的网站”使用。
+1. 在左上角选择 **添加用户**。
+1. 在 **添加用户** 屏幕上默认选择 **所有区域** 并单击 **下一步**。
+1. 添加适当的用户或希望控制您的“我的站点”Web应用程序的活动目录组。
+1. 选择控制级别。 
 
    **添加用户和设置控制级别** 
 
-![待办事项：图片_替代_文本](known-issue-permissions-to-personal-site-collections_1.png)
+![todo:image_alt_text](known-issue-permissions-to-personal-site-collections_1.png)
 
 
 
 
-1. 点击**结束**.
+1. 单击 **完成**。

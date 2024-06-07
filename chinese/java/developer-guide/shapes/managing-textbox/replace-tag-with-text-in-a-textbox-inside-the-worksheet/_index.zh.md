@@ -1,11 +1,12 @@
-﻿---
-title: 用工作表内文本框中的文本替换标签
+---
+title: 在工作表内文本框中替换标签中的文本
 type: docs
 weight: 150
 url: /zh/java/replace-tag-with-text-in-a-textbox-inside-the-worksheet/
 ---
+
 ## **可能的使用场景**
-文本框可以有标签，可以在运行时用一些文本替换，以根据需要配置它们。标签可以是一些用尖括号括起来的标签 '<' and '>.一个文本框中可以有多个标签。示例文件可以从以下链接下载。
+Text boxes can have tags that can be replaced with some text at run time to configure them according to the requirement. Tags can be some label enclosed in angle brackets '<' and '>'. There can be multiple tags within a single textbox. The sample file can be downloaded from the following link.
 
 [sampleReplaceTagWithText.xlsx](79527956.xlsx)
 ## **示例代码**

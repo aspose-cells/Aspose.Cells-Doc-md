@@ -3,16 +3,17 @@ title: 设置打印选项
 type: docs
 weight: 40
 url: /zh/net/setting-print-options/
-description: 本文演示如何使用 C# API 和 .NET 库以编程方式设置 Excel 工作表页面设置功能的打印选项。您可以设置打印区域、打印标题和页序。
-keywords: set excel print area c#, set exce print titles c#, set excel page order c#
+description: 本文演示如何使用 C# API 和 .NET 库在程序中设置 Excel 工作表页面设置功能的打印选项。您可以设置打印区域、打印标题和页面顺序。
+keywords: 设置 Excel 打印区域 c#，设置 Excel 打印标题 c#，设置 Excel 页面顺序 c#
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel 的页面设置设置提供了多个打印选项（也称为工作表选项），允许用户控制工作表页面的打印方式。
+Microsoft Excel 的页面设置提供多个打印选项 (也称为工作表选项)，允许用户控制工作表页的打印方式。
 
 {{% /alert %}}
 
-##  **设置打印选项**
+## **设置打印选项**
 
 这些打印选项允许用户：
 
@@ -20,77 +21,77 @@ Microsoft Excel 的页面设置设置提供了多个打印选项（也称为工�
 - 打印标题。
 - 打印网格线。
 - 打印行/列标题。
-- 达到草稿质量。
-- 打印评论。
-- 打印单元错误。
+- 实现草稿质量。
+- 打印注释。
+- 打印单元格错误。
 - 定义页面排序。
 
- Aspose.Cells 支持 Microsoft Excel 提供的所有打印选项，开发人员可以使用 Excel 提供的属性轻松地为工作表配置这些选项[**页面设置**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)班级。下面将更详细地讨论如何使用这些属性。
+Aspose.Cells支持Microsoft Excel提供的所有打印选项，开发人员可以使用[**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)类提供的属性轻松配置这些选项以用于工作表。如何使用这些属性在下面更详细地讨论。
 
-###  **设置打印区域**
+### **设置打印范围**
 
-默认情况下，打印区域包含工作表中包含数据的所有区域。开发人员可以建立工作表的特定打印区域。
+默认情况下，打印区域包含所有包含数据的工作表区域。开发人员可以建立工作表的特定打印区域。
 
-要选择特定的打印区域，请使用[**页面设置**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)班级'[**打印区域**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printarea)财产。将定义打印区域的单元格范围分配给此属性。
+要选择特定的打印区域，请使用[**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)类的[**PrintArea**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printarea)属性。将定义打印区域的单元格范围分配给此属性。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintArea-1.cs" >}}
 
-###  **设置打印标题**
+### **设置打印标题**
 
-Aspose.Cells 允许您指定行和列标题以在打印的工作表的所有页面上重复。为此，请使用[**页面设置**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)班级'[**打印标题列**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printtitlecolumns)和[**打印标题行**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printtitlerows)特性。
+Aspose.Cells允许您指定要在打印的工作表的所有页面上重复的行和列标头。为此，请使用[**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)类的[**PrintTitleColumns**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printtitlecolumns)和[**PrintTitleRows**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printtitlerows)属性。
 
-将重复的行或列通过传递它们的行号或列号来定义。例如，行定义为 $1:$2，列定义为 $A:$B。
+将重复的行或列由其行号或列号传递定义。例如，行定义为$1:$2，列定义为$A:$B。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintTitle-1.cs" >}}
 
-###  **设置其他打印选项**
+### **设置其他打印选项**
 
-这[**页面设置**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)类还提供了几个其他属性来设置常规打印选项，如下所示：
+[**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)类还提供几个其他属性以设置常规打印选项，如下所示：
 
-- [**打印网格线**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printgridlines)一个布尔属性，定义是否打印网格线。
-- [**打印标题**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printheadings)定义是否打印行和列标题的布尔属性。
-- [**黑与白**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/blackandwhite)：一个布尔属性，定义是否以黑白模式打印工作表。
-- [**打印评论**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments)：定义是在工作表上还是在工作表末尾显示打印注释。
-- [**打印草稿**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printdraft)一个布尔属性，定义是否打印没有图形的工作表。
-- [**打印错误**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors)定义是否将单元格错误打印为显示、空白、破折号或 N/A。
+- [**PrintGridlines**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printgridlines):定义是否打印网格线或不打印的布尔属性。
+- [**PrintHeadings**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printheadings):定义是否打印行和列标题或不打印的布尔属性。
+- [**BlackAndWhite**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/blackandwhite):定义是否以黑白模式打印工作表或不打印的布尔属性。
+- [**PrintComments**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments)：定义是否在工作表上显示打印注释或在工作表末尾显示。
+- [**PrintDraft**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printdraft)：定义是否打印不带图形的工作表的布尔属性。
+- [**PrintErrors**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors)：定义是否打印单元格错误为显示、空白、破折号或 N/A。
 
-设置[**打印评论**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments)和[**打印错误**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors)属性，Aspose.Cells还提供了两个枚举，[**打印注释类型**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype)， 和[**打印错误类型**](https://reference.aspose.com/cells/net/aspose.cells/printerrorstype)包含要分配给的预定义值[**打印评论**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments)和[**打印错误**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors)分别属性。
+要设置[**PrintComments**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments)和[**PrintErrors**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors)属性，Aspose.Cells还提供了两个枚举，[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype)和[**PrintErrorsType**](https://reference.aspose.com/cells/net/aspose.cells/printerrorstype)，分别包含要分配给[**PrintComments**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments)和[**PrintErrors**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors)属性的预定义值。
 
-中的预定义值[**打印注释类型**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype)下面列出了枚举及其描述。
+[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype)枚举中的预定义值列在下面，并附有描述。
 
 |**打印注释类型**|**描述**|
 | :- | :- |
-|就地打印|指定打印工作表上显示的注释。|
-|打印无评论|指定不打印注释。|
-|打印页结束|指定在工作表末尾打印注释。|
+|PrintInPlace|指定将注释打印为工作表上显示的样式。|
+|PrintNoComments|指定不打印注释。|
+|PrintSheetEnd|指定在工作表末尾打印注释。|
 
-的预定义值[**打印错误类型**](https://reference.aspose.com/cells/net/aspose.cells/printerrorstype)下面列出了枚举及其描述。
+[**PrintErrorsType**](https://reference.aspose.com/cells/net/aspose.cells/printerrorstype)枚举的预定义值列在下面，并附有描述。
 
 
 
 |**打印错误类型**|**描述**|
 | :- | :- |
-|打印错误空白|指定不打印错误。|
-|PrintErrorsDash|指定将错误打印为“--”。|
-|显示打印错误|指定打印显示的错误。|
-|打印错误NA|指定将错误打印为“#N/A”。|
+|PrintErrorsBlank|指定不打印错误。|
+|PrintErrorsDash|指定将错误打印为“- -”。|
+|PrintErrorsDisplayed|指定将错误打印为显示的样式。|
+|PrintErrorsNA|指定将错误打印为“#N/A”。|
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-OtherPrintOptions-1.cs" >}}
 
-###  **设置页面顺序**
+### **设置页面顺序**
 
-这[**页面设置**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)类提供了[**命令**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/order)用于订购要打印的工作表的多页的属性。有两种可能性可以按如下方式对页面进行排序。
+[**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)类提供[**Order**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/order)属性，用于对要打印的工作表的多个页面进行排序。有两种可能性对页面进行排序。
 
-- **下来然后结束：**在向右打印任何页面之前先向下打印所有页面。
-- **然后向下：**在打印下面的页面之前先从左到右打印页面。
+- **先向下再向右：** 在打印任何页面向右之前，将所有页面向下打印。
+- **先向右再向下：** 在打印下方页面之前以从左到右的顺序打印页面。
 
- Aspose.Cells 提供枚举，[**打印订单类型**](https://reference.aspose.com/cells/net/aspose.cells/printordertype)包含所有预定义的订单类型。
+Aspose.Cells提供了一个枚举，[**PrintOrderType**](https://reference.aspose.com/cells/net/aspose.cells/printordertype)，其中包含所有预定义的顺序类型。
 
-的预定义值[**打印订单类型**](https://reference.aspose.com/cells/net/aspose.cells/printordertype)列举如下。
+[**PrintOrderType**](https://reference.aspose.com/cells/net/aspose.cells/printordertype)枚举的预定义值如下所示。
 
-|**打印订单类型**|**描述**|
+|**打印顺序类型**|**描述**|
 | :- | :- |
-|先下后上|将打印顺序表示为向下然后结束。|
-|过后|表示打印顺序为 over 然后 down。|
+|DownThenOver|表示打印顺序为先向下，然后向上。|
+|OverThenDown|表示打印顺序为向上，然后向下。|
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPageOrder-1.cs" >}}

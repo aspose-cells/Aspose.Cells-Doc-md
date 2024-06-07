@@ -1,14 +1,15 @@
-﻿---
+---
 title: 分隔符
 type: docs
 weight: 20
 url: /zh/reportingservices/delimiters/
 ---
-Aspose.Cells for Reporting Services 渲染TXT或CSV格式时支持指定分隔符。两个设置控制 Aspose.Cells for Reporting Services 中的字段分隔符。
 
-1. 中的字段分隔符参数**rsreportserver.config**只能控制指定的渲染扩展。
+当以 TXT 或 CSV 格式呈现时，Aspose.Cells for Reporting Services 支持指定分隔符。两个设置控制 Aspose.Cells for Reporting Services 中的字段分隔符。
 
-{{< highlight "java" >}}
+1. **rsreportserver.config** 中的字段分隔符参数仅能控制特定呈现扩展。 
+
+{{< highlight java >}}
 
  <Extension Name="ACTXT" Type="Aspose.Cells.ReportingServices.TabDelimitedRenderer,Aspose.Cells.ReportingServices" >
 
@@ -64,9 +65,9 @@ Specified field delimiters configuration reference:
 
 
 
-1. 中的字段分隔符参数**Aspose.Cells.ReportingServices.xml**可以控制所有TXT类型的渲染扩展。
+1. **Aspose.Cells.ReportingServices.xml** 中的字段分隔符参数能控制所有 TXT 类型呈现扩展。 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 
 
@@ -87,4 +88,4 @@ Specified field delimiters configuration reference:
 
 {{< /highlight >}}
 
-中的字段分隔符参数**rsreportserver.config**优先于字段分隔符参数**Aspose.Cells.ReportingServices.xml**.当字段分隔符参数在**rsreportserver.config**为空或默认值，字段分隔符参数**Aspose.Cells.ReportingServices.xml**用来。
+**rsreportserver.config** 中的字段分隔符参数优先于 **Aspose.Cells.ReportingServices.xml** 中的字段分隔符参数。当 **rsreportserver.config** 中的字段分隔符参数为 null 或默认值时，将使用 **Aspose.Cells.ReportingServices.xml** 中的字段分隔符参数。

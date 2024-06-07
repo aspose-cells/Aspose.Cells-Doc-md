@@ -1,9 +1,10 @@
-﻿---
-title: 自 Aspose.Cells 中的 Excel XP 以来的高级保护设置
+---
+title: Aspose.Cells中自Excel XP以来的高级保护设置
 type: docs
 weight: 20
 url: /zh/net/advanced-protection-settings-since-excel-xp-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
 - 删除行或列。
@@ -13,36 +14,36 @@ url: /zh/net/advanced-protection-settings-since-excel-xp-in-aspose-cells/
 - 选择锁定或解锁的单元格。
 - 使用数据透视表等等。
 
-Aspose.Cells 支持 Excel XP 或更高版本提供的所有高级保护设置。
+Aspose.Cells支持Excel XP或更高版本提供的所有高级保护设置。
 
 {{% /alert %}}
 
-## **使用 Excel XP 及更高版本的高级保护设置**
+## **使用Excel XP和更高版本的高级保护设置**
 
-查看 Excel XP 中可用的保护设置：
+查看Excel XP中可用的保护设置:
 
-1. 来自**工具**菜单，选择**保护**其次是**保护表**.
-显示一个对话框。
+1. 从**工具**菜单中选择**保护**，然后选择**保护工作表**。
+   会显示一个对话框。
 
-   **在 Excel XP 中显示保护选项的对话框**
+   **Excel XP中显示保护选项的对话框**
 
-![待办事项：图片_替代_文本](advanced-protection-settings-since-excel-xp-in-aspose-cells_1.png)
+![todo:image_alt_text](advanced-protection-settings-since-excel-xp-in-aspose-cells_1.png)
 
 1. 允许或限制工作表功能或应用密码。
 
-### **使用 Aspose.Cells 的高级保护设置**
+### **使用Aspose.Cells进行高级保护设置**
 
-Aspose.Cells 支持所有高级保护设置。
+Aspose.Cells支持所有高级保护设置。
 
-Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)，代表一个 Microsoft Excel 文件。这[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类包含一个[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)允许访问 Excel 文件中每个工作表的集合。工作表由[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)班级。
+Aspose.Cells提供了一个代表Microsoft Excel文件的类，[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)。[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类包含一个[**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)集合，允许访问Excel文件中的每个工作表。工作表由[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类表示。
 
-这[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类提供了[**保护**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection)用于应用这些高级保护设置的属性。这[**保护**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection)财产实际上是[**保护**](https://reference.aspose.com/cells/net/aspose.cells/protection)封装了几个用于禁用或启用限制的布尔属性的类。
+[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类提供了[**Protection**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection)属性，该属性用于应用这些高级保护设置。[**Protection**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection)属性实际上是[**Protection**](https://reference.aspose.com/cells/net/aspose.cells/protection)类的对象，该对象封装了用于禁用或启用限制的几个布尔属性。
 
-下面是一个小的示例应用程序。它打开一个 Excel 文件并使用 Excel XP 和更高版本支持的大部分高级保护设置。
+以下是一个简单的示例应用程序。它打开一个Excel文件，并使用Excel XP及更高版本支持的大多数高级保护设置。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 

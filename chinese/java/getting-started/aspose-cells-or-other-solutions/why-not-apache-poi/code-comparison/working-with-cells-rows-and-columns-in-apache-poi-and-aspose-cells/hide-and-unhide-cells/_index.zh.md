@@ -1,15 +1,16 @@
-﻿---
-title: 隐藏和取消隐藏 Cells
+---
+title: 隐藏和取消隐藏单元格
 type: docs
 weight: 30
 url: /zh/java/hide-and-unhide-cells/
 ---
-## **Aspose.Cells - 隐藏和取消隐藏行和列**
-Aspose.Cells提供了一个类，[工作簿](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)，代表一个 Microsoft Excel 文件。 Workbook 类包含一个 WorksheetCollection，它允许访问 Excel 文件中的每个工作表。工作表由[工作表](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)班级。 Worksheet 类提供了一个 Cells 集合，代表工作表中的所有单元格。 Cells 集合提供了多种用于管理工作表中的行或列的方法。
+
+## **Aspose.Cells - 隐藏和取消隐藏行列**
+Aspose.Cells提供了一个名为[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)的类，代表一个Microsoft Excel文件。Workbook类包含一个WorksheetCollection，允许访问Excel文件中的每个工作表。工作表由[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)类表示。Worksheet类提供一个Cells集合，表示工作表中的所有单元格。Cells集合提供了几种管理工作表中行或列的方法。 
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook workbook = new Workbook("workbook.xls");
 
@@ -24,12 +25,12 @@ cells.hideRow(2); //Hiding the 3rd row of the worksheet
 cells.hideColumn(1); //Hiding the 2nd column of the worksheet
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - 隐藏/取消隐藏 Cells**
-为了隐藏行或列，Apache POI SS 提供了 Row.setZeroHeight(boolean) 方法。
+## **Apache POI SS - HSSF XSSF - 隐藏/取消隐藏单元格**
+要隐藏行或列，Apache POI SS提供了Row.setZeroHeight(boolean)方法。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  InputStream inStream = new FileInputStream("workbook.xls");
 
@@ -49,6 +50,6 @@ row.setZeroHeight(true);
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[隐藏和显示行和列](/java/hiding-and-showing-rows-and-columns).
+要了解更多详细信息，请访问[隐藏和显示行列](/java/hiding-and-showing-rows-and-columns)。
 
 {{% /alert %}}

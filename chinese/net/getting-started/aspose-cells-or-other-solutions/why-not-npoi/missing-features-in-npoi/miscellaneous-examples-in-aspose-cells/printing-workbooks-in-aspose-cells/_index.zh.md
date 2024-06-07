@@ -1,17 +1,18 @@
-﻿---
-title: 打印工作簿 Aspose.Cells
+---
+title: 在Aspose.Cells中打印工作簿
 type: docs
 weight: 20
 url: /zh/net/printing-workbooks-in-aspose-cells/
 ---
+
 ## **Aspose.Cells - 打印工作簿**
-完成电子表格创建后，您可能需要根据需要打印一份工作表的硬拷贝。打印时，MS Excel 假定您要打印整个工作表区域，除非您指定了您的选择。
+当您完成创建电子表格后，可能希望打印出一份硬拷贝以满足您的需求。在打印时，Microsoft Excel默认假设您要打印整个工作表区域，除非您指定选择。
 
 打印工作表
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -35,12 +36,12 @@ sr.ToPrinter("Samsung ML-1520 Series");
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**打印工作簿**形成以下任何一个社交编码网站：
+从以下提到的任何社交编码网站下载**打印工作簿**：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Printing.Workbooks.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[打印工作簿](/cells/zh/net/printing-workbooks/).
+有关更多详细信息，请访问[打印工作簿](/cells/zh/net/printing-workbooks/)。
 
 {{% /alert %}}

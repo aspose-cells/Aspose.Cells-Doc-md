@@ -1,20 +1,21 @@
-﻿---
-title: 在 xlsx4j 中设置工作表选项卡颜色
+---
+title: 在xlsx4j中设置工作表选项卡颜色
 type: docs
 weight: 60
 url: /zh/java/set-worksheet-tab-color-in-xlsx4j/
 ---
-## **Aspose.Cells - 设置工作表标签颜色**
-Aspose.Cells 允许您更改单个工作表选项卡的颜色，使它们在其余部分中突出显示。例如，您可以使费用为红色、销售为绿色、资产为蓝色等。
-### **使用 Microsoft Excel 设置工作表选项卡颜色**
-1. 右键单击当前工作表底部选项卡中的选项卡。
-1. 选择**标签颜色**.
+
+## **Aspose.Cells - 设置工作表选项卡颜色**
+Aspose.Cells允许您更改个别工作表标签的颜色，使其在其他工作表中突出显示。例如，您可以将Expenses设为红色，Sales设为绿色，Assets设为蓝色等。
+### **使用Microsoft Excel设置工作表标签颜色**
+1. 在当前工作表底部的选项卡表中右键单击一个选项卡。
+1. 选择**选项卡颜色**。
 1. 从调色板中选择一种颜色。
-1. 点击**好的**.
+1. 单击**确定**。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a new Workbook
 
@@ -40,6 +41,6 @@ workbook.save(dataDir + "AsposeColoredTab_Out.xls");
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[设置工作表标签颜色](/java/set-worksheet-tab-color).
+有关详细信息，请访问[设置工作表选项卡颜色](/java/set-worksheet-tab-color)。
 
 {{% /alert %}}

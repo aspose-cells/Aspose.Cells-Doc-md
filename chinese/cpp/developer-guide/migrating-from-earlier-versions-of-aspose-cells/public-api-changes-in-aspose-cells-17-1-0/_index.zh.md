@@ -1,21 +1,22 @@
-﻿---
-title: 公共 API Aspose.Cells 17.1.0 的变化
+---
+title: Aspose.Cells 17.1.0 中的公共 API 变更
 type: docs
 weight: 20
 url: /zh/cpp/public-api-changes-in-aspose-cells-17-1-0/
 ---
+
 {{% alert color="primary" %}} 
 
-本文档描述了 Aspose.Cells API 从版本 16.12.0 到 17.1.0 的变化，模块/应用程序开发人员可能会感兴趣。它不仅包括新的和更新的公共方法、添加和删除的类等，还包括对 Aspose.Cells 中幕后行为的任何更改的描述。
+本文档描述了从版本 16.12.0 到 17.1.0 的 Aspose.Cells API 变更，可能对模块/应用程序开发人员感兴趣。它不仅包括新的和更新的公共方法、添加和删除的类等，还包括 Aspose.Cells 背后行为中的任何变化的描述。
 
 {{% /alert %}} 
-## **添加的 API**
+## **已添加API**
 ### **支持命名范围**
-Aspose.Cells for C++ 现在支持命名范围的创建和操作。以下代码片段演示了使用 Aspose.Cells for C++ API 是多么简单[创建命名范围](/cells/zh/cpp/create-named-range-in-a-workbook/).
+Aspose.Cells for C++现在支持创建和操作命名范围。以下代码片段展示了使用Aspose.Cells for C++ API来[在工作簿中创建命名范围](/cells/zh/cpp/create-named-range-in-a-workbook/)是多么简单。
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Path of your directory where you want to read or write files from
 
@@ -57,11 +58,11 @@ wb->Save(outCreateNamedRange, SaveFormat_Xlsx);
 
 {{< /highlight >}}
 
-除了创建新的命名范围外，Aspose.Cells for C++ API 还支持操作现有的命名范围。以下代码片段使用 Aspose.Cells for C++ API 来[操纵现有的命名范围](/cells/zh/cpp/manipulate-named-range-in-a-workbook/).
+除了创建新的命名范围，Aspose.Cells for C++ API还支持操作现有的命名范围。以下代码片段使用Aspose.Cells for C++ API来[操作现有的命名范围](/cells/zh/cpp/manipulate-named-range-in-a-workbook/)。
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Path of your directory where you want to read or write files from
 
@@ -98,55 +99,55 @@ nm->SetRefersTo((intrusive_ptr<String>)new String("=Sheet1!$D$5:$J$10"));
 wb->Save(outManipulateRange, SaveFormat_Xlsx);
 
 {{< /highlight >}}
-### **添加了 ICells::LinkToXmlMap 方法**
-LinkToXmlMap 方法已添加到 ICells 类中，该方法在链接 XML 映射时很有用。
-### **添加了 ICells::ImportCSV 方法**
-ImportCSV 方法已添加到 ICells 类，这对于将 CSV 文件导入工作表的单元格很有用。
+### **添加ICells::LinkToXmlMap方法**
+已添加 LinkToXmlMap 方法到 ICells 类中，可用于将 XML 地图链接。
+### **添加 ICells::ImportCSV 方法**
+已添加 ImportCSV 方法到 ICells 类中，用于将 CSV 文件导入工作表的单元格中。
 ### **添加了 ICells::ImportTwoDimensionArray 方法**
-GetIProtectedRangeCollection 方法已添加到 ICells 类中，这对于将二维数据数组导入工作表非常有用。
+已添加 GetIProtectedRangeCollection 方法到 ICells 类中，可用于将二维数据导入工作表。
 ### **添加了 IWorksheet::GetIProtectedRangeCollection 方法**
-GetIProtectedRangeCollection 方法已添加到 IWorksheet 类中，该类可用于检索 IProtectedRange 对象的集合。
+已添加 GetIProtectedRangeCollection 方法到 IWorksheet 类中，用于检索 IProtectedRange 对象集合。
 ### **添加了 IWorksheet::GetIProtectedRangeCollection 方法**
-GetIProtectedRangeCollection 方法已添加到 IWorksheet 类中，该类可用于从工作表中检索编辑范围集合。
+已添加 GetIProtectedRangeCollection 方法到 IWorksheet 类中，用于检索工作表中的编辑范围集合。
 ### **添加了 IWorkbookSettings::ClearPivottables 方法**
-ClearPivottables 方法已添加到 IWorkbookSettings 类，这对于从给定电子表格中清除所有数据透视表很有用。
+已添加 ClearPivottables 方法到 IWorkbookSettings 类中，可用于清除给定电子表格中的所有数据透视表。
 ### **添加了 IWorksheetCollection::CreateIRange 方法**
-CreateIRange 方法已添加到 IWorksheetCollection 类，该类可用于通过传递字符串格式的单元格引用来创建 IRange 的对象。
+已添加 CreateIRange 方法到 IWorksheetCollection 类中，可用于通过传递字符串格式的单元格引用创建 IRange 对象。
 ### **添加了 IExternalLink::IsVisible 方法**
-IsVisible 方法获取外部链接在 Excel 应用程序中的可见性状态。
+IsVisible 方法获取 Excel 应用程序中外部链接的可见性状态。
 ### **添加了 GetScaleCrop 和 SetScaleCrop 方法**
-Aspose.Cells for C++ 17.1.0 已将 GetScaleCrop 和 SetScaleCrop 方法公开给 IBuiltInDocumentPropertyCollection 类。这些方法对于获取或设置指示文档缩略图显示模式的 ScaleCrop 属性很有用。
+Aspose.Cells for C++ 17.1.0 已将 GetScaleCrop 和 SetScaleCrop 方法公开给 IBuiltInDocumentPropertyCollection 类。这些方法可用于获取或设置 ScaleCrop 属性，指示文档缩略图的显示模式。
 ### **添加了 GetLinksUpToDate 和 SetLinksUpToDate 方法**
-Aspose.Cells for C++ 17.1.0 已将 GetLinksUpToDate 和 SetLinksUpToDate 方法公开给 IBuiltInDocumentPropertyCollection 类。这些方法对于获取或设置 LinkUpToDate 属性很有用，该属性指示文档中的超链接是否是最新的。
+Aspose.Cells for C++ 17.1.0 已向 IBuiltInDocumentPropertyCollection 类公开了 GetLinksUpToDate 和 SetLinksUpToDate 方法。这些方法用于获取或设置 LinkUpToDate 属性，指示文档中的超链接是否为最新。
 ### **添加了 GetAbsolutePath 和 SetAbsolutePath 方法**
-Aspose.Cells for C++ 17.1.0 已将 GetAbsolutePath 和 SetAbsolutePath 方法公开给 IWorkbook 类。这些方法对于获取或设置只能用于外部链接的文件的绝对路径很有用。
+Aspose.Cells for C++ 17.1.0 已向 IWorkbook 类公开了 GetAbsolutePath 和 SetAbsolutePath 方法。这些方法用于获取或设置文件的绝对路径，仅可用于外部链接。
 ### **添加了 GetFormula 和 SetFormula 方法**
-此版本 Aspose.Cells for C++ 公开了 IListColumn 类的 GetFormula 和 SetFormula 方法。这些方法对于获取或设置列表列的公式很有用。
+Aspose.Cells for C++ 的此版本已向 IListColumn 类公开了 GetFormula 和 SetFormula 方法。这些方法用于获取或设置列表列的公式。
 ### **添加了 GetCheckCompatibility 和 SetCheckCompatibility 方法**
-此版本 Aspose.Cells for C++ 公开了 IWorkbookSettings 类的 GetCheckCompatibility 和 GetCheckCompatibility 方法。这些方法可用于获取或设置兼容性检查属性，指示 API 是否应在保存工作簿时检查兼容性。默认值为true，如果应用要求不需要检查兼容性，可以设置为false。
+Aspose.Cells for C++ 的此版本已向 IWorkbookSettings 类公开了 GetCheckCompatibility 和 GetCheckCompatibility 方法。这些方法用于获取或设置兼容性检查属性，指示 API 保存工作簿时是否应检查兼容性。默认值为 true，如果应用程序要求不检查兼容性，则可以将其设置为 false。
 ### **添加了 GetILightCellsDataHandler 和 SetILightCellsDataHandler 方法**
-Aspose.Cells for C++ 现在公开了 ILoadOptions 类的 GetILightCellsDataHandler 和 SetILightCellsDataHandler 方法。这些方法表示在读取模板文件时处理单元格数据的数据处理程序。
+Aspose.Cells for C++ 现在已向 ILoadOptions 类公开了 GetILightCellsDataHandler 和 SetILightCellsDataHandler 方法。这些方法表示在读取模板文件时处理单元格数据的数据处理程序。
 ### **添加了 GetCultureInfo 和 SetCultureInfo 方法**
-Aspose.Cells for C++ 公开了 ILoadOptions 类的 GetCultureInfo 和 SetCultureInfo 方法。这些方法可以获取或设置文件加载时的系统文化信息。
-## **删除的 API**
+Aspose.Cells for C++ 已向 ILoadOptions 类公开了 GetCultureInfo 和 SetCultureInfo 方法。这些方法可在加载文件时获取或设置系统区域设置信息。
+## **已删除APIs**
 ### **删除了 ICells::MaxDataRowInColumn 方法**
-建议改用 ICells::GetLastDataRow 方法。
-### **删除了 ICell::GetConditionalIStyle 方法**
-建议改用 ICell::GetIConditionalFormattingResult 方法。
-### **删除了 IPageSetup::GetDraft 和 SetDraft 方法**
-建议改用 IPageSetup::GetPrintDraft 和 IPageSetup::SetPrintDraft 方法。
+建议使用ICells::GetLastDataRow方法。
+### **移除ICell::GetConditionalIStyle方法**
+建议使用ICell::GetIConditionalFormattingResult方法。
+### **移除IPageSetup::GetDraft和SetDraft方法**
+建议使用IPageSetup::GetPrintDraft和IPageSetup::SetPrintDraft方法。
 
 {{% alert color="primary" %}} 
 
-随着 Aspose.Cells for C++ 17.1.0 的发布，我们删除了一些未使用的方法，因此被认为是不必要的。这是所有此类方法的列表。
+随着Aspose.Cells for C++ 17.1.0的发布，我们已删除了一些不再使用且被认为是不必要的方法。以下是所有此类方法的列表。
 
-- IPaneCollection::GetAcitvePaneType 和 SetAcitvePaneType 方法
-- IRange::ToString 方法
-- IRow::Equals 方法
-- IWorkbook::SetISettings 方法
-- ICell::ToString() 方法
-- ICell::Equals(ObjectPtr) 方法
-- ICell::GetHashCode 方法
-- IWorksheet::ToString 方法
+- IPaneCollection::GetAcitvePaneType和SetAcitvePaneType方法
+- IRange::ToString方法
+- IRow::Equals方法
+- IWorkbook::SetISettings方法
+- ICell::ToString()方法
+- ICell::Equals(ObjectPtr)方法
+- ICell::GetHashCode方法
+- IWorksheet::ToString方法
 
 {{% /alert %}}

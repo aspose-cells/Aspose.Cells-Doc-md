@@ -1,13 +1,14 @@
-﻿---
-title: 在 Apache POI 中创建日期 Cell 和 Aspose.Cells
+---
+title: 在 Apache POI 和 Aspose.Cells 中创建日期单元格
 type: docs
 weight: 90
 url: /zh/java/create-date-cell-in-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - 创建日期 Cell**
+
+## **Aspose.Cells - 创建日期单元格**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -34,10 +35,10 @@ style.setCustom("d-mmm-yy");
 cell.setStyle(style);
 
 {{< /highlight >}}
-## **Apache POI SS (HSSF + XSSF) - 创建日期 Cell**
+## **Apache POI SS (HSSF + XSSF) - 创建日期单元格**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -87,16 +88,16 @@ cell.setCellStyle(cellStyle);
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载运行示例**在 Aspose.Cells 和 Apache POI 中创建日期 Cell**来自以下任何社交编码网站：
+从以下任一社交编码网站下载**在Aspose.Cells和Apache POI中创建日期单元格**的运行示例:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
 ## **下载源代码**
-下载源代码**在 Aspose.Cells 和 Apache POI 中创建日期 Cell**来自以下任何社交编码网站：
+从以下任一社交编码网站下载**在Aspose.Cells和Apache POI中创建日期单元格**的源代码:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[添加数据到 Cells](/cells/zh/java/add-data-in-cells/).
+要了解更多详细信息，请访问 [向单元格添加数据](/cells/zh/java/add-data-in-cells/)。
 
 {{% /alert %}}

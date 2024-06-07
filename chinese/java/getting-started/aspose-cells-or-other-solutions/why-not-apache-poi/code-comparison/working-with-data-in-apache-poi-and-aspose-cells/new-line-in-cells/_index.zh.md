@@ -1,17 +1,18 @@
-﻿---
-title: Cells 中的新行
+---
+title: 单元格中的新行
 type: docs
 weight: 30
 url: /zh/java/new-line-in-cells/
 ---
-## **Aspose.Cells - Cells 中的新线**
-为确保可以读取单元格中的文本，可以应用明确的换行符和文本换行。文本换行将单元格中的一行变成多行，明确的换行符正好放在你想要的地方。
 
-要在单元格中换行文本，请使用 Style.setTextWrapped 方法。
+## **Aspose.Cells - 单元格中的新行**
+为确保单元格中的文本可读，可以应用显式换行和文本换行。文本换行将一个单行变成多行，而显式换行可将换行符插入到您想要的位置。
+
+要在单元格中自动换行，请使用Style.setTextWrapped方法。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Add Text to the First Cell with Explicit Line Breaks
 
@@ -30,12 +31,12 @@ style.setTextWrapped(true);
 cell.get(0, 0).setStyle(style);
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Cells 中的新行**
-CellStyle.setWrapText 应适用于环绕文本。
+## **Apache POI SS - HSSF XSSF - 单元格中的新行**
+CellStyle.setWrapText应设置为true以自动换行。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Row row = sheet.createRow(2);
 
@@ -59,6 +60,6 @@ cell.setCellStyle(cs);
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[换行和文字换行](/java/line-breaks-and-text-wrapping).
+有关更多详细信息，请访问[换行和文本自动换行](/java/line-breaks-and-text-wrapping)。
 
 {{% /alert %}}

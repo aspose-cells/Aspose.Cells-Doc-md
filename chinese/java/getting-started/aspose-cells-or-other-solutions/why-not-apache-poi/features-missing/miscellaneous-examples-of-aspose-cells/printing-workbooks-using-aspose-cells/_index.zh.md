@@ -1,17 +1,18 @@
-﻿---
-title: 使用 Aspose.Cells 打印工作簿
+---
+title: 使用Aspose.Cells打印工作簿
 type: docs
 weight: 20
 url: /zh/java/printing-workbooks-using-aspose-cells/
 ---
+
 ## **Aspose.Cells - 打印工作簿**
-完成电子表格创建后，您可能需要根据需要打印一份工作表的硬拷贝。打印时，MS Excel 假定您要打印整个工作表区域，除非您指定了您的选择。
+当您完成创建电子表格后，可能希望打印出一份硬拷贝以满足您的需求。在打印时，Microsoft Excel默认假设您要打印整个工作表区域，除非您指定选择。
 
 打印工作表
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a new workbook
 
@@ -39,7 +40,7 @@ sr.toPrinter("Samsung ML-1520 Series");
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a WorkbookRender object with respect to your workbook
 
@@ -58,6 +59,6 @@ wr.toPrinter("Samsung ML-1520 Series");
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[打印工作簿](/cells/zh/java/printing-workbooks).
+欲了解更多详情，请访问[打印工作簿](/cells/zh/java/printing-workbooks)。
 
 {{% /alert %}}

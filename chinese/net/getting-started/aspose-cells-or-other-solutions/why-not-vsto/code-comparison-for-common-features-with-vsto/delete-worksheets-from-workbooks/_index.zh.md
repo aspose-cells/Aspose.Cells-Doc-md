@@ -1,12 +1,13 @@
-﻿---
+---
 title: 从工作簿中删除工作表
 type: docs
 weight: 100
 url: /zh/net/delete-worksheets-from-workbooks/
 ---
-您可以删除工作簿中的任何工作表。要删除工作表，请使用工作表宿主项或使用工作簿的工作表集合访问工作表。
+
+您可以删除工作簿中的任何工作表。要删除工作表，请使用工作表宿主项或通过使用工作簿的工作表集合访问工作表。
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Excel.Workbook myWorkbook= this.Application.Workbooks.Open(fileName);
 
@@ -14,7 +15,7 @@ url: /zh/net/delete-worksheets-from-workbooks/
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 

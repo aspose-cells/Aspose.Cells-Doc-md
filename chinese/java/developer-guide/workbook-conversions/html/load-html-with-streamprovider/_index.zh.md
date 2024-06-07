@@ -1,20 +1,21 @@
-﻿---
-title: 使用 StreamProvider 将 Html 加载到 Excel
+---
+title: 通过StreamProvider加载HTML到Excel
 type: docs
 weight: 80
 url: /zh/java/convert-html-to-excel-with-streamprovider/
 ---
+
 {{% alert color="primary" %}} 
 
-在加载包含外部资源的html时，我们经常面临以下两个问题：
-1. 加载html流时，无法通过相对路径获取html文件引用的图片和外部资源。
-1. 需要映射html文件中引用的外部资源路径。
+加载包含外部资源的HTML文件时，通常会遇到以下两个问题:
+1. 加载HTML流时，无法通过相对路径获得HTML文件引用的图像和外部资源。
+1. HTML文件中引用的外部资源路径需要映射。
 
-这篇文章解释了如何实现[**IStreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/IStreamProvider)用于设置的界面[**HtmlLoadOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider)财产。通过实现这个接口，你将能够在加载Html流时加载外部资源或者这些外部资源是相对的。
+本文解释了如何实现[**IStreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/IStreamProvider)接口以设置[**HtmlLoadOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider)属性。通过实现此接口，您将能够在加载Html流时加载外部资源，或者这些外部资源是相对的。
 
 {{% /alert %}} 
 
-这是显示用法的主要代码[**HtmlLoadOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider)
+这是展示[**HtmlLoadOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider)用法的主要代码
 
 
 

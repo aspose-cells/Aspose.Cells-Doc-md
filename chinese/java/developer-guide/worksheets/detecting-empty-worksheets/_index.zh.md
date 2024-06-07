@@ -1,26 +1,27 @@
-﻿---
+---
 title: 检测空工作表
 type: docs
 weight: 710
 url: /zh/java/detecting-empty-worksheets/
 ---
-## **检查填充 Cells**
-工作表可以有一个或多个单元格填充值，其中值可以是简单的（文本、数字、日期/时间）或公式或基于公式的值。在这种情况下，很容易检测到给定工作表是否为空。我们只需要检查[Cells.MaxDataRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDataRow)要么[Cells.MaxDataColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDataColumn)特性。如果上述属性返回零值或正值，则表示已填充一个或多个单元格，但是，如果这些属性中的任何一个返回 -1，则表示给定工作表中未填充任何单元格。
+
+## **检查已填充的单元格**
+工作表中可以填充一个或多个单元格的值，其中值可以是简单的（文本、数值、日期/时间）或公式或基于公式的值。在这种情况下，很容易检测给定工作表是否为空。我们只需检查[Cells.MaxDataRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDataRow)或[Cells.MaxDataColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDataColumn)属性。如果上述属性返回零或正值，则表示已填充一个或多个单元格，但如果任何这些属性返回-1，则表示给定工作表中未填充任何单元格。
 
 {{% alert color="primary" %}} 
 
-行和列集合具有从零开始的索引，因此，第 0 行和第 0 列的单元格表示工作表中的第一个单元格，即 A1。
+行和列集合具有从零开始的索引，因此，行0和列0的单元格表示工作表中的第一个单元格，即A1。
 
 {{% /alert %}} 
-## **检查空初始化 Cells**
-所有具有值的单元格都会自动初始化，但是，工作表中的单元格可能只应用了格式。在这种情况下，[Cells.MaxDataRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDataRow)要么[Cells.MaxDataColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDataColumn)properties 将返回 -1，表示没有任何填充值，但使用此方法无法检测到由于单元格格式而初始化的单元格。为了检查工作表是否有空的初始化单元格，建议使用*迭代器.hasNext*从 Cells 集合获取的迭代器上的方法。如果*迭代器.hasNext*方法返回 true 那么这意味着在给定的工作表中有一个或多个已初始化的单元格。
+## **检查空的初始化单元格**
+所有具有值的单元格都会自动初始化，但有可能工作表只包含已应用格式的单元格。在这种情况下，[Cells.MaxDataRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDataRow)或[Cells.MaxDataColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDataColumn)属性将返回-1，表示不存在任何填充的值，但由于应用了单元格格式，初始化的单元格无法使用此方法来检测。为了检查工作表是否具有空的初始化单元格，建议在从Cells集合获取的迭代器上使用*Iterator.hasNext*方法。如果*iterator.hasNext*方法返回true，则表示给定工作表中有一个或多个初始化的单元格。
 
 {{% alert color="primary" %}} 
 
-有许多方法可以获取细胞枚举器，详见[如何以及在何处使用迭代器](/cells/zh/java/how-and-where-to-use-iterators/).
+有多种方法可以获取单元格枚举器，详见[如何使用和在何处使用迭代器](/cells/zh/java/how-and-where-to-use-iterators/)。
 
 {{% /alert %}} 
 ## **检查形状**
-给定的工作表可能没有任何填充的单元格，但是，它可能包含形状和对象，例如控件、图表、图像等。如果我们需要检查工作表是否包含任何形状，我们可以通过检查[ShapeCollection.Count](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#Count)财产。任何正值表示工作表中存在形状。
-## **编程范例**
+可能出现这样一种情况，即给定工作表没有任何填充的单元格，但可能包含形状和对象，如控件、图表、图像等。如果我们需要检查工作表是否包含任何形状，可以通过检查[ShapeCollection.Count](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#Count)属性来实现。任何正值表示工作表中存在形状。
+## **编程示例**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-CheckForShapes-1.java" >}}

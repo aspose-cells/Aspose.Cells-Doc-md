@@ -1,4 +1,4 @@
-﻿---
+---
 title: 绘图对象
 type: docs
 weight: 76

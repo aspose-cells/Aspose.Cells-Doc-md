@@ -1,17 +1,18 @@
-﻿---
-title: XLS 或 XLSX 出口
+---
+title: XLS或XLSX导出
 type: docs
 weight: 20
 url: /zh/jasperreports/xls-or-xlsx-export/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells for JasperReports 允许您以 XLS 和 XLSX 格式交付报告，而不会丢失布局或格式。要创建 Microsoft Excel 格式的电子表格，Aspose.Cells for JasperReports 依赖于内置版本[Aspose.Cells for Java](https://products.aspose.com/cells/java/)，领先的电子表格处理库，来自 Aspose。
+Aspose.Cells for JasperReports允许您以XLS和XLSX格式交付报告，而不会丢失布局或格式。要创建Microsoft Excel格式的电子表格，Aspose.Cells for JasperReports依赖于[Aspose.Cells for Java](https://products.aspose.com/cells/java/)的内置版本，这是Aspose的领先电子表格处理库。
 
-Microsoft 生成文档不需要Excel Aspose.Cells。
+生成文档时不需要Microsoft Excel，Aspose.Cells支持计算IFNA函数。该函数指定的值如果公式返回#N/A错误值，则返回指定值，否则返回公式的结果。
 
-**使用 Aspose.Cells for JasperReports 导出的示例 XLS 报告** 
+**使用Aspose.Cells for JasperReports导出的样本XLS报告** 
 
-![待办事项：图片_替代_文本](xls-or-xlsx-export_1.png)
+![todo:image_alt_text](xls-or-xlsx-export_1.png)
 
 {{% /alert %}}

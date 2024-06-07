@@ -1,15 +1,16 @@
-﻿---
-title: 在 PHP 中将工作表转换为图像
+---
+title: PHP 中的工作表转图片转换
 type: docs
 weight: 40
 url: /zh/net/worksheet-to-image-conversion-in-php/
 ---
-## **Aspose.Cells - 将工作表转换为图像**
-将 Microsoft Excel 工作表转换为图像文件
+
+## **Aspose.Cells - 将工作表转换为图片**
+将 Microsoft Excel 工作表转换为图片文件
 
 **PHP代码**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -45,6 +46,6 @@ url: /zh/net/worksheet-to-image-conversion-in-php/
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**工作表到图像 (Aspose.Cells)**来自以下任何社交编码网站：
+从以下任一社交编码网站下载**工作表转图片（Aspose.Cells）**：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/WorksheetToImage.php)

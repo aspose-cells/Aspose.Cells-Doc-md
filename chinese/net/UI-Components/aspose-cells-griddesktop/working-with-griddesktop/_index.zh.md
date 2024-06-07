@@ -1,6 +1,8 @@
-﻿---
-title: 使用 GridDesktop
+---
+title: 处理GridDesktop
 type: docs
 weight: 30
-url: /zh/net/working-with-griddesktop/
+url: /zh/net/aspose-cells-griddesktop/working-with-griddesktop/
 ---
+
+

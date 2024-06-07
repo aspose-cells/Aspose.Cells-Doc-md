@@ -1,24 +1,25 @@
-﻿---
-title: 将 Excel 工作簿转换为 Ods、Sxc 和 Fods (OpenOffice / LibreOffice calc)。
-linktitle: 赔率
+---
+title: 将Excel工作簿转换为Ods、Sxc和Fods（OpenOffice / LibreOffice calc）。
+linktitle: Ods
 type: docs
 weight: 20
 url: /zh/net/convert-excel-to-ods/
-description: 如何使用 Aspose.Cells 将 Excel 转换为 Ods (OpenOffice / LibreOffice Calc) 或将 Ods (OpenOffice / LibreOffice Calc) 转换为 Excel。
+description: 如何将Excel转换为Ods（OpenOffice / LibreOffice Calc）或将Ods（OpenOffice / LibreOffice Calc）转换为Excel的方法。
 ---
-## **关于开放文档**
-这[开放文档格式 (ODF)](https://en.wikipedia.org/wiki/OpenDocument)是一种免费开放的电子办公文档文件格式，最初由 Sun 为 Open Office 套件开发。 OpenDocument 电子表格 (ODS) 是 Excel 文档的文件格式。 OpenDocument 目前是 OASIS 和 ISO 标准。
 
-## **将 Ods (OpenOffice / LibreOffice calc) 转换为 Excel**
- Aspose.Cells 支持加载OpenOffice/LibreOffice Calc支持的Ods、Sxc和Fods，并转换[赔率](book1.ods),[Sxc](book1.sxc)和[食物](book1.fods)到 Excel 文件。
+## **关于OpenDocument**
+[开放文档格式（ODF）](https://en.wikipedia.org/wiki/OpenDocument)是Sun公司最初为Open Office套件开发的用于电子办公文档的免费开放文件格式。 OpenDocument Spreadsheet（ODS）是Excel文档的文件格式。OpenDocument目前是OASIS和ISO标准。
+
+## **将Ods（OpenOffice / LibreOffice Calc）转换为Excel**
+Aspose.Cells支持加载OpenOffice / LibreOffice Calc支持的Ods、Sxc和Fods，并将[Ods](book1.ods)、[Sxc](book1.sxc)和[Fods](book1.fods)转换为Excel文件。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-ODS-to-Excel.cs" >}}
 
-## **将 Excel 转换为 Ods（OpenOffice / LibreOffice Calc）**
- Aspose.Cells 支持将Excel文件转换为Ods、Sxc和Fods文件。下面的代码示例显示了如何将[模板](book1.xlsx)到 Ods、Sxc 和 Fods 文件。
+## **将Excel转换为Ods（OpenOffice / LibreOffice Calc）**
+Aspose.Cells支持将Excel文件转换为Ods、Sxc和Fods文件。以下代码示例显示了如何将[模板](book1.xlsx)转换为Ods、Sxc和Fods文件。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-ODS.cs" >}}
 
-## **推进主题**
-- [在 ODF 1.1 和 1.2 规范中保存 ODS 文件](/cells/zh/net/save-ods-file-in-odf-1-1-and-1-2-specifications/)
-- [使用 ODS 文件中的背景](/cells/zh/net/working-with-background-in-ods-files/)
+## **高级主题**
+- [在ODF 1.1和1.2规范中保存ODS文件](/cells/zh/net/save-ods-file-in-odf-1-1-and-1-2-specifications/)
+- [处理ODS文件中的背景](/cells/zh/net/working-with-background-in-ods-files/)

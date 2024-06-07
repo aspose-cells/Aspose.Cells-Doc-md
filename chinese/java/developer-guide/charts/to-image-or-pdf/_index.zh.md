@@ -1,132 +1,133 @@
-﻿---
+---
 title: 图表渲染
-linktitle: 图像或 Pdf
+linktitle: 转为图片或PDF
 type: docs
 weight: 40
 url: /zh/java/chart-rendering/
 ---
-## **创建图表**
 
- Aspose.Cells API 支持创建真实的 Excel 图表，详见主题[创建和自定义 Excel 图表](/cells/zh/java/creating-and-customizing-charts/).为了演示如何使用 Aspose.Cells API 以图像和 PDF 格式呈现图表，我们将按照以下代码片段创建一个 Column 类型的图表。
+## **创建图形**
+
+Aspose.Cells API支持创建各种Excel图表，具体详细信息请参考 [创建和自定义Excel图表](/cells/zh/java/creating-and-customizing-charts/)。为了演示使用Aspose.Cells API将图表呈现为图像和PDF格式，我们将根据以下代码片段创建一个柱形图。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-CreateChart-CreateChart.java" >}}
 
-## **渲染图**
+## **图表渲染**
 
- Aspose.Cells API 支持将 Excel 图表转换为图像和 PDF 格式，无需任何其他工具或应用程序。为了提供渲染支持，[**图表**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)班级暴露了[**印象**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) & [**转PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) 具有重载真实性的方法，以最好地满足应用程序的要求。
+Aspose.Cells API支持将Excel图表转换为图像和PDF格式，无需额外的工具或应用程序。为了提供渲染支持，[**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) 类已经暴露了 [**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) 和 [**toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) 方法，提供了各种重载以最好地满足应用程序的需求。
 
 ### **将图表渲染为图像**
 
-这[**图表转图像**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)方法具有大量重载以支持简单和高级渲染。如果应用程序要求以默认尺寸呈现图表，我们建议您使用[**图表转图像**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)方法如下。
+[**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) 方法有各种重载，以支持简单和高级渲染。如果应用程序需求是以默认尺寸呈现图表，建议您使用 [**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) 方法。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-RenderChartsToImages-RenderChartsToImages.java" >}}
 
-也可以使用高级设置将图表渲染为图像。 Aspose.Cells API 公开了重载版本[**图表转图像**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions) 可以接受实例的方法[**图像或打印选项**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)同时允许指定参数，如分辨率、渲染提示、图像格式等。
+还可以使用高级设置将图表呈现为图像。Aspose.Cells API提供了 [**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) 方法的重载版本，可以接受 [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) 的实例，同时允许指定参数，如分辨率、渲染提示、图像格式等。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ChartRendering-ChartRendering.java" >}}
 
-### **渲染图到 PDF**
+### **渲染图表为PDF**
 
-为了将图表呈现为 PDF 格式，Aspose.Cells API 公开了[**图表.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) 方法，能够将结果 PDF 存储在光盘路径或 OutputStream 的实例上。
+为了将图表呈现为PDF格式，Aspose.Cells API暴露了 [**Chart.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) 方法，能够将结果存储在磁盘路径上或输出流的实例中。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-chartsRenderChartsToPdf-RenderChartsToPdf.java" >}}
 
-## **支持的渲染图表类型**
+## **支持的图表类型用于渲染**
 
-有一些图表类型当前不支持渲染。此类图表类型包含**N** 在**支持下表的**列。
+目前不支持渲染的几种图表类型。此类图表类型在下表的 **Supported** 列中包含 **N**。
 
-|**图表类型**|**图表子类型**|**支持的**|
-|:- |:- |:- |
-|**柱子**|柱子|**Y**|
-||列堆叠|**Y**|
-||列 100% 堆叠|**Y**|
-||Column3D簇状|**Y**|
-||列 3D 堆叠|**Y**|
-||Column3D100PercentStacked|**Y**|
-||立柱三维|**Y**|
-|**酒吧**|酒吧|**Y**|
-||酒吧堆叠|**Y**|
-||Bar100Percent 堆叠|**Y**|
-||Bar3DClustered|**Y**|
-||Bar3D堆叠|**Y**|
-||Bar3D100PercentStacked|**Y**|
-|**线**|线|**Y**|
-||线堆叠|**Y**|
-||Line100Percent 堆叠|**Y**|
-||带数据标记的线|**Y**|
-||LineStackedWithDataMarkers|**Y**|
-||Line100PercentStackedWithDataMarkers|**Y**|
-||直线三维|**Y**|
-|**馅饼**|馅饼|**Y**|
-||Pie3D|**Y**|
-||派派|**Y**|
-||馅饼爆炸|**Y**|
-||饼图3D分解|**Y**|
-||馅饼吧|**Y**|
-|**分散**|分散|**Y**|
-||ScatterConnectedByCurvesWithDataMarker|**Y**|
-||ScatterConnectedByCurvesWithoutDataMarker|**Y**|
-||ScatterConnectedByLinesWithDataMarker|**Y**|
-||ScatterConnectedByLinesWithoutDataMarker|**Y**|
-|**区域**|区域|**Y**|
-||面积堆叠|**Y**|
-||面积 100% 堆叠|**Y**|
-||三维区域|**Y**|
-||Area3D堆叠|**Y**|
-||Area3D100PercentStacked|**Y**|
-|**油炸圈饼**|油炸圈饼|**Y**|
-||甜甜圈爆炸|**Y**|
-|**雷达**|雷达|**Y**|
-||带数据标记的雷达|**Y**|
-||雷达填充|**Y**|
-|**表面**|Surface3D|否|
-||表面线框3D|否|
-||表面轮廓|否|
-||表面轮廓线框|否|
-|**气泡**|气泡|**Y**|
-||泡泡3D|否|
-|**库存**|股价高低收盘|**Y**|
-||股票开高低收|**Y**|
-||StockVolumeHighLow关闭|**Y**|
-||StockVolumeOpenHighLowClose|**Y**|
-|**圆柱**|圆柱|**Y**|
-||圆柱叠层|**Y**|
-||圆柱100%堆叠|**Y**|
-||圆柱棒|**Y**|
-||圆柱形条堆叠|**Y**|
-||CylindricalBar100PercentStacked|**Y**|
-||圆柱3D|**Y**|
-|**锥体**|锥体|**Y**|
-||圆锥堆叠|**Y**|
-||Cone100Percent堆叠|**Y**|
-||锥形棒|**Y**|
-||锥形条堆叠|**Y**|
-||ConicalBar100PercentStacked|**Y**|
-||锥形柱3D|**Y**|
-|**金字塔**|金字塔|**Y**|
-||金字塔堆叠|**Y**|
-||金字塔100%堆积|**Y**|
-||金字塔酒吧|**Y**|
-||金字塔酒吧堆叠|**Y**|
-||PyramidBar100PercentStacked|**Y**|
-||金字塔柱3D|**Y**|
-|**盒须**|盒须|是|
-|**漏斗**|漏斗|**Y**|
-|**帕累托线**|帕累托线|**Y**|
-|**森伯斯特**|森伯斯特|**Y**|
-|**树形图**|树形图|**Y**|
-|**瀑布**|瀑布|**Y**|
-|**直方图**|直方图|是|
-|**地图**|地图|**N**|
+|**图表类型**|**图表子类型**|**支持**|
+| :- | :- | :- |
+|**Column**|Column|**Y**|
+| |ColumnStacked|**Y**|
+| |Column100PercentStacked|**Y**|
+| |Column3DClustered|**Y**|
+| |Column3DStacked|**Y**|
+| |Column3D100PercentStacked|**Y**|
+| |Column3D|**Y**|
+|**Bar**|Bar|**Y**|
+| |BarStacked|**Y**|
+| |Bar100PercentStacked|**Y**|
+| |Bar3DClustered|**Y**|
+| |Bar3DStacked|**Y**|
+| |Bar3D100PercentStacked|**Y**|
+|**Line**|Line|**Y**|
+| |LineStacked|**Y**|
+| |Line100PercentStacked|**Y**|
+| |LineWithDataMarkers|**Y**|
+| |LineStackedWithDataMarkers|**Y**|
+| |Line100PercentStackedWithDataMarkers|**Y**|
+| |Line3D|**Y**|
+|**Pie**|Pie|**Y**|
+| |Pie3D|**Y**|
+| |PiePie|**Y**|
+| |PieExploded|**Y**|
+| |Pie3DExploded|**Y**|
+| |PieBar|**Y**|
+|**Scatter**|Scatter|**Y**|
+| |ScatterConnectedByCurvesWithDataMarker|**Y**|
+| |ScatterConnectedByCurvesWithoutDataMarker|**Y**|
+| |ScatterConnectedByLinesWithDataMarker|**Y**|
+| |ScatterConnectedByLinesWithoutDataMarker|**Y**|
+|**Area**|Area|**Y**|
+| |AreaStacked|**Y**|
+| |Area100PercentStacked|**Y**|
+| |Area3D|**Y**|
+| |Area3DStacked|**Y**|
+| |Area3D100PercentStacked|**Y**|
+|**Doughnut**|Doughnut|**Y**|
+| |DoughnutExploded|**Y**|
+|**Radar**|Radar|**Y**|
+| |RadarWithDataMarkers|**Y**|
+| |RadarFilled|**Y**|
+|**Surface**|Surface3D|N|
+| |SurfaceWireframe3D|N|
+| |SurfaceContour|N|
+| |SurfaceContourWireframe|N|
+|**Bubble**|Bubble|**Y**|
+| |Bubble3D|N|
+|**Stock**|StockHighLowClose|**Y**|
+| |StockOpenHighLowClose|**Y**|
+| |StockVolumeHighLowClose|**Y**|
+| |StockVolumeOpenHighLowClose|**Y**|
+|**Cylinder**|Cylinder|**Y**|
+| |CylinderStacked|**Y**|
+| |Cylinder100PercentStacked|**Y**|
+| |CylindricalBar|**Y**|
+| |CylindricalBarStacked|**Y**|
+| |CylindricalBar100PercentStacked|**Y**|
+| |CylindricalColumn3D|**Y**|
+|**Cone**|Cone|**Y**|
+| |ConeStacked|**Y**|
+| |Cone100PercentStacked|**Y**|
+| |ConicalBar|**Y**|
+| |ConicalBarStacked|**Y**|
+| |ConicalBar100PercentStacked|**Y**|
+| |ConicalColumn3D|**Y**|
+|**Pyramid**|Pyramid|**Y**|
+| |PyramidStacked|**Y**|
+| |Pyramid100PercentStacked|**Y**|
+| |PyramidBar|**Y**|
+| |PyramidBarStacked|**Y**|
+| |PyramidBar100PercentStacked|**Y**|
+| |PyramidColumn3D|**Y**|
+|**BoxWhisker**|BoxWhisker|Y|
+|**Funnel**|Funnel|**Y**|
+|**ParetoLine**|ParetoLine|**Y**|
+|**Sunburst**|Sunburst|**Y**|
+|**Treemap**|Treemap|**Y**|
+|**Waterfall**|Waterfall|**Y**|
+|**Histogram**|Histogram|Y|
+|**Map**|Map|**N**|
 
 {{% alert color="primary" %}}
 
-如果您尝试将不受支持的图表类型呈现为图像或 PDF，您最终可能会得到 0 大小的图像或空白 PDF。
+在尝试将不支持的图表类型渲染为图像或PDF时，可能会得到大小为0的图像或空白PDF。
 
 {{% /alert %}}
 
 
-## **推进主题**
-- [将图表转换为 SVG 格式的图像](/cells/zh/java/converting-chart-to-image-in-svg-format/)
-- [创建具有所需页面大小的图表 PDF](/cells/zh/java/create-chart-pdf-with-desired-page-size/)
-- [使用 viewBox 属性将图表导出到 SVG](/cells/zh/java/export-chart-to-svg-with-viewbox-attribute/)
+## **高级主题**
+- [将图表转换为SVG格式的图像](/cells/zh/java/converting-chart-to-image-in-svg-format/)
+- [使用所需的页面大小创建图表PDF](/cells/zh/java/create-chart-pdf-with-desired-page-size/)
+- [使用viewBox属性将图表导出为SVG](/cells/zh/java/export-chart-to-svg-with-viewbox-attribute/)

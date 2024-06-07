@@ -1,15 +1,16 @@
-﻿---
-title: 在 Ruby 中将图表转换为图像
+---
+title: 将图表转换为图像在Ruby中
 type: docs
 weight: 10
 url: /zh/java/converting-chart-to-image-in-ruby/
 ---
+
 ## **Aspose.Cells - 将图表转换为图像**
-要在 Ruby 中使用 Aspose.Cells for Java 将图表转换为图像，只需调用 Converter 模块。
+要在Ruby中使用Aspose.Cells for Java将图表转换为图像，只需调用Converter模块。
 
-**红宝石代码**
+**Ruby代码**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def chart_to_image()
 
@@ -143,6 +144,6 @@ end   
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**将图表转换为图像 (Aspose.Cells)**来自以下任何社交编码网站：
+从以下任一社交编码网站下载**将图表转换为图像（Aspose.Cells）**：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

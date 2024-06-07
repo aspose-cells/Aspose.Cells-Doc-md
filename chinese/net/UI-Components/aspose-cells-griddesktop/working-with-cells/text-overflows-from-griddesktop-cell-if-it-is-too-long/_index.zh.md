@@ -1,12 +1,15 @@
-﻿---
-title: 如果太长，文本会从 GridDesktop 单元格溢出
+---
+title: 如果格子太长，则文字会从GridDesktop单元格中溢出
 type: docs
 weight: 140
-url: /zh/net/text-overflows-from-griddesktop-cell-if-it-is-too-long/
+url: /zh/net/aspose-cells-griddesktop/text-overflows-from-griddesktop-cell-if-it-is-too-long/
+keywords: GridDesktop，溢出
+description: 本文介绍了GridDesktop中的文字溢出。
 ---
+
 ## **可能的使用场景**
-Microsoft 当下一个相邻单元格为空且文本太长无法放入单元格时，Excel 会溢出文本。 Aspose.Cells for GridDesktop 也支持此功能。但是，此功能在 GridDesktop 的早期版本（例如 17.11、17.10 等）中不受支持。从 17.12 及更高版本开始的较新版本支持此功能。
-## **如果太长，文本会从 GridDesktop 单元格溢出**
-以下屏幕截图显示，当文本太长而无法容纳在单元格宽度内时，文本会从 GridDesktop 单元格中溢出。屏幕截图显示了新旧版本的 GridDesktop 与文本溢出相关的行为。正如您在屏幕截图中看到的，该功能从 17.12 开始受支持。
-## **截屏**
-![待办事项：图片_替代_文本](text-overflows-from-griddesktop-cell-if-it-is-too-long_1.png)
+当相邻单元格为空且文字太长以适合单元格内时，Microsoft Excel将文字溢出。 Aspose.Cells for GridDesktop也支持此功能。但是，在GridDesktop的早期版本（例如17.11、17.10等）中不支持此功能。从17.12版本开始及以后的版本支持此功能。
+## **如果格子太长，则文字会从GridDesktop单元格中溢出**
+以下截图显示了当文字太长无法适合单元格宽度时，文字从GridDesktop单元格中溢出的情况。 截图展示了与文字溢出有关的新版本和旧版本GridDesktop的行为。正如在截图中所见，该功能支持从17.12版本开始。
+## **截图**
+![todo:image_alt_text](text-overflows-from-griddesktop-cell-if-it-is-too-long_1.png)

@@ -1,11 +1,12 @@
-﻿---
+---
 title: 保护和取消保护工作表
 type: docs
 weight: 190
 url: /zh/net/protect-and-unprotect-worksheets-with-vsto/
 ---
+
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -55,7 +56,7 @@ excelApp.Quit();
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify the template excel file path.
 
@@ -84,4 +85,4 @@ workbook.Save(myPath);
 ## **下载示例代码**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Protect.and.unProtect.Worksheets.Aspose.Cells.zip)
 - [Sourceforge](https://sourceforge.net/p/asposevsto/wiki/Home/)
-- [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-vsto/wiki/Protect%20and%20unProtect%20Worksheets)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/wiki/Protect%20and%20unProtect%20Worksheets)

@@ -1,33 +1,34 @@
-﻿---
-title: 在 VSTO 和 Aspose.Cells 的工作表中向 Cells 添加边框
+---
+title: 在VSTO和Aspose.Cells中的工作表中为单元格添加边框
 type: docs
 weight: 10
 url: /zh/net/add-borders-to-cells-in-a-worksheet-in-vsto-and-aspose-cells/
 ---
-要为电子表格中的单元格添加边框，请执行以下步骤：
 
-1. 设置工作表：
- 1.实例化一个Application对象（仅限VSTO）
- 1.添加工作簿
-1.获取第一张纸
-1. 向要添加边框的单元格添加文本
-1. 添加边框：
- 1.定义范围
-1. 对范围应用边框样式
-1. 对您要设置的每个范围和每个边框样式重复此操作。此示例应用细线、细线、中线和粗线
-1. 结束：
- 1.自动调整单元格所在的列以整齐地适合文本
-1.保存文档
+要向电子表格中的单元格添加边框，请执行以下步骤：
 
-这些步骤显示在下面的代码中。第一个代码示例展示了如何使用 VSTO 和 C# 或 Visual Basic 来实现它们。在 VSTO 示例之后是显示如何使用 Aspose.Cells for .NET 执行相同步骤的示例，再次使用 C# 或 Visual Basic。 Aspose.Cells 代码示例要短得多，因为 Aspose.Cells 针对高效编码进行了优化。
+1. 设置工作表： 
+   1. 实例化一个应用程序对象（仅限VSTO）
+   1. 添加一个工作簿
+   1. 获取第一个工作表
+   1. 向要添加边框的单元格添加文本
+1. 添加边框： 
+   1. 定义一个区域
+   1. 将边框样式应用于该区域
+   1. 对每个区域和希望设置的每种边框样式重复此操作。 本示例应用了细边线、细线、中线和粗线
+1. 完成： 
+   1. 调整单元格所在列的宽度，以使文本整齐地适合
+   1. 保存文档
 
-该代码生成一个 Excel 文件，其中第一个工作表上有许多单元格，每个单元格具有不同的边框：
+以下代码显示了这些步骤。 首先的代码示例展示了如何使用C#或Visual Basic在VSTO中实现它们。 在VSTO示例之后，有示例显示如何使用Aspose.Cells for .NET执行相同的步骤，同样使用C#或Visual Basic。 Aspose.Cells的代码示例要短得多，因为Aspose.Cells经过了有效编码优化。
 
-![待办事项：图片_替代_文本](picture1.png)
+该代码生成一个包含第一个工作表上多个具有不同边框的单元格的Excel文件：
 
-Cells 应用了边框。
+![todo:image_alt_text](picture1.png)
+
+应用了边框的单元格
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -43,13 +44,13 @@ Excel.Worksheet objSheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Put some text into different cells (A2, A4, A6, A8).
 
-objSheet.Cells[2, 1]= "Hair Lines";
+objSheet.Cells[2, 1] = "Hair Lines";
 
-objSheet.Cells[4, 1]= "Thin Lines";
+objSheet.Cells[4, 1] = "Thin Lines";
 
-objSheet.Cells[6, 1]= "Medium Lines";
+objSheet.Cells[6, 1] = "Medium Lines";
 
-objSheet.Cells[8, 1]= "Thick Lines";
+objSheet.Cells[8, 1] = "Thick Lines";
 
 //Define a range object(A2).
 
@@ -145,7 +146,7 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -211,5 +212,5 @@ objBook.Save("ApplyBorders.xls");
 {{< /highlight >}}
 ## **下载示例代码**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Add.Borders.to.Cells.in.a.Worksheet.Aspose.Cells.zip)
-- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/下载）
-- [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\)。压缩）
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip)

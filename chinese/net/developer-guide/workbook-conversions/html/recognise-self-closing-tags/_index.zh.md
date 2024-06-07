@@ -1,10 +1,11 @@
-﻿---
-title: 识别自闭标签
+---
+title: 识别自闭合标签
 type: docs
 weight: 120
 url: /zh/net/recognise-self-closing-tags/
 ---
-HTML 可以为空标签设置多种标签格式，例如 \<td>\</td>要么 \<td/>. Aspose.Cells 现在支持这两种格式，而之前它只支持 \<td>\</td>像标签。可以通过将附加的示例 HTML 文件转换为 Excel 文件来测试此功能。示例HTML文件和输出Excel文件可以从以下链接下载进行测试。
+
+HTML can have variety of tags formatting for empty tags like \<td>\</td> or \<td/>. Aspose.Cells supports both these formats now whereas earlier it was supporting only \<td>\</td> like tags. This feature can be tested by converting the attached sample HTML file to Excel file. The sample HTML file and output Excel file can be downloaded from the following links for testing.
 
 [sampleSelfClosingTags.html](sampleSelfClosingTags)
 

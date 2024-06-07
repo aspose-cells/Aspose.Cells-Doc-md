@@ -1,18 +1,19 @@
-﻿---
-title: 使用 Aspose.Cells 利用 OpenXml 的 Sheet.SheetId 属性
+---
+title: 利用Aspose.Cells使用OpenXml的Sheet.SheetId属性
 type: docs
 weight: 80
 url: /zh/java/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/
 ---
+
 ## **可能的使用场景**
 
-*工作表.SheetId*财产是在里面找到的*文档格式.OpenXml.电子表格*命名空间并且是 OpenXml 的一部分。可以在里面看到这个属性和它的值*工作簿.xml*如以下屏幕截图所示。 Aspose.Cells 提供等效的属性[**工作表.TabId**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#TabId).
+*Sheet.SheetId* 属性位于 *DocumentFormat.OpenXml.Spreadsheet* 命名空间中，并且是 OpenXml 的一部分。您可以在以下截图中的 *workbook.xml* 中看到此属性及其值。Aspose.Cells 提供了等效的属性为 [**Worksheet.TabId**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#TabId)。
 
-![待办事项：图片_替代_文本](utilize-sheet-sheetid-property-of-openxml-using-aspose-cells_1.png)
+![todo:image_alt_text](utilize-sheet-sheetid-property-of-openxml-using-aspose-cells_1.png)
 
-## **使用 Aspose.Cells 利用 OpenXml 的 Sheet.SheetId 属性**
+## **利用Aspose.Cells使用OpenXml的Sheet.SheetId属性**
 
-下面的示例代码加载[示例 Excel 文件](51740740.xlsx), 读取其工作表或选项卡 ID，然后为其分配新的选项卡 ID 并将其另存为[输出Excel文件](51740739.xlsx).另请参阅下面给出的代码的控制台输出以供参考。
+下面的示例代码加载了[sample Excel file](51740740.xlsx)，读取了其 Sheet 或 Tab Id，然后为其分配了新的 Tab Id，并将其保存为 [output Excel file](51740739.xlsx)。请参阅下面所示的代码的控制台输出以供参考。
 
 ## **示例代码**
 
@@ -20,7 +21,7 @@ url: /zh/java/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/
 
 ## **控制台输出**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Sheet or Tab Id: 1297
 

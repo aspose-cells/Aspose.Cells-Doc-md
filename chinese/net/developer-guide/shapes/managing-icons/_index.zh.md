@@ -1,33 +1,34 @@
-﻿---
-title: 将图标添加到工作表
+---
+title: 在工作表中添加图标
 linktitle: 管理图标
 type: docs
 weight: 100
 url: /zh/net/insert-svg-to-excel/
 ---
-## 在 Aspose.Cells 中将图标添加到工作表
 
-如果您需要使用[Aspose.Cells](https://products.aspose.com/cells/)在 Excel 文件中添加“图标”，那么本文档可以为您提供一些帮助。
+在Aspose.Cells中向工作表添加图标
+
+如果您需要使用[Aspose.Cells](https://products.aspose.com/cells/)在Excel文件中添加 '图标'，那么本文档可以为您提供一些帮助。
 
 插入图标操作对应的Excel界面如下：
 
 ![](1.png)
 
-- 选择要插入的图标在工作表中的位置
-- 左键单击*插入*->*图标*
-- 在打开的窗口中，选择上图中红色矩形框内的图标
-- 左键单击*插入*它将被插入到 Excel 文件中。
+- 选择要在工作表中插入的图标位置
+- 单击 *插入*->*图标*
+- 在弹出的窗口中，选择上述图示中的红色矩形中的图标
+- 单击 *插入*，它将被插入到Excel文件中。
 
 效果如下：
 
 ![](2.png)
 
-在这里，我们准备了*示例代码*帮助您插入图标使用[Aspose.Cells](https://products.aspose.com/cells/).还有一个必要的[样本文件](sample.xlsx)和一个图标[资源文件](icon.zip).我们使用Excel界面插入一个图标，显示效果与[资源文件](icon.zip)在里面[样本文件](sample.xlsx).
+在这里，我们准备了*示例代码*，以帮助您使用[Aspose.Cells](https://products.aspose.com/cells/)插入图标。还有一个必要的[示例文件](sample.xlsx)和一个图标[资源文件](icon.zip)。我们使用Excel界面来插入一个与[资源文件](icon.zip)中的显示效果相同的图标到[示例文件](sample.xlsx)中。
 
 ### C#
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-AddIconsToWorksheetInAsposeCells.cs" >}}
 
-当你在你的项目中执行上面的代码时，你会得到如下结果：
+在您的项目中执行上述代码时，会获得以下结果：
 
 ![](3.png)

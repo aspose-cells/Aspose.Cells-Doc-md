@@ -1,22 +1,23 @@
-﻿---
+---
 title: 命令栏
 type: docs
 weight: 10
 url: /zh/reportingservices/command-bars/
 ---
-下表显示了 Aspose.Cells.Report.Designer 加载项工具栏上的命令栏图标和工具。
 
-|**命令** |**图片** |**描述** |
-|:- |:- |:- |
-|打开本地报告|![待办事项：图片_替代_文本](command-bars_1.png)|从本地 PC 打开 RDL 文件并加载文件上下文。|
-|打开远程报告|![待办事项：图片_替代_文本](command-bars_2.png)|从报表服务器打开一个 RDL 文件并加载文件上下文。|
-|保存报告|![待办事项：图片_替代_文本](command-bars_3.png)|将设计报告保存在本地或服务器上。|
-|发布报告|![待办事项：图片_替代_文本](command-bars_4.png)|在服务器上上传 RDL 文件。|
-|查看报告|![待办事项：图片_替代_文本](command-bars_5.png)|显示来自服务器的报告预览。|
-|构建数据集和数据源|![待办事项：图片_替代_文本](command-bars_6.png)|构建数据集和数据源。|
-|修改报表参数|![待办事项：图片_替代_文本](command-bars_7.png)|修改报表参数和查询参数关系。|
-|插入公式|![待办事项：图片_替代_文本](command-bars_8.png)|通过公式编辑器窗口将公式插入单元格|
-|设置属性|![待办事项：图片_替代_文本](command-bars_9.png)|设置报表的一些属性：报表名称、报表范围、分组字段、顺序字段等。|
-|修改属性|![待办事项：图片_替代_文本](command-bars_10.png)|修改部分报表属性：报表名称、报表范围、分组字段、订单字段等。|
-|设置页脚|![待办事项：图片_替代_文本](command-bars_11.png)|将“##footer”插入单元格。|
+下表显示了Aspose.Cells.Report.Designer加载项工具栏上的命令栏图标和工具。
+
+|**命令** |**图像** |**描述** |
+| :- | :- | :- |
+|Open Local Report |![todo:image_alt_text](command-bars_1.png)|Opens an RDL file from local PC and loads the file context. |
+|Open Remote Report |![todo:image_alt_text](command-bars_2.png)|Opens an RDL file from Report Server and loads the file context. |
+|Save Report |![todo:image_alt_text](command-bars_3.png)|Saves designing report locally or on the server. |
+|Publish Report |![todo:image_alt_text](command-bars_4.png)|Uploads the RDL file on the server. |
+|View Report |![todo:image_alt_text](command-bars_5.png)|Displays a preview of the report from the server. |
+|Build DataSet and Data Source |![todo:image_alt_text](command-bars_6.png)|Builds datasets and data sources. |
+|Modify Report Parameter |![todo:image_alt_text](command-bars_7.png)|Modifies report parameter and query parameter relation. |
+|Insert Formula |![todo:image_alt_text](command-bars_8.png)|Inserts formula into the cell through the formula editor windows |
+|Set Attribute |![todo:image_alt_text](command-bars_9.png)|Sets some of the report attributes: report name, report range, group fields, order fields and so on. |
+|Modify Attribute |![todo:image_alt_text](command-bars_10.png)|Modifies some of the report attributes: report name, report range, group fields, order fields and so on. |
+|Set Footer |![todo:image_alt_text](command-bars_11.png)|Inserts '##footer' into the cell. |
 

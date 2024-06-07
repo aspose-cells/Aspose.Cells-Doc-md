@@ -1,21 +1,22 @@
-﻿---
-title: 创建工作簿（全局）和工作表范围命名范围
+---
+title: 创建全局工作簿和工作表级别的命名范围
 type: docs
 weight: 10
 url: /zh/java/create-workbook-global-and-worksheet-scoped-named-ranges/
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel 允许用户定义具有两个不同范围的命名范围：工作簿（也称为全局范围）和工作表。
+Microsoft Excel允许用户定义具有两种不同范围作用域（工作簿和工作表）的命名范围。
 
-- 只需使用其名称，即可从该工作簿中的任何工作表访问具有工作簿范围的命名范围。
-- 使用创建它的特定工作表的引用访问工作表范围内的命名范围。
+- 具有工作簿范围的命名范围可以通过简单地使用其名称在该工作簿中的任何工作表中访问。
+- 使用特定工作表的引用访问具有工作表范围的命名范围，该命名范围是在其中创建的特定工作表。
 
-Aspose.Cells 提供与 Microsoft Excel 相同的功能，用于添加工作簿和工作表范围内的命名范围。创建工作表范围的命名范围时，应在命名范围内使用工作表引用以将其指定为工作表范围的命名范围。
+Aspose.Cells提供了与Microsoft Excel相同的功能，用于添加具有工作簿和工作表范围的命名范围。创建工作表范围的命名范围时，应使用工作表引用以将其指定为工作表范围的命名范围。
 
 {{% /alert %}}
 
-以下代码示例展示了如何使用[**范围**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)班级。
+以下代码示例展示了如何使用[**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)类创建工作簿和工作表范围命名。
 
 ## **使用工作簿范围添加命名范围**
 

@@ -1,18 +1,19 @@
-﻿---
-title: 加载工作簿时过滤定义的名称
+---
+title: 加载工作簿时筛选定义名称
 type: docs
 weight: 50
 url: /zh/java/filter-defined-names-while-loading-workbook/
 ---
+
 ## **可能的使用场景**
 
-Aspose.Cells 允许您过滤或删除工作簿中存在的已定义名称。请用[**LoadDataFilterOptions.DEFINED_NAMES**](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES)加载定义的名称并使用 ~[**LoadDataFilterOptions.DEFINED_NAMES**](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES)在加载工作簿时删除它们。请注意，如果您要删除已定义的名称，则工作簿中的公式可能会中断。
+Aspose.Cells允许您筛选或移除工作簿中存在的定义名称。请使用[**LoadDataFilterOptions.DEFINED_NAMES**](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES)来加载定义名称，并使用~[**LoadDataFilterOptions.DEFINED_NAMES**](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES)在加载工作簿时移除它们。请注意，如果移除定义名称，则工作簿中的公式可能会中断。
 
-## **加载工作簿时过滤定义的名称**
+## **加载工作簿时筛选定义名称**
 
-下面的示例代码加载[示例 Excel 文件](61767873.xlsx)它在单元格 C1 中有一个公式，其中包含已定义的名称，即*=SUM(我的名字 1, 我的名字 2)*.因为，我们正在使用 ~[**LoadDataFilterOptions.DEFINED_NAMES**](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES)要在加载工作簿时删除定义的名称，单元格 C1 中的公式[输出Excel文件](61767872.xlsx)分手，你看*#NAME?*反而。请查看以下屏幕截图，其中显示了代码对示例 Excel 文件的影响。
+以下示例代码加载了[sample Excel file](61767873.xlsx)，其中单元格 C1 中包含了已定义名称的公式，例如 *=SUM(MyName1, MyName2)*。由于在加载工作簿时使用了 ~[**LoadDataFilterOptions.DEFINED_NAMES**](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES) 来移除已定义名称，因此输出 Excel 文件中的单元格 C1 的公式会中断，您会看到 *#NAME?*。请参阅以下截图，显示了代码对示例 Excel 文件的影响。
 
-![待办事项：图片_替代_文本](filter-defined-names-while-loading-workbook_1.png)
+![todo:image_alt_text](filter-defined-names-while-loading-workbook_1.png)
 
 ## **示例代码**
 

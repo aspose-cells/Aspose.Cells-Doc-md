@@ -1,16 +1,17 @@
-﻿---
-title: 在 xlsx4j 中排序数据
+---
+title: 在 xlsx4j 中对数据进行排序
 type: docs
 weight: 60
 url: /zh/java/sort-data-in-xlsx4j/
 ---
-## **Aspose.Cells - 排序数据**
-要使用 Aspose.Cells 对电子表格中的数据进行排序，只需在设置一些易于设置的单元格区域属性后调用 DataSorter.sorter() 方法。
-Java代码如下：
+
+## **Aspose.Cells - 对数据进行排序**
+要使用Aspose.Cells在电子表格中对数据进行排序，只需在设置单元格区域的一些易于设置的属性后调用DataSorter.sorter()方法。
+下面提到了Java代码：
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -80,6 +81,6 @@ workbook.save(dataDir + "AsposeSortedData_Out.xls");
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[排序数据](/java/sort-data)要么[资料整理](/cells/zh/java/data-sorting).
+有关更多详细信息，请访问【排序数据】(/java/sort-data) 或【数据排序】(/cells/zh/java/data-sorting)。
 
 {{% /alert %}}

@@ -1,13 +1,14 @@
-﻿---
-title: 设置工作表缩放系数
+---
+title: 设置工作表缩放比例
 type: docs
 weight: 80
 url: /zh/net/set-worksheet-zoom-factor/
 ---
-## **Aspose.Cells - 设置工作表缩放因子**
+
+## **Aspose.Cells - 设置工作表缩放比例**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -27,10 +28,10 @@ workbook.Save("../../data/newWorksheet.xls");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - 设置工作表缩放因子**
+## **NPOI - HSSF XSSF - 设置工作表缩放比例**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -46,12 +47,12 @@ sw.Close();
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**设置工作表缩放系数**形成以下任何一个社交编码网站：
+从以下任何社交编码网站下载**设置工作表缩放比例**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Zoom.Factor.zip)
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[使用工作表](/cells/zh/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+有关详细信息，请访问[使用工作表](/cells/zh/net/working-with-worksheets-in-npoi-and-aspose-cells/)
 
 {{% /alert %}}

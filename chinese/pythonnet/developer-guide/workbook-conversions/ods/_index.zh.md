@@ -1,25 +1,26 @@
 ---
-title: 将 Excel 工作簿转换为 Ods、Sxc 和 Fods（OpenOffice / LibreOffice calc）。
-linktitle: 赔率
+title: 将Excel工作簿转换为Ods、Sxc和Fods（OpenOffice / LibreOffice calc）。
+linktitle: Ods
 type: docs
 weight: 20
 url: /zh/python-net/convert-excel-to-ods/
-description: 如何使用 Aspose.Cells for Python via .NET API 将 Excel 转换为 Ods (OpenOffice / LibreOffice Calc) 或将 Ods (OpenOffice / LibreOffice Calc) 转换为 Excel。
-keywords: Python Convert Excel workbook to Ods, Sxc and Fods (OpenOffice / LibreOffice calc), Convert Ods (OpenOffice / LibreOffice calc) to Excel Pyton via NET, Convert Excel to Ods (OpenOffice / LibreOffice Calc) using Python via NET.
+description: 如何使用Aspose.Cells for Python通过.NET API将Excel转换为Ods（OpenOffice / LibreOffice Calc）或将Ods（OpenOffice / LibreOffice Calc）转换为Excel。
+keywords: Python将Excel工作簿转换为Ods、Sxc和Fods（OpenOffice / LibreOffice Calc），通过NET将Ods（OpenOffice / LibreOffice Calc）转换为Excel，使用Python通过NET将Excel转换为Ods（OpenOffice / LibreOffice Calc）。
 ---
-##  **关于开放文档**
-这[开放文档格式 (ODF)](https://en.wikipedia.org/wiki/OpenDocument)是一种免费且开放的电子办公文档文件格式，最初由 Sun 为 Open Office 套件开发。 OpenDocument 电子表格 (ODS) 是 Excel 文档的文件格式。 OpenDocument 目前是 OASIS 和 ISO 标准。
 
-##  **将 Ods (OpenOffice / LibreOffice calc) 转换为 Excel**
- Aspose.Cells for Python via .NET 支持加载 OpenOffice / LibreOffice Calc 支持的 Ods、Sxc 和 Fods，并进行转换[赔率](book1.ods),[SXC](book1.sxc)和[食物](book1.fods)到 Excel 文件。
+## **关于OpenDocument**
+[开放文档格式（ODF）](https://en.wikipedia.org/wiki/OpenDocument)是Sun公司最初为Open Office套件开发的用于电子办公文档的免费开放文件格式。 OpenDocument Spreadsheet（ODS）是Excel文档的文件格式。OpenDocument目前是OASIS和ISO标准。
+
+## **将Ods（OpenOffice / LibreOffice Calc）转换为Excel**
+Aspose.Cells for Python通过.NET支持加载由OpenOffice / LibreOffice Calc支持的Ods、Sxc和Fods，并将[Ods](book1.ods)、[Sxc](book1.sxc)和[Fods](book1.fods)转换为Excel文件。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-ODS-to-Excel.py" >}}
 
-##  **将 Excel 转换为 Ods (OpenOffice / LibreOffice Calc)**
- Aspose.Cells for Python via .NET 支持将Excel文件转换为Ods、Sxc和Fods文件。下面的代码示例展示了如何转换[模板](book1.xlsx)到 Ods、Sxc 和 Fods 文件。
+## **将Excel转换为Ods（OpenOffice / LibreOffice Calc）**
+Aspose.Cells for Python通过.NET支持将Excel文件转换为Ods、Sxc和Fods文件。下面的代码示例显示了如何将[模板](book1.xlsx)转换为Ods、Sxc和Fods文件。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-ODS.py" >}}
 
-##  **高级主题**
-- [将 ODS 文件保存为 ODF 1.1 和 1.2 规范](/cells/zh/python-net/save-ods-file-in-odf-1-1-and-1-2-specifications/)
-- [使用 ODS 文件中的后台](/cells/zh/python-net/working-with-background-in-ods-files/)
+## **高级主题**
+- [在ODF 1.1和1.2规范中保存ODS文件](/cells/zh/python-net/save-ods-file-in-odf-1-1-and-1-2-specifications/)
+- [处理ODS文件中的背景](/cells/zh/python-net/working-with-background-in-ods-files/)

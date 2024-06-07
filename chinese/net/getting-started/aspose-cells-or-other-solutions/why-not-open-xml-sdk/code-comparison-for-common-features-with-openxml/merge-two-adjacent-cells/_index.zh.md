@@ -1,11 +1,12 @@
-﻿---
-title: 合并两个相邻的单元格
+---
+title: 合并相邻的两个单元格
 type: docs
 weight: 90
 url: /zh/net/merge-two-adjacent-cells/
 ---
+
 ## **OpenXML Excel**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -269,7 +270,7 @@ private static uint GetRowIndex(string cellName)
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -312,5 +313,5 @@ private static void MergeTwoCells(string docName, string sheetName, string cell1
 {{< /highlight >}}
 ## **下载示例代码**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
-- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Merge%20two%20adjacent%20cells%20\(Aspose.Cells\).zip/下载）
-- [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Merge%20two%20adjacent%20cells%20\(Aspose.Cells\)。压缩）
+- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Merge%20two%20adjacent%20cells%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Merge%20two%20adjacent%20cells%20\(Aspose.Cells\).zip)

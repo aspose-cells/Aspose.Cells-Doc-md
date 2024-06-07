@@ -1,29 +1,30 @@
-﻿---
+---
 title: 电子表格编辑器 - 使用文件
 type: docs
 weight: 10
 url: /zh/java/spreadsheet-editor-working-with-files/
 ---
+
 **目录**
 
 - [支持的文件](#SpreadsheetEditor-WorkingwithFiles-SupportedFiles)
 - [打开本地文件](#SpreadsheetEditor-WorkingwithFiles-OpenLocalFiles) 
- LoaderService.buildColumnWidthCache
- - LoaderService.buildRowHeightCache
-- [从 Dropbox 打开](#SpreadsheetEditor-WorkingwithFiles-OpenfromDropbox)
-- [从网址打开](#SpreadsheetEditor-WorkingwithFiles-OpenfromURL) 
- LoaderService.fromUrl
- - LoaderService.buildCellsCache
- LoaderService.buildColumnWidthCache
- - LoaderService.buildRowHeightCache
-- [创建一个新的电子表格](#SpreadsheetEditor-WorkingwithFiles-CreateaNewSpreadsheet) 
- LoaderService.fromBlank
- - buildCellsCache
- - buildColumnWidthCache
- - buildRowHeightCache
+  - LoaderService.buildColumnWidthCache
+  - LoaderService.buildRowHeightCache
+- [从Dropbox中打开](#SpreadsheetEditor-WorkingwithFiles-OpenfromDropbox)
+- [从URL打开](#SpreadsheetEditor-WorkingwithFiles-OpenfromURL) 
+  - LoaderService.fromUrl
+  - LoaderService.buildCellsCache
+  - LoaderService.buildColumnWidthCache
+  - LoaderService.buildRowHeightCache
+- [创建新电子表格](#SpreadsheetEditor-WorkingwithFiles-CreateaNewSpreadsheet) 
+  - LoaderService.fromBlank
+  - buildCellsCache
+  - 构建列宽缓存
+  - 构建行高缓存
 - [导出为各种格式](#SpreadsheetEditor-WorkingwithFiles-ExporttoVariousFormats)
 ### **支持的文件**
-HTML5 电子表格编辑器可以打开以下格式的文件：
+HTML5 电子表格编辑器可以打开以下格式的文件:
 
 - Excel 1997-2003 XLS
 - Excel 2007-2013 XLSX
@@ -31,28 +32,28 @@ HTML5 电子表格编辑器可以打开以下格式的文件：
 - XLSB
 - XLTX
 - SpreadsheetML
-- 简历
-- 打开文档
+- CVS
+- OpenDocument
 ### **打开本地文件**
-从本地计算机上传文件：
+要从本地计算机上传文件:
 
-1. 切换到**文件选项卡**在上面。
+1. 在顶部切换到 **文件标签**。
 1. 点击**从计算机打开**打开浏览对话框。
-1. 转到所需的文件位置。
-1. 单击所需的文件以将其选中。
-1. 点击**打开**.
+1. 进入所需文件的位置。
+1. 点击所需文件以选择。
+1. 点击**打开**。
 
-该文件将在编辑器中打开。
+文件将在编辑器中打开。
 
-![待办事项：图片_替代_文本](bwyl3xi.png)
+![todo:image_alt_text](bwyl3xi.png)
 
-**怎么运行的？**
+**它是如何工作的？**
 
-**上传文件**
+**文件上传**
 
-用户从本地计算机选择一个文件，该文件从网络浏览器上传到服务器并由[PrimeFaces 文件上传](https://www.primefaces.org/showcase/ui/file/upload/basic.xhtml)零件。
+用户从本地计算机选择上传到服务器并由[PrimeFaces fileUpload](https://www.primefaces.org/showcase/ui/file/upload/basic.xhtml)组件接收的文件。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <p:fileUpload fileUploadListener="#\{workbook.onFileUpload\}" update=":ribbon :intro :sheet" />
 
@@ -60,7 +61,7 @@ HTML5 电子表格编辑器可以打开以下格式的文件：
 
 **管理工作簿**
 
-一旦文件完全上传，WorkbookService.onFileUpload 方法就会开始处理这种情况。 WorkbookService 从 Web 浏览器接收事件并跟踪整个工作簿的状态。 WorkbookService.onFileUpload 将控制权传递给 LoaderService 以将工作簿加载到内存中。作为***上传文件***组件提供上传的文件作为[输入流](https://docs.oracle.com/javase/8/docs/api/index.html?java/io/InputStream.html)，LoaderService 使用 LoaderService.fromInputStream 方法加载它。
+一旦文件完全上传，WorkbookService.onFileUpload方法开始处理情况。WorkbookService从Web浏览器接收事件并跟踪整个工作簿的状态。 WorkbookService.onFileUpload将控制权转交给LoaderService，将工作簿加载到内存中。 由于***fileUpload***组件提供上传的文件，可以作为[InputStream](https://docs.oracle.com/javase/8/docs/api/index.html?java/io/InputStream.html) LoaderService使用LoaderService.fromInputStream方法加载。
 
 
 
@@ -68,7 +69,7 @@ HTML5 电子表格编辑器可以打开以下格式的文件：
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  public void onFileUpload(FileUploadEvent e) {
 
@@ -84,17 +85,17 @@ HTML5 电子表格编辑器可以打开以下格式的文件：
 
 
 
-**上货和下货**
+**加载和卸载**
 
-方法***LoaderService.fromInputStream***阅读***输入流***由 fileUpload 提供***零件***创建实例***com.aspose.cells.Workbook***班级。只要用户在 Web 浏览器中查看或编辑电子表格，此实例就会保留在内存中。当用户离开编辑器或关闭浏览器时，未使用的实例会自动从内存中卸载以保持服务器清洁。
-
-
+方法***LoaderService.fromInputStream***读取fileUpload***组件提供的***InputStream***创建***com.aspose.cells.Workbook***类的实例。 只要用户在Web浏览器中查看或编辑电子表格，这个实例就会保留在内存中。 当用户离开编辑器或关闭浏览器时，未使用的实例将自动从内存中卸载，以保持服务器的干净。
 
 
 
 
 
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 
  public String fromInputStream(InputStream s, String name) {
 
@@ -134,7 +135,7 @@ HTML5 电子表格编辑器可以打开以下格式的文件：
 
 **缓存**
 
-缓存对于 HTML5 电子表格编辑器非常重要。它使一切工作顺利。 CellsService 缓存编辑器加载的所有工作簿的行、列、单元格和属性。当 LoaderService 完全加载电子表格时，它会从上到下读取电子表格并通过调用 LoaderService.buildCellsCache、LoaderService.buildColumnWidthCache、LoaderService.buildRowHeightCache 填充缓存
+缓存对于HTML5电子表格编辑器非常重要。 它使一切都能够顺利进行。 CellsService保留由编辑器加载的所有工作簿的行、列、单元格和属性的缓存。 当LoaderService完全加载电子表格时，它从上到下读取，并通过调用LoaderService.buildCellsCache、LoaderService.buildColumnWidthCache、LoaderService.buildRowHeightCache填充缓存。
 
 
 
@@ -142,7 +143,7 @@ HTML5 电子表格编辑器可以打开以下格式的文件：
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildCellsCache(String key) {
 
@@ -210,7 +211,7 @@ HTML5 电子表格编辑器可以打开以下格式的文件：
 
 
 #### **LoaderService.buildColumnWidthCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildColumnWidthCache(String key) {
 
@@ -236,7 +237,7 @@ HTML5 电子表格编辑器可以打开以下格式的文件：
 
 
 #### **LoaderService.buildRowHeightCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildRowHeightCache(String key) {
 
@@ -263,54 +264,54 @@ HTML5 电子表格编辑器可以打开以下格式的文件：
 
 
 
-### **从 Dropbox 打开**
-从 Dropbox 打开文件：
+### **从Dropbox中打开**
+要从Dropbox中打开文件:
 
-1. 切换到**文件选项卡**在上面。
-1. 点击**从 Dropbox 打开**打开 Dropbox 文件选择器。
-1. 如果您尚未登录，则需要您登录您的 Dropbox 帐户。
-1. 导航到所需的文件并单击以选择它。
-1. 点击**选择**在底部。
+1. 在顶部切换到 **文件标签**。
+1. 单击**从Dropbox打开**以打开Dropbox文件选择器。
+1. 如果还未登录，将需要您登录到您的Dropbox帐户。
+1. 转到所需的文件并单击以选择。
+1. 单击底部的**选择**。
 
-您选择的文件将从 Dropbox 打开。
+您选择的文件将从Dropbox中打开。
 
-![待办事项：图片_替代_文本](1e2sfo0.png)
+![todo:image_alt_text](1e2sfo0.png)
 
-**怎么运行的？**
+**它是如何工作的？**
 
-这**从 Dropbox 打开**按钮使用**Dropbox JavaScript 选择器 API**打开 Dropbox 选择器对话框。 Chooser 提供所选文件的 URL，该 URL 由回调函数捕获并发送回服务器。服务器从 URL 创建一个电子表格实例，初始化一些内务处理的东西，并将 DOM 更新发送回浏览器。浏览器呈现并刷新 HTML 并且用户已准备好编辑加载的文档。
-### **从网址打开**
-可以直接从 URL 打开文件。这允许用户编辑 Internet 上任何公开可用的文件。打开文件追加**？网址=位置**具有所需值的参数**地点**在加载编辑器时。例如：
+**从Dropbox打开**按钮使用**Dropbox JavaScript Chooser API**来打开Dropbox选择器对话框。 选择器会提供所选文件的URL，该URL由回调函数捕获并发送回服务器。 服务器从URL创建一个电子表格实例，初始化一些管理事项，并将DOM更新发送回到浏览器。 浏览器渲染并刷新HTML，用户可以编辑已加载的文档。
+### **从URL打开**
+可以直接从URL打开文件。这允许用户编辑互联网上任何公开可用的文件。要打开文件，加载编辑器时附加**?url=location**参数，并填入所需**location**的值。例如:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  http://editor.aspose.com/?url=http://example.com/Sample.xlsx
 
 {{< /highlight >}}
 
-![待办事项：图片_替代_文本](exc9ckp.png)
+![todo:image_alt_text](exc9ckp.png)
 
-**怎么运行的？**
+**它是如何工作的？**
 
-**在启动时实例化**
+**启动时实例化**
 
-什么时候**工作表视图**后端bean是由JSF实例化的**后构造**方法**在里面**被调用，它使用 LoaderService.fromUrl 加载电子表格。
+当通过JSF实例化**WorksheetView**后端bean时，将调用**PostConstruct**方法**init**，该方法使用LoaderService.fromUrl加载电子表格。
 
 **缓存**
 
-加载电子表格后立即进行缓存。这**装载机服务**打电话**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache**和**LoaderService.buildRowHeightCache**逐一缓存电子表格的内容并保持所有操作快速流畅。
+缓存在电子表格加载后立即发生。 ** LoaderService **依次调用** LoaderService.buildCellsCache **，** LoaderService.buildColumnWidthCache **和** LoaderService.buildRowHeightCache **来缓存电子表格的内容，使所有操作都快速且平滑。
 
-**DOM 更新**
+**DOM更新**
 
-当电子表格在服务器端准备就绪时，JSF 组件用于生成新的 HTML 并将 DOM 更新发送给由 Web 浏览器呈现的用户。
-
-
+当服务器端准备好电子表格时，使用JSF组件生成新的HTML并将DOM更新发送给用户，由Web浏览器呈现。
 
 
 
 
 
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 
      @PostConstruct
 
@@ -342,7 +343,7 @@ HTML5 电子表格编辑器可以打开以下格式的文件：
 
 
 #### **LoaderService.fromUrl**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public String fromUrl(String url) {
 
@@ -378,7 +379,7 @@ HTML5 电子表格编辑器可以打开以下格式的文件：
 
 
 #### **LoaderService.buildCellsCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildCellsCache(String key) {
 
@@ -446,7 +447,7 @@ HTML5 电子表格编辑器可以打开以下格式的文件：
 
 
 #### **LoaderService.buildColumnWidthCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildColumnWidthCache(String key) {
 
@@ -472,7 +473,7 @@ HTML5 电子表格编辑器可以打开以下格式的文件：
 
 
 #### **LoaderService.buildRowHeightCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildRowHeightCache(String key) {
 
@@ -499,37 +500,37 @@ HTML5 电子表格编辑器可以打开以下格式的文件：
 
 
 
-### **创建一个新的电子表格**
-要创建一个新的空电子表格：
+### **创建新电子表格**
+创建一个新的空白电子表格：
 
-1. 切换到**文件选项卡**.
-1. 点击**新的**按钮。
+1. 切换到 **文件标签**。
+1. 单击 **新建** 按钮。
 
-编辑器将关闭打开的电子表格（如果有），然后打开一个新电子表格。
+如果有打开的电子表格，则编辑器将关闭该文件并打开一个新文件。
 
-![待办事项：图片_替代_文本](lnydmmf.png)
+![todo:image_alt_text](lnydmmf.png)
 
-**怎么运行的？**
+**它是如何工作的？**
 
 **实例化一个新对象**
 
-当。。。的时候**新的**按钮被用户点击，**工作表视图.loadBlank** ，最终调用**LoaderService.fromBlank**. LoaderService 创建空白电子表格的新实例。
+当用户单击**新建**按钮时，会调用** WorksheetView.loadBlank **，最终调用** LoaderService.fromBlank **。 LoaderService创建一个新的空白电子表格实例。
 
 **缓存**
 
-加载电子表格后立即进行缓存。这**装载机服务**打电话**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache**和**LoaderService.buildRowHeightCache**逐一缓存电子表格的内容并保持所有操作快速流畅。
+缓存在电子表格加载后立即发生。 ** LoaderService **依次调用** LoaderService.buildCellsCache **，** LoaderService.buildColumnWidthCache **和** LoaderService.buildRowHeightCache **来缓存电子表格的内容，使所有操作都快速且平滑。
 
-**DOM 更新**
+**DOM更新**
 
-当电子表格在服务器端准备就绪时，JSF 组件用于生成新的 HTML 并将 DOM 更新发送给由 Web 浏览器呈现的用户。
-
-
+当服务器端准备好电子表格时，使用JSF组件生成新的HTML并将DOM更新发送给用户，由Web浏览器呈现。
 
 
 
 
 
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 
      public void loadBlank() {
 
@@ -543,7 +544,7 @@ HTML5 电子表格编辑器可以打开以下格式的文件：
 
 
 #### **LoaderService.fromBlank**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public String fromBlank() {
 
@@ -569,7 +570,7 @@ HTML5 电子表格编辑器可以打开以下格式的文件：
 
 
 #### **buildCellsCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildCellsCache(String key) {
 
@@ -637,7 +638,7 @@ HTML5 电子表格编辑器可以打开以下格式的文件：
 
 
 #### **buildColumnWidthCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildColumnWidthCache(String key) {
 
@@ -663,7 +664,7 @@ HTML5 电子表格编辑器可以打开以下格式的文件：
 
 
 #### **buildRowHeightCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildRowHeightCache(String key) {
 
@@ -691,13 +692,13 @@ HTML5 电子表格编辑器可以打开以下格式的文件：
 
 
 ### **导出为各种格式**
-编辑文件后，用户会想要保存更改。该编辑器允许用户将修改后的电子表格导出并下载到本地计算机。要导出文件：
+编辑文件后，用户将希望保存更改。编辑器允许用户将修改后的电子表格导出并下载到本地计算机。 要导出文件：
 
-1. 切换到**文件选项卡**在上面。
-1. 点击**出口**作为按钮。
-1. 从下拉列表中选择您想要的格式。
+1. 在顶部切换到 **文件标签**。
+1. 单击 **导出** 按钮。
+1. 从下拉菜单中选择所需的格式。
 
-修改后的文件将被导出以供下载。支持导出以下格式：
+修改后的文件将被导出以供下载。 支持以下格式进行导出：
 
 - Excel 2007-2013 XLSX
 - Excel 1997-2003 XLS
@@ -707,19 +708,19 @@ HTML5 电子表格编辑器可以打开以下格式的文件：
 - Excel XLTM
 - SpreadsheetML
 - 便携式文档格式 (PDF)
-- OpenDocument 电子表格 (ODS)
+- OpenDocument电子制表软件(ODS)
 
-**怎么运行的？**
+**它是如何工作的？**
 
-打开的电子表格被转换为用户指定的格式，使用**工作表视图.getOutputFile**.
-
-
+打开的电子表格被转换为用户指定的格式，使用**WorksheetView.getOutputFile**。
 
 
 
 
 
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 
      public StreamedContent getOutputFile(int saveFormat) {
 

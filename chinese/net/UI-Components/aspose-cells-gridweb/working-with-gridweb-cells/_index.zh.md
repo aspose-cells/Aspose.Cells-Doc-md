@@ -1,6 +1,8 @@
-﻿---
-title: 使用 GridWeb Cells
+---
+title: GridWeb单元格操作
 type: docs
 weight: 60
-url: /zh/net/working-with-gridweb-cells/
+url: /zh/net/aspose-cells-gridweb/working-with-gridweb-cells/
 ---
+
+

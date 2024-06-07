@@ -1,34 +1,35 @@
-﻿---
+---
 title: 比较
 type: docs
 weight: 50
 url: /zh/reportingservices/comparisons/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Reporting Services与其他同类产品的区别总结如下。
+Aspose.Cells for Reporting Services与其他类似产品的区别如下所述。 
 - **功能比较**
 
-|**特征** |**Aspose.Cells for Reporting Services** |**SA OfficeWriter** |**Visual Studio + Microsoft Excel 的标准渲染器** |
-|:- |:- |:- |:- |
-|将标准 RDL 报告导出到 Microsoft Excel。|是的|不|部分(1)|
-|在 Microsoft Excel 中设计和交付报告。|是的|是的|不|
-|在设计时生成 RDL 文件。|是的|是的|是的|
-|发布和预览报告。|是的|是的|是的|
-|创建数据源和查询。|是的|是的|是的|
-|在发布时将共享数据源指定为报表数据源。|是的|不|是的|
-|数据透视表、交互式图表、VBA 和宏。|是的|是的|不|
-| Reporting Services 参数作为报表数据源。|是的|是的|是的|
-| Reporting Services 全局变量作为报表数据源。|是的|是的|是的|
-|Reporting Services 公式作为报表数据源。|是的|是的|是的|
-|在设计时指定表格的行组和页脚。|是的|不|是的|
-|动态公式|是（通过特殊的智能标记实现）。|不|不|
-|报表参数配置。|是的|不|是的|
-|将各种报表项目导出到 Excel 工作簿中的指定工作表。|是（在设计时指定）|是（在设计时指定）|不|
+|**功能** |**Aspose.Cells for Reporting Services** |**SA OfficeWriter** |**Visual Studio + Microsoft Excel的标准渲染器** |
+| :- | :- | :- | :- |
+|将标准RDL报告导出到Microsoft Excel。 |是 |否 |部分(1) |
+|在Microsoft Excel中设计和交付报告。 |是 |是 |否 |
+|在设计时生成RDL文件。 |是 |是 |是 |
+|发布和预览报告。 |是 |是 |是 |
+|创建数据源和查询。 |是 |是 |是 |
+|在发布时将共享数据源指定为报告数据源。 |是 |否 |是 |
+|数据透视表、交互式图表、VBA和宏。|是|是|否|
+|Reporting Services 参数作为报表数据源。|是|是|是|
+|Reporting Services 全局变量作为报表数据源。|是|是|是|
+|Reporting Services 公式作为报表数据源。|是|是|是|
+|在设计时指定表的行组和页脚。|是|否|是|
+|动态公式|是（由特殊的智能标记实现）。|否|否|
+|报表参数配置。|是|否|是|
+|将各种报表项导出到Excel工作簿中指定的工作表。|是（在设计时指定）|是（在设计时指定）|否|
 - **不支持的功能**
-不支持以下功能：
+以下功能不受支持:
 
--- 表格中的子报告。
--- 表中表。
+-- 表中的子报表。
+-- 表格内的表格。
 
 {{% /alert %}}

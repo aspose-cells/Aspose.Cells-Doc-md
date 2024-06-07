@@ -1,16 +1,17 @@
-﻿---
-title: 从工作表的 PageSetup 获取纸张宽度和高度
+---
+title: 从工作表的页面设置获取纸张宽度和高度
 type: docs
 weight: 300
 url: /zh/java/get-paper-width-and-height-from-pagesetup-of-worksheet/
 ---
+
 ## **可能的使用场景**
 
-有时，您需要知道纸张尺寸的宽度和高度，因为它已在工作表的页面设置中设置。请使用[**页面设置.PaperWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperWidth)和[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperHeight)用于此目的的属性。
+有时，您需要知道纸张大小（宽度和高度）已经在工作表的页面设置中设置了多大。为此，请使用[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperWidth)和[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperHeight)属性。
 
-## **从工作表的 PageSetup 获取纸张宽度和高度**
+## **从工作表的PageSetup中获取纸张宽度和高度**
 
-下面的示例代码解释了[**页面设置.PaperWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperWidth)和[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperHeight)特性。它首先将纸张大小更改为A2，然后找到纸张的宽度和高度，然后将其更改为A3、A4、Letter，分别找到纸张的宽度和高度。
+以下示例代码说明了使用[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperWidth)和[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperHeight)属性的用法。它首先将纸张大小更改为A2，然后找到纸张的宽度和高度，然后将其更改为A3、A4、Letter并分别找到纸张的宽度和高度。
 
 ## **示例代码**
 
@@ -20,7 +21,7 @@ url: /zh/java/get-paper-width-and-height-from-pagesetup-of-worksheet/
 
 这是上述示例代码的控制台输出。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 PaperA2: 16.54x23.39
 

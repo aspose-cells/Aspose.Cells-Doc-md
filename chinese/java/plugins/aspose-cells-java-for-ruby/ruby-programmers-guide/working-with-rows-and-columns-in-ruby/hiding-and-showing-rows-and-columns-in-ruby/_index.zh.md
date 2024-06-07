@@ -1,16 +1,17 @@
-﻿---
-title: 在 Ruby 中隐藏和显示行和列
+---
+title: 在Ruby中隐藏和显示行和列
 type: docs
 weight: 50
 url: /zh/java/hiding-and-showing-rows-and-columns-in-ruby/
 ---
+
 ## **Aspose.Cells - 控制行和列的可见性**
 ### **隐藏行和列**
-开发者可以分别调用Cells集合的HideRow和HideColumn方法来隐藏一行或一列。这两种方法都将行/列索引作为参数来隐藏特定的行或列。
+开发人员可以通过调用Cells集合的HideRow和HideColumn方法来隐藏行或列。这两个方法分别接受行索引或列索引作为参数，以隐藏特定的行或列。
 
-**红宝石代码**
+**Ruby代码**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def hide_rows_columns()
 
@@ -44,14 +45,14 @@ end
 
 {{< /highlight >}}
 ### **显示行和列**
-开发者可以分别调用 Cells 集合的 UnhideRow 和 UnhideColumn 方法来取消隐藏任何隐藏的行或列。两种方法都有两个参数：
+开发人员可以通过调用Cells集合的UnhideRow和UnhideColumn方法来取消隐藏任何隐藏的行或列。这两个方法分别接受两个参数:
 
-- **行列索引**用于显示特定行或列的行或列的索引。
-- **行高或列宽**- 显示后分配给行或列的行高或列宽。
+- **行或列索引** - 用于显示特定行或列的行或列索引。
+- **行高或列宽度** - 在显示后分配给行或列的行高或列宽度。
 
-**红宝石代码**
+**Ruby代码**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def unhide_rows_columns()
 
@@ -85,6 +86,6 @@ end
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**控制行和列的可见性 (Aspose.Cells)**来自以下任何社交编码网站：
+从下面提到的任何社交编码网站下载**控制行和列的可见性（Aspose.Cells）**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)

@@ -1,63 +1,64 @@
-﻿---
-title: 分组和取消分组行和列
+---
+title: 对行和列进行分组和取消分组
 type: docs
 weight: 50
 url: /zh/net/grouping-and-ungrouping-rows-and-columns/
 ---
+
 ## **介绍**
 
-在 Microsoft Excel 文件中，您可以为数据创建一个大纲，以便通过单击鼠标来显示和隐藏详细信息级别。
+在 Microsoft Excel 文件中，您可以为数据创建概要，让您单击一次鼠标即可显示和隐藏详细级别。
 
-点击**大纲符号**、1、2、3、+ 和 - 快速仅显示工作表中为各部分提供摘要或标题的行或列，或者您可以使用符号查看单个摘要或标题下的详细信息，如下图所示:
+单击**概要符号**，1、2、3、+ 和 - ，即可快速显示仅提供摘要或标题用于工作表中的节的行或列，或者您可以使用符号查看摘要或标题下的详细信息，如下图所示：
 
-|**分组行和列。**|
-|:- |
-|![待办事项：图片_替代_文本](grouping-and-ungrouping-rows-and-columns_1.png)|
+|**对行和列进行分组。**|
+| :- |
+|![todo:image_alt_text](grouping-and-ungrouping-rows-and-columns_1.png)|
 
-## **行列分组管理**
+## **行和列的分组管理**
 
-Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)表示 Microsoft Excel 文件。这[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类包含一个[**工作表集合**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)允许访问 Excel 文件中的每个工作表。工作表由[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)班级。这[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类提供了[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)代表工作表中所有单元格的集合。
+Aspose.Cells 提供了一个类，[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)，表示 Microsoft Excel 文件。[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) 类包含 [**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)，允许访问 Excel 文件中的每个工作表。工作表由 [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) 类表示。[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) 类提供了一个 [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) 集合，表示工作表中的所有单元格。
 
-这[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collection 提供了多种方法来管理工作表中的行或列，下面将详细讨论其中的一些方法。
+[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) 集合提供了几种方法来管理工作表中的行或列，以下是其中几种方法的详细讨论。
 
-### **分组行和列**
+### **对行和列进行分组**
 
-可以通过调用[**组行**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/grouprows/index)和[**组列**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/groupcolumns/index)的方法[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)收藏。这两种方法都采用以下参数：
+可以通过调用 [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) 集合的 [**GroupRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/grouprows/index) 和 [**GroupColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/groupcolumns/index) 方法来对行或列进行分组。这两种方法都采用以下参数：
 
-- 第一行/列索引，组中的第一行或第一列。
-- 最后一行/列索引，组中的最后一行或最后一列。
-- is hidden，布尔型参数，指定分组后是否隐藏行/列。
+- 第一个行/列索引，组中的第一个行或列。
+- 最后一个行/列索引，组中的最后一个行或列。
+- 是否隐藏，一个布尔参数，指定在分组后是否隐藏行/列。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-GroupingRowsAndColumns-1.cs" >}}
 
-#### **群组设置**
+#### **分组设置**
 
-Microsoft Excel 允许您配置组设置以显示：
+Microsoft Excel 允许您配置用于显示的组设置：
 
-- 详细信息下方的汇总行。
-- 详细信息右侧的摘要列。
+- 详细下面的摘要行。
+- 摘要列放在详细信息右侧。
 
-开发人员可以使用[**大纲**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/outline)的财产[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)班级。
+开发人员可以使用 [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) 类的 [**Outline**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/outline) 属性配置这些组设置。
 
-### **详细信息下方的汇总行**
+### **摘要行放在详细下面**
 
-可以通过设置[**大纲**](https://reference.aspose.com/cells/net/aspose.cells/outline)班级'[**汇总行下方**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summaryrowbelow)财产给**真的**要么**错误的**.
+可以通过将 [**Outline**](https://reference.aspose.com/cells/net/aspose.cells/outline) 类的 [**SummaryRowBelow**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summaryrowbelow) 属性设置为 **true** 或 **false** 来控制是否在详细信息下方显示摘要行。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-SummaryRowBelow-1.cs" >}}
 
-### **详细信息右侧的摘要列**
+### **将摘要列放在详细信息右侧**
 
-开发人员还可以通过设置[**摘要列右**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summarycolumnright)的财产[**大纲**](https://reference.aspose.com/cells/net/aspose.cells/outline)类**真的**要么**错误的**.
+开发人员还可以通过将[**Outline**](https://reference.aspose.com/cells/net/aspose.cells/outline)类的[**SummaryColumnRight**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summarycolumnright)属性设置为**true**或**false**来控制在详细信息右侧显示汇总列。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-SummaryRowRight-1.cs" >}}
 
 ## **取消分组行和列**
 
-要取消分组任何已分组的行或列，请调用[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)收藏的[**解组行**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index)和[**取消组合列**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungroupcolumns)方法。两种方法都有两个参数：
+为了取消任何已分组的行或列，请调用[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)集合的[**UngroupRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index)和[**UngroupColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungroupcolumns)方法。这两种方法各自接受两个参数:
 
-- 第一行或第一列索引，要取消分组的第一行/列。
-- 最后一行或最后一列索引，要取消分组的最后一行/列。
+- 第一行或列索引，要取消分组的第一行/列。
+- 最后一行或列索引，要取消分组的最后一行/列。
 
-[**解组行**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index)有一个带有第三个布尔参数的重载。将其设置为**真的**删除所有分组信息。否则，仅删除外部组信息。
+[**UngroupRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index)还包含一个采用布尔类型第三参数的重载方法。将其设置为**true**将删除所有分组信息。否则，只会删除外部分组信息。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-UngroupingRowsAndColumns-1.cs" >}}

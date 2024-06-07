@@ -1,11 +1,12 @@
-﻿---
-title: 将文本插入单元格
+---
+title: 在单元格中插入文本
 type: docs
 weight: 80
 url: /zh/net/insert-text-into-a-cell/
 ---
+
 ## **OpenXML Excel**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -250,7 +251,7 @@ private static Cell InsertCellInWorksheet(string columnName, uint rowIndex, Work
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -283,5 +284,5 @@ private static void InsertText(string docName, string text)
 {{< /highlight >}}
 ## **下载示例代码**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
-- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Insert%20text%20into%20a%20cell%20\(Aspose.Cells\).zip/下载）
-- [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Insert%20text%20into%20a%20cell%20\(Aspose.Cells\)。压缩）
+- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Insert%20text%20into%20a%20cell%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Insert%20text%20into%20a%20cell%20\(Aspose.Cells\).zip)

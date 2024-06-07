@@ -1,17 +1,18 @@
-﻿---
+---
 title: 删除工作簿中未使用的样式
 type: docs
 weight: 470
 url: /zh/java/remove-unused-styles-inside-the-workbook/
 ---
+
 {{% alert color="primary" %}} 
 
-excel 文件中未使用的样式不仅占用空间，而且在转换为不同格式（如 PDF、HTML 等）时会导致性能问题。Aspose.Cells 提供了[工作簿.removeUnusedStyles()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#removeUnusedStyles\(\)) 删除工作簿中所有未使用的样式。
+在Excel文件中未使用的样式不仅占用空间，还会导致在转换为PDF、HTML等不同格式时性能问题。Aspose.Cells提供了[Workbook.removeUnusedStyles()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#removeUnusedStyles\(\))以删除工作簿中的所有未使用样式。
 
 {{% /alert %}} 
-## **删除工作簿中未使用的样式**
-下面的代码解释了它的用法[工作簿.removeUnusedStyles()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#removeUnusedStyles\(\)).代码加载[模板excel文件](5473451.xlsx)您可以从提供的链接下载。它包含一个未使用的样式，名为**Aspose风格**，此样式和所有其他未使用的样式将在代码执行后被删除。请参阅以下屏幕截图以获取更多说明。
+## **删除工作簿中的未使用样式**
+以下代码解释了如何使用[Workbook.removeUnusedStyles()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#removeUnusedStyles\(\))。该代码加载了[模板excel文件](5473451.xlsx)，您可以从提供的链接下载。它包含一个名为**AsposeStyle**的未使用样式，在执行代码后，此样式以及所有其他未使用的样式将被移除。请查看以下截图以获取更多说明。
 
-![待办事项：图片_替代_文本](remove-unused-styles-inside-the-workbook_1.png)
+![todo:image_alt_text](remove-unused-styles-inside-the-workbook_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-RemoveUnusedStyles-RemoveUnusedStyles.java" >}}

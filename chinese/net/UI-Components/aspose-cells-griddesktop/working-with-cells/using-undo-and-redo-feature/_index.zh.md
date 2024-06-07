@@ -1,34 +1,37 @@
-﻿---
+---
 title: 使用撤消和重做功能
 type: docs
 weight: 120
-url: /zh/net/using-undo-and-redo-feature/
+url: /zh/net/aspose-cells-griddesktop/use-undo-and-redo-feature/
+keywords: GridDesktop，撤消，重做
+description: 本文介绍了GridDesktop中的撤消和重做功能。
 ---
+
 {{% alert color="primary" %}} 
 
-GridDesktop 的撤消/重做功能非常有用。该名称本身就说明了它的功能，它允许您撤消/重做工作表中最近的操作。例如，如果一个公式被意外删除或您编辑了一个您实际上并不想要的单元格中的数据，这些操作可以通过使用控件提供的撤消和重做操作来纠正。
+GridDesktop的撤消/重做功能非常有用。名称本身就解释了它的功能，它允许您在工作表中撤消/重做最近的操作。例如，如果意外删除了一个公式，或者编辑了一个您实际上不想要的单元格中的数据，则可以使用该控件提供的撤消和重做操作来更正这些操作。
 
 {{% /alert %}} 
 ## **执行撤消和重做操作**
-以下 API 可用于该任务。每个API都给出了描述，请检查它们。
+以下API可用于此任务。请查看每个API的描述。
 
-- **GridDesktop.EnableUndo** - 属性：表示是否启用Undo功能，默认值为“false”。
-- **撤销管理器**– class：用于管理undo/redo操作。
-- **GridDesktop.UndoManager** – 属性：它获取的实例**撤销管理器**目的。
-- **UndoManager.Undo** – 方法：它执行撤销操作。
-- **UndoManager.Redo -**方法：它执行重做操作。
-- **UndoManager.ClearStack** – 方法：清除撤消/重做堆栈。
-- **UndoManager.UndoStepsCount** – 属性：它获取当前可用的撤消步骤的计数。
-- **UndoManager.RedoStepsCount** – 属性：它获取当前可用重做步骤的计数。
-- **UndoManager.UndoStackSize** – 属性：它获取/设置撤消堆栈大小。
-### **撤消**
-下面的示例代码展示了如何使用 GridDesktop API 实现撤消操作。
+- **GridDesktop.EnableUndo** - 属性: 它指示撤销功能是否已启用，默认值为"false"。
+- **UndoManager** – 类: 用于管理撤销/重做操作。
+- **GridDesktop.UndoManager** – 属性: 获取**UndoManager**对象的实例。
+- **UndoManager.Undo** – 方法: 执行撤销操作。
+- **UndoManager.Redo -** 方法: 执行重做操作。
+- **UndoManager.ClearStack** – 方法: 清除撤销/重做堆栈。
+- **UndoManager.UndoStepsCount** – 属性: 获取当前可用的撤销步骤数。
+- **UndoManager.RedoStepsCount** – 属性: 获取当前可用的重做步骤数。
+- **UndoManager.UndoStackSize** – 属性: 获取/设置撤销堆栈大小。
+### **撤销**
+以下示例代码展示了如何使用GridDesktop API实现撤销操作。
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-UndoRedoFeature-Undo.cs" >}}
 ### **重做**
-下面的示例代码展示了如何使用 GridDesktop API 实现 Redo 操作。
+以下示例代码展示了如何使用GridDesktop API实现重做操作。
 
 
 
@@ -36,6 +39,6 @@ GridDesktop 的撤消/重做功能非常有用。该名称本身就说明了它�
 
 {{% alert color="primary" %}} 
 
-目前，撤消/重做操作是指单元格值的更改。
+目前，撤销/重做操作指的是单元格值的变化。
 
 {{% /alert %}}

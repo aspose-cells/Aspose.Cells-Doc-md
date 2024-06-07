@@ -1,12 +1,13 @@
-﻿---
+---
 title: 使用正则表达式替换工作簿中的文本
 type: docs
 weight: 90
 url: /zh/java/replace-text-in-a-workbook-using-regular-expression/
 ---
-Aspose.Cells 提供了使用正则表达式替换工作簿中文本的功能。为此，API 提供[**正则表达式键**](https://reference.aspose.com/cells/java/com.aspose.cells/replaceoptions#RegexKey)的财产[**替换选项**](https://reference.aspose.com/cells/java/com.aspose.cells/ReplaceOptions)班级。设定[**正则表达式键**](https://reference.aspose.com/cells/java/com.aspose.cells/replaceoptions#RegexKey)到**真的**表示搜索到的键将是一个正则表达式。
 
-下面的代码片段演示了使用[**正则表达式键**](https://reference.aspose.com/cells/java/com.aspose.cells/replaceoptions#RegexKey)通过使用财产[示例 excel 文件](SampleRegexReplace.xlsx).这[输出文件](RegexReplace_out.xlsx)附上由以下代码片段生成的代码以供参考。
+Aspose.Cells提供了使用正则表达式在工作簿中替换文本的功能。为此，API提供了[**RegexKey**](https://reference.aspose.com/cells/java/com.aspose.cells/replaceoptions#RegexKey)类的[**ReplaceOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ReplaceOptions)属性。将[**RegexKey**](https://reference.aspose.com/cells/java/com.aspose.cells/replaceoptions#RegexKey)设置为**true**表示搜索的关键字将是正则表达式。
+
+以下代码片段演示了通过使用[sample excel file](SampleRegexReplace.xlsx)使用[**RegexKey**](https://reference.aspose.com/cells/java/com.aspose.cells/replaceoptions#RegexKey)属性的用法。由以下代码片段生成的[output file](RegexReplace_out.xlsx)附上参考。
 
 ## **示例代码**
 

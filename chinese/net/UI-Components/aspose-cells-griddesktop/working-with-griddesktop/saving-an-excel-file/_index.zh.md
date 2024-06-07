@@ -1,23 +1,26 @@
-﻿---
-title: 保存 Excel 文件
+---
+title: 保存Excel文件
 type: docs
 weight: 20
-url: /zh/net/saving-an-excel-file/
+url: /zh/net/aspose-cells-griddesktop/save-an-excel-file/
+keywords: GridDesktop,保存,文件
+description: 本文介绍了如何在GridDesktop中保存文件。
 ---
+
 {{% alert color="primary" %}} 
 
-使用 Aspose.Cells.GridDesktop 控件，用户不仅可以创建新的 Excel 文件，还可以管理现有的文件。但是，在这两种情况下，都需要保存 Aspose.Cells.GridDesktop 的内容。所以，这是我们现在讨论的主题，让我们的用户知道他们如何将他们的网格内容保存为 Excel 文件。
+使用 Aspose.Cells.GridDesktop 控件，用户不仅可以创建新的 Excel 文件，还可以管理现有文件。但在这两种情况下，有必要保存 Aspose.Cells.GridDesktop 的内容。因此，我们现在讨论的主题是告知用户如何将其 Grid 内容保存为 Excel 文件。
 
 {{% /alert %}} 
 ## **介绍**
-Aspose.Cells.GridDesktop控件的内容保存为Excel文件，Aspose.Cells.GridDesktop提供了以下方法。
+要将 Aspose.Cells.GridDesktop 控件的内容保存为 Excel 文件，Aspose.Cells.GridDesktop 提供以下方法。
 
-1. **另存为文件**
-1. **另存为流**
+1. **保存为文件**
+1. **保存为流**
 ## **保存文件**
-创建桌面应用程序并向窗体添加两个带有 GridControl 控件的按钮。将按钮的文本属性设置为**另存为文件**和**另存为流**分别。
-### **另存为文件**
-创建的点击事件**另存为文件**按钮并将以下代码粘贴到其中。
+创建一个桌面应用程序，并向表单添加两个按钮，同时使用 GridControl 控件。分别将按钮的文本属性设置为 **另存为文件** 和 **另存为流**。
+### **保存为文件**
+创建 **另存为文件** 按钮的 Click 事件，并粘贴以下代码至其中。
 
 
 
@@ -25,11 +28,11 @@ Aspose.Cells.GridDesktop控件的内容保存为Excel文件，Aspose.Cells.GridD
 
 {{% alert color="primary" %}} 
 
-重要提示：要讨论的重点是 Aspose.Cells.GridDesktop 控件还包含一个名为 SaveToExcel 的方法，该方法也用于将 Excel 文件的内容加载到网格中。但是，这种方法现在已经过时了。因此，建议所有开发人员使用比废弃方法更健壮和高效的 ExportExcelFile 方法。
+重要提示：讨论的一个重要点是 Aspose.Cells.GridDesktop 控件还包含一个名为 SaveToExcel 的方法，它也用于将 Excel 文件的内容加载到 Grid 中。但是，此方法现在已经过时。所以，建议所有开发人员使用 ExportExcelFile 方法，该方法比过时的方法更健壮和高效。
 
 {{% /alert %}} 
-### **另存为流**
-有时，开发人员可能需要将他们的 Grid 内容保存到流中（例如，MemoryStream）。为方便此任务，Aspose.Cells.GridDesktop 控件还支持将网格数据保存到流中。创建的点击事件**另存为流**按钮并将以下代码粘贴到其中。
+### **保存为流**
+有时，开发人员可能需要将其 Grid 内容保存到流中（例如，MemoryStream）。为简化此任务，Aspose.Cells.GridDesktop 控件还支持将 Grid 数据保存到流中。创建 **另存为流** 按钮的 Click 事件，并粘贴以下代码至其中。
 
 
 
@@ -37,6 +40,6 @@ Aspose.Cells.GridDesktop控件的内容保存为Excel文件，Aspose.Cells.GridD
 
 {{% alert color="primary" %}} 
 
-重要提示：Microsoft Excel 支持 Excel 工作表最多可包含 65,536 行和 256 列。 Aspose.Cells.GridDesktop 也遵循相同的标准。在 Aspose.Cells.GridDesktop 控件中，开发人员可以创建比标准限制更多的行和列，但在将网格数据保存到 Excel 文件时，将抛出异常。这意味着只有包含在 65,536 行和 256 列中的数据可以使用 Aspose.Cells.GridDesktop 保存到 Excel 文件中。
+重要提示：Microsoft Excel 支持 Excel 表可以包含最多 65,536 行和 256 列。Aspose.Cells.GridDesktop 也遵循相同的标准。在 Aspose.Cells.GridDesktop 控件中，开发人员可以创建比标准限制更多的行和列，但当将网格数据保存到 Excel 文件时，会引发异常。这意味着只能保存 65,536 行和 256 列中包含的数据到一个 Excel 文件中，使用 Aspose.Cells.GridDesktop。
 
 {{% /alert %}}

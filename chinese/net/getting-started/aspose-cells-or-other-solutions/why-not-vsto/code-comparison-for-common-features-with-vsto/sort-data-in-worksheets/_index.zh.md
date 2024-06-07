@@ -1,12 +1,13 @@
-﻿---
+---
 title: 对工作表中的数据进行排序
 type: docs
 weight: 230
 url: /zh/net/sort-data-in-worksheets/
 ---
-下面是 VSTO 和 Aspose.Cells 的比较代码示例。
+
+以下是VSTO和Aspose.Cells之间的比较代码示例。
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
    Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
 
@@ -36,7 +37,7 @@ url: /zh/net/sort-data-in-worksheets/
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 

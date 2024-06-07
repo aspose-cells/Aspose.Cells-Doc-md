@@ -1,15 +1,16 @@
-﻿---
-title: 在 PHP 中使用工作表索引删除工作表
+---
+title: 使用PHP按工作表索引删除工作表
 type: docs
 weight: 30
 url: /zh/net/removing-worksheets-using-sheet-index-in-php/
 ---
+
 ## **使用工作表索引删除工作表**
 使用工作表索引删除工作表
 
 **PHP代码**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -31,6 +32,6 @@ url: /zh/net/removing-worksheets-using-sheet-index-in-php/
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**使用工作表索引删除工作表 (Aspose.Cells)**来自以下任何社交编码网站：
+从以下任何社交编码站点下载**使用工作表索引删除工作表（Aspose.Cells）**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/RemovingWorksheetsUsingSheetIndex.php)

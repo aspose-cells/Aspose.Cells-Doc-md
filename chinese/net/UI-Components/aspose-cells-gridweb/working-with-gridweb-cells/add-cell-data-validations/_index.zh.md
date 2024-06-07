@@ -1,18 +1,21 @@
-﻿---
-title: 添加 Cell 数据验证
+---
+title: 添加单元格数据有效性
 type: docs
 weight: 90
-url: /zh/net/add-cell-data-validations/
+url: /zh/net/aspose-cells-gridweb/add-cell-data-validations/
+keywords: GridWeb,validation,data validation,GridValidation
+description: 本文介绍了如何在GridWeb中添加数据验证(GridValidation)。
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridWeb 允许您添加**数据验证**使用 GridWorksheet.Validations.Add() 方法。使用此方法，您必须指定**Cell 范围**.但是如果你想在单个 GridCell 中创建数据验证，那么你可以直接使用 GridCell.CreateValidation() 方法来完成。同样，您可以删除**数据验证**从 GridCell 使用 GridCell.RemoveValidation() 方法。
+Aspose.Cells.GridWeb使您能够使用GridWorksheet.Validations.Add()方法添加**数据验证**。 使用此方法，您必须指定**单元格范围**。 但是，如果要在单个GridCell中创建数据验证，可以直接使用GridCell.CreateValidation()方法。 同样，您可以使用GridCell.RemoveValidation()方法从GridCell中删除**数据验证**。
 
 {{% /alert %}} 
-## **在 GridWeb 的 GridCell 中创建数据验证**
-下面的示例代码创建一个**数据验证**在单元格 B3 中。如果您输入任何不在 20 到 40 之间的值，单元格 B3 将显示**验证错误**形式为**红色 XXXX**如这个屏幕截图所示。
+## **在GridWeb的GridCell中创建数据验证**
+以下示例代码在单元格B3中创建了一个**数据验证**。 如果您输入任何不在20和40之间的值，单元格B3将以**红色XXXX**形式显示**验证错误**，如此截屏所示。
 
-![待办事项：图片_替代_文本](add-cell-data-validations_1.png)
+![todo:image_alt_text](add-cell-data-validations_1.png)
 
 
 

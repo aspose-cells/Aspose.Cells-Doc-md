@@ -3,53 +3,54 @@ title: 数据透视表和源数据
 type: docs
 weight: 30
 url: /zh/python-net/pivot-table-and-source-data/
-description: 本文介绍如何使用 Aspose.Cells for Python via .NET 更改数据透视表的源数据。
-keywords: Change Pivot Table's Source Data
+description: 这篇文章展示了如何改变数据透视表的源数据
+keywords: 通过Aspose.Cells for Python Excel库，如何更改数据透视表的源数据。
 ---
-##  **数据透视表的源数据**
 
-有时，您希望使用数据透视表创建 Microsoft Excel 报表，这些数据透视表从设计时未知的不同数据源（例如数据库）获取数据。本文提供了一种动态更改数据透视表数据源的方法。
+## **数据透视表的源数据**
 
-###  **更改数据透视表的源数据**
+有时候您想要创建从不同数据源(如数据库)获取数据的数据透视表的Microsoft Excel报表，这些数据源在设计时是未知的。本文提供了一种动态更改数据透视表数据源的方法。
 
-1. 创建新的设计器模板。
- 1. 创建一个新的设计器模板文件，如下图所示。
- 1. 然后定义一个命名范围*DataSource**，它引用该单元格范围。
+### **更改数据透视表的数据源**
 
-      **创建设计器模板并定义命名范围、数据源** 
+1. 创建一个新的设计模板。
+   1. 创建一个新的设计模板文件，如下面的屏幕截图所示。
+   1. 然后定义一个名为**DataSource**的命名范围，该范围指向这些单元格。
 
-![待办事项：图像_替代_文本](pivot-table-and-source-data_1.png)
-   
-1. 基于此命名范围创建数据透视表。
-1. 在Microsoft Excel中，选择**数据**，然后**数据透视表**和*数据透视图报告**。
- 1. 根据第一步中创建的命名范围创建数据透视表。
+      **创建一个设计模板并定义名为DataSource的命名范围** 
 
-      **基于命名范围、数据源创建数据透视表** 
+![todo:image_alt_text](pivot-table-and-source-data_1.png)
 
-![待办事项：图像_替代_文本](pivot-table-and-source-data_2.png)
+1. 基于这个命名范围创建一个数据透视表。
+   1. 在Microsoft Excel中，选择**数据**，然后选择**数据透视表**和**数据透视图和图表报告**。
+   1. 基于第一步创建的命名范围创建一个数据透视表。
 
-   
-1. 将相应字段拖动到数据透视表行和列，然后创建结果数据透视表，如下图所示。
+      **基于名为DataSource的命名范围创建数据透视表** 
 
-   **根据相应字段创建数据透视表** 
+![todo:image_alt_text](pivot-table-and-source-data_2.png)
 
-![待办事项：图像_替代_文本](pivot-table-and-source-data_3.png)
 
-   
-1. 右键单击数据透视表并选择*表选项**。
- 1. 检查**打开时刷新**在**数据选项**设置。
+   1. 将相应字段拖动到数据透视表的行和列中，然后创建结果数据透视表，如下面的屏幕截图所示。
+
+   **基于相应字段创建数据透视表** 
+
+![todo:image_alt_text](pivot-table-and-source-data_3.png)
+
+
+1. 右键单击数据透视表，然后选择**表选项**。
+   1. 在**数据选项**设置中的**刷新时打开**中勾选。
 
       **设置数据透视表选项** 
 
-![待办事项：图像_替代_文本](pivot-table-and-source-data_4.png)
+![todo:image_alt_text](pivot-table-and-source-data_4.png)
 
 
-现在，您可以将此文件另存为设计器模板文件。
+现在，您可以将此文件保存为您的设计模板文件。
 
-1. 填充新数据并更改数据透视表的源数据。
- 1. 创建设计器模板后，使用以下代码更改数据透视表的源数据。
+1. 填充新数据和更改数据透视表的源数据。
+   1. 创建设计模板后，使用以下代码更改数据透视表的源数据。
 
-执行下面的示例代码会更改数据透视表的源数据。
+执行下面的示例代码将更改数据透视表的源数据。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTable-ChangeSourceData-1.py" >}}
 

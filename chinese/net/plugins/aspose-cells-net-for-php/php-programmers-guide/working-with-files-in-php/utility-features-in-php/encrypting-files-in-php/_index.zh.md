@@ -1,15 +1,16 @@
-﻿---
-title: 在 PHP 中加密文件
+---
+title: 在PHP中加密文件
 type: docs
 weight: 10
 url: /zh/net/encrypting-files-in-php/
 ---
-## **Aspose.Cells - 加密 Excel 文件**
-加密 Microsoft Excel 文件
+
+## **Aspose.Cells - 加密Excel文件**
+加密Microsoft Excel文件
 
 **PHP代码**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -41,6 +42,6 @@ url: /zh/net/encrypting-files-in-php/
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**加密文件 (Aspose.Cells)**来自以下任何社交编码网站：
+从下面提到的任何社交编码网站下载**加密文件（Aspose.Cells）**。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/EncryptingFiles.php)

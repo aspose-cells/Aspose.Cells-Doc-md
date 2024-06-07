@@ -1,20 +1,21 @@
 ---
-title: 将 XLSB 的修订版转换为 XLSM
+title: 将XLSB文件转换为XLSM文件
 type: docs
 weight: 290
 url: /zh/python-net/convert-revision-of-xlsb-to-xlsm/
-description: 如何使用 Aspose.Cells for Python via .NET API 将 XLSB 的修订版转换为 XLSM。
-keywords: Python Convert Revision of XLSB to XLSM, Convert Revision of XLSB to XLSM Pyton via NET, Python via NET Convert Revision of XLSB to XLSM.
+description: 使用 Aspose.Cells for Python 通过 .NET API 将 XLSB 的修订版本转换为 XLSM。
+keywords: Python 将 XLSB 的修订版本转换为 XLSM，通过 NET 将 XLSB 的修订版本转换为 XLSM，Python 通过 NET 将 XLSB 的修订版本转换为 XLSM。
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Python via .NET 现在支持将 XLSB 文件的修订版完全转换为 XLSM 文件。修订版本可在路径 \xl\revisions 中找到。您可以通过将 XLSB 文件扩展名更改为 ZIP 来查看它们。 \xl\revisions 路径包含以 .bin 扩展名结尾的文件。
+Aspose.Cells for Python 通过 .NET 现在支持完全将 XLSB 文件的修订版本转换为 XLSM 文件。修订版本位于路径 \xl\revisions 内。您可以通过更改 XLSB 文件扩展名为 ZIP 来查看它们。\xl\revisions 路径包含以 .bin 扩展名结尾的文件。
 
-当您使用 Aspose.Cells for Python via .NET 将 XLSB 文件转换为 XLSM 文件时，这些 .bin 文件成功转换为 .xml 文件，如这两个屏幕截图所示。
+当您使用Aspose.Cells for Python通过.NET将XLSB文件转换为XLSM文件时，这些.bin文件会成功转换为.xml文件，如这两个截图所示。
 
 {{% /alert %}} 
 
-以下代码示例向您展示如何使用 Aspose.Cells for Python via .NET 将 XLSB 文件转换为 XLSM 格式。
+以下代码示例展示了如何使用Aspose.Cells for Python通过.NET将XLSB文件转换为XLSM格式。
 
 
 

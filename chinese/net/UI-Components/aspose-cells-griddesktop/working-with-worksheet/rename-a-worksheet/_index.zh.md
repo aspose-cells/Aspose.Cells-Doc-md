@@ -1,20 +1,23 @@
-﻿---
+---
 title: 重命名工作表
 type: docs
 weight: 40
-url: /zh/net/rename-a-worksheet/
+url: /zh/net/aspose-cells-griddesktop/rename-a-worksheet/
+keywords: GridDesktop,重命名,工作表
+description: 本文介绍了如何在GridDesktop中重命名工作表。
 ---
+
 {{% alert color="primary" %}} 
 
-本主题讨论如何使用 Aspose.Cells.GridDesktop 更改工作表的名称。
+本主题介绍了如何使用Aspose.Cells.GridDesktop更改工作表的名称。
 
 {{% /alert %}} 
 ## **例子**
-重命名工作表是一项非常有用的简单任务。例如，如果您想要标记工作表，以便每个工作表包含的内容一目了然。例如，一个模型可能有 12 个工作表，每个工作表都按月份命名，以保存费用信息。
+重命名工作表是一个简单的任务，但却非常有用。 例如，如果您想要标记工作表，以便明显地了解每个工作表包含的内容。 例如，一个模型可能有12个工作表，每个按月命名，以存储费用信息。
 
-要使用 Aspose.Cells.GridDesktop 控件重命名工作表：
+使用Aspose.Cells.GridDesktop控件重命名工作表：
 
-1. 将 Aspose.Cells.GridDesktop 控件添加到窗体。
+1. 将Aspose.Cells.GridDesktop控件添加到表单中。
 1. 获取所需工作表的引用。
 1. 使用其引用设置工作表的名称。
 
@@ -24,6 +27,6 @@ url: /zh/net/rename-a-worksheet/
 
 {{% alert color="primary" %}} 
 
-在更改工作表的名称之前，需要访问该工作表的引用。有许多方法可以访问工作表引用。要了解这些方法，请参阅[访问工作表](/cells/zh/net/accessing-worksheet/).
+在更改工作表的名称之前，需要访问该工作表的引用。 有许多访问工作表引用的方式。 有关这些方法，请参阅[访问工作表](/cells/zh/net/aspose-cells-griddesktop/accessing-worksheet/)。
 
 {{% /alert %}}

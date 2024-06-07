@@ -1,23 +1,24 @@
 ---
-title: 调整图表数据标签形状的大小以适合文本
-description: 了解如何调整图表中数据标签形状的大小以适合 Aspose.Cells for .NET 中的文本。我们的指南将向您展示如何调整标签容器的大小和形状，以确保文本正确显示，没有任何截断或重叠。
-keywords: Aspose.Cells for .NET, charting, data labels, shape resizing, text fitting, truncation, overlapping.
+title: 调整图表的数据标签形状以适合文本
+description: 了解如何在Aspose.Cells for .NET中调整图表中数据标签的形状以适合文本。 我们的指南将向您展示如何调整标签容器的大小和形状，以确保文本正确显示，避免截断或重叠。
+keywords: Aspose.Cells for .NET, 图表，数据标签，形状调整大小，文本适合，截断，重叠。
 type: docs
 weight: 220
 url: /zh/net/resize-chart-s-data-label-shape-to-fit-text/
 ---
+
 {{% alert color="primary" %}}
 
- Excel 应用程序提供了**调整形状大小以适合文本**图表数据标签的选项，以增加形状的大小，以便文本适合其内部。
+Excel应用程序提供 **调整形状以适应文本** 选项，用于图表的数据标签，以增加形状的大小以使文本适合其中。
 
 {{% /alert %}}
 
-##  **如何在 Microsoft Excel 中调整图表数据标签形状的大小以适合文本**
+## **如何调整Microsoft Excel中图表的数据标签形状以适应文本**
 
-通过选择图表上的任何数据标签，可以在 Excel 界面上访问此选项。右键单击并选择**设置数据标签格式**菜单。在**尺寸和特性**选项卡、展开**结盟**揭示相关属性，包括**调整形状大小以修复文本**选项。
+可以通过在图表上选择任何数据标签来访问此选项，然后单击鼠标右键并选择 **格式数据标签** 菜单。 在 **大小和属性** 选项卡上，展开 **对齐** 以显示相关属性，包括 **调整形状以适合文本** 选项。
 
-##  **如何使用 Aspose.Cells for .NET 调整图表数据标签形状的大小以适合文本**
+## **如何使用Aspose.Cells for .NET调整图表的数据标签形状以适应文本**
 
-为了模仿 Excel 调整数据标签形状大小以适合文本的功能，Aspose.Cells API 公开了布尔类型[**DataLabels.IsResizeShapeToFitText**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext)财产。下面一段代码展示了简单的使用场景[**DataLabels.IsResizeShapeToFitText**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext)财产。
+为了模仿Excel调整数据标签形状以适应文本的功能，Aspose.Cells API公开了布尔类型的[**DataLabels.IsResizeShapeToFitText**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext)属性。 以下代码示例显示了[**DataLabels.IsResizeShapeToFitText**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext)属性的简单使用场景。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ResizeChartDataLabelToFit-1.cs" >}}

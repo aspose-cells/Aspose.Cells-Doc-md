@@ -1,12 +1,13 @@
-﻿---
+---
 title: 在 Aspose.Cells 中使用匿名类型或自定义对象
 type: docs
 weight: 30
 url: /zh/net/using-anonymous-types-or-custom-objects-in-aspose-cells/
 ---
-Aspose.Cells 还支持智能标记中的匿名类型或自定义对象。在下面的示例中，需要在使用前定义产品类。
 
-{{< highlight "csharp" >}}
+Aspose.Cells 也支持智能标记中的匿名类型或自定义对象。在下面的示例中，需要先定义 Product 类。
+
+{{< highlight csharp >}}
 
  //Instantiate the workbookdesigner object.
 
@@ -48,4 +49,4 @@ report.Workbook.Save("Smart Marker Customobjects.xls");
 
 {{< /highlight >}}
 ## **下载示例代码**
-- [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Custom%20Objects%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Custom%20Objects%20%28Aspose.Cells%29.zip)

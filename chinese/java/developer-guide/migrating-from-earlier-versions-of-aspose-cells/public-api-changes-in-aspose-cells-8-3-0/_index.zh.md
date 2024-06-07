@@ -1,27 +1,28 @@
-﻿---
-title: 公共 API Aspose.Cells 8.3.0 的变化
+---
+title: Aspose.Cells 8.3.0中的公共API更改
 type: docs
 weight: 110
 url: /zh/java/public-api-changes-in-aspose-cells-8-3-0/
 ---
+
 {{% alert color="primary" %}} 
 
-本文档描述了 Aspose.Cells API 从版本 8.2.2 到 8.3.0 的变化，模块/应用程序开发人员可能会感兴趣。
+本文档描述了从版本8.2.2到8.3.0的Aspose.Cells API的变化，这对模块/应用程序开发人员可能感兴趣。
 
 {{% /alert %}} 
-## **添加的 API**
-### **属性 WorkbookSettings.AutoRecover 添加**
-AutoRecover 属性的 getter/setter 已添加到 WorkbookSettings 类中，以便开发人员可以在其应用程序中为电子表格获取/设置自动恢复选项。
+## **已添加API**
+### **新增了WorkbookSettings.AutoRecover属性**
+通过WorkbookSettings类添加了属性AutoRecover的获取器/设置器，以便让开发人员在其应用程序中获取/设置电子表格的自动恢复选项。 
 
 {{% alert color="primary" %}} 
 
-请检查文章[设置电子表格自动恢复](http://aspose.com/docs/display/cellsjava/How+to+set+AutoRecover+property+of+Workbook)想要查询更多的信息。
+请查看文章[设置电子表格自动恢复](http://aspose.com/docs/display/cellsjava/How+to+set+AutoRecover+property+of+Workbook)以获取更多信息。
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("sample.xlsx");
 
@@ -31,12 +32,12 @@ settings.setAutoRecover(true);
 
 {{< /highlight >}}
 
-### **已添加属性 WorkbookSettings.CrashSave**
-属性 CrashSave 的 getter/setter 已添加到 WorkbookSettings 类。布尔类型属性指示应用程序是否在崩溃后最后保存了工作簿文件。
+### **新增了WorkbookSettings.CrashSave属性**
+通过WorkbookSettings类添加了属性CrashSave的获取器/设置器。Boolean类型属性指示应用程序在崩溃后是否最后保存了工作簿文件。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("sample.xlsx");
 
@@ -46,12 +47,12 @@ System.out.println(settings.getCrashSave());
 
 {{< /highlight >}}
 
-### **已添加属性 WorkbookSettings.DataExtractLoad**
-属性 DataExtractLoad 的 getter/setter 已添加到 WorkbookSettings 类中，以允许开发人员获取/设置有关上次恢复的信息。如果属性DataExtractLoad 返回true，则表明已经对工作簿文件进行了数据恢复。
+### **新增了WorkbookSettings.DataExtractLoad属性**
+通过WorkbookSettings类添加了属性DataExtractLoad的获取器/设置器，让开发人员获取/设置关于最后一次恢复的信息。 如果DataExtractLoad属性返回true，则表示已对工作簿文件执行了数据恢复。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("sample.xlsx");
 
@@ -61,12 +62,12 @@ System.out.println(settings.getDataExtractLoad());
 
 {{< /highlight >}}
 
-### **已添加属性 WorkbookSettings.RepairLoad**
-属性 RepairLoad 的 getter/setter 已添加到 WorkbookSettings 类。布尔类型属性指示电子表格是否已在上次使用 Excel 应用程序加载会话中修复。
+### **新增了WorkbookSettings.RepairLoad属性**
+通过WorkbookSettings类添加了属性RepairLoad的获取器/设置器。Boolean类型属性指示电子表格在上次加载会话中是否已被修复。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("sample.xlsx");
 
@@ -76,12 +77,12 @@ System.out.println(settings.getRepairLoad());
 
 {{< /highlight >}}
 
-### **已添加属性 TxtLoadOptions.KeepExactFormat**
-属性 KeepExactFormat 已添加到 TxtLoadOptions 类，指示在将字符串/文本转换为数字或 DateTime 时是否应为单元格值保留精确格式。添加此属性以匹配 MS Excel 应用程序从 CSV 文件加载日期时间或数值的行为。为了模拟 MS Excel 的行为，将 KeepExactFormat 属性设置为 false，而默认值为 true，因此单元格值将被格式化为 CSV 文件中的字符串。
+### **新增了TxtLoadOptions.KeepExactFormat属性**
+已向TxtLoadOptions类添加了属性KeepExactFormat，指示在将字符串/文本转换为数字或日期时间时是否应保留精确格式。为了模拟MS Excel应用程序的行为，请将KeepExactFormat属性设置为false，而默认值为true，因此单元格值将被格式化为CSV文件中的字符串。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  TxtLoadOptions options = new TxtLoadOptions();
 
@@ -91,18 +92,18 @@ Workbook book = new Workbook("sample.csv", options);
 
 {{< /highlight >}}
 
-### **已添加属性 Shape.Id**
-v8.3.0 为属性 Shape.Id 添加了 getter/setter，以便在给定电子表格中唯一标识每个形状对象。这个新属性还有助于在电子表格中唯一标识 Chart 对象，如下所示。
+### **新增了Shape.Id属性**
+v8.3.0已经为Shape.Id添加了获取器/设置器，以在给定电子表格中唯一标识每个形状对象。 这个新属性还有助于在电子表格中唯一标识图表对象，如下所示。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
-工作簿 book = new Workbook("sample.xlsx");
+ Workbook book = new Workbook("sample.xlsx");
 
-ChartCollection 图表 = book.getWorksheets().get(0).getCharts();
+ChartCollection charts = book.getWorksheets().get(0).getCharts();
 
- for(int index = 0; 索引<= charts.getCount(); index++)
+for(int index = 0; index <= charts.getCount(); index++)
 
 {
 
@@ -116,12 +117,12 @@ ChartCollection 图表 = book.getWorksheets().get(0).getCharts();
 
 {{< /highlight >}}
 
-### **添加了方法 PlotArea.setPositionAuto**
-方法 setPositionAuto 已添加到 PlotArea 类，有助于将图表的绘图区域设置为自动模式。
+### **添加了PlotArea.setPositionAuto方法**
+已添加方法setPositionAuto到PlotArea类，有助于将图表的绘图区设置为自动模式。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("sample.xlsx");
 

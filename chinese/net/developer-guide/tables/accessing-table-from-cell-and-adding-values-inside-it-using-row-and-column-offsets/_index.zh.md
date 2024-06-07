@@ -1,33 +1,34 @@
-﻿---
-title: 从 Cell 访问表并使用行和列偏移量在其中添加值
+---
+title: 访问表单元格并使用行和列偏移量在其中添加值
 type: docs
 weight: 230
 url: /zh/net/accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets/
 ---
+
 {{% alert color="primary" %}}
 
-通常，您在表或列表对象中添加值使用[**Cell.PutValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)方法。但有时，您可能需要使用行和列偏移量在表或列表对象中添加值。
+通常，您使用[**Cell.PutValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)方法在表格或列表对象内添加值。但有时，您可能需要使用行和列偏移量在表格或列表对象内添加值。
 
-为了从单元格访问表或列表对象，使用[**Cell.GetTable()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gettable)方法。要使用行和列偏移量在其中添加值，请使用[**ListObject.PutCellValue**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/methods/putcellvalue)方法。
+要访问单元格中的表或列表对象，请使用 [**Cell.GetTable()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gettable) 方法。要使用行和列偏移量在其中添加值，请使用 [**ListObject.PutCellValue**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/methods/putcellvalue) 方法。
 
 {{% /alert %}}
 
-以下屏幕截图显示了代码中使用的源 Excel 文件。它包含空表并突出显示位于表内的单元格 D5。我们将从单元格 D5 使用访问此表[**Cell.GetTable()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gettable)方法，然后使用两者添加其中的值[**Cell.PutValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)和[**ListObject.PutCellValue**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/methods/putcellvalue)方法。
+下面的截图显示了代码中使用的源Excel文件。它包含一个空表格，并突出显示了位于表格内的单元格D5。我们将使用 [**Cell.GetTable()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gettable) 方法从单元格D5访问此表，并使用 [**Cell.PutValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) 和 [**ListObject.PutCellValue**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/methods/putcellvalue) 方法在其中添加值。
 
-## 例子
+## 示例
 
 ### 比较源文件和输出文件的屏幕截图
 
-|![待办事项：图片_替代_文本](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_1.png)|
-|:- |
+|![todo:image_alt_text](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_1.png)|
+| :- |
 
-以下屏幕截图显示了代码生成的输出 Excel 文件。如您所见，单元格 D5 有一个值，而位于表格偏移量 2,2 处的单元格 F6 有一个值。
+下面的截图显示了代码生成的输出Excel文件。正如您所看到的，单元格D5有一个值，表格内偏移为2,2的单元格F6也有一个值。
 
-|![待办事项：图片_替代_文本](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_2.png)|
-|:- |
+|![todo:image_alt_text](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_2.png)|
+| :- |
 
-### C# 从单元格访问表格并使用行和列偏移量在其中添加值的代码
+### 访问单元格中的表格和使用行和列偏移量在其中添加值的C#代码
 
-以下示例代码加载如上图所示的源 Excel 文件，并在表内添加值并生成如上所示的输出 Excel 文件。
+以下示例代码加载了上述截图中显示的源Excel文件，并在表内添加值，生成了如上所示的输出Excel文件。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-AccessTableFromCellAndAddValue-AccessTableFromCellAndAddValue.cs" >}}

@@ -1,18 +1,19 @@
-﻿---
-title: 将 Excel 中的文档工作簿和工作表属性导出到 HTML 转换
+---
+title: 在Excel转HTML转换中导出文档工作簿和工作表属性
 type: docs
 weight: 50
 url: /zh/net/export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion/
 ---
+
 ## **可能的使用场景**
 
-当使用 Microsoft Excel 或 Aspose.Cells 将 Microsoft Excel 文件导出到 HTML 时，它还会导出各种类型的文档、工作簿和工作表属性，如下面的屏幕截图所示。您可以通过设置[**HtmlSaveOptions.ExportDocumentProperties**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportdocumentproperties), [**HtmlSaveOptions.ExportWorkbookProperties**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportworkbookproperties)和[**HtmlSaveOptions.ExportWorksheetProperties**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportworksheetproperties)作为**错误的**.这些属性的默认值为**真的**.以下屏幕截图显示了这些属性在导出的 HTML 中的样子。
+当使用Microsoft Excel或Aspose.Cells将Microsoft Excel文件导出为HTML时，它还会导出各种类型的文档、工作簿和工作表属性，如下图所示。您可以通过将[**HtmlSaveOptions.ExportDocumentProperties**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportdocumentproperties)、[**HtmlSaveOptions.ExportWorkbookProperties**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportworkbookproperties)和[**HtmlSaveOptions.ExportWorksheetProperties**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportworksheetproperties)设置为**false**来避免导出这些属性。这些属性的默认值为**true**。以下截图显示了导出的HTML中这些属性的外观。
 
-![待办事项：图片_替代_文本](export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion_1.png)
+![todo:image_alt_text](export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion_1.png)
 
-## **将 Excel 中的文档、工作簿和工作表属性导出到 HTML 转换**
+## **在Excel转HTML转换中导出文档、工作簿和工作表属性**
 
-下面的示例代码加载[示例 Excel 文件](61767776.xlsx)并将其转换为 HTML 并且不导出文档、工作簿和工作表属性[输出 HTML](61767779.zip).
+以下示例代码加载了[示例Excel文件](61767776.xlsx)并将其转换为HTML，在[输出HTML](61767779.zip)中不导出文档、工作簿和工作表属性。
 
 ## **示例代码**
 

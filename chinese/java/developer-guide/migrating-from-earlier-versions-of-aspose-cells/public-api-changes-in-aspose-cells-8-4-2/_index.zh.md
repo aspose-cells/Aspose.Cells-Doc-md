@@ -1,23 +1,24 @@
-﻿---
-title: 公共 API Aspose.Cells 8.4.2 的变化
+---
+title: Aspose.Cells 8.4.2中的公共API更改
 type: docs
 weight: 160
 url: /zh/java/public-api-changes-in-aspose-cells-8-4-2/
 ---
+
 {{% alert color="primary" %}} 
 
-本文档描述了 Aspose.Cells API 从版本 8.4.1 到 8.4.2 的变化，模块/应用程序开发人员可能会感兴趣。它不仅包括新的和更新的公共方法，[添加类等](/cells/zh/java/public-api-changes-in-aspose-cells-8-4-2/)还描述了 Aspose.Cells 中幕后行为的任何变化。
+此文档描述了从版本8.4.1到8.4.2的Aspose.Cells API的更改，这可能对模块/应用程序开发人员感兴趣。它不仅包括新的和更新的公共方法，[添加的类等](/cells/zh/java/public-api-changes-in-aspose-cells-8-4-2/)，还包括在Aspose.Cells背后的行为是否有任何更改的描述。
 
 {{% /alert %}} 
-## **添加的 API**
+## **已添加API**
 ### **改进的图表创建机制**
-com.aspose.cells.charts.Chart 类公开了 setChartDataRange 方法以简化图表创建任务。 setChartDataRange 方法接受两个参数，其中第一个参数是字符串类型，指定要从中绘制数据系列的单元格区域。第二个参数是指定绘图方向的布尔类型，即；是否按行或按列绘制一系列单元格值的图表数据系列。
+com.aspose.cells.charts.Chart类已经公开了setChartDataRange方法，以便创建图表的任务。setChartDataRange方法接受两个参数，第一个参数是string类型，指定绘制数据系列的单元格区域。第二个参数是Boolean类型，指定绘制方向，即绘制图表数据系列是通过行还是列的单元格值范围。
 
-以下代码片段展示了如何使用几行代码创建柱形图，假设图表的绘图系列数据存在于从单元格 A1 到 D4 的同一工作表中。
+以下代码片段显示了如何使用几行代码创建柱状图，假设图表的绘图系列数据存在于同一工作表上，从单元格A1到D4。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Add a new chart of type Column to chart collection
 
@@ -33,14 +34,14 @@ chart.setChartDataRange("A1:D4", true);
 
 {{< /highlight >}}
 
-### **方法 VbaModuleCollection.add 添加**
-Aspose.Cells for Java 8.4.2 公开了 VbaModuleCollection.add 方法以将新的 VBA 模块添加到工作簿的实例。 VbaModuleCollection.add 方法接受工作表类型的参数以添加工作表特定模块。
+### **已添加 VbaModuleCollection.add 方法**
+Aspose.Cells for Java 8.4.2已经公开了VbaModuleCollection.add方法，以向Workbook实例添加新的VBA模块。VbaModuleCollection.add方法接受Worksheet类型的参数，用于添加特定于工作表的模块。
 
-以下代码片段显示了如何使用 VbaModuleCollection.add 方法。
+以下代码片段显示了如何使用VbaModuleCollection.add方法。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create new workbook
 
@@ -72,14 +73,14 @@ workbook.save(output, SaveFormat.XLSM);
 
 {{< /highlight >}}
 
-### **重载方法 Cells.copyColumns 添加**
-Aspose.Cells for Java 8.4.2 公开了 Cells.copyColumns 方法的重载版本以将源列重复到目标。新暴露的方法一共接受5个参数，其中前4个参数与普通的Cells.copyColumns方法相同。但是，最后一个 int 类型的参数指定了源列必须重复的目标列数。
+### **添加了重载的Cells.copyColumns方法**
+Aspose.Cells for Java 8.4.2已经公开了重载版本的Cells.copyColumns方法，以将源列重复到目标列。新公开的方法总共接受5个参数，其中前4个参数与普通的Cells.copyColumns方法相同。但是，最后一个参数是int类型，指定了要将源列重复到的目标列的数量。
 
-以下代码片段显示了如何使用新公开的 Cells.copyColumns 方法。
+以下代码片段显示了如何使用新公开的Cells.copyColumns方法。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load an existing workbook
 
@@ -109,17 +110,17 @@ workbook.save(output);
 
 {{< /highlight >}}
 
-### **添加了枚举字段 PasteType.DEFAULT 和 PasteType.ALL_EXCEPT_BORDERS**
-随着 v8.4.2 的发布，Aspose.Cells API 为 PasteType 添加了 2 个新的枚举字段，详述如下。
+### **增加了枚举字段PasteType.DEFAULT和PasteType.ALL_EXCEPT_BORDERS**
+随着v8.4.2的发布，Aspose.Cells API为PasteType添加了2个新的枚举字段，如下所示。
 
-- PasteType.DEFAULT：类似于 Excel 的“全部”功能，用于粘贴单元格范围。
-- 粘贴类型.ALL_除了_BORDERS：类似于 Excel 的“除边框外的所有内容”功能，用于粘贴单元格范围。
+- PasteType.DEFAULT: 类似于Excel的“全部”功能，用于粘贴单元格范围。
+- PasteType.ALL_EXCEPT_BORDERS: Works similar to Excel's "All except borders" functionality for pasting range of cells.
 
-以下示例代码演示了 PasteType.DEFAULT 字段的使用。
+以下示例代码演示了使用PasteType.DEFAULT字段。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load an existing workbook
 
@@ -157,6 +158,6 @@ workbook.save(output);
 
 {{% alert color="primary" %}} 
 
-从 Aspose.Cells for Java 8.4.2 版本开始，枚举字段 PasteType.ALL 的行为与 Excel 粘贴单元格区域的“全部”功能不同。现在，PasteType.ALL 还将列宽复制到目标范围，这与 Excel 的“全部”功能相反。为了模仿 Excel 的“全部”行为，请使用 PasteType.DEFAULT。
+自Aspose.Cells for Java 8.4.2版发布以来，枚举字段PasteType.ALL的行为与Excel的"全部"功能不同，现在，PasteType.ALL还会将列宽复制到目标范围，而不像Excel的"全部"功能。为了模仿Excel的"全部"行为，请使用PasteType.DEFAULT。
 
 {{% /alert %}}

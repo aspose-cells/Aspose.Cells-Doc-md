@@ -1,19 +1,22 @@
-﻿---
-title: 使用 GridWeb 事件
+---
+title: 处理 GridWeb 事件
 type: docs
 weight: 70
-url: /zh/net/working-with-gridweb-events/
+url: /zh/net/aspose-cells-gridweb/gridweb-events/
+keywords: GridWeb，事件，操作
+description: 本文介绍了如何处理 GridWeb 中各种事件。
 ---
+
 {{% alert color="primary" %}} 
 
-所有程序员都必须熟悉事件及其目的。事件用于发送控件或类中可能发生的更改的通知。 Aspose.Cells.GridWeb 有几个事件可用于在控件发生某些更改时执行特定任务。
+所有程序员都必须熟悉事件及其目的。事件用于发送可能发生在控件或类中的更改的通知。Aspose.Cells.GridWeb 具有多个事件，可用于在控件中发生特定更改时执行特定任务。
 
-本主题介绍 Aspose.Cells.GridWeb 控件支持的所有事件以及有关如何处理这些事件的一些详细信息。
+本主题介绍了 Aspose.Cells.GridWeb 控件支持的所有事件以及如何处理这些事件的一些细节。
 
 {{% /alert %}} 
-## **使用网格事件**
-### **网格事件介绍**
-Aspose.Cells.GridWeb 控件支持多个事件，这些事件在控件中触发特定事件时为执行操作提供更多控制。可以在下面找到 Aspose.Cells.GridWeb 控件支持的完整事件列表。
+## **处理网格事件**
+### **网格事件简介**
+Aspose.Cells.GridWeb 控件支持多个事件，可以在控件中触发特定事件时提供更多控制以执行操作。您可以在下面找到 Aspose.Cells.GridWeb 控件支持的事件的完整列表。
 
 {{% alert color="primary" %}} 
 
@@ -22,67 +25,67 @@ Aspose.Cells.GridWeb 控件支持多个事件，这些事件在控件中触发�
 {{% /alert %}} 
 
 |**事件** |**描述** |
-|:- |:- |
-|细胞指令|单击单元格的命令超链接时发生。触发此事件时，其参数 e.Argument 提供命令的名称。|
-|单元格双击|双击单元格时发生。|
-|细胞错误|当单元格的输入值有错误时发生。|
-|专栏已删除|当用户使用客户端菜单从工作表中删除列时发生。|
-|列删除|当用户尝试使用客户端菜单从工作表中删除列时发生。|
-|列双击|双击列标题时发生。|
-|已插入列|当用户使用客户端菜单将列插入工作表时发生。|
-|自定义命令|当用户单击自定义命令按钮时发生。|
-|加载自定义数据|当控件的 EnableSession 属性设置为 false 并且需要加载工作表数据时发生。您可以在无会话模式下处理此事件以从文件或数据库加载工作表数据。|
-| PageIndexChanged|当控件的工作表页面索引更改时发生。|
-|行已删除|当用户使用客户端菜单从工作表中删除一行时发生。|
-|行删除|当用户尝试使用客户端菜单从工作表中删除行时发生。|
-|行双击|双击行标题时发生。|
-|插入行|当用户使用客户端菜单将行插入工作表时发生。|
-|保存命令|发生时**救球**按钮被点击。|
-|工作表数据已更新|在控件加载已发布数据并更新工作表数据时发生。|
-|工作表选项卡单击|单击工作表选项卡时发生。|
-|提交命令|发生时**提交**按钮被点击。|
-|撤消命令|发生时**撤消**按钮被点击。|
-|AjaxCallFinished|当控件的 AJAX 更新完成时触发。 （EnableAJAX 应设置为 true）。|
-| CellModifiedOnAjax|在 AJAX 调用中修改单元格时触发。|
-| OnAfterColumnFilter|在过滤器应用于列后触发。|
-| OnBeforeColumnFilter|在过滤器应用于列之前触发。|
+| :- | :- |
+|CellCommand |当单元格的命令超链接被点击时发生。当触发此事件时，其参数e.Argument提供了命令的名称。|
+|CellDoubleClick |当双击单元格时发生。|
+|CellError |当单元格的输入值存在错误时发生。|
+|ColumnDeleted |当用户使用客户端侧菜单从工作表中删除列时发生。|
+|ColumnDeleting |当用户尝试使用客户端侧菜单从工作表中删除列时发生。|
+|ColumnDoubleClick |当双击列标题时发生。|
+|ColumnInserted |当用户使用客户端侧菜单向工作表中插入列时发生。|
+|CustomCommand |当用户单击自定义命令按钮时发生。|
+|LoadCustomData |当控件的EnableSession属性设置为false并且需要加载工作表数据时发生。您可以在无会话模式下处理此事件，以从文件或数据库加载工作表数据。|
+|PageIndexChanged |当控件的工作表页索引更改时发生。|
+|RowDeleted |当用户使用客户端侧菜单从工作表中删除行时发生。|
+|RowDeleting |当用户尝试使用客户端侧菜单从工作表中删除行时发生。|
+|RowDoubleClick |当双击行标题时发生。|
+|RowInserted |当用户使用客户端侧菜单向工作表中插入行时发生。|
+|SaveCommand |当单击“保存”按钮时发生。|
+|SheetDataUpdated |当控件已加载发布的数据并更新了工作表数据时发生。|
+|SheetTabClick |当工作表选项卡被点击时发生。|
+|SubmitCommand |当单击“提交”按钮时发生。|
+|UndoCommand |**撤销**按钮被点击时发生。|
+|AjaxCallFinished |在控件的 AJAX 更新完成时触发。(EnableAJAX 应设置为 true)。|
+|CellModifiedOnAjax |在 AJAX 调用中修改单元格时触发。|
+|OnAfterColumnFilter |筛选器在列上应用后触发。|
+|OnBeforeColumnFilter |在列进行筛选前触发。|
 ## **处理网格事件**
-要在触发特定事件时执行特定操作，我们必须创建一个事件处理程序。当某个事件被触发时，事件处理程序执行所需的任务。下面说明的步骤显示了如何使用 Visual Studio 处理简单的网格事件。
-### **第一步：选择Aspose.Cells.GridWeb控件的事件**
-1. 选择 Aspose.Cells.GridWeb 控件并在右侧打开其属性对话框。
-1. 点击**事件选项卡**按钮。
-1. 选择一个事件。
-对于此示例，选择了 SaveCommand 事件。
-### **第 2 步：创建事件处理程序**
-1. 双击“属性”对话框中的事件。
+要在触发特定事件时执行特定操作，必须创建事件处理程序。事件处理程序在触发特定事件时执行所需任务。以下步骤说明了如何使用Visual Studio处理简单网格事件。
+### **第1步：选择Aspose.Cells.GridWeb控件的事件**
+1.选择Aspose.Cells.GridWeb控件并在右侧打开其属性对话框。
+1.单击**事件选项卡**按钮。
+1.选择一个事件。
+   在此示例中，选择了SaveCommand事件。
+### **第2步：创建事件处理程序**
+1.在属性对话框中双击一个事件。 
 
-   **双击选定的事件** 
+   **双击选定事件** 
 
-![待办事项：图片_替代_文本](working-with-gridweb-events_1.png)
-
-
-
-
-双击事件时，Visual Studio 会自动创建一个事件处理程序。
-
-**由 Visual Studio 创建的事件处理程序** 
-
-![待办事项：图片_替代_文本](working-with-gridweb-events_2.png)
+![todo:image_alt_text](working-with-gridweb-events_1.png)
 
 
 
 
-1. 添加代码以在事件处理程序中执行某些操作。
+双击事件后，Visual Studio会自动创建事件处理程序。 
 
-在这里，一行代码将网格内容保存到 Excel 文件中。**救球**已添加单击按钮。
+**由Visual Studio创建的事件处理程序** 
 
-要获得更多信息，请将光标移到上方以查看一些代码，然后您会发现 Visual Studio 足够智能，可以将事件处理程序添加到 GridWeb 的 SaveCommand 事件。
-### **第 3 步：运行您的应用程序**
-1. 构建并运行应用程序。
-1. 点击**救球**.
+![todo:image_alt_text](working-with-gridweb-events_2.png)
 
-网格内容保存到 Excel 文件中。
 
-**运行模式下的应用** 
 
-![待办事项：图片_替代_文本](working-with-gridweb-events_3.png)
+
+1.添加代码以在事件处理程序中执行某些操作。
+
+在此处，添加了一行代码，当单击**保存**按钮时，将网格内容保存到Excel文件中。
+
+要获取更多信息，请将光标移动到上方以查看一些代码，然后您将会发现Visual Studio足够智能，可以添加一个事件处理程序到GridWeb的SaveCommand事件中。
+### **第3步：运行您的应用程序**
+1.构建并运行应用程序。
+1.单击**保存**。
+
+网格内容已保存到Excel文件中。 
+
+**运行模式中的应用程序** 
+
+![todo:image_alt_text](working-with-gridweb-events_3.png)

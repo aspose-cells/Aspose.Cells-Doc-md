@@ -1,382 +1,383 @@
-﻿---
-title: 管理控制
+---
+title: 管理控件
 type: docs
 weight: 150
 url: /zh/net/managing-controls/
 ---
+
 ## **介绍**
 
-开发人员可以添加不同的绘图对象，例如文本框、复选框、单选按钮、组合框、标签、按钮、线条、矩形、圆弧、椭圆、旋转器、滚动条、组框等。Aspose.Cells 提供 Aspose.Cells.Drawing 命名空间，其中包含所有绘图对象。但是，尚不支持一些绘图对象或形状。使用 Microsoft Excel 在设计器电子表格中创建这些绘图对象，然后将设计器电子表格导入 Aspose.Cells。Aspose.Cells 允许您从设计器电子表格加载这些绘图对象并将它们写入生成的文件。
+开发人员可以添加不同的绘图对象，如文本框、复选框、单选按钮、组合框、标签、按钮、直线、矩形、弧线、椭圆形、微调按钮、滚动条、分组框等。Aspose.Cells提供了包含所有绘图对象的Aspose.Cells.Drawing命名空间。然而，有一些绘图对象或形状目前尚不支持。在Microsoft Excel中的设计表格中创建这些绘图对象，然后导入到Aspose.Cells中。Aspose.Cells允许您从设计表格加载这些绘图对象，然后将它们写入生成的文件中。
 
-## **将文本框控件添加到工作表**
+## **在工作表中添加文本框控件**
 
-在报告中强调重要信息的一种方法是使用文本框。例如，添加文本以突出显示公司名称或指示销售额最高的地理区域等。Aspose.Cells 提供[**文本框集合**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textboxcollection)类，用于向集合中添加新的文本框。还有一个类，[**文本框**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textbox)表示用于定义所有类型设置的文本框。它有一些重要的成员：
+在报告中强调重要信息的一种方式是使用文本框。例如，添加文本以突出显示公司名称或指示具有最高销售额的地理区域等。Aspose.Cells提供了用于向集合中添加新文本框的[**TextBoxCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textboxcollection)类。还有另一个类[**TextBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textbox)，它代表用于定义所有类型设置的文本框。它有一些重要成员:
 
-- 这[**文本框**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textframe)属性返回一个[**MsoTextFrame**](https://reference.aspose.com/cells/net/aspose.cells.drawing/msotextframe)用于调整文本框内容的对象。
-- 这[**放置**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement)属性指定放置类型。
-- 这[**字体**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/font) property 指定字体属性。
-- 这[**添加超链接**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/addhyperlink)方法为文本框添加超链接。
-- 这[**填充格式**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat)属性返回一个[**MsoFill格式**](https://reference.aspose.com/cells/net/aspose.cells.drawing/msofillformat)用于设置文本框填充格式的对象。
-- 这[**行格式**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat)属性返回[**MsoLine格式**](https://reference.aspose.com/cells/net/aspose.cells.drawing/msolineformat)对象通常用于文本框线的样式和粗细。
-- 这[**文本**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text)属性指定文本框的输入文本。
+- [**TextFrame**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textframe)属性返回一个[**MsoTextFrame**](https://reference.aspose.com/cells/net/aspose.cells.drawing/msotextframe)对象，该对象用于调整文本框的内容。
+- [**Placement**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement)属性指定放置类型。
+- [**Font**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/font)属性指定字体属性。
+- [**AddHyperlink**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/addhyperlink)方法为文本框添加超链接。
+- [**FillFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat)属性返回一个[**MsoFillFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/msofillformat)对象，用于设置文本框的填充格式。
+- [**LineFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat)属性返回一个[**MsoLineFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/msolineformat)对象，通常用于样式和粗细设置文本框线条。
+- [**Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text)属性指定文本框的输入文本。
 
-下面的示例在工作簿的第一个工作表中创建两个文本框。第一个文本框配备了不同的格式设置。第二个是简单的。
+以下示例在工作簿的第一个工作表中创建了两个文本框。第一个文本框具有不同的格式设置。第二个是一个简单的文本框。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingTextBoxControl-1.cs" >}}
 
-## **在 Designer 电子表格中操作文本框控件**
+## **在设计表格中操作文本框控件**
 
-Aspose.Cells 还允许您访问设计器工作表中的文本框并对其进行操作。使用[**工作表.文本框**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/textboxes)属性以获取工作表中的文本框集合。
+Aspose.Cells还允许您访问设计工作表中的文本框并对其进行操作。使用[**Worksheet.TextBoxes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/textboxes)属性获取工作表中的文本框集合。
 
-以下示例使用我们在上例中创建的 Microsoft Excel 文件。它获取两个文本框的文本字符串并更改第二个文本框的文本以保存文件。
+以下示例使用我们在上文中创建的Microsoft Excel文件。它获取两个文本框的文本字符串，并将第二个文本框的文本更改后保存文件。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-ManipulatingTextBoxControls-1.cs" >}}
 
-## **将复选框控件添加到工作表**
+## **在工作表中添加复选框控件**
 
-如果您想为用户提供一种在两个选项（例如 true 或 false）之间进行选择的方式，则复选框很方便；是还是不是。 Aspose.Cells 允许您在工作表中使用复选框。例如，您可能已经开发了一个财务预测工作表，您可以在其中考虑或不考虑特定的收购。在这种情况下，您可能希望在工作表顶部放置一个复选框。然后，您可以将此复选框的状态链接到另一个单元格，这样，如果复选框被选中，则该单元格的值为 True；如果未选中，则单元格的值为 False。
+如果您想要为用户提供在两个选项之间进行选择的方式，如真或假; 是或否，复选框就非常方便。Aspose.Cells允许您在工作表中使用复选框。例如，您可能已经开发了一个财务预测工作表，在这个工作表中，您可以选择考虑一个特定的收购或不考虑。在这种情况下，您可能希望在工作表的顶部放置一个复选框。然后，您可以将此复选框的状态链接到另一个单元格，这样，如果选中复选框，则单元格的值为True；如果未选中，则单元格的值为False。
 
-### **使用 Microsoft Excel**
+### **使用Microsoft Excel**
 
-要在工作表中放置复选框控件，请执行以下步骤：
+要在工作表中放置复选框控件，请按照以下步骤操作：
 
-1. 确保显示窗体工具栏。
-1. 点击**复选框**窗体工具栏上的工具。
-1. 在您的工作表区域中，单击并拖动以定义将容纳复选框和复选框旁边标签的矩形。
+1. 确保显示“表单”工具栏。
+1. 单击“复选框”工具栏上的**复选框**工具。
+1. 在您的工作表区域，单击并拖动以定义将容纳复选框和复选框旁边标签的矩形。
 1. 放置复选框后，将鼠标光标移动到标签区域并更改标签。
-1. 在里面**Cell 链接**字段，指定此复选框应链接到的单元格的地址。
-1. 点击**好的**.
+1. 在**单元格链接**字段中，指定应将此复选框链接到的单元格地址。
+1. 单击**确定**。
 
-### **使用 Aspose.Cells**
+### **使用Aspose.Cells**
 
-Aspose.Cells 提供了[**复选框集合**](https://reference.aspose.com/cells/net/aspose.cells.drawing/checkboxcollection)类，用于向集合中添加新的复选框。还有一个类，[**Aspose.Cells.Drawing.CheckBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/checkbox)，代表一个复选框。它有一些重要的成员：
+Aspose.Cells提供了[**CheckBoxCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/checkboxcollection)类，用于向集合中添加新的复选框。还有另一个类[**Aspose.Cells.Drawing.CheckBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/checkbox)，它代表一个复选框。它有一些重要的成员：
 
-- 这[**链接单元格**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell)属性指定链接到复选框的单元格。
-- 这[**文本**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text)属性指定与复选框关联的文本字符串。它是复选框的标签。
-- 这[**价值**](https://reference.aspose.com/cells/net/aspose.cells.drawing/checkbox/properties/value)属性指定复选框是否被选中。
+- [**LinkedCell**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell)属性指定与复选框关联的单元格。
+- [**Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text)属性指定与复选框相关联的文本字符串。这是复选框的标签。
+- [**Value**](https://reference.aspose.com/cells/net/aspose.cells.drawing/checkbox/properties/value)属性指定复选框是否被选中。
 
-以下示例显示如何向工作表添加复选框。
+以下示例显示了如何将复选框添加到工作表。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingCheckBoxControl-1.cs" >}}
 
-## **将单选按钮控件添加到工作表**
+## **向工作表添加单选按钮控件**
 
-单选按钮或选项按钮是由圆形框组成的控件。用户通过选择圆形框来做出他或她的决定。单选按钮通常（如果不是总是）伴随其他按钮。这样的单选按钮作为一个组出现和运行。用户通过仅选择其中一个按钮来决定哪个按钮有效。当用户单击一个按钮时，它就会被填充。当组中的一个按钮被选中时，同一组按钮为空。
+单选按钮，或选项按钮，是由一个圆框组成的控件。用户通过选择圆框来做出决定。单选按钮通常与其他单选按钮一起出现并表现为一组。用户通过仅选择其中一个按钮来决定哪个按钮是有效的。当用户单击一个按钮时，它会被填充。当选择同一组中的一个按钮时，同一组的按钮会为空。
 
-### **使用 Microsoft Excel**
+### **使用Microsoft Excel**
 
-要在工作表中放置单选按钮控件，请按照下列步骤操作：
+要在工作表中放置单选按钮控件，请按照以下步骤操作：
 
-1. 确保**形式**显示工具栏。
-1. 点击**选项按钮**工具。
+1. 确保**表单**工具栏已显示。
+1. 单击**选项按钮**工具。
 1. 在工作表中，单击并拖动以定义将容纳选项按钮和选项按钮旁边标签的矩形。
 1. 将单选按钮放置在工作表中后，将鼠标光标移动到标签区域并更改标签。
-1. 在里面**Cell 链接**字段，指定此单选按钮应链接到的单元格的地址。
-1. 点击**好的**.
+1. 在**单元格链接**字段中，指定应将此单选按钮链接到的单元格地址。
+1. 单击**确定**。
 
-### **使用 Aspose.Cells**
+### **使用Aspose.Cells**
 
-[**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection)类提供了一个名为[**添加单选按钮**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addradiobutton)，用于将单选按钮控件添加到工作表。该方法返回一个[**Aspose.Cells.Drawing.RadioButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/radiobutton)目的。班级[**Aspose.Cells.Drawing.RadioButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/radiobutton)代表一个选项按钮。它有一些重要的成员：
+[**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection)类提供了一个名为[**AddRadioButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addradiobutton)的方法，用于向工作表添加单选按钮控件。该方法返回一个[**Aspose.Cells.Drawing.RadioButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/radiobutton)对象。类[**Aspose.Cells.Drawing.RadioButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/radiobutton)表示一个选项按钮。它有一些重要的成员：
 
-- 这[**链接单元格**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell)属性指定链接到单选按钮的单元格。
-- 这[**文本**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text)属性指定与单选按钮关联的文本字符串。它是单选按钮的标签。
-- 这[**已检查**](https://reference.aspose.com/cells/net/aspose.cells.drawing/radiobutton/properties/ischecked)属性指定单选按钮是否被选中。
-- 这[**填充格式**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat)属性指定单选按钮的填充格式。
-- 这[**行格式**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat)属性指定选项按钮的行格式样式。
+- [**LinkedCell**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell)属性指定与单选按钮关联的单元格。
+- [**Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text)属性指定与单选按钮相关联的文本字符串。这是单选按钮的标签。
+- [**IsChecked**](https://reference.aspose.com/cells/net/aspose.cells.drawing/radiobutton/properties/ischecked)属性指定单选按钮是否被选中。
+- [**FillFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat)属性指定单选按钮的填充格式。
+- [**LineFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat)属性指定选项按钮的线格式样式。
 
-以下示例显示如何将单选按钮添加到工作表。该示例添加了三个代表年龄组的单选按钮。
+以下示例显示了如何在工作表中添加单选按钮。该示例添加了代表年龄组的三个单选按钮。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingRadioButtonControl-1.cs" >}}
 
-## **将组合框控件添加到工作表**
+## **向工作表添加组合框控件**
 
-为了使数据输入更容易，或将条目限制为您定义的某些项目，您可以创建一个组合框，或从工作表其他地方的单元格编译的有效条目的下拉列表。当您为单元格创建下拉列表时，它会在该单元格旁边显示一个箭头。要在该单元格中输入信息，请单击箭头，然后单击所需的条目。
+为了使数据输入更容易，或者限制输入到你定义的某些项目，您可以创建一个下拉列表框，或从工作表的其他位置编译的有效条目的下拉列表。当您为单元格创建一个下拉列表时，它会显示在该单元格旁边的一个箭头符号。要在该单元格输入信息，请单击箭头，然后单击您想要的条目。
 
-### **使用 Microsoft Excel**
+### **使用Microsoft Excel**
 
-要在工作表中放置组合框控件，请执行以下步骤：
+要在工作表中放置一个组合框控件，请按照以下步骤进行:
 
-1. 确保**形式**显示工具栏。
-1. 点击**组合框**工具。
-1. 在您的工作表区域中，单击并拖动以定义将容纳组合框的矩形。
-1. 将组合框放入工作表后，右键单击控件以单击**格式控制**并指定输入范围。
-1. 在里面**Cell 链接**字段，指定此组合框应链接到的单元格的地址。
-1. 点击**好的**.
+1. 确保**表单**工具栏已显示。
+1. 单击 **组合框** 工具。
+1. 在你的工作表区域，单击并拖动以定义将容纳组合框的矩形。
+1. 一旦组合框放置在工作表中，右键单击控件以单击 **格式控制** 并指定输入范围。
+1. 在 **单元格链接** 字段中，指定此组合框应链接到的单元格的地址。
+1. 单击**确定**。
 
-### **使用 Aspose.Cells**
+### **使用Aspose.Cells**
 
-这[**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection)类提供了一个名为[**添加组合框**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addcombobox) 用于将组合框控件添加到工作表。该方法返回一个[**Aspose.Cells.Drawing.ComboBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox)目的。班级[**Aspose.Cells.Drawing.ComboBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox)代表一个组合框。它有一些重要的成员：
+[**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) 类提供了一个名为 [**AddComboBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addcombobox) 的方法，用于向工作表添加一个组合框控件。该方法返回一个 [**Aspose.Cells.Drawing.ComboBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox) 对象。类[**Aspose.Cells.Drawing.ComboBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox)表示一个组合框。它具有一些重要成员:
 
-- 这[**链接单元格**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell)属性指定链接到组合框的单元格。
-- 这[**输入范围**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/inputrange)属性指定用于填充组合框的工作表单元格范围。
-- 这[**下拉线**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox/properties/dropdownlines)属性指定组合框下拉部分中显示的列表行数。
-- 这[**阴影**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox/properties/shadow)属性指示组合框是否具有 3D 阴影。
+- [**LinkedCell**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) 属性指定与组合框链接的单元格。
+- [**InputRange**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/inputrange) 属性指定用于填充组合框的工作表单元格的范围。
+- [**DropDownLines**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox/properties/dropdownlines) 属性指定要在组合框下拉部分中显示的列表行数。
+- [**Shadow**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox/properties/shadow) 属性指示组合框是否具有3D阴影。
 
-以下示例显示如何将组合框添加到工作表。
+下面的示例展示了如何向工作表添加组合框。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingComboBoxControl-1.cs" >}}
 
 ## **向工作表添加标签控件**
 
-标签是向用户提供有关电子表格内容的信息的一种方式。 Aspose.Cells 可以在工作表中添加和操作标签。这[**形状集合**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection)类提供了一个名为[**添加标签**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addlabel) 用于向工作表添加标签控件。该方法返回一个[**标签**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label)目的。班级[**标签**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label)代表工作表中的标签。它有一些重要的成员：
+标签是用来向用户提供有关工作表内容的信息的一种手段。Aspose.Cells使得在工作表中添加和操作标签成为可能。[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) 类提供了一个名为 [**AddLabel**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addlabel) 的方法，用于向工作表添加一个标签控件。该方法返回一个 [**Label**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label) 对象。类 [**Label**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label) 表示工作表中的一个标签。它有一些重要成员:
 
-- 这[**文本**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text)方法指定标签的标题字符串。
-- 这[**放置**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement)方法指定[**放置类型**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype)，标签附加到工作表中的单元格的方式。
+- [**Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) 方法指定标签的标题字符串。
+- [**Placement**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) 方法指定 [**PlacementType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype)，标签附加到工作表中的单元格的方式。
 
-以下示例显示如何向工作表添加标签。
+下面的示例展示了如何向工作表添加标签。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingLabelControl-1.cs" >}}
 
-## **将列表框控件添加到工作表**
+## **向工作表添加列表框控件**
 
 列表框控件创建一个允许选择单个或多个项目的列表控件。
 
-### **使用 Microsoft Excel**
+### **使用Microsoft Excel**
 
-要在工作表中放置列表框控件：
+要在工作表中放置一个列表框控件:
 
-1. 确保**形式**显示工具栏。
-1. 点击**列表框**工具。
-1. 在您的工作表区域中，单击并拖动以定义将容纳列表框的矩形。
-1. 将列表框放入工作表后，右键单击控件以单击**格式控制**并指定输入范围。
-1. 在里面**Cell 链接**字段，指定此列表框应链接到的单元格的地址并设置选择类型（单、多、扩展）属性
-1. 点击**好的**.
+1. 确保**表单**工具栏已显示。
+1. 单击 **列表框** 工具。
+1. 在你的工作表区域，单击并拖动以定义将容纳列表框的矩形。
+1. 一旦列表框放置在工作表中，右键单击控件以单击 **格式控制** 并指定输入范围。
+1. 在 **单元格链接** 字段中，指定此列表框应链接到的单元格的地址并设置选择类型 (单选，多选，扩展) 属性
+1. 单击**确定**。
 
-### **使用 Aspose.Cells**
+### **使用Aspose.Cells**
 
-这[**形状集合**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection)类提供了一个名为[**添加列表框**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addlistbox)，用于将列表框控件添加到工作表。该方法返回一个[**Aspose.Cells.Drawing.ListBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox)目的。班级[**列表框**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox)代表一个列表框。它有一些重要的成员：
+[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) 类提供了一个名为 [**AddListBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addlistbox) 的方法，用于向工作表添加一个列表框控件。该方法返回一个 [**Aspose.Cells.Drawing.ListBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox) 对象。类 [**ListBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox) 表示列表框。它有一些重要成员:
 
-- 这[**链接单元格**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell)方法指定链接到列表框的单元格。
-- 这[**输入范围**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/inputrange)方法指定用于填充列表框的工作表单元格区域。
-- 这[**选择类型**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox/properties/selectiontype)method 指定列表框的选择模式。
-- 这[**阴影**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox/properties/shadow)方法指示列表框是否具有 3D 阴影。
+- [**LinkedCell**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) 方法指定链接到列表框的单元格。
+- [**InputRange**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/inputrange)方法指定用于填充列表框的工作表范围。
+- [**SelectionType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox/properties/selectiontype)方法指定列表框的选择模式。
+- [**Shadow**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox/properties/shadow)方法指示列表框是否具有3D阴影。
 
-下面的示例演示如何将列表框添加到工作表。
+以下示例显示了如何向工作表添加列表框。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingListBoxControl-1.cs" >}}
 
-## **将按钮控件添加到工作表**
+## **在工作表中添加按钮控件**
 
-按钮对于执行某些操作很有用。有时，将 VBA 宏分配给按钮或分配超链接以打开网页很有用。
+按钮很有用，可用于执行某些操作。有时，将VBA宏分配给按钮或将超链接分配给打开网页很有用。
 
-### **使用 Microsoft Excel**
+### **使用Microsoft Excel**
 
 要在工作表中放置按钮控件：
 
-1. 确保**形式**显示工具栏。
-1. 点击**按钮**工具。
-1. 在您的工作表区域中，单击并拖动以定义将放置按钮的矩形。
-1. 将列表框放入工作表后，右键单击控件并选择**格式控制**，然后指定一个 VBA 宏和属性相关的字体、对齐方式、大小、边距等。
-1. 点击**好的**.
+1. 确保**表单**工具栏已显示。
+1. 单击**按钮**工具。
+1. 在工作表区域，单击并拖动以定义将容纳按钮的矩形。
+1. 将列表框放置在工作表中后，右键单击控件，然后选择**格式控件**，然后指定VBA宏和相关字体、对齐、大小、边距等属性。
+1. 单击**确定**。
 
-### **使用 Aspose.Cells**
+### **使用Aspose.Cells**
 
-这[**形状集合**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection)类提供了一个名为[**添加按钮**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addbutton) 用于向工作表添加按钮控件。该方法返回一个[**Aspose.Cells.Drawing.Button**](https://reference.aspose.com/cells/net/aspose.cells.drawing/button)目的。班级[**Aspose.Cells.Drawing.Button**](https://reference.aspose.com/cells/net/aspose.cells.drawing/button)代表一个按钮。它有一些重要的成员：
+[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection)类提供了一个名为[**AddButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addbutton)的方法，用于向工作表添加按钮控件。该方法返回一个[**Aspose.Cells.Drawing.Button**](https://reference.aspose.com/cells/net/aspose.cells.drawing/button)对象。类[**Aspose.Cells.Drawing.Button**](https://reference.aspose.com/cells/net/aspose.cells.drawing/button)表示一个按钮。它有一些重要成员：
 
-- 这[**文本**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text)属性指定按钮的标题。
-- 这[**字体**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/font)属性指定按钮控件标签的字体属性。
-- 这[**放置**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement)属性指定[**放置类型**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype)，按钮附加到工作表中单元格的方式。
-- 这[**添加超链接**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/addhyperlink)属性为按钮控件添加超链接。单击该按钮将导航至相关 URL。
+- [**Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text)属性指定按钮的标题。
+- [**Font**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/font)属性指定按钮控件标签的字体属性。
+- [**Placement**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement)属性指定[**PlacementType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype)，按钮附加到工作表中的方式。
+- [**AddHyperlink**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/addhyperlink)属性为按钮控件添加超链接。单击按钮将导航到相关网址。
 
-以下示例显示如何向工作表添加按钮。
+以下示例显示了如何向工作表添加按钮。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingButtonControl-1.cs" >}}
 
-## **向工作表添加行控件**
+## **在工作表中添加线控件**
 
-### **使用 Microsoft Excel**
+### **使用Microsoft Excel**
 
-1. 在**画画**工具栏，单击**自选图形**， 指向**线条**然后选择所需的线条样式。
+1. 在**绘图**工具栏上，单击**自选图形**，指向**线条**，选择要使用的线条样式。
 1. 拖动以绘制线条。
-1. 执行以下一项或两项操作：
- 1. 要限制线条以与其起点成 15 度角绘制，请在拖动时按住 SHIFT。
- 1. 要从第一个端点沿相反方向延长线，请在拖动时按住 CTRL。
+1. 进行以下操作中的一项或两项：
+   1. 若要约束线条在与其起始点成15度角的方向上绘制，请按住SHIFT并拖动。
+   1. 若要从第一端点向相反方向拉长线段，请按住CTRL并拖动。
 
-### **使用 Aspose.Cells**
+### **使用Aspose.Cells**
 
-这[**形状集合**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection)类提供了一个名为[**添加行**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline) 用于向工作表添加线条形状。该方法返回一个[**线型**](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape)目的。班级[**线型**](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape)代表一条线。它有一些重要的成员：
+[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection)类提供了一个名为[**AddLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)的方法，用于向工作表添加线条形状。该方法返回一个[**LineShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape)对象。类[**LineShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape)表示一条线。它有一些重要成员：
 
-- 这[**行格式**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat)方法指定一行的格式。
-- 这[**放置**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement)方法指定[**放置类型**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype)，线条连接到工作表中的单元格的方式。
+- [**LineFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat)方法指定线条的格式。
+- [**Placement**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement)方法指定[**PlacementType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype)，线条附加到工作表中的方式。
 
-以下示例显示如何向工作表添加行。它创建了具有不同样式的三行。
+以下示例显示了如何向工作表添加线条。它创建了具有不同样式的三条线。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingLineControl-1.cs" >}}
 
-### **向直线添加箭头**
+### **向线条添加箭头**
 
-Aspose.Cells 还允许您绘制箭头线。可以将箭头添加到一行，并格式化该行。例如，您可以更改线条的颜色，或指定线条的粗细和样式。
+Aspose.Cells还允许您绘制箭头线。可以向线条添加箭头头部，并格式化线条。例如，可以更改线条的颜色，或指定线条的粗细和样式。
 
-以下示例显示如何向线条添加箭头。
+以下示例演示如何向一条线条添加箭头。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddinganArrowHead-1.cs" >}}
 
 ## **向工作表添加矩形控件**
 
-Aspose.Cells 允许您在工作表中绘制矩形。您可以创建一个矩形、正方形等。您还可以设置控件的填充颜色和边框线颜色的格式。例如，您可以根据需要更改矩形的颜色、设置阴影颜色、指定矩形的粗细和样式。
+Aspose.Cells允许您在工作表中绘制矩形形状。您可以创建矩形、正方形等形状。您也可以自定义控件的填充颜色和边界线颜色。例如，您可以更改矩形的颜色、设置阴影颜色、指定矩形的粗细和样式以满足您的需求。
 
-### **使用 Microsoft Excel**
+### **使用Microsoft Excel**
 
-1. 在**画画**工具栏，单击**矩形**.
+1. 在“绘图”工具栏中，单击“矩形”。
 1. 拖动以绘制矩形。
-1. 执行以下一项或两项操作：
- 1. 要限制矩形从其起点绘制正方形，请在拖动时按住 SHIFT。
- 1. 要从中心点绘制矩形，请在拖动时按住 CTRL。
+1. 进行以下操作中的一项或两项：
+   1. 从起始点开始，按住SHIFT以约束矩形绘制正方形。
+   1. 按住CTRL并拖动以从中心点绘制矩形。
 
-### **使用 Aspose.Cells**
+### **使用Aspose.Cells**
 
-这[**形状集合**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection)类提供了一个名为[**添加矩形**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addrectangle) 用于向工作表添加矩形形状。该方法返回[**Aspose.Cells.Drawing.RectangleShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape)目的。班级[**Aspose.Cells.Drawing.RectangleShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape)代表一个矩形。它有一些重要的成员：
+[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection)类提供了一个名为[**AddRectangle**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addrectangle)的方法，用于向工作表添加矩形形状。该方法返回[**Aspose.Cells.Drawing.RectangleShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape)对象。类[**Aspose.Cells.Drawing.RectangleShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape)表示一个矩形。它具有一些重要成员：
 
-- 这[**行格式**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) property 指定矩形的线条格式属性。
-- 这[**放置**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement)属性指定[**放置类型**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype)，矩形附加到工作表中的单元格的方式。
-- 这[**填充格式**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat)属性指定矩形的填充格式样式。
+- [**LineFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat)属性指定了矩形的线条格式属性。
+- [**Placement**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement)属性指定了[**PlacementType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype)的格式，即矩形附加到工作表中单元格的方式。
+- [**FillFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat)属性指定了矩形的填充格式样式。
 
-下面的示例演示如何将矩形添加到工作表。
+以下示例演示如何向工作表添加矩形。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingRectangleControl-1.cs" >}}
 
-## **将圆弧控制添加到工作表**
+## **向工作表添加弧控件**
 
-Aspose.Cells 允许您在工作表中绘制弧形。您可以创建简单的填充弧。您可以设置控件的填充颜色和边框线颜色的格式。例如，您可以指定/更改圆弧的颜色、设置阴影颜色、根据需要指定形状的权重和样式。
+Aspose.Cells允许您在工作表中绘制弧形状。您可以创建简单的填充弧。您可以自定义控件的填充颜色和边界线颜色。例如，您可以指定/更改弧形的颜色、设置阴影颜色、指定形状的粗细和样式以满足您的需求。
 
-### **使用 Microsoft Excel**
+### **使用Microsoft Excel**
 
-1. 在**画画**工具栏，单击**弧**在里面**自选图形**.
-1. 拖动以绘制圆弧。
+1. 在“绘图”工具栏中，单击“自选图形”中的“弧”。
+1. 拖动以绘制弧。
 
-### **使用 Aspose.Cells**
+### **使用Aspose.Cells**
 
-这[**形状集合**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection)类提供了一个名为[**添加圆弧**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addarc) 用于向工作表添加弧形。该方法返回一个[**Aspose.Cells.Drawing.ArcShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/arcshape)目的。班级[**Aspose.Cells.Drawing.ArcShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/arcshape)代表弧线。它有一些重要的成员：
+[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection)类提供了一个名为[**AddArc**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addarc)的方法，用于向工作表添加弧形状。该方法返回一个[**Aspose.Cells.Drawing.ArcShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/arcshape)对象。类[**Aspose.Cells.Drawing.ArcShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/arcshape)表示一个弧。它具有一些重要成员：
 
-- 这[**行格式**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat)属性指定弧形的线格式属性。
-- 这[**放置**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement)属性指定[**放置类型**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype)，圆弧附加到工作表中单元格的方式。
-- 这[**填充格式**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat)属性指定形状的填充格式样式。
-- 这[**右下行**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightrow)属性指定右下角的行索引。
-- 这[**右下栏**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightcolumn)属性指定右下角的列索引。
+- [**LineFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat)属性指定了弧形状的线条格式属性。
+- [**Placement**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement)属性指定了[**PlacementType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype)的格式，即弧附加到工作表中单元格的方式。
+- [**FillFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat)属性指定形状的填充格式样式。
+- [**LowerRightRow**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightrow)属性指定右下角行索引。
+- [**LowerRightColumn**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightcolumn)属性指定右下角列索引。
 
-以下示例显示如何将圆弧形状添加到工作表。该示例创建了两个弧形：一个是填充的，另一个是简单的。
+以下示例演示如何向工作表添加弧形状。该示例创建了两个弧形状：一个是填充的，另一个是简单的。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingArcControl-1.cs" >}}
 
 ## **向工作表添加椭圆形控件**
 
-Aspose.Cells 允许您在工作表中绘制椭圆形。创建简单且填充的椭圆形并设置控件的填充颜色和边框线颜色的格式。例如，您可以指定/更改椭圆的颜色、设置阴影颜色、指定形状的权重和样式。
+Aspose.Cells允许您在工作表中绘制椭圆形状。创建简单的和填充的椭圆形状，并自定义控件的填充颜色和边界线颜色。例如，您可以指定/更改椭圆的颜色、设置阴影颜色、指定形状的粗细和样式。
 
-### **使用 Microsoft Excel**
+### **使用Microsoft Excel**
 
-- 在*画画*工具栏，单击*椭圆形*.
+- 在“绘图”工具栏上，单击“椭圆”。
 - 拖动以绘制椭圆。
-- 执行以下一项或两项操作：
-- 要限制椭圆从其起点绘制圆，请在拖动时按住 SHIFT。
-- 要从中心点绘制椭圆，请在拖动时按住 CTRL。
+- 进行以下操作中的一项或两项：
+- 从起始点开始，按住SHIFT以约束椭圆绘制圆形。
+- 在拖动时按住CTRL键，从中心点绘制椭圆。
 
-### **使用 Aspose.Cells**
+### **使用Aspose.Cells**
 
-这[**形状集合**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection)类提供了一个名为[**添加椭圆形**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addoval) 用于向工作表添加椭圆形。该方法返回一个[**Aspose.Cells.Drawing.Oval**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oval)目的。班级[**Aspose.Cells.Drawing.Oval**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oval)代表一个椭圆形。它有一些重要的成员：
+[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection)类提供了一个名为[**AddOval**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addoval)的方法，用于在工作表中添加椭圆形状。该方法返回一个[**Aspose.Cells.Drawing.Oval**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oval)对象。类[**Aspose.Cells.Drawing.Oval**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oval)代表一个椭圆形状。它有一些重要的成员：
 
-- 这[**行格式**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) property 指定椭圆形的线条格式属性。
-- 这[**放置**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement)属性指定[**放置类型**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype)，椭圆附加到工作表中的单元格的方式。
-- 这[**填充格式**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat)属性指定形状的填充格式样式。
-- 这[**右下行**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightrow)属性指定右下角的行索引。
-- 这[**右下栏**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightcolumn)属性指定右下角的列索引。
+- [**LineFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat)属性指定椭圆形状的线条格式属性。
+- [**Placement**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement)属性指定[**PlacementType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype)，椭圆如何连接到工作表中的单元格。
+- [**FillFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat)属性指定形状的填充格式样式。
+- [**LowerRightRow**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightrow)属性指定右下角行索引。
+- [**LowerRightColumn**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightcolumn)属性指定右下角列索引。
 
-以下示例显示如何将椭圆形添加到工作表。该示例创建了两个椭圆形：一个是实心椭圆，另一个是简单的圆形。
+以下示例显示如何将椭圆形状添加到工作表。示例创建两个椭圆形状：一个是填充的椭圆，另一个是简单的圆。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingOvalControl-1.cs" >}}
 
-## **将微调器控件添加到工作表**
+## **向工作表添加微调控件**
 
-旋转框是附加到按钮（称为旋转按钮）的文本框，按钮由向上箭头和向下箭头组成，您单击它们可以逐渐更改文本框中的值。通过使用旋转框，您可以看到财务模型的输入变化将如何改变模型输出。您可以将旋转按钮附加到特定的输入单元格。当您单击微调按钮上的向上箭头或向下箭头时，目标输入单元格中的整数值会增加或减少。*Aspose.Cells*允许您在工作表中创建微调器。
+微调框是附加到按钮（称为微调按钮）的文本框，由上箭头和下箭头组成，点击箭头逐步更改文本框中的值。通过使用微调框，您可以看到对财务模型的输入更改如何改变模型输出。您可以将微调按钮附加到特定输入单元格。当您点击微调按钮上的上箭头或下箭头时，目标输入单元格中的整数值会增加或减少。 *Aspose.Cells*允许您在工作表中创建微调器。
 
-### **使用 Microsoft Excel**
+### **使用Microsoft Excel**
 
-要在工作表中放置旋转框控件：
+在工作表中放置微调器控件：
 
-- 确保*形式*显示工具栏。
-- 点击*微调器*工具。
-- 在您的工作表区域中，单击并拖动以定义将容纳微调器的矩形。
-- 将微调器放置在工作表中后，右键单击控件并单击*格式控制*并指定最大值、最小值和增量值。
-- 在里面*Cell 链接*字段，指定此旋转框应链接到的单元格的地址。
-- 点击*好的*.
+- 确保显示*表单*工具栏。
+- 单击*微调器*工具。
+- 在工作表区域，单击并拖动定义将包含微调器的矩形。
+- 放置微调器在工作表中后，右键单击控件，单击*格式控件*并指定最大、最小和递增值。
+- 在*单元格链接*字段中，指定应将此微调框链接到的单元格的地址。
+- 单击*确定*。
 
-### **使用 Aspose.Cells**
+### **使用Aspose.Cells**
 
-这[**形状集合**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection)类提供了一个名为[**添加微调器**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addspinner) 用于将旋转框控件添加到工作表。该方法返回一个[**Aspose.Cells.Drawing.Spinner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner)目的。班级[**Aspose.Cells.Drawing.Spinner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner)表示旋转框。它有一些重要的成员：
+[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection)类提供了一个名为[**AddSpinner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addspinner)的方法，用于在工作表中添加微调框控件。该方法返回一个[**Aspose.Cells.Drawing.Spinner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner)对象。类[**Aspose.Cells.Drawing.Spinner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner)代表一个微调框。它有一些重要的成员：
 
-- 这[**链接单元格**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell)属性指定链接到旋转框的单元格。
-- 这[**最大限度**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/max)属性指定旋转框范围的最大值。
-- 这[**最小值**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/min)属性指定旋转框范围的最小值。
-- 这[**增量变化**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/incrementalchange)属性指定微调器增加一行滚动的值量。
-- 这[**阴影**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/shadow)属性指示微调框是否具有 3D 阴影。
-- 这[**当前值**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/currentvalue)属性指定旋转框的当前值。
+- [**LinkedCell**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell)属性指定与微调框链接的单元格。
+- [**Max**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/max)属性指定微调框范围的最大值。
+- [**Min**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/min)属性指定微调框范围的最小值。
+- [**IncrementalChange**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/incrementalchange)属性指定按行滚动时微调器增加的值数量。
+- [**Shadow**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/shadow)属性指示微调框是否具有3D阴影。
+- [**CurrentValue**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/currentvalue)属性指定微调框的当前值。
 
-以下示例显示如何向工作表添加旋转框。
+以下示例显示如何向工作表添加一个微调框。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingSpinnerControl-1.cs" >}}
 
-## **将滚动条控件添加到工作表**
+## **向工作表添加滚动条控件**
 
-滚动条控件用于以类似于旋转框控件的方式帮助选择工作表上的数据。通过将控件添加到工作表并将其链接到单元格，可以返回控件当前位置的数值。
+滚动条控件用于帮助在工作表上选择数据，方式类似于微调框控件。通过将控件添加到工作表并将其链接到单元格，可以返回控件当前位置的数值。
 
-### **使用 Microsoft Excel**
+### **使用Microsoft Excel**
 
-- 若要在 Excel 2003 和早期版本中添加滚动条，请单击*滚动条*上的按钮*形式*工具栏，然后创建一个滚动条，其高度覆盖单元格 B2:B6，并且约为列宽的四分之一。
-- 要在 Excel 2007 中添加滚动条，请单击*开发商*选项卡，单击*插入* 然后点击*滚动条*在表单控件部分。
-- 右键单击滚动条，然后单击*格式控制*.
-- 键入以下信息，然后单击*好的*:
- 在里面*当前值*框，类型 1。
- 在里面*最小值*框，键入 1。此值将滚动条的顶部限制为列表中的第一项。
- 在里面*最大值*框，键入 20。此数字指定列表中的最大条目数。
- 在里面*增量变化*框，键入 1。此值控制滚动条控件将当前值递增的数量。
- 在里面*换页*框，键入 5。如果您在滚动框任一侧的滚动条内单击，则此条目控制当前值将增加多少。
- 要将数字值放入单元格 G1（取决于列表中选择的项目），请在*Cell 链接*盒子。
-- 单击任何单元格，以便不选择滚动条。
+- 要在Excel 2003及更早版本中添加滚动条，单击*表单*工具栏上的*滚动条*按钮，然后创建一个高度覆盖单元格B2:B6且宽度为列宽四分之一的滚动条。
+- 要在Excel 2007中添加滚动条，单击*开发人员*选项卡，单击*插入*，然后单击*滚动条*在表单控件部分。
+- 右键单击滚动条，然后单击*格式控件*。
+- 输入以下信息，并单击 *确定*：
+  - 在 *当前值* 栏中输入 1。
+  - 在 *最小值* 栏中输入 1。此值将滚动条的顶端限制为列表中的第一项。
+  - 在 *最大值* 栏中输入 20。该数字指定列表中的最大条目数。
+  - 在 *递增更改* 栏中输入 1。此值控制滚动条控件递增当前值的数量。
+  - 在 *页更改* 栏内输入 5。此条目控制点击滚动块两侧滚动条内部时当前值将增加多少。
+  - 在 *单元格链接* 栏中输入 G1（取决于列表中选择了哪个项目），
+- 单击任意单元格，以取消选定滚动条。
 
-单击滚动条上的向上或向下控件时，单元格 G1 将更新为一个数字，该数字指示滚动条的当前值加上或减去滚动条的增量变化。
+单击滚动条上的向上或向下控件时，单元格 G1 的值将更新为指示滚动条的当前值加上或减去滚动条的递增更改值的数字。
 
-### **使用 Aspose.Cells**
+### **使用Aspose.Cells**
 
-这[**形状集合**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection)类提供了一个名为[**添加滚动条**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addscrollbar)，用于向工作表添加滚动条控件。该方法返回一个[**Aspose.Cells.Drawing.ScrollBar**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar)目的。班级[**Aspose.Cells.Drawing.ScrollBar**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar)代表一个滚动条。它有一些重要的成员：
+[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) 类提供了一个名为 [**AddScrollBar**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addscrollbar) 的方法，用于向工作表添加滚动条控件。该方法返回一个 [**Aspose.Cells.Drawing.ScrollBar**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar) 对象。类 [**Aspose.Cells.Drawing.ScrollBar**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar) 表示滚动条，其中有一些重要成员:
 
-- 这[**链接单元格**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell)属性指定链接到滚动条的单元格。
-- 这[**最大限度**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/max)属性指定滚动条范围的最大值。
-- 这[**最小值**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/min)属性指定滚动条范围的最小值。
-- 这[**增量变化**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/incrementalchange)属性指定滚动条增加一行滚动的值量。
-- 这[**阴影**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/shadow)属性表示滚动条是否有 3D 底纹。
-- 这[**当前值**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/currentvalue)属性指定滚动条的当前值。
-- 这[**换页**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/pagechange)属性指定如果您在滚动框任一侧的滚动条内单击，当前值将增加多少。
+- [**LinkedCell**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) 属性指定与滚动条关联的单元格。
+- [**Max**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/max) 属性指定滚动条范围的最大值。
+- [**Min**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/min) 属性指定滚动条范围的最小值。
+- [**IncrementalChange**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/incrementalchange) 属性指定滚动条递增一行滚动的值量。
+- [**Shadow**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/shadow) 属性指示滚动条是否具有 3D 阴影。
+- [**CurrentValue**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/currentvalue) 属性指定滚动条的当前值。
+- [**PageChange**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/pagechange) 属性指定如果在滚动条的滚动块两侧内部单击，将增加当前值的量。
 
-以下示例显示如何向工作表添加滚动条。
+下面的示例显示了如何向工作表添加滚动条。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingScrollBarControl-1.cs" >}}
 
-## **将 GroupBox 控件添加到工作表中的组控件**
+## **向工作表中的组控件添加 GroupBox 控件**
 
-有时您确实需要实现属于某个组的单选按钮或其他控件，您可以通过包含组框或矩形控件来实现。这两个对象中的任何一个都将作为组的分隔符。添加这些形状之一后，您可以添加两个或更多单选按钮或其他组对象。
+有时您需要实现单选按钮或其他属于特定组的控件，可以通过包含组框或矩形控件来实现。其中任何一个对象都将用作组的分隔符。添加其中一个形状后，您便可以添加两个或更多单选按钮或其他组对象。
 
-### **使用 Microsoft Excel**
+### **使用Microsoft Excel**
 
-要在工作表中放置组框控件并在其中放置控件：
+要在工作表中放置组框控件并在其中放置控件:
 
-- 要启动表单，请在主菜单上单击*看法*， 其次是*工具栏*和*形式*.
-- 在*形式*工具栏，单击*组框*并在工作表上绘制一个矩形。
-- 为框键入标题字符串。
-- 在*形式*工具栏，单击*选项按钮*然后点击*组框*就在标题字符串下面。
-- 来自*形式*工具栏再次单击*选项按钮*然后点击*组框*在第一个单选按钮下。
-- 再次上*形式*工具栏，单击*选项按钮*然后点击*组框*在上一个单选按钮下。
+- 要启动表单，在主菜单中，单击*查看*，然后单击*工具栏*和*表单*。
+- 在 *表单* 工具栏上，单击*组框*，然后在工作表上绘制一个矩形。
+- 为框输入标题字符串。
+- 在 *表单* 工具栏上，单击*选项按钮*，然后单击*组框*中的标题字符串下方。
+- 再次从 *表单* 工具栏中，单击*选项按钮*，然后单击*组框*中第一个单选按钮下方。
+- 再次在 *表单* 工具栏中，单击*选项按钮*，然后单击*组框*中上一个单选按钮下方。
 
-### **使用 Aspose.Cells**
+### **使用Aspose.Cells**
 
-这[**形状集合**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection)类提供了一个名为[**添加组框**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addgroupbox) 用于向工作表添加分组框控件。该方法返回一个[**Aspose.Cells.Drawing.GroupBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupbox)目的。此外，[**团体**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/group)的方法[**形状集合**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection)类对形状进行分组，需要一个[**形状**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape)数组作为参数并返回一个[**组形**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupshape)目的。班级[**Aspose.Cells.Drawing.GroupBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupbox)代表一个分组框。它有一些重要的成员：
+[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) 类提供了一个名为 [**AddGroupBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addgroupbox) 的方法，用于向工作表添加组框控件。该方法返回一个 [**Aspose.Cells.Drawing.GroupBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupbox) 对象。另外，[**Group**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/group) 类的 [**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) 方法将形状分组，它以 [**Shape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) 数组作为参数并返回一个 [**GroupShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupshape) 对象。类 [**Aspose.Cells.Drawing.GroupBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupbox) 表示组框，其中有一些重要成员:
 
-- 这[**文本**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text)属性指定组框的标题字符串。
-- 这[**阴影**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupbox/properties/shadow)属性指示组框是否具有 3D 阴影。
+- [**Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) 属性指定组框的标题字符串。
+- [**Shadow**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupbox/properties/shadow) 属性指示组框是否具有 3D 阴影。
 
-下面的示例演示如何添加组合框并对工作表中的控件进行分组。
+以下示例显示了如何向工作表中添加分组框并对控件进行分组。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingGroupBoxControl-1.cs" >}}
 
-## **推进主题**
-- [使用 Aspose.Cells 添加 ActiveX 控件](/cells/zh/net/add-activex-controls-using-aspose-cells/)
-- [删除 ActiveX 控件](/cells/zh/net/remove-activex-control/)
+## **高级主题**
+- [使用Aspose.Cells添加ActiveX控件](/cells/zh/net/add-activex-controls-using-aspose-cells/)
+- [移除ActiveX控件](/cells/zh/net/remove-activex-control/)
 - [更新 ActiveX ComboBox 控件](/cells/zh/net/update-activex-combobox-control/)

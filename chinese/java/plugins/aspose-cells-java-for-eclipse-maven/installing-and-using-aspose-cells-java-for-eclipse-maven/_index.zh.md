@@ -1,70 +1,71 @@
-﻿---
-title: 安装和使用 Aspose.Cells Java for Eclipse - Maven
+---
+title: 在 Eclipse - Maven 中安装和使用 Aspose.Cells Java
 type: docs
 weight: 10
 url: /zh/java/installing-and-using-aspose-cells-java-for-eclipse-maven/
 ---
-## **安装中**
 
-**Aspose.Cells Java 用于 Eclipse (Maven)**插件可以很容易地从可用的安装**插入**插件对话框中的选项卡。
+## **安装**
 
-- 要打开它，请选择**插件**来自**工具**Eclipse 中的菜单。
+**Aspose.Cells Java for Eclipse (Maven)**插件可以从插件对话框的**可用插件**选项卡中轻松安装。
 
-![待办事项：图片_替代_文本](installing-and-using-aspose-cells-java-for-eclipse-maven_1)
+- 要打开它，请从Eclipse的**工具**菜单中选择**插件**。  
 
-- 这增加了**Aspose.Cells Maven 项目**在新建项目向导和**Aspose.Cells 代码示例**在 Eclipse IDE 的新建其他向导中。
+![todo:image_alt_text](installing-and-using-aspose-cells-java-for-eclipse-maven_1)
 
-![待办事项：图片_替代_文本](project_1.png)
+- 这将在Eclipse IDE的**新项目**向导中添加**Aspose.Cells Maven项目**，并在**新其他**向导中添加**Aspose.Cells代码示例**。  
+
+![todo:image_alt_text](project_1.png)
 
 ## **使用**
 
-### **Aspose.Cells Maven 项目（向导）**
+### **Aspose.Cells Maven 项目 (向导)**
 
-去创造**Maven 项目**通过向导使用[Aspose.Cells for Java API](https://products.aspose.com/cells/java/):
+通过**向导**创建**Maven 项目**以使用[Aspose.Cells for Java API](https://products.aspose.com/cells/java/):
 
-1. 选择**新建 -> 项目**.
-1. 选择**Aspose.Cells Maven 项目**在里面**Maven**类别。
-1. 点击**下一个**.
+1. 选择 **新建 -> 项目**。
+1. 在**Maven**分类中选择**Aspose.Cells Maven项目**。
+1. 点击**下一步**。
 
-![待办事项：图片_替代_文本](project_2.png)
+![todo:image_alt_text](project_2.png)
 
-1. 提供**项目名称、位置、GroupId、ArtifactId**和**版本**为您的 Maven 项目点击**结束。**
+1. 为您的Maven项目提供**项目名称、位置、GroupId、ArtifactId**和**版本**，然后点击**完成**。
 
-![待办事项：图片_替代_文本](project_3.png)
+![todo:image_alt_text](project_3.png)
 
-1. 这将检索[Aspose.Cells for Java](https://products.aspose.com/cells/java/)最新的[Maven 依赖](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)参考自[Aspose 云 Maven 存储库](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo)并配置它**pom.xml**.如果您选择了**另请下载代码示例，**下载的**代码示例**也将从[Aspose.Cells for Java API 示例存储库。](https://github.com/aspose-cells/Aspose.Cells-for-Java)
-1. 下列的**Maven**项目将在您的**日蚀集成开发环境**向导完成后：
+1. 这将从[Aspose Cloud Maven Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo)检索[Aspose.Cells for Java](https://products.aspose.com/cells/java/)的最新[Maven依赖项](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)引用，并将其配置到**pom.xml**。如果您选择了**同时下载代码示例**，还将开始从[Aspose.Cells for Java API示例存储库](https://github.com/aspose-cells/Aspose.Cells-for-Java)下载**代码示例**。
+1. 完成向导后，将在您的**Eclipse IDE**上创建以下**Maven 项目**:  
 
-![待办事项：图片_替代_文本](project_4.png)
+![todo:image_alt_text](project_4.png)
 
-1. 所创造的**Maven 项目**被配置为使用**Aspose.Cells for Java API**并准备根据您的项目要求进行增强。
-如果您选择下载[代码示例](https://github.com/aspose-cells/Aspose.Cells-for-Java)， 您可以使用**Aspose.Cells 代码示例（向导）**需要导入**代码示例**Aspose.Cells for Java API 到您的项目中。
+1. 创建的**Maven 项目**已配置为使用**Aspose.Cells for Java API**，并准备根据项目要求进行增强。
+   如果您选择下载[代码示例](https://github.com/aspose-cells/Aspose.Cells-for-Java)，您可以使用**Aspose.Cells代码示例(向导)**将所需的**代码示例**导入到您的项目中。
 
-### **Aspose.Cells 代码示例（向导）**
+### **Aspose.Cells代码示例 (向导)**
 
-**Aspose.Cells 代码示例向导**允许您尝试为 Aspose.Cells for Java API 提供的许多示例。
+**Aspose.Cells代码示例向导**允许您尝试为Aspose.Cells for Java API提供的许多示例。
 
 {{% alert color="primary" %}}
 
-为了能够使用**Aspose.Cells 代码示例向导**舒服：建议一直选择**同时下载代码示例**在创作时**Maven 项目**在**Aspose.Cells Maven 项目** **巫师**,
+为了能够舒适地使用**Aspose.Cells代码示例向导**，建议在使用**Aspose.Cells Maven项目**的**Aspose.Cells Maven项目**向导创建时始终选择**同时下载代码示例**。
 
 {{% /alert %}}
 
-要使用示例，只需：
+要使用示例，只需:
 
-1. 点击**新建 -> 其他**在**蚀**.
-1. 选择**Aspose.Cells 代码示例**在里面**Java**类别。
-1. 点击**下一个**.  
+1. 在**Eclipse**中点击**新建 -> 其他**。
+1. 在**Java**分类中选择**Aspose.Cells代码示例**。
+1. 点击**下一步**。  
 
-![待办事项：图片_替代_文本](example_1.png)
+![todo:image_alt_text](example_1.png)
 
-1. 选择您的项目，然后展开树以进行选择**代码示例**分类并点击**结束**.
+1. 选择您的项目，然后展开树以选择**代码示例**分类，并点击**完成**。
 
-![待办事项：图片_替代_文本](example_2.png)
+![todo:image_alt_text](example_2.png)
 
-1. 这将复制所选类别**代码示例**Java 文件进入项目下**com.aspose.cells.examples**包裹。代码示例所需的任何资源也将被复制到**源代码/主要/资源**文件夹，如下图：
+1. 这将把所选类别的**代码示例**Java文件复制到项目的**com.aspose.cells.examples**包中。还将所选示例所需的任何资源复制到**src/main/resources**文件夹中，如下所示:
 
-![待办事项：图片_替代_文本](example_3.png)
+![todo:image_alt_text](example_3.png)
 
-1. 查看示例代码，编译并运行。
-1. 您现在可以测试其他示例并开始使用 Aspose.Cells for Java API 构建您自己的应用程序。
+1. 查看示例代码，编译和运行。
+1. 您现在可以测试其他示例并开始使用Aspose.Cells for Java API构建您自己的应用程序。

@@ -1,11 +1,12 @@
-﻿---
+---
 title: 检索电子表格文档中所有命名范围的字典
 type: docs
 weight: 120
 url: /zh/net/retrieve-a-dictionary-of-all-named-ranges-in-a-spreadsheet-document/
 ---
+
 ## **OpenXML Excel**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -59,7 +60,7 @@ public static Dictionary<String, String> GetDefinedNames(String fileName)
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 

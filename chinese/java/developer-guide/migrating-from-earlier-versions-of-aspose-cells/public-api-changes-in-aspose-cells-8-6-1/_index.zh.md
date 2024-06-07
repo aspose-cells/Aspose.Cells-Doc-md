@@ -1,28 +1,29 @@
-﻿---
-title: 公共 API Aspose.Cells 8.6.1 的变化
+---
+title: Aspose.Cells 8.6.1中的公共API更改
 type: docs
 weight: 210
 url: /zh/java/public-api-changes-in-aspose-cells-8-6-1/
 ---
+
 {{% alert color="primary" %}} 
 
-本文档描述了 Aspose.Cells API 从版本 8.6.0 到 8.6.1 的变化，模块/应用程序开发人员可能会感兴趣。它不仅包括新的和更新的公共方法、添加的类，还包括对 Aspose.Cells 中幕后行为的任何更改的描述。
+本文描述了Aspose.Cells API从版本8.6.0到8.6.1的更改，可能会对模块/应用程序开发人员感兴趣。它不仅包括新增和更新的公共方法，添加的类，还描述了Aspose.Cells背后行为的任何变化。
 
 {{% /alert %}} 
-## **添加的 API**
-### **支持 HTML 链接目标类型**
-此版本的 Aspose.Cells for Java API 公开了一个枚举，即 HtmlLinkTargetType 以及一个新属性 HtmlSaveOptions.LinkTargetType，它们一起允许[转换为 HTML 格式时设置电子表格中链接的目标类型](/cells/zh/java/change-the-html-link-target-type/)HtmlLinkTargetType 枚举的可能值如下，其中默认值为 SELF。
+## **已添加API**
+### **支持HTML链接目标类型**
+Aspose.Cells for Java API的此版本已公开了一个名为HtmlLinkTargetType的枚举类型以及一个新的属性HtmlSaveOptions.LinkTargetType，两者结合可在电子表格转换为HTML格式时[设置链接的目标类型](/cells/zh/java/change-the-html-link-target-type/)。HtmlLinkTargetType枚举的可能值如下，默认值为SELF。
 
 1. HtmlLinkTargetType.BLANK：在新窗口或选项卡中打开链接的文档/页面。
 1. HtmlLinkTargetType.PARENT：在父框架中打开链接的文档/页面。
-1. HtmlLinkTargetType.SELF：在点击链接的同一框架中打开链接的文档/页面。
-1. HtmlLinkTargetType.TOP：在整个窗口中打开链接的文档/页面。
+1. HtmlLinkTargetType.SELF：在单击链接的框架中打开链接的文档/页面。
+1. HtmlLinkTargetType.TOP：在窗口的完整主体中打开链接的文档/页面。
 
 以下是简单的使用场景。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -42,14 +43,14 @@ options.setLinkTargetType(HtmlLinkTargetType.BLANK);
 workbook.save(outputFilePath, options);
 
 {{< /highlight >}}
-### **方法 VbaModuleCollection.remove 添加**
-Aspose.Cells for Java 8.6.1 公开了 VbaModuleCollection.remove 方法的另一个重载，该方法现在可以接受 Worksheet 的实例以删除与指定 Worksheet 关联的所有 VBA 模块。
+### **已添加 VbaModuleCollection.remove 方法**
+Aspose.Cells for Java 8.6.1已公开VbaModuleCollection.remove方法的另一个重载，现在可以接受Worksheet的实例来删除与指定Worksheet关联的所有VBA模块。
 
 以下是简单的使用场景。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -64,14 +65,14 @@ VbaModuleCollection modules = workbook.getVbaProject().getModules();
 modules.remove(workbook.getWorksheets().get(0));
 
 {{< /highlight >}}
-### **方法 RangeCollection.add 添加**
-Aspose.Cells for Java 8.6.1 公开了 RangeCollection.Add 方法，可用于将 Range 对象添加到特定工作表的范围集合中。
+### **已添加 RangeCollection.add 方法**
+Aspose.Cells for Java 8.6.1已公开RangeCollection.Add方法，可用于向特定工作表的范围集合添加范围对象。
 
 以下是简单的使用场景。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -90,14 +91,14 @@ RangeCollection ranges = cells.getRanges();
 ranges.add(cells.createRange("A1:B4"));
 
 {{< /highlight >}}
-### **添加方法 Cell.setCharacters**
- Cell.setCharacters 方法可用于[更新部分富文本](/cells/zh/java/access-and-update-the-portions-of-rich-text-of-cell/)给定的 Cell 对象。 Cell.getCharacters 方法用于访问文本部分，然后可以使用 Cell.setCharacters 方法进行修改，而**得到**方法返回一个 FontSetting 对象数组，可以对其进行操作以设置各种属性字体名称、字体颜色、粗体等，以及**放**方法可用于应用更改。
+### **已添加 Cell.setCharacters 方法**
+Cell.setCharacters方法可用于[更新给定Cell对象的富文本的部分](/cells/zh/java/access-and-update-the-portions-of-rich-text-of-cell/)。要访问文本的部分，应使用Cell.getCharacters方法，然后可以使用Cell.setCharacters方法进行修订，**get**方法返回一个FontSetting对象的数组，可以操作以设置字体名称，字体颜色，加粗等各种属性 **set**方法可用于应用更改。
 
 以下是简单的使用场景。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -113,7 +114,7 @@ Cell cell = worksheet.getCells().get("A1");
 
 //Retrieve the array of FontSetting from the cell
 
-FontSetting[]settings = cell.getCharacters();
+FontSetting[] settings = cell.getCharacters();
 
 //Modify the Font Name for the first FontSetting 
 
@@ -124,14 +125,14 @@ settings[0].getFont().setName("Arial");
 cell.setCharacters(settings);
 
 {{< /highlight >}}
-### **已添加属性 VbaProject.isSigned**
- Aspose.Cells for Java 8.6.1公开了可用于的VbaProject.isSigned属性[测试工作簿中的 VbaProject 是否已签名](/cells/zh/java/check-if-vba-project-in-a-workbook-is-signed/).如果项目已签名，则布尔类型属性返回 true。
+### **已添加 VbaProject.isSigned 属性**
+Aspose.Cells for Java 8.6.1已经公开了VbaProject.isSigned属性，该属性可用于[检测工作簿中的VbaProject是否已签名](/cells/zh/java/check-if-vba-project-in-a-workbook-is-signed/)。Boolean类型属性，如果项目已签名，则返回true。
 
 以下是简单的使用场景。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -160,9 +161,9 @@ else
 }
 
 {{< /highlight >}}
-## **修改后的 API**
-### **方法 Cell.getFormatConditions 已修改**
-随着v8.6.1的发布，Aspose.Cells for Java API修改了Cell.getFormatConditions方法的返回类型，现在返回一个FormatConditionCollection类型的数组。
-## **过时的 API**
-### **方法 Workbook.checkWriteProtectedPassword 已废弃**
-随着 v8.6.1 的发布，Workbook.checkWriteProtectedPassword 方法已被标记为弃用。建议使用 WorkbookSettings.WriteProtection.validatePassword 方法，该方法可以接受字符串值作为参数，如果密码与电子表格的预设密码匹配，则返回布尔值。
+## **修改的API**
+### **已修改 Cell.getFormatConditions 方法**
+Aspose.Cells for Java API v8.6.1版本已修改了Cell.getFormatConditions方法的返回类型，现在返回一个类型为FormatConditionCollection的数组。
+## **已废弃的API**
+### **已废弃 Workbook.checkWriteProtectedPassword 方法**
+在v8.6.1版本中，作废了Workbook.checkWriteProtectedPassword方法。建议使用WorkbookSettings.WriteProtection.validatePassword方法，该方法接受一个String值作为参数，并返回一个Boolean值，如果密码与电子表格的预设密码匹配，则返回true。

@@ -1,31 +1,32 @@
-﻿---
-title: 在 Jython 中下载并配置 Aspose.Cells
+---
+title: 在Jython中下载和配置Aspose.Cells
 type: docs
 weight: 10
 url: /zh/java/download-and-configure-aspose-cells-in-jython/
 ---
+
 ## **下载中**
 
-**从社交编码网站下载示例**
+**从社交编码网站下载示例代码**
 
-可以在下面提到的所有社交编码网站上下载以下版本的运行示例：
+以下运行示例的发行版可在以下所有社交编码站点上下载:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose-Cells-Java-for-Jython)
 
 **下载Aspose.Cells for Java组件**
 
-- [Aspose.Cells for Java](https://downloads.aspose.com/cells/java)
+- [Java的Aspose.Cells](https://downloads.aspose.com/cells/java)
 
-## **安装中**
+## **安装**
 
-- 将下载的 Aspose.Cells for Java jar 文件放入“lib”目录。
-- 在 _*init*_.py 文件中将“your-lib”替换为下载的 jar 文件名。
+- 将下载的Aspose.Cells for Java jar文件放入"lib"目录。
+- 在_init_.py文件中用下载的jar文件名替换"your-lib"。
 
 ## **使用**
 
-您可以使用以下示例代码创建 HelloWorld 文档：
+您可以使用以下示例代码创建HelloWorld文档:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells  import Settings
 

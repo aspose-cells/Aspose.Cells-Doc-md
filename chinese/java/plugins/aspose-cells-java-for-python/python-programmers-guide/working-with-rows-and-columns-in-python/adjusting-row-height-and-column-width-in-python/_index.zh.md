@@ -1,21 +1,22 @@
-﻿---
-title: Python中调整行高和列宽
+---
+title: 在Python中调整行高和列宽
 type: docs
 weight: 10
 url: /zh/java/adjusting-row-height-and-column-width-in-python/
-keywords: create XLSX in Python, create XLS in Python, XLS python, XLSX python, row height python, column width python, Excel pytho
-description: 使用 Python Excel API 在 Python 中创建 Excel 文件。在没有 MS Office 的情况下在 XLSX 或 XLS 中调整行高和列宽。
+keywords: "在Python中创建XLSX，在Python中创建XLS，XLS python，XLSX python，行高python，列宽python，Excel python"
+description: 使用Python Excel API在Python中创建Excel文件。在Python应用程序中调整XLSX或XLS中的行高和列宽，无需MS Office。
 ---
-## **Excel电子表格Python——调整行高列宽**
-### **设置行高**
-对于Aspose.Cells，可以通过调用Cells集合的setRowHeight方法来设置Python中单行的高度。 setRowHeight 方法采用以下参数：
 
-- **行索引**，您要更改其高度的行的索引。
-- **行高**应用于行的行高。
+## **在Python中使用Excel电子表格 - 调整行高和列宽**
+### **设置行高**
+使用Aspose.Cells，在Python中可以通过调用Cells集合的setRowHeight方法来设置单行的高度。setRowHeight方法需要以下参数：
+
+- **行索引**，要更改其高度的行的索引。
+- **行高**，要应用于该行的行高。
 
 **Python 代码**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def set_row_height(self):
 
@@ -41,14 +42,14 @@ print "Set Row Height Successfully."
 
 {{< /highlight >}}
 ### **设置列宽**
-通过调用 Cells 集合的 setColumnWidth 方法设置列的宽度。 setColumnWidth 方法采用以下参数：
+通过调用Cells集合的setColumnWidth方法来设置列的宽度。setColumnWidth方法接受以下参数：
 
-- **列索引**，您要更改其宽度的列的索引。
-- **列宽**所需的列宽。
+- **列索引**，要更改其宽度的列的索引。
+- **列宽**，所需的列宽。
 
 **Python 代码**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def set_column_width(self):
 
@@ -74,6 +75,6 @@ print "Set Column Width Successfully."
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**调整行高和列宽 (Aspose.Cells)**来自以下任何社交编码网站：
+从以下提到的社交编码网站下载**调整行高和列宽(Aspose.Cells)**：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

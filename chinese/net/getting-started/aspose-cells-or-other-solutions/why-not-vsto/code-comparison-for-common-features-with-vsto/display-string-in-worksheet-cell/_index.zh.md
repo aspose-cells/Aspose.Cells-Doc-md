@@ -1,11 +1,12 @@
-﻿---
-title: 在工作表中显示字符串 Cell
+---
+title: 在工作表单元格中显示字符串
 type: docs
 weight: 110
 url: /zh/net/display-string-in-worksheet-cell/
 ---
+
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
 
@@ -17,7 +18,7 @@ url: /zh/net/display-string-in-worksheet-cell/
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 

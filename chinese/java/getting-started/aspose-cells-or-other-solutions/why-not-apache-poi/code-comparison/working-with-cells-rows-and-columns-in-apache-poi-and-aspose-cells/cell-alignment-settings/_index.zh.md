@@ -1,21 +1,22 @@
-﻿---
-title: Cell 对齐设置
+---
+title: 单元格对齐设置
 type: docs
 weight: 20
 url: /zh/java/cell-alignment-settings/
 ---
-## **Aspose.Cells - Cell 对齐设置**
-Aspose.Cells 提供了一个代表 Excel 文件的类 Workbook。 Workbook 类包含一个 WorksheetCollection，它允许访问 Excel 文件中的每个工作表。工作表由 Worksheet 类表示。
 
-Worksheet 类提供了一个 Cells 集合。 Cells 集合中的每一项都代表 Cell 类的一个对象。
+## **Aspose.Cells - 单元格对齐设置**
+Aspose.Cells提供了一个代表Excel文件的Workbook类。Workbook类包含一个WorksheetCollection，允许访问Excel文件中的每个工作表。工作表由Worksheet类表示。
 
-Aspose.Cells 在 Cell 类中提供了 setStyle 方法，该方法用于单元格的格式设置。 Style 类提供了用于配置字体设置的有用属性。
+Worksheet类提供一个Cells集合。 Cells集合中的每个项目表示Cell类的对象。
 
-使用 TextAlignmentType 枚举选择任何文本对齐类型。
+Aspose.Cells在Cell类中提供了setStyle方法，用于单元格的格式设置。 Style类提供了用于配置字体设置的有用属性。
+
+使用TextAlignmentType枚举选择任何文本对齐类型。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -48,14 +49,14 @@ style.setHorizontalAlignment(TextAlignmentType.CENTER);
 cell.setStyle(style);
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF & XSSF - Cell 对齐设置**
-HSSFCellStyle 使用 Apache POI API 提供单元格对齐样式。
+## **Apache POI SS - HSSF＆XSSF - 单元格对齐设置**
+HSSFCellStyle使用Apache POI API为单元格提供对齐样式。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- public static void main(String[]args) throws IOException
+ public static void main(String[] args) throws IOException
 
 {
 
@@ -133,6 +134,6 @@ private static void createCell(HSSFWorkbook wb, HSSFRow row, int column, int ali
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[配置对齐设置](/cells/zh/java/data-formatting/).
+要了解更多详细信息，请访问 [配置对齐设置](/cells/zh/java/data-formatting/)。
 
 {{% /alert %}}

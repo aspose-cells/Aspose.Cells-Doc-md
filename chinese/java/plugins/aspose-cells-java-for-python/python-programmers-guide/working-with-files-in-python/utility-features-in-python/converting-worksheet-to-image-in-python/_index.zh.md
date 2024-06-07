@@ -1,41 +1,42 @@
-﻿---
-title: 在 Python 中将工作表转换为图像
+---
+title: 在Python中将工作表转换为图像
 type: docs
 weight: 40
 url: /zh/java/converting-worksheet-to-image-in-python/
 ---
+
 ## **Aspose.Cells - 将工作表转换为图像**
-要在 Ruby 中使用 Aspose.Cells for Java 将工作表转换为图像，只需调用 Converter 模块。
+要在Ruby中使用Aspose.Cells for Java将工作表转换为图像，只需调用Converter模块。
 
 **Python 代码**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  imageFormat = self.ImageFormat
 
-# Instantiate a workbook with path to an Excel file
+#Instantiate a workbook with path to an Excel file
 
 book = self.Workbook(self.dataDir + "Book1.xls")
 
-# Create an object for ImageOptions
+#Create an object for ImageOptions
 
 imgOptions = self.ImageOrPrintOptions()
 
-# Set the image type
+#Set the image type
 
 imgOptions.setImageFormat(imageFormat.getPng())
 
-# Get the first worksheet.
+#Get the first worksheet.
 
 sheet = book.getWorksheets().get(0)
 
-# Create a SheetRender object for the target sheet
+#Create a SheetRender object for the target sheet
 
 sr =self.SheetRender(sheet, imgOptions)
 
 for i in range(sr.getPageCount()):
 
-# Generate an image for the worksheet
+#Generate an image for the worksheet
 
 sr.toImage(i, self.dataDir + "mysheetimg" + ".png")
 
@@ -46,6 +47,6 @@ print "Images generated successfully."
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**工作表到图像 (Aspose.Cells)**来自以下任何社交编码网站：
+从以下提到的社交编码网站之一下载**工作表转图像(Aspose.Cells)**：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

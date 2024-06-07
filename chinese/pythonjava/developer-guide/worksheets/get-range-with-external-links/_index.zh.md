@@ -1,11 +1,12 @@
-﻿---
-title: 使用外部链接获取范围
+---
+title: 获取带有外部链接的范围
 type: docs
 weight: 60
 url: /zh/python-java/get-range-with-external-links/
 ---
-## **使用外部链接获取范围**
-在许多情况下，excel 文件通过使用外部链接从其他 excel 文件访问数据。 Aspose.Cells for Python via Java 提供了通过使用检索这些外部链接的选项[名称.GetReferredAreas](https://reference.aspose.com/cells/python/asposecells.api/name#getReferredAreas\(boolean\)） 方法。这[名称.GetReferredAreas](https://reference.aspose.com/cells/python/asposecells.api/name#getReferredAreas\(boolean\)) 方法返回类型数组[推荐区域](https://reference.aspose.com/cells/python/asposecells.api/ReferredArea).这[推荐区域](https://reference.aspose.com/cells/python/asposecells.api/ReferredArea)类提供了一个[外部文件名](https://reference.aspose.com/cells/python/asposecells.api/referredarea#ExternalFileName)返回外部文件名称的属性。
+
+## **获取带有外部链接的范围**
+在许多情况下，Excel文件通过外部链接从其他Excel文件访问数据。Aspose.Cells通过Java提供了使用[Name.GetReferredAreas](https://reference.aspose.com/cells/python/asposecells.api/name#getReferredAreas\(boolean\))方法检索这些外部链接的选项。[Name.GetReferredAreas](https://reference.aspose.com/cells/python/asposecells.api/name#getReferredAreas\(boolean\))方法返回[ReferredArea](https://reference.aspose.com/cells/python/asposecells.api/ReferredArea)类型的数组。[ReferredArea](https://reference.aspose.com/cells/python/asposecells.api/ReferredArea)类提供[ExternalFileName](https://reference.aspose.com/cells/python/asposecells.api/referredarea#ExternalFileName)属性，返回外部文件的名称。
 
 以下代码片段显示了如何获取外部链接。
 

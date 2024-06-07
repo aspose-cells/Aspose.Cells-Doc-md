@@ -4,150 +4,151 @@ type: docs
 weight: 40
 url: /zh/java/using-smart-markers/
 ---
-##  **介绍**
+
+## **介绍**
 
 {{% alert color="primary" %}}
 
-**智能标记**用于让 Aspose.Cells 知道要在 Microsoft Excel 中放置哪些信息[设计师电子表格](/cells/zh/java/what-is-a-designer-spreadsheet/)。智能标记允许您创建仅包含相关信息和格式的模板。
+**智能标记**用于让Aspose.Cells知道要在Microsoft Excel [设计者电子表格](/cells/zh/java/what-is-a-designer-spreadsheet/)中放置什么信息。智能标记允许您创建仅包含相关信息和格式的模板。
 
 {{% /alert %}}
 
-##  **设计电子表格和智能标记**
+## **设计器电子表格和智能标记**
 
-设计器电子表格是标准 Excel 文件，包含可视格式、公式和智能标记。它们可以包含引用一个或多个数据源的智能标记，例如来自项目的信息和相关联系人的信息。智能标记被写入您需要信息的单元格中。
+设计者电子表格是包含视觉格式、公式和智能标记的标准Excel文件。它们可以包含引用一个或多个数据源的智能标记，例如项目信息和相关联系人信息。智能标记在您希望获取信息的单元格中编写。
 
-所有智能标记均以 &= 开头。数据标记的示例是 &=Party.FullName。如果数据标记产生多个项目（例如，完整的行），则后面的行会自动下移，以为新信息腾出空间。因此，可以将小计和总计放置在紧接数据标记之后的行上，以根据插入的数据进行计算。要对插入的行进行计算，请使用[动态公式](/cells/zh/java/using-smart-markers/#dynamic-formulas).
+所有智能标记均以&=开始。数据标记的示例是&=Party.FullName。如果数据标记产生多个项目，例如一整行，则随后的行会自动下移，以腾出空间放置新信息。因此，可以在紧随数据标记的行上放置小计和总计，以便基于插入数据进行计算。要对插入的行进行计算，请使用[动态公式](/cells/zh/java/using-smart-markers/#dynamic-formulas)。
 
-智能标记包括**数据源**和**字段名称**大多数信息的部分。特殊信息也可以通过变量和变量数组传递。变量总是只填充一个单元格，而变量数组可能填充多个单元格。每个单元格仅使用一个数据标记。未使用的智能标记将被删除。
+智能标记由**数据源**和**字段名称**部分组成以获取大多数信息。特殊信息也可以通过变量和变量数组传递。变量总是只填充一个单元格，而变量数组可能填充多个。每个单元格只能使用一个数据标记。未使用的智能标记将被移除。
 
-智能标记还可以包含参数。参数允许您修改信息的布局方式。它们作为逗号分隔列表附加到智能标记末尾的括号中。
+智能标记也可以包含参数。参数允许您修改信息的布局方式。它们以逗号分隔的列表附加到智能标记的末尾括号中。
 
-###  **智能标记选项**
+### **智能标记选项**
 
 &=数据源.字段名称
-&=[数据源].[字段名称]
-&=$变量名
-&=$VariableArray
+&=［数据源］。字段名称
+&=$变量名称
+&=$变量数组
 &==动态公式
 &=&=重复动态公式
 
-###  **参数**
+### **参数**
 
 允许使用以下参数：
 
-- **无添加** 不要添加额外的行来适应数据。
-- **跳过：n** - 每行数据跳过 n 行。
-- *升序：n 或降序：n - 对智能标记中的数据进行排序。如果 n 为 1，则该列是排序器的第一个键。对数据源进行处理后，对数据进行排序。例如：&=Table1.Field3(升序：1)。
-- **水平的** 从左到右写入数据，而不是从上到下。
-- **数字** 如果可能，将文本转换为数字。
-- **转移** 向下或向右移动，创建额外的行或列以适应数据。移位参数的工作方式与 Microsoft Excel 中的相同。例如，在 Microsoft Excel 中，当您选择单元格区域时，右键单击并选择**插入**并指定**向下移动单元格**，**向右移动单元格**和其他选项。简而言之，shift 参数对于垂直/正常（从上到下）或水平（从左到右）智能标记具有相同的功能。
-- **豆** 表示数据源是一个简单的POJO。仅在 Java API 中受支持。
+- **noadd** - 不添加额外行以适应数据。
+- **skip:n** - 跳过每行数据的n行。
+- *ascending:n 或 descending:n* - 对智能标记中的数据进行排序。如果n为1，那么该列是排序器的第一个键。在处理数据源后对数据进行排序。例如：&=Table1.Field3(ascending:1)。
+- **horizontal** - 将数据从左到右写入，而不是从上到下。
+- **numeric** - 如有可能，将文本转换为数字。
+- **shift** - 向下或向右移动，创建额外的行或列以适应数据。shift参数的工作方式与Microsoft Excel相同。例如在Microsoft Excel中，当选择一系列单元格，右键单击并选择**插入**，然后指定**向下移动单元格**、**向右移动单元格**和其他选项。简而言之，shift参数对垂直/正常（从上到下）或水平（从左到右）的智能标记填充相同的功能。
+- **bean** - 表示数据源是简单的POJO。仅在Java API中受支持。
 
-参数 noadd 和skip 可以组合起来在交替的行上插入数据。由于模板是从下到上处理的，因此您应该在第一行添加 noadd 以避免在备用行之前插入额外的行。
+noadd和skip参数可以组合，以在交替行中插入数据。由于模板是由底部到顶部处理的，因此应在第一行上添加noadd以避免在交替行之前插入额外的行。
 
-如果有多个参数，请用逗号分隔，但不能使用空格：parameterA,parameterB,parameterC
+如果有多个参数，请使用逗号而没有空格进行分隔：parameterA,parameterB,parameterC
 
-以下屏幕截图显示了如何每隔一行插入数据。
+以下屏幕截图展示如何在每隔一行插入数据。
 
-![待办事项：图像_替代_文本](using-smart-markers_1.png)
+![todo:image_alt_text](using-smart-markers_1.png)
 
 **变成...**
 
-![待办事项：图像_替代_文本](using-smart-markers_2.png)
+![todo:image_alt_text](using-smart-markers_2.png)
 
-###  **动态公式**
+### **动态公式**
 
-动态公式允许您将 Excel 公式插入到单元格中，即使公式引用将在导出过程中插入的行也是如此。动态公式可以对每个插入的行重复或仅使用放置数据标记的单元格。
+动态公式允许您在单元格中插入Excel公式，即使公式引用将在导出过程中插入的行。
 
-动态公式允许以下附加选项：
+动态公式允许以下额外选项:
 
 - r - 当前行号。
-- 2、-1 - 到当前行号的偏移量。
+- 2, -1 - 对当前行号的偏移。
 
-下面说明了重复的动态公式和生成的 Excel 工作表。
+以下是一个重复动态公式以及生成的Excel工作表的示例。
 
-![待办事项：图像_替代_文本](using-smart-markers_3.png)
+![todo:image_alt_text](using-smart-markers_3.png)
 
-**变成……**
+**变成…**
 
-![待办事项：图像_替代_文本](using-smart-markers_4.png)
+![todo:image_alt_text](using-smart-markers_4.png)
 
-Cell C1 包含公式 =A1*B1，C2 包含 = A2*B2 和 C3 = A3*B3。
+单元格C1包含公式=A1*B1，C2包含=A2*B2，C3包含=A3*B3。
 
-处理智能标记非常容易。以下示例代码显示了如何在智能标记中使用动态公式。我们加载[模板文件](templateDynamicFormulas.xlsx)并创建测试数据，处理标记以根据标记将数据填充到单元格中。
+处理智能标记非常简单。以下示例代码显示了如何在智能标记中使用动态公式。我们加载 [模板文件](templateDynamicFormulas.xlsx) 并创建测试数据，处理标记以填充数据到单元格对应的标记中。 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-DynamicFormulas-DynamicFormulas.java" >}}
 
-##  **使用变量数组**
+## **使用变量数组**
 
-以下示例代码展示了如何在智能标记中使用变量数组。我们动态地将一个变量数组标记放入工作簿第一个工作表的 A1 单元格中，其中包含我们为标记设置的一串值，处理标记以将数据填充到标记的单元格中。最后，我们保存Excel文件。
+以下示例代码演示了如何在智能标记中使用变量数组。我们将动态地将变量数组标记放入工作簿的第一个工作表的单元格A1中，该数组包含我们为标记设置的一组值，处理标记以填充单元格中的数据。最后，我们保存Excel文件。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-UsingVariableArray-UsingVariableArray.java" >}}
 
-##  **数据分组**
+## **分组数据**
 
-在某些 Excel 报告中，您可能需要将数据分成几组，以便于阅读和分析。将数据分组的主要目的之一是对每组记录运行计算（执行汇总操作）。
+在某些Excel报告中，您可能需要将数据分组以便更轻松地阅读和分析。将数据分组的主要目的之一是对每组记录运行计算（执行汇总操作）。
 
-Aspose.Cells 智能标记允许您按字段集对数据进行分组，并将汇总行放置在数据集或数据组之间。例如，如果按 Customers.CustomerID 对数据进行分组，则可以在每次组更改时添加摘要记录。
+Aspose.Cells智能标记允许您按设置的字段对数据进行分组，并在数据集或数据组之间放置摘要行。例如，如果按Customers.CustomerID对数据进行分组，您可以在每次组更改时添加摘要记录。
 
-###  **参数**
+### **参数**
 
-以下是一些用于对数据进行分组的智能标记参数。
+以下是用于分组数据的一些智能标记参数。
 
-####  **组：正常/合并/重复**
+#### **group:normal/merge/repeat**
 
-我们支持三种类型的群组，您可以选择。
+我们支持三种可供选择的分组类型。
 
-- **普通的** 列中相应记录的分组依据字段值不会重复；相反，它们每个数据组打印一次。
-- **合并** 与正常参数的行为相同，不同之处在于它会合并每个组集的字段分组中的单元格。
-- **重复** 对相应记录重复按字段值分组。
+- **normal** - 不会为相应列中的记录重复组的值; 而是每个数据组仅打印一次。
+- **merge** - 与普通参数的行为相同，只不过它会合并每个组集的组合字段单元格。
+- **repeat** - 为相应记录重复组的值。
 
-例如：&=Customers.CustomerID(group:merge)
+例如: &=Customers.CustomerID(group:merge)
 
-####  **跳过**
+#### **skip**
 
-在每组之后跳过特定数量的行。
+在每个组后跳过特定数量的行。
 
-例如 &=Employees.EmployeeID(group:normal,skip:1)
+例如&=Employees.EmployeeID(group:normal,skip:1)
 
-####  **小计N**
+#### **subtotalN**
 
-对与group by字段相关的指定字段数据进行汇总操作。 N 代表 1 到 11 之间的数字，指定计算数据列表中小计时使用的函数。 （1=AVERAGE、2=COUNT、3=COUNTA、4=MAX、5=MIN、...9=SUM 等）有关详细信息，请参阅 Microsoft Excel 帮助中的小计参考。
+对与分组字段相关的指定字段数据执行汇总运算。 N代表数字1到11之间的数字，用于指定在数据列表中计算小计时使用的函数。（1=AVERAGE, 2=COUNT, 3=COUNTA, 4=MAX, 5=MIN,...9=SUM等）有关详细信息，请参阅Microsoft Excel帮助中的Subtotal参考。
 
-该格式实际上表示为：
-subtotalN:Ref 其中 Ref 指的是按列分组。
+实际格式如下:
+subtotalN:Ref，其中Ref是分组依据的列。
 
-例如，
+例如,
 
--  &=Products.Units(subtotal9:Products.ProductID) 指定汇总函数**单位**场关于**产品ID**领域中的**产品**桌子。
--  &=Tabx.Col3(subtotal9:Tabx.Col1) 指定汇总函数**第3栏**字段分组依据**第 1 列**在表 *Tabx** 中。
--  &=Table1.ColumnD(subtotal9:Table1.ColumnA&Table1.ColumnB) 指定汇总函数**D栏**字段分组依据**A列**和**B栏**在表*表1**中。
+- &=Products.Units(subtotal9:Products.ProductID) 指定在 **Products** 表中相对于 **ProductID** 字段汇总函数的 **Units** 字段。
+- &=Tabx.Col3(subtotal9:Tabx.Col1) 指定在表 **Tabx** 中按 **Col1** 分组 **Col3** 字段的汇总函数。
+- &=Table1.ColumnD(subtotal9:Table1.ColumnA&Table1.ColumnB) 指定在表Table1中，按ColumnA和ColumnB对ColumnD字段分组的摘要函数。
 
-##  **使用嵌套对象**
+## **使用嵌套对象**
 
-Aspose.Cells 支持智能标记中的嵌套对象，嵌套对象应该很简单。
+Aspose.Cells支持智能标记中的嵌套对象，嵌套对象应该是简单的。
 
-我们使用一个简单的模板文件。请参阅包含一些嵌套智能标记的设计器电子表格。
+我们使用一个简单的模板文件。 请参阅包含一些嵌套智能标记的设计电子表格。
 
-**显示嵌套智能标记的设计器文件的第一个工作表。**
+**设计师文件的第一个工作表展示了嵌套的智能标记。**
 
-![待办事项：图像_替代_文本](using-smart-markers_5.png)
+![todo:image_alt_text](using-smart-markers_5.png)
 
-下面的示例展示了其工作原理。运行下面的代码会产生下面的输出。
+下面的示例将展示其工作原理。 运行下面的代码会得到以下输出。
 
-**输出文件的第一个工作表显示结果数据。**
+**输出文件的第一个工作表展示了结果数据。**
 
-![待办事项：图像_替代_文本](using-smart-markers_6.png)
+![todo:image_alt_text](using-smart-markers_6.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-UsingNestedObjects-UsingNestedObjects.java" >}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-Individual-Individual.java" >}}
 
-##  **使用通用列表作为嵌套对象**
+## **使用通用列表作为嵌套对象**
 
-Aspose.Cells 现在还支持使用通用列表作为嵌套对象。请检查使用以下代码生成的输出 Excel 文件的屏幕截图。正如您在屏幕截图中看到的，教师对象包含多个嵌套的学生对象。
+Aspose.Cells 现在还支持将泛型列表作为嵌套对象使用。请检查使用以下代码生成的输出 Excel 文件的屏幕截图。从屏幕截图中可以看到，一个 Teacher 对象包含多个嵌套的 student 对象。
 
-![待办事项：图像_替代_文本](using-smart-markers_7.png)
+![todo:image_alt_text](using-smart-markers_7.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-UsingGenericList-UsingGenericList.java" >}}
 
@@ -155,16 +156,16 @@ Aspose.Cells 现在还支持使用通用列表作为嵌套对象。请检查使�
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-Person-Person.java" >}}
 
-##  **使用智能标记的 HTML 属性**
+## **使用智能标记的HTML属性**
 
-以下示例代码解释了智能标记的 HTML 属性的使用。处理时，会将“Hello World”中的“World”显示为粗体，因为 HTML \<b>标签。
+The following sample code explains the use of the HTML property of the Smart Markers. When it will be processed, it will show "World" in "Hello World" as bold because of HTML \<b> tag.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-UsingHTMLProperty-UsingHTMLProperty.java" >}}
 
-##  **将数据与智能标记合并时获取通知**
+## **在合并智能标记数据时获取通知**
 
-有时，可能需要在完成之前获取有关单元格引用或正在处理的特定智能标记的通知。这可以通过使用来实现[**WorkbookDesigner.CallBack**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#CallBack)财产和[**智能标记回调**](https://reference.aspose.com/cells/java/com.aspose.cells/ISmartMarkerCallBack)
+有时，可能需要在完成之前获取有关正在处理的单元格引用或特定智能标记的通知。这可以通过 [**WorkbookDesigner.CallBack**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#CallBack) 属性和 [**ISmartMarkerCallBack**](https://reference.aspose.com/cells/java/com.aspose.cells/ISmartMarkerCallBack) 来实现
 
-示例代码和详细解释请参见这篇文章。
+有关示例代码和详细解释，请参阅此文章。
 
-- [将数据与智能标记合并时获取通知](/cells/zh/java/getting-notifications-while-merging-data-with-smart-markers/)
+- [在合并智能标记数据时获取通知](/cells/zh/java/getting-notifications-while-merging-data-with-smart-markers/)

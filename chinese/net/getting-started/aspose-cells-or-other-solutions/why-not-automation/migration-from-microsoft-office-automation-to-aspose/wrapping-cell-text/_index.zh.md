@@ -1,41 +1,42 @@
-﻿---
-title: 环绕 Cell 文本
+---
+title: 单元格文本自动换行
 type: docs
 weight: 130
 url: /zh/net/wrapping-cell-text/
 ---
+
 {{% alert color="primary" %}}
 
-环绕文本使其更易于阅读：带有环绕文本的单元格会扩展以适合文本，这样文本就不会显示在其他单元格之上。
+文本自动换行可以让阅读更容易：带有自动换行文本的单元格会根据文本大小自动调整大小，从而不会被其他单元格覆盖。
 
-使用 Aspose.Cells for .NET，开发人员可以在其应用程序中执行用户可以使用 Microsoft Excel 执行的大部分任务，包括在单元格中换行文本。本文解释了如何使用 VSTO 和 Aspose.Cells 并比较了任务。Aspose.Cells 针对高效编码进行了优化，并且在没有 Microsoft 自动化的情况下工作。
+使用Aspose.Cells for .NET，开发人员可以在应用程序中执行大部分用户可以使用Microsoft Excel执行的任务，包括在单元格中换行文本。本文解释了如何进行此操作，并比较了使用VSTO和Aspose.Cells执行此任务的方式。Aspose.Cells经过优化，便于高效编码，可以在没有Microsoft Automation的情况下运行。
 
 {{% /alert %}}
 
-## **环绕 Cell 文本**
+## **单元格文本自动换行**
 
-要创建一个包含两个单元格的工作表，一个包含环绕文本，一个不包含：
+要创建一个包含两个单元格的工作表，一个包含换行文本，一个不包含：
 
 1. 设置工作表：
- 1. 创建工作簿。
- 1. 访问第一个工作表。
-1. 添加文字：
- 1. 向单元格 A1 添加文本。
- 1. 将换行文本添加到单元格 A5。
+   1. 创建一个工作簿。
+   1. 访问第一个工作表。
+1. 添加文本：
+   1. 向A1单元格添加文本。
+   1. 向A5单元格添加包装文本。
 1. 保存电子表格。
 
-下面的代码示例显示了如何使用[VSTO](/cells/zh/net/wrapping-cell-text/)使用 C# 或 Visual Basic。代码示例显示如何使用[Aspose.Cells for .NET](/cells/zh/net/wrapping-cell-text/)紧接着再次使用 C# 或 Visual Basic。
+以下的代码示例展示了如何使用[VSTO](/cells/zh/net/wrapping-cell-text/)使用C#或Visual Basic执行这些步骤。代码示例展示了如何使用[Aspose.Cells for .NET](/cells/zh/net/wrapping-cell-text/)使用C#或Visual Basic执行相同操作。
 
-运行代码会生成一个包含两个单元格的电子表格，一个包含未换行的文本，另一个包含：
+运行代码将生成一个包含两个单元格的电子表格，一个包含未换行的文本，一个包含换行文本：
 
-|<p>**使用 VSTO 输出环绕单元格文本** </p><p>![待办事项：图片_替代_文本](wrapping-cell-text_1.png)</p>|<p>**输出环绕单元格文本 Aspose.Cells for .NET** </p><p>![待办事项：图片_替代_文本](wrapping-cell-text_2.png)</p>|
-|:- |:- |
+|<p>**Output wrapping cell text with VSTO** </p><p>![todo:image_alt_text](wrapping-cell-text_1.png)</p>|<p>**Output wrapping cell text with Aspose.Cells for .NET** </p><p>![todo:image_alt_text](wrapping-cell-text_2.png)</p>|
+| :- | :- |
 
-### **使用 VSTO 包装 Cell 文本**
+### **使用VSTO自动换行文本**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Note: To help you better, the code uses full namespacing
 
@@ -85,11 +86,11 @@ void WrappingCellText()
 
 {{< /highlight >}}
 
-### **包装 Cell 文本使用 Aspose.Cells for .NET**
+### **使用Aspose.Cells for .NET自动换行文本**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  void WrappingCellText()
 

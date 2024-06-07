@@ -4,11 +4,12 @@ type: docs
 weight: 30
 url: /zh/cpp/chart-rendering/
 ---
-##  **创建图表**
 
-Aspose.Cells API 支持创建大量 Excel 图表，如主题下详述[创建和自定义 Excel 图表](/cells/zh/cpp/creating-and-customizing-charts/)。为了演示如何使用 Aspose.Cells API 以图像和 PDF 格式呈现图表，我们将按照以下代码片段创建一个 Column 类型的图表。
+## **创建图形**
 
-{{< highlight "cpp" >}}
+Aspose.Cells API支持根据主题[创建和自定义Excel图表](/cells/zh/cpp/creating-and-customizing-charts/)中详细说明的内容创建各种Excel图表。为了演示使用Aspose.Cells API在图像和PDF格式中渲染图表的用法，我们将创建类型为Column的图表，代码如下。
+
+{{< highlight cpp >}}
 
 Aspose::Cells::Startup();
 
@@ -52,15 +53,15 @@ Aspose::Cells::Cleanup();
 
 {{< /highlight >}}
 
-##  **渲染图表**
+## **图表渲染**
 
-Aspose.Cells API 支持将 Excel 图表转换为图像和 PDF 格式，无需任何其他工具或应用程序。为了提供渲染支持，Chart 类公开了具有大量重载的 ToImage 和 ToPdf 方法，以最适合应用程序的要求。
+Aspose.Cells API支持将Excel图表转换为图像和PDF格式，无需任何其他工具或应用程序。为了提供渲染支持，Chart类公开了ToImage和ToPdf方法，包含各种重载以最适合应用程序需求。
 
-###  **将图表渲染为图像**
+### **将图表渲染为图像**
 
-Chart.toImage 方法具有大量重载来支持简单和高级渲染。如果应用程序要求以默认尺寸渲染图表，我们建议您使用 Chart.toImage 方法，如下所示。
+Chart.toImage方法包含各种重载，以支持简单和高级的渲染。如果应用程序要求以默认尺寸呈现图表，建议您使用Chart.toImage方法如下。
 
-{{< highlight "cpp" >}}
+{{< highlight cpp >}}
 
 // Path of output image file
 U16String outputChartImage = outDir + u"out1image.png";
@@ -70,11 +71,11 @@ chart.ToImage(outputChartImage, ImageType::Png);
 
 {{< /highlight >}}
 
-###  **渲染图至PDF**
+### **渲染图表为PDF**
 
-为了将图表呈现为 PDF 格式，Aspose.Cells API 公开了 Chart.ToPdf 方法，能够将结果 PDF 存储在光盘路径或流上。
+为了将图表呈现为PDF格式，Aspose.Cells API公开了Chart.ToPdf方法，能够将结果PDF存储在磁盘路径或流中。
 
-{{< highlight "cpp" >}}
+{{< highlight cpp >}}
 
 // Path of output pdf file
 U16String outputPdfFile = outDir + u"out1pdf.pdf";
@@ -84,96 +85,96 @@ chart.ToPdf(outputPdfFile);
 
 {{< /highlight >}}
 
-##  **支持的渲染图表类型**
+## **支持的图表类型用于渲染**
 
-目前不支持渲染某些图表类型。此类图表类型包含****支持中的 N****下表的列。
+目前不支持用于呈现的几种图表类型。此类图表类型在下表的**支持**列中包含**Y**。
 
-|**图表类型**|**图表子类型**|**支持的**|
+|**图表类型**|**图表子类型**|**支持**|
 | :- | :- | :- |
-|**柱子**|柱子|*是**|
-| |列堆叠|*是**|
-| |列100%堆积|*是**|
-| |柱状3D簇状|*是**|
-| |柱3D堆叠|*是**|
-| |Column3D100PercentStacked|*是**|
-| |柱三维|*是**|
-|**酒吧**|酒吧|*是**|
-| |条形堆叠|*是**|
-| |条形100%堆叠|*是**|
-| |Bar3D簇状|*是**|
-| |酒吧3D堆叠|*是**|
-| |Bar3D100百分比堆叠|*是**|
-|**线**|线|*是**|
-| |线堆叠|*是**|
-| |线 100% 堆叠|*是**|
-| |带数据标记的线|*是**|
-| |带数据标记的线堆叠|*是**|
-| |带数据标记的 Line100PercentStacked|*是**|
-| |线三维|*是**|
-|**馅饼**|馅饼|*是**|
-| |饼图3D|*是**|
-| |派派|*是**|
-| |馅饼爆炸了|*是**|
-| |饼图3D爆炸|*是**|
-| |饼图栏|*是**|
-|**分散**|分散|*是**|
-| |通过带有数据标记的曲线连接的散点图|*是**|
-| |不带数据标记的按曲线连接的散点图|*是**|
-| |ScatterConnectedByLinesWithDataMarker|*是**|
-| |不带数据标记的按行分散连接|*是**|
-|**区域**|区域|*是**|
-| |堆积面积|*是**|
-| |面积100%堆叠|*是**|
-| |三维区域|*是**|
-| |区域3D堆叠|*是**|
-| |Area3D100PercentStacked|*是**|
-|**油炸圈饼**|油炸圈饼|*是**|
-| |甜甜圈爆炸|*是**|
-|**雷达**|雷达|*是**|
-| |带数据标记的雷达|*是**|
-| |雷达填充|*是**|
-|**表面**|表面3D|N|
-| |表面线框3D|N|
-| |表面轮廓|N|
-| |表面轮廓线框|N|
-|**气泡**|气泡|*是**|
-| |泡泡3D|N|
-|库存|股票高低收盘|*是**|
-| |股票开盘高低收盘|*是**|
-| |股票成交量高低收盘|*是**|
-| |股票成交量开盘高低收盘|*是**|
-|**圆柱**|圆柱|*是**|
-| |圆筒堆叠|*是**|
-| |气缸100%堆叠|*是**|
-| |圆柱棒|*是**|
-| |圆柱形条堆叠|*是**|
-| |圆柱形条100%堆叠|*是**|
-| |圆柱3D|*是**|
-|**锥体**|锥体|*是**|
-| |圆锥堆叠|*是**|
-| |锥体100%堆叠|*是**|
-| |锥形棒|*是**|
-| |锥形条堆叠|*是**|
-| |锥形条100%堆叠|*是**|
-| |圆锥柱3D|*是**|
-|**金字塔**|金字塔|*是**|
-| |金字塔堆积|*是**|
-| |金字塔100%堆叠|*是**|
-| |金字塔酒吧|*是**|
-| |金字塔酒吧堆积|*是**|
-| |金字塔条形图100%堆叠|*是**|
-| |金字塔柱3D|*是**|
-|**盒须**|盒须|Y|
-|**漏斗**|漏斗|*是**|
-|**帕累托线**|帕累托线|*是**|
-|**旭日**|旭日|*是**|
-|**树形图**|树形图|*是**|
-|**瀑布**|瀑布|*是**|
-|**直方图**|直方图|Y|
-|**地图**|地图|*N**|
+|**Column**|Column|**Y**|
+| |ColumnStacked|**Y**|
+| |Column100PercentStacked|**Y**|
+| |Column3DClustered|**Y**|
+| |Column3DStacked|**Y**|
+| |Column3D100PercentStacked|**Y**|
+| |Column3D|**Y**|
+|**Bar**|Bar|**Y**|
+| |BarStacked|**Y**|
+| |Bar100PercentStacked|**Y**|
+| |Bar3DClustered|**Y**|
+| |Bar3DStacked|**Y**|
+| |Bar3D100PercentStacked|**Y**|
+|**Line**|Line|**Y**|
+| |LineStacked|**Y**|
+| |Line100PercentStacked|**Y**|
+| |LineWithDataMarkers|**Y**|
+| |LineStackedWithDataMarkers|**Y**|
+| |Line100PercentStackedWithDataMarkers|**Y**|
+| |Line3D|**Y**|
+|**Pie**|Pie|**Y**|
+| |Pie3D|**Y**|
+| |PiePie|**Y**|
+| |PieExploded|**Y**|
+| |Pie3DExploded|**Y**|
+| |PieBar|**Y**|
+|**Scatter**|Scatter|**Y**|
+| |ScatterConnectedByCurvesWithDataMarker|**Y**|
+| |ScatterConnectedByCurvesWithoutDataMarker|**Y**|
+| |ScatterConnectedByLinesWithDataMarker|**Y**|
+| |ScatterConnectedByLinesWithoutDataMarker|**Y**|
+|**Area**|Area|**Y**|
+| |AreaStacked|**Y**|
+| |Area100PercentStacked|**Y**|
+| |Area3D|**Y**|
+| |Area3DStacked|**Y**|
+| |Area3D100PercentStacked|**Y**|
+|**Doughnut**|Doughnut|**Y**|
+| |DoughnutExploded|**Y**|
+|**Radar**|Radar|**Y**|
+| |RadarWithDataMarkers|**Y**|
+| |RadarFilled|**Y**|
+|**Surface**|Surface3D|N|
+| |SurfaceWireframe3D|N|
+| |SurfaceContour|N|
+| |SurfaceContourWireframe|N|
+|**Bubble**|Bubble|**Y**|
+| |Bubble3D|N|
+|Stock|StockHighLowClose|**Y**|
+| |StockOpenHighLowClose|**Y**|
+| |StockVolumeHighLowClose|**Y**|
+| |StockVolumeOpenHighLowClose|**Y**|
+|**Cylinder**|Cylinder|**Y**|
+| |CylinderStacked|**Y**|
+| |Cylinder100PercentStacked|**Y**|
+| |CylindricalBar|**Y**|
+| |CylindricalBarStacked|**Y**|
+| |CylindricalBar100PercentStacked|**Y**|
+| |CylindricalColumn3D|**Y**|
+|**Cone**|Cone|**Y**|
+| |ConeStacked|**Y**|
+| |Cone100PercentStacked|**Y**|
+| |ConicalBar|**Y**|
+| |ConicalBarStacked|**Y**|
+| |ConicalBar100PercentStacked|**Y**|
+| |ConicalColumn3D|**Y**|
+|**Pyramid**|Pyramid|**Y**|
+| |PyramidStacked|**Y**|
+| |Pyramid100PercentStacked|**Y**|
+| |PyramidBar|**Y**|
+| |PyramidBarStacked|**Y**|
+| |PyramidBar100PercentStacked|**Y**|
+| |PyramidColumn3D|**Y**|
+|**BoxWhisker**|BoxWhisker|Y|
+|**Funnel**|Funnel|**Y**|
+|**ParetoLine**|ParetoLine|**Y**|
+|**Sunburst**|Sunburst|**Y**|
+|**Treemap**|Treemap|**Y**|
+|**Waterfall**|Waterfall|**Y**|
+|**Histogram**|Histogram|Y|
+|**Map**|Map|**N**|
 
 {{% alert color="primary" %}}
 
-如果您尝试将不支持的图表类型渲染为图像或 PDF，您最终可能会得到 0 大小的图像或空白 PDF。
+在尝试将不支持的图表类型渲染为图像或PDF时，可能会得到大小为0的图像或空白PDF。
 
 {{% /alert %}}

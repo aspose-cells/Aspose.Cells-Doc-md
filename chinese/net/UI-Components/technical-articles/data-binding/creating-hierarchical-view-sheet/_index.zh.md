@@ -1,73 +1,76 @@
-﻿---
+---
 title: 创建分层视图表
 type: docs
 weight: 30
-url: /zh/net/creating-hierarchical-view-sheet/
+url: /zh/net/aspose-cells-gridweb/create-hierarchical-view-sheet/
+keywords: GridWeb,分层
+description: 本文介绍了如何在GridWeb中创建分层视图。
 ---
+
 {{% alert color="primary" %}} 
 
-数据绑定是一个强大且用户友好的 GridWeb 特性。存储在数据库表中的数据被提取到数据集中并填充数据
+数据绑定是GridWeb的一个强大且用户友好的功能。 从数据库表中获取的数据填充到一个DataSet中，以表示数据表。使用数据绑定功能，您可以创建一个相互连接的数据的分层视图（主-子视图）并在控件中显示，使其更加优雅。 
 
-表示数据表。使用数据绑定功能，您可以创建互连数据的分层视图（主子视图）和
+本主题讨论了如何创建一个分层视图表。该表中的一些行具有子视图。当用户单击行的“展开”时 
 
-将其显示在控件中，使其更加优雅。
+在控件中显示它，以使其更为优雅。 
 
-本主题讨论创建分层视图表。工作表中的某些行具有子视图。当用户单击该行的**扩张**
+，则显示它。**存在一个带有分层视图的表格**
 
-按钮{{< emoticons/cross >}}，该行的子视图表向下展开。此功能对于构建分层视图报表非常有帮助。
+button {{< emoticons/cross >}}, the child view table of that row is expanded down. This feature is very helpful for building a hierarchical view report. 
 
-**具有层次视图的表** 
+**具有分层视图的表格** 
 
-![待办事项：图片_替代_文本](creating-hierarchical-view-sheet_1.png)
+![todo:image_alt_text](creating-hierarchical-view-sheet_1.png)
 
 {{% /alert %}} 
 ## **为数据表创建关系**
-例如，您使用 ADO.Net API 并从数据库表中提取数据。要创建分层视图表，您必须设计一个数据集
+例如，您可以使用ADO.Net API从数据库表中提取数据。要创建分层视图表，必须首先设计一个基于某些表的DataSet对象，并在它们之间创建关系。使用VS.NET的**数据集设计器**来创建关系。在
 
-基于一些表的对象，并首先在它们之间创建关系。使用VS.NET的**数据集设计器**创建关系。在
+例如，这里有三个数据表：Customers, Orders, Order Details. 表格默认显示所有客户信息。当用户展开客户时，网格显示该客户下的所有订单。当用户展开一个订单时，网格显示该订单的详细信息。数据是分层的：订单详情列在订单下面，订单列在客户下面。 
 
-这个例子中，有三个DataTable：Customers、Orders、Order Details。该工作表默认显示所有客户信息。什么时候
+要使其工作，必须在数据表之间建立以下关系： 
 
-用户展开一个客户，网格显示该客户下的所有订单。当用户展开订单时，网格显示详细信息
+1.在DataTable Orders上创建外键，关键字段为CustomerID 
 
-那个订单。数据是分层的：订单详细信息列在订单下，订单列在客户下。
+订单数据中，数据是分层的：订单详细信息列在订单下面，订单则列在顾客下面。
 
-为此，必须在数据表之间建立以下关系：
+为使此功能生效，数据表之间必须建立如下关系：
 
-1. 在DataTable Orders上创建外键，键字段为CustomerID
+1. 在数据表Orders上创建外键，键字段为CustomerID 
 
-![待办事项：图片_替代_文本](creating-hierarchical-view-sheet_2.png)
-
-
-
-
-1. 在DataTable Order Details上创建外键，键字段为OrderID。
-
-![待办事项：图片_替代_文本](creating-hierarchical-view-sheet_3.png)
+![todo:image_alt_text](creating-hierarchical-view-sheet_2.png)
 
 
 
-数据集设计器现在看起来像这样：
 
-![待办事项：图片_替代_文本](creating-hierarchical-view-sheet_4.png)
-### **绑定工作表**
-现在使用**工作表设计器**为工作表设置DataSource和DataMember，并配置数据字段绑定列。
+1.在DataTable Order Details上创建外键，关键字段为OrderID。 
 
-该控件会自动为对应于其绑定对象（通常是 DataRowView 对象）具有的记录的每一行添加一个 + 图标
+![todo:image_alt_text](creating-hierarchical-view-sheet_3.png)
 
-孩子的意见。单击 + 图标时，记录会展开以显示子视图。下面的示例使用**工作表设计器**绑定
 
-工作表到根父 DataTable Customers。
 
-![待办事项：图片_替代_文本](creating-hierarchical-view-sheet_5.png)
+数据集设计器现在如下所示： 
+
+![todo:image_alt_text](creating-hierarchical-view-sheet_4.png)
+### **绑定表**
+现在使用**工作表设计器**为工作表设置数据源和数据成员，并配置数据字段绑定列。 
+
+控件会为每一行自动添加一个+图标，该行对应的记录具有子视图。当单击+图标时，记录会展开显示子视图。以下示例使用**工作表设计器**将工作表绑定到根父DataTable Customers。 
+
+自定义子表绑定列 
+
+控件提供了一个名为GridWeb.BindingChildView的事件，开发人员可以使用该事件来自定义子表的绑定列。以下示例 
+
+![todo:image_alt_text](creating-hierarchical-view-sheet_5.png)
 ### **自定义子表绑定列**
-该控件提供了一个名为 GridWeb.BindingChildView 的事件，开发人员使用该事件自定义子表的绑定列。这个例子
+需要以货币格式显示订单详细信息的**UnitPrice**字段。添加事件处理程序以更改绑定列的数字格式。 
 
-需要显示订单详情'**单价**货币格式的字段。添加事件处理程序以更改绑定列的数字格式。
+需要以货币格式显示订单详细信息的**UnitPrice**字段。添加事件处理程序以更改绑定列的数字格式。 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Handles the BindingChildView event to set the UnitPrice column.
 
@@ -93,7 +96,7 @@ private void GridWeb1_BindingChildView(Aspose.Cells.GridWeb.GridWeb childGrid, A
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  'Handles the BindingChildView event to set the UnitPrice column.
 
@@ -114,38 +117,38 @@ End Sub
 
 
 {{< /highlight >}}
-### **从数据库加载数据并绑定**
-如中所述[使用 GridWeb 的工作表设计器将工作表绑定到数据集](/cells/zh/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/),
-您需要将代码添加到 Page_Load 块以将数据从数据库加载到 DataSet，并将 DataSet 绑定到
+### **从数据库加载数据并绑定数据**
+从数据库加载数据并绑定
+如[在GridWeb的工作表设计器中将工作表绑定到一个数据集](/cells/zh/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/)所述，您需要在Page_Load块中添加代码，从数据库加载数据到DataSet，并在下一步中将DataSet绑定到工作表。 
 
-下一步。
+Asppose.Grid.Web.Data.WebWorksheet类具有一些有用的属性。 
 
-Aspose.Grid.Web.Data.WebWorksheet 类有一些有用的属性。
+Asppose.Grid.Web.Data.WebWorksheet类具有一些有用的属性。
 
-- 例如，属性 EnableCreateBindColumnHeader 用于在工作表或列中创建绑定列的标题
+- 例如，EnableCreateBindColumnHeader属性用于在表格内创建绑定列的标题，或者列
 
-headers 显示绑定的列名。它需要值**真的**要么**错误的**. 
+headers显示绑定列名称。它接受true或false。 
 
-- 属性 BindStartRow 和 BindStartColumn 指定源应绑定到的 GridWeb 控件工作表中的位置。
-- 属性 EnableExpandChildView 用于禁用工作表的展开子视图。默认情况下，它设置为 true。
+- BindStartRow和BindStartColumn属性指定GridWeb控件中源绑定的位置。
+- EnableExpandChildView属性用于禁用工作表的展开子视图。默认情况下设置为true。
 
-该类也有一些有用的方法。
+该类还具有一些有用的方法。 
 
-- DataBind() 方法将工作表与源绑定。
-- CreateNewBindRow() 添加一个新行并将其绑定到数据源。
-- DeleteBindRow() 删除绑定行。
-- SetRowExpand() 方法设置展开的行并以数据绑定方式显示子视图内容。
-- GetRowExpand() 方法获取一个布尔值，指示该行是否展开。
+- DataBind()方法将表格与源绑定。
+- CreateNewBindRow()添加一个新行并将其绑定到数据源。
+- DeleteBindRow()删除一个绑定行。
+- SetRowExpand()方法设置展开的行并在数据绑定模式下显示子视图内容。
+- GetRowExpand()方法获取一个布尔值，指示行是否展开。
 
-在下面的代码中，DataSet 对象“dataSet21”填充了基于三个表的数据。 Customers 表被过滤，使其成为
+在下面的代码中，DataSet对象"dataSet21"根据三个表中的数据填充。筛选顾客表以使其成为 
 
-分层显示中的第一个表。创建一个名为“sheet”的WebWorksheet对象，先清除sheet再设置
+分层显示中的第一个表。创建了一个名为"sheet"的WebWorksheet对象，首先清除该表，然后将其设置为 
 
-链接到数据源。
+链接到数据源。 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private void Page_Load(object sender, System.EventArgs e)
 
@@ -199,7 +202,7 @@ private void BindWithoutInSheetHeaders()
 
         dataSet21.Customers.DefaultView.RowFilter = "CustomerID<'BSAAA'";
 
-        WebWorksheet sheet = GridWeb1.WebWorksheets[0];
+        WebWorksheet sheet = GridWeb1.WorkSheets[0];
 
         // Clears the sheet.
 
@@ -235,53 +238,53 @@ private void BindWithoutInSheetHeaders()
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) 处理 MyBase.Load
+ Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
- '在这里放置用户代码来初始化页面
+    'Put user code to initialize the page here
 
-如果不是 IsPostBack 那么
+    If Not IsPostBack Then
 
-BindWithoutInSheetHeaders()
+        BindWithoutInSheetHeaders()
 
-万一
+    End If
 
-结束子
+End Sub
 
 Private Sub BindWithoutInSheetHeaders()
 
- Dim db As DemoDatabase2 = New DemoDatabase2()
+    Dim db As DemoDatabase2 = New DemoDatabase2()
 
-昏暗路径 As String = MapPath(".")
+    Dim path As String = MapPath(".")
 
- path = path.Substring(0, path.LastIndexOf("\"))
+    path = path.Substring(0, path.LastIndexOf("\"))
 
- path = path.Substring(0, path.LastIndexOf("\"))
+    path = path.Substring(0, path.LastIndexOf("\"))
 
- db.OleDbConnection1.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + path + "\Database\Northwind.mdb"
+    db.OleDbConnection1.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + path + "\Database\Northwind.mdb"
 
-尝试
+    Try
 
-' 连接到数据库并获取数据。
+        ' Connects to database and fetches data.
 
- ' 客户表。
+        ' Customers Table.
 
- db.OleDbDataAdapter1.Fill(DataSet21)
+        db.OleDbDataAdapter1.Fill(DataSet21)
 
- ' 订单表。
+        ' Orders Table.
 
- db.OleDbDataAdapter2.Fill(DataSet21)
+        db.OleDbDataAdapter2.Fill(DataSet21)
 
- ' 订单明细表。
+        ' OrderDetailTable.
 
- db.OleDbDataAdapter3.Fill(DataSet21)
+        db.OleDbDataAdapter3.Fill(DataSet21)
 
- '过滤数据
+        ' Filter data
 
-DataSet21.Customers.DefaultView.RowFilter = "客户ID<'BSAAA'"
+        DataSet21.Customers.DefaultView.RowFilter = "CustomerID<'BSAAA'"
 
-        Dim sheet As WebWorksheet = GridWeb1.WebWorksheets(0)
+        Dim sheet As WebWorksheet = GridWeb1.WorkSheets(0)
 
         ' Clears the sheet.
 

@@ -1,16 +1,17 @@
-﻿---
-title: 在 PHP 中打开文件
+---
+title: 在PHP中打开文件
 type: docs
 weight: 10
 url: /zh/net/opening-files-in-php/
 ---
-## **Aspose.Cells - 打开 Excel 文件**
+
+## **Aspose.Cells - 打开Excel文件**
 ### **通过路径打开**
-只需通过引用文件路径打开 Microsoft Excel 文件
+通过引用文件的路径来简单地打开Microsoft Excel文件
 
 **PHP代码**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -28,6 +29,6 @@ url: /zh/net/opening-files-in-php/
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**打开文件 (Aspose.Cells)**来自以下任何社交编码网站：
+从下面提到的任何社交编码网站下载**打开文件（Aspose.Cells）**。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/FileHandlingFeatures/OpeningFiles.php)

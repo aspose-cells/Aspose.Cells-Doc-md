@@ -1,35 +1,36 @@
-﻿---
-title: 公共 API Aspose.Cells 8.4.0 的变化
+---
+title: Aspose.Cells 8.4.0 中的公共 API 更改
 type: docs
 weight: 140
 url: /zh/java/public-api-changes-in-aspose-cells-8-4-0/
 ---
+
 {{% alert color="primary" %}} 
 
-本文档描述了 Aspose.Cells API 从版本 8.3.2 到 8.4.0 的变化，模块/应用程序开发人员可能会感兴趣。它不仅包括新的和更新的公共方法，[添加类等](/cells/zh/java/public-api-changes-in-aspose-cells-8-4-0/)和[删除的类等](/cells/zh/java/public-api-changes-in-aspose-cells-8-4-0/)还描述了 Aspose.Cells 中幕后行为的任何变化。
+本文描述了 Aspose.Cells API 版本从 8.3.2 到 8.4.0 的更改，这可能对模块/应用程序开发人员有所帮助
 
 {{% /alert %}} 
-## **添加的 API**
-### **修改电子表格中 VBA/宏代码的机制**
-为了提供以下功能[VBA/宏代码操作](/cells/zh/java/modifying-vba-or-macro-code-using-aspose-cells/)Aspose.Cells for Java 8.4.0在com.aspose.cells.Vba包中暴露了一系列新的类和属性。这些新类的一些重要细节如下。
+## **已添加API**
+### **修改电子表格中的 VBA/宏代码的机制**
+为了提供 VBA/Macro 代码操作功能，Aspose.Cells for Java 8.4.0 在 com.aspose.cells.Vba 包中公开了一系列新类和属性
 
 - VbaProject 类可用于从给定的电子表格中获取 VBA 项目。
-- VbaModuleCollection 类表示属于给定 VbaProject 的 VBA 模块的集合。
-- VbaModule 类表示 VbaModuleCollection 中的单个模块。
+- VbaModuleCollection 类表示给定 VbaProject 的 VBA 模块集合。
+- VbaModule 类表示来自 VbaModuleCollection 的单个模块。
 
 以下代码片段显示了如何动态修改 VBA 代码段。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
-工作簿 workbook = new Workbook("source.xlsm");
+ Workbook workbook = new Workbook("source.xlsm");
 
-//更改VBA模块代码
+//Change the VBA Module Code
 
-VbaModuleCollection 模块 = workbook.getVbaProject().getModules();
+VbaModuleCollection modules = workbook.getVbaProject().getModules();
 
-对于（int i=0；我< modules.getCount(); i++)
+for(int i=0; i < modules.getCount(); i++)
 
 {
 
@@ -56,17 +57,17 @@ VbaModuleCollection 模块 = workbook.getVbaProject().getModules();
 workbook.save("output.xlsm");
 
 {{< /highlight >}}
-### **能够删除数据透视表**
-Aspose.Cells for Java 8.4.0 公开了 PivotTableCollection 的两种方法，以提供从给定电子表格中删除数据透视表的功能。上述方法的详情如下。
+### **移除数据透视表的功能**
+Aspose.Cells for Java 8.4.0 已向 PivotTableCollection 公开了两种方法，用于从给定的电子表格中删除数据透视表
 
-- PivotTableCollection.remove 方法接受数据透视表的对象，并将其从集合中删除。
-- PivotTableCollection.removeAt 方法接受基于零索引的整数值，并从集合中删除特定的数据透视表。
+- PivotTableCollection.remove 方法接受一个 PivotTable 对象，并将其从集合中移除。
+- PivotTableCollection.removeAt 方法接受基于零的索引整数值，并从集合中移除特定的 PivotTable。
 
-以下代码片段显示了如何使用上述两种方法删除数据透视表。
+以下代码片段显示了如何使用上述两种方法移除 PivotTable。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source Excel file
 
@@ -94,23 +95,23 @@ workbook.save("output.xlsx");
 
 {{< /highlight >}}
 ### **支持不同的数据透视表布局**
-Aspose.Cells for Java 8.4.0 支持数据透视表的不同预定义布局。为了提供此功能，Aspose.Cells API 公开了 PivotTable 类的三种方法，如下所述。
+Aspose.Cells for Java 8.4.0 提供了对数据透视表不同预定义布局的支持。为实现此功能，Aspose.Cells API已经为 PivotTable 类公开了三种方法，如下所述。
 
-- PivotTable.showInCompactForm 方法以紧凑布局呈现数据透视表。
-- PivotTable.showInOutlineForm 方法以大纲布局呈现数据透视表。
-- PivotTable.showInTabularForm 方法以表格布局呈现数据透视表。
+- PivotTable.showInCompactForm 方法将数据透视表呈现为紧凑布局。
+- PivotTable.showInOutlineForm 方法将数据透视表呈现为大纲布局。
+- PivotTable.showInTabularForm 方法将数据透视表呈现为表格布局。
 
 {{% alert color="primary" %}} 
 
-在设置上述任何布局后调用 PivotTable.refreshData 和 PivotTable.calculateData 很重要。
+在设置上述布局后，调用 PivotTable.refreshData 和 PivotTable.calculateData 非常重要。 
 
 {{% /alert %}} 
 
-以下示例代码为数据透视表设置不同的布局并将结果存储在光盘上。
+以下示例代码为数据透视表设置不同的布局，并将结果存储在磁盘上。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -167,19 +168,19 @@ pivotTable.calculateData();
 workbook.save("TabularForm.xlsx");
 
 {{< /highlight >}}
-### **类 TxtLoadStyleStrategy 和属性 TxtLoadOptions.LoadStyleStrategy 添加**
-Aspose.Cells for Java 8.4.0 公开了 TxtLoadStyleStrategy 类和 TxtLoadOptions.LoadStyleStrategy 属性，以便在将字符串值转换为数字或日期时间时指定格式化解析值的策略。
-### **添加了方法 DataBar.ToImage**
-随着v8.4.0的发布，Aspose.Cells API 提供了DataBar.toImage方法将条件格式化的DataBar保存为图片格式。 {DataBar.toImage}} 方法接受两个参数，详情如下。
+### **类 TxtLoadStyleStrategy 和属性 TxtLoadOptions.LoadStyleStrategy 已添加**
+Aspose.Cells for Java 8.4.0 已经公开了 TxtLoadStyleStrategy 类和 TxtLoadOptions.LoadStyleStrategy 属性，以指定在将字符串值转换为数字或日期时间时格式化解析值的策略。
+### **添加了DataBar.ToImage方法**
+通过 v8.4.0 版本的发布，Aspose.Cells API提供了 DataBar.toImage 方法，可以将有条件格式的 DataBar 保存为图像格式。DataBar.toImage 方法接受如下两个参数。
 
-- 第一个参数的类型为 com.aspose.cells.Cell，已应用条件格式。
-- 第二个参数是 com.aspose.cells.rendering.ImageOrPrintOptions 类型，以便设置结果图像的不同参数。
+- 第一个参数是应用了条件格式的 com.aspose.cells.Cell 类型。
+- 第二个参数是 com.aspose.cells.rendering.ImageOrPrintOptions 类型，用于设置结果图像的不同参数。
 
-以下示例代码演示了如何使用 DataBar.toImage 方法以图像格式呈现 DataBar。
+以下示例代码演示了使用 DataBar.toImage 方法将 DataBar 呈现为图像格式。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -209,7 +210,7 @@ opts.setImageFormat(ImageFormat.getPng());
 
 //Get the image bytes of the databar
 
-byte[]imgBytes = dbar.toImage(cell, opts);
+byte[] imgBytes = dbar.toImage(cell, opts);
 
 //Write image bytes on the disk
 
@@ -220,24 +221,24 @@ out.write(imgBytes);
 out.close();
 
 {{< /highlight >}}
-### **属性 Border.ThemeColor 添加**
-Aspose.Cells API 允许从电子表格中提取与主题相关的数据。随着Aspose.Cells for Java 8.4.0的发布，API已经暴露了Border.ThemeColor属性，可以用来获取Cell边框的主题颜色属性。
-### **添加了属性 DrawObject.ImageBytes**
-Aspose.Cells for Java 8.4.0 公开了 DrawObject.ImageBytes 属性以从图表或形状获取图像数据。
-### **已添加属性 HtmlSaveOptions.ExportBogusRowData**
- Aspose.Cells for Java 8.4.0 提供了 {HtmlSaveOptions.ExportBogusRowData}} 属性。布尔类型属性决定 API 在将电子表格导出为 HTML 格式时是否会注入伪造的底行数据。
+### **添加了Border.ThemeColor属性**
+Aspose.Cells API允许从电子表格中提取与主题相关的数据。随着 Aspose.Cells for Java 8.4.0 的发布，API已经公开了 Border.ThemeColor 属性，可用于检索单元格边框的主题颜色属性。
+### **添加了DrawObject.ImageBytes属性**
+Aspose.Cells for Java 8.4.0 已经公开了 DrawObject.ImageBytes 属性，以从图表或形状中获取图像数据。
+### **添加了HtmlSaveOptions.ExportBogusRowData属性**
+Aspose.Cells for Java 8.4.0 提供了 {HtmlSaveOptions.ExportBogusRowData}} 属性。这个布尔类型属性确定 API在将电子表格导出为 HTML 格式时是否注入虚假底部行数据。 
 
 {{% alert color="primary" %}} 
 
-默认值是true。
+默认值为 true。
 
 {{% /alert %}} 
 
-以下示例代码说明了上述属性的使用。
+以下示例代码演示了上述属性的使用。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an object of HtmlSaveOptions class
 
@@ -256,16 +257,16 @@ Workbook workbook = new Workbook("source.xlsx");
 workbook.save("output.xlsx");
 
 {{< /highlight >}}
-### **已添加属性 HtmlSaveOptions.CellCssPrefix**
-新添加的属性 HtmlSaveOptions.CellCssPrefix 允许在将电子表格导出为 HTML 格式时设置 CSS 文件的前缀。
+### **新增 HtmlSaveOptions.CellCssPrefix 属性**
+新增属性 HtmlSaveOptions.CellCssPrefix 允许设置导出电子表格到 HTML 格式时的 CSS 文件前缀。
 
 {{% alert color="primary" %}} 
 
-默认值为“”（空字符串）。
+默认值为空字符串。
 
 {{% /alert %}}
-## **废弃的 API**
-### **方法 Cells.getCellByIndex 和 Row.getCellByIndex 已废弃**
-改为使用 getEnumerator 方法迭代所有单元格。
-### **属性 DrawObject.Image 已废弃**
+## **已弃用的API**
+### **已废弃 Cells.getCellByIndex 和 Row.getCellByIndex 方法**
+使用 getEnumerator 方法来遍历所有单元格。
+### **已弃用 DrawObject.Image 属性**
 使用 DrawObject.ImageBytes 属性来获取图像数据。

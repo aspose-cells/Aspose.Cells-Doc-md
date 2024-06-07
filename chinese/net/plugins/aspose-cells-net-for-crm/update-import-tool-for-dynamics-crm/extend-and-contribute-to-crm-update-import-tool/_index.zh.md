@@ -1,16 +1,17 @@
-﻿---
-title: 扩展并贡献于 CRM 更新导入工具
+---
+title: 扩展和为CRM更新导入工具做贡献
 type: docs
 weight: 10
 url: /zh/net/extend-and-contribute-to-crm-update-import-tool/
 ---
-您可以在以下位置下载最新的源代码：
+
+您可以在以下位置下载最新的源代码:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Dynamics%20CRM/Aspose.Plugins.UpdateImportTool).
 
-将数据从 CRM 导出到 Excel
+从CRM导出数据到Excel
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
   SaveFileDialog fileDialog = new SaveFileDialog();
 
@@ -71,9 +72,9 @@ url: /zh/net/extend-and-contribute-to-crm-update-import-tool/
 
 {{< /highlight >}}
 
-将数据从 Excel 导入 CRM
+从Excel导入数据到CRM
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
   if (ctrl.CrmConnectionMgr != null && ctrl.CrmConnectionMgr.CrmSvc != null && ctrl.CrmConnectionMgr.CrmSvc.IsReady)
 

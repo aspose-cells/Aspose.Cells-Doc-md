@@ -1,24 +1,25 @@
-﻿---
-title: 使用形状或图表的阴影效果
+---
+title: 处理形状或图表的阴影效果
 type: docs
 weight: 940
 url: /zh/java/working-with-the-shadow-effect-of-shape-or-chart/
 ---
+
 ## **可能的使用场景**
-Aspose.Cells 提供了[形状.ShadowEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ShadowEffect)使用形状或图表的阴影效果的属性。它包含以下子属性，您可以根据需要设置这些子属性以获得不同的结果。
+Aspose.Cells 提供了 [Shape.ShadowEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ShadowEffect) 属性，用于处理形状或图表的阴影效果。它包含以下子属性，您可以根据需要设置以实现不同的效果。
 
-- [阴影效果.角度](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Angle)
-- [阴影效果.模糊](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Blur)
-- [阴影效果.颜色](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Color)
-- [阴影效果.距离](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Distance)
+- [ShadowEffect.Angle](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Angle)
+- [ShadowEffect.Blur](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Blur)
+- [ShadowEffect.Color](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Color)
+- [ShadowEffect.Distance](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Distance)
 - [ShadowEffect.PresetType](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#PresetType)
-- [阴影效果.大小](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Size)
-- [阴影效果.透明度](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Transparency)
+- [ShadowEffect.Size](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Size)
+- [ShadowEffect.Transparency](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Transparency)
 
-以下截图为Microsoft Excel界面设置*阴影效果*的形状。
+下面的屏幕截图显示了 Microsoft Excel 界面，用于设置形状的阴影效果。
 
-![待办事项：图片_替代_文本](working-with-the-shadow-effect-of-shape-or-chart_1.png)
-## **使用形状或图表的阴影效果**
-下面的示例代码加载[源文件](5472531.xlsx)并访问第一个工作表中的第一个形状并设置子属性[形状.ShadowEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ShadowEffect)属性，然后将工作簿保存在[输出excel文件](5472530.xlsx).
+![todo:image_alt_text](working-with-the-shadow-effect-of-shape-or-chart_1.png)
+## **处理形状或图表的阴影效果**
+以下示例代码加载了 [源 Excel 文件](5472531.xlsx) 并访问第一个工作表中的第一个形状，设置了 [Shape.ShadowEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ShadowEffect) 属性的子属性，然后将工作簿保存到 [输出 Excel 文件](5472530.xlsx)。
 ## **示例代码**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithShadowEffect-WorkingWithShadowEffect.java" >}}

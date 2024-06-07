@@ -1,15 +1,16 @@
-﻿---
+---
 title: 创建新工作簿
 type: docs
 weight: 20
 url: /zh/java/create-new-workbook/
 ---
+
 ## **Aspose.Cells - 创建新工作簿**
-工作簿类可供简单使用
+Workbook类可供简单使用
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -17,11 +18,11 @@ workbook.save("newWorkBook.xlsx", SaveFormat.XLSX); //Workbooks can be saved in 
 
 {{< /highlight >}}
 ## **Apache POI SS - HSSF XSSF - 创建新工作簿**
-使用 Workbook 类创建新工作簿并使用 FileOutputStream 保存。
+使用Workbook类创建新工作簿，然后使用FileOutputStream保存。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 

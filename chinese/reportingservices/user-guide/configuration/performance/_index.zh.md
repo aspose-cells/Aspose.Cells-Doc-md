@@ -1,12 +1,13 @@
-﻿---
-title: 表现
+---
+title: 性能
 type: docs
 weight: 30
 url: /zh/reportingservices/performance/
 ---
-要提高性能，请将性能参数设置为**在**.
 
-{{< highlight "java" >}}
+为了改善性能，将性能参数设置为 **ON**。
+
+{{< highlight java >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="False">
 
@@ -26,11 +27,11 @@ url: /zh/reportingservices/performance/
 
 {{< /highlight >}}
 
-各项性能参数如下：
+各种性能参数如下：
 
-- **LimitCellsNumberForMerged** ：可以合并的最大单元格数。默认值 1,000,000。参数值由用户设定，不受性能参数切换的影响。
+- **LimitCellsNumberForMerged**：可以合并的最大单元格数。默认值为 1,000,000。参数值由用户设置，不受性能参数开关影响。 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True" LimitCellsNumberForMerged="10000" IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -39,9 +40,9 @@ url: /zh/reportingservices/performance/
 
 
 
-- **IsAutoRowFit** ：当 Performance 的值为**离开** IsAutoRowFit 的值为**错误的**默认。当性能参数的值为**在** 值为**真的**默认。当 Performance 的值为**在**，子元素报告可以将点报告重置为 AutoRowFit 值。
+- **IsAutoRowFit**：当性能值为 **off** 时，默认值为 **false**。当性能参数值为 **on** 时，默认值为 **true**。当性能值为 **on** 时，子元素报告可以将点报告重置为 AutoRowFit 值。 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -64,9 +65,9 @@ url: /zh/reportingservices/performance/
 
 
 
-- **已合并** ：当 Performance 的值为**离开** IsMerged 默认值为**错误的**.当 Performance 的值为**在**，默认值为**真的**.当 Performance 参数的值为**在**，子元素报告可以将点报告重置为 AutoRowFit 值。
+- **IsMerged**：当性能值为 **off** 时，IsMerged 默认值为 **false**。当性能值为 **on** 时，默认值为 **true**。当性能参数值为 **on** 时，子元素报告可以将点报告重置为 AutoRowFit 值。 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True" IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -89,9 +90,9 @@ url: /zh/reportingservices/performance/
 
 
 
-- **设置样式** ：当 Performance 的值为**离开**，默认值为**错误的**.当性能是**在**，默认值为**真的**.此外，当性能是**在**，子元素报告可以将点报告重置为 AutoRowFit 值。
+- **IsSetStyle**：当性能值为 **off** 时，默认值为 **false**。当性能为 **on** 时，默认值为 **true**。此外，当性能为 **on** 时，子元素报告可以将点报告重置为 AutoRowFit 值。 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
    <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -114,9 +115,9 @@ url: /zh/reportingservices/performance/
 
 
 
-- **是条件格式**：当性能是**离开**，默认值为**错误的**.当性能是**在**，默认值为**真的**.此外，当性能是**在**，子元素报告可以将点报告重置为 AutoRowFit 值。当 IsSetStyle 参数值设置为**错误的** Performance 的值无效。
+- **IsConditionalFormatting**：当性能为 **off** 时，默认值为 **false**。当性能为 **on** 时，默认值为 **true**。此外，当性能为 **on** 时，子元素报告可以将点报告重置为 AutoRowFit 值。将 IsSetStyle 参数值设置为 **false** 时，性能值无效。 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
    <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 

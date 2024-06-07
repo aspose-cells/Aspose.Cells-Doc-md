@@ -1,28 +1,29 @@
-﻿---
-title: 在工作表中合并或取消合并 Cells
+---
+title: 合并或取消合并工作表中的单元格
 type: docs
 weight: 40
 url: /zh/net/merge-or-unmerge-cells-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-使用工作表时，您通常需要在跨越工作表顶部的单个单元格中创建标题/标题。您可能正在创建发票，并希望总计值或汇总值的列数更少。当您想要从两个或多个单元格生成一个单元格时，您可以合并这些单元格。我们独立使用 VSTO 和 Aspose.Cells for .NET 执行任务。
+在处理工作表时，您经常需要在单元格中创建一个跨越工作表顶部的标题/标题。您可能正在创建发票，并且想要较少列用于总值或汇总值。当您要将两个或多个单元格合并为一个单元格时，合并这些单元格。我们使用 VSTO 和 Aspose.Cells for .NET 独立执行该任务。
 
 {{% /alert %}}
 
 ## **描述**
 
-打开现有的excel文件，合并工作簿中第一个工作表中的一些单元格并保存excel文件。
+打开现有的Excel文件，在工作簿的第一个工作表中合并一些单元格，并保存Excel文件。
 
-## **合并 Cells**
+## **合并单元格**
 
-以下是 VSTO（C#，VB）和 Aspose.Cells for .NET（C#，VB）的并行代码片段。
+以下是 VSTO（C＃，VB）和 Aspose.Cells for .NET（C＃，VB）的并行代码片段。
 
 ### **1) VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -86,7 +87,7 @@ excelApp.Quit();
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -122,15 +123,15 @@ workbook.Save(@"d:\test\MyBook.xls");
 
 {{< /highlight >}}
 
-## **取消合并 Cells**
+## **取消合并单元格**
 
-要取消合并单元格，请对 VSTO（C#，VB）和 Aspose.Cells for .NET（C#，VB）使用以下代码行。
+要取消合并单元格，使用以下代码行进行 [VSTO](/cells/zh/net/inserting-and-removing-cell-comments-in-a-worksheet/)（C＃，VB）和 [Aspose.Cells for .NET](/cells/zh/net/inserting-and-removing-cell-comments-in-a-worksheet/)（C＃，VB）。
 
 ### **1) VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Get the A1 cell (Merged Cell).
 
@@ -148,7 +149,7 @@ rng1.UnMerge();     
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Get the A1 cell (Merged Cell).
 

@@ -1,17 +1,18 @@
-﻿---
-title: 公共 API Aspose.Cells 8.5.2 的变化
+---
+title: Aspose.Cells 8.5.2 中的公共 API 更改
 type: docs
 weight: 180
 url: /zh/net/public-api-changes-in-aspose-cells-8-5-2/
 ---
+
 {{% alert color="primary" %}} 
 
-本文档描述了 Aspose.Cells API 从版本 8.5.1 到 8.5.2 的变化，模块/应用程序开发人员可能会感兴趣。它不仅包括新的和更新的公共方法，[添加类等](/cells/zh/net/public-api-changes-in-aspose-cells-8-5-2/)还描述了 Aspose.Cells 中幕后行为的任何变化。
+本文描述了从版本8.5.1到8.5.2的Aspose.Cells API的更改，可能对模块/应用程序开发人员感兴趣。它不仅包括新的和更新的公共方法，添加的类等，还包括Aspose.Cells幕后行为中的任何更改的描述。
 
 {{% /alert %}} 
-## **添加的 API**
+## **已添加API**
 ### **将工作表渲染到图形上下文**
-此版本 Aspose.Cells for .NET API 公开了 SheetRender.ToImage 方法的两个新重载，现在允许接受 System.Drawing.Graphics 类的实例以[在图形上下文中渲染](/cells/zh/net/render-worksheet-to-graphic-context/).新增方法的签名如下。
+这个Aspose.Cells for .NET API的版本公开了SheetRender.ToImage方法的两个新重载，现在允许接受System.Drawing.Graphics类的实例来在图形环境中渲染。新增方法的签名如下。
 
 1. SheetRender.ToImage(int pageIndex, Graphics g, float x, float y)
 1. SheetRender.ToImage(int pageIndex, Graphics g, float x, float y, float width, float height)
@@ -20,7 +21,7 @@ url: /zh/net/public-api-changes-in-aspose-cells-8-5-2/
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source file
 
@@ -59,14 +60,14 @@ bmp.Save("test.png", ImageFormat.Png);
 {{< /highlight >}}
 
 
-### **添加了方法 PivotTable.GetCellByDisplayName**
- Aspose.Cells for .NET 8.5.2公开了PivotTable.GetCellByDisplayName方法，可以用来[通过 PivotField 的名称检索 Cell 对象](/cells/zh/net/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/).在您希望突出显示或格式化 PivotField 标头的情况下，此方法可能很有用。
+### **新增 PivotTable.GetCellByDisplayName 方法**
+Aspose.Cells for .NET 8.5.2公开了PivotTable.GetCellByDisplayName方法，可用于通过PivotField的名称检索Cell对象。此方法在希望突出显示或格式化PivotField标题的情况下非常有用。
 
 以下是简单的使用场景。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -103,16 +104,16 @@ workbook.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **添加属性 SaveOptions.MergeAreas**
-Aspose.Cells for .NET 8.5.2 公开了可以接受布尔类型值的SaveOptions.MergeAreas 属性。默认值为 false，但是，如果设置为 true，则 Aspose.Cells for .NET API 会在保存文件之前尝试合并单个 CellArea。
+### **新增 SaveOptions.MergeAreas 属性**
+Aspose.Cells for .NET 8.5.2已公开了SaveOptions.MergeAreas属性，可接受布尔类型的值。默认值为false，但如果设置为true，则Aspose.Cells for .NET API将尝试在保存文件之前合并单个CellArea。
 
 {{% alert color="primary" %}} 
 
-如果电子表格包含太多应用了验证的单个单元格，则生成的电子表格可能会损坏。一种可能的解决方案是合并具有相同验证规则的单元格，或者您现在可以使用 SaveOptions.MergeAreas 属性指示 API 在保存操作之前自动合并 CellAreas。
+如果电子表格具有太多已应用验证的单元格，则可能会造成生成的电子表格损坏。一种可能的解决方案是合并具有相同验证规则的单元格，或者您现在可以使用SaveOptions.MergeAreas属性，指示API在保存操作之前自动合并CellAreas。
 
 {{% /alert %}} 
-### **添加了属性 Shape.Geometry.ShapeAdjustValues**
-随着v8.5.2的发布，Aspose.Cells API 已经暴露了Shape.Geometry.ShapeAdjustValues属性，可以用来[改变不同形状的调整点](/cells/zh/net/change-adjustment-values-of-the-shape/).
+### **新增 Shape.Geometry.ShapeAdjustValues 属性**
+随着v8.5.2的发布，Aspose.Cells API已公开了Shape.Geometry.ShapeAdjustValues属性，可用于更改不同形状的调整点。
 
 {{% alert color="primary" %}} 
 
@@ -122,16 +123,16 @@ Aspose.Cells for .NET 8.5.2 公开了可以接受布尔类型值的SaveOptions.M
 
 例如，
 
-1. 圆角矩形有个调整改变圆弧
-1. 三角形有一个调整改变点的位置
-1. 梯形有个调整可以改变顶部的宽度
-1. 箭头有两个调整来改变头部和尾部的形状
+1. 圆角矩形具有可以更改弧度的调整
+1. 三角形具有可更改顶点位置的调整
+1. 梯形具有可以更改顶部宽度的调整
+1. 箭头具有两个调整，以更改头部和尾部的形状
 
 这里是最简单的使用场景。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -164,20 +165,20 @@ workbook.Save("output.xls);
 {{< /highlight >}}
 
 
-### **添加枚举字段 ConsolidationFunction.DistinctCount**
- Aspose.Cells for .NET 8.5.2暴露了ConsolidationFunction.DistinctCount字段，可用于[应用 Distinct Count 合并函数](/cells/zh/net/consolidation-function/)在数据透视表的数据字段上。
+### **枚举 Field ConsolidationFunction.DistinctCount 已添加**
+Aspose.Cells for .NET 8.5.2公开了ConsolidationFunction.DistinctCount字段，可用于在PivotTable的DataField上应用不同计数合并函数。
 
 {{% alert color="primary" %}} 
 
-Microsoft 仅 Excel 2013 支持非重复计数合并功能。
+仅Microsoft Excel 2013支持Distinct Count合并函数。
 
 {{% /alert %}} 
-### **更好的 GridDesktop 事件处理**
-本次Aspose.Cells.GridDesktop版本暴露了4个新事件。其中 2 个事件在 GridDesktop 中加载电子表格文件的不同状态时触发，而另外 2 个在计算公式时触发。
+### **GridDesktop更好的事件处理**
+Aspose.Cells.GridDesktop的这个版本已公开了4个新事件。其中2个事件在GridDesktop中加载电子表格文件的不同状态时触发，另外2个事件在计算公式时触发。
 
-事件列表如下。
+这些事件列举如下。
 
-1. 网格桌面.BeforeLoadFile
-1. 网格桌面.FinishLoadFile
-1. 网格桌面.BeforeCalculate
-1. 网格桌面.FinishCalculate
+1. GridDesktop.BeforeLoadFile
+1. GridDesktop.FinishLoadFile
+1. GridDesktop.BeforeCalculate
+1. GridDesktop.FinishCalculate

@@ -1,54 +1,55 @@
-﻿---
-title: 在 VSTO 和 Aspose.Cells 中向工作簿添加新工作表并激活工作表
+---
+title: 向VSTO和Aspose.Cells中的工作簿添加新工作表并激活工作表
 type: docs
 weight: 30
 url: /zh/net/adding-new-worksheets-to-workbook-and-activating-a-sheet-in-vsto-and-aspose-cells/
 ---
-## **迁移提示：**
-1. 将新工作表添加到现有 Microsoft Excel 文件。
-1. 将数据填充到每个新工作表的单元格中。
-1. 激活工作簿中的工作表。
-1. 另存为 Microsoft Excel 文件。
 
-下面是 VSTO (C#) 和 Aspose.Cells for .NET (C#) 的并行代码片段，展示了如何完成这些任务。
+## **迁移提示：**
+1. 向现有的Microsoft Excel文件中添加新的工作表。
+1. 填充每个新工作表的单元格数据。
+1. 在工作簿中激活一个工作表。
+1. 另存为Microsoft Excel文件。
+
+下面是VSTO（C#）和Aspose.Cells for .NET（C#）的并行代码片段，展示了如何完成这些任务。
 
 **VSTO**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
-//初始化应用对象
+ //intiate application object
 
-Excel.Application excelApp = 应用程序；
+Excel.Application excelApp = Application;
 
-//指定模板excel文件路径。
+//Specify the template excel file path.
 
 string myPath = "Book1.xls";
 
-//打开excel文件。
+//Open the excel file.
 
 excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 
-缺失值，缺失值，
+Missing.Value, Missing.Value,
 
-缺失值，缺失值，
+Missing.Value, Missing.Value,
 
-缺失值，缺失值，
+Missing.Value, Missing.Value,
 
-缺失值，缺失值，
+Missing.Value, Missing.Value,
 
-缺失值，缺失值，
+Missing.Value, Missing.Value,
 
-缺失值，缺失值）；
+Missing.Value, Missing.Value);
 
-//声明一个工作表对象。
+//Declare a Worksheet object.
 
-Excel.Worksheet 新工作表；
+Excel.Worksheet newWorksheet;
 
-//向工作簿中添加5个新工作表并填充一些数据
+//Add 5 new worksheets to the workbook and fill some data
 
-//进入细胞。
+//into the cells.
 
-对于 (int i = 1; i< 6; i++){
+for (int i = 1; i < 6; i++){
 
                 //Add a worksheet to the workbook.
 
@@ -88,35 +89,35 @@ excelApp.Quit();
 
 **Aspose.Cells**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- //实例化一个license实例并设置license文件
+ //Instantiate an instance of license and set the license file
 
-//通过它的路径
+//through its path
 
 Aspose.Cells.License license = new Aspose.Cells.License();
 
 license.SetLicense("Aspose.Total.lic");
 
-//指定模板excel文件路径。
+//Specify the template excel file path.
 
 string myPath = "Book1.xls";
 
-//实例化一个新的工作簿。
+//Instantiate a new Workbook.
 
-//打开excel文件。
+//Open the excel file.
 
-工作簿工作簿=新工作簿（myPath）；
+Workbook workbook = new Workbook(myPath);
 
-//声明一个工作表对象。
+//Declare a Worksheet object.
 
-工作表新工作表；
+Worksheet newWorksheet;
 
-//向工作簿中添加5个新工作表并填充一些数据
+//Add 5 new worksheets to the workbook and fill some data
 
-//进入细胞。
+//into the cells.
 
-对于 (int i = 0; i< 5; i++){
+for (int i = 0; i < 5; i++){
 
                 //Add a worksheet to the workbook.
 
@@ -147,5 +148,5 @@ workbook.Save("out_My_Book1.xls");
 {{< /highlight >}}
 ## **下载示例代码**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Adding.New.Worksheets.to.Workbook.and.Activating.a.Sheet.Aspose.Cells.zip)
-- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Adding%20New%20Worksheets%20to%20Workbook%20and%20Activating%20a%20Sheet%20\(Aspose.Cells\).zip/下载）
-- [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Adding%20New%20Worksheets%20to%20Workbook%20and%20Activating%20a%20Sheet%20\(Aspose.Cells\)。压缩）
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Adding%20New%20Worksheets%20to%20Workbook%20and%20Activating%20a%20Sheet%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Adding%20New%20Worksheets%20to%20Workbook%20and%20Activating%20a%20Sheet%20\(Aspose.Cells\).zip)

@@ -1,22 +1,23 @@
-﻿---
-title: 在 VSTO 和 Aspose.Cells 的工作表中插入和删除 Cell 评论
+---
+title: 在VSTO和Aspose.Cells中插入和删除工作表中的单元格注释
 type: docs
 weight: 150
 url: /zh/net/inserting-and-removing-cell-comments-in-a-worksheet-in-vsto-and-aspose-cells/
 ---
-向单元格添加注释：
 
-1. 打开现有的 Excel 文件。
+要向单元格添加注释:
+
+1. 打开现有的Excel文件。
 1. 向单元格添加注释。
 1. 保存文件。
 
-要删除评论，过程类似，只是删除评论。
+要删除注释，过程类似，不同之处在于注释被移除。
 
-下面的代码示例首先说明如何添加注释，然后说明如何使用 VSTO 或 Aspose.Cells for .NET 删除注释。
-## **插入评论**
-这些代码片段显示了如何首先使用 VSTO (C#) 然后使用 Aspose.Cells for .NET (C#) 向单元格添加注释。
+下面的代码示例首先演示如何在VSTO或Aspose.Cells for .NET中添加注释，然后演示如何使用相同的方法删除注释。
+## **插入注释**
+这些代码片段展示了如何首先在VSTO (C#) 中为单元格添加注释，然后在Aspose.Cells for .NET (C#) 中添加注释。
 ### **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -60,7 +61,7 @@ url: /zh/net/inserting-and-removing-cell-comments-in-a-worksheet-in-vsto-and-asp
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify the template excel file path.
 
@@ -90,9 +91,9 @@ string myPath = "Book1.xls";
 
 {{< /highlight >}}
 ## **删除评论**
-若要从单元格中删除注释，请对 VSTO (C#) 和 Aspose.Cells for .NET (C#) 使用以下代码行。
+要从单元格中删除注释，使用以下代码行为VSTO (C#) 和Aspose.Cells for .NET (C#)。
 ### **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Remove the comment.
 
@@ -101,7 +102,7 @@ string myPath = "Book1.xls";
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //removing comments
 
@@ -110,5 +111,5 @@ string myPath = "Book1.xls";
 {{< /highlight >}}
 ## **下载示例代码**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Inserting.and.Removing.Cell.Comments.in.a.Worksheet.Aspose.Cells.zip)
-- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Inserting%20and%20Removing%20Cell%20Comments%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/下载）
-- [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Inserting%20and%20Removing%20Cell%20Comments%20in%20a%20Worksheet%20\(Aspose.Cells\)。压缩）
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Inserting%20and%20Removing%20Cell%20Comments%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Inserting%20and%20Removing%20Cell%20Comments%20in%20a%20Worksheet%20\(Aspose.Cells\).zip)

@@ -1,21 +1,22 @@
-﻿---
-title: 使用形状或图表的阴影效果
+---
+title: 处理形状或图表的阴影效果
 type: docs
 weight: 220
 url: /zh/net/working-with-the-shadow-effect-of-shape-or-chart/
 ---
+
 ## **可能的使用场景**
-Aspose.Cells 提供了[形状.ShadowEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/shadoweffect)财产连同[阴影效果](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect)使用形状或图表的阴影效果的类。这[阴影效果](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect)类包含以下属性，可以根据应用程序要求设置这些属性以获得不同的结果。
+Aspose.Cells提供了[Shape.ShadowEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/shadoweffect)属性，以及[ShadowEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect)类来处理形状或图表的阴影效果。 [ShadowEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect)类包含以下属性，可以根据应用程序需求进行设置以实现不同的效果。
 
 - [角度](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/angle)
 - [模糊](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/blur)
 - [颜色](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/color)
 - [距离](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/distance)
 - [预设类型](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/presettype)
-- [尺寸](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/size)
+- [大小](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/size)
 - [透明度](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/transparency)
-## **使用形状或图表的阴影效果**
-下面的示例代码加载[源文件](5115425.xlsx)并访问第一个工作表中的第一个形状并设置子属性[形状.ShadowEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/shadoweffect)属性，然后将工作簿保存在[输出excel文件](5115411.xlsx).
+## **处理形状或图表的阴影效果**
+以下示例代码加载[source excel file](5115425.xlsx)，并访问第一个工作表中的第一个形状，并设置[Shape.ShadowEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/shadoweffect)属性的子属性，然后将工作簿保存为[output excel file](5115411.xlsx)。
 
 
 

@@ -1,18 +1,19 @@
-﻿---
-title: 指定要存储在 Excel 文件中的有效数字
+---
+title: 指定要存储在Excel文件中的有效数字位数
 type: docs
 weight: 20
 url: /zh/java/specifying-significant-digits-to-be-stored-in-excel-file/
 ---
+
 ## **可能的使用场景**
 
-默认情况下，Aspose.Cells 在电子表格中存储双精度值的 17 位有效数字，这与仅存储 15 位有效数字的 Excel 应用程序不同。对于这种情况，您可以更改 Aspose.Cells 的默认行为，即；您可以在使用时将有效位数从 17 更改为 15[**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#SignificantDigits)财产。
+默认情况下，Aspose.Cells在电子表格中存储17位双精度值的有效数字，而Excel应用程序仅存储15位有效数字。您可以更改Aspose.Cells的默认行为，即在使用属性[**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#SignificantDigits)时，可以将有效数字位数从17更改为15。
 
-## **指定要存储在 Excel 文件中的有效数字**
+## **指定要存储在Excel文件中的有效数字位数**
 
-以下示例代码强制 Aspose.Cells 在 excel 文件中存储双精度值时使用 15 位有效数字。请检查[输出excel文件](23166982.xlsx).将其扩展名更改为 .zip 并解压缩，您将看到，excel 文件中仅存储了 15 位有效数字。下面截图说明效果[**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#SignificantDigits)输出 excel 文件的属性。
+以下示例代码强制Aspose.Cells在存储双精度值时使用15位有效数字。请检查[输出Excel文件](23166982.xlsx)。将其扩展名更改为.zip并解压缩，您将看到，只有15位有效数字存储在Excel文件中。以下截图说明了[**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#SignificantDigits)属性对输出Excel文件的影响。
 
-![待办事项：图片_替代_文本](specifying-significant-digits-to-be-stored-in-excel-file_1.png)
+![todo:image_alt_text](specifying-significant-digits-to-be-stored-in-excel-file_1.png)
 
 ## **示例代码**
 

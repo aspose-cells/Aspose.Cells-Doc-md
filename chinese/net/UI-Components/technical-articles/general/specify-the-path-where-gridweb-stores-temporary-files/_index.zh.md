@@ -1,16 +1,17 @@
 ---
-title: 指定 GridWeb 存放临时文件的路径
+title: 指定GridWeb存储临时文件的路径
 type: docs
 weight: 50
-url: /zh/net/gridweb-cache-files/
-keywords: cache,session,storage
+url: /zh/net/aspose-cells-gridweb/gridweb-cache-files/
+keywords: GridWeb，缓存，会话，存储
+description: 本文介绍了GridWeb中的存储。
 ---
 ### 关于文件缓存
 {{% alert color="primary" %}} 
 
-当 GridWeb 会话模式为 ViewState 时，它将其临时会话文件存储在应用程序基目录中。有时，将临时会话文件存储在那里是不可行的，因为应用程序基目录可能没有对其的写权限。在这种情况下，GridWeb 会抛出这样的异常
+当GridWeb会话模式为ViewState时，它将其临时会话文件存储在应用程序基本目录中。有时，在应用程序基本目录上可能没有写入权限，所以无法在那里存储临时会话文件。在这种情况下，GridWeb会抛出此类异常
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  [UnauthorizedAccessException: Access to
 
@@ -18,11 +19,11 @@ the path 'D:\inetpub\wwwroot\AsposeExcelTest\gwb_tempGridWeb1' is denied.]
 
 {{< /highlight >}}
 
-上述问题的解决方案是使用 GridWeb.SessionStorePath 属性授予对应用程序基本目录的写入权限或更改具有写入权限的 GridWeb 临时会话文件路径。此路径应相对于应用程序基目录。
+解决上述问题的方法是在应用程序基本目录中授予写入访问权限或使用GridWeb.SessionStorePath属性更改GridWeb临时会话文件的路径。此路径应相对于应用程序基本目录。
 
 {{% /alert %}} 
-####  **指定 GridWeb 存放临时会话文件的路径**
-以下示例代码指定了 GridWeb 存储临时会话文件的路径。
+#### **指定GridWeb存储临时会话文件的路径**
+以下示例代码指定了GridWeb存储临时会话文件的路径。
 
 
 
@@ -30,33 +31,33 @@ the path 'D:\inetpub\wwwroot\AsposeExcelTest\gwb_tempGridWeb1' is denied.]
 
 ### 关于图片缓存
 
-当工作表中有形状/图片时，GridWeb会将所有的形状/图片保存到一个缓存路径
+当工作表中存在形状/图片时，GridWeb将所有形状/图片保存到缓存路径
 
-默认缓存路径是***System.Web.HttpContext.Current.Server.MapPath("/acwcache")***
+默认的缓存路径为***System.Web.HttpContext.Current.Server.MapPath("/acwcache")***
 
-我们也可以使用***GridWeb.图片缓存路径***将此路径设置为特定路径。
+也可以使用***GridWeb.PictureCachePath***将此路径设置为特定路径。
 
-当我们打开一个页面时，GridWeb 会解析请求的图片 url，并通过 url id 从缓存中获取图片流。
+当我们打开页面时，GridWeb会解析请求图片的URL，并通过ID从缓存中获取图像流。
 
 例如，如果您的页面地址是*http://ip/mygridwebapp/test.aspx*  
 
-GridWeb 生成的图像请求 url 将是 *http://ip/mygridwebapp/test.aspx/acw_image/imageid*。
+GridWeb生成的图像请求URL将是*http://ip/mygridwebapp/test.aspx/acw_image/imageid*。
 
-#### 有时使用时未加载形状/图片[友好网址](https://weblogs.asp.net/psheriff/using-friendly-urls-in-web-forms).
+#### 使用[Friendly Url](https://weblogs.asp.net/psheriff/using-friendly-urls-in-web-forms)时，有时形状/图片没有加载。
 
-您需要检查图片网址请求。
+您需要检查图像URL请求。
 
-正常的图片请求应该是这样的：*http://ip/mygridwebapp/test.aspx/acw_image/imageid*
+正常的图像请求应该是这样的：*http://ip/mygridwebapp/test.aspx/acw_image/imageid*
 
-但是你的请求是这样的：*http://ip/mygridwebapp/test/acw_image/imageid*
+但您的请求是这样的：*http://ip/mygridwebapp/test/acw_image/imageid*
 
-如果您使用 FriendlyUrl，则需要过滤掉 GridWeb 的图像 url 请求。
+如果您使用FriendlyUrl，您需要过滤掉GridWeb的图片URL请求。
 
-这样 GridWeb 控制服务器就可以获取并解析请求，并从缓存路径中找到图像流。
+这样，GridWeb控件服务器可以获取和解析请求，并从缓存路径中找到图像流。
 
-例如，我们假定您的页面 url 如下：*http://ip/mygridwebapp/test.aspx*
+例如，我们假设您的页面URL为：*http://ip/mygridwebapp/test.aspx*
 
-那么下面的代码是解决此类问题的解决方法。
+然后下面的代码是一个解决这个问题的解决方法。
 ```csharp
 //write your custom url resolver:MyWebFormsFriendlyUrlResolver
 public class MyWebFormsFriendlyUrlResolver : WebFormsFriendlyUrlResolver

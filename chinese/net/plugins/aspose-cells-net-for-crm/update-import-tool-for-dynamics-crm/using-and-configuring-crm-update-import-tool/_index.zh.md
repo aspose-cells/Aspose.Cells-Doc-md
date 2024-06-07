@@ -1,22 +1,23 @@
-﻿---
-title: 使用和配置 CRM 更新导入工具
+---
+title: 使用和配置CRM更新导入工具
 type: docs
 weight: 20
 url: /zh/net/using-and-configuring-crm-update-import-tool/
 ---
-以下是我们使用该工具需要遵循的屏幕截图步骤：
 
-![待办事项：图片_替代_文本](using-and-configuring-crm-update-import-tool_1)
+以下是我们需要遵循的使用工具的截图步骤:
 
-- 要创建与 CRM 的连接，请单击登录到 CRM 并添加您的 CRM 组织信息
+![todo:image_alt_text](using-and-configuring-crm-update-import-tool_1)
 
-![待办事项：图片_替代_文本](using-and-configuring-crm-update-import-tool_2)
+- 要创建与CRM的连接，请单击登录到CRM并添加您的CRM组织信息 
 
-- 建立连接后，选择实体并选择所需属性的列表。
+![todo:image_alt_text](using-and-configuring-crm-update-import-tool_2)
 
-![待办事项：图片_替代_文本](using-and-configuring-crm-update-import-tool_3)
+- 建立连接后，选择实体并选择所需属性列表。 
 
-- **从 CRM 获取：**单击此处以在网格中显示来自 CRM 的数据
-- **导出到 Excel：**单击此处通过提供文件将数据从 CRM 导出到 Excel 文件。
-- **从 Excel 中获取：**单击此处并选择一个源 Excel 文件，它将在网格中显示来自 Excel 文件的数据。
-- **导出到 CRM：**单击此处并选择一个源 Excel 文件，它会将数据从 Excel 导入回所选实体的 CRM 中。 （请注意，Excel 文件中的列名称应与 CRM 中的架构名称匹配）
+![todo:image_alt_text](using-and-configuring-crm-update-import-tool_3)
+
+- **从CRM获取:** 单击此处在网格中显示来自CRM的数据
+- **导出到Excel:** 单击此处通过提供文件将数据从CRM导出到Excel文件。
+- **从Excel获取:** 单击此处并选择源Excel文件，它将在网格中显示来自Excel文件的数据。
+- **导入到CRM:** 单击此处并选择源Excel文件，它将从Excel中的选择实体中的数据导入回CRM。(请注意，Excel文件中的列名应与CRM中的模式名称相匹配)

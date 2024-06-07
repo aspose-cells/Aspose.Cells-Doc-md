@@ -1,77 +1,78 @@
-﻿---
-title: 将新工作表添加到工作簿并激活工作表
+---
+title: 添加新工作表到工作簿并激活一个工作表
 type: docs
 weight: 10
 url: /zh/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/
 ---
+
 {{% alert color="primary" %}} 
 
-使用模板文件时，有时需要将额外的工作表添加到工作簿中以收集数据。新单元格将填充每个工作表中指定位置和位置的数据。
+使用模板文件时，有时需要向工作簿中添加额外的工作表以收集数据。新单元格将填充每个工作表中指定位置和位置的数据。
 
-同样，当文件在 Microsoft Excel 中打开时，您可能需要首先激活和查看特定工作表。 “活动工作表”是您在工作簿中处理的工作表。默认情况下，活动工作表选项卡上的名称为粗体。
+同样，当Microsoft Excel中的文件打开时，可能需要一个特定的工作表作为活动表并首先查看。 “活动表”是工作簿中正在操作的工作表。活动表的标签上的名称默认为粗体。
 
-添加工作表和设置哪个工作表处于活动状态是开发人员需要知道如何执行的常见且简单的任务。在本文中，我们使用[VSTO](/cells/zh/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/)和[Aspose.Cells for .NET](/cells/zh/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/).
+添加工作表并设置哪个工作表是活动的是开发人员需要知道如何执行的常见且简单的任务。在本文中，我们使用[VSTO](/cells/zh/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/)和[Aspose.Cells for .NET](/cells/zh/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/)执行这些任务。
 
 {{% /alert %}} 
-## **添加工作表和激活工作表**
-出于此迁移提示的目的：
+## **添加工作表并激活工作表**
+对于此迁移提示目的：
 
-1. 将新工作表添加到现有 Microsoft Excel 文件。
-1. 将数据填充到每个新工作表的单元格中。
-1. 激活工作簿中的工作表。
-1. 另存为 Microsoft Excel 文件。
+1. 向现有的Microsoft Excel文件中添加新的工作表。
+1. 填充每个新工作表的单元格数据。
+1. 在工作簿中激活一个工作表。
+1. 另存为Microsoft Excel文件。
 
-下面是 VSTO（C#，VB）和 Aspose.Cells for .NET（C#，VB）的并行代码片段，展示了如何完成这些任务。
+下面是VSTO（C#，VB）和Aspose.Cells for .NET（C#，VB）的并行代码片段，展示了如何执行这些任务。
 ### **VSTO**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
-使用 Microsoft.VisualStudio.Tools.Applications.Runtime；
+using Microsoft.VisualStudio.Tools.Applications.Runtime;
 
-使用 Excel = Microsoft.Office.Interop.Excel；
+using Excel = Microsoft.Office.Interop.Excel;
 
-使用 Office = Microsoft.Office.Core；
+using Office = Microsoft.Office.Core;
 
-使用 System.Reflection；
+using System.Reflection;
 
 .......
 
-//实例化应用对象。
+//Instantiate the Application object.
 
 Excel.Application excelApp = new Excel.ApplicationClass();
 
-//指定模板excel文件路径。
+//Specify the template excel file path.
 
 string myPath = @"d:\test\My_Book1.xls";
 
-//打开excel文件。
+//Open the excel file.
 
 excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 
-缺失值，缺失值，
+Missing.Value, Missing.Value,
 
-缺失值，缺失值，
+Missing.Value, Missing.Value,
 
-缺失值，缺失值，
+Missing.Value, Missing.Value,
 
-缺失值，缺失值，
+Missing.Value, Missing.Value,
 
-缺失值，缺失值，
+Missing.Value, Missing.Value,
 
-缺失值，缺失值）；
+Missing.Value, Missing.Value);
 
-//声明一个工作表对象。
+//Declare a Worksheet object.
 
-Excel.Worksheet 新工作表；
+Excel.Worksheet newWorksheet;
 
-//向工作簿中添加5个新工作表并填充一些数据
+//Add 5 new worksheets to the workbook and fill some data
 
-//进入细胞。
+//into the cells.
 
-对于 (int i = 1; i< 6; i++)
+for (int i = 1; i < 6; i++)
 
 {
 
@@ -109,9 +110,9 @@ excelApp.Quit();
 
 {{< /highlight >}}
 
-**虚拟机**
+**VB**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -185,41 +186,41 @@ excelApp.Quit()
 ### **Aspose.Cells for .NET**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
-使用 Aspose.Cells；
+using Aspose.Cells;
 
 .......
 
-//实例化一个license实例并设置license文件
+//Instantiate an instance of license and set the license file
 
-//通过它的路径
+//through its path
 
 Aspose.Cells.License license = new Aspose.Cells.License();
 
 license.SetLicense("Aspose.Cells.lic");
 
-//指定模板excel文件路径。
+//Specify the template excel file path.
 
 string myPath =@"d:\test\My_Book1.xls";
 
-//实例化一个新的工作簿。
+//Instantiate a new Workbook.
 
-//打开excel文件。
+//Open the excel file.
 
-工作簿工作簿=新工作簿（myPath）；
+Workbook workbook = new Workbook(myPath);
 
-//声明一个工作表对象。
+//Declare a Worksheet object.
 
-工作表新工作表；
+Worksheet newWorksheet;
 
-//向工作簿中添加5个新工作表并填充一些数据
+//Add 5 new worksheets to the workbook and fill some data
 
-//进入细胞。
+//into the cells.
 
-对于 (int i = 0; i< 5; i++)
+for (int i = 0; i < 5; i++)
 
 {
 
@@ -253,9 +254,9 @@ workbook.Save(@"d:\test\out_My_Book1.xls");
 
 {{< /highlight >}}
 
-**虚拟机**
+**VB**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 

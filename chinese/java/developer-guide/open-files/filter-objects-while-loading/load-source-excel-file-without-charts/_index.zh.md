@@ -1,22 +1,23 @@
-﻿---
-title: 加载不带图表的源 excel 文件
+---
+title: 加载源Excel文件而无图表
 type: docs
 weight: 750
 url: /zh/java/load-source-excel-file-without-charts/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells 允许您加载没有图表的 excel 文件。为此，请使用 LoadOptions.LoadFilter 属性。
+Aspose.Cells允许您加载不含图表的Excel文件。请使用LoadOptions.LoadFilter属性来实现此目的。
 
 {{% /alert %}} 
-## **加载不带图表的源 excel 文件**
-以下示例代码加载不带图表的示例 excel 文件，并将其保存为输出 pdf 格式。
+## **加载源Excel文件而无图表**
+以下示例代码加载不含图表的示例Excel文件，并将其保存为输出PDF格式。
 
 
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Specify the load options and filter the data
 

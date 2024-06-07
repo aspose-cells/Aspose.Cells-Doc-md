@@ -1,18 +1,19 @@
-﻿---
+---
 title: 获取数据透视表刷新日期和刷新者信息
 type: docs
 weight: 80
 url: /zh/java/get-pivot-table-refresh-date-and-refresh-by-who-information/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells 现在支持从工作簿中获取刷新日期和刷新者信息。
+Aspose.Cells 现在支持从工作簿中获取数据透视表刷新日期和刷新者信息。
 
 {{% /alert %}}
 
-[**数据透视表.getRefreshDate**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#RefreshDate)返回上次刷新数据透视表的日期。相似地[**数据透视表.getRefreshByWho**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#RefreshedByWho)属性返回上次刷新报表的用户的名称。以下示例演示了此功能，示例文件可以从以下链接下载。
+[**PivotTable.getRefreshDate**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#RefreshDate) 返回数据透视表最后刷新的日期。类似地，[**PivotTable.getRefreshByWho**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#RefreshedByWho) 属性返回上次刷新报告的用户姓名。以下示例演示了此功能，示例文件可从以下链接下载。
 
-[源数据透视表.xlsx](77987843.xlsx)
+[SourcePivotTable.xlsx](77987843.xlsx)
 
 **示例代码**
 

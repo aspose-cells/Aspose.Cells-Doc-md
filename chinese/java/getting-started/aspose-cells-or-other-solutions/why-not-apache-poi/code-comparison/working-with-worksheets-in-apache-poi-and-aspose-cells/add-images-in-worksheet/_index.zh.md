@@ -1,15 +1,16 @@
-﻿---
-title: 在工作表中添加图像
+---
+title: 在工作表中添加图片
 type: docs
 weight: 20
 url: /zh/java/add-images-in-worksheet/
 ---
-## **Aspose.Cells - 在工作表中添加图像**
-图片类可用于处理工作表中的图像
+
+## **Aspose.Cells - 在工作表中添加图片**
+Picture类可用于处理工作表中的图片
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Get the first worksheet
 
@@ -41,18 +42,18 @@ pic.setPlacement(PlacementType.FREE_FLOATING);
 
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - 在工作表中添加图像**
-图片类可用于处理工作表中的图像
+## **Apache POI SS - HSSF XSSF - 在工作表中添加图片**
+Picture类可用于处理工作表中的图片
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //add picture data to this workbook.
 
 InputStream is = new FileInputStream(dataDir + "aspose.jpg");
 
-byte[]bytes = IOUtils.toByteArray(is);
+byte[] bytes = IOUtils.toByteArray(is);
 
 int pictureIdx = wb.addPicture(bytes, Workbook.PICTURE_TYPE_JPEG);
 
@@ -94,6 +95,6 @@ pict.resize();
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[添加图像超链接](/java/add-image-hyperlinks).
+有关详细信息，请访问[添加图像超链接](/java/add-image-hyperlinks)。
 
 {{% /alert %}}

@@ -1,16 +1,17 @@
-﻿---
-title: 从 ArrayList 导入
+---
+title: 从ArrayList导入
 type: docs
 weight: 20
 url: /zh/net/importing-from-arraylist/
 ---
-开发人员可以通过调用**导入数组列表**Cells采集方法。 ImportArray 方法采用以下参数：**数组列表** ,代表需要导入内容的ArrayList对象
 
-- Row Number ，表示要导入数据的第一个单元格的行号
-- Column Number ，表示将导入数据的第一个单元格的列号
-- 是 Vertical ，一个布尔值，指定垂直或水平导入数据
+开发人员可以通过调用Cells集合的ImportArrayList方法将数据从ArrayList导入到其工作表。ImportArrayList方法接受以下参数: ArrayList，表示需要导入其内容的ArrayList对象
 
-{{< highlight "csharp" >}}
+- 行号，表示将导入数据的第一个单元格的行号
+- 列号，表示将导入数据的第一个单元格的列号
+- 是否垂直，一个指定导入数据是垂直还是水平的布尔值
+
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 

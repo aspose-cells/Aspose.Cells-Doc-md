@@ -1,42 +1,43 @@
-﻿---
-title: 您的第一个 Aspose.Cells 申请 - Hello World
+---
+title: 您的第一个Aspose.Cells应用程序-HelloWorld
 type: docs
 weight: 30
 url: /zh/java/your-first-aspose-cells-application-hello-world/
 ---
+
 {{% alert color="primary" %}}
 
-这个初学者主题展示了开发人员如何使用 Aspose.Cells 和简单的 API 创建一个简单的第一个应用程序 (Hello World)。该应用程序创建一个 Microsoft Excel 文件，在工作表的指定单元格中包含单词 Hello World。
+这个初学者主题展示了开发人员如何使用Aspose.Cells的简单API创建一个简单的首个应用程序（Hello World）。该应用程序将在工作表的指定单元格中创建一个包含Hello World单词的Microsoft Excel文件。
 
 {{% /alert %}}
 
-### **创建 Hello World 应用程序**
+### **创建Hello World应用程序**
 
-要使用 Aspose.Cells API 创建 Hello World 应用程序：
+使用Aspose.Cells API创建Hello World应用程序的步骤如下：
 
-1. 创建一个实例**[工作簿](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)**班级。
-1. 申请许可证：
-1. 如果您购买了许可证，则在您的应用程序中使用该许可证来访问 Aspose.Cells 的全部功能
-1. 如果您使用的是组件的评估版（如果您使用的是 Aspose.Cells 无许可证），请跳过此步骤。
-1. 创建一个新的 Microsoft Excel 文件，或打开一个现有文件，您要在其中添加/更新一些文本。
-1. 访问 Microsoft Excel 文件中工作表的任何单元格。
-1. 插入单词**Hello World!**进入访问的单元格。
+1. 创建 **[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)** 类的实例。
+1. 应用许可证：
+   1. 如果您已经购买了许可证，则在应用程序中使用许可证来访问Aspose.Cells的全部功能。
+   1. 如果您正在使用组件的评估版本（即使用未得到许可证的Aspose.Cells），请跳过此步骤。
+1. 创建新的Microsoft Excel文件，或打开要添加/更新一些文本的现有文件。
+1. 访问Microsoft Excel文件中工作表的任何单元格。
+1. 将 **Hello World!** 插入到所访问的单元格中。
 1. 生成修改后的 Microsoft Excel 文件。
 
 下面的示例演示了上述步骤。
 
-#### **创建工作簿**
+#### **创建Workbook**
 
-下面的示例从头开始创建一个新工作簿，写入单词“Hello World！”到第一个工作表的单元格 A1 中，并保存文件。
+以下示例创建一个新的工作簿，向第一个工作表的A1单元格中写入“Hello World！”并保存文件。
 
 **生成的电子表格** 
 
-![待办事项：图片_替代_文本](your-first-aspose-cells-application-hello-world_1.png)
+![todo:image_alt_text](your-first-aspose-cells-application-hello-world_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-introduction-CreatingWorkbook-1.java" >}}
 
 #### **打开现有文件**
 
-以下示例打开名为 Microsoft 的现有 Excel 模板文件**book1.xls**，写下“Hello World！”在第一个工作表的单元格 A1 中，并将工作簿另存为新文件。
+以下示例打开一个名为**book1.xls**的现有Microsoft Excel模板文件，在第一个工作表的A1单元格中写入“Hello World！”并保存工作簿为新文件。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-introduction-OpeningExistingFile-1.java" >}}

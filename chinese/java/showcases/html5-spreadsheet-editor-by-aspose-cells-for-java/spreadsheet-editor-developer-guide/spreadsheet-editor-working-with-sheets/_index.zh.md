@@ -1,42 +1,43 @@
-﻿---
-title: 电子表格编辑器 - 使用表格
+---
+title: 电子表格编辑器 - 与工作表一起工作
 type: docs
 weight: 20
 url: /zh/java/spreadsheet-editor-working-with-sheets/
 ---
+
 **目录**
 
 - [添加和删除工作表？](#SpreadsheetEditor-WorkingwithSheets-AddandRemoveSheets?) 
- - 工作表视图.onAddNewSheet
- - 工作表视图.onRemoveActiveSheet
+  - WorksheetView.onAddNewSheet
+  - WorksheetView.onRemoveActiveSheet
 - [重命名工作表](#SpreadsheetEditor-WorkingwithSheets-RenameSheets) 
- WorksheetView.setActiveSheet
+  - WorksheetView.setActiveSheet
 - [在工作表之间切换](#SpreadsheetEditor-WorkingwithSheets-SwitchbetweenSheets) 
- WorksheetView.setActiveSheet
+  - WorksheetView.setActiveSheet
 ### **添加和删除工作表？**
-Microsoft Excel 允许在一个文件中包含多个工作表。 HTML5 电子表格编辑器允许用户添加和删除表格。在“工作表”选项卡上，我们有一个工作表下拉列表。所选工作表是编辑器打开的工作表。
+Microsoft Excel允许在单个文件中拥有多个工作表。HTML5 电子表格编辑器允许用户添加和删除工作表。在工作表选项卡中，我们有一个工作表的下拉列表。所选的工作表是编辑器打开的工作表。
 
-要添加新工作表：
+添加新工作表：
 
-1. 切换到**工作表标签**.
-1. 单击 **+**（加号）按钮。
+1. 切换到**工作表选项卡**。
+1. 单击**+**（加号）按钮。
 
-将添加一个新工作表，编辑器将切换到它。
+将添加新的工作表，并且编辑器将切换到它。
 
-要删除当前选定的工作表：
+删除当前选定的工作表：
 
-1. 切换到**工作表标签**.
-1. 单击 **-**（减号）按钮。
+1. 切换到**工作表选项卡**。
+1. 单击**-**（减号）按钮。
 
-当前选择的工作表将被删除，编辑器将切换到最后选择的工作表。
+当前选定的工作表将被删除，编辑器将切换到上次选定的工作表。
 
-![待办事项：图片_替代_文本](4wgvmu8.png)
+![todo:image_alt_text](4wgvmu8.png)
 
-**怎么运行的？**
+**它是如何工作的？**
 
-当用户点击**+**（加号）和**-**单击（减号）按钮，JSF 后端 bean**工作表视图**使用处理事件**工作表视图.onAddNewSheet**和**WorksheetView.onRemoveActiveSheet** 方法。
-#### **工作表视图.onAddNewSheet**
-{{< highlight "java" >}}
+当用户单击**+**（加号）和**-** （减号）按钮时，JSF后端bean **WorksheetView** 使用**WorksheetView.onAddNewSheet**和**WorksheetView.onRemoveActiveSheet** 方法处理事件。
+#### **WorksheetView.onAddNewSheet**
+{{< highlight java >}}
 
      public void onAddNewSheet() {
 
@@ -62,8 +63,8 @@ Microsoft Excel 允许在一个文件中包含多个工作表。 HTML5 电子表
 
 {{< /highlight >}}
 
-#### **工作表视图.onRemoveActiveSheet**
-{{< highlight "java" >}}
+#### **WorksheetView.onRemoveActiveSheet**
+{{< highlight java >}}
 
      public void onRemoveActiveSheet() {
 
@@ -97,22 +98,22 @@ Microsoft Excel 允许在一个文件中包含多个工作表。 HTML5 电子表
 
 {{< /highlight >}}
 ### **重命名工作表**
-要重命名工作表：
+重命名工作表：
 
-1. 切换到**工作表标签**.
-1. 单击文本框中的工作表名称以对其进行编辑。
-1. 更改工作表的名称。
-1. 完成后，按 ENTER 键，或单击框外的任意位置。
+1. 切换到**工作表选项卡**。
+1. 单击文本框中的工作表名称以进行编辑。
+1. 更改工作表名称。
+1. 完成后，按ENTER键，或单击框框外部的任何位置。
 
 工作表将被重命名。
 
-![待办事项：图片_替代_文本](4wgvmu8.png)
+![todo:image_alt_text](4wgvmu8.png)
 
-**怎么运行的？**
+**它是如何工作的？**
 
-当文本框值更改时，事件由 JSF 后端 bean 在服务器上处理**工作表视图**使用方法**工作表视图.setActiveSheet**.
-#### **工作表视图.setActiveSheet**
-{{< highlight "java" >}}
+当文本框的值发生更改时，通过JSF后端bean **WorksheetView** 使用方法**WorksheetView.setActiveSheet** 在服务器上处理事件。
+#### **WorksheetView.setActiveSheet**
+{{< highlight java >}}
 
      public void setActiveSheet(String name) {
 
@@ -138,18 +139,18 @@ Microsoft Excel 允许在一个文件中包含多个工作表。 HTML5 电子表
 ### **在工作表之间切换**
 要切换到另一个工作表：
 
-1. 切换到**工作表标签**.
-1. 从下拉菜单中选择工作表。
+1. 切换到**工作表选项卡**。
+1. 从下拉菜单中选择一个工作表。
 
-编辑器将切换到选定的工作表。
+编辑器将切换到所选的工作表。
 
-![待办事项：图片_替代_文本](4wgvmu8.png)
+![todo:image_alt_text](4wgvmu8.png)
 
-**怎么运行的？**
+**它是如何工作的？**
 
-当下拉选择器的值改变时，事件由 JSF 后端 bean 在服务器上处理**工作表视图**使用方法**工作表视图.setActiveSheet**.
-#### **工作表视图.setActiveSheet**
-{{< highlight "java" >}}
+当下拉选择器的值更改时，由JSF后端bean **WorksheetView** 处理事件，使用方法 **WorksheetView.setActiveSheet**。
+#### **WorksheetView.setActiveSheet**
+{{< highlight java >}}
 
      public void setActiveSheet(String name) {
 

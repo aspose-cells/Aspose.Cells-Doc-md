@@ -1,17 +1,18 @@
-﻿---
+---
 title: 设置打印标题
 type: docs
 weight: 10
 url: /zh/java/set-print-titles/
 ---
-## **Aspose.Cells - 设置打印标题**
-Aspose.Cells 允许您指定行和列标题以在打印的工作表的所有页面上重复。为此，请使用[页面设置](/java/pagesetup)类的 setPrintTitleColumns 和 setPrintTitleRows 属性。
 
-将重复的行或列通过传递它们的行号或列号来定义。例如，行定义为 $1:$2，列定义为 $A:$B。
+## **Aspose.Cells - 设置打印标题**
+Aspose.Cells允许您指定在打印工作表的所有页面上重复的行和列标题。要实现此目的，请使用[PageSetup](/java/pagesetup)类的setPrintTitleColumns和setPrintTitleRows属性。
+
+将重复的行或列由其行号或列号传递定义。例如，行定义为$1:$2，列定义为$A:$B。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Obtaining the reference of the PageSetup of the worksheet
 
@@ -34,6 +35,6 @@ pageSetup.setPrintTitleRows("$1:$2");
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[设置打印选项](/cells/zh/java/page-setup-features/#setting-print-options).
+如需更多详情，请访问[设置打印选项](/cells/zh/java/page-setup-features/#setting-print-options)。
 
 {{% /alert %}}

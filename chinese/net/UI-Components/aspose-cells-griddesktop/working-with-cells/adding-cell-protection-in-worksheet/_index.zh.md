@@ -1,16 +1,19 @@
-﻿---
-title: 在工作表中添加 Cell 保护
+---
+title: 在工作表中添加保护
 type: docs
 weight: 130
-url: /zh/net/adding-cell-protection-in-worksheet/
+url: /zh/net/aspose-cells-griddesktop/adding-cell-protection-in-worksheet/
+keywords: GridDesktop,protect
+description: 该文章介绍了如何在GridDesktop的工作表中保护单元格。
 ---
+
 {{% alert color="primary" %}} 
 
-GridDesktop 的 Aspose.Cells 允许您保护工作表中的单元格。您首先需要保护您的工作表，然后您可以保护工作表中所需的单元格。为了保护工作表，请设置**工作表.Protected**属性为真，然后使用**工作表.SetProtected()**保护单元格范围的方法。
+Aspose.Cells for GridDesktop允许您保护工作表中的单元格。首先需要保护您的工作表，然后可以保护工作表中所需的单元格。为了保护工作表，请将**Worksheet.Protected**属性设置为true，然后使用**Worksheet.SetProtected()**方法来保护单元格的范围。
 
 {{% /alert %}} 
-## **使用 Aspose.Cells.GridDesktop 保护 Cell**
-以下示例代码保护范围内的所有单元格**A1:B1** GridDesktop 的活动工作表。当您双击此范围内的任何单元格时，您将无法编辑。它将使这些单元格只读。
+## **使用Aspose.Cells.GridDesktop保护单元格**
+下面的示例代码保护GridDesktop的活动工作表中范围为**A1:B1**的所有单元格。当您双击该范围内的任何单元格时，您将无法编辑。这将使这些单元格变为只读。
 
 
 

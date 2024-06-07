@@ -1,22 +1,23 @@
-﻿---
-title: 将 CSV 转换为 JSON
+---
+title: 将CSV转换为JSON
 type: docs
 weight: 220
 url: /zh/net/convert-csv-to-json/
-description: 使用简单易用的 Aspose.Cells for .NET API 将 CSF 文件转换为 JSON。
-keywords: Convert, Convert CVS to JSON, CSV to JSON, CSV, JSON, Convert CSV to JSON CSharp, c# code to convert CSV to JSON
+description: 通过易于使用的Aspose.Cells for .NET API将CSF文件转换为JSON。
+keywords: 转换，将CVS转换为JSON，CSV转JSON，CSV，JSON，将CSV转换为JSON CSharp，转换CSV为JSON的C#代码
 ---
-## **将 CSV 转换为 JSON**
 
-Aspose.Cells 支持将 CSV 转换为 JSON。为此，API 提供**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**和**[JsonUtility](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)**类。这**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**类提供了将范围导出到 JSON 的选项。**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**类具有以下属性。
+## **将CSV转换为JSON**
 
-- **[ExportAsString](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/exportasstring)**：这会将单元格的字符串值导出为 JSON。
-- **[HasHeaderRow](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/hasheaderrow)**：这表示范围是否包含标题行。
-- **[缩进](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/indent)**表示缩进。
+Aspose.Cells支持将CSV转换为JSON。为此，API提供了ExportRangeToJsonOptions和JsonUtility类。ExportRangeToJsonOptions类提供了将范围导出到JSON的选项。ExportRangeToJsonOptions类具有以下属性。
 
-这**[JsonUtility](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)**类使用设置的导出选项导出 JSON**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**班级。
+- [ExportAsString](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetooptions/properties/exportasstring)：将单元格的字符串值导出到JSON。
+- [HasHeaderRow](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetooptions/properties/hasheaderrow)：指示范围是否包含标题行。
+- [Indent](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetooptions/properties/indent)：指示缩进。
 
-下面的代码示例演示了使用**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**和**[JsonUtility](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)**加载的类[源文件 CSV](104398879.csv)并在控制台中打印 JSON 输出。
+JsonUtility类使用与ExportRangeToJsonOptions类设置的导出选项导出JSON。
+
+以下代码示例演示了使用ExportRangeToJsonOptions和JsonUtility类加载源CSV文件，并在控制台中打印JSON输出。
 
 ### **示例代码**
 

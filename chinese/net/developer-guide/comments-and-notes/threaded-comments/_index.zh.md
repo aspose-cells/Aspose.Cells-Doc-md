@@ -1,67 +1,68 @@
-﻿---
-title: 线程评论
+---
+title: 线程化评论
 type: docs
 weight: 140
 url: /zh/net/threaded-comments/
 ---
-## **线程评论**
 
-MS Excel 365 提供了添加线程注释的功能。这些评论作为对话，可用于讨论。评论现在带有一个回复框，允许进行线程对话。旧注释在 Excel 365 中称为注释。下面的屏幕截图显示了在 Excel 中打开时线程注释的显示方式。
+## **线程化评论**
 
-![待办事项：图片_替代_文本](threaded-comments_1.jpg)
+MS Excel 365提供了添加线程化评论的功能。这些评论可以作为对话使用，可用于讨论。现在的评论带有一个回复框，用于线程化对话。Excel 365中的老评论称为“备注”。下图显示了打开Excel时线程化评论的显示方式。
 
-线程注释在旧版本的 Excel 中显示如下。以下图像是在 Excel 2016 中打开示例文件拍摄的。
+![todo:image_alt_text](threaded-comments_1.jpg)
 
-![待办事项：图片_替代_文本](threaded-comments_2.jpg)
+较旧版本的Excel中线程化评论显示的方式如下。以下图像是通过在Excel 2016中打开示例文件获取的。
 
-![待办事项：图片_替代_文本](threaded-comments_3.jpg)
+![todo:image_alt_text](threaded-comments_2.jpg)
 
-Aspose.Cells 还提供了管理线程评论的功能。
+![todo:image_alt_text](threaded-comments_3.jpg)
 
-## **添加主题评论**
+Aspose.Cells还提供了管理线程化评论的功能。
 
-### **使用 Excel 添加线程评论**
+## **添加线程化评论**
 
-若要在 Excel 365 中添加线程注释，请按照以下步骤操作。
+### **使用Excel添加线程化注释**
 
-- 方法一
- - 点击**审查**标签
- 点击**新评论**按钮
- 这将打开一个对话框以在活动单元格中输入评论。
-  - ![待办事项：图片_替代_文本](threaded-comments_4.jpg)
-- 方法二
- 右键单击要插入评论的单元格。
- 点击**新评论**选项。
- 这将打开一个对话框以在活动单元格中输入评论。
-  - ![待办事项：图片_替代_文本](threaded-comments_5)
+要在Excel 365中添加线程化注释，请按照以下步骤进行。
 
-### **使用 Aspose.Cells 添加主题评论**
+- 方法1
+  - 单击**审阅**选项卡
+  - 单击**新注释**按钮
+  - 这将打开对话框，可在活动单元格中输入评论。
+  - ![todo:image_alt_text](threaded-comments_4.jpg)
+- 方法2
+  - 在要插入评论的单元格上右键单击。
+  - 单击**新评论**选项。
+  - 这将打开对话框，可在活动单元格中输入评论。
+  - ![todo:image_alt_text](threaded-comments_5)
 
-Aspose.Cells提供[**Comments.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1)添加线程评论的方法。[**Comments.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1)方法接受以下三个参数。
+### **使用Aspose.Cells添加线程化评论**
 
-- Cell 名称：将插入注释的单元格的名称。
-- 评论文本：评论的文本。
-- [**线程评论作者**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthor)评论作者
+Aspose.Cells提供[**Comments.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1)方法来添加线程化评论。 [**Comments.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1)方法接受以下三个参数。
 
-下面的代码示例演示了使用[**Comments.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1)向单元格 A1 添加线程注释的方法。请参阅[输出Excel文件](89849859.xlsx)生成的代码供参考。
+- 单元格名称: 将插入评论的单元格的名称。
+- 评论文本: 评论的文本。
+- [**ThreadedCommentAuthor**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthor): 评论的作者
+
+以下代码示例演示了使用 [**Comments.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1) 方法向单元格 A1 添加分线评论。请参阅代码生成的 [输出 Excel 文件](89849859.xlsx) 以供参考。
 
 #### **示例代码**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-AddThreadedComments-1.cs" >}}
 
-## **阅读线程评论**
+## **阅读分线评论**
 
-### **使用 Excel 阅读线程评论**
+### **使用 Excel 阅读分线评论**
 
-要在 Excel 中阅读线程注释，只需将鼠标悬停在包含注释的单元格上即可查看注释。评论视图将如下图所示。
+要在 Excel 中阅读分线评论，只需将鼠标悬停在包含评论的单元格上即可查看评论。评论视图将类似于以下图片中的视图。
 
-![待办事项：图片_替代_文本](threaded-comments_1.jpg)
+![todo:image_alt_text](threaded-comments_1.jpg)
 
-### **使用 Aspose.Cells 阅读线程评论**
+### **使用 Aspose.Cells 读取分线评论**
 
-Aspose.Cells提供[**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)方法来检索指定列的线程注释。[**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)方法接受列名作为参数并返回[**线程评论集合**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection).你可以遍历[**线程评论集合**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection)查看评论。
+Aspose.Cells 提供 [**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1) 方法来检索指定列的分线评论。[**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1) 方法接受列名作为参数并返回 [**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection)。您可以遍历 [**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection) 来查看评论。
 
-以下示例演示了通过加载[示例 Excel 文件](89849861.xlsx).请查看代码生成的控制台输出以供参考。
+以下示例演示了通过加载 [示例 Excel 文件](89849861.xlsx) 从列 A1 读取备注。请参阅代码生成的控制台输出以供参考。
 
 #### **示例代码**
 
@@ -69,15 +70,15 @@ Aspose.Cells提供[**Comments.GetThreadedComments**](https://reference.aspose.co
 
 #### **控制台输出**
 
-评论：测试线程评论
+备注: 测试分线注释
 
-作者：Aspose 测试
+作者: Aspose 测试
 
-### **读取线程评论的创建时间**
+### **阅读分线评论的创建时间**
 
-Aspose.Cells提供[**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)方法来检索指定列的线程注释。[**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)方法接受列名作为参数并返回[**线程评论集合**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection).你可以遍历[**线程评论集合**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection)并使用[**ThreadedComment.CreatedTime**](https://reference.aspose.com/cells/net/aspose.cells/threadedcomment/properties/createdtime)财产。
+Aspose.Cells 提供 [**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1) 方法来检索指定列的分线评论。[**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1) 方法接受列名作为参数并返回 [**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection)。您可以遍历 [**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection) 并使用 [**ThreadedComment.CreatedTime**](https://reference.aspose.com/cells/net/aspose.cells/threadedcomment/properties/createdtime) 属性。
 
-下面的例子演示了通过加载[示例 Excel 文件](89849861.xlsx).请查看代码生成的控制台输出以供参考。
+以下示例演示了通过加载 [示例 Excel 文件](89849861.xlsx) 读取分线评论的创建时间。请参阅代码生成的控制台输出以供参考。
 
 #### **示例代码**
 
@@ -85,43 +86,43 @@ Aspose.Cells提供[**Comments.GetThreadedComments**](https://reference.aspose.co
 
 #### **控制台输出**
 
-评论：测试线程评论
+备注: 测试分线注释
 
-作者：Aspose 测试
+作者: Aspose 测试
 
-创建时间：5/15/2019 12:46:23 PM
+创建时间: 2019年5月15日 下午12:46:23
 
-## **编辑线程评论**
+## **编辑分线评论**
 
-### **使用 Excel 编辑线程评论**
+### **使用 Excel 编辑分线评论**
 
-要在 Excel 中编辑线程注释，请单击**编辑**评论上的链接，如下图所示。
+要在 Excel 中编辑分线评论，请单击评论上显示的 **编辑** 链接，如下图所示。
 
-![待办事项：图片_替代_文本](threaded-comments_7.jpg)
+![todo:image_alt_text](threaded-comments_7.jpg)
 
-### **使用 Aspose.Cells 编辑线程评论**
+### **使用 Aspose.Cells 编辑分线评论**
 
-Aspose.Cells提供[**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)方法来检索指定列的线程注释。[**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)方法接受列名作为参数并返回[**线程评论集合**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection).您可以在[**线程评论集合**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection)并保存工作簿。
+Aspose.Cells 提供 [**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1) 方法来检索指定列的分线评论。[**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1) 方法接受列名作为参数并返回 [**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection)。您可以在 [**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection) 中更新所需的评论并保存工作簿。
 
-以下示例演示了通过加载[示例 Excel 文件](89849861.xlsx).请参阅[输出Excel文件](89849862.xlsx)由显示更新评论的代码生成以供参考。
+以下示例演示了通过加载 [示例 Excel 文件](89849861.xlsx) 编辑列 A1 中的第一个分线评论。请参阅代码生成的 [输出 Excel 文件](89849862.xlsx) 以供参考。
 
 #### **示例代码**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-EditThreadedComments-1.cs" >}}
 
-## **删除线程评论**
+## **删除分线评论**
 
-### **使用 Excel 删除线程评论**
+### **使用 Excel 删除分线评论**
 
-要在 Excel 中删除线程注释，请右键单击包含注释的单元格，然后单击**删除评论**选项如下图所示。
+要在 Excel 中删除分线评论，请右键单击包含评论的单元格，然后单击下面图片中显示的 **删除评论** 选项。
 
-![待办事项：图片_替代_文本](threaded-comments_8.jpg)
+![todo:image_alt_text](threaded-comments_8.jpg)
 
-### **使用 Aspose.Cells 删除线程评论**
+### **使用 Aspose.Cells 删除分线评论**
 
-Aspose.Cells提供[**Comments.RemoveAt**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection/methods/removeat/index)方法删除指定列的评论。[**Comments.RemoveAt**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection/methods/removeat/index)方法接受列名作为参数，删除该列中的注释。
+Aspose.Cells 提供 [**Comments.RemoveAt**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection/methods/removeat/index) 方法来移除指定列的评论。[**Comments.RemoveAt**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection/methods/removeat/index) 方法接受列名作为参数，并移除该列中的评论。
 
-以下示例演示通过加载[示例 Excel 文件](89849861.xlsx).请参阅[输出Excel文件](89849864.xlsx)生成的代码供参考。
+以下示例演示了通过加载 [示例 Excel 文件](89849861.xlsx) 在列 A1 中移除评论。请参阅代码生成的 [输出 Excel 文件](89849864.xlsx) 以供参考。
 
 #### **示例代码**
 
@@ -129,6 +130,6 @@ Aspose.Cells提供[**Comments.RemoveAt**](https://reference.aspose.com/cells/net
 
 {{% alert color="primary" %}}
 
-请注意，通过删除带有 Aspose.Cells 的评论，作者不会自动删除。如果您还需要删除作者，请使用 RemoveAt 方法[**ThreadedCommentAuthorCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthorcollection)类如上例所示。
+请注意，使用 Aspose.Cells 删除评论时，作者不会自动删除。如果您需要同时删除作者，请像上面的示例中所示使用 [**ThreadedCommentAuthorCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthorcollection) 类的 RemoveAt 方法。
 
 {{% /alert %}}

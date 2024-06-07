@@ -1,19 +1,20 @@
-﻿---
-title: 在 xlsx4j 中创建数据透视表
+---
+title: 在xlsx4j中创建数据透视表
 type: docs
 weight: 20
 url: /zh/java/create-pivot-table-in-xlsx4j/
 ---
-## **Aspose.Cells - 创建数据透视表**
-使用 Aspose.Cells 创建数据透视表：
 
-1. 使用 Cell 对象的 PutValue/setValue 方法将一些数据添加到工作表单元格。您还可以使用已填充数据的模板文件。数据将用作数据透视表的数据源。
-1. 通过调用 PivotTables 集合的 add 方法（封装在 Worksheet 对象中）向工作表添加数据透视表。
-1. 通过传递其索引从 PivotTables 集合访问新的 PivotTable 对象。 # 使用任何封装在数据透视表对象中的数据透视表对象来管理表格。
+## **Aspose.Cells - 创建数据透视表**
+使用Aspose.Cells创建数据透视表:
+
+1. 使用Cell对象的PutValue/setValue方法向工作表单元格添加一些数据。您也可以使用已填充数据的模板文件。这些数据将用作数据透视表的数据源。
+1. 通过调用PivotTables集合的add方法（封装在Worksheet对象中）将数据透视表添加到工作表。
+1. 通过传递其索引来访问新的PivotTable对象并从PivotTables集合中获取。# 使用PivotTable对象中封装的任何数据透视表对象来管理表格。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -164,6 +165,6 @@ workbook.save(dataDir + "AsposePivotTable.xls");
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[创建数据透视表和数据透视图](/cells/zh/java/create-pivot-tables-and-pivot-charts).
+如需更多详情，请访问[创建数据透视表和透视图表](/cells/zh/java/create-pivot-tables-and-pivot-charts)。
 
 {{% /alert %}}

@@ -1,23 +1,24 @@
 ---
-title: Cells 格式化
+title: 单元格格式
 type: docs
 weight: 50
 url: /zh/cpp/cells-formatting/
 ---
-##  **格式 Cell 或 Cells 的范围**
-如果您想设置单元格或单元格范围的格式，则 Aspose.Cells 提供[风格](https://reference.aspose.com/cells/cpp/aspose.cells/style/)班级。您可以使用此类完成单元格或单元格区域的所有格式设置。可以使用 IStyle 类完成的一些与格式化相关的事情如下
+
+## **格式化单元格或一组单元格**
+如果您想要格式化单元格或一组单元格，Aspose.Cells提供了 [Style](https://reference.aspose.com/cells/cpp/aspose.cells/style/) 类。您可以使用此类完成对单元格或一组单元格的所有格式化。与 IStyle 类相关的一些格式化方法如下
 
 - 设置单元格的填充颜色
 - 设置单元格的文本换行
-- 设置单元格的边框，如上、左、下、右边框等。
-- 设置字体颜色、字体大小、字体名称、删除线、粗体、斜体、下划线等。
-- 将文本水平或垂直对齐方式设置为右、左、上、下、居中等。
+- 设置单元格的边框，如顶部、左侧、底部和右侧边框等
+- 设置字体颜色、字体大小、字体名称、删除线、粗体、斜体、下划线等
+- 将文本水平或垂直对齐方式设置为右对齐、左对齐、顶对齐、底对齐、居中等
 
-如果您想设置单个单元格的样式，请使用[Cell->设置样式()](https://reference.aspose.com/cells/cpp/aspose.cells/cell/setstyle/)方法，如果你想设置一系列单元格的样式，那么请使用[范围->ApplyStyle()](https://reference.aspose.com/cells/cpp/aspose.cells/range/applystyle/)方法。
-##  **示例代码**
-以下示例代码以各种方式格式化工作表的单元格 C4，屏幕截图显示了[输出Excel文件](21266438.xlsx)由其生成供您参考。
+如果要设置单个单元格的样式，请使用 [Cell->SetStyle()](https://reference.aspose.com/cells/cpp/aspose.cells/cell/setstyle/) 方法。如果要设置一组单元格的样式，请使用 [Range->ApplyStyle()](https://reference.aspose.com/cells/cpp/aspose.cells/range/applystyle/) 方法。
+## **示例代码**
+以下示例代码以各种方式格式化工作表的单元格C4，并显示了代码生成的 [输出excel文件](21266438.xlsx) 的屏幕截图供您参考。
 
-![待办事项：图像_替代_文本](cells-formatting_1.png)
+![todo:image_alt_text](cells-formatting_1.png)
 
 
 

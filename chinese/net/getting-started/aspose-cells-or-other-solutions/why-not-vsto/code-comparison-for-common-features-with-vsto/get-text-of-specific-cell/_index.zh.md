@@ -1,11 +1,12 @@
-﻿---
-title: 获取特定 Cell 的文本
+---
+title: 获取特定单元格的文本
 type: docs
 weight: 130
 url: /zh/net/get-text-of-specific-cell/
 ---
+
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -45,7 +46,7 @@ excelApp.Quit();
 
 {{< /highlight >}}
 ## **Aspose**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify the excel file path.
 
@@ -71,4 +72,4 @@ Console.ReadKey();
 {{< /highlight >}}
 ## **下载示例代码**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Get.Text.of.Specific.Cell.Aspose.Cells.zip)
-- [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-vsto/wiki/Get%20Text%20of%20Specific%20Cell)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/wiki/Get%20Text%20of%20Specific%20Cell)

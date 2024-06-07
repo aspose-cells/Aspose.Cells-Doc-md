@@ -1,49 +1,50 @@
-﻿---
-title: 在 Perl 中使用 Aspose.Cells for Java
+---
+title: 使用 Aspose.Cells for Java 与 Perl
 type: docs
 weight: 30
 url: /zh/java/using-aspose-cells-for-java-with-perl/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Java 是可以与 Perl 一起使用的纯 Java 组件。使用该组件与在 Perl 中调用其他常用 Java API 相同。要在 Perl 中调用任何 Java 库，您需要先为 Perl 安装 Java-Perl 扩展。这是访问 JVM 所必需的。
+Aspose.Cells for Java 是一个纯 Java 组件，可以与 Perl 一起使用。使用该组件与在 Perl 中调用其他常见的 Java API 相同。要在 Perl 中调用任何 Java 库，首先需要为 Perl 安装 Java-Perl 扩展。这是访问 JVM 所必需的。
 
 {{% /alert %}} 
-## **所需的软件和库**
-需要以下软件和库。
+## **所需软件和库**
+需要以下软件和库。 
 
-- 佩尔。
-- Aspose.Cells for Java.
+- Perl。
+- Aspose.Cells for Java。
 - Java - Perl 扩展。
-- Java 运行时满足 Aspose.Cells for Java 和 Java-Perl 扩展的要求。
-### **指导**
-要在 Perl 中调用 Java API，您需要先为 Perl 安装 Java-Perl 扩展。 （出于本文的目的，我们假设已正确安装和设置 Perl。）您可以从以下位置获得 Java-Perl 扩展名[梅佐/Java-4.7/](https://metacpan.org/release/METZZO/Java-4.7)
+- 满足 Aspose.Cells for Java 和 Java-Perl 扩展要求的 Java 运行时。
+### **指南**
+要在 Perl 中调用 Java API，您需要先为 Perl 安装 Java-Perl 扩展。(在本文中，我们假设 Perl 已安装并设置正确。) 您可以从 [Metzzo/Java-4.7/](https://metacpan.org/release/METZZO/Java-4.7) 获取 Java-Perl 扩展。
 
-在本文档的最后，有一个调用 Aspose.Cells for Java 的 Perl 脚本示例。要运行它，请按照以下步骤操作：
+本文档末尾附有一个调用 Aspose.Cells for Java 的示例 Perl 脚本。要运行它，请按以下步骤操作： 
 
-1. 下载文件 Java-4.7.tar.gz 并将其解压缩到本地驱动器。
-1. 为 Perl 安装这个包。
-1. 启动Java服务器。该命令将是：
+1. 下载文件 Java-4.7.tar.gz 并解压到本地驱动器。
+1. 为 Perl 安装该软件包。
+1. 启动 JavaServer。命令为： 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  java -classpath ...  com.zzo.javaserver.JavaServer 
 
 {{< /highlight >}}
 
-其中 ... 是必须包含应用程序所需的所有库的类路径。
+其中...是类路径，必须包含应用程序所需的所有库。 
 
-要使用Aspose.Cells for Java，至少要包含两个JAR文件：
+要使用 Aspose.Cells for Java，应至少包含两个 JAR 文件： 
 
-1. **Aspose.Cells.jar**从 Aspose.Cells for Java
-1. **JavaServer.jar**来自 Java-4.7.tar.gz
+1. 来自 Aspose.Cells for Java 的 **Aspose.Cells.jar**
+1. 来自 Java-4.7.tar.gz 的 **JavaServer.jar**
 1. 运行调用 Aspose.Cells for Java API 的 Perl 脚本。
 
-有关如何在 Perl 中使用 Java 的更多信息，请参阅 Java 的文档 - Perl 扩展，网址为<https://metacpan.org/release/METZZO/Java-4.7>
+For more information on how to work with Java in Perl, see documentation of Java - Perl extension at <https://metacpan.org/release/METZZO/Java-4.7>
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  my $ok = 0;
 
@@ -81,7 +82,7 @@ $ok++;
 
 print "workbook $ok\n";
 
-# $workbook->open("t.xls");
+#$workbook->open("t.xls");
 
 $ok++;
 

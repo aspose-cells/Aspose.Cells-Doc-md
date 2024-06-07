@@ -1,40 +1,41 @@
-﻿---
-title: 读取具有多个编码的 CSV 文件
+---
+title: 读取具有多种编码的CSV文件
 type: docs
 weight: 140
 url: /zh/java/reading-csv-file-with-multiple-encodings/
 ---
+
 {{% alert color="primary" %}} 
 
-有时，您的 CSV 文件包含多个编码（Unicode、ANSI、UTF8、UTF7 等）。 Aspose.Cells 允许您加载此类 CSV 文件并将其转换为其他格式，例如 PDF 或 XLSX。
+有时，您的CSV文件包含多种编码（Unicode、ANSI、UTF8、UTF7等）。Aspose.Cells允许您加载这些CSV文件，并将它们转换为其他格式，例如PDF或XLSX。
 
 {{% /alert %}} 
 
- Aspose.Cells提供了TxtLoadOptions.setMultiEncoded()方法，需要设置为**真的**正确加载具有多种编码的 CSV 文件。
+Aspose.Cells提供了TxtLoadOptions.setMultiEncoded()方法，您需要将其设置为**true**，以正常加载具有多种编码的CSV文件。
 
-以下屏幕截图显示了包含两行的示例 CSV 文件。第一行在**美标**编码，第二行是**统一码**编码
+以下截图显示了一个包含两行的样本CSV文件。第一行是用**ANSI**编码，第二行是用**Unicode**编码。
 
 **输入文件** 
 
-![待办事项：图片_替代_文本](reading-csv-file-with-multiple-encodings_1.png)
+![todo:image_alt_text](reading-csv-file-with-multiple-encodings_1.png)
 
-以下屏幕截图显示了在未将 TxtLoadOptions.setMultiEncoded() 方法设置为 true 的情况下从上述 CSV 文件转换为 XLSX 文件。如您所见，Unicode 文本未正确转换。
+以下截图显示了从上述CSV文件转换的XLSX文件，而未将TxtLoadOptions.setMultiEncoded()方法设置为true。您可以看到，Unicode文本未正确转换。
 
-**输出文件 1：没有为多重编码做出调整** 
+**输出文件1：未提供多重编码的处理** 
 
-![待办事项：图片_替代_文本](reading-csv-file-with-multiple-encodings_2.png)
+![todo:image_alt_text](reading-csv-file-with-multiple-encodings_2.png)
 
-以下屏幕截图显示了将 TxtLoadOptions.setMultiEncoded() 方法设置为 true 后从上述 CSV 文件转换而来的 XSLX 文件。如您所见，Unicode 文本现在已正确转换。
+以下截图显示了从上述CSV文件转换的XLSX文件，设置了TxtLoadOptions.setMultiEncoded()方法为true。您可以看到，Unicode文本现在已正确转换。
 
-**输出文件 2：IsMultiEncoded 设置为 true** 
+**输出文件2：IsMultiEncoded 已设置为 true** 
 
-![待办事项：图片_替代_文本](reading-csv-file-with-multiple-encodings_3.png)
+![todo:image_alt_text](reading-csv-file-with-multiple-encodings_3.png)
 
-下面是将上述 CSV 文件正确转换为 XLSX 格式的示例代码。
+以下是将上述CSV文件正确转换为XLSX格式的示例代码。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  String filePath = "F:\\Downloads\\MutliEncoded.csv";
 

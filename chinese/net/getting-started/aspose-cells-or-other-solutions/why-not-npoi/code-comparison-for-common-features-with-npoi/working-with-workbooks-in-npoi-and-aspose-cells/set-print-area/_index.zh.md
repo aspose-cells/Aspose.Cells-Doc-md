@@ -1,17 +1,18 @@
-﻿---
+---
 title: 设置打印区域
 type: docs
 weight: 30
 url: /zh/net/set-print-area/
 ---
-## **Aspose.Cells - 设置打印区域**
-默认情况下，只有打印区域包含工作表中包含数据的所有区域。开发人员可以建立工作表的特定打印区域。
 
-要选择特定的打印区域，请使用[页面设置](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)类的 PrintArea 属性。将定义打印区域的单元格范围分配给此属性。
+## **Aspose.Cells - 设置打印区域**
+默认情况下，打印区域仅包含包含数据的工作表所有区域。开发人员可以为工作表设定特定打印区域。
+
+要选择特定的打印区域，请使用[PageSetup](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)类的PrintArea属性。将定义打印区域的单元格范围分配给此属性。
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  // Instantiating a Workbook object
 
@@ -61,11 +62,11 @@ workbook.Save("test.xlsx");
 
 {{< /highlight >}}
 ## **NPOI - HSSF XSSF - 设置打印区域**
-Workbook.setPrintArea 方法可用于设置打印区域的页面属性。
+Workbook.setPrintArea方法可用于设置打印区域的页面属性。
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -124,12 +125,12 @@ sw.Close();
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**设置打印区域**形成以下任何一个社交编码网站：
+从以下社交编码网站之一下载**设置打印区域**：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Set.Print.Area.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[设置打印选项](/cells/zh/net/setting-print-options/).
+有关更多详细信息，请访问[设置打印选项](/cells/zh/net/setting-print-options/)。
 
 {{% /alert %}}

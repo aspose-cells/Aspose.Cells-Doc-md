@@ -1,21 +1,22 @@
-﻿---
-title: 公共 API Aspose.Cells 8.5.1 的变化
+---
+title: Aspose.Cells 8.5.1 中的公共 API 更改
 type: docs
 weight: 180
 url: /zh/java/public-api-changes-in-aspose-cells-8-5-1/
 ---
+
 {{% alert color="primary" %}} 
 
-本文档描述了 Aspose.Cells API 从版本 8.5.0 到 8.5.1 的变化，模块/应用程序开发人员可能会感兴趣。它不仅包括新的和更新的公共方法，[添加类等](/cells/zh/java/public-api-changes-in-aspose-cells-8-5-1/)还描述了 Aspose.Cells 中幕后行为的任何变化。
+本文档描述了Aspose.Cells API从版本8.5.0到8.5.1的变化，可能对模块/应用程序开发人员感兴趣。除了新的和更新的公共方法，[添加的类等。](/cells/zh/java/public-api-changes-in-aspose-cells-8-5-1/)，还描述了Aspose.Cells后台行为的任何变化。
 
 {{% /alert %}} 
-## **添加的 API**
-### **方法 Workbook.Dispose 添加**
-Aspose.Cells for Java 8.5.1暴露了Workbook.dispose方法释放Workbook对象的非托管资源。 dispose 模式仅用于访问非托管资源的对象，例如文件和管道句柄、注册表句柄、等待句柄或指向非托管内存块的指针。这是因为垃圾收集器在回收未使用的托管对象方面非常有效，但无法回收非托管对象。
+## **已添加API**
+### **新增 Workbook.Dispose 方法**
+Aspose.Cells for Java 8.5.1已公开了Workbook.dispose方法，以释放Workbook对象的非托管资源。仅对访问非托管资源的对象使用dispose模式，如文件和管道句柄、注册表句柄、等待句柄或非托管内存块。这是因为垃圾回收器非常有效地回收未使用的托管对象，但无法回收非托管对象。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -26,23 +27,23 @@ Workbook book = new Workbook();
 book.dispose();
 
 {{< /highlight >}}
-### **添加方法 Cell.getHeightOfValue**
- Aspose.Cells for Java 8.5.1暴露了Cell.getHeightOfValue方法获取单元格高度值。通过使用此方法，您可以计算单元格值的高度，然后分别设置该单元格的行高。查看详细文章[如何计算单元格的高度和宽度](/cells/zh/java/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/).
+### **已添加 Cell.getHeightOfValue 方法**
+Aspose.Cells for Java 8.5.1已公开了Cell.getHeightOfValue方法，用于获取单元格值的高度。通过使用该方法，您可以计算单元格值的高度，然后相应地设置该单元格的行高。可查看有关[如何计算像素单位中的单元格高度和宽度](/cells/zh/java/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/)的详细文章。
 ### **添加了枚举 TableDataSourceType**
-Aspose.Cells for Java 8.5.1 公开了枚举 com.aspose.cells.TableDataSourceType 以检索 ListObject 的数据源类型。 TableDataSourceType 枚举如下字段。
+Aspose.Cells for Java 8.5.1已公开了com.aspose.cells.TableDataSourceType枚举，以检索ListObject的数据源类型。TableDataSourceType枚举具有以下字段。 
 
 1. TableDataSourceType.QUERY_TABLE
 1. TableDataSourceType.SHARE_POINT
 1. TableDataSourceType.WORKSHEET
-1. 表数据源类型.XML
-### **添加了属性 ListObject.DataSourceType**
-随着v8.5.1的发布，Aspose.Cells API 公开了readonly ListObject.DataSourceType属性，可以用来检测ListObject的数据源类型。
+1. TableDataSourceType.XML
+### **新增 ListObject.DataSourceType 属性**
+随着 v8.5.1 的发布，Aspose.Cells API 暴露了 ListObject.DataSourceType 只读属性，用于检测 ListObject 的数据源类型。
 
 这里是最简单的使用场景。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("D:/book1.xlsx");
 

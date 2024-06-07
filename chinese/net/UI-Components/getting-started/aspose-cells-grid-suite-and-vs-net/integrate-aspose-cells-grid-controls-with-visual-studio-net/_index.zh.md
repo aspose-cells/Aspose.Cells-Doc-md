@@ -1,24 +1,26 @@
-﻿---
-title: 将 Aspose.Cells 网格控件与 Visual Studio 集成 .NET
+---
+title: 将Aspose.Cells Grid控件与Visual Studio.NET集成
 type: docs
 weight: 10
 url: /zh/net/integrate-aspose-cells-grid-controls-with-visual-studio-net/
+description: 本文描述了如何在Visual Studio .NET中使用GridWeb和GridDesktop控件。
+keywords: GridWeb，GridDesktop，Visual Studio，控件，集成
 ---
+
 {{% alert color="primary" %}} 
 
- Visual Studio.NET 开发人员可以轻松地将控件从**工具箱**到 Windows 或 Web 表单上。 Aspose.Cells 可以使用 MSI 安装程序或作为一组 DLL 包下载网格套件。本文介绍如何确保 Aspose.Cells.Grid 控件在使用 DLL 而不是安装程序安装时可以在 Visual Studio.NET 中使用。
+Visual Studio .NET开发人员可以轻松地从**工具箱**拖动控件到Windows或Web表单中。 Aspose.Cells Grid套件可以通过MSI安装程序下载，也可以作为一组DLL包。本文解释了在使用DLL而不是安装程序安装时，如何确保可以在Visual Studio .NET中使用Aspose.Cells.Grid控件。
 
 {{% /alert %}} 
-## **将 Aspose.Cells 网格控件与 Visual Studio 集成 .NET**
-将 Aspose.Cells 网格控件与 Visual Studio.NET 集成：
+## **将Aspose.Cells Grid控件集成到Visual Studio.NET中**
+要将Aspose.Cells Grid控件集成到Visual Studio.NET中：
 
 1. 打开工具箱。
-1. 选择常规选项卡（或您要向其添加控件的任何其他选项卡）。
-1. 右键单击“常规”选项卡。
-1. 在 Visual Studio.NET 2003 上：选择**添加/删除项目**从菜单中。
-1. 在 Visual Studio.NET 2005 上，选择**选择项目**从菜单中。将出现自定义工具箱对话框（此过程与较新的 VS.NET IDE（例如 VS.NET 2013/2015 或更高版本）大致相同）。
-1. 点击**浏览**并找到 Aspose.Cells.GridDesktop.dll 和 Aspose.Cells.GridWeb.dll 文件。
-1. 选择 DLL，然后单击**打开**.自定义工具箱对话框现在将包含来自 Aspose.Cells Grid Suite 的控件。对话框将突出显示新添加的控件。
-1. 点击**好的**将控件添加到您的 Visual Studio.NET 工具箱。
+1. 选择General标签（或者您想要添加控件的其他标签）。
+1. 右键单击General标签。
+1. 在Visual Studio.NET中，从菜单中选择**选择项**。将出现自定义工具箱对话框（对于较新的VS.NET IDE（例如VS.NET 2013/2015或更高版本），此过程或多或少是相同的）。
+1. 点击**浏览**，定位Aspose.Cells.GridDesktop.dll和Aspose.Cells.GridWeb.dll文件。
+1. 选择DLL文件，然后点击**打开**。 自定义工具箱对话框现在将包含来自Aspose.Cells Grid Suite的控件。 新添加的控件将由对话框突出显示。
+1. 点击**确定**，将控件添加到您的Visual Studio.NET工具箱中。
 
- Aspose.Cells 网格控件将被添加到工具箱的**一般的**标签。只有 GridWeb 控件未处于活动状态。这是因为我们正在处理 Windows 表单应用程序。 GridWeb 仅在您使用 Web 窗体时可用，而 GridDesktop 仅可用于 Windows 窗体。
+Aspose.Cells Grid控件现在已添加到工具箱的**General**标签。 只有GridWeb控件是不活动的。 这是因为我们正在使用Windows Forms应用程序。 仅当您在使用Web Forms时，GridWeb才可用，而GridDesktop仅适用于Windows Forms。

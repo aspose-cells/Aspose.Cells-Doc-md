@@ -1,30 +1,31 @@
 ---
-title: 清除数据透视表中的筛选器
+title: 清除透视表中的筛选器
 type: docs
 weight: 130
 url: /zh/python-net/clear-filter-in-pivot-table/
-description: 如何使用 Aspose.Cells for Python via .NET 从数据透视表中的特定数据透视字段中清除数据透视过滤器。
-keywords: Clear PivotFilter in pivot table.
+description: 如何通过.NET使用Aspose.Cells for Python从透视表中的特定透视字段中清除PivotFilter。
+keywords: Aspose.Cells for Python Excel，Excel Python库，使用Aspose.Cells for Python Excel库中的清除PivotFilter清除透视表中的PivotFilter。
 ---
-##  **可能的使用场景**
-当您使用已知数据创建数据透视表并想要过滤数据透视表时，您需要学习和使用过滤器。它可以帮助您有效地过滤出您想要的数据。通过使用 Aspose.Cells for Python via .NET API，您可以对数据透视表中的字段值进行过滤。
 
-##  **清除 Excel 数据透视表中的筛选器**
-清除 Excel 数据透视表中的筛选器，请按照下列步骤操作：
+## **可能的使用场景**
+使用已知数据创建数据透视表并想要对数据透视表进行筛选时，您需要学习并使用筛选器。它可以帮助您有效地筛选出您想要的数据。通过使用 Aspose.Cells for Python 通过 .NET API，您可以在数据透视表中对字段数值进行筛选操作。 
 
-1. 选择要清除筛选器的数据透视表。
-2. 单击要在数据透视表中清除的过滤器的下拉箭头。
-3. 从下拉菜单中选择“清除过滤器”。
+## **如何在 Excel 中的数据透视表中清除筛选器**
+在Excel中清除透视表中的筛选器，请按照以下步骤进行：
+
+1. 选择要清除筛选器的透视表。 
+2. 单击透视表中要清除的筛选器的下拉箭头。
+3. 从下拉菜单中选择"清除筛选器"。
 <img src="1.png" width=80% />
-4. 如果要清除数据透视表中的所有筛选器，还可以单击 Excel 功能区上的数据透视表分析选项卡中的“清除筛选器”按钮。
+4. 如果要从透视表中清除所有筛选器，您也可以单击Excel的功能区中的“透视表分析”选项卡中的“清除筛选器”按钮。
 <img src="2.png" width=80% />
 
-##  **使用 C# 清除数据透视表中的筛选器**
-使用 Aspose.Cells for Python via .NET 清除数据透视表中的筛选器。请参阅以下示例代码。
-1. 设置数据并基于它创建数据透视表。
- 2. 在数据透视表的行字段上添加过滤器。
- 3. 将工作簿保存在[输出XLSX](out_add.xlsx)格式。执行示例代码后，带有 top10 过滤器的数据透视表将添加到工作表中。
- 4. 清除特定数据透视字段上的过滤器。执行清除过滤器的代码后，特定数据透视字段上的过滤器将被清除。请检查[输出XLSX](out_delete.xlsx).
+## **如何使用 Aspose.Cells for Python Excel 库清除数据透视表中的筛选器**
+使用 Aspose.Cells for Python 通过 .NET 清除数据透视表中的筛选器。请查看以下示例代码。 
+1. 设置数据并根据其创建数据透视表。 
+2. 在数据透视表的行字段上添加过滤器。 
+3. 以 [输出 XLSX](out_add.xlsx) 格式保存工作簿。在执行示例代码后，工作表中将加入一个具有 top10 过滤器的数据透视表。 
+4. 清除特定数据透视表字段上的过滤器。在执行清除过滤器的代码后，特定数据透视表字段上的过滤器将被清除。请查看 [输出 XLSX](out_delete.xlsx)。
 
-##  **示例代码**
+## **示例代码**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-Clear-filter-in-PivotTable.py" >}}

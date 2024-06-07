@@ -1,20 +1,21 @@
-﻿---
-title: Aspose.Cells 公式中设置外部链接
+---
+title: 在Aspose.Cells中为公式设置外部链接
 type: docs
 weight: 90
 url: /zh/net/set-external-links-in-formulas-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-有时，有必要在公式中包含指向外部文件的链接，例如根据它们计算单元格或范围值。 Aspose.Cells 提供了此功能，本文档解释了如何使用它。
+有时，需要在公式中包含对外部文件的链接，例如针对它们评估单元格或范围值。Aspose.Cells提供了此功能，并且本文档解释了如何使用它。
 
 {{% /alert %}} 
 
-下面的示例代码显示了如何在公式中包含外部文件。
+以下示例代码显示了如何在公式中包含外部文件。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -47,5 +48,5 @@ workbook.Save(FileName);
 {{< /highlight >}}
 ## **下载示例代码**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Set%20External%20Links%20in%20Formula)
-## **下载运行示例**
+## **下载示例**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

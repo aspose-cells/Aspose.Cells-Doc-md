@@ -1,15 +1,16 @@
-﻿---
-title: 在 VSTO 的工作表中合并或取消合并 Cells 和 Aspose.Cells
+---
+title: 在VSTO和Aspose.Cells中合并或取消合并工作表中的单元格
 type: docs
 weight: 170
 url: /zh/net/merge-or-unmerge-cells-in-a-worksheet-in-vsto-and-aspose-cells/
 ---
-打开现有的excel文件，合并工作簿中第一个工作表中的一些单元格并保存excel文件。
-## **合并 Cells**
-### **VSTO**
-以下是 VSTO (C#) 和 Aspose.Cells for .NET (C#) 的并行代码片段。
 
-{{< highlight "csharp" >}}
+打开现有的Excel文件，在工作簿的第一个工作表中合并一些单元格，并保存Excel文件。
+## **合并单元格**
+### **VSTO**
+以下是用于VSTO（C#）和Aspose.Cells for .NET（C#）的并行代码片段。
+
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -55,7 +56,7 @@ url: /zh/net/merge-or-unmerge-cells-in-a-worksheet-in-vsto-and-aspose-cells/
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -82,10 +83,10 @@ url: /zh/net/merge-or-unmerge-cells-in-a-worksheet-in-vsto-and-aspose-cells/
   workbook.Save("Book1.xls");
 
 {{< /highlight >}}
-## **取消合并 Cells**
-要取消合并单元格，请对 VSTO (C#) 和 Aspose.Cells for .NET (C#) 使用以下代码行。
+## **取消合并单元格**
+要取消合并单元格，使用以下代码行适用于VSTO（C#）和Aspose.Cells for .NET（C#）。
 ### **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //UnMerge the cell.
 
@@ -93,7 +94,7 @@ url: /zh/net/merge-or-unmerge-cells-in-a-worksheet-in-vsto-and-aspose-cells/
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
    Cells rng = workbook.Worksheets[0].Cells;
 
@@ -104,5 +105,5 @@ url: /zh/net/merge-or-unmerge-cells-in-a-worksheet-in-vsto-and-aspose-cells/
 {{< /highlight >}}
 ## **下载示例代码**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Merge.or.UnMerge.Cells.in.a.Worksheet.Aspose.Cells.zip)
-- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Merge%20or%20UnMerge%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/下载）
-- [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Merge%20or%20UnMerge%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\)。压缩）
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Merge%20or%20UnMerge%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Merge%20or%20UnMerge%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip)

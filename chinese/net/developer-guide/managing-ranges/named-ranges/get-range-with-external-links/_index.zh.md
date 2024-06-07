@@ -1,23 +1,24 @@
-﻿---
-title: 使用外部链接获取范围
+---
+title: 获取带有外部链接的范围
 type: docs
 weight: 120
 url: /zh/net/get-range-with-external-links/
 ---
-## **使用外部链接获取范围**
 
-很多时候，Excel 文件使用外部链接从其他 Excel 文件访问数据。 Aspose.Cells 提供了通过使用检索这些外部链接的选项[**名称.GetReferredAreas**](https://reference.aspose.com/cells/net/aspose.cells/name/methods/getreferredareas)方法。这[**名称.GetReferredAreas**](https://reference.aspose.com/cells/net/aspose.cells/name/methods/getreferredareas)方法返回类型数组[**推荐区域**](https://reference.aspose.com/cells/net/aspose.cells/referredarea).这[**推荐区域**](https://reference.aspose.com/cells/net/aspose.cells/referredarea)类提供了一个[**外部文件名**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/externalfilename)返回外部文件名称的属性。这[**推荐区域**](https://reference.aspose.com/cells/net/aspose.cells/referredarea)类公开以下成员。
+## **获取带有外部链接的范围**
 
-- [**结束列**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/endcolumn)区域的结束列
-- [**结束行**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/endrow)区域的末行
-- [**外部文件名**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/externalfilename)：如果这是外部引用，则获取外部文件名
-- [**区域**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/isarea)表示这是否是一个区域
-- [**是外部链接**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/isexternallink)表示这是否是外部链接
-- [**工作表名称**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/sheetname)：表示该引用在哪个工作表中
-- [**起始列**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/startcolumn)：区域的起始列
-- [**起始行**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/startrow)：区域的起始行
+很多时候，Excel文件使用外部链接访问其他Excel文件中的数据。Aspose.Cells提供了通过使用[**Name.GetReferredAreas**](https://reference.aspose.com/cells/net/aspose.cells/name/methods/getreferredareas)方法检索这些外部链接的选项。[**Name.GetReferredAreas**](https://reference.aspose.com/cells/net/aspose.cells/name/methods/getreferredareas)方法返回一个类型为[**ReferredArea**](https://reference.aspose.com/cells/net/aspose.cells/referredarea)的数组。[**ReferredArea**](https://reference.aspose.com/cells/net/aspose.cells/referredarea)类提供一个[**ExternalFileName**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/externalfilename)属性，返回外部文件的名称。[**ReferredArea**](https://reference.aspose.com/cells/net/aspose.cells/referredarea)类公开以下成员。
 
-下面给出的示例代码演示了使用[**名称.GetReferredAreas**](https://reference.aspose.com/cells/net/aspose.cells/name/methods/getreferredareas)使用外部链接获取范围的方法。
+- [**EndColumn**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/endcolumn)：该区域的结束列
+- [**EndRow**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/endrow)：该区域的结束行
+- [**ExternalFileName**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/externalfilename)：如果这是一个外部引用，则获取外部文件名
+- [**IsArea**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/isarea)：指示这是否是一个区域
+- [**IsExternalLink**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/isexternallink)：指示这是否是一个外部链接
+- [**SheetName**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/sheetname)：指示此引用所在的工作表
+- [**StartColumn**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/startcolumn)：该区域的起始列
+- [**StartRow**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/startrow)：该区域的起始行
+
+下面给出的示例代码演示了如何使用[**Name.GetReferredAreas**](https://reference.aspose.com/cells/net/aspose.cells/name/methods/getreferredareas)方法获取带有外部链接的范围。
 
 ## **示例代码**
 

@@ -1,32 +1,35 @@
-﻿---
+---
 title: 在工作表中添加或插入行
 type: docs
 weight: 30
-url: /zh/net/adding-or-inserting-a-row-into-worksheet/
+url: /zh/net/aspose-cells-griddesktop/add-or-insert-a-row-into-worksheet/
+keywords: GridDesktop，插入，添加，行，插入行，添加行
+description: 本文介绍了如何在 GridDesktop 中添加或插入行。
 ---
+
 {{% alert color="primary" %}} 
 
-与我们之前的主题之一类似，本主题描述了使用 Aspose.Cells.GridDesktop 的 API 在运行时向工作表添加和插入行的功能。添加和插入之间的基本区别在于，另外，在工作表的行集合的末尾添加一行，而在插入中，可以将行添加到工作表中的任何指定位置。
+类似于我们先前的一个主题，本主题描述了在运行时使用 Aspose.Cells.GridDesktop API 向工作表添加和插入行的功能。添加和插入之间的基本区别在于，添加是将行添加到工作表的行集合的末尾，而插入可以在工作表中的任何指定位置添加行。
 
 {{% /alert %}} 
-## **向工作表添加行**
-要向工作表添加新行，请按照以下步骤操作：
+## **向工作表添加一行**
+要向工作表添加新行，请按以下步骤操作：
 
-- 将 Aspose.Cells.GridDesktop 控件添加到您的**形式**
-- 访问任何想要的**工作表**
-- 添加**排**到**工作表**
+- 将Aspose.Cells.GridDesktop控件添加到您的**表单**中
+- 访问任何所需的**工作表**
+- 在**工作表**中添加**行**
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-AddInsertRow-AddRow.cs" >}}
-## **在工作表中插入一行**
-要在工作表的指定位置插入新行，请按照以下步骤操作：
+## **将行插入工作表**
+要在指定位置将新行插入工作表，请按以下步骤操作：
 
-- 将 Aspose.Cells.GridDesktop 控件添加到您的**形式**
-- 访问任何想要的**工作表**
-- 插入**排**进入**工作表**（通过指定插入行的索引在特定位置）
+- 将Aspose.Cells.GridDesktop控件添加到您的**表单**中
+- 访问任何所需的**工作表**
+- 将**行**插入**工作表** (通过指定要插入到的行的索引位置)
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Accessing first worksheet of the Grid
 

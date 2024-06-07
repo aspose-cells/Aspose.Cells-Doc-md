@@ -1,11 +1,12 @@
-﻿---
-title: 打开电子表格文档以进行只读访问
+---
+title: 只读方式打开一个电子表格文档
 type: docs
 weight: 100
 url: /zh/net/open-a-spreadsheet-document-for-read-only-access/
 ---
+
 ## **OpenXML Excel**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -39,7 +40,7 @@ using (SpreadsheetDocument spreadsheetDocument = SpreadsheetDocument.Open(filepa
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 

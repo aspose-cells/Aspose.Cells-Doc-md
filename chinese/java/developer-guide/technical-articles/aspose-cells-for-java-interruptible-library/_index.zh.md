@@ -1,31 +1,34 @@
-﻿---
-title: Aspose.Cells for Java - 可中断库
+---
+title: Aspose.Cells for Java - 可中断的库
 type: docs
 weight: 1090
 url: /zh/java/aspose-cells-for-java-interruptible-library/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for Java 支持在处理大型 Excel 文件时中断加载/保存过程。有时，您想使库/组件可中断。这肯定会提高您的服务/流程的效率和可靠性。当您发现转换花费的时间太长时，您可以可靠地中途放弃转换。这将节省 CPU 使用率、RAM 等。这意味着您不必为了取消转换而采取像杀死整个服务器这样的激烈步骤。
+Aspose.Cells for Java支持在处理大型Excel文件时中断加载/保存进程。有时，您希望使库/组件可中断。这肯定会改善服务/流程的效率和可靠性。当您发现转换过程太长时，可以可靠地放弃转换的一部分。这将节省CPU使用率、内存等。这意味着您不必采取像终止整个服务器一样的激进步骤来取消转换。 
 {{% /alert %}}
 
-## **例子：**
+## **示例：**
 
-以下程序显示了如何使用中断保存过程**中断监视器.interrupt()**方法。
+以下程序展示了如何使用**InterruptMonitor.interrupt()**方法中断保存过程。
 
-[**Java**]{{< highlight "java" >}}
+【**Java**】
 
- //创建一个新的工作簿
+{{< highlight java >}}
 
-最终工作簿 wb = new Workbook();
+ //Create a new Workbook  
 
-// 获取工作表
+final Workbook wb = new Workbook();
+
+// Get the Worksheets
 
 WorksheetCollection wss = wb.getWorksheets();
 
-// 运行一个循环以用数据填充工作表单元格
+// Run a loop to fill sheet cells with data
 
-对于 (int i = 0; i< 50; i++) {
+for (int i = 0; i < 50; i++) {
 
     Worksheet sheet = wss.get(wss.add());
 

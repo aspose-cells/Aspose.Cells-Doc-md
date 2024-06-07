@@ -1,49 +1,50 @@
-﻿---
-title: SpreadsheetML - XLSX, XML
+---
+title: 电子表格ML - XLSX，XML
 type: docs
 weight: 10
 url: /zh/java/spreadsheetml-xlsx-xml/
 ---
-## **关于 SpreadsheetML**
-SpreadsheetML 是一系列基于 XML 的电子表格文档格式的名称。 SpreadsheetML有几个版本：
 
-1. SpreadsheetML 版本 2003 是在 Microsoft Word 2003 中引入的。SpreadsheetML 是 Microsoft 向开放文档格式迈出的重要一步。
-1. [办公室开放 XML](https://en.wikipedia.org/wiki/Office_Open_XML) (OOXML) 是 Microsoft Office 2007 应用程序中引入的基于 XML 的新格式。 Office Open XML 是多种基于 XML 的专用标记语言的容器格式。 SpreadsheetML version 2007是Microsoft Office Excel 2007用来存储其文档的标记语言。
-1. Microsoft Excel 2010 及更高版本将文档存储在更新的 OOXML 标准中定义的 SpreadsheetML 版本 2010 中。
-## **SpreadsheetML 在 Aspose.Cells**
-有 SpreadsheetML 的三个“版本”可用：
+## **关于电子表格ML**
+SpreadsheetML 是一系列基于 XML 的电子表格文档格式的名称。有几个版本的 SpreadsheetML：
 
-|**SpreadsheetML “版本”**|**适用标准/规范**|**支持 Aspose.Cells for Java**|
-|:- |:- |:- |
-|Microsoft Excel 2003|[Microsoft Excel 2003 XML](https://en.wikipedia.org/wiki/Microsoft_Office_XML_formats)|是的|
-|Microsoft Excel 2007|[OOXML ECMA-376](https://www.ecma-international.org/publications-and-standards/standards/ecma-376/)|是的|
-|Microsoft Excel 2010及以后版本|OOXML ISO/IEC DIS 29500|是的|
-OOXML SpreadsheetML 文档通常以 XLSX 文件的形式出现，它们是 ZIP 包。除了 XLSX. Aspose.Cells 还提供了对加载、保存和转换 SpreadsheetML 文档的广泛支持。这样一个包罗万象的实现是可能的，因为 Aspose.Cells 在设计时考虑了 Microsoft Excel 文档的结构（并且 SpreadsheetML 以模仿 Microsoft Excel 文档的内部表示而闻名）。
+1. SpreadsheetML 版本 2003 是在 Microsoft Word 2003 中引入的。 SpreadsheetML 是微软朝着使文档格式开放的重要一步。
+1. [Office Open XML](https://en.wikipedia.org/wiki/Office_Open_XML)（OOXML）是 Microsoft Office 2007 应用程序中引入的新基于 XML 的格式。 Office Open XML 是用于存储文档的几种专用基于 XML 的标记语言的容器格式。 SpreadsheetML 版本 2007 是 Microsoft Office Excel 2007 使用的标记语言，用于存储其文档。
+1. Microsoft Excel 2010及更高版本按照更新的OOXML标准中定义的SpreadsheetML版本2010存储文档。
+## **Aspose.Cells 中的 SpreadsheetML**
+可用的三种版本的 SpreadsheetML 是：
 
-**由Aspose.Cells生成并在Microsoft Excel中打开的XLSX文档** 
+|**SpreadsheetML“版本”**|**适用标准/规范**|**Aspose.Cells for Java支持**|
+| :- | :- | :- |
+|Microsoft Excel 2003| [微软 Excel 2003 XML](https://en.wikipedia.org/wiki/Microsoft_Office_XML_formats)|是|
+|Microsoft Excel 2007| [OOXML ECMA-376](https://www.ecma-international.org/publications-and-standards/standards/ecma-376/)|是|
+|Microsoft Excel 2010及更高版本|OOXML ISO/IEC DIS 29500|是|
+OOXML SpreadsheetML文档通常是ZIP包，常见的是XLSX文件。除了XLSX外，Aspose.Cells还提供了对加载、保存和转换SpreadsheetML文档的广泛支持。这种全面的实现是可能的，因为Aspose.Cells的设计考虑了Microsoft Excel文档的结构（而SpreadsheetML模拟了Microsoft Excel文档的内部表示方式）。
 
-![待办事项：图片_替代_文本](spreadsheetml-xlsx-xml_1.png)
+**由Aspose.Cells生成的XLSX文档，并在Microsoft Excel中打开** 
 
-**Aspose.Cells生成的XLSX文档遵循Open Packaging Convention，可以在支持ZIP的应用程序中打开** 
+![todo:image_alt_text](spreadsheetml-xlsx-xml_1.png)
 
-![待办事项：图片_替代_文本](spreadsheetml-xlsx-xml_2.png)
+**由Aspose.Cells生成的XLSX文档遵循开放包约定，可在支持ZIP的应用程序中打开** 
+
+![todo:image_alt_text](spreadsheetml-xlsx-xml_2.png)
 ## **OOXML 是开放的，为什么要使用 Aspose.Cells？**
-的确，Office Open XML 技术可以仅使用 XML 类来构建文档处理和生成应用程序，而无需依赖第三方库（例如 Aspose.Cells）。但是，我们坚信，当您拥有处理 OOXML 文档，而不是通过 XML 或其他库工作。
+的确，Office Open XML 技术使得可以仅使用 XML 类构建文档处理和生成应用程序，而无需依赖于像 Aspose.Cells 这样的第三方库。然而，我们坚信在处理 OOXML 文档时使用 Aspose.Cells 仍然非常有益处，而不是透过 XML 或其他库进行操作。
 
-OOXML 规范长达数千页。开放和标准并不意味着简单。要正确处理或生成 OOXML 文档，必须投入精力学习这种格式。
+OOXML 规范有数千页之长。开放和标准并不意味着简单。要正确处理或生成 OOXML 文档，必须投入时间学习格式。
 
-除了使正确处理和生成有效文档变得更简单之外，Aspose.Cells 还提供了以下重要功能，这些功能在直接通过 XML 或其他第三方库处理 OOXML 文件时是不具备的：
+Aspose.Cells 不仅使得正确处理和生成有效文档更加简单，而且提供以下重要功能，这些功能是在直接通过 XML 或其他第三方库处理 OOXML 文件时所没有的：
 
-- 许多流行的 Excel 格式之间的质量转换，包括转换为 PDF、HTML、TIFF 和打印。
-- 能够从片段、一个或多个文档构建文档，同时通过风格格式、图表和图形自动合并数据。
-- 高级功能，例如从Array、ArrayList、DataTable、DataColumn、DataGrid、DataView、DataReader等不同数据源导入数据，或导出数据填充DataTable或Array，一行代码即可。
+- 在许多常见的Excel格式之间进行高质量转换，包括转换为PDF、HTML、TIFF以及打印。
+- 能够从片段、一个或多个文档构建文档，同时通过样式格式、图表和图形自动合并数据。
+- 高级功能，比如从不同数据源导入数据（包括数组、ArrayList、DataTable、DataColumn、DataGrid、DataView和DataReader），或者用一行代码导出数据来填充DataTable或数组。
 - 强大的公式计算引擎，支持几乎所有标准和高级 Microsoft Excel 函数。
 
-考虑以下示例。一些单元格包含粗体文本“Hello World”。现在假设您需要编写一个程序来搜索工作表中的所有“Hello World”短语并将它们替换为“再见地球”。
-## **Office Open XML 文档的片段**
+考虑以下示例。某些单元格以粗体显示“Hello World”文本。现在想象一下，您需要编写一个程序，该程序搜索工作表中的所有“Hello World”短语，并将其替换为“Goodbye Earth”。
+## ** Office Open XML 文档的片段**
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 
@@ -175,6 +176,6 @@ OOXML 规范长达数千页。开放和标准并不意味着简单。要正确�
 
 {{< /highlight >}}
 
-在 Office Open XML 文档中实现即使是简单的查找和替换操作也很困难。
+在Office Open XML文档中实现甚至简单的查找和替换操作都很困难。
 
-**我们的建议：**请记住，开放和标准并不意味着简单并使用 Aspose.Cells。
+**我们的建议：**请记住开放和标准并不意味着简单，请使用Aspose.Cells。

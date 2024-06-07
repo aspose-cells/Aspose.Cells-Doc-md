@@ -1,15 +1,16 @@
-﻿---
+---
 title: Hello World
 type: docs
 weight: 10
 url: /zh/java/hello-world/
 ---
+
 ## **Aspose.Cells - Hello World**
-要在 PHP 中使用 Aspose.Cells for Java 在电子表格文档中写入任何内容，只需调用 HelloWorld 模块。
+使用Aspose.Cells for Java在PHP中写入电子表格文档中的任何内容，只需调用HelloWorld模块
 
 **PHP代码**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Instantiating a Workbook object that represents a Microsoft Excel file.
 
@@ -41,6 +42,6 @@ print "Document has been saved, please check the output file.";
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**Hello World (Aspose.Cells)**来自以下任何社交编码网站：
+从以下提到的任何社交编码站点下载**Hello World(Aspose.Cells)**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/quickstart/HelloWorld.php)

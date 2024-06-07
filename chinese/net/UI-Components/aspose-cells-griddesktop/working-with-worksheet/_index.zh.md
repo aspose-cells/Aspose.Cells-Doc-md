@@ -1,6 +1,8 @@
-﻿---
-title: 使用工作表
+---
+title: 处理工作表
 type: docs
 weight: 40
-url: /zh/net/working-with-worksheet/
+url: /zh/net/aspose-cells-griddesktop/working-with-worksheet/
 ---
+
+

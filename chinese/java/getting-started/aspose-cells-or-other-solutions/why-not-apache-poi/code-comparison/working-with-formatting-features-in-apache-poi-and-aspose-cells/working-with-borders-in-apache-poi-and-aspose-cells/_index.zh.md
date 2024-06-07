@@ -1,17 +1,18 @@
-﻿---
-title: 在 Apache POI 和 Aspose.Cells 中使用边框
+---
+title: 在Apache POI和Aspose.Cells中处理边框
 type: docs
 weight: 10
 url: /zh/java/working-with-borders-in-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - 使用边框**
-Aspose.Cells提供了一个类，[工作簿](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook)表示 Microsoft Excel 文件。 Workbook 类包含一个 WorksheetCollection，它允许访问 Excel 文件中的每个工作表。工作表由[工作表](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)班级。 Worksheet 类提供了一个 Cellscollection。 Cells 集合中的每个项目代表[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell)班级。
 
-Aspose.Cells 中提供了setStyle方法[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell)用于设置单元格格式样式的类。此外，样式对象的[风格](http://docs.aspose.com:8082/docs/display/cellsjava/Style)使用类并提供用于配置字体设置的属性。
+## **Aspose.Cells - 处理边框**
+Aspose.Cells提供了一个表示Microsoft Excel文件的类，[Workbook](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook)。 Workbook类包含一个WorksheetCollection，允许访问Excel文件中的每个工作表。工作表由[Worksheet](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)类表示。Worksheet类提供了一个Cells集合。 Cells集合中的每个项表示[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell)类的对象。
+
+Aspose.Cells在[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell)类中提供了setStyle方法，用于设置单元格的格式样式。同时，使用[Style](http://docs.aspose.com:8082/docs/display/cellsjava/Style)类的Style对象，提供了用于配置字体设置的属性。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Style the cell with borders all around.
 
@@ -30,12 +31,12 @@ style.setBorder(BorderType.TOP_BORDER, CellBorderType.MEDIUM_DASH_DOT, Color.get
 cell.setStyle(style);
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - 使用边界**
-CellStyle 类提供使用 Apache POI SS - HSSF 和 XSSF 设置边框的功能。
+## **Apache POI SS - HSSF XSSF - 处理边框**
+CellStyle类通过Apache POI SS - HSSF和XSSF提供了设置边框设置的功能。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Setting the line of the top border
 
@@ -65,6 +66,6 @@ cell.setStyle(style);
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[为 Cells 添加边框](http://docs.aspose.com:8082/docs/display/cellsjava/Adding+Borders+to+Cells).
+有关更多详细信息，请访问[将边框添加到单元格](http://docs.aspose.com:8082/docs/display/cellsjava/Adding+Borders+to+Cells)。
 
 {{% /alert %}}

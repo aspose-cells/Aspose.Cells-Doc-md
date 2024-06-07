@@ -1,14 +1,15 @@
-﻿---
+---
 title: 加密
 type: docs
 weight: 40
 url: /zh/reportingservices/encryption/
 ---
-Aspose.Cells for Reporting Services 支持三种加密方式：XOR、WEAK ENCRYPTION、Microsoft Strong Cryptographic Provider。查看加密配置信息中的**Aspose.Cells.ReportingServices.xml**文件。
 
-当加密的值为**离开**Aspose.Cells for Reporting Services 关闭加密功能。
+Aspose.Cells for Reporting Services支持三种加密形式：XOR、WEAK ENCRYPTION和Microsoft Strong Cryptographic Provider。请查看**Aspose.Cells.ReportingServices.xml**文件中的加密配置信息。
 
-{{< highlight "java" >}}
+当加密的值为**off**时，Aspose.Cells for Reporting Services将关闭加密功能。
+
+{{< highlight java >}}
 
    < Encryption value="off">
 
@@ -26,22 +27,22 @@ Aspose.Cells for Reporting Services 支持三种加密方式：XOR、WEAK ENCRYP
 
 {{< /highlight >}}
 
-当加密的值为**在**, Aspose.Cells for Reporting Services 打开加密。
+当加密的值为**on**时，Aspose.Cells for Reporting Services将启用加密。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Encryption value="on">
 
 {{< /highlight >}}
 
-加密部分有四个参数：
+加密部分有四个参数:
 
-- **报告名称**指向需要加密的报告。如果该参数留空，则所有报告使用相同的加密方法。
-- **密码**：设置密码。不能是空白的。
-- **加密类型**：设置加密类型。不能是空白的。
-- **密钥长度**：设置密钥长度。不能是空白的。
+- **ReportName**：指向需要加密的报告。如果参数留空，则所有报告使用相同的加密方法。
+- **Password**：设置密码。不能为空。
+- **EncryptionType**：设置加密类型。不能为空。
+- **KeyLength**：设置密钥长度。不能为空。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Encryption value="on">
 

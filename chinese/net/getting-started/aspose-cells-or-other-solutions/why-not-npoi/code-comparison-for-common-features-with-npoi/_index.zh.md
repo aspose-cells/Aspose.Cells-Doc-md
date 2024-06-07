@@ -1,12 +1,13 @@
-﻿---
-title: NPOI常用功能代码对比
+---
+title: NPOI和Aspose.Cells常见功能代码比较
 type: docs
 weight: 10
 url: /zh/net/code-comparison-for-common-features-with-npoi/
 ---
-本节包含以下主题：
 
-- [使用 NPOI 和 Aspose.Cells 中的数据](/cells/zh/net/working-with-data-in-npoi-and-aspose-cells/)
-- [使用 NPOI 和 Aspose.Cells 中的格式化功能](/cells/zh/net/working-with-formatting-features-in-npoi-and-aspose-cells/)
-- [在 NPOI 和 Aspose.Cells 中使用工作簿](/cells/zh/net/working-with-workbooks-in-npoi-and-aspose-cells/)
-- [使用 NPOI 和 Aspose.Cells 中的工作表](/cells/zh/net/working-with-worksheets-in-npoi-and-aspose-cells/)
+本节包括以下主题:
+
+- [在NPOI和Aspose.Cells中处理数据](/cells/zh/net/working-with-data-in-npoi-and-aspose-cells/)
+- [在NPOI和Aspose.Cells中处理格式特性](/cells/zh/net/working-with-formatting-features-in-npoi-and-aspose-cells/)
+- [在NPOI和Aspose.Cells中处理工作簿](/cells/zh/net/working-with-workbooks-in-npoi-and-aspose-cells/)
+- [在NPOI和Aspose.Cells中处理工作表](/cells/zh/net/working-with-worksheets-in-npoi-and-aspose-cells/)

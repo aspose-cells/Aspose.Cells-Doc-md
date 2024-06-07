@@ -1,23 +1,24 @@
-﻿---
+---
 title: 刷新链接形状的值
 type: docs
 weight: 3200
 url: /zh/net/refresh-values-of-linked-shapes/
 ---
+
 {{% alert color="primary" %}}
 
-有时，您的 Excel 文件中有一个链接形状，该形状链接到某个单元格。在 Microsoft Excel 中，更改链接单元格的值也会更改链接形状的值。如果您想以 XLS 或 XLSX 格式保存工作簿，这也适用于 Aspose.Cells。但是，如果您想以 PDF 或 HTML 格式保存工作簿，则必须调用[**工作表.Shapes.UpdateSelectedValue()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/updateselectedvalue)方法刷新链接形状的值。
+有时，您的Excel文件中有一个链接形状，它链接到某个单元格。在Microsoft Excel中，更改链接单元格的值也会更改链接形状的值。如果要将工作簿保存为XLS或XLSX格式，则Aspose.Cells也支持这一点。但是，如果要将工作簿保存为PDF或HTML格式，则需要调用[**Worksheet.Shapes.UpdateSelectedValue()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/updateselectedvalue)方法来刷新链接形状的值。
 
 {{% /alert %}}
 
-## 例子
+## 示例
 
-以下屏幕截图显示了以下示例代码中使用的源 Excel 文件。它具有链接到单元格 A1 到 E4 的链接图片。我们将使用 Aspose.Cells 更改单元格 B4 的值，然后调用[**工作表.Shapes.UpdateSelectedValue()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/updateselectedvalue)方法刷新图片的值，保存为PDF格式。
+以下屏幕截图显示了示例代码中使用的源Excel文件。它有一个链接图片链接到单元格A1至E4。我们将使用Aspose.Cells更改单元格B4的值，然后调用[**Worksheet.Shapes.UpdateSelectedValue()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/updateselectedvalue)方法来刷新图片的值并以PDF格式保存。
 
-![待办事项：图片_替代_文本](refresh-values-of-linked-shapes_1.jpg)
+![todo:image_alt_text](refresh-values-of-linked-shapes_1.jpg)
 
-您可以下载[源Excel文件](95584291.xlsx)和[输出 PDF](95584292.pdf)从给定的链接。
+您可以从给定链接处下载[源Excel文件](95584291.xlsx)和[输出PDF](95584292.pdf)。
 
-### C# 刷新链接形状值的代码
+### 刷新链接形状的值的C#代码
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-RefreshValueOfLinkedShapes-1.cs" >}}

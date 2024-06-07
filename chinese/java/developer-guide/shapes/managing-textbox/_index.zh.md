@@ -1,4 +1,4 @@
-﻿---
+---
 title: 管理文本框
 type: docs
 weight: 20

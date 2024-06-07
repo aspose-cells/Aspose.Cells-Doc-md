@@ -1,15 +1,16 @@
-﻿---
-title: 在 xlsx4j 的电子表格中添加图像
+---
+title: 在xlsx4j中在电子表格中添加图像
 type: docs
 weight: 20
 url: /zh/java/add-images-in-spreadsheet-in-xlsx4j/
 ---
+
 ## **Aspose.Cells - 在电子表格中添加图像**
-图片类可用于处理工作表中的图像
+Picture类可用于处理工作表中的图像
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -27,13 +28,13 @@ Picture picture = sheet.getPictures().get(pictureIndex);
 
 {{< /highlight >}}
 ## **xlsx4j - 在电子表格中添加图像**
-绘图类可用于处理工作表中的图像
+Drawing类可用于处理工作表中的图像
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- public static void main(String[]args) throws Exception {
+ public static void main(String[] args) throws Exception {
 
     String outputfilepath = dataDir + "AddImage-Xlsx4j.xlsx";
 
@@ -413,6 +414,6 @@ public static CTDrawing buildDrawingPartContentFromXmlString(String imageRelID) 
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[添加图像超链接](/java/add-image-hyperlinks).
+有关详细信息，请访问[添加图像超链接](/java/add-image-hyperlinks)。
 
 {{% /alert %}}

@@ -1,18 +1,19 @@
-﻿---
-title: 将 Excel 文件保存到 HTML 时导出注释
+---
+title: 在将Excel文件保存为HTML时导出评论
 type: docs
 weight: 40
 url: /zh/net/export-comments-while-saving-excel-file-to/
 ---
+
 ## **可能的使用场景**
 
-将 Excel 文件保存到 HTML 时，不会导出注释。但是，Aspose.Cells 使用[**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/)财产。如果你设置它**真的**那么 HTML 也将显示 Excel 文件中的注释。
+当您将Excel文件保存为HTML时，评论不会被导出。但是，Aspose.Cells通过[**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/)属性提供了此功能。如果将其设置为**true**，则HTML也将显示Excel文件中存在的评论。
 
-## **将 Excel 文件保存到 HTML 时导出注释**
+## **在将Excel文件保存为HTML时导出评论**
 
-下面的示例代码解释了[**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/)财产。截图显示代码在HTML设置为时的效果**真的**.请下载[示例 Excel 文件](50528260.xlsx)和[生成 HTML](5052826.txt)供参考。
+以下示例代码解释了[**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/)属性的用法。当将其设置为**true**时，代码对HTML的影响在截图中显示。请参考[示例Excel文件](50528260.xlsx)和[生成的HTML](5052826.txt)。
 
-![待办事项：图片_替代_文本](export-comments-while-saving-excel-file-to-html_1.png)
+![todo:image_alt_text](export-comments-while-saving-excel-file-to-html_1.png)
 
 ## **示例代码**
 

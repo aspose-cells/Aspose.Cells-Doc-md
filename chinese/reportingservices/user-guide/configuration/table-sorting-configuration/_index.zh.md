@@ -1,19 +1,20 @@
-﻿---
-title: 表排序配置
+---
+title: 表格排序配置
 type: docs
 weight: 90
 url: /zh/reportingservices/table-sorting-configuration/
 ---
-配置包括5种属性。这些包括报表名称、表名称、行偏移值、列索引和订单类型。
 
-- **姓名**代表报告名称和表名称。 name 为空时代表整个报表。
-- **价值**表示行偏移量。
-- **指数**表示表中的列位置。
-- **命令**表示排序顺序类型。
+配置包括5种属性。这些属性包括报表名称、表名称、行偏移值、列索引和排序类型。
 
-TableSorted 配置示例：
+- **name** 表示报表名称和表名称。当名称为空时，name代表整个报表。
+- **value** 代表行偏移。
+- **Index** 代表表中的列位置。
+- **Order** 代表排序顺序类型。
 
-*<表格排序>
+表格排序配置示例：
+
+*<TableSorted>
 <Report name=”report name” >
 <Table name="table name">
 <RowOffset value="1"/>

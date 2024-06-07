@@ -1,30 +1,31 @@
-﻿---
+---
 title: 在工作簿之间复制工作表
 type: docs
 weight: 10
 url: /zh/net/copy-worksheets-between-workbooks/
 ---
-Aspose.Cells 提供了一种方法 Aspose.Cells.Worksheet.Copy() 用于将数据和格式从源工作表复制到工作簿内或工作簿之间的另一个工作表。该方法将源工作表对象作为参数。
 
-下面的示例演示如何将工作表从一个工作簿复制到另一个工作簿。
+Aspose.Cells 提供了一个方法 Aspose.Cells.Worksheet.Copy()，用于将数据和格式从源工作表复制到另一个工作表中。该方法以源工作表对象作为参数。
 
-{{< highlight "csharp" >}}
+以下示例显示如何将一个工作表从一个工作簿复制到另一个工作簿。
 
-string FilePath = @"..\..\..\示例文件\";
+{{< highlight csharp >}}
 
-string FileName = FilePath + "在 Workbook.xlsx 之间复制工作表";
+ string FilePath = @"..\..\..\Sample Files\";
 
-//创建一个新的工作簿。
+string FileName = FilePath + "Copy Sheet between Workbook.xlsx";
 
-工作簿 excelWorkbook0 = new Workbook();
+//Create a new Workbook.
 
-//获取书中的第一个工作表。
+Workbook excelWorkbook0 = new Workbook();
 
-工作表 ws0 = excelWorkbook0.Worksheets[0];
+//Get the first worksheet in the book.
 
-//将一些数据放入标题行（A1:A4）
+Worksheet ws0 = excelWorkbook0.Worksheets[0];
 
-对于 (int i = 0; i< 5; i++)
+//Put some data into header rows (A1:A4)
+
+for (int i = 0; i < 5; i++)
 
 {
 
@@ -76,23 +77,23 @@ excelWorkbook1.Save(FileName);
 
 {{< /highlight >}}
 ## **下载示例代码**
-- [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20between%20Workbooks%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20between%20Workbooks%20%28Aspose.Cells%29.zip)
 
-下面的示例演示如何将工作表从一个工作簿复制到另一个工作簿。
+以下示例显示如何将一个工作表从一个工作簿复制到另一个工作簿。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- //创建一个新的工作簿。
+ //Create a new Workbook.
 
-工作簿 excelWorkbook0 = new Workbook();
+Workbook excelWorkbook0 = new Workbook();
 
-//获取书中的第一个工作表。
+//Get the first worksheet in the book.
 
-工作表 ws0 = excelWorkbook0.Worksheets[0];
+Worksheet ws0 = excelWorkbook0.Worksheets[0];
 
-//将一些数据放入标题行（A1:A4）
+//Put some data into header rows (A1:A4)
 
-对于 (int i = 0; i< 5; i++)
+for (int i = 0; i < 5; i++)
 
 {
 
@@ -146,4 +147,4 @@ excelWorkbook1.Save("copyworksheet.xls");
 {{< /highlight >}}
 ## **下载示例代码**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20Sheet%20between%20Workbook%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20Sheet%20between%20Workbook%20%28Aspose.Cells%29.zip)

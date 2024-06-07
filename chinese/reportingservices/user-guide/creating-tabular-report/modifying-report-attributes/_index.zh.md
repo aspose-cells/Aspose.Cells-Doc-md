@@ -1,34 +1,35 @@
-﻿---
+---
 title: 修改报表属性
 type: docs
 weight: 90
 url: /zh/reportingservices/modifying-report-attributes/
 ---
-要修改报告的属性：
 
-1. 点击**修改属性**在 Aspose.Cells.Report.Designer 工具栏上（
+要修改报表的属性:
 
-![待办事项：图片_替代_文本](modifying-report-attributes_1.png)
+1. 在 Aspose.Cells.Report.Designer 工具栏上单击**修改属性**（
+
+![todo:image_alt_text](modifying-report-attributes_1.png)
 
 ).
-可用报告列在左侧面板中。
+左侧面板列出了可用的报表。 
 
-1. 选择一个报告并单击**调整**. 
+1. 选择一个报表并单击**修改**。 
 
-   **选择报告** 
+   **选择报表** 
 
-![待办事项：图片_替代_文本](modifying-report-attributes_2.png)
-
-
+![todo:image_alt_text](modifying-report-attributes_2.png)
 
 
-1. 修改报表属性。
+
+
+1. 修改报表属性。 
 
    **修改属性** 
 
-![待办事项：图片_替代_文本](modifying-report-attributes_3.png)
+![todo:image_alt_text](modifying-report-attributes_3.png)
 
 
 
 
-1. 点击**犯罪**完成。
+1. 单击**提交**完成。

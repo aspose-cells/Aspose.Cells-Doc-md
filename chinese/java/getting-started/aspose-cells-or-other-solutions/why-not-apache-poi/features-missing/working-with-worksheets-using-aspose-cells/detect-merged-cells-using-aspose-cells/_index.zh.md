@@ -1,16 +1,17 @@
-﻿---
-title: 使用 Aspose.Cells 检测合并的 Cells
+---
+title: 使用Aspose.Cells检测合并单元格
 type: docs
 weight: 30
 url: /zh/java/detect-merged-cells-using-aspose-cells/
 ---
-## **Aspose.Cells - 检测合并 Cells**
-在 Microsoft Excel 中，可以将多个单元格合并为一个。这通常用于创建复杂的表格，或创建一个包含跨多个列的标题的单元格。
-Aspose.Cells 允许您识别工作表中的合并单元格区域。您也可以取消合并它们。
+
+## **Aspose.Cells - 检测合并单元格**
+在Microsoft Excel中，几个单元格可以合并成一个。这通常用于创建复杂的表格，或者创建一个跨越多列的标题单元格。
+Aspose.Cells允许您识别工作表中合并的单元格区域。您也可以取消合并它们。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Get the merged cells list to put it into the arraylist object
 
@@ -61,6 +62,6 @@ for(int i = al.size()-1 ; i > -1; i--)
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[在工作表中检测合并的 Cells](/cells/zh/java/detect-merged-cells-in-a-worksheet).
+有关更多详细信息，请访问[检测工作表中的合并单元格](/cells/zh/java/detect-merged-cells-in-a-worksheet)
 
 {{% /alert %}}

@@ -1,18 +1,19 @@
-﻿---
-title: 在工作簿中加载 HTML 时自动调整列和行
+---
+title: 在加载HTML时控制列和行的自适应。
 type: docs
 weight: 70
 url: /zh/java/autofit-columns-and-rows-while-loading-html-in-workbook/
 ---
+
 ## **可能的使用场景**
 
-您可以在将 HTML 文件加载到**[工作簿](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**目的。请设置**[HtmlLoadOptions.AutoFitColsAndRows](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows)**财产给**真的**以此目的。
+您可以在加载 HTML 文件到 **[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)** 对象时自动调整列和行。请设置 **[HtmlLoadOptions.AutoFitColsAndRows](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows)** 属性为 **true** 来实现此目的。
 
-## **在工作簿中加载 HTML 时自动调整列和行**
+## **加载 HTML 到 Workbook 时自适应调整列和行**
 
-以下示例代码首先将示例 HTML 加载到 Workbook 中，不带任何加载选项，并以 XLSX 格式保存。然后它再次将示例 HTML 加载到工作簿中，但这一次，它在设置之后加载 HTML**[HtmlLoadOptions.AutoFitColsAndRows](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows)**财产给**真的**并以XLSX格式保存。请同时下载输出的 excel 文件，即[输出没有 AutoFitColsAndRows 的 Excel 文件](outputWithout_AutoFitColsAndRows.xlsx)和[使用 AutoFitColsAndRows 输出 Excel 文件](outputWith_AutoFitColsAndRows.xlsx).下面的截图显示了效果**[HtmlLoadOptions.AutoFitColsAndRows](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows)**两个输出 excel 文件的属性。
+以下示例代码首先加载样本 HTML 到 Workbook 而没有任何加载选项，并以 XLSX 格式保存。然后再次加载样本 HTML 到 Workbook，但这次在加载 HTML 后将 **[HtmlLoadOptions.AutoFitColsAndRows](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows)** 属性设置为 **true** 并以 XLSX 格式保存。请下载输出的两个 Excel 文件，即[无 AutoFitColsAndRows 输出 Excel 文件](outputWithout_AutoFitColsAndRows.xlsx) 和 [有 AutoFitColsAndRows 输出 Excel 文件](outputWith_AutoFitColsAndRows.xlsx)。以下截图显示了 **[HtmlLoadOptions.AutoFitColsAndRows](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows)** 属性对两个输出 Excel 文件的影响。
 
-![待办事项：图片_替代_文本](autofit-columns-and-rows-while-loading-html-in-workbook_1.png)
+![todo:image_alt_text](autofit-columns-and-rows-while-loading-html-in-workbook_1.png)
 
 ## **示例代码**
 

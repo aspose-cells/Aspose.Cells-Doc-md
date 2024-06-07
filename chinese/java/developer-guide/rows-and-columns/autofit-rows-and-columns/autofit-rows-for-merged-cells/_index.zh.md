@@ -1,22 +1,23 @@
-﻿---
-title: 合并的 AutoFit 行 Cells
+---
+title: 合并单元格的行自动调整大小
 type: docs
 weight: 50
 url: /zh/java/autofit-rows-for-merged-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel 提供了一项功能，允许您根据单元格的内容自动调整单元格的高度。该功能称为自动调整行。 Microsoft Excel 本身不对合并的单元格设置自动调整操作。有时，该功能对于真正需要在合并单元格上实现自动调整行的用户来说变得至关重要。
+Microsoft Excel提供了一个功能，允许您根据内容自动调整单元格的高度。该功能称为自动调整行高。Microsoft Excel本身不会在合并单元格上设置自动调整操作。有时，用户确实需要在合并单元格上实现自动调整行的用户对此功能非常重要。
 
 {{% /alert %}}
 
- Aspose.Cells 通过[**AutoFitter选项**](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions)API。使用此 API，可以自动调整工作表中的行，包括合并的单元格。
+通过[**AutoFitterOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions) API，Aspose.Cells支持此功能。使用该API，可以在工作表中自动调整行的高度，包括合并单元格。
 
-执行代码后，Aspose.Cells 会自动调整合并单元格的行。
+执行代码后，Aspose.Cells为合并单元格自动调整行高。
 
 **输出Excel文件**
 
-![待办事项：图片_替代_文本](autofit-rows-for-merged-cells_1.png)
+![todo:image_alt_text](autofit-rows-for-merged-cells_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AutoFitRowsforMergedCells-AutoFitRowsforMergedCells.java" >}}
 

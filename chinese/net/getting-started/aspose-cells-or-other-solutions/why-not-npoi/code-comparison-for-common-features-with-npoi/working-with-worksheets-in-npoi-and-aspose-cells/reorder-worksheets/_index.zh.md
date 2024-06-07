@@ -1,13 +1,14 @@
-﻿---
-title: 重新排序工作表
+---
+title: 重新排列工作表
 type: docs
 weight: 70
 url: /zh/net/reorder-worksheets/
 ---
-## **Aspose.Cells - 重新排序工作表**
+
+## **Aspose.Cells - 重新排列工作表**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Create a new Workbook.
 
@@ -34,10 +35,10 @@ worksheet3.MoveTo(2);
 workbook.Save("../../data/AsposeMoveSheet.xls");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - 重新排序工作表**
+## **NPOI - HSSF XSSF - 重新排列工作表**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -61,12 +62,12 @@ sw.Close();
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**重新排序工作表**形成以下任何一个社交编码网站：
+从下面提到的社交编码网站之一下载**重新排列工作表**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/ReOrder.WorkSheets.zip)
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[使用工作表](/cells/zh/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+有关详细信息，请访问[使用工作表](/cells/zh/net/working-with-worksheets-in-npoi-and-aspose-cells/)
 
 {{% /alert %}}

@@ -1,27 +1,28 @@
-﻿---
-title: 公共 API Aspose.Cells 8.2.2 的变化
+---
+title: Aspose.Cells 8.2.2中的公共API更改
 type: docs
 weight: 90
 url: /zh/net/public-api-changes-in-aspose-cells-8-2-2/
 ---
+
 {{% alert color="primary" %}} 
 
-本文档描述了 Aspose.Cells API 从版本 8.2.1 到 8.2.2 的变化，模块/应用程序开发人员可能会感兴趣。
+此文档描述了从版本8.2.1到8.2.2的Aspose.Cells API的更改，这可能对模块/应用程序开发人员感兴趣。
 
 {{% /alert %}} 
-## **添加的 API**
-### **已添加属性 BuiltInDocumentPropertyCollection.Version**
-新属性 Version 已添加到 BuiltInDocumentPropertyCollection 类中，以允许开发人员检索创建给定电子表格的应用程序的版本。
+## **已添加API**
+### **新增了BuiltInDocumentPropertyCollection.Version属性**
+已添加新属性Version到BuiltInDocumentPropertyCollection类，以允许开发人员检索创建给定电子表格的应用程序的版本。
 
 {{% alert color="primary" %}} 
 
-请查看详细文章[获取创建电子表格的应用程序版本](/cells/zh/net/get-the-version-number-of-the-application-that-created-the-excel-document/)想要查询更多的信息。
+请查阅有关[获取创建电子表格的应用程序版本号的详细文章](/cells/zh/net/get-the-version-number-of-the-application-that-created-the-excel-document/)以获取更多信息
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var book = new Workbook("sample.xlsx");
 
@@ -32,18 +33,18 @@ Console.WriteLine(properties.Version);
 {{< /highlight >}}
 
 
-### **添加了属性图表。工作表**
-在 Aspose.Cells 8.2.2 发布之前，无法从其持有的图表对象中检索工作表的实例。 Aspose.Cells 8.2.2 通过提供 Chart.Worksheet 属性填补了这一空白。
+### **新增了Chart.Worksheet属性**
+在Aspose.Cells 8.2.2发布之前，无法从Chart对象中检索其持有的Worksheet实例。Aspose.Cells 8.2.2通过提供Chart.Worksheet属性填补了这一空白。
 
 {{% alert color="primary" %}} 
 
-请查看详细文章[获取图表的工作表](/cells/zh/net/get-worksheet-of-the-chart/)想要查询更多的信息。
+请查阅有关[获取图表工作表的详细文章](/cells/zh/net/get-worksheet-of-the-chart/)以获取更多信息
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var workbook = new Workbook("sample.xlsx");
 

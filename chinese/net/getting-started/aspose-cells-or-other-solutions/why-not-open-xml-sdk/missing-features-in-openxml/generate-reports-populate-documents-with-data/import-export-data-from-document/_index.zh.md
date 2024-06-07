@@ -1,40 +1,41 @@
-﻿---
-title: 从文档中导入导出数据
+---
+title: 从文档导入导出数据
 type: docs
 weight: 10
 url: /zh/net/import-export-data-from-document/
 ---
-## **从文档中导入数据**
 
-数据是原始事实的集合，我们创建电子表格文档或报告以更有意义的方式呈现这些原始事实。通常，我们自己将数据添加到电子表格中，但有时，我们需要重用现有的数据资源，这时就需要从不同的数据源导入数据到电子表格中。在本主题中，我们将讨论一些将数据从不同数据源导入工作表的技术。
+## **从文档导入数据**
 
-## **使用 Aspose.Cells 导入数据**
+数据是原始事实的集合，我们创建电子表格文档或报告来以更有意义的方式呈现这些原始事实。通常，我们自己添加数据到电子表格中，但有时我们需要重复使用现有的数据资源，这时就需要从不同的数据源导入数据到电子表格中。在本主题中，我们将讨论一些从不同数据源导入数据到工作表的技术。
 
-当你使用**Aspose.Cells**打开Excel文件，自动导入文件中的所有数据，但Aspose.Cells还支持从不同数据源导入数据。下面列出了其中一些数据源：
+## **使用Aspose.Cells导入数据**
 
-- **大批**
-- **数组列表**
-- **数据表**
-- **数据列**
-- **数据视图**
-- **数据网格**
-- **数据阅读器**
-- **网格视图**
+当您使用**Aspose.Cells**打开Excel文件时，文件中的所有数据都会被自动导入，但Aspose.Cells还支持从不同的数据源导入数据。以下列出了一些这些数据源：
 
-Aspose.Cells提供了一个类，**工作簿**表示一个 Excel 文件。 Workbook 类包含一个 Worksheets 集合，允许访问 Excel 文件中的每个工作表。工作表由 Worksheet 类表示。 Worksheet 类提供了一个 Cells 集合。
+- **数组**
+- **ArrayList**
+- **DataTable**
+- **DataColumn**
+- **DataView**
+- **DataGrid**
+- **DataReader**
+- **GridView**
 
-Cells 集合提供了非常有用的方法来从不同的数据源导入数据。
+Aspose.Cells提供了一个名为Workbook的类，代表一个Excel文件。Workbook类包含一个Worksheets集合，允许访问Excel文件中的每个工作表。工作表由Worksheet类表示。Worksheet类提供了一个Cells集合。
+
+Cells集合提供了非常有用的方法，用于从不同的数据源导入数据。
 
 ### **从数组导入**
 
-开发人员可以通过调用**导入数组**Cells采集方法。 ImportArray 方法有许多重载版本，但典型的重载采用以下参数：
+开发人员可以通过调用Cells集合的ImportArray方法从数组导入数据到他们的工作表。ImportArray方法有许多重载版本，但是典型的重载版本接受以下参数:
 
-- Array，表示需要导入内容的数组对象
-- Row Number，表示要导入数据的第一个单元格的行号
-- Column Number，表示将导入数据的第一个单元格的列号
-- is Vertical，布尔值，指定垂直或水平导入数据
+- 数组，表示需要导入其内容的数组对象
+- 行号，表示将导入数据的第一个单元格的行号
+- 列号，表示将导入数据的第一个单元格的列号
+- 是否垂直，一个指定导入数据是垂直还是水平的布尔值
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Instantiating a Workbook object
 
@@ -50,7 +51,7 @@ Worksheet worksheet = workbook.Worksheets[i];
 
 //Creating an array containing names as string values
 
-string[]names = new string[]{ "laurence chen", "roman korchagin", "kyle huang" };
+string[] names = new string[] { "laurence chen", "roman korchagin", "kyle huang" };
 
 //Importing the array of names to 1st row and first column vertically
 
@@ -62,15 +63,15 @@ workbook.Save(MyDir+"DataImport from Array.xls");
 
 {{< /highlight >}}
 
-### **从 ArrayList 导入**
+### **从ArrayList导入**
 
-开发人员可以通过调用**导入数组列表**Cells采集方法。 ImportArray 方法采用以下参数：**数组列表** ,代表需要导入内容的ArrayList对象
+开发人员可以通过调用Cells集合的ImportArrayList方法将数据从ArrayList导入到其工作表。ImportArrayList方法接受以下参数: ArrayList，表示需要导入其内容的ArrayList对象
 
-- Row Number ，表示要导入数据的第一个单元格的行号
-- Column Number ，表示将导入数据的第一个单元格的列号
-- 是 Vertical ，一个布尔值，指定垂直或水平导入数据
+- 行号，表示将导入数据的第一个单元格的行号
+- 列号，表示将导入数据的第一个单元格的列号
+- 是否垂直，一个指定导入数据是垂直还是水平的布尔值
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Instantiating a Workbook object
 
@@ -110,9 +111,9 @@ workbook.Save(MyDir + "DataImport from Array List.xls");
 
 ### **从自定义对象导入**
 
-开发人员可以使用以下方法将对象集合中的数据导入工作表**导入自定义对象**.您可以向该方法提供列/属性列表，以显示所需的对象列表。
+开发人员可以使用ImportCustomObjects从对象集合导入数据到工作表。您可以向该方法提供列/属性的列表以显示您所需的对象列表。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Instantiate a new Workbook
 
@@ -142,7 +143,7 @@ list.Add(new WeeklyItem() { AtYarnStage = 7, InWIPStage = 3, Payment = 3, Shipme
 
 sheet.Cells.ImportCustomObjects((System.Collections.ICollection)list,
 
-new string[]{ "Date", "InWIPStage", "Shipment", "Payment" },
+new string[] { "Date", "InWIPStage", "Shipment", "Payment" },
 
 true,
 
@@ -168,14 +169,14 @@ book.Save(MyDir+"ImportedCustomObjects.xls");
 
 {{< /highlight >}}
 
-### **从数据表导入**
+### **从DataTable导入**
 
-开发人员可以从**数据表**通过调用他们的工作表**导入数据表**Cells采集方法。有许多重载版本**导入数据表**方法，但典型的重载采用以下参数：**数据表** , 代表**数据表**需要导入内容的对象
+开发人员可以通过调用Cells集合的ImportDataTable方法将数据从DataTable导入到其工作表。ImportDataTable方法有许多重载版本，但是典型的重载版本接受以下参数:DataTable，表示需要导入其内容的DataTable对象
 
-- **是否显示字段名称**指定是否应将 DataTable 的列名称作为第一行导入工作表
-- **开始 Cell** 表示从中导入 DataTable 内容的起始单元格的名称（即“A1”）
+- 是否显示字段名称，指定DataTable的列名是否应作为第一行导入到工作表中
+- 起始单元格，表示从哪个单元格（例如"A1"）开始导入DataTable的内容
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Instantiating a Workbook object
 
@@ -207,11 +208,11 @@ DataRow dr = dataTable.NewRow();
 
 //Adding data to the row
 
-dr[0]= 1;
+dr[0] = 1;
 
-dr[1]= "Aniseed Syrup";
+dr[1] = "Aniseed Syrup";
 
-dr[2]= 15;
+dr[2] = 15;
 
 //Adding filled row to the DataTable object
 
@@ -223,11 +224,11 @@ dr = dataTable.NewRow();
 
 //Adding data to the row
 
-dr[0]= 2;
+dr[0] = 2;
 
-dr[1]= "Boston Crab Meat";
+dr[1] = "Boston Crab Meat";
 
-dr[2]= 123;
+dr[2] = 123;
 
 //Adding filled row to the DataTable object
 
@@ -247,26 +248,26 @@ workbook.Save(MyDir+"Import From Data Table.xls");
 
 ## **下载示例代码**
 
-- [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Import%20to%20Worksheet%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Import%20to%20Worksheet%20%28Aspose.Cells%29.zip)
 
 ## **从文档中导出数据**
 
- Aspose.Cells 不仅方便其用户从外部数据源将数据导入工作表，还允许他们将工作表数据导出到**数据表**.据我们所知**数据表**是ADO.NET的一部分，用于保存数据。一旦数据存储在一个**数据表**，可根据用户要求任意使用。
+Aspose.Cells不仅使用户可以从外部数据源向工作表导入数据，还允许他们将工作表数据导出到DataTable。我们知道DataTable是ADO.NET的一部分，用于保存数据。一旦数据存储在DataTable中，根据用户的需求可以以任何方式使用。
 
 ## **使用Aspose.Cells将数据导出到DataTable（.NET）**
 
-开发人员可以通过调用 Cells 类的 ExportDataTable 或 ExportDataTableAsString 方法轻松地将工作表数据导出到 DataTable 对象。这两种方法用于不同的场景，下面将对此进行更详细的讨论。
+开发人员可以通过调用Cells类的ExportDataTable或ExportDataTableAsString方法，轻松将其工作表数据导出到DataTable对象。这两种方法用于不同的场景，下面将更详细讨论这一点。
 
 ### **包含强类型数据的列**
 
-我们知道电子表格将数据存储为一系列行和列。如果工作表列中的所有值都是强类型的（这意味着列中的所有值必须具有相同的数据类型），那么我们可以通过调用导出工作表内容**导出数据表** Cells 类的方法。**导出数据表**方法采用以下参数将工作表数据导出为**数据表**目的：**行号** , 表示要从中导出数据的第一个单元格的行号
+我们知道电子表格将数据存储为行和列的序列。如果工作表的列中所有值都是强类型的（也就是说，列中的所有值必须具有相同的数据类型），那么我们就可以通过调用Cells类的ExportDataTable方法导出工作表内容。ExportDataTable方法接受以下参数将工作表数据导出为DataTable对象: 行号，表示将从哪个单元格开始导出数据的行号
 
-- **列号** 表示要从中导出数据的第一个单元格的列号
-- **行数** 表示要导出的行数
-- **列数** 代表要导出的列数
-- **导出列名**，一个布尔属性，指示工作表第一行中的数据是否应导出为 DataTable 的列名
+- 列号，表示将从哪个单元格开始导出数据的列号
+- 行数，表示要导出的行数
+- 列数，表示要导出的列数
+- 导出列名，一个布尔属性，指示是否应将工作表的第一行数据导出为DataTable的列名
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Creating a file stream containing the Excel file to be opened
 
@@ -298,9 +299,9 @@ fstream.Close();
 
 ### **包含非强类型数据的列**
 
-如果工作表列中的所有值都不是强类型的（这意味着列中的值可能具有不同的数据类型），那么我们可以通过调用导出工作表内容**ExportDataTableAsString** Cells 类的方法。**ExportDataTableAsString**方法采用与**导出数据表**将工作表数据导出为的方法**数据表**目的。
+如果工作表的列中所有值都不是强类型的（即列中的值可能具有不同的数据类型），那么我们可以通过调用 Cells 类的**ExportDataTableAsString**方法导出工作表内容。**ExportDataTableAsString**方法接受与**ExportDataTable**方法相同的参数集以将工作表数据导出为**DataTable**对象。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Creating a file stream containing the Excel file to be opened
 
@@ -333,4 +334,4 @@ fstream.Close();
 ## **下载示例代码**
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Export%20from%20Worksheet%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Export%20from%20Worksheet%20%28Aspose.Cells%29.zip)

@@ -1,38 +1,39 @@
-﻿---
-title: 在工作表中插入和删除 Cell 评论
+---
+title: 在工作表中插入和移除单元格注释
 type: docs
 weight: 30
 url: /zh/net/inserting-and-removing-cell-comments-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-通常，注释用于向工作表中的单元格添加附加信息。我们时不时地使用它们，当我们不再需要它们时我们会删除它们。如果您需要记录特定值或帮助您记住公式的作用，则注释很有用。当您将鼠标指针移到有注释的单元格上时，注释会在一个小框中弹出。
+通常，注释用于向工作表中的单元格添加额外信息。我们时常使用它们，当我们不再需要时会将其删除。如果您需要记录特定值或帮助您记住公式的功能，则注释非常有用。当您将鼠标指针移动到带有注释的单元格上时，会弹出一个小框，显示注释。
 
-在本文中，我们比较了如何使用 VSTO 和 Aspose.Cells for .NET 在单元格中添加和删除注释。Aspose.Cells for .NET 独立于 Office Automation 处理 Microsoft Excel 文件，并为您提供创建和操作电子表格的强大工具。
+在本文中，我们比较了使用 VSTO 和 Aspose.Cells for .NET 如何向单元格添加和移除注释。Aspose.Cells for .NET 独立于 Office Automation 与 Microsoft Excel 文件一起工作，为您提供了创建和操作电子表格的强大工具。
 
 {{% /alert %}}
 
-## **在 Cells 上添加和删除评论**
+## **在单元格中添加和删除注释**
 
-向单元格添加注释：
+要向单元格添加注释:
 
-1. 打开现有的 Excel 文件。
+1. 打开现有的Excel文件。
 1. 向单元格添加注释。
 1. 保存文件。
 
-要删除评论，过程类似，只是删除评论。
+要删除注释，过程类似，不同之处在于注释被移除。
 
-下面的代码示例首先说明了如何[添加评论](/cells/zh/net/inserting-and-removing-cell-comments-in-a-worksheet/)然后如何[删除评论](/cells/zh/net/inserting-and-removing-cell-comments-in-a-worksheet/)使用 VSTO 或 Aspose.Cells for .NET。
+以下代码示例首先演示如何使用 VSTO 或 Aspose.Cells for .NET [添加注释](/cells/zh/net/inserting-and-removing-cell-comments-in-a-worksheet/)，然后演示如何使用 VSTO 或 Aspose.Cells for .NET [删除注释](/cells/zh/net/inserting-and-removing-cell-comments-in-a-worksheet/)。
 
-## **插入评论**
+## **插入注释**
 
-这些代码片段展示了如何首先使用[VSTO](/cells/zh/net/inserting-and-removing-cell-comments-in-a-worksheet/)(C#, VB) 然后用[Aspose.Cells for .NET](/cells/zh/net/inserting-and-removing-cell-comments-in-a-worksheet/)（C#，VB）。
+这些代码片段首先演示如何使用 [VSTO](/cells/zh/net/inserting-and-removing-cell-comments-in-a-worksheet/)（C＃，VB）向单元格添加注释，然后演示如何使用 [Aspose.Cells for .NET](/cells/zh/net/inserting-and-removing-cell-comments-in-a-worksheet/)（C＃，VB）。
 
-### **使用 VSTO 插入评论**
+### **在 VSTO 中插入注释**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -90,11 +91,11 @@ excelApp.Quit();
 
 {{< /highlight >}}
 
-### **使用 Aspose.Cells for .NET 插入评论**
+### **在 Aspose.Cells for .NET 中插入注释**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -134,13 +135,13 @@ workbook.Save(@"d:\test\Book1.xls");
 
 ## **删除评论**
 
-要从单元格中删除注释，请使用以下代码行[VSTO](/cells/zh/net/inserting-and-removing-cell-comments-in-a-worksheet/)（C#，VB）和[Aspose.Cells](/cells/zh/net/inserting-and-removing-cell-comments-in-a-worksheet/)for .NET（C#，越南语）。
+要从单元格中删除注释，请使用以下代码行进行 [VSTO](/cells/zh/net/inserting-and-removing-cell-comments-in-a-worksheet/)（C＃，VB）和 [Aspose.Cells](/cells/zh/net/inserting-and-removing-cell-comments-in-a-worksheet/) for .NET（C＃，VB）。
 
-### **使用 VSTO 删除评论**
+### **在 VSTO 中删除注释**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Remove the comment.
 
@@ -150,11 +151,11 @@ rng1.Comment.Delete();    
 
 {{< /highlight >}}
 
-### **使用 Aspose.Cells for .NET 删除评论**
+### **在 Aspose.Cells for .NET 中删除注释**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Remove the comment.
 

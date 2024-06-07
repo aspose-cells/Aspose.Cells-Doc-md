@@ -1,19 +1,20 @@
-﻿---
-title: 使用 Apache POI 和 Aspose.Cells 的缩放因子
+---
+title: 使用Apache POI和Aspose.Cells缩放因子
 type: docs
 weight: 70
 url: /zh/java/zoom-factor-using-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - 缩放系数**
-Microsoft Excel 提供了一项功能，允许用户设置工作表的缩放或比例因子。此功能可帮助用户以较小或较大的视图查看工作表内容。
 
-Aspose.Cells 提供了一个类 Workbook，它表示一个 Microsoft Excel 文件。 Workbook 类包含一个 WorksheetCollection，它允许访问 Excel 文件中的每个工作表。
+## **Aspose.Cells - 缩放因子**
+Microsoft Excel提供了一个功能，允许用户设置工作表的缩放或比例因子。此功能帮助用户以较小或较大的视图查看工作表内容。
 
-工作表由 Worksheet 类表示。 Worksheet 类提供了广泛的属性和方法来管理工作表。要设置工作表的缩放系数，请使用 Worksheet 类的 setZoom 方法。
+Aspose.Cells提供了一个表示Microsoft Excel文件的类Workbook。Workbook类包含一个WorksheetCollection，允许访问Excel文件中的每个工作表。
+
+工作表由Worksheet类表示。Worksheet类提供了大量用于管理工作表的属性和方法。要设置工作表的缩放因子，请使用Worksheet类的setZoom方法。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Worksheet worksheet = worksheets.get(0);
 
@@ -23,11 +24,11 @@ worksheet.setZoom(75);
 
 {{< /highlight >}}
 ## **Apache POI SS - HSSF XSSF - 缩放因子**
-Apache POI 提供 Sheet.setZoom() 方法利用缩放功能。
+Apache POI提供了Sheet.setZoom()方法来使用缩放功能。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sheet sheet1 = wb.createSheet("new sheet");
 

@@ -1,29 +1,30 @@
-﻿---
-title: 将 JSON 转换为 Excel
+---
+title: 将JSON转换为Excel
 type: docs
 weight: 20
 url: /zh/java/convert-json-to-excel/
-description: 了解如何使用 Aspose.Cells 将 json 转换为 excel 文件。
-keywords: Importing json without office 2013, office 2016, office 2019 and office 365.
+description: 学习如何使用Aspose.Cells将JSON转换为Excel文件。
+keywords: 在不使用office 2013、office 2016、office 2019和office 365的情况下导入json。
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells 支持将 Json(JavaScript Object Notation) 文件转换为 Excel 工作簿。
+Aspose.Cells支持将JSON(JavaScript对象表示)文件转换为Excel工作簿。
 
 {{% /alert %}}
 
-## **将 JSON 转换为 Excel 工作簿**
+## **将JSON转换为Excel工作簿**
 
-无需考虑如何将 JSON 转换为 Excel 文件，因为 Aspose.Cells Java 库有最佳决策。 Aspose.Cells Java API 提供了将JSON格式转换为电子表格的支持。您可以使用[**JsonLoad选项**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLoadOptions)类以指定将 JSON 导入工作簿的其他设置。
+不需要猜想如何将JSON转换为Excel文件，因为Aspose.Cells Java库有最佳决定。Aspose.Cells Java API提供了支持将JSON格式转换为电子表格的功能。您可以使用[**JsonLoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLoadOptions)类来指定导入JSON到工作簿的附加设置。
 
-以下代码示例演示将 JSON 导入 Excel 工作簿。请看代码转换[源文件](sample.json)以代码生成的xlsx文件供参考。
+以下代码示例演示了将JSON导入到Excel工作簿。请参阅代码将[source file](sample.json)转换为代码所生成的xlsx文件的参考。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Convert-JSON-to-Excel.java" >}}
 
-以下代码示例使用 JsonLoadOptions 类指定其他设置，演示了将 JSON 导入 Excel 工作簿。请看代码转换[源文件](sample.json)以代码生成的xlsx文件供参考。
+以下代码示例使用JsonLoadOptions类指定附加设置来演示将JSON导入Excel工作簿。请查看代码以将[source file](sample.json)转换为代码生成的xlsx文件以供参考。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Convert-JSON-to-Excel2.java" >}}
 
-以下代码示例演示将 JSON 字符串导入 Excel 工作簿。也可以在导入JSON的时候指定布局的位置，请看代码将JSON字符串转换成代码生成的xlsx文件，以供参考。
+以下代码示例演示了将JSON字符串导入Excel工作簿。您还可以在导入JSON时指定布局的位置。请查看代码以将JSON字符串转换为代码生成的xlsx文件以供参考。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Convert-JSON-String-to-Excel.java" >}}

@@ -1,32 +1,33 @@
-﻿---
-title: 转换多个文件
+---
+title: 批量转换文件
 type: docs
 weight: 20
 url: /zh/sharepoint/convert-multiple-files/
 ---
-要转换文件夹中的所有文件：
 
-1. 选择**用 Aspose.Cells 转换**从您想要的文件夹的 ECB 中，同时留在父级中。
+要在文件夹中转换所有文件: 
 
-要转换多个文件：
+1. 在父文件夹中停留，从所需文件夹的ECB中选择**使用Aspose.Cells转换**。
 
-1. 选择库中的几个文件并选择**用 Aspose.Cells 转换**. 
+要转换多个文件: 
+
+1. 在库中选择多个文件，选择**使用Aspose.Cells转换**。 
 
    **转换子文件夹中的所有文件** 
 
-![待办事项：图片_替代_文本](convert-multiple-files_1.png)
+![todo:image_alt_text](convert-multiple-files_1.png)
 
 
 
 
-1. 在文档列表中选择文件项并向上或向下移动更改转换顺序。
+1. 选择文档列表中的文件项，上下移动以更改转换顺序。 
 
    **更改转换顺序** 
 
-![待办事项：图片_替代_文本](convert-multiple-files_2.png)
-### **在 SharePoint 2010 下使用服务器功能区按钮**
-在 SharePoint 2010 下，服务器功能区按钮可用，而不是用于 SharePoint 2007 / WSS 3 的自定义操作菜单。
+![todo:image_alt_text](convert-multiple-files_2.png)
+### **在 SharePoint 2010 中使用服务器功能区按钮**
+在 SharePoint 2010 中，服务器功能区按钮取代了 SharePoint 2007 / WSS 3 中使用的自定义动作菜单。 
 
-**在 SharePoint 2010 上用 Aspose.Cells for SharePoint 转换文档** 
+**使用Aspose.Cells for SharePoint在SharePoint 2010上转换文档** 
 
-![待办事项：图片_替代_文本](convert-multiple-files_3.png)
+![todo:image_alt_text](convert-multiple-files_3.png)

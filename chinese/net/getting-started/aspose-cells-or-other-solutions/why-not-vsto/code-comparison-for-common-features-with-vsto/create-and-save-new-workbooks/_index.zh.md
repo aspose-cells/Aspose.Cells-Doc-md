@@ -1,18 +1,19 @@
-﻿---
-title: 创建和保存新工作簿
+---
+title: 创建和保存新的工作簿
 type: docs
 weight: 70
 url: /zh/net/create-and-save-new-workbooks/
 ---
-## **迁移提示：**
-\1.创建工作簿对象
-\2。获取当前工作表。
-\3。在任何单元格中插入一些文本。
-\4.保存工作簿。
-### **VSTO**
-下面是 VSTO 的代码示例
 
-{{< highlight "csharp" >}}
+## **迁移提示:**
+\1. 创建工作簿对象
+\2. 获取当前工作表.
+\3. 在任意单元格中插入一些文本.
+\4. 保存工作簿.
+### **VSTO**
+以下是 VSTO 的代码示例
+
+{{< highlight csharp >}}
 
   Excel.Workbook newWorkbook = this.Application.Workbooks.Add();
 
@@ -28,7 +29,7 @@ url: /zh/net/create-and-save-new-workbooks/
 ### **Aspose.Cells**
 以下是 Aspose.Cells 的代码示例
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook newWorkbook = new Workbook();
 

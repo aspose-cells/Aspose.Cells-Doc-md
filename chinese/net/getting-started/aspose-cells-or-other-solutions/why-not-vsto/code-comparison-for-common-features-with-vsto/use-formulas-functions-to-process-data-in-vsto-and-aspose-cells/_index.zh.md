@@ -1,12 +1,13 @@
-﻿---
-title: 使用公式函数处理 VSTO 中的数据和 Aspose.Cells
+---
+title: 使用公式函数处理VSTO和Aspose.Cells中的数据
 type: docs
 weight: 240
 url: /zh/net/use-formulas-functions-to-process-data-in-vsto-and-aspose-cells/
 ---
-## **添加 Cell 公式**
+
+## **添加单元格公式**
 ### **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Note: To help you better, the code uses full namespacing
 
@@ -72,7 +73,7 @@ private void AddingCellFormula()
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private static void AddingCellFormula()
 
@@ -131,5 +132,5 @@ private void AddingCellFormula()
 {{< /highlight >}}
 ## **下载示例代码**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Use.Formulas.Functions.to.Process.Data.Aspose.Cells.zip)
-- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Use%20Formulas%20Functions%20to%20Process%20Data%20\(Aspose.Cells\).zip/下载）
-- [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Use%20Formulas%20Functions%20to%20Process%20Data%20\(Aspose.Cells\)。压缩）
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Use%20Formulas%20Functions%20to%20Process%20Data%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Use%20Formulas%20Functions%20to%20Process%20Data%20\(Aspose.Cells\).zip)

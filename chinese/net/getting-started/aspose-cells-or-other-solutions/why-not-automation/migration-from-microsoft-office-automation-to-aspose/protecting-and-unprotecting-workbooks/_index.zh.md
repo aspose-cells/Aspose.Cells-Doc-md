@@ -1,28 +1,29 @@
-﻿---
+---
 title: 保护和取消保护工作簿
 type: docs
 weight: 20
 url: /zh/net/protecting-and-unprotecting-workbooks/
 ---
+
 {{% alert color="primary" %}} 
 
-为防止有人意外或故意更改、移动或删除工作表，您可以使用或不使用密码来保护工作簿元素。若要保护工作簿的结构，使工作簿中的工作表无法移动、删除、隐藏、取消隐藏或重命名，并且无法插入新工作表，请将 ProtectionType 指定为 Structure。
+为了防止有人意外或蓄意更改、移动或删除工作表，您可以保护工作簿元素，可以使用密码保护或不使用密码保护。要保护工作簿的结构，以便工作簿中的工作表无法移动、删除、隐藏、取消隐藏或重命名，并且不能插入新工作表，请指定 ProtectionType 为 Structure。
 
-要保护 Windows 以便每次打开工作簿时它们的大小和位置都相同，请将 ProtectionType 指定为 Windows。在本文中，我们将展示如何[保护](/cells/zh/net/protecting-and-unprotecting-workbooks/)和[取消保护](/cells/zh/net/protecting-and-unprotecting-workbooks/)工作簿使用 VSTO 和 Aspose.Cells for .NET 让你比较这两种方法。
+要保护窗口，使它们在每次打开工作簿时都具有相同的大小和位置，请指定 ProtectionType 为 Windows。在本文中，我们展示了如何使用 VSTO 和 Aspose.Cells for .NET [保护](/cells/zh/net/protecting-and-unprotecting-workbooks/) 和 [取消保护](/cells/zh/net/protecting-and-unprotecting-workbooks/) 工作簿，以便您比较这两种方法。
 
-Aspose.Cells 独立于 Microsoft Office Automation 并开发为易于使用和生成整洁的代码。
+Aspose.Cells 独立于 Microsoft Office Automation，旨在易于使用并生成整洁的代码。
 
 保护工作簿不会阻止用户编辑单元格。要保护数据，您必须保护工作表。
 
 {{% /alert %}} 
 ## **保护工作簿**
-要打开现有的 Microsoft Excel 文件，请使用结构和 Windows 属性保护工作簿并保存文件。
+要打开现有的Microsoft Excel文件，请对工作簿进行结构和Windows属性保护，然后保存文件。
 
-下面是 VSTO（C#，VB）和 Aspose.Cells for .NET（C#，VB）的并行代码片段，展示了如何保护工作簿。
+以下是 VSTO（C#，VB）和 Aspose.Cells for .NET（C#，VB）的并行代码片段，展示如何保护工作簿。
 ### **VSTO**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -80,7 +81,7 @@ excelApp.Quit();
 ### **Aspose.Cells for .NET**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -111,11 +112,11 @@ workbook.Save(@"d:\test\MyBook.xls");
 
 {{< /highlight >}}
 ## **取消保护工作簿**
-若要取消对工作簿的保护，请对 VSTO（C#，VB）和 Aspose.Cells for .NET（C#，VB）使用以下代码行。
+要取消保护工作簿，使用以下代码行对 VSTO（C#，VB）和 Aspose.Cells for .NET（C#，VB）进行操作。
 ### **VSTO**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unprotect the workbook specifying its password.
 
@@ -129,7 +130,7 @@ excelApp.ActiveWorkbook.Unprotect("007");
 ### **Aspose.Cells for .NET**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unprotect the workbook specifying its password.
 

@@ -1,17 +1,18 @@
-﻿---
+---
 title: 页眉和页脚
 type: docs
 weight: 60
 url: /zh/java/header-and-footers/
 ---
-## **Aspose.Cells - 页眉和页脚**
-PageSetup 类提供方法 setHeader 用于添加页眉和 setFooter 用于向工作表添加页脚。该脚本用作上述所有方法的参数。它表示用于页眉或页脚的脚本。
 
-**标头**
+## **Aspose.Cells - 页眉和页脚**
+PageSetup 类提供了 setHeader 方法用于向工作表添加页眉，setFooter 方法用于向工作表添加页脚。脚本作为上述方法的参数使用，它表示要用于页眉或页脚的脚本。
+
+**页眉**
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Obtaining the reference of the PageSetup of the worksheet
 
@@ -37,7 +38,7 @@ pageSetup.setHeader(2, "&\"Times New Roman,Bold\"&12&F");
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Setting a string at the left footer and changing the font of the footer
 
@@ -49,7 +50,7 @@ pageSetup.setFooter(1, "&G");
 
 FileInputStream fis = new FileInputStream("data/footer.png");
 
-byte[]picData = new byte[fis.available()];
+byte[] picData = new byte[fis.available()];
 
 fis.read(picData);
 
@@ -63,11 +64,11 @@ pageSetup.setFooter(2, "&Pof&N");
 
 {{< /highlight >}}
 ## **Apache POI SS - HSSF XSSF - 页眉和页脚**
-标题类可用于调整电子表格中的标题。
+Header 类可用于调整电子表格中的页眉
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Header header = sheet.getHeader();
 
@@ -87,6 +88,6 @@ header.setRight(HSSFHeader.font("Stencil-Normal", "Italic") +
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[设置页眉和页脚](/java/setting-headers-and-footers).
+更多详情，请访问[设置页眉和页脚](/java/setting-headers-and-footers)
 
 {{% /alert %}}

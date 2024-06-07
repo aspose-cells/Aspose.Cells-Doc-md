@@ -1,6 +1,8 @@
-﻿---
-title: 使用 GridWeb
+---
+title: 与GridWeb一起工作
 type: docs
 weight: 20
-url: /zh/net/working-with-gridweb/
+url: /zh/net/aspose-cells-gridweb/working-with-gridweb/
 ---
+
+

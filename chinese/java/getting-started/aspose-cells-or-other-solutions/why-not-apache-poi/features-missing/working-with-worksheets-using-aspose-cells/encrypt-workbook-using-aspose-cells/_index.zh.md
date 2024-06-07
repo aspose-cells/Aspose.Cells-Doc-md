@@ -1,15 +1,16 @@
-﻿---
-title: 使用 Aspose.Cells 加密工作簿
+---
+title: 使用Aspose.Cells加密工作簿
 type: docs
 weight: 60
 url: /zh/java/encrypt-workbook-using-aspose-cells/
 ---
+
 ## **Aspose.Cells - 加密工作簿**
-以下示例显示如何使用 Aspose.Cells API 加密/密码保护 excel 文件。
+以下示例展示了如何使用Aspose.Cells API加密/密码保护Excel文件。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a Workbook object by excel file path
 
@@ -40,6 +41,6 @@ workbook.save(dataDir + "AsposeEncryptedWorkBook.xls");
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[加密 Excel 文件](/cells/zh/java/encrypting-excel-files/).
+有关详细信息，请访问[加密Excel文件](/cells/zh/java/encrypting-excel-files/)。
 
 {{% /alert %}}

@@ -1,18 +1,19 @@
-﻿---
-title: 将匿名或自定义对象添加到 SmartMarkers
+---
+title: 在SmartMarkers中添加匿名或自定义对象
 type: docs
 weight: 10
 url: /zh/net/adding-anonymous-or-custom-object-into-smartmarkers/
 ---
+
 {{% alert color="primary" %}} 
 
-这解释了如何将匿名或自定义对象导入 SmartMarkers。
+这解释了如何将匿名或自定义对象导入到SmartMarkers中。
 
-有时，您需要将自定义对象作为数据源包含在 SmartMarkers 中。 Aspose.Cells 使使用自定义对象作为数据源成为可能。
+有时，您需要将自定义对象作为SmartMarkers的数据源。Aspose.Cells使得使用自定义对象作为数据源成为可能。
 
 {{% /alert %}} 
 
-请参阅以下示例代码，其中显示了如何将自定义对象添加为 SmartMarkers 的数据源。
+请参见以下示例代码，演示如何将自定义对象添加为SmartMarkers的数据源。
 
 
 

@@ -1,21 +1,22 @@
-﻿---
-title: 公共 API Aspose.Cells 8.7.1 的变化
+---
+title: Aspose.Cells 8.7.1的公共API变更
 type: docs
 weight: 250
 url: /zh/java/public-api-changes-in-aspose-cells-8-7-1/
 ---
+
 {{% alert color="primary" %}} 
 
-本文档描述了 Aspose.Cells API 从版本 8.7.0 到 8.7.1 的变化，模块/应用程序开发人员可能会感兴趣。它不仅包括新的和更新的公共方法、添加和删除的类等，还包括对 Aspose.Cells 中幕后行为的任何更改的描述。
+此文档描述了从版本8.7.0到8.7.1的Aspose.Cells API的更改，这可能会对模块/应用程序开发人员感兴趣。它不仅包括新的和更新的公共方法、添加和删除的类等，还包括对Aspose.Cells后台行为的任何更改的描述。
 
 {{% /alert %}} 
-## **添加的 API**
-### **添加了 LookInType.ORIGINAL_VALUES 属性**
-Aspose.Cells API 已经支持[查找或搜索数据](/cells/zh/java/find-or-search-data/)电子表格的功能，以便在单元格值和公式中找到一些特定的内容。但是，此功能缺少应用于单元格的格式方面，这可能会改变内容的外观和值，从而使文本无法使用原始值进行搜索。在此版本 Aspose.Cells API 中，名为 LookInType.ORIGINAL_VALUES 的另一个常量已公开给公众 API，它可以克服上述情况。
+## **已添加API**
+### **新增了LookInType.ORIGINAL_VALUES属性**
+Aspose.Cells APIs已经支持[查找或搜索数据](/cells/zh/java/find-or-search-data/)功能，以便在电子表格中找到特定内容的内容和公式。然而，该功能缺乏应用到单元格上的格式的方面，该格式可能改变内容的外观和值，从而使原始值变得不可搜索。通过Aspose.Cells APIs的此次发布，另一个名称为LookInType.ORIGINAL_VALUES的常量已经暴露到公共API中，它允许克服上述情况。 
 
 {{% alert color="primary" %}} 
 
-有关此功能的更多详细信息，请查看详细文章[使用原始值搜索数据](https://docs.aspose.com/cells/java/search-data-using-original-values/)
+有关此功能的更多详细信息，请查看[使用原始值搜索数据](https://docs.aspose.com/cells/java/search-data-using-original-values/)的详细文章。
 
 {{% /alert %}} 
 
@@ -23,7 +24,7 @@ Aspose.Cells API 已经支持[查找或搜索数据](/cells/zh/java/find-or-sear
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 

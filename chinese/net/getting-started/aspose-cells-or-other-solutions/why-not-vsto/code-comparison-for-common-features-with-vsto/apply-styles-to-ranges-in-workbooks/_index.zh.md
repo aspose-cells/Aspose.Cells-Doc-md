@@ -1,12 +1,13 @@
-﻿---
-title: 将样式应用于工作簿中的范围
+---
+title: 在工作簿中应用样式到范围
 type: docs
 weight: 40
 url: /zh/net/apply-styles-to-ranges-in-workbooks/
 ---
-下面是对工作簿的行和列应用样式的代码对比：
+
+以下是将样式应用到工作簿的行和列的代码比较：
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
 
@@ -30,7 +31,7 @@ url: /zh/net/apply-styles-to-ranges-in-workbooks/
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 

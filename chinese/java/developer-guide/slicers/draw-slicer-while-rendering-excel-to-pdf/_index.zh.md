@@ -1,14 +1,15 @@
-﻿---
-title: 在将 Excel 渲染到 PDF 时绘制切片器
+---
+title: 在将Excel渲染为PDF时绘制缩略图
 type: docs
 weight: 60
 url: /zh/java/draw-slicer-while-rendering-excel-to-pdf/
 ---
-## **在将 Excel 渲染到 PDF 时绘制切片器**
-如果您有一个应用了切片器的 Excel 文件，并且您想要使用切片器设置将 Excel 导出到 PDF，则 Aspose.Cells 现在默认支持此功能。您只需将带有切片器的 Excel 文件导出到 PDF，生成的 PDF 将显示应用的切片器。
 
-下面的示例代码加载[示例 Excel 文件](SampleSlicerChart.xlsx)包含一个现有的切片器。然后将工作簿另存为[输出 PDF 文件](SampleSlicerChart.pdf).以下屏幕截图比较了源 Excel 文件和生成的 PDF 文件。
+## **在将Excel渲染为PDF时绘制分割器**
+如果您有应用了缩略图的Excel文件，并且想要使用缩略图设置将Excel导出为PDF，Aspose.Cells现在默认支持此功能。只需将应用了缩略图的Excel文件导出为PDF，生成的PDF将显示应用了缩略图。
 
-![待办事项：图片_替代_文本](draw-slicer-while-rendering-excel-to-pdf_1.jpg)
+以下示例代码加载包含现有切片器的[sample Excel file](SampleSlicerChart.xlsx)，然后将工作簿另存为[output PDF file](SampleSlicerChart.pdf)。下面的屏幕截图比较了源Excel文件和生成的PDF文件。
+
+![todo:image_alt_text](draw-slicer-while-rendering-excel-to-pdf_1.jpg)
 ## **示例代码**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Slicers-ExportSlicerToPDF-1.java" >}}

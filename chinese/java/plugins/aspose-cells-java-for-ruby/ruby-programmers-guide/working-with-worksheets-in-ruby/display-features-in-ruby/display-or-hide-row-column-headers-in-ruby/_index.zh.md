@@ -1,16 +1,17 @@
-﻿---
+---
 title: 在 Ruby 中显示或隐藏行列标题
 type: docs
 weight: 20
 url: /zh/java/display-or-hide-row-column-headers-in-ruby/
 ---
+
 ## **Aspose.Cells - 显示或隐藏行列标题**
 ### **隐藏行/列标题**
-使用隐藏行/列标题**Aspose.Cells Java 红宝石**， 称呼**显示隐藏行列标题**模块。
+要使用**Aspose.Cells Java for Ruby**隐藏行/列标题，请调用**DisplayHideRowColumnHeaders**模块。
 
-**红宝石代码**
+**Ruby代码**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -37,12 +38,12 @@ workbook.save(data_dir + "output.xls")
 puts "Headers of rows and columns are now hidden, please check the output file."
 
 {{< /highlight >}}
-### **使行/列标题可见**
-使用 Worksheet 类的 setRowColumnHeadersVisible(true) 方法使行和列标题可见。
+### **显示行/列标题**
+通过使用**Worksheet**类的**setRowColumnHeadersVisible(true)**方法，使行和列标题可见。
 
-**红宝石代码**
+**Ruby代码**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the headers of rows and columns
 
@@ -50,6 +51,6 @@ worksheet.setRowColumnHeadersVisible(true)
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**显示或隐藏行列标题 (Aspose.Cells)**来自以下任何社交编码网站：
+从以下社交编码网站之一下载**显示或隐藏行列标题（Aspose.Cells）**。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhiderowcolumnheaders.rb)

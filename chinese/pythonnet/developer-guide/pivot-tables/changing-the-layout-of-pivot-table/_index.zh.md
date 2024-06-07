@@ -1,23 +1,24 @@
 ---
-title: 更改数据透视表的布局
+title: 更改透视表的布局
 type: docs
 weight: 10
 url: /zh/python-net/changing-the-layout-of-pivot-table/
-description: 如何使用 Aspose.Cells for Python via .NET 更改数据透视表的布局。
-keywords: Change the Layout of Pivot Table.
+description: 如何通过.NET使用Aspose.Cells for Python更改透视表的布局。
+keywords: Aspose.Cells for Python Excel，Excel Python库，使用Aspose.Cells for Python Excel库更改透视表的布局。
 ---
-{{% alert color="primary" %}}
 
- Microsoft Excel 允许您使用以下命令更改数据透视表的布局*数据透视表工具 > 设计 > 报表布局*菜单命令。您可以通过这三种形式更改布局
+## **如何在MS-Excel中更改透视表的布局**
+Microsoft Excel允许您使用*透视表工具 > 设计 > 报表布局*菜单命令更改透视表的布局。您可以以这三种形式更改布局
 
-- 以紧凑形式显示
-- 以大纲形式显示
-- 以表格形式显示
+- 显示为紧凑形式
+- 显示为大纲形式
+- 显示为表格形式
 
-Aspose.Cells还提供[**数据透视表.show_in_compact_form()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/show_in_compact_form/#), [**数据透视表.show_in_outline_form()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/show_in_outline_form/#)和[**PivotTable.show_in_tabular_form()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/show_in_tabular_form/#)在这三种形式中更改数据透视表布局的方法。
+## **使用Aspose.Cells for Python Excel库更改透视表的布局**
+Aspose.Cells for Python Excel库还提供[**PivotTable.show_in_compact_form()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/show_in_compact_form/#)、[**PivotTable.show_in_outline_form()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/show_in_outline_form/#)和[**PivotTable.show_in_tabular_form()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/show_in_tabular_form/#)方法，以在这三种形式中更改透视表的布局。
 
-{{% /alert %}}
 
-以下示例代码首先显示了中的数据透视表**紧凑表格**，然后它以**大纲表格显示数据透视表**最后它以*表格形式**显示数据透视表。
+## **示例代码**
+以下示例代码首先显示透视表为**紧凑形式**，然后显示透视表为**大纲形式**，最后显示透视表为**表格形式**。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-ChangingLayoutOfPivotTable.py" >}}

@@ -1,29 +1,31 @@
 ---
-title: 在Cells中添加数据
+title: 在单元格中添加数据
 type: docs
 weight: 10
 url: /zh/net/add-data-in-cells/
-description: 本文介绍如何使用 Aspose.Cells for .NET API 在 Cells 中添加数据。
-keywords: C# Add Data in Cells, C# Insert Data to Worksheet, C# Set Data of Cell.
+description: 本文介绍如何使用Aspose.Cells为.NET API在单元格中添加数据。
+keywords: 在C＃中向单元格添加数据，C＃中将数据插入工作表，C＃中设置单元格的数据。
 ---
-##  **如何使用 Aspose.Cells for .NET 在 Cells 中添加数据**
-Aspose.Cells 提供了一个 Workbook 类，它表示 Microsoft Excel 文件。 Workbook 类包含一个 WorksheetCollection，允许访问 Excel 文件中的每个工作表。工作表由 Worksheet 类表示。 Worksheet 类提供了一个 Cells 集合。 Cells 集合中的每一项代表 Cell 类的一个对象。
+
+
+## **如何使用Aspose.Cells为.NET添加单元格中的数据**
+Aspose.Cells提供了一个类，Workbook，代表一个Microsoft Excel文件。Workbook类包含一个WorksheetCollection，允许访问Excel文件中的每个工作表。工作表由Worksheet类表示。Worksheet类提供了一个Cells集合。Cells集合中的每个项代表Cell类的对象。
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
- //实例化一个Workbook对象
+ //Instantiating a Workbook object
 
-工作簿 工作簿 = new Workbook();
+Workbook workbook = new Workbook();
 
-//访问Excel文件中添加的工作表
+//Accessing the added worksheet in the Excel file
 
-工作表 worksheet = workbook.Worksheets[0];
+Worksheet worksheet = workbook.Worksheets[0];
 
-整数x = 1;
+int x = 1;
 
-对于 (int i = 1; i<= 15; i++)
+for (int i = 1; i <= 15; i++)
 
 {
 
@@ -41,22 +43,22 @@ workbook.Save("test.xlsx");
 
 
 {{< /highlight >}}
-##  **NPOI HSSF XSSF - 在 Cells 中添加数据**
-在 NPOI 中 row.createCell(1).setCellValue 可用于在单元格中添加数据。
+## **NPOI HSSF XSSF - 向单元格中添加数据**
+在NPOI中，row.createCell(1).setCellValue可用于向单元格中添加数据。
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
- IWorkbook 工作簿 = new XSSFWorkbook();
+ IWorkbook workbook = new XSSFWorkbook();
 
-ISheet Sheet1 = workbook.CreateSheet("Sheet1");
+ISheet sheet1 = workbook.CreateSheet("Sheet1");
 
-sheet1.CreateRow(0).CreateCell(0).SetCellValue("这是一个示例");
+sheet1.CreateRow(0).CreateCell(0).SetCellValue("This is a Sample");
 
-整数x = 1;
+int x = 1;
 
-对于 (int i = 1; i<= 15; i++)
+for (int i = 1; i <= 15; i++)
 
 {
 
@@ -79,13 +81,13 @@ workbook.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-##  **下载运行代码**
-下载**在Cells中添加数据**形成以下任何一个社交编码网站：
+## **下载运行代码**
+从以下社交编码网站之一下载**在单元格中添加数据**：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Add.Data.In.Cells.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[添加数据至Cells](/cells/zh/net/add-data-in-cells/).
+欲了解更多详情，请访问[向单元格添加数据](/cells/zh/net/add-data-in-cells/)。
 
 {{% /alert %}}

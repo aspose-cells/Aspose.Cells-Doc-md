@@ -1,15 +1,16 @@
-﻿---
-title: 在 Jython 中将 Excel 转换为 Pdf
+---
+title: 在Jython中将Excel转为Pdf
 type: docs
 weight: 50
 url: /zh/java/excel-to-pdf-conversion-in-jython/
 ---
-## **Aspose.Cells - Excel 到 Pdf 的转换**
-使用附加文档**Aspose.Cells Java 对于 Jython**.在这里您可以看到示例代码。
+
+## **Aspose.Cells - Excel转Pdf**
+使用**Aspose.Cells Java for Jython**进行文档追加。这里您可以查看示例代码
 
 **Jython代码**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -47,6 +48,6 @@ if __name__ == '__main__':
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**附加文件 (Aspose.Cells)**来自以下任何社交编码网站：
+从以下任何社交编码网站下载**追加文档（Aspose.Cells）**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithFiles/Excel2PdfConversion.py)

@@ -1,38 +1,39 @@
-﻿---
-title: 将 PdfSaveOptions 和 ImageOrPrintOptions 的 DefaultFont 属性设置为优先
+---
+title: 设置 PdfSaveOptions 和 ImageOrPrintOptions 的 DefaultFont 属性具有优先级
 type: docs
 weight: 30
 url: /zh/java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/
 ---
+
 ## **可能的使用场景**
 
-同时设置**默认字体**的财产[**Pdf保存选项**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)和[**图像或打印选项**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)，您可能希望保存到 PDF 或图像会设置**默认字体**工作簿中所有缺少（未安装）字体的文本。
+在设置[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)和[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)的**DefaultFont**属性时，您可能期望保存为PDF或图像会将该**DefaultFont**设置为工作簿中所有缺失的（未安装）字体的文本。
 
-一般在保存到PDF或者图片时，Aspose.Cells会先尝试设置Workbook的默认字体（即，[**工作簿.DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font) ).如果工作簿的默认字体仍然无法正确显示/呈现文本，则 Aspose.Cells 将尝试使用提到的字体呈现**默认字体**属性在[**Pdf保存选项**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**图像或打印选项**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions).
+一般而言，当保存为PDF或图像时，Aspose.Cells首先尝试设置工作簿的默认字体（即[**Workbook.DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font)）。如果工作簿的默认字体仍无法正确显示/渲染文本，则Aspose.Cells将尝试使用[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)中**DefaultFont**属性所述的字体进行渲染。
 
-为了满足您的期望，我们有一个名为“**检查工作簿默认字体**“ 在[**Pdf保存选项**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**图像或打印选项**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions).您可以将其设置为 false 以禁用尝试工作簿的默认字体或让**默认字体**置入[**Pdf保存选项**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**图像或打印选项**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)有优先权。
+为满足您的期望，我们在[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)中有一个名为"**CheckWorkbookDefaultFont**"的布尔属性。您可以将其设置为false以禁用尝试使用工作簿的默认字体，或者将[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)中的**DefaultFont**设置优先级。
 
 ## **设置 PdfSaveOptions/ImageOrPrintOptions 的 DefaultFont 属性**
 
-以下示例代码打开一个 Excel 文件。 A1 单元格（在第一个工作表中）的文本设置为“Christmas Time Font text”。字体名称是计算机上未安装的“Christmas Time Personal Use”。我们设置**默认字体**的属性[**Pdf保存选项**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**图像或打印选项**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)到“时代新罗马”。我们还设置**检查工作簿默认字体**布尔属性为“**错误的**“这确保 A1 单元格的文本以“Times New Roman”字体呈现，并且不应使用工作簿的默认字体（在本例中为“Calibri”）。代码将第一个工作表呈现为 PNG 和 TIFF 图像格式。它最终呈现为 PDF 文件格式。
+下面的示例代码打开一个Excel文件。第一个工作表的A1单元格中设置了文本"圣诞时节字体文本"。字体名称为"圣诞时节个人使用"，但未安装在该机器上。我们将[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)的**DefaultFont**属性设置为"Times New Roman"。同时，我们将**CheckWorkbookDefaultFont**布尔属性设置为"**false**"，确保A1单元格的文本使用"Times New Roman"字体，并且不使用工作簿的默认字体（在这种情况下是"Calibri"）。代码将第一个工作表渲染为PNG和TIFF图像格式。最后渲染为PDF文件格式。
 
 {{% alert color="primary" %}}
 
-默认值***检查工作簿默认字体***属性是**真的**.
+***CheckWorkbookDefaultFont*** 属性的默认值为 **true**。
 
 {{% /alert %}}
 
-这是截图[模板文件](49446914.xlsx)在示例代码中使用。
+这是示例代码中使用的 [模板文件](49446914.xlsx) 的截图。
 
-![待办事项：图片_替代_文本](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_1.png)
+![todo:image_alt_text](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_1.png)
 
-这是设置后的输出 PNG 图像[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont)属性为“Times New Roman”。
+将 [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) 属性设置为"Times New Roman"后得到的输出 PNG 图像。
 
-![待办事项：图片_替代_文本](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_2.png)
+![todo:image_alt_text](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_2.png)
 
-查看输出[TIFF](out1_imageTIFF.tiff)设置后的图像[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont)属性为“Times New Roman”。
+将 [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) 属性设置为"Times New Roman"后得到的输出 [TIFF](out1_imageTIFF.tiff) 图像。
 
-查看输出[PDF](out1_pdf.pdf)设置后的文件[**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DefaultFont)属性为“Times New Roman”。
+将 [**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DefaultFont) 属性设置为"Times New Roman"后得到的输出 [PDF](out1_pdf.pdf) 文件。
 
 ## **示例代码**
 

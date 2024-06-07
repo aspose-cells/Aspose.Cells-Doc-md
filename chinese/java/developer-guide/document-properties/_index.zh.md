@@ -1,4 +1,4 @@
-﻿---
+---
 title: 文档属性
 type: docs
 weight: 59

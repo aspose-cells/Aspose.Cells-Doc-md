@@ -1,13 +1,16 @@
-﻿---
-title: 在 GridWeb 中渲染交互式滚动条
+---
+title: 在GridWeb中呈现交互式滚动条
 type: docs
 weight: 170
-url: /zh/net/render-interactive-scrollbar-in-gridweb/
+url: /zh/net/aspose-cells-gridweb/render-interactive-scrollbar-in-gridweb/
+keywords: GridWeb，滚动条
+description: 本文介绍了如何在GridWeb中处理滚动条。
 ---
-## **可能的使用场景**
-Aspose.Cells for GridWeb 可以在 GridWeb 工作表内呈现交互式滚动条控件。用户可以像在 Microsoft Excel 中一样与滚动条交互。为了创建交互式滚动条，您必须添加链接**查询**和**用户界面**库如下所示。
 
-{{< highlight "java" >}}
+## **可能的使用场景**
+Aspose.Cells for GridWeb可以在GridWeb工作表中呈现交互式滚动条控件。用户可以像在Microsoft Excel中一样与滚动条进行交互。为了创建交互式滚动条，您必须添加**jQuery**和**jQuery UI**库的链接，如下所示。
+
+{{< highlight java >}}
 
  <head runat="server">
 
@@ -20,18 +23,18 @@ Aspose.Cells for GridWeb 可以在 GridWeb 工作表内呈现交互式滚动条�
 </head>
 
 {{< /highlight >}}
-## **在 GridWeb 中渲染交互式滚动条**
-下面的示例代码加载[示例 Excel 文件](61767764.xlsx)包含滚动条，如以下屏幕截图所示。其他屏幕截图显示了 GridWeb 如何呈现交互式滚动条并在单元格 B3 中显示滚动条的值。无论何时滚动滚动条，单元格 B3 的值都会显示结果值。
+## **在GridWeb中呈现交互式滚动条**
+以下示例代码加载包含滚动条的[示例Excel文件](61767764.xlsx)，如下截图所示。其他截图展示了GridWeb如何呈现交互式滚动条，并显示滚动条的值在单元格B3中。每当您滚动滚动条时，单元格B3的值将显示为结果值。
 
-![待办事项：图片_替代_文本](render-interactive-scrollbar-in-gridweb_1.png)
+![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_1.png)
 
-![待办事项：图片_替代_文本](render-interactive-scrollbar-in-gridweb_2.png)
+![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_2.png)
 
-![待办事项：图片_替代_文本](render-interactive-scrollbar-in-gridweb_3.png)
+![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_3.png)
 
-![待办事项：图片_替代_文本](render-interactive-scrollbar-in-gridweb_4.png)
+![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_4.png)
 ## **示例代码**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <%@ Page Language="C#" AutoEventWireup="true" CodeFile="TestGridWeb.aspx.cs" Inherits="TestGridWeb" %>
 

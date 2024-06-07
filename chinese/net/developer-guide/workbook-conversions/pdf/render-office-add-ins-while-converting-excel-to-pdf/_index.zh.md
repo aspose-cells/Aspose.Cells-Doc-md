@@ -1,16 +1,17 @@
-﻿---
-title: 将 Excel 转换为 PDF 时呈现 Office 加载项
+---
+title: 在将Excel转为PDF时呈现Office附加组件
 type: docs
 weight: 100
 url: /zh/net/render-office-add-ins-while-converting-excel-to-pdf/
 ---
+
 ## **可能的使用场景**
 
-早些时候，当 Excel 文件保存为 PDF 格式时，Aspose.Cells 无法呈现 Office 加载项。现在 Aspose.Cells 可以正常显示。您不需要使用任何特殊方法或属性在输出 PDF 中呈现 Office 加载项。只需将 Excel 文件保存为 PDF 格式，它就会呈现 Office 加载项。
+早先，Aspose.Cells 在将Excel文件保存为PDF格式时无法呈现Office附加组件。现在Aspose.Cells 可以正确呈现它。您无需使用任何特殊方法或属性来在输出PDF中呈现Office附加组件。只需将Excel文件保存为PDF格式，它将呈现Office附加组件。
 
-## **将 Excel 转换为 PDF 时呈现 Office 加载项**
+## **在将Excel转为PDF时呈现Office附加组件**
 
-下面的示例代码保存了[示例 Excel 文件](60489769.xlsx)其中包含 Office 加载项。请参阅[使用先前版本即 17.11 生成的输出 PDF](60489770.pdf)和[输出 PDF 使用较新版本生成，即 17.12 及更高版本](60489771.pdf).先前版本输出 PDF 为空白，但较新版本输出 PDF 显示 Office 加载项。
+以下示例代码保存了包含Office附加组件的[示例Excel文件](60489769.xlsx)。请查看[使用之前版本，即17.11生成的输出PDF](60489770.pdf)以及[使用新版本，即17.12及以后生成的输出PDF](60489771.pdf)。之前版本的输出PDF为空，但新版本的输出PDF显示了Office附加组件。
 
 ## **示例代码**
 

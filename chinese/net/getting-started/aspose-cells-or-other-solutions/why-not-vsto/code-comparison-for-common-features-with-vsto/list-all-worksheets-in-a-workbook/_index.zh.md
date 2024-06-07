@@ -1,11 +1,12 @@
-﻿---
+---
 title: 列出工作簿中的所有工作表
 type: docs
 weight: 160
 url: /zh/net/list-all-worksheets-in-a-workbook/
 ---
+
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  	Excel.Application excelApp = Application;
 
@@ -55,9 +56,9 @@ private void ListSheets(Microsoft.Office.Interop.Excel.Workbook workbook)
 
 {{< /highlight >}}
 ## **Aspose**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- static void Main(string[]args)
+ static void Main(string[] args)
 
 {
 
@@ -93,4 +94,4 @@ private static void ListSheets(Workbook workbook)
 ## **下载示例代码**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/List.All.Worksheets.in.a.Workbook.Aspose.Cells.zip)
 - [Sourceforge](https://sourceforge.net/p/asposevsto/wiki/Home/)
-- [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-vsto/wiki/List%20All%20Worksheets%20in%20a%20Workbook)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/wiki/List%20All%20Worksheets%20in%20a%20Workbook)

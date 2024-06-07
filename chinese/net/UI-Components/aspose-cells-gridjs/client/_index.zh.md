@@ -1,16 +1,18 @@
 ---
-title: 使用 GridJs 客户端
+title: 与GridJs客户端端的交互
 type: docs
 weight: 250
 url: /zh/net/aspose-cells-gridjs/client/
-keywords: custom,logo,setting,api
+keywords: GridJs，自定义，标志，设置，API
+description: 本文介绍了GridJs中客户端JavaScript API或函数。
 ---
-# 使用 GridJs 客户端
-我们基于 GridJs 客户端开发[电子表格](https://github.com/myliang/x-spreadsheet).
 
-## 主要步骤是：
+# 与GridJs客户端端的交互
+我们基于[x-spreadsheet](https://github.com/myliang/x-spreadsheet)开发了GridJs客户端。
 
-- 创建 x_spreadsheet 实例
+## 主要步骤为：
+
+- 创建x_spreadsheet实例
 ```javascript
 xs = x_spreadsheet(id, options)
     // the parameters are:
@@ -43,20 +45,20 @@ xs = x_spreadsheet(id, options)
 			showContextmenu: true
 			})
 ```
-    
-- 加载 json 数据
+
+-  使用json数据加载
 ```javascript
 xs.loadData(data)
 // the parameters is:
 	data: the json data which describ the data structure for the worksheets
 ```
-- 按工作表名称设置活动工作表
+- 通过工作表名称设置活动工作表
 ```javascript
 xs.setActiveSheetByName(sheetname)
 // the parameters is:
 	sheetname: the sheet name 
 ```
-- 通过 id 设置活动工作表
+- 通过id设置活动工作表
 ```javascript
 xs.setActiveSheet(id)
 // the parameters is:
@@ -71,7 +73,7 @@ xs.setActiveCell(row,col);
 	col: the cell column
 ```
 
-- 设置服务器端操作的形状/图像操作信息
+- 为服务器端操作设置形状/图像的信息
 ```javascript
 xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActionUrl, imageCopyActionUrl, zindex, loadingGif);
 // the parameters are:
@@ -90,18 +92,18 @@ xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActio
     xs.setImageInfo(imageurl, imageuploadurl1, imageuploadurl2, imagecopyurl, basiczorder);
 ```
 
-- 设置服务器端操作的下载操作信息
+- 为服务器端下载操作设置信息
 ```javascript
 xs.setFileDownloadInfo(downloadActionUrl);
 // the parameters are:
 	downloadActionUrl: the get download file action URL in the server side controller
-	 
+
     for example: 
             const fileDownloadUrl = "/GridJs2/Download";
             xs.setFileDownloadInfo(fileDownloadUrl);
 ```
 
-- 设置服务器端操作的 ole 对象操作信息
+- 为服务器端操作设置OLE对象操作的信息
 ```javascript
 xs.setOleDownloadInfo(oleActionUrl);
 // the parameters are:
@@ -110,16 +112,16 @@ xs.setOleDownloadInfo(oleActionUrl);
             const oleDownloadUrl = "/GridJs2/Ole";
             xs.setOleDownloadInfo(oleDownloadUrl);
 ```
-  
 
-_
-## 其他有用的 api
+
+___
+## 其他有用的API
 - 渲染视图
 ```javascript
 xs.reRender()
 ```
 
-- 获取活动工作表 ID
+- 获取活动工作表的ID
 ```javascript
 xs.getActiveSheet()
 ```
@@ -131,14 +133,26 @@ xs.setZoomLevel(zoom)
 	zoom:the zoom level ,can be number ,for example 0.5 for zoom out, or 2 for zoom in
 ```
 
-- 设置文件名
+- 设置文件名 
 ```javascript
 xs.setFileName(name)
 // the parameters is:
 	name:the file name with extension ,for example trip.xlsx
 ```
 
-- 是否为GridJs启用窗口按键事件
+- 用于邮件发送功能的回调函数
+```javascript
+xs.setEmailSendCallFunction(callback)
+// the parameters is:
+	callback: the callback function to handle email sending, receives a mailObj parameter
+		callback: function(mailObj) {
+			// mailObj properties:
+			// mailObj.receiver: the email address of the receiver, e.g., 'example@gmail.com'
+			// mailObj.type: the format of the file to be sent, can be 'html', 'xlsx', or 'pdf'
+		}
+```
+
+- 是否启用GridJs的窗口键事件
 ```javascript
 xs.enableKeyEvent(isenable)
 // the parameters is:
@@ -146,13 +160,13 @@ xs.enableKeyEvent(isenable)
 //when has other controls in the same page, you may want to ignore the key event in GridJs 
 ```
 
-- 取消绑定GridJs上的所有事件，包括窗口按键事件和窗口调整大小事件。
+- 解除GridJs绑定的所有事件，包括窗口键事件和窗口调整大小事件
 ```javascript
 xs.destroy()
 ```
 
 
-- 设置图像/形状的可见过滤器
+- 为图像/形状设置可见性过滤器
 ```javascript
     // need to set a function which return true(for visible) or false(for invisible) for the visible filter with the below parameters :
 	sheet:the sheet instance
@@ -168,12 +182,12 @@ xs.destroy()
 		xs.setActiveSheet(xs.getActiveSheet())
 ```
 
-- 获取选择的图像/形状，如果没有选择将返回null
+- 获取所选图像/形状，如果没有选择会返回null
 ```javascript
 xs.sheet.selector.getObj()
 ```
 
-- 设置图像/形状的可选状态
+- 为图像/形状设置可选择状态 
 ```javascript
 const shape=xs.sheet.selector.getObj();
 shape.setControlable(isenable)
@@ -205,17 +219,17 @@ xs.sheet.data.setCellText(ri,ci,value,state)
 	state: input | finished ,if finished ,it will do update action to servside
 ```
 
-- 获取/设置选定的单元格范围
+- 获取/设置选择的单元格范围
 ```javascript
 xs.sheet.data.selector.range
 ```
-- 设置选定单元格或单元格区域的单元格值
+- 为选择的单元格或单元格区域设置单元格值
 ```javascript
 xs.sheet.data.setSelectedCellText(value)
     // the parameters are:
 	value:the  value for the cell
 ```
-- 设置选定单元格或单元格区域的样式
+- 为选择的单元格或单元格区域设置样式
 ```javascript
 xs.sheet.data.setSelectedCellAttr(attributename,value)
     // the parameters are:
@@ -223,16 +237,16 @@ xs.sheet.data.setSelectedCellAttr(attributename,value)
 	value:the  value for the attribute
 ```
 
-- 合并选定的单元格区域
+- 合并所选单元格区域
 ```javascript
 xs.sheet.data.merge()
 ```
 
-- 取消合并选定的单元格区域
+- 取消合并所选单元格区域
 ```javascript
 xs.sheet.data.unmerge()
 ```
-- 删除选定的单元格
+- 删除所选单元格  
 ```javascript
 xs.sheet.data.deleteCell(type)
     // the parameters are:
@@ -246,28 +260,28 @@ xs.sheet.data.setFreeze(ri,ci)
 	ci:column index
 ```
 
-- 在选定的单元格处插入行或列
+- 在所选单元格插入行或列  
 ```javascript
 xs.sheet.data.insert(type, n)
     // the parameters are:
 	type: row | column
 	n:the row or column number
 ```
-- 删除所选单元格处的行或列
+- 删除所选单元格的行或列  
 ```javascript
 xs.sheet.data.delete(type)
     // the parameters are:
 	type: row | column
 ```
 
-- 设置列的宽度
+- 为列设置宽度
 ```javascript
 xs.sheet.data.setColWidth(ci,width)
     // the parameters are:
 	ci:column index
 	width:the width for the column
 ```
-- 设置列的宽度
+- 为所有列设置宽度
 ```javascript
 xs.sheet.data.setColsWidth(sci,eci,width)
     // the parameters are:
@@ -276,14 +290,14 @@ xs.sheet.data.setColsWidth(sci,eci,width)
 	width:the width for the column
 ```
 
-- 设置所有列的宽度
+- 为所有列设置宽度
 ```javascript
 xs.sheet.data.setAllColsWidth(width)
     // the parameters are:
 	width:the width for the columns
 ```
 
-- 获取列的宽度
+- 获取列的宽度 
 ```javascript
 xs.sheet.data.cols.sumWidth(min,max)
     // the parameters are:
@@ -298,7 +312,7 @@ xs.sheet.data.setRowHeight(ri,height)
 	ri:row index
 	height:the height for the row
 ```
-- 设置行的高度
+- 设置多行的高度
 ```javascript
 xs.sheet.data.setRowsHeight(sri,eri,height)
     // the parameters are:
@@ -315,7 +329,7 @@ xs.sheet.data.setAllRowsHeight(height)
 ```
 
 
-- 获取行的高度
+- 获取行的高度 
 ```javascript
 xs.sheet.data.rows.sumHeight(min,max)
     // the parameters are:
@@ -352,7 +366,7 @@ xs.sheet.data.displayRight2Left
             });
 ```
 
-## 定制
+## 自定义
 
 - 设置主页图标和链接
 ```javascript
@@ -374,10 +388,45 @@ xs.sheet.menubar.hide()
 ```
 
 
-有关详细信息，您可以查看此处的示例
+## TextBox 对象的 APIs
+TextBox 是一种特殊类型的形状，其 type 属性为:"TextBox"，
+例如：下面的代码将显示哪种形状是文本框
+
+```javascript
+for (let shape of xs.sheet.data.shapes) {
+    if (shape.type === 'TextBox') {
+        console.log(shape.id + ' is a textbox');
+    }
+}
+```
+
+-  更改文本框对象的背景颜色
+```javascript
+    setBackgroundColor(color)
+    // the parameters are:
+        color: the html color value in hex string value
+    //for example,we assume shape 0 is a textbox object,this will set the background color to Yellow 
+     const textbox=xs.sheet.data.shapes[0];
+     textbox.setBackgroundColor('#FFFF00');
+```
+-  自动更改背景颜色和文本颜色以获得视觉活动效果
+```javascript
+    setActiveEffect(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will change background color and the text color of the textbox object;if false,restore to original appearence
+```
+
+- 在文本框对象中隐藏/显示文本内容
+```javascript
+    hideText(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will not display the text in the textbox object;if false,restore to original appearence
+```
+
+详细信息，请查看此处示例
 <https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
 
 
 
- 
- 
+
+

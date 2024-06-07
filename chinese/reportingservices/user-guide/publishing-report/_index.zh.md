@@ -1,47 +1,48 @@
-﻿---
+---
 title: 发布报告
 type: docs
 weight: 120
 url: /zh/reportingservices/publishing-report/
 ---
+
 {{% alert color="primary" %}} 
 
-当您设计了包含您希望它具有的所有元素的报表后，下一步就是将它发布到 Reporting Server，以便您和您的同事可以运行它。
+当您设计好所有要素的报告后，下一步是将其发布到报告服务器，以便您和同事能够运行它。
 
 {{% /alert %}} 
 
-要将报表发布到报表服务器，请按照以下步骤操作：
+要将报告发布到 Report Server，请按照以下步骤操作:
 
-1. 点击**发布** 
+1. 点击 **发布** 
 
-![待办事项：图片_替代_文本](publishing-report_1.png)
+![todo:image_alt_text](publishing-report_1.png)
 
-在 Aspose.Cells.Report.Designer 工具栏上单击**是的**按钮保存报告。
+在 Aspose.Cells.Report.Designer 工具栏上，并点击 **是** 按钮保存报告。 
 
-![待办事项：图片_替代_文本](publishing-report_2.png)
-
-
-
-
-1. 在对话框中，输入报表服务器的 URL，然后单击**刷新**按钮。
-
-![待办事项：图片_替代_文本](publishing-report_3.png)
-
-1. 选择目标文件夹并输入报告名称。点击**数据源设置**按钮设置数据源。
-
-![待办事项：图片_替代_文本](publishing-report_4.png)
+![todo:image_alt_text](publishing-report_2.png)
 
 
 
-显示数据源设置对话框。
 
-1. 在对话框中，输入数据源信息。点击**选择**选择共享数据源。 （如果您需要它们，共享数据源应该是报告的主要数据源）。点击**好的**按钮完成工作。
+1. 在对话框中，输入 Report Server 的 URL 并点击 **刷新** 按钮。
 
-![待办事项：图片_替代_文本](publishing-report_5.png)
+![todo:image_alt_text](publishing-report_3.png)
 
-1. 点击**发布**将报表发布到报表服务器。
+1. 选择目标文件夹并输入报告名称。点击 **数据源设置** 按钮设置数据源。 
 
-![待办事项：图片_替代_文本](publishing-report_6.png)
+![todo:image_alt_text](publishing-report_4.png)
+
+
+
+显示 DataSource 设置对话框。
+
+1. 在对话框中，输入数据源信息。点击 **选择** 以选择共享数据源（如果需要，共享数据源应为报告的主要数据源）。点击 **确定** 按钮完成工作。
+
+![todo:image_alt_text](publishing-report_5.png)
+
+1. 点击 **发布** 将报告发布到 Report Server。 
+
+![todo:image_alt_text](publishing-report_6.png)
 
 
 

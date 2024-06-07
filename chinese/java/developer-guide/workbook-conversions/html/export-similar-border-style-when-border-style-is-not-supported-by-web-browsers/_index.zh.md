@@ -1,18 +1,19 @@
-﻿---
-title: 当 Web 浏览器不支持边框样式时导出类似的边框样式
+---
+title: 在Web浏览器不支持边框样式时导出相同的边框样式
 type: docs
 weight: 70
 url: /zh/java/export-similar-border-style-when-border-style-is-not-supported-by-web-browsers/
 ---
+
 ## **可能的使用场景**
 
-Microsoft Excel 支持 Web 浏览器不支持的某些类型的虚线边框。当您使用 Aspose.Cells 将此类 Excel 文件转换为 HTML 时，将删除此类边框。但是，Aspose.Cells也可以支持显示类似的边框[**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportSimilarBorderStyle)财产。请将其值设置为**真的**并且不支持的边框也将导出到 HTML 文件。
+微软Excel支持一些虚线边框类型，这些边框不受Web浏览器支持。当您使用Aspose.Cells将这样的Excel文件转换为HTML时，这些边框会被移除。但是，Aspose.Cells也可以支持显示类似的边框，使用[**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportSimilarBorderStyle)属性。请将其值设置为true，不支持的边框也将导出到HTML文件中。
 
-## **当 Web 浏览器不支持边框样式时导出类似的边框样式**
+## **在Web浏览器不支持边框样式时导出相同的边框样式**
 
-下面的示例代码加载[示例 Excel 文件](64716832.xlsx)包含一些不受支持的边框，如以下屏幕截图所示。截图进一步说明了效果[**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportSimilarBorderStyle)里面的财产[输出 HTML](64716831.zip).
+以下示例代码加载了包含一些不受支持边框的样本Excel文件，如下图所示。屏幕快照进一步说明了[输出HTML](64716831.zip)中[**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportSimilarBorderStyle)属性的影响。
 
-![待办事项：图片_替代_文本](export-similar-border-style-when-border-style-is-not-supported-by-web-browsers_1.png)
+![todo:image_alt_text](export-similar-border-style-when-border-style-is-not-supported-by-web-browsers_1.png)
 
 ## **示例代码**
 

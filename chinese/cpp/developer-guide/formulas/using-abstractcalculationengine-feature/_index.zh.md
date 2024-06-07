@@ -1,25 +1,26 @@
 ---
-title: 使用 AbstractCalculationEngine 功能
+title: 使用AbstractCalculationEngine功能
 type: docs
 weight: 20
 url: /zh/cpp/using-abstractcalculationengine-feature/
 ---
-## 功能仍在开发中，敬请期待。
+
+## 功能仍在开发中，请继续关注。
 
 
-##  **介绍**
-本文提供了如何使用[抽象计算引擎](https://reference.aspose.com/cells/cpp/aspose.cells/abstractcalculationengine/)使用 Aspose.Cells API 实现自定义功能的功能。
+## **介绍**
+本文介绍了如何使用AbstractCalculationEngine功能使用Aspose.Cells API实现自定义函数。
 
 <!--
 
-The AbstractCalculationEngine interface allows you to add custom formula calculation functions to extend the Aspose.Cells core calculation engine in order to meet certain requirements. This feature is useful to define custom (user defined) functions in a template file or in a code where the custom function can be implemented and evaluated using Aspose.Cells APIs like any other default Microsoft Excel function.
-## **Using AbstractCalculationEngine Feature**
-The following sample code implements the AbstractCalculationEngine interface which evaluates and returns the values of the two custom functions i.e. MySampleFunc() and YourSampleFunc(). These custom functions are inside the cells A1 and A2 respectively. Then it calls the Workbook.CalculateFormula(const CalculationOptions& options) method to invoke the implementation of AbstractCalculationEngine .Calculate(CalculationData& data) method. Then, it prints the values of A1 and A2 on console. Please see the Console Output of the sample code below for more help.
-## **Sample Code**
+The AbstractCalculationEngine interface 允许您添加自定义公式计算函数，以扩展 Aspose.Cells 核心计算引擎，以满足特定要求。此功能可用于在模板文件或代码中定义自定义（用户定义）函数，其中可以实现并使用 Aspose.Cells API 对其进行评估，就像对任何其他默认 Microsoft Excel 函数进行评估一样。
+## **使用AbstractCalculationEngine功能**
+以下示例代码实现了 AbstractCalculationEngine 接口，用于评估并返回两个自定义函数 MySampleFunc() 和 YourSampleFunc() 的值。这些自定义函数分别位于单元格 A1 和 A2 中。然后，调用 Workbook.CalculateFormula(const CalculationOptions& options) 方法来调用 AbstractCalculationEngine.Calculate(CalculationData& data) 方法的实现。然后，将A1和A2的值打印到控制台上。请参见下面示例代码的控制台输出，以获取更多帮助。
+## **示例代码**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Formulas-UsingICustomFunctionFeature-new.cpp" >}}
 
 
-## **Console Output**
+## **控制台输出**
 {{< highlight java >}}
 
  Value of A1: MY sample function was called successfully.

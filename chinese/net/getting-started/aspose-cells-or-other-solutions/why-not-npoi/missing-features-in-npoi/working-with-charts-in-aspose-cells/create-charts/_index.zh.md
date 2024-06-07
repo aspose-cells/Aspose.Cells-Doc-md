@@ -1,15 +1,16 @@
-﻿---
+---
 title: 创建图表
 type: docs
 weight: 20
 url: /zh/net/create-charts/
 ---
+
 ## **Aspose.Cells - 创建图表**
-可以使用 Aspose.Cells 向电子表格添加各种图表。Aspose.Cells 提供了许多灵活的图表对象。
+可以使用Aspose.Cells向电子表格添加各种图表。Aspose.Cells提供许多灵活的图表对象。
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  // Instantiating a Workbook object
 
@@ -69,12 +70,12 @@ workbook.Save("Chart_Aspose.xls");
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**创建图表**形成以下任何一个社交编码网站：
+从以下提到的任何社交编码网站下载**创建图表**：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Create.Charts.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[如何创建图表](/cells/zh/net/create-charts/).
+有关更多详细信息，请访问[如何创建图表](/cells/zh/net/create-charts/)。
 
 {{% /alert %}}

@@ -1,35 +1,36 @@
-﻿---
+---
 title: 在处理具有大型数据集的大文件时优化内存使用
 type: docs
 weight: 110
 url: /zh/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/
 ---
+
 {{% alert color="primary" %}}
 
-在构建包含大型数据集的工作簿或读取大型 Microsoft Excel 文件时，进程占用的 RAM 总量始终是一个问题。可以采取一些措施来应对挑战。 Aspose.Cells 提供了一些相关选项和 API 调用以降低、减少和优化内存使用。此外，它还可以帮助流程更有效地工作并运行得更快。
+当构建具有大数据集的工作簿或读取大型 Microsoft Excel 文件时，进程将占用的总RAM量始终是一个令人担忧的问题。有一些措施可以适应这个挑战。Aspose.Cells提供了一些相关选项和API调用来降低、减少和优化内存使用。此外，它可以帮助进程更高效地工作并运行得更快。
 
-采用[**内存设置.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#MEMORY_PREFERENCE)用于优化用于单元格数据的内存以降低整体内存成本的选项。为单元格构建大数据集时，与使用默认设置相比，可以节省一定的内存[**内存设置.NORMAL**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#NORMAL).
+使用[**MemorySetting.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#MEMORY_PREFERENCE)选项来优化单元格数据的内存使用，减少整体内存成本。在构建大数据集以供单元格使用时，与使用默认设置[**MemorySetting.NORMAL**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#NORMAL)相比，它可以节省一定量的内存。
 
 {{% /alert %}}
 
 ## **优化内存**
 
-### **读取大型 Excel 文件**
+### **读取大型Excel文件**
 
-以下示例显示如何在优化模式下读取大型 Microsoft Excel 文件。
+以下示例展示了如何以优化模式读取大型Microsoft Excel文件。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ReadLargeExcelFiles-ReadLargeExcelFiles.java" >}}
 
-### **编写大型 Excel 文件**
+### **写入大型Excel文件**
 
-以下示例说明如何在优化模式下将大型数据集写入工作表。
+以下示例显示了如何以优化模式向工作表写入大数据集。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WritingLargeExcelFiles-WritingLargeExcelFiles.java" >}}
 
-## **警告**
+## **注意**
 
-默认选项，[**内存设置.NORMAL**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#NORMAL)适用于所有版本。对于某些情况，例如构建包含大量单元格数据集的工作簿，[**内存设置.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#MEMORY_PREFERENCE)选项可以优化内存使用并降低应用程序的内存成本。但是，此选项可能会在某些特殊情况下降低性能，例如以下。
+在所有版本中都应用了默认选项[**MemorySetting.NORMAL**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#NORMAL)。在某些情况下，例如为单元格构建具有大数据集的工作簿，选项[**MemorySetting.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#MEMORY_PREFERENCE)可能会优化内存使用，并减少应用程序的内存成本。但是，该选项可能会在某些特殊情况下降低性能，例如...
 
-1. **随机重复访问Cells** ：访问单元格集合的最有效顺序是在一行中逐个单元格，然后逐行。特别是，如果您通过从中获取的枚举器访问行/单元格[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells), [**行集合**](https://reference.aspose.com/cells/java/com.aspose.cells/RowCollection)和[**排**](https://reference.aspose.com/cells/java/com.aspose.cells/Row)，性能将最大化[**内存设置.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#MEMORY_PREFERENCE).
-1. **插入和删除 Cells & 行** 请注意，如果对 Cells/Rows 有大量的插入/删除操作，性能下降将是显着的[**内存设置.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#MEMORY_PREFERENCE)模式相比[**内存设置.NORMAL**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#NORMAL)模式。
-1. **操作不同的 Cell 类型**：如果大多数单元格包含字符串值或公式，则内存成本将与[**内存设置.NORMAL**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#NORMAL)模式，但如果有很多空单元格，或者单元格值为数字、布尔值等，则[**内存设置.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#MEMORY_PREFERENCE)选项将提供更好的性能。
+1. **随机重复访问单元格**：访问单元格集合的最有效顺序是一行一行地逐个访问单元格，然后逐行访问。特别是，如果通过[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)、[**RowCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/RowCollection)和[**Row**](https://reference.aspose.com/cells/java/com.aspose.cells/Row)获取的Enumerator访问行/单元格，性能将通过[**MemorySetting.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#MEMORY_PREFERENCE)最大化。
+1. **插入和删除单元格和行**：请注意，如果有大量插入/删除单元格/行的操作，与[**MemorySetting.NORMAL**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#NORMAL)模式相比，对[**MemorySetting.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#MEMORY_PREFERENCE)模式的性能降低明显。
+1. **操作不同的单元格类型**：如果大多数单元格包含字符串值或公式，那么内存成本与[**MemorySetting.NORMAL**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#NORMAL)模式相同，但是如果有大量空单元格，或者单元格值是数字、布尔值等，[**MemorySetting.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#MEMORY_PREFERENCE)选项将提供更好的性能。

@@ -1,31 +1,32 @@
-﻿---
-title: 公共 API Aspose.Cells 8.7.2 的变化
+---
+title: Aspose.Cells 8.7.2版本的公共API更改
 type: docs
 weight: 260
 url: /zh/java/public-api-changes-in-aspose-cells-8-7-2/
 ---
+
 {{% alert color="primary" %}} 
 
-本文档描述了 Aspose.Cells API 从版本 8.7.1 到 8.7.2 的变化，模块/应用程序开发人员可能会感兴趣。它不仅包括新的和更新的公共方法、添加和删除的类等，还包括对 Aspose.Cells 中幕后行为的任何更改的描述。
+此文档描述了从版本8.7.1到8.7.2的Aspose.Cells API的更改，这可能会对模块/应用程序开发人员感兴趣。它不仅包括新的和更新的公共方法、添加和删除的类等，还包括对Aspose.Cells后台行为的任何更改的描述。
 
 {{% /alert %}} 
-## **添加的 API**
-### **扩展默认计算引擎**
-Aspose.Cells API 具有强大的计算引擎，可以计算几乎所有的Microsoft Excel 函数。此外，Aspose.Cells API 现在允许扩展默认计算引擎以满足任何应用程序的自定义计算要求。
+## **已添加API**
+### **扩展了默认的计算引擎**
+Aspose.Cells API具有强大的计算引擎，可以计算几乎所有Microsoft Excel函数。此外，Aspose.Cells API现在允许扩展默认计算引擎，以满足任何应用程序的自定义计算要求。
 
-Aspose.Cells for Java 8.7.2 版本添加了以下 API。
+发布Aspose.Cells for Java 8.7.2后，已添加以下API。
 
-1. 抽象计算引擎类
-1. 计算数据类
-1. CalculationOptions.CustomEngine 属性
+1. AbstractCalculationEngine类
+1. CalculationData类
+1. CalculationOptions.CustomEngine属性
 
 {{% alert color="primary" %}} 
 
-上述 API 允许更灵活地为所有函数（包括 Excel 的本机函数）实现自定义计算引擎。
+上述API允许实现自定义计算引擎，用于所有函数（包括Excel的原生函数），具有更大的灵活性。
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
-有关此功能的更多详细信息，请查看详细文章[实现自定义计算引擎](/cells/zh/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
+有关此功能的更多详细信息，请查看[实现自定义计算引擎](/cells/zh/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)的详细文章。
 
 {{% /alert %}} 
 
@@ -33,7 +34,7 @@ Aspose.Cells for Java 8.7.2 版本添加了以下 API。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class CustomEngine extends AbstractCalculationEngine
 
@@ -60,20 +61,20 @@ Aspose.Cells for Java 8.7.2 版本添加了以下 API。
 }
 
 {{< /highlight >}}
-### **为 TextBoxCollection 添加了重载索引器**
-Aspose.Cells for Java 8.7.2 公开了 TextBoxCollection 类的重载索引器，以便使用其名称作为 String 访问 TextBox 的实例。
+### **为TextBoxCollection添加了重载的索引器**
+Aspose.Cells for Java 8.7.2已经公开了TextBoxCollection类的重载索引器，以便使用其名称作为字符串访问TextBox实例。
 
 {{% alert color="primary" %}} 
 
-有关此功能的更多详细信息，请查看详细文章[通过名称访问文本框](/cells/zh/java/access-the-text-box-by-the-name/)
+有关此功能的更多详细信息，请查看[使用其名称访问文本框](/cells/zh/java/access-the-text-box-by-the-name/)的详细文章。
 
 {{% /alert %}} 
 
-简单的使用场景如下。
+简单的使用场景如下。 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 

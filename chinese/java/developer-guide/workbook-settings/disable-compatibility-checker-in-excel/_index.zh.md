@@ -1,34 +1,35 @@
-﻿---
+---
 title: 在 Excel 中禁用兼容性检查器
 type: docs
 weight: 270
 url: /zh/java/disable-compatibility-checker-in-excel/
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft 以较早的文件格式保存文件时，Excel 的兼容性检查器会标记保存文件可能会导致功能问题或保真度丢失。兼容性检查器是 Microsoft Office Excel 2007、2010 和 2013 的一项功能。
+Microsoft Excel在将文件保存为较早文件格式时，会标记兼容性检查器，警告您保存文件可能会导致功能问题或保真度的丢失。兼容性检查器是Microsoft Office Excel 2007、2010和2013的功能。
 
-当您从 Excel 2007 或 Excel 2010 将工作簿保存为早期版本（从 Excel 97 到 Excel 2003）时，兼容性检查器会扫描工作簿以查看它是否包含早期版本不支持的功能。为了帮助您决定如何处理兼容性问题，兼容性检查器会显示带有选项的对话框。它还可用于创建有关工作簿中任何问题的报告，或禁用该功能。
+当您从Excel 2007或Excel 2010中保存一个工作簿到Excel 97至Excel 2003之前的版本时，兼容性检查器会扫描工作簿，看看它是否包含早期版本不支持的功能。为了帮助您做出关于如何处理兼容性问题的决定，兼容性检查器会显示带有选项的对话框。它还可以用于创建有关工作簿中任何问题的报告，或者禁用该功能。
 
-有时，您需要禁用特定电子表格的兼容性检查器。使用 Aspose.Cells' API，您可以动态执行此操作，这样用户在手动将文件重新保存到 Microsoft Excel 中时，不会因弹出的兼容性检查器对话框而感到沮丧或困惑。
+有时，您需要动态地禁用特定电子表格的兼容性检查器。使用Aspose.Cells的API，您可以这样做，以便当用户手动在Microsoft Excel中重新保存文件时，他们不会因为兼容性检查器对话框的弹出而感到沮丧或困惑。
 
 {{% /alert %}}
 
-## **使用 Microsoft Excel**
+## **使用Microsoft Excel**
 
-要禁用 Microsoft Excel 中的兼容性检查器（例如 Microsoft Excel 2007/2010）：
+要在Microsoft Excel中禁用兼容性检查器（例如Microsoft Excel 2007/2010）：
 
--  (Excel 2007) 在 Office 按钮上，单击**准备**， 然后**运行兼容性检查器**，然后清除**保存此工作簿时检查兼容性**选项。
-- （Excel 2010 和 2013）在文件选项卡上，单击**信息**， 然后**检查问题** ， 点击**检查兼容性**，最后，清除**保存此工作簿时检查兼容性**选项。
+-（Excel 2007）单击“Office”按钮，选择**准备**，然后选择**运行兼容性检查器**，最后取消选中“保存此工作簿时检查兼容性”的选项。
+- (Excel 2010 & 2013) 在**文件**选项卡上，单击**信息**，然后单击**检查问题**，单击**检查兼容性**，最后清除**保存此工作簿时检查兼容性**选项。
 
-## **使用 Aspose.Cells API**
+## **使用Aspose.Cells的API**
 
-设置[**工作簿设置.检查兼容性**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckComptiliblity)财产给**错误的**禁用 Microsoft Excel 的兼容性检查器。
+将[**WorkbookSettings.CheckComptiliblity**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckComptiliblity)属性设置为**False**即可禁用Microsoft Excel的兼容性检查器。
 
-假设我们有一个模板文件 XLS。当用户在 MS Excel 2007/2010/2013 中保存或重新保存它时，将显示兼容性检查器对话框，如下面的屏幕截图所示。
+假设我们有一个模板XLS文件。当用户在MS Excel 2007/2010/2013中保存或重新保存文件时，会显示兼容性检查器对话框，如下方截图所示。
 
-![待办事项：图片_替代_文本](disable-compatibility-checker-in-excel_1.png)
+![todo:image_alt_text](disable-compatibility-checker-in-excel_1.png)
 
-以下代码显示了如何使用 Aspose.Cells for Java 禁用兼容性检查器。
+以下代码显示了如何使用Aspose.Cells for Java禁用兼容性检查器。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DisableCompatibilityChecker-DisableCompatibilityChecker.java" >}}

@@ -1,14 +1,15 @@
-﻿---
+---
 title: 使用嵌套对象
 type: docs
 weight: 50
 url: /zh/net/using-nested-objects/
 ---
-Aspose.Cells 智能标记支持嵌套对象，嵌套对象要简单。**个人**用户需要为以下代码定义类。
 
-我们使用一个简单的模板文件。请参阅包含一些嵌套智能标记的设计器电子表格。
+Aspose.Cells支持智能标记中的嵌套对象，嵌套对象应该是简单的。用户需要为下面的代码定义Individual类。
 
-{{< highlight "csharp" >}}
+我们使用一个简单的模板文件。 请参阅包含一些嵌套智能标记的设计电子表格。
+
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -64,4 +65,4 @@ designer.Workbook.Save(FileName);
 {{< /highlight >}}
 ## **下载示例代码**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Nested%20Object%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Nested%20Object%20%28Aspose.Cells%29.zip)

@@ -1,14 +1,15 @@
-﻿---
-title:  GridJs 的自定义上下文菜单
+---
+title: GridJs的自定义右键菜单  
 type: docs
 weight: 250
 url: /zh/net/aspose-cells-gridjs/custommenu/
-description: 本文介绍如何为 GridJs 配置上下文菜单。
-keywords: custom menu items, context menu
+description: 本文描述了如何为GridJs配置上下文菜单。
+keywords: GridJs，自定义菜单项，上下文菜单，自定义，上下文，菜单
 ---
+
 # 自定义上下文菜单
-我们有一些内置的上下文菜单项，例如插入/删除行/列等
-但是，如果用户想要自定义上下文菜单项。
+我们有一些内置上下文菜单项目，例如插入/删除行/列等
+但如果用户想要自定义上下文菜单项。
 我们支持在加载选项中设置上下文菜单项。
 例如：
 ```javascript
@@ -34,15 +35,15 @@ keywords: custom menu items, context menu
             })
 ```
 
-我们支持以下 JS API 在运行时自定义上下文菜单项
+我们支持以下JS API在运行时自定义上下文菜单项
 
 
-- 获取自定义上下文菜单项
+-  获取自定义上下文菜单项
 ```javascript
 xs.sheet.getCustomContextMenuItems()
 ```
 
-- 添加自定义上下文菜单项
+-  添加自定义上下文菜单项
 ```javascript
 xs.sheet.addCustomContextMenuItems(itemsarray)
  // the parameter is:
@@ -50,7 +51,7 @@ xs.sheet.addCustomContextMenuItems(itemsarray)
  for example: [{'key':'key4','text':'menu4','callback':(x)=>{console.log('hello4444');}},{'key':'key3','text':'menu3','callback':(x)=>{console.log('hello3333');}}]
 ```
 
-- 删除自定义上下文菜单项
+-  删除自定义上下文菜单项
 ```javascript
  xs.sheet.delCustomContextMenuItems(keysarray)()
  // the parameter is:
@@ -58,7 +59,7 @@ xs.sheet.addCustomContextMenuItems(itemsarray)
  for example: ['key4','key3']
 ```
 
-- 在指定位置插入自定义上下文菜单项
+-  在指定位置插入自定义上下文菜单项
 ```javascript
 xs.sheet.insertCustomContextMenuItem(item,postion)
  // the parameter is:
@@ -67,7 +68,7 @@ xs.sheet.insertCustomContextMenuItem(item,postion)
  postion:the postion for the inserted item in the items array
 ```
 
-- 按键更新自定义上下文菜单项
+-  通过键更新自定义上下文菜单项
 ```javascript
 xs.sheet.updateCustomContextMenuItem(key,item)
  // the parameter is:
@@ -98,7 +99,7 @@ xs.sheet.addImageContextMenuItems(itemsarray)
  for example: ['key4','key3']
 ```
 
-您可以在我们的 github 演示页面中找到更多信息 https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html
+您可以在我们的 GitHub 演示页面 https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html 找到更多信息
 
 
- 
+

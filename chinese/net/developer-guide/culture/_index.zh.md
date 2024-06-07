@@ -1,4 +1,4 @@
-﻿---
+---
 title: 文化
 type: docs
 weight: 235

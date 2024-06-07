@@ -1,82 +1,84 @@
-﻿---
+---
 title: 打开不同格式的文件
 type: docs
 weight: 30
 url: /zh/python-net/opening-files-with-different-formats/
-description: Aspose.Cells for .NET API 允许您打开/阅读不同的格式，如 XLSX、HTML、CSV、ODS、TSV、SXC、FODS 等。
-keywords: open xlsx files, open html files, read fods files, read ods files, read sxc files, open csv files, Tab Delimited, SpreadsheetML, tsv, mhtml
+
+description: Aspose.Cells for .NET API允许您打开/读取XLSX、HTML、CSV、ODS、TSV、SXC、FODS等不同格式的文件。
+keywords: 打开xlsx文件，打开html文件，读取fods文件，读取ods文件，读取sxc文件，打开csv文件，Tab分隔，电子表格ML，tsv，mhtml
 ---
+
 {{% alert color="primary" %}}
 
-使用 Aspose.Cells 您可以打开不同格式的文件。**Aspose.Cells**可以打开一系列文件格式，例如 Microsoft Excel 电子表格（XLS、XLSX、XLSM、XLSB）、SpreadsheetML、逗号分隔值 (CSV)、制表符分隔或制表符分隔值 (TSV) 文件等。
+使用Aspose.Cells，您可以打开具有不同格式的文件。 **Aspose.Cells** 可以打开一系列文件格式，如 Microsoft Excel 电子表格 (XLS、XLSX、XLSM、XLSB)、电子表格ML、逗号分隔值 (CSV)、Tab分隔或Tab分隔值 (TSV)文件等。
 
-如果您需要了解所有支持的文件格式，请参阅以下页面：
+如果您需要了解所有支持的文件格式，请参考以下页面:
 [支持的文件格式](https://docs.aspose.com/cells/python-net/supported-file-formats/)
 
 {{% /alert %}}
 
-## **打开不同格式的文件**
+## **打开具有不同格式的文件**
 
-Aspose.Cells 允许开发人员打开不同格式的电子表格文件，例如 SpreadsheetML、逗号分隔值 (CSV)、制表符分隔或制表符分隔值 (TSV)、ODS 文件。要打开此类文件，开发人员可以使用与打开不同 Microsoft Excel 版本的文件相同的方法。
+Aspose.Cells 允许开发人员打开电子表格文件，格式包括电子表格ML、逗号分隔值 (CSV)、Tab分隔或Tab分隔值 (TSV)、ODS文件。要打开这些文件，开发人员可以使用与打开不同版本的 Microsoft Excel 文件相同的方法。
 
-### **打开 SpreadsheetML 文件**
+### **打开电子表格ML文件**
 
-SpreadsheetML 文件是电子表格的 XML 表示，包括有关它的所有信息，例如格式、公式等。自 Microsoft Excel XP 起，XML 导出选项添加到 Microsoft Excel，可将电子表格导出到 SpreadsheetML 文件。
+电子表格ML文件是电子表格的 XML 表示，包括有关它的所有信息，如格式、公式等。自 Microsoft Excel XP 以来，已添加了将您的电子表格导出为电子表格ML文件的 XML 导出选项。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpenSpreadsheetMLFile.py" >}}
 
-### **打开 HTML 文件**
+### **打开HTML文件**
 
-Aspose.Cells 允许您将 HTML 文件打开到工作簿对象中。 HTML 文件应该是面向 Microsoft Excel 的，即 MS-Excel 应该能够打开它。
+Aspose.Cells 允许您将 HTML 文件打开到 Workbook 对象中。HTML 文件应以 Microsoft Excel 为导向，即 MS-Excel 应能够打开它。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpenHTMLFile.py" >}}
 
 ### **打开 CSV 文件**
 
-逗号分隔值 (CSV) 文件包含值以逗号分隔的记录。数据存储为表格，其中每列由逗号分隔并由双引号引起来。如果字段值包含双引号字符，则使用一对双引号字符进行转义。也可以用Microsoft Excel导出电子表格数据到CSV。
+逗号分隔值(CSV)文件包含按逗号分隔的值的记录。数据存储为表，其中每列由逗号字符分隔并由双引号字符引用。如果字段值包含双引号字符，则它将以一对双引号字符转义。您也可以使用 Microsoft Excel 将表格数据导出为 CSV 文件。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpenCSVFile.py" >}}
 
 #### **打开 CSV 文件并替换无效字符**
 
-在 Excel 中，打开带有特殊字符的 CSV 文件时，会自动替换这些字符。 Aspose.Cells API 完成了同样的操作，在下面给出的代码示例中进行了演示。
+在 Excel 中打开具有特殊字符的 CSV 文件时，字符会自动替换。Aspose.Cells API 也会执行相同的操作，下面的代码示例演示了这一点。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpenCSVFileAndReplaceInvalidCharacters.py" >}}
 
-可以从以下链接下载示例源文件以测试此功能。
+可以从以下链接下载用于测试此功能的示例源文件。
 
-[无效字符.csv](InvalidCharacters.csv)
+[InvalidCharacters.csv](InvalidCharacters.csv)
 
 ### **使用自定义分隔符打开文本文件**
 
-文本文件用于保存不带格式的电子表格数据。该文件是一种纯文本文件，可以有一些自定义的分隔符。
+文本文件用于保存无格式的电子表格数据。该文件是一种可以具有一些定制分隔符的纯文本文件。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpenTextFilewithCustomSeparator.py" >}}
 
-可以从以下链接下载示例源文件以测试此功能。
+可以从以下链接下载用于测试此功能的示例源文件。
 
-[自定义分隔符.txt](CustomSeparator.txt)
+[CustomSeparator.txt](CustomSeparator.txt)
 
-### **打开制表符分隔的文件**
+### **打开制表符分隔文件**
 
-制表符分隔（文本）文件包含电子表格数据，但没有任何格式。数据以行和列的形式排列，就像在表格和电子表格中一样。基本上，制表符分隔文件是一种特殊的纯文本文件，每列之间有一个制表符。
+制表符分隔(文本)文件包含电子表格数据，但没有任何格式。数据按行和列排列，就像表和电子表格中那样。基本上，制表符分隔文件是一种具有制表符分隔的每列之间有制表符的特殊类型的纯文本文件。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpenTabDelimitedFile.py" >}}
 
-### **打开制表符分隔值 (TSV) 文件**
+### **打开制表符分隔值(TSV)文件**
 
-制表符分隔值 (TSV) 文件包含电子表格数据，但没有任何格式。这与制表符分隔文件相同，其中数据按行和列排列，就像在表格和电子表格中一样。
+制表符分隔值(TSV)文件包含电子表格数据但没有任何格式。它与制表符分隔文件类似，数据按行和列排列，就像表和电子表格中一样。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpenTSVFile.py" >}}
 
-### **打开 SXC 文件**
+### **打开SXC文件**
 
-StarSuite Calc 类似于 Microsoft Excel，支持公式、图表、函数和宏。使用此软件创建的电子表格以 SXC 扩展名保存。 SXC 文件也用于 OpenOffice.org Calc 电子表格文件。 Aspose.Cells 可以读取 SXC 文件，如以下代码示例所示。
+StarOffice Calc类似于Microsoft Excel，并支持公式、图表、函数和宏。使用此软件创建的电子表格以SXC扩展名保存。SXC文件也用于OpenOffice.org Calc电子表格文件。Aspose.Cells可以读取SXC文件，示例代码如下。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpenSXCFile.py" >}}
 
-### **打开 FODS 文件**
+### **打开FODS文件**
 
-FODS 文件是以 OpenDocument XML 格式保存的电子表格，没有任何压缩。 Aspose.Cells 可以读取 FODS 文件，如以下代码示例所示。
+FODS文件是保存在OpenDocument XML中的电子表格文件，没有任何压缩。Aspose.Cells可以读取FODS文件，示例代码如下。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpenFODSFile.py" >}}

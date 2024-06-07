@@ -1,21 +1,22 @@
-﻿---
-title: 将选定的图表项呈现为 Excel 图表
+---
+title: 将选定的图表项目呈现到 Excel 图表中
 type: docs
 weight: 30
 url: /zh/reportingservices/render-selected-chart-items-to-excel-charts/
 ---
+
 {{% alert color="primary" %}} 
 
-要仅将报表中的某些图表呈现为 Excel 图表：
+只将报告中的一些图表呈现到 Excel 图表中:
 
-1. 打开**Aspose.Cells.ReportingServices.xml**文件。
-1. 修改配置参数**Aspose.Cells.ReportingServices.xml**文件。
+1. 打开 **Aspose.Cells.ReportingServices.xml** 文件。
+1. 修改 **Aspose.Cells.ReportingServices.xml** 文件的配置参数。
 1. 添加所需的报告配置信息。
-1. 添加您不想导出为可编辑图表的图表项目的信息。这些项目导出为静态图像。
+1. 添加您不希望导出为可编辑图表的图表项目信息。这些项目将作为静态图像导出。
 
-例如：
+例如:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Chart >
 
@@ -29,12 +30,12 @@ url: /zh/reportingservices/render-selected-chart-items-to-excel-charts/
 
 {{< /highlight >}}
 
-**导出为图像的图表** 
+**作为图片导出的图表** 
 
-![待办事项：图片_替代_文本](render-selected-chart-items-to-excel-charts_1.png)
+![todo:image_alt_text](render-selected-chart-items-to-excel-charts_1.png)
 
-**导出为可编辑 Excel 图表的图表** 
+**作为可编辑 Excel 图表导出的图表** 
 
-![待办事项：图片_替代_文本](render-selected-chart-items-to-excel-charts_2.png)
+![todo:image_alt_text](render-selected-chart-items-to-excel-charts_2.png)
 
 {{% /alert %}}

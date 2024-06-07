@@ -1,29 +1,30 @@
 ---
-title: 如何修复 java.lang.ClassNotFoundException
+title: 修复java.lang.ClassNotFoundException的方法
 type: docs
 weight: 30
 url: /zh/java/how-to-fix-java-lang-classnotfoundexception/ 
-description: 了解如何修复 Aspose.Cells for Java 中的 java.lang.ClassNotFoundException。
-keywords: How to fix BouncyCastleProvider ClassNotFoundException in Java, Solve BouncyCastleProvider exception using Java, Java solve ClassNotFoundException BouncyCastleProvider.
+description: 学习如何在Aspose.Cells for Java中修复java.lang.ClassNotFoundException。
+keywords: 如何修复Java中的BouncyCastleProvider ClassNotFoundException，使用Java解决BouncyCastleProvider异常，Java解决ClassNotFoundException BouncyCastleProvider。
 ---
-Aspose.Cells for Java API 依赖于一些额外的库，如果缺少这些库，可能会抛出“java.lang.ClassNotFoundException”异常。
-本文列出了此类异常，并解释了安装哪些库来解决这些异常。
 
-## 如何修复 ClassNotFoundException：org.bouncycastle.jce.provider.BouncyCastleProvider
-###  **概括**
-Aspose.Cells for Java API 依赖于 Bouncy Castle 进行加密和解密功能，即如果程序需要加载或保存加密电子表格，则需要在项目的类路径中添加 bcprov-jdk16-146.jar 的引用。
-###  **症状**
-您可能会收到 java.lang.ClassNotFoundException: org.bouncycastle.jce.provider.BouncyCastleProvider。
-###  **解决方案**
-解决方案实际上非常简单，如下详述。
+Aspose.Cells for Java API依赖于一些附加库，如果缺少这些库，则可能抛出“java.lang.ClassNotFoundException”异常。
+本文列出了此类异常并解释了安装哪些库以解决它们。
 
-1. 下载任何主要版本[Aspose.Cells for Java](https://downloads.aspose.com/cells/java).
-1. 解压下载的存档并浏览到 \JDK 1.6\aspose-cells-xx0-java\lib 目录。
-1. 引用项目类路径下的bcprov-jdk16-146.jar。
+如何修复ClassNotFoundException: org.bouncycastle.jce.provider.BouncyCastleProvider
+### **摘要**
+Aspose.Cells for Java API依赖于Bouncy Castle进行加密和解密功能。因此，如果程序需要加载或保存加密的电子表格，则需要在项目的类路径中添加bcprov-jdk16-146.jar的引用。
+### **症状**
+您可能会遇到java.lang.ClassNotFoundException: org.bouncycastle.jce.provider.BouncyCastleProvider。 
+### **解决方案**
+解决方案非常简单，如下所述。
 
-或者，您可以在 pom.xml 中添加依赖项，并让项目通过 maven 解析依赖项。
+1.下载任何主要版本的[Aspose.Cells for Java](https://downloads.aspose.com/cells/java)。
+1.提取下载的归档文件并浏览到\JDK 1.6\aspose-cells-x.x.0-java\lib目录。
+1.在项目的类路径中引用bcprov-jdk16-146.jar。
 
-{{< highlight "java" >}}
+或者，您可以在pom.xml中添加依赖项，并让项目通过maven解析依赖项。
+
+{{< highlight java >}}
 
  <dependencies>
 

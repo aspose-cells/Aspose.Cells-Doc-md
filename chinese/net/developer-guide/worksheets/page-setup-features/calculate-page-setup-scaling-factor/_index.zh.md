@@ -1,17 +1,18 @@
 ---
-title: 计算页面设置比例因子
+title: 计算页面设置缩放系数
 type: docs
 weight: 300
 url: /zh/net/calculate-page-setup-scaling-factor/
-description: 本文提供示例代码，说明如何使用 C# API 或 .NET 库以编程方式使用 Excel 工作表的适合 n 页宽乘 m 高选项计算页面设置比例因子。
-keywords: Fit to n page wide by m tall excel c#, calculate page setup scaling factor c#
+description: 本文提供了样本代码，解释如何使用C# API或.NET库以编程方式计算Excel工作表的页面设置缩放系数，使用Fit to n页横向，m页纵向选项。
+keywords: Fit to n页面横向，m页面纵向Excel c#，计算页面设置缩放因子c#
 ---
+
 {{% alert color="primary" %}}
 
-当您使用设置页面设置缩放时**适合 n 页宽乘以 m 高**选项，Microsoft Excel 计算页面设置比例因子。您可以使用计算相同的东西[**SheetRender.PageScale**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/properties/pagescale)财产。此属性返回一个可以转换为百分比值的双精度值。例如，如果它返回 0.5，则表示比例因子为 50%。
+当您使用**Fit to n页横向，m页纵向**选项设置页面设置缩放时，Microsoft Excel会计算页面设置缩放因子。使用[**SheetRender.PageScale**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/properties/pagescale)属性可以计算相同的值。该属性返回一个double值，可将其转换为百分比值。例如，如果返回0.5，则表示缩放因子为50%。
 
 {{% /alert %}}
 
-以下示例代码说明了如何使用计算页面设置比例因子[**SheetRender.PageScale**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/properties/pagescale)财产。
+以下示例代码说明了如何使用[**SheetRender.PageScale**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/properties/pagescale)属性计算页面设置缩放因子。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-CalculateScalingFactor-CalculatePageSetupScalingFactor.cs" >}}

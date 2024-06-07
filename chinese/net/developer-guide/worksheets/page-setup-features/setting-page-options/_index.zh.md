@@ -3,189 +3,190 @@ title: 设置页面选项
 type: docs
 weight: 10
 url: /zh/net/setting-page-options/
-description: 本文提供示例代码以使用 C# API 和 .NET 库以编程方式设置 Excel 工作表的页面选项。您将能够设置页面方向、比例因子、FitToPages 选项、纸张尺寸、打印质量、首页页码。
-keywords: set excel page orientation c#, set excel scaling factor c#, set excel worksheets paper size c#
+description: 本文提供了使用C# API和.NET库以编程方式设置Excel工作表的页面选项的示例代码。您将能够设置页面方向、缩放因子、FitToPages选项、纸张大小、打印质量、第一页编号等。
+keywords: 设置Excel页面方向C#，设置Excel缩放系数C#，设置Excel工作表纸张大小C#
 ---
+
 {{% alert color="primary" %}}
 
-有时，需要为工作表配置页面设置以控制打印。这些页面设置设置提供了各种选项。
+有时，需要为工作表配置页面设置以控制打印。这些页面设置提供各种选项。
 
 {{% /alert %}}
 
-##  **设置页面选项**
+## **设置页面选项**
 
-Aspose.Cells 完全支持页面设置选项。本文介绍了如何使用 Aspose.Cells 设置页面选项，并显示了用于设置的代码示例：
+Aspose.Cells在页面设置选项方面提供了全面支持。本文解释了如何使用Aspose.Cells设置页面选项，并展示了设置页面选项的代码示例：
 
- Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)，代表一个 Microsoft Excel 文件。这[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类包含一个[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)允许访问 Excel 文件中每个工作表的集合。工作表由[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)班级。
+Aspose.Cells提供一个代表Microsoft Excel文件的[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类。[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类包含了一个[**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)集合，允许访问Excel文件中的每个工作表。一个工作表由[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类表示。
 
-这[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类提供了[**页面设置**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)用于设置工作表页面设置选项的属性。事实上，这[**页面设置**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)属性是[**页面设置**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)用于为打印工作表设置不同页面布局选项的类。这[**页面设置**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)类提供用于设置页面设置选项的各种属性。下面讨论其中一些特性。
+[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类提供了[**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)属性，用于设置工作表的页面设置选项。实际上，这个[**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)属性是[**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)类的对象，用于设置打印工作表的不同页面布局选项。[**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)类提供了用于设置页面设置选项的各种属性。以下讨论了其中一些属性。
 
-###  **页面方向**
+### **页面方向**
 
-页面方向可以设置为纵向或横向使用[**页面设置**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)班级'[**方向**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation)财产。这[**方向**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation)属性接受中的预定义值之一[**页面方向类型**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype)枚举，如下所示。
+可以使用[**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)类的[**Orientation**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation)属性将页面方向设置为纵向或横向。[**Orientation**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation)属性接受以下[**PageOrientationType**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype)枚举中预定义的值之一。
 
 |**页面方向类型**|**描述**|
 | :- | :- |
-|景观|横向|
-|肖像|纵向|
+|Landscape|横向方向|
+|Portrait|纵向方向|
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-PageOrientation-1.cs" >}}
 
-###  **比例因子**
+### **缩放因子**
 
-可以通过调整比例因子来缩小或放大工作表的大小[**页面设置.缩放**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/zoom)财产。
+通过调整[**PageSetup.Zoom**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/zoom)属性来缩小或放大工作表的大小是可能的。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-ScalingFactor-1.cs" >}}
 
-###  **FitToPages 选项**
+### **适应页面选项**
 
-要使工作表的内容适合特定页数，请使用[**页面设置**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)班级'[**适合页面高**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall)和[**适合页面宽度**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)特性。这些属性还用于缩放工作表。
+要将工作表内容适应特定数量的页面，使用[**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) 类的[**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) 和[**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide) 属性。这些属性也用于缩放工作表。
 
 {{% alert color="primary" %}}
 
-您可以选择[**适合页面高**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall)/[**适合页面宽度**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)或者[**飞涨**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/zoom)财产，但不能同时拥有。
+您可以选择[**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall)/[**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide) 或[**Zoom**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/zoom)属性，但不能同时使用两者。
 
 {{% /alert %}}
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-FitToPagesOptions-1.cs" >}}
 
-###  **纸张尺寸**
+### **纸张大小**
 
-使用[**页面设置**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)班级'[**纸张大小**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize)财产。这[**纸张大小**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize)属性接受中的预定义值之一[**纸张大小类型**](https://reference.aspose.com/cells/net/aspose.cells/papersizetype)枚举，如下所示。
+使用[**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)类的[**PaperSize**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize)属性设置工作表将打印到的纸张大小。[**PaperSize**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize)属性接受以下[**PaperSizeType**](https://reference.aspose.com/cells/net/aspose.cells/papersizetype)枚举中预定义的值之一。
 
-|**纸张尺寸类型**|**描述**|
+|**纸张大小类型**|**描述**|
 | :- | :- |
-|纸信|信纸（8-1/2 英寸 x 11 英寸）|
-|纸信小号|Letter Small（8-1/2 英寸 x 11 英寸）|
-|纸质小报|小报（11 英寸 x 17 英寸）|
-|纸账本|分类帐（17 英寸 x 11 英寸）|
-|纸质法律|合法（8-1/2 英寸 x 14 英寸）|
-|纸质结单|报表（5-1/2 英寸 x 8-1/2 英寸）|
-|纸行政|行政（7-1/4 英寸 x 10-1/2 英寸）|
-|试卷A3|A3（297 毫米 x 420 毫米）|
-|纸A4|A4（210 毫米 x 297 毫米）|
-|纸A4小|A4 小（210 毫米 x 297 毫米）|
-|试卷A5|A5（148 毫米 x 210 毫米）|
-|试卷B4|JIS B4（257 毫米 x 364 毫米）|
-|试卷B5|JIS B5（182 毫米 x 257 毫米）|
-|对开纸|对开本（8-1/2 英寸 x 13 英寸）|
-|纸质四开本|四开本（215 毫米 x 275 毫米）|
-|纸 10x14|10 英寸 x 14 英寸|
-|纸 11x17|11 英寸 x 17 英寸|
-|纸笔记|注（8-1/2 英寸 x 11 英寸）|
-|纸信封9|9 号信封（3-7/8 英寸 x 8-7/8 英寸）|
-|纸信封10|10 号信封（4-1/8 英寸 x 9-1/2 英寸）|
-|纸信封11|11 号信封（4-1/2 英寸 x 10-3/8 英寸）|
-|纸信封12|12 号信封（4-1/2 英寸 x 11 英寸）|
-|纸信封14|14 号信封（5 英寸 x 11-1/2 英寸）|
-|纸片|C尺寸床单|
-|纸D表|D尺寸床单|
-|纸电子表|E尺寸床单|
-|纸质信封DL|信封 DL（110 毫米 x 220 毫米）|
-|纸质信封C5|信封 C5（162 毫米 x 229 毫米）|
-|纸质信封C3|信封 C3（324 毫米 x 458 毫米）|
-|纸质信封C4|信封 C4（229 毫米 x 324 毫米）|
-|纸质信封C6|信封 C6（114 毫米 x 162 毫米）|
-|纸质信封C65|信封 C65（114 毫米 x 229 毫米）|
-|纸质信封B4|信封 B4（250 毫米 x 353 毫米|
-|纸质信封B5|信封 B5（176 毫米 x 250 毫米）|
-|纸质信封B6|信封 B6（176 毫米 x 125 毫米）|
-|纸信封意大利|意大利信封（110 毫米 x 230 毫米）|
-|纸信封君主|Monarch 信封（3-7/8 英寸 x 7-1/2 英寸）|
-|纸质信封个人|信封（3-5/8 英寸 x 6-1/2 英寸）|
-|纸质折页美国|美国标准折叠式（14-7/8 英寸 x 11 英寸）|
-|PaperFanfoldStd德语|德国标准对折（8-1/2 英寸 x 12 英寸）|
-|PaperFanfoldLegal德语|德国 Legal 对折（8-1/2 英寸 x 13 英寸）|
-|纸质ISOB4|B4 (ISO) 250 x 353 毫米|
-|纸日本明信片|日本明信片 (100mm x 148mm)|
-|纸9x11|9 英寸 x 11 英寸|
-|纸10x11|10 英寸 x 11 英寸|
-|纸15x11|15 英寸 x 11 英寸|
-|纸质信封请柬|信封请柬(220mm x 220mm)|
-|纸信特|US Letter Extra 9 \275 x 12 英寸|
-|PaperLegalExtra|US Legal Extra 9 \275 x 15 英寸|
-|PaperTabloidExtra|美国小报 11.69 x 18 英寸|
-|纸A4特|A4 特大 9.27 x 12.69 英寸|
-|纸信横版|Letter 横向 8 \275 x 11 英寸|
-|纸A4横向|A4 横向 210 x 297 毫米|
-|纸信超横向|Letter Extra Transverse 9\275 x 12 英寸|
-|纸超A|SuperA/SuperA/A4 227 x 356 毫米|
-|纸超级B|SuperB/SuperB/A3 305 x 487 毫米|
-|纸信加号|US Letter Plus 8.5 x 12.69 英寸|
-|纸A4Plus|A4 加 210 x 330 毫米|
-|纸A5横向|A5 横向 148 x 210 毫米|
-|纸JISB5横向|B5 (JIS) 横向 182 x 257 毫米|
-|纸A3特|A3 超大 322 x 445 毫米|
-|纸A5特|A5 超大 174 x 235 毫米|
-|纸张ISOB5特级|B5 (ISO) 额外 201 x 276 毫米|
-|试卷A2|A2 420 x 594 毫米|
-|纸A3横向|A3 横向 297 x 420 毫米|
-|纸A3超横向|A3 超横向 322 x 445 毫米|
-|纸日本双面明信片|日本双面明信片 200 x 148 毫米|
-|试卷A6|A6 105 x 148 毫米|
-|纸日本信封卡库 2|日本信封 Kaku #2|
-|纸日本信封角 3|日本信封 Kaku #3|
-|纸日本信封Chou3|日本信封周 #3|
-|纸日本信封Chou4|日本信封周 #4|
-|纸质字母旋转|11 英寸 x 8.5 英寸|
-|纸A3旋转|420 毫米 x 297 毫米|
-|纸A4旋转|297 毫米 x 210 毫米|
-|纸A5旋转|210 毫米 x 148 毫米|
-|纸质JISB4旋转|B4 (JIS) 旋转 364 x 257 毫米|
-|纸质JISB5旋转|B5 (JIS) 旋转 257 x 182 毫米|
-|纸日本明信片旋转|日本明信片旋转 148 x 100 毫米|
-|纸日本双面明信片旋转|双面日本明信片旋转 148 x 200 毫米|
-|纸A6旋转|A6 旋转 148 x 105 毫米|
-|纸日本信封 Kaku2 旋转|日本信封 Kaku #2 旋转|
-|纸日本信封 Kaku3 旋转|日本信封 Kaku #3 旋转|
-|纸日本信封周 3 旋转|日本信封周 #3 旋转|
-|纸日本信封周 4 旋转|日本信封周 #4 旋转|
-|纸质JISB6|B6 (日本工业标准) 128 x 182 毫米|
-|纸质JISB6旋转|B6 (JIS) 旋转 182 x 128 毫米|
-|纸12x11|12 x 11 英寸|
-|纸日本信封You4|日本信封你 #4|
-|纸日本信封You4Rotated|日本信封 You #4 旋转|
-|纸PRC16K|中国 16K 146 x 215 毫米|
-|纸PRC32K|中国 32K 97 x 151 毫米|
-|论文PRCBig32K|PRC 32K（大）97 x 151 毫米|
-|纸PRC信封1|PRC 信封 #1 102 x 165 毫米|
-|纸PRC信封2|PRC 信封 #2 102 x 176 毫米|
-|纸PRC信封3|PRC 信封 #3 125 x 176 毫米|
-|纸PRC信封4|PRC 信封 #4 110 x 208 毫米|
-|纸PRC信封5|PRC 信封 #5 110 x 220 毫米|
-|纸PRC信封6|PRC 信封 #6 120 x 230 毫米|
-|纸PRC信封7|PRC 信封 #7 160 x 230 毫米|
-|纸PRC信封8|PRC 信封 #8 120 x 309 毫米|
-|纸PRC信封9|PRC 信封 #9 229 x 324 毫米|
-|纸PRC信封10|PRC 信封 #10 324 x 458 毫米|
-|纸PRC16K旋转|PRC 16K 旋转|
-|纸PRC32K旋转|PRC 32K 旋转|
-|纸PRCBig32KRotated|PRC 32K(大)旋转|
-|纸PRC信封1旋转|PRC 信封 #1 旋转 165 x 102 毫米|
-|纸PRC信封2旋转|PRC 信封 #2 旋转 176 x 102 毫米|
-|纸PRC信封3旋转|PRC 信封 #3 旋转 176 x 125 毫米|
-|纸PRC信封4旋转|PRC 信封 #4 旋转 208 x 110 毫米|
-|纸PRC信封5旋转|PRC 信封 #5 旋转 220 x 110 毫米|
-|纸PRC信封6旋转|PRC 信封 #6 旋转 230 x 120 毫米|
-|纸PRC信封7旋转|PRC 信封 #7 旋转 230 x 160 毫米|
-|纸PRC信封8旋转|PRC 信封 #8 旋转 309 x 120 毫米|
-|纸PRC信封9旋转|PRC 信封 #9 旋转 324 x 229 毫米|
-|纸PRC信封10旋转|PRC 信封 #10 旋转 458 x 324 毫米|
-|试卷B3|通常 B3（13.9 x 19.7 英寸）|
-|纸质名片|名片(90mm x 55mm)|
-|热敏纸|热量（3 x 11 英寸）|
-|风俗|表示自定义纸张尺寸。|
+|PaperLetter|Letter (8-1/2 in. x 11 in.)|
+|PaperLetterSmall|Letter Small (8-1/2 in. x 11 in.)|
+|PaperTabloid|Tabloid (11 in. x 17 in.)|
+|PaperLedger|Ledger (17 in. x 11 in.)|
+|PaperLegal|Legal (8-1/2 in. x 14 in.)|
+|PaperStatement|Statement (5-1/2 in. x 8-1/2 in.)|
+|PaperExecutive|Executive (7-1/4 in. x 10-1/2 in.)|
+|PaperA3|A3 (297 mm x 420 mm)|
+|PaperA4|A4 (210 mm x 297 mm)|
+|PaperA4Small|A4 Small (210 mm x 297 mm)|
+|PaperA5|A5 (148 mm x 210 mm)|
+|PaperB4|JIS B4 (257 mm x 364 mm)|
+|PaperB5|JIS B5 (182 mm x 257 mm)|
+|PaperFolio|Folio (8-1/2 in. x 13 in.)|
+|PaperQuarto|Quarto (215 mm x 275 mm)|
+|Paper10x14|10 in. x 14 in.|
+|Paper11x17|11 in. x 17 in.|
+|PaperNote|Note (8-1/2 in. x 11 in.)|
+|PaperEnvelope9|Envelope #9 (3-7/8 in. x 8-7/8 in.)|
+|PaperEnvelope10|Envelope #10 (4-1/8 in. x 9-1/2 in.)|
+|PaperEnvelope11|Envelope #11 (4-1/2 in. x 10-3/8 in.)|
+|PaperEnvelope12|Envelope #12 (4-1/2 in. x 11 in.)|
+|PaperEnvelope14|Envelope #14 (5 in. x 11-1/2 in.)|
+|PaperCSheet|C size sheet|
+|PaperDSheet|D size sheet|
+|PaperESheet|E size sheet|
+|PaperEnvelopeDL|Envelope DL (110 mm x 220 mm)|
+|PaperEnvelopeC5|Envelope C5 (162 mm x 229 mm)|
+|PaperEnvelopeC3|Envelope C3 (324 mm x 458 mm)|
+|PaperEnvelopeC4|Envelope C4 (229 mm x 324 mm)|
+|PaperEnvelopeC6 |Envelope C6 (114 mm x 162 mm)|
+|PaperEnvelopeC65|Envelope C65 (114 mm x 229 mm)|
+|PaperEnvelopeB4|Envelope B4 (250 mm x 353 mm|
+|PaperEnvelopeB5|Envelope B5 (176 mm x 250 mm)|
+|PaperEnvelopeB6|Envelope B6 (176 mm x 125 mm)|
+|PaperEnvelopeItaly|Envelope Italy (110 mm x 230 mm)|
+|PaperEnvelopeMonarch|Envelope Monarch (3-7/8 in. x 7-1/2 in.)|
+|PaperEnvelopePersonal|Envelope (3-5/8 in. x 6-1/2 in.)|
+|PaperFanfoldUS|U.S. Standard Fanfold (14-7/8 in. x 11 in.)|
+|PaperFanfoldStdGerman|German Standard Fanfold (8-1/2 in. x 12 in.)|
+|PaperFanfoldLegalGerman|German Legal Fanfold (8-1/2 in. x 13 in.)|
+|PaperISOB4|B4 (ISO) 250 x 353 mm|
+|PaperJapanesePostcard|Japanese Postcard (100mm x 148mm)|
+|Paper9x11|9 in. x 11 in.|
+|Paper10x11|10 in. x 11 in.|
+|Paper15x11|15 in. x 11 in.|
+|PaperEnvelopeInvite|Envelope Invite(220mm x 220mm)|
+|PaperLetterExtra|US Letter Extra 9 \275 x 12 in|
+|PaperLegalExtra|US Legal Extra 9 \275 x 15 in|
+|PaperTabloidExtra|US Tabloid Extra 11.69 x 18 in|
+|PaperA4Extra|A4 Extra 9.27 x 12.69 in|
+|PaperLetterTransverse|Letter Transverse 8 \275 x 11 in|
+|PaperA4Transverse|A4 Transverse 210 x 297 mm|
+|PaperLetterExtraTransverse|Letter Extra Transverse 9\275 x 12 in|
+|PaperSuperA|SuperA/SuperA/A4 227 x 356 mm|
+|PaperSuperB|SuperB/SuperB/A3 305 x 487 mm|
+|PaperLetterPlus|US Letter Plus 8.5 x 12.69 in|
+|PaperA4Plus|A4 Plus 210 x 330 mm|
+|PaperA5Transverse|A5 Transverse 148 x 210 mm|
+|PaperJISB5Transverse|B5 (JIS) Transverse 182 x 257 mm|
+|PaperA3Extra|A3 Extra 322 x 445 mm|
+|PaperA5Extra|A5 Extra 174 x 235 mm|
+|PaperISOB5Extra|B5 (ISO) Extra 201 x 276 mm|
+|PaperA2|A2 420 x 594 mm|
+|PaperA3Transverse|A3 Transverse 297 x 420 mm|
+|PaperA3ExtraTransverse|A3 Extra Transverse 322 x 445 mm|
+|PaperJapaneseDoublePostcard|Japanese Double Postcard 200 x 148 mm|
+|PaperA6|A6 105 x 148 mm|
+|PaperJapaneseEnvelopeKaku2|Japanese Envelope Kaku #2|
+|PaperJapaneseEnvelopeKaku3|Japanese Envelope Kaku #3|
+|PaperJapaneseEnvelopeChou3|Japanese Envelope Chou #3|
+|PaperJapaneseEnvelopeChou4|Japanese Envelope Chou #4|
+|PaperLetterRotated|11in x 8.5in|
+|PaperA3Rotated|420mm x 297mm|
+|PaperA4Rotated|297mm x 210mm|
+|PaperA5Rotated|210mm x 148mm|
+|PaperJISB4Rotated|B4 (JIS) Rotated 364 x 257 mm|
+|PaperJISB5Rotated|B5 (JIS) Rotated 257 x 182 mm|
+|PaperJapanesePostcardRotated|Japanese Postcard Rotated 148 x 100 mm|
+|PaperJapaneseDoublePostcardRotated|Double Japanese Postcard Rotated 148 x 200 mm|
+|PaperA6Rotated|A6 Rotated 148 x 105 mm|
+|PaperJapaneseEnvelopeKaku2Rotated|Japanese Envelope Kaku #2 Rotated|
+|PaperJapaneseEnvelopeKaku3Rotated|Japanese Envelope Kaku #3 Rotated|
+|PaperJapaneseEnvelopeChou3Rotated|Japanese Envelope Chou #3 Rotated|
+|PaperJapaneseEnvelopeChou4Rotated|Japanese Envelope Chou #4 Rotated|
+|PaperJISB6|B6 (JIS) 128 x 182 mm|
+|PaperJISB6Rotated|B6 (JIS) Rotated 182 x 128 mm|
+|Paper12x11|12 x 11 in|
+|PaperJapaneseEnvelopeYou4|Japanese Envelope You #4|
+|PaperJapaneseEnvelopeYou4Rotated|Japanese Envelope You #4 Rotated|
+|PaperPRC16K|PRC 16K 146 x 215 mm|
+|PaperPRC32K|PRC 32K 97 x 151 mm|
+|PaperPRCBig32K|PRC 32K(Big) 97 x 151 mm|
+|PaperPRCEnvelope1|PRC Envelope #1 102 x 165 mm|
+|PaperPRCEnvelope2|PRC Envelope #2 102 x 176 mm|
+|PaperPRCEnvelope3|PRC Envelope #3 125 x 176 mm|
+|PaperPRCEnvelope4|PRC Envelope #4 110 x 208 mm|
+|PaperPRCEnvelope5|PRC Envelope #5 110 x 220 mm|
+|PaperPRCEnvelope6|PRC Envelope #6 120 x 230 mm|
+|PaperPRCEnvelope7|PRC Envelope #7 160 x 230 mm|
+|PaperPRCEnvelope8|PRC Envelope #8 120 x 309 mm|
+|PaperPRCEnvelope9|PRC Envelope #9 229 x 324 mm|
+|PaperPRCEnvelope10|PRC Envelope #10 324 x 458 mm|
+|PaperPRC16KRotated|PRC 16K Rotated|
+|PaperPRC32KRotated|PRC 32K Rotated|
+|PaperPRCBig32KRotated|PRC 32K(Big) Rotated|
+|PaperPRCEnvelope1Rotated|PRC Envelope #1 Rotated 165 x 102 mm|
+|PaperPRCEnvelope2Rotated|PRC Envelope #2 Rotated 176 x 102 mm|
+|PaperPRCEnvelope3Rotated|PRC Envelope #3 Rotated 176 x 125 mm|
+|PaperPRCEnvelope4Rotated|PRC Envelope #4 Rotated 208 x 110 mm|
+|PaperPRCEnvelope5Rotated|PRC Envelope #5 Rotated 220 x 110 mm|
+|PaperPRCEnvelope6Rotated|PRC Envelope #6 Rotated 230 x 120 mm|
+|PaperPRCEnvelope7Rotated|PRC Envelope #7 Rotated 230 x 160 mm|
+|PaperPRCEnvelope8Rotated|PRC Envelope #8 Rotated 309 x 120 mm|
+|PaperPRCEnvelope9Rotated|PRC Envelope #9 Rotated 324 x 229 mm|
+|PaperPRCEnvelope10Rotated|PRC Envelope #10 Rotated 458 x 324 mm|
+|PaperB3|usual B3(13.9 x 19.7 in)|
+|PaperBusinessCard|Business Card(90mm x 55 mm)|
+|PaperThermal|Thermal(3 x 11 in)|
+|Custom|Represents the custom paper size.|
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-ManagePaperSize-1.cs" >}}
 
-###  **打印质量**
+### **打印质量**
 
-设置要打印的工作表的打印质量[**页面设置**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)班级'[**打印质量**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printquality)财产。打印质量的测量单位是每英寸点数 (DPI)。
+将要打印的工作表的打印质量设置为 [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) 类别的 [**PrintQuality**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printquality) 属性。打印质量的测量单位是每英寸的点数 (DPI)。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintQuality-1.cs" >}}
 
-###  **第一页码**
+### **第一页页码**
 
-使用开始工作表页面编号[**页面设置**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)班级'[**首页编号**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber)财产。这[**首页编号**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber)属性设置第一个工作表页的页码，下一页按升序编号。
+使用 [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) 类别的 [**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) 属性开始编号工作表页。[**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) 属性设置第一个工作表页的页码，接下来的页按升序编号。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetFirstPageNumber-1.cs" >}}

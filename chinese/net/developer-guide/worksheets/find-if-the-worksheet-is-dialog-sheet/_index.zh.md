@@ -1,30 +1,31 @@
 ---
-title: 查找工作表是否为对话框表
+title: 查找工作表是否为对话框工作表
 type: docs
 weight: 90
 url: /zh/net/find-if-the-worksheet-is-dialog-sheet/
-description: 对话框表是一种旧格式的表。本文提供了使用 C# API 或 .NET 库以编程方式确定 Excel 工作表是否为对话框工作表的说明和示例代码。
-keywords: find excel worksheet dialog type c#, worksheet dialog c#
+description: 对话框工作表是表的旧格式。本文提供了使用C# API或.NET库来确定Excel工作表是否为对话框工作表的指令和示例代码。
+keywords: 查找Excel工作表对话框类型C#，工作表对话框C#
 ---
-##  **可能的使用场景**
 
-对话框工作表是一种包含对话框的旧工作表格式。此类工作表可以由旧版本的 Microsoft Excel（例如 2003）插入，如屏幕截图所示。它也可以在较新版本中使用 VBA 插入，例如 Microsoft Excel 2016。
+## **可能的使用场景**
 
-![待办事项：image_alt_text](find-if-the-worksheet-is-dialog-sheet_1.png)
+对话框工作表是表的旧格式，其中包含对话框框。例如，由较旧版本的Microsoft Excel（如2003）插入的此表如下图所示。它还可以在更新版本（如Microsoft Excel 2016）中使用VBA插入。
 
-您可以找到工作表是对话框工作表还是其他类型的工作表[**工作表.类型**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/type)Aspose.Cells提供的属性，如果返回枚举值[**图纸类型.Dialog**](https://reference.aspose.com/cells/net/aspose.cells/sheettype)，那么这意味着，你正在处理对话框表。
+![todo:image_alt_text](find-if-the-worksheet-is-dialog-sheet_1.png)
 
-##  **查找工作表是否为对话框表**
+您可以使用Aspose.Cells提供的[**Worksheet.Type**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/type)属性找出表是对话框表还是其他类型的表。如果它返回枚举值[**SheetType.Dialog**](https://reference.aspose.com/cells/net/aspose.cells/sheettype)，则表示您正在处理对话框表。
 
-下面的示例代码加载[示例 Excel 文件](64716820.xlsx)包含一个对话框表。它检查[**工作表.类型**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/type)财产比较它[**图纸类型.Dialog**](https://reference.aspose.com/cells/net/aspose.cells/sheettype)然后打印消息。请查看下面给出的示例代码的控制台输出以获得更多帮助。
+## **查找工作表是否为对话框工作表**
 
-##  **示例代码**
+以下示例代码加载了包含对话框工作表的示例Excel文件。它检查[**Worksheet.Type**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/type)属性并将其与[**SheetType.Dialog**](https://reference.aspose.com/cells/net/aspose.cells/sheettype)进行比较，然后输出消息。有关更多帮助，请参阅给出的示例代码的控制台输出。
+
+## **示例代码**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Worksheets-FindIfWorksheetIsDialogSheet.cs" >}}
 
-##  **控制台输出**
+## **控制台输出**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Worksheet is a Dialog Sheet.
 

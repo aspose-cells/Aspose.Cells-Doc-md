@@ -1,34 +1,35 @@
-﻿---
-title: 公共 API Aspose.Cells 8.8.3 的变化
+---
+title: Aspose.Cells 8.8.3中的公共API变更
 type: docs
 weight: 300
 url: /zh/java/public-api-changes-in-aspose-cells-8-8-3/
 ---
+
 {{% alert color="primary" %}} 
 
-本文档描述了 Aspose.Cells API 从版本 8.8.2 到 8.8.3 的变化，模块/应用程序开发人员可能会感兴趣。它不仅包括新的和更新的公共方法、添加和删除的类等，还包括对 Aspose.Cells 中幕后行为的任何更改的描述。
+本文档描述了自8.8.2版本中Aspose.Cells API到8.8.3版本的变化，可能对模块/应用程序开发人员感兴趣。它不仅包括新的和更新的公共方法、添加和删除的类等，还包括任何Aspose.Cells内部行为变化的描述。
 
 {{% /alert %}} 
-## **添加的 API**
-### **支持 ActiveX 控件**
-Aspose.Cells for Java 8.8.3 公开了允许将 ActiveX 控件添加到 ShapeCollection 的 addActiveXControl 方法。上述方法需要7个参数来指定控件的类型、放置控件的位置和控件的大小。可以使用具有以下可能值的 ControlType 枚举来指定类型。
+## **已添加API**
+### **对ActiveX控件的支持**
+Aspose.Cells for Java 8.8.3已公开addActiveXControl方法，允许向ShapeCollection添加ActiveX控件。 该方法需要7个参数以指定控件类型、放置控件的位置和控件的大小。 类型可以使用ControlType枚举来指定，其可能值如下。
 
-1. 控件类型.CHECK_BOX
-1. 控件类型.COMBO_BOX
-1. 控制类型.COMMAND_BUTTON
-1. 控件类型.IMAGE
-1. 控件类型.LABEL
-1. 控件类型.LIST_BOX
-1. 控制类型.RADIO_BUTTON
-1. 控件类型.SCROLL_BAR
-1. 控件类型.SPIN_BUTTON
-1. 控件类型.TEXT_BOX
-1. 控件类型.TOGGLE_BUTTON
-1. 控件类型.UNKNOWN
+1. ControlType.CHECK_BOX
+1. ControlType.COMBO_BOX
+1. ControlType.COMMAND_BUTTON
+1. ControlType.IMAGE
+1. ControlType.LABEL
+1. ControlType.LIST_BOX
+1. ControlType.RADIO_BUTTON
+1. ControlType.SCROLL_BAR
+1. ControlType.SPIN_BUTTON
+1. ControlType.TEXT_BOX
+1. ControlType.TOGGLE_BUTTON
+1. ControlType.UNKNOWN
 
 {{% alert color="primary" %}} 
 
-有关此功能的更多详细信息，请查看详细文章[将 ActiveX 控件添加到工作表](/cells/zh/java/add-activex-controls-using-aspose-cells/).
+要了解更多关于此功能的详情，请查看[向工作表添加 ActiveX 控件](/cells/zh/java/add-activex-controls-using-aspose-cells/)上的详细文章。
 
 {{% /alert %}} 
 
@@ -36,7 +37,7 @@ Aspose.Cells for Java 8.8.3 公开了允许将 ActiveX 控件添加到 ShapeColl
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -61,12 +62,12 @@ control.setLinkedCell("A1");
 book.save(dir + "output.xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
-### **添加了 LoadOptions.setPaperSize 方法**
-Aspose.Cells for Java 8.8.3 允许在使用新公开的 LoadOptions.setPaperSize 方法时从默认打印机设置设置默认打印纸张尺寸，如下所示。请注意，上述方法的输入参数是来自包含预定义纸张尺寸的 PaperSizeType 枚举的值。
+### **新增 LoadOptions.setPaperSize 方法**
+使用 Aspose.Cells for Java 8.8.3 可以在使用新公开的 LoadOptions.setPaperSize 方法时，设置默认打印纸张大小为默认打印机设置的值。请注意，上述方法的输入参数是 PaperSizeType 枚举中包含的预定义纸张大小的值。
 
 {{% alert color="primary" %}} 
 
-有关此功能的更多详细信息，请查看详细文章[加载具有指定纸张尺寸的电子表格](/cells/zh/java/load-workbook-with-specified-printer-paper-size/).
+要了解更多关于此功能的详情，请查看[以指定的纸张大小装载电子表格](/cells/zh/java/load-workbook-with-specified-printer-paper-size/)上的详细文章。
 
 {{% /alert %}} 
 
@@ -74,7 +75,7 @@ Aspose.Cells for Java 8.8.3 允许在使用新公开的 LoadOptions.setPaperSize
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of LoadOptions
 
@@ -89,12 +90,12 @@ loadOptions.setPaperSize(PaperSizeType.PAPER_A_4);
 Workbook book = new Workbook(dir + "input.xlsx", loadOptions);
 
 {{< /highlight >}}
-### **添加了 Cell.getCharacters(flag) 方法**
-Aspose.Cells API 允许使用 Cell.getCharacters 方法获取 FontSetting 数组形式的字符对象。在此版本中，Aspose.Cells for Java API 公开了 Cell.getCharacters 的重载版本，它可以接受布尔值作为参数，指示如果单元格是 ListObject 的一部分，是否必须在单元格上应用表格样式。
+### **新增 Cell.getCharacters(flag) 方法**
+Aspose.Cells API 允许通过使用 Cell.getCharacters 方法以 FontSetting 数组的形式获取字符对象。通过此版本, Aspose.Cells for Java API 公开了 Cell.getCharacters 方法的重载版本，该方法可以接受 Boolean 参数，指示是否应在单元格上应用表样式，如果单元格是列表对象的一部分。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -116,15 +117,15 @@ Cell cell = cells.get("A1");
 
 //Get all Characters objects from the cell
 
-FontSetting[]characters = cell.getCharacters(true);
+FontSetting[] characters = cell.getCharacters(true);
 
 {{< /highlight >}}
-### **添加了 OleObject.AutoLoad 属性**
-Aspose.Cells for Java 8.8.3 公开了 OleObject.AutoLoad 属性，如果基础对象的内容/数据已更改，该属性允许刷新 OleObject 的图像。上述属性设置为 true 时，会强制 Excel 应用程序在加载生成的电子表格时刷新 OleObject 的图像。
+### **添加了OleObject.AutoLoad属性**
+Aspose.Cells for Java 8.8.3 已公开了 OleObject.AutoLoad 属性，允许在底层对象的内容/数据已更改时刷新 OleObject 的图像。前述属性设置为 true 时，会强制 Excel 应用程序在加载结果电子表格时刷新 OleObject 的图像。
 
 {{% alert color="primary" %}} 
 
-有关此功能的更多详细信息，请查看详细文章[自动刷新 OleObjects](/cells/zh/java/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/).
+要了解更多关于此功能的详情，请查看[通过 Aspose.Cells 自动刷新 OleObjects](/cells/zh/java/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/)上的详细文章。
 
 {{% /alert %}} 
 
@@ -132,7 +133,7 @@ Aspose.Cells for Java 8.8.3 公开了 OleObject.AutoLoad 属性，如果基础�
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -155,12 +156,12 @@ OleObject oleObject = oleObjects.get(0);
 oleObject.setAutoLoad(true);
 
 {{< /highlight >}}
-### **添加了 HTMLLoadOptions.SupportDivTag 属性**
-Aspose.Cells for Java 8.8.3 公开了 HTMLLoadOptions.SupportDivTag 属性，允许在 Aspose.Cells 对象模型中加载 HTML 文件/片段时解析嵌入在 TD 标签中的 DIV 标签。布尔类型属性的默认值为 false。
+### **添加了HTMLLoadOptions.SupportDivTag属性**
+Aspose.Cells for Java 8.8.3 已公开了 HTMLLoadOptions.SupportDivTag 属性，允许在装载 HTML 文件/片段到 Aspose.Cells 对象模型时解析嵌入在 TD 标签中的 DIV 标签。布尔类型属性具有默认值 false。
 
 {{% alert color="primary" %}} 
 
-有关此功能的更多详细信息，请查看详细文章[加载时支持内部 DIV 标签 HTML](/cells/zh/java/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/).
+要了解更多关于此功能的详情，请查看[在装载 HTML 时支持内嵌 DIV 标记](/cells/zh/java/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)上的详细文章。
 
 {{% /alert %}} 
 
@@ -168,7 +169,7 @@ Aspose.Cells for Java 8.8.3 公开了 HTMLLoadOptions.SupportDivTag 属性，允
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Store the HTML snippet in a variable
 
@@ -251,12 +252,12 @@ Workbook book = new Workbook(stream, loadOptions);
 book.save(dir + "output.xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
-### **添加了 HtmlSaveOptions.ExportGridLines 属性**
-Aspose.Cells for Java 8.8.3 公开了 HtmlSaveOptions.ExportGridLines 属性，该属性允许在将电子表格导出为 HTML 格式时呈现网格线。布尔类型属性的默认值为 false，但是，当设置为 true 时，API 将以 HTML 格式呈现可用数据范围的网格线。
+### **添加了HtmlSaveOptions.ExportGridLines属性**
+Aspose.Cells for Java 8.8.3 已公开了 HtmlSaveOptions.ExportGridLines 属性，允许在将电子表格导出到 HTML 格式时呈现网格线。布尔类型属性的默认值为 false，但当设置为 true 时，API 将为 HTML 格式中的可用数据范围呈现网格线。
 
 {{% alert color="primary" %}} 
 
-有关此功能的更多详细信息，请查看详细文章[将网格线渲染到 HTML](/cells/zh/java/export-excel-to-html-with-gridlines/).
+要了解更多关于此功能的详情，请查看[将网格线呈现到 HTML 中](/cells/zh/java/export-excel-to-html-with-gridlines/)上的详细文章。
 
 {{% /alert %}} 
 
@@ -264,7 +265,7 @@ Aspose.Cells for Java 8.8.3 公开了 HtmlSaveOptions.ExportGridLines 属性，�
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load existing spreadsheet
 
@@ -283,12 +284,12 @@ options.setExportGridLines(true);
 book.save(dir + "output.html", options);
 
 {{< /highlight >}}
-### **添加了 ListObject.Comment 属性**
-Aspose.Cells API 现在允许获取和设置 ListObject 实例的注释。为了提供上述功能，Aspose.Cells API 公开了 ListObject.Comment 属性。
+### **添加了ListObject.Comment属性**
+Aspose.Cells APIs 现在允许获取和设置列表对象实例的注释。为了提供上述功能，Aspose.Cells APIs 已公开了ListObject.Comment属性。
 
 {{% alert color="primary" %}} 
 
-有关此功能的更多详细信息，请查看详细文章[为 ListObjects 添加注释](/cells/zh/java/set-the-comment-of-table-or-list-object/).
+要了解更多关于此功能的详情，请查看[为列表对象添加注释](/cells/zh/java/set-the-comment-of-table-or-list-object/)上的详细文章。
 
 {{% /alert %}} 
 
@@ -296,7 +297,7 @@ Aspose.Cells API 现在允许获取和设置 ListObject 实例的注释。为了
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load existing spreadsheet
 
@@ -319,6 +320,6 @@ listObject.setComment("Comments");
 book.save(dir + "output.xlsx");
 
 {{< /highlight >}}
-## **删除的 API**
+## **已删除APIs**
 ### **删除了 Workbook.decrypt 方法**
-上述财产在一段时间前被标记为过时。此版本已将其从公共 API 中完全删除。建议将 WorkbookSettings.Password 属性设置为 null 以实现相同的目标。
+所述属性已在一段时间前被标记为过时。此版本已彻底从公共 API 中移除该属性。建议将 WorkbookSettings.Password 属性设置为 null 以实现相同的目标。

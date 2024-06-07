@@ -1,16 +1,17 @@
-﻿---
-title: 在 Python 中管理分页符
+---
+title: 在Python中管理分页
 type: docs
 weight: 20
 url: /zh/java/managing-page-breaks-in-python/
 ---
+
 ## **Aspose.Cells - 管理分页符**
 ### **添加分页符**
-添加分页符使用**Aspose.Cells Java 红宝石**， 称呼**添加分页符**的方法**分页符**模块。您可以在下面看到代码示例。
+使用 **Aspose.Cells Java for Ruby** 添加分页符，请调用 **pagebreaks** 模块的 **add_page_breaks** 方法。以下是代码示例。
 
 **Python 代码**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def add_page_breaks(self):
 
@@ -39,11 +40,11 @@ print "Add page breaks, please check the output file."
 
 {{< /highlight >}}
 ### **清除所有分页符**
-使用清除所有分页符**Aspose.Cells Java for Python**， 称呼**clear_all_page_breaks**的方法**分页符**模块。您可以在下面看到代码示例。
+要使用**Aspose.Cells Java for Python**清除所有分页，请调用**pagebreaks**模块的**clear_all_page_breaks**方法。下面是示例代码。
 
 **Python 代码**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
 
 
@@ -66,12 +67,12 @@ print "Clear all page breaks, please check the output file."
 
 
 {{< /highlight >}}
-### **删除特定分页符**
-使用删除特定分页符**Aspose.Cells Java for Python**， 称呼**删除分页符**的方法**分页符**模块。您可以在下面看到代码示例。
+### **移除特定分页符**
+要使用**Aspose.Cells Java for Python**删除特定的分页，请调用**pagebreaks**模块的**remove_page_break**方法。下面是示例代码。
 
 **Python 代码**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
 
 
@@ -102,6 +103,6 @@ print "Remove page break, please check the output file."
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**管理分页符 (Aspose.Cells)**来自以下任何社交编码网站：
+从以下任一社交编码站点下载**管理分页（Aspose.Cells）**。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

@@ -1,16 +1,17 @@
-﻿---
-title: 在 Php 中复制和移动工作表
+---
+title: 在Php中复制和移动工作表
 type: docs
 weight: 10
 url: /zh/java/copying-and-moving-worksheets-in-php/
 ---
+
 ## **Aspose.Cells - 复制和移动工作表**
-### **在工作簿中复制工作表**
-使用复制工作表**PHP 中的 Aspose.Cells for Java**， 称呼**复制工作表**的方法**抄作业**模块。您可以在下面看到代码示例。
+### **在工作簿内复制工作表**
+使用**Aspose.Cells for Java in PHP**，通过调用**copyworksheets**模块的**copy_worksheet**方法来复制工作表。下面是代码示例。
 
 **PHP代码**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  # Create a Worksheets object with reference to the sheets of the Workbook.
 
@@ -26,12 +27,12 @@ $workbook->save($dataDir . "Copy Worksheet.xls");
 
 
 {{< /highlight >}}
-### **在工作簿中移动工作表**
-使用移动工作表**PHP 中的 Aspose.Cells for Java**， 称呼**移动工作表**的方法**抄作业**模块。您可以在下面看到代码示例。
+### **在工作簿内移动工作表**
+使用**Aspose.Cells for Java in PHP**，通过调用**copyworksheets**模块的**move_worksheet**方法来移动工作表。下面是代码示例。
 
 **PHP代码**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  # Get the first worksheet in the book.
 
@@ -47,6 +48,6 @@ $workbook->save($dataDir . "Move Worksheet.xls");
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**复制和移动工作表 (Aspose.Cells)**来自以下任何社交编码网站：
+从以下任一社交编码站点下载 **Copying and Moving Worksheets (Aspose.Cells)**：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ValueFeatures/CopyingAndMovingWorksheets.php)

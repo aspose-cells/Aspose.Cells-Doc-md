@@ -1,18 +1,19 @@
-﻿---
+---
 title: 插入或删除行或列
 type: docs
 weight: 20
 url: /zh/net/insert-or-delete-rows-or-columns/
 ---
-无论我们是从头开始创建新工作表还是处理现有工作表，我们都可能需要在工作表中添加额外的行或列以容纳更多数据或出于其他原因。反之，也可能需要从工作表的指定位置删除行或列。
+
+无论是从头开始创建一个新工作表，还是在现有工作表上操作，可能都需要在工作表中添加额外的行或列，以容纳更多的数据或出于其他原因。反之，可能还需要从工作表的指定位置删除行或列。
 ## **管理行/列**
-**Aspose.Cells**提供一个类，代表 Excel 文件的工作簿。 Workbook 类包含一个 Worksheets 集合，允许访问 Excel 文件中的每个工作表。工作表由 Worksheet 类表示。 Worksheet 类提供了一个 Cells 集合，代表工作表中的所有单元格。
+Aspose.Cells提供了一个名为Workbook的类，代表一个Excel文件。Workbook类包含一个Worksheets集合，允许访问Excel文件中的每个工作表。工作表由Worksheet类表示。Worksheet类提供了一个代表工作表中所有单元格的Cells集合。
 
-**Cells**collection 提供了多种方法来管理工作表中的行或列，下面将详细讨论其中的一些方法。
-## **插入一行**
-开发人员可以通过调用 Cells 集合的 InsertRow 方法在工作表的任意位置插入一行。**插入行**方法采用将插入新行的行的索引。
+Cells集合提供了几种方法来管理工作表中的行或列，下面将更详细讨论其中的几种方法。
+## **插入行**
+开发人员可以通过调用Cells集合的InsertRow方法，在任意位置向工作表中插入行。InsertRow方法需要新行将被插入的行的索引。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -42,12 +43,12 @@ fstream.Close();
 
 {{< /highlight >}}
 ## **插入多行**
-有时，开发人员可能需要在工作表中插入多行。这可以通过调用 Cells 集合的 InsertRows 方法来完成。 InsertRows 方法有两个参数：
+有时，开发人员可能需要将多行数据插入工作表。这可以通过调用Cells集合的InsertRows方法来完成。InsertRows方法需要两个参数:
 
-- **行索引**将插入新行的行的索引
-- **行数**需要插入的总行数
+- **行索引**，新行将从其后插入的行索引
+- **行数**，需要插入的总行数
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -77,9 +78,9 @@ fstream.Close();
 
 {{< /highlight >}}
 ## **删除一行**
-开发人员可以通过调用**删除行**Cells采集方法。**删除行**方法采用需要删除的行的索引。
+开发人员可以通过调用Cells集合的**DeleteRow**方法在工作表的任意位置删除一行。**DeleteRow**方法需要指定需要删除的行的索引。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -109,12 +110,12 @@ fstream.Close();
 
 {{< /highlight >}}
 ## **删除多行**
-如果开发者需要从工作表中删除多行，也可以通过调用Cells集合的DeleteRows方法来完成。 DeleteRows 方法有两个参数：
+如果开发人员需要从工作表中删除多行数据，也可以通过调用Cells集合的DeleteRows方法来实现。DeleteRows方法需要两个参数:
 
-- **行索引**，将从中删除行的行的索引。
-- **行数**, 需要删除的总行数。
+- **行索引**，需要删除的行的索引
+- **行数**，需要删除的总行数
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -144,9 +145,9 @@ fstream.Close();
 
 {{< /highlight >}}
 ## **插入列**
-开发人员还可以通过调用 Cells 集合的 InsertColumn 方法在工作表的任意位置插入一列。 InsertColumn 方法采用将插入新列的列的索引。
+开发人员还可以通过调用Cells集合的InsertColumn方法在工作表的任意位置插入列。InsertColumn方法需要指定新列应插入的列索引。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -176,9 +177,9 @@ fstream.Close();
 
 {{< /highlight >}}
 ## **删除列**
-要从工作表中的任何位置删除列，开发人员可以调用 Cells 集合的 DeleteColumn 方法。 DeleteColumn 方法获取要删除的列的索引。
+要在工作表的任意位置删除列，开发人员可以调用Cells集合的DeleteColumn方法。DeleteColumn方法需要指定需要删除的列的索引。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -209,4 +210,4 @@ fstream.Close();
 {{< /highlight >}}
 ## **下载示例代码**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Work%20with%20Rows%20n%20Columns%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Work%20with%20Rows%20n%20Columns%20%28Aspose.Cells%29.zip)

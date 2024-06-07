@@ -1,15 +1,16 @@
-﻿---
+---
 title: 创建新工作表
 type: docs
 weight: 10
 url: /zh/java/create-new-worksheet/
 ---
+
 ## **Aspose.Cells - 创建新工作表**
-将工作表添加到工作簿
+向工作簿添加工作表
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -27,11 +28,11 @@ workbook.save("newWorksheet.xls");
 
 {{< /highlight >}}
 ## **Apache POI SS - HSSF XSSF - 创建新工作表**
-将工作表添加到工作簿
+向工作簿添加工作表
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook(); // or new XSSFWorkbook();
 

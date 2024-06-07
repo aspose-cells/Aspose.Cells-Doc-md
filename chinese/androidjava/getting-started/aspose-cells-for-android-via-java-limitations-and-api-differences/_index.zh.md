@@ -1,10 +1,11 @@
-﻿---
-title: Aspose.Cells for Android via Java 限制和 API 差异
+---
+title: Aspose.Cells for Android 通过 Java 的限制和 API 差异
 type: docs
 weight: 10
 url: /zh/java/aspose-cells-for-android-via-java-limitations-and-api-differences/
 ---
-## **Aspose.Cells for Android via Java API 与 Aspose.Cells for Java API 相比的局限性**
-1. 不支持 WorkbookRender。
-1. 不支持以 TIFF 和 GIF 格式保存。
+
+## **与 Aspose.Cells for Java API 比较，Aspose.Cells for Android 通过 Java API 的限制**
+1. WorkbookRender 不受支持。
+1. 不支持在TIFF和GIF格式中保存。
 1. 不支持打印。

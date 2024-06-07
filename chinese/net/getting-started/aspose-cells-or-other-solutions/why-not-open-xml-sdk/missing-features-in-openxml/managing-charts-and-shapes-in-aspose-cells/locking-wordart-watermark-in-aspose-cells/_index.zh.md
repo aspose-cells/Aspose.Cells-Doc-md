@@ -1,20 +1,21 @@
-﻿---
-title: 在 Aspose.Cells 中锁定艺术字水印
+---
+title: 在Aspose.Cells中锁定WordArt水印
 type: docs
 weight: 40
 url: /zh/net/locking-wordart-watermark-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells API 允许在工作表上添加艺术字水印，使艺术字成为可以在工作表上移动和定位的对象。也可以锁定艺术字对象以进行任何交互，例如编辑、移动和选择。本文介绍了Shape.SetLockedProperty 方法的用法来锁定水印的几个方面。
+Aspose.Cells API允许在工作表上添加WordArt水印，使WordArt成为可以移动和定位在工作表上的对象。还可以锁定WordArt对象，以限制任何交互，例如编辑、移动和选择。本文解释了使用Shape.SetLockedProperty方法锁定水印的一些方面。
 
 {{% /alert %}} 
 
-Aspose.Cells API 允许锁定水印的某些方面，以便可以限制或完全阻止用户交互。以下代码片段演示了如何使用 Aspose.Cells for .NET API 通过从头开始创建电子表格来锁定水印的选择、移动、编辑和调整大小。
+Aspose.Cells API允许锁定水印的某些方面，以便限制或完全阻止用户交互。下面的代码片段演示了使用Aspose.Cells for .NET API锁定水印的选择、移动、编辑和调整大小，从而创建一个新电子表格。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -75,5 +76,5 @@ workbook.Save(FileName);
 {{< /highlight >}}
 ## **下载示例代码**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Locking%20WordArt%20Watermark)
-## **下载运行示例**
+## **下载示例**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

@@ -1,22 +1,23 @@
 ---
-title: 添加水印到PDF
+title: 向PDF添加水印
 type: docs
 weight: 9
 url: /zh/python-net/add-watermark-to-pdf/
-description: 了解如何使用 Aspose.Cells for Python via .NET API 向 pdf 添加水印。
-keywords: Python add watermark to pdf, add watermark to pdf Pyton via NET, insert watermark to pdf
+description: 了解如何使用Aspose.Cells for Python通过.NET API向PDF添加水印
+keywords: Python向PDF添加水印，使用Python向PDF添加水印，插入水印到PDF
 ---
-在将Excel文件转换为pdf时，您可能需要向pdf文件添加水印。以下示例展示了如何在渲染为 pdf 时向 pdf 添加文本和图像水印。
 
-##   **添加文字水印为PDF**
+在将Excel文件转换为pdf时，您可能需要向pdf文件添加水印。以下示例显示了在呈现为pdf时如何向pdf添加文本和图像水印。
 
-您可以通过指定文本和相应的字体轻松地向pdf添加文本水印。此外，您还可以设置对齐、偏移、旋转、不透明度、前景/背景以及页面缩放[渲染水印](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/renderingwatermark/).
+## **向PDF添加文本水印**
+
+您可以通过指定文本和相应的字体轻松向PDF添加文本水印。此外，您可以设置对齐，偏移，旋转，不透明度，前景/背景和页面缩放以在[RenderingWatermark](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/renderingwatermark/)中。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-AddTextWatermarkToPdf.py" >}}
 
-##  **添加图片水印PDF**
+## **向PDF添加图像水印**
 
-您只需指定图像的图像字节即可将图像水印添加到 pdf 中。此外，您还可以设置对齐、偏移、旋转、不透明度、前景/背景以及页面缩放[渲染水印](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/renderingwatermark/).
+您可以通过指定图像的图像字节轻松向PDF添加图像水印。此外，您可以在[RenderingWatermark](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/renderingwatermark/)中设置对齐，偏移，旋转，不透明度，前景/背景和页面缩放。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-AddImageWatermarkToPdf.py" >}}
 

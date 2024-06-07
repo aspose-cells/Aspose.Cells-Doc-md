@@ -1,20 +1,21 @@
-﻿---
-title: 使用 StreamProvider 保存 HTML
+---
+title: 使用 StreamProvider 保存 Html
 type: docs
 weight: 80
 url: /zh/net/convert-excel-to-html-with-streamprovider/
 ---
+
 {{% alert color="primary" %}} 
 
-在将包含iamges和shapes的excel字段转换为html文件时，我们经常会遇到以下两个问题：
-1. 将 excel 文件保存到 html 流时，我们应该将图像和形状保存在哪里。
-1. 用例外路径替换默认路径。
+将包含图像和形状的 Excel 文件转换为 HTML 文件时，我们经常面临以下两个问题：
+1. 将 Excel 文件保存为 HTML 流时应将图像和形状保存在何处。
+1. 将默认路径替换为期望的路径。
 
-这篇文章解释了如何实现[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider)用于设置的界面[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider)财产。通过实现此接口，您将能够将在 HTML 生成期间创建的资源保存到您的特定位置或内存流。
+本文解释了如何实现[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider)接口来设置[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider)属性。通过实现此接口，您将能够在生成 HTML 过程中将创建的资源保存到特定位置或内存流中。
 
 {{% /alert %}} 
 
-这是显示用法的主要代码[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider)财产
+这是显示使用[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider)属性的主要代码
 
 
 
@@ -22,7 +23,7 @@ url: /zh/net/convert-excel-to-html-with-streamprovider/
 
 
 
-这是代码*导出流提供者*实现的类[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider)上面代码中使用的接口。
+以下是实现[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider)接口的 *ExportStreamProvider* 类的代码，该类在上述代码中使用。
 
 
 

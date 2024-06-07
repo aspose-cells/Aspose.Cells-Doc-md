@@ -1,19 +1,20 @@
-﻿---
-title: 在 PHP 中调整行高和列宽
+---
+title: 在PHP中调整行高和列宽
 type: docs
 weight: 10
 url: /zh/java/adjusting-row-height-and-column-width-in-php/
 ---
+
 ## **Aspose.Cells - 调整行高和列宽**
 ### **设置行高**
-可以通过调用 Cells 集合的 setRowHeight 方法来设置单行的高度。 setRowHeight 方法采用以下参数：
+通过调用Cells集合的setRowHeight方法来设置单行的高度。setRowHeight方法接受以下参数：
 
-- **行索引**，您要更改其高度的行的索引。
-- **行高**应用于行的行高。
+- **行索引**，要更改其高度的行的索引。
+- **行高**，要应用于该行的行高。
 
 **PHP代码**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function set_row_height($dataDir)
 
@@ -43,14 +44,14 @@ url: /zh/java/adjusting-row-height-and-column-width-in-php/
 
 {{< /highlight >}}
 ### **设置列宽**
-通过调用 Cells 集合的 setColumnWidth 方法设置列的宽度。 setColumnWidth 方法采用以下参数：
+通过调用Cells集合的setColumnWidth方法来设置列的宽度。setColumnWidth方法接受以下参数：
 
-- **列索引**，您要更改其宽度的列的索引。
-- **列宽**所需的列宽。
+- **列索引**，要更改其宽度的列的索引。
+- **列宽**，所需的列宽。
 
 **PHP代码**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function set_column_width($dataDir)
 
@@ -80,6 +81,6 @@ url: /zh/java/adjusting-row-height-and-column-width-in-php/
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**调整行高和列宽 (Aspose.Cells)**来自以下任何社交编码网站：
+从以下提到的社交编码网站下载**调整行高和列宽(Aspose.Cells)**：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

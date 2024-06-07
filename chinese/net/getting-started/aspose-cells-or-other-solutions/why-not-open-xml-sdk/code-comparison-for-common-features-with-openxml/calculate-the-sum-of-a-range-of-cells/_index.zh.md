@@ -1,13 +1,14 @@
-﻿---
+---
 title: 计算一系列单元格的总和
 type: docs
 weight: 10
 url: /zh/net/calculate-the-sum-of-a-range-of-cells/
 ---
-## **OpenXML Excel**
-以下是我们需要在代码中使用的命名空间：
 
-{{< highlight "csharp" >}}
+## **OpenXML Excel**
+以下是我们在代码中需要使用的命名空间:
+
+{{< highlight csharp >}}
 
  using DocumentFormat.OpenXml;
 
@@ -17,9 +18,9 @@ using DocumentFormat.OpenXml.Spreadsheet;
 
 {{< /highlight >}}
 
-下面是代码：
+以下是代码:
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -334,7 +335,7 @@ private static Cell InsertCellInWorksheet(string columnName, uint rowIndex, Work
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -383,5 +384,5 @@ private static void CalculateSumOfCellRange(string docName, string worksheetName
 {{< /highlight >}}
 ## **下载示例代码**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
-- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Calculate%20the%20sum%20of%20a%20range%20of%20cells%20\(Aspose.Cells\).zip/下载）
-- [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Calculate%20the%20sum%20of%20a%20range%20of%20cells%20\(Aspose.Cells\)。压缩）
+- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Calculate%20the%20sum%20of%20a%20range%20of%20cells%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Calculate%20the%20sum%20of%20a%20range%20of%20cells%20\(Aspose.Cells\).zip)

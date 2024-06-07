@@ -1,26 +1,27 @@
-﻿---
-title: Web 扩展 - Office 加载项
+---
+title: Web扩展 - 办公插件
 type: docs
 weight: 130
 url: /zh/net/web-extensions-office-add-ins/
 ---
-Web Extensions 扩展 Office 应用程序并与 Office 文档中的内容交互。 Web Extensions 向 Office 客户端添加附加功能以改善用户体验和工作效率。
 
-Aspose.Cells 还提供了使用 Web 扩展的能力。
+Web扩展扩展办公应用程序并与办公文档中的内容交互。Web扩展向办公客户端添加附加功能，以改善用户体验和生产率。
 
-## **添加网络扩展**
+Aspose.Cells还提供了处理Web扩展功能的能力。
 
-您可以通过单击在 Excel 中添加 Web 扩展（Office 加载项）**插入**选项卡，然后单击**店铺**/**获取加载项**关联。在加载项框中，浏览并添加所需的加载项。
+## **添加Web扩展**
 
-Aspose.Cells 还提供了通过使用[**网络扩展**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextension)和[**WebExtensionTaskPane**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextensiontaskpane)类。下面的代码示例演示了使用[**网络扩展**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextension)和[**WebExtensionTaskPane**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextensiontaskpane)向 Excel 文件添加 Web 扩展的类。请参阅[输出Excel文件](89849869.xlsx)生成的代码供参考。
+您可以通过单击**插入**选项卡，然后单击**商店**/**获取插件**链接在Excel中添加Web扩展(办公插件)。在插件框中，浏览您想要的插件并添加。
+
+Aspose.Cells还通过 [**WebExtension**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextension) 和 [**WebExtensionTaskPane**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextensiontaskpane) 类提供了添加Web扩展(办公插件)的功能。以下代码示例演示了使用 [**WebExtension**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextension) 和 [**WebExtensionTaskPane**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextensiontaskpane) 类向Excel文件中添加Web扩展。请查看由代码生成的 [输出Excel文件](89849869.xlsx) 以供参考。
 
 ### **示例代码**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AddWebExtension-1.cs" >}}
 
-## **访问 Web 扩展信息**
+## **访问Web扩展信息**
 
-Aspose.Cells 提供访问 Excel 文件中的 Web 扩展信息的能力。下面的代码示例演示了如何通过加载[示例 Excel 文件](89849870.xlsx).请查看代码生成的控制台输出以供参考。
+Aspose.Cells提供了在Excel文件中访问Web扩展信息的功能。以下代码示例演示了如何通过加载 [示例Excel文件](89849870.xlsx) 访问Web扩展信息。请查看代码生成的控制台输出以供参考。
 
 ### **示例代码**
 
@@ -30,14 +31,14 @@ Aspose.Cells 提供访问 Excel 文件中的 Web 扩展信息的能力。下面�
 
 宽度：350
 
-可见：真
+可见性：True
 
-已锁定：假
+是否锁定：False
 
-码头状态：正确
+停靠状态：右侧
 
-店铺名称：en-US
+商店名称：en-US
 
-店铺类型：OMEX
+商店类型：OMEX
 
 WebExtension.Id: 95D7ECE8-1355-492B-B6BF-27D25D0B0EEF

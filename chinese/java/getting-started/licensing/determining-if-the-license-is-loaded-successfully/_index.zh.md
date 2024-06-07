@@ -1,26 +1,27 @@
-﻿---
-title: 判断License是否加载成功
+---
+title: 确定许可证是否成功加载
 type: docs
 weight: 210
 url: /zh/java/determining-if-the-license-is-loaded-successfully/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells提供[**工作簿.isLicensed()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#IsLicensed)可用于确定许可证是否成功加载的属性。如果在设置license之前调用该方法，返回false，如果在设置license之后调用该方法，返回true表示license加载成功。
+Aspose.Cells 提供 [**Workbook.isLicensed()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#IsLicensed) 属性，您可以使用它来确定许可证是否成功加载。如果在设置许可证之前调用此方法，它将返回 false，如果在设置许可证之后调用此方法，它将返回 true，表示许可证已成功加载。
 
 {{% /alert %}}
 
-## **判断License是否加载成功**
+## **确定许可证是否成功加载**
 
-以下代码访问[**工作簿.isLicensed()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#IsLicensed)设置许可证之前的方法，它返回 false。然后它加载许可证并再次访问现在返回 true 的属性。
+以下代码在设置许可证之前访问 [**Workbook.isLicensed()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#IsLicensed) 方法并返回 false。然后加载许可证并再次访问该属性，它现在返回 true。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DeterminetheLicenseLoadedSuccessfully-DeterminetheLicenseLoadedSuccessfully.java" >}}
 
 ## **控制台输出**
 
-这是上面示例代码的控制台输出
+这是上述示例代码的控制台输出
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 false
 

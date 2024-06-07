@@ -1,17 +1,18 @@
-﻿---
-title: 使用 ImageOrPrintOptions 的 PageIndex 和 PageCount 属性渲染页面序列
+---
+title: 使用ImageOrPrintOptions的PageIndex和PageCount属性来按顺序呈现页面
 type: docs
 weight: 10
 url: /zh/python-java/render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions/
 ---
-## **使用 ImageOrPrintOptions 的 PageIndex 和 PageCount 属性渲染页面序列**
-您可以使用 Aspose.Cells 将 Excel 文件的一系列页面呈现为图像[ImageOrPrintOptions.PageIndex](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageIndex)和[ImageOrPrintOptions.PageCount](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageCount)特性。当您的工作表中有很多页面（例如数千页）但您只想呈现其中的一些页面时，这些属性很有用。这不仅会节省处理时间，还会节省渲染过程的内存消耗。
 
-以下示例代码加载示例 Excel 文件并使用[ImageOrPrintOptions.PageIndex](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageIndex)和[ImageOrPrintOptions.PageCount](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageCount)特性。以下是示例代码生成的渲染页面图片。
+## **使用PageIndex和PageCount属性的ImageOrPrintOptions渲染页面序列**
+您可以使用Aspose.Cells和ImageOrPrintOptions.PageIndex和ImageOrPrintOptions.PageCount属性将Excel文件的一系列页面渲染为图像。当工作表中有大量页面（例如成千上万页）但您只想渲染其中一些页面时，这些属性是非常有用的。这不仅可以节省处理时间，还可以节省渲染过程的内存消耗。
 
-|![待办事项：图片_替代_文本](outputImage-4.png)|![待办事项：图片_替代_文本](outputImage-5.png)|
-|:- |:- |
-|![待办事项：图片_替代_文本](outputImage-6.png)|![待办事项：图片_替代_文本](outputImage-7.png)|
+以下示例代码加载了示例Excel文件，并仅渲染第4、5、6和7页，使用ImageOrPrintOptions.PageIndex和ImageOrPrintOptions.PageCount属性生成的渲染页面的图像。
+
+|![todo:image_alt_text](outputImage-4.png)|![todo:image_alt_text](outputImage-5.png)|
+| :- | :- |
+|![todo:image_alt_text](outputImage-6.png)|![todo:image_alt_text](outputImage-7.png)|
 
 
 

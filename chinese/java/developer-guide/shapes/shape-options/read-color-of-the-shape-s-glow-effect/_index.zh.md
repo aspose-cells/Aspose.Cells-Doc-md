@@ -1,28 +1,29 @@
-﻿---
-title: 读取形状发光效果的颜色
+---
+title: 读取形状的发光效果的颜色
 type: docs
 weight: 210
 url: /zh/java/read-color-of-the-shape-s-glow-effect/
 ---
+
 ## 可能的使用场景
 
-如果您想读取任何形状的发光效果的颜色，请使用[**形状.发光.颜色**](https://reference.aspose.com/cells/java/com.aspose.cells/gloweffect#Color)财产。它将帮助您找到与应用于形状的发光效果颜色相关的各种属性。
+如果要读取任何形状的发光效果的颜色，请使用[**Shape.Glow.Color**](https://reference.aspose.com/cells/java/com.aspose.cells/gloweffect#Color)属性。这将帮助您找到与应用在形状上的发光效果的颜色相关的各种属性。
 
-## 读取形状发光效果的颜色
+## 读取形状的发光效果颜色
 
-请看下面的示例代码及其[源文件](23166984.xlsx)和控制台输出供您参考。以下屏幕截图显示了在 Microsoft Excel 中查看时源 Excel 文件内形状的发光效果。
+请参阅以下示例代码及其[源Excel文件](23166984.xlsx)和控制台输出作为参考。以下屏幕截图显示了在Microsoft Excel中查看源Excel文件内形状的发光效果。
 
-![待办事项：图片_替代_文本](read-color-of-the-shape-s-glow-effect_1.png)
+![todo:image_alt_text](read-color-of-the-shape-s-glow-effect_1.png)
 
-## Java 读取形状发光效果颜色的代码
+## Java代码以读取形状的发光效果的颜色
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-ReadColorGlowEffect-ReadColorGlowEffect.java" >}}
 
 ## 示例代码生成的控制台输出
 
-这是使用提供的执行时上述示例代码的控制台输出[源文件](23166984.xlsx).
+这是上述示例代码在提供的[源Excel文件](23166984.xlsx)上执行时的控制台输出。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Color: com.aspose.cells.Color@deff0000
 

@@ -1,16 +1,17 @@
-﻿---
-title: 在 Php 中管理工作表
+---
+title: 在Php中管理工作表
 type: docs
 weight: 10
 url: /zh/java/managing-worksheets-in-php/
 ---
+
 ## **Aspose.Cells - 管理工作表**
-### **将工作表添加到新的 Excel 文件**
-使用以下方法将工作表添加到新的 Excel 文件**Aspose.Cells Java for PHP** 只需调用**添加工作表**的方法**管理工作表**模块。
+### **向新的Excel文件中添加工作表**
+要使用**Aspose.Cells Java for PHP**将工作表添加到新的Excel文件中，请简单调用**MangingWorksheets**模块的**add_worksheet**方法。
 
 **PHP代码**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Workbook object
 
@@ -33,12 +34,12 @@ $worksheet->setName("My Worksheet");
 $workbook->save($dataDir . "book.out.xls");
 
 {{< /highlight >}}
-### **使用工作表名称删除工作表**
-要使用工作表名称删除工作表**Aspose.Cells Java for PHP** 只需调用**按名称删除工作表**的方法**管理工作表**模块。
+### **使用表名删除工作表**
+使用**Aspose.Cells Java for PHP**，通过调用**MangingWorksheets**模块的**remove_worksheet_by_name**方法来根据工作表名称删除工作表。
 
 **PHP代码**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -62,11 +63,11 @@ $fstream->close();
 
 {{< /highlight >}}
 ### **使用工作表索引删除工作表**
-要按工作表索引删除工作表，请使用**Aspose.Cells Java for PHP** 只需调用**按索引删除工作表**的方法**管理工作表**模块。
+使用**Aspose.Cells Java for PHP**，通过调用**MangingWorksheets**模块的**remove_worksheet_by_index**方法来根据工作表索引删除工作表。
 
 **PHP代码**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -90,6 +91,6 @@ $fstream->close();
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**管理工作表 (Aspose.Cells)**来自以下任何社交编码网站：
+从下面列出的任何社交编码站点下载**管理工作表（Aspose.Cells）**。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets)

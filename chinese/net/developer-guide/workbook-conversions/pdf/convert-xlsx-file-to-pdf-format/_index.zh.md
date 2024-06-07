@@ -1,50 +1,51 @@
 ---
-title: 将 XLSX 文件转换为 PDF 格式
+title: 将XLSX文件转换为PDF格式
 type: docs
 weight: 30
 url: /zh/net/convert-xlsx-file-to-pdf-format/
 ---
+
 {{% alert color="primary" %}}
 
-PDF（便携式文档格式）表示独立于用于创建这些文档的软件、硬件和操作系统的文档。 PDF 文件可以是具有与设备无关和与分辨率无关的方式的文本、图形和图像的任意组合的文档。 PDF 文件经常被压缩，因此它们占用的空间比原始文件少。
+PDF（便携式文档格式）代表独立于用于创建这些文档的软件、硬件和操作系统的文档。PDF文件可以以与设备无关和分辨率无关的方式包含文本、图形和图像的文档。PDF文件通常是经过压缩的，因此占用的空间比原始文件少。
 
-有时，您需要将 Microsoft Excel 文件转换为 PDF。为此，您需要一个快速、安全、准确和可靠的解决方案，让您在世界各地分发 PDF 文档。有许多转换工具可以执行此任务。但是您必须确保原始 Excel 文档的布局保留在输出 PDF 文件中。图像、图表、形状、数据格式、字体、属性、颜色、页面设置、文本方向、边框、图表等都应该准确无误地呈现。[Aspose.Cells](https://products.aspose.com/cells/net/)确保高保真转换。
+有时，您需要将Microsoft Excel文件转换为PDF。为此，您需要一种快速、安全、准确且可靠的解决方案，使您能够在世界各地分发PDF文档。有许多可以执行此任务的转换工具。但是您必须确保原始Excel文档的布局在输出PDF文件中得以保留。图片、图表、形状、数据格式、字体、属性、颜色、页面设置设置、文本方向、边框、图表等应该被准确和精确地呈现。[Aspose.Cells](https://products.aspose.com/cells/net/)确保高保真度转换。
 
-本文档旨在全面了解如何将 Microsoft Excel 文档（包含图像、图表、格式等）转换为 PDF。为此，展示了如何在 Visual Studio.Net 中创建一个简单的控制台应用程序来转换使用 Aspose.Cells API 将 Excel 文件转换为 PDF。转换以高精度和准确度执行。
+本文档旨在全面了解如何将Microsoft Excel文档（包含图片、图表、格式等）转换为PDF。为此，展示了如何在Visual Studio.Net中创建一个简单的控制台应用程序，使用Aspose.Cells API将Excel文件转换为PDF。转换具有高度的精度和准确性。
 
 {{% /alert %}}
 
-##  **将 Excel 转换为 PDF**
+## **将Excel转换为PDF**
 
-此示例使用 Excel 文件 (SampleInput.xlsx) 作为模板。该工作簿包含带有图表和图像的工作表。每个工作表都包含不同类型的格式，使用字体、属性、颜色、阴影效果和边框。第一个工作表上有一个柱形图，最后一个工作表上有一个图像。
+此示例使用Excel文件（SampleInput.xlsx）作为模板。工作簿包含具有图表和图像的工作表。每个工作表包含使用字体、属性、颜色、阴影效果和边框的不同类型格式。第一个工作表上有一个柱状图，最后一个工作表上有一张图片。
 
-###  **模板 Excel 文件**
+### **模板Excel文件**
 
-模板文件包含三个工作表，包括图表和图像作为媒体。第一个工作表有图表，最后一个工作表有一个图像，如下面的屏幕截图所示。
+模板文件包含三个工作表，包括图表和图像作为媒体。第一个工作表包含图表，最后一个工作表包含一张图片，如下所示的截图。
 
-|![待办事项：image_alt_text](Convert_an_XLS_File_to_PDF_Sheet1.png)|![待办事项：image_alt_text](Convert_an_XLS_File_to_PDF_Sheet2.png)|
+|![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Sheet1.png)|![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Sheet2.png)|
 | :- | :- |
-|第一张工作表**（销售预测）**|第二张工作表**（销售报告）**|
-|![待办事项：image_alt_text](Convert_an_XLS_File_to_PDF_Sheet3.png)|![待办事项：image_alt_text](Convert_an_XLS_File_to_PDF_Sheet4.png)|
-|第三张工作表**（数据输入）**|最后一张工作表**（图像）**|
+|第一个工作表（销售预测）|第二个工作表（销售报告）|
+|![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Sheet3.png)|![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Sheet4.png)|
+|第三个工作表（数据录入）|最后一个工作表（图片）|
 
-###  **转换过程**
+### **转换过程**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-ConvertXlsxFileToPdf.cs" >}}
 
 {{% alert color="primary" %}}
 
-如果电子表格包含公式，最好调用[工作簿.计算公式](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)在将电子表格呈现为 PDF 之前的方法。这样做可确保重新计算公式相关值，并在 PDF 中呈现正确的值。
+如果电子表格包含公式，最好在将电子表格渲染为PDF之前调用[Workbook.CalculateFormula](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)方法。这样做确保重新计算依赖于公式的值，并在PDF中呈现正确的值。
 
 {{% /alert %}}
 
-###  **结果**
+### **结果**
 
-运行上述代码后，将在应用程序目录的 Files 文件夹中创建一个 PDF 文件。
-以下屏幕截图显示了 PDF 页面。请注意，页眉和页脚也保留在输出 PDF 文件中。
+运行以上代码后，将在您的应用程序目录中的Files文件夹中创建一个PDF文件。
+以下截图显示PDF页面。请注意，页眉和页脚也保留在输出PDF文件中。
 
-|![待办事项：image_alt_text](Convert_an_XLS_File_to_PDF_Converted1.png)|![待办事项：image_alt_text](Convert_an_XLS_File_to_PDF_Converted2.png)|
+|![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Converted1.png)|![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Converted2.png)|
 | :- | :- |
-|第一张工作表**（销售预测）**|第二张工作表**（销售报告）**|
-|![待办事项：image_alt_text](Convert_an_XLS_File_to_PDF_Converted3.png)|![待办事项：image_alt_text](Convert_an_XLS_File_to_PDF_Converted4.png)|
-|第三张工作表**（数据输入）**|最后一张工作表**（图像）**|
+|第一个工作表（销售预测）|第二个工作表（销售报告）|
+|![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Converted3.png)|![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Converted4.png)|
+|第三个工作表（数据录入）|最后一个工作表（图片）|

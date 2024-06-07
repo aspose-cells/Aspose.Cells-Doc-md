@@ -1,15 +1,16 @@
-﻿---
-title: 使用 Aspose.Cells 将艺术字水印添加到工作表
+---
+title: 使用Aspose.Cells向工作表添加Word Art水印
 type: docs
 weight: 10
 url: /zh/java/add-word-art-watermark-to-worksheet-using-aspose-cells/
 ---
-## **Aspose.Cells - 向工作表添加艺术字水印**
-使用艺术字为电子表格添加特殊文本效果。例如，在文件顶部拉伸标题、装饰文本并使文本适合预设形状，或将文本作为背景水印应用于 Excel 工作表。艺术字成为一个对象，您可以在电子表格中移动或定位以添加装饰。
+
+## **Aspose.Cells - 将Word Art水印添加到工作表**
+使用WordArt来向电子表格添加特殊文本效果。例如，在文件顶部拉伸标题，装饰文本，将文本适应预设形状，或将文本应用于Excel工作表作为背景水印。WordArt成为您可以在电子表格中移动或定位以添加装饰的对象。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook workbook = new Workbook();
 
@@ -49,6 +50,6 @@ workbook.save(dataDir + "AsposeWatermark_Out.xls");
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[将艺术字水印添加到工作表](/cells/zh/java/add-wordart-watermark-to-worksheet).
+有关更多详细信息，请访问[向工作表添加WordArt水印] (/cells/zh/java/add-wordart-watermark-to-worksheet)
 
 {{% /alert %}}

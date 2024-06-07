@@ -1,25 +1,26 @@
-﻿---
-title: 将 VBA 宏 UserForm DesignerStorage 从模板复制到目标工作簿
+---
+title: 从模板复制VBA宏用户窗体设计存储到目标工作簿
 type: docs
 weight: 60
 url: /zh/java/copy-vba-macro-userform-designerstorage-from-template-to-target-workbook/
 ---
+
 ## **可能的使用场景**
 
-Aspose.Cells 允许您将 VBA 项目从一个 Excel 文件复制到另一个 Excel 文件。 VBA 项目由各种类型的模块组成，即文档、过程、设计器等。所有模块都可以用简单的代码复制，但对于设计器模块，有一些额外的数据需要访问或复制，称为设计器存储。以下两种方法处理 Designer Storage。
+Aspose.Cells允许您从一个Excel文件复制VBA项目到另一个Excel文件。VBA项目包括各种类型的模块，如文档、过程、设计师等。所有模块都可以通过简单的代码复制，但对于设计师模块，需要访问或复制名为“设计师存储”的一些额外数据。以下两种方法处理“设计师存储”。
 
 - [**VbaModuleCollection.GetDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#getDesignerStorage(java.lang.String))
 - [**VbaModuleCollection.AddDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#addDesignerStorage(java.lang.String,%20byte[]))
 
-## **将 VBA 宏 UserForm DesignerStorage 从模板复制到目标工作簿**
+## **将VBA宏用户窗体设计器存储从模板复制到目标工作簿**
 
-请参阅以下示例代码。它将 VBA 项目从[模板 Excel 文件](50528367.xlsm)到一个空的工作簿中并将其另存为[输出Excel文件](50528366.xlsm).如果您打开模板 Excel 文件中的 VBA 项目，您将看到如下所示的用户窗体。用户表单由 Designer Storage 组成，因此将使用[**VbaModuleCollection.GetDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#getDesignerStorage(java.lang.String)） 和[**VbaModuleCollection.AddDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#addDesignerStorage(java.lang.String,%20byte[])） 方法。
+请参考以下示例代码。它从[模板Excel文件](50528367.xlsm)中复制VBA项目到一个空工作簿，并将其另存为[输出Excel文件](50528366.xlsm)。如果您在模板Excel文件中查看VBA项目，您将看到一个用户窗体，如下所示。用户窗体包括设计师存储，因此它将使用[**VbaModuleCollection.GetDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#getDesignerStorage(java.lang.String))和[**VbaModuleCollection.AddDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#addDesignerStorage(java.lang.String,%20byte[]))方法进行复制。
 
-![待办事项：图片_替代_文本](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_1.png)
+![todo:image_alt_text](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_1.png)
 
-以下屏幕截图显示了输出 Excel 文件及其从模板 Excel 文件复制的内容。当您单击按钮 1 时，它会打开 VBA 用户窗体，它本身有一个命令按钮，单击时会显示一个消息框。
+以下截图显示了从模板Excel文件复制的输出Excel文件及其内容。当您单击按钮1时，它会打开VBA用户窗体，该用户窗体本身具有一个在单击时显示消息框的命令按钮。
 
-![待办事项：图片_替代_文本](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_2.png)
+![todo:image_alt_text](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_2.png)
 
 ## **示例代码**
 

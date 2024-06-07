@@ -1,47 +1,48 @@
 ---
-title: 如何旋转Cell的文本
+title: 如何旋转单元格中的文本
 type: docs
 weight: 80
 url: /zh/net/how-to-rotate-text-of-cell/
-description: C# 代码将 Cell 的文本旋转为 Aspose.Cells for .NET API
-keywords: c# rotate text of Cell, c# programmatically rotate text of Cell in workbook, programmatically set cell rotation angle in workbook, c# how to rotate text of Cell in excel
+description: 使用Aspose.Cells for .NET API旋转单元格的C#代码
+keywords: c#旋转单元格的文本，在工作簿中以编程方式旋转单元格的文本，在工作簿中以编程方式设置单元格旋转角度，c#如何在Excel中旋转单元格中的文本
 ---
-##  **在 Aspose.Cells 中旋转 Cell 的文本**
 
-Aspose.Cells 是功能强大的 .NET 和 Java 组件，使开发人员能够以编程方式使用 Excel 电子表格。 Aspose.Cells 提供的功能之一是旋转单元格的能力，允许您自定义文本的方向并改进数据的视觉呈现。在本文档中，我们将探讨如何使用 Aspose.Cells 旋转单元格。
+## **在Aspose.Cells中旋转单元格中的文本**
 
-##  **如何在Excel中旋转Cell的文本**
-要旋转 Excel 中的单元格，可以使用以下步骤：
-1. 打开 Excel 并选择要旋转的单元格或单元格区域。
-1. 右键单击选定的单元格，然后从上下文菜单中选择“格式 Cells”。或者，您可以转到 Excel 功能区中的“主页”选项卡，单击“Cells”组中的“格式”下拉列表，然后选择“格式 Cells”。
-1. 在“格式 Cells”对话框中，导航至“对齐”选项卡。
-1. 在“方向”部分下，您将看到旋转文本的选项。您可以直接在“度”框中输入所需的旋转角度（以度为单位）。正值逆时针旋转文本，负值顺时针旋转文本。
+Aspose.Cells是一个强大的.NET和Java组件，使开发人员能够通过编程方式处理Excel电子表格。Aspose.Cells提供的功能之一是旋转单元格的能力，允许您自定义文本的方向并改善数据的视觉呈现。在本文档中，我们将探讨如何使用Aspose.Cells旋转单元格。
+
+## **如何在Excel中旋转单元格中的文本**
+要在Excel中旋转单元格，可以按照以下步骤进行:
+1. 打开Excel并选择要旋转的单元格或单元格范围。
+1. 在所选单元格上右键单击并从上下文菜单中选择“设置单元格格式”。或者，您可以打开Excel功能区中的“主页”选项卡，单击“单元格”组中的“设置”下拉菜单，然后选择“设置单元格”。
+1. 在“设置单元格格式”对话框中，导航至“对齐”选项卡。
+1. 在“方向”部分下，您将看到旋转文本的选项。您可以在“度数”框中直接输入所需的旋转角度。正值将逆时针旋转文本，负值将顺时针旋转文本。
 <br>
-![待办事项：图像_替代_文本](alignment.png)
-1. 选择所需的旋转后，单击“确定”应用更改。现在，所选单元格将根据您选择的旋转角度或方向进行旋转。
+![todo:image_alt_text](alignment.png)
+1. 选择所需的旋转后，单击“确定”应用更改。所选单元格将根据您选择的旋转角度或方向进行旋转。
 
-##  **如何使用 Aspose.Cells API 旋转 Cell 的文本**
+## **使用Aspose.Cells API旋转单元格中的文本**
 
-[**样式.旋转角度**](https://reference.aspose.com/cells/net/aspose.cells/style/rotationangle/)属性使得旋转单元格变得很方便。要旋转 Aspose.Cells 中的单元格，您需要执行以下步骤：
-1. 加载 Excel 工作簿
+[**Style.RotationAngle**](https://reference.aspose.com/cells/net/aspose.cells/style/rotationangle/)属性使得旋转单元格变得方便。要在Aspose.Cells中旋转单元格，您需要按照以下步骤操作:
+1. 加载Excel工作簿
 <br>
-首先，您需要使用 Aspose.Cells 加载 Excel 工作簿。您可以使用 Workbook 类打开现有 Excel 文件或创建新文件。
+首先，您需要使用Aspose.Cells加载Excel工作簿。您可以使用Workbook类打开现有的Excel文件或创建一个新的Excel文件。 
 
 1. 访问工作表
 <br>
-加载工作簿后，您需要访问要旋转单元格的工作表。您可以通过索引或名称访问工作表。
+加载工作簿后，您需要访问要旋转单元格的工作表。您可以通过索引或名称访问工作表。 
 
-1. 旋转Cell的文字
+1. 旋转单元格的文本
 <br>
-现在您已经可以访问工作表了，您可以通过修改所需单元格的 Style 对象来旋转单元格。 Style 对象允许您设置各种格式选项，包括旋转。
+现在，您可以访问工作表，并通过修改所需单元格的Style对象来旋转单元格。Style对象允许您设置各种格式选项，包括旋转。 
 
 1. 保存工作簿
 <br>
-旋转单元格后，您可以使用 Save 方法将修改后的工作簿保存回文件或流。
+旋转单元格后，您可以使用Save方法将修改后的工作簿保存回文件或流中。
 
-##  **C# 示例代码**
+## **C# 示例代码**
 
-请看下面的代码，它创建一个工作簿对象并为多个单元格设置不同的旋转角度。屏幕截图显示了示例代码执行后的结果。
+请查看以下代码，它创建了一个工作簿对象，并为几个单元格设置了不同的旋转角度。下面的截图展示了执行示例代码后的结果。
 <br>
 <img src="rotation.png" width=80% />
 

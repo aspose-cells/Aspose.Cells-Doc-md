@@ -1,19 +1,22 @@
-﻿---
-title: 使用 GridWeb 的 OnAjaxCallFinishedClientFunction
+---
+title: 使用GridWeb的OnAjaxCallFinishedClientFunction
 type: docs
 weight: 20
-url: /zh/net/using-onajaxcallfinishedclientfunction-of-gridweb/
+url: /zh/net/aspose-cells-gridweb/using-onajaxcallfinishedclientfunction-of-gridweb/
+keywords: GridWeb,ajacall,onajaxcallfinishedclientfunction,OnAjaxCallFinishedClientFunction 
+description: 本文介绍了如何在GridWeb中使用OnAjaxCallFinishedClientFunction。
 ---
+
 ## **可能的使用场景**
-OnAjaxCallFinishedClientFunction 是一个客户端函数，当用户将一些数据复制到 GridWeb 工作表时调用它。当大量单元格更新并且您希望在客户端跟踪这些更新的单元格时（即在 FireFox、Google Chrome 等网络浏览器中），此功能很有用。
-## **使用 GridWeb 的 OnAjaxCallFinishedClientFunction**
-以下示例代码解释了如何使用 OnAjaxCallFinishedClientFunction 客户端函数。屏幕截图显示了执行代码时 Google Chrome 和 FireFox 中的控制台输出。执行代码后，请在 GridWeb 工作表中复制/粘贴一些跨越多个单元格的数据，然后检查 Web 浏览器控制台，如屏幕截图所示。
-## **Google Chrome 控制台输出**
-![待办事项：图片_替代_文本](using-onajaxcallfinishedclientfunction-of-gridweb_1.png)
-## **FireFox 控制台输出**
-![待办事项：图片_替代_文本](using-onajaxcallfinishedclientfunction-of-gridweb_2.png)
+OnAjaxCallFinishedClientFunction是客户端函数，当用户将一些数据复制到GridWeb工作表时调用。当大量单元格被更新时，使用此函数会帮助您在客户端（如FireFox、Google Chrome等Web浏览器）上跟踪这些更新的单元格。
+## **使用GridWeb的OnAjaxCallFinishedClientFunction**
+以下示例代码解释了如何使用OnAjaxCallFinishedClientFunction客户端函数。当代码执行时，屏幕截图展示了在Google Chrome和FireFox中的控制台输出。执行代码后，请复制/粘贴一些跨多个单元格的数据到GridWeb工作表中，然后检查屏幕截图中所示的Web浏览器控制台。
+## **Google Chrome控制台输出**
+![todo:image_alt_text](using-onajaxcallfinishedclientfunction-of-gridweb_1.png)
+## **FireFox控制台输出**
+![todo:image_alt_text](using-onajaxcallfinishedclientfunction-of-gridweb_2.png)
 ## **示例代码**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //-------------------------------------------------------
 

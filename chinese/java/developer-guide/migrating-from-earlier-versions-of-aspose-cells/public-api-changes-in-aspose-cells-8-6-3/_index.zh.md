@@ -1,23 +1,24 @@
-﻿---
-title: 公共 API Aspose.Cells 8.6.3 的变化
+---
+title: Aspose.Cells 8.6.3 中的公共API更改
 type: docs
 weight: 230
 url: /zh/java/public-api-changes-in-aspose-cells-8-6-3/
 ---
+
 {{% alert color="primary" %}} 
 
-本文档描述了 Aspose.Cells API 从版本 8.6.2 到 8.6.3 的变化，模块/应用程序开发人员可能会感兴趣。它不仅包括新的和更新的公共方法、添加的类，还包括对 Aspose.Cells 中幕后行为的任何更改的描述。
+本文档描述了从版本 8.6.2 到 8.6.3 的 Aspose.Cells API 的更改，可能对模块/应用程序开发人员感兴趣。它不仅包括新的和更新的公共方法、添加的类，还描述了在 Aspose.Cells 后台行为中的任何更改。
 
 {{% /alert %}} 
-## **添加的 API**
-### **支持HTML边导入数据边解析**
-此版本的 Aspose.Cells for Java API 公开了 ImportTableOptions.setHtmlString 属性，该属性指示 API 在将数据导入工作表时解析 HTML 标记并将解析结果设置为单元格值。请注意，Aspose.Cells API 已经提供了 Cell.setHtmlString 属性来为单个单元格执行此任务，但是，在批量导入数据时，ImportTableOptions.setHtmlString 属性（设置为 true 时）会尝试解析所有支持的 HTML 标签和集解析结果到相应的单元格。
+## **已添加API**
+### **在导入数据时支持HTML解析**
+这个版本的Aspose.Cells for Java API暴露了ImportTableOptions.setHtmlString属性，该属性指示API在导入数据到工作表时解析HTML标记，并将解析结果设置为单元格值。请注意，Aspose.Cells API已经提供了Cell.setHtmlString属性来执行单个单元格的此任务，但是，在批量导入数据时，如果将ImportTableOptions.setHtmlString属性设置为true，则尝试解析所有受支持的HTML标记，并将解析结果设置为相应的单元格。
 
 这里是最简单的使用场景。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //create an instance of ImportTableOptions
 
@@ -32,14 +33,14 @@ importOptions.setHtmlString(true);
 cells.importData(iTable, 0, 0, importOptions);
 
 {{< /highlight >}}
-### **添加方法 Workbook.createBuiltinStyle**
- Aspose.Cells for Java 8.6.3 公开了 Workbook.createBuiltinStyle 方法，可用于创建对应于其中一个的 Style 类的对象[Excel 应用程序提供的内置样式](/cells/zh/java/using-built-in-styles/)Workbook.createBuiltinStyle 方法接受来自枚举 BuiltinStyleType 的常量。请注意，对于以前版本的 Aspose.Cells API，可以通过 StyleCollection.createBuiltinStyle 方法完成相同的任务，但由于最近版本的 Aspose.Cells API 已经删除了 StyleCollection 类，因此新公开的 Workbook.createBuiltinStyle 方法可以被视为替代方法达到同样的效果。
+### **已添加 Workbook.createBuiltinStyle 方法**
+Aspose.Cells for Java 8.6.3已经公开了Workbook.createBuiltinStyle方法，可用于创建与Excel应用程序提供的[内置样式](/cells/zh/java/using-built-in-styles/)之一对应的Style类对象。Workbook.createBuiltinStyle方法接受来自BuiltinStyleType枚举的常量。请注意，通过Aspose.Cells API的先前版本，同样的任务可以通过StyleCollection.createBuiltinStyle方法完成，但是由于Aspose.Cells API的最新版本已经移除了StyleCollection类，因此新公开的Workbook.createBuiltinStyle方法可视为实现相同功能的替代方法。
 
 以下是简单的使用场景。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -52,14 +53,14 @@ Workbook book = new Workbook();
 Style style = book.createBuiltinStyle(BuiltinStyleType.TITLE);
 
 {{< /highlight >}}
-### **属性 LoadDataOption.OnlyVisibleWorksheet 添加**
-Aspose.Cells for Java 8.6.3 公开了 LoadDataOption.OnlyVisibleWorksheet 属性，该属性在设置为 true 时会影响 Aspose.Cells for Java API 的加载机制，因此只会加载给定电子表格中的可见工作表。
+### **已添加 LoadDataOption.OnlyVisibleWorksheet 属性**
+Aspose.Cells for Java 8.6.3已经公开了LoadDataOption.OnlyVisibleWorksheet属性，设置为true时将影响Aspose.Cells for Java API的加载机制，结果将仅加载给定电子表格中可见的工作表。
 
 以下是简单的使用场景。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of LoadDataOption
 
@@ -84,8 +85,8 @@ loadOptions.setLoadDataOptions(loadDataOptions);
 Workbook book = new Workbook(inputFilePath, loadOptions);
 
 {{< /highlight >}}
-## **过时的 API**
-### **方法 Worksheet.copyConditionalFormatting 已废弃**
-作为 Worksheet.copyConditionalFormatting 方法的替代方法，建议使用任何 Cells.copyRows 或 Range.copy 方法。
-### **财产 Cells.End 废弃**
-请使用 Cells.LastCell 属性替代 Cells.End 属性。
+## **已废弃的API**
+### **已废弃 Worksheet.copyConditionalFormatting 方法**
+作为Worksheet.copyConditionalFormatting方法的替代方法，建议使用Cells.copyRows或Range.copy方法之一。
+### **已废弃 Cells.End 属性**
+请使用Cells.LastCell属性作为Cells.End属性的替代方法。

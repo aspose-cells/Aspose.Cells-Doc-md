@@ -1,44 +1,45 @@
-﻿---
-title: 电子表格编辑器 - 使用行和列
+---
+title: 电子表编辑器-行和列操作
 type: docs
 weight: 30
 url: /zh/java/spreadsheet-editor-working-with-rows-and-columns/
 ---
+
 **目录**
 
-- [添加一行](#SpreadsheetEditor-WorkingwithRowsandColumns-AddaRow) 
- WorksheetView.addRowAbove
- - WorksheetView.addRowBelow
+- [添加行](#SpreadsheetEditor-WorkingwithRowsandColumns-AddaRow) 
+  - WorksheetView.addRowAbove
+  - WorksheetView.addRowBelow
 - [添加列](#SpreadsheetEditor-WorkingwithRowsandColumns-AddaColumn) 
- WorksheetView.addColumnBefore
- - WorksheetView.addColumnAfter
+  - WorksheetView.addColumnBefore
+  - WorksheetView.addColumnAfter
 - [删除一行](#SpreadsheetEditor-WorkingwithRowsandColumns-DeleteaRow) 
- WorksheetView.deleteRow
+  - WorksheetView.deleteRow
 - [删除列](#SpreadsheetEditor-WorkingwithRowsandColumns-DeleteaColumn) 
- - WorksheetView.deleteColumn
-- [列宽和行高](#SpreadsheetEditor-WorkingwithRowsandColumns-ColumnWidthandRowHeight) 
- 工作表视图.setCurrentRowHeight
- - 工作表视图.setCurrentColumnWidth
-- [插入一个 Cell](#SpreadsheetEditor-WorkingwithRowsandColumns-InsertaCell) 
- - 工作表视图.addCellShiftRight
- - WorksheetView.addCellShiftDown
-### **添加一行**
-添加新行：
+  - WorksheetView.deleteColumn
+- [列宽度和行高度](#SpreadsheetEditor-WorkingwithRowsandColumns-ColumnWidthandRowHeight) 
+  - WorksheetView.setCurrentRowHeight
+  - WorksheetView.setCurrentColumnWidth
+- [插入单元格](#SpreadsheetEditor-WorkingwithRowsandColumns-InsertaCell) 
+  - WorksheetView.addCellShiftRight
+  - WorksheetView.addCellShiftDown
+### **添加行**
+要添加新行:
 
 1. 单击要添加行的单元格。
-1. 切换到**格式选项卡**.
-1. 点击**在上面添加行**在所选单元格上方添加一行。
-1. 点击**在下方添加行**在所选单元格下方添加一行。
+1. 切换到**格式**选项卡.
+1. 单击 **在上方添加行** 以在所选单元格上方添加行。
+1. 单击 **在下方添加行** 以在所选单元格下方添加行。
 
-编辑器将在所选位置添加一个新行。
+编辑器将在选择的位置添加新行。
 
-![待办事项：图片_替代_文本](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
-**怎么运行的？**
+**它是如何工作的？**
 
-这**在上面添加行**和**在下方添加行**由 JSF 后端 bean 处理**工作表视图**.各个方法的源码如下：
-#### **工作表视图.addRowAbove**
-{{< highlight "java" >}}
+**在上方添加行** 和 **在下方添加行** 由JSF后端bean **WorksheetView** 处理。相应方法的源代码如下:
+#### **WorksheetView.addRowAbove**
+{{< highlight java >}}
 
      public void addRowAbove() {
 
@@ -62,8 +63,8 @@ url: /zh/java/spreadsheet-editor-working-with-rows-and-columns/
 
 {{< /highlight >}}
 
-#### **工作表视图.addRowBelow**
-{{< highlight "java" >}}
+#### **WorksheetView.addRowBelow**
+{{< highlight java >}}
 
      public void addRowBelow() {
 
@@ -97,22 +98,22 @@ url: /zh/java/spreadsheet-editor-working-with-rows-and-columns/
 
 {{< /highlight >}}
 ### **添加列**
-要添加新列：
+要添加新列:
 
 1. 单击要添加列的单元格。
-1. 切换到**格式选项卡**.
-1. 点击**在前面添加列**在所选单元格之前添加一列。
-1. 点击**在之后添加列**在所选单元格后添加一列。
+1. 切换到**格式**选项卡.
+1. 单击 **在之前添加列** 以在所选单元格之前添加列。
+1. 单击 **在之后添加列** 以在所选单元格之后添加列。
 
-编辑器将在所选位置添加一个新列。
+编辑器将在选择的位置添加新列。
 
-![待办事项：图片_替代_文本](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
-**怎么运行的？**
+**它是如何工作的？**
 
-这**在前面添加列**和**在之后添加列**由 JSF 后端 bean 处理**工作表视图**.各个方法的源码如下：
-#### **工作表视图.addColumnBefore**
-{{< highlight "java" >}}
+**Add Column Before**和**Add Column After**由JSF后端bean**WorksheetView**处理。相应方法的源代码如下所示：
+#### **WorksheetView.addColumnBefore**
+{{< highlight java >}}
 
      public void addColumnBefore() {
 
@@ -137,7 +138,7 @@ url: /zh/java/spreadsheet-editor-working-with-rows-and-columns/
 {{< /highlight >}}
 
 #### **WorksheetView.addColumnAfter**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addColumnAfter() {
 
@@ -165,19 +166,19 @@ url: /zh/java/spreadsheet-editor-working-with-rows-and-columns/
 ### **删除一行**
 要删除一行：
 
-1. 单击要删除的行中的单元格。
-1. 切换到**格式选项卡**.
-1. 点击**删除行**按钮。
+1. 单击要删除行的单元格。
+1. 切换到**格式**选项卡.
+1. 单击**删除行**按钮。
 
-编辑器将删除包含所选单元格的行。
+编辑器将删除包含选定单元格的行。
 
-![待办事项：图片_替代_文本](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
-**怎么运行的？**
+**它是如何工作的？**
 
-这**删除行**按钮由 JSF 后端 bean 处理**工作表视图**使用方法**工作表视图.deleteRow**:
-#### **工作表视图.deleteRow**
-{{< highlight "java" >}}
+**删除列**按钮由JSF后端bean **WorksheetView**使用方法**WorksheetView.deleteRow**处理：
+#### **WorksheetView.deleteRow**
+{{< highlight java >}}
 
      public void deleteRow() {
 
@@ -206,18 +207,18 @@ url: /zh/java/spreadsheet-editor-working-with-rows-and-columns/
 要删除列：
 
 1. 单击要删除的列中的单元格。
-1. 切换到**格式选项卡**.
-1. 点击**删除列**按钮。
+1. 切换到**格式**选项卡.
+1. 单击**删除列**按钮。
 
-编辑器将删除包含所选单元格的列。
+编辑器将删除包含选定单元格的列。
 
-![待办事项：图片_替代_文本](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
-**怎么运行的？**
+**它是如何工作的？**
 
-这**删除列**按钮由 JSF 后端 bean 处理**工作表视图**使用方法**工作表视图.deleteColumn**:
-#### **工作表视图.deleteColumn**
-{{< highlight "java" >}}
+**删除列**按钮由JSF后端bean **WorksheetView**使用方法 **WorksheetView.deleteColumn**处理：
+#### **WorksheetView.deleteColumn**
+{{< highlight java >}}
 
      public void deleteColumn() {
 
@@ -242,34 +243,34 @@ url: /zh/java/spreadsheet-editor-working-with-rows-and-columns/
     }
 
 {{< /highlight >}}
-### **列宽和行高**
+### **列宽度和行高度**
 要更改列的宽度：
 
 1. 单击列内的任何单元格。
-1. 切换到**格式选项卡**.
-1. 点击**列宽**打开按钮**列宽**对话。
-1. 在对话框中输入新值。
-1. 点击**关**.
+1. 切换到**格式**选项卡.
+1. 单击**列宽度**按钮以打开**列宽度**对话框。
+1. 在对话框中输入新值.
+1. 单击**关闭**。
 
 编辑器将更改列的宽度。
 
-**如何改变行高？**
+**如何更改行高？**
 
-要更改行的高度：
+更改行高度:
 
-1. 单击行内的任何单元格。
-1. 切换到**格式选项卡**.
-1. 点击**行高**打开按钮**行高**对话。
-1. 在对话框中输入新值。
-1. 点击**关**.
+1. 单击行内的任意单元格.
+1. 切换到**格式**选项卡.
+1. 单击**行高**按钮以打开**行高**对话框.
+1. 在对话框中输入新值.
+1. 单击**关闭**。
 
-编辑器将更改行的高度。
+编辑器将更改行的高度.
 
-**怎么运行的？**
+**它是如何工作的？**
 
-当用户提交宽度和高度的值时，这些值在服务器端由**设置当前行高**和**设置当前列宽**JSF后端bean的方法**工作表视图**.
-#### **工作表视图.setCurrentRowHeight**
-{{< highlight "java" >}}
+当用户提交宽度和高度的值时, 这些值由JSF后端bean **WorksheetView**的**setCurrentRowHeight**和**setCurrentColumnWidth**方法处理.
+#### **WorksheetView.setCurrentRowHeight**
+{{< highlight java >}}
 
      public void setCurrentRowHeight(int height) {
 
@@ -289,8 +290,8 @@ url: /zh/java/spreadsheet-editor-working-with-rows-and-columns/
 
 {{< /highlight >}}
 
-#### **工作表视图.setCurrentColumnWidth**
-{{< highlight "java" >}}
+#### **WorksheetView.setCurrentColumnWidth**
+{{< highlight java >}}
 
      public void setCurrentColumnWidth(int width) {
 
@@ -309,21 +310,21 @@ url: /zh/java/spreadsheet-editor-working-with-rows-and-columns/
     }
 
 {{< /highlight >}}
-### **插入一个 Cell**
-添加新单元格：
+### **插入单元格**
+添加新单元格:
 
-1. 单击要新建的单元格。
-1. 切换到**插入标签**.
-1. 点击**Cell**按钮。
-1. 选择**右移 Cells**要么**向下移动 Cells**按钮。
+1. 单击您想要新单元格的地方的单元格.
+1. 切换到**插入**选项卡.
+1. 单击**单元格**按钮.
+1. 选择**右移单元格**或**向下移动单元格**按钮.
 
-编辑器将在所选位置添加一个新单元格。相邻的单元格将自动水平或垂直移动以为新单元格留出空间。
+编辑器将在所选位置添加新单元格。 相邻的单元格将自动转移，以横向或纵向创建空间.
 
-**怎么运行的？**
+**它是如何工作的？**
 
-这**右移 Cells**和**向下移动 Cells**由 JSF 后端 bean 处理**工作表视图**.各个方法的源码如下：
-#### **工作表视图.addCellShiftRight**
-{{< highlight "java" >}}
+**右移单元格**和**向下移动单元格**由JSF后端bean **WorksheetView**处理。 相应方法的源代码如下:
+#### **WorksheetView.addCellShiftRight**
+{{< highlight java >}}
 
      public void addCellShiftRight() {
 
@@ -347,8 +348,8 @@ url: /zh/java/spreadsheet-editor-working-with-rows-and-columns/
 
 {{< /highlight >}}
 
-#### **工作表视图.addCellShiftDown**
-{{< highlight "java" >}}
+#### **WorksheetView.addCellShiftDown**
+{{< highlight java >}}
 
      public void addCellShiftDown() {
 

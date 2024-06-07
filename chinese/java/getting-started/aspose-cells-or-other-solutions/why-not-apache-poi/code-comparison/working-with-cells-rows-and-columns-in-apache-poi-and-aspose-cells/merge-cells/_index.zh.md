@@ -1,15 +1,16 @@
-﻿---
-title: 合并 Cells
+---
+title: 合并单元格
 type: docs
 weight: 60
 url: /zh/java/merge-cells/
 ---
-## **Aspose.Cells - 合并 Cells**
-Cells 类有一些对该任务有用的方法。例如，merge 方法将单元格合并为指定单元格范围内的单个单元格。
+
+## **Aspose.Cells - 合并单元格**
+Cells类具有一些有用的方法。例如，merge方法将单元格合并为指定范围内的一个单元格。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a Workbook.
 
@@ -36,12 +37,12 @@ worksheet.getCells().get(5,2).setValue("This is a test of merging");
 wbk.save(dataDir + "merge_Aspose.xls");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - 合并 Cells**
-Sheet.addMergedRegion 可用于合并 Cells。
+## **Apache POI SS - HSSF XSSF - 合并单元格**
+Sheet.addMergedRegion可用于合并单元格。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -73,6 +74,6 @@ sheet.addMergedRegion(new CellRangeAddress(
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[合并和取消合并（拆分）Cells](/cells/zh/java/merging-and-unmerging-cells).
+有关更多详细信息，请访问[Merging and Unmerging (Splitting) Cells](/cells/zh/java/merging-and-unmerging-cells)。
 
 {{% /alert %}}

@@ -1,17 +1,18 @@
-﻿---
+---
 title: 设置打印标题
 type: docs
 weight: 30
 url: /zh/net/set-print-titles/
 ---
-## **Aspose.Cells - 设置打印标题**
-Aspose.Cells 允许您指定行和列标题以在打印的工作表的所有页面上重复。为此，请使用[页面设置](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)类 PrintTitleColumns 和 PrintTitleRows 属性。
 
-将重复的行或列通过传递它们的行号或列号来定义。例如，行定义为 $1:$2，列定义为 $A:$B。
+## **Aspose.Cells - 设置打印标题**
+Aspose.Cells允许您指定行和列标题以在打印的工作表的所有页面上重复。要这样做，请使用 [PageSetup](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) 类的PrintTitleColumns 和PrintTitleRows 属性。
+
+将重复的行或列由其行号或列号传递定义。例如，行定义为$1:$2，列定义为$A:$B。
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -31,12 +32,12 @@ pageSetup.PrintTitleRows= "$1:$2";
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**设置打印标题**形成以下任何一个社交编码网站：
+从以下提到的任何社交编码网站下载**设置打印标题**：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Set.Print.Titles.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[设置打印选项](/cells/zh/net/setting-print-options/).
+有关更多详细信息，请访问[设置打印选项](/cells/zh/net/setting-print-options/)。
 
 {{% /alert %}}

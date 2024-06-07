@@ -1,17 +1,18 @@
-﻿---
+---
 title: 数据格式化
 type: docs
 weight: 80
 url: /zh/java/data-formatting/
 ---
-## **Cells 中格式化数据的方法**
-一个普遍的事实是，如果工作表单元格的格式正确，那么用户就可以更轻松地阅读单元格的内容（数据）。有许多方法可以格式化单元格及其内容。最简单的方法是在创建 Designer 电子表格时在所见即所得环境中使用 Microsoft Excel 格式化单元格。创建设计器电子表格后，您可以使用 Aspose.Cells 打开电子表格，同时将所有格式设置保存在电子表格中。另一种格式化单元格及其内容的方法是使用 Aspose.Cells API。在本主题中，我们将介绍两种使用 Aspose.Cells API 格式化单元格及其内容的方法。
-### **格式化 Cells**
-开发者可以使用Aspose.Cells的灵活的API格式化单元格及其内容。Aspose.Cells提供了一个类，[工作簿](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)，代表一个 Microsoft Excel 文件。这[工作簿](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)类包含一个[工作表集合](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)允许访问 Excel 文件中的每个工作表。工作表由[工作表](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)班级。这[工作表](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)类提供了一个 Cells 集合。中的每一项[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/cells)集合代表一个对象**Cell**班级。
 
-Aspose.Cells 提供了[风格](https://reference.aspose.com/cells/java/com.aspose.cells/style)中的财产[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)类，用于设置单元格的格式样式。此外，Aspose.Cells还提供了一个[风格](https://reference.aspose.com/cells/java/com.aspose.cells/style)用于服务相同目的的类。在单元格上应用不同类型的格式样式以设置它们的背景或前景色、边框、字体、水平和垂直对齐方式、缩进级别、文本方向、旋转角度等等。
+## **在单元格中格式化数据的方法**
+如果工作表单元格正确格式化，用户更容易阅读单元格的内容（数据）是一个常见事实。 有许多格式化单元格及其内容的方法。 最简单的方法是在Microsoft Excel中使用所见即所得环境格式化单元格，同时创建设计师电子表格。 创建设计师电子表格后，您可以使用Aspose.Cells打开电子表格，保留所有格式设置与电子表格一起保存。 格式化单元格及其内容的另一种方法是使用Aspose.Cells API。 在本主题中，我们将描述使用Aspose.Cells API格式化单元格及其内容的两种方法。
+### **格式化单元格**
+开发人员可以使用 Aspose.Cells 灵活的 API 格式化单元格及其内容。Aspose.Cells 提供一个代表 Microsoft Excel 文件的 [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) 类。[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) 类包含一个 [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)，允许访问 Excel 文件中的每个工作表。 工作表由 [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) 类表示。[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) 类提供一个单元格集合。 单元格集合中的每个项目都代表一个 **Cell** 类的对象。
+
+Aspose.Cells 在[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)类中提供 [Style](https://reference.aspose.com/cells/java/com.aspose.cells/style) 属性，用于设置单元格的格式样式。此外，Aspose.Cells 还提供了一个 [Style](https://reference.aspose.com/cells/java/com.aspose.cells/style) 类，用于实现相同目的。应用不同类型的格式样式来设置单元格的背景或前景色，边框，字体，水平和垂直对齐，缩进级别，文本方向，旋转角度等。
 #### **使用 setStyle 方法**
-将不同的格式样式应用于不同的单元格时，最好使用[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)班级。下面给出了一个示例来演示如何使用 setStyle 方法在单元格上应用各种格式设置。
+在为不同单元格应用不同格式样式时，最好使用 [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)类的 setStyle 方法。下面给出一个示例，演示如何使用 setStyle 方法在单元格上应用各种格式设置。
 
 
 
@@ -23,14 +24,14 @@ Aspose.Cells 提供了[风格](https://reference.aspose.com/cells/java/com.aspos
 
 
 #### **使用样式对象**
-将相同的格式样式应用于不同的单元格时，使用[风格](https://reference.aspose.com/cells/java/com.aspose.cells/style)目的。
+在为不同单元格应用相同格式样式时，请使用 [Style](https://reference.aspose.com/cells/java/com.aspose.cells/style) 对象。
 
-1. 添加一个[风格](https://reference.aspose.com/cells/java/com.aspose.cells/style)的样式集合的对象[工作簿](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)通过调用 Workbook 类的 createStyle 方法来创建类。
-1. 从 Styles 集合访问新添加的 Style 对象。
-1. 设置 Style 对象的所需属性以应用所需的格式设置。
-1. 将配置的 Style 对象分配给任何所需单元格的 Style 属性。
+1. 通过调用 Workbook 类的 createStyle 方法将 [Style](https://reference.aspose.com/cells/java/com.aspose.cells/style) 对象添加到 [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) 类的样式集合中。
+1. 从样式集合中访问新增的样式对象。
+1. 设置样式对象的所需属性，以应用所需的格式设置。
+1. 将配置的样式对象分配给任何所需单元格的 Style 属性。
 
-这种方法可以大大提高应用程序的效率并节省内存。
+这种方法可以极大地提高您的应用程序的效率，并节省内存。
 
 
 
@@ -42,13 +43,13 @@ Aspose.Cells 提供了[风格](https://reference.aspose.com/cells/java/com.aspos
 
 
 #### **应用渐变填充效果**
-要将所需的渐变填充效果应用到单元格，请相应地使用 Style 对象的 setTwoColorGradient 方法。
+要向单元格应用所需的梯度填充效果，请相应地使用样式对象的 setTwoColorGradient 方法。
 #### **代码示例**
-以下输出是通过执行下面的代码实现的。
+通过执行以下代码可实现以下输出。 
 
 **应用渐变填充效果** 
 
-![待办事项：图片_替代_文本](data-formatting_1.png)
+![todo:image_alt_text](data-formatting_1.png)
 
 
 
@@ -60,55 +61,55 @@ Aspose.Cells 提供了[风格](https://reference.aspose.com/cells/java/com.aspos
 
 
 ## **配置对齐设置**
-用过Microsoft Excel格式化单元格的人都会熟悉Microsoft Excel中的对齐设置。
+任何使用Microsoft Excel格式化单元格的人都将熟悉Microsoft Excel中的对齐设置。
 
-**Microsoft Excel 中的对齐设置** 
+**Microsoft Excel中的对齐设置** 
 
-![待办事项：图片_替代_文本](data-formatting_2.png)
+![todo:image_alt_text](data-formatting_2.png)
 
-从上图可以看出，有不同种类的对齐选项：
+如您从上图看到的，有不同种类的对齐选项：
 
-- [文本对齐](/cells/zh/java/data-formatting/)（水平垂直）
-- [缩进](/cells/zh/java/data-formatting/).
-- [方向](/cells/zh/java/data-formatting/).
-- [文本控件](/cells/zh/java/data-formatting/).
-- [文字方向](/cells/zh/java/data-formatting/).
+- [文本对齐](/cells/zh/java/data-formatting/)（水平和垂直）
+- [缩进](/cells/zh/java/data-formatting/)
+- [方向](/cells/zh/java/data-formatting/)
+- [文本控制](/cells/zh/java/data-formatting/)
+- [文本方向](/cells/zh/java/data-formatting/)
 
-Aspose.Cells 完全支持所有这些对齐设置，并在下面进行更详细的讨论。
+Aspose.Cells完全支持所有这些对齐设置，并在下面更详细地讨论。
 ### **配置对齐设置**
-Aspose.Cells提供了一个类，[工作簿](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) 表示一个 Excel 文件。 Workbook 类包含一个 WorksheetCollection，它允许访问 Excel 文件中的每个工作表。工作表由[工作表](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)班级。
+Aspose.Cells 提供一个代表 Excel 文件的 [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) 类。 [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)类包含一个允许访问 Excel 文件中每个工作表的 WorksheetCollection。 工作表由 [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) 类表示。
 
-Worksheet 类提供了一个 Cells 集合。 Cells 集合中的每个项目代表[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)班级。
+Worksheet 类提供一个单元格集合。 单元格集合中的每个项目都代表 [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) 类的对象。
 
-Aspose.Cells 中提供了setStyle方法[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)用于单元格格式的类。这[风格](https://reference.aspose.com/cells/java/com.aspose.cells/style)类提供用于配置字体设置的有用属性。
+Aspose.Cells 在 [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) 类中提供了 [Style](https://reference.aspose.com/cells/java/com.aspose.cells/style) 类的 setStyle 方法，用于单元格的格式设置。[Style](https://reference.aspose.com/cells/java/com.aspose.cells/style) 类提供了用于配置字体设置的有用属性。
 
-使用 TextAlignmentType 枚举选择任何文本对齐类型。 TextAlignmentType 枚举中的预定义文本对齐类型是：
+使用 TextAlignmentType 枚举选择任何文本对齐类型。 TextAlignmentType 枚举中的预定义文本对齐类型有：
 
 |**文本对齐类型**|**描述**|
-|:- |:- |
-|底部|表示底部文本对齐|
-|中心|表示居中文本对齐|
-|跨中心|表示跨文本居中对齐|
-|分散式|表示分布式文本对齐|
-|充满|表示填充文本对齐方式|
-|一般的|表示一般文本对齐方式|
-|证明合法|表示对齐文本对齐|
-|剩下|表示文本左对齐|
-|正确的|表示文本右对齐|
-|最佳|表示顶部文本对齐|
+| :- | :- |
+|Bottom|代表底部文本对齐|
+|Center|代表居中文本对齐|
+|CenterAcross|代表跨越式居中文本对齐|
+|Distributed|代表分布式文本对齐|
+|Fill|代表填充文本对齐|
+|General|代表一般文本对齐|
+|Justify|代表两端对齐文本对齐|
+|Left|代表左文本对齐|
+|Right|代表右文本对齐|
+|Top|代表顶部文本对齐|
 {{% alert color="primary" %}} 
 
-您还可以使用 Style.setJustifyDistributed() 方法应用对齐分布式设置。
+您还可以使用 Style.setJustifyDistributed() 方法应用分散对齐设置。
 
 {{% /alert %}} 
 #### **水平对齐**
-使用[风格](https://reference.aspose.com/cells/java/com.aspose.cells/style)对象的 setHorizontalAlignment 方法来水平对齐文本。
+使用 [Style](https://reference.aspose.com/cells/java/com.aspose.cells/style) 对象的 setHorizontalAlignment 方法将文本水平对齐。
 
-以下输出是通过执行下面的示例代码实现的：
+通过执行以下示例代码，可实现以下输出：
 
-**水平对齐文本** 
+**将文本水平对齐** 
 
-![待办事项：图片_替代_文本](data-formatting_3.png)
+![todo:image_alt_text](data-formatting_3.png)
 
 
 
@@ -120,13 +121,13 @@ Aspose.Cells 中提供了setStyle方法[Cell](https://reference.aspose.com/cells
 
 
 #### **垂直对齐**
-使用[风格](https://reference.aspose.com/cells/java/com.aspose.cells/style)对象的 setVerticalAlignment 方法来垂直对齐文本。
+使用[Style](https://reference.aspose.com/cells/java/com.aspose.cells/style)对象的setVerticalAlignment方法来垂直对齐文本。
 
-当 VerticalAlignment 设置为 center 时，会实现以下输出。
+当VerticalAlignment设置为居中时，可以实现以下输出。
 
-**垂直对齐文本** 
+**将文本垂直对齐** 
 
-![待办事项：图片_替代_文本](data-formatting_4.png)
+![todo:image_alt_text](data-formatting_4.png)
 
 
 
@@ -138,13 +139,13 @@ Aspose.Cells 中提供了setStyle方法[Cell](https://reference.aspose.com/cells
 
 
 ### **缩进**
-可以通过使用设置单元格中文本的缩进级别[风格](https://reference.aspose.com/cells/java/com.aspose.cells/style)对象的 setIndentLevel 方法。
+通过使用[Style](https://reference.aspose.com/cells/java/com.aspose.cells/style)对象的setIndentLevel方法，可以设置单元格中文本的缩进级别。
 
-当 IndentLevel 设置为 2 时，将实现以下输出。
+当IndentLevel设置为2时，可以实现以下输出。
 
-**缩进级别调整为 2** 
+**缩进级别调整为2** 
 
-![待办事项：图片_替代_文本](data-formatting_5.png)
+![todo:image_alt_text](data-formatting_5.png)
 
 
 
@@ -156,13 +157,13 @@ Aspose.Cells 中提供了setStyle方法[Cell](https://reference.aspose.com/cells
 
 
 ### **方向**
-设置单元格中文本的方向（旋转）[风格](https://reference.aspose.com/cells/java/com.aspose.cells/style)对象的 setRotationAngle 方法。
+使用[Style](https://reference.aspose.com/cells/java/com.aspose.cells/style)对象的setRotationAngle方法来设置单元格中文本的方向（旋转角度）。
 
-旋转角度设置为25时实现如下输出。
+当旋转角度设置为25时，可以实现以下输出。
 
-**旋转角度设置为 25** 
+**旋转角度设置为25** 
 
-![待办事项：图片_替代_文本](data-formatting_6.png)
+![todo:image_alt_text](data-formatting_6.png)
 
 
 
@@ -173,18 +174,18 @@ Aspose.Cells 中提供了setStyle方法[Cell](https://reference.aspose.com/cells
 
 
 
-### **文字控制**
-以下部分讨论如何通过设置文本换行、收缩以适合和其他格式设置选项来控制文本。
-#### **环绕文字**
-在单元格中环绕文本使其更易于阅读：单元格的高度会调整以适合所有文本，而不是将其切断或溢出到相邻的单元格中。
+### **文本控制**
+以下部分讨论如何通过设置文本换行、适应和其他格式设置选项来控制文本。
+#### **文本换行**
+在单元格中换行文本使得阅读更容易：单元格的高度会调整以适应所有的文本，而不是截断或溢出到相邻单元格。
 
-使用[风格](https://reference.aspose.com/cells/java/com.aspose.cells/style)对象的 setTextWrapped 方法。
+使用[Style](https://reference.aspose.com/cells/java/com.aspose.cells/style)对象的setTextWrapped方法来打开或关闭文本换行。
 
-启用文本换行时会实现以下输出。
+当启用文本换行时，可以实现以下输出。
 
-**文本包裹在单元格内** 
+**文本在单元格内换行** 
 
-![待办事项：图片_替代_文本](data-formatting_7.png)
+![todo:image_alt_text](data-formatting_7.png)
 
 
 
@@ -195,14 +196,14 @@ Aspose.Cells 中提供了setStyle方法[Cell](https://reference.aspose.com/cells
 
 
 
-#### **收缩以适应**
-在字段中换行文本的一个选项是缩小文本大小以适合单元格的尺寸。这是通过设置[风格](https://reference.aspose.com/cells/java/com.aspose.cells/style)对象的 IsTextWrapped 属性为**真的**.
+#### **缩小以适应**
+在字段中换行文本的选项是缩小文本大小以适应单元格尺寸。方法是将[Style](https://reference.aspose.com/cells/java/com.aspose.cells/style)对象的IsTextWrapped属性设置为**true**。
 
-当文本缩小以适合单元格时，将实现以下输出。
+当将文本缩小以适应单元格时，可以实现以下输出。
 
-**文本缩小以适合单元格的边界** 
+**文本缩小以适应单元格边界** 
 
-![待办事项：图片_替代_文本](data-formatting_8.png)
+![todo:image_alt_text](data-formatting_8.png)
 
 
 
@@ -213,20 +214,20 @@ Aspose.Cells 中提供了setStyle方法[Cell](https://reference.aspose.com/cells
 
 
 
-#### **合并 Cells**
+#### **合并单元格**
 与Microsoft Excel一样，Aspose.Cells支持将多个单元格合并为一个单元格。
 
-如果合并第一行中的三个单元格以创建一个大的单个单元格，则会实现以下输出。
+如果将第一行中的三个单元格合并成一个大单元格，则可以实现以下输出。
 
 **三个单元格合并成一个大单元格** 
 
-![待办事项：图片_替代_文本](data-formatting_9.png)
+![todo:image_alt_text](data-formatting_9.png)
 
-使用[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/cells)collection 的 Merge 方法来合并单元格。 Merge 方法采用以下参数：
+使用[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/cells)集合的Merge方法来合并单元格。Merge方法接受以下参数：
 
-- 第一行，从哪里开始合并的第一行。
-- 第一列，从哪里开始合并的第一列。
-- Number of rows，要合并的行数。
+- 第一行，从哪一行开始合并。
+- 第一列，从哪一列开始合并。
+- 行数，要合并的行数。
 - 列数，要合并的列数。
 
 
@@ -238,16 +239,16 @@ Aspose.Cells 中提供了setStyle方法[Cell](https://reference.aspose.com/cells
 
 
 
-### **文字方向**
-可以设置单元格中文本的阅读顺序。阅读顺序是显示字符、单词等的视觉顺序。例如，英语是从左到右的语言，而阿拉伯语是从右到左的语言。
+### **文本方向**
+可以设置单元格文本的阅读顺序。阅读顺序是显示字符、单词等的视觉顺序。例如，英语是一种从左到右的语言，而阿拉伯语是一种从右到左的语言。
 
-阅读顺序设置为[风格](https://reference.aspose.com/cells/java/com.aspose.cells/style)对象的 TextDirection 属性。 Aspose.Cells 在 TextDirectionType 枚举中提供预定义的文本方向类型。
+阅读顺序通过[Style](https://reference.aspose.com/cells/java/com.aspose.cells/style)对象的TextDirection属性设置。Aspose.Cells在TextDirectionType枚举中提供了预定义的文本方向类型。
 
 |**文本方向类型**|**描述**|
-|:- |:- |
-|语境|与第一个输入字符的语言一致的阅读顺序|
-|左到右|从左到右的阅读顺序|
-|右到左|从右到左的阅读顺序|
+| :- | :- |
+|Context|与第一个输入字符的语言一致的阅读顺序|
+|LeftToRight|从左到右的阅读顺序|
+|RightToLeft|从右到左的阅读顺序|
 
 
 
@@ -260,28 +261,28 @@ Aspose.Cells 中提供了setStyle方法[Cell](https://reference.aspose.com/cells
 
 
 
-如果将文本的阅读顺序设置为从右到左，则会实现以下输出。
+如果将文本的阅读顺序设置为从右到左，则可以实现以下输出。
 
 **将文本阅读顺序设置为从右到左** 
 
-![待办事项：图片_替代_文本](data-formatting_10.png)
-## **格式化 Cell 中的选定字符**
-[处理字体设置](/cells/zh/java/dealing-with-font-settings/)解释了如何格式化单元格，但仅解释了如何格式化整个单元格的内容。如果您只想格式化选定的字符怎么办？
+![todo:image_alt_text](data-formatting_10.png)
+## **格式化单元格中的选定字符**
+[处理字体设置](/cells/zh/java/dealing-with-font-settings/)解释了如何格式化单元格，但只讲解了如何格式化整个单元格的内容。如果您只想格式化选定的字符，该怎么办？
 
-Aspose.Cells 支持此功能。本主题说明如何使用此功能。
-### **格式化所选字符**
-Aspose.Cells提供了一个类，[工作簿](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)，代表一个 Microsoft Excel 文件。 Workbook 类包含一个 Worksheets 集合，允许访问 Excel 文件中的每个工作表。工作表由[工作表](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)班级。 Worksheet 类提供了一个 Cells 集合。 Cells 集合中的每个项目代表[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)班级。
+Aspose.Cells 支持此功能。本主题解释了如何使用此功能。
+### **格式化选定的字符**
+Aspose.Cells提供了一个类，[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)，代表一个Microsoft Excel文件。Workbook类包含一个Worksheets集合，允许访问Excel文件中的每个工作表。一个工作表由[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)类表示。Worksheet类提供了一个Cells集合。Cells集合中的每个条目代表一个[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)类的对象。
 
-Cell 类提供了字符方法，该方法采用以下参数来选择单元格中的字符范围：
+Cell类提供了一个characters方法，该方法接受以下参数选定单元格中一系列字符的范围：
 
-- **起始索引**开始选择的字符的索引。
-- **字符数**要选择的字符数。
+- **起始索引**，开始选择的字符的索引。
+- **字符数**，要选择的字符数。
 
-在输出文件的 A1" 单元格中，单词 'Visit' 的格式为默认字体，但为 'Aspose!'是粗体和蓝色。
+在输出文件中，A1" 单元格中，'Visit' 一词使用默认字体格式，但 'Aspose!' 是粗体且为蓝色。
 
-**格式化所选字符** 
+**格式化选定的字符** 
 
-![待办事项：图片_替代_文本](data-formatting_11.png)
+![todo:image_alt_text](data-formatting_11.png)
 
 
 
@@ -297,23 +298,23 @@ Cell 类提供了字符方法，该方法采用以下参数来选择单元格中
 
 {{% alert color="primary" %}} 
 
-如果你有兴趣[在[单元格]中格式化部分富文本](/cells/zh/java/access-and-update-the-portions-of-rich-text-of-cell/) 考虑使用 Cell.getCharacters & Cell.setCharacters 方法。 Cell.getCharacters 方法用于访问文本部分，然后可以使用 Cell.setCharacters 方法进行修改，而**得到**方法返回一个 FontSetting 对象数组，可以对其进行操作以设置各种属性字体名称、字体颜色、粗体等，以及**放**方法可用于应用更改。
+如果您有兴趣[格式化单元格中的富文本的一部分](/cells/zh/java/access-and-update-the-portions-of-rich-text-of-cell/)，考虑使用Cell.getCharacters和Cell.setCharacters方法。Cell.getCharacters方法用于访问文本的各个部分，然后可以使用Cell.setCharacters方法进行修改，而**获取**方法返回一个FontSetting对象数组，可以进行设置各种属性的字体名称，字体颜色，粗体等，**设置**方法可以用于应用更改。
 
 {{% /alert %}} 
-## **激活工作表并激活 Cell 或在工作表中选择范围 Cells**
-有时，您可能需要激活一个特定的工作表，以便当有人在 Microsoft Excel 中打开文件时首先显示它。您可能还需要以滚动条滚动到活动单元格以便清晰可见的方式激活特定单元格。 Aspose.Cells 能够完成上述所有任务。
+## **激活工作表并将活动单元格或选择工作表中的单元格范围**
+有时，您可能需要激活特定工作表，使其在Microsoft Excel中打开文件时首先显示。您还可能需要激活特定单元格，使滚动条滚动到活动单元格，以便它清楚可见。Aspose.Cells能够执行所有上述任务。
 
-活动工作表是您在工作簿中处理的工作表。默认情况下，活动工作表选项卡上的名称为粗体。同时，活动单元格是选中的单元格，当您开始键入时，数据会输入到该单元格中。一次只有一个细胞处于活动状态。活动单元格被粗边框包围，使其与其他单元格相对照。 Aspose.Cells 还允许您在工作表中选择一系列单元格。
-### **激活工作表并激活 Cell**
-Aspose.Cells 为这些任务提供了特定的 API。例如，WorksheetCollection.setActiveSheetIndex 方法对于设置活动工作表很有用。同样，Worksheet.setActiveCell 方法用于设置和获取工作表中的活动单元格。
+活动工作表是工作簿中正在处理的工作表。活动工作表的标签名称默认为粗体。而活动单元格是您选择的单元格，在开始输入数据时将数据输入其中。每次只有一个单元格是活动的。活动单元格周围有粗边框，以使其在其他单元格之间显示。Aspose.Cells还允许您在工作表中选择一系列单元格。
+### **激活工作表并使单元格活动**
+Aspose.Cells为这些任务提供了特定的API。例如，WorksheetCollection.setActiveSheetIndex方法用于设置活动工作表。类似地，Worksheet.setActiveCell方法用于在工作表中设置和获取活动单元格。
 
-如果您希望在 Microsoft Excel 中打开文件时将水平和垂直滚动条滚动到行和列索引位置以便更好地查看所选数据，请使用 Worksheet.setFirstVisibleRow 和 Worksheet.setFirstVisibleColumn 属性。
+如果您希望在Microsoft Excel中打开文件时，水平和垂直滚动条滚动到行和列索引位置，以便查看选定数据，可以使用Worksheet.setFirstVisibleRow和Worksheet.setFirstVisibleColumn属性。
 
-以下示例显示如何激活工作表并使其中的单元格处于活动状态。滚动条滚动使第 2 行和第 2 列成为它们的第一个可见行和列。
+以下示例展示了如何激活工作表并使其中的一个单元格活动。滚动条被滚动到使第2行和第2列为其第一个可见行和列。
 
-**将 B2 单元格设置为活动单元格** 
+**将B2单元格设置为活动单元格** 
 
-![待办事项：图片_替代_文本](data-formatting_12.png)
+![todo:image_alt_text](data-formatting_12.png)
 
 
 
@@ -324,10 +325,10 @@ Aspose.Cells 为这些任务提供了特定的 API。例如，WorksheetCollectio
 
 
 
-#### **在工作表中选择范围 Cells**
-Aspose.Cells 提供方法 Worksheet.selectRange(int startRow, int startColumn, int totalRows, int totalColumns, bool removeOthers)。使用最后一个参数 - removeOthers - 为 true，删除工作表中的其他单元格或单元格范围选择。
+#### **选择工作表中的一系列单元格**
+Aspose.Cells提供了方法Worksheet.selectRange(int startRow, int startColumn, int totalRows, int totalColumns, bool removeOthers)。使用最后一个参数 - removeOthers - 为true，将删除工作表中其他单元格或单元格范围的选择。
 
-下面的示例演示如何在活动工作表中选择一系列单元格。
+以下示例展示了如何在活动工作表中选择一系列单元格。
 
 
 
@@ -343,23 +344,23 @@ Aspose.Cells 提供方法 Worksheet.selectRange(int startRow, int startColumn, i
 
 {{% alert color="primary" %}} 
 
-上述所有类和方法在 Aspose.Cells 的许可版本中可用。
+所有上述类和方法均适用于Aspose.Cells的许可版本。
 
 {{% /alert %}} 
 ## **格式化行和列**
-格式化电子表格中的行和列以使报告看起来更美观可能是 Excel 应用程序使用最广泛的功能。 Aspose.Cells API 还通过其数据模型通过公开 Style 类提供此功能，该类主要处理所有与样式相关的功能，例如字体及其属性、文本对齐、背景/前景色、边框、数字和日期文字的显示格式等. Aspose.Cells API 提供的另一个有用的类是 StyleFlag，它允许 Style 对象的可重用性。
+在电子表格中格式化行和列，以使报告具有外观，可能是Excel应用程序最广泛使用的功能。Aspose.Cells API还通过其数据模型提供此功能，通过公开处理所有样式相关功能的Style类，如字体及其属性，文本对齐，背景/前景颜色，边框，数字和日期文本的显示格式等。Aspose.Cells API提供的另一个有用类是StyleFlag，允许重复使用Style对象。 
 
-在本文中，我们将尝试解释如何使用 Aspose.Cells for Java API 将格式应用于行和列。
+在本文中，我们将尝试解释如何使用Aspose.Cells for Java API为行和列应用格式。 
 ### **格式化行和列**
-Aspose.Cells提供了一个类，[工作簿](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)表示 Microsoft Excel 文件。这[工作簿](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)类包含一个 WorksheetCollection，它允许访问 Excel 文件中的每个工作表。工作表由 Worksheet 类表示。这[工作表](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)类提供 Cells 集合。 Cells 集合提供了一个 Rows 集合。
-#### **格式化一行**
-Rows 集合中的每一项都代表一个 Row 对象。 Row 对象提供用于将格式应用到行的 applyStyle 方法。
+Aspose.Cells提供了一个类，[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)，代表一个Microsoft Excel文件。[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)类包含一个WorksheetCollection，允许访问Excel文件中的每个工作表。一个工作表由Worksheet类表示。[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)类提供了Cells集合。Cells集合提供了Rows集合。
+#### **格式化行**
+Rows集合中的每个项代表一个行对象。Row对象提供了applyStyle方法，用于将格式应用于行。
 
-要对一行应用相同的格式，请使用 Style 对象：
+要将相同的格式应用于一行，使用Style对象：
 
-1. 通过调用其 createStyle 方法将 Style 对象添加到 Workbook 类。
-1. 设置 Style 对象属性以应用格式设置。
-1. 将配置的 Style 对象分配给 Row 对象的 applyStyle 方法。
+1. 通过调用其createStyle方法将Style对象添加到Workbook类。
+2. 设置Style对象属性以应用格式设置。
+1. 将配置的Style对象分配给Row对象的applyStyle方法。
 
 
 
@@ -371,7 +372,7 @@ Rows 集合中的每一项都代表一个 Row 对象。 Row 对象提供用于�
 
 
 #### **格式化列**
-Cells 集合提供了一个 Columns 集合。 Columns 集合中的每一项都代表一个 Column 对象。与 Row 对象类似，Column 对象提供了用于设置列格式的 applyStyle 方法。使用 Column 对象的 applyStyle 方法以与行相同的方式格式化列。
+Cells集合提供了一个Columns集合。 Columns集合中的每个项目代表一个Column对象。类似于Row对象，Column对象提供了applyStyle方法，用于设置列格式。使用Column对象的applyStyle方法来为列设置格式，方法与为行格式化方式相同。
 
 
 
@@ -382,8 +383,8 @@ Cells 集合提供了一个 Columns 集合。 Columns 集合中的每一项都�
 
 
 
-#### **为行和列设置 Numbers 和日期的显示格式**
-如果要求为完整的行或列设置数字和日期的显示格式，那么该过程或多或少与上面讨论的相同，但是，不是为文本内容设置参数，而是为数字设置格式和日期使用 Style.Number 或 Style.Custom。请注意，Style.Number 属性是整数类型，指的是内置数字和日期格式，而 Style.Custom 属性是字符串类型，接受有效模式。
+#### **设置行和列的数字和日期显示格式**
+如果需要为整个行或列设置数字和日期的显示格式，则过程与上文讨论的大致相同，但是，而不是为文本内容设置参数，您将使用Style.Number或Style.Custom设置数字和日期的格式。 请注意，Style.Number属性为整数类型，指的是内置的数字和日期格式，而Style.Custom属性为字符串类型，接受有效的模式。
 
 
 
@@ -399,6 +400,6 @@ Cells 集合提供了一个 Columns 集合。 Columns 集合中的每一项都�
 
 {{% alert color="primary" %}} 
 
-请查看详细文章[设置Numbers和[日期]的显示格式](/cells/zh/java/data-formatting/).
+请查看关于[设置数字和日期显示格式的详细文章](/cells/zh/java/data-formatting/)
 
 {{% /alert %}}

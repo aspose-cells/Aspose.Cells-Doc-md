@@ -1,12 +1,13 @@
-﻿---
+---
 title: 打开文本文件作为工作簿
 type: docs
 weight: 180
 url: /zh/net/open-text-files-as-workbooks/
 ---
-下面是将文本文件打开为工作簿的比较代码示例：
+
+以下是比较代码示例，用于将文本文件作为工作簿打开：
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
      this.Application.Workbooks.OpenText(@"OpenTextFilesAsWorkbooks.txt",
 
@@ -22,7 +23,7 @@ url: /zh/net/open-text-files-as-workbooks/
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
     private static string fileName = "OpenTextFilesAsWorkbooks.xlsx";
 
@@ -37,5 +38,5 @@ url: /zh/net/open-text-files-as-workbooks/
    newWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **下载**
+##**下载**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/OpenTextFilesAsWorkbooks.Aspose.Cells.zip)

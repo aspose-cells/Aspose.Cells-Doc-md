@@ -1,16 +1,17 @@
-﻿---
-title: 在 Ruby 中管理工作表
+---
+title: 在Ruby中管理工作表
 type: docs
 weight: 10
 url: /zh/java/managing-worksheets-in-ruby/
 ---
+
 ## **Aspose.Cells - 管理工作表**
-### **将工作表添加到新的 Excel 文件**
-使用以下方法将工作表添加到新的 Excel 文件**Aspose.Cells Java 红宝石** 只需调用**添加工作表**的方法**管理工作表**模块。
+### **向新的Excel文件中添加工作表**
+要使用**Aspose.Cells Java for Ruby**将工作表添加到新的Excel文件中，只需调用**MangingWorksheets**模块的**add_worksheet**方法。
 
-**红宝石代码**
+**Ruby代码**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def add_worksheet()
 
@@ -39,12 +40,12 @@ url: /zh/java/managing-worksheets-in-ruby/
 end 
 
 {{< /highlight >}}
-### **将工作表添加到 Designer 电子表格**
-将工作表添加到设计器电子表格的过程与上述方法完全相同，只是 Excel 文件已经创建，我们需要先打开该 Excel 文件，然后再将工作表添加到其中。
+### **向设计者电子表格添加工作表**
+向设计者电子表格添加工作表的过程与上述方法完全相同，唯一不同的是Excel文件已经创建，我们需要先打开该Excel文件，然后再向其中添加工作表。
 
-**红宝石代码**
+**Ruby代码**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def add_worksheet_to_designer_spreadsheet()
 
@@ -76,11 +77,11 @@ end  
 
 {{< /highlight >}}
 ### **使用工作表名称访问工作表**
-要按工作表名称访问工作表，请使用**Aspose.Cells Java 红宝石** 只需调用**获取工作表**的方法**管理工作表**模块。
+要使用**Aspose.Cells Java for Ruby**通过工作表名称访问工作表，只需调用**MangingWorksheets**模块的**get_worksheet**方法。
 
-**红宝石代码**
+**Ruby代码**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def get_worksheet()
 
@@ -101,12 +102,12 @@ end  
 end
 
 {{< /highlight >}}
-### **使用工作表名称删除工作表**
-要使用工作表名称删除工作表**Aspose.Cells Java 红宝石** 只需调用**按名称删除工作表**的方法**管理工作表**模块。
+### **使用表名删除工作表**
+要使用**Aspose.Cells Java for Ruby**通过工作表名称删除工作表，只需调用**MangingWorksheets**模块的**remove_worksheet_by_name**方法。
 
-**红宝石代码**
+**Ruby代码**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_worksheet_by_name()
 
@@ -139,11 +140,11 @@ end
 
 {{< /highlight >}}
 ### **使用工作表索引删除工作表**
-要按工作表索引删除工作表，请使用**Aspose.Cells Java 红宝石** 只需调用**按索引删除工作表**的方法**管理工作表**模块。
+要使用**Aspose.Cells Java for Ruby**通过工作表索引删除工作表，只需调用**MangingWorksheets**模块的**remove_worksheet_by_index**方法。
 
-**红宝石代码**
+**Ruby代码**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_worksheet_by_index()
 
@@ -175,6 +176,6 @@ end 
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**管理工作表 (Aspose.Cells)**来自以下任何社交编码网站：
+从下面列出的任何社交编码站点下载**管理工作表（Aspose.Cells）**。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/managingworksheets.rb)

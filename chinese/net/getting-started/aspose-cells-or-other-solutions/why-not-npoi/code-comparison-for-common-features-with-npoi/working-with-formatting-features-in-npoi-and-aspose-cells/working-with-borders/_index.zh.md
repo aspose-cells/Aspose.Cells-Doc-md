@@ -1,13 +1,14 @@
-﻿---
-title: 使用边框
+---
+title: 处理边框
 type: docs
 weight: 10
 url: /zh/net/working-with-borders/
 ---
+
 ## **Aspose.Cells - 使用边框**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -35,10 +36,10 @@ workbook.Save("test.xlsx", SaveFormat.Xlsx); //Workbooks can be saved in many fo
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - 使用边界**
+## **NPOI - HSSF XSSF - 使用边框**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -80,12 +81,12 @@ sw.Close();
 
 {{< /highlight >}}
 ## **下载运行代码**
-下载**使用边框**形成以下任何一个社交编码网站：
+从以下社交编码网站之一下载**使用边框**：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.1/Working.With.Borders.zip)
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[数据格式化功能](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
+欲了解更多详情，请访问[数据格式设置功能](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting)。
 
 {{% /alert %}}

@@ -1,26 +1,27 @@
-﻿---
-title: 在 VSTO 和 Aspose.Cells 中设置工作表的背景图片
+---
+title: 在VSTO和Aspose.Cells中设置工作表的背景图片
 type: docs
 weight: 220
 url: /zh/net/set-background-picture-of-a-worksheet-in-vsto-and-aspose-cells/
 ---
-要将背景图像应用到电子表格：
 
-1. 创建工作簿并访问要应用背景图像的工作表。
-1. 应用背景图像。
-1. 保存工作簿。
+要将背景图应用于电子表格:
 
-下面的代码示例展示了如何首先使用 VSTO 执行此操作，使用 C# 或 Visual Basic，然后使用 Aspose.Cells for .NET，再次使用 C# 或 Visual Basic。
+1. 创建一个工作簿并访问要应用背景图的工作表.
+1. 应用背景图.
+1. 保存工作簿.
 
-本文中的代码示例创建了一个具有重复背景图像的工作表，如下面的屏幕截图所示。
+接下来的代码示例展示了首先在VSTO中执行这些步骤的方式，使用C#或Visual Basic，然后在Aspose.Cells for .NET中执行，同样使用C#或Visual Basic.
 
-![待办事项：图片_替代_文本](picture1.png)
+本文中的代码示例创建了一个带有重复背景图片的工作表，如下方截图中的工作表.
 
-已为工作表设置背景。
+![todo:image_alt_text](picture1.png)
+
+已为工作表设置了背景.
 
 ## **VSTO**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -50,7 +51,7 @@ ExcelApp.Quit();
 
 ## **Aspose.Cells**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -70,7 +71,7 @@ FileStream fs = File.OpenRead(ImageUrl);
 
 //Define a byte array.
 
-byte[]imageData = new Byte[fs.Length];
+byte[] imageData = new Byte[fs.Length];
 
 //Obtain the picture into the array of bytes from streams.
 
@@ -93,5 +94,5 @@ workbook.Save("BackgroundPicBook.xls");
 ## **下载示例代码**
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Set.Background.Picture.of.a.Worksheet.Aspose.Cells.zip)
-- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Set%20Background%20Picture%20of%20a%20Worksheet%20\(Aspose.Cells\).zip/下载）
-- [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Set%20Background%20Picture%20of%20a%20Worksheet%20\(Aspose.Cells\)。压缩）
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Set%20Background%20Picture%20of%20a%20Worksheet%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Set%20Background%20Picture%20of%20a%20Worksheet%20\(Aspose.Cells\).zip)

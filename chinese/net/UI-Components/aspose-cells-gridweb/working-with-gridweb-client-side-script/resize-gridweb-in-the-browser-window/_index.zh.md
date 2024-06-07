@@ -1,22 +1,25 @@
-﻿---
-title: 在浏览器窗口中调整 GridWeb 的大小
+---
+title: 调整浏览器窗口中的GridWeb大小
 type: docs
 weight: 40
-url: /zh/net/resize-gridweb-in-the-browser-window/
+url: /zh/net/aspose-cells-gridweb/resize-gridweb-in-the-browser-window/
+keywords: GridWeb，调整大小
+description: 本文介绍了如何在GridWeb中调整大小。
 ---
-## **可能的使用场景**
-有时你想要 Aspose.Cells.GridWeb 应该根据浏览器窗口调整自己的大小。您可能需要 GridWeb 应始终调整其大小（高度、宽度）并与浏览器窗口的大小兼容。 Aspose.Cells.GridWeb提供客户端*调整大小()*为目的而发挥作用。此外，您甚至可以使 GridWeb 控件在浏览器窗口中调整大小。例如，您可以使用右下角的手柄（通过鼠标）来自定义其在窗口中的宽度/高度。您还需要包含/指定 jquery Javascript 文件，以使其在项目的页面源中工作。
-## **使用 GridWeb 的调整大小方法**
-以下代码将检查是否每 100 毫秒发生一次调整大小操作。当没有更多的调整大小动作时，它认为调整大小操作现在已经完成。我们使用导入到 GridWeb 中的示例模板文件。我们使用客户端代码来调整 GridWeb 的大小。屏幕截图显示 GridWeb 在调整浏览器窗口大小时相应地调整自身大小。
 
-![待办事项：图片_替代_文本](resize-gridweb-in-the-browser-window_1.png)
+## **可能的使用场景**
+有时您希望Aspose.Cells.GridWeb应该根据浏览器窗口重新调整大小。您可能需要GridWeb始终调整其大小（高度、宽度）并与浏览器窗口的大小兼容。Aspose.Cells.GridWeb提供了用于此目的的客户端*resize()*函数。此外，您甚至可以使GridWeb控件在浏览器窗口中可调整大小。例如，您可以使用底部右侧手柄（通过鼠标）在窗口中自定义其宽度/高度。还需在项目的页面源中包含/指定jquery Javascript文件以使其生效。
+## **使用GridWeb的resize方法**
+以下代码将每100毫秒检查是否发生调整大小操作。当没有更多调整大小操作时，它认为调整大小操作现在已经完成。我们使用一个导入到GridWeb中的示例模板文件。我们使用客户端代码调整GridWeb的大小。屏幕截图显示了当调整浏览器窗口大小时，GridWeb相应地调整其大小。
+
+![todo:image_alt_text](resize-gridweb-in-the-browser-window_1.png)
 ### **示例代码**
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-WorkingWithGridWebClientSideScript-ResizeGridWebUsingResizeMethod" >}}
 
 
-## **使用可调整大小的 jquery ui 功能使 GridWeb 可调整大小**
-以下代码将使 GridWeb 控件在浏览器窗口中可调整大小。例如，您可以使用右下角的手柄来自定义窗口中 GridWeb 的大小。我们使用首先导入 GridWeb 的相同模板文件。我们使用 jquery 脚本使 GridWeb 可调整大小。屏幕截图显示 GridWeb 已使用其在浏览器窗口中右下角的手柄调整了大小。
+## **使用可调整大小的jquery ui功能使GridWeb可调整大小**
+以下代码将使GridWeb控件在浏览器窗口中可调整大小。例如，您可以使用底部右侧手柄在窗口中自定义GridWeb的大小。首先，我们使用导入到GridWeb中的相同模板文件。我们使用jquery脚本使GridWeb可调整大小。屏幕截图显示了在浏览器窗口中使用底部右侧手柄调整GridWeb的大小。
 
-![待办事项：图片_替代_文本](resize-gridweb-in-the-browser-window_2.png)
+![todo:image_alt_text](resize-gridweb-in-the-browser-window_2.png)
 ### **示例代码**
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-WorkingWithGridWebClientSideScript-MakingGridWebResizableUsingResizablejQueryUiFeature" >}}

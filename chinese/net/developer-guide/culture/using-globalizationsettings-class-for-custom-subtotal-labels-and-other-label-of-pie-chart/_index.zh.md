@@ -1,43 +1,44 @@
-﻿---
-title: 使用 GlobalizationSettings 类自定义小计标签和饼图的其他标签
+---
+title: 使用全球化设置类自定义饼图的其他标签和其他标签
 type: docs
 weight: 70
 url: /zh/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart/
 ---
+
 ## **可能的使用场景**
 
- Aspose.Cells API暴露了[**全球化设置**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)类以处理用户希望在电子表格中为小计使用自定义标签的场景。此外，[**全球化设置**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)类也可以用来修改**其他**呈现工作表或图表时饼图的标签。
+Aspose.Cells API已经公开了[**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)类，以处理用户希望在电子表格中使用自定义标签用于小计的场景。此外，在呈现工作表或图表时，[**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)类也可用于修改饼图的**其他**标签。
 
-## **GlobalizationSettings 类简介**
+## **全球化设置类简介**
 
-这[**全球化设置**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)类目前提供以下 3 种方法，可以在自定义类中重写这些方法以获得小计所需的标签或呈现自定义文本**其他**饼图的标签。
+[**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)类目前提供以下3个方法，可以在自定义类中进行重写，以获取期望的小计标签或为饼图的**其他**标签呈现自定义文本。
 
 1. [**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname)：获取函数的总名称。
-1. [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname)：获取函数的总计名称。
-1. [**GlobalizationSettings.GetOtherName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getothername)：获取饼图“其他”标签的名称。
+1. [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname)：获取函数的总名称。
+1. [**GlobalizationSettings.GetOtherName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getothername)：获取饼图的“其他”标签的名称。
 
-### **小计的自定义标签**
+### **子总计的自定义标签**
 
-这[**全球化设置**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)类可用于通过覆盖自定义小计标签[**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname) & [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname)前面演示的方法。
+[**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)类可以用于通过重写[**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname)和[**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname)方法自定义子总计标签，如前面所示。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomLabelsSubtotals-GlobalizationSettings.cs" >}}
 
-为了注入自定义标签，需要分配[**WorkbookSettings.GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings)的一个实例的属性**自定义设置**在将小计添加到工作表之前在上面定义的类。
+为了注入自定义标签，需要在将子总计添加到工作表之前将[**WorkbookSettings.GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings)属性分配给上面定义的**CustomSettings**类的实例。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomLabelsSubtotals-UsingGlobalizationSettings.cs" >}}
 
 {{% alert color="primary" %}}
 
-这[**全球化设置**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)类仅适用于添加新的小计。如果电子表格已经包含小计，则无法修改它们的标签。
+[**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)类仅用于添加新的子总计。如果电子表格已包含子总计，它们的标签将无法修改。
 
 {{% /alert %}}
 
-### **饼图其他标签的自定义文本**
+### **饼图的其他标签的自定义文本**
 
-这[**全球化设置**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)课程优惠[**获取其他名称**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getothername)为饼图的“其他”标签提供自定义值很有用的方法。以下代码段定义了一个自定义类并覆盖了[**获取其他名称**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getothername)根据系统的文化标识符获取自定义标签的方法。
+[**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)类提供[**GetOtherName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getothername)方法，该方法对于为饼图的“其他”标签赋予自定义值非常有用。以下代码片段定义了一个自定义类，并重写了[**GetOtherName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getothername)方法，根据系统的区域设置标识符获取自定义标签。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomTextForLabels-GlobalizationSettings.cs" >}}
 
-以下代码片段加载包含饼图的现有电子表格，并在利用**自定义设置**上面创建的类。
+以下代码片段加载了包含饼图的现有电子表格，并利用上面创建的**CustomSettings**类将图表渲染为图像。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomTextForLabels-UsingGlobalizationSettings.cs" >}}

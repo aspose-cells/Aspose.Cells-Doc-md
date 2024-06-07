@@ -1,19 +1,20 @@
-﻿---
-title: 准备创建表格报告
+---
+title: 准备创建表格报表
 type: docs
 weight: 10
 url: /zh/reportingservices/preparing-for-creating-table-report/
 ---
-在创建表格报告之前，用户必须首先创建数据源、数据集和报告参数（可选），如[数据源和查询](/cells/zh/reportingservices/data-sources-and-queries/).
 
-下面，我们使用 SQL Server Reporting Services 2005 附带的 AdventureWorks 示例数据库。
+在创建表格报表之前，用户必须首先创建数据源、数据集和报表参数（可选），如[数据源和查询](/cells/zh/reportingservices/data-sources-and-queries/)所述。
 
-1. 创建一个名为 EmpSalesDetail 的数据集。我们将使用它作为表的数据源。该数据集具有三个参数：ReportYear、ReportMonth 和 EmpID。
-定义 EmpSalesDetail 的 SQL 如下：
+下面，我们使用随 SQL Server Reporting Services 2005 提供的 AdventureWorks 示例数据库。
 
-**数据库**
+1. 创建名为 EmpSalesDetail 的数据集。我们将使用此数据集作为表的数据源。数据集有三个参数: ReportYear、ReportMonth 和 EmpID。
+   定义 EmpSalesDetail 的 SQL 如下: 
 
-{{< highlight "csharp" >}}
+**SQL**
+
+{{< highlight csharp >}}
 
  SELECT C.FirstName+' '+C.LastName 'Employee',
 
@@ -83,12 +84,12 @@ PC.Name
 
 {{< /highlight >}}
 
-1. 创建一个名为 SalesEmps 的数据集。我们将使用它作为 EmpID 参数的有效值。
-定义 SalesEmps 的 SQL 是：
+1. 创建名为 SalesEmps 的数据集。我们将其用作 EmpID 参数的有效值。
+   定义 SalesEmps 的 SQL 如下: 
 
-**数据库**
+**SQL**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  SELECT  E.EmployeeID,  C.FirstName + N' ' + C.LastName AS Employee
 
@@ -102,28 +103,28 @@ ON E.ContactID = C.ContactID  ORDER BY    C.LastName, C.FirstName
 
 {{< /highlight >}}
 
-1. 创建三个报表参数：ReportYear、ReportMonth 和 EmpID。
- 1. ReportYear 参数的有效值为：
+1. 创建三个报表参数: ReportYear、ReportMonth 和 EmpID。 
+   1. 参数 ReportYear 的有效值为: 
 
-![待办事项：图片_替代_文本](preparing-for-creating-table-report_1.png)
-
-
-
-
-1. ReportMonth 参数的有效值为：
-
-![待办事项：图片_替代_文本](preparing-for-creating-table-report_2.png)
+![todo:image_alt_text](preparing-for-creating-table-report_1.png)
 
 
 
 
-1. 参数 EmpID 的有效值为：
+1. 参数 ReportMonth 的有效值为: 
 
-![待办事项：图片_替代_文本](preparing-for-creating-table-report_3.png)
-
-
+![todo:image_alt_text](preparing-for-creating-table-report_2.png)
 
 
-1. 将数据集参数映射到报表参数，如下：
 
-![待办事项：图片_替代_文本](preparing-for-creating-table-report_4.png)
+
+1. 参数 EmpID 的有效值为: 
+
+![todo:image_alt_text](preparing-for-creating-table-report_3.png)
+
+
+
+
+1. 将数据集参数映射到报告参数，如下所示： 
+
+![todo:image_alt_text](preparing-for-creating-table-report_4.png)
