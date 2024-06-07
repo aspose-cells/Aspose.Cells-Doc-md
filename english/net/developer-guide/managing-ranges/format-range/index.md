@@ -33,6 +33,7 @@ To format a range using Aspose.Cells, you can use You can use the following meth
 
 ## **Sample Code**
 In this example, we create an Excel workbook, add some sample data, access the first worksheet, and define two ranges("A1:C3" and "A4:C5"). Then, we create new styles, set various formatting options (e.g., font color, bold), and apply the style to the range. Finally, we save the workbook to a new file.
+<br>
 ![todo:image_alt_text](format-range.png)
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Range-FormatRanges.cs" >}}
