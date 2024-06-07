@@ -7,7 +7,7 @@ description: This Developer Guide describes practical scenarios and tips to help
 keywords: Guidelines for using Aspose.Cells development APIs, Reference manual of Aspose.Cells for .NET APIS
 ---
 
-This Developer Guide provides information on using Aspose.Cells in a variety of practical scenarios as MS Excel menu.
+This Developer Guide provides information on using Aspose.Cells in a variety of practical scenarios, similar to using MS Excel menus.
 {{< tabs tabTotal="8" tabID="1" tabName1="File" tabName2="Home" tabName3="Insert" tabName4="Page Layout" tabName5="Formulas" tabName6="Data" tabName7="Review" tabName8="View" tabName9="Developer" >}}
 {{< tab tabNum="1" >}}
 <div class="row">
