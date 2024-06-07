@@ -28,10 +28,10 @@ Aspose.Cells现在提供了对电子表格页面的高保真度渲染。
 | :- | :- | :- |
 |以高度仿真地分布文档到页面，与Microsoft Excel®完全相同。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |将工作表页渲染为栅格图像（PNG、JPEG等）。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|将工作表页呈现为光栅图像(多页TIFF、GIF)。|{{< emoticons/tick >}}|{{< 表情符/交叉 >}}|
+|将工作表页呈现为光栅图像(多页TIFF、GIF)。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |将电子表格页渲染为矢量图像（EMF）。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |指定图像分辨率、质量、压缩和其他选项。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|使用Java打印基础结构打印电子表格页。|{{< emoticons/tick >}}|{{< 表情符号/叉 >}}|
+|使用Java打印基础结构打印电子表格页。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |在渲染或打印之前更新页码和其他字段。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **电子表格内容功能**
 Aspose.Cells提供一个丰富的对象模型，包含100多个公共类/接口，允许您以编程方式生成、组合、修改、解析或检查已加载的电子表格。以下是一些关键功能。

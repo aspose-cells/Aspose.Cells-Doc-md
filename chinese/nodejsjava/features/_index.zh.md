@@ -33,14 +33,14 @@ Aspose.Cells现在提供了对电子表格页面的高保真度渲染。
 |将工作表页渲染为栅格图像（多页TIFF、GIF）。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |将电子表格页渲染为矢量图像（EMF）。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |指定图像分辨率、质量、压缩和其他选项。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|使用Java打印基础结构打印电子表格页。|{{< emoticons/tick >}}|{{< 表情符号/叉 >}}|
+|使用Java打印基础结构打印电子表格页。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |在渲染或打印之前更新页码和其他字段。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **电子表格内容功能**
 Aspose.Cells提供一个丰富的对象模型，包含100多个公共类/接口，允许您以编程方式生成、组合、修改、解析或检查已加载的电子表格。以下是一些关键功能。
 
 |**特性**|**Aspose.Cells for Java**|**通过Java的Aspose.Cells for Node.js**|
 | :- | :- | :- |
-|从数组、ArrayList、ResultSet等导入/导出数据。|{{< emoticons/tick >}}|{{< 表情符号/叉 >}}|
+|从数组、ArrayList、ResultSet等导入/导出数据。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |添加现有工作表的副本（包括图像、图表、其他对象等所有内容）。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |在工作簿内或工作簿之间复制或移动工作表。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |插入图像。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

@@ -141,7 +141,7 @@ Aspose.Cells.GridWeb在Microsoft的Internet Explorer (IE)上得到充分支持�
 
 | **客户端功能** | **Microsoft Internet Explorer** | **Google Chrome** | **Mozilla Firefox** | **Opera** |
 | :- | :- | :- | :- | :- |
-|单元格的上下文菜单|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< 笑脸表情/交叉 >}}|
+|单元格的上下文菜单|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |客户端验证|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |双击事件|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |下拉列表（*组合框模式*）|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
