@@ -1,5 +1,5 @@
 ---
-title: JasperReports的Aspose.Cells for C++
+title: Aspose.Cells for JasperReports
 type: docs
 weight: 100
 url: /zh/jasperreports/
