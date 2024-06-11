@@ -1,15 +1,15 @@
 ---
-title: 在PHP中调整行和列自适应大小
+title: 在 PHP 中调整行和列的大小
 type: docs
 weight: 20
 url: /zh/java/autofit-rows-and-columns-in-php/
 ---
 
-## **Aspose.Cells - 自适应行和列**
-### **自适应行**
-自动调整行的宽度和高度最直接的方法是调用Worksheet类的autoFitRow方法。autoFitRow方法以行索引(要调整大小的行)作为参数。
+## **Aspose.Cells - 自动调整行和列**
+### **自适应调整行高**
+自动调整行宽和行高最直接的方法是调用Worksheet类的autoFitRow方法。autoFitRow方法将行索引（要调整大小的行）作为参数。
 
-**PHP代码**
+**PHP 代码**
 
 {{< highlight php >}}
 
@@ -44,10 +44,10 @@ url: /zh/java/autofit-rows-and-columns-in-php/
 }
 
 {{< /highlight >}}
-### **自适应列**
-自动调整列宽和高度的最简单方法是调用Worksheet类的autoFitColumn方法。autoFitColumn方法以列索引(即将调整大小的列)作为参数。
+### **自适应调整列宽**
+自动调整列宽和列高的最简单方法是调用Worksheet类的autoFitColumn方法。autoFitColumn方法以列索引（即将调整大小的列）作为参数。
 
-**PHP代码**
+**PHP 代码**
 
 {{< highlight php >}}
 
@@ -83,6 +83,6 @@ url: /zh/java/autofit-rows-and-columns-in-php/
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下提到的社交编码网站下载**自适应行和列(Aspose.Cells)**：
+从以下提到的任一社交编程网站下载**Autofit Rows and Columns (Aspose.Cells)**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

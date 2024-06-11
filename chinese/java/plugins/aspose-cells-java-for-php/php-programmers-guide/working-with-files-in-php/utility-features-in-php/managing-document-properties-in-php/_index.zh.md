@@ -6,9 +6,9 @@ url: /zh/java/managing-document-properties-in-php/
 ---
 
 ## **Aspose.Cells - 添加自定义属性**
-要使用Aspose.Cells Java for PHP添加自定义文档属性，请调用** Document **模块的**add_custom_property**方法。
+要在PHP中使用Aspose.Cells Java添加自定义文档属性，调用**Document**模块的**add_custom_property**方法。
 
-**PHP代码**
+**PHP 代码**
 
 {{< highlight php >}}
 
@@ -47,6 +47,6 @@ $workbook->save($dataDir . "Test_Workbook_RemovedProperty.xls");
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下社交编码网站之一下载**访问文档属性（Aspose.Cells）**。
+从以下任何社交编码网站下载**访问文档属性（Aspose.Cells）**：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ManagingDocumentProperties.php)

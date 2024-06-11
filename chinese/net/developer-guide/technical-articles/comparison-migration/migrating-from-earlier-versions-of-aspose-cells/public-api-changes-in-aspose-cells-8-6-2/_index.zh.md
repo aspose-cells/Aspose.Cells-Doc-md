@@ -1,5 +1,5 @@
 ---
-title: Aspose.Cells 8.6.2 中的公共API更改
+title: Aspose.Cells 8.6.2 中的公共 API 更改
 type: docs
 weight: 210
 url: /zh/net/public-api-changes-in-aspose-cells-8-6-2/
@@ -7,12 +7,12 @@ url: /zh/net/public-api-changes-in-aspose-cells-8-6-2/
 
 {{% alert color="primary" %}} 
 
-本文档描述了从版本 8.6.1 到 8.6.2 的 Aspose.Cells API 的更改，可能对模块/应用程序开发人员感兴趣。它不仅包括新的和更新的公共方法、添加的类，还描述了在 Aspose.Cells 后台行为中的任何更改。
+本文档描述了从版本 8.6.1 到 8.6.2 的 Aspose.Cells API 变化，这可能对模块/应用程序开发人员感兴趣。它不仅包括新的和更新的公共方法、添加的类，还描述了在 Aspose.Cells 内部行为方面的任何变化。
 
 {{% /alert %}} 
-## **已添加API**
-### **支持回调与智能标记**
-这个Aspose.Cells for .NET API的版本公开了WorkbookDesigner.CallBack属性和ISmartMarkerCallBack接口，共同允许获取关于正在处理的单元格引用和/或智能标记的通知。以下代码段演示了使用ISmartMarkerCallBack接口定义一个可处理WorkbookDesigner.Process方法的新类的用法。
+## **添加的 API**
+### **对智能标记的回调支持**
+此版本的Aspose.Cells for .NET API已公开了WorkbookDesigner.CallBack属性和ISmartMarkerCallBack接口，共同允许[获取有关正在处理的单元格引用和/或智能标记的通知](/cells/zh/net/getting-notifications-while-merging-data-with-smart-markers/)。以下代码演示了使用ISmartMarkerCallBack接口定义一个处理WorkbookDesigner.Process方法的新类。
 
 **C#**
 
@@ -48,7 +48,7 @@ url: /zh/net/public-api-changes-in-aspose-cells-8-6-2/
 
 
 
-其余流程包括使用 WorkbookDesigner 加载包含智能标记的设计电子表格，并通过设置数据源处理它。然而，为了启用通知，在调用 WorkbookDesigner.Process 方法之前，必须设置 WorkbookDesigner.CallBack 属性，如下所示。
+其余的过程包括使用WorkbookDesigner加载包含Smart Markers的设计电子表格，并通过设置数据源进行处理。但是，为了启用通知，有必要在调用WorkbookDesigner.Process方法之前设置WorkbookDesigner.CallBack属性，如下所示。
 
 **C#**
 
@@ -77,8 +77,8 @@ designer.Process(false);
 {{< /highlight >}}
 
 
-### **添加Chart.ToPdf方法**
-Aspose.Cells for .NET 8.6.2公开了Chart.ToPdf方法，可用于直接将图表形状渲染为PDF格式。
+### **添加了Chart.ToPdf方法**
+Aspose.Cells for .NET 8.6.2已公开了Chart.ToPdf方法，可用于[直接将图表形状渲染为PDF格式](/cells/zh/net/convert-an-excel-chart-to-image/)。该方法当前接受类型为字符串的参数作为存储结果文件的文件路径位置。
 
 以下是简单的使用场景。
 
@@ -105,8 +105,8 @@ chart.ToPdf(outputFilePath);
 {{< /highlight >}}
 
 
-### **添加Workbook.RemoveUnusedStyles方法**
-Aspose.Cells for .NET 8.6.2公开了Workbook.RemoveUnusedStyles方法，用于从样式池中移除所有未使用的样式对象。
+### **添加了Workbook.RemoveUnusedStyles方法**
+Aspose.Cells for .NET 8.6.2已公开了Workbook.RemoveUnusedStyles方法，该方法可用于[从样式池中删除所有未使用的样式对象](/cells/zh/net/remove-unused-styles-inside-the-workbook/)。
 
 以下是简单的使用场景。
 
@@ -125,8 +125,8 @@ workbook.RemoveUnusedStyles();
 {{< /highlight >}}
 
 
-### **已添加 Cells.Style 属性**
-Cells.Style 属性可用于访问代表默认样式的工作表的样式。
+### **添加了Cells.Style属性**
+Cells.Style属性可用于访问表示默认样式的工作表的样式。
 
 以下是简单的使用场景。
 
@@ -145,8 +145,8 @@ Style style = book.Worksheets[0].Cells.Style;
 {{< /highlight >}}
 
 
-### **为 GridWeb 添加了事件**
-Aspose.Cells.GridWeb for .NET 8.6.2 暴露了以下两个新事件。
+### **为GridWeb添加了事件**
+Aspose.Cells.GridWeb for .NET 8.6.2 已公开了以下两个新事件。
 
-1. AjaxCallFinished: 当控件的 AJAX 更新完成时触发。(要将 EnableAJAX 设置为 true)。
-1. CellModifiedOnAjax: 当在 AJAX 调用中修改单元格时触发。
+1. AjaxCallFinished: 当控件的 AJAX 更新完成时触发（EnableAJAX必须设置为true）。
+1. CellModifiedOnAjax：在AJAX调用中修改单元格时触发。

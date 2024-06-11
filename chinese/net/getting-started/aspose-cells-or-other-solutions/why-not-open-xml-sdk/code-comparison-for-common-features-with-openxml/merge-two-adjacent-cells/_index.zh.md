@@ -1,5 +1,5 @@
 ---
-title: 合并相邻的两个单元格
+title: 合并相邻单元格
 type: docs
 weight: 90
 url: /zh/net/merge-two-adjacent-cells/

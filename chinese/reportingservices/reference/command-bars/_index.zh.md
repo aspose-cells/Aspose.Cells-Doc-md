@@ -5,9 +5,9 @@ weight: 10
 url: /zh/reportingservices/command-bars/
 ---
 
-下表显示了Aspose.Cells.Report.Designer加载项工具栏上的命令栏图标和工具。
+以下表格显示了 Aspose.Cells.Report.Designer 加载项工具栏上的命令栏图标和工具。
 
-|**命令** |**图像** |**描述** |
+|**命令** |**图片** |**描述** |
 | :- | :- | :- |
 |Open Local Report |![todo:image_alt_text](command-bars_1.png)|Opens an RDL file from local PC and loads the file context. |
 |Open Remote Report |![todo:image_alt_text](command-bars_2.png)|Opens an RDL file from Report Server and loads the file context. |

@@ -1,21 +1,21 @@
 ---
-title: 创建分层视图表
+title: 创建分层视图表单
 type: docs
 weight: 30
 url: /zh/net/aspose-cells-gridweb/create-hierarchical-view-sheet/
-keywords: GridWeb,分层
-description: 本文介绍了如何在GridWeb中创建分层视图。
+keywords: GridWeb，分层
+description: 本文介绍如何在GridWeb中创建分层视图。
 ---
 
 {{% alert color="primary" %}} 
 
-数据绑定是GridWeb的一个强大且用户友好的功能。 从数据库表中获取的数据填充到一个DataSet中，以表示数据表。使用数据绑定功能，您可以创建一个相互连接的数据的分层视图（主-子视图）并在控件中显示，使其更加优雅。 
+数据绑定是一项强大且用户友好的GridWeb功能。从数据库表中获取的数据存储在 DataSet 中，并填充数据 
 
-本主题讨论了如何创建一个分层视图表。该表中的一些行具有子视图。当用户单击行的“展开”时 
+代表数据表。使用数据绑定功能，您可以创建连接数据的分层视图（主-子视图），并 
 
-在控件中显示它，以使其更为优雅。 
+在控件中显示，使其更加优雅。 
 
-，则显示它。**存在一个带有分层视图的表格**
+本主题讨论创建分层视图表。表单中的某些行具有子视图。用户单击行的**展开**
 
 button {{< emoticons/cross >}}, the child view table of that row is expanded down. This feature is very helpful for building a hierarchical view report. 
 
@@ -24,49 +24,49 @@ button {{< emoticons/cross >}}, the child view table of that row is expanded dow
 ![todo:image_alt_text](creating-hierarchical-view-sheet_1.png)
 
 {{% /alert %}} 
-## **为数据表创建关系**
-例如，您可以使用ADO.Net API从数据库表中提取数据。要创建分层视图表，必须首先设计一个基于某些表的DataSet对象，并在它们之间创建关系。使用VS.NET的**数据集设计器**来创建关系。在
+## **为DataTable创建关系**
+例如，您使用 ADO.Net API 从数据库表中提取数据。要创建分层视图工作表，您必须设计一个基于一些表的 DataSet 对象，并首先在它们之间创建关系。使用 VS.NET 的 **DataSet Designer** 来创建关系。在
 
-例如，这里有三个数据表：Customers, Orders, Order Details. 表格默认显示所有客户信息。当用户展开客户时，网格显示该客户下的所有订单。当用户展开一个订单时，网格显示该订单的详细信息。数据是分层的：订单详情列在订单下面，订单列在客户下面。 
+这个例子中，有三个 DataTables：Customers、Orders、Order Details。该工作表默认显示所有客户信息。当用户展开客户时，网格显示该客户已经下的所有订单。当用户展开一个订单时，网格显示该订单的详情 
+
+数据是分层的：订单细节在订单下方列出，订单在客户下方列出。 
 
 要使其工作，必须在数据表之间建立以下关系： 
 
-1.在DataTable Orders上创建外键，关键字段为CustomerID 
+1. 在 DataTable Orders 上创建一个外键，关键字段是 CustomerID
 
-订单数据中，数据是分层的：订单详细信息列在订单下面，订单则列在顾客下面。
+1. 在 DataTable Order Details 上创建一个外键，关键字段是 OrderID。
 
-为使此功能生效，数据表之间必须建立如下关系：
-
-1. 在数据表Orders上创建外键，键字段为CustomerID 
+1. 在 DataTable Orders 上创建一个外键，关键字段是 CustomerID 
 
 ![todo:image_alt_text](creating-hierarchical-view-sheet_2.png)
 
 
 
 
-1.在DataTable Order Details上创建外键，关键字段为OrderID。 
+1. 在 DataTable Order Details 上创建一个外键，关键字段是 OrderID。 
 
 ![todo:image_alt_text](creating-hierarchical-view-sheet_3.png)
 
 
 
-数据集设计器现在如下所示： 
+现在 DataSet Designer 看起来像这样： 
 
 ![todo:image_alt_text](creating-hierarchical-view-sheet_4.png)
-### **绑定表**
-现在使用**工作表设计器**为工作表设置数据源和数据成员，并配置数据字段绑定列。 
+### **绑定工作表**
+现在使用 **Worksheets Designer** 来设置工作表的 DataSource 和 DataMember，并配置数据字段绑定列。 
 
-控件会为每一行自动添加一个+图标，该行对应的记录具有子视图。当单击+图标时，记录会展开显示子视图。以下示例使用**工作表设计器**将工作表绑定到根父DataTable Customers。 
+控件会自动为每一行添加一个 + 图标，对应于一个具有子视图的绑定对象的记录（通常是 DataRowView 对象）。当单击 + 图标时，记录会展开显示子视图。下面的示例使用 **Worksheets Designer** 来将工作表绑定到根父 DataTable Customers。 
 
-自定义子表绑定列 
+自定义子表的绑定列 
 
-控件提供了一个名为GridWeb.BindingChildView的事件，开发人员可以使用该事件来自定义子表的绑定列。以下示例 
+控件提供了一个名为 GridWeb.BindingChildView 的事件，开发人员可以用它来自定义子表的绑定列。这个示例需要在货币格式中显示订单详情的 **UnitPrice** 字段。添加一个事件处理程序来改变绑定列的数字格式。 
 
 ![todo:image_alt_text](creating-hierarchical-view-sheet_5.png)
 ### **自定义子表绑定列**
-需要以货币格式显示订单详细信息的**UnitPrice**字段。添加事件处理程序以更改绑定列的数字格式。 
+控件提供名为 GridWeb.BindingChildView 的事件，开发人员用于自定义子表的绑定列。本示例 
 
-需要以货币格式显示订单详细信息的**UnitPrice**字段。添加事件处理程序以更改绑定列的数字格式。 
+需要以货币格式显示订单明细的**UnitPrice**字段。添加事件处理程序以更改绑定列的数字格式。 
 
 **C#**
 
@@ -94,7 +94,7 @@ private void GridWeb1_BindingChildView(Aspose.Cells.GridWeb.GridWeb childGrid, A
 
 {{< /highlight >}}
 
-**VB.NET**
+在工作表中实现 GridDesktop 数据绑定功能
 
 {{< highlight csharp >}}
 
@@ -117,34 +117,34 @@ End Sub
 
 
 {{< /highlight >}}
-### **从数据库加载数据并绑定数据**
-从数据库加载数据并绑定
-如[在GridWeb的工作表设计器中将工作表绑定到一个数据集](/cells/zh/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/)所述，您需要在Page_Load块中添加代码，从数据库加载数据到DataSet，并在下一步中将DataSet绑定到工作表。 
+### **从数据库加载数据并绑定**
+如[使用 GridWeb 的工作表设计器将工作表绑定到 DataSet](/cells/zh/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/)中所述，
+您需要在 Page_Load 块中添加代码，从数据库加载数据到 DataSet，并在下一步中将 DataSet 绑定到工作表中 
 
-Asppose.Grid.Web.Data.WebWorksheet类具有一些有用的属性。 
+。 
 
-Asppose.Grid.Web.Data.WebWorksheet类具有一些有用的属性。
+Asppose.Grid.Web.Data.WebWorksheet 类有一些有用的属性。
 
-- 例如，EnableCreateBindColumnHeader属性用于在表格内创建绑定列的标题，或者列
+- 例如，属性 EnableCreateBindColumnHeader 用于在工作表中创建绑定列的标题，或者列标题显示绑定列的名称
 
-headers显示绑定列名称。它接受true或false。 
+。它接受值 true 或 false。 
 
-- BindStartRow和BindStartColumn属性指定GridWeb控件中源绑定的位置。
-- EnableExpandChildView属性用于禁用工作表的展开子视图。默认情况下设置为true。
+- 属性 BindStartRow 和 BindStartColumn 指定源应绑定到 GridWeb 控件工作表中的位置。
+- 属性 EnableExpandChildView 用于禁用工作表的扩展子视图。默认情况下，它设置为 true。
 
 该类还具有一些有用的方法。 
 
-- DataBind()方法将表格与源绑定。
-- CreateNewBindRow()添加一个新行并将其绑定到数据源。
-- DeleteBindRow()删除一个绑定行。
-- SetRowExpand()方法设置展开的行并在数据绑定模式下显示子视图内容。
-- GetRowExpand()方法获取一个布尔值，指示行是否展开。
+- DataBind() 方法将工作表与源绑定。
+- CreateNewBindRow() 添加新行并将其绑定到数据源。
+- DeleteBindRow() 删除绑定行。
+- SetRowExpand() 方法设置扩展行并在数据绑定模式下显示子视图内容。
+- GetRowExpand() 方法获取表示行是否已展开的布尔值。
 
-在下面的代码中，DataSet对象"dataSet21"根据三个表中的数据填充。筛选顾客表以使其成为 
+在下面的代码中，DataSet 对象 "dataSet21" 基于三个表填充数据。筛选 Customers 表以使其成为分层显示中的第一个表。创建名为 "sheet" 的 WebWorksheet 对象，首先清除工作表，然后将其设置为 
 
-分层显示中的第一个表。创建了一个名为"sheet"的WebWorksheet对象，首先清除该表，然后将其设置为 
+与数据源关联。 
 
-链接到数据源。 
+**VB.NET** 
 
 **C#**
 
@@ -236,7 +236,7 @@ private void BindWithoutInSheetHeaders()
 
 {{< /highlight >}}
 
-**VB.NET**
+在工作表中实现 GridDesktop 数据绑定功能
 
 {{< highlight csharp >}}
 

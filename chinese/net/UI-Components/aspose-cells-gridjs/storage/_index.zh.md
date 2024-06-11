@@ -1,30 +1,30 @@
 ---
-title: 使用 GridJs 存储实现
+title: 使用GridJs存储
 type: docs
 weight: 250
 url: /zh/net/aspose-cells-gridjs/storage/
-description: 本文描述了GridJs的通用文件处理。
-keywords: 文件缓存，存储，GridJs，GridJs存储，GridJs uid，下载，唯一标识
+description: 本文描述了 GridJs 的一般文件处理。
+keywords: 文件缓存, 存储, GridJs, GridJs 存储, GridJs uid, 下载, 唯一标识
 ---
 
 
-# 使用 GridJs 存储
-##  通用文件处理 
+# 使用GridJs存储
+## 一般文件处理 
 导入电子表格文件后，
 
-GridJs将在**`Config.FileCacheDirectory`**文件夹中创建具有指定uid的缓存文件，
+GridJs 将在 **`Config.FileCacheDirectory`** 文件夹中使用指定的 uid 创建缓存文件，
 
-采用[Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/net/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat")的格式保存所有形状/图像。
+格式为 [Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/net/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat") ，
 
-GridJs还将所有形状/图像保存到**`Config.PictureCacheDirectory`**文件夹中的zip归档文件中，以便稍后在客户端UI中显示形状/图像。
+GridJs 还将所有形状/图像保存到 **`Config.PictureCacheDirectory`** 文件夹中的 zip 归档文件中，以便在客户端 UI 中以后显示形状/图像。
 
-在客户端 UI 中的每次更新操作之后，
+并且在客户端UI中的每次更新操作之后，
 
-例如设置单元格值、设置单元格样式等，
+例如设置单元格值，设置单元格样式等，
 
-GridJs客户端JS将触发控制器动作进行更新单元操作。
+GridJs客户端js将触发控制器操作执行UpdateCell操作。
 
-在此操作过程中，UpdateCell 方法将发生对缓存文件的保存。
+在此操作中，在UpdateCell方法期间将进行一次保存回缓存文件。
 ```C#   
         // post: /GridJs/UpdateCell
         [HttpPost] 
@@ -37,10 +37,10 @@ GridJs客户端JS将触发控制器动作进行更新单元操作。
             return Content(ret, "text/plain", System.Text.Encoding.UTF8);
         }
 ```
-### 实际的缓存文件在哪里 
+缓存文件实际在哪里？ 
 
-A. 如果我们实现 GridCacheForStream 并设置 GridJsWorkbook.CacheImp。
-例如，在下面的代码中，我们可以将缓存文件放在 **"D:\temp"** 中进行获取和放置
+A.如果我们实现GridCacheForStream并设置GridJsWorkbook.CacheImp。
+例如在下面的代码中，我们可以直接将缓存文件放在"D:\temp"中。
 ```C#
 Config.FileCacheDirectory=@"D:\temp";
 GridJsWorkbook.CacheImp=new LocalFileCache();
@@ -76,17 +76,17 @@ public class LocalFileCache  : GridCacheForStream
         }
 		...
 ```
-B. 如果我们没有设置 GridJsWorkbook.CacheImp,
+B.如果我们不设置GridJsWorkbook.CacheImp，
 
-GridJs 将在**`Config.FileCacheDirectory`**中创建并保存文件，这是默认的缓存目录，可以进行设置。
+GridJs将在Config.FileCacheDirectory中创建并保存文件，这是默认的缓存目录，我们可以设置。
 
-### 如何获取更新后的结果文件
+### 如何获得更新后的结果文件
 #### 1. 为文件指定uid 
-请确保文件和uid之间有指定的映射对应关系， 
+确保文件和uid之间有指定的映射对应关系， 
 
-您可以始终为指定的文件名获取相同的uid，而不是随机生成的。
+您始终可以获得指定文件名的相同uid，而不是随机生成的。
 
-例如，只需使用文件名即可。
+例如，只使用文件名即可。
 ```C#
 //in controller  
 ...
@@ -114,21 +114,21 @@ GridJs 将在**`Config.FileCacheDirectory`**中创建并保存文件，这是默
 ```
 
 #### 2. 与客户端UI操作同步
-实际上，对于一些客户端UI操作，
+实际上，对于某些客户端UI操作，
 
 例如：
 
 切换活动工作表到另一个，
 
-更改图像位置，
+改变图像位置，
 
-旋转/调整图像等。
+旋转/调整图像大小等。
 
-UpdateCell操作将不被触发。
+不会触发UpdateCell操作。
 
-因此，如果我们想要获得更新后的文件与客户端UI显示的完全相同，
+因此，如果想要获得更新后的文件与客户端UI显示的内容相同，
 
-我们需要在保存操作之前执行合并操作，以同步这些客户端UI操作。
+我们需要在保存操作之前执行一个合并操作，以同步客户端UI操作。
 ```javascript
 //in the js
   function save() {
@@ -163,8 +163,8 @@ UpdateCell操作将不被触发。
   //after merge do save to chache or to a stream or whaterver you want to save to ,here we just save to cache
   wb.SaveToXlsx(Path.Combine(Config.FileCacheDirectory, uid));
 ```         
-#### 3. get the file from cache
-例如：在下载操作中，您可以通过 uid 从缓存目录中获取它。
+#### 3. 从缓存中获取文件
+例如：在下载操作中，您可以根据 uid 直接从缓存目录中获取文件。
 ```C#
 //in controller  
 
@@ -179,5 +179,5 @@ UpdateCell操作将不被触发。
         }
 ```
 
-更多详细信息，请查看这里的示例:
+更多详细信息，请参阅此处示例：
 <https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>

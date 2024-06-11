@@ -6,9 +6,9 @@ url: /zh/java/encrypting-excel-files-in-ruby/
 ---
 
 ## **Aspose.Cells - 加密Excel文件**
-要在Ruby中使用Aspose.Cells for Java对Excel文件应用加密，只需调用Encrypt模块。
+要在Ruby中使用Aspose.Cells for Java对Excel文件应用加密，只需调用Encrypt模块即可。
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 
@@ -40,6 +40,6 @@ puts "Apply encryption, please check the output file."
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下任一社交编码网站下载**加密Excel文件（Aspose.Cells）**：
+从以下任何社交编码网站下载**加密Excel文件（Aspose.Cells）**：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/encrypt.rb)

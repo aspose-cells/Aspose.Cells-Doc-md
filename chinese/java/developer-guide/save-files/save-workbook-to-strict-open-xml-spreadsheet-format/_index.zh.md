@@ -1,5 +1,5 @@
 ---
-title: 将工作簿保存为严格的Open XML电子表格格式
+title: 将工作簿保存为严格的 Open XML 电子表格格式
 type: docs
 weight: 100
 url: /zh/java/save-workbook-to-strict-open-xml-spreadsheet-format/
@@ -7,11 +7,11 @@ url: /zh/java/save-workbook-to-strict-open-xml-spreadsheet-format/
 
 ## **可能的使用场景**
 
-Aspose.Cells允许您以*Strict Open XML Spreadsheet*格式保存工作簿。为此，它提供**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Compliance)**属性。如果将其值设置为**[OoxmlCompliance.ISO_29500_2008_STRICT](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompliance#ISO_29500_2008_STRICT)**，则输出的Excel文件将以*Strict Open XML Spreadsheet*格式保存。
+Aspose.Cells允许您将工作簿保存为*严格的开放式XML电子表格*格式。为此，它提供了**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Compliance)**属性。如果将其值设置为**[OoxmlCompliance.ISO_29500_2008_STRICT](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompliance#ISO_29500_2008_STRICT)**，那么输出的Excel文件将以严格的开放式XML电子表格格式保存。
 
 ## **将工作簿保存为严格的 Open XML 电子表格格式**
 
-下面的示例代码创建一个工作簿，并将**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Compliance)**属性的值设置为**[OoxmlCompliance.ISO_29500_2008_STRICT](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompliance#ISO_29500_2008_STRICT)**，然后将其保存为[输出Excel文件](outputSaveWorkbookToStrictOpenXMLSpreadsheetFormat.xlsx)。如果您在Microsoft Excel中打开输出的Excel文件并打开*另存为...*对话框，您将看到其格式为*Strict Open XML Spreadsheet*，如此截图所示。
+以下是一个示例代码，该代码创建一个工作簿并将**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Compliance)**属性的值设置为**[OoxmlCompliance.ISO_29500_2008_STRICT](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompliance#ISO_29500_2008_STRICT)**，然后将其保存为[输出Excel文件](outputSaveWorkbookToStrictOpenXMLSpreadsheetFormat.xlsx)。如果您在Microsoft Excel中打开输出的Excel文件并打开*另存为...*对话框，您将看到它的格式为*严格的开放XML电子表格*。如图所示。
 
 ![todo:image_alt_text](save-workbook-to-strict-open-xml-spreadsheet-format_1.png)
 

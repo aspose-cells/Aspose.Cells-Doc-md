@@ -1,17 +1,17 @@
 ---
-title: 使用 GridJs 高亮功能
+title: 使用GridJs的高亮功能
 type: docs
 weight: 250
 url: /zh/python-net/aspose-cells-gridjs/highlight/
-description: 本文描述了如何在单元格文本、单元格范围、形状和图片上使用 GridJs 进行高亮显示。
-keywords: 高亮,表格,编辑,备注,Excel,评论	
+description: 本文描述了如何使用GridJs对单元格文本、单元格范围、形状和图片进行高亮显示。
+keywords: 突出显示,电子表格,删除,备注,表格,评论	
 ---
 
-# 使用 GridJs 高亮功能 
-我们支持以下用于高亮功能的 JS API 
+# 使用 GridJs 突出显示功能 
+我们支持以下 JS API 用于突出显示功能 
 
 
-- 启用高亮并设置高亮样式，所有高亮 API 仅在活动工作表中设置高亮样式后才生效 
+- 启用突出显示并设置突出显示样式,所有突出显示 API 只有在设置了活动工作表的突出显示样式后才会生效 
 ```javascript
 xs.sheet.showHighlights(style)
  // the parameter is:
@@ -19,7 +19,7 @@ xs.sheet.showHighlights(style)
  for example: {'color':'rgba(85, 57, 47, 0.08)'}
 ```
 
-- 更新活动工作表中设置的高亮样式 
+- 更新活动工作表中设置的突出显示样式 
 ```javascript
 xs.sheet.updateHighlightStyle(style)
  // the parameter is:
@@ -28,11 +28,11 @@ xs.sheet.updateHighlightStyle(style)
 ```
 
 
-- 在活动工作表中禁用高亮    
+- 在活动工作表中禁用突出显示    
 ```javascript
 xs.sheet.hideHighlights()
 ```
-- 将单元格文本添加到活动工作表中的高亮 
+- 将单元格文本添加到活动工作表中的突出显示 
 ```javascript
 xs.sheet.addHighlightText(row,col,startpostion,endposition)
     // the parameters are:
@@ -43,7 +43,7 @@ xs.sheet.addHighlightText(row,col,startpostion,endposition)
     //it support multiple range postion inside one cell
 ```
 
-- 从活动工作表中的数组中删除单元格文本的高亮 
+- 在活动工作表中为单元格文本数组删除突出显示 
 ```javascript
 xs.sheet.removeHighlightText(row,col,startpostion,endposition)
     // the parameters are:
@@ -53,12 +53,12 @@ xs.sheet.removeHighlightText(row,col,startpostion,endposition)
 	endpostion: highlight end postion in cell text 
 ```
 
-- 获取活动工作表中单元格文本的高亮数组   
+- 获取活动工作表中单元格文本的突出显示数组   
 ```javascript
 xs.sheet.getHighlightTexts()
 ```
 
-- 将单元格范围添加到活动工作表中进行高亮显示 
+- 将单元格范围添加到活动工作表中的突出显示 
 ```javascript
 xs.sheet.addHighlightRange(sri,sci,eri,eci)
     // the parameters are:
@@ -68,7 +68,7 @@ xs.sheet.addHighlightRange(sri,sci,eri,eci)
 	eci:end column index of cell range
 ```
 
-- 在活动工作表中的数组中移除单元格范围的高亮显示 
+- 从活动工作表中的单元格范围数组中移除突出显示 
 ```javascript
 xs.sheet.removeHighlightRange(sri,sci,eri,eci)
      // the parameters are:
@@ -78,12 +78,12 @@ xs.sheet.removeHighlightRange(sri,sci,eri,eci)
 	eci:end column index of cell range
 ```
 
-- 获取活动工作表中单元格范围的高亮显示数组   
+- 获取活动工作表中单元格范围的突出显示数组   
 ```javascript
 xs.sheet.getHighlightRanges()
 ```
 
-- 在活动工作表中设置单元格范围以进行反向高亮显示 
+- 设置活动工作表中的单元格范围为反向突出显示 
 ```javascript
 xs.sheet.setHighlightInverseRange(sri,sci,eri,eci)
     // the parameters are:
@@ -93,38 +93,38 @@ xs.sheet.setHighlightInverseRange(sri,sci,eri,eci)
 	eci:end column index of cell range
 ```
 
-- 在活动工作表中移除反向高亮显示的高亮显示 
+- 在活动工作表中移除反向突出显示 
 ```javascript
 xs.sheet.removeHighlightInverseRange()
 
 ```
 
-- 获取活动工作表中高亮单元格范围的逆向高亮 
+- 获取活动工作表中反向突出显示的单元格范围 
 ```javascript
 xs.sheet.getHighlightInverseRange()
 ```
 
 
-- 在活动工作表中的高亮数组中添加形状 
+- 将形状添加到活动工作表中的突出显示数组 
 ```javascript
 xs.sheet.addHighlightShape(shapeid)
     // the parameters are:
     shapeid: the id of shape, can be find in xs.sheet.data.shapes
 ```
 
-- 从活动工作表中的高亮数组中移除高亮形状 
+- 从活动工作表中的形状数组中移除突出显示形状 
 ```javascript
 xs.sheet.removeHighlightShape(shapeid)
      // the parameters are:
     shapeid: the id of shape, can be find in xs.sheet.data.shapes
 ```
 
-- 获取活动工作表中高亮形状的数组  
+- 获取活动工作表中形状的突出显示数组  
 ```javascript
 xs.sheet.getHighlightShaps()
 ```
 
-- 在活动工作表中添加文本框到高亮区域，文本框是一种特殊类型的形状，其类型属性为:"TextBox" 
+- 将文本框添加到突出显示文本框数组中，文本框是 type 属性为"TextBox"的特殊形状，在活动工作表中 
 ```javascript
 xs.sheet.addHighlightTextBox(shapeid, startpostion, endposition)
     // the parameters are:
@@ -135,7 +135,7 @@ xs.sheet.addHighlightTextBox(shapeid, startpostion, endposition)
 ```
 
 
-- 从文本框中移除高亮范围，文本框是一种特殊类型的形状，其类型属性为:"TextBox" 
+- 从文本框中的突出显示范围中删除，文本框是 type 属性为"TextBox"的特殊形状，在活动工作表中 
 ```javascript
 xs.sheet.removeHighlightTextBox(shapeid, startpostion, endposition)
     // the parameters are:
@@ -145,26 +145,26 @@ xs.sheet.removeHighlightTextBox(shapeid, startpostion, endposition)
     //it support multiple range postion inside one textbox
 ```
 
--将图像添加到活动工作表中的突出显示数组中 
+- 在活动工作表中的高亮数组中添加图像 
 ```javascript
 xs.sheet.addHighlightImage(imageid)
     // the parameters are:
     imageid: the id of image, can be find in xs.sheet.data.images
 ```
 
--在活动工作表中的突出显示数组中删除突出显示的图像 
+- 在活动工作表中的数组中删除高亮图像 
 ```javascript
 xs.sheet.removeHighlightImage(imageid)
      // the parameters are:
     imageid: the id of image, can be find in xs.sheet.data.images
 ```
 
--获取突出显示图像的数组  
+- 获取用于高亮图像的数组  
 ```javascript
 xs.sheet.getHighlightImages()
 ```
 
--设置是否突出显示活动工作表中的所有对象，包括所有形状和图像以及所有工作表区域
+- 设置是否要高亮活动工作表中的所有对象，包括所有形状和图像以及整个工作表区域
 ```javascript
 xs.sheet.setHighlightAll(ishighlightall,isrerender=true)
    // the parameters are:
@@ -173,7 +173,7 @@ xs.sheet.setHighlightAll(ishighlightall,isrerender=true)
 ```
 
 
--设置自定义图像突出显示函数
+- 设置自定义图像高亮功能
 ```javascript
 xs.sheet.setCustomHighlightImgFunc(func)
    // the parameters are:
@@ -187,15 +187,15 @@ xs.sheet.setCustomHighlightImgFunc(func)
 
 ```
 
--  清除活动工作表的突出显示设置
+- 清除活动工作表的高亮设置
 ```javascript
 xs.sheet.clearHighlights()
 
 ```
 
-### 文本框对象的突出显示
-文本框是一种特殊的形状，其类型属性为:"TextBox",
-例如：下面的代码将显示哪种形状是文本框
+### 用于文本框对象的高亮
+文本框是一种特殊类型的形状，其类型属性为:"文本框"
+例如：以下代码将显示哪种形状是文本框
 
 ```javascript
 for (let shape of xs.sheet.data.shapes) {
@@ -204,7 +204,7 @@ for (let shape of xs.sheet.data.shapes) {
     }
 }
 ```
--  为文本框对象添加突出显示
+- 为文本框对象添加高亮显示
 ```javascript
     addHighlight(startpostion,endposition)
     // the parameters are:
@@ -219,7 +219,7 @@ const textbox=xs.sheet.data.shapes[0];
  textbox.addHighlight(18,28);
 ```
 
--  移除文本框对象的突出显示 
+- 删除文本框对象的高亮显示 
 ```javascript
     removeHighlight(startpostion,endposition)
     // the parameters are:
@@ -230,7 +230,7 @@ const textbox=xs.sheet.data.shapes[0];
      textbox.removeHighlight(5,10);
 ```
 
--  获取文本框对象的高亮显示 
+- 获取文本框对象的高亮 
 ```javascript
     getHighlight()
     //for example,we assume shape 0 is a textbox object
@@ -238,7 +238,7 @@ const textbox=xs.sheet.data.shapes[0];
      textbox.getHighlight();
 ```
 
--  更改文本框对象的背景颜色
+- 更改文本框对象的背景颜色
 ```javascript
     setBackgroundColor(color)
     // the parameters are:
@@ -247,14 +247,14 @@ const textbox=xs.sheet.data.shapes[0];
      const textbox=xs.sheet.data.shapes[0];
      textbox.setBackgroundColor('#FFFF00');
 ```
--  自动更改背景颜色和文本颜色以获得视觉活动效果
+- 自动更改背景颜色和文本颜色以实现视觉效果
 ```javascript
     setActiveEffect(boolvalue)
     // the parameters are:
         boolvalue: if true,will change background color and the text color of the textbox object;if false,restore to original appearence
 ```
 
--  隐藏/显示文本框对象中的文本内容
+- 隐藏/显示文本框对象中的文本内容
 ```javascript
     hideText(boolvalue)
     // the parameters are:
@@ -263,4 +263,4 @@ const textbox=xs.sheet.data.shapes[0];
 
 
 
-您可以在我们的 GitHub 演示页面 https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html 找到更多信息
+您可以在我们的 GitHub 演示页面找到更多 https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html

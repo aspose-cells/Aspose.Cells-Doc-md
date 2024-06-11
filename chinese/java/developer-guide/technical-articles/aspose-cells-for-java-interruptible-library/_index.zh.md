@@ -1,5 +1,5 @@
 ---
-title: Aspose.Cells for Java - 可中断的库
+title: Aspose.Cells for Java - 可中断库
 type: docs
 weight: 1090
 url: /zh/java/aspose-cells-for-java-interruptible-library/
@@ -7,14 +7,14 @@ url: /zh/java/aspose-cells-for-java-interruptible-library/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells for Java支持在处理大型Excel文件时中断加载/保存进程。有时，您希望使库/组件可中断。这肯定会改善服务/流程的效率和可靠性。当您发现转换过程太长时，可以可靠地放弃转换的一部分。这将节省CPU使用率、内存等。这意味着您不必采取像终止整个服务器一样的激进步骤来取消转换。 
+Aspose.Cells for Java 支持在处理大型 Excel 文件时中断加载/保存过程。有时，您可能希望使库/组件可中断。这无疑会提高您的服务/流程的效率和可靠性。当您发现转换过程时间过长时，您可以可靠地放弃部分转换。这将节省 CPU 使用率、内存等。这意味着您不必采取像杀死整个服务器那样的极端步骤来取消转换。 
 {{% /alert %}}
 
 ## **示例：**
 
-以下程序展示了如何使用**InterruptMonitor.interrupt()**方法中断保存过程。
+以下示例展示了如何使用**InterruptMonitor.interrupt()**方法中断保存过程。
 
-【**Java**】
+[**Java**]
 
 {{< highlight java >}}
 

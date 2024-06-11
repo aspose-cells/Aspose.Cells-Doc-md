@@ -6,9 +6,9 @@ url: /zh/net/new-line-in-cells/
 ---
 
 ## **Aspose.Cells - 单元格中的新行**
-为确保单元格中的文本可读，可以应用显式换行和文本换行。文本换行将一个单行变成多行，而显式换行可将换行符插入到您想要的位置。
+为了确保单元格中的文本可以被读取，可以应用明确的行尾和文本换行。文本换行将单元格中的一行变成了多行，而明确的行尾则将文本换行放在您想要的确切位置。
 
-要在单元格中换行，请使用 Aspose.Cells.Style.IsTextWrapped 属性。
+要在单元格中换行，请使用Aspose.Cells.Style.IsTextWrapped属性。
 
 **C#**
 
@@ -35,8 +35,8 @@ sheet.Cells[2, 2].SetStyle(style);
 workbook.Save("test.xlsx");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - 单元格中的换行**
-CellStyle.setWrapText应设置为true以自动换行。
+## **NPOI - HSSF XSSF - 单元格中的新行**
+CellStyle.setWrapText应设置为true以包装文本。
 
 **C#**
 
@@ -68,12 +68,12 @@ sw.Close();
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下任一社交编码站点下载 **New Line in Cells**：
+从下面提到的任何社交编码网站下载 **单元格中的新行**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/New.Line.In.Cells.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
-了解更多详情，请访问 [换行和文本包装](/cells/zh/net/line-breaks-and-text-wrapping/)。
+更多详细信息，请访问 [换行和文本换行](/cells/zh/net/line-breaks-and-text-wrapping/)。
 
 {{% /alert %}}

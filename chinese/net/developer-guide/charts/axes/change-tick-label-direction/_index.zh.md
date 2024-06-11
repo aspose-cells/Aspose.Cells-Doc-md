@@ -1,7 +1,7 @@
 ---
 title: 更改刻度标签方向
-description: 学习如何在Aspose.Cells for .NET中更改刻度标签方向。我们的指南将帮助您了解如何调整坐标轴上刻度标签的方向，包括水平，垂直和倾斜方向。
-keywords: Aspose.Cells for .NET，刻度标签，方向，方向，坐标轴，水平，垂直，倾斜。
+description: 学习如何在Aspose.Cells for .NET中更改刻度标签的方向。我们的指南将帮助您了解如何调整轴上刻度标签的方向，包括水平、垂直和倾斜方向。
+keywords: Aspose.Cells for .NET，刻度标签，方向，方向，轴，水平，垂直，倾斜。
 type: docs
 weight: 170
 url: /zh/net/change-tick-label-direction/
@@ -9,7 +9,7 @@ url: /zh/net/change-tick-label-direction/
 
 ## **更改刻度标签方向**
 
-Aspose.Cells提供了通过使用[**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) 属性来更改图表刻度标签方向的能力。[**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) 属性接受[**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype) 枚举值。[**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype) 枚举提供以下成员
+Aspose.Cells提供了通过 [**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) 属性改变图表刻度标签方向的能力。 [**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) 属性接受 [**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype) 枚举值。 [**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype) 枚举提供以下成员
 
 - 水平
 - 垂直
@@ -17,7 +17,7 @@ Aspose.Cells提供了通过使用[**TickLabels.DirectionType**](https://referenc
 - 旋转270度
 - 堆叠
 
-下图对比了源文件和输出文件
+以下图像比较了源文件和输出文件
 
 ### **源文件图像**
 
@@ -27,7 +27,7 @@ Aspose.Cells提供了通过使用[**TickLabels.DirectionType**](https://referenc
 
 ![todo:image_alt_text](change-tick-label-direction_2.jpg)
 
-以下代码片段将从Rotate90更改刻度标签方向为水平。
+以下代码片段将刻度标签方向从Rotate90更改为水平方向
 
 ## **示例代码**
 

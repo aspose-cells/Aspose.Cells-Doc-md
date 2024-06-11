@@ -1,12 +1,12 @@
 ---
-title: 在 Python 中拆分窗格
+title: Python中的分割窗格
 type: docs
 weight: 70
 url: /zh/java/split-panes-in-python/
 ---
 
-## **Aspose.Cells - 分割窗格**
-要在 Python 中拆分窗格，只需调用 **SplitPanes** 模块。
+## **Aspose.Cells - 拆分窗格**
+使用**Aspose.Cells Java for Python**来分割窗格，只需调用**SplitPanes**模块。
 
 **Python 代码**
 
@@ -34,6 +34,6 @@ print "Panes split successfully."
 
 {{< /highlight >}}
 ## **下载运行代码**
-从下面任何社交编码网站下载 **Split Panes (Aspose.Cells)**
+从下面提到的任何社交编码网站下载**分割窗格（Aspose.Cells）**：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

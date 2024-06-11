@@ -7,15 +7,15 @@ url: /zh/net/save-workbook-to-text-or-csv-format-in-aspose-cells/
 
 {{% alert color="primary" %}} 
 
-有时，您希望将一个包含多个工作表的工作簿转换或保存为文本格式。对于文本格式（例如TXT、TabDelim、CSV等），默认情况下Microsoft Excel和Aspose.Cells只保存活动工作表的内容。
+有时，您希望将包含多个工作表的工作簿转换或保存为文本格式。对于文本格式（例如TXT、TabDelim、CSV等），默认情况下，Microsoft Excel和Aspose.Cells仅保存活动工作表的内容。
 
 {{% /alert %}} 
 
-以下代码示例说明如何将整个工作簿保存为文本格式。加载源工作簿，可以是任何包含任意工作表数量的Microsoft Excel或OpenOffice电子表格文件（如XLS、XLSX、XLSM、XLSB、ODS等）。
+以下代码示例说明如何将整个工作簿保存为文本格式。加载源工作簿，可以是任何Microsoft Excel或OpenOffice电子表格文件（例如XLS、XLSX、XLSM、XLSB、ODS等），并且可以具有任意数量的工作表。
 
-当代码执行时，它将工作簿中所有工作表的数据转换为TXT格式。
+当代码执行时，将工作簿中所有工作表的数据转换为TXT格式。
 
-您可以修改相同的示例，将文件保存为CSV格式。默认情况下，TxtSaveOptions.Separator是逗号，因此在保存为CSV格式时不要指定分隔符。
+您可以修改相同的示例以将您的文件保存为CSV。默认情况下，TxtSaveOptions.Separator是逗号，因此如果保存为CSV格式，则不要指定分隔符。
 
 **C#**
 

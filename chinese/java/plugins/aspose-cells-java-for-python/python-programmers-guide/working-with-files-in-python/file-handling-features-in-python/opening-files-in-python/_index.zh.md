@@ -6,7 +6,7 @@ url: /zh/java/opening-files-in-python/
 ---
 
 ## **Aspose.Cells - 在Python中打开文件**
-要在Python中使用Aspose.Cells Java打开文件，简单地调用Document类的openfile()方法，并指定要在末尾追加的第二个文档。
+要在Python中使用Aspose.Cells Java打开文件，只需调用Document类的openfile()方法，并指定要追加到末尾的第二个文档。
 
 **Python 代码**
 
@@ -146,6 +146,6 @@ print ("Encrypted workbook has been opened successfully.");
 
 {{< /highlight >}}
 ## **下载运行代码**
-从下面提到的社交编码网站之一下载**Opening File (Aspose.Cells)**。
+从以下任一社交编码网站下载**打开文件（Aspose.Cells）**。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

@@ -1,5 +1,5 @@
 ---
-title: 使用公式函数处理VSTO和Aspose.Cells中的数据
+title: 在VSTO和Aspose.Cells中使用公式函数来处理数据
 type: docs
 weight: 240
 url: /zh/net/use-formulas-functions-to-process-data-in-vsto-and-aspose-cells/

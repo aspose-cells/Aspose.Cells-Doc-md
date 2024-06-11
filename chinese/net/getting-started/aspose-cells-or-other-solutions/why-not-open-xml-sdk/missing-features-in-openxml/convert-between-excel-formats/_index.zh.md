@@ -1,5 +1,5 @@
 ---
-title: 在Excel格式之间转换
+title: 在Excel格式之间进行转换
 type: docs
 weight: 20
 url: /zh/net/convert-between-excel-formats/
@@ -7,23 +7,23 @@ url: /zh/net/convert-between-excel-formats/
 
 ## **将Excel转换为PDF**
 
-**PDF**文件被广泛用于组织、政府部门和个人之间交换文档。它是一种标准文档格式，软件开发人员经常被要求找到一种将Microsoft Excel文件转换为**PDF**文档的方法。
-**Aspose.Cells**支持将Excel文件转换为PDF，并在转换过程中保持高视觉保真度。
+**PDF**文件被广泛用于组织之间、政府部门和个人之间的文档交换。这是一种标准文档格式，经常要求软件开发人员找到一种将Microsoft Excel文件转换为**PDF**文件的方法。
+**Aspose.Cells**支持将Excel文件转换为PDF，并在转换过程中保持高度的视觉保真度。
 
-Aspose.Cells for .NET支持从电子表格转换为PDF，独立于其他软件。使用Workbook类的Save方法将Excel文件保存为PDF。Save方法提供了SaveFormat.Pdf枚举成员，将本机Excel文件转换为PDF格式。
+Aspose.Cells for .NET 支持将电子表格转换为 PDF，独立于其他软件。使用 Workbook 类的 Save 方法将 Excel 文件保存为 PDF。Save 方法提供 SaveFormat.Pdf 枚举成员，可将原生 Excel 文件转换为 PDF 格式。
 
-**直接**从电子表格转换为PDF，而不使用第三方工具或外部API，具有以下**优点**：
+直接从电子表格转换为PDF，而不使用第三方工具或外部API，有一些**优势**：
 
 1. 直接转换不需要临时文件，因为整个过程可以在内存中完成。
-1. 不需要XML文件，因此可以轻松转换大文件。
+1. 不需要 XML 文件，因此可以轻松转换大文件。
 1. 转换速度更快。
 
-**要将文件转换为PDF：**
+**将文件转换为PDF:**
 
-1. 通过调用其空构造函数实例化**Workbook**类的对象。
-1. 可以**打开/加载**现有的模板文件，或者如果您是从头开始创建工作簿，则可以跳过此步骤。
-1. 使用Aspose.Cells的API对电子表格进行所需的操作（输入数据，应用格式，设置公式，插入图片或其他绘图对象等）。
-1. 当电子表格代码完成时，调用**Workbook类的Save方法**保存电子表格。文件格式应为PDF，因此从SaveFormat枚举中选择Pdf（一种预定义值）以生成最终的PDF文档。
+1. 调用其空构造函数实例化 **Workbook** 类的对象。
+1. 如果要从头开始创建工作簿，则可以 **打开/加载** 现有模板文件，或者跳过此步骤。
+1. 使用Aspose.Cells的API在电子表格上执行所需的工作（输入数据，应用格式，设置公式，插入图片或其他绘图对象等）。
+1. 当电子表格代码完成时，调用**Workbook类的Save方法**来保存电子表格。文件格式应为PDF，因此从SaveFormat枚举中选择Pdf（预定义值）以生成最终的PDF文档。
 
 {{< highlight csharp >}}
 
@@ -35,8 +35,8 @@ Aspose.Cells for .NET支持从电子表格转换为PDF，独立于其他软件�
 
 ## **将Excel转换为MHTML**
 
-**MHTML**将普通HTML与外部资源（通常是链接的内容，如图像、动画、音频等）组合为一个文件。它们用于带有.mht文件扩展名的电子邮件。
-Aspose.Cells支持读取和编写MHTML文件。
+**MHTML** 将常规HTML与外部资源结合在一起（即通常链接的内容，如图像、动画、音频等），放在一个文件中。它们用于带有.mht文件扩展名的电子邮件。
+Aspose.Cells支持读取和写入MHTML文件。
 
 {{< highlight csharp >}}
 
@@ -52,7 +52,7 @@ Aspose.Cells支持读取和编写MHTML文件。
 
 ## **将Excel转换为XPS**
 
-有时，您希望将一个包含多个工作表的工作簿转换或保存为文本格式。对于文本格式（例如TXT、TabDelim、CSV等），默认情况下Microsoft Excel和Aspose.Cells只保存活动工作表的内容。
+有时，您希望将包含多个工作表的工作簿转换或保存为文本格式。对于文本格式（例如TXT、TabDelim、CSV等），默认情况下，Microsoft Excel和Aspose.Cells仅保存活动工作表的内容。
 
 {{< highlight csharp >}}
 

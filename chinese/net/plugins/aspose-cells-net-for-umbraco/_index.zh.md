@@ -7,5 +7,5 @@ url: /zh/net/aspose-cells-net-for-umbraco/
 
 本节包括以下主题：
 
-- [Umbraco将成员导出到Excel](/cells/zh/net/umbraco-export-members-to-excel/)
-- [将Umbraco数据库数据导出到Excel](/cells/zh/net/umbraco-database-data-exporter-to-excel/)
+- [Umbraco导出会员到Excel](/cells/zh/net/umbraco-export-members-to-excel/)
+- [Umbraco数据库数据导出到Excel](/cells/zh/net/umbraco-database-data-exporter-to-excel/)

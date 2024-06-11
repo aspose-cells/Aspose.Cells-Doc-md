@@ -7,9 +7,9 @@ url: /zh/java/saving-files-in-ruby/
 
 ## **Aspose.Cells - 保存文件**
 ### **将文件保存到某个位置**
-如果开发人员需要使用**Aspose.Cells Java for Ruby**将文件保存到某个位置，则可以在调用**Workbook**对象的**save**方法时在**FileFormatType**枚举中指定文件名（带其完整存储路径）和所需文件格式。
+如果开发人员需要使用**Aspose.Cells Java for Ruby**将其文件保存到某个存储位置，那么他们可以在调用**Workbook**对象的**save**方法时指定文件名（包括完整的存储路径）和所需的文件格式（使用 **FileFormatType** 枚举）。
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 

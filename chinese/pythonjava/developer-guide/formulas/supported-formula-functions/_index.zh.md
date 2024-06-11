@@ -7,11 +7,11 @@ url: /zh/python-java/supported-formula-functions/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells APIs支持大多数标准函数和Excel内置公式。以下，您可以按字母顺序找到所有支持的函数。
+Aspose.Cells API支持大多数标准函数和Excel内置函数。下面，您可以按字母顺序找到所有支持的函数。
 
 {{% /alert %}} 
-### **运行时设置、读取和计算**
-Aspose.Cells'公式计算引擎允许您设置、读取和计算以下公式和函数的结果。
+### **在运行时设置、读取和计算**
+Aspose.Cells 的公式计算引擎允许您在运行时设置、读取和计算以下公式和函数的结果。
 #### **A**
 - ABS
 - ACCRINT

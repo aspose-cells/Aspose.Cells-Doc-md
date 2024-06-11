@@ -1,21 +1,21 @@
 ---
-title: 加载文件时自动调整行高
+title: 在加载文件时自动调整行高
 type: docs
 weight: 120
 url: /zh/net/autofit-row-height/
-description: 了解如何使高度不是自定义的行适合。
-keywords: 加载文件时自动调整行高，打开Excel文件时，如果缓存行的高度与文件中内容的高度不匹配，则MS Excel将自动调整行高，而Aspose.Cells将不会自动调整它以提高性能。如果需要使用Aspose.Cells程序在加载文件时自动匹配行高，可以通过参数[LoadOptions.AutoFitterOptions.OnlyAuto](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions/onlyauto/)来实现目标。 
+description: 了解如何调整行高没有自定义高度。
+keywords: 在加载文件时自动调整行高，打开Excel文件时自动调整行高。 
 ---
 
 ## **可能的使用场景**
-行的高度会自动匹配内容的字体，但如果缓存行的高度不匹配文件中内容的高度，MS Excel在加载文件时会自动调整行高，而Aspose.Cells不会自动调整以提高性能。如果您需要使用Aspose.Cells程序在加载文件时自动匹配行高，可以通过参数[LoadOptions.AutoFitterOptions.OnlyAuto](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions/onlyauto/)来实现。
+行高将自动与内容的字体匹配，但是当缓存行的高度与文件中的内容高度不匹配时，MS Excel将在加载文件时自动调整行高，而Aspose.Cells不会自动调整行高以提高性能。如果需要使用Aspose.Cells程序在加载文件时自动匹配行高，可以通过参数[LoadOptions.AutoFitterOptions.OnlyAuto](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions/onlyauto/)来实现目标。
 
-请参考以下图像数据。我们可以看到第11行的缓存行高为15，但Excel在加载文件时会自动调整行高。
+请参考以下图像数据。我们可以观察到第11行的缓存行高为15，但是Excel在加载文件时会自动调整行高。
 <br>
 <img src="1.png" width=70% />
 
 ## **使用Aspose.Cells调整行高**
-如果直接加载文件并将其保存为PDF，则PDF文件中的数据将无法完全显示，因为其缓存行高仅为15。
+如果直接加载文件并将其保存为PDF，那么数据在PDF中将无法完全显示，因为其缓存行高仅为15。
 <br>
 <img src="2.png" width=70% />
 <br>

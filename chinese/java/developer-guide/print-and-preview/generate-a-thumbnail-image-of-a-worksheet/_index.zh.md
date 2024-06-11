@@ -1,5 +1,5 @@
 ---
-title: 生成工作表的缩略图图像
+title: 为工作表生成缩略图
 type: docs
 weight: 30
 url: /zh/java/generate-a-thumbnail-image-of-a-worksheet/
@@ -7,13 +7,13 @@ url: /zh/java/generate-a-thumbnail-image-of-a-worksheet/
 
 {{% alert color="primary" %}} 
 
-从工作表生成缩略图可能很有用。缩略图是一个小图像，可以粘贴到Word文档或PowerPoint演示文稿中，以预览工作表内容。它可以添加到具有下载原始文档链接的网页，并具有其他一系列用途。
+从工作表生成缩略图可能很有用。缩略图是一个小图像，可以粘贴到 Word 文档或 PowerPoint 演示文稿中，以预览工作表内容。它可以添加到网页，用于提供下载原始文档的链接，并且具有各种其他用途。
 
 {{% /alert %}} 
 
-Aspose.Cells for Java允许您将工作表输出为图像文件，因此制作缩略图很容易。
+Aspose.Cells for Java 允许将工作表输出为图像文件，因此制作缩略图变得很容易。
 
-下面的示例代码逐步展示了如何实现。
+以下示例代码逐步显示了如何操作。
 
 
 

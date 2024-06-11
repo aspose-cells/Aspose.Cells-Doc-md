@@ -7,37 +7,37 @@ url: /zh/java/create-pivot-table/
 
 ## **创建数据透视表**
 
-### **使用 Aspose.Cells 创建透视表**
+### **使用Aspose.Cells创建数据透视表**
 
 {{% alert color="primary" %}}
 
-使用 Aspose.Cells，可以向电子表格添加透视表。Aspose.Cells具有多个专用类，专门用于创建和控制透视表。这些类用于创建和设置作为透视表构建块的 [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) 对象的属性。
+使用Aspose.Cells，可以向电子表格中添加数据透视表。 Aspose.Cells具有许多专门用于创建和控制数据透视表的特殊类。 这些类用于创建和设置[**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable)对象的属性，用作数据透视表的构建模块。
 
-透视表对象包括：
+数据透视表对象为:
 
-- [**PivotField**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField)：它代表透视表中的字段。
-- [**PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection)：它代表透视表中所有 [**PivotField**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField) 对象的集合。
-- [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable)：它代表透视表。
-- [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection)：它代表工作表上所有透视表对象的集合。
+- [**PivotField**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField)：它表示数据透视表中的一个字段。
+- [**PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection)：它表示数据透视表中所有 [**PivotField**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField) 对象的集合。
+- [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable)：它表示数据透视表。
+- [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection)：它表示工作表上所有数据透视表对象的集合。
 
 {{% /alert %}}
 
-### **创建简单的透视表**
+### **创建简单的数据透视表**
 
-要使用 Aspose.Cells 创建透视表，请按照以下步骤操作：
+使用Aspose.Cells创建数据透视表，请按照以下步骤进行:
 
-1. 通过 [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) 对象的 [**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value) 方法将一些数据添加到工作表单元格中。这些数据将用作透视表的数据源。
-1. 通过调用 [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) 类的 [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#add(com.aspose.cells.PivotTable,%20int,%20int,%20java.lang.String) 方法，在 [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) 对象中封装的方式向工作表添加透视表。
-1. 通过传递 [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) 索引，从 [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) 中访问 [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) 对象。
-1. 使用 [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) 对象中封装的任何透视表对象（如上所述）来管理透视表。
+1. 使用 [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) 对象的 [**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value) 方法向工作表单元格添加一些数据。这些数据将作为数据透视表的数据源。
+1. 通过调用 [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) 类中封装的 [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#add(com.aspose.cells.PivotTable,%20int,%20int,%20java.lang.String)) 方法向工作表添加一个数据透视表，该类包装在 [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) 对象中。
+1. 通过传递 [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) 索引从 [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) 中访问 [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) 对象。
+1. 使用 [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) 对象封装的任何数据透视表对象（如上所述）来管理数据透视表。
 
 {{% alert color="primary" %}}
 
-将单元格范围分配为数据源时，范围必须从左上角设置到右下角。例如，"A1:C3" 是有效的；"C3:A1" 是无效的。
+在将单元格范围指定为数据源时，范围必须从左上到右下进行设置。例如，“A1:C3” 是有效的；“C3:A1” 是无效的。
 
 {{% /alert %}}
 
-下面的示例代码展示如何按照上述基本步骤创建简单的透视表。执行代码时，工作表上将添加一个透视表：
+下面的代码示例显示了如何根据上述基本步骤创建一个简单的数据透视表。执行代码时，会在工作表中添加一个数据透视表:
 
 **基于相应字段创建数据透视表**
 

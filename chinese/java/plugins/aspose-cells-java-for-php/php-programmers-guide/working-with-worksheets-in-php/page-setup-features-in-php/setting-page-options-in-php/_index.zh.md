@@ -7,9 +7,9 @@ url: /zh/java/setting-page-options-in-php/
 
 ## **Aspose.Cells - 设置页面选项**
 ### **页面方向**
-使用**Aspose.Cells Java for PHP**，通过调用**pagesetup**模块的**page_orientation**方法来应用页面方向设置。
+要使用**Aspose.Cells Java for PHP**应用页面定向设置，请调用**pagesetup**模块的**page_orientation**方法。
 
-**PHP代码**
+**PHP 代码**
 
 {{< highlight php >}}
 
@@ -47,9 +47,9 @@ url: /zh/java/setting-page-options-in-php/
 
 {{< /highlight >}}
 ### **缩放因子**
-使用**Aspose.Cells Java for PHP**，通过调用**pagesetup**模块的**scaling**方法来应用缩放。
+要使用**Aspose.Cells Java for PHP**应用缩放，请调用**pagesetup**模块的**scaling**方法。
 
-**PHP代码**
+**PHP 代码**
 
 {{< highlight php >}}
 
@@ -86,6 +86,6 @@ url: /zh/java/setting-page-options-in-php/
 
 {{< /highlight >}}
 ## **下载运行代码**
-从下面列出的任何社交编码站点下载**设置页面选项（Aspose.Cells）**。
+从下面提到的任何社交编码网站下载**Setting Page Options (Aspose.Cells)**。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/PageSetupFeatures/SettingPageOptions.php)

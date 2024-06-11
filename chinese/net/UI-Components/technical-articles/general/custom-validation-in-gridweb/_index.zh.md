@@ -3,21 +3,21 @@ title: GridWeb中的自定义验证
 type: docs
 weight: 90
 url: /zh/net/aspose-cells-gridweb/custom-validation-in-gridweb/
-keywords: GridWeb，验证，自定义，服务器
+keywords: GridWeb,validation,custom,server
 description: 本文介绍了GridWeb中的自定义验证。
 
 ---
 
 
 ## **可能的使用场景**
-Aspose.Cells.GridWeb提供了比普通单元格验证API中定义的更多种类的验证。
+Aspose.Cells.GridWeb提供了比在单元格验证api中正常定义的更多类型的验证。
 the normal validation type in cells :<https://docs.aspose.com/cells/net/data-validation/>
 
 the normal validation usage in GridWeb demo: <https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/GridWeb.Net4/CSharp/Miscellaneous/Common/DataValidation.aspx.cs>
 
 here we can check GridValidationType: <https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridvalidationtype/>
 
-以下是可以在GridWeb中使用的扩展验证。
+下面是我们可以在GridWeb中使用的扩展验证。
 
 
 ## **GridValidationType.DropDownList**
@@ -45,7 +45,7 @@ here we can check GridValidationType: <https://reference.aspose.com/cells/net/as
             validation.ValueList = values;
 ```
 
-结果：
+结果:
 ![todo:the validation result](gridvalidation_dropdownlist.png) 
 
 ## **GridValidationType.FreeList**
@@ -63,7 +63,7 @@ here we can check GridValidationType: <https://reference.aspose.com/cells/net/as
              validationOfList.ValueList = C10List;
 ```
 
-结果：
+结果:
 ![todo:the validation result](gridvalidation_freelist.png)  
 
 ## **GridValidationType.CustomExpression**
@@ -90,7 +90,7 @@ here we can check GridValidationType: <https://reference.aspose.com/cells/net/as
 	     // Assigning the name of JavaScript function to OnCellErrorClientFunction property of GridWeb
              GridWeb1.OnCellErrorClientFunction = "ValidationErrorFunction";
 ```
-add javascript function in client page
+在客户端页面中添加JavaScript函数
 ```javascript
 
          function ValidationErrorFunction()
@@ -101,9 +101,9 @@ add javascript function in client page
 
 ```
 
-结果：
-after enter invalid value
-![todo:the validation result](gridvalidation_customexpression.png)  
+结果:
+输入无效值后
+![to do:验证结果](gridvalidation_customexpression.png)  
 
 ## **GridValidationType.Boolean**
 代码：
@@ -112,12 +112,12 @@ after enter invalid value
   GridWeb1.ActiveSheet.Cells[0, 3].CreateValidation(GridValidationType.Boolean,true);
 ```
 
-结果：
-after enter invalid value 
-![todo:the validation result](gridvalidation_bool.png)  
+结果:
+输入无效值后 
+![to do:验证结果](gridvalidation_bool.png)  
 
-after enter true value 
-![todo:the validation result](gridvalidation_bool2.png)  
+输入 true 值后 
+![to do:验证结果](gridvalidation_bool2.png)  
 
 ## **GridValidationType.DateTime**
 代码：
@@ -126,8 +126,8 @@ after enter true value
   GridWeb1.ActiveSheet.Cells[2, 3].CreateValidation(GridValidationType.DateTime, true);
 ```
 
-结果：
-![todo:the validation result](gridvalidation_datetime.png)  
+结果:
+![to do:验证结果](gridvalidation_datetime.png)  
 
 ## **GridValidationType.CheckBox**
 代码：
@@ -136,8 +136,8 @@ after enter true value
    GridWeb1.ActiveSheet.Cells[0, 3].CreateValidation(GridValidationType.CheckBox,true);
 ```
 
-结果：
-![todo:the validation result](gridvalidation_checkbox.png)  
+结果:
+![to do:验证结果](gridvalidation_checkbox.png)  
 
 
 ## **GridValidationType.CustomFunction**
@@ -147,7 +147,7 @@ after enter true value
      GridValidation customValidation= GridWeb1.ActiveSheet.Cells[3, 3].CreateValidation(GridValidationType.CustomFunction, true);
      customValidation.ClientValidationFunction = "MyClientValidation";
 ```
-add javascript function in client page
+在客户端页面中添加JavaScript函数
 ```javascript
 
         function MyClientValidation(source, value)
@@ -160,8 +160,8 @@ add javascript function in client page
 
 ```
 
-result: after enter invalid value at d4
-![todo:the validation result](gridvalidation_customfunction.png)  
+结果：在单元格d4输入无效数值后
+![待办事项：验证结果](gridvalidation_customfunction.png)  
 
 ## **GridValidationType.CustomServerFunction**
 代码：
@@ -208,7 +208,7 @@ result: after enter invalid value at d4
          val.ErrorMessage=("error message is here");
          val.ErrorTitle=("this is error title");
 ```
-add javascript function in client page
+在客户端页面中添加JavaScript函数
 ```javascript
 
         var lastselectvalue = null;
@@ -237,6 +237,6 @@ add javascript function in client page
         }
 
 ```
-result: after enter value at g6
-![todo:the validation result](gridvalidation_customserverfunction.png) 
+结果：在单元格g6输入数值后
+![待办事项：验证结果](gridvalidation_customserverfunction.png) 
 

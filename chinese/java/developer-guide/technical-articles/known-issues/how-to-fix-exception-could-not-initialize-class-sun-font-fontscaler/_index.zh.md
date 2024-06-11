@@ -1,12 +1,12 @@
 ---
-title: 如何修复异常-无法初始化类 sun.font.FontScaler
+title: 如何解决异常 - 无法初始化sun.font.FontScaler类
 type: docs
 weight: 40
 url: /zh/java/how-to-fix-exception-could-not-initialize-class-sun-font-fontscaler/
 ---
 
 ## **可能的使用场景**
-本文章将解释如何修复异常-无法初始化类 sun.font.FontScaler。异常看起来类似于这个样子
+本文将解释如何解决异常 - 无法初始化sun.font.FontScaler类。异常看起来类似于这样
 
 {{< highlight java >}}
 
@@ -42,7 +42,7 @@ Java HotSpot™ 64-Bit Server VM (build 23.7-b01, mixed mode)
 
 {{< /highlight >}}
 ## **可能的解决方案**
-您可以通过将以下JAR集成到类路径中来解决问题：
+您可能可以通过将以下JAR集成到类路径中来解决问题：
 
 - ae-awt.jar
 ## **ae-awt.jar的下载链接**

@@ -6,14 +6,14 @@ url: /zh/java/change-chart-position-and-size/
 ---
 
 ## **Aspose.Cells - 更改图表位置和大小**
-要更改图表的位置（X、Y坐标）和大小（高度、宽度），请使用Aspose.Cells的这些属性：
+要更改图表的位置（X、Y坐标）和大小（高度、宽度），使用Aspose.Cells中的这些属性：
 
 1. Chart.getChartObject().get/setWidth()
 1. Chart.getChartObject().get/setHeight()
 1. Chart.getChartObject().get/setX()
 1. Chart.getChartObject().get/setY()
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -45,6 +45,6 @@ chart.getChartObject().setY(150);
 
 {{% alert color="primary" %}} 
 
-有关更多详细信息，请访问[更改图表位置和大小](/cells/zh/java/change-chart-position-and-size/)
+欲了解更多详情，请访问[更改图表位置和大小](/cells/zh/java/change-chart-position-and-size/)。
 
 {{% /alert %}}

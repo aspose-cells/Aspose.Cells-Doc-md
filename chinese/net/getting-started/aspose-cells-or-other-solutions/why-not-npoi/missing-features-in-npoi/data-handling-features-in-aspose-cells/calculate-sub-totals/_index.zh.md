@@ -6,7 +6,7 @@ url: /zh/net/calculate-sub-totals/
 ---
 
 ## **Aspose.Cells - 计算小计**
-您可以自动在电子表格中为任何重复值创建小计。 Aspose.Cells提供了API功能，帮助您以编程方式向电子表格添加小计。
+您可以自动为电子表格中的任何重复值创建小计。Aspose.Cells提供了API功能，帮助您以编程方式向电子表格添加小计。
 
 **C#**
 
@@ -44,12 +44,12 @@ workbook.Save("AsposeTotal.xls");
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下任何社交编码网站下载**计算小计**
+从以下任一社交编码站点下载**计算小计**。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Calculate.Sub.Totals.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
-有关详细信息，请访问[创建小计](/cells/zh/net/creating-subtotals/)
+有关更多详细信息，请访问[创建小计](/cells/zh/net/creating-subtotals/)。
 
 {{% /alert %}}

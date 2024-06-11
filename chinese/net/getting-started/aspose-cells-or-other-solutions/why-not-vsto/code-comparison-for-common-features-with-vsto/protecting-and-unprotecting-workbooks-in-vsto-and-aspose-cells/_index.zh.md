@@ -5,9 +5,9 @@ weight: 200
 url: /zh/net/protecting-and-unprotecting-workbooks-in-vsto-and-aspose-cells/
 ---
 
-要打开现有的Microsoft Excel文件，请对工作簿进行结构和Windows属性保护，然后保存文件。
+要打开现有的 Microsoft Excel 文件，请保护工作簿的结构和 Windows 属性，并保存文件。
 
-以下是用于VSTO（C#）和Aspose.Cells for .NET（C#）的并行代码片段，展示如何保护工作簿。
+下面是VSTO（C＃）和Aspose.Cells for .NET（C#）的并行代码片段，演示了如何保护工作簿。
 ## **VSTO**
 **保护工作簿**
 

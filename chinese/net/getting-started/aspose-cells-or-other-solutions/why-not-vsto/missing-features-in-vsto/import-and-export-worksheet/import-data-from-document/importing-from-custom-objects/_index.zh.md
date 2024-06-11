@@ -5,7 +5,7 @@ weight: 30
 url: /zh/net/importing-from-custom-objects/
 ---
 
-开发人员可以使用ImportCustomObjects从对象集合导入数据到工作表。您可以向该方法提供列/属性的列表以显示您所需的对象列表。
+开发人员可以使用**ImportCustomObjects**从对象集合中导入数据到工作表。您可以向该方法提供列/属性列表，以显示您期望的对象列表。
 
 {{< highlight csharp >}}
 

@@ -7,14 +7,14 @@ url: /zh/net/public-api-changes-in-aspose-cells-8-4-2/
 
 {{% alert color="primary" %}} 
 
-本文描述了从版本8.4.1到8.4.2的Aspose.Cells API的更改，可能对模块/应用程序开发人员感兴趣。它不仅包括新的和更新的公共方法，添加的类等，还包括Aspose.Cells幕后行为中的任何更改的描述。
+该文档描述了从版本8.4.1到8.4.2的Aspose.Cells API的更改，可能对模块/应用程序开发人员感兴趣。它不仅包括新的和更新的公共方法，[添加的类等](/cells/zh/net/public-api-changes-in-aspose-cells-8-4-2/)，还描述了Aspose.Cells内部行为的任何变化。
 
 {{% /alert %}} 
-## **已添加API**
-### **改进的图表创建机制**
-Aspose.Cells.Charts.Chart类已公开SetChartDataRange方法以简化图表创建任务。 SetChartDataRange方法接受两个参数，第一个参数是指定绘制数据系列的单元区域的字符串类型。 第二个参数是布尔类型，用于指定绘制方向，即；是按行还是按列从单元值范围绘制图表数据系列。
+## **添加的 API**
+### **提高了图表创建机制**
+Aspose.Cells.Charts.Chart类已公开SetChartDataRange方法，以简化图表创建任务。 SetChartDataRange方法接受两个参数，第一个参数是字符串类型，指定要绘制数据系列的单元格区域。第二个参数是布尔类型，指定绘制方向，即从行还是从列绘制图表数据系列。
 
-以下代码片段显示了如何使用几行代码创建柱状图，假设图表的绘图系列数据存在于同一工作表上，从单元格A1到D4。
+以下代码片段展示了如何使用少量代码创建柱状图，假设图表的绘图系列数据存在于同一工作表的单元格A1到D4。
 
 **C#**
 
@@ -35,10 +35,10 @@ chart.SetChartDataRange("A1:D4", true);
 {{< /highlight >}}
 
 
-### **新增 VbaModuleCollection.Add 方法**
-Aspose.Cells for .NET 8.4.2已公开VbaModuleCollection.Add方法，以向Workbook实例添加新的VBA模块。 VbaModuleCollection.Add方法接受Worksheet类型的参数，用于添加特定于工作表的模块。
+### **添加了VbaModuleCollection.Add方法**
+Aspose.Cells for .NET 8.4.2已公开了VbaModuleCollection.Add方法，以向Workbook实例中添加新的VBA模块。VbaModuleCollection.Add方法接受Worksheet类型的参数，用于添加特定工作表的模块。
 
-以下代码片段显示了如何使用VbaModuleCollection.Add方法。
+以下代码段显示了如何使用VbaModuleCollection.Add方法。
 
 **C#**
 
@@ -75,8 +75,8 @@ workbook.Save(output, SaveFormat.Xlsm);
 {{< /highlight >}}
 
 
-### **重载的方法Cells.CopyColumns已添加**
-Aspose.Cells for .NET 8.4.2已公开了Cells.CopyColumns方法的重载版本，以将源列重复到目标列。 新公开的方法总共接受5个参数，其中前4个参数与常规的Cells.CopyColumns方法相同。 但是，最后一个int类型的参数指定了源列必须重复到的目标列数。
+### **添加了重载的Cells.CopyColumns方法**
+Aspose.Cells for .NET 8.4.2已为Cells.CopyColumns方法公开了重载版本，以重复源列到目标列。新公开的方法共接受5个参数，其中前4个参数与通用的Cells.CopyColumns方法相同。但是，最后一个int类型的参数指定了源列必须重复到的目标列的数量。
 
 以下代码片段显示了如何使用新公开的Cells.CopyColumns方法。
 
@@ -113,13 +113,13 @@ workbook.Save(output);
 {{< /highlight >}}
 
 
-### **枚举字段PasteType.Default和PasteType.DefaultExceptBorders已添加**
-随着v8.4.2的发布，Aspose.Cells API为PasteType添加了2个新的枚举字段，如下所示。
+### **添加了枚举字段PasteType.Default和PasteType.DefaultExceptBorders**
+随着v8.4.2的发布，Aspose.Cells API添加了2个新的PasteType枚举字段，如下所述。
 
-- PasteType.Default 与Excel的"全部"粘贴矩形范围的功能类似。
-- PasteType.DefaultExceptBorders 与Excel的"除边框外全部"粘贴矩形范围的功能类似。
+- PasteType.Default：类似于Excel的“全部”功能，用于粘贴单元格范围。
+- PasteType.DefaultExceptBorders：类似于Excel的“除边框之外的所有”功能，用于粘贴单元格范围。
 
-以下示例代码演示了如何使用PasteType.Default字段。
+下面的示例代码演示了如何使用PasteType.Default字段。
 
 **C#**
 
@@ -155,6 +155,6 @@ workbook.Save(output);
 
 {{% alert color="primary" %}} 
 
-从Aspose.Cells for .NET 8.4.2版本开始，枚举字段PasteType.All的行为与Excel的"全部"功能粘贴范围的行为不同。 现在，PasteType.All还将列宽复制到目标范围而不是Excel的"全部"功能。 为了模拟Excel的"全部"行为，请使用PasteType.Default。
+从Aspose.Cells for .NET 8.4.2开始，枚举字段PasteType.All与Excel的"All"功能粘贴单元格范围时的行为不同。现在，PasteType.All还会将列宽复制到目标范围上，而不同于Excel的"All"功能。为了模仿Excel的"All"行为，请使用PasteType.Default。
 
 {{% /alert %}}

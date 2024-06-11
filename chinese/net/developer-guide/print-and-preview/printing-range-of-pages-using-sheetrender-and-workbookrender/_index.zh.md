@@ -7,13 +7,13 @@ url: /zh/net/printing-range-of-pages-using-sheetrender-and-workbookrender/
 
 {{% alert color="primary" %}} 
 
-Microsoft Excel允许您打印工作簿或工作表的页面范围。 以下屏幕截图显示了指定页面范围的Microsoft Excel界面。
+Microsoft Excel 允许您打印工作簿或工作表的页面范围。以下截图显示了指定页面范围的 Microsoft Excel 界面。
 
-Aspose.Cells为此提供了WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)和SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)方法。
+Aspose.Cells 提供了用于此目的的 WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) 和 SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) 方法。
 
 {{% /alert %}} 
-## **指定图像或打印选项的PageIndex和PageCount属性渲染页面序列**
-下面的示例代码演示了如何使用WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)和SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)方法。它打印工作簿和工作表的第2-5页。
+## **指定要打印的页面范围的 Microsoft Excel 界面**
+以下示例代码演示了使用 WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) 和 SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) 方法。它打印工作簿和工作表的第 2-5 页。
 
 
 

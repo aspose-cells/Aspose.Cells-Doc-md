@@ -1,5 +1,5 @@
 ---
-title: 将工作表或图表导出为带有所需宽度和高度的图像
+title: 导出工作表或图表为指定宽度和高度的图像
 type: docs
 weight: 200
 url: /zh/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/
@@ -7,13 +7,13 @@ url: /zh/java/export-worksheet-or-chart-into-image-with-desired-width-and-height
 
 {{% alert color="primary" %}}
 
-您可以使用Aspose.Cells将工作表或图表导出为具有所需宽度和高度的图像。它提供了[**ImageOrPrintOptions.setDesiredSize()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#setDesiredSize(int,%20int)方法来设置导出图像的所需宽度和高度。宽度和高度以像素为单位指定。
+您可以使用Aspose.Cells将工作表或图表导出为具有所需宽度和高度的图像。它提供了[**ImageOrPrintOptions.setDesiredSize()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#setDesiredSize(int,%20int)）方法来设置导出图像的所需宽度和高度。宽度和高度以像素为单位。
 
 {{% /alert %}}
 
-## **导出带有所需宽度和高度的工作表图像**
+## **将工作表导出为具有所需宽度和高度的图像**
 
-以下代码将工作表导出为大小为400x400的图像。
+以下代码将工作表导出为一个 400x400 大小的图像。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ExportWorksheettoImage-1.java" >}}
 

@@ -5,19 +5,19 @@ weight: 220
 url: /zh/net/set-background-picture-of-a-worksheet-in-vsto-and-aspose-cells/
 ---
 
-要将背景图应用于电子表格:
+要向电子表格应用背景图像：
 
-1. 创建一个工作簿并访问要应用背景图的工作表.
-1. 应用背景图.
-1. 保存工作簿.
+1. 创建一个工作簿并访问要向其应用背景图像的工作表。
+1. 应用背景图像。
+1. 保存工作簿。
 
-接下来的代码示例展示了首先在VSTO中执行这些步骤的方式，使用C#或Visual Basic，然后在Aspose.Cells for .NET中执行，同样使用C#或Visual Basic.
+随后的代码示例展示了如何使用VSTO，使用C#或Visual Basic，然后再次使用Aspose.Cells for .NET，再次使用C#或Visual Basic进行此操作。
 
-本文中的代码示例创建了一个带有重复背景图片的工作表，如下方截图中的工作表.
+本文中的代码示例创建了一个带有重复背景图像的工作表，就像下面的屏幕截图中的那样。
 
 ![todo:image_alt_text](picture1.png)
 
-已为工作表设置了背景.
+为工作表设置了背景。
 
 ## **VSTO**
 

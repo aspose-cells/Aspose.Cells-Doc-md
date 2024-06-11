@@ -1,5 +1,5 @@
 ---
-title: 使用Aspose.Cells for .NET
+title: 使用单元格文本添加条件图标集
 type: docs
 weight: 160
 url: /zh/net/add-conditional-icons-set-with-the-cell-text/
@@ -7,11 +7,11 @@ url: /zh/net/add-conditional-icons-set-with-the-cell-text/
 
 {{% alert color="primary" %}} 
 
-有时，您希望在单元格旁边添加有条件的图标以使数据对读者更有意义。您希望使用一些有条件格式图标类型但不向单元格应用有条件格式。Aspose.Cells支持这个功能。
+有时，您想要在单元格文本旁添加条件图标，以便使数据对读者更具意义。您希望使用一些条件格式图标类型，但不应用于单元格的条件格式。Aspose.Cells支持此功能。
 
 {{% /alert %}} 
 
-以下代码示例显示如何将条件图标集与单元格文本一起添加。
+以下代码示例显示了如何在单元格文本旁添加条件图标设置。
 
 
 

@@ -1,28 +1,28 @@
 ---
-title: 许可
+title: 许可证
 type: docs
 weight: 50
 url: /zh/java/licensing/
-description: Aspose.Cells for JAVA提供了不同的购买计划或提供免费试用并提供30天临时许可证，以使用Java中的许可证和订阅策略进行评估。
+description: Aspose.Cells for JAVA提供不同的购买计划或提供免费试用和30天临时许可证以评估Java中的许可证和订阅政策。
 keywords: Java从磁盘或流应用许可证。Java从磁盘或流设置许可证。在Aspose.Cells for Java中应用许可证。
 ---
 
-## **如何在Aspose.Cells组件中应用许可证**
+## **如何在 Aspose.Cells 组件中应用许可证**
 
-许可证是包含产品名称、许可给开发人员数量、订阅到期日期等详细信息的纯文本XML文件。该文件经过数字签名，因此请勿修改文件; 即使意外添加额外的换行符到文件中也会使其无效。
+许可证是一个包含产品名称、许可给多少开发人员、订阅到期日期等详细信息的纯文本XML文件。该文件经过数字签名，因此不要修改文件; 即使在文件中无意添加额外的换行符也会使其失效。
 
-如果要避免其评估限制，则需要在使用Aspose.Cells之前设置许可证。每个应用程序或进程只需要设置许可证一次。
+如果要避免其评估限制，您需要在使用 Aspose.Cells 之前设置许可证。每个应用程序或进程只需要设置一次许可证。
 
-许可证可以从以下位置的流或文件加载:
+许可证可以从流或文件中加载到以下位置：
 
 1. 明确的路径。
-1. 包含Aspose.Cells.jar的文件夹。
+1. 包含 Aspose.Cells.jar 的文件夹。
 
-使用[License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream))方法来为组件提供许可证。通常设置许可证的最简单方法是将许可证文件放在与Aspose.Cells.jar相同的文件夹中，并仅指定文件名而不指定路径，如以下示例所示:
+使用 [License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)) 方法来许可组件。通常，设置许可证的最简单方式是将许可证文件放在与 Aspose.Cells.jar 相同的文件夹中，并且只需指定文件名，不需要路径，如下例所示：
 
 ### **如何从磁盘应用许可证**
 
-在这个例子中，**Aspose.Cells** 将尝试在包含您的应用程序JAR的文件夹中找到许可证文件。
+在此示例中，**Aspose.Cells** 将尝试在包含应用程序 JAR 的文件夹中查找许可证文件。
 
 {{< highlight csharp >}}
 
@@ -44,9 +44,9 @@ license.setLicense(new java.io.FileInputStream("Aspose.Cells.Java.lic"));
 
 {{< /highlight >}}
 
-### **如何在Aspose.Cells.GridWeb中应用许可证**
+### **如何在 Aspose.Cells.GridWeb 中应用许可证**
 
-建议将许可代码放在Web应用程序中应首先处理的位置。
+建议将许可证代码放在 Web 应用程序中应该首先处理的位置。
 
 {{< highlight csharp >}}
 
@@ -58,11 +58,11 @@ lic.setLicense("Aspose.Cells.lic");
 
 {{< /highlight >}}
 
-## **如何申请按使用量计费的许可**
+## **如何应用计量许可证**
 
-Aspose.Cells允许开发人员应用按使用量计费的密钥。这是一种新的许可机制。新的许可机制将与现有的许可方法一起使用。那些希望基于API功能的使用量计费的客户可以使用按使用量计费。有关更多详细信息，请参阅[Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered)章节。
+Aspose.Cells允许开发人员应用计量密钥。这是一种新的许可证机制。新的许可证机制将与现有的许可证方法一起使用。那些希望按照API功能的使用情况计费的客户可以使用计量许可证。有关更多详细信息，请参阅 [计量许可证常见问题解答](https://purchase.aspose.com/faqs/licensing/metered) 部分。
 
-引入了一个新类[Metered](https://reference.aspose.com/cells/java/com.aspose.cells/Metered)，以应用计量公钥和私钥的示例代码如下。
+引入了一个新类 [Metered](https://reference.aspose.com/cells/java/com.aspose.cells/Metered) 来应用按使用情况计费的密钥。以下是演示如何设置按使用情况计费的公钥和私钥的示例代码。
 
 {{< highlight java >}}
 

@@ -1,43 +1,43 @@
 ---
-title: 应用小计和在详细信息下方更改大纲摘要行的方向
+title: 应用小计并更改大纲摘要行的方向，而不是详细信息下面的行
 type: docs
 weight: 100
 url: /zh/python-net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/
-description: 了解如何通过Aspose.Cells for Python通过.NET API应用小计并更改详细信息下方的大纲摘要行的方向。
-keywords: Python Excel库，应用小计，添加小计，更改详细信息下方的大纲摘要行的方向，更改详细信息下方的大纲摘要列的方向，创建小计并更改详细信息下方的大纲摘要行的方向
+description: 使用Aspose.Cells for Python via .NET API学习如何应用小计并更改大纲摘要行下面的详细信息的方向。
+keywords: Python Excel库，应用小计，添加小计，更改大纲摘要下面的详细信息的方向，更改大纲摘要列的方向到详细信息的右侧，创建小计并更改大纲摘要下面的详细信息的方向
 ---
 
 {{% alert color="primary" %}}
 
-本文将解释如何将小计应用于数据并更改详细信息下方的大纲摘要行的方向。
+本文将解释如何对数据应用小计并更改大纲摘要行下面的方向。
 
-您可以使用 [**Worksheet.cells.subtotal()**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/subtotal/#aspose.cells.CellArea-int-aspose.cells.ConsolidationFunction-list-bool-bool-bool) 方法对数据应用小计。它接受以下参数。
+你可以使用[**Worksheet.cells.subtotal()**](https://reference.aspose.com/cells/python-net/aspose.cells/cells/subtotal/#aspose.cells.CellArea-int-aspose.cells.ConsolidationFunction-list-bool-bool-bool)方法对数据应用小计。它接受以下参数。
 
 - **ca** - 应用小计的范围
-- **group_by** - 按零为基础的整数偏移来分组的字段
+- **group_by** - 以从零开始的整数偏移量作为分组依据的字段
 - **function** - 小计函数
-- **total_list** - 以零为基础的字段偏移的数组，指示要添加小计的字段
-- **replace** - 指示是否替换当前的小计
-- **page_breaks** - 指示在组之间添加分页符
-- **summary_below_data** - 指示是否在数据下方添加摘要
+- **total_list** - 一个从零开始的字段偏移量数组，指示添加小计的字段
+- **replace** - 指示是否替换当前小计
+- **page_breaks** - 指示是否在分组之间添加分页符
+-**summary_below_data**- 表示是否将摘要添加在数据下方。
 
-此外，还可以控制大纲中 **具有详细信息下方的摘要行** 的方向，如下截图所示，使用 Worksheet.Outline.SummaryRowBelow 属性。您可以在 Microsoft Excel 中使用 **数据 > 大纲 > 设置** 打开此设置
+此外，您可以使用 Worksheet.Outline.SummaryRowBelow 属性，在下图所示的 Microsoft Excel 中通过“数据 > 大纲 > 设置”来控制大纲摘要行在细节下方的方向。
 
 ![todo:image_alt_text](1.png)
 
 {{% /alert %}}
 
-## **源文件和输出文件的图像**
+## **源文件和输出文件的图片**
 
-以下截图显示了示例代码中使用的源Excel文件，其中在A和B列中包含一些数据。
+下图显示了示例代码中使用的源Excel文件，其中包含列A和B中的一些数据。
 
 ![todo:image_alt_text](2.png)
 
-以下截图显示了示例代码生成的输出 Excel 文件。正如您所见，已对 A2:B11 范围应用了小计，并且大纲的方向是摘要行在详细信息下方。
+下图显示了示例代码生成的输出Excel文件。如您所见，对范围A2:B11应用了小计，并且大纲的方向是细节下方的摘要行。
 
 ![todo:image_alt_text](3.png)
 
-## **应用小计并更改大纲摘要行方向的Python代码**
+## **Python代码应用小计并改变大纲摘要行的方向**
 
 以下是实现上述输出的示例代码。
 

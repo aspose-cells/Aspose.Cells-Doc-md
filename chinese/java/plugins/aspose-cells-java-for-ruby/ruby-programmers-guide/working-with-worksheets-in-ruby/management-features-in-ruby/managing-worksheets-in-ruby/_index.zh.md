@@ -6,10 +6,10 @@ url: /zh/java/managing-worksheets-in-ruby/
 ---
 
 ## **Aspose.Cells - 管理工作表**
-### **向新的Excel文件中添加工作表**
-要使用**Aspose.Cells Java for Ruby**将工作表添加到新的Excel文件中，只需调用**MangingWorksheets**模块的**add_worksheet**方法。
+### **向新的Excel文件添加工作表**
+通过**Aspose.Cells Java for Ruby**的**MangingWorksheets**模块的**add_worksheet**方法向新的Excel文件添加工作表。
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 
@@ -40,10 +40,10 @@ url: /zh/java/managing-worksheets-in-ruby/
 end 
 
 {{< /highlight >}}
-### **向设计者电子表格添加工作表**
-向设计者电子表格添加工作表的过程与上述方法完全相同，唯一不同的是Excel文件已经创建，我们需要先打开该Excel文件，然后再向其中添加工作表。
+### **向设计电子表格添加工作表**
+向设计者电子表格添加工作表的过程与上述方法完全相同，除了Excel文件已经创建，我们需要先打开该Excel文件，然后再添加工作表。
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 
@@ -79,7 +79,7 @@ end  
 ### **使用工作表名称访问工作表**
 要使用**Aspose.Cells Java for Ruby**通过工作表名称访问工作表，只需调用**MangingWorksheets**模块的**get_worksheet**方法。
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 
@@ -102,10 +102,10 @@ end  
 end
 
 {{< /highlight >}}
-### **使用表名删除工作表**
+### **使用工作表名称移除工作表**
 要使用**Aspose.Cells Java for Ruby**通过工作表名称删除工作表，只需调用**MangingWorksheets**模块的**remove_worksheet_by_name**方法。
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 
@@ -139,10 +139,10 @@ end
 
 
 {{< /highlight >}}
-### **使用工作表索引删除工作表**
+### **通过页索引删除工作表**
 要使用**Aspose.Cells Java for Ruby**通过工作表索引删除工作表，只需调用**MangingWorksheets**模块的**remove_worksheet_by_index**方法。
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 
@@ -176,6 +176,6 @@ end 
 
 {{< /highlight >}}
 ## **下载运行代码**
-从下面列出的任何社交编码站点下载**管理工作表（Aspose.Cells）**。
+从下面提到的任何社交编码网站下载**Managing Worksheets (Aspose.Cells)**。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/managingworksheets.rb)

@@ -6,7 +6,7 @@ url: /zh/net/formula-calculation-engine-in-aspose-cells/
 ---
 
 ## **Aspose.Cells - 公式计算引擎**
-公式计算引擎嵌入在 Aspose.Cells 中。它不仅可以重新计算从设计师电子表格文件中导入的公式，还支持计算在运行时添加的公式的结果。
+公式计算引擎嵌入在Aspose.Cells中。它不仅可以重新计算从设计者电子表格文件导入的公式，还支持计算运行时添加的公式结果。
 
 **C#**
 
@@ -60,12 +60,12 @@ book.Save("AsposeFormulaEngine.xls");
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下任何社交编码网站下载**公式计算引擎**
+从以下任一社交编码站点下载**公式计算引擎**。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Formula.Calculation.Engine.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
-有关详细信息，请访问[公式计算引擎](/cells/zh/net/formula-calculation-engine/)
+要了解更多详细信息，请访问[公式计算引擎](/cells/zh/net/formula-calculation-engine/)。
 
 {{% /alert %}}

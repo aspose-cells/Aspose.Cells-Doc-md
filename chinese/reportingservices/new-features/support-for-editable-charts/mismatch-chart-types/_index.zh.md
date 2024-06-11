@@ -7,17 +7,17 @@ url: /zh/reportingservices/mismatch-chart-types/
 
 {{% alert color="primary" %}} 
 
-在SQL Server报表服务2008报告定义文件中，一些图表类型不可用作Excel图表类型:
+SQL Server Reporting Services 2008报告定义文件中的某些图表类型不可用作Excel图表类型：
 
-- Line-Stepped
-- Range-Plain
-- Range-Smooth
-- Range-Column
-- Range-Bar
-- Range-ErrorBar
-- Range-BoxPlot
-- Shape-Funnel
+- 线条-阶梯
+- 范围-普通
+- 范围-平滑
+- 范围-柱状
+- 范围-条形
+- 范围-误差棒
+- 范围-箱线图
+- 形状-漏斗
 
-在渲染在Microsoft Excel中没有等价选项的图表项时，Aspose.Cells将其输出为图像。 
+当呈现图表项时，如果在Microsoft Excel中没有等效选项，Aspose.Cells会将它们输出为图像。 
 
 {{% /alert %}}

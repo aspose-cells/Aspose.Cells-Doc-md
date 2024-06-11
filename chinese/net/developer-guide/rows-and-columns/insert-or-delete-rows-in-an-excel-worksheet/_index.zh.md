@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /zh/net/insert-or-delete-rows-in-an-excel-worksheet/
 description: 本文提供了在Excel工作表中插入和删除行的C#代码
-keywords: c#在Excel工作表中插入或删除行，c#在Excel工作表中插入或删除行，c#在Excel中插入行，c#删除Excel中的行，在c#中使用的Excel工作表中插入或删除行，使用c#在Excel中插入或删除行，使用c#在Excel中插入行，使用c#在Excel中删除行
+keywords: C#在Excel工作表中插入或删除行，使用C#在Excel工作表中插入或删除行，C#在Excel中插入行，C#在Excel中删除行，使用C#在Excel工作表中插入或删除行，使用C#在Excel中插入或删除行，使用C#在Excel中插入行，使用C#在Excel中删除行
 ---
 
 {{% alert color="primary" %}}
@@ -13,10 +13,10 @@ keywords: c#在Excel工作表中插入或删除行，c#在Excel工作表中插�
 
 {{% /alert %}}
 
-Aspose.Cells提供了两种用于插入和删除行的方法:[**Cells.InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows/index)和[**Cells.DeleteRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows/index)。这些方法经过优化以提高性能，并且可以快速完成任务。
+Aspose.Cells提供了两种插入和删除行的方法：[**Cells.InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows/index)和[**Cells.DeleteRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows/index)。这些方法经过了性能优化，非常快速地完成工作。
 
-为了插入或移除一些行，我们建议您始终使用[**Cells.InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows/index)和[**Cells.DeleteRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows/index)方法，而不要在循环中使用[**Cells.InsertRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow)或[**DeleteRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterow)方法。
+要插入或删除多行，我们建议始终使用[**Cells.InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows/index)和[**Cells.DeleteRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows/index)方法，而不是在循环中使用[**Cells.InsertRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow)或[**DeleteRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterow)方法。
 
-Aspose.Cells的工作方式与Microsoft Excel相同。添加行或列时，工作表内容会向下和向右移动。删除行或列时，工作表内容会向上或向左移动。当添加或删除行时，其他工作表和单元格中的引用会更新。
+Aspose.Cells的工作方式与Microsoft Excel相同。当添加行或列时，工作表内容向下和向右移动。当删除行或列时，工作表内容向上或向左移动。添加或删除行时，其他工作表和单元格中的引用会得到更新。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-InsertDeleteRows-1.cs" >}}

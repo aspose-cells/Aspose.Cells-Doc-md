@@ -1,13 +1,13 @@
 ---
-title: 预览文档
+title: 文档预览
 type: docs
 weight: 30
 url: /zh/sharepoint/preview-document/
 ---
 
-要在文档库中预览Microsoft Excel文档：
+在文档库中预览 Microsoft Excel 文档:
 
-1. 从文档的ECB中选择**使用Aspose.Cells进行文档预览**。 
+1. 从文档的编辑控件块 (ECB) 中选择 **使用 Aspose.Cells 预览文档**. 
 
    **从菜单中选择预览文档** 
 

@@ -3,34 +3,34 @@ title: 分组行并创建小计
 type: docs
 weight: 70
 url: /zh/net/aspose-cells-gridweb/group-rows-and-create-subtotal/
-keywords: GridWeb，小计，分组，取消分组
-description: 本文介绍如何在GridWeb中分组/取消分组行/列以及如何使用小计。
+keywords: GridWeb,subtotal,group,ungroup
+description: 本文介绍如何对行/列进行分组/取消分组，并且如何在GridWeb中使用小计功能。
 ---
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridWeb可以为您的数据创建概要。这样，您可以通过单击概要符号“+”和“-”来显示和隐藏详细级别，仅显示提供工作表部分摘要或标题的行。您可以使用这些符号来查看单个摘要或标题下的详细信息。
+Aspose.Cells.GridWeb可以为您的数据创建大纲。这让您可以通过点击大纲符号 "+" 和 "-" 来显示和隐藏详细级别，以仅显示提供摘要或章节标题的行，您可以使用这些符号来查看工作表中各个摘要或标题下的详细信息。
 
-在分组行时，重要的是只选择组成组的详细行。不要包括相关的摘要行。例如，如果第6行包含第3到第5行数据的总计，请仅选择第3到第5行来定义该组。Aspose.Cells.GridWeb控件在工作表中指定组的行标题旁显示“显示详细信息”（+）和“隐藏详细信息”（-）符号。
+在分组行时，重要的是选择只包含组成该组的详细行不要包括相关的摘要行。例如，如果第6行包含行3到5中的数据总和，请选择只有第3至5行以定义该组。 Aspose.Cells.GridWeb控件在工作表中的行标头旁边显示**显示详细信息**（+）和**隐藏具体信息**（-）符号以指定工作表中的组。
 
-Aspose.Cells.GridWeb还允许您基于任何数据字段创建小计。小计不一定是求和：它可以是平均值、计数、最小值、最大值或其他统计计算。
+Aspose.Cells.GridWeb还允许您根据任何数据字段创建小计。小计不一定是求和：它可以是平均值、计数、最小值、最大值或其他统计计算。
 
-本主题讨论了如何使用Aspose.Cells.GridWeb API对行进行分组和创建小计。开发人员可以轻松地对行进行分组，嵌套任何层级，并创建小计。
+本主题讨论了使用Aspose.Cells.GridWeb API对行进行分组并创建小计。开发人员可以轻松地对行进行任何嵌套级别的分组，并创建小计。
 
 {{% /alert %}} 
 ## **分组行**
 要对特定数量的行进行分组：
 
-1. 将Aspose.Cells.GridWeb控件添加到Web表单中。
+1. 将 Aspose.Cells.GridWeb 控件添加到 Web 表单中。
 1. 访问工作表。
-1. 选择要在行中进行分组的所需单元格数量。
+1. 选择目标行中所需数量的单元格。
 1. 对行进行分组。
 
-当对行进行分组时，在行的摘要行顶部会显示展开/折叠按钮。您可以更改方向设置。WebWorksheet.IsSummaryRowBelow属性是一个布尔属性。将其设置为false（默认值），摘要行将位于详细行上方。将其设置为true，摘要行将位于详细行下方。单击展开/折叠按钮以展开或折叠分组的行。
+当行被分组时，展开/折叠按钮会显示在行摘要行的顶部。您可以更改方向设置。WebWorksheet.IsSummaryRowBelow属性是一个布尔属性。将其设置为false（默认值），摘要行就会显示在详细行上方，将其设置为true，摘要行就会显示在详细行下方。单击展开/折叠按钮可展开或折叠分组的行。
 
-以下示例将第2行到第10行进行分组。
+以下示例将从第2行到第10行分组的行。
 
-分组行 
+**分组行** 
 
 ![todo:image_alt_text](group-rows-and-create-subtotal_1.png)
 
@@ -47,10 +47,10 @@ GridWorksheet sheet = GridWeb1.WorkSheets[GridWeb1.ActiveSheetIndex];
 sheet.Cells.GroupRows(1, 9);
 
 {{< /highlight >}}
-### **嵌套分组的行**
-在对一组行进行分组时，您可以创建组织级别。您可以对嵌套行中的行进行分组。以下示例显示了嵌套分组的行。
+### **嵌套分组行**
+在对一组行进行分组时，您可以创建组织层次结构级别。您可以在已分组的行中对行进行分组。以下示例显示了嵌套已分组行。
 
-分组行 
+**分组行** 
 
 ![todo:image_alt_text](group-rows-and-create-subtotal_2.png)
 
@@ -71,17 +71,17 @@ sheet.Cells.GroupRows(1, 9);
 sheet.Cells.GroupRows(4, 6);
 
 {{< /highlight >}}
-### **内部流程：控件如何工作？**
-工作表的每行都有一个概述编号。概述编号的默认值为零。每次对行进行分组时，概述编号就会增加1。您可以通过调用GridWorksheet.Cells.GetRowOutlineLevel()方法获取概述编号。
-## **取消分组行**
-Aspose.Cells.GridWeb允许您取消分组的行。
+### **内部流程：控件如何运作？**
+工作表的每一行都有一个大纲号。大纲号的默认值为零。每次对行进行分组时，大纲号都会加1。您可以通过调用GridWorksheet.Cells.GetRowOutlineLevel()方法来获取大纲号。
+## **取消组合行**
+Aspose.Cells.GridWeb允许您取消对分组行的分组。
 
-要取消特定数量的行的分组：
+取消对指定行数的行进行分组：
 
-1. 选择工作表中行的单元格数量来取消分组。
-1. 取消分组行。
+1. 在工作表中选择要取消分组的行中的单元格数。
+1. 取消行的分组。
 
-以下示例将第2行到第10行的行取消分组。
+以下示例取消了从第2行到第10行的行的分组。
 
 
 
@@ -99,11 +99,11 @@ sheet.Cells.UngroupRows(1, 9); 
 
 {{% alert color="primary" %}} 
 
-当调用GridWorksheet.Cells.UngroupRows()方法时，已分组行的概述编号将设置为零。
+当调用GridWorksheet.Cells.UngroupRows()方法时，分组行的轮廓编号将设置为零。
 
 {{% /alert %}} 
 ## **创建小计**
-控件的小计功能可以根据工作表中的指定列对行进行分组，并计算列的汇总。Aspose.Cells.GridWeb可以自动为列表计算小计值。在实现小计时，控件会为列表制作概述，以便您可以显示和隐藏每个小计的详细行。在添加小计之前，对希望进行小计的字段进行排序。要创建小计，请使用WebWorksheet.CreateSubtotal方法的任何版本。
+控件的小计功能可以根据指定的列对工作表中的行进行分组，并计算列的汇总。Aspose.Cells.GridWeb可以自动计算列表的小计值。实现小计时，控件会概述列表，以便您可以显示和隐藏每个小计的详细行。在添加小计之前，按照您希望进行小计的字段进行排序。要创建小计，请使用WebWorksheet.CreateSubtotal方法的任何版本。
 
 
 
@@ -130,24 +130,24 @@ sheet.Cells.UngroupRows(1, 9); 
 
 |**编号**|**参数名称**|**描述**|
 | :- | :- | :- |
-|1|columnNameRowIndex|列名行的行索引。|
-|2|dataRows|数据行的数量。|
-|3|groupByColumnIndex|要分组的列的列索引。|
-|4|subtotalFunction|小计功能类型枚举。|
-|5|subtotalColumnIndexList|要小计的列索引。|
-### **汇总函数列表**
-由{[SubtotalFunction}}枚举支持几种汇总函数类型：
+|1|columnNameRowIndex|列名称行的行索引。|
+|2|dataRows|数据行的行数。|
+|3|groupByColumnIndex|要进行分组的列的列索引。|
+|4|subtotalFunction|小计函数类型枚举。|
+|5|subtotalColumnIndexList|要进行小计的列索引。|
+### **摘要函数列表**
+由{{SubtotalFunction}}枚举支持的几种摘要函数类型：
 
 |**编号**|**函数名称**|**描述**|
 | :- | :- | :- |
 |1|AVERAGE|计算值的平均值。|
 |2|COUNT|计算单元格中数值的数量。|
-|3|COUNTA|计算单元格中非数值数据的数量.|
-|4|MAX|计算最大值.|
-|5|MIN|计算最小值.|
-|6|PRODUCT|计算数值的乘积.|
-|7|SUM|计算数值的和.|
-以下示例生成小计，计算工作表中第二列分组的非数字值。
+|3|COUNTA|计算单元格中非数字数据的数量。|
+|4|MAX|计算最大值。|
+|5|MIN|计算最小值。|
+|6|PRODUCT|计算数值的乘积。|
+|7|SUM|计算数值的总和。|
+以下示例生成通过工作表中的第二列分组计算非数字值的小计。
 
 **小计** 
 
@@ -160,8 +160,8 @@ sheet.Cells.UngroupRows(1, 9); 
  sheet.CreateSubtotal(0, sheet.Cells.MaxRow, 1, SubtotalFunction.COUNTA, new int[] { 1, 2, 3, 4, 5 });
 
 {{< /highlight >}}
-## **删除小计**
-要删除小计，请使用 WebWorksheet.RemoveSubtotal 方法。 以下示例移除小计。
+## **移除小计**
+要移除小计，请使用 WebWorksheet.RemoveSubtotal 方法。以下示例移除小计。
 
 
 
@@ -176,19 +176,19 @@ GridWorksheet sheet = GridWeb1.WorkSheets[GridWeb1.ActiveSheetIndex];
 sheet.RemoveSubtotal();
 
 {{< /highlight >}}
-## **SUBTOTAL 函数介绍**
-GridWeb 控件利用公式函数 SUBTOTAL 计算小计值。
+## **关于 SUBTOTAL 函数**
+GridWeb 控件使用 SUBTOTAL 公式函数来计算小计值。
 
 语法：SUBTOTAL(function_num, ref1, ref2, ...)
 
-function_num 是指定在小计计算中使用的函数类型的编号。
+function_num 是指定小计计算中使用的函数类型的数字。
 
 |**1**|**平均值**|
 | :- | :- |
-|2|COUNT|
-|3|COUNTA|
-|4|MAX|
-|5|MIN|
-|6|PRODUCT|
-|7|SUM|
-ref1、ref2 是要进行小计的区域。如果 ref1、ref2 等包含其他小计函数，则会忽略引用的单元格，以避免重复计算。
+|2|COUNT||
+|3|COUNTA||
+|4|MAX||
+|5|MIN||
+|6|PRODUCT||
+|7|SUM||
+ref1、ref2 等为小计计算的区域。如果 ref1、ref2 ... 包含其他小计函数，则忽略引用的单元格，以避免重复计算。

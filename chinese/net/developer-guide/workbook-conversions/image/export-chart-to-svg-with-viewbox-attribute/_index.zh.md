@@ -1,5 +1,5 @@
 ---
-title: 将视图到 SVG 格式的图表导出
+title: 导出带有viewBox属性的SVG图表
 type: docs
 weight: 280
 url: /zh/net/export-chart-to-svg-with-viewbox-attribute/
@@ -7,11 +7,11 @@ url: /zh/net/export-chart-to-svg-with-viewbox-attribute/
 
 {{% alert color="primary" %}}
 
-默认情况下，当图表导出为 SVG 格式时，其 XML 中不包括 **viewBox** 属性。 然而，Aspose.Cells 提供了 [**ImageOrPrintOptions.SVGFitToViewPort**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/svgfittoviewport) 属性，当设置为 **true** 时导出带有 viewBox 属性的 SVG 图表。
+默认情况下，将图表导出为SVG格式时，其XML中不包括**viewBox**属性。但是，Aspose.Cells提供了[**ImageOrPrintOptions.SVGFitToViewPort**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/svgfittoviewport)属性，将其设置为**true**时会导出具有viewBox属性的SVG图表。
 
 {{% /alert %}}
 
-## 将图表导出为带 viewBox 属性的 SVG 格式
+## 导出带有viewBox属性的SVG图表
 
 以下示例代码将图表导出为带有viewBox属性的SVG格式。
 
@@ -19,7 +19,7 @@ url: /zh/net/export-chart-to-svg-with-viewbox-attribute/
 
 {{% alert color="primary" %}}
 
-如果您在记事本中打开图表的SVG文件，您会发现类似于这样的viewBox属性。
+如果在记事本中打开图表的SVG文件，将会找到类似于这样的**viewBox**属性。
 
 {{< highlight java >}}
 

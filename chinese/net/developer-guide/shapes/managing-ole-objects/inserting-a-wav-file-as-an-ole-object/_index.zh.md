@@ -1,5 +1,5 @@
 ---
-title: 将 WAV 文件作为 Ole 对象插入
+title: 将WAV文件作为OLE对象插入
 type: docs
 weight: 70
 url: /zh/net/inserting-a-wav-file-as-an-ole-object/
@@ -7,7 +7,7 @@ url: /zh/net/inserting-a-wav-file-as-an-ole-object/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells提供了向Excel工作表添加不同类型的OLE对象功能。我们将在下面的代码示例中看到，如何使用Aspose.Cells提供的简单API添加一个 WAV 文件作为OLE对象。 
+Aspose.Cells提供了向excel工作表添加不同类型的OLE对象的功能。在以下代码示例中，我们将看到如何使用Aspose.Cells提供的简单API将wav文件作为OLE对象添加。 
 
 {{% /alert %}} 
 

@@ -1,14 +1,14 @@
 ---
-title: 在xlsx4j中创建新电子表格
+title: 通过 xlsx4j 创建新电子表格
 type: docs
 weight: 30
 url: /zh/java/create-new-spreadsheet-in-xlsx4j/
 ---
 
-## **Aspose.Cells - 创建新电子表格**
-Workbook类可用于简单使用。
+## **Aspose.Cells - 创建新的电子表格**
+Workbook 类可用于简单使用。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -35,10 +35,10 @@ cell.setValue("This is Aspose test of fonts!");
 workbook.save(dataDir + "newWorksheet_Aspose.xls");
 
 {{< /highlight >}}
-## **xlsx4j - 创建新电子表格**
-在使用xlsx4j时，下面的示例展示了如何创建新电子表格。
+## **xlsx4j - 创建新的电子表格**
+以下示例显示了如何在使用 xlsx4j 时创建新的电子表格。
 
-**Java**
+Java
 
 {{< highlight java >}}
 

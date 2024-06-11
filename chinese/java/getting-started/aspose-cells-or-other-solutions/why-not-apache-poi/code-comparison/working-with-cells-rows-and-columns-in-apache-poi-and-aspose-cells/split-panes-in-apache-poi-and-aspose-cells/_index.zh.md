@@ -1,14 +1,14 @@
 ---
-title: 在Apache POI和Aspose.Cells中分割窗格
+title: 在 Apache POI 和 Aspose.Cells 中拆分窗格
 type: docs
 weight: 70
 url: /zh/java/split-panes-in-apache-poi-and-aspose-cells/
 ---
 
-## **Aspose.Cells - 分割窗格**
-Aspose.Cells提供了一个表示Microsoft Excel文件的Workbook类。Workbook类提供了许多用于管理Excel文件的属性和方法。要实现分割视图，请使用Worksheet类的split方法。要删除分割窗格，请使用removeSplit方法。
+## **Aspose.Cells - 拆分窗格**
+Aspose.Cells 提供了一个 Workbook 类，表示 Microsoft Excel 文件。Workbook 类提供了广泛的属性和方法来管理 Excel 文件。要实现拆分视图，使用 Worksheet 类的 split 方法。要移除拆分窗格，使用 removeSplit 方法。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -25,10 +25,10 @@ book.getWorksheets().get(0).setActiveCell("A20");
 book.getWorksheets().get(0).split();
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF和XSSF - 分割窗格**
-在使用Apache POI SS（HSSF和XSSF）API时，可以通过createSplitPane方法实现分割窗格功能
+## **Apache POI SS - HSSF & XSSF - 拆分窗格**
+使用 Apache POI SS (HSSF & XSSF) API 可以通过 createSplitPane 方法实现拆分窗格功能
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -48,6 +48,6 @@ sheet.createSplitPane(2000, 2000, 0, 0, Sheet.PANE_LOWER_LEFT);
 
 {{% alert color="primary" %}} 
 
-有关更多详细信息，请访问[Split Panes](http://docs.aspose.com:8082/docs/display/cellsjava/Split+Panes)。
+获取更多详细信息，请访问 [拆分窗格](http://docs.aspose.com:8082/docs/display/cellsjava/Split+Panes)。
 
 {{% /alert %}}

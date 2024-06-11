@@ -6,11 +6,11 @@ url: /zh/java/printing-workbooks-in-xlsx4j/
 ---
 
 ## **Aspose.Cells - 打印工作簿**
-当您完成创建电子表格后，可能希望打印出一份硬拷贝以满足您的需求。在打印时，Microsoft Excel默认假设您要打印整个工作表区域，除非您指定选择。
+完成创建电子表格后，您可能希望打印工作表的硬拷贝以满足您的需求。在打印时，MS Excel会假定您要打印整个工作表区域，除非您指定您的选择。
 
 **打印工作表**
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -38,7 +38,7 @@ sr.toPrinter("Samsung ML-1520 Series");
 
 **打印工作簿**
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -58,6 +58,6 @@ wr.toPrinter("Samsung ML-1520 Series");
 
 {{% alert color="primary" %}} 
 
-如需更多详情，请访问[打印工作簿](/cells/zh/java/printing-workbooks)。
+更多详情，请访问[打印工作簿](/cells/zh/java/printing-workbooks)。
 
 {{% /alert %}}

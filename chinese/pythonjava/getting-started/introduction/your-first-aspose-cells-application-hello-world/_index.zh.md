@@ -1,5 +1,5 @@
 ---
-title: 您的第一个Aspose.Cells应用程序-HelloWorld
+title: 您的第一个 Aspose.Cells 应用程序 - Hello World
 type: docs
 weight: 30
 url: /zh/python-java/your-first-aspose-cells-application-hello-world/
@@ -7,28 +7,28 @@ url: /zh/python-java/your-first-aspose-cells-application-hello-world/
 
 {{% alert color="primary" %}}
 
-这个初学者主题展示了开发人员如何使用Aspose.Cells的简单API创建一个简单的首个应用程序（Hello World）。该应用程序将在工作表的指定单元格中创建一个包含Hello World单词的Microsoft Excel文件。
+这个初学者主题展示了开发人员如何使用 Aspose.Cells 的简单 API 创建一个简单的第一个应用程序（Hello World）。该应用程序在工作表的指定单元格中创建了一个包含 Hello World 文字的 Microsoft Excel 文件。
 
 {{% /alert %}}
 
 ### **创建Hello World应用程序**
 
-使用Aspose.Cells API创建Hello World应用程序的步骤如下：
+使用 Aspose.Cells API 创建 Hello World 应用程序：
 
-1. 创建 **[Workbook](https://reference.aspose.com/cells/python-java/asposecells.api/Workbook)** 类的实例。
+1. 创建**[Workbook](https://reference.aspose.com/cells/python-java/asposecells.api/Workbook)**类的实例。
 1. 应用许可证：
-   1. 如果您已经购买了许可证，则在应用程序中使用许可证来访问Aspose.Cells的全部功能。
-   1. 如果您正在使用组件的评估版本（即使用未得到许可证的Aspose.Cells），请跳过此步骤。
-1. 创建新的Microsoft Excel文件，或打开要添加/更新一些文本的现有文件。
-1. 访问Microsoft Excel文件中工作表的任何单元格。
-1. 将 **Hello World!** 插入到所访问的单元格中。
-1. 生成修改后的 Microsoft Excel 文件。
+   1. 如果您已购买许可证，请在应用程序中使用该许可证以获得对 Aspose.Cells 全部功能的访问。
+   1. 如果您正在使用组件的评估版本 （如果您在没有许可证的情况下使用 Aspose.Cells），请跳过此步骤。
+1. 创建一个新的 Microsoft Excel 文件，或者打开现有文件，在其中您想要添加/更新一些文本。
+1. 访问 Microsoft Excel 文件中的工作表的任何单元格。
+1. 在访问的单元格中插入单词**Hello World!**。
+1. 生成修改后的Microsoft Excel文件。
 
 下面的示例演示了上述步骤。
 
-#### **创建Workbook**
+#### **创建一个工作簿**
 
-以下示例创建一个新的工作簿，向第一个工作表的A1单元格中写入“Hello World！”并保存文件。
+以下示例从头开始创建一个新的工作簿，在第一个工作表的单元格A1中写入单词"Hello World!"，然后保存文件。
 
 **生成的电子表格** 
 
@@ -38,6 +38,6 @@ url: /zh/python-java/your-first-aspose-cells-application-hello-world/
 
 #### **打开现有文件**
 
-以下示例打开一个名为**book1.xls**的现有Microsoft Excel模板文件，在第一个工作表的A1单元格中写入“Hello World！”并保存工作簿为新文件。
+以下示例打开名为**book1.xls**的现有Microsoft Excel模板文件，在第一个工作表的单元格A1中写入单词"Hello World!"，然后将工作簿保存为新文件。
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "OpeningExistingFile.py" >}}

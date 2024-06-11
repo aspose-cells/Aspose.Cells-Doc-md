@@ -1,5 +1,5 @@
 ---
-title: Aspose.Cells 8.5.2 中的公共 API 更改
+title: Aspose.Cells 8.5.2中的公共API更改
 type: docs
 weight: 190
 url: /zh/java/public-api-changes-in-aspose-cells-8-5-2/
@@ -7,18 +7,18 @@ url: /zh/java/public-api-changes-in-aspose-cells-8-5-2/
 
 {{% alert color="primary" %}} 
 
-本文档描述了从版本8.5.1到8.5.2的Aspose.Cells API的更改，可能对模块/应用程序开发人员感兴趣。它包括不仅有新的和更新的公共方法，[添加的类等。](/cells/zh/java/public-api-changes-in-aspose-cells-8-5-2/), 还包括Aspose.Cells背后行为的任何更改的描述。
+描述了Aspose.Cells API从版本8.5.1到8.5.2的更改，这些更改可能对模块/应用程序开发人员感兴趣。其中包括新的和更新的公共方法，[添加的类等](/cells/zh/java/public-api-changes-in-aspose-cells-8-5-2/)，以及Aspose.Cells背后的行为的任何更改的描述。
 
 {{% /alert %}} 
-## **已添加API**
+## **添加的 API**
 ### **将工作表渲染到图形上下文**
-Aspose.Cells for Java API的此版本已经公开了SheetRender.toImage方法的另一个重载，允许接受Graphics2D类的实例来[在图形上下文中呈现工作表](/cells/zh/java/render-worksheet-to-graphic-context/)。新增方法的签名如下。
+Aspose.Cells for Java API的此版本已经暴露出SheetRender.toImage方法的另一个重载，现在可以接受Graphics2D类的实例来[在图形上下文中呈现Worksheet](/cells/zh/java/render-worksheet-to-graphic-context/)。新增方法的签名如下。
 
 - SheetRender.toImage(int pageIndex, Graphics2D graphic)
 
 以下是简单的使用场景。
 
-**Java**
+Java
 
 {{< highlight csharp >}}
 
@@ -63,12 +63,12 @@ File outputfile = new File("test.png");
 ImageIO.write(image, "png", outputfile);
 
 {{< /highlight >}}
-### **已添加 PivotTable.getCellByDisplayName 方法**
-Aspose.Cells for Java 8.5.2已公开了PivotTable.getCellByDisplayName方法，可用于[按PivotField的名称检索Cell对象](/cells/zh/java/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/)。此方法可用于希望突出显示或格式化PivotField标题的场景。
+### **添加了PivotTable.getCellByDisplayName方法**
+Aspose.Cells for Java 8.5.2已经暴露出PivotTable.getCellByDisplayName方法，可用于[根据PivotField的名称检索Cell对象](/cells/zh/java/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/)。在希望突出显示或格式化PivotField标题的情况下，此方法可能非常有用。
 
 以下是简单的使用场景。
 
-**Java**
+Java
 
 {{< highlight csharp >}}
 
@@ -107,33 +107,33 @@ pivotTable.format(cell.getRow(), cell.getColumn(), style);
 workbook.save("output.xlsx");
 
 {{< /highlight >}}
-### **新增 SaveOptions.MergeAreas 属性**
-Aspose.Cells for Java 8.5.2已公开了SaveOptions.MergeAreas属性，可接受Boolean类型的值。默认值为false，但如果设置为true，则Aspose.Cells for Java API会尝试在保存文件之前合并单个CellArea。
+### **添加了SaveOptions.MergeAreas属性**
+Aspose.Cells for Java 8.5.2已经暴露出SaveOptions.MergeAreas属性，可以接受布尔类型值。默认值为false，但如果设置为true，则在保存文件之前，Aspose.Cells for Java API将尝试合并单个CellArea。
 
 {{% alert color="primary" %}} 
 
-如果电子表格具有太多已应用验证的单元格，则可能会造成生成的电子表格损坏。一种可能的解决方案是合并具有相同验证规则的单元格，或者您现在可以使用SaveOptions.MergeAreas属性，指示API在保存操作之前自动合并CellAreas。
+如果电子表格有太多应用了验证的个别单元格，导致最终的电子表格可能会损坏。一个可能的解决方案是合并具有相同验证规则的单元格，或者您现在可以使用SaveOptions.MergeAreas属性来指示API在保存操作之前自动合并CellAreas。
 
 {{% /alert %}} 
-### **已添加 Geometry.ShapeAdjustValues 属性**
-随着版本v8.5.2的发布，Aspose.Cells API已公开了Geometry.getShapeAdjustValues方法，可用于[访问和更改不同形状的调整点](/cells/zh/java/change-adjustment-values-of-the-shape/)。
+### **添加了Geometry.ShapeAdjustValues属性**
+随着v8.5.2版本的发布，Aspose.Cells API已经公开了Geometry.getShapeAdjustValues方法，可以用于[访问并更改不同形状的调整点](/cells/zh/java/change-adjustment-values-of-the-shape/)。
 
 {{% alert color="primary" %}} 
 
-在Microsoft Excel界面中，调整点显示为黄色菱形节点。
+在Microsoft Excel界面上，调整点显示为黄色菱形节点。
 
 {{% /alert %}} 
 
 例如， 
 
-1. 圆角矩形具有可以更改弧度的调整
-1. 三角形具有可更改顶点位置的调整
-1. 梯形具有可以更改顶部宽度的调整
-1. 箭头具有两个调整，以更改头部和尾部的形状
+1. 圆角矩形具有用于更改弧度的调整
+1. 三角形具有用于更改点位置的调整
+1. 梯形具有用于更改顶部宽度的调整
+1. 箭头具有用于更改头部和尾部形状的两个调整
 
-这里是最简单的使用场景。
+这是最简单的使用场景。
 
-**Java**
+Java
 
 {{< highlight csharp >}}
 
@@ -166,11 +166,11 @@ shape3.getGeometry().getShapeAdjustValues().get(0).setValue(0.5d);
 workbook.save("output.xlsx");
 
 {{< /highlight >}}
-### **Enumeration Field ConsolidationFunction.DISTINCT_COUNT Added**
-Aspose.Cells for Java 8.5.2已公开ConsolidationFunction.DISTINCT_COUNT字段，可用于在PivotTable的DataField上应用Distinct Count合并函数。
+### **添加了字段ConsolidationFunction.DISTINCT_COUNT枚举**
+Aspose.Cells for Java 8.5.2已经暴露出ConsolidationFunction.DISTINCT_COUNT字段，可用于在PivotTable的DataField上应用不同计数合并函数。
 
 {{% alert color="primary" %}} 
 
-仅Microsoft Excel 2013支持Distinct Count合并函数。
+仅Microsoft Excel 2013支持Distinct Count统计函数。
 
 {{% /alert %}}

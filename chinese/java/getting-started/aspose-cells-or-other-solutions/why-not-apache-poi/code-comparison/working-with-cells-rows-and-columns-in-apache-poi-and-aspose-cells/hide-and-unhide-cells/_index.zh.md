@@ -5,10 +5,10 @@ weight: 30
 url: /zh/java/hide-and-unhide-cells/
 ---
 
-## **Aspose.Cells - 隐藏和取消隐藏行列**
-Aspose.Cells提供了一个名为[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)的类，代表一个Microsoft Excel文件。Workbook类包含一个WorksheetCollection，允许访问Excel文件中的每个工作表。工作表由[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)类表示。Worksheet类提供一个Cells集合，表示工作表中的所有单元格。Cells集合提供了几种管理工作表中行或列的方法。 
+## **Aspose.Cells - 隐藏和取消隐藏行和列**
+Aspose.Cells提供了一个代表Microsoft Excel文件的类[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)，Workbook类包含一个WorksheetCollection，允许访问Excel文件中的每个工作表。工作表由[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)类表示。Worksheet类提供了一个表示工作表中所有单元格的Cells集合。Cells集合提供了几种方法来管理工作表中的行或列。 
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -26,9 +26,9 @@ cells.hideColumn(1); //Hiding the 2nd column of the worksheet
 
 {{< /highlight >}}
 ## **Apache POI SS - HSSF XSSF - 隐藏/取消隐藏单元格**
-要隐藏行或列，Apache POI SS提供了Row.setZeroHeight(boolean)方法。
+要隐藏行或列，Apache POI SS 提供了 Row.setZeroHeight(boolean) 方法。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -50,6 +50,6 @@ row.setZeroHeight(true);
 
 {{% alert color="primary" %}} 
 
-要了解更多详细信息，请访问[隐藏和显示行列](/java/hiding-and-showing-rows-and-columns)。
+有关更多详细信息，请访问[Hiding and Showing Rows and Columns](/java/hiding-and-showing-rows-and-columns)。
 
 {{% /alert %}}

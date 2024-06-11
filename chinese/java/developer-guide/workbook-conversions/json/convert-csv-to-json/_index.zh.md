@@ -7,15 +7,15 @@ url: /zh/java/convert-csv-to-json/
 
 ## **将CSV转换为JSON**
 
-Aspose.Cells 支持将 CSV 转换为 JSON。为此，API 提供了 [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions) 和 [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) 类。 [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions) 类为导出范围到 JSON 提供选项。 [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions) 类具有以下属性。
+Aspose.Cells支持将CSV转换为JSON。为此，API提供了[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)和[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)类。[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)类提供了导出范围到JSON的选项。[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)类具有以下属性。
 
-- [**ExportAsString**](https://reference.aspose.com/cells/java/com.aspose.cells/exportrangetojsonoptions#ExportAsString): 将单元格的字符串值导出为 JSON。
-- [**HasHeaderRow**](https://reference.aspose.com/cells/java/com.aspose.cells/exportrangetojsonoptions#HasHeaderRow): 指示范围是否包含标题行。
-- [**Indent**](https://reference.aspose.com/cells/java/com.aspose.cells/exportrangetojsonoptions#Indent): 指示缩进。
+- [**ExportAsString**](https://reference.aspose.com/cells/java/com.aspose.cells/exportrangetojsonoptions#ExportAsString)：导出单元格的字符串值给JSON。
+- [**HasHeaderRow**](https://reference.aspose.com/cells/java/com.aspose.cells/exportrangetojsonoptions#HasHeaderRow)：指示范围是否包含标题行。
+- [**Indent**](https://reference.aspose.com/cells/java/com.aspose.cells/exportrangetojsonoptions#Indent)：表示缩进。
 
-  [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) 类使用 [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions) 类设置的导出选项导出 JSON。
+[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)类使用与[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)类设置的导出选项导出JSON。
 
-以下代码示例演示了使用 [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions) 和 [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) 类加载 [源 CSV 文件](SampleCsv.csv) 并在控制台中打印 [JSON](SampleJson_out.csv) 输出。
+以下代码示例演示了使用[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)和[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)类加载源CSV文件并在控制台上打印JSON输出。
 
 ### **示例代码**
 
@@ -38,7 +38,7 @@ Aspose.Cells 支持将 CSV 转换为 JSON。为此，API 提供了 [**ExportRang
 "id": 2,
 "language": "C++",
 "版本": "第二版",
-"作者": "EAAAA",
+"author": "EAAAA",
 "街道地址": 126,
 "城市": "圣何塞",
 "州": "CA",

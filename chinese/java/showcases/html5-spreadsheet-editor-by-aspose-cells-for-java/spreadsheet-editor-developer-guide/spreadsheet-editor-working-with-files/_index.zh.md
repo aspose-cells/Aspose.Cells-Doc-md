@@ -1,5 +1,5 @@
 ---
-title: 电子表格编辑器 - 使用文件
+title: 电子表格编辑器 - 与文件一起使用
 type: docs
 weight: 10
 url: /zh/java/spreadsheet-editor-working-with-files/
@@ -11,7 +11,7 @@ url: /zh/java/spreadsheet-editor-working-with-files/
 - [打开本地文件](#SpreadsheetEditor-WorkingwithFiles-OpenLocalFiles) 
   - LoaderService.buildColumnWidthCache
   - LoaderService.buildRowHeightCache
-- [从Dropbox中打开](#SpreadsheetEditor-WorkingwithFiles-OpenfromDropbox)
+- [从 Dropbox 打开](#SpreadsheetEditor-WorkingwithFiles-OpenfromDropbox)
 - [从URL打开](#SpreadsheetEditor-WorkingwithFiles-OpenfromURL) 
   - LoaderService.fromUrl
   - LoaderService.buildCellsCache
@@ -20,9 +20,9 @@ url: /zh/java/spreadsheet-editor-working-with-files/
 - [创建新电子表格](#SpreadsheetEditor-WorkingwithFiles-CreateaNewSpreadsheet) 
   - LoaderService.fromBlank
   - buildCellsCache
-  - 构建列宽缓存
-  - 构建行高缓存
-- [导出为各种格式](#SpreadsheetEditor-WorkingwithFiles-ExporttoVariousFormats)
+  - buildColumnWidthCache
+  - buildRowHeightCache
+- [导出到各种格式](#SpreadsheetEditor-WorkingwithFiles-ExporttoVariousFormats)
 ### **支持的文件**
 HTML5 电子表格编辑器可以打开以下格式的文件:
 
@@ -35,13 +35,13 @@ HTML5 电子表格编辑器可以打开以下格式的文件:
 - CVS
 - OpenDocument
 ### **打开本地文件**
-要从本地计算机上传文件:
+上传来自本地计算机的文件:
 
-1. 在顶部切换到 **文件标签**。
-1. 点击**从计算机打开**打开浏览对话框。
-1. 进入所需文件的位置。
-1. 点击所需文件以选择。
-1. 点击**打开**。
+1. 切换到顶部的 **文件** 选项卡。
+1. 单击**从计算机打开**以打开浏览对话框.
+1. 转到所需的文件位置。
+1. 点击所需的文件以选择它。
+1. 点击 **打开**。
 
 文件将在编辑器中打开。
 
@@ -51,7 +51,7 @@ HTML5 电子表格编辑器可以打开以下格式的文件:
 
 **文件上传**
 
-用户从本地计算机选择上传到服务器并由[PrimeFaces fileUpload](https://www.primefaces.org/showcase/ui/file/upload/basic.xhtml)组件接收的文件。
+用户从本地计算机中选择一个文件，该文件通过 Web 浏览器上传到服务器，并由 [PrimeFaces fileUpload](https://www.primefaces.org/showcase/ui/file/upload/basic.xhtml) 组件接收。
 
 {{< highlight java >}}
 
@@ -61,7 +61,7 @@ HTML5 电子表格编辑器可以打开以下格式的文件:
 
 **管理工作簿**
 
-一旦文件完全上传，WorkbookService.onFileUpload方法开始处理情况。WorkbookService从Web浏览器接收事件并跟踪整个工作簿的状态。 WorkbookService.onFileUpload将控制权转交给LoaderService，将工作簿加载到内存中。 由于***fileUpload***组件提供上传的文件，可以作为[InputStream](https://docs.oracle.com/javase/8/docs/api/index.html?java/io/InputStream.html) LoaderService使用LoaderService.fromInputStream方法加载。
+一旦文件完全上传，WorkbookService.onFileUpload 方法开始处理情况。WorkbookService 从 Web 浏览器接收事件，并跟踪整个工作簿的状态。WorkbookService.onFileUpload 将控制权转交给 LoaderService 将工作簿加载到内存中。由于 ***fileUpload*** 组件将已上传的文件提供为 [InputStream](https://docs.oracle.com/javase/8/docs/api/index.html?java/io/InputStream.html)，LoaderService 使用 LoaderService.fromInputStream 方法进行加载。
 
 
 
@@ -87,7 +87,7 @@ HTML5 电子表格编辑器可以打开以下格式的文件:
 
 **加载和卸载**
 
-方法***LoaderService.fromInputStream***读取fileUpload***组件提供的***InputStream***创建***com.aspose.cells.Workbook***类的实例。 只要用户在Web浏览器中查看或编辑电子表格，这个实例就会保留在内存中。 当用户离开编辑器或关闭浏览器时，未使用的实例将自动从内存中卸载，以保持服务器的干净。
+***LoaderService.fromInputStream*** 方法读取 ***component*** 提供的 ***InputStream***，创建 ***com.aspose.cells.Workbook*** 类的实例。只要用户在 Web 浏览器中查看或编辑电子表格，这个实例就会保留在内存中。当用户离开编辑器或关闭浏览器时，未使用的实例会自动从内存中卸载，以保持服务器的整洁。
 
 
 
@@ -135,7 +135,7 @@ HTML5 电子表格编辑器可以打开以下格式的文件:
 
 **缓存**
 
-缓存对于HTML5电子表格编辑器非常重要。 它使一切都能够顺利进行。 CellsService保留由编辑器加载的所有工作簿的行、列、单元格和属性的缓存。 当LoaderService完全加载电子表格时，它从上到下读取，并通过调用LoaderService.buildCellsCache、LoaderService.buildColumnWidthCache、LoaderService.buildRowHeightCache填充缓存。
+缓存对 HTML5 电子表格编辑器非常重要。它使一切运行顺畅。CellsService 保持缓存行、列、单元格和编辑器加载的所有工作簿的属性。当 LoaderService 完全加载电子表格时，它从上到下读取它，并通过调用 LoaderService.buildCellsCache、LoaderService.buildColumnWidthCache、LoaderService.buildRowHeightCache 填充缓存。
 
 
 
@@ -264,14 +264,14 @@ HTML5 电子表格编辑器可以打开以下格式的文件:
 
 
 
-### **从Dropbox中打开**
-要从Dropbox中打开文件:
+### **从 Dropbox 打开**
+要从 Dropbox 打开文件：
 
-1. 在顶部切换到 **文件标签**。
-1. 单击**从Dropbox打开**以打开Dropbox文件选择器。
-1. 如果还未登录，将需要您登录到您的Dropbox帐户。
-1. 转到所需的文件并单击以选择。
-1. 单击底部的**选择**。
+1. 切换到顶部的 **文件** 选项卡。
+1. 点击 **从 Dropbox 打开** 打开 Dropbox 文件选择器。
+1. 如果您尚未登录，它将要求您登录到您的 Dropbox 帐户。
+1. 导航到所需的文件并单击选择。
+1. 在底部单击**选择**。
 
 您选择的文件将从Dropbox中打开。
 
@@ -279,9 +279,9 @@ HTML5 电子表格编辑器可以打开以下格式的文件:
 
 **它是如何工作的？**
 
-**从Dropbox打开**按钮使用**Dropbox JavaScript Chooser API**来打开Dropbox选择器对话框。 选择器会提供所选文件的URL，该URL由回调函数捕获并发送回服务器。 服务器从URL创建一个电子表格实例，初始化一些管理事项，并将DOM更新发送回到浏览器。 浏览器渲染并刷新HTML，用户可以编辑已加载的文档。
+**从Dropbox打开**按钮使用**Dropbox JavaScript选择器API**来打开Dropbox选择器对话框。选择器提供所选文件的URL，由回调函数捕获并发送回服务器。服务器从URL创建电子表格的实例，初始化一些日常事务处理工作，并将DOM更新发送回浏览器。浏览器渲染并刷新HTML，用户准备编辑加载的文档。
 ### **从URL打开**
-可以直接从URL打开文件。这允许用户编辑互联网上任何公开可用的文件。要打开文件，加载编辑器时附加**?url=location**参数，并填入所需**location**的值。例如:
+文件可以直接从URL打开。这允许用户编辑互联网上的任何公开可用的文件。在加载编辑器时，添加**?url=位置**参数，并将您所需的**位置**的值附加到文件末尾。例如：
 
 {{< highlight java >}}
 
@@ -293,17 +293,17 @@ HTML5 电子表格编辑器可以打开以下格式的文件:
 
 **它是如何工作的？**
 
-**启动时实例化**
+**在启动期间实例化**
 
-当通过JSF实例化**WorksheetView**后端bean时，将调用**PostConstruct**方法**init**，该方法使用LoaderService.fromUrl加载电子表格。
+当**WorksheetView**后端bean由JSF实例化时，将调用**PostConstruct**方法**init**，使用LoaderService.fromUrl加载电子表格。
 
 **缓存**
 
-缓存在电子表格加载后立即发生。 ** LoaderService **依次调用** LoaderService.buildCellsCache **，** LoaderService.buildColumnWidthCache **和** LoaderService.buildRowHeightCache **来缓存电子表格的内容，使所有操作都快速且平滑。
+电子表格加载完毕后立即进行缓存。**LoaderService** 依次调用 **LoaderService.buildCellsCache**、**LoaderService.buildColumnWidthCache** 和 **LoaderService.buildRowHeightCache** 进行电子表格内容的缓存，以确保所有操作快速流畅。
 
-**DOM更新**
+**DOM 更新**
 
-当服务器端准备好电子表格时，使用JSF组件生成新的HTML并将DOM更新发送给用户，由Web浏览器呈现。
+服务器端准备好电子表格后，使用 JSF 组件生成新的 HTML，并向用户发送 DOM 更新，由 Web 浏览器进行渲染。
 
 
 
@@ -501,12 +501,12 @@ HTML5 电子表格编辑器可以打开以下格式的文件:
 
 
 ### **创建新电子表格**
-创建一个新的空白电子表格：
+要创建一个新的空白电子表格：
 
-1. 切换到 **文件标签**。
-1. 单击 **新建** 按钮。
+1. 切换到 **文件** 选项卡。
+1. 点击 **新建** 按钮。
 
-如果有打开的电子表格，则编辑器将关闭该文件并打开一个新文件。
+如果有打开的电子表格文件，编辑器将关闭该文件并打开一个新的文件。
 
 ![todo:image_alt_text](lnydmmf.png)
 
@@ -514,15 +514,15 @@ HTML5 电子表格编辑器可以打开以下格式的文件:
 
 **实例化一个新对象**
 
-当用户单击**新建**按钮时，会调用** WorksheetView.loadBlank **，最终调用** LoaderService.fromBlank **。 LoaderService创建一个新的空白电子表格实例。
+当用户点击 **新建** 按钮时，将调用 **WorksheetView.loadBlank**，最终调用 **LoaderService.fromBlank**。 LoaderService 会创建一个新的空白电子表格实例。
 
 **缓存**
 
-缓存在电子表格加载后立即发生。 ** LoaderService **依次调用** LoaderService.buildCellsCache **，** LoaderService.buildColumnWidthCache **和** LoaderService.buildRowHeightCache **来缓存电子表格的内容，使所有操作都快速且平滑。
+电子表格加载完毕后立即进行缓存。**LoaderService** 依次调用 **LoaderService.buildCellsCache**、**LoaderService.buildColumnWidthCache** 和 **LoaderService.buildRowHeightCache** 进行电子表格内容的缓存，以确保所有操作快速流畅。
 
-**DOM更新**
+**DOM 更新**
 
-当服务器端准备好电子表格时，使用JSF组件生成新的HTML并将DOM更新发送给用户，由Web浏览器呈现。
+服务器端准备好电子表格后，使用 JSF 组件生成新的 HTML，并向用户发送 DOM 更新，由 Web 浏览器进行渲染。
 
 
 
@@ -691,14 +691,14 @@ HTML5 电子表格编辑器可以打开以下格式的文件:
 
 
 
-### **导出为各种格式**
-编辑文件后，用户将希望保存更改。编辑器允许用户将修改后的电子表格导出并下载到本地计算机。 要导出文件：
+### **导出到各种格式**
+编辑文件后，用户希望保存更改。编辑器允许用户将修改后的电子表格导出并下载到本地计算机。要导出文件：
 
-1. 在顶部切换到 **文件标签**。
-1. 单击 **导出** 按钮。
+1. 切换到顶部的 **文件** 选项卡。
+1. 点击 **导出** 按钮。
 1. 从下拉菜单中选择所需的格式。
 
-修改后的文件将被导出以供下载。 支持以下格式进行导出：
+修改后的文件将被导出并可下载。支持以下格式进行导出:
 
 - Excel 2007-2013 XLSX
 - Excel 1997-2003 XLS
@@ -708,11 +708,11 @@ HTML5 电子表格编辑器可以打开以下格式的文件:
 - Excel XLTM
 - SpreadsheetML
 - 便携式文档格式 (PDF)
-- OpenDocument电子制表软件(ODS)
+- 开放文档表格 (ODS)
 
 **它是如何工作的？**
 
-打开的电子表格被转换为用户指定的格式，使用**WorksheetView.getOutputFile**。
+打开的电子表格将使用 **WorksheetView.getOutputFile** 转换为用户指定的格式。
 
 
 

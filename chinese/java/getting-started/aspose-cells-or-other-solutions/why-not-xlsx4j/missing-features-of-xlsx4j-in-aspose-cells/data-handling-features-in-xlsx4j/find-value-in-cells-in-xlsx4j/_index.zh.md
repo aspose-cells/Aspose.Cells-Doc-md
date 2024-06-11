@@ -1,14 +1,14 @@
 ---
-title: 在 xlsx4j 中查找单元格中的值
+title: 在xlsx4j中查找单元格中的值
 type: docs
 weight: 30
 url: /zh/java/find-value-in-cells-in-xlsx4j/
 ---
 
-## **Aspose.Cells - 在单元格中查找值**
-在 Microsoft Excel 中，用户可以搜索包含特定数据的单元格。例如，单击 **编辑** ，然后单击 **查找** 打开搜索对话框。用户输入一个值然后单击 **确定** 来搜索它。Excel 会突出显示匹配字段。
+## **Aspose.Cells - 在单元格中查找数值**
+在Microsoft Excel中，用户可以搜索包含特定数据的单元格。例如，点击**编辑**然后**查找**打开搜索对话框。用户输入一个值并点击**确定**来搜索它。Excel会高亮显示匹配字段。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -46,6 +46,6 @@ System.out.println("Name of the cell containing String: " + cell.getName());
 
 {{% alert color="primary" %}} 
 
-要了解更多详情，请访问[查找或搜索数据](/cells/zh/java/find-or-search-data)。
+更多详情，请访问[查找或搜索数据](/cells/zh/java/find-or-search-data)。
 
 {{% /alert %}}

@@ -1,5 +1,5 @@
 ---
-title: 在将Excel文件转换为HTML期间导出DataBar、ColorScale和IconSet条件格式
+title: 在将Excel转换为HTML时，导出数据条、颜色刻度和图标集条件格式
 type: docs
 weight: 30
 url: /zh/net/export-databar-colorscale-and-iconset-conditional-formatting-while-excel-to-html-conversion/
@@ -7,19 +7,19 @@ url: /zh/net/export-databar-colorscale-and-iconset-conditional-formatting-while-
 
 {{% alert color="primary" %}} 
 
-在将Excel文件转换为HTML时，您可以导出DataBar、ColorScale和IconSet条件格式。Microsoft Excel部分支持此功能，但Aspose.Cells完全支持。
+您可以在将Excel文件转换为HTML时导出数据条、颜色刻度和图标集条件格式。这个特性在Microsoft Excel中得到部分支持，但是Aspose.Cells完全支持它。
 
 {{% /alert %}} 
-## **在将Excel文件转换为HTML期间导出DataBar、ColorScale和IconSet条件格式**
-以下截图显示了带有DataBar、ColorScale和IconSet条件格式的[示例Excel文件](5115558.xlsx)。您可以从给定链接下载[示例Excel文件](5115558.xlsx)。
+## **在将Excel转换为HTML时，导出数据条、颜色刻度和图标集条件格式**
+下面的截图展示了具有 DataBar、ColorScale 和 IconSet 有条件格式的[sample excel file](5115558.xlsx)。您可以从给定的链接下载[sample excel file](5115558.xlsx)。
 
 ![todo:image_alt_text](conversion_1.png)
 
-以下截图显示了Aspose.Cells输出的HTML文件，显示了DataBar、ColorScale和IconSet条件格式。如您所见，它与[示例Excel文件](5115558.xlsx)看起来完全一样。
+下面的截图展示了 Aspose.Cells 输出的 HTML 文件，显示了 DataBar、ColorScale 和 IconSet 有条件格式。正如您所看到的，它看起来与[sample excel file](5115558.xlsx)完全一样。
 
 ![todo:image_alt_text](conversion_2.png)
 ### **示例代码**
-以下示例代码将示例Excel文件转换为HTML，这只是一个[Excel转HTML转换](/cells/zh/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktohtml)。
+下面的示例代码将示例 Excel 文件转换成 HTML，这只是一个普通的[Excel to HTML conversion](/cells/zh/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktohtml)。
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToHTMLFiles -1.cs" >}}
 
 

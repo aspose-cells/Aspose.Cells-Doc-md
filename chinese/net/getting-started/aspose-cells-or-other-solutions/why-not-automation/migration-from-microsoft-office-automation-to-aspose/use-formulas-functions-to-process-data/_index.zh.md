@@ -7,7 +7,7 @@ url: /zh/net/use-formulas-functions-to-process-data/
 
 {{% alert color="primary" %}}
 
-本技术提示将说明如何使用**VSTO**和**Aspose.Cells for .NET**通过代码使用公式/函数处理数据。 
+本技术提示将说明如何使用 **VSTO** 和 **Aspose.Cells for .NET** 通过代码处理数据的公式/函数。 
 
 {{% /alert %}}
 
@@ -154,10 +154,10 @@ void AddingCellFormula()
 
 ![todo:image_alt_text](use-formulas-functions-to-process-data_1.png)
 
-**图1:** 使用VSTO执行公式的输出
+**图 1：** 使用 VSTO 进行公式输出
 
 ### **2) Aspose.Cells for .NET**
 
 ![todo:image_alt_text](use-formulas-functions-to-process-data_2.png)
 
-**图2:** 使用Aspose.Cells for .NET执行公式的输出
+**图2：** 使用 Aspose.Cells for .NET 的公式输出

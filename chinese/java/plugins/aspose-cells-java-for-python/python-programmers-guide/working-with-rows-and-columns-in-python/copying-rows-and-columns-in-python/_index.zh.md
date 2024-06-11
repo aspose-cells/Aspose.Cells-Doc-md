@@ -7,13 +7,13 @@ url: /zh/java/copying-rows-and-columns-in-python/
 
 ## **Aspose.Cells - 复制行和列**
 ### **复制行**
-Aspose.Cells提供了Cells类的copyRow方法。该方法从源行复制包括公式、数值、注释、单元格格式、隐藏单元格、图像和其他绘图对象在内的所有类型的数据到目标行。
+Aspose.Cells提供Cells类的copyRow方法。此方法从源行复制所有类型的数据，包括公式、值、注释、单元格格式、隐藏单元格、图像和其他绘图对象到目标行。
 
-copyRow方法接受以下参数：
+copyRow方法使用以下参数：
 
 - 源Cells对象，
-- 源行索引，以及
-- 目标行索引。
+- 源行索引, 和
+- 目标行索引.
 
 **Python 代码**
 
@@ -43,13 +43,13 @@ print "Copy Rows Successfully."
 
 {{< /highlight >}}
 ### **复制列**
-Aspose.Cells提供了Cells类的copyColumn方法，该方法可以从源列复制所有类型的数据，包括带有更新引用的公式和数值、注释、单元格格式、隐藏单元格、图片和其他绘图对象到目标列。
+Aspose.Cells提供Cells类的copyColumn方法，此方法从源列复制包括公式 - 更新引用 - 和值、注释、单元格格式、隐藏单元格、图像和其他绘图对象在内的所有类型的数据到目标列。
 
-copyColumn方法接受以下参数:
+copyColumn方法使用以下参数：
 
 - 源Cells对象，
-- 源列索引，以及
-- 目标列索引。
+- 源列索引, 和
+- 目标列索引.
 
 **Python 代码**
 
@@ -114,6 +114,6 @@ print "Copy Columns Successfully."
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下任何社交编码网站下载**复制行和列(Aspose.Cells)**:
+从以下任何社交编码站点下载**复制行和列（Aspose.Cells）**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

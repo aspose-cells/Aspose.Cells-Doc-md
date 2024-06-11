@@ -7,7 +7,7 @@ url: /zh/java/check-if-vba-project-in-a-workbook-is-signed/
 
 {{% alert color="primary" %}}
 
-您可以使用Microsoft Excel通过**工具 > 数字签名**菜单命令来检查您的VBA项目是否已签名或未签名。类似地，您可以使用Aspose.Cells的[**Workbook.getVbaProject().isSigned()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsSigned)方法来进行编程检查。
+您可以通过 Microsoft Excel 的 **工具 > 数字签名...** 菜单命令检查您的 VBA 项目是否已签名。 同样，您可以使用 Aspose.Cells [**Workbook.getVbaProject().isSigned()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsSigned) 方法以编程方式检查它。
 
 {{% /alert %}}
 

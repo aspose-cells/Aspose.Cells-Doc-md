@@ -6,7 +6,7 @@ url: /zh/net/getting-cell-contents/
 ---
 
 ## **Aspose.Cells - 获取单元格内容**
-Cells[0] 或 Cells[name] 方法可用于访问单元格。
+Cells[0]或Cells[name]方法可用于访问单元格。
 
 **C#**
 
@@ -46,7 +46,7 @@ for (int i = 0 ; i < trows; i++)
 
 {{< /highlight >}}
 ## **NPOI - HSSF XSSF - 获取单元格内容**
-NPOI 提供 Cell 类来访问单元格的各种属性。
+NPOI提供了Cell类来访问单元格的各种属性。
 
 **C#**
 
@@ -116,12 +116,12 @@ for (int index = 0; index <= sheet1.LastRowNum; index++)
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下任一社交编码站点下载 **Getting Cell Contents**：
+从以下任何社交编程网站下载**获取单元格内容**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Getting.Cell.Contents.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
-了解更多详情，请访问 [Aspose.Cells 中的数据处理功能](/cells/zh/net/data-handling-features-in-aspose-cells/)。
+更多详情，请访问[Aspose.Cells数据处理功能](/cells/zh/net/data-handling-features-in-aspose-cells/)
 
 {{% /alert %}}

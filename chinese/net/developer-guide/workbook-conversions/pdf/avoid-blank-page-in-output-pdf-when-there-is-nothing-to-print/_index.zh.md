@@ -1,5 +1,5 @@
 ---
-title: 在输出PDF中避免空白页当没有内容需要打印时
+title: 避免输出PDF中的空白页在没有内容打印时
 type: docs
 weight: 30
 url: /zh/net/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/
@@ -7,11 +7,11 @@ url: /zh/net/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/
 
 ## **可能的使用场景**
 
-当Excel文件为空且用户使用Aspose.Cells将其保存为PDF时，在输出PDF中会呈现一张空白页。有时，这种默认行为是不希望的。Aspose.Cells提供了[**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/outputblankpagewhennothingtoprint)属性来处理这个问题。如果将其设置为**false**，那么[**CellsException**](https://reference.aspose.com/cells/net/aspose.cells/cellsexception)将在输出PDF中没有东西需要打印时发生。
+当Excel文件为空且用户将其保存为PDF使用Aspose.Cells时，在输出PDF中会呈现空白页。有时，这种默认行为是不希望的。Aspose.Cells提供了[**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/outputblankpagewhennothingtoprint)属性来处理此问题。如果将其设置为false，则在输出PDF中没有打印内容时将会发生[**CellsException**](https://reference.aspose.com/cells/net/aspose.cells/cellsexception)
 
-## **在输出PDF中避免空白页当没有内容需要打印时**
+## **当没有需要打印的内容时，避免在输出PDF中出现空白页**
 
-以下示例代码创建一个空的工作簿，然后在将其保存为PDF时将[**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/outputblankpagewhennothingtoprint)属性设置为**false**。由于在输出PDF中没有内容需要打印，如下所示发生了[**CellsException**](https://reference.aspose.com/cells/net/aspose.cells/cellsexception)。
+以下示例代码创建一个空的工作簿，然后将其保存为PDF，设置[**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/outputblankpagewhennothingtoprint)属性为false后保存。由于输出PDF中没有需要打印的内容，[**CellsException**](https://reference.aspose.com/cells/net/aspose.cells/cellsexception)的情况如下所示。
 
 ## **示例代码**
 

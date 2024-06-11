@@ -7,11 +7,11 @@ url: /zh/net/implementing-non-sequential-ranges/
 
 {{% alert color="primary" %}} 
 
-通常，命名范围是连续的矩形单元格，并且相邻。但有时，您可能需要使用非连续的单元格范围，其中单元格不相邻。Aspose.Cells支持创建具有非相邻单元格的命名范围。
+通常，命名范围是连续和相邻的单元格组成的矩形。但有时，您可能需要使用一个非连续的单元格范围，其中单元格不是相邻的。Aspose.Cells支持创建具有非相邻单元格的命名范围。
 
 {{% /alert %}} 
 
-下面的代码示例显示了如何在Aspose.Cells for .NET中创建命名的非连续范围。
+下面的代码示例显示如何使用 Aspose.Cells for .NET 创建命名的非连续范围。
 
 
 

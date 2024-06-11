@@ -1,13 +1,13 @@
 ---
-title: 在将Excel转为PDF时呈现Office附加组件
+title: 转换Excel为PDF时呈现Office加载项
 type: docs
 weight: 90
 url: /zh/java/render-office-add-ins-while-converting-excel-to-pdf/
 ---
 
 ## **可能的使用场景**
-早先，Aspose.Cells 在将Excel文件保存为PDF格式时无法呈现Office附加组件。现在Aspose.Cells 可以正确呈现它。您无需使用任何特殊方法或属性来在输出PDF中呈现Office附加组件。只需将Excel文件保存为PDF格式，它将呈现Office附加组件。
-## **在将Excel转为PDF时呈现Office附加组件**
-以下示例代码保存了包含 Office Add-Ins 的 [示例 Excel 文件](60489783.xlsx)。请参阅以前版本（即 17.11）生成的[输出 PDF](60489781.pdf) 和新版本（即 17.12 及以上）生成的[输出 PDF](60489782.pdf)。以前版本的输出 PDF 是空白的，但新版本的输出 PDF 显示了 Office Add-In。
+之前，当将Excel文件保存为PDF格式时，Aspose.Cells无法呈现Office加载项。现在Aspose.Cells可以很好地呈现它。您不需要使用任何特殊的方法或属性来在输出PDF中呈现Office加载项。只需将您的Excel文件保存为PDF格式，它将呈现Office加载项。
+## **在将Excel转换为PDF时呈现Office加载项**
+以下示例代码保存包含Office加载项的[样本Excel文件](60489783.xlsx)。请查看由之前版本即17.11生成的[输出PDF](60489781.pdf)和由新版本即17.12及以后版本生成的[输出PDF](60489782.pdf)。之前版本的输出PDF为空白的，而新版本的输出PDF显示了Office加载项。
 ## **示例代码**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Rendering-RenderOfficeAdd_InsWhileConvertingExcelToPdf.java" >}}

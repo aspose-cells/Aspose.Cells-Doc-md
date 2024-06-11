@@ -1,5 +1,5 @@
 ---
-title: 将单元格链接到 XML Map 元素
+title: 将单元格链接到 XML 地图元素
 type: docs
 weight: 50
 url: /zh/java/link-cells-to-xml-map-elements/
@@ -7,13 +7,13 @@ url: /zh/java/link-cells-to-xml-map-elements/
 
 ## **可能的使用场景**
 
-您可以使用 Aspose.Cells 将您的单元格链接到 XML 地图元素。 请使用 [**Cells.LinkToXmlMap()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#linkToXmlMap(java.lang.String,%20int,%20int,%20java.lang.String)) 方法进行此操作。
+您可以使用 Aspose.Cells 将您的单元格链接到 XML 地图元素。请使用 [**Cells.LinkToXmlMap()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#linkToXmlMap(java.lang.String,%20int,%20int,%20java.lang.String)) 方法来实现此目的。
 
-## **将单元格与XML映射元素关联**
+## **将单元格链接到 XML 地图元素**
 
-以下示例代码加载了包含 XML 地图的[source excel file](5472518.xlsx)，然后将单元格 A1、B2、C3、D4、E5 和 F6 链接到 XML 地图元素 FIELD1、FIELD2、FIELD4、FIELD5、FIELD7 和 FIELD8，然后在[output excel file](5472517.xlsx)中保存工作簿。
+以下示例代码加载包含 XML 地图的源 Excel 文件(5472518.xlsx)，然后将单元格 A1、B2、C3、D4、E5 和 F6 分别链接到 XML 地图元素 FIELD1、FIELD2、FIELD4、FIELD5、FIELD7 和 FIELD8，然后将工作簿保存在输出 Excel 文件(5472517.xlsx)中。
 
-如果打开[output excel file](5472517.xlsx)并单击 *Developer > Source* 按钮，您将看到单元格已经链接到 XML 地图元素，并且它们还将被 Microsoft Excel 高亮显示，如图所示。
+如果您打开输出的 Excel 文件(5472517.xlsx) 并点击*Developer > Source*按钮，您将会看到这些单元格已链接到 XML 地图元素，并且它们也会被 Microsoft Excel 标记，如下图所示。
 
 ![todo:image_alt_text](link-cells-to-xml-map-elements_1.png)
 

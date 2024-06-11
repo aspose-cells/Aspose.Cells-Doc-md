@@ -5,15 +5,15 @@ weight: 40
 url: /zh/java/grouping-and-ungrouping-rows-and-columns-in-ruby/
 ---
 
-## **Aspose.Cells - 行和列的分组管理**
+## **Aspose.Cells - 分组管理行和列**
 ### **分组行和列**
-通过调用Cells集合的groupRows和groupColumns方法，可以对行或列进行分组。这两个方法接受以下参数:
+可以通过调用Cells集合的groupRows和groupColumns方法来对行或列进行分组。这两个方法都接受以下参数：
 
-- 第一个行/列索引，组中的第一个行或列。
-- 最后一个行/列索引，组中的最后一个行或列。
-- 是否隐藏，一个布尔参数，指定在分组后是否隐藏行/列。
+- 第一个行/列索引，即组中的第一行或列。
+- 最后一个行/列索引，即组中的最后一行或列。
+- 是否隐藏，一个布尔参数，指定是否在分组后隐藏行/列。
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 
@@ -50,13 +50,13 @@ url: /zh/java/grouping-and-ungrouping-rows-and-columns-in-ruby/
 end  
 
 {{< /highlight >}}
-### **取消分组行和列**
-通过调用Cells集合的UngroupRows和UngroupColumns方法来取消对行或列进行分组。这两个方法接受相同的参数:
+### **取消行和列的分组**
+通过调用Cells集合的UngroupRows和UngroupColumns方法来取消分组的行或列。这两个方法接受相同的参数：
 
-- 第一行或列索引，要取消分组的第一行/列。
-- 最后一行或列索引，要取消分组的最后一行/列。
+- 第一个行或列索引，即要取消分组的第一行/列。
+- 最后一个行或列索引，即要取消分组的最后一行/列。
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 
@@ -94,6 +94,6 @@ end
 
 {{< /highlight >}}
 ## **下载运行代码**
-从下面提到的任何社交编码网站下载**分组和取消分组行和列（Aspose.Cells）**
+从以下任何社交编码网站下载**分组和取消分组行和列（Aspose.Cells）**：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)

@@ -7,25 +7,25 @@ url: /zh/net/rotating-cell-text/
 
 {{% alert color="primary" %}}
 
-有时，列标题比单元格中的数据要宽得多。这会在页面上造成不必要的空白。一个解决方案就是将文本垂直旋转，这样可以占用较少的水平空间。在 Microsoft Excel 中，旋转文本很容易。幸运的是，也可以通过编程的方式旋转文本，这样开发人员可以在他们的应用程序中创建电子表格时旋转标签。
+有时，列标题的宽度远大于下方单元格中的数据。这可能会在页面上造成不必要的空白。一个解决方案是垂直旋转文本，使其占用较少的水平空间。在 Microsoft Excel 中，旋转文本很容易。幸运的是，程序员也可以编程地旋转文本，以便在其应用程序中创建的电子表格中旋转标签。
 
-本文介绍如何使用 [Aspose.Cells for .NET](/cells/zh/net/rotating-cell-text/) 旋转单元格中的文本，以及如何使用 [VSTO](/cells/zh/net/rotating-cell-text/) 进行相同操作的比较。
+本文将介绍如何使用 [Aspose.Cells for .NET](/cells/zh/net/rotating-cell-text/) 旋转单元格文本，以及与使用 [VSTO](/cells/zh/net/rotating-cell-text/) 做同样的事情进行比较。
 
 {{% /alert %}}
 
-## **在单元格中旋转文本**
+## **旋转单元格中的文本**
 
-要在工作表单元格中旋转文本，请执行以下步骤:
+要旋转工作表中单元格中的文本，请按以下步骤进行：
 
-1. 创建一个工作簿并获取一个工作表.
-1. 添加示例文本.
-1. 格式化文本: 旋转，添加背景颜色.
+1. 创建一个工作簿并获取一个工作表。
+1. 添加示例文本。
+1. 格式化文本：旋转，添加背景颜色。
 1. 保存文件。
 
-随后的代码示例展示了如何首先在 [VSTO](/cells/zh/net/rotating-cell-text/) 中执行这些步骤（使用 C# 或 Visual Basic），然后在 [Aspose.Cells](/cells/zh/net/rotating-cell-text/) 中再次执行这些步骤（使用 C# 或 Visual Basic）。
+接下来的代码示例首先展示了如何在 [VSTO](/cells/zh/net/rotating-cell-text/) 中执行这些步骤，使用 C# 或 Visual Basic，然后在 [Aspose.Cells](/cells/zh/net/rotating-cell-text/) 中执行，同样使用 C# 或 Visual Basic。
 
 本文中的代码示例给出了下面显示的输出。
-**带有旋转文本的单元格。**
+**一个带有旋转文本的单元格。**
 
 ![todo:image_alt_text](rotating-cell-text_1.png)
 
@@ -91,7 +91,7 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 
-#### **使用 Aspose.Cells for .NET 旋转文本**
+#### **使用 Aspose.Cells for .NET 旋转文字**
 
 **C#**
 

@@ -6,9 +6,9 @@ url: /zh/java/convert-worksheet-to-csv/
 ---
 
 ## **Aspose.Cells - 将工作表转换为CSV**
-如果开发人员需要将文件保存到某个存储位置，则可以在调用Workbook对象的save方法时，指定文件名（及其完整路径）和所需的文件格式（使用FileFormatType枚举）。
+如果开发人员需要将文件保存到某个存储位置，只需在调用工作簿对象的**save**方法时指定文件名（带其完整存储路径）和所需的文件格式（使用**FileFormatType**枚举）。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -21,10 +21,10 @@ Workbook workbook = new Workbook(dataPath + "workbook.xls");
 workbook.save(dataPath + "AsposeWorkbookCSV.csv", SaveFormat.CSV);
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF＆XSSF - 将工作表转换为CSV**
-下面的代码显示了如何使用Apache POI HSSF和XSSF API将工作表转换为CSV，以便与Aspose.Cells Java API进行比较。
+## **Apache POI SS - HSSF和XSSF - 将工作表转换为CSV**
+下面的代码显示了如何使用Apache POI HSSF和XSSF API将工作表转换为CSV，与Aspose.Cells Java API进行比较。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -690,12 +690,12 @@ public class ApacheXLSX2CSV {
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下任一社交编码网站下载**将工作表转换为CSV**
+从下面提到的任何社交编码站点下载**将工作表转换为CSV**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/download/Aspose.Cells_Java_vs_POI_SS_v1.4/Convert.Worksheet.to.CSV.Aspose.Cells.vs.Apache.POI.SS.zip)
 
 {{% alert color="primary" %}} 
 
-点击[保存文件](/cells/zh/java/saving-excel-files-to-csv-pdf-and-other-formats/)获取更多详情
+有关更多详细信息，请访问[保存文件](/cells/zh/java/saving-excel-files-to-csv-pdf-and-other-formats/)。
 
 {{% /alert %}}

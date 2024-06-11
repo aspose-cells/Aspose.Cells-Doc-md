@@ -1,5 +1,5 @@
 ---
-title: 将图片铺设为形状内的纹理
+title: 在形状内作为纹理平铺图片
 type: docs
 weight: 50
 url: /zh/java/tile-picture-as-a-texture-inside-the-shape/
@@ -7,13 +7,13 @@ url: /zh/java/tile-picture-as-a-texture-inside-the-shape/
 
 ## **可能的使用场景**
 
-当图片较小且不覆盖形状的整个表面而不失真时，您可以选择铺设图案。 铺设通过将其重复填充形状表面以形成瓷砖状，从而填充了形状表面。
+当图片较小且不覆盖整个形状表面而又不失真时，可以选择将其平铺。平铺会通过重复小图像来填充形状表面，就像它们是瓷砖一样。
 
-## **将图片铺设为形状内的纹理**
+## **在形状内部将图片作为纹理平铺**
 
-您可以使用[**Shape.Fill.TextureFill.IsTiling**](https://reference.aspose.com/cells/java/com.aspose.cells/texturefill#IsTiling)属性填充形状表面，并设置为**true**以平铺。请参阅以下示例代码、其[示例Excel文件](46465055.xlsx)、[输出Excel文件](46465056.xlsx)以及屏幕截图作为参考。
+您可以使用 [**Shape.Fill.TextureFill.IsTiling**](https://reference.aspose.com/cells/java/com.aspose.cells/texturefill#IsTiling) 属性并将其设置为 **true**，将某个图像填充到形状表面并进行平铺。请参阅以下示例代码，其[示例Excel文件](46465055.xlsx)，[输出Excel文件](46465056.xlsx)以及截图作为参考。
 
-## **截图**
+## **屏幕截图**
 
 ![todo:image_alt_text](tile-picture-as-a-texture-inside-the-shape_1.png)
 

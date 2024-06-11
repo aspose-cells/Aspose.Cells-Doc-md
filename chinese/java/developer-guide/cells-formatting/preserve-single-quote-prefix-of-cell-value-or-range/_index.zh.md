@@ -7,15 +7,15 @@ url: /zh/java/preserve-single-quote-prefix-of-cell-value-or-range/
 
 ## **可能的使用场景**
 
-当您将一些值放入具有前导撇号或单引号标记的单元格中时，Microsoft Excel会隐藏它，但是当您选择该单元格时，在公式栏中会显示前导撇号或单引号，如下面的截图所示。
+当您在单元格中放入具有前导撇号或单引号标记的值时，Microsoft Excel会隐藏它，但当您选择单元格时，它会在公式栏中显示前导撇号或单引号，如下面的屏幕截图所示。
 
 ![todo:image_alt_text](preserve-single-quote-prefix-of-cell-value-or-range_1.png)
 
-Aspose.Cells 还隐藏前导撇号或单引号，类似于 Microsoft Excel，但设置为 [**Style.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) 为 **true**。如果设置单元格的空样式，则 [**Style.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) 再次变为 **false**。为了解决这个问题，Aspose.Cells 提供了 [**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix) 属性，当它设置为 **false** 时， [**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix) 就完全不更新，它的旧值会被保留。这意味着如果 [**Style.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) 属性的旧值为 **true**，它将保持为 true，如果旧值为 false，则将保持为 false。
+Aspose.Cells也会隐藏前导撇号或单引号，但它将**[**Style.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix)**设置为**true**，以表示该单元格。如果您设置单元格的空样式，则**[**Style.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix)**再次变为**false**。为了解决此问题，Aspose.Cells提供了**[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix)**属性，当其设置为**false**时，**[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix)**根本不会更新，其旧值将被保留。这意味着**[**Style.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix)**属性的旧值如果为**true**，它将保持不变；如果旧值为false，它将保持不变。
 
 ## **保留单引号前缀的单元格值或范围**
 
-下面的示例代码解释了之前描述的 [**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix) 属性的用法。请阅读代码内的注释，并查看下面给出的代码的控制台输出，以获取更多帮助。
+以下示例代码解释了之前所描述的**[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix)**属性的用法。请阅读代码中的注释，并查看下面给出的代码的控制台输出，以获取更多帮助。
 
 ## **示例代码**
 

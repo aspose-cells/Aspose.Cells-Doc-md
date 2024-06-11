@@ -1,14 +1,14 @@
 ---
-title: 在Php中冻结窗格
+title: 在PHP中冻结窗格
 type: docs
 weight: 40
 url: /zh/java/freeze-panes-in-php/
 ---
 
 ## **Aspose.Cells - 冻结窗格**
-要在**Aspose.Cells Java for PHP**中的电子表格文档中冻结窗格，简单调用**FreezePanes**模块。
+要使用 **Aspose.Cells Java for PHP** 冻结电子表格文件中的窗格, 只需调用 **FreezePanes** 模块。
 
-**PHP代码**
+**PHP 代码**
 
 {{< highlight php >}}
 
@@ -32,6 +32,6 @@ $workbook->save($dataDir . "book.out.xls");
 
 {{< /highlight >}}
 ## **下载运行代码**
-从下面列出的任何社交编码站点下载**冻结窗格（Aspose.Cells）**。
+从以下提到的任何社交编码站点下载**Freeze Panes (Aspose.Cells)**。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/FreezePanes.php)

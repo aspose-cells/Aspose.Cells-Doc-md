@@ -1,15 +1,15 @@
 ---
-title: 在Php中显示或隐藏选项卡
+title: 在PHP中显示或隐藏标签
 type: docs
 weight: 30
 url: /zh/java/display-or-hide-tabs-in-php/
 ---
 
-## **Aspose.Cells - 显示或隐藏选项卡**
-### **隐藏选项卡。**
-要隐藏选项卡，请在**Aspose.Cells Java for PHP**中调用**displayhidetabs**模块。
+## **Aspose.Cells - 显示或隐藏标签页**
+### **隐藏选项卡**
+要使用**Aspose.Cells Java for PHP**隐藏标签，调用**displayhidetabs**模块。
 
-**PHP代码**
+**PHP 代码**
 
 {{< highlight php >}}
 
@@ -27,6 +27,6 @@ $workbook->save($dataDir + "output.xls");
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下社交编码网站之一下载**隐藏或显示选项卡（Aspose.Cells）**。
+从以下提到的任何社交编码站点下载**隐藏或显示标签页 (Aspose.Cells)**。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/DisplayHideTabs.php)

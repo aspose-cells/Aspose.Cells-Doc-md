@@ -1,14 +1,14 @@
 ---
-title: 使用Apache POI和Aspose.Cells创建图表
+title: 使用 Apache POI 和 Aspose.Cells 创建图表
 type: docs
 weight: 50
 url: /zh/java/create-charts-using-apache-poi-and-aspose-cells/
 ---
 
 ## **Aspose.Cells - 创建图表**
-可以使用Aspose.Cells向电子表格添加各种图表。Aspose.Cells提供许多灵活的图表对象。
+Aspose.Cells 可以向电子表格中添加各种图表。Aspose.Cells 提供许多灵活的图表对象。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -75,8 +75,8 @@ Series series = nSeries.get(1);
 series.setType(ChartType.LINE);
 
 {{< /highlight >}}
-## **Apache POI SS（HSSF + XSSF） - 创建图表**
-**Java**
+## **Apache POI SS (HSSF + XSSF) - 创建图表**
+Java
 
 {{< highlight java >}}
 
@@ -143,16 +143,16 @@ chart.plot(data, bottomAxis, leftAxis);
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下任一社交编码站点下载有关**使用Apache POI和Aspose.Cells创建图表**的运行示例
+从任何一个下面提到的社交编码站点下载运行示例**使用Apache POI和Aspose.Cells创建图表**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
 ## **下载源代码**
-从以下提到的社交编码站点中下载**使用Apache POI和Aspose.Cells创建图表**的源代码：
+从任何一个下面提到的社交编码站点下载**使用Apache POI和Aspose.Cells创建图表**的源代码
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{% alert color="primary" %}} 
 
-要了解更多详情，请访问[创建自定义图表](/cells/zh/java/creating-and-customizing-charts/)。
+欲了解更多详情，请访问[创建自定义图表](/cells/zh/java/creating-and-customizing-charts/)
 
 {{% /alert %}}

@@ -1,49 +1,49 @@
 ---
-title: 复制粘贴的启用ClipboardCopyPaste和PasteType GridDesktop 属性
+title: 启用ClipboardCopyPaste和GridDesktop属性PasteType的复制粘贴行为
 type: docs
 weight: 80
 url: /zh/net/aspose-cells-griddesktop/copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties/
-keywords: 复制、粘贴、GridPasteType
-description: 本文介绍如何使用 GridPasteType 进行复制粘贴操作在 GridDesktop 中
+keywords: 复制，粘贴，GridPasteType
+description: 本文描述如何使用GridPasteType执行GridDesktop中的复制粘贴操作。
 ---
 
 ## **可能的使用场景**
-GridDesktop 提供了不同类型的复制粘贴选项，通过 Aspose.Cells.GridDesktop.GridDesktop.PasteType 属性。这些选项使用 Aspose.Cells.GridDesktop.Data.GridPasteType 枚举来制定。其中一些如下
+GridDesktop通过Aspose.Cells.GridDesktop.GridDesktop.PasteType属性提供了不同类型的复制粘贴选项。 这些选项使用Aspose.Cells.GridDesktop.Data.GridPasteType枚举进行指定。 其中一些如下所示
 
 - GridPasteType.All
 
-从源单元格复制并粘贴到目标单元格
+它将从源单元格复制并粘贴到目标单元格的所有内容。
 
 - GridPasteType.Formulas
 
-从源单元格复制并粘贴到目标单元格的公式
+它将从源单元格复制并粘贴到目标单元格的公式。
 
 - GridPasteType.Comments
 
-从源单元格复制并粘贴到目标单元格的注释
+它将从源单元格复制并粘贴到目标单元格的批注。
 
 - GridPasteType.RowHeights
 
-从源单元格复制并粘贴到目标单元格的行高
+它将从源单元格复制并粘贴到目标单元格的行高度。
 
 - GridPasteType.ColumnWidths
 
-从源单元格复制并粘贴到目标单元格的列宽
+它将从源单元格复制并粘贴到目标单元格的列宽度。
 
-等等
-## **设置 EnableClipboardCopyPaste 属性为 True 以启用 PasteType 属性**
-只有在将 Aspose.Cells.GridDesktop.GridDesktop.EnableClipboardCopyPaste 属性设置为 true 时，Aspose.Cells.GridDesktop.GridDesktop.PasteType 属性才有效，如此屏幕截图所示。
+等等。
+## **将EnableClipboardCopyPaste属性设置为True以启用PasteType属性**
+仅当您将Aspose.Cells.GridDesktop.GridDesktop.EnableClipboardCopyPaste属性设置为true时，Aspose.Cells.GridDesktop.GridDesktop.PasteType属性才会起作用，如本截图所示。
 
 ![todo:image_alt_text](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_1.png)
-## **EnableClipboardCopyPaste 和 PasteType 属性的行为**
-假设 EnableClipboardCopyPaste 为 false 而 PasteType 为 All，下面的截图显示了将单元格 B3 复制并粘贴到单元格 C5 时的情况。
+## **启用ClipboardCopyPaste和PasteType属性的行为**
+鉴于EnableClipboardCopyPaste为false且PasteType为All，以下截图显示了将单元格B3复制并粘贴到单元格C5的情况。
 
 ![todo:image_alt_text](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_3.png)
 
-假设 EnableClipboardCopyPaste 为 true 而 PasteType 为 All，在从 Windows 复制图像之后。下面的截图显示了将单元格 B3 复制并粘贴到单元格 C5 时，也将图像复制到单元格 C5。
+假设EnableClipboardCopyPaste为true且PasteType为All，在Windows上复制图像后，当将B3单元格复制并粘贴到C5单元格时，如下屏幕截图所示，它也会将图像复制到C5单元格。
 
-![待办：复制图像](copyimage.png)
+![todo:复制图像](copyimage.png)
 
-![待办：复制后粘贴](aftercopy.png)
+![todo:复制后粘贴](aftercopy.png)
 
 

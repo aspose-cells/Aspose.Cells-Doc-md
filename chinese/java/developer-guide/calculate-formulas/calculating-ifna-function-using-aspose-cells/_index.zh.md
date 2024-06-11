@@ -11,7 +11,7 @@ Aspose.Cells支持计算IFNA Excel函数。IFNA函数在公式返回#N/A错误�
 
 {{% /alert %}} 
 ## **使用Aspose.Cells计算IFNA函数**
-以下示例代码说明了Aspose.Cells计算IFNA函数的方法。
+下面的示例代码示例了使用Aspose.Cells计算IFNA函数。
 
 
 
@@ -25,7 +25,7 @@ Aspose.Cells支持计算IFNA Excel函数。IFNA函数在公式返回#N/A错误�
 
 
 ## **控制台输出**
-这是上述示例代码的控制台输出。
+这是上面示例代码的控制台输出。
 
 {{< highlight java >}}
 

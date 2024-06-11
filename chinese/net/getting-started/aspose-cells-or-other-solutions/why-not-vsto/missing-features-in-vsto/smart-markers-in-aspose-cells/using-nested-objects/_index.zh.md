@@ -5,9 +5,9 @@ weight: 50
 url: /zh/net/using-nested-objects/
 ---
 
-Aspose.Cells支持智能标记中的嵌套对象，嵌套对象应该是简单的。用户需要为下面的代码定义Individual类。
+Aspose.Cells支持智能标记中的嵌套对象，嵌套对象应该是简单的。用户需要定义下面代码中的Individual类。
 
-我们使用一个简单的模板文件。 请参阅包含一些嵌套智能标记的设计电子表格。
+我们使用一个简单的模板文件。请查看包含一些嵌套智能标记的设计电子表格。
 
 {{< highlight csharp >}}
 

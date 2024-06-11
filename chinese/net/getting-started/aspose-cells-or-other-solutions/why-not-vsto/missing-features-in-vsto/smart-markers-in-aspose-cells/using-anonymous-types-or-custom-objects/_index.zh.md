@@ -5,7 +5,7 @@ weight: 40
 url: /zh/net/using-anonymous-types-or-custom-objects/
 ---
 
-Aspose.Cells 也支持智能标记中的匿名类型或自定义对象。在下面的示例中，需要先定义 Product 类。
+Aspose.Cells还支持智能标记中的匿名类型或自定义对象。在下面的示例中，需要在使用之前定义Product类。
 
 {{< highlight csharp >}}
 

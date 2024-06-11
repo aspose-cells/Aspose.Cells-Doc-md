@@ -1,5 +1,5 @@
 ---
-title: 将形状发送到工作表内的前后
+title: 在工作表内部发送形状到前面或后面
 type: docs
 weight: 600
 url: /zh/java/send-shape-front-or-back-inside-the-worksheet/
@@ -7,11 +7,11 @@ url: /zh/java/send-shape-front-or-back-inside-the-worksheet/
 
 ## **可能的使用场景**
 
-当同一位置存在多个形状时，它们的可见性由它们的z顺序位置决定。Aspose.Cells提供[**Shape.ToFrontOrBack()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#toFrontOrBack(int)）方法，更改形状的z顺序位置。如果要将形状发送到后面，则将使用-1、-2、-3等负数；如果要将形状发送到前面，则将使用1、2、3等正数。
+当同一位置有多个形状时，它们的可见性由它们的z-顺序位置决定。Aspose.Cells提供 [**Shape.ToFrontOrBack()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#toFrontOrBack(int) 方法可以改变形状的z-顺序位置。如果要发送形状到后面，您将使用像 -1、-2、-3 等的负数；如果要发送形状到前面，您将使用像 1、2、3 等的正数。
 
-## **将形状发送到工作表内的前面或后面**
+## **在工作表内发送形状到最前或最后**
 
-以下示例代码说明了使用[**Shape.ToFrontOrBack()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#toFrontOrBack(int)）方法的用法。请查看代码中使用的[sample Excel file](50528362.xlsx)和执行后生成的[output Excel file](50528361.xlsx)的屏幕截图显示了代码对示例Excel文件的影响。
+以下示例代码解释了[**Shape.ToFrontOrBack()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#toFrontOrBack(int))方法的使用。请查看代码中使用的[sample Excel file](50528362.xlsx)以及它生成的[output Excel file](50528361.xlsx)。截图显示了代码在执行后对示例Excel文件的影响。
 
 ![todo:image_alt_text](send-shape-front-or-back-inside-the-worksheet_1.png)
 

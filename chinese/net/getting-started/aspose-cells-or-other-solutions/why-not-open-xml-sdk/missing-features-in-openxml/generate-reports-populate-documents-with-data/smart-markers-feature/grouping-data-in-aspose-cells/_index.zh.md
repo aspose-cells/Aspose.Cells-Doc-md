@@ -5,26 +5,26 @@ weight: 10
 url: /zh/net/grouping-data-in-aspose-cells/
 ---
 
-在某些Excel报告中，您可能需要将数据分组以便更轻松地阅读和分析。将数据分组的主要目的之一是对每组记录运行计算（执行汇总操作）。
+在一些 Excel 报告中，您可能需要将数据分成组，以便更容易阅读和分析。将数据分成组的主要目的之一是对每组记录运行计算（执行摘要操作）。
 
-Aspose.Cells 智能标记允许您按字段分组数据，并在数据集或数据组之间放置摘要行。例如，如果按 Customers.CustomerID 分组数据，则可以在每次组更改时添加摘要记录。
+Aspose.Cells 智能标记允许您按字段对数据进行分组，并在数据集或数据组之间放置汇总行。例如，如果按 Customers.CustomerID 对数据进行分组，则每次分组更改时，都可以添加汇总记录。
 
-接下来的示例代码片段显示如何使用智能标记在 Excel 报表中分组数据。
+接下来的示例代码片段演示了如何使用智能标记在 Excel 报告中进行数据分组。
 ## **参数**
-以下是用于对数据进行分组的智能标记参数之一。
+以下是用于数据分组的一些智能标记参数。
 **group:normal/merge/repeat**
 
-我们支持三种可供选择的分组类型。
+我们支持三种您可以选择的分组类型。
 
-- normal - 对于相应记录中的列，按字段的值不会重复打印；而是每个数据组只打印一次。
-- merge - 与 normal 参数的行为相同，但是它会将每个组设置的按字段值合并成一个单元格。
-- repeat - 对应记录中的按字段值将会重复。
+- normal - 不会为相应记录中的字段值重复打印对应的分组；相反，它们将在每个数据组中打印一次。
+- merge - 与 normal 参数的行为相同，但它会合并每个组集中的分组字段中的单元格。
+- repeat - 为相应记录中的字段值重复打印对应的分组。
 
-如果有多个参数，请用逗号分隔它们，但不留空格：parameterA,parameterB,parameterC
-### **例子**
-这个示例展示了一些分组参数的实际应用。它使用了 Northwind.mdb 微软访问数据库，并从名为“Order Details”的表中提取数据。我们在 Microsoft Excel 中创建了一个名为 SmartMarker_Designer.xls 的设计文件，并将智能标记放置在工作表的各个单元格中。这些标记将被处理以填充工作表。数据将通过分组字段放置和组织。
+如果有多个参数，请用逗号分隔它们，但不要有空格：parameterA,parameterB,parameterC
+### **示例**
+此示例展示了一些分组参数的实际应用。它使用了 Northwind.mdb Microsoft Access 数据库，并从名为 "Order Details" 的表中提取数据。我们在 Microsoft Excel 中创建了一个名为 SmartMarker_Designer.xls 的设计文件，并在工作表的各种单元格中放置智能标记。然后对标记进行处理以填充工作表。数据是通过一个组字段放置和组织的。
 
-设计文件有两个工作表。在第一个工作表中，我们按照以下截图所示放置了带有分组参数的智能标记。放置了三个带有分组参数的智能标记：
+设计文件有两个工作表。在第一个工作表中，我们像下面的截图所示，使用了带有分组参数的智能标记。我们放置了三个带有分组参数的智能标记：
 &=Order Details.OrderID(group:merge,skip:1),
 &=Order Details.Quantity(subtotal9:Order Details.OrderID)，以及
 &=Order Details.UnitPrice(subtotal9:Order Details.OrderID) 分别放入 A5、B5 和 C5。

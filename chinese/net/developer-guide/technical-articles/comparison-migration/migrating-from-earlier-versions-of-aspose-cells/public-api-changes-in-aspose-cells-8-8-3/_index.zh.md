@@ -1,5 +1,5 @@
 ---
-title: Aspose.Cells 8.8.3中的公共API变更
+title: Aspose.Cells 8.8.3 中的公共 API 更改
 type: docs
 weight: 290
 url: /zh/net/public-api-changes-in-aspose-cells-8-8-3/
@@ -7,12 +7,12 @@ url: /zh/net/public-api-changes-in-aspose-cells-8-8-3/
 
 {{% alert color="primary" %}} 
 
-本文档描述了自8.8.2版本中Aspose.Cells API到8.8.3版本的变化，可能对模块/应用程序开发人员感兴趣。它不仅包括新的和更新的公共方法、添加和删除的类等，还包括任何Aspose.Cells内部行为变化的描述。
+本文档描述了从版本 8.8.2 到 8.8.3 的 Aspose.Cells API 更改，可能会引起模块/应用程序开发人员的兴趣。它不仅包括新的和更新的公共方法、新增和删除的类等，还包括 Aspose.Cells 后台行为的任何更改的描述。
 
 {{% /alert %}} 
-## **已添加API**
-### **对ActiveX控件的支持**
-Aspose.Cells for .NET 8.8.3现在暴露了AddActiveXControl方法，允许向ShapeCollection添加ActiveX控件。前述方法需要7个参数来指定控件类型、放置控件的位置和控件的大小。类型可以使用ControlType枚举来指定，以下是可能的值。
+## **添加的 API**
+### **支持 ActiveX 控件**
+Aspose.Cells for .NET 8.8.3已经公开了AddActiveXControl方法，允许将一个ActiveX控件添加到ShapeCollection中。所述方法需要7个参数来指定控件类型、放置控件的位置和控件的大小。类型可以使用ControlType枚举来指定，可能的值有以下。
 
 1. ControlType.CheckBox
 1. ControlType.ComboBox
@@ -29,7 +29,7 @@ Aspose.Cells for .NET 8.8.3现在暴露了AddActiveXControl方法，允许向Sha
 
 {{% alert color="primary" %}} 
 
-有关此功能的更多详情，请查看有关将ActiveX控件添加到工作表的详细文章。
+有关此功能的更多详细信息，请查看[向工作表添加ActiveX控件](/cells/zh/net/add-activex-controls-using-aspose-cells/)上的详细文章。
 
 {{% /alert %}} 
 
@@ -64,12 +64,12 @@ book.Save(dir + "output.xlsx", SaveFormat.Xlsx);
 {{< /highlight >}}
 
 
-### **添加了LoadOptions.SetPaperSize方法**
-Aspose.Cells for .NET 8.8.3 允许在使用新公开的LoadOptions.SetPaperSize方法时，从默认打印机设置中设置默认打印纸张大小。请注意，前述方法的输入参数是PaperSizeType枚举中包含的预定义纸张大小的值。
+### **添加LoadOptions.SetPaperSize方法**
+Aspose.Cells for .NET 8.8.3允许在使用新公开的LoadOptions.SetPaperSize方法时从默认打印机设置设置默认打印纸张大小，如下所示。请注意，上述方法的输入参数是来自PaperSizeType枚举的值，其中包含预定义的纸张尺寸。
 
 {{% alert color="primary" %}} 
 
-有关此功能的更多详细信息，请查看[使用指定纸张大小加载电子表格](/cells/zh/net/load-workbook-with-specified-printer-paper-size/)上的详细文章。
+有关此功能的更多详细信息，请查阅《[以指定纸张大小加载电子表格](/cells/zh/net/load-workbook-with-specified-printer-paper-size/)》详细文章。
 
 {{% /alert %}} 
 
@@ -94,8 +94,8 @@ var book = new Workbook(dir + "input.xlsx", loadOptions);
 {{< /highlight >}}
 
 
-### **添加了Cell.GetCharacters(flag)方法**
-Aspose.Cells APIs 允许使用Cell.GetCharacters方法以FontSetting数组的形式获取字符对象。通过此版本，Aspose.Cells for .NET API已公开了一个重载版本的Cell.GetCharacters，该版本可接受布尔值作为参数，指示是否应在单元格上应用表样式，如果单元格是列表对象的一部分。
+### **添加Cell.GetCharacters(flag)方法**
+Aspose.Cells APIs允许通过使用Cell.GetCharacters方法以FontSetting数组的形式获取字符对象。通过此版本，Aspose.Cells for .NET API已经公开了Cell.GetCharacters的另一个重载版本，可以接受布尔值作为参数，指示如果单元格属于ListObject，则是否要应用表格样式。
 
 **C#**
 
@@ -126,12 +126,12 @@ var characters = cell.GetCharacters(true);
 {{< /highlight >}}
 
 
-### **添加了OleObject.AutoLoad属性**
-Aspose.Cells for .NET 8.8.3 已公开了OleObject.AutoLoad属性，允许在底层对象的内容/数据已更改时刷新OleObject的图像。当该属性设置为true时，会强制Excel应用程序在加载结果电子表格时刷新OleObject的图像。
+### **添加 OleObject.AutoLoad 属性**
+Aspose.Cells for .NET 8.8.3已经公开了OleObject.AutoLoad属性，允许刷新OleObject的图像，如果底层对象的内容/数据已更改。设置上述属性为true时，会强制Excel应用在加载结果电子表格时刷新OleObject的图像。
 
 {{% alert color="primary" %}} 
 
-有关此功能的更多详细信息，请查看[自动刷新OleObjects](/cells/zh/net/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/)上的详细文章。
+有关此功能的更多详细信息，请查阅《[自动刷新OleObjects](/cells/zh/net/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/)》详细文章。
 
 {{% /alert %}} 
 
@@ -164,12 +164,12 @@ oleObject.AutoLoad = true;
 {{< /highlight >}}
 
 
-### **添加了HTMLLoadOptions.SupportDivTag属性**
-Aspose.Cells for .NET 8.8.3 已公开了HTMLLoadOptions.SupportDivTag属性，允许在加载HTML文件/片段到Aspose.Cells对象模型时解析嵌入在TD标记中的DIV标记。布尔类型属性的默认值为false。
+### **添加 HTMLLoadOptions.SupportDivTag 属性**
+Aspose.Cells for .NET 8.8.3已经公开了HTMLLoadOptions.SupportDivTag属性，允许解析包含在Aspose.Cells对象模型中的HTML文件/代码片段中的TD标签中嵌入的DIV标签。布尔类型的属性的默认值为false。
 
 {{% alert color="primary" %}} 
 
-有关此功能的更多详细信息，请查看[在加载HTML时支持内部DIV标记](/cells/zh/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)上的详细文章。
+有关此功能的更多详细信息，请查阅《[加载HTML时支持内部DIV标签](/cells/zh/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)》详细文章。
 
 {{% /alert %}} 
 
@@ -277,11 +277,11 @@ using (var stream = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(export_h
 
 
 ### **添加了HtmlSaveOptions.ExportGridLines属性**
-Aspose.Cells for .NET 8.8.3 已公开了HtmlSaveOptions.ExportGridLines属性，允许在将电子表格导出为HTML格式时呈现网格线。布尔类型属性的默认值为false，但当设置为true时，API会为HTML格式中的可用数据范围呈现网格线。
+Aspose.Cells for .NET 8.8.3已经公开了HtmlSaveOptions.ExportGridLines属性，允许在将电子表格导出为HTML格式时呈现网格线。布尔类型的属性默认值为false，但当设置为true时，API会在HTML格式中为可用数据范围呈现网格线。
 
 {{% alert color="primary" %}} 
 
-有关此功能的更多详细信息，请查看[将网格线渲染到HTML](/cells/zh/net/export-excel-to-html-with-gridlines/)上的详细文章。
+有关此功能的更多详细信息，请查阅《[以HTML渲染网格线](/cells/zh/net/export-excel-to-html-with-gridlines/)》详细文章。
 
 {{% /alert %}} 
 
@@ -311,11 +311,11 @@ book.Save(dir + "output.html", options);
 
 
 ### **添加了ListObject.Comment属性**
-Aspose.Cells APIs 现在允许获取和设置列表对象实例的注释。为了提供上述功能，Aspose.Cells APIs 已公开了ListObject.Comment属性。
+Aspose.Cells API现在允许为ListObject实例获取和设置评论。为了提供上述功能，Aspose.Cells API已暴露了ListObject.Comment属性。
 
 {{% alert color="primary" %}} 
 
-有关此功能的更多详细信息，请查看[为ListObjects添加评论](/cells/zh/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/)上的详细文章。
+有关此功能的更多详细信息，请查阅《[为ListObjects添加注释](/cells/zh/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/)》详细文章。
 
 {{% /alert %}} 
 
@@ -349,15 +349,15 @@ book.Save(dir + "output.xlsx");
 
 
 ### **添加了GridWeb.SessionStorePath属性**
-Aspose.Cells.GridWeb for .NET 8.8.3 已公开了SessionStorePath属性，允许在Session模式为ViewState时获取或设置会话存储路径。前述属性获取或设置相对于当前Web应用程序基础目录的路径。
+Aspose.Cells.GridWeb for .NET 8.8.3已经暴露了SessionStorePath属性，允许在会话模式为ViewState时获取或设置会话存储路径。上述属性获取或设置相对于当前Web应用程序基目录的路径。
 
 {{% alert color="primary" %}} 
 
-有关此功能的更多详细信息，请查看[为临时会话文件指定路径](/cells/zh/net/specify-the-path-where-gridweb-stores-temporary-session-files/)上的详细文章。
+有关此功能的更多详细信息，请查看[指定临时会话文件路径](/cells/zh/net/specify-the-path-where-gridweb-stores-temporary-session-files/)的详细文章。
 
 {{% /alert %}} 
 
 以下是简单的使用场景。
-## **已删除APIs**
-### **已删除 Workbook.Decrypt 方法**
-所述属性已在一段时间前被标记为过时。此版本已彻底从公共 API 中移除该属性。建议将 WorkbookSettings.Password 属性设置为 null 以实现相同的目标。
+## **删除了 API**
+### **移除了Workbook.Decrypt方法**
+该属性已在一段时间前被标记为过时。此版本已完全将其从公共API中移除。建议将WorkbookSettings.Password属性设置为null以实现相同的目标。

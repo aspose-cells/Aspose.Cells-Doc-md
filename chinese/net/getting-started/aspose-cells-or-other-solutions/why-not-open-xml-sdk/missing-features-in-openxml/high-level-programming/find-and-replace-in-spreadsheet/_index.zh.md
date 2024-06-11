@@ -1,5 +1,5 @@
 ---
-title: 在电子表格中查找和替换
+title: 在电子表格中查找并替换
 type: docs
 weight: 30
 url: /zh/net/find-and-replace-in-spreadsheet/
@@ -7,7 +7,7 @@ url: /zh/net/find-and-replace-in-spreadsheet/
 
 ![todo:image_alt_text](Find_and_Replace.png)
 
-当单击查找按钮时执行以下代码：
+单击“查找”按钮后，以下是代码：
 
 {{< highlight csharp >}}
 
@@ -55,7 +55,7 @@ url: /zh/net/find-and-replace-in-spreadsheet/
 
 {{< /highlight >}}
 
-单击替换按钮时执行以下代码：
+单击“替换”按钮后，执行以下代码：
 
 {{< highlight csharp >}}
 

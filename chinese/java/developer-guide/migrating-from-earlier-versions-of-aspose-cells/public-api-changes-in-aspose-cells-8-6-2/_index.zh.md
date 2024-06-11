@@ -1,5 +1,5 @@
 ---
-title: Aspose.Cells 8.6.2 中的公共API更改
+title: Aspose.Cells 8.6.2 中的公共 API 更改
 type: docs
 weight: 220
 url: /zh/java/public-api-changes-in-aspose-cells-8-6-2/
@@ -7,14 +7,14 @@ url: /zh/java/public-api-changes-in-aspose-cells-8-6-2/
 
 {{% alert color="primary" %}} 
 
-本文档描述了从版本 8.6.1 到 8.6.2 的 Aspose.Cells API 的更改，可能对模块/应用程序开发人员感兴趣。它不仅包括新的和更新的公共方法、添加的类，还描述了在 Aspose.Cells 后台行为中的任何更改。
+本文档描述了从版本 8.6.1 到 8.6.2 的 Aspose.Cells API 变化，这可能对模块/应用程序开发人员感兴趣。它不仅包括新的和更新的公共方法、添加的类，还描述了在 Aspose.Cells 内部行为方面的任何变化。
 
 {{% /alert %}} 
-## **已添加API**
-### **支持回调与智能标记**
-Aspose.Cells for Java API这个版本暴露了WorkbookDesigner.CallBack字段和ISmartMarkerCallBack接口，它们一起允许获取有关正在处理的单元格引用和/或智能标记的通知。以下代码片段演示了如何使用ISmartMarkerCallBack接口定义一个新类，以处理WorkbookDesigner.process方法的回调。 
+## **添加的 API**
+### **对智能标记的回调支持**
+Aspose.Cells for Java API的此版本已公开了WorkbookDesigner.CallBack字段和ISmartMarkerCallBack接口，可以一起用于[获取关于正在处理的单元引用和/或智能标记的通知](/cells/zh/java/getting-notifications-while-merging-data-with-smart-markers/)。下面的代码片段演示了ISmartMarkerCallBack接口的用法，用于定义一个新类来处理WorkbookDesigner.process方法的回调。 
 
-**Java**
+Java
 
 {{< highlight csharp >}}
 
@@ -50,9 +50,9 @@ Aspose.Cells for Java API这个版本暴露了WorkbookDesigner.CallBack字段和
 
 {{< /highlight >}}
 
-其余步骤包括使用WorkbookDesigner加载包含智能标记的设计电子表格或根据需要创建一个新电子表格，然后通过设置数据源进行处理。但是，要启用通知，必须在调用WorkbookDesigner.process方法之前设置WorkbookDesigner.CallBack属性，如下所示。
+其余的流程包括使用WorkbookDesigner加载包含Smart Markers的设计电子表格，或者从头开始创建一个，并通过设置数据源来处理它。但是，为了启用通知，需要在调用WorkbookDesigner.process方法之前设置WorkbookDesigner.CallBack属性，如下所示。
 
-**Java**
+Java
 
 {{< highlight csharp >}}
 
@@ -83,12 +83,12 @@ report.setCallBack(new SmartMarkerCallBack(report.getWorkbook()));
 report.process(false);
 
 {{< /highlight >}}
-### **已添加 Chart.toPdf 方法**
-Aspose.Cells for Java 8.6.2已经公开了Chart.toPdf方法，可用于直接将图表形状渲染为PDF格式。所述方法目前接受一个类型为String的参数作为文件路径位置，用于存储磁盘上的结果文件。
+### **添加了Chart.toPdf方法**
+Aspose.Cells for Java 8.6.2已公开了Chart.toPdf方法，可用于直接将图表形状呈现为PDF格式。该方法目前接受一个String类型的参数作为文件路径位置，用于存储结果文件到磁盘上。
 
 以下是简单的使用场景。
 
-**Java**
+Java
 
 {{< highlight csharp >}}
 
@@ -109,12 +109,12 @@ Chart chart = worksheet.getCharts().get(0);
 chart.toPdf(outputFilePath);
 
 {{< /highlight >}}
-### **已添加 Workbook.removeUnusedStyles 方法**
-Aspose.Cells for Java 8.6.2已经公开了Workbook.removeUnusedStyles方法，可用于[从样式池中移除所有未使用的样式对象](/cells/zh/java/remove-unused-styles-inside-the-workbook/)。 
+### **添加了Workbook.removeUnusedStyles方法**
+Aspose.Cells for Java 8.6.2已公开了Workbook.removeUnusedStyles方法，可用于[从样式池中删除所有未使用的样式对象](/cells/zh/java/remove-unused-styles-inside-the-workbook/)。 
 
 以下是简单的使用场景。
 
-**Java**
+Java
 
 {{< highlight csharp >}}
 
@@ -127,12 +127,12 @@ Workbook workbook = new Workbook(inputFilePath);
 workbook.removeUnusedStyles();
 
 {{< /highlight >}}
-### **已添加 Cells.Style 属性**
-Cells.Style 属性可用于访问代表默认样式的工作表的样式。
+### **添加了Cells.Style属性**
+Cells.Style属性可用于访问表示默认样式的工作表的样式。
 
 以下是简单的使用场景。
 
-**Java**
+Java
 
 {{< highlight csharp >}}
 
@@ -145,8 +145,8 @@ Workbook book = new Workbook(inputFilePath);
 Style style = book.getWorksheets().get(0).getCells().getStyle();
 
 {{< /highlight >}}
-### **为 GridWeb 添加了事件**
-Aspose.Cells.GridWeb for Java 8.6.2已经公开了以下两个新事件。
+### **为GridWeb添加了事件**
+Aspose.Cells.GridWeb for Java 8.6.2公开了以下两个新事件。
 
-1. AjaxCallFinished: 当控件的AJAX更新完成时触发。(EnableAJAX应设置为true)。
-1. CellModifiedOnAjax: 当在 AJAX 调用中修改单元格时触发。
+1. AjaxCallFinished：在控件的AJAX更新完成时触发。（EnableAJAX应设置为true）。
+1. CellModifiedOnAjax：在AJAX调用中修改单元格时触发。

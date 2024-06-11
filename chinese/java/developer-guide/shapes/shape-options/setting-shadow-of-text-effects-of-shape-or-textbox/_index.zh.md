@@ -1,5 +1,5 @@
 ---
-title: 设置形状或文本框的文本效果阴影
+title: 设置形状或文本框的文本效果的阴影
 type: docs
 weight: 670
 url: /zh/java/setting-shadow-of-text-effects-of-shape-or-textbox/
@@ -7,19 +7,19 @@ url: /zh/java/setting-shadow-of-text-effects-of-shape-or-textbox/
 
 {{% alert color="primary" %}} 
 
-您可以设置任何形状或文本框的**文本效果**的**阴影**。请使用[Shape.TextBody](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TextBody)属性。它提供了形状文本的设置，并返回[FontSettingCollection](https://reference.aspose.com/cells/java/com.aspose.cells/FontSettingCollection)。从中访问[FontSetting](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting)，然后通过[FontSetting.getTextOptions().getShadow().setPresetType()](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#PresetType)属性设置**阴影**。该属性是[PresetShadowType](https://reference.aspose.com/cells/java/com.aspose.cells/PresetShadowType)类型，具有多个值。其中一些是
+您可以设置任何形状或文本框的**文本效果**的**阴影**。请使用[Shape.TextBody](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TextBody)属性。它表示形状文本的设置并返回[FontSettingCollection](https://reference.aspose.com/cells/java/com.aspose.cells/FontSettingCollection)。在访问其中的[FontSetting](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting)后，请通过[FontSetting.getTextOptions().getShadow().setPresetType()](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#PresetType)属性设置**阴影**。此属性是[PresetShadowType](https://reference.aspose.com/cells/java/com.aspose.cells/PresetShadowType)类型，具有多个值。其中一些是
 
-- [OFFSET_DIAGONAL_BOTTOM_RIGHT](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#OFFSET_DIAGONAL_BOTTOM_RIGHT)
-- [OFFSET_BOTTOM](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#OFFSET_BOTTOM)
-- [OFFSET_DIAGONAL_TOP_RIGHT](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#OFFSET_DIAGONAL_TOP_RIGHT)
-- [INSIDE_LEFT](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#INSIDE_LEFT)
-- [INSIDE_CENTER](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#INSIDE_CENTER)
-- [PERSPECTIVE_DIAGONAL_UPPER_LEFT](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#PERSPECTIVE_DIAGONAL_UPPER_LEFT)
-- [PERSPECTIVE_DIAGONAL_UPPER_RIGHT](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#PERSPECTIVE_DIAGONAL_UPPER_RIGHT)
+- [斜向下右侧偏移](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#OFFSET_DIAGONAL_BOTTOM_RIGHT)
+- [向下偏移](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#OFFSET_BOTTOM)
+- [斜向上右侧偏移](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#OFFSET_DIAGONAL_TOP_RIGHT)
+- [内部左侧](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#INSIDE_LEFT)
+- [内部中心](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#INSIDE_CENTER)
+- [透视斜向左上](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#PERSPECTIVE_DIAGONAL_UPPER_LEFT)
+- [透视斜向右上](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#PERSPECTIVE_DIAGONAL_UPPER_RIGHT)
 
 {{% /alert %}} 
-## **设置形状或文本框的文字效果的阴影**
-以下屏幕截图显示了使用以下示例代码生成的[输出Excel文件](5473446.xlsx)。屏幕截图还显示了已设置为**偏移底部**的**阴影**的值。
+## **设置形状或文本框的文本效果阴影**
+以下屏幕截图显示了使用以下示例代码生成的[输出Excel文件](5473446.xlsx)。屏幕截图还显示了已设置为**向下偏移**的**阴影**的值。
 
 ![todo:image_alt_text](setting-shadow-of-text-effects-of-shape-or-textbox_1.png)
 

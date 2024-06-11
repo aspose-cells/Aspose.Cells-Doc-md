@@ -1,5 +1,5 @@
 ---
-title: 创建Excel工作表的透明图像
+title: Create Transparent Image of Excel Worksheet
 type: docs
 weight: 170
 url: /zh/net/create-transparent-image-of-excel-worksheet/
@@ -7,22 +7,22 @@ url: /zh/net/create-transparent-image-of-excel-worksheet/
 
 {{% alert color="primary" %}}
 
-有时，您需要将工作表的图像生成为透明图像。您希望将透明度应用于所有没有填充颜色的单元格。Aspose.Cells提供[**ImageOrPrintOptions.Transparent**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/transparent)属性来将透明度应用于工作表图像。当此属性为**false**时，没有填充颜色的单元格将以白色绘制，当为**true**时，没有填充颜色的单元格将被绘制为透明。
+Sometimes, you need to generate the image of your worksheet as a transparent image. You want to apply transparency to all cells which have no fill colors. Aspose.Cells provides the [**ImageOrPrintOptions.Transparent**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/transparent) property to apply transparency to the worksheet image. When this property is **false**, then cells with no fill colors are drawn with white color and when it is **true**, cells with no fill colors are drawn transparent.
 
 {{% /alert %}} 
 
-在以下工作表图像中，未应用透明度。没有填充颜色的单元格为白色。
+In the following worksheet image, transparency has not been applied. The cells with no fill colors are drawn white.
 
-|**没有透明度的输出：单元格背景为白色**|
+|**Output without transparency: the cell background is white**|
 | :- |
 |![todo:image_alt_text](create-transparent-image-of-excel-worksheet_1.png)|
 
-而在以下工作表图像中，已应用透明度。没有填充颜色的单元格为透明。
+While, in the following worksheet image, transparency has been applied. The cells with no fill colors are transparent.
 
-|**启用透明度的输出**|
+|**启用透明度输出**|
 | :- |
 |![todo:image_alt_text](create-transparent-image-of-excel-worksheet_2.png)|
 
-以下示例代码从Excel工作表生成透明图像。
+下面的示例代码从 Excel 工作表生成一个透明的图像。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreateTransparentImage-1.cs" >}}

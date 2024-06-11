@@ -1,5 +1,5 @@
 ---
-title: 将工作表转换为图像文件通过页面
+title: 通过页面将工作表转换为图像文件
 type: docs
 weight: 10
 url: /zh/net/converting-worksheet-to-image-file-by-page/

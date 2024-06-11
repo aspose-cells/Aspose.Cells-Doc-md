@@ -1,14 +1,14 @@
 ---
-title: 在Jython中进行分页预览
+title: 在Jython中的页面分页预览
 type: docs
 weight: 90
 url: /zh/java/page-break-preview-in-jython/
 ---
 
-## **Aspose.Cells - 分页预览**
-使用**Aspose.Cells Java for Jython**进行文档追加。这里您可以查看示例代码
+## **Aspose.Cells - 页面分页预览**
+使用**Aspose.Cells Java for Jython**进行附加文档。这里可以看到示例代码。
 
-**Jython代码**
+**Jython 代码**
 
 {{< highlight java >}}
 
@@ -53,6 +53,6 @@ if __name__ == '__main__':
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下任何社交编码网站下载**追加文档（Aspose.Cells）**
+从以下任何社交编码网站下载**Append Documents (Aspose.Cells)**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/PageBreakPreview.py)

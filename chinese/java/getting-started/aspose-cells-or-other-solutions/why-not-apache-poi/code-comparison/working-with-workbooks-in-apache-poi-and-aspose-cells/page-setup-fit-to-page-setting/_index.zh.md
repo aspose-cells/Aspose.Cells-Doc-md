@@ -1,14 +1,14 @@
 ---
-title: 页面设置 - 适合页面设置
+title: 页面设置 - 自适应页面设置
 type: docs
 weight: 30
 url: /zh/java/page-setup-fit-to-page-setting/
 ---
 
-## **Aspose.Cells - 页面设置 - 适合页面设置**
-要将工作表的内容适合于特定页数，请使用[PageSetup](/cells/zh/java/page-setup-fit-to-page-setting/)类的setFitToPagesTall和setFitToPagesWide方法。这些方法也可用于缩放工作表。
+## **Aspose.Cells - 页面设置 - 自适应页面设置**
+要将工作表内容适配到特定页数，使用 [PageSetup](/cells/zh/java/page-setup-fit-to-page-setting/) 类的 setFitToPagesTall 和 setFitToPagesWide 方法。这些方法也用于调整工作表。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -37,10 +37,10 @@ pageSetup.setFitToPagesTall(1);
 pageSetup.setFitToPagesWide(1);
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF & XSSF - 页面设置 - 适合页面设置**
-Apache POI SS使用setFitHeight和setFitWidth方法进行适合页面设置。
+## **Apache POI SS - HSSF & XSSF - 页面设置 - 自适应页面设置**
+Apache POI SS 使用 setFitHeight 和 setFitWidth 方法进行自适应页面设置。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -64,6 +64,6 @@ ps.setFitWidth((short) 1);
 
 {{% alert color="primary" %}} 
 
-要了解更多详细信息，请访问[设置页面选项](http://www.aspose.com/docs/display/cellsjava/Setting+Page+Options)。
+有关详细信息，请访问 [设置页面选项](http://www.aspose.com/docs/display/cellsjava/Setting+Page+Options)。
 
 {{% /alert %}}

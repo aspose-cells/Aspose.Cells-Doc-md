@@ -6,9 +6,9 @@ url: /zh/java/protecting-worksheets-in-php/
 ---
 
 ## **Aspose.Cells - 保护工作表**
-使用**Aspose.Cells Java for PHP**，通过调用**protection**模块的**protect_worksheet**方法来保护工作表。
+要使用**Aspose.Cells Java for PHP**保护工作表，请调用**protection**模块的**protect_worksheet**方法。
 
-**PHP代码**
+**PHP 代码**
 
 {{< highlight php >}}
 
@@ -42,6 +42,6 @@ $excel->save($dataDir . "output.xls");  
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下任一社交编码站点下载 **Protecting Worksheets (Aspose.Cells)**：
+从下面提到的任何社交编码网站下载**Protecting Worksheets (Aspose.Cells)**。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/SecurityFeatures/ProtectingWorksheet.php)

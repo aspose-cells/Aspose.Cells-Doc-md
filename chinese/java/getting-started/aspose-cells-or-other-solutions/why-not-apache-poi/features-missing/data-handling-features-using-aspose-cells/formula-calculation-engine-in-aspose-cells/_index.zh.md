@@ -6,9 +6,9 @@ url: /zh/java/formula-calculation-engine-in-aspose-cells/
 ---
 
 ## **Aspose.Cells - 公式计算引擎**
-公式计算引擎嵌入在 Aspose.Cells 中。它不仅可以重新计算从设计师电子表格文件中导入的公式，还支持计算在运行时添加的公式的结果。
+公式计算引擎嵌入在Aspose.Cells中。它不仅可以重新计算从设计者电子表格文件导入的公式，还支持计算运行时添加的公式结果。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -67,6 +67,6 @@ book.save(dataDir + "AsposeFormulaEngine.xls");
 
 {{% alert color="primary" %}} 
 
-有关更多详细信息，请访问[公式计算引擎](/cells/zh/java/aspose-cells-formula-calculation-engine)
+要了解更多详情，请访问[公式计算引擎](/cells/zh/java/aspose-cells-formula-calculation-engine)。
 
 {{% /alert %}}

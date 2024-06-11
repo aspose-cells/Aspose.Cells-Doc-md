@@ -10,10 +10,10 @@ url: /zh/python-net/aspose-cells-gridjs/
 
 
 - [GridJs基础知识](/cells/zh/python-net/aspose-cells-gridjs/basics/)
-- [在GridJs服务器端操作](/cells/zh/python-net/aspose-cells-gridjs/server/)
-- [客户端脚本操作GridJs](/cells/zh/python-net/aspose-cells-gridjs/client/)
-- [操作GridJs高亮特性](/cells/zh/python-net/aspose-cells-gridjs/highlight/)
-- [操作GridJs存储](/cells/zh/python-net/aspose-cells-gridjs/storage/)
+- [与GridJs服务器端一起工作](/cells/zh/python-net/aspose-cells-gridjs/server/)
+- [与GridJs客户端脚本一起工作](/cells/zh/python-net/aspose-cells-gridjs/client/)
+- [使用GridJs的高亮功能](/cells/zh/python-net/aspose-cells-gridjs/highlight/)
+- [使用GridJs存储](/cells/zh/python-net/aspose-cells-gridjs/storage/)
 - [使用自定义计算引擎](/cells/zh/python-net/aspose-cells-gridjs/customcalculation/)
 - [在移动设备上使用GridJs](/cells/zh/python-net/aspose-cells-gridjs/mobile/)
 - [GridJs设置](/cells/zh/python-net/aspose-cells-gridjs/settings/)

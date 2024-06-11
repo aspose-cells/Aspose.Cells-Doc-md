@@ -6,9 +6,9 @@ url: /zh/java/converting-worksheet-to-image-in-php/
 ---
 
 ## **Aspose.Cells - 将工作表转换为图像**
-要在PHP中使用Aspose.Cells for Java将工作表转换为图像，只需调用Converter模块。
+使用PHP中的Aspose.Cells for Java将工作表转换为图像，只需调用Converter模块。
 
-**PHP代码**
+**PHP 代码**
 
 {{< highlight php >}}
 
@@ -46,6 +46,6 @@ for ($j = 0; $j < $sr->getPageCount(); $j++)
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下任一社交编码网站下载**将工作表转换为图像（Aspose.Cells）**：
+从以下任何社交编码网站下载**将工作表转换为图像（Aspose.Cells）**：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/WorksheetToImage.php)

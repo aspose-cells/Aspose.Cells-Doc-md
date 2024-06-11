@@ -6,8 +6,8 @@ url: /zh/net/convert-chart-to-images/
 ---
 
 ## **Aspose.Cells - 将图表转换为图像**
-图表具有视觉吸引力，并让用户轻松看到数据中的比较、模式和趋势。
-Chart类的toImage方法将图表转换为图像文件，可将其保存到磁盘或流中。
+图表具有视觉吸引力，方便用户查看数据中的比较、模式和趋势。
+Chart类的toImage方法将图表转换为图像文件，可保存到磁盘或流中。
 
 **C#**
 
@@ -65,12 +65,12 @@ chart.ToImage("AsposeChartImage.png", ImageFormat.Png);
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下提到的任何社交编码网站下载**将图表转换为图像**：
+从以下任何社交编码网站下载**将图表转换为图像**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Convert.Chart.To.Images.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
-有关更多详细信息，请访问[将图表转换为图像](/cells/zh/net/converting-chart-to-image-in-svg-format/)。
+更多详情，请访问[将图表转换为图像](/cells/zh/net/converting-chart-to-image-in-svg-format/)
 
 {{% /alert %}}

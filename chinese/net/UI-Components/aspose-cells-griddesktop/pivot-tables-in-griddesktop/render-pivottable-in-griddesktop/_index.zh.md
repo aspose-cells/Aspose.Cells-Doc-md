@@ -1,16 +1,16 @@
 ---
-title: 在GridDesktop中呈现数据透视表
+title: 在GridDesktop中渲染数据透视表
 type: docs
 weight: 10
 url: /zh/net/aspose-cells-griddesktop/render-pivottable-in-griddesktop/
-keywords: GridDesktop，数据透视表，数据透视表，呈现数据透视表，
-description: 本文介绍了在GridDesktop中使用数据透视表的方法。
+keywords: GridDesktop，数据透视表，透视表，渲染数据透视表
+description: 本文介绍了在GridDesktop中使用数据透视表。
 ---
 
 ## **可能的使用场景**
-如果您的Excel文件有数据透视表，GridDesktop将能够加载和呈现数据透视表。此外，您将能够在GUI中交互并操作数据透视表。
-## **在GridDesktop中呈现数据透视表**
-以下示例代码导入包含数据透视表的[示例Excel文件](48496686.xlsx)。截图显示了此示例代码执行的结果，以供参考。
+如果您的Excel文件有数据透视表，GridDesktop将能够正常加载和渲染数据透视表。此外，您还可以与GUI交互并操纵数据透视表。
+## **在GridDesktop中渲染数据透视表**
+以下示例代码导入了包含数据透视表的[示例Excel文件](48496686.xlsx)。屏幕截图显示了执行此示例代码的结果作为参考。
 
 ![todo:image_alt_text](render-pivottable-in-griddesktop_1.png)
 

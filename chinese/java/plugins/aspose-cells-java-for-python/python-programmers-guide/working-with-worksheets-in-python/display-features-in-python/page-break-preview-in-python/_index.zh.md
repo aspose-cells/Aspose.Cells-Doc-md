@@ -1,12 +1,12 @@
 ---
-title: 在 Python 中设置页面分页预览
+title: 在Python中进行分页预览
 type: docs
 weight: 60
 url: /zh/java/page-break-preview-in-python/
 ---
 
 ## **Aspose.Cells - Hello World**
-要使用 **Aspose.Cells Java for Python** 将工作表设置为页面分页预览，只需调用 **PageBreakPreview** 模块。
+要使用**Aspose.Cells Java for Python**设置工作表为分页预览，只需调用**PageBreakPreview** 模块。
 
 **Python 代码**
 
@@ -34,6 +34,6 @@ print "Page break preview is enabled for sheet 1, please check the output docume
 
 {{< /highlight >}}
 ## **下载运行代码**
-从下面任何社交编码网站下载 **Page Break Preview (Aspose.Cells)**：
+从以下任何社交编码网站下载**分页预览 (Aspose.Cells)**。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

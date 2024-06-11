@@ -1,18 +1,18 @@
 ---
-title: 在VSTO和Aspose.Cells中创建饼图
+title: 在 VSTO 和 Aspose.Cells 中创建饼图
 type: docs
 weight: 80
 url: /zh/net/create-a-pie-chart-in-vsto-and-aspose-cells/
 ---
 
-本文比较了使用Office Automation和VSTO创建饼图与使用Aspose.Cells for.NET创建饼图的方法。创建饼图的步骤包括:
+本文比较了使用Office Automation和VSTO创建饼图与使用Aspose.Cells for .NET创建饼图的步骤为：
 
 1. 创建工作簿和工作表。
 1. 添加示例数据。
-1. 引用产品图表。
+1. 引用 productsChart。
 1. 添加饼图，定义数据范围和图表标题。
 1. 保存电子表格。
-   本文中的代码示例展示了如何在VSTO中添加饼图，使用C#，与使用Aspose.Cells创建饼图进行比较，再次使用C#。
+   本文中的代码示例展示了如何使用 C# 添加 VSTO 的饼图，与使用 C# 创建 Aspose.Cells 的饼图进行比较。
 ## **VSTO**
 {{< highlight csharp >}}
 

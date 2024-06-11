@@ -1,5 +1,5 @@
 ---
-title: 在Python中复制和移动工作表
+title: Python中复制和移动工作表
 type: docs
 weight: 10
 url: /zh/java/copying-and-moving-worksheets-in-python/
@@ -7,7 +7,7 @@ url: /zh/java/copying-and-moving-worksheets-in-python/
 
 ## **Aspose.Cells - 复制和移动工作表**
 ### **在工作簿内复制工作表**
-使用 **Aspose.Cells for Java in Ruby** 复制工作表，请调用 **copyworksheets** 模块的 **copy_worksheet** 方法。以下是代码示例。
+要在Ruby中使用**Aspose.Cells for Java**复制工作表，调用**copyworksheets**模块的**copy_worksheet**方法。下面是代码示例。
 
 **Python 代码**
 
@@ -64,6 +64,6 @@ print "Move worksheet, please check the output file."
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下任一社交编码站点下载**复制和移动工作表（Aspose.Cells）**。
+从下面提到的任何社交编码网站下载**复制和移动工作表（Aspose.Cells）**。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

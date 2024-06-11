@@ -1,27 +1,27 @@
 ---
-title: 应用小计和在详细信息下方更改大纲摘要行的方向
+title: 应用小计并更改大纲摘要行的方向，而不是详细信息下面的行
 type: docs
 weight: 100
 url: /zh/net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/
-description: 学习如何使用 Aspose.Cells for .NET API 应用小计并更改大纲摘要行下的详细信息方向。
-keywords: 应用小计，添加小计，更改大纲摘要行下的详细信息方向，更改大纲摘要列右侧的详细信息方向，创建小计并更改大纲摘要行下的详细信息方向
+description: 通过使用 Aspose.Cells for .NET API，学习如何应用小计并更改汇总行下详细信息的方向。
+keywords: 应用小计，添加小计，更改详细下面概要行的方向，更改详细右边概要列的方向，创建小计并更改详细下面概要行的方向
 ---
 
 {{% alert color="primary" %}}
 
-本文将解释如何将小计应用于数据并更改详细信息下方的大纲摘要行的方向。
+本文将解释如何对数据应用小计并更改大纲摘要行下面的方向。
 
-您可以使用 [**Worksheet.Cells.Subtotal()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/subtotal/index) 方法对数据应用小计。它接受以下参数。
+你可以使用[**Worksheet.Cells.Subtotal()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/subtotal/index)方法对数据应用小计。它接受以下参数。
 
-- **CellArea** - 要应用小计的范围
-- **GroupBy** - 按照哪个字段分组，作为从零开始的整数偏移量
-- **Function** - 小计函数
-- **TotalList** - 一个从零开始的字段偏移量数组，指示添加小计的字段
-- **Replace** - 指示是否替换当前小计
-- **PageBreaks** - 指示是否在组之间添加分页符
-- **SummaryBelowData** - 指示是否在数据下方添加汇总
+- **单元格区域** - 应用小计的范围
+- **按组** - 按零为基础的整数偏移量分组
+- **功能** - 小计功能。
+- **TotalList** - 一个从零开始的字段偏移量数组，指示要添加小计的字段。
+- **Replace** - 指示是否替换当前的小计
+- **分页符** - 表示是否在组之间添加分页符
+- **SummaryBelowData** - 指示是否在数据下方添加摘要。
 
-此外，还可以控制大纲中 **具有详细信息下方的摘要行** 的方向，如下截图所示，使用 Worksheet.Outline.SummaryRowBelow 属性。您可以在 Microsoft Excel 中使用 **数据 > 大纲 > 设置** 打开此设置
+此外，您可以使用 Worksheet.Outline.SummaryRowBelow 属性，在下图所示的 Microsoft Excel 中通过“数据 > 大纲 > 设置”来控制大纲摘要行在细节下方的方向。
 
 ![todo:image_alt_text](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_1.png)
 
@@ -29,15 +29,15 @@ keywords: 应用小计，添加小计，更改大纲摘要行下的详细信息�
 
 ## 源文件和输出文件的图像
 
-以下截图显示了示例代码中使用的源Excel文件，其中在A和B列中包含一些数据。
+下图显示了示例代码中使用的源Excel文件，其中包含列A和B中的一些数据。
 
 ![todo:image_alt_text](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_2.png)
 
-以下截图显示了示例代码生成的输出 Excel 文件。正如您所见，已对 A2:B11 范围应用了小计，并且大纲的方向是摘要行在详细信息下方。
+下图显示了示例代码生成的输出Excel文件。如您所见，对范围A2:B11应用了小计，并且大纲的方向是细节下方的摘要行。
 
 ![todo:image_alt_text](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_3.png)
 
-## 用于应用小计和更改大纲摘要行的方向的 C# 代码
+## 用于应用小计并更改详细下面概要行方向的C#代码
 
 以下是实现上述输出的示例代码。
 

@@ -1,5 +1,5 @@
 ---
-title: 将所有工作表列适配到单个PDF页面
+title: 将所有工作表列调整到单个PDF页面
 type: docs
 weight: 70
 url: /zh/java/fit-all-worksheet-columns-on-single-pdf-page/
@@ -7,26 +7,26 @@ url: /zh/java/fit-all-worksheet-columns-on-single-pdf-page/
 
 {{% alert color="primary" %}}
 
-有时您希望生成一个 PDF 文件，可以将工作表的所有列放入单个页面中。 [**PdfSaveOptions.setAllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#AllColumnsInOnePagePerSheet) 属性以一种非常易于使用的方式提供了此功能。输出 PDF 页面的高度和宽度等复杂计算由内部处理，并根据工作表中的数据进行调整。
+有时，您希望生成一个将工作表的所有列都放入单个页面的PDF文件。[**PdfSaveOptions.setAllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#AllColumnsInOnePagePerSheet)属性以一种非常易于使用的方式提供了此功能。输出PDF页面的高度和宽度等复杂计算在内部处理，这些计算是基于工作表中的数据的。
 
 {{% /alert %}}
 
-## **将工作表列适配到单个PDF页面**
+## **使工作表列适合单个PDF页面**
 
-[**PdfSaveOptions.setAllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#AllColumnsInOnePagePerSheet) 确保将工作表的所有列呈现为单个 PDF 页面，尽管根据工作表中的数据，行可能会扩展为多个页面。
+[**PdfSaveOptions.setAllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#AllColumnsInOnePagePerSheet)可以确保将工作表的所有列呈现为单个PDF页面，尽管行可能因工作表中的数据而扩展到几个页面。
 
 {{% alert color="primary" %}}
 
-当给定工作表具有许多列时，呈现的 PDF 文件内容可能很小。在查看应用程序（如 Acrobat Reader）中放大时仍然可读。
+当给定的工作表有许多列时，呈现的PDF文件可能会以非常小的尺寸显示内容。当在观看应用程序（例如Acrobat Reader）中放大时仍然可读。
 
 {{% /alert %}}
 
-下面的示例代码展示了如何使用 [**PdfSaveOptions.setAllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#AllColumnsInOnePagePerSheet) 属性呈现包含 100 列的大型工作表。
+下面的示例代码显示了如何使用[**PdfSaveOptions.setAllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#AllColumnsInOnePagePerSheet)属性来呈现包含100列的大工作表。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FitAllWorksheetColumns-FitAllWorksheetColumns.java" >}}
 
 {{% alert color="primary" %}}
 
-如果您的电子表格包含公式，最好在将电子表格呈现为 PDF 格式之前调用 [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula() 方法。这样做将确保重新计算公式依赖值，并在 PDF 中呈现正确的值。
+如果您的电子表格包含公式，最好在将电子表格呈现为PDF格式之前调用[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()）方法。这样做可以确保重新计算基于公式的值，并在PDF中呈现正确的值。
 
 {{% /alert %}}

@@ -7,9 +7,9 @@ url: /zh/java/hide-or-unhide-a-worksheet-in-php/
 
 ## **Aspose.Cells - 隐藏或取消隐藏工作表**
 ### **隐藏工作表**
-要在Aspose.Cells Java for PHP中隐藏工作表，请调用**hideunhideworksheet**模块。
+要使用 **Aspose.Cells Java for PHP** 隐藏工作表, 只需调用 **hideunhideworksheet** 模块。
 
-**PHP代码**
+**PHP 代码**
 
 {{< highlight php >}}
 
@@ -34,6 +34,6 @@ $workbook->save($dataDir . "output.xls");
 
 {{< /highlight >}}
 ## **下载运行代码**
-从下面列出的任何社交编码站点下载**隐藏或取消隐藏工作表（Aspose.Cells）**。
+从以下社交编码网站中下载**隐藏或取消隐藏工作表（Aspose.Cells）**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/HideUnhideWorksheet.php)

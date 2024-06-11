@@ -1,11 +1,11 @@
 ---
-title: 工作表中的单元格拆分
+title: 拆分工作表单元格
 type: docs
 weight: 90
 url: /zh/net/split-cells-in-worksheet/
 ---
 
-## **Aspose.Cells - 工作表中的单元格拆分**
+## **Aspose.Cells - 拆分工作表单元格**
 **C#**
 
 {{< highlight cs >}}
@@ -30,7 +30,7 @@ workbook.Save("output-Split.xls");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - 工作表中的单元格拆分**
+## **NPOI - HSSF XSSF - 拆分工作表单元格**
 **C#**
 
 {{< highlight cs >}}
@@ -60,6 +60,6 @@ file.Close();
 
 {{% alert color="primary" %}} 
 
-有关详细信息，请访问[使用工作表](/cells/zh/net/working-with-worksheets-in-npoi-and-aspose-cells/)
+有关更多详细信息，请访问[使用工作表](/cells/zh/net/working-with-worksheets-in-npoi-and-aspose-cells/)。
 
 {{% /alert %}}

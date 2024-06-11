@@ -8,13 +8,13 @@ url: /zh/java/password-protect-or-unprotect-the-shared-workbook/
 
 ## **可能的使用场景**
 
-您可以保护或取消保护共享的工作簿，如下截图所示。 Aspose.Cells还支持该功能，方法如下[**Workbook.protectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#protectSharedWorkbook(java.lang.String))和[**Workbook.unprotectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotectSharedWorkbook(java.lang.String))。
+您可以如下所示在 Microsoft Excel 中保护或取消保护共享工作簿。Aspose.Cells 也支持使用 [**Workbook.protectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#protectSharedWorkbook(java.lang.String)) 和 [**Workbook.unprotectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotectSharedWorkbook(java.lang.String)) 方法实现此功能。
 
 ![todo:image_alt_text](password-protect-or-unprotect-the-shared-workbook_1.png)
 
 ## **密码保护或取消保护共享工作簿**
 
-以下示例代码创建一个工作簿并对其进行保护，同时启用共享功能，并将其另存为【输出Excel文件】（55541800.xlsx）。截图显示，当您尝试取消保护时，Microsoft Excel提示您输入密码以解除保护。
+下面的示例代码创建一个工作簿并在启用共享时保护它，并将其保存为 [output Excel file](55541800.xlsx)。屏幕截图显示，当您尝试取消保护时，Microsoft Excel 会提示您输入密码以取消保护。
 
 ![todo:image_alt_text](password-protect-or-unprotect-the-shared-workbook_2.png)
 

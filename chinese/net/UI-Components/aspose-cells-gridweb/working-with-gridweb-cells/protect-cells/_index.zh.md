@@ -9,37 +9,37 @@ description: 本文介绍了如何在GridWeb中保护单元格。
 
 {{% alert color="primary" %}} 
 
-本主题介绍了保护单元格的几种技术。使用这些技术可以使开发人员限制用户编辑工作表中的所有或选定范围的单元格。
+本主题描述了保护单元格的几种技术。使用这些技术可让开发人员限制用户对工作表中所有或选定范围的单元格进行编辑。
 
 {{% /alert %}} 
 ## **保护单元格**
-Aspose.Cells.GridWeb在“编辑模式”（默认模式）下为控件上的单元格控制保护级别提供了几种不同的技术。这样可以保护终端用户不对单元格进行修改。
-### **将所有单元格设置为只读**
+当控件处于[编辑模式](/cells/zh/net/aspose-cells-gridweb/enable-different-gridweb-modes/#edit-mode)（默认模式）时，Aspose.Cells.GridWeb提供了几种不同的技术来控制单元格的保护级别。这样可以防止最终用户修改单元格。
+### **设置所有单元格为只读**
 要将工作表中的所有单元格设置为只读，请调用工作表的SetAllCellsReadonly方法。
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-ProtectCells.aspx-MakeAllCellsReadOnly.cs" >}}
-### **将所有单元格设置为可编辑**
-要从所有单元格中移除保护，请调用工作表的SetAllCellsEditable方法。该方法与SetAllCellsReadonly方法的效果相反。
+### **设置所有单元格为可编辑**
+要取消所有单元格的保护，请调用工作表的SetAllCellsEditable方法。该方法与SetAllCellsReadonly方法具有相反的效果。
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-ProtectCells.aspx-MakeAllCellsEditable.cs" >}}
 ### **将选定的单元格设置为只读**
-只保护一定范围的单元格：
+仅保护一系列单元格:
 
-1. 首先调用SetAllCellsEditable方法，使所有单元格可编辑。
-2. 调用工作表的SetReadonlyRange方法指定要保护的单元格范围。该方法接受行数和列数来指定单元格范围。
+1. 首先通过调用SetAllCellsEditable方法使所有单元格可编辑。
+1. 通过调用工作表的SetReadonlyRange方法指定需保护的单元格范围。此方法采用行数和列数来指定单元格范围。
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-ProtectCells.aspx-MakeSelectedCellsReadOnly.cs" >}}
-### **将选定的单元格设置为可编辑**
-取消保护一定范围的单元格：
+### **使选定的单元格可编辑**
+取消保护一系列单元格:
 
-1. 调用SetAllCellsReadonly方法将所有单元格设置为只读。
-2. 调用工作表的SetEditableRange方法指定要可编辑的单元格范围。该方法接受行数和列数来指定单元格范围。
+1. 通过调用SetAllCellsReadonly方法使所有单元格只读。
+1. 通过调用工作表的SetEditableRange方法指定可编辑的单元格范围。此方法采用行数和列数来指定单元格范围。
 
 
 

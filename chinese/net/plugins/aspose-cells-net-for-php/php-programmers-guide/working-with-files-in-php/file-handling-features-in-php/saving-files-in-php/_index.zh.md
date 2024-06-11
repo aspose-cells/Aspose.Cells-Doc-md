@@ -7,9 +7,9 @@ url: /zh/net/saving-files-in-php/
 
 ## **Aspose.Cells - 保存Excel文件**
 ### **通过路径打开**
-通过引用文件的路径保存Microsoft Excel文件
+通过引用文件路径保存Microsoft Excel文件
 
-**PHP代码**
+**PHP 代码**
 
 {{< highlight php >}}
 
@@ -33,6 +33,6 @@ url: /zh/net/saving-files-in-php/
 
 {{< /highlight >}}
 ## **下载运行代码**
-从下面提到的任何社交编码网站下载**保存文件（Aspose.Cells）**。
+从以下任一社交编码网站下载**保存文件（Aspose.Cells）**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/FileHandlingFeatures/SavingFiles.php)

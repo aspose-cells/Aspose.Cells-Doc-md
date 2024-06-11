@@ -1,11 +1,11 @@
 ---
-title: 在工作表中添加评论
+title: 在工作表中添加注释
 type: docs
 weight: 10
 url: /zh/net/add-comment-in-worksheet/
 ---
 
-## **Aspose.Cells - 在工作表中添加评论**
+## **Aspose.Cells - 在工作表中添加注释**
 **C#**
 
 {{< highlight cs >}}
@@ -48,7 +48,7 @@ workbook.Save("Output-AddingComment.xls");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - 在工作表中添加评论**
+## **NPOI - HSSF XSSF - 在工作表中添加注释**
 **C#**
 
 {{< highlight cs >}}
@@ -96,12 +96,12 @@ file.Close();
 
 {{< /highlight >}}
 ## **下载运行代码**
-从下面提到的社交编码网站之一下载**在工作表中添加图像**
+从下面提到的任何社交编码网站下载**在工作表中添加图像**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Add.Comment.zip)
 
 {{% alert color="primary" %}} 
 
-有关详细信息，请访问[使用工作表](/cells/zh/net/working-with-worksheets-in-npoi-and-aspose-cells/)
+有关更多详细信息，请访问[使用工作表](/cells/zh/net/working-with-worksheets-in-npoi-and-aspose-cells/)。
 
 {{% /alert %}}

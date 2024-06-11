@@ -1,5 +1,5 @@
 ---
-title: 在工作表中添加签名行
+title: 向工作表添加签名行
 type: docs
 weight: 200
 url: /zh/net/add-signature-line/
@@ -9,13 +9,13 @@ url: /zh/net/add-signature-line/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells提供了[**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline)属性以添加工作表的签名行。
+Aspose.Cells 提供了 [**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) 属性来添加工作表的签名行。
 
 {{% /alert %}}
 
 ## **向工作表添加签名行**
 
-以下示例代码演示了如何使用[**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline)属性向工作表添加签名行。屏幕截图显示了示例代码对执行后的示例Excel文件的影响。
+以下示例代码演示了如何使用 [**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) 属性添加工作表的签名行。屏幕截图展示了示例代码对示例Excel文件执行后的效果。
 
 ![todo:image_alt_text](add-signature-line.png)
 

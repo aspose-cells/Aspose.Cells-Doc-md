@@ -7,12 +7,12 @@ url: /zh/net/public-api-changes-in-aspose-cells-8-6-0/
 
 {{% alert color="primary" %}} 
 
-本文描述了从版本8.5.2到8.6.0的Aspose.Cells API的更改，可能对模块/应用程序开发人员感兴趣。它不仅包括新的和更新的公共方法，添加的类等，还包括Aspose.Cells幕后行为中的任何更改的描述。
+本文档描述了 Aspose.Cells API 从版本 8.5.2 更新到 8.6.0 的更改，可能会对模块/应用程序开发人员感兴趣。它不仅包括新的和更新的公共方法、[添加的类等](/cells/zh/net/public-api-changes-in-aspose-cells-8-6-0/)，还包括了 Aspose.Cells 后台行为的任何更改的描述。
 
 {{% /alert %}} 
-## **已添加API**
-### **支持在不创建Workbook对象的情况下操纵元数据**
-这个Aspose.Cells for .NET API的版本公开了两个新类，WorkbookMetadata和MetadataOptions，以及一个新枚举MetadataType，现在允许在不创建Workbook实例的情况下操作文档属性（元数据）。
+## **添加的 API**
+### **支持在不创建工作簿对象的情况下对元数据进行操作**
+此版本的Aspose.Cells for .NET API已公开了两个新类WorkbookMetadata和MetadataOptions以及一个新的MetadataType枚举，现在可以在不创建Workbook实例情况下操作文档属性（元数据）。WorkbookMetadata类轻量且提供非常易于使用、高效的机制来[读取、写入和更新文档属性而不影响整体性能](/cells/zh/net/using-workbookmetadata/)。
 
 以下是简单的使用场景。
 
@@ -37,8 +37,8 @@ metadata.Save(filePath);
 {{< /highlight >}}
 
 
-### **新增 HtmlSaveOptions.ExportFrameScriptsAndProperties 属性**
-Aspose.Cells for .NET 8.6.0公开了HtmlSaveOptions.ExportFrameScriptsAndProperties属性，可影响将电子表格转换为HTML格式时生成附加脚本的方式。
+### **新增HtmlSaveOptions.ExportFrameScriptsAndProperties属性**
+Aspose.Cells for .NET 8.6.0已公开了HtmlSaveOptions.ExportFrameScriptsAndProperties属性，可用于影响将电子表格转换为HTML格式时生成附加脚本。使用默认设置，Aspose.Cells API将按照Excel应用程序进行导出，即：生成的HTML包含框架和条件注释，用于检测浏览器类型并相应调整布局。HtmlSaveOptions.ExportFrameScriptsAndProperties属性的默认值为true，这意味着按照Excel标准进行导出。然而，如果将属性设置为false，API将不会[生成与框架和条件注释有关的脚本](/cells/zh/net/disable-exporting-frame-scripts-and-document-properties/)。在这种情况下，生成的HTML可以在任何浏览器中正确查看，但不能使用Aspose.Cells API导入。
 
 以下是简单的使用场景。
 
@@ -63,8 +63,8 @@ book.Save("output.html", options);
 {{< /highlight >}}
 
 
-### **已添加 Shape.MarcoName 属性**
-Aspose.Cells for .NET 8.6.0公开了Shape.MarcoName属性，可用于将任何VBA模块分配给形式控件，例如按钮，以提供交互。
+### **新增Shape.MarcoName属性**
+Aspose.Cells for .NET 8.6.0已公开了Shape.MarcoName属性，可用于[将任何VBA模块分配给表单控件](/cells/zh/net/assign-macro-to-form-control/)，例如按钮，以提供交互。该属性是字符串类型，因此可以接受模块名称并将其分配给控件。
 
 以下是简单的使用场景。
 
@@ -123,5 +123,5 @@ workbook.Save("output.xlsm");
 {{< /highlight >}}
 
 
-### **已添加 OoxmlSaveOptions.UpdateZoom 属性**
-通过v8.6.0版本的发布，Aspose.Cells for .NET API已公开了OoxmlSaveOptions.UpdateZoom属性，可用于更新PageSetup.Zoom，如果使用了PageSetup.FitToPagesWide和/或PageSetup.FitToPagesTall属性来控制工作表缩放。
+### **新增OoxmlSaveOptions.UpdateZoom属性**
+通过v8.6.0的发布，Aspose.Cells for .NET API已公开了OoxmlSaveOptions.UpdateZoom属性，可用于更新PageSetup.Zoom，如果PageSetup.FitToPagesWide和/或PageSetup.FitToPagesTall属性已用于控制工作表缩放。

@@ -1,32 +1,32 @@
 ---
-title: 转换图表为图片
-description: 学习如何使用Aspose.Cells for .NET将图表转换为图像格式，如JPEG或PNG。我们的指南将演示如何从Microsoft Excel导出图表并保存为独立图像以供进一步使用和处理。
-keywords: Aspose.Cells for .NET, 图表转图片, Microsoft Excel, 图像转换, 导出, 独立图片。
-linktitle: 转换图表为图片
+title: 图表转为图像
+description: 学习如何使用 Aspose.Cells for .NET 将图表转换为图像格式，例如 JPEG 或 PNG。我们的指南将演示如何从 Microsoft Excel 导出图表并将其保存为独立图像以供进一步使用和处理。
+keywords: Aspose.Cells for .NET，图表转图像，Microsoft Excel，图像转换，导出，独立图像。
+linktitle: 图表转为图像
 type: docs
 weight: 46
 url: /zh/net/chart-to-image/
 ---
 
-## **图表渲染**
+## **渲染图表**
 
-Aspose.Cells API支持将Excel图表转换为图像格式，无需使用任何额外的工具或应用程序。为提供渲染支持，[**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)类已暴露了[**ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)种方法，以最佳适应应用程序要求。
+Aspose.Cells APIs支持将Excel图表转换为图像格式，无需额外的工具或应用程序。为了提供渲染支持，[**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)类已公开了[**ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)多种方法，最好地满足应用程序的需求。
 
 ### **将图表渲染为图像**
 
-[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)方法具有各种重载以支持简单和高级渲染。如果应用程序要求以默认尺寸渲染图表，建议使用[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)方法。
+[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)方法具有多种重载，支持简单和高级渲染。如果应用程序的要求是在其默认尺寸下渲染图表，我们建议您使用[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)方法。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImage.cs" >}}
 
-也可以使用高级设置将图表渲染为图像。Aspose.Cells API已经暴露了一个重载版本的[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)方法，可以接受[**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions)实例，同时允许指定参数，如分辨率、平滑模式、图像格式等。
+还可以使用高级设置将图表渲染为图像。Aspose.Cells APIs公开了[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)方法的重载版本，可接受[**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions)的实例，并允许指定参数，如分辨率、平滑模式、图像格式等。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImageWithAdvancedOptions.cs" >}}
 
-## **支持的图表类型用于渲染**
+## **支持的图表类型的渲染**
 
-目前尚不支持某些图表类型的渲染。这些类型的图表在下表的**Supported**列中包含**N**。
+目前有一些不支持渲染的图表类型。这些图表类型在下表的**Supported**列中包含**N**。
 
-|**图表类型**|**图表子类型**|**支持**|
+|图表类型|图表子类型|支持
 | :- | :- | :- |
 |**Column**|Column|**Y**|
 | |ColumnStacked|**Y**|
@@ -112,7 +112,7 @@ Aspose.Cells API支持将Excel图表转换为图像格式，无需使用任何�
 
 {{% alert color="primary" %}}
 
-在尝试将不支持的图表类型渲染为图像或PDF时，可能会得到大小为0的图像或空白PDF。
+如果尝试将不受支持的图表类型渲染为图像或PDF，则可能会得到大小为0的图像或空白PDF。
 
 {{% /alert %}}
 

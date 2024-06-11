@@ -1,15 +1,15 @@
 ---
-title: 限制和API差异
+title: 限制和 API 差异
 type: docs
 weight: 10
 url: /zh/nodejs-java/limitations-and-api-differences/
 keywords: "nodejs, excel, limitation, api, differences"
-description: "Aspose.Cells for Node.js via Java 的限制和 API 差异。"
+description: "Aspose.Cells for Node.js via Java limitations and api differences."
 ---
 
-## **公共API差异**
-以下列表（带有示例代码段）显示了 Aspose.Cells for Java 与 Aspose.Cells for Node.js via Java API 之间的一些差异。
-### **导入库（软件包对比）**
+## **公共 API 差异**
+以下列表(含示例代码段)展示了Aspose.Cells for Java和Aspose.Cells for Node.js via Java API之间的一些差异。
+### **导入库（包比较）**
 
 **Aspose.Cells for Java**
 
@@ -20,7 +20,7 @@ description: "Aspose.Cells for Node.js via Java 的限制和 API 差异。"
 {{< /highlight >}}
 
 
-**Aspose.Cells for Node.js via Java**
+Aspose.Cells for Node.js via Java
 
 {{< highlight java >}}
 
@@ -40,7 +40,7 @@ aspose.cells = require("aspose.cells");
 {{< /highlight >}}
 
 
-**Aspose.Cells for Node.js via Java**
+Aspose.Cells for Node.js via Java
 
 {{< highlight java >}}
 
@@ -59,14 +59,14 @@ aspose.cells = require("aspose.cells");
 
 
 
-**Aspose.Cells for Node.js via Java**
+Aspose.Cells for Node.js via Java
 
 {{< highlight java >}}
 
  arc2.getLineFormat().setDashStyle(aspose.cells.MsoLineDashStyle.SOLID);
 
 {{< /highlight >}}
-### **文件流式传输**
+### **流式文件**
 
 **Aspose.Cells for Java**
 
@@ -82,7 +82,7 @@ workbook.save(“result.xlsx”);
 
 
 
-**Aspose.Cells for Node.js via Java**
+Aspose.Cells for Node.js via Java
 
 {{< highlight java >}}
 
@@ -111,7 +111,7 @@ aspose.cells.Workbook.createWorkbookFromStream(readStream, function(workbook, er
 });
 
 {{< /highlight >}}
-## **与 Aspose.Cells for Java API 相比，Aspose.Cells for Node.js via Java API 的其他限制**
-1. 不支持从Array、ArrayList、ResultSet等导入/导出数据。
+## **Aspose.Cells for Node.js via Java API相对于Aspose.Cells for Java API的其他限制**
+1. 不支持从数组、ArrayList、ResultSet 等导入/导出数据。
 1. 不支持打印。
 

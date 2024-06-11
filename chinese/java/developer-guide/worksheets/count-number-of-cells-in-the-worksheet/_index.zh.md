@@ -1,13 +1,13 @@
 ---
-title: 计算工作表中的单元格数
+title: 计算工作表中单元格的数量
 type: docs
 weight: 120
 url: /zh/java/count-number-of-cells-in-the-worksheet/
 ---
 
-## **计算工作表中的单元格数**
+## **计算工作表中单元格的数量**
 
-您可以通过调用[**Cells.getCount**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/count)()或[**Cells.getCountLarge**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/countlarge)()属性访问器来计算工作表中的单元格数，如下面的示例代码所示。
+通过调用以下示例代码中所示的 [**Cells.getCount**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/count)() 或 [**Cells.getCountLarge**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/countlarge)() 属性获取器，您可以计算工作表中的单元格数量。
 
 ## 示例代码
 

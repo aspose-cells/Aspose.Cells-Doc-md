@@ -1,30 +1,30 @@
 ---
-title: 添加子报告项
+title: 添加子报表项
 type: docs
 weight: 20
 url: /zh/reportingservices/add-sub-report-item/
 ---
 
-要添加子报告项：
+要添加子报表项：
 
-1. 选择将引用子报告项的单元格。
-1. 单击**子报告**（
+1. 选择引用子报表项的单元格。
+1. 点击**子报表**（
 
 ![todo:image_alt_text](add-sub-report-item_1.png)
 
 ).
 显示子报表窗体。 
 
-**子报表表单** 
+**子报表窗体** 
 
 ![todo:image_alt_text](add-sub-report-item_2.png)
 
 
 
 
-1. 单击**添加子报表**。
-   显示检索报表表单。
-1. 选择一个报表。 
+1. 点击**添加子报表**。
+   显示检索报表窗体。
+1. 选择报表。 
 
    **选择报表** 
 
@@ -33,7 +33,7 @@ url: /zh/reportingservices/add-sub-report-item/
 
 
 
-1. 单击**关闭**。 
+1. 单击 **关闭**。 
 
    **已选择子报表** 
 
@@ -60,8 +60,8 @@ url: /zh/reportingservices/add-sub-report-item/
 
 
 
-1. 单击**插入子报表**。 
+1. 点击**插入子报表**。 
 
-   **插入子报表到报表表格中** 
+   **将子报表插入到报表表格中** 
 
 ![todo:image_alt_text](add-sub-report-item_7.png)

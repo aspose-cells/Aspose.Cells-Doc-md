@@ -1,15 +1,15 @@
 ---
-title: 在 Ruby 中管理分页符
+title: 在Ruby中管理分页符
 type: docs
 weight: 20
 url: /zh/java/managing-page-breaks-in-ruby/
 ---
 
 ## **Aspose.Cells - 管理分页符**
-### **添加分页符**
-使用 **Aspose.Cells Java for Ruby** 添加分页符，请调用 **pagebreaks** 模块的 **add_page_breaks** 方法。以下是代码示例。
+### **添加分页**
+使用**Aspose.Cells Java for Ruby**添加分页符，请调用**pagebreaks**模块的**add_page_breaks**方法。下面是代码示例。
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 
@@ -39,9 +39,9 @@ end   
 
 {{< /highlight >}}
 ### **清除所有分页符**
-使用 **Aspose.Cells Java for Ruby** 清除所有分页符，请调用 **pagebreaks** 模块的 **clear_all_page_breaks** 方法。以下是代码示例。
+使用**Aspose.Cells Java for Ruby**清除所有分页符，请调用**pagebreaks**模块的**clear_all_page_breaks**方法。下面是代码示例。
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 
@@ -61,9 +61,9 @@ end 
 
 {{< /highlight >}}
 ### **移除特定分页符**
-使用 **Aspose.Cells Java for Ruby** 移除特定分页符，请调用 **pagebreaks** 模块的 **remove_page_break** 方法。以下是代码示例。
+使用**Aspose.Cells Java for Ruby**移除特定分页符，请调用**pagebreaks**模块的**remove_page_break**方法。下面是代码示例。
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 
@@ -95,6 +95,6 @@ end 
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下任一社交编码站点下载 **Managing Page Breaks (Aspose.Cells)**：
+从以下任何社交编程网站下载**管理分页符（Aspose.Cells）**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagebreaks.rb)

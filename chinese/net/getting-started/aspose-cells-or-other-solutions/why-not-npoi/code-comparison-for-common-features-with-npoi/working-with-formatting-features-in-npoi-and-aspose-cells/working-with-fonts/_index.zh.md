@@ -93,12 +93,12 @@ sw.Close();
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下社交编码网站之一下载**使用字体**：
+从下面提到的任何社交编码站点下载**使用字体**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.1/Working.with.Fonts.zip)
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[数据格式设置功能](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting)。
+更多详情，请访问[数据格式化功能](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting)。
 
 {{% /alert %}}

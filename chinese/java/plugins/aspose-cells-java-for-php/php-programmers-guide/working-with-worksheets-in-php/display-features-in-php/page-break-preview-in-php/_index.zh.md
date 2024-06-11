@@ -1,14 +1,14 @@
 ---
-title: 在Php中分页预览
+title: 在Php中的分页预览
 type: docs
 weight: 60
 url: /zh/java/page-break-preview-in-php/
 ---
 
-## **Aspose.Cells - 分页预览**
-要使用**Aspose.Cells Java for PHP**设置工作表以分页预览，简单调用**PageBreakPreview**模块。
+## **Aspose.Cells - 页面分页预览**
+要使用 **Aspose.Cells Java for PHP** 将工作表设置为分页预览, 只需调用 **PageBreakPreview** 模块。
 
-**PHP代码**
+**PHP 代码**
 
 {{< highlight php >}}
 
@@ -32,6 +32,6 @@ $workbook->save($dataDir . "output.xls");
 
 {{< /highlight >}}
 ## **下载运行代码**
-从下面列出的任何社交编码站点下载**页面分隔预览（Aspose.Cells）**。
+从以下社交编码网站中下载**分页预览（Aspose.Cells）**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/PageBreakPreview.php)

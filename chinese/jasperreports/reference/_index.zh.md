@@ -5,5 +5,5 @@ weight: 60
 url: /zh/jasperreports/reference/
 ---
 
-###### **本部分包括以下主题:** 
+###### **本节包括以下主题:** 
 - [配置参数](/cells/zh/jasperreports/configuration-parameters/)

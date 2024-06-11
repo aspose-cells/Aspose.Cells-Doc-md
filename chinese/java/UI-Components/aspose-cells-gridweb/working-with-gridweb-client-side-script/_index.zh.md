@@ -1,9 +1,9 @@
 ---
-title: 在客户端脚本中使用GridWeb
+title: 使用GridWeb客户端脚本
 type: docs
 weight: 100
 url: /zh/java/working-with-gridweb-client-side-script/
 ---
 
-## **本节的文章**
+## **本节中的文章**
 

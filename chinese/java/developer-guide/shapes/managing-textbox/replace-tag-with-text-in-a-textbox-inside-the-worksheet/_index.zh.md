@@ -1,5 +1,5 @@
 ---
-title: 在工作表内文本框中替换标签中的文本
+title: 在工作表内替换标签文本框
 type: docs
 weight: 150
 url: /zh/java/replace-tag-with-text-in-a-textbox-inside-the-worksheet/

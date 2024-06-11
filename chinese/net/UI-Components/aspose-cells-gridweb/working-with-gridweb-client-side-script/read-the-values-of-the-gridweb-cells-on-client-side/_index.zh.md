@@ -4,19 +4,19 @@ type: docs
 weight: 30
 url: /zh/net/aspose-cells-gridweb/read-the-values-of-the-gridweb-cells-on-client-side/
 keywords: GridWeb，单元格，单元格值
-description: 本文介绍如何获取GridWeb中的单元格值。
+description: 本文介绍了如何在GridWeb中获取单元格值。
 ---
 
 ## **可能的使用场景**
-您可以使用gridwebinstance.getCellsArray()方法在客户端脚本中读取GridWeb单元格的值。调用该方法后，将返回活动工作表中所有单元格的数组。然后，您可以使用以下方法来检索单元格的值和其他信息。
+您可以使用gridwebinstance.getCellsArray()方法在客户端脚本中读取GridWeb单元格的值。一旦调用了该方法，它将返回活动工作表中所有单元格的数组。然后，您可以使用以下方法来检索单元格的值和其他信息。
 
-- gridwebinstance.getCellName()
-- gridwebinstance.getCellValueByCell()
-- gridwebinstance.getCellRow()
-- gridwebinstance.getCellColumn()
+- gridwebinstance.getCellName()
+- gridwebinstance.getCellValueByCell()
+- gridwebinstance.getCellRow()
+- gridwebinstance.getCellColumn()
 ## **在客户端读取GridWeb单元格的值**
-以下示例代码检索所有单元格，然后打印它们的名称、值、行和列。您可以在本文底部看到它的控制台输出。以下屏幕截图显示了在Google Chrome上运行示例代码时的控制台输出。
-## **截图**
+以下示例代码检索所有单元格，然后打印它们的名称、值、行和列。您可以在本文底部看到其控制台输出。以下截图显示了在Google Chrome上执行示例代码的控制台输出。
+## **屏幕截图**
 ![todo:image_alt_text](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
 ## **示例代码**
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Articles-ReadCellsClientSide-ReadGridWebCellsClientSide.aspx" >}}

@@ -1,12 +1,12 @@
 ---
-title: 为什么选择Aspose.Cells
+title: 为什么选择 Aspose.Cells
 type: docs
 weight: 40
 url: /zh/net/aspose-cells-or-other-solutions/
-description: 此部分比较了Aspose.Cells组件和其他一些系统。
+description: 本节比较了 Aspose.Cells 组件和其他一些系统。
 ---
 
-用户为什么选择Aspose.Cells来处理文档？我们能给出的最简短答案是，Aspose.Cells拥有丰富的功能集，涵盖了各种任务，适用于各种支持的格式的文档。
+用户为什么选择 Aspose.Cells 处理文档？我们能给的最简短答案是，Aspose.Cells 拥有大量功能，并涵盖了各种支持的格式中的各种任务。
 
-此部分比较了Aspose.Cells组件和其他一些系统。
+本节比较了 Aspose.Cells 组件和其他一些系统。
 

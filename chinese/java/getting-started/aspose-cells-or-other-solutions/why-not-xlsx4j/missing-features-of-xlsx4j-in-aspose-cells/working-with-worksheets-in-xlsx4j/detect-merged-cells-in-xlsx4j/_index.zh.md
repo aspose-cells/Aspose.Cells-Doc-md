@@ -6,10 +6,10 @@ url: /zh/java/detect-merged-cells-in-xlsx4j/
 ---
 
 ## **Aspose.Cells - 检测合并单元格**
-在Microsoft Excel中，几个单元格可以合并成一个。这通常用于创建复杂的表格，或者创建一个跨越多列的标题单元格。
-Aspose.Cells允许您识别工作表中合并的单元格区域。您也可以取消合并它们。
+在Microsoft Excel中，几个单元格可以合并为一个。这通常用于创建复杂的表格，或者创建一个跨越多个列的标题单元格。
+Aspose.Cells允许您识别工作表中的合并单元格区域。您也可以取消合并它们。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -61,6 +61,6 @@ for(int i = al.size()-1 ; i > -1; i--)
 
 {{% alert color="primary" %}} 
 
-有关更多详细信息，请访问[检测工作表中的合并单元格](/cells/zh/java/detect-merged-cells-in-a-worksheet)
+更多详情，请访问[检测工作表中的合并单元格](/cells/zh/java/detect-merged-cells-in-a-worksheet)。
 
 {{% /alert %}}

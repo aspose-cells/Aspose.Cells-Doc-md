@@ -1,6 +1,6 @@
 ---
 title: 在单元格内添加 HTML 富文本
-linktitle: Html字符串值
+linktitle: HTML 字符串值
 type: docs
 weight: 50
 url: /zh/net/adding-html-rich-text-inside-the-cell/
@@ -10,13 +10,13 @@ keywords: 在单元格内添加 HTML 富文本，设置单元格内的 HTML 富�
 
 {{% alert color="primary" %}}
 
-Aspose.Cells 支持将基于 Microsoft Excel 的 HTML 转换为 XLS/XLSX 格式。这意味着，由 Microsoft Excel 生成的 HTML 可以使用 Aspose.Cells 转换回 XLS/XLSX 格式。
+Aspose.Cells支持将以Microsoft Excel为导向的HTML转换为XLS/XLSX格式。也就是说，由Microsoft Excel生成的HTML可以使用Aspose.Cells转换回XLS/XLSX格式。
 
-类似地，如果存在一些简单的 HTML，Aspose.Cells 可以将其转换为 HTML 富文本。Aspose.Cells 提供 [**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring) 属性，该属性可以接受此类简单的 HTML 并将其转换为格式化的单元格文本。
+同样，如果有一些简单的HTML，Aspose.Cells可以将其转换为HTML丰富文本。Aspose.Cells提供[**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring)属性，可以接受这样的简单HTML并将其转换为格式化的单元格文本。
 
 {{% /alert %}}
 
-下面的代码示例显示了如何在单元格内添加 HTML 富文本。请参阅输出 Excel 文件的屏幕截图。
+下面的代码示例向您展示了如何在单元格中添加HTML富文本。请查看输出Excel文件的屏幕截图。
 
 ![todo:image_alt_text](adding-html-rich-text-inside-the-cell_1)
 
@@ -24,5 +24,5 @@ Aspose.Cells 支持将基于 Microsoft Excel 的 HTML 转换为 XLS/XLSX 格式�
 
 ## 相关文章
 
-- [通过使用 HTML 设置单元格值来显示项目符号](/cells/zh/net/display-bullets-by-setting-cell-value-using/)
-- [从单元格获取 HTML5 字符串](/cells/zh/net/get-html5-string-from-cell/)
+- [使用HTML设置单元格值显示项目符号](/cells/zh/net/display-bullets-by-setting-cell-value-using/)
+- [从单元格获取HTML5字符串](/cells/zh/net/get-html5-string-from-cell/)

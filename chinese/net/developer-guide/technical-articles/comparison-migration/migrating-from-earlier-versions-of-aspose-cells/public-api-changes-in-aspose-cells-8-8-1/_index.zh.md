@@ -7,39 +7,39 @@ url: /zh/net/public-api-changes-in-aspose-cells-8-8-1/
 
 {{% alert color="primary" %}} 
 
-本文档描述了Aspose.Cells API从版本8.8.0到8.8.1的更改，可能对模块/应用程序开发人员感兴趣。它不仅包括新添加和更新的公共方法、添加和删除的类等，还包括Aspose.Cells幕后行为的任何更改的描述。
+该文档描述了从版本8.8.0到8.8.1的Aspose.Cells API的更改，这可能对模块/应用程序开发人员很有兴趣。它不仅包括新的和已更新的公共方法，增加和删除的类等，还包括Aspose.Cells后台行为的任何更改的描述。
 
 {{% /alert %}} 
-## **已添加API**
-### **加载数据进行过滤**
-Aspose.Cells for .NET 8.8.1已公开了LoadDataFilterOptions枚举以及LoadOptions.LoadDataFilterOptions属性，可用于指定在从模板文件构建工作簿时应加载的数据类型。对加载的数据进行筛选可提高特定目的的性能，特别是在使用LightCells API时。
+## **添加的 API**
+### **为加载过滤数据**
+Aspose.Cells for .NET 8.8.1已公开了LoadDataFilterOptions枚举以及LoadOptions.LoadDataFilterOptions属性，可用于指定构建工作簿时应加载的数据类型。过滤加载的数据可以改善特殊用途的性能，特别是在使用LightCells API时。
 
-LoadDataFilterOptions枚举提供了以下选择。
+LoadDataFilterOptions枚举提供以下选择。
 
-1. All以从电子表格加载所有内容。
+1. 全部以从电子表格加载一切。
 1. None以从电子表格加载任何内容。
-1. CellBlank加载其值为空的单元格。
-1. CellBool 加载值为布尔型的单元格。
-1. CellData 加载包括值、公式和格式在内的单元格数据。
-1. CellError 加载值为错误的单元格。
-1. CellNumeric 仅加载值为数字（包括日期和时间）的单元格。
-1. CellString 仅加载值为文本/字符串的单元格。
-1. CellValue 仅加载单元格值（所有类型）。
-1. Chart 仅加载图表。
-1. ConditionalFormatting 仅加载条件格式规则。
-1. DataValidation 仅加载数据验证规则。
-1. DocumentProperties 仅加载文档属性。
-1. Formula 加载包括定义名称在内的公式。
-1. MergedArea 仅加载合并单元格。
-1. PivotTable 仅加载数据透视表。
-1. Settings 仅加载工作簿和工作表设置。
-1. Shape 仅加载形状。
-1. Style 仅加载单元格格式。
-1. Table 仅加载Excel表/列表对象。
+1. CellBlank加载空值的单元格。
+1. CellBool加载值为布尔值的单元格。
+1. CellData加载包括值、公式和格式在内的单元格数据。
+1. CellError加载值为错误的单元格。
+1. CellNumeric加载值为数值（包括日期和时间）的单元格。
+1. CellString加载值为文本/字符串的单元格。
+1. CellValue仅加载单元格值（所有类型）。
+1. Chart仅加载图表。
+1. ConditionalFormatting仅加载条件格式规则。
+1. DataValidation仅加载数据验证规则。
+1. DocumentProperties仅加载文档属性。
+1. Formula加载包括已定义名称在内的公式。
+1. MergedArea仅加载合并的单元格。
+1. PivotTable加载数据透视表。
+1. Settings仅加载工作簿和工作表设置。
+1. Shape仅加载形状。
+1. Style加载单元格格式。
+1. Table加载Excel表/列表对象。
 
 {{% alert color="primary" %}} 
 
-有关此功能的更多详情，请查看有关加载数据时过滤数据的详细文章。
+有关此功能的更多详细信息，请查看 [加载时过滤数据](/cells/zh/net/filtering-the-kind-of-data-while-loading-the-workbook-from-template-file/)。
 
 {{% /alert %}} 
 
@@ -65,7 +65,7 @@ var book = new Workbook(filePath, options);
 
 
 ### **直接将图表转换为PDF**
-在使用 Chart.ToPdf 方法渲染图表生成 PDF 的过程中，Aspose.Cells API 已经提供了这个功能。通过此版本，API 还公开了另一个重载版本的方法，该方法可以接受 Stream 实例，允许用户将图表的 PDF 保存在 MemoryStream 实例中。
+Aspose.Cells API在使用Chart.ToPdf方法呈现图表时已经提供了将图表渲染为PDF的功能。通过这个版本，API公开了该方法的另一个重载版本，该版本可以接受一个Stream实例，允许用户将图表的PDF保存在MemoryStream的实例中。
 
 以下是简单的使用场景。
 
@@ -98,8 +98,8 @@ using (MemoryStream stream = new MemoryStream())
 {{< /highlight >}}
 
 
-### **新增 WorkbookSettings.PaperSize 属性**
-Aspose.Cells for .NET 8.8.1 新增了 WorkbookSettings.PaperSize 属性，用于设置整个电子表格的默认打印纸张大小。WorkbookSettings.PaperSize 属性接受 PaperSizeType 枚举值，该枚举包含最常用打印纸张类型的预定义尺寸。
+### **增加了WorkbookSettings.PaperSize属性**
+Aspose.Cells for .NET 8.8.1已经公开了WorkbookSettings.PaperSize属性，以便设置整个电子表格的默认打印纸张大小。WorkbookSettings.PaperSize属性接受来自PaperSizeType枚举的值，该枚举包含大多数常用打印纸张类型的预定义尺寸。
 
 **C#**
 
@@ -122,12 +122,12 @@ settings.PaperSize = PaperSizeType.PaperA4;
 {{< /highlight >}}
 
 
-### **新增 Shape.TextBody 属性**
-Aspose.Cells for .NET API 的此版本增加了 Shape.TextBody 属性，以便操纵形状中文本的方面。以下代码段使用该属性设置文本框中文本的阴影效果。
+### **增加了Shape.TextBody属性**
+Aspose.Cells for .NET API的这个版本已经公开了Shape.TextBody以便操纵形状中文本的方面。以下片段使用了该属性来设置文本框中文本的阴影效果。
 
 {{% alert color="primary" %}} 
 
-有关此功能的更多详情，请查看关于为文本设置阴影效果的详细文章。
+有关此功能的更多详细信息，请参阅[设置文本阴影效果](/cells/zh/net/setting-shadow-of-text-effects-of-shape-or-textbox/)的详细文章。
 
 {{% /alert %}} 
 
@@ -164,16 +164,16 @@ for (int i = 0; i < textBox.TextBody.Count; i++)
 {{< /highlight >}}
 
 
-### **新增 Worksheet.CalculateFormula(string formula, CalculationOptions opts) 方法**
-Aspose.Cells for .NET 8.8.1 增加了 CalculateFormula 方法的另一个重载，该方法提供了直接使用自定义选项计算给定公式的能力。
+### **增加了Worksheet.CalculateFormula(string formula, CalculationOptions opts)方法**
+Aspose.Cells for .NET 8.8.1已经公开了CalculateFormula方法的另一个重载，它提供了直接使用自定义选项计算给定公式的能力。
 
 {{% alert color="primary" %}} 
 
-有关此功能的更多详情，请查看关于自定义函数的直接计算的详细文章。
+有关此功能的更多详细信息，请参阅[直接计算自定义函数](/cells/zh/net/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)的详细文章。
 
 {{% /alert %}} 
-### **添加了GridCell.CreateValidation方法**
-Aspose.Cells.GridWeb已经提供直接向单元格添加验证规则的能力，同时使用GridCell.CreateValidation方法。这个方法需要2个参数。第一个是GridValidationType类型，用于确定验证类型，而第二个参数（isRequied）是Boolean类型。
+### **增加了GridCell.CreateValidation方法**
+Aspose.Cells.GridWeb现在提供了使用GridCell.CreateValidation方法直接向单元格添加验证规则的能力。该方法需要2个参数。第一个是确定验证类型的GridValidationType类型，而第二个参数(isRequired)是布尔类型。
 
 
 
@@ -208,8 +208,8 @@ val.ShowInput = true;
 {{< /highlight >}}
 
 
-### **添加了GridCell.RemoveValidation方法**
-Aspose.Cells.GridWeb还提供了在使用GridCell.RemoveValidation方法从GridCell中删除数据验证规则的功能。
-## **已废弃的API**
-### **弃用的Shape.TextFrame属性**
-建议使用Shape.TextBody.TextAlignment属性。
+### **增加了GridCell.RemoveValidation方法**
+Aspose.Cells.GridWeb现在还提供了使用GridCell.RemoveValidation方法从GridCell中删除数据验证规则的能力。
+## **已弃用的API**
+### **已弃用 Shape.TextFrame 属性**
+建议改用 Shape.TextBody.TextAlignment 属性。

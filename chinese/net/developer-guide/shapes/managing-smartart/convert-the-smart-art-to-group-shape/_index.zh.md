@@ -1,5 +1,5 @@
 ---
-title: 将智能艺术转换为组形状
+title: 将智能图转为组合形状
 type: docs
 weight: 200
 url: /zh/net/convert-the-smart-art-to-group-shape/
@@ -7,11 +7,11 @@ url: /zh/net/convert-the-smart-art-to-group-shape/
 
 ## **可能的使用场景**
 
-您可以使用[**Shape.GetResultOfSmartArt()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/getresultofsmartart)方法将智能艺术形状转换为组形状。这将使您能够像处理组形状一样处理智能艺术形状。因此，您将能够访问组形状的各个部分或形状。
+您可以使用[**Shape.GetResultOfSmartArt()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/getresultofsmartart)方法将智能图形转为组合形状。这将使您能够像处理组合形状一样处理智能图形。因此，您将能够访问组合形状的各个部分或形状。
 
-## **将Smart Art转换为Group Shape**
+## **将智能图转换为组合形状**
 
-以下示例代码加载了包含智能艺术形状的[sample Excel文件](55541793.xlsx)，如屏幕截图所示。然后将智能艺术形状转换为组形状，并打印Shape.IsGroup属性。请参考下面给出的示例代码的控制台输出。
+以下示例代码加载包含智能图形的[sample Excel文件](55541793.xlsx)，如下图所示。然后将智能图形转为组合形状，并打印Shape.IsGroup属性。请参阅下面提供的示例代码的控制台输出。
 
 ![todo:image_alt_text](convert-the-smart-art-to-group-shape_1.png)
 

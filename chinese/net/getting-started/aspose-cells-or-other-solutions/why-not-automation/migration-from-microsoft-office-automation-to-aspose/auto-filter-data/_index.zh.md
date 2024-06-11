@@ -1,5 +1,5 @@
 ---
-title: 自动过滤数据
+title: 自动筛选数据
 type: docs
 weight: 120
 url: /zh/net/auto-filter-data/
@@ -7,26 +7,26 @@ url: /zh/net/auto-filter-data/
 
 {{% alert color="primary" %}}
 
-为了理解一个范围中的数据是什么，通常比看无序数据列更容易进行排序和过滤数据。排序按升序或降序对数据进行组织，使查找特定值更容易。过滤数据使您只显示特定的价值。例如，过滤数据可帮助集中在销售记录中的特定项目。
+了解范围内的数据是什么，通常比查看无序数据的列更容易，可以更容易地对数据进行排序和过滤。排序可以将数据按升序或降序排列，从而更容易地找到特定的值。过滤数据，允许您仅显示特定的值。例如，帮助聚焦销售记录中的特定项目。
 
-Microsoft Excel的用户可以将自动过滤应用于列。自动过滤在列顶部添加一个菜单，从中您可以对列数据进行排序或过滤。此功能也适用于通过VSTO或Aspose.Cells for .NET与Excel电子表格一起工作的开发人员。
+Microsoft Excel 用户可以对列应用自动筛选。自动筛选在列顶部添加了一个菜单，您可以从中对列数据进行排序或筛选。这一功能也可以提供给与 Excel 电子表格一起工作的开发人员，无论是通过 VSTO 还是 Aspose.Cells for .NET。
 
 {{% /alert %}}
 
 ## **自动过滤数据**
 
-要对列应用自动过滤:
+应用自动筛选到一列:
 
 1. 创建一个工作簿。
 1. 获取工作表。
-1. 添加示例数据。
-1. 应用自动过滤。
-1. 自适应列以使显示更具吸引力。
+1. 添加示例数据.
+1. 应用自动筛选.
+1. 自动调整列以使显示更吸引人.
 1. 保存电子表格。
 
-本文中的代码示例展示了如何使用[VSTO](/cells/zh/net/auto-filter-data/)的C#或Visual Basic，或者使用[Apose.Cells](/cells/zh/net/auto-filter-data/)，同样使用C#或Visual Basic，来执行这些步骤。
+本文中的代码示例显示如何使用 [VSTO](/cells/zh/net/auto-filter-data/) 或 [Apose.Cells](/cells/zh/net/auto-filter-data/) 以及 C# 或 Visual Basic 执行这些步骤。
 
-### **使用 VSTO 自动过滤数据**
+### **使用 VSTO 进行数据自动过滤**
 
 **C#**
 
@@ -110,11 +110,11 @@ objBook.SaveCopyAs("e:\\test2\\vsto_autofilter.xlsx");
 
 {{< /highlight >}}
 
-**使用 VSTO 应用自动过滤** 
+**使用 VSTO 应用了自动过滤** 
 
 ![todo:image_alt_text](auto-filter-data_1.png)
 
-### **使用 Aspose.Cells for .NET 自动过滤数据**
+### **使用 Aspose.Cells for .NET 对数据进行自动筛选**
 
 **C#**
 
@@ -170,6 +170,6 @@ objBook.Save("e:\\test2\\aspose-cells_autofilter.xlsx");
 
 {{< /highlight >}}
 
-**使用 Aspose.Cells for .NET 应用自动过滤** 
+**应用了带有Aspose.Cells for .NET的自动筛选** 
 
 ![todo:image_alt_text](auto-filter-data_2.png)

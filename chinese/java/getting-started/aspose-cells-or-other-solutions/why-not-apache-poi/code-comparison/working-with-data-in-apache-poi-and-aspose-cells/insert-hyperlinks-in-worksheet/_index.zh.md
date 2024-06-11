@@ -8,9 +8,9 @@ url: /zh/java/insert-hyperlinks-in-worksheet/
 ## **Aspose.Cells - 在工作表中插入超链接**
 **在同一文件中的单元格中添加链接**
 
-通过调用超链接集合的Add方法，可以在同一Excel文件中的单元格中添加超链接。 Add方法适用于内部和外部超链接。
+通过调用超链接集合的Add方法，可以将超链接添加到同一Excel文件中的单元格中。Add方法适用于内部和外部超链接。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -49,16 +49,16 @@ hyperlinks.add("A2",1 ,1, "Sheet1!B9");
 
 {{< /highlight >}}
 
-**在外部文件中添加链接**
+**向外部文件添加链接**
 
-通过调用超链接集合的Add方法，可以将超链接添加到外部Excel文件中。Add方法接受以下参数：
+可以通过调用超链接集合的Add方法向外部的Excel文件添加超链接。Add方法采用以下参数：
 
-- 单元格名称，将要添加超链接的单元格名称。
-- 行数，此超链接范围中的行数。
-- 列数，此超链接范围中的列数。
-- URL，目标的地址，外部 Excel 文件。
+- 单元格名称，超链接将添加到的单元格的名称。
+- 行数，超链接范围中的行数。
+- 列数，超链接范围中的列数。
+- URL，目标外部Excel文件的地址。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -75,8 +75,8 @@ hyperlinks = sheet.getHyperlinks();
 hyperlinks.add("A3", 1, 1, "book1.xls");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - 在工作表中插入超链接**
-**Java**
+## **Apache POI SS - HSSF XSSF - 向工作表中插入超链接**
+Java
 
 {{< highlight java >}}
 

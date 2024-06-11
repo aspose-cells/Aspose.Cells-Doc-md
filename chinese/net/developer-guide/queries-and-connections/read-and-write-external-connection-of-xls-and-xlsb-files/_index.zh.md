@@ -7,17 +7,17 @@ url: /zh/net/read-and-write-external-connection-of-xls-and-xlsb-files/
 
 ## **可能的使用场景**
 
-Aspose.Cells已经支持读取和写入XLSX文件的外部连接，现在也支持XLSB和XLS文件的此功能。但是，代码对所有格式都是相同的。
+Aspose.Cells已经支持读取和写入XLSX文件的外部连接，现在它也支持XLSB和XLS文件的此功能。然而，所有格式的代码都是相同的。
 
 ## **读取和写入XLS/XLSB文件的外部连接**
 
-以下示例代码加载示例XLSB文件（也可以加载XLS），并读取其第一个外部连接，实际上是一个Microsoft Access数据库连接。然后修改[**DBConnection.Name**](https://reference.aspose.com/cells/net/aspose.cells.externalconnections/externalconnection/properties/name)属性，并保存为输出XLS/XLSB文件。屏幕截图显示了代码在执行后对[示例XLSB文件](51740722.xlsb)和[输出XLSB文件](51740723.xlsb)的影响。还请参考下面给出的示例代码的控制台输出。
+以下示例代码加载了示例XLSB文件（XLS也可以被加载），并读取其第一个外部连接，这实际上是一个Microsoft Access DB连接。然后修改了[**DBConnection.Name**](https://reference.aspose.com/cells/net/aspose.cells.externalconnections/externalconnection/properties/name)属性并将其保存为输出的XLS/XLSB文件。截屏展示了在执行代码后[示例XLSB文件](51740722.xlsb)和[输出XLSB文件](51740723.xlsb)上的效果。请还参阅下面给出的示例代码的控制台输出以供参考。
 
 ![todo:image_alt_text](read-and-write-external-connection-of-xls-and-xlsb-files_1.png)
 
 ## **示例代码**
 
-以下代码适用于加载和保存带有适当扩展名的XLSB和XLS文件。
+以下代码可以加载和保存具有适当扩展名的XLSB和XLS文件。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-ReadAndWriteExternalConnectionOfXLSBFile.cs" >}}
 

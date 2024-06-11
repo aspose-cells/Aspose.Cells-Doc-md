@@ -3,21 +3,21 @@ title: 保留单引号前缀的单元格值或范围
 type: docs
 weight: 310
 url: /zh/python-net/preserve-single-quote-prefix-of-cell-value-or-range/
-description: 通过Aspose.Cells为Python通过.NET API学习如何保留单元格值或范围的单引号前缀。
-keywords: Python Excel库，保留单元格值或范围的单引号前缀，隐藏前导撇号或单引号标记，显示前导撇号或单引号标记
+description: 学习如何通过Aspose.Cells for Python via .NET API保存单引号前缀的单元格值或范围。
+keywords: Python Excel库，Python保存单引号前缀的单元格值或范围，Python隐藏前导撇号或单引号标记，Python显示前导撇号或单引号标记
 ---
 
 ## **可能的使用场景**
 
-当您将一些值放入具有前导撇号或单引号标记的单元格中时，Microsoft Excel会隐藏它，但是当您选择该单元格时，在公式栏中会显示前导撇号或单引号，如下面的截图所示。
+当您在单元格中放入具有前导撇号或单引号标记的值时，Microsoft Excel会隐藏它，但当您选择单元格时，它会在公式栏中显示前导撇号或单引号，如下面的屏幕截图所示。
 
 ![todo:image_alt_text](preserve-single-quote-prefix-of-cell-value-or-range_1.png)
 
-Aspose.Cells为Python通过.NET还隐藏前导撇号或单引号，类似于Microsoft Excel，但它将[**Style.quote_prefix**](https://reference.aspose.com/cells/python-net/aspose.cells/style/quote_prefix)设置为true。 如果您设置单元格的空样式，那么[**Style.quote_prefix**](https://reference.aspose.com/cells/python-net/aspose.cells/style/quote_prefix)再次变为false。为了处理此问题，Aspose.Cells为Python通过.NET提供了[**Style.quote_prefix**](https://reference.aspose.com/cells/python-net/aspose.cells/style/quote_prefix)属性，当它设置为false时，[**Style.quote_prefix**](https://reference.aspose.com/cells/python-net/aspose.cells/style/quote_prefix)根本不会更新，其旧值将被保留。这意味着如果[**Style.quote_prefix**](https://reference.aspose.com/cells/python-net/aspose.cells/style/quote_prefix)属性的旧值是true，则其将保持为true，如果旧值是false，则其将保持为false。
+Aspose.Cells for Python via .NET也隐藏前导撇号或单引号，就像Microsoft Excel一样，但它将[**Style.quote_prefix**](https://reference.aspose.com/cells/python-net/aspose.cells/style/quote_prefix)设置为**true**以用于该单元格。如果您设置一个空的单元格样式，则[**Style.quote_prefix**](https://reference.aspose.com/cells/python-net/aspose.cells/style/quote_prefix)再次变为**false**。为了解决这个问题，Aspose.Cells for Python via .NET提供了[**Style.quote_prefix**](https://reference.aspose.com/cells/python-net/aspose.cells/style/quote_prefix)属性，当它设置为**false**时，[**Style.quote_prefix**](https://reference.aspose.com/cells/python-net/aspose.cells/style/quote_prefix)根本不被更新，它的旧值被保留。这意味着如果[**Style.quote_prefix**](https://reference.aspose.com/cells/python-net/aspose.cells/style/quote_prefix)属性的旧值为**true**，它将保持为**true**，如果旧值为**false**，它将保持为**false**。
 
 ## **保留单引号前缀的单元格值或范围**
 
-以下示例代码解释了如前所述的[**Style.quote_prefix**](https://reference.aspose.com/cells/python-net/aspose.cells/style/quote_prefix)属性的用法。请阅读代码内的注释，并查看下面给出的代码的控制台输出以获取更多帮助。
+以下示例代码解释了如何使用先前描述的[**Style.quote_prefix**](https://reference.aspose.com/cells/python-net/aspose.cells/style/quote_prefix)属性。请阅读代码中的注释，并查看下面给定的代码的控制台输出以获取更多帮助。
 
 ## **示例代码**
 

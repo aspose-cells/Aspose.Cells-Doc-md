@@ -1,14 +1,14 @@
 ---
-title: 读取具有多种编码的CSV文件
+title: 使用多种编码读取CSV文件
 type: docs
 weight: 70
 url: /zh/java/read-csv-file-with-multiple-encodings/
 ---
 
-## **Aspose.Cells - 读取具有多种编码的CSV文件**
-有时，您的CSV文件包含多种编码（Unicode、ANSI、UTF8、UTF7等）。Aspose.Cells允许您加载这些CSV文件，并将它们转换为其他格式，例如PDF或XLSX。
+## **Aspose.Cells - 使用多种编码读取CSV文件**
+有时，您的CSV文件包含多种编码（Unicode、ANSI、UTF8、UTF7等）。 Aspose.Cells允许您加载此类CSV文件并将其转换为其他格式，例如PDF或XLSX。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -35,6 +35,6 @@ workbook.save(dataDir + "EncodedNewFile_Out.xlsx", SaveFormat.XLSX);
 
 {{% alert color="primary" %}} 
 
-有关详细信息，请访问[读取具有多种编码的CSV文件](/cells/zh/java/reading-csv-file-with-multiple-encodings)。
+有关更多详情，请访问[使用多种编码读取CSV文件](/cells/zh/java/reading-csv-file-with-multiple-encodings)。
 
 {{% /alert %}}

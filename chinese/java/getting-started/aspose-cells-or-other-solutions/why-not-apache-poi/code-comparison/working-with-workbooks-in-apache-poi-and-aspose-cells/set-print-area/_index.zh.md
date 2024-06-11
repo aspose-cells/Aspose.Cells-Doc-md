@@ -6,11 +6,11 @@ url: /zh/java/set-print-area/
 ---
 
 ## **Aspose.Cells - 设置打印区域**
-默认情况下，打印区域仅包含包含数据的工作表所有区域。开发人员可以为工作表设定特定打印区域。
+默认情况下，只有打印区域包括所有包含数据的工作表区域。开发人员可以为工作表设定特定的打印区域。
 
-要选择特定的打印区域，请使用[PageSetup](/java/pagesetup)类的setPrintArea方法。将定义打印区域的单元格范围分配给此属性。
+要选择特定的打印区域，使用 [PageSetup](/java/pagesetup) 类的 setPrintArea 方法。将定义打印区域的单元格范围分配给此属性。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -34,9 +34,9 @@ pageSetup.setPrintArea("A1:F20");
 
 {{< /highlight >}}
 ## **Apache POI SS - HSSF XSSF - 设置打印区域**
-Workbook.setPrintArea方法可用于设置打印区域的页面属性。
+Workbook.setPrintArea方法可用于设置打印区域的页面属性
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -72,6 +72,6 @@ wb.setPrintArea(
 
 {{% alert color="primary" %}} 
 
-如需更多详情，请访问[设置打印选项](/cells/zh/java/page-setup-features/#setting-print-options)。
+要了解更多详情，请访问[设置打印选项](/cells/zh/java/page-setup-features/#setting-print-options)。
 
 {{% /alert %}}

@@ -6,10 +6,10 @@ url: /zh/java/convert-chart-to-image-in-xlsx4j/
 ---
 
 ## **Aspose.Cells - 将图表转换为图像**
-图表具有视觉吸引力，并让用户轻松看到数据中的比较、模式和趋势。
+图表具有视觉吸引力，方便用户查看数据中的比较、模式和趋势。
 Chart类的toImage方法将图表转换为图像文件，可保存到磁盘或流中。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -31,6 +31,6 @@ chart.toImage(new FileOutputStream(dataDir + "AsposeChartImage_Out.png"), imgOpt
 
 {{% alert color="primary" %}} 
 
-有关更多详细信息，请访问[将图表转换为图像](/java/converting-chart-to-image)
+要了解更多详情，请访问[将图表转换为图像](/java/converting-chart-to-image)。
 
 {{% /alert %}}

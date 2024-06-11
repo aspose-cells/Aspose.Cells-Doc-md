@@ -7,9 +7,9 @@ url: /zh/java/hide-or-unhide-a-worksheet-in-ruby/
 
 ## **Aspose.Cells - 隐藏或取消隐藏工作表**
 ### **隐藏工作表**
-要使用Aspose.Cells Java for Ruby隐藏工作表，请调用**hideunhideworksheet**模块。
+通过Aspose.Cells Java for Ruby使用**hideunhideworksheet**模块来隐藏工作表。
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 
@@ -37,9 +37,9 @@ puts "Worksheet 1 is now hidden, please check the output document."
 
 {{< /highlight >}}
 ### **显示工作表**
-开发人员可以通过设置**Worksheet**类的*setVisible(* *true* *)*方法来使工作表可见。
+开发者可以通过设置**Worksheet**类的*setVisible(* *true* *)*方法来使工作表可见。
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 
@@ -49,6 +49,6 @@ worksheet.setVisible(true)
 
 {{< /highlight >}}
 ## **下载运行代码**
-从下面列出的任何社交编码站点下载**隐藏或取消隐藏工作表（Aspose.Cells）**。
+从以下社交编码网站中下载**隐藏或取消隐藏工作表（Aspose.Cells）**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/hideunhideworksheet.rb)

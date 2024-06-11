@@ -1,15 +1,15 @@
 ---
-title: 与GridJs客户端端的交互
+title: 与GridJs客户端端协同工作
 type: docs
 weight: 250
 url: /zh/python-net/aspose-cells-gridjs/client/
-keywords: 自定义,logo,设置,api,gridjs,python,编辑,电子表格,查看,查看器,编辑器,excel
+keywords: 自定义，标志，设置，API，gridjs，python，编辑，电子表格，查看，查看器，编辑器，Excel
 ---
 
-# 与GridJs客户端端的交互
+# 与GridJs客户端端协同工作
 我们基于[x-spreadsheet](https://github.com/myliang/x-spreadsheet)开发了GridJs客户端。
 
-## 主要步骤为：
+## 主要步骤如下：
 
 - 创建x_spreadsheet实例
 ```javascript
@@ -44,26 +44,26 @@ xs = x_spreadsheet(id, options)
 			})
 ```
 
--  使用json数据加载
+- 用json数据加载
 ```javascript
 xs.loadData(data)
 // the parameters is:
 	data: the json data which describ the data structure for the worksheets
 ```
-- 通过工作表名称设置活动工作表
+- 通过sheetname设置活动表格
 ```javascript
 xs.setActiveSheetByName(sheetname)
 // the parameters is:
 	sheetname: the sheet name 
 ```
-- 通过id设置活动工作表
+- 通过id设置活动表格
 ```javascript
 xs.setActiveSheet(id)
 // the parameters is:
 	sheetname: the sheet id 
 ```
 
-- 设置活动单元格
+- 设置活动单元
 ```javascript
 xs.setActiveCell(row,col);
 // the parameters are:
@@ -71,7 +71,7 @@ xs.setActiveCell(row,col);
 	col: the cell column
 ```
 
-- 为服务器端操作设置形状/图像的信息
+- 为服务器端操作的形状/图像操作设置信息
 ```javascript
 xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActionUrl, imageCopyActionUrl, zindex, loadingGif);
 // the parameters are:
@@ -90,7 +90,7 @@ xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActio
     xs.setImageInfo(imageurl, imageuploadurl1, imageuploadurl2, imagecopyurl, basiczorder);
 ```
 
-- 为服务器端下载操作设置信息
+- 为服务器端操作设置下载操作的信息
 ```javascript
 xs.setFileDownloadInfo(downloadActionUrl);
 // the parameters are:
@@ -119,7 +119,7 @@ ___
 xs.reRender()
 ```
 
-- 获取活动工作表的ID
+- 获取活动表格的ID
 ```javascript
 xs.getActiveSheet()
 ```
@@ -138,7 +138,7 @@ xs.setFileName(name)
 	name:the file name with extension ,for example trip.xlsx
 ```
 
-- 是否启用GridJs的窗口键事件
+- 是否启用GridJs的窗口按键事件
 ```javascript
 xs.enableKeyEvent(isenable)
 // the parameters is:
@@ -146,13 +146,13 @@ xs.enableKeyEvent(isenable)
 //when has other controls in the same page, you may want to ignore the key event in GridJs 
 ```
 
-- 解除GridJs绑定的所有事件，包括窗口键事件和窗口调整大小事件
+- 取消所有已绑定到GridJs的事件，包括窗口按键事件和窗口调整大小事件
 ```javascript
 xs.destroy()
 ```
 
 
-- 为图像/形状设置可见性过滤器
+- 为图像/形状设置可见过滤器
 ```javascript
     // need to set a function which return true(for visible) or false(for invisible) for the visible filter with the below parameters :
 	sheet:the sheet instance
@@ -168,7 +168,7 @@ xs.destroy()
 		xs.setActiveSheet(xs.getActiveSheet())
 ```
 
-- 获取所选图像/形状，如果没有选择会返回null
+- 获取选定的图像/形状，如果没有选定则返回空
 ```javascript
 xs.sheet.selector.getObj()
 ```
@@ -205,17 +205,17 @@ xs.sheet.data.setCellText(ri,ci,value,state)
 	state: input | finished ,if finished ,it will do update action to servside
 ```
 
-- 获取/设置选择的单元格范围
+- 获取/设置选定的单元格范围
 ```javascript
 xs.sheet.data.selector.range
 ```
-- 为选择的单元格或单元格区域设置单元格值
+- 为选定的单元格或单元格区域设置单元格值
 ```javascript
 xs.sheet.data.setSelectedCellText(value)
     // the parameters are:
 	value:the  value for the cell
 ```
-- 为选择的单元格或单元格区域设置样式
+- 为选定的单元格或单元格区域设置样式
 ```javascript
 xs.sheet.data.setSelectedCellAttr(attributename,value)
     // the parameters are:
@@ -223,22 +223,22 @@ xs.sheet.data.setSelectedCellAttr(attributename,value)
 	value:the  value for the attribute
 ```
 
-- 合并所选单元格区域
+- 合并选定的单元格区域
 ```javascript
 xs.sheet.data.merge()
 ```
 
-- 取消合并所选单元格区域
+- 取消合并选定的单元格区域
 ```javascript
 xs.sheet.data.unmerge()
 ```
-- 删除所选单元格  
+-  删除所选单元格  
 ```javascript
 xs.sheet.data.deleteCell(type)
     // the parameters are:
 	type:all|format  all: means delete the cell and clear the style ;format means delete the cell value and keep the cell style
 ```
-- 设置冻结窗格
+-  设置冻结窗格
 ```javascript
 xs.sheet.data.setFreeze(ri,ci)
     // the parameters are:
@@ -246,28 +246,28 @@ xs.sheet.data.setFreeze(ri,ci)
 	ci:column index
 ```
 
-- 在所选单元格插入行或列  
+-  在所选单元格处插入行或列  
 ```javascript
 xs.sheet.data.insert(type, n)
     // the parameters are:
 	type: row | column
 	n:the row or column number
 ```
-- 删除所选单元格的行或列  
+-  在所选单元格处删除行或列  
 ```javascript
 xs.sheet.data.delete(type)
     // the parameters are:
 	type: row | column
 ```
 
-- 为列设置宽度
+-  设置列的宽度
 ```javascript
 xs.sheet.data.setColWidth(ci,width)
     // the parameters are:
 	ci:column index
 	width:the width for the column
 ```
-- 为所有列设置宽度
+-  设置列的宽度
 ```javascript
 xs.sheet.data.setColsWidth(sci,eci,width)
     // the parameters are:
@@ -276,14 +276,14 @@ xs.sheet.data.setColsWidth(sci,eci,width)
 	width:the width for the column
 ```
 
-- 为所有列设置宽度
+-  设置所有列的宽度
 ```javascript
 xs.sheet.data.setAllColsWidth(width)
     // the parameters are:
 	width:the width for the columns
 ```
 
-- 获取列的宽度 
+-  获取列的宽度 
 ```javascript
 xs.sheet.data.cols.sumWidth(min,max)
     // the parameters are:
@@ -291,14 +291,14 @@ xs.sheet.data.cols.sumWidth(min,max)
 	max:the end column index,not include
 ```
 
-- 设置行的高度
+-  设置行的高度
 ```javascript
 xs.sheet.data.setRowHeight(ri,height)
     // the parameters are:
 	ri:row index
 	height:the height for the row
 ```
-- 设置多行的高度
+-  设置行的高度
 ```javascript
 xs.sheet.data.setRowsHeight(sri,eri,height)
     // the parameters are:
@@ -307,7 +307,7 @@ xs.sheet.data.setRowsHeight(sri,eri,height)
 	height:the height for the rows
 ```
 
-- 设置所有行的高度
+-  设置所有行的高度
 ```javascript
 xs.sheet.data.setAllRowsHeight(height)
     // the parameters are:
@@ -315,7 +315,7 @@ xs.sheet.data.setAllRowsHeight(height)
 ```
 
 
-- 获取行的高度 
+-  获取行的高度 
 ```javascript
 xs.sheet.data.rows.sumHeight(min,max)
     // the parameters are:
@@ -323,13 +323,13 @@ xs.sheet.data.rows.sumHeight(min,max)
 	max:the end row index,not include
 ```
 
-- 获取/设置显示方向
+-  获取/设置显示方向
 ```javascript
 xs.sheet.data.displayRight2Left
 ```
 
-## 回调事件
-- 我们可以跟踪以下事件
+## 事件回调
+-  我们可以跟踪以下事件
 ```javascript
  xs.on('cell-selected', (cell, ri, ci) => {
                 console.log('cell selected:', cell, ', ri:', ri, ', ci:', ci);
@@ -352,9 +352,9 @@ xs.sheet.data.displayRight2Left
             });
 ```
 
-## 定制
+## 自定义
 
-- 设定主页图标和链接
+-  设置主页图标和链接
 ```javascript
 xs.sheet.menubar.icon.setHomeIcon(iconUrl,targetUrl)
     // the parameters are:
@@ -363,18 +363,18 @@ xs.sheet.menubar.icon.setHomeIcon(iconUrl,targetUrl)
 	for example ,the below code will set the new logo and with link to google.com
 	xs.sheet.menubar.icon.setHomeIcon('https://forum.aspose.com/letter_avatar_proxy/v4/letter/y/3e96dc/45.png','https://www.google.com')
 ```
-- 显示菜单栏
+-  显示菜单栏
 ```javascript
 xs.sheet.menubar.show()
 ```
 
-- 隐藏菜单栏
+-  隐藏菜单栏
 ```javascript
 xs.sheet.menubar.hide()
 ```
 
 
-详细信息，请查看此处示例
+有关详细信息，您可以在此处查看示例
 <https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
 
 

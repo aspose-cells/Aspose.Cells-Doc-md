@@ -1,5 +1,5 @@
 ---
-title: 从齿轮类型智能艺术形状中提取文本
+title: 从齿轮型智能图形中提取文本
 type: docs
 weight: 130
 url: /zh/java/extract-text-from-the-gear-type-smartart-shape/
@@ -7,11 +7,11 @@ url: /zh/java/extract-text-from-the-gear-type-smartart-shape/
 
 ## **可能的使用场景**
 
-Aspose.Cells可以从齿轮类型的智能艺术形状中提取文本。为此，您首先应使用[**Shape.getResultOfSmartArt()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#getResultOfSmartArt()方法将智能艺术形状转换为分组形状。然后，您应使用[**GroupShape.getGroupedShapes()**](https://reference.aspose.com/cells/java/com.aspose.cells/groupshape#getGroupedShapes()方法获取形成分组形状的所有单个形状的数组。最后，您可以循环逐个迭代所有单个形状，并使用[**Shape.Text**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Text)属性提取它们的文本。
+Aspose.Cells可以从齿轮类型的智能图形中提取文本。为此，您应该先使用 [**Shape.getResultOfSmartArt()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#getResultOfSmartArt() 方法将 智能图形 转换为 组合图形。然后，您可以使用 [**GroupShape.getGroupedShapes()**](https://reference.aspose.com/cells/java/com.aspose.cells/groupshape#getGroupedShapes() 方法获取形成组合图形的所有 单个图形 的数组。最后，您可以在循环中逐个迭代所有的单个图形，并使用 [**Shape.Text**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Text) 属性提取它们的文本。
 
-## **从齿轮类型智能艺术形状中提取文本**
+## **从齿轮型智能图形中提取文本**
 
-以下示例代码加载包含齿轮类型智能艺术形状的示例Excel文件。然后从其各个形状中提取文本，如上所述。请查看下面给出的代码的控制台输出以供参考。
+以下示例代码加载包含 齿轮类型智能图形 的 [示例Excel文件](67338510.xlsx)。然后提取其单个图形的文本，如上所述。请参考下面给出的代码的控制台输出。
 
 ## **示例代码**
 

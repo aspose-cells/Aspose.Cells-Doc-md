@@ -7,9 +7,9 @@ url: /zh/java/setting-page-options-in-ruby/
 
 ## **Aspose.Cells - 设置页面选项**
 ### **页面方向**
-要使用**Aspose.Cells Java for Ruby**应用页面方向设置，请调用**pagesetup**模块的**page_orientation**方法。
+要使用**Aspose.Cells Java for Ruby**应用页面方向设置，调用**pagesetup**模块的**page_orientation**方法。
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 
@@ -53,9 +53,9 @@ end   
 
 {{< /highlight >}}
 ### **缩放因子**
-要使用**Aspose.Cells Java for Ruby**应用缩放，请调用**pagesetup**模块的**scaling**方法。
+要使用**Aspose.Cells Java for Ruby**应用缩放，调用**pagesetup**模块的**scaling**方法。
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 
@@ -98,6 +98,6 @@ end
 
 {{< /highlight >}}
 ## **下载运行代码**
-从下面列出的任何社交编码站点下载**设置页面选项（Aspose.Cells）**。
+从下面提到的任何社交编码网站下载**Setting Page Options (Aspose.Cells)**。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagesetup.rb)

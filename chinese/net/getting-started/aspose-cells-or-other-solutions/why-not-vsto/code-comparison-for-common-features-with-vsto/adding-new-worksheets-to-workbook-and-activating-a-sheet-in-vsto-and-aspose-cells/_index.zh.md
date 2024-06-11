@@ -1,17 +1,17 @@
 ---
-title: 向VSTO和Aspose.Cells中的工作簿添加新工作表并激活工作表
+title: 在VSTO和Aspose.Cells中向工作簿中添加新工作表并激活工作表
 type: docs
 weight: 30
 url: /zh/net/adding-new-worksheets-to-workbook-and-activating-a-sheet-in-vsto-and-aspose-cells/
 ---
 
 ## **迁移提示：**
-1. 向现有的Microsoft Excel文件中添加新的工作表。
-1. 填充每个新工作表的单元格数据。
-1. 在工作簿中激活一个工作表。
-1. 另存为Microsoft Excel文件。
+1. 向现有的微软Excel文件添加新的工作表。
+1. 向每个新工作表的单元格中填充数据。
+1. 在工作簿中激活工作表。
+1. 另存为微软Excel文件。
 
-下面是VSTO（C#）和Aspose.Cells for .NET（C#）的并行代码片段，展示了如何完成这些任务。
+下面是用VSTO（C#）和Aspose.Cells for .NET（C#）编写的并行代码片段，展示了如何完成这些任务。
 
 **VSTO**
 

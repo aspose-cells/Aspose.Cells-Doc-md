@@ -7,7 +7,7 @@ url: /zh/java/remove-activex-control/
 
 ## **移除ActiveX控件**
 
-Aspose.Cells提供了从工作簿中删除ActiveX控件的功能。为此，该API提供了[**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#removeActiveXControl())方法。下面的代码片段演示了使用[**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#removeActiveXControl())方法来移除ActiveX控件。
+Aspose.Cells提供了从工作簿中移除ActiveX控件的能力。为此，API提供了[**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#removeActiveXControl())方法。以下代码片段演示了使用[**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#removeActiveXControl())方法移除ActiveX控件。
 
 ## **示例代码**
 

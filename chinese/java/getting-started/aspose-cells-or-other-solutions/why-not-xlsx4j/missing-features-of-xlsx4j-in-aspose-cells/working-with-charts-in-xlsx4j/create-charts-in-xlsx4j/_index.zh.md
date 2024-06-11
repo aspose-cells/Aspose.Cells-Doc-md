@@ -6,9 +6,9 @@ url: /zh/java/create-charts-in-xlsx4j/
 ---
 
 ## **Aspose.Cells - 创建图表**
-可以使用Aspose.Cells向电子表格添加各种图表。Aspose.Cells提供许多灵活的图表对象。
+Aspose.Cells 可以向电子表格中添加各种图表。Aspose.Cells 提供许多灵活的图表对象。
 
-**Java**
+Java
 
 {{< highlight java >}}
 

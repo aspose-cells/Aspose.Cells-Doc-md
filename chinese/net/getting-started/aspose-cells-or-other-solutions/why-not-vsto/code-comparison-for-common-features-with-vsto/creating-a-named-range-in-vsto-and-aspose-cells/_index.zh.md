@@ -1,5 +1,5 @@
 ---
-title: 在 VSTO 和 Aspose.Cells 中创建命名范围
+title: 在VSTO和Aspose.Cells中创建命名范围
 type: docs
 weight: 90
 url: /zh/net/creating-a-named-range-in-vsto-and-aspose-cells/
@@ -8,15 +8,15 @@ url: /zh/net/creating-a-named-range-in-vsto-and-aspose-cells/
 要创建一个命名范围:
 
 1. 设置工作表： 
-   1. 实例化一个 Application 对象.(仅适用于 VSTO.)
-   1. 添加一个工作簿.
-   1. 获取第一个工作表.
+   1. 实例化一个应用程序对象。(仅限于VSTO)
+   1. 添加一个工作簿。
+   1. 获取第一个工作表。
 1. 创建一个命名范围: 
-   1. 定义一个范围.
-   1. 给范围命名.
+   1. 定义一个范围。
+   1. 给范围命名。
    1. 保存文件。
 
-下面的代码示例展示了如何使用 VSTO 在 C# 中执行这些步骤。 接下来的代码示例展示了如何使用 Aspose.Cells for .NET 来执行相同的操作，同样是使用 C#.
+下面的代码示例显示了如何使用VSTO和C#执行这些步骤。接下来的代码示例展示了如何使用Aspose.Cells for .NET再次使用C#做同样的事情。
 ## **VSTO**
 {{< highlight csharp >}}
 

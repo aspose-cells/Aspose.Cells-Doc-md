@@ -3,16 +3,16 @@ title: 自动调整行和列
 type: docs
 weight: 10
 url: /zh/java/auto-fit-row-and-column/
-description: 通过Aspose.Cells for Java API学习如何自动调整行和列。
-keywords: 如何在Java中自动调整行和列，使用Java在工作簿中调整行数据，Java自动调整列数据。 
+description: 通过Aspose.Cells for Java API了解如何自动调整行和列。
+keywords: 如何在Java中自动调整行和列，使用Java在工作簿中自动调整行数据，Java自动调整列数据。 
 ---
 
-## **使用Aspose.Cells for Java自动调整行和列**
-自动调整行宽度和高度的最直接方法是调用Worksheet.autoFitRow方法。 autoFitRow方法以要调整大小的行索引（行）作为参数。
+## **如何使用Aspose.Cells for Java自动调整行和列**
+自动调整行的宽度和高度的最直接方法是调用Worksheet.autoFitRow方法。autoFitRow方法接受要调整大小的行索引作为参数。
 
-**请注意：** 如果您想使用Java自动调整Excel电子表格中的行和列，请访问[自动调整行和列](https://docs.aspose.com/cells/java/autofit-rows-and-columns/)。
+请注意：如果您希望使用Java自动调整Excel电子表格中的行和列，请访问 [自动调整行和列](https://docs.aspose.com/cells/java/autofit-rows-and-columns/)。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -32,10 +32,10 @@ workbook.save("AutoFit_Aspose.xls");
 
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - 自动调整行和列**
-Apache POI SS - HSSF和XSSF提供Sheet.autoSizeColumn以自动调整列
+## **Apache POI SS - HSSF XSSF - 自适应行和列**
+Apache POI SS - HSSF 和 XSSF 提供 Sheet.autoSizeColumn 以自动调整列宽
 
-**Java**
+Java
 
 {{< highlight java >}}
 

@@ -1,17 +1,17 @@
 ---
-title: 计算或动态重新计算公式
+title: 动态计算或重新计算公式
 type: docs
 weight: 10
 url: /zh/net/calculate-or-recalculate-formulas-dynamically/
 ---
 
-**Aspose.Cells** 中嵌入了**公式计算**引擎。它不仅可以重新计算从设计文件导入的公式，还支持计算运行时添加的公式的结果。
-## **添加公式并计算结果**
-Aspose.Cells支持大部分Microsoft Excel中的公式或函数。开发人员可以使用API或设计电子表格使用这些公式。Aspose.Excel支持大量的数学、字符串、布尔、日期/时间、统计、数据库、查找和引用公式。
+**公式计算**引擎嵌入在**Aspose.Cells**中。它不仅可以重新计算从设计文件导入的公式，还可以支持计算运行时添加的公式的结果。
+## **添加公式及计算结果**
+Aspose.Cells支持大部分作为Microsoft Excel一部分的公式或函数。开发者可以使用API或设计师电子表格来使用这些公式。Aspose.Excel支持大量的数学、字符串、布尔、日期/时间、统计、数据库、查找和引用公式。
 
-使用Cell类的Formula属性将公式添加到单元格。在将公式应用于单元格时，始终以等号(=)开头，就像在Microsoft Excel中创建公式时一样。使用逗号(,)分隔函数参数。
+使用Cell类的Formula属性向单元格添加公式。在向单元格应用公式时，始终以等号(=)开头，就像在Microsoft Excel中创建公式时那样。使用逗号(,)来分隔函数参数。
 
-要计算公式的结果，调用Excel类的CalculateFormula方法，该方法处理Excel文件中嵌入的所有公式。阅读[url:CalculateFormula方法支持的函数列表](/cells/zh/net/supported-formula-functions/)。
+要计算公式的结果，请调用Excel类的CalculateFormula方法，该方法处理嵌入在Excel文件中的所有公式。阅读[url: CalculateFormula方法支持的函数列表](/cells/zh/net/supported-formula-functions/)
 
 {{< highlight csharp >}}
 
@@ -57,12 +57,12 @@ workbook.Save("Adding Formula.xls");
 
 {{< /highlight >}}
 ## **仅计算一次公式**
-用户调用Workbook.CalculateFormula()来计算工作簿模板中公式的值时，Aspose.Cells会创建一个计算链。当为工作簿中的公式第二或第三次计算等时，性能会提高。
-但是，如果用户模板中包含大量不同的公式，则第一次计算公式可能会消耗大量CPU处理时间和内存。
+用户调用Workbook.CalculateFormula()来计算工作簿模板内公式的值时，Aspose.Cells会创建一个计算链。计算链在第二次或第三次等计算公式时可以提高性能。
+然而，如果用户模板包含大量不同的公式，那么第一次计算公式可能会消耗大量CPU处理时间和内存。
 
-Aspose.Cells允许您关闭创建计算链，这在您只想对文件的公式进行一次计算的情况下非常有用。
+Aspose.Cells允许您关闭创建计算链，这在希望仅计算文件的公式一次时非常有用。
 
-如果您希望通过Aspose.Cells改善公式计算的性能，并且不想创建公式计算链，请将**FormulaSettings.EnableCalculationChain**设置为**false**。默认情况下为**true**。
+如果您希望通过Aspose.Cells改善公式计算的性能，并且不希望创建公式计算链，则请将**FormulaSettings.EnableCalculationChain**设置为**false**。默认情况下，它设置为**true**。
 
 {{< highlight csharp >}}
 
@@ -93,11 +93,11 @@ Console.WriteLine(DateTime.Now);
 workbook.Save(FileName);
 
 {{< /highlight >}}
-## **公式的直接计算**
-Aspose.Cells中嵌入了公式计算引擎。此外，Aspose.Cells还支持直接计算从设计文件导入的公式的结果。
-有时，您需要直接计算公式的结果，而不必实际将其添加到工作表中。公式中使用的单元格的值已经存在于工作表中，您只需要按照Ms-Excel公式找到这些值的结果而无需将公式添加到工作表中。
+## **直接计算公式**
+公式计算引擎嵌入在Aspose.Cells中。除重新计算从设计文件中导入的公式外，Aspose.Cells还支持直接计算公式的结果。
+有时，您需要直接计算公式的结果，而无需实际将它们添加到工作表中。工作表中已经存在公式中使用的单元格的值，您需要做的就是基于某个Ms-Excel公式找出这些值的结果而不将公式添加到工作表中。
 
-您可以使用Aspose.Cells公式计算引擎API，即**worksheet.Calculate(string formula)**来计算这种公式的结果，而无需实际将其添加到工作表中。
+您可以使用Aspose.Cells公式计算引擎API，即**worksheet.Calculate(string formula)**来计算此类公式的结果，而无需实际将它们添加到工作表中。
 
 {{< highlight csharp >}}
 

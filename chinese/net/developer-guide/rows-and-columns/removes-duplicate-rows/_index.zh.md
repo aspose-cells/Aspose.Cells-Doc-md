@@ -7,11 +7,11 @@ url: /zh/net/remove-duplicate-rows-in-a-worksheet/
 
 {{% alert color="primary" %}}
 
-删除重复行是Microsoft Excel的众多实用功能之一。它允许用户删除工作表中的重复行，您可以选择应检查哪些列是否包含重复信息。
+删除重复行是Microsoft Excel的众多有用功能之一。它允许用户删除工作表中的重复行，您可以选择应检查重复信息的列。
 
-Aspose.Cells提供了Cells.RemoveDuplicates()方法来实现此目的。 您还可以设置startRow，startColumn，endRow，endColumn来选择要删除的列。
+Aspose.Cells为此提供了Cells.RemoveDuplicates()方法。您还可以设置startRow、startColumn、endRow、endColumn来选取列。
 
-以下是可以下载用于测试此功能的示例文件：
+以下是可以下载以进行此功能测试的样本文件：
 
 [removeduplicates.xlsx](removeduplicates.xlsx)
 

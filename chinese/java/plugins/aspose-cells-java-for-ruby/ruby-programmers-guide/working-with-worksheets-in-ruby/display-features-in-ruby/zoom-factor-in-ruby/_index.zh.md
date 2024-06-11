@@ -1,14 +1,14 @@
 ---
-title: 在Ruby中设置缩放系数
+title: 在Ruby中的缩放因子
 type: docs
 weight: 90
 url: /zh/java/zoom-factor-in-ruby/
 ---
 
 ## **Aspose.Cells - 缩放因子**
-要使用**Aspose.Cells Java for Ruby**设置缩放系数，只需调用**ZoomFactor**模块。
+使用**Aspose.Cells Java for Ruby**简单调用**ZoomFactor**模块即可设置缩放因子。
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 
@@ -36,6 +36,6 @@ puts "Set zoom factor, please check the output file."
 
 {{< /highlight >}}
 ## **下载运行代码**
-从下面列出的任何社交编码站点下载**缩放系数（Aspose.Cells）**。
+从以下社交编码网站中下载**缩放因子（Aspose.Cells）**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/zoomfactor.rb)

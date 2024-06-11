@@ -3,21 +3,21 @@ title: 在字体上应用上标和下标效果
 type: docs
 weight: 30
 url: /zh/java/apply-superscript-and-subscript-effects-on-fonts/
-description: 如何使用Java在Excel中应用上标和下标效果。本文提供了使用Aspose.Cells for Java API实现这一目标的Java代码。
-keywords: excel上标java, excel下标java, excel上标和下标java, 在Excel中插入下标和上标java, 在Excel中添加下标和上标java, 在Excel中添加上标和下标java, 在Excel中添加上标java, 在Excel中添加下标java
+description: 如何在 Excel 中使用 Java 应用上标和下标效果。本文提供了使用 Aspose.Cells for Java API 来实现这一目标的 Java 代码。
+keywords: excel上标java，excel下标java，excel上标和下标java，插入excel下标和上标java，在excel中添加下标和上标java，在excel中添加上标和下标java，添加excel上标java，添加excel下标java
 ---
 
 {{% alert color="primary" %}}
 
-Aspose.Cells提供了将上标（基线上方的文本）和下标（基线下方的文本）效果应用于文本的功能。
+Aspose.Cells提供将文本应用上标（文本位于基线上方）和下标（文本位于基线下方）效果的功能。
 
 {{% /alert %}}
 
-## **使用上标和下标**
+## **处理上标和下标**
 
 使用[**Font**](https://reference.aspose.com/cells/java/com.aspose.cells/Font)对象的[**setSuperscript**](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSuperscript)属性应用上标效果。要应用下标，使用[**Font**](https://reference.aspose.com/cells/java/com.aspose.cells/Font)对象的[**setSubscript**](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSubscript)方法。
 
-以下代码示例显示了如何对文本应用上标和下标。
+以下代码示例展示了如何在文本上应用上标和下标。
 
 ### **应用上标**
 

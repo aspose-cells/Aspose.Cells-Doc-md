@@ -6,9 +6,9 @@ url: /zh/net/managing-document-properties-in-php/
 ---
 
 ## **Aspose.Cells - 管理文档属性**
-管理 Microsoft Excel 文件的文档属性
+管理Microsoft Excel文件的文档属性
 
-**PHP代码**
+**PHP 代码**
 
 {{< highlight php >}}
 
@@ -80,6 +80,6 @@ url: /zh/net/managing-document-properties-in-php/
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下任一社交编码网站下载**管理文档属性（Aspose.Cells）**：
+从以下任一社交编码网站下载**管理文档属性（Aspose.Cells）**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ManagingDocumentProperties.php)

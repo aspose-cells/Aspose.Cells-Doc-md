@@ -1,5 +1,5 @@
 ---
-title: 添加新工作表到工作簿并激活一个工作表
+title: 新增工作表并激活工作表
 type: docs
 weight: 10
 url: /zh/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/
@@ -7,22 +7,22 @@ url: /zh/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/
 
 {{% alert color="primary" %}} 
 
-使用模板文件时，有时需要向工作簿中添加额外的工作表以收集数据。新单元格将填充每个工作表中指定位置和位置的数据。
+在处理模板文件时，有时需要向工作簿中添加额外的工作表以收集数据。每个工作表中的指定位置和位置将填充新的单元格中的数据。
 
-同样，当Microsoft Excel中的文件打开时，可能需要一个特定的工作表作为活动表并首先查看。 “活动表”是工作簿中正在操作的工作表。活动表的标签上的名称默认为粗体。
+同样地，您可能需要一个特定的工作表在打开Microsoft Excel时处于活动状态并首先查看。"活动工作表"是工作簿中正在处理的工作表。活动工作表的标签名称默认为粗体。
 
-添加工作表并设置哪个工作表是活动的是开发人员需要知道如何执行的常见且简单的任务。在本文中，我们使用[VSTO](/cells/zh/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/)和[Aspose.Cells for .NET](/cells/zh/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/)执行这些任务。
+添加工作表并设置哪个工作表是活动的是开发人员需要知道如何执行的常见且简单的任务。在本文中，我们使用 [VSTO](/cells/zh/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/) 和 [Aspose.Cells for .NET](/cells/zh/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/) 执行了这些任务。
 
 {{% /alert %}} 
 ## **添加工作表并激活工作表**
-对于此迁移提示目的：
+为了这个迁移提示的目的：
 
-1. 向现有的Microsoft Excel文件中添加新的工作表。
-1. 填充每个新工作表的单元格数据。
-1. 在工作簿中激活一个工作表。
-1. 另存为Microsoft Excel文件。
+1. 向现有的微软Excel文件添加新的工作表。
+1. 向每个新工作表的单元格中填充数据。
+1. 在工作簿中激活工作表。
+1. 另存为微软Excel文件。
 
-下面是VSTO（C#，VB）和Aspose.Cells for .NET（C#，VB）的并行代码片段，展示了如何执行这些任务。
+下面是 VSTO（C#、VB）和 Aspose.Cells for .NET（C#、VB）的并行代码片段，展示如何实现这些任务。
 ### **VSTO**
 **C#**
 

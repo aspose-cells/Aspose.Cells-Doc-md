@@ -1,5 +1,5 @@
 ---
-title: 在将Excel文件导出为HTML时，将文本从右向左展开
+title: 将Excel文件导出为HTML时从右向左扩展文本
 type: docs
 weight: 60
 url: /zh/net/expanding-text-from-right-to-left-while-exporting-excel-file-to/
@@ -7,23 +7,23 @@ url: /zh/net/expanding-text-from-right-to-left-while-exporting-excel-file-to/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells现在支持将文本从右向左展开，同时将Excel文件导出为HTML。自版本v8.9.0.0起已实现此功能。现在，如果您的源Excel文件包含从右向左展开的文本，则Aspose.Cells将正确地将其导出到HTML中。
+Aspose.Cells现在支持将Excel文件中从右向左扩展的文本导出为HTML。该功能自v8.9.0.0版本已经实现。现在，如果您的源Excel文件包含从右向左扩展的文本，那么Aspose.Cells将正确地将其导出为HTML。
 
 {{% /alert %}} 
-## **在将Excel文件导出为HTML时，将文本从右向左展开**
-以下示例代码将[示例Excel文件](5115502.xlsx)转换为HTML。此截图显示了Microsoft Excel 2013中示例Excel文件的外观。
+## **在将Excel文件导出为HTML时，将文本从右向左扩展**
+下面的示例代码将[sample excel file](5115502.xlsx)转换成HTML。这张截图展示了示例 Excel 在 Microsoft Excel 2013 中的样子。
 
 ![todo:image_alt_text](expanding-text-from-right-to-left-while-exporting-excel-file-to-html_1.png)
 
-此截图显示了使用旧版本生成的[输出HTML](5115509)。
+这张截图展示了使用较旧版本生成的[output HTML](5115509)。
 
 ![todo:image_alt_text](expanding-text-from-right-to-left-while-exporting-excel-file-to-html_2.png)
 
-此截图显示了使用新版本生成的[输出HTML](5115508)。
+这张截图展示了使用更新版本生成的[output HTML](5115508)。
 
 ![todo:image_alt_text](expanding-text-from-right-to-left-while-exporting-excel-file-to-html_3.png)
 
-如您在截图中所见，新版本将右对齐的文本向左正确展开，就像Microsoft Excel一样。
+正如您在屏幕截图中所看到的，新版本正确地将右对齐的文本向左扩展，就像Microsoft Excel一样。
 
 
 

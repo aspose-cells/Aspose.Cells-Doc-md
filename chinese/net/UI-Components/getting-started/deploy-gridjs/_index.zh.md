@@ -1,12 +1,12 @@
 ---
-title: 如何使用Gridjs部署ASP.NET Core MVC应用程序
+title: 如何使用 Gridjs 部署 ASP.NET Core MVC 应用程序
 type: docs
 weight: 190
 url: /zh/net/aspose-cells-gridjs/how-to-deploy-gridjs/
-keywords: GridJs部署
-description: 本文介绍如何逐步使用GridJs实现Excel编辑器。
+keywords: GridJs, 部署
+description: 本文介绍了如何逐步使用 GridJs 实现 Excel 编辑器的步骤。
 ---
 
 
 
-快速部署ASP.NET Core MVC应用程序来创建、读取和编辑Excel电子表格，参见https://blog.aspose.com/2021/08/25/create-read-edit-excel-spreadsheet-in-asp-net-mvc/
+快速部署 ASP.NET Core MVC 应用程序以创建、读取和编辑 Excel 电子表格，请参阅 https://blog.aspose.com/2021/08/25/create-read-edit-excel-spreadsheet-in-asp-net-mvc/

@@ -1,5 +1,5 @@
 ---
-title: 在Php中显示或隐藏滚动条
+title: 在PHP中显示或隐藏滚动条
 type: docs
 weight: 20
 url: /zh/java/display-or-hide-scroll-bars-in-php/
@@ -7,9 +7,9 @@ url: /zh/java/display-or-hide-scroll-bars-in-php/
 
 ## **Aspose.Cells - 显示或隐藏滚动条**
 ### **隐藏滚动条**
-要使用**Aspose.Cells Java for PHP**隐藏滚动条，请调用**displayhidescrollbars**模块。
+要使用**Aspose.Cells Java for PHP**隐藏滚动条，调用**displayhidescrollbars**模块。
 
-**PHP代码**
+**PHP 代码**
 
 {{< highlight php >}}
 
@@ -31,6 +31,6 @@ $workbook->save($dataDir . "output.xls");
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下社交编码网站之一下载**显示或隐藏滚动条（Aspose.Cells）**。
+从以下提到的任何社交编码站点下载**Display or Hide Scroll Bars (Aspose.Cells)**。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/DisplayHideScrollBars.php)

@@ -1,11 +1,11 @@
 ---
-title: 在工作簿中应用样式到范围
+title: 在工作簿中应用样式
 type: docs
 weight: 40
 url: /zh/net/apply-styles-to-ranges-in-workbooks/
 ---
 
-以下是将样式应用到工作簿的行和列的代码比较：
+下面是对应用样式到工作簿的行和列的代码比较:
 ## **VSTO**
 {{< highlight csharp >}}
 

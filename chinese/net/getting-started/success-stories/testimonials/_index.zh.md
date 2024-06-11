@@ -1,5 +1,5 @@
 ---
-title: 客户见证
+title: 客户推荐
 type: docs
 weight: 10
 url: /zh/net/testimonials/
@@ -7,8 +7,8 @@ url: /zh/net/testimonials/
 
 {{% alert color="primary" %}}
 
-有关Aspose.Cells客户的见证，请查看：
+要查看来自Aspose.Cells客户的推荐，请访问：
 
-[见证](https://downloads.aspose.com/corporate/case-studies/aspose.cells/)
+[客户推荐](https://downloads.aspose.com/corporate/case-studies/aspose.cells/)
 
 {{% /alert %}}

@@ -1,5 +1,5 @@
 ---
-title: 电子表格编辑器 - 使用单元格
+title: 电子表格编辑器 - 与单元格一起工作
 type: docs
 weight: 40
 url: /zh/java/spreadsheet-editor-working-with-cells/
@@ -8,7 +8,7 @@ url: /zh/java/spreadsheet-editor-working-with-cells/
 **目录**
 
 - [选择单元格](#SpreadsheetEditor-WorkingwithCells-SelectingaCell) 
-  - 选择单元格回调
+  - 单元格选择回调
 - [删除单元格](#SpreadsheetEditor-WorkingwithCells-DeleteaCell) 
   - WorksheetView.removeCellShiftUp
   - WorksheetView.removeCellShiftLeft
@@ -17,12 +17,12 @@ url: /zh/java/spreadsheet-editor-working-with-cells/
   - WorksheetView.clearCurrentCellContents
   - WorksheetView.clearCurrentCell
 ### **选择单元格**
-使用鼠标指针指向一个单元格。单击一个单元格来选中它。所选单元格会用粗体矩形进行突出显示。
+使用鼠标指针指向单元格。单击单元格以选择它。所选择的单元格将以粗体矩形进行突显。
 
 **它是如何工作的？**
 
-当用户点击一个单元格时，事件由附加到 Primefaces 组件的 JavaScript 回调函数处理。
-#### **选择单元格回调**
+当用户单击单元格时，事件将由附加到Primefaces组件的JavaScript回调函数处理。
+#### **单元格选择回调**
 {{< highlight java >}}
 
                      var columnId = $(this).find('.ui-cell-editor-input input').attr('data-columnid');
@@ -93,18 +93,18 @@ url: /zh/java/spreadsheet-editor-working-with-cells/
 
 {{< /highlight >}}
 ### **删除单元格**
-执行以下操作以删除单元格：
+要删除单元格：
 
-1. 点击要删除的单元格。
-1. 切换到**格式**选项卡.
-1. 点击**删除单元格**按钮。
-1. 选择**向上移动单元格**或**向左移动单元格**按钮。
+1. 单击要删除的单元格。
+1. 切换到 **格式** 选项卡。
+1. 单击**删除单元格**按钮。
+1. 选择**将单元格上移**或**将单元格左移**按钮。
 
-编辑器将删除所选的单元格。相邻的单元格将自动水平或垂直移动以调整空间。
+编辑器将删除所选单元格。相邻的单元格将自动水平或垂直移动以调整间距。
 
 **它是如何工作的？**
 
-**向上移动单元格**和**向左移动单元格**由JSF后端Bean **WorksheetView** 处理。方法的源代码如下：
+**将单元格上移**和**将单元格左移**由JSF后端bean **WorksheetView** 处理。相应方法的源代码如下：
 #### **WorksheetView.removeCellShiftUp**
 {{< highlight java >}}
 
@@ -145,16 +145,16 @@ url: /zh/java/spreadsheet-editor-working-with-cells/
 ### **清除单元格**
 要清除单元格：
 
-1. 点击要清除的单元格。
-1. 切换到**格式**选项卡.
-1. 点击**清除单元格**按钮。
-1. 选择**格式**、**内容**或**两者都清除**选项。
+1. 单击要清除的单元格。
+1. 切换到 **格式** 选项卡。
+1. 点击 **清除单元格** 按钮。
+1. 选择 **格式**、**内容** 或 **全部** 选项。
 
-编辑器将清除所选的单元格。
+编辑器将清除所选单元格。
 
 **它是如何工作的？**
 
-**格式**、**内容**和**两者都清除**由JSF后端Bean **WorksheetView** 处理。方法的源代码如下：
+**格式**、**内容** 和 **全部** 由JSF后端bean **WorksheetView** 处理。相应方法的源代码如下：
 #### **WorksheetView.clearCurrentCellFormatting**
 {{< highlight java >}}
 

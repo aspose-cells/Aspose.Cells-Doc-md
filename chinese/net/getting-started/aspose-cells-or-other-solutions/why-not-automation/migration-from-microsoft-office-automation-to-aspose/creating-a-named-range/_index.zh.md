@@ -1,5 +1,5 @@
 ---
-title: 创建命名范围
+title: 创建命名区域
 type: docs
 weight: 70
 url: /zh/net/creating-a-named-range/
@@ -7,30 +7,30 @@ url: /zh/net/creating-a-named-range/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells for .NET 允许开发人员通过其应用程序执行大部分用户可以在 Microsoft Excel 中执行的任务。本文解释了如何以编程方式应用命名范围。
+Aspose.Cells for .NET允许开发人员通过其应用程序执行大部分在Microsoft Excel中用户可以执行的任务。本文解释了如何通过编程方式应用命名范围。
 
-命名范围是 Excel 的一项功能，允许您为电子表格中的单元格或单元格范围指定名称。然后，您可以在公式中使用该名称引用单元格（或范围）。合理命名范围可使公式更易于理解。
+命名区域是Excel的一个功能，可以让您为电子表格中的单元格或一组单元格指定一个名称。
 
-命名范围在其范围内必须是唯一的，因此不要在工作表中多个范围使用相同的名称。描述性范围名称有助于避免这种情况：例如，OrderSubTotal 比 SubTotal 更具描述性，也不太可能在表格中重复。
+在其作用域内，命名区域必须是唯一的，不要在工作表中使用相同的名称。
 
 {{% /alert %}}
 
-## **创建命名范围**
+## **创建命名区域**
 
 要创建一个命名范围:
 
 1. 设置工作表：
-   1. 实例化一个 Application 对象。
-      （仅限 VSTO。）
-   1. 添加一个工作簿.
-   1. 获取第一个工作表.
+   1. 实例化一个Application对象。
+      （仅限VSTO。）
+   1. 添加一个工作簿。
+   1. 获取第一个工作表。
 1. 创建一个命名范围:
-   1. 定义一个范围.
-   1. 给范围命名.
+   1. 定义一个范围。
+   1. 给范围命名。
 1. 保存文件。
 
-以下代码示例展示了如何使用 [VSTO](/cells/zh/net/creating-a-named-range/) 和 C# 或 Visual Basic 执行这些步骤，同时还展示了如何使用 [Aspose.Cells for .NET](/cells/zh/net/creating-a-named-range/)，同样可以使用 C# 或 Visual Basic。
-### **使用 VSTO 创建命名区域**
+下面的代码示例展示了如何使用[VSTO](/cells/zh/net/creating-a-named-range/)和C#或Visual Basic来执行这些步骤。接下来的代码示例展示了如何使用[Aspose.Cells for .NET](/cells/zh/net/creating-a-named-range/)，同样使用C#或Visual Basic来执行相同的操作。
+### **使用 VSTO 创建命名范围**
 
 **C#**
 
@@ -94,7 +94,7 @@ xl.Quit();
 
 {{< /highlight >}}
 
-### **使用 Aspose.Cells for .NET 创建命名区域**
+### **使用Aspose.Cells for .NET创建命名范围**
 
 **C#**
 

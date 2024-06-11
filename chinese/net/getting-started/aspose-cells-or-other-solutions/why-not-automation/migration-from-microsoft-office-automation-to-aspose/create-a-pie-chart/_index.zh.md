@@ -7,25 +7,25 @@ url: /zh/net/create-a-pie-chart/
 
 {{% alert color="primary" %}}
 
-图表以易于理解的方式展示数据。使用 Microsoft Excel 的用户可以创建各种不同的图表并自定义它们。开发人员使用 Aspose.Cells for .NET 也可以使用相同的功能。
+图表以易于理解的方式显示数据。使用Microsoft Excel的用户可以创建多种不同的图表并对其进行自定义。开发人员使用Aspose.Cells for .NET时可以使用相同的功能。
 
 {{% /alert %}}
 
 ## **创建饼图**
 
-本文比较了使用Office Automation和VSTO创建饼图与使用Aspose.Cells for.NET创建饼图的方法。创建饼图的步骤包括:
+本文比较了使用Office Automation和VSTO创建饼图与使用Aspose.Cells for .NET创建饼图的步骤为：
 
 1. 创建工作簿和工作表。
 1. 添加示例数据。
-1. 引用产品图表。
+1. 引用 productsChart。
 1. 添加饼图，定义数据范围和图表标题。
 1. 保存电子表格。
 
-本文中的代码示例展示了如何使用 [VSTO](/cells/zh/net/create-a-pie-chart/) 添加饼图，可以使用 C# 或 Visual Basic，与使用 [Aspose.Cells](/cells/zh/net/create-a-pie-chart/) 创建饼图，同样可以使用 C# 或 Visual Basic。
+本文中的代码示例展示了如何使用C#或Visual Basic添加饼图，与使用C#或Visual Basic创建一个Aspose.Cells进行比较。
 
-### **使用 VSTO 创建饼图**
+### **使用VSTO创建饼图**
 
-以下代码示例展示了如何使用 VSTO 向电子表格添加饼图。
+接下来的代码示例展示了如何使用VSTO向电子表格添加饼图。
 
 **C#**
 
@@ -99,13 +99,13 @@ url: /zh/net/create-a-pie-chart/
 
 {{< /highlight >}}
 
-**使用 VSTO 创建的饼图** 
+**使用VSTO创建的饼图** 
 
 ![todo:image_alt_text](create-a-pie-chart_1.png)
 
-### **使用 Aspose.Cells for .NET 创建饼图**
+### **使用Aspose.Cells for .NET创建饼图**
 
-以下代码示例展示了如何使用 Aspose.Cells 向电子表格添加饼图。
+接下来的代码示例展示了如何使用Aspose.Cells向电子表格添加饼图。
 
 **C#**
 
@@ -179,6 +179,6 @@ url: /zh/net/create-a-pie-chart/
 
 {{< /highlight >}}
 
-**使用 Aspose.Cells for .NET 创建的饼图** 
+**使用Aspose.Cells for .NET创建的饼图** 
 
 ![todo:image_alt_text](create-a-pie-chart_2.png)

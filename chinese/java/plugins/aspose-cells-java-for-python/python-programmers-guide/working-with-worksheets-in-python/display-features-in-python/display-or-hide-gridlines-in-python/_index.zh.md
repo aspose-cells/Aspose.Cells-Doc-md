@@ -3,7 +3,7 @@ title: 在Python中显示或隐藏网格线
 type: docs
 weight: 10
 url: /zh/java/display-or-hide-gridlines-in-python/
-description: 通过Aspose.Cells for Python通过Java API学习如何显示或隐藏网格线。
+description: 通过Aspose.Cells for Python通过Java API了解如何显示或隐藏网格线。
 keywords: 如何通过Java在Python中显示或隐藏网格线，使用Python通过Java显示或隐藏网格线，Python显示或隐藏网格线。 
 ---
 
@@ -37,7 +37,7 @@ print "Grid lines are now hidden on sheet 1, please check the output document."
 
 {{< /highlight >}}
 ### **如何显示网格线**
-要使网格线可见，请使用**Worksheet**类的**setGridlinesVisible(true)**方法。
+要显示网格线，使用工作表类的setGridlinesVisible(true)方法。
 
 **Python 代码**
 
@@ -49,6 +49,6 @@ worksheet.setGridlinesVisible(True)
 
 {{< /highlight >}}
 ## **下载运行代码**
-从下面任何社交编码网站下载 **DisplayHideGridlines (Aspose.Cells)**：
+从以下任何社交编码网站下载**DisplayHideGridlines (Aspose.Cells)**。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

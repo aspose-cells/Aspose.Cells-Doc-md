@@ -1,19 +1,19 @@
 ---
-title: 将视图到 SVG 格式的图表导出
+title: 导出带有viewBox属性的SVG图表
 type: docs
 weight: 280
 url: /zh/python-net/export-chart-to-svg-with-viewbox-attribute/
-description: 通过使用Aspose.Cells for Python通过.NET API导出带有viewBox属性的SVG图表。
-keywords: Python导出带有viewBox属性的SVG图表，在Python via NET中导出带有viewBox属性的SVG图表，Python将带有viewBox属性的图表转换为SVG。
+description: 使用Aspose.Cells for Python via .NET API导出带有viewBox属性的SVG图表。
+keywords: Python使用viewBox属性导出图表到SVG，Python中使用viewBox属性导出图表到SVG via NET，Python将图表转换为带有viewBox属性的SVG。
 ---
 
 {{% alert color="primary" %}}
 
-默认情况下，在将图表导出为SVG格式时，其XML中不包括**viewBox**属性。但是，Aspose.Cells for Python通过.NET提供了[**ImageOrPrintOptions.svg_fit_to_view_port**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/svg_fit_to_view_port/)属性，在将其设置为**true**时，将带有viewBox属性的图表导出为SVG。
+默认情况下，当图表导出为SVG格式时，其XML中不包含viewBox属性。但是，Aspose.Cells for Python via .NET提供了[**ImageOrPrintOptions.svg_fit_to_view_port**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/svg_fit_to_view_port/)属性，当设置为**true**时，将以包含viewBox属性的SVG格式导出图表。
 
 {{% /alert %}}
 
-## 将图表导出为带 viewBox 属性的 SVG 格式
+## 导出带有viewBox属性的SVG图表
 
 以下示例代码将图表导出为带有viewBox属性的SVG格式。
 
@@ -21,7 +21,7 @@ keywords: Python导出带有viewBox属性的SVG图表，在Python via NET中导�
 
 {{% alert color="primary" %}}
 
-如果您在记事本中打开图表的SVG文件，您会发现类似于这样的viewBox属性。
+如果在记事本中打开图表的SVG文件，将会找到类似于这样的**viewBox**属性。
 
 {{< highlight java >}}
 

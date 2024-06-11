@@ -1,17 +1,17 @@
 ---
-title: 在VSTO和Aspose.Cells中旋转单元格文本
+title: 在VSTO和Aspose.Cells中旋转单元格文字
 type: docs
 weight: 210
 url: /zh/net/rotating-cell-text-in-vsto-and-aspose-cells/
 ---
 
-要在工作表单元格中旋转文本，请执行以下步骤:
+要旋转工作表中单元格中的文本，请按以下步骤进行：
 
-1. 创建一个工作簿并获取一个工作表.
-1. 添加示例文本.
-1. 格式化文本: 旋转，添加背景颜色.
+1. 创建一个工作簿并获取一个工作表。
+1. 添加示例文本。
+1. 格式化文本：旋转，添加背景颜色。
 1. 保存文件。
-   接下来的代码示例展示了首先在VSTO中执行这些步骤的方式，使用C#，然后在Aspose.Cells中执行，同样使用C#.
+   随后的代码示例展示了如何先在VSTO中使用C#执行这些步骤，然后再在Aspose.Cells中使用C#执行这些步骤。
 ## **VSTO**
 {{< highlight csharp >}}
 

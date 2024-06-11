@@ -6,9 +6,9 @@ url: /zh/java/using-onajaxcallfinishedclientfunction-of-gridweb/
 ---
 
 ## **可能的使用场景**
-OnAjaxCallFinishedClientFunction是客户端函数，当用户将一些数据复制到GridWeb工作表时调用。当大量单元格被更新时，使用此函数会帮助您在客户端（如FireFox、Google Chrome等Web浏览器）上跟踪这些更新的单元格。
+OnAjaxCallFinishedClientFunction是一个客户端函数，在用户将一些数据复制到GridWeb工作表时调用。当更新了大量的单元格，并且您希望在客户端跟踪这些更新的单元格时（即在像FireFox、Google Chrome等的Web浏览器中），此函数很有帮助。
 ## **使用GridWeb的OnAjaxCallFinishedClientFunction**
-以下示例代码解释了如何使用OnAjaxCallFinishedClientFunction客户端函数。当代码执行时，屏幕截图展示了在Google Chrome和FireFox中的控制台输出。执行代码后，请复制/粘贴一些跨多个单元格的数据到GridWeb工作表中，然后检查屏幕截图中所示的Web浏览器控制台。
+以下示例代码解释了如何使用 OnAjaxCallFinishedClientFunction 客户端函数。当执行代码时，屏幕截图显示了在Google Chrome和FireFox中执行代码时的控制台输出。一旦执行代码，请在GridWeb工作表中复制/粘贴一些跨多个单元格的数据，然后检查Web浏览器控制台，如屏幕截图所示。
 ## **Google Chrome控制台输出**
 ![todo:image_alt_text](using-onajaxcallfinishedclientfunction-of-gridweb_1.png)
 ## **FireFox控制台输出**

@@ -1,5 +1,5 @@
 ---
-title: 在智能标记中使用Image Markers分组数据
+title: 在智能标记中分组数据时使用Image Markers
 type: docs
 weight: 630
 url: /zh/java/using-image-markers-while-grouping-data-in-smart-markers/
@@ -7,11 +7,11 @@ url: /zh/java/using-image-markers-while-grouping-data-in-smart-markers/
 
 {{% alert color="primary" %}} 
 
-本文提供了一个示例，用于说明在智能标记中分组数据时使用图像标记的用法。
+本篇文章展示了在智能标记中分组数据时使用Image Markers的示例。
 
 {{% /alert %}} 
-## **在智能标记中分组数据时使用图片标记**
-以下示例代码创建一个工作簿，然后分别在D2、E2和F2单元格添加以下智能标记标记。
+## **在智能标记中分组数据时使用Image Markers**
+以下是一个示例代码，它创建了一个工作簿，然后在分别的单元格D2、E2和F2中添加了以下智能标记标签。
 
 {{< highlight java >}}
 
@@ -23,7 +23,7 @@ url: /zh/java/using-image-markers-while-grouping-data-in-smart-markers/
 
 {{< /highlight >}}
 
-然后填充数据源数据，并调用[WorkbookDesigner.Process()](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process\(\))方法来处理智能标记标签。该代码使用了这些图片，即[moon.png](5472549.png)和[moon2.png](5472548.png)，但您可以使用任何图片。以下屏幕截图显示了此示例代码的输出。如您所见，列E和F中的数据相对于D列中的数据进行了分组。
+然后，它使用这些图像[moon.png](5472549.png)和[moon2.png](5472548.png)，但您也可以使用任何图像。下面的屏幕截图显示了这个示例代码的输出。您可以看到，E列和F列的数据是根据D列的数据进行分组的。
 
 ![todo:image_alt_text](using-image-markers-while-grouping-data-in-smart-markers_1.png)
 

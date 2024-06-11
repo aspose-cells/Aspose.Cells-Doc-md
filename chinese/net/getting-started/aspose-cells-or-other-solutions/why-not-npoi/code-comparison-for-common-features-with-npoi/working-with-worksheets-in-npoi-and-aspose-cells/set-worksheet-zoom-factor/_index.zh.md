@@ -53,6 +53,6 @@ sw.Close();
 
 {{% alert color="primary" %}} 
 
-有关详细信息，请访问[使用工作表](/cells/zh/net/working-with-worksheets-in-npoi-and-aspose-cells/)
+有关更多详细信息，请访问[使用工作表](/cells/zh/net/working-with-worksheets-in-npoi-and-aspose-cells/)。
 
 {{% /alert %}}

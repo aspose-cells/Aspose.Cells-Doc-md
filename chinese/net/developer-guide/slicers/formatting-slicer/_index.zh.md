@@ -1,5 +1,5 @@
 ---
-title: 格式化缩略图
+title: 格式化切片器
 type: docs
 weight: 20
 url: /zh/net/formatting-slicer/
@@ -7,11 +7,11 @@ url: /zh/net/formatting-slicer/
 
 ## **可能的使用场景**
 
-您可以通过设置Microsoft Excel中的缩略图的列数或设置其样式等来格式化缩略图。Aspose.Cells还允许您使用[**Slicer.NumberOfColumns**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/numberofcolumns)和[**Slicer.StyleType**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/styletype)属性来执行此操作。
+您可以通过设置其列数或样式等属性，在Microsoft Excel中格式化切片器。Aspose.Cells也允许您通过[**Slicer.NumberOfColumns**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/numberofcolumns)和[**Slicer.StyleType**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/styletype)属性来执行此操作。
 
-## **格式化分割器**
+## **格式化切片器**
 
-请查看以下代码，它加载包含缩略图的[sample Excel file](67338473.xlsx)，访问缩略图并设置其列数和样式类型，然后另存为[output Excel file](67338474.xlsx)。屏幕截图显示了执行示例代码后缩略图的外观。
+请参阅以下代码，它加载了包含切片器的[sample Excel file](67338473.xlsx)。它访问该切片器并设置其列数和样式类型，然后将其保存为[output Excel file](67338474.xlsx)。截图展示了在执行示例代码后切片器的外观。
 
 ![todo:image_alt_text](formatting-slicer_1.png)
 

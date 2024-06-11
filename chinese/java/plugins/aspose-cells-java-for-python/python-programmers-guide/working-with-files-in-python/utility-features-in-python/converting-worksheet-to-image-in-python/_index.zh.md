@@ -6,7 +6,7 @@ url: /zh/java/converting-worksheet-to-image-in-python/
 ---
 
 ## **Aspose.Cells - 将工作表转换为图像**
-要在Ruby中使用Aspose.Cells for Java将工作表转换为图像，只需调用Converter模块。
+使用Ruby中的Aspose.Cells for Java将工作表转换为图像，只需调用Converter模块。
 
 **Python 代码**
 
@@ -47,6 +47,6 @@ print "Images generated successfully."
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下提到的社交编码网站之一下载**工作表转图像(Aspose.Cells)**：
+从以下提到的任何社交编码网站上下载**工作表到图像（Aspose.Cells）**：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

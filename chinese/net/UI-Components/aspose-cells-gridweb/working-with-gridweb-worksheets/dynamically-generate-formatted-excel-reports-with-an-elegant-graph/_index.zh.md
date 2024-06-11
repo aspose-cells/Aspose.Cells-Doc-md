@@ -1,55 +1,55 @@
 ---
-title: 使用优雅的图表动态生成格式化的Excel报告
+title: 使用优雅图表动态生成格式化的Excel报表
 type: docs
 weight: 130
 url: /zh/net/aspose-cells-gridweb/dynamically-generate-formatted-excel-reports-with-an-elegant-graph/
-keywords: GridWeb,生成报告,报告
-description: 本文介绍了如何在GridWeb中生成报告。
+keywords: GridWeb, 生成报表, 报表
+description: 本文介绍了如何在GridWeb中生成报表。
 ---
 
 {{% alert color="primary" %}} 
 
-本文旨在提供有关如何从某个数据源提取数据以填充类似电子表格的精彩网格控件，粘贴图表并将带有图形的报告导出到MS Excel以进行分析、比较和打印的必要信息。
+本文旨在提供必要的信息，以便从某个数据源提取数据到类似电子表格的控件中，将图表粘贴到其中，并导出附有图表的报表到MS Excel，以进行分析、比较和打印。有些网页场景需要同时进行报表和演示，需要可以很好地共同工作的部件或对象的组合。该文章解释了设计和动态生成时尚excel报表的简易程度。它将数据从一个XML文件导出（也可以利用其他数据源），到Aspose.Cells.GridWeb控件，该控件为您提供了真实的环境，允许您对数据应用丰富和吸引人的格式，以及像MS Excel一样计算公式结果。它还使用[Aspose.Cells](https://products.aspose.com/cells/)组件根据工作表源数据生成复杂的图表，并将图表图像粘贴到销售报表中。最后，使用Aspose.Cells组件，将包含图表的Excel报表保存到磁盘。
 
 {{% /alert %}} 
-## **概览**
-某些Web场景要求同时进行报表和演示，这就需要部分或对象的组合。本文解释了在所见即所得的方式中设计和动态生成时尚的Excel报告有多容易。它将数据从XML文件（您也可以使用其他数据源）导出到Aspose.Cells.GridWeb控件，该控件为您提供了真实环境，允许您为数据应用丰富并引人注目的格式，并计算像MS Excel一样的公式结果。它还基于工作表源数据使用[Aspose.Cells](https://products.aspose.com/cells/)组件生成复杂的图表，并将图表图像粘贴到销售报告中。最后，使用Aspose.Cells组件将附有图形的Excel报告保存到磁盘。
+## **概述**
+本文包括了这种功能的源码和全功能演示项目。
 
-本文包括此功能的源代码和功能齐全的演示项目。
+它使用户全面了解如何创建业务报告，将数据输入到网格的工作表中并对行和列中的单元格应用一些格式化，在保存Excel报表到磁盘之前根据数据源范围嵌入图表。
 
-它使用户对如何创建业务报告将数据输入到网格工作表中并在保存Excel报告到磁盘之前对行和列中的单元格应用一些格式以及根据数据源范围嵌入图表有了详细的了解。
+我使用[Aspose](http://www.aspose.com/)的三个组件来轻松完成任务。[Aspose](http://www.aspose.com/)是.NET和Java组件发布商，提供各种功能丰富的组件。[Aspose](http://www.aspose.com/)提供了一系列优秀的.NET和Java组件。作为一款备受全球数千客户信赖的产品，其产品包括文件格式组件、报告产品、可视化组件和实用程序组件，允许以编程方式在各种格式的文档中进行打开、修改、生成、保存、合并、转换等操作，包括DOC、RTF、WordML、HTML、PDF、XLS、SpreadsheetML、Tab Delimited、CSV、PPT、SWF、EMF、WMF、MPX、MPD和其他各种格式。
 ## **Aspose组件**
-我使用了[Aspose](http://www.aspose.com/)的三个组件执行此任务。 [Aspose](http://www.aspose.com/)是.NET和Java组件发行商，提供多种功能丰富的组件。 [Aspose](http://www.aspose.com/)提供了一系列优秀的.NET和Java组件。受全球数千客户信赖，产品包括文件格式组件、报表产品、可视化组件和实用程序组件，可用于以编程方式打开、修改、生成、保存、合并、转换等各种格式的文档，包括DOC、RTF、WordML、HTML、PDF、XLS、SpreadsheetML、制表符分隔的、CSV、PPT、SWF、EMF、WMF、MPX、MPD和其他格式。
+我使用了三个[Aspose](http://www.aspose.com/)组件来轻松完成任务。[Aspose](http://www.aspose.com/)是.NET和Java组件发布商，提供各种功能丰富的组件。[Aspose](http://www.aspose.com/)提供了一系列出色的.NET和Java组件，受到全球成千上万的客户的信任，其产品包括文件格式组件、报告产品、可视化组件和实用程序组件，可以以编程方式打开、修改、生成、保存、合并、转换等各种格式的文档，包括DOC、RTF、WordML、HTML、PDF、XLS、SpreadsheetML、Tab Delimited、CSV、PPT、SWF、EMF、WMF、MPX、MPD和其他格式。
 
-我要借此机会向您介绍这三个组件，它们在这个任务中已被使用。
+我想借此机会向您介绍其中三个组件，这些组件已经在这个任务中被使用。
 ## **Aspose.Cells网格控件**
-Aspose.Cells网格控件是全面的网格解决方案。Aspose.Cells网格控件打包了两种不同的GUI .NET组件（Aspose.Cells.GridDesktop和Aspose.Cells.GridWeb）：一个用于支持桌面应用程序，另一个用于支持Web应用程序。两个版本同样出色，以使在任一平台上的实施变得轻而易举。Aspose.Cells.GridWeb提供从Excel电子表格导入和导出的功能。因此，任何熟悉Excel的人（甚至是最终用户）都可以设计网格的外观和感觉。Aspose.Cells.GridWeb还提供了易于使用、功能丰富的API，为开发人员提供了对其网格的外观、感觉和行为的完全控制。要了解有关产品、其功能以及程序员指南的更多信息，请查看特性列表摘要、Aspose.Cells.GridWeb文档和在线特色[演示](https://aspose.github.io/)。
+Aspose.Cells网格控件是一个完整的网格解决方案。Aspose.Cells网格控件包含两个不同的GUI .NET组件（Aspose.Cells.GridDesktop和Aspose.Cells.GridWeb）：一个用于支持桌面应用程序，另一个用于支持Web应用程序。两个版本均能够轻松实现在任何一个平台上的应用。Aspose.Cells.GridWeb提供了从Excel电子表格中导入和导出的功能。因此，任何熟悉Excel的人（甚至是最终用户）都可以设计网格的外观和功能。Aspose.Cells.GridWeb还提供了一个易于使用、功能丰富的API，为开发人员提供了对其网格外观、功能和行为的完全控制。如需了解更多关于产品、其功能和程序员指南的信息，请查看功能摘要、Aspose.Cells.GridWeb文档和在线特色[演示](https://aspose.github.io/)。
 ## **Aspose.Cells**
-**Aspose.Cells**是一款Excel电子表格报告组件，使您可以在客户端或服务器端不需要安装Microsoft Excel的情况下读取和写入Excel电子表格。**Aspose.Cells**是一个功能丰富的组件，提供的功能远不止基本的数据导出。使用**Aspose.Cells**，开发人员可以导出数据、以各种细节和层次格式化电子表格、导入图片、导入图表、创建图表、操作图表、流式传输Excel数据、以各种格式保存，包括XLS、CSV、SpreadsheetML、TabDelimited、TXT、XML（集成了[Aspose.Pdf](https://products.aspose.com/pdf/)）等等。**Aspose.Cells**为程序员提供了易于使用的、功能丰富的**API**。它具有大量的功能。要了解产品、其功能并获得程序员指南，请查看**功能列表**摘要、**Aspose.Cells**文档和在线功能齐备的演示。您可以免费[下载](https://downloads.aspose.com/cells)其评估版。
+**Aspose.Cells**是一种Excel电子表格报告组件，可以让您在客户端或服务器端不需安装Microsoft Excel的情况下读取和写入Excel电子表格。**Aspose.Cells**是一个功能丰富的组件，不仅提供基本的数据导出。使用**Aspose.Cells**，开发人员可以导出数据、以任何细节和级别对电子表格进行格式设置、导入图像、导入图表、创建图表、操纵图表、流式传输Excel数据、保存为各种格式（包括XLS、CSV、SpreadsheetML、TabDelimited、TXT、XML（与[Aspose.Pdf](https://products.aspose.com/pdf/)集成）等等。**Aspose.Cells**为程序员提供了一个易于使用、功能丰富的**API**。它拥有大量功能。如需了解更多关于产品、其功能和程序员指南的信息，请查看功能摘要、**Aspose.Cells文档**和在线特色演示。您可以免费[下载](https://downloads.aspose.com/cells)其评估版本。
 ## **设计界面**
-我们开始在Visual Studio.Net中创建一个新的Asp.Net Web应用。
+我们在Visual Studio.Net中开始创建一个新的Asp.Net web应用程序。
 
-首先，我向项目添加了对Aspose.Cells.GridWeb.dll、Aspose.Chart.dll和Aspose.Cells.dll三个组件的引用。我在页面上放置一些控件并设置它们的属性，即一个下拉列表、一个命令按钮和一个标签。然后，我从工具箱中将**Aspose.Cells.GridWeb控件**(**GridWeb**)放置到其中，因为在添加对这三个组件的引用后，**GridWeb**控件出现在工具箱中。另外两个组件（**Aspose.Chart** 和 **Aspose.Cells**）只是库，只需添加到项目的引用中。
+我首先为项目**添加引用**，即Aspose.Cells.GridWeb.dll、Aspose.Chart.dll和Aspose.Cells.dll。我在页面上放置一些控件并设置它们的属性，如下拉列表、命令按钮和标签。然后，我从工具箱中将**Aspose.Cells.GridWeb控件**（**GridWeb**）放置到页面中，因为在添加三个组件的引用后，**GridWeb**控件将出现在工具箱中。另外两个组件（**Aspose.Chart**和**Aspose.Cells**）只是库，只需将其引用到项目中。
 
-我还创建了两个文件夹"file"和"images"，并分别将"Products.xml"和"chart.gif"添加到这些文件夹中。XML文件是一个数据源文件，将从中提取数据以填充**GridWeb**工作表单。图像文件将为放置在**GridWeb**控件上的自定义按钮提供图像。
+我还创建了两个文件夹"文件"和"图片"，分别添加了"Products.xml"和"chart.gif"。XML文件是一个数据源文件，从中可以提取数据以填充**GridWeb**工作表。图像文件将为**GridWeb控件**上放置的自定义按钮提供图像。
 
-现在，我创建了一个自定义命令按钮。我只需右键单击**GridWeb**控件，然后点击"自定义命令按钮..."选项。
+我现在创建了一个自定义命令按钮。我简单地右键单击**GridWeb**控件，然后选择"自定义命令按钮..."选项。
 
-它将激活自定义命令按钮编辑器，该编辑器允许您创建带有工具提示的自定义命令图像按钮。我指定按钮的某些属性的值，例如 Command（Name）->"btnChart"，ImageUrl -> 给出图片文件的路径（"chart.gif"）和 ToolTip -> 给出工具提示。
+这将激活自定义命令按钮编辑器，编辑器允许您创建带有工具提示的自定义命令图像按钮。我为按钮的一些属性指定了值，例如命令（名称）->"btnChart"、ImageUrl->给出图像文件的路径（"chart.gif"）和ToolTip->给出工具提示。
 
-因此，自定义命令按钮被添加，您可以在下面的截图中看到它（用红色圈起来）。
+因此，如下截图所示，自定义命令按钮已添加（用红色圈出）。
 
 |![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_1.png)|
 | :- |
 
 
-最后，我设置了标签和命令按钮的一些字体属性（加粗）。我还调整了控件的大小以获得最终外观。
+最后，我为标签和命令按钮设置了一些字体属性（加粗）。我还调整了控件的大小，获得了最终的外观。
 
 ![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_2.png)
-## **从 XML 文件中检索数据**
-以下是项目中使用的 XML 文件结构。
-### **XML 文件结构**
-**XML**
+## **从XML文件检索数据**
+以下是项目中使用的XML文件结构。
+### **XML文件结构**
+XML
 
 {{< highlight csharp >}}
 
@@ -196,8 +196,8 @@ private object[] GetDistinctValues(DataTable dtable, string colName)
 }
 
 {{< /highlight >}}
-## **在 Aspose.Cells.GridWeb 控件的工作表中填充数据**
-我使用**GridWeb**控件的一些 API 从源 XML 文件中填充工作表的数据。我在命令按钮（标记为"Show Report"）的单击事件处理程序中编写代码。数据报告是基于下拉列表中选定项目进行筛选的。
+## **填充Aspose.Cells.GridWeb控件的工作表数据**
+我使用了**GridWeb**控件的一些API来从源XML文件中填充工作表数据。我在命令按钮（标记为“显示报告”）的点击事件处理程序中编写代码。数据报告是根据下拉列表中的选择项目进行筛选的。
 
 
 
@@ -235,9 +235,9 @@ GridWeb1.WebWorksheets.ImportDataView(dv, null, null,"Products",3,0);
 
 {{< /highlight >}}
 ## **在单元格中格式化数据**
-为了区分工作表上不同类型的信息，以便在工作表上以最佳方式显示数据，并且使工作表更易于扫描，您需要对工作表进行格式化。**Format**表示一个样式，并被定义为一组特性，如字体和字体大小、数字格式、单元格边框、用纯色或特定颜色模式填充单元格、缩进、对齐和单元格中的文本方向。
+为了区分工作表上不同类型的信息，在工作表中最佳显示数据并使工作表更易扫描，您需要对工作表进行格式化。**格式**表示一种样式，并定义为一组特征，如字体和字体大小、数字格式、单元格边框、纯背景色或特定颜色模式的单元格着色、缩进、单元格内的对齐和文本方向。
 
-我将一些更多的代码行合并到上面。我为报告的标题/副标题做了布局，对标题、副标题和详细单元格进行了一些格式化。我还对两个字段应用了数字格式化（为UnitPrice和Sale字段设置货币数字格式），并使用**Aspose.Cells.GridWeb**API调整了行和列的高度/宽度。
+我将一些代码行与上述代码合并。我放置了报告的标题/子标题，对标题、子标题和详细单元格进行了一些格式化。我还对两个字段应用了数字格式化（将货币数字格式设置为UnitPrice和Sale字段），并使用**Aspose.Cells.GridWeb**API调整的行和列的高度/宽度。
 
 
 
@@ -366,8 +366,8 @@ cells.SetColumnWidth(4, new Unit("50pt"));
 
 
 {{< /highlight >}}
-## **使用 Aspose.Cells 组件生成带图形的格式化报告（.XLS 文件）**
-现在，我将编写一些代码来将带有图形的格式化报告保存到磁盘。我利用**GridWeb**的**Save**按钮，当单击保存按钮时，**GridWeb**的**SaveCommand**事件被触发，因此，我将处理它。在这里，我使用**Aspose.Cells**组件将格式化报告导出到 MS Excel，并生成图表并嵌入到输出的 Excel 文件中。我没有插入由**Aspose.Chart**组件创建的图表图像，而是使用**Aspose.Cells**的 API 创建类似的图表，这样您就可以根据需要在 MS Excel 中编辑图表。
+## **使用Aspose.Cells组件生成带有图表的格式化报告（.XLS文件）**
+现在，我将编写一些代码将带有图表的格式化报告保存到磁盘。我利用**GridWeb**的**Save**按钮，当单击保存按钮时，**GridWeb**的**SaveCommand**事件被触发，因此，我将处理它。在这里，我使用**Aspose.Cells**组件将格式化报告导出到MS Excel，并生成图表并将其嵌入到输出的Excel文件中。我没有插入由**Aspose.Chart**组件创建的图表图像，而是使用**Aspose.Cells**的API创建类似的图表，以便您可以根据自己的需求在MS Excel中编辑图表。
 
 
 
@@ -539,23 +539,23 @@ chartIndex = sheet.Charts.Add(Aspose.Cells.ChartType.Pie,maxrow,0,maxrow+28,5);
 
 ![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_3.png)
 
-我选择一个要显示销售报告的类别，然后单击"Show Report"按钮。
+我通过选择一个分类来显示销售报告，并单击“显示报告”按钮。
 
 ![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_4.png)
 
-因此，报告根据所选类别显示在**GridWeb**中。报告默认根据先前编写的代码进行了格式化。
+因此，根据所选的类别，报告被显示在**GridWeb**中。报告根据先前编写的代码默认格式化。
 
 ![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_5.png)
 
-如果您想以所见即所得的方式对一些单元格进行格式化，您可以很容易地完成。**Aspose.Cells.GridWeb**提供**格式化单元格**编辑器，选择您所需的单元格，并右键单击，然后单击"格式化单元格..."选项。
+如果您想以所见即所得的方式格式化一些单元格中的数据，您可以轻松地进行。**Aspose.Cells.GridWeb**提供**格式单元格**编辑器，选择您需要的单元格，右键单击它，单击“格式单元格...”选项。
 
 ![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_6.png)
 
-显示格式化单元格对话框。
+显示格式单元格对话框。
 
 ![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_7.png)
 
-我指定了一些字体属性，然后单击确定。
+指定一些字体属性，然后单击“确定”。
 
 ![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_8.png)
 
@@ -563,26 +563,26 @@ chartIndex = sheet.Charts.Add(Aspose.Cells.ChartType.Pie,maxrow,0,maxrow+28,5);
 
 ![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_9.png)
 
-除了单元格格式化，您还可以编辑单元格的值。双击您所需的单元格，然后编辑值。
+除了单元格格式化外，您还可以编辑单元格值。双击您所需的单元格并编辑值。
 
 ![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_10.png)
 
-要提交编辑结果并重新计算所有公式，我单击相关按钮（用红色圈起来）来更新报告。
+为提交编辑结果和重新计算所有公式，我单击相关按钮（用红色圈起）以更新报告。
 
 ![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_11.png)
 
-现在，我将创建图表并将其粘贴到控件中。我单击自定义命令按钮（红色圈起来）以基于数据范围创建饼图。
+现在，我将创建图表并将其粘贴到控件中。我单击自定义命令按钮（用红色圈起）以根据数据范围创建饼图。
 
 ![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_12.png)
 
-最后，我将此数据报告与图形导出到 MS Excel。我单击**Save**按钮（红色圈起来）。单击**Save**按钮将显示**文件下载**对话框，您可以要么**打开**结果报告（带图形的输出 excel 文件），要么将其保存到磁盘。
+最后，我将通过图形将此数据报告导出到 MS Excel。我点击**保存**按钮（用红色圈出）。点击**保存**按钮将显示**文件下载**对话框，您可以选择要么**打开**生成的报告（带图形的输出 Excel 文件）到 MS Excel，要么保存到磁盘。
 
 ![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_13.png)
 
-当我单击“打开”按钮（文件下载对话框）时，带图形的 Excel 报告被导出到了 MS Excel。报告的上部分被显示。
+当我点击**打开**按钮（文件下载对话框）时，带图形的 Excel 报告将被导出到 MS Excel。报告的上部分显示。
 
 ![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_14.png)
 
-报告的下部分被显示。
+显示 Excel 报告的下部分。
 
 ![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_15.png)

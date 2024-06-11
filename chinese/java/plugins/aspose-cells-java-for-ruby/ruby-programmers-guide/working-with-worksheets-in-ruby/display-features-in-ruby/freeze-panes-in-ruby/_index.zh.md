@@ -1,14 +1,14 @@
 ---
-title: 在 Ruby 中冻结窗格
+title: 在Ruby中冻结窗格
 type: docs
 weight: 50
 url: /zh/java/freeze-panes-in-ruby/
 ---
 
 ## **Aspose.Cells - 冻结窗格**
-要在电子表格文档中使用**Aspose.Cells Java for Ruby**冻结窗格，请简单调用**FreezePanes**模块。
+要在Ruby中的电子表格文档中冻结窗格，只需调用**FreezePanes**模块。
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 
@@ -36,6 +36,6 @@ puts "Apply freeze panes settings, please check the output file."
 
 {{< /highlight >}}
 ## **下载运行代码**
-从下面列出的任何社交编码站点下载**冻结窗格（Aspose.Cells）**。
+从以下提到的任何社交编码站点下载**Freeze Panes (Aspose.Cells)**。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/freezepanes.rb)

@@ -7,11 +7,11 @@ url: /zh/cpp/how-to-add-text-or-picture-as-watermark-for-worksheets/
 
 {{% alert color="primary" %}} 
 
-使用WordArt在电子表格中添加特殊文本或图片效果。例如，将标题横跨文件顶部、装饰文本、使文本适合预设形状，或将文本应用为Excel表的背景水印。WordArt 成为一个对象，您可以在电子表格中移动或定位以添加装饰。
+使用WordArt向电子表格添加特殊文本或图片效果。例如，将标题延伸到文件顶部、装饰文本、使文本适应预设形状，或将文本作为背景水印应用到Excel表中。WordArt变成一个对象，您可以在电子表格中移动或定位以添加装饰。
 
 {{% /alert %}} 
 
-以下示例演示了如何将文本添加为WordArt，将其设置为工作表的背景水印。
+以下示例演示了如何将文本作为WordArt添加到工作表以设置背景水印。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-Add-Text-WordArtWatermark-new.cpp" >}}
 

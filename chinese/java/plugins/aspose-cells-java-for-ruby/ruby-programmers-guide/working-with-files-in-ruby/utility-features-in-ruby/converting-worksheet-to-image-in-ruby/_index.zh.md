@@ -6,9 +6,9 @@ url: /zh/java/converting-worksheet-to-image-in-ruby/
 ---
 
 ## **Aspose.Cells - 将工作表转换为图像**
-要在Ruby中使用Aspose.Cells for Java将工作表转换为图像，只需调用Converter模块。
+使用Ruby中的Aspose.Cells for Java将工作表转换为图像，只需调用Converter模块。
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 
@@ -56,6 +56,6 @@ end 
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下任一社交编码网站下载**将工作表转换为图像（Aspose.Cells）**：
+从以下任何社交编码网站下载**将工作表转换为图像（Aspose.Cells）**：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

@@ -1,14 +1,14 @@
 ---
-title: 限制和API差异
+title: 限制和 API 差异
 type: docs
 weight: 10
 url: /zh/python-java/limitations-and-api-differences/
-keywords: "python, excel, 限制, api, 差异"
-description: “Aspose.Cells for Python via Java 的限制和API差异。”
+keywords: "Python、Excel、限制、API、差异"
+description: "Aspose.Cells for Python via Java 限制和API差异"
 ---
 
-## **公共API差异**
-### **例子**
+## **公共 API 差异**
+### **示例**
 **Aspose.Cells for Java**
 
 {{< highlight java >}}

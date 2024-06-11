@@ -3,13 +3,13 @@ title: 在单元格中添加数据
 type: docs
 weight: 10
 url: /zh/net/add-data-in-cells/
-description: 本文介绍如何使用Aspose.Cells为.NET API在单元格中添加数据。
-keywords: 在C＃中向单元格添加数据，C＃中将数据插入工作表，C＃中设置单元格的数据。
+description: 本文介绍了如何使用Aspose.Cells for .NET API向单元格中添加数据。
+keywords: 在 C# 中向单元格添加数据，C# 中插入工作表数据，C# 设置单元格数据。
 ---
 
 
-## **如何使用Aspose.Cells为.NET添加单元格中的数据**
-Aspose.Cells提供了一个类，Workbook，代表一个Microsoft Excel文件。Workbook类包含一个WorksheetCollection，允许访问Excel文件中的每个工作表。工作表由Worksheet类表示。Worksheet类提供了一个Cells集合。Cells集合中的每个项代表Cell类的对象。
+## **如何使用Aspose.Cells for .NET在单元格中添加数据**
+Aspose.Cells提供了一个代表Microsoft Excel文件的Workbook类。Workbook类包含一个允许访问Excel文件中每个工作表的WorksheetCollection。工作表由Worksheet类表示。Worksheet类提供了一个Cells集合。Cells集合中的每个项表示Cell类的对象。
 
 **C#**
 
@@ -43,8 +43,8 @@ workbook.Save("test.xlsx");
 
 
 {{< /highlight >}}
-## **NPOI HSSF XSSF - 向单元格中添加数据**
-在NPOI中，row.createCell(1).setCellValue可用于向单元格中添加数据。
+## **NPOI HSSF XSSF - 在单元格中添加数据**
+在NPOI中，row.createCell(1).setCellValue可以用于在单元格中添加数据。
 
 **C#**
 
@@ -82,12 +82,12 @@ sw.Close();
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下社交编码网站之一下载**在单元格中添加数据**：
+从下面提到的任何社交编码站点下载**在单元格中添加数据**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Add.Data.In.Cells.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[向单元格添加数据](/cells/zh/net/add-data-in-cells/)。
+更多详情，请访问[向单元格添加数据](/cells/zh/net/add-data-in-cells/)
 
 {{% /alert %}}

@@ -1,5 +1,5 @@
 ---
-title: 在Aspose.Cells中加密Excel文件
+title: 在 Aspose.Cells 中对 Excel 文件进行加密
 type: docs
 weight: 90
 url: /zh/net/encrypting-excel-files-in-aspose-cells/
@@ -7,18 +7,18 @@ url: /zh/net/encrypting-excel-files-in-aspose-cells/
 
 {{% alert color="primary" %}} 
 
-Microsoft Excel（97-2007）允许您加密和密码保护电子表格。它使用加密服务提供商提供的算法，这些算法具有不同的属性。默认的CSP是“Office 97/2000兼容”或“弱加密（XOR）”。选择适当的加密密钥长度很重要。一些CSP不支持超过40或56位。这被认为是弱加密。对于强加密，需要最少128位的密钥长度。Microsoft Windows包含提供强加密类型的CSP，例如“Microsoft Strong Cryptographic Provider”。举个例子，128位加密是银行用于与其网上银行系统加密连接时使用的加密方式。
+Microsoft Excel (97 - 2007) 允许您对表格进行加密和密码保护。它使用加密服务提供程序（CSP）提供的算法，这些算法具有不同的属性。默认的 CSP 是“Office 97/2000 兼容”或“弱加密（XOR）”。选择适当的加密密钥长度是很重要的。一些 CSP 并不支持超过 40 或 56 位。这被认为是一种弱加密。对于强加密，需要最小 128 位长度的密钥。Microsoft Windows 包含提供强加密类型的 CSP，例如“Microsoft 强加密提供程序”。以此为例，128 位加密是银行用于加密与其网上银行系统连接的方式。
 
-Aspose.Cells 允许您加密和设置 Microsoft Excel 文件的密码保护。
+Aspose.Cells允许您使用所需的加密类型对Microsoft Excel文件进行加密和密码保护。
 
 {{% /alert %}} 
 ## **使用Microsoft Excel**
-在Microsoft Excel中设置文件加密设置（这里是Microsoft Excel 2003）：
+在Microsoft Excel（例如Microsoft Excel 2003）中设置文件加密设置:
 
-1. 从**工具**菜单中选择**选项**。
-   出现对话框。
+1. 从** 工具** 菜单中选择 **选项**。
+   会出现一个对话框。
 1. 选择**安全**选项卡。
-1. 输入密码并单击**高级**。 
+1. 输入密码并点击**高级**。 
    **选项对话框** 
 
 ![todo:image_alt_text](encrypting-excel-files-in-aspose-cells_1.png)
@@ -34,8 +34,8 @@ Aspose.Cells 允许您加密和设置 Microsoft Excel 文件的密码保护。
 
 
 
-## **使用 Aspose.Cells 进行加密**
-以下示例显示如何使用Aspose.Cells API加密和密码保护Excel文件。
+## **Aspose.Cells加密**
+下面的示例显示了如何使用Aspose.Cells API对Excel文件进行加密和密码保护。
 
 **C#**
 

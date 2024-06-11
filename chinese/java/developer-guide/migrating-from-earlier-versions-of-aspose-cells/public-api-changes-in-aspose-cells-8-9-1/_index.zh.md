@@ -1,5 +1,5 @@
 ---
-title: Aspose.Cells 8.9.1 中的公共 API 更改
+title: Aspose.Cells 8.9.1 的 public API 更改
 type: docs
 weight: 320
 url: /zh/java/public-api-changes-in-aspose-cells-8-9-1/
@@ -7,29 +7,29 @@ url: /zh/java/public-api-changes-in-aspose-cells-8-9-1/
 
 {{% alert color="primary" %}} 
 
-此文档描述了从版本 8.9.0 到 8.9.1 的 Aspose.Cells API 中的更改，可能对模块/应用程序开发人员感兴趣。除了新的和更新的公共方法，添加和删除的类等，还包括任何在 Aspose.Cells 底层行为中的更改的描述。
+本文档描述了从版本 8.9.0 到 8.9.1 的 Aspose.Cells API 更改，可能对模块/应用程序开发者感兴趣。它不仅包括新的和更新的公共方法、已添加和已删除的类等，还描述了 Aspose.Cells 内部行为变化的说明。
 
 {{% /alert %}} 
-## **已添加API**
+## **添加的 API**
 ### **可配置的字体源**
-Aspose.Cells for Java 已公开了一些类，为呈现电子表格提供了可配置字体源的支持。以下是使用 Aspose.Cells for Java 8.9.1 新增的类列表。
+Aspose.Cells for Java已暴露了许多类以提供对可配置字体源的支持，用于渲染电子表格。以下是已添加到Aspose.Cells for Java 8.9.1中的类列表。
 
-1. FontConfigs 类指定字体设置。
-1. FontSourceBase 类是用于允许用户指定各种字体源的类的抽象基类。
+1. FontConfigs 类指定了字体设置。
+1. FontSourceBase 类是各种允许用户指定不同字体源的类的抽象基类。
 1. FileFontSource 类表示存储在文件系统中的单个 TrueType 字体文件。
 1. FolderFontSource 类表示包含 TrueType 字体文件的文件夹。
 1. MemoryFontSource 类表示存储在内存中的单个 TrueType 字体文件。
-1. FontSourceType枚举指定字体源的类型。
+1. FontSourceType 枚举指定字体源的类型。
 
-有了上述更改，Aspose.Cells for Java 允许按下面详细说明的方式设置字体。
+在上述变更生效的情况下，Aspose.Cells for Java允许按以下详细信息设置字体。
 
-1. 使用 FontConfigs.setFontFolder 方法设置一个自定义字体文件夹。
+1. 使用 FontConfigs.setFontFolder 方法设置单个自定义字体文件夹。
 1. 使用 FontConfigs.setFontFolders 方法设置多个自定义字体文件夹。
-1. 使用 FontConfigs.setFontSources 方法从自定义字体文件夹、单个字体文件或字体数据数组中设置字体源。
+1. 使用 FontConfigs.setFontSources 方法从自定义字体文件夹、单个字体文件或字体数据字节数组中设置字体源。
 
 以下是上述方法的简单使用场景。
 
-**Java**
+Java
 
 {{< highlight csharp >}}
 
@@ -75,15 +75,15 @@ FontConfigs.setFontSources(new FontSourceBase[] { sourceFolder, sourceFile, sour
 
 {{% alert color="primary" %}} 
 
-FontConfigs.setFontFolder 和 FontConfigs.setFontFolders 方法都接受一个布尔类型的第二个参数。将 true 作为第二个参数传递将指导 Aspose.Cells APIs 在字体文件中搜索子文件夹。 
+FontConfigs.setFontFolder和FontConfigs.setFontFolders方法接受Boolean类型的第二个参数。将true作为第二个参数传递将指导Aspose.Cells API搜索字体文件的子文件夹。 
 
 {{% /alert %}} 
 
-Aspose.Cells for Java 还允许配置字体替换。当在必须进行转换的机器上找不到所需的字体时，这种机制是有帮助的。用户可以提供替代原始所需字体的字体名称列表。为了实现这一点，Aspose.Cells APIs 公开了 FontConfigs.setFontSubstitutes 方法，它接受 2 个参数。第一个参数是字符串类型，应该是需要替换的字体的名称。第二个参数是一个字符串类型的数组。用户可以提供字体名称列表作为原始字体名称（在第一个参数中指定）的替代。
+Aspose.Cells for Java还允许配置字体替换。当所需的字体在执行转换的计算机上不可用时，此机制很有帮助。用户可以提供替代原始所需字体的字体名称列表。为实现此目的，Aspose.Cells API已经暴露了FontConfigs.setFontSubstitutes方法，该方法接受2个参数。第一个参数是字符串类型，应为需要替换的字体名称。第二个参数是字符串数组类型。用户可以提供作为原始字体名称替代的字体名称列表（指定在第一个参数中的字体名称）。
 
 以下是FontConfigs.SetFontSubstitutes方法的简单使用场景。
 
-**Java**
+Java
 
 {{< highlight csharp >}}
 
@@ -93,22 +93,22 @@ FontConfigs.setFontSubstitutes("Arial", new String[] { "Times New Roman", "Calib
 
 {{< /highlight >}}
 
-Aspose.Cells for Java 还提供了一种方法，以获取已设置的字体源和替换的信息。
+Aspose.Cells for Java还提供了收集设置的来源和替换信息的手段。
 
-1. FontConfigs.getFontSources 方法返回一个 FontSourceBase 类型的数组，其中包含指定字体源的列表。如果没有设置源，则 FontConfigs.getFontSources 方法将返回一个空数组。
-1. FontConfigs.getFontSubstitutes 方法接受一个字符串类型的参数，允许指定已设置替换的字体名称。如果没有为指定的字体名称设置替代，则 FontConfigs.getFontSubstitutes 方法将返回 null。
+1. FontConfigs.getFontSources方法返回一个FontSourceBase类型的数组，其中包含指定字体源的列表。如果未设置任何源，则FontConfigs.getFontSources方法将返回一个空数组。
+1. FontConfigs.getFontSubstitutes方法接受一个字符串类型的参数，允许指定为其设置替换的字体名称。如果未为指定的字体名称设置替代，则FontConfigs.getFontSubstitutes方法将返回null。
 
 {{% alert color="primary" %}} 
 
-有关 FontConfigs 的更多细节，请查看[配置呈现电子表格的字体](/cells/zh/java/configuring-fonts-for-rendering-spreadsheets/)文章。
+有关FontConfigs的更多详细信息，请查看[为电子表格渲染配置字体](/cells/zh/java/configuring-fonts-for-rendering-spreadsheets/)的文章。
 
 {{% /alert %}} 
 ### **添加了IFilePathProvider接口和HtmlSaveOptions.FilePathProvider属性**
-Aspose.Cells for Java 8.9.1 允许获取/设置 IFilePathProvider 以将工作表导出为单独的 HTML 文件。这些新的 API 对于工作表中的超链接指向另一个工作表的情况很有帮助，其中应用程序要求将每个工作表呈现为单独的 HTML 文件。实现 IFilePathProvider 允许保持上述超链接不受影响，而不管它们指向单独的结果 HTML 文件还是源 HTML 文件。
+Aspose.Cells for Java 8.9.1版本允许获取/设置用于将工作表导出为独立HTML文件的IFilePathProvider。这些新API在一张工作表中的超链接指向其他工作表的场景中很有用，其中应用程序要求将每个工作表渲染为独立的HTML文件。实现IFilePathProvider允许保持上述超链接不受影响，无论它们指向单独的生成的HTML文件中的位置。
 
 以下是HtmlSaveOptions.FilePathProvider属性的简单使用场景。
 
-**Java**
+Java
 
 {{< highlight csharp >}}
 
@@ -174,15 +174,15 @@ for (int i = 0; i < book.getWorksheets().getCount(); i++)
 
 {{% alert color="primary" %}} 
 
-有关这一增强功能的更多细节，请查看[实现 IFilePathProvider 接口](/cells/zh/java/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/)文章。
+有关此增强功能的更多详细信息，请查看[实现IFilePathProvider接口](/cells/zh/java/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/)的文章。
 
 {{% /alert %}} 
-### **添加了CopyOptions.ReferToDestinationSheet 属性和 Cells.copyRows 方法的重载**
-Aspose.Cells for Java API 公开了布尔类型的 CopyOptions.ReferToDestinationSheet 属性，以及 Cells.copyRows 方法的重载，以便在要复制的行中包含图表及其数据源时便利地进行复制行操作。开发人员可以使用这些新的 API 将图表的数据源指向源工作表或目标工作表。
+### **添加了CopyOptions.ReferToDestinationSheet属性和Cells.copyRows方法的重载**
+Aspose.Cells for Java API已暴露了布尔类型的CopyOptions.ReferToDestinationSheet属性以及Cells.copyRows方法的重载，以便在要复制的行中还包含图表及其数据源的情况下进行复制行操作。开发人员可以利用这些新API来将图表的数据源指向源或目标工作表。
 
 以下是简单的使用场景。
 
-**Java**
+Java
 
 {{< highlight csharp >}}
 
@@ -216,15 +216,15 @@ book.save(dir + "output.xlsx");
 
 {{% alert color="primary" %}} 
 
-有关这一功能的更多细节，请查看[复制行时控制图表的数据源](/cells/zh/java/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/)文章。
+有关此功能的更多详细信息，请查看[在复制行时控制图表的数据源](/cells/zh/java/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/)的文章。
 
 {{% /alert %}} 
 ### **添加了CalculationOptions.Recursive属性**
-Aspose.Cells for Java 8.9.1 公开了布尔类型的 CalculationOptions.Recursive 属性。将 CalculationOptions.Recursive 属性设置为 true，并将对象传递给 Workbook.calculateFormula 方法，将指导 Aspose.Cells APIs 在计算依赖其他单元格的单元格时递归计算。
+Aspose.Cells for Java 8.9.1版本已暴露了布尔类型的CalculationOptions.Recursive属性。将CalculationOptions.Recursive属性设置为true，并将对象传递给Workbook.calculateFormula方法时，指示Aspose.Cells API在计算依赖其他单元格的单元格时递归计算这些单元格。
 
 以下是简单的使用场景。
 
-**Java**
+Java
 
 {{< highlight csharp >}}
 
@@ -246,13 +246,13 @@ book.calculateFormula(options);
 
 {{% alert color="primary" %}} 
 
-有关这一功能的更多细节，请查看[优化计算时间](/cells/zh/java/decrease-the-calculation-time-of-cell-calculate-method/)文章。
+有关此功能的更多详细信息，请查看[优化计算时间](/cells/zh/java/decrease-the-calculation-time-of-cell-calculate-method/)的文章。
 
 {{% /alert %}}
-## **已废弃的API**
+## **已弃用的API**
 ### **已弃用CellsHelper.FontDir属性**
-建议使用 FontConfigs.setFontFolder(String, boolean) 方法，其中文件夹递归设置为 false。
-### **已弃用CellsHelper.FontDirs属性**
-建议使用 FontConfigs.setFontFolders(String[], boolean) 方法，其中文件夹递归设置为 false。
-### **已废弃CellsHelper.FontFiles属性**
+建议使用 FontConfigs.setFontFolder(String, boolean) 方法，将递归设置为 false。
+### **已废弃 CellsHelper.FontDirs 属性**
+建议使用 FontConfigs.setFontFolders(String[], boolean) 方法，将递归设置为 false。
+### **已废弃 CellsHelper.FontFiles 属性**
 建议使用 FontConfigs.setFontSources(FontSourceBase[]) 方法。

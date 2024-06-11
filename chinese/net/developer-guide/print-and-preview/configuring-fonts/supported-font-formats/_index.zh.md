@@ -7,6 +7,6 @@ url: /zh/net/supported-font-formats/
 
 |**格式**|**描述**|
 | :- | :- | :- | :- |
-|**TTF**|TrueType字体|
-|**TTC**|TrueType集合|
-|**OTF**|OpenType字体|
+|**TTF**|TrueType 字体
+|**TTC**|TrueType 集合
+|**OTF**|OpenType 字体

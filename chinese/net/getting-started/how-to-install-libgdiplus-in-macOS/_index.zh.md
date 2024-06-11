@@ -1,7 +1,7 @@
 ---
-title: 如何在 macOS 中安装 libgdiplus
+title: 在 macOS 中安装 libgdiplus
 type: docs
-description: 本文解释了如何在 macOS（例如 Monterey 12.4）中安装 libgdiplus。
+description: 本文介绍如何在 macOS（如 Monterey 12.4）中安装 libgdiplus。
 weight: 150
 url: /zh/net/how-to-install-libgdiplus-in-macos/
 ---

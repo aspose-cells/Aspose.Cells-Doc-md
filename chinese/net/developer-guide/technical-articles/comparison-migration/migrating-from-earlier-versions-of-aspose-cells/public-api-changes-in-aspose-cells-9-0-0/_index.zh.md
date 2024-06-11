@@ -1,5 +1,5 @@
 ---
-title: Aspose.Cells 9.0.0中的公共API更改
+title: Aspose.Cells 9.0.0 中的公共 API 更改
 type: docs
 weight: 330
 url: /zh/net/public-api-changes-in-aspose-cells-9-0-0/
@@ -7,14 +7,14 @@ url: /zh/net/public-api-changes-in-aspose-cells-9-0-0/
 
 {{% alert color="primary" %}} 
 
-该文档描述了从版本8.9.2到9.0.0的Aspose.Cells API中可能对模块/应用程序开发人员感兴趣的更改。它不仅包括新的和更新的公共方法，添加和删除的类等，还包括对Aspose.Cells后台行为的任何更改的描述。
+本文档描述了从版本 8.9.2 到 9.0.0 的 Aspose.Cells API 变化，可能对模块/应用程序开发人员感兴趣。它不仅包括新的和更新的公共方法，添加和删除的类等，还描述了在 Aspose.Cells 后台行为中的任何更改。
 
 {{% /alert %}} 
-## **已添加API**
-### **新增Shape.TextOptions属性**
-Aspose.Cells for .NET已公开了Shape类的TextOptions属性，以控制Shape的文本部分的外观。
+## **添加的 API**
+### **添加了 Shape.TextOptions 属性**
+Aspose.Cells for .NET 已经为 Shape 类公开了 TextOptions 属性，以控制形状文本部分的外观。
 
-以下是Shape.TextOptions属性的简单使用场景。
+这里是 Shape.TextOptions 属性的简单使用场景。
 
 **C#**
 
@@ -49,14 +49,14 @@ textbox.TextOptions.IsItalic = true;
 {{< /highlight >}}
 
 
-### **新增LoadOptions.CultureInfo属性**
-Aspose.Cells for .NET 9.0.0已经公开了LoadOptions.CultureInfo属性，允许在加载文档到Workbook实例时注入CultureInfo实例。
+### **增加了 LoadOptions.CultureInfo 属性**
+Aspose.Cells for .NET 9.0.0 已经公开了 LoadOptions.CultureInfo 属性，允许在加载文档到 Workbook 的实例时注入 CultureInfo 的实例。
 
-以下是上述属性的简单用法场景。
+以下是上述属性的简单使用场景。
 
 {{% alert color="primary" %}} 
 
-查看[使用特定CultureInfo加载电子表格](/cells/zh/net/load-the-workbook-with-specific-system-culture-info/)上的详细文章。
+查看有关[使用特定CultureInfo加载电子表格](/cells/zh/net/load-the-workbook-with-specific-system-culture-info/)的详细文章。
 
 {{% /alert %}} 
 
@@ -87,14 +87,14 @@ var book = new Workbook(dir + "input.html", options);
 {{< /highlight >}}
 
 
-### **新增ChartPoint.IsInSecondaryPlot属性**
-Aspose.Cells for .NET已公开了ChartPoint.IsInSecondaryPlot属性，可用于检测ChartPoint是否位于饼图或条形图的辅助绘图上。
+### **添加了 ChartPoint.IsInSecondaryPlot 属性**
+Aspose.Cells for .NET 已经公开了 ChartPoint.IsInSecondaryPlot 属性，可用于检测饼图或条形图上的 ChartPoint 是否位于辅助绘图区域。
 
-以下是Shape.Line属性的简单用法场景。
+这里是 Shape.Line 属性的简单使用场景。
 
 {{% alert color="primary" %}} 
 
-查看[查找数据点是否位于第二个绘图上](/cells/zh/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/)上的详细文章。
+请查阅[查找数据点是否位于第二绘图上的详细文章](/cells/zh/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/)。
 
 {{% /alert %}} 
 
@@ -137,14 +137,14 @@ foreach (ChartPoint point in series.Points)
 {{< /highlight >}}
 
 
-### **新增OleObject.ClassIdentifier属性**
-Aspose.Cells for .NET 9.0.0已经公开了OleObject.ClassIdentifier属性，可用于指定加载OleObject的应用程序行为。例如，PPT文件可以嵌入到具有2个不同视图的电子表格中，即演示视图或幻灯片视图，而这两个视图具有不同的类标识符值。
+### **添加了OleObject.ClassIdentifier属性**
+Aspose.Cells for .NET 9.0.0 已经公开了 OleObject.ClassIdentifier 属性，可用于指定加载 OleObject 的应用程序行为。例如，PPT 文件可以嵌入在电子表格中，并具有两种不同的视图，即演示文稿视图或幻灯片视图，而两种视图具有不同的类标识值。
 
 以下是OleObject.ClassIdentifier属性的简单使用场景。
 
 {{% alert color="primary" %}} 
 
-查看[使用OleObject.ClassIdentifier](/cells/zh/net/get-or-set-the-class-identifier-of-the-embedded-ole-object/)上的详细文章。
+请查阅[使用 OleObject.ClassIdentifier 的详细文章](/cells/zh/net/get-or-set-the-class-identifier-of-the-embedded-ole-object/)。
 
 {{% /alert %}} 
 
@@ -267,24 +267,24 @@ if (classId != null)
 book.Save(dir  + "output.xls");
 
 {{< /highlight >}}
-## **已废弃的API**
-### **已过时的Worksheet.SetBackground方法**
-请改用Worksheet.BackgroundImage属性。
-### **已过时的LineShape.BeginArrowheadStyle和ArcShape.BeginArrowheadStyle属性**
-请改用Shape.Line.BeginArrowheadStyle属性作为替代。
-### **已过时的LineShape.EndArrowheadStyle和ArcShape.EndArrowheadStyle属性**
-请改用Shape.Line.EndArrowheadStyle属性作为替代。
-### **已过时的LineShape.BeginArrowheadWidth和ArcShape.BeginArrowheadWidth属性**
-请改用Shape.Line.BeginArrowheadWidth属性作为替代。
-### **已过时的LineShape.BeginArrowheadLength和ArcShape.BeginArrowheadLength属性**
-请改用Shape.Line.BeginArrowheadLength属性。
-### **弃用LineShape.EndArrowheadWidth和ArcShape.EndArrowheadWidth属性。**
-请改用Shape.Line.EndArrowheadWidth属性。
-### **弃用LineShape.EndArrowheadLength和ArcShape.EndArrowheadLength属性。**
-请改用Shape.Line.EndArrowheadLength属性。
-## **已删除的API**
-### **已删除的Worksheet.CopyConditionalFormatting方法**
-### **已删除的Workbook.CheckWriteProtectedPassword方法**
-## **API已重命名**
-### **已重命名的Workbook.RemoveDigitallySign方法**
-Workbook.RemoveDigitallySign方法已重命名为Workbook.RemoveDigitalSignature。
+## **已弃用的API**
+### **弃用了 Worksheet.SetBackground 方法**
+请使用Worksheet.BackgroundImage属性代替。
+### **已废弃LineShape.BeginArrowheadStyle & ArcShape.BeginArrowheadStyle 属性**
+请使用Shape.Line.BeginArrowheadStyle属性作为替代。
+### **已废弃LineShape.EndArrowheadStyle & ArcShape.EndArrowheadStyle 属性**
+请使用Shape.Line.EndArrowheadStyle属性作为替代。
+### **已废弃LineShape.BeginArrowheadWidth & ArcShape.BeginArrowheadWidth 属性**
+请使用Shape.Line.BeginArrowheadWidth属性作为替代。
+### **已废弃LineShape.BeginArrowheadLength & ArcShape.BeginArrowheadLength 属性**
+请使用Shape.Line.BeginArrowheadLength属性代替。
+### **已废弃LineShape.EndArrowheadWidth & ArcShape.EndArrowheadWidth 属性**
+请使用Shape.Line.EndArrowheadWidth属性代替。
+### **已废弃LineShape.EndArrowheadLength & ArcShape.EndArrowheadLength 属性**
+请使用Shape.Line.EndArrowheadLength属性代替。
+## **删除的API**
+### **删除了Worksheet.CopyConditionalFormatting方法**
+### **删除了Workbook.CheckWriteProtectedPassword方法**
+## **重命名的API**
+### **重命名为Workbook.RemoveDigitallySign方法**
+Workbook.RemoveDigitallySign方法已更名为Workbook.RemoveDigitalSignature。

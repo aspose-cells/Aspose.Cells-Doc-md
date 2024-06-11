@@ -1,5 +1,5 @@
 ---
-title: 在Aspose.Cells中进行渲染和打印
+title: 在Aspose.Cells中渲染和打印
 type: docs
 weight: 70
 url: /zh/net/rendering-and-printing-in-aspose-cells/

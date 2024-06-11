@@ -1,5 +1,5 @@
 ---
-title: Aspose.Cells 8.7.2版本的公共API更改
+title: Aspose.Cells 8.7.2中的公共API更改
 type: docs
 weight: 260
 url: /zh/java/public-api-changes-in-aspose-cells-8-7-2/
@@ -7,14 +7,14 @@ url: /zh/java/public-api-changes-in-aspose-cells-8-7-2/
 
 {{% alert color="primary" %}} 
 
-此文档描述了从版本8.7.1到8.7.2的Aspose.Cells API的更改，这可能会对模块/应用程序开发人员感兴趣。它不仅包括新的和更新的公共方法、添加和删除的类等，还包括对Aspose.Cells后台行为的任何更改的描述。
+本文档描述了从版本8.7.1到8.7.2的Aspose.Cells API的更改，这可能会对模块/应用程序开发人员感兴趣。它不仅包括新和更新的公共方法、添加和删除的类等，还描述了Aspose.Cells背后的行为中的任何变化。
 
 {{% /alert %}} 
-## **已添加API**
-### **扩展了默认的计算引擎**
-Aspose.Cells API具有强大的计算引擎，可以计算几乎所有Microsoft Excel函数。此外，Aspose.Cells API现在允许扩展默认计算引擎，以满足任何应用程序的自定义计算要求。
+## **添加的 API**
+### **扩展了默认计算引擎**
+Aspose.Cells API具有强大的计算引擎，可以计算几乎所有的Microsoft Excel函数。此外，Aspose.Cells API现在允许扩展默认计算引擎，以满足任何应用程序的定制计算要求。
 
-发布Aspose.Cells for Java 8.7.2后，已添加以下API。
+随着Aspose.Cells for Java 8.7.2的发布，以下API已添加。
 
 1. AbstractCalculationEngine类
 1. CalculationData类
@@ -22,17 +22,17 @@ Aspose.Cells API具有强大的计算引擎，可以计算几乎所有Microsoft 
 
 {{% alert color="primary" %}} 
 
-上述API允许实现自定义计算引擎，用于所有函数（包括Excel的原生函数），具有更大的灵活性。
+上述API允许为所有函数（包括Excel的原生函数）实现自定义计算引擎，具有更多的灵活性。
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
-有关此功能的更多详细信息，请查看[实现自定义计算引擎](/cells/zh/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)的详细文章。
+有关此功能的更多详细信息，请查看有关[实现自定义计算引擎](/cells/zh/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)的详细文章。
 
 {{% /alert %}} 
 
 以下是简单的使用场景。
 
-**Java**
+Java
 
 {{< highlight csharp >}}
 
@@ -62,17 +62,17 @@ Aspose.Cells API具有强大的计算引擎，可以计算几乎所有Microsoft 
 
 {{< /highlight >}}
 ### **为TextBoxCollection添加了重载的索引器**
-Aspose.Cells for Java 8.7.2已经公开了TextBoxCollection类的重载索引器，以便使用其名称作为字符串访问TextBox实例。
+Aspose.Cells for Java 8.7.2已公开了TextBoxCollection类的重载索引器，以便使用它的名称作为String来访问TextBox的实例。
 
 {{% alert color="primary" %}} 
 
-有关此功能的更多详细信息，请查看[使用其名称访问文本框](/cells/zh/java/access-the-text-box-by-the-name/)的详细文章。
+有关此功能的更多详细信息，请查看有关[通过名称访问TextBox](/cells/zh/java/access-the-text-box-by-the-name/)的详细文章。
 
 {{% /alert %}} 
 
 简单的使用场景如下。 
 
-**Java**
+Java
 
 {{< highlight csharp >}}
 

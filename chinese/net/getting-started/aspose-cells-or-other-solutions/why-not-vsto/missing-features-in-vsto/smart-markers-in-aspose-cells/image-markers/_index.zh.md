@@ -5,13 +5,13 @@ weight: 20
 url: /zh/net/image-markers/
 ---
 
-Aspose.Cells 智能标记还支持图像标记。本节介绍如何使用智能标记插入图片。
-## **图像参数**
-用于管理图像的智能标记参数。
+Aspose.Cells智能标记还支持图片标记。本节将向您展示如何使用智能标记插入图片。
+## **图片参数**
+管理图像的智能标记参数。
 
-- **Picture:FitToCell** - 将图像自适应到单元格的行高和列宽。
-- **Picture:ScaleN** - 按 N 百分比缩放高度和宽度。
-- **Picture:Width:Nin&Height:Nin** - 将图像渲染为 N 英寸高和 N 英寸宽。你也可以
+- **Picture:FitToCell** - 自动将图像适合到单元格的行高和列宽。
+- **Picture:ScaleN** - 将高度和宽度按N百分比缩放。
+- **Picture:Width:Nin&Height:Nin** - 将图像渲染为N英寸高和N英寸宽。您还可以指定左侧和顶部位置（以点为单位）。
   指定左侧和顶部位置（以点为单位）。
 
 {{< highlight csharp >}}

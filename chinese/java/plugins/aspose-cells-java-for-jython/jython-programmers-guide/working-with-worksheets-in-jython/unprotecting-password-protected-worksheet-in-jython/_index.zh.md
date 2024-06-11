@@ -1,14 +1,14 @@
 ---
-title: 在Jython中取消保护受密码保护的工作表
+title: 在 Jython 中去除受密码保护的工作表保护
 type: docs
 weight: 150
 url: /zh/java/unprotecting-password-protected-worksheet-in-jython/
 ---
 
 ## **Aspose.Cells - 追加文档**
-使用**Aspose.Cells Java for Jython**进行文档追加。这里您可以查看示例代码
+使用**Aspose.Cells Java for Jython**进行附加文档。这里可以看到示例代码。
 
-**Jython代码**
+**Jython 代码**
 
 {{< highlight java >}}
 
@@ -59,6 +59,6 @@ if __name__ == '__main__':
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下任何社交编码网站下载**追加文档（Aspose.Cells）**
+从以下任何社交编码网站下载**Append Documents (Aspose.Cells)**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/UnprotectingPasswordProtectedWorksheet.py)

@@ -1,5 +1,5 @@
 ---
-title: 识别自封闭标记
+title: 识别自关闭标记
 type: docs
 weight: 120
 url: /zh/java/recognise-self-closing-tags/

@@ -1,5 +1,5 @@
 ---
-title: 在VSTO和Aspose.Cells中包装单元格文本
+title: 在VSTO和Aspose.Cells中包裹单元格文本
 type: docs
 weight: 250
 url: /zh/net/wrapping-cell-text-in-vsto-and-aspose-cells/
@@ -11,18 +11,18 @@ url: /zh/net/wrapping-cell-text-in-vsto-and-aspose-cells/
    1. 创建一个工作簿。
    1. 访问第一个工作表。
 1. 添加文本： 
-   1. 向A1单元格添加文本。
-   1. 向A5单元格添加包装文本。
+   1. 添加文本到A1单元格。
+   1. 在A5单元格中添加包裹文本。
 1. 保存电子表格。
-   以下代码示例显示了如何使用VSTO执行这些步骤，使用C#。 立即在下方使用C#展示如何使用Aspose.Cells for .NET执行相同操作的代码示例。
+   下面的代码示例展示了使用VSTO和C#执行这些步骤的方法。紧接着的代码示例展示了如何使用Aspose.Cells for .NET再次使用C#执行同样的事情。
 
-运行代码将生成一个包含两个单元格的电子表格，一个包含未换行的文本，一个包含换行文本：
+运行该代码会生成一个电子表格，其中包括两个单元格，一个包含未换行的文本，另一个包含:
 
-## **使用VSTO Excel输出**
+## **使用VSTO Excel的输出**
 
 ![todo:image_alt_text](picture1.png)
 
-## **使用Aspose.Cells for .NET输出**
+## **使用Aspose.Cells for .NET的输出**
 
 ![todo:image_alt_text](picture2.png)
 

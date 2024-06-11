@@ -6,9 +6,9 @@ url: /zh/java/convert-workbook-to-html-using-aspose-cells/
 ---
 
 ## **Aspose.Cells - 将工作簿转换为HTML**
-Aspose.Cells API提供了将电子表格导出为HTML格式的支持。为此, **Aspose.Cells**使用 **HtmlSaveOptions** 类，允许开发人员控制输出HTML的多个方面。
+Aspose.Cells的API支持将电子表格导出为HTML格式。为此，**Aspose.Cells**使用**HtmlSaveOptions**类，该类允许开发人员控制输出HTML的多个方面。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -33,6 +33,6 @@ book.save(dataDir + "AsposeHTMLSpreadsheet.html", save);
 
 {{% alert color="primary" %}} 
 
-有关更多详细信息，请访问[将Excel文件转换为HTML](/cells/zh/java/converting-workbook-to-different-formats/)
+更多详情，请访问[将Excel文件转换为HTML](/cells/zh/java/converting-workbook-to-different-formats/)。
 
 {{% /alert %}}

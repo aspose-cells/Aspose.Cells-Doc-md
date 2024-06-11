@@ -1,32 +1,32 @@
 ---
-title: 在VSTO和Aspose.Cells中的工作表中为单元格添加边框
+title: 在VSTO和Aspose.Cells中的工作表中添加单元格边框
 type: docs
 weight: 10
 url: /zh/net/add-borders-to-cells-in-a-worksheet-in-vsto-and-aspose-cells/
 ---
 
-要向电子表格中的单元格添加边框，请执行以下步骤：
+要在电子表格中添加单元格边框，执行以下步骤：
 
 1. 设置工作表： 
    1. 实例化一个应用程序对象（仅限VSTO）
-   1. 添加一个工作簿
+   1. 添加工作簿
    1. 获取第一个工作表
    1. 向要添加边框的单元格添加文本
-1. 添加边框： 
+1. 添加边框: 
    1. 定义一个区域
-   1. 将边框样式应用于该区域
-   1. 对每个区域和希望设置的每种边框样式重复此操作。 本示例应用了细边线、细线、中线和粗线
-1. 完成： 
-   1. 调整单元格所在列的宽度，以使文本整齐地适合
+   1. 将边框样式应用于区域
+   1. 对每个区域和要设置的每个边框样式重复。此示例应用了细线、细线、中等线和粗线
+1. 完成: 
+   1. 将包含单元格的列自适应地调整到整洁的文本
    1. 保存文档
 
-以下代码显示了这些步骤。 首先的代码示例展示了如何使用C#或Visual Basic在VSTO中实现它们。 在VSTO示例之后，有示例显示如何使用Aspose.Cells for .NET执行相同的步骤，同样使用C#或Visual Basic。 Aspose.Cells的代码示例要短得多，因为Aspose.Cells经过了有效编码优化。
+下面显示了执行这些步骤的代码。首先的代码示例显示了如何使用 VSTO 和C#或Visual Basic 实现这些步骤。在 VSTO 示例之后，是示例显示了如何使用 Aspose.Cells for .NET 执行相同步骤，同样使用C#或Visual Basic。Aspose.Cells 的代码示例要短得多，因为 Aspose.Cells 针对高效编码进行了优化。
 
-该代码生成一个包含第一个工作表上多个具有不同边框的单元格的Excel文件：
+该代码生成具有不同边框的第一个工作表上的一些单元格的Excel文件:
 
 ![todo:image_alt_text](picture1.png)
 
-应用了边框的单元格
+应用了边框的单元格。
 ## **VSTO**
 {{< highlight csharp >}}
 

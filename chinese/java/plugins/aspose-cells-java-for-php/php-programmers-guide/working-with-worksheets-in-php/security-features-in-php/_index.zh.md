@@ -5,7 +5,7 @@ weight: 40
 url: /zh/java/security-features-in-php/
 ---
 
-**本节包括以下主题：**
+**本部分包括以下主题:**
 
-- [在PHP中保护工作表](/cells/zh/java/protecting-worksheets-in-php/)
-- [在PHP中取消保护工作表](/cells/zh/java/unprotect-a-worksheet-in-php/)
+- [在Php中保护工作表](/cells/zh/java/protecting-worksheets-in-php/)
+- [在Php中取消保护工作表](/cells/zh/java/unprotect-a-worksheet-in-php/)

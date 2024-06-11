@@ -1,5 +1,5 @@
 ---
-title: 在插入单元格数据表行时将第一行下移
+title: 在插入单元格数据表行时向下移动第一行
 type: docs
 weight: 180
 url: /zh/java/shift-first-row-down-when-inserting-cells-data-table-rows/
@@ -7,13 +7,13 @@ url: /zh/java/shift-first-row-down-when-inserting-cells-data-table-rows/
 
 ## **可能的使用场景**
 
-Aspose.Cells允许在将表格插入工作表时将第一行向下移动。本文档解释了如何使用Aspose.Cells API完成此任务。
+Aspose.Cells允许在将表插入工作表时将第一行向下移动。本文档说明了如何使用Aspose.Cells API来完成此任务。
 
-## **在插入单元格数据表行时将第一行下移**
+## **将单元格数据表行插入时将第一行向下移动**
 
-以下示例代码演示了在将表格插入工作表时如何将第一行向下移动。我们在代码中使用一个简单的模板Excel文件来演示该特性。您可以通过将布尔[**ImportTableOptions.ShiftFirstRowDown**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#ShiftFirstRowDown)属性设置为**True/False**来练习该特性。请参阅[示例Excel文件](45056043.xlsx)，[输出的False Excel文件](45056044.xlsx)和[输出的True Excel文件](45056045.xlsx)供您参考。
+以下示例代码演示了如何在插入表到工作表时，将第一行向下移动。我们在代码中使用了一个简单的模板Excel文件来演示此功能。您可以通过设置布尔[**ImportTableOptions.ShiftFirstRowDown**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#ShiftFirstRowDown)属性为**True/False**来练习此功能，以更好地理解它。请参阅 [示例Excel文件](45056043.xlsx)，[输出Excel False文件](45056044.xlsx)，和 [输出Excel True文件](45056045.xlsx) 进行参考。
 
-## **截图**
+## **屏幕截图**
 
 ![todo:image_alt_text](shift-first-row-down-when-inserting-cells-data-table-rows_1.png)
 

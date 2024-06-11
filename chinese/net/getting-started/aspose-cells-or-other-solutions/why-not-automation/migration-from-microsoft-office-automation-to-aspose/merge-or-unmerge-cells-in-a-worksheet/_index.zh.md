@@ -1,5 +1,5 @@
 ---
-title: 合并或取消合并工作表中的单元格
+title: 在工作表中合并或取消合并单元格
 type: docs
 weight: 40
 url: /zh/net/merge-or-unmerge-cells-in-a-worksheet/
@@ -7,17 +7,17 @@ url: /zh/net/merge-or-unmerge-cells-in-a-worksheet/
 
 {{% alert color="primary" %}}
 
-在处理工作表时，您经常需要在单元格中创建一个跨越工作表顶部的标题/标题。您可能正在创建发票，并且想要较少列用于总值或汇总值。当您要将两个或多个单元格合并为一个单元格时，合并这些单元格。我们使用 VSTO 和 Aspose.Cells for .NET 独立执行该任务。
+在处理工作表时，您经常需要在跨越工作表顶部的单元格中创建标题/标题。您可能正在创建一份发票，并希望使用较少的列来显示总价或汇总值。当您想将两个或更多单元格合并为一个单元格时，您可以合并单元格。我们将使用VSTO和Aspose.Cells for .NET独立完成此任务。
 
 {{% /alert %}}
 
 ## **描述**
 
-打开现有的Excel文件，在工作簿的第一个工作表中合并一些单元格，并保存Excel文件。
+打开现有的 Excel 文件，在工作簿的第一个工作表中合并一些单元格，然后保存 Excel 文件。
 
 ## **合并单元格**
 
-以下是 VSTO（C＃，VB）和 Aspose.Cells for .NET（C＃，VB）的并行代码片段。
+以下是VSTO（C#，VB）和Aspose.Cells for .NET（C#，VB）的并行代码片段。
 
 ### **1) VSTO**
 
@@ -125,7 +125,7 @@ workbook.Save(@"d:\test\MyBook.xls");
 
 ## **取消合并单元格**
 
-要取消合并单元格，使用以下代码行进行 [VSTO](/cells/zh/net/inserting-and-removing-cell-comments-in-a-worksheet/)（C＃，VB）和 [Aspose.Cells for .NET](/cells/zh/net/inserting-and-removing-cell-comments-in-a-worksheet/)（C＃，VB）。
+要取消合并单元格，请使用以下行的VSTO（C#，VB）和Aspose.Cells for .NET（C#，VB）的代码。
 
 ### **1) VSTO**
 

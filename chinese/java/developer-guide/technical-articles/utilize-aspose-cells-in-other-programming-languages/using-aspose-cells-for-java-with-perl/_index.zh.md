@@ -1,5 +1,5 @@
 ---
-title: 使用 Aspose.Cells for Java 与 Perl
+title: 使用 Java 组件 Aspose.Cells for Java 和 Perl
 type: docs
 weight: 30
 url: /zh/java/using-aspose-cells-for-java-with-perl/
@@ -7,24 +7,24 @@ url: /zh/java/using-aspose-cells-for-java-with-perl/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Java 是一个纯 Java 组件，可以与 Perl 一起使用。使用该组件与在 Perl 中调用其他常见的 Java API 相同。要在 Perl 中调用任何 Java 库，首先需要为 Perl 安装 Java-Perl 扩展。这是访问 JVM 所必需的。
+Aspose.Cells for Java 是一个纯Java组件，可以与Perl一起使用。 使用该组件与在Perl中调用其他常见的Java API相同。 要在Perl中调用任何Java库，首先需要为Perl安装Java-Perl扩展。 这是访问JVM所需的。
 
 {{% /alert %}} 
-## **所需软件和库**
+## **需要的软件和库**
 需要以下软件和库。 
 
 - Perl。
 - Aspose.Cells for Java。
 - Java - Perl 扩展。
-- 满足 Aspose.Cells for Java 和 Java-Perl 扩展要求的 Java 运行时。
+- 符合 Aspose.Cells for Java 和 Java-Perl 扩展的Java运行时。
 ### **指南**
-要在 Perl 中调用 Java API，您需要先为 Perl 安装 Java-Perl 扩展。(在本文中，我们假设 Perl 已安装并设置正确。) 您可以从 [Metzzo/Java-4.7/](https://metacpan.org/release/METZZO/Java-4.7) 获取 Java-Perl 扩展。
+要在 Perl 中调用 Java API，首先需要为 Perl 安装 Java-Perl 扩展。（对于本文，假设 Perl 已被正确安装和设置。）您可以从[Metzzo/Java-4.7/](https://metacpan.org/release/METZZO/Java-4.7)获取 Java-Perl 扩展。
 
-本文档末尾附有一个调用 Aspose.Cells for Java 的示例 Perl 脚本。要运行它，请按以下步骤操作： 
+在本文档末尾，有一个调用Aspose.Cells for Java的Perl脚本示例。 要运行它，请按照以下步骤进行： 
 
-1. 下载文件 Java-4.7.tar.gz 并解压到本地驱动器。
-1. 为 Perl 安装该软件包。
-1. 启动 JavaServer。命令为： 
+1. 下载文件 Java-4.7.tar.gz 并将其解压缩到本地驱动器。
+1. 为 Perl 安装此软件包。
+1. 启动 JavaServer。命令将是： 
 
 {{< highlight java >}}
 
@@ -32,17 +32,17 @@ Aspose.Cells for Java 是一个纯 Java 组件，可以与 Perl 一起使用。�
 
 {{< /highlight >}}
 
-其中...是类路径，必须包含应用程序所需的所有库。 
+其中...是必须包括应用程序所需的所有库的类路径。 
 
-要使用 Aspose.Cells for Java，应至少包含两个 JAR 文件： 
+要使用 Aspose.Cells for Java，至少应包含两个JAR文件： 
 
-1. 来自 Aspose.Cells for Java 的 **Aspose.Cells.jar**
+1. **Aspose.Cells.jar** 来自 Aspose.Cells for Java
 1. 来自 Java-4.7.tar.gz 的 **JavaServer.jar**
-1. 运行调用 Aspose.Cells for Java API 的 Perl 脚本。
+1. 运行调用 Aspose.Cells for Java API 的Perl脚本。
 
 For more information on how to work with Java in Perl, see documentation of Java - Perl extension at <https://metacpan.org/release/METZZO/Java-4.7>
 
-**Java**
+Java
 
 {{< highlight csharp >}}
 

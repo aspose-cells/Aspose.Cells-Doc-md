@@ -1,5 +1,5 @@
 ---
-title: 在 Ruby 中显示或隐藏滚动条
+title: 在Ruby中显示或隐藏滚动条
 type: docs
 weight: 30
 url: /zh/java/display-or-hide-scroll-bars-in-ruby/
@@ -9,7 +9,7 @@ url: /zh/java/display-or-hide-scroll-bars-in-ruby/
 ### **隐藏滚动条**
 要使用**Aspose.Cells Java for Ruby**隐藏滚动条，请调用**displayhidescrollbars**模块。
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 
@@ -34,10 +34,10 @@ workbook.save(data_dir + "output.xls")
 puts "Scroll Bars are now hidden, please check the output file."
 
 {{< /highlight >}}
-### **使滚动条可见**
-通过将**Workbook**类的**setVerticalScrollBarHidden()**或**setHorizontalScrollBarHidden()**方法设置为true，使滚动条可见。
+### **显示滚动条**
+通过将Workbook类的setVerticalScrollBarHidden()或setHorizontalScrollBarHidden()方法设置为true，使滚动条可见。
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 
@@ -51,6 +51,6 @@ workbook.getSettings().setHScrollBarVisible(true)
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下社交编码网站之一下载**显示或隐藏滚动条（Aspose.Cells）**。
+从以下提到的任何社交编码站点下载**Display or Hide Scroll Bars (Aspose.Cells)**。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhidescrollbars.rb)

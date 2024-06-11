@@ -1,5 +1,5 @@
 ---
-title: Aspose.Cells 8.0.2 中的公共 API 更改
+title: Aspose.Cells 8.0.2中的公共API变更
 type: docs
 weight: 40
 url: /zh/java/public-api-changes-in-aspose-cells-8-0-2/
@@ -7,13 +7,13 @@ url: /zh/java/public-api-changes-in-aspose-cells-8-0-2/
 
 {{% alert color="primary" %}} 
 
-本文描述了从版本 8.0.1 到 8.0.2 的 Aspose.Cells API 更改，这可能对模块/应用程序开发人员感兴趣。它不仅包括新的和更新的公共方法，还包括任何可能影响 Aspose.Cells 幕后行为的更改描述。
+这份文档描述了从版本8.0.1到8.0.2的Aspose.Cells API的变更，这些变更可能会对模块/应用程序开发人员感兴趣。其中包括不仅有新的和更新的公共方法，还描述了在Aspose.Cells背后的行为中的任何变化的说明。
 
 {{% /alert %}} 
-## **向 Shape 类添加了 TextDirection 属性**
-Shape 类已公开 TextDirection 属性，用于获取或设置形状对象的文本流方向。TextDirection 属性还可用于为电子表格中的注释设置所需的文本方向，如下所示。
+## **在Shape类中添加了TextDirection属性**
+Shape类已公开了TextDirection属性，用于获取或设置Shape对象的文本流方向。TextDirection属性也可用于设置电子表格中注释的所需文本方向，如下所示。
 
-**Java**
+Java
 
 {{< highlight csharp >}}
 
@@ -52,10 +52,10 @@ comment.setNote("This is my Comment Text. This is test");
 book.save(myDir + "output.xlsx");
 
 {{< /highlight >}}
-## **向 HTMLLoadOptions 类添加了 ConvertFormulasData 属性**
-已向 HTMLLoadOptions 类添加了 ConvertFormulasData 属性，以便开发人员从 HTML 文件加载 Excel 公式。布尔型 ConvertFormulasData 属性指示是否在字符串值以字符 '=' 开头时将其转换为公式。
+## **已添加ConvertFormulasData属性到HTMLLoadOptions类**
+已添加ConvertFormulasData属性到HTMLLoadOptions类，以方便开发人员从HTML文件加载Excel公式。布尔型ConvertFormulasData属性指示当字符串值以'='字符开头时，是否将其转换为公式。
 
-**Java**
+Java
 
 {{< highlight csharp >}}
 
@@ -77,10 +77,10 @@ Workbook workbook = new Workbook(myDir + "spreadsheet.html", loadOptions);
 
 {{% alert color="primary" %}} 
 
-ConvertFormulasData 属性的默认值为 false。
+ConvertFormulasData属性的默认值为false。
 
 {{% /alert %}}
-## **向 HtmlSaveOptions 类添加了 ImageOptions 属性**
-已向 HtmlSaveOptions 类添加了 ImageOptions 属性。公开 ImageOptions 属性使开发人员能够设置导出电子表格时嵌入在 HTML 中的图像的首选项。 
-## **标记为过时的 HtmlSaveOptions.ExportChartImageFormat 属性**
-自 Aspose.Cells for .NET 8.0.2 起，HtmlSaveOptions.ExportChartImageFormat 已经被标记为过时。建议在将电子表格导出为 HTML 格式时使用 HtmlSaveOptions.ImageOptions 来设置图像格式设置。
+## **已添加ImageOptions属性到HtmlSaveOptions类**
+已添加ImageOptions属性到HtmlSaveOptions类。公开ImageOptions属性使开发人员能够设置导出电子表格到HTML时嵌入图像的偏好设置。 
+## **已废弃HtmlSaveOptions.ExportChartImageFormat属性**
+从Aspose.Cells for .NET 8.0.2开始，HtmlSaveOptions.ExportChartImageFormat已被标记为过时。建议在将电子表格导出为HTML格式时使用HtmlSaveOptions.ImageOptions进行图像格式设置。

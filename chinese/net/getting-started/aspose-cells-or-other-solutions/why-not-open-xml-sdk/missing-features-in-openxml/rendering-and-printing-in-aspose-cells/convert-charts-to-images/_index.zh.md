@@ -1,12 +1,12 @@
 ---
-title: 将图表转换为图片
+title: 将图表转换为图像
 type: docs
 weight: 10
 url: /zh/net/convert-charts-to-images/
 ---
 
-**图表**富有视觉吸引力，使用户能够轻松地查看数据中的比较、模式和趋势。例如，您可以一眼看出销售额在季度期间是下降还是上升，或者实际销售额与预期销售额之间的比较。有时，您确实需要在应用程序或网页中呈现图表。您可能需要将其插入到Word文档、PDF文件、Power Point演示文稿或在其他某些场景中。您可能希望图表被呈现为图片，以便轻松地粘贴到您的应用程序中。图片具有价值。在工作过程中，人们经常需要以易于理解和易于维护的方式呈现统计和图形信息。您可能会尝试Office自动化，但Office自动化也有其缺点。涉及几个原因和问题：例如，安全性、稳定性、可扩展性/速度、价格、功能等。简而言之，有很多原因，其中最主要的原因是Microsoft强烈建议不要从软件解决方案中进行Office自动化：Office的服务器端自动化需求。还有另一个选项，您可以使用**Aspose.Cells**将Excel图表转换为图片。
-## **将图表转换为EMF格式**
+**图表**具有视觉吸引力，并且使用户可以轻松查看数据的比较、模式和趋势。例如，与其分析几列工作表中的数字，您可以一眼看出销售额在季度期间是下降还是上升，或者实际销售额与预期销售额的比较如何。有时候，您确实需要在应用程序或网页中呈现图表。您可能需要将其插入到 Word 文档、PDF 文件、Power Point 演示文稿或其他一些场景中。您希望图表应该作为图像呈现，这样您就可以轻松地将其粘贴到您的应用程序中。图片是非常重要的。在工作过程中，人们经常需要以易于理解和易于维护的方式呈现统计和图形信息。您可能尝试使用 Office 自动化，但 Office 自动化有自身的缺点。涉及了几个原因和问题：例如，安全性、稳定性、可扩展性/速度、价格、功能等。简而言之，有许多原因，其中最重要的一个原因是 Microsoft 强烈建议不要从软件解决方案进行服务器端 Office 自动化。还有另一种选择，您可以使用 **Aspose.Cells** 将 Excel 图表转换为图像。
+## **将图表转换为 EMF**
 {{< highlight csharp >}}
 
  //Instantiating a Workbook object
@@ -65,7 +65,7 @@ chart.ToImage(MyDir + "Chart to EMF Image.Emf", System.Drawing.Imaging.ImageForm
 
 
 {{< /highlight >}}
-## **将图表转换为BMP格式**
+## **将图表转换为 BMP**
 {{< highlight csharp >}}
 
  //Instantiating a Workbook object
@@ -123,7 +123,7 @@ chart.NSeries.Add("A1:B3", true);
 chart.ToImage(MyDir + "Chart to BMP Image.Bmp", System.Drawing.Imaging.ImageFormat.Bmp);
 
 {{< /highlight >}}
-## **将图表转换为JPEG格式**
+## **将图表转换为 JPEG**
 {{< highlight csharp >}}
 
  //Instantiating a Workbook object

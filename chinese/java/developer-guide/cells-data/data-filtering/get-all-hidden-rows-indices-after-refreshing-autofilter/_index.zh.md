@@ -1,5 +1,5 @@
 ---
-title: 刷新AutoFilter后获取所有隐藏行索引
+title: 在刷新AutoFilter后获取所有隐藏行索引
 type: docs
 weight: 240
 url: /zh/java/get-all-hidden-rows-indices-after-refreshing-autofilter/
@@ -7,11 +7,11 @@ url: /zh/java/get-all-hidden-rows-indices-after-refreshing-autofilter/
 
 ## **可能的使用场景**
 
-当您在工作表单元格上应用自动筛选时，有些行会自动隐藏。但可能情况是，一些行已经被Excel最终用户手动隐藏，它们并不是自动筛选隐藏的。因此，难以知道哪些行是自动筛选隐藏的，哪些是由Excel最终用户手动隐藏的。Aspose.Cells使用int[] [**AutoFilter.refresh(bool hideRows)**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#refresh(boolean))方法来解决这个问题。这个方法返回所有被自动筛选隐藏而不是由Excel最终用户手动隐藏的行的行索引。
+当您在工作表单元格上应用自动筛选时，有些行会被自动隐藏。但可能会出现这样的情况，即一些行已被Excel最终用户手动隐藏，而这些行并未被自动筛选隐藏。因此，很难知道哪些行是由自动筛选隐藏的，哪些是由Excel最终用户手动隐藏的。Aspose.Cells使用 int[] [**AutoFilter.refresh(bool hideRows)**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#refresh(boolean)) 方法处理这个问题。此方法返回由自动筛选隐藏而不是由Excel最终用户手动隐藏的所有行的行索引。
 
-## **刷新AutoFilter后获取所有隐藏行索引**
+## **在刷新自动筛选后获取所有隐藏行索引**
 
-请参阅以下示例代码，该代码加载了包含一些由Excel最终用户手动隐藏的行的 [样本Excel文件](64716913.xlsx)。代码应用了自动筛选功能并使用int[] [**AutoFilter.refresh(bool hideRows)**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#refresh(boolean))方法来刷新它，该方法返回所有被自动筛选隐藏的行的行索引。然后在控制台上打印了隐藏行的索引以及单元格的名称和值。
+请参阅以下示例代码，加载包含一些由Excel最终用户手动隐藏的行的 [sample Excel file](64716913.xlsx)。该代码应用自动筛选并使用 int[] [**AutoFilter.refresh(bool hideRows)**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#refresh(boolean)) 方法刷新它，该方法返回由自动筛选隐藏的所有行的行索引。然后，它在控制台上打印出隐藏行的索引以及单元格名称和值。
 
 ## **示例代码**
 

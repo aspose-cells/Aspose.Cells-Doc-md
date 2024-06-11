@@ -6,9 +6,9 @@ url: /zh/net/set-print-area/
 ---
 
 ## **Aspose.Cells - 设置打印区域**
-默认情况下，打印区域仅包含包含数据的工作表所有区域。开发人员可以为工作表设定特定打印区域。
+默认情况下，只有打印区域包括所有包含数据的工作表区域。开发人员可以为工作表设定特定的打印区域。
 
-要选择特定的打印区域，请使用[PageSetup](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)类的PrintArea属性。将定义打印区域的单元格范围分配给此属性。
+要选择特定的打印区域，请使用[PageSetup](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)类的PrintArea属性。将定义打印区域的单元格范围分配给此属性
 
 **C#**
 
@@ -62,7 +62,7 @@ workbook.Save("test.xlsx");
 
 {{< /highlight >}}
 ## **NPOI - HSSF XSSF - 设置打印区域**
-Workbook.setPrintArea方法可用于设置打印区域的页面属性。
+Workbook.setPrintArea方法可用于设置打印区域的页面属性
 
 **C#**
 
@@ -125,12 +125,12 @@ sw.Close();
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下社交编码网站之一下载**设置打印区域**：
+从下面提到的任何社交编码网站下载**设置打印区域**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Set.Print.Area.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
-有关更多详细信息，请访问[设置打印选项](/cells/zh/net/setting-print-options/)。
+要了解更多详细信息，请访问[设置打印选项](/cells/zh/net/setting-print-options/)。
 
 {{% /alert %}}

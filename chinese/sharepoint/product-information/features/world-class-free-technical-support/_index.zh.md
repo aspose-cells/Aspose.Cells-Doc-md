@@ -1,5 +1,5 @@
 ---
-title: 世界级免费技术支持
+title: 世界一流的免费技术支持
 type: docs
 weight: 20
 url: /zh/sharepoint/world-class-free-technical-support/
@@ -7,7 +7,7 @@ url: /zh/sharepoint/world-class-free-technical-support/
 
 {{% alert color="primary" %}}
 
-Aspose以提供由产品开发人员直接提供的免费和无限技术支持而闻名。如果新版本产品可用，或者解决问题导致修复，所有新版本都可免费获取，只要您有活动订阅。
+Aspose 以其产品开发人员直接提供的免费无限技术支持而闻名。如果有产品的新版本可用，或者解决问题导致修复，只要您拥有有效的订阅，所有新发布的版本均可免费获取。
 
 {{% /alert %}}
 
@@ -15,16 +15,16 @@ Aspose以提供由产品开发人员直接提供的免费和无限技术支持�
 
 #### **论坛**
 
-[Aspose的支持论坛](https://forum.aspose.com/)不仅是解决技术问题的地方，还是与活跃和不断增长的Aspose用户社区进行讨论的地方。目前有超过190,000名用户在Aspose网站注册。
+[Aspose 的支持论坛](https://forum.aspose.com/)不仅是解决技术问题的地方，还是与充满活力和不断发展的 Aspose 用户社区参与讨论的地方。目前，Aspose 网站注册用户超过 190,000 人。
 
 #### **博客**
 
-[Aspose博客](https://blog.aspose.com/)提供关于最新版本和Aspose开发人员观点的信息。
+[Aspose.Blogs](https://blog.aspose.com/) 是了解最新发布信息以及 Aspose 开发人员的见解的地方。
 
-#### **需要更多支持吗？**
+#### **需要更多支持吗?**
 
-Aspose为所有用户提供免费支持。对于希望优先处理问题或想改变我们产品开发路线的公司，提供[高级支持选项](https://helpdesk.aspose.com/kb/faq/2-Developer-Business-Support-Key-Benefits-Conditions)，如优先支持和企业支持。
+Aspose 为所有用户提供免费支持。对于希望他们的问题得到优先处理或者希望影响我们产品开发路线图的公司，有[高级支持选项](https://helpdesk.aspose.com/kb/faq/2-Developer-Business-Support-Key-Benefits-Conditions)如优先支持和企业支持。
 
-**Aspose.Support论坛上有大量的活动。**
+**Aspose.Support 论坛上有很多活动。**
 
 ![todo:image_alt_text](world-class-free-technical-support_1.png)

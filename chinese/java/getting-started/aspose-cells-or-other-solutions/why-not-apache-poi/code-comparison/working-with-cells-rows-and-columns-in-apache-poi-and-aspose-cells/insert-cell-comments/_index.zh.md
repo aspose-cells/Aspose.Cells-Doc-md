@@ -7,9 +7,9 @@ url: /zh/java/insert-cell-comments/
 
 ## **Aspose.Cells - 插入单元格注释**
 
-通过调用Shapes集合的addComments方法(封装在Worksheet对象中)向单元格添加注释。可以通过传递注释索引从Comments集合中访问新的Comment对象。访问Comment对象后，可以使用Comment对象的setNote方法自定义注释内容。
+通过调用 Shapes 集合的 addComments 方法(封装在 Worksheet 对象中)向单元格添加注释。可以通过传递注释索引从 Comments 集合中访问新的 Comment 对象。访问 Comment 对象后，可以使用 Comment 对象的 setNote 方法自定义注释说明。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -31,11 +31,11 @@ comment.setNote("Hello Aspose!");
 
 {{< /highlight >}}
 
-## **Apache POI SS - HSSF＆XSSF - 插入单元格注释**
+## **Apache POI SS - HSSF & XSSF - 插入单元格注释**
 
-以下示例显示了如何使用Apache POI API插入注释
+下面的示例显示了如何使用 Apache POI API 插入注释。
 
-**Java**
+Java
 
 {{< highlight java >}}
 

@@ -7,18 +7,18 @@ url: /zh/java/create-pdfbookmarkentry-for-chart-sheet/
 
 ## **可能的使用场景**
 
-此前，Aspose.Cells将为普通工作表创建[**PdfBookmarkEntry**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry)。但现在Aspose.Cells还可以为图表工作表创建[**PdfBookmarkEntry**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry) 因为图表工作表除了单元格A1外没有其他单元格，因此它将为单元格A1创建[**PdfBookmarkEntry**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry)。
+以往，Aspose.Cells 会为普通工作表创建 [**PdfBookmarkEntry**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry)，但现在还可以为图表工作表创建 [**PdfBookmarkEntry**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry)。因为图表工作表除了 A1 单元格外没有其他单元格，所以它将为 A1 单元格创建 [**PdfBookmarkEntry**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry)。
 
 ## **为图表工作表创建PdfBookmarkEntry**
 
-以下示例代码加载了[sample Excel file](61767772.xlsx)，其中有四个工作表。其中两个是普通工作表，另外两个是图表工作表。它创建了四个书签条目，如下所示
+以下示例代码加载了一个具有四个工作表的 [示例 Excel 文件](61767772.xlsx)。其中两个是普通工作表，另外两个是图表工作表。它创建四个书签条目如下
 
-- 书签-I
-- 书签-II-图表1
-- 书签-III
-- 书签-IV-图表2
+- 书签I
+- 书签II-Chart1
+- 书签III
+- 书签IV-Chart2
 
-以下截图显示了示例代码生成的[输出PDF](61767771.pdf)。
+以下截图显示了由示例代码生成的 [输出 PDF](61767771.pdf) 供参考。
 
 ![todo:image_alt_text](create-pdfbookmarkentry-for-chart-sheet_1.png)
 

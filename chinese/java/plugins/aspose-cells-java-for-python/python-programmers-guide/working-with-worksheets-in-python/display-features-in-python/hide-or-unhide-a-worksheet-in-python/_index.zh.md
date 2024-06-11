@@ -1,5 +1,5 @@
 ---
-title: 在 Python 中隐藏或显示工作表
+title: 在Python中隐藏或取消隐藏工作表
 type: docs
 weight: 50
 url: /zh/java/hide-or-unhide-a-worksheet-in-python/
@@ -7,7 +7,7 @@ url: /zh/java/hide-or-unhide-a-worksheet-in-python/
 
 ## **Aspose.Cells - 隐藏或取消隐藏工作表**
 ### **隐藏工作表**
-要使用Aspose.Cells Java for Ruby隐藏工作表，请调用**hideunhideworksheet**模块。
+通过Aspose.Cells Java for Ruby使用**hideunhideworksheet**模块来隐藏工作表。
 
 **Python 代码**
 
@@ -35,7 +35,7 @@ print "Worksheet 1 is now hidden, please check the output document."
 
 {{< /highlight >}}
 ### **显示工作表**
-开发人员可以通过设置**Worksheet**类的*setVisible(* *true* *)*方法来使工作表可见。
+开发者可以通过设置**Worksheet**类的*setVisible(* *true* *)*方法来使工作表可见。
 
 **Python 代码**
 
@@ -47,6 +47,6 @@ worksheet.setVisible(true)
 
 {{< /highlight >}}
 ## **下载运行代码**
-在下面任何社交编码网站下载 **Hide or Unhide a Worksheet (Aspose.Cells)**：
+从以下任何社交编码网站下载**隐藏或取消隐藏工作表 (Aspose.Cells)**。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

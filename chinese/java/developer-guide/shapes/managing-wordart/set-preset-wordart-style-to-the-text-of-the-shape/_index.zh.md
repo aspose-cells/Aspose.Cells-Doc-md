@@ -1,14 +1,14 @@
 ---
-title: 将预设的 WordArt 样式设置为形状的文本
+title: 将文本形状的文字设置为预设的WordArt样式
 type: docs
 weight: 1000
 url: /zh/java/set-preset-wordart-style-to-the-text-of-the-shape/
 ---
 
 ## **可能的使用场景**
-您可以使用Aspose.Cells为形状的文本设置预设的WordArt样式。请使用[FontSetting.SetWordArtStyle()](https://reference.aspose.com/cells/java/com.aspose.cells/fontsetting#setWordArtStyle\(int\))或[FontSettingCollection.SetWordArtStyle()](https://reference.aspose.com/cells/java/com.aspose.cells/fontsettingcollection#setWordArtStyle\(int\))方法。
-## ** 将预设的 WordArt 样式设置为形状的文本**
-以下示例代码创建一个带有一些文本的文本框，然后使用[FontSetting.SetWordArtStyle()](https://reference.aspose.com/cells/java/com.aspose.cells/fontsetting#setWordArtStyle\(int\))方法设置其文本的预设WordArt样式。这是在Microsoft Excel中查看[输出的Excel文件](5472538.xlsx)的方式。
+您可以使用Aspose.Cells为文本形状设置预设的WordArt样式。请使用[FontSetting.SetWordArtStyle()](https://reference.aspose.com/cells/java/com.aspose.cells/fontsetting#setWordArtStyle\(int\))或[FontSettingCollection.SetWordArtStyle()](https://reference.aspose.com/cells/java/com.aspose.cells/fontsettingcollection#setWordArtStyle\(int\))方法来实现。
+## **将文本形状的文字设置为预设的WordArt样式**
+以下示例代码创建一个带有文本的文本框，然后使用[FontSetting.SetWordArtStyle()](https://reference.aspose.com/cells/java/com.aspose.cells/fontsetting#setWordArtStyle\(int\))方法设置其文本的预设WordArt样式。这就是在Microsoft Excel中的[输出Excel文件](5472538.xlsx)的样子。
 
 ![todo:image_alt_text](set-preset-wordart-style-to-the-text-of-the-shape_1.png)
 ## **示例代码**

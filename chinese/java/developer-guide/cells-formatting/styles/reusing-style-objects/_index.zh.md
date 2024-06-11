@@ -11,20 +11,20 @@ url: /zh/java/reusing-style-objects/
 
 {{% /alert %}}
 
-要对工作表中的大范围单元格应用一些格式:
+若要对工作表中的大范围单元格应用一些格式设置：
 
 1. 创建一个样式对象。
 1. 指定属性。
-1. 将样式应用于范围内的单元格。
+1. 将样式应用于范围中的单元格。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ReuseStyleObjects-ReuseStyleObjects.java" >}}
 
-可以按以下方式实现与上述相同的过程。
+上述讨论的相同流程也可以按照以下方式完成。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ReuseStyleObjects2.java" >}}
 
 {{% alert color="primary" %}}
 
-由于[**Cell.getStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStyle()和[**Cell.setStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle(com.aspose.cells.Style)方法使用的内存量较少且高效，所以消耗大量不必要内存的旧*Cell.getStyle()*属性在*Aspose.Cells 7.1.0*发布时已被移除。
+因为[**Cell.getStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStyle()）和[**Cell.setStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle(com.aspose.cells.Style)）方法使用的内存更少且效率更高，所以在*Aspose.Cells 7.1.0*发布时移除了消耗大量不必要内存的旧*Cell.getStyle()*属性。
 
 {{% /alert %}}

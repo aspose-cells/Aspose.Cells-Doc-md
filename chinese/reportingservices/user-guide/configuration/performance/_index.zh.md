@@ -5,7 +5,7 @@ weight: 30
 url: /zh/reportingservices/performance/
 ---
 
-为了改善性能，将性能参数设置为 **ON**。
+要提高性能，请将性能参数设置为 **ON**。
 
 {{< highlight java >}}
 
@@ -29,7 +29,7 @@ url: /zh/reportingservices/performance/
 
 各种性能参数如下：
 
-- **LimitCellsNumberForMerged**：可以合并的最大单元格数。默认值为 1,000,000。参数值由用户设置，不受性能参数开关影响。 
+- **LimitCellsNumberForMerged**：可以合并的单元格的最大数量。默认值为 1,000,000。参数值由用户设置，不受性能参数开关影响。 
 
 {{< highlight java >}}
 
@@ -40,7 +40,7 @@ url: /zh/reportingservices/performance/
 
 
 
-- **IsAutoRowFit**：当性能值为 **off** 时，默认值为 **false**。当性能参数值为 **on** 时，默认值为 **true**。当性能值为 **on** 时，子元素报告可以将点报告重置为 AutoRowFit 值。 
+- **IsAutoRowFit**：当 Performance 的值为 **off** 时，默认情况下 IsAutoRowFit 的值为 **false**。当性能参数的值为 **on** 时，默认情况下该值为 **true**。当 Performance 的值为 **on** 时，一个子元素报告可以重新设置点报告到 AutoRowFit 值。 
 
 {{< highlight java >}}
 
@@ -65,7 +65,7 @@ url: /zh/reportingservices/performance/
 
 
 
-- **IsMerged**：当性能值为 **off** 时，IsMerged 默认值为 **false**。当性能值为 **on** 时，默认值为 **true**。当性能参数值为 **on** 时，子元素报告可以将点报告重置为 AutoRowFit 值。 
+- **IsMerged**：当 Performance 的值为 **off** 时，IsMerged 默认值为 **false**。当 Performance 的值为 **on** 时，默认值为 **true**。当性能参数的值为 **on** 时，一个子元素报告可以重新设置点报告到 AutoRowFit 值。 
 
 {{< highlight java >}}
 
@@ -90,7 +90,7 @@ url: /zh/reportingservices/performance/
 
 
 
-- **IsSetStyle**：当性能值为 **off** 时，默认值为 **false**。当性能为 **on** 时，默认值为 **true**。此外，当性能为 **on** 时，子元素报告可以将点报告重置为 AutoRowFit 值。 
+- **IsSetStyle**：当 Performance 的值为 **off** 时，默认值为 **false**。当 Performance 的值为 **on** 时，默认值为 **true**。此外，当 Performance 的值为 **on** 时，一个子元素报告可以重新设置点报告到 AutoRowFit 值。 
 
 {{< highlight java >}}
 
@@ -115,7 +115,7 @@ url: /zh/reportingservices/performance/
 
 
 
-- **IsConditionalFormatting**：当性能为 **off** 时，默认值为 **false**。当性能为 **on** 时，默认值为 **true**。此外，当性能为 **on** 时，子元素报告可以将点报告重置为 AutoRowFit 值。将 IsSetStyle 参数值设置为 **false** 时，性能值无效。 
+- **IsConditionalFormatting**：当 Performance 的值为 **off** 时，默认值为 **false**。当 Performance 的值为 **on** 时，默认值为 **true**。此外，当 Performance 的值为 **on** 时，一个子元素报告可以重新设置点报告到 AutoRowFit 值。当 IsSetStyle 参数值设置为 **false** 时，性能的值无效。 
 
 {{< highlight java >}}
 

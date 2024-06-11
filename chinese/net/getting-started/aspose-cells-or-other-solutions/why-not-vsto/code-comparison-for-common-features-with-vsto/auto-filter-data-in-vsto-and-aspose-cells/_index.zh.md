@@ -1,20 +1,20 @@
 ---
-title: 在VSTO和Aspose.Cells中自动过滤数据
+title: 在VSTO和Aspose.Cells中自动筛选数据
 type: docs
 weight: 50
 url: /zh/net/auto-filter-data-in-vsto-and-aspose-cells/
 ---
 
-要对列应用自动过滤:
+应用自动筛选到一列:
 
 1. 创建一个工作簿。
 1. 获取工作表。
-1. 添加示例数据。
-1. 应用自动过滤。
-1. 自适应列以使显示更具吸引力。
+1. 添加示例数据.
+1. 应用自动筛选.
+1. 自动调整列以使显示更吸引人.
 1. 保存电子表格。
 
-本文中的代码示例展示了如何使用VSTO的C#或使用Apose.Cells的C#执行这些步骤。
+本文中的代码示例展示了如何使用VSTO或者C#，或者使用Apose.Cells，同样也是用C#执行这些步骤.
 ## **VSTO**
 {{< highlight csharp >}}
 

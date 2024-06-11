@@ -1,14 +1,14 @@
 ---
-title: 在 xlsx4j 中将数据导入工作表
+title: 将数据导入xlsx4j工作表
 type: docs
 weight: 50
 url: /zh/java/import-data-to-worksheets-in-xlsx4j/
 ---
 
 ## **Aspose.Cells - 将数据导入工作表**
-从数组导入数据
+从数组中导入数据
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -36,9 +36,9 @@ cells.importArray(names,0,0,false);
 
 {{< /highlight >}}
 
-从 ArrayList 导入数据
+从ArrayList中导入数据
 
-**Java**
+Java
 
 {{< highlight java >}}
 

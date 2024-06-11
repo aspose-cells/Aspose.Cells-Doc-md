@@ -1,15 +1,15 @@
 ---
-title: Python中的自动调整行和列
+title: 在Python中自动调整行和列
 type: docs
 weight: 20
 url: /zh/java/autofit-rows-and-columns-in-python/
 description: 通过Aspose.Cells for Python Via Java API学习如何自动调整行和列。
-keywords: 如何通过Java在Python中自动调整行和列，如何通过Java在工作簿中自动调整行数据，Python通过Java自适应列数据。 
+keywords: 通过Java，在Python中如何自动调整行和列，使用Python通过Java自动调整工作簿中的行数据，Python通过Java自动调整列数据。 
 ---
 
 ## **如何自动调整行和列**
-### **如何自动调整行**
-自动调整行的宽度和高度最直接的方法是调用Worksheet类的autoFitRow方法。autoFitRow方法以行索引(要调整大小的行)作为参数。
+### **如何自动调整行高**
+自动调整行宽和行高最直接的方法是调用Worksheet类的autoFitRow方法。autoFitRow方法将行索引（要调整大小的行）作为参数。
 
 **Python 代码**
 
@@ -43,7 +43,7 @@ print "Autofit Row Successfully."
 
 {{< /highlight >}}
 ### **如何自动调整列**
-自动调整列宽和高度的最简单方法是调用Worksheet类的autoFitColumn方法。autoFitColumn方法以列索引(即将调整大小的列)作为参数。
+自动调整列宽和列高的最简单方法是调用Worksheet类的autoFitColumn方法。autoFitColumn方法以列索引（即将调整大小的列）作为参数。
 
 **Python 代码**
 
@@ -77,6 +77,6 @@ print "Autofit Column Successfully."
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下提到的社交编码网站下载**自适应行和列(Aspose.Cells)**：
+从以下提到的任一社交编程网站下载**Autofit Rows and Columns (Aspose.Cells)**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

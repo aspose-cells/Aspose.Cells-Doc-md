@@ -7,15 +7,15 @@ url: /zh/java/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/
 
 ## **可能的使用场景**
 
-通常需要知道工作簿中正在使用的字体以进行渲染。当将工作簿转换为PDF或图像时，Aspose.Cells需要在您的系统上安装或在您的**字体目录**中提供所有必要的字体。如果Aspose.Cells无法找到所需的字体，则尝试用您系统上或您的字体目录中存在的其他适当的字体替换它，并可以替代您的实际字体。这不仅会导致PDF或图像的不良渲染，还会花费时间查找合适的字体。
+通常需要知道工作簿中使用的字体，以便进行呈现。当将工作簿转换为PDF或图像时，Aspose.Cells要求系统中安装了所有所需的字体或者位于系统的“字体目录”中。如果Aspose.Cells无法找到所需的字体，则尝试用其他适合的字体替换其，该字体位于系统中或“字体目录”中，可以替换实际字体。这不仅导致PDF或图像的不良呈现，而且还需要查找合适字体的处理时间。
 
-为了处理这种情况，您应该知道工作簿中正在使用的字体，然后在Windows环境中安装这些字体或者在Windows或Linux环境的字体目录中放置它。
+为了处理这种情况，您应该知道工作簿中使用的字体，然后在Windows环境下安装这些字体，在Windows或Linux环境下，将其放置在您的“字体目录”中。
 
-Aspose.Cells提供了[Workbook.getFonts()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#getFonts())方法，该方法返回工作簿或电子表格中使用的所有字体的列表。
+Aspose.Cells提供了[Workbook.getFonts()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#getFonts())方法，用于返回工作簿或电子表格中使用的所有字体的列表。
 
 ## **获取电子表格或工作簿中使用的字体列表**
 
-以下示例代码加载源Excel文件并检索其中使用的字体列表。它有一个虚拟工作表，用于举例说明目的添加了一些虚拟字体。当代码打印工作簿中的所有字体时，它还打印了这些虚拟字体。以下截图显示了示例Excel文件和虚拟字体的列表。
+以下示例代码加载源Excel文件并检索其中使用的字体列表。其中有一个虚拟工作表，用于演示添加了一些虚拟字体。当代码打印工作簿中的所有字体时，还会打印这些虚拟字体。以下截图显示了[sample excel file](sampleGetFonts.xlsx)和虚拟字体的列表。
 
 ![todo:image_alt_text](get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook_1.png)
 
@@ -25,7 +25,7 @@ Aspose.Cells提供了[Workbook.getFonts()](https://reference.aspose.com/cells/ja
 
 ## **控制台输出**
 
-当对提供的[sample excel file](sampleGetFonts.xlsx)执行上述示例代码时，以下是示例代码的控制台输出。
+以下是执行给定[sample excel file](sampleGetFonts.xlsx)的上述示例代码的控制台输出。
 
 {{< highlight java >}}
 

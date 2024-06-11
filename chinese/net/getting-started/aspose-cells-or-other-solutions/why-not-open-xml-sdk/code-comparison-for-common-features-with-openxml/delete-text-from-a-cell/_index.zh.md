@@ -1,5 +1,5 @@
 ---
-title: 删除单元格中的文本
+title: 从单元格中删除文本
 type: docs
 weight: 30
 url: /zh/net/delete-text-from-a-cell/

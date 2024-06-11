@@ -1,17 +1,17 @@
 ---
-title: 在xlsx4j中创建数据透视图
+title: 在xlsx4j中创建数据透视图图表
 type: docs
 weight: 30
 url: /zh/java/create-pivot-charts-in-xlsx4j/
 ---
 
-## **Aspose.Cells - 创建数据透视图**
-数据透视表是记录的交互式摘要。例如，您可能在工作表的列表中有数百个发票条目。数据透视表可以按客户、产品或日期对发票进行汇总。使用 Microsoft Excel，可以通过将按钮拖动到新位置来快速重新排列数据透视表中的信息。
-数据透视图是数据透视表中数据的交互式图形表示。数据透视图是在 Excel 2000 中引入的。使用数据透视图可以更容易地理解数据，因为数据透视表会自动创建小计和合计。
+## **Aspose.Cells - 创建数据透视图图表**
+数据透视表是记录的互动摘要。例如，您可能有数百个工作表中列表中的发票条目。数据透视表可以按客户、产品或日期总计发票。使用Microsoft Excel，可以通过将按钮拖到新位置，快速重新排列数据透视表中的信息。
+数据透视图图表是数据透视表中数据的交互式图形表示。数据透视图图表在Excel 2000中引入。使用数据透视图图表使数据更容易理解，因为数据透视表会自动创建小计和总计。
 
-Aspose.Cells支持数据透视表和数据透视图
+Aspose.Cells支持数据透视表和数据透视图图表。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -54,6 +54,6 @@ workbook.save(dataDir + "Aspose_PivotChart_Out.xls");
 
 {{% alert color="primary" %}} 
 
-有关更多详细信息，请访问[创建数据透视表和数据透视图] (/cells/zh/java/create-pivot-tables-and-pivot-charts)
+要了解更多详情，请访问[创建数据透视表和数据透视图图表](/cells/zh/java/create-pivot-tables-and-pivot-charts/)。
 
 {{% /alert %}}

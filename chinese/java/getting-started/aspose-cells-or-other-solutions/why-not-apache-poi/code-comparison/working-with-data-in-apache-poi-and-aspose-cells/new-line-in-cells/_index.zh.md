@@ -6,11 +6,11 @@ url: /zh/java/new-line-in-cells/
 ---
 
 ## **Aspose.Cells - 单元格中的新行**
-为确保单元格中的文本可读，可以应用显式换行和文本换行。文本换行将一个单行变成多行，而显式换行可将换行符插入到您想要的位置。
+为了确保单元格中的文本可以被读取，可以应用明确的行尾和文本换行。文本换行将单元格中的一行变成了多行，而明确的行尾则将文本换行放在您想要的确切位置。
 
-要在单元格中自动换行，请使用Style.setTextWrapped方法。
+要在单元格中换行，使用Style.setTextWrapped方法。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -32,9 +32,9 @@ cell.get(0, 0).setStyle(style);
 
 {{< /highlight >}}
 ## **Apache POI SS - HSSF XSSF - 单元格中的新行**
-CellStyle.setWrapText应设置为true以自动换行。
+CellStyle.setWrapText应设置为true以包装文本。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -60,6 +60,6 @@ cell.setCellStyle(cs);
 
 {{% alert color="primary" %}} 
 
-有关更多详细信息，请访问[换行和文本自动换行](/java/line-breaks-and-text-wrapping)。
+要了解更多详情，请访问[换行和文本换行](/java/line-breaks-and-text-wrapping)
 
 {{% /alert %}}

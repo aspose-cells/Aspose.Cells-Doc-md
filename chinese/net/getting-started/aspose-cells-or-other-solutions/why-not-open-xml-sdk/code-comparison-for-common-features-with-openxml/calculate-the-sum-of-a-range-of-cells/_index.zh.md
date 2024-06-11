@@ -6,7 +6,7 @@ url: /zh/net/calculate-the-sum-of-a-range-of-cells/
 ---
 
 ## **OpenXML Excel**
-以下是我们在代码中需要使用的命名空间:
+下面是我们需要在代码中使用的命名空间:
 
 {{< highlight csharp >}}
 

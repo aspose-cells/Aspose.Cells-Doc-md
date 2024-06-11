@@ -1,44 +1,44 @@
 ---
-title: 支持函数列表
+title: 支持的功能列表
 type: docs
 weight: 10
 url: /zh/net/aspose-cells-griddesktop/list-of-supported-functions/
-keywords: GridDesktop、functions、formula
-description: 本文介绍了GridDesktop中支持的函数。
+keywords: GridDesktop,functions,formula
+description: 本文介绍了GridDesktop中支持的功能。
 ---
 
 ## **介绍**
-Aspose.Cells.GridDesktop控件支持大量内置函数。这些函数属于以下类别:
+Aspose.Cells.GridDesktop控件支持许多内置功能。这些功能属于以下类别：
 
-- **数学函数**，提供了一组可用于许多数学计算的函数
-- **文本和数据函数**，提供了用于在文本和数据上执行不同类型操作的各种函数
+- **数学函数**，提供了大量用于各种数学计算的函数
+- **文本和数据函数**，提供了各种用于对文本和数据执行不同类型操作的函数
 - **日期和时间函数**，提供了一些与日期和时间相关的有用函数
-- **逻辑函数**，提供了一小组逻辑函数来处理一些数据上的逻辑操作
+- **逻辑函数**，提供了一小组用于对数据进行逻辑操作的逻辑函数
 ### **数学函数**
-- CEILING、COMBIN、COS、COSH、COUNTIF
+- CEILING,COMBIN,COS,COSH,COUNTIF
 - DEGREES
-- EVEN、EXP
-- FACT、FLOOR
+- EVEN,EXP
+- FACT,FLOOR
 - INT
-- LN、LOG、LOG10
+- LN,LOG,LOG10
 - MOD
 - ODD
-- PI、POWER、PRODUCT
-- RADIANS、RAND、ROUND、ROUNDDOWN、ROUNDUP
-- SIGN、SIN、SINH
-- SQRT、SUM、SUMIF、SUMPRODUCT、SUMSQ、SUMX2MY2、SUMX2PY2、SUMXMY2
-- TAN、TANH、TRUNC
+- PI,POWER,PRODUCT
+- 弧度，RAND，ROUND，ROUNDDOWN，ROUNDUP
+- SIGN，SIN，SINH
+- SQRT，SUM，SUMIF，SUMPRODUCT，SUMSQ，SUMX2MY2，SUMX2PY2，SUMXMY2
+- TAN，TANH，TRUNC
 ### **文本和数据函数**
-- CHAR、CODE、CONCATENATE
+- CHAR，CODE，CONCATENATE
 - DOLLAR
 - EXACT
-- 查找，固定
-- 左，长度，小写
+- FIND，FIXED
+- LEFT，LEN，LOWER
 - MID
 - MATCH
-- 替换，重复，右
-- 搜索，替换
-- T，文本，修剪
+- REPLACE，REPT，RIGHT
+- SEARCH，SUBSTITUTE
+- T，TEXT，TRIM
 - UPPER
 - VALUE
 - LOOKUP
@@ -46,10 +46,10 @@ Aspose.Cells.GridDesktop控件支持大量内置函数。这些函数属于以�
 - WIDECHAR
 ### **日期和时间函数**
 - HOUR
-- 分钟，月
+- MINUTE，MONTH
 - NOW
 - SECOND
-- 时间，今天
+- TIME，TODAY
 - WEEKDAY
 - YEAR
 ### **逻辑函数**
@@ -60,10 +60,10 @@ Aspose.Cells.GridDesktop控件支持大量内置函数。这些函数属于以�
 - TRUE
 ### **新函数**
 - MIN
-- 行（仅在Aspose.Cells.GridWeb中支持）
-- 行 S（仅在Aspose.Cells.GridWeb中支持）
-- 列（仅在Aspose.Cells.GridWeb中支持）
-- 列S（仅在Aspose.Cells.GridWeb中支持）
+- ROW (仅支持在Aspose.Cells.GridWeb中)
+- ROW S (仅支持在Aspose.Cells.GridWeb中)
+- COLUMN (仅支持在Aspose.Cells.GridWeb中)
+- COLUMN S (仅支持在Aspose.Cells.GridWeb中)
 - 地址（仅在Aspose.Cells.GridWeb中支持）
 - OFFSET
 - INDIRECT
@@ -108,5 +108,5 @@ Aspose.Cells.GridDesktop控件支持大量内置函数。这些函数属于以�
 - RANK
 - CHOOSE
 - HLOOKUP
-- SMALL ( 仅支持 Aspose.Cells.GridWeb )
+- 小号（仅在Aspose.Cells.GridWeb中支持）
 

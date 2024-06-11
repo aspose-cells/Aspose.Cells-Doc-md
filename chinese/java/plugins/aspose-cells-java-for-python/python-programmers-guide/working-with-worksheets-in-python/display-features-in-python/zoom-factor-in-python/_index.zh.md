@@ -1,12 +1,12 @@
 ---
-title: 在 Python 中设置缩放系数
+title: Python中的缩放因子
 type: docs
 weight: 80
 url: /zh/java/zoom-factor-in-python/
 ---
 
 ## **Aspose.Cells - 缩放因子**
-要在 Python 中设置缩放系数，只需调用 **ZoomFactor** 模块。
+使用**Aspose.Cells Java for Python**来设置缩放因子，只需调用**ZoomFactor**模块。
 
 **Python 代码**
 
@@ -34,6 +34,6 @@ print "Zoom factor set to 75% for sheet 1, please check the output document."
 
 {{< /highlight >}}
 ## **下载运行代码**
-从下面任何社交编码网站下载 **Zoom Factor (Aspose.Cells)**
+从下面提到的任何社交编码网站下载**缩放因子（Aspose.Cells）**：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

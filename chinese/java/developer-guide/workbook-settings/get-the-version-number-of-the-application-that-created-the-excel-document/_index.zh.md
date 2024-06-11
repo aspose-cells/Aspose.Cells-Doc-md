@@ -7,13 +7,13 @@ url: /zh/java/get-the-version-number-of-the-application-that-created-the-excel-d
 
 {{% alert color="primary" %}}
 
-通常需要了解创建Microsoft Excel文档的应用程序的版本号。Aspose.Cells提供[**Workbook.getBuiltInDocumentProperties().getVersion()**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Version)属性用于此目的。
+通常需要知道创建Microsoft Excel文档的应用程序的版本号。Aspose.Cells提供了[**Workbook.getBuiltInDocumentProperties().getVersion()**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Version)属性以实现此目的。
 
 {{% /alert %}}
 
-以下示例代码演示了[**Workbook.getBuiltInDocumentProperties().getVersion()**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Version)属性的使用。它加载使用Microsoft Excel 2003、2007、2010和2013创建的Excel文件，并打印创建这些Excel文档的应用程序的版本号。
+以下示例代码演示了[**Workbook.getBuiltInDocumentProperties().getVersion()**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Version)属性的使用。它加载由Microsoft Excel 2003、2007、2010和2013创建的Excel文件，并打印创建这些Excel文档的应用程序的版本号。
 
-供参考，以下是示例代码创建的控制台输出。
+作为参考，以下是示例代码创建的控制台输出。
 
 {{< highlight java >}}
 

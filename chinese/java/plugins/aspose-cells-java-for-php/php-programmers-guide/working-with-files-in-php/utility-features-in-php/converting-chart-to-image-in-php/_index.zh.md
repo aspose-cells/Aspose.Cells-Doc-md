@@ -1,14 +1,14 @@
 ---
-title: 在PHP中将图表转换为图像
+title: 在 PHP 中将图表转换为图像
 type: docs
 weight: 10
 url: /zh/java/converting-chart-to-image-in-php/
 ---
 
 ## **Aspose.Cells - 将图表转换为图像**
-要在PHP中使用Aspose.Cells for Java将图表转换为图像，只需调用Converter模块。
+要使用Aspose.Cells for Java在PHP中将图表转换为图像，只需调用Converter模块。
 
-**PHP代码**
+**PHP 代码**
 
 {{< highlight php >}}
 
@@ -142,6 +142,6 @@ $fs->close();  
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下任一社交编码网站下载**将图表转换为图像（Aspose.Cells）**：
+从以下提到的任何社交编码站点下载**将图表转换为图像（Aspose.Cells）**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ChartToImage.php)

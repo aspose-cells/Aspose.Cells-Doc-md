@@ -5,7 +5,7 @@ weight: 10
 url: /zh/net/columns-containing-non-strongly-typed-data/
 ---
 
-如果工作表的列中所有值都不是强类型的（即列中的值可能具有不同的数据类型），那么我们可以通过调用 Cells 类的**ExportDataTableAsString**方法导出工作表内容。**ExportDataTableAsString**方法接受与**ExportDataTable**方法相同的参数集以将工作表数据导出为**DataTable**对象。
+如果工作表的所有列中的值都不是强类型的（这意味着列中的值可能具有不同的数据类型），那么我们可以通过调用Cells类的**ExportDataTableAsString**方法导出工作表内容。**ExportDataTableAsString**方法使用与**ExportDataTable**方法相同的一组参数将工作表数据导出为**DataTable**对象。
 
 {{< highlight csharp >}}
 
@@ -37,7 +37,7 @@ fstream.Close();
 
 {{< /highlight >}}
 
-以下是屏幕截图:
+以下是屏幕截图：
 
 ![todo:image_alt_text](picture1.png)
 

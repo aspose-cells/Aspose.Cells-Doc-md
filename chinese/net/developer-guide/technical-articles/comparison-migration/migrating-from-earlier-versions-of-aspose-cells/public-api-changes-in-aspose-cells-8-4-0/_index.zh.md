@@ -1,5 +1,5 @@
 ---
-title: Aspose.Cells 8.4.0 中的公共 API 更改
+title: Aspose.Cells 8.4.0 中的公共 API 变更
 type: docs
 weight: 130
 url: /zh/net/public-api-changes-in-aspose-cells-8-4-0/
@@ -7,18 +7,18 @@ url: /zh/net/public-api-changes-in-aspose-cells-8-4-0/
 
 {{% alert color="primary" %}} 
 
-本文档描述了Aspose.Cells API从8.3.2版本到8.4.0版本的变化，可能对模块/应用程序开发人员感兴趣。它不仅包括新的和更新的公共方法、[添加的类等](/cells/zh/net/public-api-changes-in-aspose-cells-8-4-0/)和[删除的类等](/cells/zh/net/public-api-changes-in-aspose-cells-8-4-0/)，还描述了Aspose.Cells在幕后行为的任何变化
+本文档描述了 Aspose.Cells API 从版本 8.3.2 升级到 8.4.0 的更改，这可能对模块/应用程序开发人员感兴趣。它不仅包括新的和更新的公共方法，[添加的类等](/cells/zh/net/public-api-changes-in-aspose-cells-8-4-0/)和[移除的类等](/cells/zh/net/public-api-changes-in-aspose-cells-8-4-0/)，还描述了 Aspose.Cells 后台行为的任何更改。
 
 {{% /alert %}} 
-## **已添加API**
-### **修改电子表格中的 VBA/宏代码的机制**
-为了提供[VBA/Macro代码操控特性](/cells/zh/net/modifying-vba-or-macro-code-using-aspose-cells/)，Aspose.Cells for .NET 8.4.0在Aspose.Cells.Vba命名空间中公开了一系列新类和属性。其中一些新类的重要细节如下
+## **添加的 API**
+### **修改电子表格中的 VBA/Macro 代码的机制**
+为了提供[VBA/Macro Code Manipulation](/cells/zh/net/modifying-vba-or-macro-code-using-aspose-cells/)功能，Aspose.Cells for .NET 8.4.0已在Aspose.Cells.Vba命名空间中公开了一系列新类和属性。其中一些新类的重要详细信息如下。
 
-- VbaProject 类可用于从给定的电子表格中获取 VBA 项目。
-- VbaModuleCollection 类表示给定 VbaProject 的 VBA 模块集合。
-- VbaModule 类表示来自 VbaModuleCollection 的单个模块。
+- 可以使用 VbaProject 类从给定的电子表格中获取 VBA 项目。
+- VbaModuleCollection类表示给定VbaProject的VBA模块集合。
+- VbaModule类表示来自VbaModuleCollection的单个模块。
 
-以下代码片段显示了如何动态修改 VBA 代码段。
+以下代码片段显示了如何动态修改VBA代码段。
 
 **C#**
 
@@ -57,13 +57,13 @@ workbook.Save("output.xlsm");
 {{< /highlight >}}
 
 
-### **移除数据透视表的功能**
-Aspose.Cells for .NET 8.4.0 为 PivotTableCollection 提供了两种 Pivot Table 移除功能。以下是上述方法的详细信息。
+### **删除数据透视表的能力**
+Aspose.Cells for .NET 8.4.0已为PivotTableCollection公开了两种方法，以删除给定电子表格中的数据透视表。上述方法的详细信息如下。
 
-- PivotTableCollection.Remove 方法接受 PivotTable 对象，并将其从集合中移除。
-- PivotTableCollection.RemoveAt 方法接受基于零的整数值，并从集合中移除特定的 PivotTable。
+- PivotTableCollection.Remove 方法接受 PivotTable 对象，并从集合中移除它。
+- PivotTableCollection.RemoveAt方法接受基于零的整数值并从集合中删除特定的数据透视表。
 
-以下代码片段显示了如何使用上述两种方法移除 PivotTable。
+以下代码片段显示了如何使用上述两种方法删除数据透视表。
 
 **C#**
 
@@ -96,20 +96,20 @@ workbook.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **支持不同的数据透视表布局**
-Aspose.Cells for .NET 8.4.0 提供了不同预定义布局的数据透视表支持。为了提供此功能，Aspose.Cells API 为 PivotTable 类公开了三种方法，详细如下。
+### **不同数据透视表布局的支持**
+Aspose.Cells for .NET 8.4.0为数据透视表提供了不同预定义布局的支持。为了提供此功能，Aspose.Cells APIs为PivotTable类公开了三种方法，详细信息如下。
 
-- PivotTable.ShowInCompactForm 方法呈现紧凑布局的数据透视表。
-- PivotTable.ShowInOutlineForm 方法呈现大纲布局的数据透视表。
-- PivotTable.ShowInTabularForm 方法呈现表格布局的数据透视表。
+- PivotTable.ShowInCompactForm方法以紧凑布局呈现数据透视表。
+- PivotTable.ShowInOutlineForm方法以大纲布局呈现数据透视表。
+- PivotTable.ShowInTabularForm方法以表格布局呈现数据透视表。
 
 {{% alert color="primary" %}} 
 
-在设置任何上述布局后，重要的是调用 PivotTable.RefreshData 和 PivotTable.CalculateData。
+重要的是在设置了上述任一布局之后调用PivotTable.RefreshData和PivotTable.CalculateData。
 
 {{% /alert %}} 
 
-以下示例代码为数据透视表设置不同的布局，并将结果存储在磁盘上。
+以下示例代码为数据透视表设置不同的布局，并将结果保存到磁盘。
 
 **C#**
 
@@ -172,15 +172,15 @@ workbook.Save("TabularForm.xlsx");
 {{< /highlight >}}
 
 
-### **类 TxtLoadStyleStrategy 和属性 TxtLoadOptions.LoadStyleStrategy 已添加**
-Aspose.Cells for .NET 8.4.0 公开了 TxtLoadStyleStrategy 类和 TxtLoadOptions.LoadStyleStrategy 属性，以指定在将字符串值转换为数字或日期时间时格式化解析值的策略。
+### **添加了Class TxtLoadStyleStrategy和Property TxtLoadOptions.LoadStyleStrategy**
+Aspose.Cells for .NET 8.4.0已公开了TxtLoadStyleStrategy类和TxtLoadOptions.LoadStyleStrategy属性，以指定在将字符串值转换为数字或日期时间时格式化解析后的值的策略。
 ### **添加了DataBar.ToImage方法**
-发布 v8.4.0 后，Aspose.Cells API 提供了 DataBar.ToImage 方法，将有条件格式的 DataBars 保存为图像格式。 DataBar.ToImage 方法接受如下详细的两个参数。
+在v8.4.0发布时，Aspose.Cells API提供了DataBar.ToImage方法，以将有条件格式的数据条保存为图像格式。DataBar.ToImage方法接受下面详细说明的两个参数。
 
-- 第一个参数类型为应用了有条件格式的 Aspose.Cells.Cell。
-- 第二个参数类型为 Aspose.Cells.Rendering.ImageOrPrintOptions，用于设置结果图像的不同参数。
+- 第一个参数是已应用条件格式的Aspose.Cells.Cell类型。
+- 第二个参数是Aspose.Cells.Rendering.ImageOrPrintOptions类型，用于设置结果图像的不同参数。
 
-以下示例代码演示了 DataBar.ToImage 方法的使用，以图像格式呈现 DataBar。
+以下示例代码演示了使用DataBar.ToImage方法将数据条呈现为图像格式。
 
 **C#**
 
@@ -223,20 +223,20 @@ File.WriteAllBytes("databar.png", imgBytes);
 {{< /highlight >}}
 
 
-### **添加了Border.ThemeColor属性**
-Aspose.Cells API 允许从电子表格中提取与主题相关的格式数据。随着 Aspose.Cells for .NET 8.4.0 的发布，API 公开了 Border.ThemeColor 属性，可用于检索单元格边框的主题颜色属性。
-### **添加了DrawObject.ImageBytes属性**
-Aspose.Cells for .NET 8.4.0 公开了 DrawObject.ImageBytes 属性，用于从图表或形状获取图像数据。
-### **添加了HtmlSaveOptions.ExportBogusRowData属性**
-Aspose.Cells for .NET 8.4.0 提供了 HtmlSaveOptions.ExportBogusRowData 属性。这个布尔类型属性确定在将电子表格导出为 HTML 格式时，API 是否将伪造的底部行数据注入其中。
+### **Added Border.ThemeColor Property**
+Aspose.Cells APIs允许从电子表格中提取主题相关的格式数据。随着Aspose.Cells for .NET 8.4.0的发布，API已公开了Border.ThemeColor属性，可用于检索单元格边框的主题颜色属性。
+### **Added DrawObject.ImageBytes Property**
+Aspose.Cells for .NET 8.4.0已公开了DrawObject.ImageBytes属性，以从图表或形状中获取图像数据。
+### **Added HtmlSaveOptions.ExportBogusRowData Property**
+Aspose.Cells for .NET 8.4.0已提供了{HtmlSaveOptions.ExportBogusRowData}}属性。该布尔类型属性确定在将电子表格导出为HTML格式时，API是否将注入虚假底部行数据。
 
 {{% alert color="primary" %}} 
 
-默认值为 true。
+默认值为true。
 
 {{% /alert %}} 
 
-以下示例代码演示了上述属性的使用。
+以下示例代码说明了上述属性的用法。
 
 **C#**
 
@@ -261,16 +261,16 @@ workbook.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **新增 HtmlSaveOptions.CellCssPrefix 属性**
-新增属性 HtmlSaveOptions.CellCssPrefix 允许设置导出电子表格到 HTML 格式时的 CSS 文件前缀。
+### **Added HtmlSaveOptions.CellCssPrefix Property**
+新添加的属性HtmlSaveOptions.CellCssPrefix允许在将电子表格导出为HTML格式时设置CSS文件的前缀。
 
 {{% alert color="primary" %}} 
 
-默认值为空字符串。
+默认值为""（空字符串）。
 
 {{% /alert %}}
-## **已弃用的API**
-### **已弃用 Cells.GetCellByIndex 和 Row.GetCellByIndex 方法**
-使用 GetEnumerator 方法来遍历所有单元格。
-### **已弃用 DrawObject.Image 属性**
-使用 DrawObject.ImageBytes 属性来获取图像数据。
+## **弃用的API**
+### **弃用了Cells.GetCellByIndex和Row.GetCellByIndex方法**
+使用GetEnumerator方法代替遍历所有单元格。
+### **弃用的DrawObject.Image Property**
+请改用DrawObject.ImageBytes属性获取图像数据。

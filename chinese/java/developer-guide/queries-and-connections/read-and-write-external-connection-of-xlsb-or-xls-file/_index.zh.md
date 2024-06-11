@@ -7,17 +7,17 @@ url: /zh/java/read-and-write-external-connection-of-xlsb-or-xls-file/
 
 ## **可能的使用场景**
 
-Aspose.Cells已经支持对XLSX文件的外部连接进行读取和写入，现在也支持对XLSB和XLS文件进行此操作。不过，对于两种格式的代码是相同的。
+Aspose.Cells已经支持对XLSX文件进行读取和写入外部连接，现在也支持XLSB和XLS文件的这一功能。然而，对于这两种格式，代码是相同的。
 
 ## **读取和写入XLSB/XLS文件的外部连接**
 
-以下示例代码加载示例XLSB（也可以加载XLS）文件并读取其第一个外部连接，即Microsoft Access DB连接。然后修改 [**DBConnection.Name**](https://reference.aspose.com/cells/java/com.aspose.cells/dbconnection#Name) 属性并将其保存为输出XLSB文件。屏幕截图显示了在执行代码后对 [示例XLSB文件](51740743.xlsb) 和 [输出XLSB文件](51740742.xlsb) 的影响。还请参阅下面给出的示例代码的控制台输出以供参考。
+以下示例代码加载了示例XLSB文件（也可以加载XLS文件），读取其第一个外部连接，实际上是一个Microsoft Access DB连接。然后修改[**DBConnection.Name**](https://reference.aspose.com/cells/java/com.aspose.cells/dbconnection#Name)属性，并将其保存为输出XLSB文件。屏幕截图显示了代码在执行后对[sample XLSB file](51740743.xlsb)和[output XLSB file](51740742.xlsb)的影响。请查看下面给出的示例代码的控制台输出以供参考。
 
 ![todo:image_alt_text](read-and-write-external-connection-of-xlsb-or-xls-file_1.png)
 
 ## **示例代码**
 
-以下代码将适用于通过加载并保存带有适当扩展名的文件的XLSB和XLS。
+以下代码将适用于加载和保存相应扩展名的XLSB和XLS文件。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-ReadAndWriteExternalConnectionOfXLSBFile.java" >}}
 

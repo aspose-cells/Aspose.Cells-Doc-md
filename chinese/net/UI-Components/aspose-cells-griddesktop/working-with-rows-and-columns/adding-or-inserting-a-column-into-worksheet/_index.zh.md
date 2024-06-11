@@ -9,25 +9,25 @@ description: 本文介绍了如何在GridDesktop中插入或添加列。
 
 {{% alert color="primary" %}} 
 
-在本主题中，我们将描述使用Aspose.Cells.GridDesktop的API在运行时向工作表添加和插入列的基本功能。添加和插入的基本区别在于，在添加中，列被添加到工作表的列集合末尾，而在插入中，列可以添加到工作表中的任意指定位置。
+在本主题中，我们将描述使用Aspose.Cells.GridDesktop的API在运行时向工作表添加和插入列的基本功能。添加和插入之间的基本区别在于，添加时列被添加到工作表的列集合的末尾，而插入时列可以添加到工作表中的任何指定位置。
 
 {{% /alert %}} 
 ## **向工作表添加列**
 要向工作表添加新列，请按照以下步骤进行：
 
-- 将Aspose.Cells.GridDesktop控件添加到您的**表单**中
+- 向您的**表单**中添加Aspose.Cells.GridDesktop控件
 - 访问任何所需的**工作表**
-- 在**工作表**中添加**列**
+- 在 **工作表** 中添加 **列**
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-AddInsertColumn-AddColumn.cs" >}}
-## **将列插入工作表**
-要在指定位置将新列插入工作表，请按以下步骤操作：
+## **在工作表中插入列**
+要在指定位置向工作表插入新列，请按照以下步骤执行:
 
-- 将Aspose.Cells.GridDesktop控件添加到您的**表单**中
+- 向您的**表单**中添加Aspose.Cells.GridDesktop控件
 - 访问任何所需的**工作表**
-- 将**列**插入**工作表** (通过指定要插入到的列的索引位置)
+- 向 **工作表** 中插入 **列** （通过指定要插入的列的索引位置）
 
 {{< highlight java >}}
 

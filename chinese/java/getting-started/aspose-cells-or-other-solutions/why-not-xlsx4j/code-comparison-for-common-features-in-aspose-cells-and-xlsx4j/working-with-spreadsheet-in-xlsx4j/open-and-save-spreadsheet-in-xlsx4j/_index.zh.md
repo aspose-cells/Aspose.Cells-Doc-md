@@ -1,16 +1,16 @@
 ---
-title: 在xlsx4j中打开和保存电子表格
+title: 在 xlsx4j 中打开和保存电子表格
 type: docs
 weight: 40
 url: /zh/java/open-and-save-spreadsheet-in-xlsx4j/
 ---
 
 ## **Aspose.Cells - 打开和保存电子表格**
-开发人员使用Aspose.Cells打开文件以供不同目的使用。例如，打开一个文件以从中检索数据，或者使用预定义的设计者电子表格文件加快开发进程。Aspose.Cells允许开发者打开不同类型的源文件。这些源文件可以是Microsoft Excel报表、SpreadsheetML、CSV或制表符分隔的文件。 
+开发人员可以使用 Aspose.Cells 以不同的目的打开文件。例如，打开文件以从中检索数据，或使用预定义的设计电子表格文件加速开发过程。Aspose.Cells 允许开发人员打开不同类型的源文件。这些源文件可以是 Microsoft Excel 报告、SpreadsheetML、CSV 或制表符分隔文件。 
 
-**Aspose.Cells**允许开发者使用其灵活的API从头开始创建Excel文件。一旦创建了Excel文件，您还需要保存工作簿（文件）。Aspose.Cells提供多种保存这些文件的方式。
+**Aspose.Cells** 允许开发人员使用其灵活的 API 从头开始创建 Excel 文件。一旦创建了 Excel 文件，您还需要保存工作簿（文件）。Aspose.Cells 提供了多种保存这些文件的方法。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -24,9 +24,9 @@ workbook.save(dataDir + "pivot-rtt-Aspose.xlsm");
 
 {{< /highlight >}}
 ## **xlsx4j - 打开和保存电子表格**
-下面的示例展示了如何在使用xlsx4j时打开和保存电子表格。
+以下示例显示了在使用 xlsx4j 时如何打开和保存电子表格。
 
-**Java**
+Java
 
 {{< highlight java >}}
 

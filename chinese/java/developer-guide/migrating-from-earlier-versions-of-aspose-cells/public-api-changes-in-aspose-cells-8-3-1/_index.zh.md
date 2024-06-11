@@ -7,20 +7,20 @@ url: /zh/java/public-api-changes-in-aspose-cells-8-3-1/
 
 {{% alert color="primary" %}} 
 
-本文档描述了从版本8.3.0到8.3.1的Aspose.Cells API的变化，这对模块/应用程序开发人员可能感兴趣。
+本文介绍了Aspose.Cells API从版本8.3.0到8.3.1的更改，可能会引起模块/应用程序开发人员的兴趣。
 
 {{% /alert %}} 
-## **已添加API**
-### **新增了DataLabels.ShowCellRange属性**
-通过DataLabels类添加了属性ShowCellRange的获取器/设置器，以在运行时模仿Excel的功能格式化图表的数据标签。 请注意，Excel通过以下步骤提供此功能。 
+## **添加的 API**
+### **添加了DataLabels.ShowCellRange属性**
+已向DataLabels类添加了属性ShowCellRange的getter/setter方法，以模仿Excel在运行时格式化图表数据标签的功能。请注意，Excel通过以下步骤提供了此功能。 
 
-1. 选择系列的数据标签，右键单击以打开快捷菜单。
-1. 点击**格式化数据标签...**会显示**标签选项**。
-1. 选中或取消选中**标签包含 - 来自单元格的值**复选框。
+1. 选择系列的数据标签，右键单击以打开弹出菜单。
+1. 单击**格式数据标签...**，将显示**标签选项**。
+1. 检查或取消选中**标签包含 - 来自单元格的数值**复选框。
 
-以下示例代码访问图表系列的数据标签，然后将DataLabels.setShowCellRange()方法设置为true，以模仿Excel的**标签包含-来自单元格的值**功能。
+以下示例代码访问图表系列的数据标签，然后将DataLabels.setShowCellRange()方法设置为true，以模仿Excel的**标签包含 - 来自单元格的数值**功能。
 
-**Java**
+Java
 
 {{< highlight csharp >}}
 
@@ -50,14 +50,14 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}} 
 
-请查看文章[显示单元格范围作为数据标签](/cells/zh/java/showing-cell-range-as-the-data-labels/)以获取更多信息。
+请查看文章[显示单元格范围作为数据标签](/cells/zh/java/showing-cell-range-as-the-data-labels/)获取更多信息。
 
 {{% /alert %}} 
 
 ### **添加了Cell.getTable和ListObject.putCellValue方法**
-已添加了方法Cell.getTable和ListObject.putCellValue到Aspose.Cells for Java 8.3.1，以帮助用户从单元格中访问ListObject并使用行和列偏移量在其中添加值。 以下示例代码加载源电子表格，并在表格中添加值。
+使用Aspose.Cells for Java 8.3.1添加了方法Cell.getTable和ListObject.putCellValue，以便用户可以从单元格中访问ListObject并使用行和列偏移添加值到其中。以下示例代码加载源电子表格，并在表格内添加值。
 
-**Java**
+Java
 
 {{< highlight csharp >}}
 
@@ -93,16 +93,16 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}} 
 
-请查看文章[从单元格访问表格并使用行和列偏移量在其中添加值](/cells/zh/java/accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets/)以获取更多信息。
+请查看文章[使用行和列偏移访问单元格表并在其中添加值](/cells/zh/java/accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets/)以获取更多信息。
 
 {{% /alert %}} 
 
-### **添加了OdsSaveOptions.isStrictSchema11和OdsSaveOptions.setStrictSchema11方法**
-已添加了方法isStrictSchema11和setStrictSchema11到OdsSaveOptions类，以允许开发人员保存符合ODF v1.2规范的电子表格。 setStrictSchema11属性的默认值为false，这意味着，从Aspose.Cells API的版本8.3.1开始，ODS文件将默认保存为ODF格式版本1.2。
+### **添加了OdsSaveOptions.isStrictSchema11和OdsSaveOptions.setStrictSchema11方法。**
+已将isStrictSchema11和setStrictSchema11方法添加到OdsSaveOptions类，以允许开发人员将电子表格保存为符合ODF v1.2规范的格式。 setStrictSchema11属性的默认值为false，这意味着从Aspose.Cells API的8.3.1版本起，ODS文件将默认保存为ODF格式版本1.2。
 
-下面提供的代码片段会将ODS文件保存为ODF 1.2格式。
+以下提供的代码片段将ODS文件保存为ODF 1.2格式。
 
-**Java**
+Java
 
 {{< highlight csharp >}}
 
@@ -140,17 +140,17 @@ workbook.save("ODF1.1.ods", options);
 
 {{% /alert %}} 
 
-### **添加了SparklineCollection.add方法**
-Aspose.Cells APIs已经公开了SparklineCollection.add(String dataRange, int row, int column)方法，用于指定Sparkline Group的数据范围和位置。 请注意，Excel通过以下步骤提供相同的功能。 
+### **添加了SparklineCollection.add方法。**
+Aspose.Cells API已公开SparklineCollection.add(String dataRange, int row, int column)方法，以指定Sparkline组的数据范围和位置。请注意，Excel通过以下步骤提供了相同的功能。 
 
-1. 选择包含您的Sparkline的单元格。
-1. 在**设计**选项卡内的**Sparkline编辑数据**部分中选择。
+1. 选择包含Sparkline的单元格。
+1. 在**设计**选项卡的**编辑**区域中选择**编辑数据**。
 1. 选择**编辑组位置和数据**。
 1. 指定**数据范围**和**位置**。
 
-以下示例代码加载源电子表格，访问第一个Sparkline组，并为Sparkline组添加新的数据范围和位置。 
+以下示例代码加载源电子表格，访问第一个折线图组并为折线图组添加新的数据范围和位置。 
 
-**Java**
+Java
 
 {{< highlight csharp >}}
 
@@ -184,6 +184,6 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}} 
 
-请查看文章[通过指定数据范围和位置来复制迷你图](/cells/zh/java/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group/)以获取更多信息。
+请查看文章[通过指定折线图组的数据范围和位置复制折线图](/cells/zh/java/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group/)以获取更多信息。
 
 {{% /alert %}}

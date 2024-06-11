@@ -7,13 +7,13 @@ url: /zh/net/add-wordart-watermark-to-worksheet-in-aspose-cells/
 
 {{% alert color="primary" %}}
 
-使用WordArt添加特殊文本效果到电子表格中。例如，将标题跨越文件顶部，装饰文本，并将文本适配预设形状，或将文本应用为Excel表中的背景水印。WordArt变为一个对象，您可以在电子表格中移动或定位以添加装饰。
+使用WordArt为电子表格添加特殊文本效果，例如，将标题横跨文件顶部，装饰文本，并使文本适应预设形状，或将文本应用于Excel工作表作为背景水印。 WordArt成为您可以在电子表格中移动或定位以添加装饰的对象。
 
 {{% /alert %}}
 
-以下示例展示如何添加WordArt形状以设置背景水印。
+以下示例显示如何添加文字艺术形状以设置工作表的背景水印。
 
-运行代码后，输出文件包含淡红色的WordArt水印。
+运行代码后，输出文件包含淡红色的文字艺术水印。
 
 **输出文件** 
 
@@ -71,6 +71,6 @@ workbook.Save(FileName);
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Add%20WordArt%20Watermark)
 
-## **下载示例**
+## **下载运行示例**
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

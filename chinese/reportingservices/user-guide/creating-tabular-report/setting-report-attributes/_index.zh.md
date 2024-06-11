@@ -1,5 +1,5 @@
 ---
-title: 设置报告属性
+title: 设置报表属性
 type: docs
 weight: 80
 url: /zh/reportingservices/setting-report-attributes/
@@ -7,42 +7,42 @@ url: /zh/reportingservices/setting-report-attributes/
 
 {{% alert color="primary" %}} 
 
-要创建表格报告，您需要在将报告发布到报告服务器之前设置报告属性。报告属性包含关于报告名称、范围、数据分组、排序等的信息。
+要创建表格报表，您需要在将报表发布到报表服务器之前设置报表属性。报表属性保存有关报表名称、范围、数据分组、排序等信息。
 
 {{% /alert %}} 
 
-设置表格报告的属性：
+设置表格报表的属性:
 
-1. 单击 Aspose.Cells.Report.Designer 工具栏上的 **设置属性**（Set Attribute）。
+1. 单击 Aspose.Cells.Report.Designer 工具栏上的 **设置属性** (
 
 ![todo:image_alt_text](setting-report-attributes_1.png)
 
 ).
 
-1. 在对话框中输入报告名称。 
+1. 在对话框中输入报表名称。 
 
-   **设置报告名称** 
+   **设置报表名称** 
 
 ![todo:image_alt_text](setting-report-attributes_2.png)
 
 
 
 
-1. 单击 **下一步**。
-1. 为报告选择一个范围。
-   范围从表格数据行的第一个单元格开始，直到页脚行的最后一个单元格，或者如果没有页脚，则是组数据的最后一个单元格。
-   开始和结束单元格索引会自动显示在 **范围** 字段中。在这里，范围包括从 D4 到 H8 的单元格。 
+1. 点击**下一步**。
+1. 选择报表范围。
+   范围从表格数据行中的第一个单元格开始，并以页脚行的最后一个单元格结束，或者如果没有页脚，则以组数据的最后一个单元格结束。
+   起始和结束单元格的索引会自动显示在 **范围** 字段中。在这里，范围包括从 D4 到 H8 的单元格。 
 
-   **定义报告范围** 
+   **定义报表范围** 
 
 ![todo:image_alt_text](setting-report-attributes_3.png)
 
 
 
 
-1. 单击 **下一步** 继续。
-   数据集的所有字段都列在对话框中的左侧面板中。 
-1. 选择要根据哪些字段对数据进行分组。 
+1. 点击**下一个**继续。
+   对话框框的左侧面板中列出了数据集的所有字段。 
+1. 选择要按数据分组的字段。 
 
    **选择用于分组数据的字段** 
 
@@ -51,21 +51,21 @@ url: /zh/reportingservices/setting-report-attributes/
 
 
 
-1. 单击 **下一步** 继续。
-1. 选择要按哪些字段对数据进行排序。 
+1. 点击**下一个**继续。
+1. 选择要根据数据排序的字段。 
 
-   **选择要按其排序数据的字段** 
+   **选择用于排序数据的字段** 
 
 ![todo:image_alt_text](setting-report-attributes_5.png)
 
 
 
 
-1. 单击 **下一步**。
+1. 点击**下一步**。
 
-   显示报告摘要。
+   报告摘要显示。
    **报告摘要** 
 
 ![todo:image_alt_text](setting-report-attributes_6.png)
 
-1. 单击 **完成**。
+1. 点击**完成**。

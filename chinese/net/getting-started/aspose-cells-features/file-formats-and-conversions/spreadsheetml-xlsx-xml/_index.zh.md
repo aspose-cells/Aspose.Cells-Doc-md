@@ -1,41 +1,41 @@
 ---
-title: 电子表格ML - XLSX，XML
+title: SpreadsheetML - XLSX, XML
 type: docs
 weight: 10
 url: /zh/net/spreadsheetml-xlsx-xml/
 ---
 
-## **关于电子表格ML**
-SpreadsheetML 是一系列基于 XML 的电子表格文档格式的名称。有几个版本的 SpreadsheetML：
+## **关于SpreadsheetML**
+SpreadsheetML是一系列面向电子表格文档的基于XML的格式的名称。有几个版本的SpreadsheetML：
 
-1. SpreadsheetML 版本 2003 是在 Microsoft Word 2003 中引入的。 SpreadsheetML 是微软朝着使文档格式开放的重要一步。
-1. [Office Open XML](https://en.wikipedia.org/wiki/Office_Open_XML)（OOXML）是 Microsoft Office 2007 应用程序中引入的新基于 XML 的格式。 Office Open XML 是用于存储文档的几种专用基于 XML 的标记语言的容器格式。 SpreadsheetML 版本 2007 是 Microsoft Office Excel 2007 使用的标记语言，用于存储其文档。
-1. Microsoft Excel 2010 将文档存储在根据更新的 OOXML 标准定义的 SpreadsheetML 版本 2010 中。
-## **Aspose.Cells 中的 SpreadsheetML**
-可用的三种版本的 SpreadsheetML 是：
+1. 电子表格版本2003是在Microsoft Word 2003中引入的。 SpreadsheetML是微软向着将文档格式开放化迈出的重要一步。
+1. [Office Open XML](https://en.wikipedia.org/wiki/Office_Open_XML) (OOXML)是Microsoft Office 2007应用程序中引入的新基于XML的格式。 Office Open XML是几种专门的基于XML的标记语言的容器格式。 SpreadsheetML版本2007是Microsoft Office Excel 2007用于存储其文档的标记语言。
+1. Microsoft Excel 2010以更新的OOXML标准中定义的SpreadsheetML版本2010存储文档。
+## **Aspose.Cells中的SpreadsheetML**
+有三个可用的"版本"的SpreadsheetML：
 
-|**电子表格“版本”**|**适用标准/规范**|**在 Aspose.Cells for .NET 中受支持**|
+|**SpreadsheetML “Version”**|**适用的标准/规范**|**在Aspose.Cells for .NET中支持**|
 | :- | :- | :- |
-|Microsoft Excel 2003| [微软 Excel 2003 XML](https://en.wikipedia.org/wiki/Microsoft_Office_XML_formats)|是|
-|Microsoft Excel 2007| [OOXML ECMA-376](https://www.ecma-international.org/publications-and-standards/standards/ecma-376/)|是|
-|Microsoft Excel 2010| OOXML ISO/IEC DIS 29500|是|
-|Microsoft Excel 2013| OOXML ISO/IEC DIS 29500|是|
-OOXML SpreadsheetML 文档通常以 XLSX 文件形式存在，这是 ZIP 包。除了 XLSX 外，Aspose.Cells 还提供了对加载、保存和转换 SpreadsheetML 文档的广泛支持。这种全面的实现得以实现，是因为 Aspose.Cells 设计时考虑了 Microsoft Excel 文档的结构（而且已知 SpreadsheetML 模仿了 Microsoft Excel 文档的内部表示）。
-### **OOXML 是开放的，为什么要使用 Aspose.Cells？**
-的确，Office Open XML 技术使得可以仅使用 XML 类构建文档处理和生成应用程序，而无需依赖于像 Aspose.Cells 这样的第三方库。然而，我们坚信在处理 OOXML 文档时使用 Aspose.Cells 仍然非常有益处，而不是透过 XML 或其他库进行操作。
+|Microsoft Excel 2003|[Microsoft Excel 2003 XML](https://en.wikipedia.org/wiki/Microsoft_Office_XML_formats)|是|
+|Microsoft Excel 2007|[OOXML ECMA-376](https://www.ecma-international.org/publications-and-standards/standards/ecma-376/)|是|
+|Microsoft Excel 2010|OOXML ISO/IEC DIS 29500|是|
+|Microsoft Excel 2013|OOXML ISO/IEC DIS 29500|是|
+OOXML SpreadsheetML文档通常以XLSX文件的形式出现，这些文件是ZIP包。除了XLSX之外，Aspose.Cells还提供了对加载、保存和转换SpreadsheetML文档的广泛支持。这种全面的实现是可能的，因为Aspose.Cells的设计考虑了Microsoft Excel文档的结构（而SpreadsheetML被认为是模仿Microsoft Excel文档的内部表示）。 
+### **OOXML是开放的，为什么要使用Aspose.Cells？**
+确实，Office Open XML技术使得可以仅使用XML类构建文档处理和生成应用程序，而无需依赖于Aspose.Cells等第三方库。 但是，我们坚信在处理OOXML文档时，使用Aspose.Cells仍然非常有益，而不是通过XML或其他库进行工作。
 
-OOXML 规范有数千页之长。开放和标准并不意味着简单。要正确处理或生成 OOXML 文档，必须投入时间学习格式。
+OOXML规范内容非常丰富。 开放和标准并不意味着简单。 要正确处理或生成OOXML文档，必须投入大量时间学习该格式。
 
-Aspose.Cells 不仅使得正确处理和生成有效文档更加简单，而且提供以下重要功能，这些功能是在直接通过 XML 或其他第三方库处理 OOXML 文件时所没有的：
+除了使得正确处理和生成有效文档更简单外，Aspose.Cells还提供了以下你在通过XML或其他第三方库直接处理OOXML文件时没有的重要功能：
 
-- 在许多流行的 Excel 格式之间进行质量转换，包括转换为 PDF、HTML、TIFF 以及打印。
-- 能够基于片段构建文档，基于一个或多个文档，同时自动按样式、格式化、图表和图形合并数据。
-- 高级功能，例如，从不同数据源导入数据，包括 Array、ArrayList、DataTable、DataColumn、DataGrid、DataView 和 DataReader，或者导出数据以填充 DataTable 或数组，只需一行代码。
-- 强大的公式计算引擎，支持几乎所有标准和高级 Microsoft Excel 函数。
+- 在许多流行的Excel格式之间进行优质转换，包括转换为PDF、HTML、TIFF和打印。
+- 能够从片段构建文档，从一个或多个文档，同时通过样式格式化、图表和图形自动合并数据。
+- 高级功能，例如，从不同的数据源（包括数组、ArrayList、DataTable、DataColumn、DataGrid、DataView和DataReader）导入数据，或者通过一行代码将数据导出到填充有数据的DataTable或数组中。
+- 强大的公式计算引擎，支持几乎所有标准和高级的 Microsoft Excel 函数。
 
-考虑以下示例。某些单元格以粗体显示“Hello World”文本。现在想象一下，您需要编写一个程序，该程序搜索工作表中的所有“Hello World”短语，并将其替换为“Goodbye Earth”。
-### ** Office Open XML 文档的片段**
-**XML**
+考虑以下示例。某些单元格以粗体包含文本“Hello World”。现在想象一下，您需要编写一个程序，以搜索工作表中的所有“Hello World”短语并将其替换为“Goodbye Earth”。
+### **Office Open XML 文档的片段**
+XML
 
 {{< highlight csharp >}}
 
@@ -170,4 +170,4 @@ Aspose.Cells 不仅使得正确处理和生成有效文档更加简单，而且�
 {{< /highlight >}}
 
 
-在 Office Open XML 文档中实施甚至一个简单的查找和替换操作是困难的。我们的建议：记住开放和标准并不意味着简单，使用 Aspose.Cells。
+甚至在Office Open XML文档中执行一个简单的查找和替换操作也是困难的。我们的建议：记住开放和标准并不意味着简单，使用Aspose.Cells。

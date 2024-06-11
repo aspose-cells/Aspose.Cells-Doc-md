@@ -1,5 +1,5 @@
 ---
-title: 在ODS文件中获取单元格验证
+title: 获取ODS文件中的单元格验证
 type: docs
 weight: 190
 url: /zh/java/get-cell-validation-in-ods-files/
@@ -7,9 +7,9 @@ url: /zh/java/get-cell-validation-in-ods-files/
 
 ## **获取ODS文件中的单元格验证**
 
-利用Aspose.Cells，您可以获取ODS文件中应用的单元格验证。为此，API提供了 [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) 类的 [**GetValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation()) 方法。
+使用Aspose.Cells，可以获取应用于ODS文件中单元格的验证。为此，API提供了[**GetValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation())方法。
 
-下面的代码示例演示了用 [**GetValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation()) 方法加载 [源ODS](SampleBook1.ods) 文件并读取单元格A9的验证。
+以下代码示例演示了通过加载[源ODS](SampleBook1.ods)文件并读取单元格A9的验证，使用[**GetValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation())方法。
 
 ### **示例代码**
 

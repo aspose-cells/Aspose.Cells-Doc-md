@@ -3,19 +3,19 @@ title: 使用内置样式
 type: docs
 weight: 80
 url: /zh/net/using-built-in-styles/
-description: 使用 C# 代码使用 Aspose.Cells for .NET API 中的 Excel 内置样式
-keywords: C#使用Excel内置样式，C#以编程方式在工作簿中应用样式，以编程方式在工作簿中应用样式，C#在Excel中应用内置样式，C#在工作簿中应用内置样式，C#代码在工作簿中应用内置样式，C#代码在Excel工作簿中应用内置样式
+description: 使用 Aspose.Cells for .NET API 使用 Excel 内置样式的 C# 代码。
+keywords: c# 使用内置样式的excel, c# 以编程方式在工作簿中应用样式, 以编程方式在工作簿中应用样式, c# 在excel中应用内置样式, c# 在工作簿中应用内置样式, c# 代码在工作簿中应用内置样式, c# 代码在excel工作簿中应用内置样式
 ---
 
 {{% alert color="primary" %}}
 
-Aspose.Cells提供了一个庞大的可重用样式集合，用于格式化电子表格文档中的单元格。我们可以在工作簿中使用内置样式，也可以创建自定义样式。
+Aspose.Cells提供了一个大量的可重复使用的样式集合，用于对电子表格文档中的单元格进行格式化。我们可以在工作簿中使用内置样式，也可以创建自定义样式。
 
 {{% /alert %}}
 
 ## **如何使用内置样式**
 
-方法[**Workbook.CreateBuiltinStyle**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createbuiltinstyle)和枚举[**BuiltinStyleType**](https://reference.aspose.com/cells/net/aspose.cells/builtinstyletype)使得使用内置样式变得方便。以下列出了所有可能的内置样式：
+方法 [**Workbook.CreateBuiltinStyle**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createbuiltinstyle) 和枚举 [**BuiltinStyleType**](https://reference.aspose.com/cells/net/aspose.cells/builtinstyletype) 使使用内置样式变得更加方便。以下是所有可能的内置样式列表:
 
 - 20% 强调 1
 - 20% 强调 2
@@ -33,42 +33,42 @@ Aspose.Cells提供了一个庞大的可重用样式集合，用于格式化电�
 - 60% 强调 2
 - 60% 强调 3
 - 60% 强调 4
-- 60% 强调 5
-- 60% 强调 6
-- 强调 1
-- 强调 2
-- 强调 3
-- 强调 4
-- 强调 5
-- 强调文字_6
-- 糟糕
+- 百分之六十重音_5
+- 百分之六十重音_6
+- 重音_1
+- 重音_2
+- 重音_3
+- 重音_4
+- 重音_5
+- 重音_6
+- 错误
 - 计算
 - 检查单元格
 - 逗号
 - 逗号_1
 - 货币
 - 货币_1
-- 说明性文字
-- 优秀
-- 标题_1
-- 标题_2
-- 标题_3
-- 标题_4
+- 说明性文本
+- 良好
+- 表头_1
+- 表头_2
+- 表头_3
+- 第四标题
 - HYPERLINK
-- 已访问的超链接
+- 跟随的超链接
 - 输入
-- 链接单元格
-- 中立
-- 正常
-- 注解
+- 链接的单元格
+- 中立的
+- 普通的
+- 注释
 - 输出
 - 百分比
 - 标题
 - 总计
-- 警告文字
-- 行级别
-- 列级别
+- 警告文本
+- 行级
+- 列级
 
-## 使用内置样式的C#代码
+## C# 代码以使用内置样式
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingBuiltinStyles-1.cs" >}}

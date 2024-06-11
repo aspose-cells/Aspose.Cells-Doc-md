@@ -1,14 +1,14 @@
 ---
-title: 在 Ruby 中取消保护工作表
+title: 在Ruby中取消保护工作表
 type: docs
 weight: 20
 url: /zh/java/unprotect-a-worksheet-in-ruby/
 ---
 
 ## **Aspose.Cells - 取消保护工作表**
-使用 **Aspose.Cells Java for Ruby** 保护工作表，请调用 **protection** 模块的 **unprotect_worksheet** 方法。
+要使用**Aspose.Cells Java for Ruby**取消保护工作表，调用**protection**模块的**unprotect_worksheet**方法。
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 
@@ -56,6 +56,6 @@ end   
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下任一社交编码站点下载 **Unprotect a Worksheet (Aspose.Cells)**：
+从下面提到的任何社交编码网站下载**Unprotect a Worksheet (Aspose.Cells)**。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/protection.rb)

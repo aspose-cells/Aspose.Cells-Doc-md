@@ -7,32 +7,32 @@ url: /zh/net/hide-and-unhide-worksheets-in-a-workbook/
 
 {{% alert color="primary" %}}
 
-向客户展示工作簿或进行演示时，隐藏工作表可能非常有用。结构化的电子表格建模方法建议将数据、公式和图表等可视化内容保留在单独的工作表中。这种方法使布局保持干净简洁，使工作簿更易于导航。在展示结果时，您可能希望隐藏数据或公式工作表，避免干扰。
+向客户展示工作簿或进行演示时，隐藏工作表可能会很有用。结构化的电子表格建模方法建议将数据、公式和图表等可视化内容保存在不同的表中。这种方法保持布局清晰简单，并使工作簿更易于导航。在展示结果时，您可能希望隐藏数据或公式表，以避免分心。
 
-在 Microsoft Excel 中工作的用户可以轻松隐藏然后取消隐藏（显示）工作表。这些功能也适用于使用 Excel 电子表格进行编程的开发人员。从软件应用程序中处理电子表格有不同的方式。一种方法是使用 VSTO，另一种是 Aspose.Cells for .NET。
+使用Microsoft Excel的用户可以轻松隐藏然后取消隐藏（显示）工作表。对于使用Excel电子表格进行编程的开发人员也可以使用相同的功能。软件应用程序中处理电子表格的方法有所不同。一种方法是使用VSTO，另一种则是使用Aspose.Cells for .NET。
 
 {{% /alert %}}
 
 ## **隐藏和取消隐藏工作表**
 
-本文比较了使用 [VSTO](/cells/zh/net/hide-and-unhide-worksheets-in-a-workbook/) 以及 C# 或 Visual Basic，隐藏和取消隐藏工作表与使用 [Aspose.Cells](/cells/zh/net/hide-and-unhide-worksheets-in-a-workbook/) 执行相同任务的方式，同样使用 C# 或 Visual Basic。Aspose.Cells 让您可以在未安装 Microsoft Excel 的情况下工作。
+本文比较使用 [VSTO](/cells/zh/net/hide-and-unhide-worksheets-in-a-workbook/) 和 C# 或 Visual Basic 隐藏工作表，并使用 [Aspose.Cells](/cells/zh/net/hide-and-unhide-worksheets-in-a-workbook/) 同样是通过 C# 或 Visual Basic 执行相同任务的差异。Aspose.Cells 可让您在未安装 Microsoft Excel 的情况下使用。
 
-隐藏工作表的步骤：
+隐藏工作表的步骤是：
 
 1. 打开文件。
 1. 获取工作表。
 1. 隐藏工作表。
 1. 保存文件。
 
-要再次[取消隐藏](/cells/zh/net/hide-and-unhide-worksheets-in-a-workbook/)工作表，只需为隐藏的工作表切换显示状态。
+要再次[取消隐藏](/cells/zh/net/hide-and-unhide-worksheets-in-a-workbook/)工作表，只需切换隐藏表的可见性。
 
-以下代码示例首先展示了如何隐藏工作表。首先展示了使用 [VSTO](/cells/zh/net/hide-and-unhide-worksheets-in-a-workbook/) 和 C# 或 Visual Basic 进行此过程，相比使用 [Aspose.Cells](/cells/zh/net/hide-and-unhide-worksheets-in-a-workbook/)，同样可以使用 C# 或 Visual Basic。
+下面的代码示例首先展示了如何隐藏工作表。第一组示例展示了使用 [VSTO](/cells/zh/net/hide-and-unhide-worksheets-in-a-workbook/) 和 C# 或 Visual Basic 的过程，与使用 [Aspose.Cells](/cells/zh/net/hide-and-unhide-worksheets-in-a-workbook/) 同样是通过 C# 或 Visual Basic 进行比较。
 
-第二组代码示例展示了如何在 [VSTO](/cells/zh/net/hide-and-unhide-worksheets-in-a-workbook/) 或 [Aspose.Cells](/cells/zh/net/hide-and-unhide-worksheets-in-a-workbook/) 中使用的代码行来取消隐藏工作表。
+第二组代码示例展示了在 [VSTO](/cells/zh/net/hide-and-unhide-worksheets-in-a-workbook/) 或 [Aspose.Cells](/cells/zh/net/hide-and-unhide-worksheets-in-a-workbook/) 中取消隐藏工作表所使用的代码行。
 
 ## **隐藏工作表**
 
-以下是用于VSTO和Aspose.Cells的代码示例，演示如何在工作簿中隐藏工作表。
+以下是VSTO和Aspose.Cells的代码示例，说明如何在工作簿中隐藏工作表。
 
 ### **使用 VSTO 隐藏工作表**
 
@@ -109,7 +109,7 @@ excelApp.Quit();
 {{< /highlight >}}
 
 
-### **使用 Aspose.Cells for .NET 隐藏工作表**
+### **使用Aspose.Cells for .NET隐藏工作表**
 
 **C#**
 
@@ -159,7 +159,7 @@ workbook.Save(@"d:\test\MyBook.xls");
 
 ## **取消隐藏工作表**
 
-以下是用于VSTO和Aspose.Cells的代码示例，演示如何在工作簿中取消隐藏工作表。
+以下是VSTO和Aspose.Cells的代码示例，说明如何在工作簿中取消隐藏工作表。
 
 ### **使用 VSTO 取消隐藏工作表**
 
@@ -178,7 +178,7 @@ objSheet.Visible = Excel.XlSheetVisibility.xlSheetVisible;
 {{< /highlight >}}
 
 
-### **使用 Aspose.Cells for .NET 取消隐藏工作表**
+### **使用Aspose.Cells for .NET取消隐藏工作表**
 
 **C#**
 

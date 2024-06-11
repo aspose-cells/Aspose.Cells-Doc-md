@@ -1,15 +1,15 @@
 ---
-title: FAQ
+title: 常见问题解答
 type: docs
 weight: 100
 url: /zh/cpp/faq/
 ---
 
-## **尚未**
+## **暂无**
 
 <!--
-## **目前不支持Aspose.Cells for C++的加密和解密**
-目前，Aspose.Cells for C++不支持加密和解密，因此如果需要用密码打开文件，则代码会抛出异常。
+## **当前不支持Aspose.Cells for C++的加密和解密功能**
+目前，Aspose.Cells for C++不支持加密和解密功能，如果您想要使用密码打开文件，代码将抛出异常。
 
 
 

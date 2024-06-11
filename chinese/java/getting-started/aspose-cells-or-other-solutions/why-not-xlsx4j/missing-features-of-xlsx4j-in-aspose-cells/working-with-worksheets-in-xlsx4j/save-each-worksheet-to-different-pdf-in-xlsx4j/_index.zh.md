@@ -1,14 +1,14 @@
 ---
-title: 在xlsx4j中每个工作表保存为不同的PDF
+title: 在xlsx4j中将每个工作表保存为不同的PDF
 type: docs
 weight: 50
 url: /zh/java/save-each-worksheet-to-different-pdf-in-xlsx4j/
 ---
 
-## **Aspose.Cells - 将每个工作表保存为不同的PDF**
-Aspose.Cells支持将包含图像、图表等的XLS文件转换为PDF文档。Aspose.Cells for Java可以独立工作，将电子表格转换为PDF文档，您不再需要使用Aspose.Pdf for Java进行转换。转换也不需要创建/使用任何临时文件，因为整个过程可以在内存中完成。
+## **Aspose.Cells - 将每个工作表保存为不同的 PDF**
+Aspose.Cells支持将包含图像、图表等的XLS文件转换为PDF文档。 Aspose.Cells for Java可以独立工作，将 spreadsheet 转换为 Pdf 文档，您不需要再使用Aspose.Pdf for Java进行转换，转换也不需要创建/使用任何临时文件，整个过程可以在内存中完成。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -66,6 +66,6 @@ for (int j = 0; j < workbook.getWorksheets().getCount(); j++)
 
 {{% alert color="primary" %}} 
 
-有关详细信息，请访问[将每个工作表保存为不同的PDF文件](/cells/zh/java/save-each-worksheet-to-a-different-pdf-file)。
+查看更多详情，请访问[将每个工作表保存为不同的PDF文件](/cells/zh/java/save-each-worksheet-to-a-different-pdf-file)。
 
 {{% /alert %}}

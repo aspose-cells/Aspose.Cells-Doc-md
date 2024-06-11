@@ -5,5 +5,5 @@ weight: 20
 url: /zh/java/page-setup-features-in-python/
 ---
 
-**本节包括以下主题：** 
+**本部分包括以下主题:** 
 - [在Python中设置页面选项](/cells/zh/java/setting-page-options-in-python/)

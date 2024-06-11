@@ -1,14 +1,14 @@
 ---
-title: 在Ruby中进行页面分隔预览
+title: 在Ruby中的分页预览
 type: docs
 weight: 70
 url: /zh/java/page-break-preview-in-ruby/
 ---
 
-## **Aspose.Cells - 分页预览**
-要使用**Aspose.Cells Java for Ruby**设置工作表为页面分隔预览，只需调用**PageBreakPreview**模块。
+## **Aspose.Cells - 页面分页预览**
+使用**Aspose.Cells Java for Ruby**简单调用**PageBreakPreview**模块即可将工作表设置为分页预览。
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 
@@ -38,6 +38,6 @@ puts "Set page break preview, please check the output file."
 
 {{< /highlight >}}
 ## **下载运行代码**
-从下面列出的任何社交编码站点下载**页面分隔预览（Aspose.Cells）**。
+从以下社交编码网站中下载**分页预览（Aspose.Cells）**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagebreakpreview.rb)

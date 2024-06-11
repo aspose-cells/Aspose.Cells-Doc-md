@@ -1,16 +1,16 @@
 ---
-title: 创建、移除和获取GridCell注释
+title: 创建、删除和获取GridCell注释
 type: docs
 weight: 10
 url: /zh/java/create-remove-and-get-gridcell-comments/
 ---
 
 ## **可能的使用场景**
-以下文章解释了如何在GridWeb工作表内创建、移除和获取GridCell注释。值得注意的是，GridWeb在您将鼠标悬停在单元格上时显示注释，就像MS-Excel那样，如本屏幕截图所示。
+以下文章解释了如何在GridWeb工作表中创建、删除和获取GridCell注释。值得注意的是，当您在单元格上悬停鼠标时，GridWeb会像MS-Excel一样将注释显示为工具提示，如此屏幕截图所示。
 
 ![todo:image_alt_text](create-remove-and-get-gridcell-comments_1.png)
-## **在单元格内创建评论对象**
-请使用 GridCell.CreateComment 方法在单元格内创建评论对象。以下示例代码在第一个 GridWeb 工作表的 B4 单元格创建一个示例评论。
+## **在单元格内创建注释对象**
+请使用GridCell.CreateComment方法在单元格内创建注释对象。以下示例代码在GridWeb的第一个工作表的B4单元格中创建了一个示例注释。
 
 {{< highlight java >}}
 
@@ -29,8 +29,8 @@ GridCell cell = sheet.getCells().get("B4");
 cell.createComment("This is a B4 note.", "Peter", true);
 
 {{< /highlight >}}
-## **从单元格中移除评论对象**
-请使用 GridCell.RemoveComment 方法从单元格中移除注释对象。以下示例代码将删除GridWeb第一个工作表中单元格B4的注释。
+## **从单元格中移除注释对象**
+请使用GridCell.RemoveComment方法从单元格中移除注释对象。以下示例代码从GridWeb的第一个工作表中移除了B4单元格的注释。
 
 
 
@@ -49,8 +49,8 @@ GridCell cell = sheet.getCells().get("B4");
 cell.removeComment();
 
 {{< /highlight >}}
-## **从单元格获取评论对象**
-请使用 GridCell.GetComment() 方法从单元格中获取注释对象。以下示例代码从单元格B4获取注释对象，然后访问其各种属性，如作者、备注、可见性等。
+## **从单元格中获取注释对象**
+请使用GridCell.GetComment()方法从单元格中获取注释对象。以下示例代码从B4单元格获取注释对象，然后访问其各种属性，如作者、注释、可见性等。
 
 {{< highlight java >}}
 

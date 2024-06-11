@@ -1,5 +1,5 @@
 ---
-title: 电子表编辑器-使用功能
+title: 电子表格编辑器 - 使用函数
 type: docs
 weight: 60
 url: /zh/java/spreadsheet-editor-working-with-functions/
@@ -11,11 +11,11 @@ url: /zh/java/spreadsheet-editor-working-with-functions/
   - saveFormulaBarContents
 - [插入函数](#SpreadsheetEditor-WorkingwithFunctions-InsertaFunction)
 ### **公式栏**
-公式栏是位于工作表区域顶部的文本框。它显示当前单元格的公式，并允许用户对其进行编辑。
+公式栏是工作表区域顶部的文本框。它显示当前单元格的公式，并允许用户编辑它。
 
 **它是如何工作的？**
 
-当选择单元格时，公式栏会与单元格同步，显示公式。允许用户进行编辑。当用户编辑并按回车键时，将执行JavaScript函数**saveFormulaBarContents**
+当选定单元格时，公式栏会与单元格同步，并显示公式。用户可以进行编辑。用户进行编辑并按下回车键时，将执行JavaScript函数 **saveFormulaBarContents**。
 #### **saveFormulaBarContents**
 {{< highlight java >}}
 
@@ -35,6 +35,6 @@ url: /zh/java/spreadsheet-editor-working-with-functions/
 ### **插入函数**
 要插入函数或公式：
 
-1. 点击一个单元格进行选择。
-1. 点击顶部的**插入函数**按钮。
-1. 按照**插入函数**对话框上的说明进行操作。
+1. 单击单元格以选择它。
+1. 在顶部单击**插入函数**按钮。
+1. 按照**插入函数**对话框中的说明操作。

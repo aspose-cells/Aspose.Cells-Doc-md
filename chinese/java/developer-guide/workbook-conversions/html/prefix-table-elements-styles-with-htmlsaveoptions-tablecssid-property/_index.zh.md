@@ -1,5 +1,5 @@
 ---
-title: 使用HtmlSaveOptions.TableCssId属性前缀表元素样式
+title: 使用 HtmlSaveOptions.TableCssId 属性为表格元素样式添加前缀
 type: docs
 weight: 110
 url: /zh/java/prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property/
@@ -7,7 +7,7 @@ url: /zh/java/prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-prope
 
 ## **可能的使用场景**
 
-Aspose.Cells允许您使用[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#TableCssId)属性为表元素样式添加前缀。假设您将此属性设置为某个值，例如*MyTest_TableCssId*，那么您将发现表元素样式如下所示
+Aspose.Cells 允许您使用 [**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#TableCssId) 属性为表格元素样式添加前缀。假设您将此属性设置为 *MyTest_TableCssId* 等某个值，则将找到如下所示的表格元素样式。
 
 {{< highlight java >}}
 
@@ -23,13 +23,13 @@ etc.
 
 {{< /highlight >}}
 
-以下截图显示了在输出HTML中使用 [**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#TableCssId) 属性的效果
+以下屏幕截图显示了使用 [**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#TableCssId) 属性对输出 HTML 的影响。
 
 ![todo:image_alt_text](prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property_1.png)
 
-## **使用HtmlSaveOptions.TableCssId属性前缀表元素样式**
+## **使用 HtmlSaveOptions.TableCssId 属性为表格元素样式添加前缀**
 
-以下示例代码解释了如何使用[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#TableCssId)属性。请查看由代码生成的[输出HTML](60489791.zip)进行参考。
+以下示例代码说明了如何使用 [**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#TableCssId) 属性。请参考代码生成的 [输出 HTML](60489791.zip) 进行参考。
 
 ## **示例代码**
 

@@ -6,7 +6,7 @@ url: /zh/net/create-new-workbook/
 ---
 
 ## **Aspose.Cells - 创建新工作簿**
-Workbook类可供简单使用
+Workbook类可用于简单使用
 
 **C#**
 
@@ -18,7 +18,7 @@ workbook.Save("test.xlsx", SaveFormat.Xlsx); //Workbooks can be saved in many fo
 
 {{< /highlight >}}
 ## **NPOI - HSSF XSSF - 创建新工作簿**
-使用Workbook类创建新工作簿，然后使用FileOutputStream保存。
+使用Workbook类创建新工作簿，并使用FileOutputStream保存
 
 **C#**
 
@@ -40,6 +40,6 @@ sw.Close();
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下社交编码网站之一下载**创建新工作簿**：
+从下面提到的任何社交编码网站下载**创建新工作簿**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Create.New.Workbook.Aspose.Cells.zip)

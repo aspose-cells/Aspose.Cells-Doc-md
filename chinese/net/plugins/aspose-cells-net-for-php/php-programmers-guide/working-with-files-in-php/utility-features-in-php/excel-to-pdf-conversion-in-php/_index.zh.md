@@ -8,7 +8,7 @@ url: /zh/net/excel-to-pdf-conversion-in-php/
 ## **Aspose.Cells - 将Excel转换为PDF**
 将Microsoft Excel文件转换为PDF
 
-**PHP代码**
+**PHP 代码**
 
 {{< highlight php >}}
 
@@ -30,6 +30,6 @@ url: /zh/net/excel-to-pdf-conversion-in-php/
 
 {{< /highlight >}}
 ## **下载运行代码**
-从下面提到的任何社交编码网站下载**Excel转PDF转换（Aspose.Cells）**。
+从以下任一社交编码网站下载**Excel转PDF转换（Aspose.Cells）**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/Excel2PDFConversion.php)

@@ -1,5 +1,5 @@
 ---
-title: 查找特定单词的出现
+title: 查找特定单词的出现次数
 type: docs
 weight: 120
 url: /zh/net/find-specific-word-occurrence/

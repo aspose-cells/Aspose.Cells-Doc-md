@@ -7,17 +7,17 @@ url: /zh/net/public-api-changes-in-aspose-cells-8-6-1/
 
 {{% alert color="primary" %}} 
 
-本文描述了Aspose.Cells API从版本8.6.0到8.6.1的更改，可能会对模块/应用程序开发人员感兴趣。它不仅包括新增和更新的公共方法，添加的类，还描述了Aspose.Cells背后行为的任何变化。
+本文档描述了从版本8.6.0到8.6.1的Aspose.Cells API的变化，可能会引起模块/应用程序开发人员的兴趣。它不仅包括新的和更新的公共方法、新增的类，还描述了在Aspose.Cells背后的行为中的任何更改。
 
 {{% /alert %}} 
-## **已添加API**
+## **添加的 API**
 ### **支持HTML链接目标类型**
-这个Aspose.Cells for .NET API的版本公开了一个枚举HtmlLinkTargetType，以及一个新属性HtmlSaveOptions.LinkTargetType，共同允许在将电子表格转换为HTML格式时设置链接的目标类型。
+此版本的Aspose.Cells for .NET API已公开了HtmlLinkTargetType枚举和HtmlSaveOptions.LinkTargetType属性，共同允许在将电子表格转换为HTML格式时[设置链接的目标类型](/cells/zh/net/change-the-html-link-target-type/)。HtmlLinkTargetType枚举的可能值如下，其中默认值为Self。
 
 1. HtmlLinkTargetType.Blank：在新窗口或选项卡中打开链接的文档/页面。
 1. HtmlLinkTargetType.Parent：在父框架中打开链接的文档/页面。
-1. HtmlLinkTargetType.Self：在单击链接的相同框架中打开链接的文档/页面。
-1. HtmlLinkTargetType.Top：在窗口的整个主体中打开链接的文档/页面。
+1. HtmlLinkTargetType.Self：在点击链接的相同框架中打开链接的文档/页面。
+1. HtmlLinkTargetType.Top：在窗口的完整主体中打开链接的文档/页面。
 
 以下是简单的使用场景。
 
@@ -44,8 +44,8 @@ workbook.Save(outputFilePath, options);
 {{< /highlight >}}
 
 
-### **添加VbaModuleCollection.Remove方法**
-Aspose.Cells for .NET 8.6.1现在公开了另一个VbaModuleCollection.Remove方法的重载，该方法现在可以接受Worksheet实例以删除与指定Worksheet相关联的所有VBA模块。
+### **添加了VbaModuleCollection.Remove方法**
+Aspose.Cells for .NET 8.6.1已公开了VbaModuleCollection.Remove方法的另一个重载，现在可以接受Worksheet的实例以删除与指定工作表关联的所有VBA模块。
 
 以下是简单的使用场景。
 
@@ -68,8 +68,8 @@ modules.Remove(workbook.Worksheets[0]);
 {{< /highlight >}}
 
 
-### **添加RangeCollection.Add方法**
-Aspose.Cells for .NET 8.6.1已公开了RangeCollection.Add方法，可用于将Range对象添加到特定工作表的范围集合中。
+### **添加了RangeCollection.Add方法**
+Aspose.Cells for .NET 8.6.1已公开了RangeCollection.Add方法，可用于向特定工作表的范围集合中添加Range对象。
 
 以下是简单的使用场景。
 
@@ -96,8 +96,8 @@ ranges.Add(cells.CreateRange("A1:B4"));
 {{< /highlight >}}
 
 
-### **添加Cell.SetCharacters方法**
-Cell.SetCharacters方法可用于更新给定Cell对象的富文本部分。Cell.GetCharacters方法用于访问文本部分，然后可以使用Cell.SetCharacters方法进行修改，**Get**方法返回一个FontSetting对象数组，可用于设置各种属性，如字体名称、字体颜色、粗体等，而**Set**方法可用于应用更改。
+### **添加了Cell.SetCharacters方法**
+Cell.SetCharacters方法可用于更新给定Cell对象的[富文本部分](/cells/zh/net/access-and-update-the-portions-of-rich-text-of-cell/)。使用Cell.GetCharacters方法访问文本部分，然后可以使用Cell.SetCharacters方法进行修改，**Get**方法返回一组FontSetting对象，可以用于设置各种属性，如字体名称、字体颜色、粗细等，**Set**方法可用于应用更改。
 
 以下是简单的使用场景。
 
@@ -132,8 +132,8 @@ cell.SetCharacters(settings);
 {{< /highlight >}}
 
 
-### **添加VbaProject.IsSigned属性**
-Aspose.Cells for .NET 8.6.1公开了VbaProject.IsSigned属性，可用于检查工作簿中的VbaProject是否签名。如果项目已签名，布尔类型属性将返回true。
+### **添加了VbaProject.IsSigned属性**
+Aspose.Cells for .NET 8.6.1已公开了VbaProject.IsSigned属性，可用于[测试工作簿中的VbaProject是否签名](/cells/zh/net/check-if-vba-project-in-a-workbook-is-signed/)。该布尔类型属性如果项目已签名则返回true。
 
 以下是简单的使用场景。
 
@@ -168,9 +168,9 @@ else
 }
 
 {{< /highlight >}}
-## **修改的API**
-### **修改Cell.GetFormatConditions方法**
-随着 v8.6.1 的发布，Aspose.Cells for .NET API 修改了 Cell.GetFormatConditions 方法的返回类型，现在返回一个名为 FormatConditionCollection 类型的数组。
-## **已废弃的API**
-### **已弃用Workbook.CheckWriteProtectedPassword方法**
-随着 v8.6.1 的发布，Workbook.CheckWriteProtectedPassword 方法已被标记为过时。建议使用 WorkbookSettings.WriteProtection.ValidatePassword 方法，该方法可以接受一个字符串值作为参数，并在密码与电子表格的预设密码匹配时返回布尔值。
+## **修改的 API**
+### **修改的Cell.GetFormatConditions方法**
+通过v8.6.1的发布，Aspose.Cells for .NET API修改了Cell.GetFormatConditions方法的返回类型，现在返回FormatConditionCollection类型的数组。
+## **已弃用的API**
+### **弃用的Workbook.CheckWriteProtectedPassword方法**
+随着v8.6.1版本的发布，Workbook.CheckWriteProtectedPassword方法已被标记为弃用。建议使用WorkbookSettings.WriteProtection.ValidatePassword方法，它可以接受字符串值作为参数，并在密码匹配电子表格的预设密码时返回布尔值。

@@ -6,11 +6,11 @@ url: /zh/java/header-and-footers/
 ---
 
 ## **Aspose.Cells - 页眉和页脚**
-PageSetup 类提供了 setHeader 方法用于向工作表添加页眉，setFooter 方法用于向工作表添加页脚。脚本作为上述方法的参数使用，它表示要用于页眉或页脚的脚本。
+PageSetup 类提供 setHeader 方法用于向工作表添加页眉，并提供 setFooter 方法用于向工作表添加页脚。脚本作为上述方法的参数使用，并表示要用于页眉或页脚的脚本。
 
 **页眉**
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -36,7 +36,7 @@ pageSetup.setHeader(2, "&\"Times New Roman,Bold\"&12&F");
 
 **页脚**
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -64,9 +64,9 @@ pageSetup.setFooter(2, "&Pof&N");
 
 {{< /highlight >}}
 ## **Apache POI SS - HSSF XSSF - 页眉和页脚**
-Header 类可用于调整电子表格中的页眉
+Header 类可用于调整电子表格中的页眉。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -88,6 +88,6 @@ header.setRight(HSSFHeader.font("Stencil-Normal", "Italic") +
 
 {{% alert color="primary" %}} 
 
-更多详情，请访问[设置页眉和页脚](/java/setting-headers-and-footers)
+要了解更多详情，请访问[设置页眉和页脚](/java/setting-headers-and-footers)。
 
 {{% /alert %}}

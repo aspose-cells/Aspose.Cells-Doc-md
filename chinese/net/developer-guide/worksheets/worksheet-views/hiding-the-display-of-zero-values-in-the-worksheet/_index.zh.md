@@ -3,23 +3,23 @@ title: 隐藏工作表中零值的显示
 type: docs
 weight: 50
 url: /zh/net/hiding-the-display-of-zero-values-in-the-worksheet/
-description: 本文将向您展示使用C#库或.NET API编程方式如何在Excel电子表格中以编程方式隐藏零值的示例代码。
-keywords: 在C#中隐藏Excel工作表的零值
+description: 本文将向您展示使用C#库或.NET API以编程方式隐藏Excel电子表格中的零值的示例代码。
+keywords: 以C#中的样式隐藏Excel工作表的零值
 ---
 
 {{% alert color="primary" %}} 
 
-有时，您需要在电子表格中隐藏零值。这可能是个人喜好或格式标准。
+有时，您需要在电子表格中隐藏零值。这可能是个人偏好或格式化标准。
 
 {{% /alert %}} 
 
-在Microsoft Excel工作表中隐藏零值（例如Microsoft Excel 2003）：
+要在Microsoft Excel中隐藏工作表中的零值（例如Microsoft Excel 2003）：
 
 1. 从**工具**菜单中选择**选项**，然后选择**视图**选项卡。
-1. 取消选择**零值**选项。
-1. 单击**确定**。
+1. 取消选中**零值**选项。
+1. 点击**确定**。
 
-请查看以下示例代码，演示使用Aspose.Cells隐藏零。
+请参阅以下演示使用Aspose.Cells隐藏零的示例代码。
 
 
 

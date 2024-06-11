@@ -7,21 +7,21 @@ url: /zh/java/cells-number-settings/
 
 ## **设置数字和日期的显示格式**
 
-Microsoft Excel的一个非常强大的功能是允许用户设置数值和日期的显示格式。我们知道数字数据可用于表示不同值，包括十进制、货币、百分比、分数或会计值等。所有这些数字值根据其表示的信息类型以不同格式显示。类似地，日期或时间可以以许多格式显示。
-Aspose.Cells支持此功能，允许开发人员为数字或日期设置任何显示格式。
+Microsoft Excel的一个非常强大的特性是它允许用户设置数字值和日期的显示格式。我们知道，数字数据可以用来表示不同的值，包括小数、货币、百分比、分数或会计值等。所有这些数值根据表示的信息类型以不同的格式显示。类似地，日期或时间可以以多种格式显示。
+Aspose.Cells支持此功能，并允许开发人员为数字或日期设置任何显示格式。
 
-## **在 Microsoft Excel 中设置显示格式**
+## **在Microsoft Excel中设置显示格式**
 
-要在Microsoft Excel中设置显示格式：
+在Microsoft Excel中设置显示格式：
 
-1.右键单击任何单元格。
-1. 选择**格式单元格**。将会出现一个用于设置任何类型值显示格式的对话框。
+1. 右键单击任何单元格。
+1. 选择**设置单元格格式**。将会出现一个对话框，用于设置任何类型值的显示格式。
 
 在对话框的左侧，有许多值类别，如**常规**、**数字**、**货币**、**会计**、**日期**、**时间**、**百分比**等。Aspose.Cells支持所有这些显示格式。
 
 ## **使用内置数字格式**
 
-Aspose.Cells 提供了一些内置数字格式以配置数字和日期的显示格式。所有内置数字格式都有唯一的数字值。开发人员可以将任何所需的数字值分配给 [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/style) 对象的 [**Number**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number) 方法以应用显示格式。这种方法速度很快。Aspose.Cells 支持的内置数字格式如下。
+Aspose.Cells提供了一些内置的数字格式，用于配置数字和日期的显示格式。所有内置的数字格式都具有唯一的数字值。开发人员可以将任何所需的数字值分配给[**Number**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number)方法的[**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/style)对象，以应用显示格式。这种方法速度快。Aspose.Cells支持的内置数字格式如下。
 
 |**数值**|**类型**|**格式字符串**|
 | :- | :- | :- |
@@ -66,18 +66,18 @@ Aspose.Cells 提供了一些内置数字格式以配置数字和日期的显示�
 
 ## **使用自定义数字格式**
 
-为设置显示格式定义自定义的格式字符串，请使用 [**Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom)。这种方法不如使用预设格式快，但更灵活。
+要定义自定义格式字符串以设置显示格式，使用[**Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom)。这种方法不像使用预设格式那样快，但更灵活。
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "UsingCustomNumber-1.java" >}}
 
 {{% alert color="primary" %}}
 
-如果使用 [**Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) 设置数字格式，则之前使用 [**数字**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number）设置的任何格式将被覆盖，反之亦然。
+如果使用[**Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom)设置数字格式，任何先前使用[**数字**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number）设置的格式都将被覆盖，反之亦然。
 
 {{% /alert %}}
 
 ## **高级主题**
-- [ 设置样式时检查自定义数字格式。自定义属性](/cells/zh/java/check-custom-number-format-when-setting-style-custom-property/)
-- [为工作簿指定自定义数字小数点和分组分隔符](/cells/zh/java/specify-custom-number-decimal-and-group-separators-for-workbook/)
+- [在设置Style.Custom属性时检查自定义数字格式](/cells/zh/java/check-custom-number-format-when-setting-style-custom-property/)
+- [为工作簿指定自定义数值小数和分组分隔符](/cells/zh/java/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [指定DBNum自定义模式格式化](/cells/zh/java/specifying-dbnum-custom-pattern-formatting/)

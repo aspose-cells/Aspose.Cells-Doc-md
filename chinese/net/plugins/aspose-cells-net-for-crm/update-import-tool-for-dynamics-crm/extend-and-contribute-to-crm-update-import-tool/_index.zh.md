@@ -1,5 +1,5 @@
 ---
-title: 扩展和为CRM更新导入工具做贡献
+title: 扩展和为CRM更新导入工具做出贡献
 type: docs
 weight: 10
 url: /zh/net/extend-and-contribute-to-crm-update-import-tool/

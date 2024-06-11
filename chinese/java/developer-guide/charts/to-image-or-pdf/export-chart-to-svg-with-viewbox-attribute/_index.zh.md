@@ -1,13 +1,13 @@
 ---
-title: 将视图到 SVG 格式的图表导出
+title: 导出带有viewBox属性的SVG图表
 type: docs
 weight: 190
 url: /zh/java/export-chart-to-svg-with-viewbox-attribute/
 ---
 
-默认情况下，导出图表为SVG格式时，其XML中不包括**viewBox**属性。但是，当[**ImageOrPrintOptions.setSVGFitToViewPort()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#SVGFitToViewPort)设置为**true**时，Aspose.Cells提供了该属性，以将图表导出为带有viewBox属性的SVG。
+默认情况下，将图表导出为SVG格式时，其XML中不包括**viewBox**属性。但是，Aspose.Cells提供了一个属性，当设置为**true**时，将图表导出为带有viewBox属性的SVG。
 
-如果您在记事本中打开图表的SVG文件，您会发现类似于这样的viewBox属性。
+如果在记事本中打开图表的SVG文件，将会找到类似于这样的**viewBox**属性。
 
 {{< highlight java >}}
 
@@ -28,4 +28,4 @@ url: /zh/java/export-chart-to-svg-with-viewbox-attribute/
 ## 相关文章
 
 - [图表渲染](/cells/zh/java/chart-rendering/)
-- [使用所需宽度和高度将工作表或图表导出为图像](/cells/zh/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
+- [使用所需的宽度和高度将工作表或图表导出为图像](/cells/zh/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)

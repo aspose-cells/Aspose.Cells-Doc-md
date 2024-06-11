@@ -1,5 +1,5 @@
 ---
-title: 在 Ruby 中显示或隐藏网格线
+title: 在Ruby中显示或隐藏网格线
 type: docs
 weight: 10
 url: /zh/java/display-or-hide-gridlines-in-ruby/
@@ -9,7 +9,7 @@ url: /zh/java/display-or-hide-gridlines-in-ruby/
 ### **隐藏网格线**
 要使用**Aspose.Cells Java for Ruby**隐藏工作表，请调用**displayhidegridlines**模块。
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 
@@ -39,9 +39,9 @@ puts "Gridlines are now hidden, please check the output file."
 
 {{< /highlight >}}
 ### **使网格线可见**
-要使网格线可见，请使用**Worksheet**类的**setGridlinesVisible(true)**方法。
+要显示网格线，使用工作表类的setGridlinesVisible(true)方法。
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 
@@ -51,6 +51,6 @@ worksheet.setGridlinesVisible(true)
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下社交编码网站之一下载**显示或隐藏网格线（Aspose.Cells）**。
+从以下提到的任何社交编码站点下载**Display or Hide Gridlines (Aspose.Cells)**。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhidegridlines.rb)

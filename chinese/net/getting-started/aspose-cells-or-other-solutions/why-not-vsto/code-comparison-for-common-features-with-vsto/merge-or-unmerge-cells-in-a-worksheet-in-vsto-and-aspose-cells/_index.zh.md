@@ -1,14 +1,14 @@
 ---
-title: 在VSTO和Aspose.Cells中合并或取消合并工作表中的单元格
+title: 在 VSTO 和 Aspose.Cells 中合并或取消合并工作表中的单元格
 type: docs
 weight: 170
 url: /zh/net/merge-or-unmerge-cells-in-a-worksheet-in-vsto-and-aspose-cells/
 ---
 
-打开现有的Excel文件，在工作簿的第一个工作表中合并一些单元格，并保存Excel文件。
+打开现有的 Excel 文件，在工作簿的第一个工作表中合并一些单元格，然后保存 Excel 文件。
 ## **合并单元格**
 ### **VSTO**
-以下是用于VSTO（C#）和Aspose.Cells for .NET（C#）的并行代码片段。
+下面是VSTO（C＃）和Aspose.Cells for .NET（C#）的并行代码片段。
 
 {{< highlight csharp >}}
 
@@ -84,7 +84,7 @@ url: /zh/net/merge-or-unmerge-cells-in-a-worksheet-in-vsto-and-aspose-cells/
 
 {{< /highlight >}}
 ## **取消合并单元格**
-要取消合并单元格，使用以下代码行适用于VSTO（C#）和Aspose.Cells for .NET（C#）。
+要取消合并单元格，请使用VSTO（C＃）和Aspose.Cells for .NET（C#）的以下代码行。
 ### **VSTO**
 {{< highlight csharp >}}
 

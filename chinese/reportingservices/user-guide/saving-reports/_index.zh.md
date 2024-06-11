@@ -7,11 +7,11 @@ url: /zh/reportingservices/saving-reports/
 
 {{% alert color="primary" %}} 
 
-要保存报告，请在 Aspose.Cells.Report.Designer 工具栏上点击 **保存报告**（
+要保存报告，单击 Aspose.Cells.Report.Designer 工具栏上的**保存报告**（
 
 ![todo:image_alt_text](saving-reports_1.png)
 
 ). 
-报告（Microsoft Excel 模板）保存为 RDL 文件。
+将报告（Microsoft Excel 模板）另存为 RDL 文件。
 
 {{% /alert %}}

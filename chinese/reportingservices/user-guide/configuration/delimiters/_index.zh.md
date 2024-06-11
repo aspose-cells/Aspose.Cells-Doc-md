@@ -5,9 +5,9 @@ weight: 20
 url: /zh/reportingservices/delimiters/
 ---
 
-当以 TXT 或 CSV 格式呈现时，Aspose.Cells for Reporting Services 支持指定分隔符。两个设置控制 Aspose.Cells for Reporting Services 中的字段分隔符。
+在生成 TXT 或 CSV 格式时，Aspose.Cells for Reporting Services 支持指定的分隔符。两个设置控制 Aspose.Cells for Reporting Services 中的字段分隔符。
 
-1. **rsreportserver.config** 中的字段分隔符参数仅能控制特定呈现扩展。 
+1. **rsreportserver.config** 中的字段分隔符参数只能控制指定的渲染扩展。 
 
 {{< highlight java >}}
 
@@ -65,7 +65,7 @@ Specified field delimiters configuration reference:
 
 
 
-1. **Aspose.Cells.ReportingServices.xml** 中的字段分隔符参数能控制所有 TXT 类型呈现扩展。 
+1. **Aspose.Cells.ReportingServices.xml** 中的字段分隔符参数可以控制所有 TXT 类型的渲染扩展。 
 
 {{< highlight java >}}
 
@@ -88,4 +88,4 @@ Specified field delimiters configuration reference:
 
 {{< /highlight >}}
 
-**rsreportserver.config** 中的字段分隔符参数优先于 **Aspose.Cells.ReportingServices.xml** 中的字段分隔符参数。当 **rsreportserver.config** 中的字段分隔符参数为 null 或默认值时，将使用 **Aspose.Cells.ReportingServices.xml** 中的字段分隔符参数。
+**rsreportserver.config** 中的字段分隔符参数优先于 **Aspose.Cells.ReportingServices.xml** 中的字段分隔符参数。当 **rsreportserver.config** 中的字段分隔符参数为空或默认值时，将使用 **Aspose.Cells.ReportingServices.xml** 中的字段分隔符参数。

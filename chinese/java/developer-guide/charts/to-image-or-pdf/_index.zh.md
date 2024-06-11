@@ -1,42 +1,42 @@
 ---
 title: 图表渲染
-linktitle: 转为图片或PDF
+linktitle: 转换为图像或PDF
 type: docs
 weight: 40
 url: /zh/java/chart-rendering/
 ---
 
-## **创建图形**
+## **创建图表**
 
-Aspose.Cells API支持创建各种Excel图表，具体详细信息请参考 [创建和自定义Excel图表](/cells/zh/java/creating-and-customizing-charts/)。为了演示使用Aspose.Cells API将图表呈现为图像和PDF格式，我们将根据以下代码片段创建一个柱形图。
+Aspose.Cells API支持创建各种类型的Excel图表，详细信息请参阅[创建和自定义Excel图表](/cells/zh/java/creating-and-customizing-charts/)专题。为了演示如何使用Aspose.Cells API以图像和PDF格式呈现图表，我们将根据以下片段创建一个列类型的图表。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-CreateChart-CreateChart.java" >}}
 
-## **图表渲染**
+## **渲染图表**
 
-Aspose.Cells API支持将Excel图表转换为图像和PDF格式，无需额外的工具或应用程序。为了提供渲染支持，[**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) 类已经暴露了 [**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) 和 [**toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) 方法，提供了各种重载以最好地满足应用程序的需求。
+Aspose.Cells API支持将Excel图表转换为图像和PDF格式，无需任何额外的工具或应用程序。为了提供呈现支持，[**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)类已经公开了[**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions))和[**toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream))方法，包括多种重载以最好地满足应用程序的需求。
 
 ### **将图表渲染为图像**
 
-[**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) 方法有各种重载，以支持简单和高级渲染。如果应用程序需求是以默认尺寸呈现图表，建议您使用 [**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) 方法。
+[**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)）方法拥有多种重载，支持简单和高级呈现。如果应用程序的要求是以默认尺寸呈现图表，我们建议您使用[**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions))方法。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-RenderChartsToImages-RenderChartsToImages.java" >}}
 
-还可以使用高级设置将图表呈现为图像。Aspose.Cells API提供了 [**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) 方法的重载版本，可以接受 [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) 的实例，同时允许指定参数，如分辨率、渲染提示、图像格式等。
+还可以使用高级设置将图表呈现为图像。Aspose.Cells API公开了[**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions))方法的一个重载版本，该重载版本可以接受[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)的实例，并允许指定参数，如分辨率、呈现提示、图像格式等。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ChartRendering-ChartRendering.java" >}}
 
-### **渲染图表为PDF**
+### **将图表渲染为PDF**
 
-为了将图表呈现为PDF格式，Aspose.Cells API暴露了 [**Chart.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) 方法，能够将结果存储在磁盘路径上或输出流的实例中。
+为了将图表呈现为PDF格式，Aspose.Cells API公开了[**Chart.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream))方法，可以将结果的PDF存储在磁盘路径或OutputStream的实例中。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-chartsRenderChartsToPdf-RenderChartsToPdf.java" >}}
 
-## **支持的图表类型用于渲染**
+## **支持的图表类型的渲染**
 
-目前不支持渲染的几种图表类型。此类图表类型在下表的 **Supported** 列中包含 **N**。
+目前不支持渲染的一些图表类型。此类图表类型在下表的**Supported**列中包含**N**。
 
-|**图表类型**|**图表子类型**|**支持**|
+|图表类型|图表子类型|支持
 | :- | :- | :- |
 |**Column**|Column|**Y**|
 | |ColumnStacked|**Y**|
@@ -122,12 +122,12 @@ Aspose.Cells API支持将Excel图表转换为图像和PDF格式，无需额外�
 
 {{% alert color="primary" %}}
 
-在尝试将不支持的图表类型渲染为图像或PDF时，可能会得到大小为0的图像或空白PDF。
+如果尝试将不受支持的图表类型渲染为图像或PDF，则可能会得到大小为0的图像或空白PDF。
 
 {{% /alert %}}
 
 
 ## **高级主题**
-- [将图表转换为SVG格式的图像](/cells/zh/java/converting-chart-to-image-in-svg-format/)
+- [将图表转换为SVG格式图像](/cells/zh/java/converting-chart-to-image-in-svg-format/)
 - [使用所需的页面大小创建图表PDF](/cells/zh/java/create-chart-pdf-with-desired-page-size/)
 - [使用viewBox属性将图表导出为SVG](/cells/zh/java/export-chart-to-svg-with-viewbox-attribute/)

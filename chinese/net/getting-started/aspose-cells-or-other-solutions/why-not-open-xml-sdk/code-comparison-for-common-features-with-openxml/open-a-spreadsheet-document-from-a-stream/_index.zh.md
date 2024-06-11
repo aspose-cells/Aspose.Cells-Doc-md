@@ -1,5 +1,5 @@
 ---
-title: 从流中打开一个电子表格文档
+title: 从流中打开电子表格文档
 type: docs
 weight: 110
 url: /zh/net/open-a-spreadsheet-document-from-a-stream/

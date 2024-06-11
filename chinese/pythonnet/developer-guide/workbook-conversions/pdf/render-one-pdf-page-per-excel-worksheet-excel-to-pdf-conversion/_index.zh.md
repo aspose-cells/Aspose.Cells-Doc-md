@@ -1,19 +1,19 @@
 ---
-title: 每个Excel工作表呈现为一个PDF页面 - Excel转PDF转换
+title: 将Excel工作表渲染为一份PDF页面 - Excel转PDF转换
 type: docs
 weight: 100
 url: /zh/python-net/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/
-description: 学习如何在使用Aspose.Cells for Python通过.NET API将Excel转换为PDF时将每个Excel工作表呈现为一个PDF页面。
-keywords: 将文件保存为PDF时使用Python将每个Excel工作表呈现为一个PDF页面，在将Excel保存为PDF时使用Python将每个Excel工作表呈现为一个PDF页面
+description: 学习如何使用Aspose.Cells for Python via .NET API将Excel工作表转换为PDF时渲染每个Excel工作表为一份PDF页面。
+keywords: 使用Python将每个Excel工作表渲染为一份PDF页面，同时将Excel保存为PDF时渲染每个Excel工作表为一份PDF页面，Python在将Excel转换为PDF时显示每个工作表的一页
 ---
 
 {{% alert color="primary" %}} 
 
-在处理具有多个工作表的大型Microsoft Excel文件时（例如，每个具有50列和300多行数据的工作表的工作簿），您可能希望PDF输出显示每个工作表一页，无论工作表的大小如何。这意味着每个页面可能具有截然不同的页面大小。通过使用Aspose.Cells for Python通过.NET API可以实现此目标。
+当处理大型Microsoft Excel文件时（例如一个包含许多工作表的工作簿，每个工作表都有50列和300多行数据），您可能希望PDF输出每个工作表显示一页，而不管工作表的大小如何。这意味着每个页面可能具有完全不同的页面大小。可以使用Aspose.Cells for Python via .NET API来实现这一点。
 
 {{% /alert %}} 
 
-请参阅以下转换多个工作表的 Excel 文件为 PDF 的示例代码。
+请查看以下示例代码，将多个工作表的Excel文件转换为PDF。
 
 
 
@@ -21,10 +21,10 @@ keywords: 将文件保存为PDF时使用Python将每个Excel工作表呈现为�
 
 {{% alert color="primary" %}} 
 
-如果将[PdfSaveOptions.one_page_per_sheet](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/one_page_per_sheet/)选项设置为**true**，则所有工作表内容将呈现为一个PDF页面。
+如果[PdfSaveOptions.one_page_per_sheet](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/one_page_per_sheet/) 选项设置为**true**，则所有工作表内容将被渲染到一个PDF页面中。
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
-如果电子表格包含公式，最好在将电子表格渲染为PDF之前调用[Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#)方法。这样可以确保重新计算依赖于公式的值，并在PDF中呈现正确的值。
+如果您的电子表格包含公式，最好在将电子表格渲染为PDF之前调用[Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) 方法。这可以确保重新计算基于公式的值，并在PDF中呈现正确的值。
 
 {{% /alert %}}

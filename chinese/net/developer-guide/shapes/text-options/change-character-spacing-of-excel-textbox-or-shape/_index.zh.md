@@ -1,5 +1,5 @@
 ---
-title: 更改Excel文本框或形状的字符间距
+title: 更改 Excel 文本框或形状的字符间距
 type: docs
 weight: 280
 url: /zh/net/change-character-spacing-of-excel-textbox-or-shape/
@@ -11,6 +11,6 @@ url: /zh/net/change-character-spacing-of-excel-textbox-or-shape/
 
 {{% /alert %}}
 
-以下示例代码将Excel文件中文本框的字符间距更改为4点，然后将其保存在磁盘上。
+以下示例代码将excel文件中文本框的字符间距更改为4，并将其保存到磁盘上。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeTextBoxOrShapeCharacterSpacing-1.cs" >}}

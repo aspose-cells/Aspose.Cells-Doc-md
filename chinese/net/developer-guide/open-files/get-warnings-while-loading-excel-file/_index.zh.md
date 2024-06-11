@@ -7,11 +7,11 @@ url: /zh/net/get-warnings-while-loading-excel-file/
 
 ## **可能的使用场景**
 
-有时用户尝试加载在某种程度上损坏但可加载的工作簿。在这种情况下，Aspose.Cells在加载工作簿时会发出警告。您可以通过实现IWarningCallback接口并设置LoadOptions.WarningCallback属性来捕获这些警告。
+有时，用户尝试加载某种程度上有损坏但可加载的工作簿。在这种情况下，Aspose.Cells在加载工作簿时会抛出警告。您可以通过实现**[IWarningCallback](https://reference.aspose.com/cells/net/aspose.cells/iwarningcallback)**接口并设置**[LoadOptions.WarningCallback](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/warningcallback)**属性来捕获这些警告。
 
-## **加载Excel文件时获取警告**
+## **加载 Excel 文件时获取警告**
 
-以下示例代码解释了如何在加载Excel文件时获取警告。该代码加载了在加载时会引发DuplicateDefinedName警告的示例Excel文件。然后，通过IWarningCallback.Warning()方法捕获该警告并在控制台上打印警告消息。代码然后将工作簿保存为输出Excel文件。如果您在Microsoft Excel中打开示例Excel文件，也会显示此警告，如下图所示。请查看下面给出的代码的控制台输出以获得更多理解。
+以下示例代码说明了如何在加载Excel文件时获取警告。该代码加载了[示例excel文件](sampleDuplicateDefinedName.xlsx)，在加载时会抛出**[DuplicateDefinedName](https://reference.aspose.com/cells/net/aspose.cells/warningtype)**警告。然后**[IWarningCallback.Warning()](https://reference.aspose.com/cells/net/aspose.cells/iwarningcallback/methods/warning)**方法捕获并在控制台上打印警告消息。然后代码将工作簿保存为[输出excel文件](outputDuplicateDefinedName.xlsx)。如果在Microsoft Excel中打开示例excel文件，它也会显示这个警告，如下图所示。请还查看下面给出的代码的控制台输出，以便更好地理解。
 
 ![todo:image_alt_text](get-warnings-while-loading-excel-file_1.png)
 
@@ -21,7 +21,7 @@ url: /zh/net/get-warnings-while-loading-excel-file/
 
 ## **控制台输出**
 
-上述代码在使用提供的示例Excel文件时执行时的控制台输出。
+执行上述代码时，以下是控制台输出的代码，提供了 [示例excel文件](sampleDuplicateDefinedName.xlsx)。
 
 {{< highlight java >}}
 

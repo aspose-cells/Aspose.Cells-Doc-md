@@ -1,12 +1,12 @@
 ---
-title: 在Python中保护工作表
+title: Python中的工作表保护
 type: docs
 weight: 10
 url: /zh/java/protecting-worksheets-in-python/
 ---
 
 ## **Aspose.Cells - 保护工作表**
-要使用**Aspose.Cells Java for Python**保护工作表，请调用**protection**模块的**protect_worksheet**方法。
+使用**Aspose.Cells Java for Python**调用**protection**模块的**protect_worksheet**方法来保护工作表。
 
 **Python 代码**
 
@@ -46,6 +46,6 @@ print "Sheet protected successfully."
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下任一社交编码站点下载**保护工作表（Aspose.Cells）**。
+从下面提到的任何社交编码网站下载**保护工作表（Aspose.Cells）**：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

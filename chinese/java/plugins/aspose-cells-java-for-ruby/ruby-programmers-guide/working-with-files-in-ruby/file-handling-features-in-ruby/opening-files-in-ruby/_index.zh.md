@@ -5,11 +5,11 @@ weight: 10
 url: /zh/java/opening-files-in-ruby/
 ---
 
-## **Aspose.Cells - 打开Excel文件的简单方式**
+## **Aspose.Cells - 打开Excel文件的简单方法**
 ### **通过路径打开**
-通过引用文件的路径来简单地打开Microsoft Excel文件
+通过引用文件路径简单地打开Microsoft Excel文件
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 
@@ -19,9 +19,9 @@ workbook = Rjb::import('com.aspose.cells.Workbook').new(data_dir + 'Book1.xls')
 
 {{< /highlight >}}
 ### **通过流打开**
-有时，要打开的Excel文件存储为流。在这种情况下，使用包含要打开的Excel文件的**流**对象的重载版本的**Open**方法。
+有时，要打开的Excel文件存储为流。在这种情况下，使用**Stream**对象包含的Excel文件的重载版本的 **Open** 方法来打开文件。
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 

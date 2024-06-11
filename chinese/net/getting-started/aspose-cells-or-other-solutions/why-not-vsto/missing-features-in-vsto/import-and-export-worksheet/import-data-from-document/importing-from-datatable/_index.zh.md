@@ -5,10 +5,10 @@ weight: 40
 url: /zh/net/importing-from-datatable/
 ---
 
-开发人员可以通过调用Cells集合的ImportDataTable方法将数据从DataTable导入到其工作表。ImportDataTable方法有许多重载版本，但是典型的重载版本接受以下参数:DataTable，表示需要导入其内容的DataTable对象
+开发人员可以通过调用Cells集合的**ImportDataTable**方法，从**DataTable**导入数据到其工作表。 **ImportDataTable**方法有许多重载版本，但是一个典型的重载需要以下参数：**DataTable**，表示需要导入内容的**DataTable**对象
 
-- 是否显示字段名称，指定DataTable的列名是否应作为第一行导入到工作表中
-- 起始单元格，表示从哪个单元格（例如"A1"）开始导入DataTable的内容
+- **是否显示字段名**，指定是否将DataTable的列名导入到工作表作为第一行
+- **起始单元格**，表示从何处（即"A1"）导入DataTable的内容
 
 {{< highlight csharp >}}
 

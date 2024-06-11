@@ -1,14 +1,14 @@
 ---
-title: 在 Jython 中操作行和列
+title: 在Jython中处理行和列
 type: docs
 weight: 30
 url: /zh/java/working-with-rows-and-columns-in-jython/
 ---
 
-**本节包括以下主题：**
+**本部分包括以下主题:**
 
 - [在 Jython 中调整行高和列宽](/cells/zh/java/adjusting-row-height-and-column-width-in-jython/)
-- [在 Jython 中自动调整行和列](/cells/zh/java/autofit-rows-and-columns-in-jython/)
+- [在 Jython 中自适应行和列](/cells/zh/java/autofit-rows-and-columns-in-jython/)
 - [在 Jython 中复制行和列](/cells/zh/java/copying-rows-and-columns-in-jython/)
 - [在 Jython 中对行和列进行分组和取消分组](/cells/zh/java/grouping-and-ungrouping-rows-and-columns-in-jython/)
 - [在 Jython 中隐藏和显示行和列](/cells/zh/java/hiding-and-showing-rows-and-columns-in-jython/)

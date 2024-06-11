@@ -1,5 +1,5 @@
 ---
-title: Aspose.Cells 8.5.2 中的公共 API 更改
+title: Aspose.Cells 8.5.2中的公共API更改
 type: docs
 weight: 180
 url: /zh/net/public-api-changes-in-aspose-cells-8-5-2/
@@ -7,12 +7,12 @@ url: /zh/net/public-api-changes-in-aspose-cells-8-5-2/
 
 {{% alert color="primary" %}} 
 
-本文描述了从版本8.5.1到8.5.2的Aspose.Cells API的更改，可能对模块/应用程序开发人员感兴趣。它不仅包括新的和更新的公共方法，添加的类等，还包括Aspose.Cells幕后行为中的任何更改的描述。
+本文描述了Aspose.Cells API从版本8.5.1到8.5.2的更改，这些更改可能对模块/应用程序开发人员感兴趣。它不仅包括新的和更新的公共方法、[新增的类等](/cells/zh/net/public-api-changes-in-aspose-cells-8-5-2/)，还描述了Aspose.Cells在幕后行为的任何更改。
 
 {{% /alert %}} 
-## **已添加API**
+## **添加的 API**
 ### **将工作表渲染到图形上下文**
-这个Aspose.Cells for .NET API的版本公开了SheetRender.ToImage方法的两个新重载，现在允许接受System.Drawing.Graphics类的实例来在图形环境中渲染。新增方法的签名如下。
+此版本的Aspose.Cells for .NET API已公开了SheetRender.ToImage方法的两个新重载，现在可以接受System.Drawing.Graphics类的实例以在[图形上下文中渲染](/cells/zh/net/render-worksheet-to-graphic-context/)。新增方法的签名如下。
 
 1. SheetRender.ToImage(int pageIndex, Graphics g, float x, float y)
 1. SheetRender.ToImage(int pageIndex, Graphics g, float x, float y, float width, float height)
@@ -60,8 +60,8 @@ bmp.Save("test.png", ImageFormat.Png);
 {{< /highlight >}}
 
 
-### **新增 PivotTable.GetCellByDisplayName 方法**
-Aspose.Cells for .NET 8.5.2公开了PivotTable.GetCellByDisplayName方法，可用于通过PivotField的名称检索Cell对象。此方法在希望突出显示或格式化PivotField标题的情况下非常有用。
+### **新增了 PivotTable.GetCellByDisplayName 方法**
+Aspose.Cells for .NET 8.5.2已公开了PivotTable.GetCellByDisplayName方法，可用于[按PivotField的名称检索Cell对象](/cells/zh/net/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/)。该方法在希望突出显示或格式化PivotField标题的场景中可能很有用。
 
 以下是简单的使用场景。
 
@@ -104,31 +104,31 @@ workbook.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **新增 SaveOptions.MergeAreas 属性**
-Aspose.Cells for .NET 8.5.2已公开了SaveOptions.MergeAreas属性，可接受布尔类型的值。默认值为false，但如果设置为true，则Aspose.Cells for .NET API将尝试在保存文件之前合并单个CellArea。
+### **添加了SaveOptions.MergeAreas属性**
+Aspose.Cells for .NET 8.5.2已公开了SaveOptions.MergeAreas属性，可以接受布尔类型的值。默认值为false，但如果设置为true，则Aspose.Cells API会尝试在保存文件之前合并各个CellArea。
 
 {{% alert color="primary" %}} 
 
-如果电子表格具有太多已应用验证的单元格，则可能会造成生成的电子表格损坏。一种可能的解决方案是合并具有相同验证规则的单元格，或者您现在可以使用SaveOptions.MergeAreas属性，指示API在保存操作之前自动合并CellAreas。
+如果电子表格有太多应用了验证的个别单元格，导致最终的电子表格可能会损坏。一个可能的解决方案是合并具有相同验证规则的单元格，或者您现在可以使用SaveOptions.MergeAreas属性来指示API在保存操作之前自动合并CellAreas。
 
 {{% /alert %}} 
-### **新增 Shape.Geometry.ShapeAdjustValues 属性**
-随着v8.5.2的发布，Aspose.Cells API已公开了Shape.Geometry.ShapeAdjustValues属性，可用于更改不同形状的调整点。
+### **新增了 Shape.Geometry.ShapeAdjustValues 属性**
+随着 v8.5.2 的发布，Aspose.Cells API 已公开了 Shape.Geometry.ShapeAdjustValues 属性，可用于[更改不同形状的调整点](/cells/zh/net/change-adjustment-values-of-the-shape/)。
 
 {{% alert color="primary" %}} 
 
-在Microsoft Excel界面中，调整点显示为黄色菱形节点。
+在 Microsoft Excel 界面中，调整点显示为黄色菱形节点。
 
 {{% /alert %}} 
 
 例如，
 
-1. 圆角矩形具有可以更改弧度的调整
-1. 三角形具有可更改顶点位置的调整
-1. 梯形具有可以更改顶部宽度的调整
-1. 箭头具有两个调整，以更改头部和尾部的形状
+1. 圆角矩形具有用于更改弧度的调整
+1. 三角形具有用于更改点位置的调整
+1. 梯形具有用于更改顶部宽度的调整
+1. 箭头具有用于更改头部和尾部形状的两个调整
 
-这里是最简单的使用场景。
+这是最简单的使用场景。
 
 **C#**
 
@@ -165,18 +165,18 @@ workbook.Save("output.xls);
 {{< /highlight >}}
 
 
-### **枚举 Field ConsolidationFunction.DistinctCount 已添加**
-Aspose.Cells for .NET 8.5.2公开了ConsolidationFunction.DistinctCount字段，可用于在PivotTable的DataField上应用不同计数合并函数。
+### **新增了枚举字段 ConsolidationFunction.DistinctCount**
+Aspose.Cells for .NET 8.5.2已公开了ConsolidationFunction.DistinctCount字段，可用于[应用不同计数合并函数](/cells/zh/net/consolidation-function/)于PivotTable的DataField上。
 
 {{% alert color="primary" %}} 
 
-仅Microsoft Excel 2013支持Distinct Count合并函数。
+仅Microsoft Excel 2013支持Distinct Count统计函数。
 
 {{% /alert %}} 
-### **GridDesktop更好的事件处理**
-Aspose.Cells.GridDesktop的这个版本已公开了4个新事件。其中2个事件在GridDesktop中加载电子表格文件的不同状态时触发，另外2个事件在计算公式时触发。
+### **GridDesktop 更好地处理事件**
+Aspose.Cells.GridDesktop 的此版本暴露了 4 个新事件。其中 2 个事件在 GridDesktop 中加载电子表格文件的不同状态时触发，而另外 2 个事件在公式计算时触发。
 
-这些事件列举如下。
+以下是事件列表。
 
 1. GridDesktop.BeforeLoadFile
 1. GridDesktop.FinishLoadFile

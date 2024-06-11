@@ -7,7 +7,7 @@ url: /zh/java/get-hyperlinks-in-range/
 
 ## **获取范围内的超链接**
 
-[**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/range)类提供一个[**getHyperlinks()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#Hyperlinks)属性getter，用于获取所选范围内的所有超链接。您也可以通过调用[**Hyperlink.delete()**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#delete()方法删除超链接。
+[**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/range)类提供[**getHyperlinks()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#Hyperlinks)属性getter，用于获取所选范围内的所有超链接。您也可以通过调用[**Hyperlink.delete()**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#delete()方法来删除超链接。
 
 ## 示例代码
 

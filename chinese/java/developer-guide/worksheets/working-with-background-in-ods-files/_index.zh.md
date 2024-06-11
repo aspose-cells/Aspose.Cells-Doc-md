@@ -7,13 +7,13 @@ url: /zh/java/working-with-background-in-ods-files/
 
 ## **ODS文件中的背景**
 
-在 ODS 文件中可以添加背景。背景可以是颜色背景或图形背景。文件打开时背景不可见，但如果该文件被打印为 PDF，则背景在生成的 PDF 中可见。打印预览对话框中也会显示背景。
+ODS 文件的工作表可以添加背景。背景可以是颜色背景或图形背景。在打开文件时，背景是看不见的，但如果将文件打印为 PDF，则在生成的 PDF 中背景是可见的。在打印预览对话框中，背景同样是可见的。
 
-Aspose.Cells 提供了读取背景信息并在 ODS 文件中添加背景的功能。
+Aspose.Cells提供了读取ODS文件中背景信息和添加背景的功能。
 
-## **从 OSD 文件中读取背景信息**
+## **从OSD文件中读取背景信息**
 
-Aspose.Cells 提供了管理 ODS 文件中背景的[**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground)类。以下代码示例演示了通过加载[source ODS文件](GraphicBackground.ods)并读取背景信息来使用[**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground)类。请参考代码生成的控制台输出。
+Aspose.Cells提供了[**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground)类来管理ODS文件中的背景。以下代码示例演示了通过加载源ODS文件读取背景信息，使用[**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground)类的用法。请参考由代码生成的控制台输出。
 
 ### **示例代码**
 
@@ -23,19 +23,19 @@ Aspose.Cells 提供了管理 ODS 文件中背景的[**ODSPageBackground**](https
 
 背景类型：图形
 
-背景位置：水平居中垂直居中
+背景位置：中心位置
 
-## **为ODS文件添加彩色背景**
+## **向ODS文件添加彩色背景**
 
-Aspose.Cells 提供了管理 ODS 文件中背景的[**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground)类。以下代码示例演示了使用[**ODSPageBackground.Color**](https://reference.aspose.com/cells/java/com.aspose.cells/odspagebackground#Color)属性向 ODS 文件添加颜色背景。请参考代码生成的[output ODS文件](ColoredBackground.ods)。
+Aspose.Cells提供了[**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground)类来管理ODS文件中的背景。以下代码示例演示了使用[**ODSPageBackground.Color**](https://reference.aspose.com/cells/java/com.aspose.cells/odspagebackground#Color)属性向ODS文件添加彩色背景。请参考由代码生成的输出ODS文件。
 
 ### **示例代码**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-SetODSColoredBackground-1.java" >}}
 
-## **为ODS文件添加图形背景**
+## **向ODS文件添加图形背景**
 
-Aspose.Cells 提供了管理 ODS 文件中背景的[**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground)类。以下代码示例演示了使用[**ODSPageBackground.GraphicData**](https://reference.aspose.com/cells/java/com.aspose.cells/odspagebackground#GraphicData)属性向 ODS 文件添加图形背景。请参考代码生成的[output ODS文件](GraphicBackground.ods)。
+Aspose.Cells提供了[**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground)类来管理ODS文件中的背景。以下代码示例演示了使用[**ODSPageBackground.GraphicData**](https://reference.aspose.com/cells/java/com.aspose.cells/odspagebackground#GraphicData)属性向ODS文件添加图形背景。请参考由代码生成的输出ODS文件。
 
 ### **示例代码**
 

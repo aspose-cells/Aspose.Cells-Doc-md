@@ -1,5 +1,5 @@
 ---
-title: Aspose.Cells 16.11.0中的公共API更改
+title: Aspose.Cells 16.11.0 的公共 API 变更。
 type: docs
 weight: 350
 url: /zh/net/public-api-changes-in-aspose-cells-16-11-0/
@@ -7,17 +7,17 @@ url: /zh/net/public-api-changes-in-aspose-cells-16-11-0/
 
 {{% alert color="primary" %}} 
 
-本文描述了从版本16.10.0到16.11.0的Aspose.Cells API更改，可能对模块/应用程序开发人员感兴趣。其中包括新增和更新的公共方法，添加和删除的类等，还有对Aspose.Cells背后的行为变更的描述。
+本文描述了从版本 16.10.0 到 16.11.0 中 Aspose.Cells API 的更改，可能对模块/应用程序开发人员感兴趣。不仅包括新的和更新的公共方法、添加和删除的类等，还包括在 Aspose.Cells 后台行为中的任何更改的描述。
 
 {{% /alert %}} 
-## **已添加API**
-### **支持全球化设置**
-Aspose.Cells 16.11.0现在暴露了GlobalizationSettings类以及WorkbookSettings.GlobalizationSettings属性，以便强制Aspose.Cells API使用自定义标签来显示小计。GlobalizationSettings类有以下方法，可以在自定义实现中被重写，以给出所需名称的标签**Total**和**Grand Total**。
+## **添加的 API**
+### **支持全球化设置。**
+Aspose.Cells 16.11.0 已公开了 GlobalizationSettings 类以及 WorkbookSettings.GlobalizationSettings 属性，以便强制 Aspose.Cells API 使用自定义标签来进行小计。GlobalizationSettings 类具有以下方法，可以在自定义实现中重写这些方法，以为“总计”和“总计”标签提供所需的名称。
 
-- GlobalizationSettings.GetTotalName: 获取函数的总名称。
-- GlobalizationSettings.GetGrandTotalName: 获取函数的总总名称。
+- GlobalizationSettings.GetTotalName: 获取功能的总名称。
+- GlobalizationSettings.GetGrandTotalName: 获取功能的总总名称。
 
-这里是一个简单的自定义类，扩展GlobalizationSettings类并重写其前述方法，以返回平均值合并函数的自定义标签。
+这里是一个简单的自定义类，它扩展了 GlobalizationSettings 类，并重写了上述方法，以返回合并函数 Average 的自定义标签。
 
 **C#**
 
@@ -73,7 +73,7 @@ Aspose.Cells 16.11.0现在暴露了GlobalizationSettings类以及WorkbookSetting
 
 
 
-以下片段加载现有电子表格并在工作表中已有数据的基础上添加平均值类型的小计。在添加小计到工作表时，将调用CustomSettings类及其GetTotalName和GetGrandTotalName方法。
+以下代码片段载入了包含工作表中已有数据的现有电子表格，并添加了“平均”类型的小计。在添加小计时，将调用 CustomSettings 类及其 GetTotalName 和 GetGrandTotalName 方法。
 
 **C#**
 
@@ -115,7 +115,7 @@ book.Save(dir + "output.xlsx");
 
 
 
-GlobalizationSettings类还提供了GetOtherName方法，用于获取饼图的"其他"标签的名称。这里是GlobalizationSettings.GetOtherName方法的简单使用情景。
+GlobalizationSettings 类还提供了 GetOtherName 方法，用于获取饼图的“其他”标签的名称。这里是 GlobalizationSettings.GetOtherName 方法的简单使用场景。
 
 **C#**
 
@@ -163,7 +163,7 @@ GlobalizationSettings类还提供了GetOtherName方法，用于获取饼图的"�
 
 
 
-以下代码片段加载包含饼图的现有电子表格，并在利用上面创建的CustomSettings类的同时将图表渲染为图像。
+以下代码片段加载了包含饼图的现有电子表格，并在利用上述创建的 CustomSettings 类的情况下将图表呈现为图像。
 
 **C#**
 
@@ -199,9 +199,9 @@ chart.ToImage(dir + "output.png", new ImageOrPrintOptions());
 
 
 ### **添加了CellsFactory类**
-Aspose.Cells 16.11.0已经公开了CellsFactory类，目前只有一个方法，即CreateStyle。CellsFactory.CreateStyle方法可用于创建Style类的实例，而不将其添加到工作簿样式池中。
+Aspose.Cells 16.11.0已经暴露了CellsFactory类，该类目前具有一个方法，即CreateStyle。CellsFactory.CreateStyle方法可用于创建Style类的实例，而无需将其添加到工作簿样式池中。
 
-以下是CellsFactory.CreateStyle方法的简单使用场景。
+这是CellsFactory.CreateStyle方法的简单使用情景。
 
 **C#**
 
@@ -219,9 +219,9 @@ Style style = factory.CreateStyle();
 
 
 ### **添加了Workbook.AbsolutePath属性**
-Aspose.Cells 16.11.0已公开了Workbook.AbsolutePath属性，允许获取或设置存储在workbook.xml文件中的绝对工作簿路径。此属性在仅更新外部链接时非常有用。
+Aspose.Cells 16.11.0已经暴露了Workbook.AbsolutePath属性，允许获取或设置存储在workbook.xml文件中的绝对工作簿路径。此属性在仅更新外部链接时非常有用。
 ### **添加了GridHyperlinkCollection.GetHyperlink方法**
-Aspose.Cells.GridWeb 16.11.0已经公开了GetHyperlink方法到GridHyperlinkCollection类，通过传递GridCell的实例或对应于行列索引的一对整数，可以获取GridHyperlink的实例。
+Aspose.Cells.GridWeb 16.11.0已经向GridHyperlinkCollection类暴露了GetHyperlink方法，该方法允许通过传递GridCell的实例或与行列索引对应的整数对来获取GridHyperlink的实例。
 
 {{% alert color="primary" %}} 
 
@@ -229,7 +229,7 @@ Aspose.Cells.GridWeb 16.11.0已经公开了GetHyperlink方法到GridHyperlinkCol
 
 {{% /alert %}} 
 
-以下是GetHyperlink方法的简单使用场景。
+这是GetHyperlink方法的简单使用情景。
 
 **C#**
 
@@ -252,17 +252,17 @@ GridHyperlink link = links.GetHyperlink(sheet.Cells["A1"]);
 link = links.GetHyperlink(0, 3);
 
 {{< /highlight >}}
-## **已废弃的API**
+## **已弃用的API**
 ### **已弃用的Style构造函数**
 请使用cellsFactory.CreateStyle方法作为替代。
-## **已删除的API**
-### **已删除的Cell.GetConditionalStyle方法**
+## **删除的API**
+### **删除的Cell.GetConditionalStyle方法**
 请改用Cell.GetConditionalFormattingResult方法。
-### **已删除的Cells.MaxDataRowInColumn(int column)方法**
+### **删除的Cells.MaxDataRowInColumn(int column)方法**
 请使用Cells.GetLastDataRow(int)方法作为替代。
-### **已删除的PageSetup.Draft属性**
-建议使用PageSetup.PrintDraft属性。
-### **已删除的AutoFilter.FilterColumnCollection属性**
-请考虑使用AutoFilter.FilterColumns属性来实现相同的目标。
-### **已删除的TickLabels.Rotation属性**
-请改用TickLabels.RotationAngle属性。
+### **删除的PageSetup.Draft属性**
+建议改用PageSetup.PrintDraft属性。
+### **删除的AutoFilter.FilterColumnCollection属性**
+请考虑使用 AutoFilter.FilterColumns 属性来实现相同的目标。
+### **已删除 TickLabels.Rotation 属性**
+请改用 TickLabels.RotationAngle 属性。

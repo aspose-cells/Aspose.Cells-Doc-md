@@ -1,14 +1,14 @@
 ---
-title: 在PHP中使用工作表
+title: PHP 中的工作表处理
 type: docs
 weight: 40
 url: /zh/java/working-with-worksheets-in-php/
 ---
 
-**本节包括以下主题：**
+**本部分包括以下主题:**
 
-- [PHP中的显示功能](/cells/zh/java/display-features-in-php/)
-- [PHP中的管理功能](/cells/zh/java/management-features-in-php/)
-- [PHP中的页面设置功能](/cells/zh/java/page-setup-features-in-php/)
-- [PHP中的安全功能](/cells/zh/java/security-features-in-php/)
-- [PHP中的值功能](/cells/zh/java/value-features-in-php/)
+- [Php 中的显示特性](/cells/zh/java/display-features-in-php/)
+- [Php 中的管理特性](/cells/zh/java/management-features-in-php/)
+- [Php 中的页面设置特性](/cells/zh/java/page-setup-features-in-php/)
+- [Php 中的安全特性](/cells/zh/java/security-features-in-php/)
+- [Php 中的数值特性](/cells/zh/java/value-features-in-php/)

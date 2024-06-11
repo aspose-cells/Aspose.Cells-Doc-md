@@ -1,5 +1,5 @@
 ---
-title: 识别自闭合标签
+title: 识别自关闭标签
 type: docs
 weight: 120
 url: /zh/net/recognise-self-closing-tags/

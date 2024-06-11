@@ -5,7 +5,7 @@ weight: 230
 url: /zh/net/sort-data-in-worksheets/
 ---
 
-以下是VSTO和Aspose.Cells之间的比较代码示例。
+以下是VSTO和Aspose.Cells的比较代码示例。
 ## **VSTO**
 {{< highlight csharp >}}
 

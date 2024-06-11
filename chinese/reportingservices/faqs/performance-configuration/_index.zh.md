@@ -7,13 +7,13 @@ url: /zh/reportingservices/performance-configuration/
 
 {{% alert color="primary" %}} 
 
-用户可以在一定程度上优化性能。可以在**Aspose.Cells.ReportingServices.xml**文件中配置一些属性和参数，如下所述。
+用户可以在 **Aspose.Cells.ReportingServices.xml** 文件中配置一些属性和参数，以对性能进行优化。
 
 {{% /alert %}} 
 ### **性能部分**
-以下是默认的性能部分配置。
+这显示了性能部分的默认内容。
 
-**XML**
+XML
 
 {{< highlight csharp >}}
 
@@ -37,9 +37,9 @@ url: /zh/reportingservices/performance-configuration/
 
 {{< /highlight >}}
 ### **性能参数**
-- LimitCellsNumberForMerged - 参数的默认值为1000000。该参数的值由客户端设置，不受性能参数开关的影响。请参考以下配置。 
+- LimitCellsNumberForMerged – 参数的默认值为1000000。参数值由客户端设置，不受性能参数开关的影响。请参阅以下配置。 
 
-**XML**
+XML
 
 {{< highlight csharp >}}
 
@@ -49,13 +49,13 @@ url: /zh/reportingservices/performance-configuration/
 
 {{< /highlight >}}
 
-- IsAutoRowFit - 可以是true或false： 
-  - 当Performance参数设为‘关’时，默认值为false。
-  - 当Performance参数设为‘开’时，默认值为true。
-  - 当Performance参数设为‘开’时，子元素报告可以重设报告的AutoRowFile参数。
+- IsAutoRowFit – 可以为true或false： 
+  - 当Performance参数设置为'off'时，默认值为false。
+  - 当Performance参数设置为'on'时，默认值为true。
+  - 当Performance参数设置为'on'时，子元素报表可以重新设置报表的AutoRowFile参数。
     请参考以下配置。 
 
-**XML**
+XML
 
 {{< highlight csharp >}}
 
@@ -79,13 +79,13 @@ url: /zh/reportingservices/performance-configuration/
 
 {{< /highlight >}}
 
-- IsMerged - 可以是true或false： 
-  - 当Performance参数设为‘关’时，默认值为false。
-  - 当Performance参数设为‘开’时，默认值为true。
-  - 当Performance参数设为‘开’时，子元素报告可以重设报告的AutoRowFile参数。
+- IsMerged – 可以为true或false： 
+  - 当Performance参数设置为'off'时，默认值为false。
+  - 当Performance参数设置为'on'时，默认值为true。
+  - 当Performance参数设置为'on'时，子元素报表可以重新设置报表的AutoRowFile参数。
     请参考以下配置。 
 
-**XML**
+XML
 
 {{< highlight csharp >}}
 
@@ -109,13 +109,13 @@ url: /zh/reportingservices/performance-configuration/
 
 {{< /highlight >}}
 
-- IsSetStyle - 可以是true或false： 
-  - 当Performance参数设为‘关’时，默认值为false。
-  - 当Performance参数设为‘开’时，默认值为true。
-  - 当Performance参数设为‘开’时，子元素报告可以重设报告的AutoRowFile参数。
+- IsSetStyle – 可以设置为true或false: 
+  - 当Performance参数设置为'off'时，默认值为false。
+  - 当Performance参数设置为'on'时，默认值为true。
+  - 当Performance参数设置为'on'时，子元素报表可以重新设置报表的AutoRowFile参数。
     请参考以下配置。 
 
-**XML**
+XML
 
 {{< highlight csharp >}}
 
@@ -139,14 +139,14 @@ url: /zh/reportingservices/performance-configuration/
 
 {{< /highlight >}}
 
-- IsConditionalFormatting – 可以是true或false： 
-  - 当Performance参数设为‘关’时，默认值为false。
-  - 当Performance参数设为‘开’时，默认值为true。
-  - 当Performance参数设为‘开’时，子元素报告可以重设点报告的AutoRowFile参数。
-  - 当IsSetStyle参数设为false时，Performance参数的值无效。
+- IsConditionalFormatting – 可以设置为true或false: 
+  - 当Performance参数设置为'off'时，默认值为false。
+  - 当Performance参数设置为'on'时，默认值为true。
+  - 当Performance参数设置为'on'时，子级元素报表可以重新设置点报表的AutoRowFile参数。
+  - 当IsSetStyle参数设置为false时，Performance参数的值无效。
     请参考以下配置。 
 
-**XML**
+XML
 
 {{< highlight csharp >}}
 

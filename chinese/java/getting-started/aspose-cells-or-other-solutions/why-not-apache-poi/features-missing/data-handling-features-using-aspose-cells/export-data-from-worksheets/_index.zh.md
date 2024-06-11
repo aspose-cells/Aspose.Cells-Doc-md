@@ -6,9 +6,9 @@ url: /zh/java/export-data-from-worksheets/
 ---
 
 ## **Aspose.Cells - 从工作表导出数据**
-Aspose.Cells不仅让用户可以从外部数据源导入数据表中，还允许他们将工作表数据导出到数组中。
+Aspose.Cells不仅允许用户从外部数据源将数据导入到工作表中，还允许他们将工作表数据导出为数组。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -49,6 +49,6 @@ fstream.close();
 
 {{% alert color="primary" %}} 
 
-要了解更多详情，请访问[从工作表中导出数据](/java/exporting-data-from-worksheets)。
+更多详情，请访问[从工作表导出数据](/java/exporting-data-from-worksheets)。
 
 {{% /alert %}}

@@ -3,15 +3,15 @@ title: 迭代行和列
 type: docs
 weight: 50
 url: /zh/java/iterate-rows-and-columns/
-description: 学习如何通过Aspose.Cells for Java API迭代行和列。
-keywords: 如何在Java中迭代行和列，使用Java迭代行，Java迭代列。 
+description: 了解如何通过Aspose.Cells for Java API迭代行和列。
+keywords: 如何在 Java 中迭代行和列，使用 Java 迭代行，Java 迭代列。 
 ---
 
 ## **如何使用Aspose.Cells for Java迭代行和列**
 
-可以使用rows和columns集合迭代行和列。
+可以使用行和列集合迭代行和列。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -49,9 +49,9 @@ for (int i = 0 ; i < rows.getCount() ; i++)
 
 ## **Apache POI SS - HSSF XSSF - 迭代行和列**
 
-在Sheet上可以迭代行和单元格。下面提到了示例代码:
+在 Sheet 上可以迭代行和单元格。下面提供了示例代码。
 
-**Java**
+Java
 
 {{< highlight java >}}
 

@@ -1,5 +1,5 @@
 ---
-title: 将源工作表中的页面设置复制到目标工作表
+title: 从源工作表复制页面设置设置到目标工作表的可能使用场景
 type: docs
 weight: 10
 url: /zh/java/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/
@@ -7,11 +7,11 @@ url: /zh/java/copy-page-setup-settings-from-source-worksheet-into-destination-wo
 
 ## **可能的使用场景**
 
-当您向工作簿添加新工作表时，它包含默认的页面设置设置。在需要将设置从一个工作表传输到另一个工作表时（[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup)），您可以使用Aspose.Cells API复制页面设置设置。本文档介绍如何在Aspose.Cells中复制一个工作表的页面设置设置到另一个工作表。
+向工作簿添加新工作表时，它包含默认的页面设置。有时您需要将一个工作表的设置（[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup)）传输到另一个工作表。本文档介绍如何使用Aspose.Cells API将一个工作表的页面设置复制到另一个工作表。
 
 ## **将源工作表中的页面设置复制到目标工作表**
 
-以下示例代码说明了如何使用（[**PageSetup.Copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#copy(com.aspose.cells.PageSetup,%20com.aspose.cells.CopyOptions)）方法从一个工作表复制 页面设置设置到另一个工作表。请参考以下示例代码和其控制台输出。
+以下示例代码演示了如何使用[**PageSetup.Copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#copy(com.aspose.cells.PageSetup,%20com.aspose.cells.CopyOptions)方法将一个工作表的页面设置复制到另一个工作表。请参考以下示例代码和控制台输出。
 
 ## **示例代码**
 

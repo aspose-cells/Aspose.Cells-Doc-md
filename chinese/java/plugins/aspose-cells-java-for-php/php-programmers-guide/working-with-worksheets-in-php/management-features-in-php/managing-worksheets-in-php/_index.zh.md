@@ -6,10 +6,10 @@ url: /zh/java/managing-worksheets-in-php/
 ---
 
 ## **Aspose.Cells - 管理工作表**
-### **向新的Excel文件中添加工作表**
-要使用**Aspose.Cells Java for PHP**将工作表添加到新的Excel文件中，请简单调用**MangingWorksheets**模块的**add_worksheet**方法。
+### **向新的Excel文件添加工作表**
+要使用 **Aspose.Cells Java for PHP** 向新的Excel文件添加工作表, 只需调用 **ManagingWorksheets** 模块的 **add_worksheet** 方法。
 
-**PHP代码**
+**PHP 代码**
 
 {{< highlight php >}}
 
@@ -34,10 +34,10 @@ $worksheet->setName("My Worksheet");
 $workbook->save($dataDir . "book.out.xls");
 
 {{< /highlight >}}
-### **使用表名删除工作表**
-使用**Aspose.Cells Java for PHP**，通过调用**MangingWorksheets**模块的**remove_worksheet_by_name**方法来根据工作表名称删除工作表。
+### **使用工作表名称移除工作表**
+要使用 **Aspose.Cells Java for PHP** 按表名删除工作表, 只需调用 **ManagingWorksheets** 模块的 **remove_worksheet_by_name** 方法。
 
-**PHP代码**
+**PHP 代码**
 
 {{< highlight php >}}
 
@@ -62,10 +62,10 @@ $workbook->save($dataDir . "book.out.xls");
 $fstream->close();
 
 {{< /highlight >}}
-### **使用工作表索引删除工作表**
-使用**Aspose.Cells Java for PHP**，通过调用**MangingWorksheets**模块的**remove_worksheet_by_index**方法来根据工作表索引删除工作表。
+### **通过页索引删除工作表**
+要使用 **Aspose.Cells Java for PHP** 按表索引删除工作表, 只需调用 **ManagingWorksheets** 模块的 **remove_worksheet_by_index** 方法。
 
-**PHP代码**
+**PHP 代码**
 
 {{< highlight php >}}
 
@@ -91,6 +91,6 @@ $fstream->close();
 
 {{< /highlight >}}
 ## **下载运行代码**
-从下面列出的任何社交编码站点下载**管理工作表（Aspose.Cells）**。
+从下面提到的任何社交编码网站下载**Managing Worksheets (Aspose.Cells)**。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets)

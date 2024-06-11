@@ -6,7 +6,7 @@ url: /zh/java/managing-document-properties-in-python/
 ---
 
 ## **Aspose.Cells - 管理文档属性**
-开发人员可以使用属性的**Index**或**Name**从**custom_properties**集合中获取特定的属性，如下面的示例所示。
+开发人员可以使用该示例中下面演示的**custom_properties**集合的**Index**或**Name**来获取特定属性。
 
 **Python 代码**
 
@@ -49,6 +49,6 @@ print "Excel file's custom properties accessed successfully."
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下任何社交编码网站下载**Hello World（Aspose.Cells）**
+从以下任何社交编码网站下载**Hello World（Aspose.Cells)**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

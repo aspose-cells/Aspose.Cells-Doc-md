@@ -5,11 +5,11 @@ weight: 20
 url: /zh/net/importing-from-arraylist/
 ---
 
-开发人员可以通过调用Cells集合的ImportArrayList方法将数据从ArrayList导入到其工作表。ImportArrayList方法接受以下参数: ArrayList，表示需要导入其内容的ArrayList对象
+开发人员可以通过调用Cells集合的**ImportArrayList**方法将数据从ArrayList导入其工作表。 ImportArray方法采用以下参数：**ArrayList**，表示需要导入其内容的ArrayList对象
 
-- 行号，表示将导入数据的第一个单元格的行号
-- 列号，表示将导入数据的第一个单元格的列号
-- 是否垂直，一个指定导入数据是垂直还是水平的布尔值
+- 行号，表示将要导入数据的第一个单元格的行号
+- 列编号，表示要导入数据的第一个单元格的列号
+- 是否垂直，一个布尔值，指定是垂直导入数据还是水平导入数据
 
 {{< highlight csharp >}}
 

@@ -5,9 +5,9 @@ weight: 30
 url: /zh/cpp/chart-rendering/
 ---
 
-## **创建图形**
+## **创建图表**
 
-Aspose.Cells API支持根据主题[创建和自定义Excel图表](/cells/zh/cpp/creating-and-customizing-charts/)中详细说明的内容创建各种Excel图表。为了演示使用Aspose.Cells API在图像和PDF格式中渲染图表的用法，我们将创建类型为Column的图表，代码如下。
+Aspose.Cells API支持创建各种Excel图表，详细内容请参阅[创建和自定义Excel图表](/cells/zh/cpp/creating-and-customizing-charts/)主题。 为了演示Aspose.Cells API在图像和PDF格式中渲染图表的用法，我们将根据以下片段创建柱状图。
 
 {{< highlight cpp >}}
 
@@ -53,13 +53,13 @@ Aspose::Cells::Cleanup();
 
 {{< /highlight >}}
 
-## **图表渲染**
+## **渲染图表**
 
-Aspose.Cells API支持将Excel图表转换为图像和PDF格式，无需任何其他工具或应用程序。为了提供渲染支持，Chart类公开了ToImage和ToPdf方法，包含各种重载以最适合应用程序需求。
+Aspose.Cells API支持将Excel图表转换为图像和PDF格式，而无需任何额外的工具或应用程序。为了提供渲染支持，Chart类公开了ToImage和ToPdf方法，具有各种重载以最好地满足应用程序需求。
 
 ### **将图表渲染为图像**
 
-Chart.toImage方法包含各种重载，以支持简单和高级的渲染。如果应用程序要求以默认尺寸呈现图表，建议您使用Chart.toImage方法如下。
+Chart.toImage方法有多种重载，支持简单和高级渲染。如果应用程序的要求是在默认尺寸中呈现图表，则建议您使用Chart.toImage方法如下。
 
 {{< highlight cpp >}}
 
@@ -71,9 +71,9 @@ chart.ToImage(outputChartImage, ImageType::Png);
 
 {{< /highlight >}}
 
-### **渲染图表为PDF**
+### **将图表渲染为PDF**
 
-为了将图表呈现为PDF格式，Aspose.Cells API公开了Chart.ToPdf方法，能够将结果PDF存储在磁盘路径或流中。
+为了将图表渲染为PDF格式，Aspose.Cells API公开了具有存储生成的PDF的路径或流的能力的Chart.ToPdf方法。
 
 {{< highlight cpp >}}
 
@@ -85,11 +85,11 @@ chart.ToPdf(outputPdfFile);
 
 {{< /highlight >}}
 
-## **支持的图表类型用于渲染**
+## **支持的图表类型的渲染**
 
-目前不支持用于呈现的几种图表类型。此类图表类型在下表的**支持**列中包含**Y**。
+目前有一些不支持渲染的图表类型。这些图表类型在下表的Supported列中包含N。
 
-|**图表类型**|**图表子类型**|**支持**|
+|图表类型|图表子类型|支持
 | :- | :- | :- |
 |**Column**|Column|**Y**|
 | |ColumnStacked|**Y**|
@@ -175,6 +175,6 @@ chart.ToPdf(outputPdfFile);
 
 {{% alert color="primary" %}}
 
-在尝试将不支持的图表类型渲染为图像或PDF时，可能会得到大小为0的图像或空白PDF。
+如果尝试将不受支持的图表类型渲染为图像或PDF，则可能会得到大小为0的图像或空白PDF。
 
 {{% /alert %}}

@@ -1,15 +1,15 @@
 ---
-title: 在 Ruby 中显示或隐藏选项卡
+title: 在Ruby中显示或隐藏标签页
 type: docs
 weight: 40
 url: /zh/java/display-or-hide-tabs-in-ruby/
 ---
 
-## **Aspose.Cells - 显示或隐藏选项卡**
-### **隐藏选项卡。**
-要使用**Aspose.Cells Java for Ruby**隐藏选项卡，请调用**displayhidetabs**模块。
+## **Aspose.Cells - 显示或隐藏标签页**
+### **隐藏选项卡**
+要使用**Aspose.Cells Java for Ruby**隐藏标签页，请调用**displayhidetabs**模块。
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 
@@ -30,10 +30,10 @@ workbook.save(data_dir + "output.xls")
 puts "Tabs are now hidden, please check the output file."
 
 {{< /highlight >}}
-### **使选项卡可见。**
-通过使用**Workbook**类的**setSheetTabBarHidden(false)**方法，使选项卡可见。
+### **使选项卡可见**
+通过将Workbook类的setSheetTabBarHidden(false)方法使标签页可见。
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 
@@ -43,6 +43,6 @@ workbook.getSettings().setSowTabs(true)
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下社交编码网站之一下载**隐藏或显示选项卡（Aspose.Cells）**。
+从以下提到的任何社交编码站点下载**隐藏或显示标签页 (Aspose.Cells)**。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhidetabs.rb)

@@ -1,14 +1,14 @@
 ---
 title: 支持的数字格式列表
-description: Aspose.Cells是一个用于处理电子表格文件的.NET库，支持一系列数字格式。本文提供了支持的数字格式列表，以便用户可以根据需要选择适当的格式。
-keywords: Aspose.Cells, .NET库, 电子表格, 数字格式, 列表, 支持的
+description: Aspose.Cells 是一个用于处理电子表格文件的 .NET 库，支持一系列数字格式。本文提供了支持的数字格式列表，以便用户根据需要选择合适的格式。
+keywords: Aspose.Cells, .NET库, 电子表格, 数字格式, 列表, 支持
 type: docs
 weight: 30
 url: /zh/net/list-of-supported-number-formats/
 ---
 
 ## **Aspose.Cells**
-Aspose.Cells组件提供了一些内置的数字格式，用于配置数字和日期的显示格式。可以通过Style对象的**Number**属性应用这些内置的数字格式。所有内置的数字格式都有唯一的数值。开发人员可以将任何所需的数值分配给**Style**对象的*Number*属性，从而应用显示格式。这种方法更快。Aspose.Cells组件支持的内置数字格式如下所示:
+Aspose.Cells 组件提供了一些内置数字格式，用于配置数字和日期的显示格式。可以通过 **Style** 对象的 **Number** 属性应用这些内置数字格式。所有内置数字格式都有唯一的数值。开发人员可以将任何所需的数值分配给 **Style** 对象的 *Number* 属性，从而应用显示格式。这种方法更加快速。Aspose.Cells 组件支持的内置数字格式如下：
 
 |**数值**|**类型**|**格式字符串**|
 | :- | :- | :- |
@@ -48,13 +48,13 @@ Aspose.Cells组件提供了一些内置的数字格式，用于配置数字和�
 |47 |Time |mm:ss.0 |
 |48 |Scientific |##0.0E+00 |
 |49 |Text |@ |
-## **Aspose.Cells网格套件**
-正如我们所知，Aspose.Cells.Grid控件有两种：Aspose.Cells.GridDesktop和Aspose.Cells.GridWeb。这两个控件支持大量的数字格式，根据每个控件分为两个部分，如下：
+## **Aspose.Cells 网格套件**
+我们知道 Aspose.Cells Grid 控件有两个：Aspose.Cells.GridDesktop 和 Aspose.Cells.GridWeb。这两个控件支持大量数字格式，分别划分为以下两个部分：
 
-- Aspose.Cells.GridDesktop支持的数字格式
-- Aspose.Cells.GridWeb支持的数字格式
-### **Aspose.Cells.GridDesktop支持的数字格式**
-Aspose.Cells.GridWeb 也支持下列 59 种类型的数字格式：
+- Aspose.Cells.GridDesktop 支持的数字格式
+- Aspose.Cells.GridWeb 支持的数字格式
+### **Aspose.Cells.GridDesktop 支持的数字格式**
+Aspose.Cells.GridWeb 也支持以下 59 种数字格式：
 
 |**索引**|**数字格式**|
 | :- | :- |
@@ -120,11 +120,11 @@ Aspose.Cells.GridWeb 也支持下列 59 种类型的数字格式：
 
 {{% alert color="primary" %}} 
 
-在某些数字格式中，您可能会注意到一些像月这样的字符。这实际上是中文字符，可在 MS Excel 的中文和日文版本中使用。
+在一些数字格式中，您可能会注意到一些像 月 的字符。这实际上是中文和日本版的 MS Excel 中可以使用的字符。
 
 {{% /alert %}} 
 ### **Aspose.Cells.GridWeb 支持的数字格式**
-Aspose.Cells.GridWeb 也支持下列 59 种类型的数字格式：
+Aspose.Cells.GridWeb 也支持以下 59 种数字格式：
 
 |**数字格式类型**|**数字格式**|
 | :- | :- |

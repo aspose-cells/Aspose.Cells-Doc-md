@@ -10,8 +10,8 @@ keywords: 冻结窗格，冻结窗口。
 
 {{% alert color="primary" %}}
 
-本文中，我们将学习如何冻结窗格。
-当您有大量数据在一个常见标题下，当您向下滚动工作表时无法看到该标题。而且每个记录包含许多数据。您可以冻结窗格，以便即使其余数据在滚动时也能看到该冻结部分。您可以轻松查看顶部行或第一列中的标题。冻结和取消冻结窗格只会改变数据的视图，而不会改变数据本身。
+在本文中，我们将学习如何冻结窗格。
+当您有大量数据位于共同的标题下时，当向下滚动工作表时，您将无法看到标题。并且每条记录包含许多数据。您可以冻结窗格，这样即使其余数据正在滚动，您也可以看到被冻结的部分。您可以轻松查看顶部行或第一列的标题。冻结和取消冻结窗格仅改变数据的视图而不改变数据本身。
 
 {{% /alert %}}
 
@@ -20,25 +20,25 @@ keywords: 冻结窗格，冻结窗口。
 **![Excel中的冻结窗格](Freeze-panes.png)**
 
 
-1. 如果您要冻结窗格、冻结行和列，首先选择一个单元格(比如B2)
-2. 单击“查看” > “冻结窗格”
+1. 如果要冻结窗格，冻结行和列，则首先选择单元格（例如B2）
+2. 单击“查看”>“冻结窗格”
 3. 在下拉菜单上，单击“冻结窗格”
-4. 如果向下或向右滚动，第一行和第一列会被冻结
+4. 如果向下或向右滚动，第一行和列将被冻结。
 
-**![Fonzen panes](Frozen-Panes.png)**
+**![冻结窗格](Frozen-Panes.png)**
 
-如您所见，第一行和A列被冻结，第二行为32，第二可见列为D。 
+正如您所看到的，第一行和A列已被冻结，第二行为32，第二个可见列为D。 
 
-冻结窗格能让您查看大量数据，而无需关注行或列标签。
-
-
+冻结窗格使您能够查看大量数据而无需跟踪行或列标签。
 
 
-## **使用Aspose.Cells for .Net进行冻结窗格**
-使用Aspose.Cells for .Net很简单冻结窗格。请使用[**Worksheet.FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/freezepanes/)方法在选定单元格处冻结窗格。
-1. 构建工作簿以打开文件或创建一个空文件。
-2. 使用Worksheet.FreezePanes()方法冻结窗格。
-3. 保存文件。
+
+
+## **使用Aspose.Cells for .Net冻结窗格**
+使用Aspose.Cells for .Net简单冻结窗格。请使用[**Worksheet.FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/freezepanes/)方法来在选定单元格中冻结窗格。
+1.构建工作簿以打开文件或创建一个空文件。
+2.使用Worksheet.FreezePanes()方法冻结窗格。
+3.保存文件。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Freeze-Pane.cs" >}}
 

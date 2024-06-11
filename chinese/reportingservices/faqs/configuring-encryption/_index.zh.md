@@ -7,19 +7,19 @@ url: /zh/reportingservices/configuring-encryption/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Reporting Services支持加密，您可以渲染加密的Microsoft Excel文件。 
+Aspose.Cells为报表服务支持加密，您可以渲染加密的Microsoft Excel文件。 
 
 {{% /alert %}} 
 ### **加密类型**
-Aspose.Cells for Reporting Services在导出Excel文件时支持加密。它支持三种加密类型：
+Aspose.Cells针对报表服务的Excel文件导出支持加密。它支持三种加密类型：
 
-- 异或
+- XOR
 - 弱加密
-- 微软强加密提供程序
+- Microsoft强加密提供程序
 ### **配置信息**
-**Aspose.Cells.ReportingServices.xml**文件中有有关加密的配置信息。当Encryption的值设置为"off"时，Aspose.Cells.ReportingServices关闭加密。
+**Aspose.Cells.ReportingServices.xml**文件中有有关加密的配置信息。当加密的值设置为"off"时，Aspose.Cells.ReportingServices将关闭加密。
 
-**XML**
+XML
 
 {{< highlight csharp >}}
 
@@ -41,7 +41,7 @@ Aspose.Cells for Reporting Services在导出Excel文件时支持加密。它支�
 
 {{< /highlight >}}
 
-当Encryption设置为"on"时，Aspose.Cells.ReportingServices打开加密。
+当加密设置为"on"时，Aspose.Cells.ReportingServices将打开加密。
 
 {{< highlight java >}}
 
@@ -49,14 +49,14 @@ Aspose.Cells for Reporting Services在导出Excel文件时支持加密。它支�
 
 {{< /highlight >}}
 
-加密部分包含四个参数：ReportName、Password、EncryptionType和KeyLength。
+加密部分有四个参数：报表名称、密码、加密类型和密钥长度。
 
-- ReportName - 设置需要进行加密设置的报表。当参数为空时，报表使用相同的加密方式。
-- Password - 设置密码。密码不能为空。
-- EncryptionType - 设置加密类型。加密类型不能为空。
-- KeyLength - 设置密钥长度。密钥长度不能为空。 
+- ReportName – 设置需要加密设置的报表。当参数为空时，报表使用相同的加密方式。
+- Password – 设置密码。不可为空。
+- EncryptionType – 设置加密类型。不可为空。
+- KeyLength – 设置密钥长度。不可为空。 
 
-**XML**
+XML
 
 {{< highlight csharp >}}
 

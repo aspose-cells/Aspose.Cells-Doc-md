@@ -1,16 +1,16 @@
 ---
-title: 在运行时使用GridWeb将工作表与DataSet绑定
+title: 在运行时将工作表绑定到 DataSet 使用 GridWeb
 type: docs
 weight: 70
 url: /zh/net/aspose-cells-gridweb/bind-worksheet-to-a-dataset/
-keywords: GridWeb，bind，DataSet
-description: 本文介绍了如何在GridWeb中将工作表绑定到DataSet。
+keywords: GridWeb,bind,DataSet
+description: 本文介绍如何在 GridWeb 中将工作表绑定到 DataSet。
 ---
 
 ## **可能的使用场景**
-Aspose.Cells.GridWeb提供了一个简单的API，可用于动态地将DataSet绑定到工作表。
-## **将工作表绑定到DataSet**
-下面的示例代码解释了如何在运行时将工作表绑定到DataSet。
+Aspose.Cells.GridWeb 提供了一个易于使用的 API，可用于动态地将 DataSet 绑定到工作表。
+## **将工作表绑定到 DataSet**
+以下示例代码解释了如何在运行时将工作表绑定到 DataSet。
 ## **示例代码**
 {{< highlight java >}}
 
@@ -83,7 +83,7 @@ public partial class GridBind : System.Web.UI.Page
 }
 
 {{< /highlight >}}
-## **输出屏幕截图**
-下面的屏幕截图显示了在执行上述示例代码后的GridWeb。
+## **输出截图**
+下面的截图显示了在执行上述示例代码后的 GridWeb。
 
 ![todo:image_alt_text](binding-worksheet-to-a-dataset-at-runtime-using-gridweb_1.png)

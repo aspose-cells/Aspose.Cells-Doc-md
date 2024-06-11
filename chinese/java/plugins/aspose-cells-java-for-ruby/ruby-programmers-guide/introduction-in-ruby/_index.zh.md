@@ -1,10 +1,10 @@
 ---
-title: Ruby简介
+title: Ruby中的介绍
 type: docs
 weight: 10
 url: /zh/java/introduction-in-ruby/
 ---
 
-**本节包括以下主题：**
+**本部分包括以下主题:**
 
-- [Ruby中的Hello World](/cells/zh/java/hello-world-in-ruby/)
+- [在Ruby中打印Hello World](/cells/zh/java/hello-world-in-ruby/)

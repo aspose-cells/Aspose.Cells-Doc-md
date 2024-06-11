@@ -1,14 +1,14 @@
 ---
-title: 为图表添加文字艺术水印
+title: 向图表添加Word Art水印
 type: docs
 weight: 10
 url: /zh/java/add-word-art-watermark-to-chart/
 ---
 
-## **Aspose.Cells - 为图表添加文字艺术水印**
-您可以使用文字艺术将特殊文本效果添加到电子表格中。例如，拉伸标题，装饰文本，使文本适合预设形状，或者将受影响的文本应用于图表的绘图区域作为水印。文字艺术变成一个对象，您可以将其移动或定位在电子表格中以添加装饰。
+## **Aspose.Cells - 向图表添加Word Art水印**
+您可以使用WordArt在电子表格中添加特殊文本效果。例如，拉伸标题、装饰文本、使文本适合预设形状，或将受影响的文本应用于图表的绘图区作为水印。WordArt成为您可以在电子表格中移动或定位的对象，以添加装饰。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -53,6 +53,6 @@ workbook.save(dataDir + "AsposeChartWatermarked_Out.xls", SaveFormat.EXCEL_97_TO
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[向图表添加文字艺术水印](/cells/zh/java/add-wordart-watermark-to-chart)。
+欲了解更多详情，请访问[向图表添加Word Art水印](/cells/zh/java/add-wordart-watermark-to-chart)。
 
 {{% /alert %}}

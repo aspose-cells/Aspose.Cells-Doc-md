@@ -1,21 +1,21 @@
 ---
-title: 利用Aspose.Cells使用OpenXml的Sheet.SheetId属性
+title: 使用 Aspose.Cells 利用 OpenXml 的 Sheet.SheetId 属性
 type: docs
 weight: 200
 url: /zh/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/
-description: 本文展示了如何利用Excel操纵.NET API或C#库编程方式利用OpenXml的Sheet.SheetId属性。
-keywords: OpenXml的Sheet.SheetId属性位于DocumentFormat.OpenXml.Spreadsheet命名空间中，是OpenXml的一部分。您可以在以下屏幕截图中看到此属性及其值，如workbook.xml中所示。Aspose.Cells提供了等效的属性，即{0}。
+description: 本文介绍如何使用Excel操纵.NET API或C#库编程利用OpenXml的Sheet.SheetId属性。
+keywords: OpenXml的Sheet.SheetId属性在C#中，工作表C#的Sheet.SheetId
 ---
 
 ## **可能的使用场景**
 
-*Sheet.SheetId*属性位于*DocumentFormat.OpenXml.Spreadsheet*命名空间中，是OpenXml的一部分。您可以在*workbook.xml*中看到此属性及其值，如下截图所示。Aspose.Cells提供了等效属性[**Worksheet.TabId**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/tabid)。
+Sheet.SheetId属性位于DocumentFormat.OpenXml.Spreadsheet命名空间内，是OpenXml的一部分。您可以在*workbook.xml*文件中看到此属性及其值，如下屏幕截图所示。Aspose.Cells提供了[**Worksheet.TabId**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/tabid)属性作为等价属性。
 
 ![todo:image_alt_text](utilize-sheet-sheetid-property-of-openxml-using-aspose-cells_1.png)
 
-## **利用Aspose.Cells使用OpenXml的Sheet.SheetId属性**
+## **使用 Aspose.Cells 利用 OpenXml 的 Sheet.SheetId 属性**
 
-以下示例代码加载[示例Excel文件](51740716.xlsx)，读取其Sheet或Tab Id，然后将其分配为新的Tab Id 并保存为[output Excel文件](51740717.xlsx)。还请查看下面给出的代码的控制台输出以作参考。
+以下示例代码加载了[示例Excel文件](51740716.xlsx)，读取其表格或标签ID，然后将其分配为新的标签ID并保存为[输出Excel文件](51740717.xlsx)。还请参见下方给出的代码的控制台输出作为参考。
 
 ## **示例代码**
 

@@ -65,12 +65,12 @@ file.Close();
 
 {{< /highlight >}}
 ## **下载运行代码**
-从下面提到的社交编码网站之一下载 **在工作表中隐藏行和列**
+从以下任意社交编码网站下载**在工作表中隐藏行和列**。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Hiding.Rows.and.Columns.zip)
 
 {{% alert color="primary" %}} 
 
-有关详细信息，请访问[使用工作表](/cells/zh/net/working-with-worksheets-in-npoi-and-aspose-cells/)
+有关更多详细信息，请访问[使用工作表](/cells/zh/net/working-with-worksheets-in-npoi-and-aspose-cells/)。
 
 {{% /alert %}}

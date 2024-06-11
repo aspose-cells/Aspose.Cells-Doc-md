@@ -6,9 +6,9 @@ url: /zh/java/converting-html-files-to-excel-spreadsheets-in-ruby/
 ---
 
 ## **Aspose.Cells - 将HTML文件转换为Excel电子表格**
-要在Ruby中使用Aspose.Cells for Java将HTML转换为电子表格，只需调用Converter模块的html_to_excel()方法。
+使用Ruby中的Aspose.Cells for Java将HTML转换为电子表格，只需调用Converter模块的html_to_excel()方法。
 
-**Ruby代码**
+**Ruby 代码**
 
 {{< highlight ruby >}}
 
@@ -40,6 +40,6 @@ end
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下任一社交编码网站下载**将HTML文件转换为Excel电子表格（Aspose.Cells）**：
+从以下提到的任何社交编码站点下载**将HTML文件转换为Excel电子表格（Aspose.Cells）**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

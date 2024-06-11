@@ -1,11 +1,11 @@
 ---
-title: 打开文本文件作为工作簿
+title: 将文本文件作为工作簿打开
 type: docs
 weight: 180
 url: /zh/net/open-text-files-as-workbooks/
 ---
 
-以下是比较代码示例，用于将文本文件作为工作簿打开：
+下面是将文本文件作为工作簿打开的比较代码示例：
 ## **VSTO**
 {{< highlight csharp >}}
 

@@ -1,17 +1,17 @@
 ---
-title: 在PHP中隐藏和显示行和列
+title: 在 PHP 中隐藏和显示行和列
 type: docs
 weight: 50
 url: /zh/java/hiding-and-showing-rows-and-columns-in-php/
-description: 通过Aspose.Cells for PHP via Java API学习如何隐藏和显示行和列。
-keywords: 如何在PHP中隐藏和显示行和列，使用PHP隐藏行或列，PHP显示行或列。 
+description: 通过 Aspose.Cells for PHP via Java 的 API 学习如何隐藏和显示行和列。
+keywords: 如何在 PHP 中隐藏和显示行和列，使用 PHP 隐藏行或列，PHP 显示行或列。 
 ---
 
 ## **Aspose.Cells for PHP - 控制行和列的可见性**
-### **如何在PHP中隐藏行和列**
-开发人员可以通过调用Cells集合的HideRow和HideColumn方法来隐藏行或列。这两个方法分别接受行索引或列索引作为参数，以隐藏特定的行或列。
+### **如何在 PHP 中隐藏行和列**
+开发人员可以通过调用Cells集合的HideRow和HideColumn方法来隐藏行或列。这两个方法都接受行/列索引作为参数，以隐藏特定的行或列。
 
-**PHP代码**
+**PHP 代码**
 
 {{< highlight php >}}
 
@@ -46,13 +46,13 @@ keywords: 如何在PHP中隐藏和显示行和列，使用PHP隐藏行或列，P
 }
 
 {{< /highlight >}}
-### **如何使用PHP显示行和列**
-开发人员可以通过调用Cells集合的UnhideRow和UnhideColumn方法来取消隐藏任何隐藏的行或列。这两个方法分别接受两个参数:
+### **如何使用 PHP 显示行和列**
+开发人员可以通过调用Cells集合的UnhideRow和UnhideColumn方法来取消隐藏任何隐藏的行或列。这两个方法都接受两个参数：
 
-- **行或列索引** - 用于显示特定行或列的行或列索引。
-- **行高或列宽度** - 在显示后分配给行或列的行高或列宽度。
+- **行或列索引** - 用于显示特定行或列的行或列的索引。
+- **行高或列宽** - 显示后分配给行或列的行高或列宽。
 
-**PHP代码**
+**PHP 代码**
 
 {{< highlight php >}}
 
@@ -88,6 +88,6 @@ keywords: 如何在PHP中隐藏和显示行和列，使用PHP隐藏行或列，P
 
 {{< /highlight >}}
 ## **下载运行代码**
-从下面提到的任何社交编码网站下载**控制行和列的可见性（Aspose.Cells）**
+从以下任何社交编码站点下载**控制行和列的可见性（Aspose.Cells）**：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

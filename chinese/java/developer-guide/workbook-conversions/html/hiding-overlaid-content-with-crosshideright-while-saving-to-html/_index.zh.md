@@ -1,5 +1,5 @@
 ---
-title: 在保存为HTML时使用CrossHideRight隐藏叠加内容
+title: 使用 CrossHideRight 在保存为 HTML 时隐藏重叠内容
 type: docs
 weight: 100
 url: /zh/java/hiding-overlaid-content-with-crosshideright-while-saving-to-html/
@@ -7,11 +7,11 @@ url: /zh/java/hiding-overlaid-content-with-crosshideright-while-saving-to-html/
 
 ## **可能的使用场景**
 
-当您将Excel文件保存为HTML时，可以为单元格字符串指定不同的交叉类型。默认情况下，Aspose.Cells生成与Microsoft Excel相符的HTML，但当您将[**HtmlSaveOptions.HtmlCrossStringType**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#HtmlCrossStringType)更改为[**CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT)时，它将隐藏单元格右侧与单元格字符串重叠的所有字符串。
+将 Excel 文件保存为 HTML 时，您可以为单元格字符串指定不同的交叉类型。Aspose.Cells 默认按照 Microsoft Excel 生成 HTML，但当将[**HtmlSaveOptions.HtmlCrossStringType**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#HtmlCrossStringType)更改为[**CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT)时，它会隐藏与单元格字符串重叠或重叠的右侧的所有字符串。
 
-## **在保存为HTML时使用CrossHideRight隐藏叠加内容**
+## **在保存为 HTML 时隐藏重叠的内容与 CrossHideRight**
 
-以下示例代码加载了包含外部资源的[sample Excel文件](64716916.xlsx)并在设置[**HtmlSaveOptions.HtmlCrossStringType**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#HtmlCrossStringType)为[**CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT)后将其保存为[输出HTML](64716915.zip)。屏幕快照解释了[**CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT)如何影响默认输出的HTML。
+以下示例代码加载[sample Excel file](64716916.xlsx)并在将[**HtmlSaveOptions.HtmlCrossStringType**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#HtmlCrossStringType)设置为[**CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT)后将其保存为[output HTML](64716915.zip)。屏幕截图说明了[**CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT)如何影响默认输出的输出 HTML。
 
 ![todo:image_alt_text](hiding-overlaid-content-with-crosshideright-while-saving-to-html_1.png)
 
