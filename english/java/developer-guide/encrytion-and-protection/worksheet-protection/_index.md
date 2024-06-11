@@ -135,7 +135,7 @@ Protection is removed, unless the worksheet is password protected. In this case,
 
 ### **Using Aspose.Cells**
 
-A worksheet can be unprotected by calling the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [**Unprotect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#unprotect()) method. The [**Unprotect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#unprotect()) method can be used in two ways, described below.
+A worksheet can be unprotected by calling the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [**Unprotect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#unprotect--) method. The [**Unprotect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#unprotect--) method can be used in two ways, described below.
 
 ### **Unprotecting a Simply Protected Worksheet**
 

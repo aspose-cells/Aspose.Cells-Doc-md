@@ -33,11 +33,11 @@ To update a style in Microsoft Excel 97-2003:
 
 ## **Using Aspose.Cells**
 
-Aspose.Cells provides the [**Style.update**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update()) method for updating an existing style.
+Aspose.Cells provides the [**Style.update**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update--) method for updating an existing style.
 
-To change a named style, whether created dynamically using Aspose.Cells or predefined, call the [**Style.update**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update()) method to reflect any changes in style applied to a cell or range.
+To change a named style, whether created dynamically using Aspose.Cells or predefined, call the [**Style.update**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update--) method to reflect any changes in style applied to a cell or range.
 
-The [**Style.update**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update()) method behaves like the **OK** button in the Style dialog: after making changes to an existing style, call to implement the change. If you have already applied a style to a range of cells, modify the style attributes and call the method, the formatting of those cells is updated automatically
+The [**Style.update**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update--) method behaves like the **OK** button in the Style dialog: after making changes to an existing style, call to implement the change. If you have already applied a style to a range of cells, modify the style attributes and call the method, the formatting of those cells is updated automatically
 
 ### **Creating and Modifying a Style**
 

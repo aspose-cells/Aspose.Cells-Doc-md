@@ -8,7 +8,7 @@ url: /java/get-equation-text-of-chart-trendline/
 
 {{% alert color="primary" %}}
 
-You can retrieve the Equation Text of Chart Trendline using Aspose.Cells. Aspose.Cells provides [**Trendline.getDataLabels().getText()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#Text) property which returns the Equation Text of chart trendline. To make use of this property, you will first have to call [**Chart.calculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#calculate()) method.
+You can retrieve the Equation Text of Chart Trendline using Aspose.Cells. Aspose.Cells provides [**Trendline.getDataLabels().getText()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#Text) property which returns the Equation Text of chart trendline. To make use of this property, you will first have to call [**Chart.calculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#calculate--) method.
 
 {{% /alert %}}
 

@@ -28,13 +28,13 @@ You can convert numbers stored as text to numbers by following a few simple step
 <img src="3.png" width=70% />
 
 ## Convert numbers stored as text to numbers using Aspose.Cells for JAVA
-Aspose.Cells for Java API provides the [**Cells.convertStringToNumericValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#convertStringToNumericValue()) method which can be used to convert all string or text numeric data into numbers.
+Aspose.Cells for Java API provides the [**Cells.convertStringToNumericValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#convertStringToNumericValue--) method which can be used to convert all string or text numeric data into numbers.
 
 The following screenshot shows string numbers in cells **A1:A17**. String numbers are aligned to the left.
 <br>
 <img src="5.png" width=70% />
 
-These string numbers have been converted to numbers using [**Cells.convertStringToNumericValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#convertStringToNumericValue()) in the following screenshot. As you can see, they are now right-aligned.
+These string numbers have been converted to numbers using [**Cells.convertStringToNumericValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#convertStringToNumericValue--) in the following screenshot. As you can see, they are now right-aligned.
 <br>
 <img src="6.png" width=70% />
 

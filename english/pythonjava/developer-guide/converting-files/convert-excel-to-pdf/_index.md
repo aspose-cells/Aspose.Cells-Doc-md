@@ -27,6 +27,6 @@ To have more control over the conversion to PDF, the API provides the [**PdfSav
 
 {{% alert color="primary" %}}
 
-if your spreadsheet contains formulas, call the [**Workbook.calculateFormula**](https://reference.aspose.com/cells/python/asposecells.api/workbook#calculateFormula()) method just before rendering the spreadsheet to PDF. This ensures that the formula dependent values are recalculated and the correct values are rendered in the PDF.
+if your spreadsheet contains formulas, call the [**Workbook.calculateFormula**](https://reference.aspose.com/cells/python-java/asposecells.api/workbook#calculateFormula()) method just before rendering the spreadsheet to PDF. This ensures that the formula dependent values are recalculated and the correct values are rendered in the PDF.
 
 {{% /alert %}}

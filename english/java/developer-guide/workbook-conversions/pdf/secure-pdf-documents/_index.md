@@ -30,6 +30,6 @@ The sample code below describes how to create secured PDF files with Aspose.Cell
 
 {{% alert color="primary" %}}
 
-If the spreadsheet contains formulas, it is best to call [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) just before rendering it to PDF. This ensures that formula dependent values are recalculated, and the correct values are rendered in the PDF.
+If the spreadsheet contains formulas, it is best to call [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) just before rendering it to PDF. This ensures that formula dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}

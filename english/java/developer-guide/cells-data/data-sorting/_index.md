@@ -31,9 +31,9 @@ Generally, sorting is performed on a list - defined as a contiguous group of dat
 
 Aspose.Cells provides the [**DataSorter**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter) class used to sort data in ascending or descending order. The class has some important members, for example, methods like [**setKey1**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#Key1) ... [**setKey2**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#Key2) and [**setOrder1**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#Order1) ... [**setOrder2**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#Order2). These members are used to define sorted keys and specify the key sort order.
 
-You have to define keys and set the sort order before implementing data sorting. The class provides the [**sort**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#sort()) method used to perform data sorting based on the cell data in a worksheet.
+You have to define keys and set the sort order before implementing data sorting. The class provides the [**sort**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#sort--) method used to perform data sorting based on the cell data in a worksheet.
 
-The [**sort**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#sort()) method accepts the following parameters:
+The [**sort**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#sort--) method accepts the following parameters:
 
 - [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells), the cells of the worksheet.
 - [**CellArea**](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea), the range of cells. Define the cell area before applying data sorting.

@@ -49,7 +49,7 @@ The code examples that follow show how to modify the quick style applied to a pi
 
 ### **Clearing Pivot Fields**
 
-[**PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) has a method named [**clear()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotfieldcollection#clear()) that clears pivot fields. Use it to clear pivot fields in all areas for example, page, column, row or data.
+[**PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) has a method named [**clear()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotfieldcollection#clear--) that clears pivot fields. Use it to clear pivot fields in all areas for example, page, column, row or data.
 The code sample below shows how to clear all the pivot fields in the data area.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-ClearPivotFields-ClearPivotFields.java" >}}
