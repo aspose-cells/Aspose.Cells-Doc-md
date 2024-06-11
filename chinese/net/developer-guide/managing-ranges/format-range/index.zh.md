@@ -33,6 +33,7 @@ url: /zh/net/how-to-format-a-range/
 
 ## **示例代码**
 在这个例子中，我们创建一个Excel工作簿，添加一些示例数据，访问第一个工作表，并定义两个范围("A1:C3"和"A4:C5")。然后，我们创建新的样式，设置各种格式选项（如字体颜色，粗体），并将样式应用到范围。最后，我们将工作簿保存到新文件。
+<br>
 ![todo:image_alt_text](format-range.png)
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Range-FormatRanges.cs" >}}

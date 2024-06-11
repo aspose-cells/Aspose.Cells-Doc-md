@@ -5,7 +5,7 @@ type: docs
 weight: 180
 url: /zh/net/export-data-from-worksheet/
 description: 本文介绍了如何使用C#将工作表中的数据导出或导入到数据表中。
-keywords: C#从工作表导出数据，C#从工作表导出数据到数据表，包含强类型数据的列，包含非强类型数据的列，C#导出带有跳过列名标志的范围
+keywords: C#从工作表导出数据，C#将数据导出到DataTable，包含强类型数据的列，包含非强类型数据的列，C#导出范围并跳过列名称标志，C#如何导出带标题的范围。
 ---
 
 ## 概述
@@ -97,7 +97,7 @@ _代码步骤：_
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-ExportColumnContainingNonStronglyTypedData-1.cs" >}}
 
-## **如何导出带有跳过列名标志的范围**
+## **如何导出带标题的范围**
 
 可以将范围中的数据导出到[**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8)，其中有一个标志可用于在导出的数据中跳过标题行。以下代码将数据范围导出到[**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8)，其中包含一个参数[**ExportTableOptions**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions)，其中包含[**ExportColumnName**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/exportcolumnname)标志。如果标题信息存在，则将其设置为true，因此数据中不包括它，并将其设置为false，如果没有标题，则将所有行视为数据。
 

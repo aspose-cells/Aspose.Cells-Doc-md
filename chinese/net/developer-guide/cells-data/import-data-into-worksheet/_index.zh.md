@@ -57,7 +57,7 @@ Aspose.Cells 提供了一个代表 Microsoft Excel 文件的[**Workbook**](http
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromCustomObject-1.cs" >}}
 
-## **如何从自定义对象合并区域导入数据到Excel**
+## **如何从自定义对象导入数据到Excel并检查合并区域**
 
 要将数据从对象集合导入到包含合并单元格的工作表中，请使用*[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells)*属性。如果Excel模板有合并单元格，请将[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells)属性的值设置为true。将[**ImportTableOptions**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions)对象连同列/属性列表传递给方法以显示您想要的对象列表。以下代码示例演示了如何使用*[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells)*属性将数据从自定义对象导入到合并单元格。请参阅附加的[source Excel](90112033.xlsx)文件和[output Excel](90112034.xlsx)文件供参考。
 
@@ -83,7 +83,7 @@ Aspose.Cells提供了与动态对象一起使用的功能作为数据源。它�
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDynamicDataTable-1.cs" >}}
 
-## **如何从DataColumn (.NET)导入数据到Excel**
+## **如何将DataColumn导入到Excel**
 
 *DataTable*或*DataView*对象由一个或多个列组成。开发人员还可以通过调用[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)集合的[**ImportData**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index)方法从*DataTable*或*DataView*中的任何列/列导入数据。[**ImportData**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index)方法接受类型为[**ImportTableOptions**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions)的参数。[**ImportTableOptions**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions)类提供了一个[**ColumnIndexes**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/columnindexes)属性，接受一个列索引数组。
 
@@ -91,7 +91,7 @@ Aspose.Cells提供了与动态对象一起使用的功能作为数据源。它�
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataColumn-1.cs" >}}
 
-## **如何从DataView(.NET)导入数据到Excel**
+## **如何将DataView导入到Excel**
 
 要从*DataView*导入数据，请调用[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)集合的[**ImportData**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index)方法。[**ImportData**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index)方法有很多重载版本，但DataView的一个版本接受以下参数：
 
@@ -102,7 +102,7 @@ Aspose.Cells提供了与动态对象一起使用的功能作为数据源。它�
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataView-1.cs" >}}
 
-## **如何从DataGrid(.NET)导入数据到Excel**
+## **如何将DataGrid导入到Excel**
 
 可以通过调用[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)集合的[**ImportDataGrid**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatagrid/index)方法从*DataGrid*导入数据。[**ImportDataGrid**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatagrid/index)方法有许多重载版本，但典型的重载接受以下参数：
 
@@ -113,7 +113,7 @@ Aspose.Cells提供了与动态对象一起使用的功能作为数据源。它�
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataGrid-1.cs" >}}
 
-## **如何从GridView导入数据到Excel**
+## **如何将GridView导入到Excel**
 
 要从*GridView*控件导入数据，调用[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)集合的[**ImportGridView**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importgridview)方法。
 
