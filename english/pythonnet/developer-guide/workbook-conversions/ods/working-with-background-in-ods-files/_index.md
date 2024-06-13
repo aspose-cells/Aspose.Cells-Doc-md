@@ -23,9 +23,13 @@ Aspose.Cells for Python via .NET provides the [**OdsPageBackground**](https://r
 
 ### **Console Output**
 
+{{< highlight java >}}
+
 Background Type: Graphic
 
 Backgorund Position: CenterCenter
+
+{{< /highlight >}}
 
 ## **Add Colored Background to ODS file**
 

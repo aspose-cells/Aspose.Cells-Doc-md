@@ -16,4 +16,8 @@ The following code snippet shows how to check for a dialog sheet. The console ou
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Worksheets-FindIfWorksheetIsDialogSheet.py" >}}
 ## **Console Output**
+{{< highlight java >}}
+
 Worksheet is a Dialog Sheet.
+
+{{< /highlight >}}

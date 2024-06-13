@@ -70,9 +70,13 @@ The following example demonstrates reading comments from column A1 by loading th
 
 #### **Console Output**
 
+{{< highlight csharp >}}
+
 Comment: Test Threaded Comment
 
 Author: Aspose Test
+
+{{< /highlight >}}
 
 ### **Read Created Time of threaded comments**
 
@@ -86,11 +90,15 @@ The following example demonstrates reading the created time of threaded comments
 
 #### **Console Output**
 
+{{< highlight csharp >}}
+
 Comment: Test Threaded Comment
 
 Author: Aspose Test
 
 Created Time: 5/15/2019 12:46:23 PM
+
+{{< /highlight >}}
 
 ## **Edit Threaded Comments**
 

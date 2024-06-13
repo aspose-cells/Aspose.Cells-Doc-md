@@ -21,9 +21,13 @@ Aspose.Cells provides the [**OdsPageBackground**](https://reference.aspose.com/
 
 ### **Console Output**
 
+{{< highlight java >}}
+
 Background Type: Graphic
 
 Backgorund Position: CenterCenter
+
+{{< /highlight >}}
 
 ## **Add Colored Background to ODS file**
 

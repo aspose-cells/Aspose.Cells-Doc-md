@@ -57,9 +57,15 @@ The following example demonstrates reading comments from column A1 by loading th
 #### **Sample Code**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ReadThreadedComments-1.java" >}}
 #### **Console Output**
+
+{{< highlight java >}}
+
 Comment: Test Threaded Comment
 
 Author: Aspose Test
+
+{{< /highlight >}}
+
 ### **Read Created Time of threaded comments**
 Aspose.Cells provides [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) method to retrieve threaded comments for the specified column. [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) method accepts the column name as a parameter and returns the [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). You can iterate over the [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection) and use the [ThreadedComment.CreatedTime](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcomment#CreatedTime) property.
 
@@ -67,11 +73,17 @@ The following example demonstrates reading the created time of threaded comments
 #### **Sample Code**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ReadThreadedCommentCreatedTime-1.java" >}}
 #### **Console Output**
+
+{{< highlight java >}}
+
 Comment: Test Threaded Comment
 
 Author: Aspose Test
 
 Created Time: 2019-05-15T12:46:23
+
+{{< /highlight >}}
+
 ## **Edit Threaded Comments**
 ### **Edit Threaded comment with Excel**
 To edit a threaded comment in Excel, click the **Edit** link on the comment as shown in the following image.

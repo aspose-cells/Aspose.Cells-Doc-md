@@ -23,6 +23,8 @@ The following code sample demonstrates the use of [**ExportRangeToJsonOptions**
 
 ### **Console Output**
 
+{{< highlight java >}}
+
 [
 {
 "id": 1,
@@ -55,3 +57,5 @@ The following code sample demonstrates the use of [**ExportRangeToJsonOptions**
 "postalCode": 394221
 }
 ]
+
+{{< /highlight >}}

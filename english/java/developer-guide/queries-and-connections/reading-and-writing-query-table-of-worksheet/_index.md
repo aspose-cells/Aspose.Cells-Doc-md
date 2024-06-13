@@ -37,6 +37,7 @@ Here is the console output of the above sample code
 Preserve Formatting: false
 
 {{< /highlight >}}
+
 ## **Retrieve query table result range**
 Aspose.Cells provides the option to read the address i.e. result range of cells for a query table. Following code demonstrates this feature by reading the address of result range for a query table. The sample file can be downloaded [here](QueryTXT.xlsx).
 

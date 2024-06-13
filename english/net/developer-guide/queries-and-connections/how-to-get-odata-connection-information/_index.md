@@ -21,6 +21,8 @@ The Source file used in the following code snippet is attached for your referenc
 
 ### **Console Output**
 
+{{< highlight java >}}
+
 Connection Name: Orders
 
 Name: Source
@@ -30,3 +32,5 @@ Value: OData.Feed("https://services.odata.org/V3/Northwind/Northwind.svc/", null
 Name: Orders_table
 
 Value: Source{[Name="Orders",Signature="table"]}[Data]
+
+{{< /highlight >}}

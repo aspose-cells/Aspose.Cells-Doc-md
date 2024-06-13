@@ -23,6 +23,8 @@ The following is the code for the *TestPageSavingCallback* custom class.
 
 ## **Console Output**
 
+{{< highlight java >}}
+
 Start saving page index 0 of pages 11</br>
 End saving page index 0 of pages 11</br>
 Start saving page index 1 of pages 11</br>
@@ -41,3 +43,5 @@ Start saving page index 7 of pages 11</br>
 End saving page index 7 of pages 11</br>
 Start saving page index 8 of pages 11</br>
 End saving page index 8 of pages 11
+
+{{< /highlight >}}

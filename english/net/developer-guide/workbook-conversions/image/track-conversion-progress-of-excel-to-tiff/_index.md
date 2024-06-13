@@ -25,6 +25,8 @@ The following is the code for the *TestTiffPageSavingCallback* custom class.
 
 ## **Console Output**
 
+{{< highlight java >}}
+
 Start saving page index 0 of pages 10</br>
 End saving page index 0 of pages 10</br>
 Start saving page index 1 of pages 10</br>
@@ -44,3 +46,4 @@ End saving page index 7 of pages 10</br>
 Start saving page index 8 of pages 10</br>
 End saving page index 8 of pages 10</br>
 
+{{< /highlight >}}
