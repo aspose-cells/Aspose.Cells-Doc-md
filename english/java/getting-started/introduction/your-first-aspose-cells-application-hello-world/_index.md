@@ -15,7 +15,7 @@ This beginner's topic shows how developers can create a simple first application
 
 To create the Hello World application using Aspose.Cells API:
 
-1. Create an instance of the **[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)** class.
+1. Create an instance of the [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class.
 1. Apply the license:
    1. If you have purchased a license, then use the license in your application to get access to Aspose.Cells' full functionality
    1. If you are using the evaluation version of the component (if you're using Aspose.Cells without a license), skip this step.

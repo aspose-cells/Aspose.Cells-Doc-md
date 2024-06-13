@@ -11,7 +11,7 @@ keywords: GridWeb,settings
 There are some settings we can specified by set GridWorkbookSettings :
 
  
-- **[GridWorkbookSettings](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/GridWorkbookSettings)**
+- [**GridWorkbookSettings**](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/GridWorkbookSettings)
 
 |**Name** |**Description** |
 | :- | :- |

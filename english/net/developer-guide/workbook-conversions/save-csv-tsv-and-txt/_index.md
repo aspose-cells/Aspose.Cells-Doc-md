@@ -20,7 +20,7 @@ The following code example explains how to save an entire workbook into text for
 
 When the code is executed, it converts the data of all sheets in the workbook to the TXT format.
 
-You can modify the same example to save your file to CSV. By default, **[TxtSaveOptions.Separator](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator)** is comma, so do not specify a separator if saving to CSV format.
+You can modify the same example to save your file to CSV. By default, [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) is comma, so do not specify a separator if saving to CSV format.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveWorkbookToTextCSVFormat-1.cs" >}}
 

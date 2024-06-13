@@ -73,7 +73,7 @@ Note: Aspose.Cells For .NetStandard can support your requirement on MAC OS.
 
 Applies to: NetStandard2.0, NetCore2.1, NetCore3.1, Net5.0, Net6.0 and advanced version.
 
-### **[Run Aspose Cells in Docker](/cells/net/how-to-run-aspose-cells-in-docker/)**
+### [**Run Aspose Cells in Docker**](/cells/net/how-to-run-aspose-cells-in-docker/)
 
 ### **How to use graphics library on non-windows platforms with Net6**
 

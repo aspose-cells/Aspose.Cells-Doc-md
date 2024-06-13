@@ -22,7 +22,7 @@ The following code example explains how to save an entire workbook into text for
 
 When the code is executed, it converts the data of all sheets in the workbook to the TXT format.
 
-You can modify the same example to save your file to CSV. By default, **[TxtSaveOptions.separator](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/separator/)** is comma, so do not specify a separator if saving to CSV format.
+You can modify the same example to save your file to CSV. By default, [**TxtSaveOptions.separator**](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/separator/) is comma, so do not specify a separator if saving to CSV format.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "CSV-TSV-TXT-SaveWorkbookToTextCSVFormat-1.py" >}}
 

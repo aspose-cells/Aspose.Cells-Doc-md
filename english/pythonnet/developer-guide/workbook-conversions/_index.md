@@ -62,7 +62,7 @@ The code example below shows how to save a workbook as an MHTML file.
 
 ## **Converting Excel Workbook to HTML**
 
-The Aspose.Cells for Python via .NET API provides support for exporting spreadsheets to HTML format. For this purpose, Aspose.Cells for Python via .NET uses the **[HtmlSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/)** class to provide the flexibility to control several aspects of the output HTML.
+The Aspose.Cells for Python via .NET API provides support for exporting spreadsheets to HTML format. For this purpose, Aspose.Cells for Python via .NET uses the [**HtmlSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/) class to provide the flexibility to control several aspects of the output HTML.
 
 The code example below shows how to save a workbook as an HTML file.
 
@@ -70,28 +70,28 @@ The code example below shows how to save a workbook as an HTML file.
 
 ## **Setting the Image Preferences for HTML**
 
-Aspose.Cells for Python via .NET has exposed **[image_options](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/image_options/)** for the **[HtmlSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions)** class, allowing developers to specify image preferences when saving spreadsheets to HTML format.
+Aspose.Cells for Python via .NET has exposed [**image_options**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/image_options/) for the [**HtmlSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions) class, allowing developers to specify image preferences when saving spreadsheets to HTML format.
 
 Below are details of some of the image settings that can be applied,
 
-- **[ImageType](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/imagetype/)**: Specifies the image type. Please note, all shapes, including charts, render as images in the output HTML.
-- **[smoothing_mode](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/smoothing_mode/)**: Specifies the anti-aliasing for lines, curves & edges of filled areas.
-- **[text_rendering_hint](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/text_rendering_hint/)**: Specifies the quality of text rendering.
-- **[quality](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/quality/)**: Specifies the quality of the image between 0 to 100, when **[ImageType](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/imagetype/)** is specified as Jpeg.
-- **[vertical_resolution](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/vertical_resolution/)**: Gets or sets the vertical resolution of the image in dots per inch.
-- **[horizontal_resolution](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/horizontal_resolution/)**: Gets or sets the horizontal resolution of the image in dots per inch.
-- **[tiff_compression](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/tiff_compression/)**: Gets or sets the compression type for the images when **[ImageType](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/imagetype/)** is specified as Tiff.
-- **[transparent](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/transparent/)**: Indicates if the background of an image should be transparent when ImageFormat is specified as Png.
+- [**ImageType**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/imagetype/): Specifies the image type. Please note, all shapes, including charts, render as images in the output HTML.
+- [**smoothing_mode**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/smoothing_mode/): Specifies the anti-aliasing for lines, curves & edges of filled areas.
+- [**text_rendering_hint**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/text_rendering_hint/): Specifies the quality of text rendering.
+- [**quality**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/quality/): Specifies the quality of the image between 0 to 100, when [**ImageType**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/imagetype/) is specified as Jpeg.
+- [**vertical_resolution**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/vertical_resolution/): Gets or sets the vertical resolution of the image in dots per inch.
+- [**horizontal_resolution**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/horizontal_resolution/): Gets or sets the horizontal resolution of the image in dots per inch.
+- [**tiff_compression**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/tiff_compression/): Gets or sets the compression type for the images when [**ImageType**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/imagetype/) is specified as Tiff.
+- [**transparent**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/transparent/): Indicates if the background of an image should be transparent when ImageFormat is specified as Png.
 
-The code below demonstrates how to use **[HtmlSaveOptions.image_options](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/image_options/)** to specify different preferences.
+The code below demonstrates how to use [**HtmlSaveOptions.image_options**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/image_options/) to specify different preferences.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-HTML-SettingImagePrefrencesforHTML-1.py" >}}
 
 ## **Convert Excel Workbook to Markdown**
 
-The Aspose.Cells for Python via .NET API provides support for exporting spreadsheets to Markdown format. To export the active worksheet to Markdown, pass **[SaveFormat.Markdown](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** as the second parameter of **[Workbook.Save](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3)** method. You may also use **[MarkdownSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/markdownsaveoptions)** class to specify additional settings for exporting worksheet to Markdown.
+The Aspose.Cells for Python via .NET API provides support for exporting spreadsheets to Markdown format. To export the active worksheet to Markdown, pass [**SaveFormat.Markdown**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) as the second parameter of [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) method. You may also use [**MarkdownSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/markdownsaveoptions) class to specify additional settings for exporting worksheet to Markdown.
 
-The following code example demonstrates exporting active worksheet to Markdown by using **[SaveFormat.MARKDOWN](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)** enumeration member. Please see the [output Markdown file](md_sample.txt) generated by the code for reference.
+The following code example demonstrates exporting active worksheet to Markdown by using [**SaveFormat.MARKDOWN**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/) enumeration member. Please see the [output Markdown file](md_sample.txt) generated by the code for reference.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-Markdown-1.py" >}}
 

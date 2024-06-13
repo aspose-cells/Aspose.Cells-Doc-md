@@ -12,7 +12,7 @@ Numbers is a spreadsheet application developed by Apple Inc. Aspose.Cells can re
 
 ## **Read Numbers Spreadsheet Developed by Apple Inc. using Aspose.Cells**
 
-The following sample code loads the [Sample Numbers Spreadsheet](sampleNumbersByAppleInc.numbers) and converts it to [Output PDF Format](outputNumbersByAppleInc.pdf). You will have to use **[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** class and specify **[LoadFormat.NUMBERS](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#NUMBERS)** as a parameter in its constructor to load it successfully. Please download both of them from the given links. You can try the code with any Numbers spreadsheet. Please also read the comments of the code for more help.
+The following sample code loads the [Sample Numbers Spreadsheet](sampleNumbersByAppleInc.numbers) and converts it to [Output PDF Format](outputNumbersByAppleInc.pdf). You will have to use [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) class and specify [**LoadFormat.NUMBERS*](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#NUMBERS) as a parameter in its constructor to load it successfully. Please download both of them from the given links. You can try the code with any Numbers spreadsheet. Please also read the comments of the code for more help.
 
 ## **Sample Code**
 

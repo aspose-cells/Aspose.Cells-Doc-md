@@ -19,7 +19,7 @@ If you need to know all supported file formats, please refer to the following pa
 
 ### **Opening through Path**
 
-To open a Microsoft Excel file using the file path, pass the path of the file as a parameter while creating the instance of the **[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)** class. The following sample code demonstrates opening an Excel file using the file path.
+To open a Microsoft Excel file using the file path, pass the path of the file as a parameter while creating the instance of the [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) class. The following sample code demonstrates opening an Excel file using the file path.
 
 #### **Example**
 
@@ -27,7 +27,7 @@ To open a Microsoft Excel file using the file path, pass the path of the file as
 
 ### **Opening through Stream**
 
-Sometimes, the Excel file that you want to open is stored as a stream. In that case, similar to opening a file using the file path, pass the stream as a parameter while instantiating the **[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)** class. The following sample code demonstrates opening an Excel file using stream.
+Sometimes, the Excel file that you want to open is stored as a stream. In that case, similar to opening a file using the file path, pass the stream as a parameter while instantiating the [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) class. The following sample code demonstrates opening an Excel file using stream.
 
 #### **Example**
 
@@ -35,9 +35,9 @@ Sometimes, the Excel file that you want to open is stored as a stream. In that c
 
 ### **Opening Files of Different Microsoft Excel Versions**
 
-User may use the **[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** class to specify the format of the Excel file using the **[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)** enumeration.
+User may use the [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) class to specify the format of the Excel file using the [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat) enumeration.
 
-The **[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)** enumeration contains many pre-defined file formats some of which are given below.
+The [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat) enumeration contains many pre-defined file formats some of which are given below.
 
 |**Format Types**|**Description**|
 | :- | :- |
@@ -57,7 +57,7 @@ The **[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/Load
 
 ### **Opening Microsoft Excel 95/5.0 Files**
 
-To open Microsoft Excel 95 files, instantiate the **[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)** instance with the path or stream of the template file. Sample file to test the code can be downloaded from the following link:
+To open Microsoft Excel 95 files, instantiate the [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) instance with the path or stream of the template file. Sample file to test the code can be downloaded from the following link:
 
 [Excel95_5.0.xls](Excel95_5.0.xls)
 
@@ -67,7 +67,7 @@ To open Microsoft Excel 95 files, instantiate the **[Workbook](https://reference
 
 ### **Opening Microsoft Excel 97 or later versions XLS Files**
 
-To open XLS files of Microsoft Excel XLS 97 or later versions, instantiate the **[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)** instance with the path or stream of the template file. Or use the **[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** method and select the **[EXCEL_97_TO_2003](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL_97_TO_2003)** value in the **[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)** enumeration.
+To open XLS files of Microsoft Excel XLS 97 or later versions, instantiate the [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) instance with the path or stream of the template file. Or use the [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) method and select the [**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL_97_TO_2003) value in the [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat) enumeration.
 
 #### **Example**
 
@@ -75,7 +75,7 @@ To open XLS files of Microsoft Excel XLS 97 or later versions, instantiate the *
 
 ### **Opening Microsoft Excel 2007 or later versions XLSX Files**
 
-To open XLSX files of Microsoft Excel 2007 or later versions, instantiate the **[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)** instance with the path or stream of the template file. Or use the **[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** class and select the **[XLSX](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#XLSX)** value in the **[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)** enumeration.
+To open XLSX files of Microsoft Excel 2007 or later versions, instantiate the [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) instance with the path or stream of the template file. Or use the [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) class and select the [**XLSX**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#XLSX) value in the [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat) enumeration.
 
 #### **Example**
 
@@ -89,7 +89,7 @@ Aspose.Cells allows developers to open spreadsheet files with different formats 
 
 SpreadsheetML files are the XML representations of your spreadsheets including all information about the spreadsheet such as formatting, formulae, etc. Since Microsoft Excel XP, an XML export option is added to Microsoft Excel that exports your spreadsheets to SpreadsheetML files.
 
-To open SpreadsheetML files, use the **[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** class and select the **[SPREADSHEET_ML](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#SPREADSHEET_ML)** value in the **[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)** enumeration.
+To open SpreadsheetML files, use the [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) class and select the [**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#SPREADSHEET_ML) value in the [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat) enumeration.
 
 #### **Example**
 
@@ -99,7 +99,7 @@ To open SpreadsheetML files, use the **[LoadOptions](https://reference.aspose.c
 
 Comma Separated Values (CSV) files contain records whose values are delimited or separated by commas. In CSV files, data is stored in a tabular format that has fields separated by the comma character and quoted by the double-quote character. If a field's value contains a double quote character it is escaped with a pair of double-quote characters. You can also use Microsoft Excel to export your spreadsheet data to a CSV file.
 
-To open CSV files, use the **[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** class and select the **[CSV](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#CSV)** value, predefined in the **[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)** enumeration.
+To open CSV files, use the [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) class and select the [**CSV**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#CSV) value, predefined in the [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat) enumeration.
 
 #### **Example**
 
@@ -115,7 +115,7 @@ In Excel, when CSV file with special characters is opened, the characters are au
 
 ### **Opening CSV files using preferred parser**
 
-This is not always necessary to use default parser settings for opening the CSV files. Sometimes importing CSV file does not create expected output like date format is not as expected or empty fields are handled differently. For this purpose **[TxtLoadOptions.PreferredParsers](https://reference.aspose.com/cells/java/com.aspose.cells/txtloadoptions#PreferredParsers)** is available to provide own preferred parser to parse different data types as per the requirement. Following sample code demonstrates the usage of the preferred parser.  
+This is not always necessary to use default parser settings for opening the CSV files. Sometimes importing CSV file does not create expected output like date format is not as expected or empty fields are handled differently. For this purpose [**TxtLoadOptions.PreferredParsers**](https://reference.aspose.com/cells/java/com.aspose.cells/txtloadoptions#PreferredParsers) is available to provide own preferred parser to parse different data types as per the requirement. Following sample code demonstrates the usage of the preferred parser.  
 
 Sample source file and output files can be downloaded from the following links for testing this feature.
 
@@ -131,7 +131,7 @@ Sample source file and output files can be downloaded from the following links f
 
 Tab-delimited files contain spreadsheet data but without any formatting. Data is arranged in rows and columns such as tables and spreadsheets. Shortly, a tab-delimited file is a special kind of plain text file with a tab between each column in the text.
 
-To open tab-delimited files, developers should use the **[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** class and select the **[TSV](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#TSV)** value, predefined in the **[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)** enumeration.
+To open tab-delimited files, developers should use the [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) class and select the [**TSV**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#TSV) value, predefined in the [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat) enumeration.
 
 #### **Example**
 

@@ -13,7 +13,7 @@ Aspose.Cells for Python via .NET supports converting XLS files (that contain ima
 
 {{% /alert %}} 
 ## **Save Each Worksheet to a Different PDF File**
-If you need to save each worksheet in your template Excel file to generate different PDF files, you can achieve this easily. You may try to  set one sheet index to **[`PdfSaveOptions.sheet_set`](https://reference.aspose.com/cells/python-net/aspose.cells/paginatedsaveoptions/sheet_set/)** option at a time to render to PDF.
+If you need to save each worksheet in your template Excel file to generate different PDF files, you can achieve this easily. You may try to  set one sheet index to [**PdfSaveOptions.sheet_set**](https://reference.aspose.com/cells/python-net/aspose.cells/paginatedsaveoptions/sheet_set/) option at a time to render to PDF.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-SaveEachWorksheetToDifferentPDF-1.py" >}}
 

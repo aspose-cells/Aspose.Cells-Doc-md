@@ -16,9 +16,9 @@ Aspose.Cells makes it possible to create and save files. This article explains t
 
 ## **Different Ways to Save Files**
 
-Aspose.Cells provides the **[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)** which represents a Microsoft Excel file and provides the properties and methods necessary to work with Excel files. The **[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)** class provides the **[Save](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** method used to save Excel files. The **[Save](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** method has many overloads that are used to save files in different ways.
+Aspose.Cells provides the [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) which represents a Microsoft Excel file and provides the properties and methods necessary to work with Excel files. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class provides the [**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index) method used to save Excel files. The [**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index) method has many overloads that are used to save files in different ways.
 
-The file format that the file is saved to is decided by the **[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** enumeration
+The file format that the file is saved to is decided by the [**SaveFormat**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) enumeration
 
 |**File Format Types**|**Description**|
 | :- | :- |
@@ -41,7 +41,7 @@ The file format that the file is saved to is decided by the **[SaveFormat](https
 
 ## **How to Save File to Different Formats**
 
-To save files to a storage location, specify the file name (complete with storage path) and the desired file format (from the **[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** enumeration) when calling the **[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)** object's **[Save](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** method.
+To save files to a storage location, specify the file name (complete with storage path) and the desired file format (from the [**SaveFormat**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) enumeration) when calling the [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) object's [**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index) method.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoSomeLocation-1.cs" >}}
 
@@ -59,7 +59,7 @@ The following code example explains how to save an entire workbook into text for
 
 When the code is executed, it converts the data of all sheets in the workbook to the TXT format.
 
-You can modify the same example to save your file to CSV. By default, **[TxtSaveOptions.Separator](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator)** is comma, so do not specify a separator if saving to CSV format.
+You can modify the same example to save your file to CSV. By default, [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) is comma, so do not specify a separator if saving to CSV format.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveWorkbookToTextCSVFormat-1.cs" >}}
 
@@ -71,7 +71,7 @@ Text files contain spreadsheet data without formatting. The file is a kind of pl
 
 ## **How to Save File to a Stream**
 
-To save files to a stream, create a *MemoryStream* or *FileStream* object and save the file to that stream object by calling the **[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)** object's **[Save](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** method. Specify the desired file format using the **[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** enumeration when calling the **[Save](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** method.
+To save files to a stream, create a *MemoryStream* or *FileStream* object and save the file to that stream object by calling the [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) object's [**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index) method. Specify the desired file format using the [**SaveFormat**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) enumeration when calling the [**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index) method.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoStream-1.cs" >}}
 

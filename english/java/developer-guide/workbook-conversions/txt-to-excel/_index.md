@@ -9,7 +9,7 @@ url: /java/convert-csv-tsv-and-txt-to-excel/
 
 Comma Separated Values (CSV) files contain records whose values are delimited or separated by commas. In CSV files, data is stored in a tabular format that has fields separated by the comma character and quoted by the double-quote character. If a field's value contains a double quote character it is escaped with a pair of double-quote characters. You can also use Microsoft Excel to export your spreadsheet data to a CSV file.
 
-To open CSV files, use the **[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** class and select the **[CSV](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#CSV)** value, predefined in the **[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)** enumeration.
+To open CSV files, use the [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) class and select the [**CSV**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#CSV) value, predefined in the [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat) enumeration.
 
 ## **Example**
 
@@ -25,7 +25,7 @@ In Excel, when CSV file with special characters is opened, the characters are au
 
 ## **Opening CSV files using preferred parser**
 
-This is not always necessary to use default parser settings for opening the CSV files. Sometimes importing CSV file does not create expected output like date format is not as expected or empty fields are handled differently. For this purpose **[TxtLoadOptions.PreferredParsers](https://reference.aspose.com/cells/java/com.aspose.cells/txtloadoptions#PreferredParsers)** is available to provide own preferred parser to parse different data types as per the requirement. Following sample code demonstrates the usage of the preferred parser.  
+This is not always necessary to use default parser settings for opening the CSV files. Sometimes importing CSV file does not create expected output like date format is not as expected or empty fields are handled differently. For this purpose [**TxtLoadOptions.PreferredParsers**](https://reference.aspose.com/cells/java/com.aspose.cells/txtloadoptions#PreferredParsers) is available to provide own preferred parser to parse different data types as per the requirement. Following sample code demonstrates the usage of the preferred parser.  
 
 Sample source file and output files can be downloaded from the following links for testing this feature.
 
@@ -41,7 +41,7 @@ Sample source file and output files can be downloaded from the following links f
 
 Tab-delimited files contain spreadsheet data but without any formatting. Data is arranged in rows and columns such as tables and spreadsheets. Shortly, a tab-delimited file is a special kind of plain text file with a tab between each column in the text.
 
-To open tab-delimited files, developers should use the **[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** class and select the **[TSV](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#TSV)** value, predefined in the **[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)** enumeration.
+To open tab-delimited files, developers should use the [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) class and select the [**TSV**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#TSV) value, predefined in the [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat) enumeration.
 
 ## **Example**
 

@@ -63,7 +63,7 @@ The code example below shows how to save a workbook as an MHTML file.
 
 ## **Converting Excel Workbook to HTML**
 
-The Aspose.Cells API provides support for exporting spreadsheets to HTML format. For this purpose, Aspose.Cells uses the **[HtmlSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions)** class to provide the flexibility to control several aspects of the output HTML.
+The Aspose.Cells API provides support for exporting spreadsheets to HTML format. For this purpose, Aspose.Cells uses the [**HtmlSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions) class to provide the flexibility to control several aspects of the output HTML.
 
 The code example below shows how to save a workbook as an HTML file.
 
@@ -71,28 +71,28 @@ The code example below shows how to save a workbook as an HTML file.
 
 ## **Setting the Image Preferences for HTML**
 
-Starting from 8.0.2, Aspose.Cells has exposed **[ImageOptions](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/imageoptions)** for the **[HtmlSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions)** class, allowing developers to specify image preferences when saving spreadsheets to HTML format.
+Starting from 8.0.2, Aspose.Cells has exposed [**ImageOptions**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/imageoptions) for the [**HtmlSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions) class, allowing developers to specify image preferences when saving spreadsheets to HTML format.
 
 Below are details of some of the image settings that can be applied,
 
-- **[ImageType](https://reference.aspose.com/cells/net/aspose.cells.drawing/imagetype)**: Specifies the image type. Please note, all shapes, including charts, render as images in the output HTML.
-- **[SmoothingMode](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/smoothingmode)**: Specifies the anti-aliasing for lines, curves & edges of filled areas.
-- **[TextRenderingHint](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/textrenderinghint)**: Specifies the quality of text rendering.
-- **[Quality](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/quality)**: Specifies the quality of the image between 0 to 100, when **[ImageType](https://reference.aspose.com/cells/net/aspose.cells.drawing/imagetype)** is specified as Jpeg.
-- **[VerticalResolution](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/verticalresolution)**: Gets or sets the vertical resolution of the image in dots per inch.
-- **[HorizontalResolution](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/horizontalresolution)**: Gets or sets the horizontal resolution of the image in dots per inch.
-- **[TiffCompression](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/tiffcompression)**: Gets or sets the compression type for the images when **[ImageType](https://reference.aspose.com/cells/net/aspose.cells.drawing/imagetype)** is specified as Tiff.
-- **[Transparent](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/transparent)**: Indicates if the background of an image should be transparent when ImageFormat is specified as Png.
+- [**ImageType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/imagetype): Specifies the image type. Please note, all shapes, including charts, render as images in the output HTML.
+- [**SmoothingMode**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/smoothingmode): Specifies the anti-aliasing for lines, curves & edges of filled areas.
+- [**TextRenderingHint**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/textrenderinghint): Specifies the quality of text rendering.
+- [**Quality**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/quality): Specifies the quality of the image between 0 to 100, when [**ImageType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/imagetype) is specified as Jpeg.
+- [**VerticalResolution**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/verticalresolution): Gets or sets the vertical resolution of the image in dots per inch.
+- [**HorizontalResolution**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/horizontalresolution): Gets or sets the horizontal resolution of the image in dots per inch.
+- [**TiffCompression**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/tiffcompression): Gets or sets the compression type for the images when [**ImageType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/imagetype) is specified as Tiff.
+- [**Transparent**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/transparent): Indicates if the background of an image should be transparent when ImageFormat is specified as Png.
 
-The code below demonstrates how to use **[HtmlSaveOptions.ImageOptions](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/imageoptions)** to specify different preferences.
+The code below demonstrates how to use [**HtmlSaveOptions.ImageOptions**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/imageoptions) to specify different preferences.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-SettingImagePrefrencesforHTML-1.cs" >}}
 
 ## **Convert Excel Workbook to Markdown**
 
-The Aspose.Cells API provides support for exporting spreadsheets to Markdown format. To export the active worksheet to Markdown, pass **[SaveFormat.Markdown](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** as the second parameter of **[Workbook.Save](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3)** method. You may also use **[MarkdownSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/markdownsaveoptions)** class to specify additional settings for exporting worksheet to Markdown.
+The Aspose.Cells API provides support for exporting spreadsheets to Markdown format. To export the active worksheet to Markdown, pass [**SaveFormat.Markdown**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) as the second parameter of [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) method. You may also use [**MarkdownSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/markdownsaveoptions) class to specify additional settings for exporting worksheet to Markdown.
 
-The following code example demonstrates exporting active worksheet to Markdown by using **[SaveFormat.Markdown](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** enumeration member. Please see the [output Markdown file](md_sample.txt) generated by the code for reference.
+The following code example demonstrates exporting active worksheet to Markdown by using [**SaveFormat.Markdown**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) enumeration member. Please see the [output Markdown file](md_sample.txt) generated by the code for reference.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToMarkdown-1.cs" >}}
 

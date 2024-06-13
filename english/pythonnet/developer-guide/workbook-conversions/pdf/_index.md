@@ -23,56 +23,56 @@ Aspose.Cells for Python via .NET supports converting Excel files to PDF and main
 
 Aspose.Cells for Python via .NET directly writes the information about API and Version Number in output documents. For example, upon rendering Document to PDF, Aspose.Cells for Python via .NET populates **PDF Producer** field with value, e.g 'Aspose.Cells for Python via .NET v23.2'.
 
-Please note that you can change this information in output Documents by **[PdfSaveOptions.producer](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/producer/)** property.
+Please note that you can change this information in output Documents by [**PdfSaveOptions.producer**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/producer/) property.
 
 {{% /alert %}}
 
 ### **Direct Conversion**
 
-Aspose.Cells for Python via .NET supports conversion from spreadsheets to PDF independently of other software. Simply save an Excel file to PDF using the **[Workbook](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)** class' **[save](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.SaveFormat)** method. The **[save](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.SaveFormat)** method provides the **[SaveFormat.PDF](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)** enumeration member that converts the native Excel files to PDF format.
+Aspose.Cells for Python via .NET supports conversion from spreadsheets to PDF independently of other software. Simply save an Excel file to PDF using the [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) class' [**save**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.SaveFormat) method. The [**save**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.SaveFormat) method provides the [**SaveFormat.PDF**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/) enumeration member that converts the native Excel files to PDF format.
 
 Follow the below steps to directly convert the Excel spreadsheets to PDF format:
 
-1. Instantiate an object of the **[Workbook](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)** class by calling its empty constructor.
+1. Instantiate an object of the [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) class by calling its empty constructor.
 1. You may open/load an existing template file or skip this step if you are creating the workbook from scratch.
 1. Do any work (input data, apply formatting, set formulas, insert pictures or other drawing objects, and so on) on the spreadsheet using Aspose.Cells for Python via .NET' APIs.
-1. When the spreadsheet code is complete, call the **[Workbook](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)** class' **[save](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.SaveFormat)** method to save the spreadsheet.
+1. When the spreadsheet code is complete, call the [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) class' [**save**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.SaveFormat) method to save the spreadsheet.
 
-The file format should be PDF so select *PDF* (a pre-defined value) from the **[SaveFormat](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)** enumeration to generate the final PDF document.
+The file format should be PDF so select *PDF* (a pre-defined value) from the [**SaveFormat**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/) enumeration to generate the final PDF document.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-XlstoPDFDirectConversation-1.py" >}}
 
 ### **Advanced Conversion**
 
-You may also opt to use the **[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)** class to set different attributes for the conversion. Setting different properties of the **[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)** class gives you control over the print, font, security and compression settings for the output PDF. The most important property is **[PdfSaveOptions.compliance](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/compliance/)** which enables you to save the Excel files to PDF/A compliant PDF files.
+You may also opt to use the [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions) class to set different attributes for the conversion. Setting different properties of the [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions) class gives you control over the print, font, security and compression settings for the output PDF. The most important property is [**PdfSaveOptions.compliance**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/compliance/) which enables you to save the Excel files to PDF/A compliant PDF files.
 
 #### **Saving Workbook to PDF/A Complied Files**
 
-The below-provided code snippet demonstrates how to use the **[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)** class to save Excel files to PDF/A compliant PDF format.
+The below-provided code snippet demonstrates how to use the [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions) class to save Excel files to PDF/A compliant PDF format.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-AdvancedConversiontoPdf-1.py" >}}
 
 {{% alert color="primary" %}}
 
-Please note, the **[PdfSaveOptions.compliance](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/compliance/)** property was added with the release of Aspose.Cells for Python via .NET for .NET 5.3.0.
+Please note, the [**PdfSaveOptions.compliance**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/compliance/) property was added with the release of Aspose.Cells for Python via .NET for .NET 5.3.0.
 
 {{% /alert %}}
 
 #### **Set the PDF Creation Time**
 
-With the **[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)** class, you can get or set the PDF creation time. The following code demonstrates the use of **[PdfSaveOptions.created_time](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/created_time/)** property to set the creation time of the PDF file.
+With the [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions) class, you can get or set the PDF creation time. The following code demonstrates the use of [**PdfSaveOptions.created_time**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/created_time/) property to set the creation time of the PDF file.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-SetPDFCreationTime-1.py" >}}
 
 #### **Set ContentCopyForAccessibility option**
 
-With the **[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)** class, you can get or set the PDF **[PdfSecurityOptions.accessibility_extract_content](https://reference.aspose.com/cells/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/accessibility_extract_content/)** option to control the content access in the converted PDF.
+With the [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions) class, you can get or set the PDF [**PdfSecurityOptions.accessibility_extract_content**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/accessibility_extract_content/) option to control the content access in the converted PDF.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-SetContentCopyForAccessibility-1.py" >}}
 
 #### **Export Custom properties to PDF**
 
-With the **[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)** class, you can export the custom properties in the source workbook to the PDF. **[PdfCustomPropertiesExport](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfcustompropertiesexport/)** enumerator is provided for specifying the way by which properties are exported. These properties can be observed in Adobe Acrobat Reader by clicking on File and then properties option as shown in the following image. Template file "sourceWithCustProps.xlsx"  can be downloaded [here](sourceWithCustProps.xlsx) for testing and output PDF file "outSourceWithCustProps" is available [here](outSourceWithCustProps.pdf) for analysis.
+With the [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions) class, you can export the custom properties in the source workbook to the PDF. [**PdfCustomPropertiesExport**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfcustompropertiesexport/) enumerator is provided for specifying the way by which properties are exported. These properties can be observed in Adobe Acrobat Reader by clicking on File and then properties option as shown in the following image. Template file "sourceWithCustProps.xlsx"  can be downloaded [here](sourceWithCustProps.xlsx) for testing and output PDF file "outSourceWithCustProps" is available [here](outSourceWithCustProps.pdf) for analysis.
 
 ![todo:image_alt_text](convert-excel-workbook-to-pdf_1.png)
 

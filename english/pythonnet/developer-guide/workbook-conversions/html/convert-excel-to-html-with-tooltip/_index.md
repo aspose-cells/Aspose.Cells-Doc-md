@@ -9,7 +9,7 @@ keywords: Python Convert Excel to HTML with tooltip, Convert Excel to HTML with 
 
 ## **Convert Excel to HTML with tooltip**
 
-There might be cases where the text is cut off in the generated HTML and you want to display the complete text as a tooltip on the hover event. Aspose.Cells supports this by providing **[HtmlSaveOptions.add_tooltip_text](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/)** property. Setting the **[HtmlSaveOptions.add_tooltip_text](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/)** property to **true** will add the complete text as a tooltip in the generated HTML.
+There might be cases where the text is cut off in the generated HTML and you want to display the complete text as a tooltip on the hover event. Aspose.Cells supports this by providing [**HtmlSaveOptions.add_tooltip_text**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/) property. Setting the [**HtmlSaveOptions.add_tooltip_text**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/) property to **true** will add the complete text as a tooltip in the generated HTML.
 
 The following image shows the tooltip in the generated HTML file.
 
