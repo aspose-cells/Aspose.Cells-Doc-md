@@ -6,7 +6,7 @@ url: /zh/reportingservices/getting-started/
 ---
 
 
-Aspose.Cells for Reporting Services由以下**两部分**组成：
+Aspose.Cells for Reporting Services 由以下**两部分**组成：
 
 - ***Aspose.Cells.Report.Designer***
 
@@ -17,11 +17,11 @@ Aspose.Cells for Reporting Services由以下**两部分**组成：
 &nbsp;&nbsp;&nbsp;&nbsp;Aspose.Cells.Renderer for Reporting Services实际上是Microsoft Reporting Services Rendering Extension的实现。它可以呈现Visual Studio和Aspose.Cells.Report.Designer设计的RDL报告。
 
 
-**如何获取Aspose.Cells for Reporting Services。** 
+**如何获取 Aspose.Cells for Reporting Services。** 
 
 - [下载]( https://downloads.aspose.com/cells/reportingservices/ )
 
-**如何安装Aspose.Cells for Reporting Services。**
+**如何安装 Aspose.Cells for Reporting Services。**
 
 - [MSI安装](/cells/zh/reportingservices/using-msi-installer/)
 - [手动安装](/cells/zh/reportingservices/using-dll-only/)

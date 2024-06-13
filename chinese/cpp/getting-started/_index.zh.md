@@ -16,42 +16,42 @@ description: 如何安装Aspose Cells for C++并创建一个Hello World应用程
 
 ### **通过NuGet安装Aspose Cells**
 
-NuGet是最简单的下载和安装Aspose.Cells for C++ 的方法。 
+NuGet 是下载和安装 Aspose.Cells for C++ 的最简单方式。 
 1. 为C++创建一个Microsoft Visual Studio项目。
 2. 包含头文件 "Aspose.Cells.h"。
 3. 打开Microsoft Visual Studio和NuGet包管理器。
-4. 搜索 "aspose.cells.cpp" ，找到所需的Aspose.Cells for C++。 
-5. 点击 "安装"，Aspose.Cells for C++ 将被下载并引用到您的项目中。
+4. 搜索 "aspose.cells.cpp" 来找到所需的 Aspose.Cells for C++。 
+5. 单击 "安装"，将下载并引用 Aspose.Cells for C++ 到您的项目中。
 
 **![通过NuGet安装Aspose Cells](InstallThroughNuget.png)**
 
 您也可以从nuget网页上为aspose.cells下载它： 
-[Aspose.Cells for C++ NuGet包](https://www.nuget.org/packages/Aspose.Cells.Cpp/)
+[Aspose.Cells for C++ NuGet 软件包](https://www.nuget.org/packages/Aspose.Cells.Cpp/)
 
 [更多详细步骤](/cells/zh/cpp/installation/)
 
-### **在Windows上使用Aspose.Cells for C++的演示**
+### **在 Windows 上使用 Aspose.Cells for C++ 的演示**
 
-1. 从以下页面下载Aspose.Cells for C++。
-[下载Aspose.Cells for C++(Windows)](https://downloads.aspose.com/cells/cpp/)
-2. 解压包，找到一个示例说明如何使用Aspose.Cells for C++。
+1. 从以下页面下载 Aspose.Cells for C++：
+[下载 Aspose.Cells for C++(Windows)](https://downloads.aspose.com/cells/cpp/)
+2. 解压文件包，您会找到一个关于如何使用 Aspose.Cells for C++ 的示例。
 3. 使用Visual Studio 2017或更高版本打开example.sln文件。
-4. main.cpp文件展示如何编写代码来测试Aspose.Cells for C++。
+4. main.cpp：该文件展示了如何编写代码来测试 Aspose.Cells for C++。
 
-### **在Linux上使用Aspose.Cells for C++的演示**
+### **在Linux上使用 Aspose.Cells for C++ 的演示**
 
-1. 从以下页面下载Aspose.Cells for C++。
-[下载Aspose.Cells for C++(Linux)](https://downloads.aspose.com/cells/cpp/)
-2. 解压包，找到一个示例说明如何在Linux下使用Aspose.Cells for C++。
+1. 从以下页面下载 Aspose.Cells for C++：
+[下载 Aspose.Cells for C++(Linux)](https://downloads.aspose.com/cells/cpp/)
+2. 解压文件包，您会找到一个关于如何在Linux上使用 Aspose.Cells for C++ 的示例。
 3. 确保你位于example所在的路径。
 4. 运行"cmake -S example -B example/build -DCMAKE_BUILD_TYPE=Release"
 5. 运行"cmake --build example/build"
 
-### **在Mac OS上使用Aspose.Cells for C++的演示**
+### **在Mac OS上使用 Aspose.Cells for C++ 的演示**
 
-1. 从以下页面下载Aspose.Cells for C++。
-[下载Aspose.Cells for C++(MacOS)](https://downloads.aspose.com/cells/cpp/)
-2. 解压包，找到一个示例说明如何在MacOS下使用Aspose.Cells for C++。
+1. 从以下页面下载 Aspose.Cells for C++：
+[下载 Aspose.Cells for C++(MacOS)](https://downloads.aspose.com/cells/cpp/)
+2. 解压文件包，您会找到一个关于如何在MacOS上使用 Aspose.Cells for C++ 的示例。
 3. 确保你位于example所在的路径。
 4. 运行"cmake -S example -B example/build -DCMAKE_BUILD_TYPE=Release"
 5. 运行"cmake --build example/build"

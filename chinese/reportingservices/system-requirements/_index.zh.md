@@ -7,7 +7,7 @@ url: /zh/reportingservices/system-requirements/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Reporting Services（包括Aspose.Cells.ReportingServices客户端、Microsoft Excel的增值组件和Aspose.Cells.ReportingServices服务器）需要正确安装。此外，安装Aspose.Cells for Reporting Services之前，应先安装Microsoft SQL Server。
+需要正确安装Aspose.Cells for Reporting Services（包括Aspose.Cells.ReportingServices客户端、Microsoft Excel的插件和Aspose.Cells.ReportingServices服务器）。此外，安装Aspose.Cells for Reporting Services之前应先安装Microsoft SQL Server。
 
 {{% /alert %}} 
 ### **Office系统**

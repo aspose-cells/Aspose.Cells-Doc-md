@@ -7,7 +7,7 @@ url: /zh/java/add-digital-signature-to-an-already-signed-excel-file/
 
 ## **可能的使用场景**
 
-Aspose.Cells 提供了 [**Workbook.addDigitalSignature(DigitalSignatureCollection digitalSignatureCollection)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#addDigitalSignature(com.aspose.cells.DigitalSignatureCollection) 方法，您可以使用它来在已签名的 Excel 文件上添加数字签名。
+Aspose.Cells提供 [**Workbook.addDigitalSignature(DigitalSignatureCollection digitalSignatureCollection)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#addDigitalSignature(com.aspose.cells.DigitalSignatureCollection)) 方法，您可以利用它向已经签名的Excel文件添加数字签名。
 
 {{% alert color="primary" %}}
 
@@ -17,7 +17,7 @@ Aspose.Cells 提供了 [**Workbook.addDigitalSignature(DigitalSignatureCollectio
 
 ## **对已签名的 Excel 文件添加数字签名**
 
-以下示例代码说明了如何使用 [**Workbook.addDigitalSignature(DigitalSignatureCollection digitalSignatureCollection)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#addDigitalSignature(com.aspose.cells.DigitalSignatureCollection) 方法在已签名的 Excel 文件中添加数字签名。请检查此代码中使用的[sample Excel file](50528287.xlsx)。该文件已经数字签名。请检查代码生成的 [output Excel file](50528288.xlsx)。我们在此代码中使用了名为 [AsposeTest.pfx](50528289.pfx) 的演示证书，其密码为 *aspose*。屏幕截图显示了执行后代码对样本 Excel 文件的影响。
+以下示例代码解释了如何使用 [**Workbook.addDigitalSignature(DigitalSignatureCollection digitalSignatureCollection)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#addDigitalSignature(com.aspose.cells.DigitalSignatureCollection)) 方法向已经签名的Excel文件添加数字签名。请检查本代码中使用的 [示例Excel文件](50528287.xlsx)。此文件已经进行了数字签名。请检查代码生成的 [输出Excel文件](50528288.xlsx)。我们在此代码中使用了名为 [AsposeTest.pfx](50528289.pfx) 的演示证书，密码为 *aspose*。屏幕截图显示了执行后代码对示例Excel文件的影响。
 
 ![todo:image_alt_text](add-digital-signature-to-an-already-signed-excel-file_1.png)
 

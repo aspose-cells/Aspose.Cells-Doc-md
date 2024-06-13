@@ -37,6 +37,7 @@ Aspose.Cells提供[Worksheet.getQueryTables()](https://reference.aspose.com/cell
 Preserve Formatting: false
 
 {{< /highlight >}}
+
 ## **检索查询表结果范围**
 Aspose.Cells提供了读取查询表的地址，即单元格的结果范围的选项。下面的代码演示了通过读取查询表的结果范围地址来实现此功能。示例文件可以[在这里](QueryTXT.xlsx)下载。
 

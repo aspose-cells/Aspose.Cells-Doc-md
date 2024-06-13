@@ -11,7 +11,7 @@ keywords: GridJs, 设置, GridWorkbookSettings
 我们可以通过设置GridWorkbookSettings来指定一些设置：
 
 
-- **[GridWorkbookSettings](https://reference.aspose.com/cells/net/aspose.cells.gridjs/GridWorkbookSettings)**
+- [**GridWorkbookSettings**](https://reference.aspose.com/cells/net/aspose.cells.gridjs/GridWorkbookSettings)
 
 
 例如，以下代码将ReCalculateOnOpen设置为false，在打开文件时停止计算：

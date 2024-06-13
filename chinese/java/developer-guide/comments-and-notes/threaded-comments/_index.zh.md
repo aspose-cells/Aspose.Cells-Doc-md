@@ -57,9 +57,15 @@ Aspose.Cells提供[Comments.GetThreadedComments](https://reference.aspose.com/ce
 #### **示例代码**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ReadThreadedComments-1.java" >}}
 #### **控制台输出**
-评论: 测试线程评论
 
-作者: Aspose 测试
+{{< highlight java >}}
+
+Comment: Test Threaded Comment
+
+Author: Aspose Test
+
+{{< /highlight >}}
+
 ### **读取线程评论的创建时间**
 Aspose.Cells 提供 [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) 方法来检索指定列的线程化评论。 [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) 方法接受列名作为参数，并返回 [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)。 您可以遍历 [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)，并使用 [ThreadedComment.CreatedTime](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcomment#CreatedTime) 属性。
 
@@ -67,11 +73,17 @@ Aspose.Cells 提供 [Comments.GetThreadedComments](https://reference.aspose.com/
 #### **示例代码**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ReadThreadedCommentCreatedTime-1.java" >}}
 #### **控制台输出**
-评论: 测试线程评论
 
-作者: Aspose 测试
+{{< highlight java >}}
 
-创建时间：2019-05-15T12:46:23
+Comment: Test Threaded Comment
+
+Author: Aspose Test
+
+Created Time: 2019-05-15T12:46:23
+
+{{< /highlight >}}
+
 ## **编辑线程评论**
 ### **使用Excel编辑线程评论**
 要在 Excel 中编辑线程化评论，单击评论上显示的 **编辑** 链接，如下图所示。

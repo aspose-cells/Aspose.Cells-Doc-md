@@ -63,7 +63,7 @@ Aspose.Cells支持读取和写入MHTML文件。
 
 ## **将Excel工作簿转换为HTML**
 
-Aspose.Cells API提供对导出电子表格到HTML格式的支持。为此，Aspose.Cells使用**[HtmlSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions)**类来提供灵活性以控制输出HTML的几个方面。
+Aspose.Cells API提供了将电子表格导出为HTML格式的支持。为此，Aspose.Cells使用[**HtmlSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions)类来提供控制输出HTML的灵活性。
 
 下面的代码示例显示了如何将工作簿保存为HTML文件。
 
@@ -71,28 +71,28 @@ Aspose.Cells API提供对导出电子表格到HTML格式的支持。为此，Asp
 
 ## **为HTML设置图像首选项**
 
-从8.0.2开始，Aspose.Cells公开了**[ImageOptions](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/imageoptions)**，用于**[HtmlSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions)**类，允许开发人员在将电子表格保存为HTML格式时指定图像首选项。
+从8.0.2开始，Aspose.Cells已公开[**ImageOptions**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/imageoptions) 用于[**HtmlSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions) 类，允许开发人员在将电子表格保存为HTML格式时指定图像首选项。
 
 以下是可以应用的一些图像设置的详细信息。
 
-- **[ImageType](https://reference.aspose.com/cells/net/aspose.cells.drawing/imagetype)**: 指定图像类型。请注意，所有形状，包括图表，在输出的HTML中都被渲染为图像。
-- **[SmoothingMode](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/smoothingmode)**: 指定线条，曲线和填充区域边缘的抗锯齿。
-- **[TextRenderingHint](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/textrenderinghint)**: 指定文本渲染的质量。
-- **[Quality](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/quality)**: 指定图像质量在0到100之间，当**[ImageType](https://reference.aspose.com/cells/net/aspose.cells.drawing/imagetype)**指定为Jpeg时。
-- **[VerticalResolution](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/verticalresolution) **: 获取或设置图像的垂直分辨率，单位为每英寸点数。
-- **[HorizontalResolution](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/horizontalresolution) **: 获取或设置图像的水平分辨率，单位为每英寸点数。
-- **[TiffCompression](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/tiffcompression) **: 在指定**[ImageType](https://reference.aspose.com/cells/net/aspose.cells.drawing/imagetype)** 为 Tiff 时，获取或设置图像的压缩类型。
-- **[Transparent](https://reference.aspose.com/cells/net/aspose.cells/rendering/imageorprintoptions/properties/transparent) **: 当 ImageFormat 指定为 Png 时，指示图像的背景是否应为透明。
+- [**ImageType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/imagetype)：指定图像类型。请注意，所有形状，包括图表，在输出HTML中呈现为图像。
+- [**SmoothingMode**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/smoothingmode)：指定线条，曲线和填充区域边缘的抗锯齿。
+- [**TextRenderingHint**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/textrenderinghint)：指定文本呈现的质量。
+- [**Quality**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/quality)：在指定Jpeg时，指定图像质量为0到100之间的值。
+- [**VerticalResolution**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/verticalresolution)：获取或设置图像的垂直分辨率（每英寸点数）。
+- [**HorizontalResolution**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/horizontalresolution)：获取或设置图像的水平分辨率（每英寸点数）。
+- [**TiffCompression**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/tiffcompression)：在指定Tiff时，获取或设置图像的压缩类型。
+- [**Transparent**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/transparent)：指示当ImageFormat指定为Png时，图像的背景是否应该是透明的。
 
-下面的代码示例演示了如何使用 **[HtmlSaveOptions.ImageOptions](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/imageoptions)** 来指定不同的偏好设置。
+下面的代码示例演示了如何使用[**HtmlSaveOptions.ImageOptions**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/imageoptions) 指定不同的首选项。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-SettingImagePrefrencesforHTML-1.cs" >}}
 
 ## **将Excel工作簿转换为Markdown**
 
-Aspose.Cells API 支持将电子表格导出为 Markdown 格式。要将活动工作表导出为 Markdown，请在 **[Workbook.Save](https://reference.aspose.com/cells/net/aspose.cells/workbook/save/methods/3)** 的第二个参数中传递 **[SaveFormat.Markdown](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** 。您还可以使用 **[MarkdownSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/markdownsaveoptions)** 类来指定导出工作表到 Markdown 的附加设置。
+Aspose.Cells API支持将电子表格导出为Markdown格式。要将活动工作表导出为Markdown，请将[**SaveFormat.Markdown**](https://reference.aspose.com/cells/net/aspose.cells/saveformat)作为[**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3)方法的第二个参数传递。您还可以使用[**MarkdownSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/markdownsaveoptions)类来指定导出工作表到Markdown的其他设置。
 
-下面的代码示例演示了如何使用 **[SaveFormat.Markdown](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** 枚举成员将活动工作表导出为 Markdown。请参见代码生成的[Markdown 文件](md_sample.txt)以供参考。
+以下代码示例演示了如何通过使用[**SaveFormat.Markdown**](https://reference.aspose.com/cells/net/aspose.cells/saveformat)枚举成员将活动工作表导出为Markdown。请参考由该代码生成的[输出Markdown文件](md_sample.txt)。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToMarkdown-1.cs" >}}
 

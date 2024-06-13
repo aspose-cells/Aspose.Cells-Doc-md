@@ -17,17 +17,17 @@ url: /zh/net/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to
 
 这里的前三个单元格或列是空白的。当您在Microsoft Excel中打开这样的CSV文件时，Microsoft Excel会丢弃这些前导空白行和列。
 
-默认情况下，Aspose.Cells在保存时不会丢弃前导的空白列和行，但如果您想要像Microsoft Excel一样删除它们，则Aspose.Cells提供了**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn)**属性。请将其设置为**true**，然后所有前导的空白行和列都将在保存时被丢弃。
+默认情况下，Aspose.Cells 在保存时不会丢弃前导空白列和行，但如果您希望像 Microsoft Excel 一样移除它们，Aspose.Cells 提供了 [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn) 属性。请将其设置为 **true**，然后在保存时所有前导空白行和列将被丢弃。
 
 {{% alert color="primary" %}}
 
-在Aspose.Cells for .NET 20.4版本发布之前，默认值的**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn)**为**false**。自20.4版本发布以来，**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn)**的默认值为**true**。
+在 Aspose.Cells for .NET 20.4 版本发布之前，默认值为 [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn) 的是 **false**。自 20.4 版本发布以来，[**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn) 的默认值为 **true**。
 
 {{% /alert %}}
 
 ## **导出电子表格到CSV格式时修剪前导空白行和列**
 
-以下示例代码加载了包含两个前导空白列的**[源excel文件](sampleTrimBlankColumns.xlsx)**。它首先以不做任何更改的方式将Excel文件保存为CSV格式，然后将**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn)**属性设置为**true**，并再次保存。屏幕截图显示了**[源excel文件](sampleTrimBlankColumns.xlsx)**，未修剪空白列的输出CSV文件以及修剪后的输出CSV文件。
+以下示例代码加载了具有两个前导空白列的 [源 Excel 文件](sampleTrimBlankColumns.xlsx)。首先保存 Excel 文件为 CSV 格式而不进行任何更改，然后将 [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn) 属性设置为 **true** 并再次保存。截图显示了 [源 Excel 文件](sampleTrimBlankColumns.xlsx)，[未修剪的输出 CSV 文件](outputWithoutTrimBlankColumns.csv) 和 [修剪后的输出 CSV 文件](outputTrimBlankColumns.csv)。
 
 ![todo:image_alt_text](trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format_1.png)
 

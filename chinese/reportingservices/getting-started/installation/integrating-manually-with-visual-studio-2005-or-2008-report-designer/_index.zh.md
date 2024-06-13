@@ -7,15 +7,15 @@ url: /zh/reportingservices/integrating-manually-with-visual-studio-2005-or-2008-
 
 {{% alert color="primary" %}} 
 
-如果要在Microsoft Visual Studio Report Designer中手动安装Aspose.Cells for Reporting Services，而不使用MSI安装程序，请按照以下步骤进行。我们建议您使用MSI安装程序，因为它会自动执行所有必要的安装和配置。但是，如果无法使用MSI安装程序安装，请遵循以下准则。 
-本节介绍如何在安装有业务智能开发工具的计算机上安装Aspose.Cells for Reporting Services。这将使您能够在Microsoft Visual Studio 2005或2008 Report Designer中将报表导出为Microsoft Excel格式。 
+如果您希望为 Microsoft Visual Studio Report Designer 手动安装 Aspose.Cells for Reporting Services，而不使用 MSI 安装程序，请按照以下步骤进行。 我们建议您使用 MSI 安装程序，因为它会自动执行所有必要的安装和配置。但是，如果您无法使用 MSI 安装程序安装，则请遵循以下准则。 
+本节介绍如何在具有商业智能开发工具的计算机上安装 Aspose.Cells for Reporting Services。这将使您能够从 Microsoft Visual Studio 2005 或 2008 报表设计器在设计时将报表导出到 Microsoft Excel 格式。 
 
 {{% /alert %}} 
 - **集成过程**
 1. 将 **Aspose.Cells.ReportingServices.dll** 复制到Visual Studio目录。 
    1. 要与Visual Studio 2005 Report Designer集成：将 **Aspose.Cells.ReportingServices.dll** 复制到 C:\Program Files\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies 目录。
    1. 要与Visual Studio 2008 Report Designer集成：将 **Aspose.Cells.ReportingServices.dll** 复制到 C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies 目录。
-1. 将Aspose.Cells for Reporting Services注册为渲染扩展： 
+1. 将 Aspose.Cells for Reporting Services 注册为呈现扩展程序： 
    1. Open **C:\Program Files\Microsoft Visual Studio <Version>\Common7\IDE\PrivateAssemblies\ RSReportDesigner.config** 
       (where <Version> is “8” for Visual Studio 2005 or “9.0” for Visual Studio 2008) and add the following lines into the <Render> element: 
 
@@ -45,7 +45,7 @@ XML
 
 {{< /highlight >}}
 
-1. 授予Aspose.Cells for Reporting Services执行权限： 
+1. 授予 Aspose.Cells for Reporting Services 执行权限： 
    1. Open C:\Program Files\Microsoft Visual Studio <Version>\Common7\IDE\PrivateAssemblies\RSPreviewPolicy.config
       (where <Version> is “8” for Visual Studio 2005 or “9.0” for Visual Studio 2008) and add the following as the last item in the second to outer <CodeGroup> element (which should be <CodeGroup class="FirstMatchCodeGroup" version="1" PermissionSetName="Execution" Description="This code group grants MyComputer code Execution permission. ">): 
 
@@ -79,7 +79,7 @@ XML
 
 {{< /highlight >}}
 
-1. 验证Aspose.Cells for Reporting Services是否成功安装： 
+1. 验证 Aspose.Cells for Reporting Services 是否成功安装： 
    1. 运行或重新启动Microsoft Visual Studio 2005或2008 Report Designer。
       您应该注意到导出格式列表中出现了新的格式。 
 

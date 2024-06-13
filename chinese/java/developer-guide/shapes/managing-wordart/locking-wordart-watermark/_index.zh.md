@@ -7,7 +7,7 @@ url: /zh/java/locking-wordart-watermark/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells API允许在电子表格上添加WordArt水印，使WordArt成为可以在电子表格上移动和定位的对象。还可以锁定WordArt对象以限制任何交互，如编辑、移动和选择。本文介绍了使用[**Shape.setLockedProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#setLockedProperty(int,%20boolean))方法锁定水印的几个方面。
+Aspose.Cells API允许在工作表上添加WordArt水印，使WordArt成为可以在工作表上移动和定位的对象。还可以锁定WordArt对象，以防止进行编辑、移动和选择等交互操作。本文介绍了使用[**Shape.setLockedProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#setLockedProperty(int,%20boolean))方法锁定水印的一些方面。
 
 {{% /alert %}}
 

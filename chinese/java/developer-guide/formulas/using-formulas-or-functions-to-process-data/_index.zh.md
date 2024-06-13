@@ -46,7 +46,7 @@ Aspose.Cells也支持定义的函数。在将公式应用于单元格时，始�
 
 我们可以有一些自定义函数，希望将其包括为 Excel 加载项。当设置 [**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) 函数，内建函数正常工作，但有必要使用加载项函数设置自定义函数或公式。
 
-Aspose.Cells 提供了使用 [**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#registerAddInFunction(java.lang.String,%20java.lang.String,%20boolean) 注册加载项函数的功能。然后，当我们设置 [**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) = anyFunctionFromAddIn 时，输出的 Excel 文件包含来自加载项函数的计算值。
+Aspose.Cells提供了功能来使用[**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#registerAddInFunction(java.lang.String,%20java.lang.String,%20boolean))注册增强功能。然后，当我们设置[**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula)= anyFunctionFromAddIn时，输出Excel文件包含来自增强功能的计算值。
 
 可以下载以下 XLAM 文件以在下面的示例代码中注册加载项函数。类似地，可以下载输出文件"test_udf.xlsx"以检查输出。
 
@@ -66,7 +66,7 @@ Aspose.Cells 提供了使用 [**Worksheets.RegisterAddInFunction()**](https://re
 
 某些Microsoft Excel函数返回值数组。要使用数组公式计算多个结果，请将数组输入到与数组参数具有相同行数和列数的单元格范围中。
 
-可以通过调用 [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) 类的 [**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int)）方法向单元格应用数组公式。[**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int)) 方法需要以下参数：
+可以通过调用 [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) 类的 [**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int)) 方法向单元格应用数组公式。 [**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int)) 方法接受以下参数：
 
 - **数组公式**，数组公式。
 - **行数**，要填充数组公式结果的行数。

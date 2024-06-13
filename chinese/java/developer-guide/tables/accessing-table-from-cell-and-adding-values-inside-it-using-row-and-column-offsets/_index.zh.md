@@ -7,9 +7,9 @@ url: /zh/java/accessing-table-from-cell-and-adding-values-inside-it-using-row-an
 
 {{% alert color="primary" %}}
 
-通常，您可以使用[**Cell.putValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#putValue(boolean))方法在表格或列表对象中添加值。但有时，您可能需要使用行和列偏移值在表格或列表对象中添加值。
+通常，您可以使用 [**Cell.putValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#putValue(boolean)) 方法向表格或列表对象中添加值。但有时，您可能需要使用行和列偏移向表格或列表对象中添加值。
 
-要从单元格中访问表格或列表对象，使用[**Cell.getTable()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getTable())方法。要使用行和列偏移值在其中添加值，请使用[**ListObject.putCellValue(rowOffset,columnOffset,value)**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#putCellValue(int,%20int,%20java.lang.Object))方法。
+要从单元格中访问表格或列表对象，请使用[**Cell.getTable()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getTable--)方法。然后使用行和列的偏移量使用[**ListObject.putCellValue(rowOffset,columnOffset,value)**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#putCellValue(int,%20int,%20java.lang.Object))方法在其中添加值。
 
 {{% /alert %}}
 
@@ -17,7 +17,7 @@ url: /zh/java/accessing-table-from-cell-and-adding-values-inside-it-using-row-an
 
 ### 比较源文件和输出文件的截图
 
-以下屏幕截图显示了在代码中使用的源Excel文件。它包含一个空表，并突出显示了位于表内的单元格D5。我们将使用[**Cell.getTable()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getTable())方法从单元格D5中访问此表，然后使用[**Cell.putValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#putValue(boolean))和[**ListObject.putCellValue(rowOffset,columnOffset,value)**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#putCellValue(int,%20int,%20java.lang.Object))方法在其中添加值。
+以下截图显示了代码中使用的源Excel文件。它包含了空表格并突出显示了位于表格内的单元格D5。我们将使用[**Cell.getTable()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getTable--) 方法从单元格D5访问这个表格，然后使用[**Cell.putValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#putValue(boolean)) 和[**ListObject.putCellValue(rowOffset,columnOffset,value)**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#putCellValue(int,%20int,%20java.lang.Object)) 方法向其中添加值。
 
 ![todo:image_alt_text](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_1.png)
 

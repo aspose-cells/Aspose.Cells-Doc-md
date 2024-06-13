@@ -7,7 +7,7 @@ url: /zh/jasperreports/feature-overview/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells for JasperReports 是用于将 JasperReports 和 JasperServer 报表导出为 Microsoft Excel 格式的产品。Aspose.Cells for JasperReports 继承了内置导出器的所有功能，并弥补了 JasperReports 原始 XLS 渲染器的一些不足之处。本节详细描述了 Aspose.Cells for JasperReports 的功能。单击表中的链接，了解更多功能。
+Aspose.Cells for JasperReports 是用于将 JasperReports 和 JasperServer 的报表导出为 Microsoft Excel 格式的产品。Aspose.Cells for JasperReports 继承了内置导出程序的所有功能，并弥补了 JasperReports 的原始 XLS 渲染器的一些弱点。 本节提供了 Aspose.Cells for JasperReports 功能的详细说明。单击表中的相应链接以了解有关这些功能的更多信息。
 
 {{% /alert %}}
 

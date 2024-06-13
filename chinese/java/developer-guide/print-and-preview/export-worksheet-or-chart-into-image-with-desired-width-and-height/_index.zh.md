@@ -7,7 +7,7 @@ url: /zh/java/export-worksheet-or-chart-into-image-with-desired-width-and-height
 
 {{% alert color="primary" %}}
 
-您可以使用Aspose.Cells将工作表或图表导出为具有所需宽度和高度的图像。它提供了[**ImageOrPrintOptions.setDesiredSize()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#setDesiredSize(int,%20int)）方法来设置导出图像的所需宽度和高度。宽度和高度以像素为单位。
+您可以使用 Aspose.Cells 将工作表或图表导出为具有指定宽度和高度的图像。它提供了 [**ImageOrPrintOptions.setDesiredSize()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#setDesiredSize(int,%20int)) 方法，用于设置导出图像的期望宽度和高度。宽度和高度以像素为单位指定。
 
 {{% /alert %}}
 

@@ -10,7 +10,7 @@ url: /zh/cpp/how-to-run-the-examples/
 
 - Visual Studio 2015 或更高版本
 ## **从 GitHub 下载**
-所有 Aspose.Cells for C++ 的示例都托管在 [GitHub 上](https://github.com/aspose-cells/Aspose.Cells-for-C/)。
+所有 Aspose.Cells for C++ 的示例都托管在[GitHub](https://github.com/aspose-cells/Aspose.Cells-for-C/)上。
 
 - 您可以使用您喜欢的 GitHub 客户端克隆存储库，或者从 [此处](https://github.com/aspose-cells/Aspose.Cells-for-C/archive/master.zip) 下载 ZIP 文件。
 - 将 ZIP 文件的内容提取到计算机上的任意文件夹中。所有示例都位于 **Examples** 文件夹中。

@@ -13,7 +13,7 @@ Microsoft Excel允许您使用*数据透视表工具 > 设计 > 报表*布局菜
 - 以大纲形式显示
 - 以表格形式显示
 
-Aspose.Cells还提供了[**PivotTable.showInCompactForm()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#showInCompactForm()）, [**PivotTable.showInOutlineForm()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#showInOutlineForm())和[**PivotTable.showInTabularForm()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#showInTabularForm())方法来改变数据透视表的布局
+Aspose.Cells还提供了[**PivotTable.showInCompactForm()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#showInCompactForm--)，[**PivotTable.showInOutlineForm()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#showInOutlineForm--)和[**PivotTable.showInTabularForm()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#showInTabularForm--)方法，以这三种形式更改数据透视表的布局。
 
 {{% /alert %}}
 

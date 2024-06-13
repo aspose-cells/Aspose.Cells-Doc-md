@@ -6,17 +6,17 @@
 
 [产品页面](https://products.aspose.com/cells/cpp/) | [文档](https://docs.aspose.com/cells/cpp/) | [演示](https://products.aspose.app/cells/family) | [API 参考](https://reference.aspose.com/cells/cpp) | [示例](https://github.com/aspose-cells/Aspose.Cells-for-C) | [博客](https://blog.aspose.com/category/cells/) | [发布](https://releases.aspose.com/cells/cpp/) | [免费支持](https://forum.aspose.com/c/cells) | [临时许可证](https://purchase.aspose.com/temporary-license/)
 
-[Aspose.Cells for C++](https://products.aspose.com/cells/cpp/)是一个本机C++库，可在不需要Microsoft Office或Automation的情况下创建、操纵、处理和转换Microsoft Excel?文件。Excel C++ API支持Excel 97-2003（XLS）、Excel 2007-2013/2016（XLSX、XLSM、XLSB）、OpenOffice XML和其他格式，如CSV、TSV等。
+[Aspose.Cells for C++](https://products.aspose.com/cells/cpp/) 是一个原生的C++库，可以在不需要使用Microsoft Office或自动化的情况下创建，操作，处理和转换Microsoft Excel?文件。Excel C++ API支持Excel 97-2003（XLS），Excel 2007-2013/2016（XLSX，XLSM，XLSB），OpenOffice XML和其他格式，如CSV，TSV等。
 
 它允许开发人员从他们自己的C++应用程序中处理电子表格行、列、数据、公式、数据透视表、工作表、表格、图表和绘图对象。
 
 ## Aspose.Cells for C++ 是什么？
 
-Aspose.Cells for C++ 是一个本机C++ on premise API，可以将电子表格创建、操纵和转换功能集成到您的C++应用程序中。它支持使用许多流行的来自Microsoft Excel（XLS、XLSX、XLSB、CSV等）和OpenOffice/LibreOffice（ODS）的电子表格文件格式。
+Aspose.Cells for C++ 是一个原生的C++本地API，用于将电子表格创建，操作和转换功能集成到您的C++应用中。它支持与来自Microsoft Excel（XLS，XLSX，XLSB，CSV等）和OpenOffice/LibreOffice（ODS）的许多流行电子表格文件格式一起工作。
 
-您可以使用Aspose.Cells for C++在支持C++的任何开发环境中（如Microsoft Visual Studio）开发64位应用程序。Aspose.Cells for C++是一个本机程序集，只需简单地复制即可部署。您不必担心其他服务或模块。
+您可以在支持C++的任何开发环境（如Microsoft Visual Studio）中使用 Aspose.Cells for C++ 开发64位应用程序。 Aspose.Cells for C++ 是本地组件，可以通过简单地复制部署。 您不必担心其他服务或模块。
 
-Aspose.Cells for C++允许您处理Microsoft Excel中的内置和自定义文档属性。支持将Excel工作簿高质量地转换为PDF/A兼容文件。处理公式、数据透视表、工作表、表格、范围、图表、OLE对象等等。
+Aspose.Cells for C++ 允许您处理Microsoft Excel中的内置和自定义文档属性。支持将Excel工作簿高质量地转换为符合PDF/A标准的文件。处理公式，数据透视表，工作表，表，范围，图表，OLE对象等。
 
 ## Excel文件处理功能
 
@@ -51,7 +51,7 @@ Aspose.Cells for C++允许您处理Microsoft Excel中的内置和自定义文档
 
 ## 入门指南
 
-是否准备好尝试 Aspose.Cells for C++？只需在 Visual Studio 的 Package Manager Console 中执行 `Install-Package Aspose.Cells.Cpp` 即可获取 NuGet 包。如果您已经安装了 Aspose.Cells for C++ 并希望升级版本，请执行 `Update-Package Aspose.Cells.Cpp` 获取最新版本。
+您准备好尝试 Aspose.Cells for C++ 了吗？只需在Visual Studio的包管理器控制台中执行 `Install-Package Aspose.Cells.Cpp` 来获取NuGet包。如果您已经安装了 Aspose.Cells for C++ 并想要升级版本，请执行 `Update-Package Aspose.Cells.Cpp` 来获取最新版本。
 
 ### 使用 C++ 将 XLS 转换为 XLSX、XLSB 和 CSV
 

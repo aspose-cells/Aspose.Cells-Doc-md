@@ -7,13 +7,13 @@ url: /zh/jasperreports/demos-setup/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells for JasperReports包括多个演示项目，帮助您开始从应用程序导出报表到Microsoft Excel文档格式。
+Aspose.Cells for JasperReports 包括许多演示项目，帮助您开始从应用程序导出报告为 Microsoft Excel 文档格式。
 
-提供的Aspose.Cells for JasperReports演示是标准的JasperReports演示，经过修改以演示新导出器的使用。
+Aspose.Cells for JasperReports 提供的演示是标准的 JasperReports 演示，修改后演示了新导出器的使用。
 
 {{% /alert %}}
 
-要运行Aspose.Cells for JasperReports演示，请执行以下步骤：
+运行 Aspose.Cells for JasperReports 演示，执行以下步骤：
 
 1. Download JasperReports (e.g <https://sourceforge.net/projects/jasperreports/files/archive/>). Make sure to download the entire archived project with the source code and demos, not just a single JAR.
 1. 将归档项目解压到硬盘上的某个位置，例如C:\。

@@ -7,7 +7,7 @@ url: /zh/java/convert-the-smart-art-to-group-shape/
 
 ## **可能的使用场景**
 
-您可以使用[**Shape.getResultOfSmartArt()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#getResultOfSmartArt()）方法将智能图形转换为组图形。它将使您能够处理智能图形形状，就像处理组图形一样。因此，您将能够访问组图形的各个部分或形状。
+您可以使用[**Shape.getResultOfSmartArt()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#getResultOfSmartArt--)方法将智能图形转为组合形状。这将使您能够像处理组合形状一样处理智能图形。因此，您将能够访问组合形状的各个部分或形状。
 
 ## **将智能图转换为组合形状**
 

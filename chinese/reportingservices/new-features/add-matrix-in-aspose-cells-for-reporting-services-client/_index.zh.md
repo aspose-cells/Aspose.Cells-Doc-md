@@ -1,5 +1,5 @@
 ---
-title: 在Aspose.Cells for Reporting Services客户端中添加矩阵
+title: Aspose.Cells for Reporting Services客户端中的添加矩阵
 type: docs
 weight: 80
 url: /zh/reportingservices/add-matrix-in-aspose-cells-for-reporting-services-client/

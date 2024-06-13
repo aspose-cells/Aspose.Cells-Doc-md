@@ -22,7 +22,7 @@ Aspose.Cells for Python via .NET 可以将Excel、ods、json等格式文件转�
 
 执行代码后，将会将工作簿中所有工作表的数据转换为TXT格式。
 
-您可以修改相同例子以将文件保存为CSV。默认情况下，**[TxtSaveOptions.separator](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/separator/)** 是逗号，因此如果要保存为CSV格式，无需指定分隔符。
+您可以修改相同的示例以将文件保存为CSV格式。默认情况下，[**TxtSaveOptions.separator**](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/separator/)为逗号，因此在保存为CSV格式时不需要指定分隔符。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "CSV-TSV-TXT-SaveWorkbookToTextCSVFormat-1.py" >}}
 

@@ -63,4 +63,8 @@ Aspose.Cells提供了[CellsHelper.cellNameToIndex](https://reference.aspose.com/
 
 这是第一个名字，它是特别私人的
 
- `< >+(adj.Private _ "私人"
+{{< highlight java >}}
+
+` `<> + (adj.Private _ " Private"
+
+{{< /highlight >}}

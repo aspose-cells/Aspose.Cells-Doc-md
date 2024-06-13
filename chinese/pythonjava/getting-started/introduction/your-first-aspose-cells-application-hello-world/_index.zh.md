@@ -15,7 +15,7 @@ url: /zh/python-java/your-first-aspose-cells-application-hello-world/
 
 使用 Aspose.Cells API 创建 Hello World 应用程序：
 
-1. 创建**[Workbook](https://reference.aspose.com/cells/python-java/asposecells.api/Workbook)**类的实例。
+1. 创建 [**Workbook**](https://reference.aspose.com/cells/python-java/asposecells.api/Workbook) 类的一个实例。
 1. 应用许可证：
    1. 如果您已购买许可证，请在应用程序中使用该许可证以获得对 Aspose.Cells 全部功能的访问。
    1. 如果您正在使用组件的评估版本 （如果您在没有许可证的情况下使用 Aspose.Cells），请跳过此步骤。

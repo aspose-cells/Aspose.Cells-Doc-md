@@ -16,4 +16,8 @@ Aspose.Cells for Python via Java提供了检查工作表是否为对话框工作
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Worksheets-FindIfWorksheetIsDialogSheet.py" >}}
 ## **控制台输出**
-工作表是一个对话框工作表。
+{{< highlight java >}}
+
+Worksheet is a Dialog Sheet.
+
+{{< /highlight >}}

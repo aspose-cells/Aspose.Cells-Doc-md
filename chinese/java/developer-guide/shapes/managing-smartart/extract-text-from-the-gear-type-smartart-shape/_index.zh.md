@@ -7,7 +7,7 @@ url: /zh/java/extract-text-from-the-gear-type-smartart-shape/
 
 ## **可能的使用场景**
 
-Aspose.Cells可以从齿轮类型的智能图形中提取文本。为此，您应该先使用 [**Shape.getResultOfSmartArt()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#getResultOfSmartArt() 方法将 智能图形 转换为 组合图形。然后，您可以使用 [**GroupShape.getGroupedShapes()**](https://reference.aspose.com/cells/java/com.aspose.cells/groupshape#getGroupedShapes() 方法获取形成组合图形的所有 单个图形 的数组。最后，您可以在循环中逐个迭代所有的单个图形，并使用 [**Shape.Text**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Text) 属性提取它们的文本。
+Aspose.Cells 能够从 Gear Type Smart Art Shape 中提取文本。为此，您应该首先使用 [**Shape.getResultOfSmartArt()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#getResultOfSmartArt--) 方法将 Smart Art Shape 转换为 Group Shape。然后使用 [**GroupShape.getGroupedShapes()**](https://reference.aspose.com/cells/java/com.aspose.cells/groupshape#getGroupedShapes--) 方法获取形成组合形状的所有 Individual Shapes 的数组。最后，您可以在循环中逐个迭代所有 Individual Shapes 并使用 [**Shape.Text**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Text) 属性提取它们的文本。
 
 ## **从齿轮型智能图形中提取文本**
 

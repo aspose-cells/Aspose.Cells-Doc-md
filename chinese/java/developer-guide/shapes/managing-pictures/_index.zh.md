@@ -5,21 +5,15 @@ weight: 10
 url: /zh/java/managing-pictures/
 ---
 
-{{% alert color="primary" %}}
-
 Aspose.Cells允许开发人员在运行时向电子表格添加图片。此外，可以在运行时控制这些图片的定位，更多细节将在接下来的章节中讨论。
 
-Aspose.Cells for Java 仅支持图像格式：BMP、JPEG、PNG、GIF。
-
-示例中使用的索引从0开始。
-
-{{% /alert %}}
+本文章介绍了如何添加图片，以及如何插入显示特定单元格内容的图片。
 
 ## **添加图片**
 
 向电子表格添加图片非常简单。只需几行代码即可。
 
-只需调用[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String)）方法的[**Pictures**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection)集合（封装在[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)对象中）。[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String)）方法接受以下参数：
+只需调用[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)对象中封装的[**Pictures**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection)集合的[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String))方法即可。[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String))方法接受以下参数：
 
 - **左上角行索引**，左上角行的索引。
 - **左上角列索引**，左上角列的索引。

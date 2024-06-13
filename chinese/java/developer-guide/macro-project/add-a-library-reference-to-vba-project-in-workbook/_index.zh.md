@@ -13,12 +13,12 @@ keywords: 在 Java 中向工作簿的 VBA 项目添加库引用，使用 Java �
 
 ![todo:image_alt_text](add-a-library-reference-to-vba-project-in-workbook_1.png)
 
-但有时，您需要通过代码添加或注册库引用到 VBA 项目。您可以使用 Aspose.Cells 中的 [**VbaProject.getReferences().addRegisteredReference()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaprojectreferencecollection#addRegisteredReference(java.lang.String,%20java.lang.String) 方法来实现。
+但有时，您需要通过代码添加或注册VBA项目的库引用。您可以使用 Aspose.Cells 的 [**VbaProject.getReferences().addRegisteredReference()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaprojectreferencecollection#addRegisteredReference(java.lang.String,%20java.lang.String)) 方法来实现。
 
 {{% /alert %}}
 
 ## **如何向工作簿的 VBA 项目添加库引用**
 
-以下示例代码使用 [**VbaProject.getReferences().addRegisteredReference()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaprojectreferencecollection#addRegisteredReference(java.lang.String,%20java.lang.String) 方法向工作簿的 VBA 项目添加或注册两个库引用。
+以下示例代码使用[**VbaProject.getReferences().addRegisteredReference()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaprojectreferencecollection#addRegisteredReference(java.lang.String,%20java.lang.String))方法向工作簿的VBA项目添加或注册了两个库引用。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddLibraryReference-AddLibraryReference.java" >}}

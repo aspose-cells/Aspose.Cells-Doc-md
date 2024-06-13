@@ -11,7 +11,7 @@ keywords: 设置，excel，工作簿，gridjs，编辑器
 我们可以通过设置GridWorkbookSettings来指定一些设置：
 
 
-- **[GridWorkbookSettings](https://reference.aspose.com/cells/python-net/aspose.cellsgridjs/GridWorkbookSettings)**
+- [**GridWorkbookSettings**](https://reference.aspose.com/cells/python-net/aspose.cellsgridjs/GridWorkbookSettings)
 
 
 例如，以下代码将ReCalculateOnOpen设置为false，在打开文件时停止计算：

@@ -1,5 +1,5 @@
 ---
-title: 安装 Aspose.Cells for SharePoint
+title: 安装Aspose.Cells for SharePoint
 type: docs
 weight: 10
 url: /zh/sharepoint/installing-aspose-cells-for-sharepoint/
@@ -7,16 +7,16 @@ url: /zh/sharepoint/installing-aspose-cells-for-sharepoint/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells for SharePoint 可以作为 Aspose.Cells.SharePoint.zip 压缩包下载。 
+Aspose.Cells for SharePoint可以作为Aspose.Cells.SharePoint.zip压缩包进行下载。 
 
 {{% /alert %}} 
 ### **压缩包内容**
 Aspose.Cells.SharePoint.zip 压缩包包括：
 
-- Aspose.Cells.SharePoint.wsp – SharePoint 解决方案文件。Aspose.Cells for SharePoint 打包为 SharePoint 解决方案，以便跨服务器农场进行部署/撤消以及功能激活/停用。
+- Aspose.Cells.SharePoint.wsp – SharePoint解决方案文件。Aspose.Cells for SharePoint打包为SharePoint解决方案，以便在服务器农场中方便地进行部署/撤回和特征激活/停用。
 - Aspose_LicenseAgreement.rtf – 最终用户许可协议
 - Aspose.Cells for SharePoint.pdf – 用户文档
-- Aspose.Cells for SharePoint Documentation.chm – 用户文档与公共 API 参考
+- Aspose.Cells for SharePoint Documentation.chm – 公共API参考的用户文档
 - setup.exe – 安装程序
 - setup.exe.config – 安装配置文件
 
@@ -29,7 +29,7 @@ Aspose.Cells.SharePoint.zip 压缩包包括：
 - WSS 定时器服务已启动。
 
 WSS 管理服务和定时器服务是必需的，因为一些设置操作依赖于定时作业传播到服务器群中的所有服务器。 
-#### **要安装 Aspose.Cells for SharePoint**
+#### **安装Aspose.Cells for SharePoint**
 1. 将 Aspose.Cells.SharePoint 压缩包解压到 MOSS 7.0 或 WSS 3.0 服务器的本地驱动器。
 1. 运行 setup.exe 并按照屏幕上的说明进行操作。
 

@@ -13,9 +13,9 @@ Aspose.Cells 可以打开一系列不同版本的 Microsoft Excel 文件，例�
 
 ## **打开不同版本的 Microsoft Excel 文件**
 
-应用程序通常必须能够打开用不同版本创建的Microsoft Excel文件，例如Microsoft Excel 95、97，或Microsoft Excel 2007/2010/2013/2016/2019和Office 365。您可能需要以多种格式之一加载文件，包括XLS、XLSX、XLSM、XLSB、SpreadsheetML、TabDelimited或TSV、CSV、ODS等。使用构造函数，或指定**[Workbook](https://reference.aspose.com/cells/python-java/asposecells.api/Workbook)**类的**[setFileFormat](https://reference.aspose.com/cells/python-java/asposecells.api/workbook#FileFormat)**方法来指定使用**[FileFormatType](https://reference.aspose.com/cells/python-java/asposecells.api/FileFormatType)**枚举来指定格式。
+应用程序经常需要能够打开在不同版本中创建的Microsoft Excel文件，例如Microsoft Excel 95、97或Microsoft Excel 2007/2010/2013/2016/2019和Office 365。您可能需要以任何一种格式之一加载文件，包括XLS、XLSX、XLSM、XLSB、SpreadsheetML、TabDelimited或TSV、CSV、ODS等。使用构造函数，或指定[**Workbook**](https://reference.aspose.com/cells/python-java/asposecells.api/Workbook)类的[**setFileFormat**](https://reference.aspose.com/cells/python-java/asposecells.api/workbook#FileFormat)方法使用[**FileFormatType**](https://reference.aspose.com/cells/python-java/asposecells.api/FileFormatType)枚举指定格式。
 
-**[FileFormatType](https://reference.aspose.com/cells/python-java/asposecells.api/FileFormatType)**枚举包含许多预定义文件格式，其中一些如下所示。
+[**FileFormatType**](https://reference.aspose.com/cells/python-java/asposecells.api/FileFormatType)枚举包含许多预定义的文件格式，其中一些如下所示。
 
 |**文件格式类型**|**描述**|
 | :- | :- |
@@ -35,7 +35,7 @@ Aspose.Cells 可以打开一系列不同版本的 Microsoft Excel 文件，例�
 
 ### **打开Microsoft Excel 95/5.0文件**
 
-要打开Microsoft Excel 95/5.0文件，请使用[LoadOptions](https://reference.aspose.com/cells/python-java/asposecells.api/LoadOptions)，并为要加载的模板文件设置**LoadOptions**类的相关属性。 可以从以下链接下载用于测试此功能的示例文件:
+要打开Microsoft Excel 95/5.0文件，请使用[**LoadOptions**](https://reference.aspose.com/cells/python-java/asposecells.api/LoadOptions)，并设置**LoadOptions**类的相关属性以加载模板文件。可从以下链接下载用于测试此功能的示例文件：
 
 [Excel95文件](Excel95.xls)
 
@@ -43,19 +43,19 @@ Aspose.Cells 可以打开一系列不同版本的 Microsoft Excel 文件，例�
 
 ### **打开Microsoft Excel 97-2003文件**
 
-要打开Microsoft Excel 97-2003文件，请使用**[LoadOptions](https://reference.aspose.com/cells/python-java/asposecells.api/LoadOptions)**，并为要加载的模板文件设置LoadOptions类的相关属性。
+要打开Microsoft Excel 97 - 2003文件，请使用[**LoadOptions**](https://reference.aspose.com/cells/python-java/asposecells.api/LoadOptions)并设置**LoadOptions**类的相关属性以加载模板文件。
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "OpenExcel97-2003Files.py" >}}
 
 ### **打开Microsoft Excel 2007/2010/2013/2016/2019和Office 365 XLSX文件**
 
-要打开Microsoft Excel 2007/2010/2013/2016/2019和Office 365格式，即XLSX或XLSB，请指定文件路径。 您还可以使用**[LoadOptions](https://reference.aspose.com/cells/python-java/asposecells.api/LoadOptions)**，并设置LoadOptions类的相关属性/选项，以加载要加载的模板文件。
+要打开Microsoft Excel 2007/2010/2013/2016/2019和Office 365格式，即XLSX或XLSB，请指定文件路径。您也可以使用[**LoadOptions**](https://reference.aspose.com/cells/python-java/asposecells.api/LoadOptions)并设置**LoadOptions**类的相关属性/选项以加载模板文件。
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "OpenExcel2007Files.py" >}}
 
 ### **打开密码加密的 Excel 文件**
 
-可以使用Microsoft Excel创建加密的Excel文件。要打开加密文件，请使用**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**并设置其属性和选项（例如，提供密码）以载入模板文件。
+可以使用Microsoft Excel创建加密的Excel文件。要打开加密文件，请使用 [**LoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions) 并为要加载的模板文件设置其属性和选项（例如，给定密码）。
 您可以从以下链接下载测试此功能的示例文件：
 
 [Encrypted Excel](EncryptedExcel.xlsx)

@@ -172,13 +172,13 @@ Aspose.Cells 允许在运行时向工作表添加页眉和页脚，但建议手�
 
 ### **设置页眉和页脚**
 
- [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)类提供了添加页眉的方法[**setHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader(int,%20java.lang.String))和添加页脚的方法[**setFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter(int,%20java.lang.String))。脚本作为上述方法的参数使用。它表示要用于页眉或页脚的脚本。此脚本包含格式化页眉或页脚的脚本命令。
+类[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)提供了添加页眉的方法[**setHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader(int,%20java.lang.String))和添加页脚的方法[**setFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter(int,%20java.lang.String))。该脚本被用作上述方法的参数。它表示用于页眉或页脚的脚本。此脚本包含用于格式化页眉或页脚的脚本命令。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetHeadersAndFooters-SetHeadersAndFooters.java" >}}
 
 ### **在页眉或页脚中插入图形**
 
- [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)类有添加图片到工作表页眉和页脚的方法[**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture(int,%20byte[]))和[**setFooterPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture(int,%20byte[]))。这些方法接受两个参数：
+The [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)类有方法[**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture(int,%20byte[]))和[**setFooterPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture(int,%20byte[]))，用于向工作表的页眉和页脚添加图片。这些方法接受两个参数：
 
 - **节**，将放置图片的页眉或页脚的部分。有三个部分：左侧，中心和右侧，分别由数值0、1和2表示。
 - **文件InputStream**，图形数据。二进制数据应写入字节数组的缓冲区。
@@ -196,7 +196,7 @@ Aspose.Cells 允许在运行时向工作表添加页眉和页脚，但建议手�
 
 ### **仅在第一页页眉中插入图形**
 
-[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)类还有其他有用的方法，例如[**setPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture(boolean,%20boolean,%20boolean,%20int,%20byte[])，[**setFirstPageHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader(int,%20java.lang.String)，[**setFirstPageFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter(int,%20java.lang.String)，用于向工作表的第一页页眉/页脚中添加图片。第一页是一个特殊的页面：通常希望它显示特殊的信息，例如公司标识。
+除了其他有用的方法，[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)类还有例如[**setPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture(boolean,%20boolean,%20boolean,%20int,%20byte[]))、[**setFirstPageHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader(int,%20java.lang.String))、[**setFirstPageFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter(int,%20java.lang.String))的方法，用于将图片添加到工作表的第一页页眉/页脚。第一页是一个特殊的页面：通常会希望它显示特殊信息，例如公司标志。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-InsertGraphicinFirstPageHeaderOnly-InsertGraphicinFirstPageHeaderOnly.java" >}}
 

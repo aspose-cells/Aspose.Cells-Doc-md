@@ -7,7 +7,7 @@ url: /zh/reportingservices/comprehensive-rdl-support/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Reporting Services完全支持RDL规范。这意味着您可以轻松地将现有的RDL报告移植到Aspose解决方案中。
+Aspose.Cells for Reporting Services完全支持RDL规范。这意味着您可以轻松地将现有的RDL报告转移到Aspose解决方案。
 
 {{% /alert %}} 
 **支持的RDL元素**

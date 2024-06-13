@@ -33,11 +33,11 @@ Aspose.Cells允许修改任何这些样式或您使用所需属性定义的任�
 
 ## **使用Aspose.Cells**
 
-Aspose.Cells提供了[**Style.update**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update()）方法来更新现有样式。
+Aspose.Cells 提供 [**Style.update**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update--) 方法用于更新现有的样式。
 
-要更改命名样式（无论是使用Aspose.Cells动态创建还是预定义的），调用[**Style.update**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update()）方法以反映对单元格或范围应用的样式的任何更改。
+要更改已创建动态使用 Aspose.Cells 或预定义的命名样式，请调用 [**Style.update**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update--) 方法，以反映对应用于单元格或范围的样式的任何更改。
 
-[**Style.update**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update()）方法的行为类似于样式对话框中的**确定**按钮：在对现有样式进行更改后，调用此方法以实现更改。如果已将样式应用于一系列单元格，请修改样式属性并调用该方法，这些单元格的格式将自动更新
+[**Style.update**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update--) 方法的行为类似于样式对话框中的 **确定** 按钮：在对现有样式进行更改后，请调用以实现更改。如果已经将样式应用于一系列单元格，请修改样式属性并调用该方法，那些单元格的格式将自动更新
 
 ### **创建和修改样式**
 

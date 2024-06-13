@@ -14,7 +14,7 @@ Aspose.Cells for Python via .NET支持将Json（JavaScript对象表示法）文�
 {{% /alert %}}
 
 ## **将JSON转换为Excel工作簿**
-不需要纠结如何将JSON转换为Excel文件，因为Aspose.Cells for Python via .NET库有最佳决策。Aspose.Cells for Python via .NETAPI支持将JSON格式转换为电子表格。您可以使用[JsonLoadOptions](https://reference.aspose.com/cells/python-net/aspose.cells/JsonLoadOptions)类指定导入JSON到工作簿的附加设置。
+无需担心如何将 JSON 转换为 Excel 文件，因为 Aspose.Cells for Python via .NET 库提供了最佳解决方案。Aspose.Cells for Python via .NET API 支持将 JSON 格式转换为电子表格。您可以使用 [**JsonLoadOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/JsonLoadOptions) 类指定导入 JSON 到 Workbook 的附加设置。
 
 以下代码示例演示了将JSON导入到Excel工作簿。请参阅用于参考的代码将源文件转换为由代码生成的xlsx文件。
 

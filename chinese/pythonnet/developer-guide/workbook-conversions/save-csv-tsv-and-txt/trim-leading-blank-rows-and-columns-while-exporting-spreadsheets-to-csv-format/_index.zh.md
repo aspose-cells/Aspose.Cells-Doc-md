@@ -19,17 +19,17 @@ keywords: Python导出电子表格到CSV格式时修剪前导空行和列，Pyth
 
 这里的前三个单元格或列是空白的。当您在Microsoft Excel中打开这样的CSV文件时，Microsoft Excel会丢弃这些前导空白行和列。
 
-默认情况下，Aspose.Cells for Python via .NET在保存时不会丢弃前导空列和行，但如果您想要删除它们，就像Microsoft Excel一样，那么Aspose.Cells for Python via .NET提供了trim_leading_blank_row_and_column属性。请将其设置为true，然后在保存时将丢弃所有前导空行和列。
+默认情况下，Aspose.Cells for Python via .NET 在保存时不会丢弃前导空白列和行，但如果您希望像 Microsoft Excel 一样删除它们，那么 Aspose.Cells for Python via .NET 提供了 [**TxtSaveOptions.trim_leading_blank_row_and_column**](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/trim_leading_blank_row_and_column/) 属性。请将其设置为 **true**，那么所有前导空白行和列在保存时都将被丢弃。
 
 {{% alert color="primary" %}}
 
-在Aspose.Cells for Python via .NET 20.4发布之前，TxtSaveOptions.trim_leading_blank_row_and_column的默认值为false。自20.4版本以来，TxtSaveOptions.trim_leading_blank_row_and_column的默认值为true。
+在 Aspose.Cells for Python via .NET 20.4 版本之前，[**TxtSaveOptions.trim_leading_blank_row_and_column**](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/trim_leading_blank_row_and_column/) 的默认值为 **false**。自 20.4 版本以来，[**TxtSaveOptions.trim_leading_blank_row_and_column**](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/trim_leading_blank_row_and_column/) 的默认值为 **true**。
 
 {{% /alert %}}
 
 ## **导出电子表格到CSV格式时修剪前导空白行和列**
 
-以下示例代码加载了包含两个前导空列的源Excel文件sampleTrimBlankColumns.xlsx。首先将Excel文件另存为CSV格式，然后将trim_leading_blank_row_and_column属性设置为true，并再次保存。屏幕截图显示了源Excel文件、不修剪的输出CSV文件和修剪后的输出CSV文件。
+以下示例代码加载了具有两个前导空白列的 [源 Excel 文件](sampleTrimBlankColumns.xlsx)。首先保存 Excel 文件为 CSV 格式而不进行任何更改，然后将 [**TxtSaveOptions.trim_leading_blank_row_and_column**](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/trim_leading_blank_row_and_column/) 属性设置为 **true** 并再次保存。截图显示了 [源 Excel 文件](sampleTrimBlankColumns.xlsx)，[未修剪的输出 CSV 文件](outputWithoutTrimBlankColumns.csv) 和 [修剪后的输出 CSV 文件](outputTrimBlankColumns.csv)。
 
 ![todo:image_alt_text](result.png)
 

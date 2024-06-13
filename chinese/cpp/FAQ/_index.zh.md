@@ -8,8 +8,8 @@ url: /zh/cpp/faq/
 ## **暂无**
 
 <!--
-## **当前不支持Aspose.Cells for C++的加密和解密功能**
-目前，Aspose.Cells for C++不支持加密和解密功能，如果您想要使用密码打开文件，代码将抛出异常。
+## **此时不支持 Aspose.Cells for C++ 的加密和解密**
+现在，不支持对 Aspose.Cells for C++ 进行加密和解密，因此，如果要打开带密码的文件，代码会抛出异常。
 
 
 

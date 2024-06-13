@@ -7,8 +7,8 @@ url: /zh/reportingservices/using-msi-installer/
 
 {{% alert color="primary" %}} 
 
-- 如果您安装了之前版本的Aspose.Cells for Reporting Services，请先卸载。请查看如何删除该组件的[卸载 Aspose.Cells for Reporting Services](/cells/zh/reportingservices/uninstalling-aspose-cells-for-reporting-services/) 主题。
-- [访问Aspose.Cells for Reporting Services下载页面](https://downloads.aspose.com/cells/reportingservices) 并下载带有最新版本组件的Aspose.Cells for Reporting Services MSI安装程序。
+- 如果您已安装了先前版本的Aspose.Cells for Reporting Services，请先卸载它。请查看[卸载Aspose.Cells for Reporting Services](/cells/zh/reportingservices/uninstalling-aspose-cells-for-reporting-services/)主题以了解如何移除该组件。
+- [访问 Aspose.Cells for Reporting Services 下载页面](https://downloads.aspose.com/cells/reportingservices) 并下载最新版本的 Aspose.Cells for Reporting Services MSI 安装程序。
     - Aspose.Cells for ReportingServices Msi仅支持Microsoft SQL Server 2008 Reporting Services及更高版本产品。
 - 运行下载的文件并按照安装程序的说明进行操作。
 
@@ -37,7 +37,7 @@ url: /zh/reportingservices/using-msi-installer/
 
 
 
-1. 点击**安装**确认要安装Aspose.Cells for Reporting Services。 
+1. 点击 **安装** 确认安装 Aspose.Cells for Reporting Services。 
 
 ![todo:image_alt_text](using-msi-installer_4.png)
 

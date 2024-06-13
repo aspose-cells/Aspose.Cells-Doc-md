@@ -12,7 +12,7 @@ url: /zh/cpp/public-api-changes-in-aspose-cells-17-1-0/
 {{% /alert %}} 
 ## **添加的 API**
 ### **命名范围的支持**
-Aspose.Cells for C++ 现在支持创建和操作命名范围。以下代码片段演示了使用 Aspose.Cells for C++ API [创建命名范围](/cells/zh/cpp/create-named-range-in-a-workbook/) 有多简单。
+Aspose.Cells for C++ 现在支持创建以及操作命名区域。 以下代码片段演示了如何使用 Aspose.Cells for C++ API [创建命名区域](/cells/zh/cpp/create-named-range-in-a-workbook/)。
 
 **C++**
 
@@ -58,7 +58,7 @@ wb->Save(outCreateNamedRange, SaveFormat_Xlsx);
 
 {{< /highlight >}}
 
-除了创建新的命名范围，Aspose.Cells for C++ API 还支持操作现有的命名范围。以下代码片段使用 Aspose.Cells for C++ API [操作现有的命名范围](/cells/zh/cpp/manipulate-named-range-in-a-workbook/)。
+除了创建新命名区域外，Aspose.Cells for C++ APIs 还支持操作现有命名区域。 以下代码片段使用 Aspose.Cells for C++ API 来[操作现有命名区域](/cells/zh/cpp/manipulate-named-range-in-a-workbook/)。
 
 **C++**
 
@@ -116,19 +116,19 @@ IWorksheet 类中添加了 GetIProtectedRangeCollection 方法，用于从工作
 ### **添加了 IExternalLink::IsVisible 方法**
 IsVisible 方法可获取 Excel 应用程序中外部链接的可见性状态。
 ### **添加了 GetScaleCrop 和 SetScaleCrop 方法**
-Aspose.Cells for C ++ 17.1.0 已向 IBuiltInDocumentPropertyCollection 类公开了 GetScaleCrop 和 SetScaleCrop 方法。这些方法可用于获取或设置 ScaleCrop 属性，该属性指示文档缩略图的显示模式。
+Aspose.Cells for C++ 17.1.0 版本向 IBuiltInDocumentPropertyCollection 类公开了 GetScaleCrop 和 SetScaleCrop 方法。这些方法对于获取或设置 ScaleCrop 属性非常有用，该属性表示文档缩略图的显示模式。
 ### **添加了 GetLinksUpToDate 和 SetLinksUpToDate 方法**
-Aspose.Cells for C++ 17.1.0 已向 IBuiltInDocumentPropertyCollection 类公开了 GetLinksUpToDate 和 SetLinksUpToDate 方法。这些方法可用于获取或设置 LinkUpToDate 属性，该属性指示文档中的超链接是否是最新的。
+Aspose.Cells for C++ 17.1.0 版本向 IBuiltInDocumentPropertyCollection 类公开了 GetLinksUpToDate 和 SetLinksUpToDate 方法。这些方法对于获取或设置 LinkUpToDate 属性非常有用，该属性指示文档中的超链接是否是最新的。
 ### **添加了 GetAbsolutePath 和 SetAbsolutePath 方法**
-Aspose.Cells for C++ 17.1.0 已向 IWorkbook 类公开了 GetAbsolutePath 和 SetAbsolutePath 方法。这些方法用于获取或设置文件的绝对路径，仅可用于外部链接。
+Aspose.Cells for C++ 17.1.0 版本向 IWorkbook 类公开了 GetAbsolutePath 和 SetAbsolutePath 方法。这些方法对于获取或设置文件的绝对路径非常有用，该路径只能用于外部链接。
 ### **添加了 GetFormula 和 SetFormula 方法**
-本次 Aspose.Cells for C++ 发布已向 IListColumn 类公开了 GetFormula 和 SetFormula 方法。这些方法可用于获取或设置列表列的公式。
+此版本的 Aspose.Cells for C++ 已向 IListColumn 类公开了 GetFormula 和 SetFormula 方法。这些方法对于获取或设置列表列的公式非常有用。
 ### **添加了 GetCheckCompatibility 和 SetCheckCompatibility 方法**
-本次 Aspose.Cells for C++ 发布已向 IWorkbookSettings 类公开了 GetCheckCompatibility 和 GetCheckCompatibility 方法。这些方法可用于获取或设置兼容性检查属性，指示 API 在保存工作簿时是否应检查兼容性。默认值为 true，如果应用程序要求不检查兼容性，则可以将其设置为 false。
+此版本的 Aspose.Cells for C++ 已向 IWorkbookSettings 类公开了 GetCheckCompatibility 和 GetCheckCompatibility 方法。这些方法对于获取或设置兼容性检查属性非常有用，该属性指示 API 在保存工作簿时是否应检查兼容性。默认值为 true，如果应用程序要求不检查兼容性，则可以将其设置为 false。
 ### **添加了 GetILightCellsDataHandler 和 SetILightCellsDataHandler 方法**
-Aspose.Cells for C++ 现已为 ILoadOptions 类公开了 GetILightCellsDataHandler 和 SetILightCellsDataHandler 方法。这些方法表示处理读取模板文件时单元格数据的数据处理程序。
+Aspose.Cells for C++ 现已向 ILoadOptions 类公开了 GetILightCellsDataHandler 和 SetILightCellsDataHandler 方法。这些方法表示在读取模板文件时用于处理单元格数据的数据处理程序。
 ### **添加了 GetCultureInfo 和 SetCultureInfo 方法**
-Aspose.Cells for C++ 为 ILoadOptions 类公开了 GetCultureInfo 和 SetCultureInfo 方法。这些方法可在文件加载时获取或设置系统的区域设置信息。
+Aspose.Cells for C++ 现已向 ILoadOptions 类公开了 GetCultureInfo 和 SetCultureInfo 方法。这些方法能获取或设置文件加载时的系统区域信息。
 ## **删除了 API**
 ### **移除了 ICells::MaxDataRowInColumn 方法**
 建议使用 ICells::GetLastDataRow 方法
@@ -139,7 +139,7 @@ Aspose.Cells for C++ 为 ILoadOptions 类公开了 GetCultureInfo 和 SetCulture
 
 {{% alert color="primary" %}} 
 
-随着 Aspose.Cells for C++ 17.1.0 的发布，我们删除了一些未使用的方法，因此被视为不必要。以下是所有这类方法的列表。
+随着 Aspose.Cells for C++ 17.1.0 版本的发布，我们去除了一些未使用且被视为不必要的方法。以下是所有这些方法的列表。
 
 - IPaneCollection::GetAcitvePaneType & SetAcitvePaneType 方法
 - IRange::ToString 方法

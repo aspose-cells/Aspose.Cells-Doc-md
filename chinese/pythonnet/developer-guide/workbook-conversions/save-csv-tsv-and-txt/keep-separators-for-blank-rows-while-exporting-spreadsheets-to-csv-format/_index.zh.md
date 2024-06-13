@@ -9,9 +9,9 @@ keywords: 在Python中，在将电子表格导出为CSV格式时，通过使用P
 
 ## **在将电子表格导出为CSV格式时保留空行的分隔符**
 
-Aspose.Cells for Python via .NET提供了在将电子表格转换为CSV格式时保留行分隔符的功能。为此，您可以使用TxtSaveOptions类的keep_separators_for_blank_row属性。keep_separators_for_blank_row是一个布尔属性。要在将Excel文件转换为CSV时保留空行的分隔符，请将keep_separators_for_blank_row属性设置为true。
+Aspose.Cells for Python via .NET 具有将行分隔符保留在将电子表格转换为 CSV 格式时的功能。为此，您可以使用 [**keep_separators_for_blank_row**](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/keep_separators_for_blank_row/) 类的 [**TxtSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/) 属性。[**keep_separators_for_blank_row**](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/keep_separators_for_blank_row/) 是一个布尔属性。要在将 Excel 文件转换为 CSV 时保留空行的分隔符，请将 [**keep_separators_for_blank_row**](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/keep_separators_for_blank_row/) 属性设置为 **true**。
 
-以下示例代码加载了源Excel文件84378743.xlsx。将keep_separators_for_blank_row属性设置为true，然后将其另存为输出文件84378744.csv。屏幕截图显示了源Excel文件、将电子表格转换为CSV时生成的默认输出以及将keep_separators_for_blank_row设置为true时生成的输出。
+以下示例代码加载了 [源 Excel 文件](84378743.xlsx)，将 [**keep_separators_for_blank_row**](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/keep_separators_for_blank_row/) 属性设置为 **true** 并将其保存为 [output.csv](84378744.csv)。截图显示了源 Excel 文件，将电子表格转换为 CSV 时生成的默认输出以及将 [**keep_separators_for_blank_row**](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/keep_separators_for_blank_row/) 设置为 **true** 时生成的输出的比较。
 
 ![todo:image_alt_text](result.jpg)
 

@@ -11,7 +11,7 @@ keywords: GridWeb，设置
 我们可以通过设置GridWorkbookSettings来指定一些设置：
 
 
-- **[GridWorkbookSettings](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/GridWorkbookSettings)**
+- [**GridWorkbookSettings**](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/GridWorkbookSettings)
 
 |**名称** |**描述** |
 | :- | :- |

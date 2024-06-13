@@ -6,11 +6,11 @@ url: /zh/java/working-with-colors-in-apache-poi-and-aspose-cells/
 ---
 
 ## **Aspose.Cells - 使用颜色**
-Aspose.Cells提供了一个类，[Workbook](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook)，代表一个Microsoft Excel文件。Workbook类包含一个WorksheetCollection，允许访问Excel文件中的每个工作表。工作表由[Worksheet](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)类表示。Worksheet类提供了一个Cells集合。Cells集合中的每个项代表[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell)类的对象。
+Aspose.Cells提供一个代表Microsoft Excel文件的类[Workbook](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook)，Workbook类包含一个WorksheetCollection，允许访问Excel文件中的每个工作表。工作表由Worksheet类表示。Worksheet类提供一个Cells集合，Cells集合中的每个项表示Cell类的对象。
 
-Aspose.Cells在Cell类中提供了setStyle方法，用于设置单元格的格式。此外，Style类的Style对象可用于配置字体设置。
+Aspose.Cells提供了Cell类中的setStyle方法，用于设置单元格的格式。同时，Style类的Style对象可以用于配置字体设置。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -63,7 +63,7 @@ cell.setStyle(style);
 ## **Apache POI SS - HSSF XSSF - 使用颜色**
 CellStyle类可用于设置背景和填充模式设置。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -103,6 +103,6 @@ cell.setCellStyle(style);
 
 {{% alert color="primary" %}} 
 
-更多详情，请访问[颜色和背景模式](http://docs.aspose.com:8082/docs/display/cellsjava/Colors+and+Background+Patterns)。
+有关更多详细信息，请访问[颜色和背景图案](http://docs.aspose.com:8082/docs/display/cellsjava/Colors+and+Background+Patterns)。
 
 {{% /alert %}}

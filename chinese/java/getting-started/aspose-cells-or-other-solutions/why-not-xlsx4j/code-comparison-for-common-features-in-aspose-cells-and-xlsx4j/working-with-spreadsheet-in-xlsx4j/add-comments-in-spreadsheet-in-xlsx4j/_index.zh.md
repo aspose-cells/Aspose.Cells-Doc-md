@@ -1,14 +1,14 @@
 ---
-title: 在xlsx4j电子表格中添加备注
+title: 在 xlsx4j 中在电子表格中添加评论
 type: docs
 weight: 10
 url: /zh/java/add-comments-in-spreadsheet-in-xlsx4j/
 ---
 
 ## **Aspose.Cells - 在电子表格中添加评论**
-通过调用Shapes集合的addComments方法（封装在Worksheet对象中）向单元格添加注释。新的Comment对象可以通过传递注释索引从Comments集合访问。访问Comment对象后，可以使用Comment对象的setNote方法自定义注释内容。
+通过调用 Shapes 集合的 addComments 方法（封装在 Worksheet 对象中）向单元格添加注释。可以通过传递注释索引访问新的 Comment 对象，然后可以使用 Comment 对象的 setNote 方法来自定义注释内容。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -32,9 +32,9 @@ comment.setNote("Hello Aspose!");
 
 {{< /highlight >}}
 ## **xlsx4j - 在电子表格中添加评论**
-CommentsPart类可用于使用xlsx4j在电子表格中添加评论。
+CommentsPart 类可用于使用 xlsx4j 在电子表格中添加评论。
 
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -246,6 +246,6 @@ public static org.docx4j.vml.root.Xml getVml(int row, int col) throws JAXBExcept
 
 {{% alert color="primary" %}} 
 
-有关详细信息，请访问[添加评论](/java/adding-comments)。
+了解更多详情，请访问 [添加评论](/java/adding-comments)。
 
 {{% /alert %}}

@@ -31,9 +31,9 @@ Microsoft Excel 中的排序对话框
 
 Aspose.Cells 提供了用于按升序或降序对数据进行排序的 [**DataSorter**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter) 类。该类具有一些重要成员，例如 [**setKey1**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#Key1) ... [**setKey2**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#Key2) 和 [**setOrder1**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#Order1) ... [**setOrder2**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#Order2)。这些成员用于定义排序键和指定键排序顺序。
 
-在执行数据排序前，必须定义键并设置排序顺序。该类提供了 [**sort**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#sort() 方法，用于基于工作表中的单元数据执行数据排序。
+在执行数据排序之前，您必须定义关键字并设置排序顺序。该类提供了 [**sort**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#sort--) 方法，用于根据工作表中的单元格数据执行数据排序。
 
-[**sort**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#sort() 方法接受以下参数：
+[**sort**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#sort--) 方法接受以下参数：
 
 - [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)，工作表的单元格。
 - [**CellArea**](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)，单元格范围。在应用数据排序前定义单元格区域。
@@ -62,7 +62,7 @@ Aspose.Cells 提供了用于按升序或降序对数据进行排序的 [**DataSo
 
 ## **以背景颜色排序数据**
 
-Excel 提供根据背景颜色对数据进行排序的功能。 使用 Aspose.Cells 可以使用[**DataSorter**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter)（其中[**SortOnType.CELL_COLOR**](https://reference.aspose.com/cells/java/com.aspose.cells/sortontype#CELL_COLOR)可以在[**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int)中使用）来基于背景颜色对数据进行排序。 所有包含[**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int)中指定颜色的单元格，根据SortOrder设置置于顶部或底部，并且其余单元格的顺序不发生任何更改。
+Excel提供了根据背景颜色对数据进行排序的功能。使用Aspose.Cells也提供了相同功能，可以使用[**DataSorter**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter)，其中[**SortOnType.CELL_COLOR**](https://reference.aspose.com/cells/java/com.aspose.cells/sortontype#CELL_COLOR)可以在[**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int))中用于根据背景颜色对数据进行排序。包含[**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int))函数中指定颜色的所有单元格将根据SortOrder设置放置在顶部或底部，并且其余单元格的顺序不会改变。
 
 以下是可以下载以进行此功能测试的样本文件：
 

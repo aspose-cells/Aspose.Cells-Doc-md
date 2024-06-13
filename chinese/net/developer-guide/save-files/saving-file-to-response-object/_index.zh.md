@@ -13,14 +13,14 @@ Aspose.Cells可以操作文件。本文解释了可以将文件保存到响应�
 
 ## **将文件保存到响应对象**
 
-也可以动态生成文件并直接发送到客户端浏览器。为此，使用**[Save](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/5)**方法的特殊重载版本，接受以下参数：
+还可以动态生成文件并直接发送到客户端浏览器。 为此，使用接受以下参数的 [**Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/5) 方法的特殊重载版本：
 
-- ASP.NET **[HttpResponse](https://docs.microsoft.com/zh-cn/dotnet/api/system.web.httpresponse?view=netframework-4.8)**对象。
+- ASP.NET [**HttpResponse**](https://docs.microsoft.com/en-gb/dotnet/api/system.web.httpresponse?view=netframework-4.8) 对象。
 - 文件名。
-- **[ContentDisposition](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)**，输出文件的内容-分发类型。
-- **[SaveOptions](https://reference.aspose.com/cells/net/aspose.cells/saveoptions)**，文件格式类型
+- [**ContentDisposition**](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)，输出文件的 content-disposition 类型。
+- [**SaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/saveoptions)，文件格式类型
 
-**[ContentDisposition](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)**枚举确定将发送到浏览器的文件是否提供选项，直接在浏览器中打开，还是在与.xls/.xlsx或其他类型关联的应用程序中打开。
+[**ContentDisposition**](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition) 枚举确定发送到浏览器的文件是否提供直接在浏览器中打开或在与 .xls/.xlsx 或其他扩展名相关联的应用程序中打开的选项。
 
 该枚举包含以下预定义的保存类型：
 

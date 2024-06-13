@@ -29,16 +29,20 @@ Aspose.Cells提供了访问Excel文件中Web扩展信息的功能。以下代码
 
 ### **控制台输出**
 
-宽度: 350
+{{< highlight java >}}
 
-可见: 真
+Width: 350
 
-已锁定: 假
+IsVisible: True
 
-停靠状态: 右
+IsLocked: False
 
-商店名称: en-US
+DockState: right
 
-商店类型: OMEX
+StoreName: en-US
+
+StoreType: OMEX
 
 WebExtension.Id: 95D7ECE8-1355-492B-B6BF-27D25D0B0EEF
+
+{{< /highlight >}}

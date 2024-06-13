@@ -6,7 +6,7 @@ url: /zh/java/create-date-cell-in-apache-poi-and-aspose-cells/
 ---
 
 ## **Aspose.Cells - 创建日期单元格**
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -36,7 +36,7 @@ cell.setStyle(style);
 
 {{< /highlight >}}
 ## **Apache POI SS (HSSF + XSSF) - 创建日期单元格**
-**Java**
+Java
 
 {{< highlight java >}}
 
@@ -88,16 +88,16 @@ cell.setCellStyle(cellStyle);
 
 {{< /highlight >}}
 ## **下载运行代码**
-从以下任一社交编码网站下载**在Aspose.Cells和Apache POI中创建日期单元格**的运行示例:
+从以下任一社交编程网站下载 **Aspose.Cells 和 Apache POI 中创建日期单元格** 的运行示例：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
 ## **下载源代码**
-从以下任一社交编码网站下载**在Aspose.Cells和Apache POI中创建日期单元格**的源代码:
+从以下社交编码网站下载**Aspose.Cells和Apache POI中创建日期单元格的源代码**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{% alert color="primary" %}} 
 
-要了解更多详细信息，请访问 [向单元格添加数据](/cells/zh/java/add-data-in-cells/)。
+查看更多详情，请访问[在单元格中添加数据](/cells/zh/java/add-data-in-cells/)
 
 {{% /alert %}}

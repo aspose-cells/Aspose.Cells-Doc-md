@@ -59,27 +59,27 @@ Aspose.Cells for Java是一个类库，使您的应用程序能够执行大范�
 
 {{% alert color="primary" %}}
 
-**![Aspose.Cells for C++ 产品标识](home_3.png)**
+**![Aspose.Cells for C++ 产品Logo](home_3.png)**
 
-**欢迎使用Aspose.Cells for C++**
+**欢迎访问 Aspose.Cells for C++**
 
-Aspose.Cells for C++是一个本机C++库，使C++开发人员能够以编程方式创建、操作和转换电子表格，而无需Office Automation或Microsoft Excel应用程序。Aspose.Cells for C++支持诸如MS Excel 97-2003（XLS）、MS Excel 2007-2013/2016（XLSX、XLSM、XLSB等）、Open Office XML和其他格式的电子表格格式。您还可以从工作表中渲染图像并将MS Excel电子表格转换为PDF格式。该API还允许您创建、操作和呈现图表和形状。此外，组件还提供了公式计算功能，您可以利用它。
+Aspose.Cells for C++ 是一款原生 C++ 库，可使 C++ 开发人员能够在不需要办公自动化或 Microsoft Excel 应用程序的情况下编程创建、操纵和转换电子表格。Aspose.Cells for C++ 支持诸如 MS Excel 97-2003 (XLS)、MS Excel 2007-2013/2016 (XLSX、XLSM、XLSB等)、Open Office XML 等格式的电子表格。您还可以从工作表中呈现图像并将 MS Excel 电子表格转换为 PDF 格式。该 API 还允许您创建、操纵和呈现图表和形状。此外，公式计算是由组件提供的另一个好的方面，您可以利用它。
 
 {{% /alert %}}
 
-## **Aspose.Cells for C++资源**
+## **Aspose.Cells for C++ 资源**
 
 以下是一些您可能需要完成任务的有用资源的链接。
 
-- [Aspose.Cells for C++在线文档](/cells/zh/cpp/)
-- [Aspose.Cells for C++功能](/cells/zh/cpp/product-overview/)
-- [Aspose.Cells for C++发布说明](https://releases.aspose.com/cells/cpp/release-notes/)
-- [Aspose.Cells for C++产品页面](https://products.aspose.com/cells/cpp/)
-- [从NuGet包安装Aspose.Cells for C++](https://www.nuget.org/packages/Aspose.Cells.CPP/)
+- [Aspose.Cells for C++ 在线文档](/cells/zh/cpp/)
+- [Aspose.Cells for C++ 特性](/cells/zh/cpp/product-overview/)
+- [Aspose.Cells for C++ 更新说明](https://releases.aspose.com/cells/cpp/release-notes/)
+- [Aspose.Cells for C++ 产品页面](https://products.aspose.com/cells/cpp/)
+- [安装 Aspose.Cells for C++ NuGet 包](https://www.nuget.org/packages/Aspose.Cells.CPP/)
 - [Aspose.Cells for C++ API 参考指南](https://reference.aspose.com/cells/cpp)
 - [在GitHub代码库中下载示例](https://github.com/aspose-cells/Aspose.Cells-for-C)
-- [Aspose.Cells for C++免费支持论坛](https://forum.aspose.com/c/cells/9)
-- [Aspose.Cells for C++付费支持帮助台](https://helpdesk.aspose.com/)
+- [Aspose.Cells for C++ 免费支持论坛](https://forum.aspose.com/c/cells/9)
+- [Aspose.Cells for C++ 付费支持帮助台](https://helpdesk.aspose.com/)
 
 {{% alert color="primary" %}}
 
@@ -101,7 +101,7 @@ Aspose.Cells for Android via Java 是一款灵活的组件，使 Android 应用�
 - [Aspose.Cells for Android via Java 发布说明](https://releases.aspose.com/cells/androidjava/release-notes/)
 - [Aspose.Cells for Android via Java 产品页面](https://products.aspose.com/cells/android-java/)
 - [下载 Aspose.Cells for Android via Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)
-- [从Maven安装Aspose.Cells for Android via Java](/cells/zh/java/aspose-cells-for-android-via-java-installation/#install-asposecells-for-android-via-java-from-maven-repository)
+- [从Maven安装Android via Java版的Aspose.Cells](/cells/zh/java/aspose-cells-for-android-via-java-installation/#install-asposecells-for-android-via-java-from-maven-repository)
 - [Aspose.Cells for Android via Java API 参考指南](https://reference.aspose.com/cells/java) (Aspose.Cells for Android via Java 非常类似于 Aspose.Cells for Java。因此，您可以使用相同的 API 参考指南)
 
 {{% alert color="primary" %}}
@@ -177,21 +177,21 @@ Aspose.Cells for Python via Java能够动态地执行你的应用程序执行一
 
 {{% alert color="primary" %}}
 
-![Aspose.Cells for Reporting Services Product Logo](aspose-cells-for-ssrs.png)
+![Aspose.Cells for Reporting Services 产品Logo](aspose-cells-for-ssrs.png)
 
-**欢迎使用Aspose.Cells for Reporting Services**
+**欢迎来到 Aspose.Cells for Reporting Services**
 
-Aspose.Cells for Reporting Services是为需要在报告服务中提供Microsoft Excel报告的开发人员提供的解决方案。它通过Aspose.Cells.Report.Designer工具为报告服务添加了灵活和用户友好的功能。该API可以执行与在报告服务中开发报告相关的所有任务，例如设置数据源、创建查询、设计报告和将报告发布到报告服务器。由于Aspose.Cells.Report.Designer使用Microsoft Excel作为报告模板，用户可以利用Microsoft Excel中的强大功能。
+Aspose.Cells for Reporting Services 是提供给需要在 Reporting Services 中交付 Microsoft Excel 报告的开发人员的解决方案。它通过 Aspose.Cells.Report.Designer 工具在 Reporting Services 中添加了灵活和用户友好的功能。该 API 可以执行与在 Reporting Services 中开发报告相关的所有任务，如设置数据源、创建查询、设计报告和将报告发布到报告服务器。由于 Aspose.Cells.Report.Designer 使用 Microsoft Excel 作为报告模板，用户可以利用 Microsoft Excel 中可用的强大功能。
 
 {{% /alert %}}
 
-## **Aspose.Cells for Reporting Services资源**
+## **Aspose.Cells for Reporting Services 资源**
 
 以下是一些有用资源的链接，这些资源可能有助于完成您的任务。
 
-- [Aspose.Cells for Reporting Services在线文档](/cells/zh/reportingservices/)
-- [Aspose.Cells for Reporting Services特性](/cells/zh/reportingservices/features/)
-- [Aspose.Cells for Reporting Services发布说明](https://releases.aspose.com/cells/reportingservices/release-notes/)
+- [Aspose.Cells for Reporting Services 在线文档](/cells/zh/reportingservices/)
+- [Aspose.Cells for Reporting Services 功能](/cells/zh/reportingservices/features/)
+- [Aspose.Cells for Reporting Services 发布说明](https://releases.aspose.com/cells/reportingservices/release-notes/)
 - [Aspose.Cells for Reporting Services 产品页面](https://products.aspose.com/cells/reporting-services/)
 - [下载 Aspose.Cells for Reporting Services](https://downloads.aspose.com/cells/reportingservices)
 - [Aspose.Cells for Reporting Services 免费支持论坛](https://forum.aspose.com/c/cells/9)
@@ -199,11 +199,11 @@ Aspose.Cells for Reporting Services是为需要在报告服务中提供Microsoft
 
 {{% alert color="primary" %}}
 
-**![Aspose.Cells for SharePoint Product Logo](sharepoint_logo.png)**
+**![Aspose.Cells for SharePoint 产品标识](sharepoint_logo.png)**
 
-欢迎使用 Aspose.Cells for SharePoint
+**欢迎来到 Aspose.Cells for SharePoint**
 
-Aspose.Cells for SharePoint 是一个灵活的解决方案，支持在 Microsoft SharePoint 应用程序中进行电子表格转换，使得在 Microsoft SharePoint 应用程序中进行 MS Excel 文档转换成为可能。
+Aspose.Cells for SharePoint 是一个灵活的解决方案，支持电子表格转换，可以在 Microsoft SharePoint 应用程序内部将 MS Excel 文档转换为可能。
 
 {{% /alert %}}
 
@@ -212,7 +212,7 @@ Aspose.Cells for SharePoint 是一个灵活的解决方案，支持在 Microsoft
 以下是一些有用资源的链接，这些资源可能有助于完成您的任务。
 
 - [Aspose.Cells for SharePoint 在线文档](/cells/zh/sharepoint/)
-- [Aspose.Cells for SharePoint 功能](/cells/zh/sharepoint/features/)
+- [Aspose.Cells for SharePoint 特性](/cells/zh/sharepoint/features/)
 - [Aspose.Cells for SharePoint 发布说明](https://releases.aspose.com/cells/sharepoint/release-notes/)
 - [Aspose.Cells for SharePoint 产品页面](https://products.aspose.com/cells/sharepoint/)
 - [下载 Aspose.Cells for SharePoint](https://downloads.aspose.com/cells/sharepoint)
@@ -223,23 +223,23 @@ Aspose.Cells for SharePoint 是一个灵活的解决方案，支持在 Microsoft
 
 **![todo:image_alt_text](jasperreports_logo.png)**
 
-**欢迎使用Aspose.Cells for JasperReports**
+**欢迎来到 Aspose.Cells for JasperReports**
 
-Aspose.Cells for JasperReports是一个库，作为[JasperReports](https://community.jaspersoft.com/project/jasperreports-library)原始Microsoft Excel导出器的替代品，并附带一些很棒的增强功能。它消除了对POI库的依赖，并在后端使用Aspose.Cells for Java来将报告导出为Microsoft Excel格式（XLS，XLSX）。
+Aspose.Cells for JasperReports 是一个库，可作为 [JasperReports](https://community.jaspersoft.com/project/jasperreports-library) 原始 Microsoft Excel 导出器的替代品，并附带一些出色的增强功能。它消除了对 POI 库的依赖，并在后端使用 Aspose.Cells for Java 以导出 Microsoft Excel 格式的报表（XLS、XLSX）。
 
 {{% /alert %}}
 
-## **Aspose.Cells for JasperReports资源**
+## **Aspose.Cells for JasperReports 资源**
 
 以下是一些有用资源的链接，这些资源可能有助于完成您的任务。
 
-- [Aspose.Cells for JasperReports在线文档](/cells/zh/jasperreports/)
-- [Aspose.Cells for JasperReports功能](/cells/zh/jasperreports/feature-overview/)
-- [Aspose.Cells for JasperReports发布说明](https://releases.aspose.com/cells/jasperreports/release-notes/)
-- [Aspose.Cells for JasperReports产品页面](https://products.aspose.com/cells/jasperreports/)
-- [下载Aspose.Cells for JasperReports](https://downloads.aspose.com/cells/jasperreports)
-- [Aspose.Cells for JasperReports免费支持论坛](https://forum.aspose.com/c/cells/9)
-- [Aspose.Cells for JasperReports付费支持帮助台](https://helpdesk.aspose.com/)
+- [Aspose.Cells for JasperReports 在线文档](/cells/zh/jasperreports/)
+- [Aspose.Cells for JasperReports 特性](/cells/zh/jasperreports/feature-overview/)
+- [Aspose.Cells for JasperReports 发布说明](https://releases.aspose.com/cells/jasperreports/release-notes/)
+- [Aspose.Cells for JasperReports 产品页面](https://products.aspose.com/cells/jasperreports/)
+- [下载 Aspose.Cells for JasperReports](https://downloads.aspose.com/cells/jasperreports)
+- [Aspose.Cells for JasperReports 免费支持论坛](https://forum.aspose.com/c/cells/9)
+- [Aspose.Cells for JasperReports 付费支持帮助台](https://helpdesk.aspose.com/)
 
 {{% alert color="primary" %}}
 

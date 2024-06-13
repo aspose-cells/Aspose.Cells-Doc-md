@@ -28,7 +28,7 @@ Aspose.Cells提供了[Workbook](https://reference.aspose.com/cells/cpp/aspose.ce
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-SavingFiles-SavingFileToStream-new.cpp" >}}
 
 ## **将文件保存为 PDF**
-使用 Aspose.Cells for C++ 库将所需内容保存为 PDF 文件，需创建一个新 [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) 对象或通过读取现有的 Excel 文件构造一个 [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) 对象，然后通过调用 [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) 对象的 Save 方法将文件保存为 PDF。 在调用 Save 方法时，使用 [SaveFormat](https://reference.aspose.com/cells/cpp/aspose.cells/saveformat/) 枚举来指定所需的文件格式。
+要使用Aspose.Cells for C++库将所需内容保存到PDF文件，请创建新的[Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/)对象或通过读取现有的Excel文件来构建[Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/)对象，然后通过调用[Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/)对象的Save方法将文件保存为PDF。在调用Save方法时，使用[SaveFormat](https://reference.aspose.com/cells/cpp/aspose.cells/saveformat/)枚举来指定所需的文件格式。
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-SavingFiles-SavingFileToPdf-new.cpp" >}}

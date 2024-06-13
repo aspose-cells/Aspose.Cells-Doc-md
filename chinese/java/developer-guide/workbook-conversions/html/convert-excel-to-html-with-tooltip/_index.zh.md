@@ -7,7 +7,7 @@ url: /zh/java/convert-excel-to-html-with-tooltip/
 
 ## **将 Excel 转换为带有工具提示的 HTML**
 
-在生成的HTML中，可能会出现文本被截断的情况，你希望在悬停事件上显示完整的文本作为工具提示。Aspose.Cells通过提供**[HtmlSaveOptions.AddTooltipText](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#AddTooltipText)**属性来支持此功能。将**[HtmlSaveOptions.AddTooltipText](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#AddTooltipText)**属性设置为**true**，将在生成的HTML中添加完整的文本作为工具提示。
+在生成的 HTML 中可能会出现文本被截断的情况，您可能希望在悬停事件中将完整文本显示为工具提示。Aspose.Cells 通过提供 [**HtmlSaveOptions.AddTooltipText**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#AddTooltipText) 属性来支持此功能。设置 [**HtmlSaveOptions.AddTooltipText**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#AddTooltipText) 属性为 **true** 将在生成的 HTML 中添加完整文本作为工具提示。
 
 以下图片显示了生成的 HTML 文件中的工具提示。
 

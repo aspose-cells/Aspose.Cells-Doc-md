@@ -1,5 +1,5 @@
 ---
-title: 安装 Aspose.Cells for SharePoint
+title: 安装Aspose.Cells for SharePoint
 type: docs
 weight: 50
 url: /zh/sharepoint/install-aspose-cells-for-sharepoint/

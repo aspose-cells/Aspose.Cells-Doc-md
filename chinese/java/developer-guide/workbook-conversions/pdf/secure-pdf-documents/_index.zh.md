@@ -30,6 +30,6 @@ Aspose.Cells提供了[**PdfSecurityOptions**](https://reference.aspose.com/cells
 
 {{% alert color="primary" %}}
 
-如果电子表格包含公式，最好在将其渲染为PDF之前调用[**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()。这样可以确保重新计算依赖公式的值，并在PDF中呈现正确的值。
+如果电子表格中包含公式，最好在渲染为 PDF 之前调用 [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--)。这将确保重新计算公式依赖的值，并在 PDF 中呈现正确的值。
 
 {{% /alert %}}

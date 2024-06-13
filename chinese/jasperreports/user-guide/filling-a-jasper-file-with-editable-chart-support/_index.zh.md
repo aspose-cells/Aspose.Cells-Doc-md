@@ -7,7 +7,7 @@ url: /zh/jasperreports/filling-a-jasper-file-with-editable-chart-support/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells for JasperReports需要将.jasper文件填充到.jrprint或JasperPrint对象中，然后才能将其导出为XLS文件。对于.jrxml文件，不需要任何修改。填充过程将图表的内部表示存储到JasperPrint对象中，然后用于生成可编辑图表。 
+在将 .jrxml 文件导出为 XLS 文件之前，需要将 Aspose.Cells for JasperReports 填充为 .jrprint 或 JasperPrint 对象。.jrxml 文件不需要进行任何修改。填充过程将图表的内部表示存储到 JasperPrint 对象中，然后用于生成可编辑图表。 
 
 {{% /alert %}} 
 

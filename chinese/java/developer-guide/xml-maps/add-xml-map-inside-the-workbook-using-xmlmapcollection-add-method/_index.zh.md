@@ -7,11 +7,11 @@ url: /zh/java/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/
 
 ## **可能的使用场景**
 
-Aspose.Cells提供了[**XmlMapCollection.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/xmlmapcollection#add(java.lang.Object))方法，您可以使用它来导入工作簿中的XML映射。
+Aspose.Cells提供了[**XmlMapCollection.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/xmlmapcollection#add(java.lang.Object))方法，您可以使用它来在工作簿中导入XML映射。
 
 ## **使用XmlMapCollection.Add方法在工作簿中添加XML映射**
 
-以下示例代码使用[**XmlMapCollection.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/xmlmapcollection#add(java.lang.Object))方法在工作簿中添加XML映射并将其另存为[输出Excel文件](5472533.xlsx)。 截图显示了从[sample.xml](5472532.xml)中导入的XML映射已包含在输出Excel文件中。
+以下示例代码使用[**XmlMapCollection.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/xmlmapcollection#add(java.lang.Object))方法在工作簿内添加XML映射，并将其保存为[输出excel文件](5472533.xlsx)。屏幕截图显示已从[sample.xml](5472532.xml)中导入的XML映射在输出excel文件中的情况。
 
 ![todo:image_alt_text](add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method_1.png)
 

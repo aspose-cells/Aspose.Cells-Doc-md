@@ -9,7 +9,7 @@ keywords: 使用 Python 将 Excel 转换为带有工具提示的 HTML，使用 P
 
 ## **将 Excel 转换为带有工具提示的 HTML**
 
-在生成的 HTML 中可能会出现文本被截断的情况，您希望在悬停事件中显示完整文本作为工具提示。Aspose.Cells 支持此功能，提供了 **[HtmlSaveOptions.add_tooltip_text](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/)** 属性。将 **[HtmlSaveOptions.add_tooltip_text](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/)** 属性设置为 **true** 将在生成的 HTML 中添加完整文本作为工具提示。
+在生成的 HTML 中可能出现文字被截断的情况，您希望在悬停事件中以提示框的方式显示完整的文字。Aspose.Cells 通过提供 [**HtmlSaveOptions.add_tooltip_text**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/) 属性来支持此功能。将 [**HtmlSaveOptions.add_tooltip_text**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/) 属性设置为 **true** 将在生成的 HTML 中添加完整的文字提示。
 
 以下图片显示了生成的 HTML 文件中的工具提示。
 

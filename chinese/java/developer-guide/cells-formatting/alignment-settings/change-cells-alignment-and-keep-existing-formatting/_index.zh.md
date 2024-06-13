@@ -7,7 +7,7 @@ url: /zh/java/change-cells-alignment-and-keep-existing-formatting/
 
 ## **可能的使用场景**
 
-有时，您想要更改多个单元格的对齐方式，同时又要保留现有格式。Aspose.Cells允许您使用[**StyleFlag.Alignments**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#Alignments)属性来实现这一点。如果将其设置为**true**，对齐方式的更改将生效，否则不生效。请注意，[**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag)对象作为参数传递给[**Range.applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)方法，该方法实际上会对单元格范围应用格式。
+有时，您想要更改多个单元格的对齐方式，但又想保留现有的格式。Aspose.Cells允许您使用 [**StyleFlag.Alignments**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#Alignments) 属性进行操作。如果将其设置为 **true**，则对齐方式的更改将生效，否则不会生效。请注意，作为参数传递给 [**Range.applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) 方法的是 [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) 对象，该方法实际上将格式应用于单元格范围。
 
 ## **更改单元格对齐方式并保留现有格式**
 

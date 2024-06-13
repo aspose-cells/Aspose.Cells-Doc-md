@@ -12,9 +12,9 @@ Aspose.Cells支持将Excel文件转换为PDF，并在转换过程中保持高度
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells直接在输出文件中写入关于API和版本号的信息。例如，将Document渲染为PDF时，Aspose.Cells for C++会在**Application**字段中填充值为'Aspose.Cells'，在**PDF Producer**字段中填充值，例如'Aspose.Cells v18.5.0'。
+Aspose.Cells直接在输出文档中写入有关API和版本号的信息。例如，在将文档渲染为PDF时，Aspose.Cells for C++会填充“应用程序”字段的值为“Aspose.Cells”，填充“PDF制作者”字段的值为“例如Aspose.Cells v18.5.0”。
 
-请注意，您不能指示 Aspose.Cells for C++ 更改或从输出文档中删除此信息。
+请注意，您不能指示Aspose.Cells for C++更改或移除此信息以输出文档。
 
 {{% /alert %}} 
 ### **直接转换**

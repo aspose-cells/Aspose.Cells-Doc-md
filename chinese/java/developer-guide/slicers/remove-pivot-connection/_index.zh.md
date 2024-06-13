@@ -9,7 +9,7 @@ keywords: 在没有office 2013、office 2016、office 2019和office 365的情况
 
 ## **可能的使用场景**
 
-如果您希望在 Excel 中取消关联分析器和数据透视表，您需要右键单击分析器并选择“报表连接...”项目。在选项列表中，您可以操作复选框。同样，如果要使用 Aspose.Cells API 在程序中取消关联分析器和数据透视表，请使用 [**Slicer.removePivotConnection(PivotTable pivot)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#removePivotConnection(com.aspose.cells.PivotTable)）方法。它将取消分析器和数据透视表的关联。
+如果要在Excel中取消切片器与数据透视表的关联，您需要右键单击切片器并选择"Report Connections..."选项。在选项列表中，您可以操作复选框。同样，如果要使用Aspose.Cells API编程方式取消切片器与数据透视表的关联，请使用[**Slicer.removePivotConnection(PivotTable pivot)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#removePivotConnection(com.aspose.cells.PivotTable))方法。这将取消切片器与数据透视表的关联。
 
 ## **移除切片器**
 

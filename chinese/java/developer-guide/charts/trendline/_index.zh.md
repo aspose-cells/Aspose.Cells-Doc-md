@@ -8,7 +8,7 @@ url: /zh/java/get-equation-text-of-chart-trendline/
 
 {{% alert color="primary" %}}
 
-您可以使用Aspose.Cells检索图表趋势线的方程文本。Aspose.Cells提供[**Trendline.getDataLabels().getText()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#Text)属性，该属性返回图表趋势线的方程文本。要使用此属性，您首先必须调用[**Chart.calculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#calculate())方法。
+您可以使用Aspose.Cells检索图表趋势线的方程文本。Aspose.Cells提供了[**Trendline.getDataLabels().getText()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#Text)属性，该属性返回图表趋势线的方程文本。要使用此属性，您首先必须调用[**Chart.calculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#calculate--)方法。
 
 {{% /alert %}}
 

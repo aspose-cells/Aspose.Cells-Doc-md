@@ -27,7 +27,7 @@ Aspose.Cells 支持在工作簿内部或工作簿之间复制和移动工作表�
 
 ## **在工作簿内复制工作表**
 
-Aspose.Cells提供了一个重载方法（[**WorksheetCollection.addCopy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#addCopy(int)），用于向集合中添加工作表并从现有工作表复制数据。该方法的一个版本将源工作表的索引作为参数。另一个版本将源工作表的名称作为参数。
+Aspose.Cells提供了一个重载方法，[**WorksheetCollection.addCopy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#addCopy(int))，用于将工作表添加到集合并从现有工作表复制数据。该方法的一个版本将源工作表的索引作为参数。另一个版本将源工作表的名称作为参数。
 
 以下示例显示了如何在工作簿内复制现有工作表。
 
@@ -35,7 +35,7 @@ Aspose.Cells提供了一个重载方法（[**WorksheetCollection.addCopy()**](ht
 
 ## **在工作簿之间复制工作表**
 
-Aspose.Cells提供了一个方法（[**Worksheet.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)），用于将来源工作表的数据和格式复制到工作簿内或工作之间的另一个工作表。该方法以源工作表对象作为参数。
+Aspose.Cells提供了[**Worksheet.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet))方法，用于将数据和格式从源工作表复制到同一工作簿或不同工作簿中的另一个工作表。
 
 以下示例显示了如何将一个工作表从一个工作簿复制到另一个工作簿。
 
@@ -47,7 +47,7 @@ Aspose.Cells提供了一个方法（[**Worksheet.copy()**](https://reference.asp
 
 ## **在工作簿内部移动工作表**
 
-Aspose.Cells提供了一个方法（[**Worksheet.moveTo()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#moveTo(int)），用于将工作表移到同一电子表格中的另一个位置。
+Aspose.Cells提供了[**Worksheet.moveTo()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#moveTo(int))方法，用于将工作表移动到同一电子表格中的另一个位置。
 
 以下示例显示了如何将工作表移动到工作簿内的另一个位置。
 

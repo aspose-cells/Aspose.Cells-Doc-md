@@ -15,7 +15,7 @@ keywords: 合并多个工作表为一个、使用 Java 合并多个工作表为�
 
 ## **如何合并工作表**
 
-下面的示例使用[**Range.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)) 方法将所有源工作表复制到目标工作簿内的单个工作表中。
+下面的示例使用[**Range.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range))方法将所有源工作表复制到目标工作簿的单个工作表中。
 
 ### **源工作簿**
 

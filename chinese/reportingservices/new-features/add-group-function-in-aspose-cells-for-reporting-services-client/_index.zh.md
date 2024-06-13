@@ -1,5 +1,5 @@
 ---
-title: Aspose.Cells for Reporting Services客户端中添加群组功能
+title: Aspose.Cells for Reporting Services客户端中的添加组功能
 type: docs
 weight: 120
 url: /zh/reportingservices/add-group-function-in-aspose-cells-for-reporting-services-client/

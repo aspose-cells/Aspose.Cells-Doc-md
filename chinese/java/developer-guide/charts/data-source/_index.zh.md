@@ -21,7 +21,7 @@ url: /zh/java/data-formatting-in-charts/
 
 ### **图表数据**
 
-图表数据是我们用作图表数据源的数据。通过调用[**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)对象的[**Add**](https://reference.aspose.com/cells/java/com.aspose.cells/seriescollection#add(java.lang.Object)方法，可以添加一个单元格范围（包含图表数据）。
+图表数据是我们用作图表数据源的数据。我们可以通过调用[**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)对象的[**Add**](https://reference.aspose.com/cells/java/com.aspose.cells/seriescollection#add(java.lang.Object))方法添加一个单元格范围（其中包含图表数据）。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsData-SettingChartsData.java" >}}
 

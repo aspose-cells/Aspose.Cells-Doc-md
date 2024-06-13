@@ -16,7 +16,7 @@ Aspose.Cells for Python via .NET允许您从工作簿中导出工作表并将其
 
 ## 将工作簿转换为TIFF
 
-Excel文件可能包含具有多个页面的多个工作表。[WorkbookRender](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/workbookrender)允许您将Excel转换为具有多个页面的TIFF。此外，您可以控制TIFF的多个选项，如[压缩](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/tiff_compression/)、[颜色深度](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/tiff_color_depth/)、分辨率([水平分辨率](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/horizontal_resolution/)、[垂直分辨率](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/vertical_resolution/))。
+Excel文件可以包含多个带有多个页面的工作表。[**WorkbookRender**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/workbookrender)允许您将Excel转换为具有多个页面的TIFF。您还可以控制TIFF的多个选项，如[压缩](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/tiff_compression/)，[颜色深度](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/tiff_color_depth/)，分辨率（[水平分辨率](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/horizontal_resolution/)，[垂直分辨率](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/vertical_resolution/)）。
 
 以下代码片段显示了如何将Excel转换为具有多个页面的TIFF。[源Excel文件](workbook-to-tiff-with-mulitiple-pages.xlsx)和[生成的TIFF图像](workbook-to-tiff-with-mulitiple-pages.tiff)附在此供参考。
 
@@ -28,9 +28,9 @@ Excel文件可能包含具有多个页面的多个工作表。[WorkbookRender](h
 
 作为开发人员，您可能需要将工作表呈现为图像。例如，您可能需要在应用程序或网页中使用工作表的图像。您可能希望将图像插入到 Microsoft Word 文档、PDF 文件、PowerPoint 演示文稿或其他文档类型中。简而言之，您希望将工作表呈现为图像，以便在其他地方使用它。
 
-Aspose.Cells for Python via .NET支持将Excel工作表转换为图像。要使用此功能，您需要将**[aspose.cells.rendering](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/)**命名空间导入您的程序或项目。它有几个有用的类可用于呈现和打印，例如**[SheetRender](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/)**、**[ImageOrPrintOptions](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/)**、**[WorkbookRender](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/workbookrender/)**等。
+Aspose.Cells for Python via .NET支持将Excel工作表转换为图像。要使用此功能，您需要将[**aspose.cells.rendering**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/)命名空间导入到您的程序或项目中。它具有几个有价值的类用于渲染和打印，例如[**SheetRender**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/)、[**ImageOrPrintOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/)、[**WorkbookRender**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/workbookrender/)等。
 
-**[SheetRender](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/)**类表示要作为图像呈现的工作表。它有一个重载方法**[to_image](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/to_image/#int-str)**，可以使用不同的属性或选项将工作表转换为图像文件。它返回一个System.Drawing.Bitmap对象，您可以将图像文件保存到磁盘或流中。支持多种图像格式，例如BMP、PNG、GIF、JPG、JPEG、TIFF、EMF。
+[**SheetRender**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/) 类代表要渲染为图像的工作表。 它有一个重载方法，[**to_image**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/to_image/#int-str)，可以将工作表转换为具有不同属性或选项的图像文件。 它返回一个 System.Drawing.Bitmap 对象，您可以将图像文件保存到磁盘或流中。 支持几种图像格式，例如 BMP、PNG、GIF、JPG、JPEG、TIFF、EMF。
 
 以下代码片段显示了如何将Excel文件中的工作表转换为图像文件。
 

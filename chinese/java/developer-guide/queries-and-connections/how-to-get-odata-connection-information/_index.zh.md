@@ -21,12 +21,16 @@ url: /zh/java/how-to-get-odata-connection-information/
 
 ### **控制台输出**
 
-连接名称：Orders
+{{< highlight java >}}
 
-名称：Source
+Connection Name: Orders
 
-值：OData.Feed("https://services.odata.org/V3/Northwind/Northwind.svc/", null, [Implementation="2.0"])
+Name: Source
 
-名称：Orders_table
+Value: OData.Feed("https://services.odata.org/V3/Northwind/Northwind.svc/", null, [Implementation="2.0"])
 
-数值：Source{[Name="订单",Signature="表"]}[数据]
+Name: Orders_table
+
+Value: Source{[Name="Orders",Signature="table"]}[Data]
+
+{{< /highlight >}}

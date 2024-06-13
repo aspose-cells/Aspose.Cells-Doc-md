@@ -5,7 +5,7 @@ weight: 60
 url: /zh/sharepoint/search-in-a-document/
 ---
 
-Aspose.Cells for SharePoint 支持在 SharePoint 站点中存储的文档中进行搜索。 Aspose.Cells for SharePoint 支持以下输入格式以预览文档:
+Aspose.Cells for SharePoint支持在SharePoint网站中存储的文档中进行搜索。Aspose.Cells for Share Point支持以下输入格式以预览文档:
 
 - XLS – Microsoft Excel 97 - 2003
 - XLSX – Office Open XML

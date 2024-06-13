@@ -7,11 +7,11 @@ url: /zh/reportingservices/configuring-encryption/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells为报表服务支持加密，您可以渲染加密的Microsoft Excel文件。 
+Aspose.Cells for Reporting Services 支持加密，您可以渲染加密的 Microsoft Excel 文件。 
 
 {{% /alert %}} 
 ### **加密类型**
-Aspose.Cells针对报表服务的Excel文件导出支持加密。它支持三种加密类型：
+在导出 Excel 文件时，Aspose.Cells for Reporting Services 支持加密。它支持三种加密类型：
 
 - XOR
 - 弱加密

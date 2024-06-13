@@ -11,10 +11,10 @@ Microsoft Report Viewer是一个强大的.NET控件，允许在WinForms和ASP.NE
 
 Report Viewer可以独立生成报表，使用内置引擎(称为“本地模式”)，也可以显示在Microsoft SQL Server Reporting Services报表服务器上生成的报表(“远程模式”)：
 
-- 在远程模式下，Report Viewer可以将报表导出到与其连接的报表服务器上安装的所有格式。因此，要将报表导出为更多的Microsoft Excel格式，只需在服务器上安装Aspose.Cells for Reporting Services。
+- 在远程模式下，报表查看器可以将报表导出到连接的报表服务器上安装的所有格式。因此，要将报表导出到更多的Microsoft Excel格式，您只需要在服务器上安装Aspose.Cells for Reporting Services。
 - 但是在本地模式下，Report Viewer不连接到报表服务器，导出格式列表仅限于一些内置格式。
 
-通过在开发计算机上安装Aspose.Cells for Reporting Services，并按照以下步骤，您可以从工作在本地模式的Report Viewer导出更多的Microsoft Excel格式。 
+通过在开发机器上安装Aspose.Cells for Reporting Services并按照下面的步骤操作，可以通过在本地模式下工作的报表查看器将报表导出到更多的Microsoft Excel格式。 
 
 {{% /alert %}} 
 ### **在本地模式中使用Aspose.Cells**
@@ -247,9 +247,9 @@ End Sub
 {{< /highlight >}}
 
 1. 从代码中调用 AddExtension 方法。 
-   - 每当需要向 Report Viewer 控件实例添加 Aspose.Cells for Reporting Services 导出格式时，可以调用 AddExtension（如前一步骤所示）。考虑从 WinForms 或 ASP.NET 应用程序的 Form_Load 或 Page_Load 事件处理程序中调用。
-   - 您可以添加所有或部分导出 Aspose.Cells for Reporting Services 导出格式。您可以为格式指定任何显示名称，以在 Report Viewer 中显示。
-     要在本地模式下向 Microsoft Report Viewer 添加 Aspose.Cells for Reporting Services 导出格式，请使用以下代码： 
+   - 您可以随时调用AddExtension（上一步中显示的）来向报表查看器控件实例添加Aspose.Cells for Reporting Services导出格式。考虑从WinForms或ASP.NET应用程序的Form_Load或Page_Load事件处理程序中调用。
+   - 您可以添加所有或只添加一些Aspose.Cells for Reporting Services导出格式。您可以为要显示在报表查看器中的格式指定任何显示名称。
+     要将Aspose.Cells for Reporting Services导出格式添加到本地模式下的Microsoft报表查看器中，请使用以下代码： 
 
 **C#**
 

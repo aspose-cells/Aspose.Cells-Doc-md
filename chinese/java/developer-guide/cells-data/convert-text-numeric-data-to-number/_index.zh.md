@@ -28,13 +28,13 @@ keywords: excel将文本转换为数字，excel将文本转换为数字java，ex
 <img src="3.png" width=70% />
 
 ## 使用Aspose.Cells for JAVA将存储为文本的数字转换为数字
-Aspose.Cells for Java API 提供了 [**Cells.convertStringToNumericValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#convertStringToNumericValue() 方法，可用于将所有字符串或文本数字数据转换为数字。
+Aspose.Cells for Java API提供了[**Cells.convertStringToNumericValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#convertStringToNumericValue--)方法，可用于将所有字符串或文本数字数据转换为数字。
 
 以下截图显示了单元格**A1:A17**中的字符串数字。字符串数字对齐到左边。
 <br>
 <img src="5.png" width=70% />
 
-在以下截图中，这些字符串数字已使用[**Cells.convertStringToNumericValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#convertStringToNumericValue()) 转换为数字。正如您所见，它们现在右对齐。
+这些字符串数字已经使用[**Cells.convertStringToNumericValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#convertStringToNumericValue--) 转换为数字，如下面的截图所示。您可以看到，它们现在是右对齐的。
 <br>
 <img src="6.png" width=70% />
 

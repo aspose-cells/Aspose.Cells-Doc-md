@@ -15,7 +15,7 @@ Aspose.Cells允许您从工作簿导出工作表并将其转换为不同的格�
 
 有时保存工作表图片是很有用的。图片可以在线共享，插入到其他文档（例如用Microsoft Word编写的报告或PowerPoint演示文稿）。
 
-Aspose.Cells通过**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)**类提供图像导出。这个类表示将转换为图像的工作表。**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)**类提供**[toImage()](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream))**方法来将工作表转换为图像文件。支持BMP、PNG、JPEG、TIFF和EMF格式。
+Aspose.Cells通过[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)类提供图像导出功能。该类表示将呈现为图像的工作表。[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)类提供了将工作表转换为图像文件的[**toImage()**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream))方法。支持BMP、PNG、JPEG、TIFF和EMF格式。
 
 {{% alert color="primary" %}}
 
@@ -37,11 +37,11 @@ SVG代表**可伸缩矢量图形**。SVG是基于XML标准的二维矢量图形�
 
 自 v7.1.0 发布以来，**Aspose.Cells for Java** 可以将工作表转换为 SVG 图像。
 
-要使用此功能，需要将com.aspose.cells命名空间导入到您的程序或项目中。它有几个有价值的类用于渲染和打印，例如**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)**、**[ImageOrPrintOptions](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)**、**[WorkbookRender](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender)**等。
+要使用此功能，您需要在程序或项目中导入com.aspose.cells命名空间。它有一些有价值的类用于呈现和打印，例如[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)、[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)、[**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender)等。
 
-**[com.aspose.cells.ImageOrPrintOptions](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)**类指定将以SVG格式保存工作表。
+[**com.aspose.cells.ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)类指定工作表将以SVG格式保存。
 
-**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)**类以**[ImageOrPrintOptions](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)**对象作为参数，设置保存格式为SVG格式。
+[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)类以[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)的对象作为参数，设置保存格式为SVG格式。
 
 下面的代码片段显示了如何将Excel文件中的工作表转换为SVG图像文件。
 

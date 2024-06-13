@@ -19,7 +19,7 @@ url: /zh/java/protect-and-unprotect-worksheet/
 
 Aspose.Cells提供一个表示Microsoft Excel文件的类，[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)。Workbook类包含一个WorksheetCollection，允许访问Excel文件中的每个工作表。工作表由[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)类表示。
 
-Worksheet类提供[**Protect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#protect(int)）方法，用于对工作表应用保护。Protect方法接受以下参数：
+工作表类提供了[**Protect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#protect(int))方法，用于对工作表应用保护。Protect方法接受以下参数：
 
 - 保护类型，应用于工作表的保护类型。保护类型是使用[**ProtectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ProtectionType)枚举来应用的。
 - 新密码，用于保护工作表的新密码。
@@ -99,7 +99,7 @@ ProtectionType枚举包含以下预定义的保护类型：
 
 ### **在工作表中保护一行**
 
-Aspose.Cells允许您轻松地锁定工作表中的任何行。在这里，我们可以利用[**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)类的[**Row**](https://reference.aspose.com/cells/java/com.aspose.cells/Row)方法来向工作表中的特定行应用样式。此方法需要两个参数：一个[**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style)对象和一个包含所有与应用格式相关的成员的[**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag)结构。
+Aspose.Cells允许您轻松地锁定工作表中的任何行。在这里，我们可以利用[**Row**](https://reference.aspose.com/cells/java/com.aspose.cells/Row)类的[**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag))方法来将样式应用到工作表中的特定行。此方法接受两个参数：[**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style)对象和[**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag)结构，该结构具有所有与应用格式相关的成员。
 
 下面的示例显示了如何在工作表中保护一行。首先它解锁工作表中的所有单元格，然后锁定其中的第一行。最后，保护工作表。行/列有一个Style API，进一步包含了一个setCellLocked方法。您可以使用StyleFlag结构来锁定或解锁行/列。
 
@@ -107,7 +107,7 @@ Aspose.Cells允许您轻松地锁定工作表中的任何行。在这里，我�
 
 ### **在工作表中保护一列**
 
-Aspose.Cells允许您轻松地锁定工作表中的任何列。在这里，我们可以利用[**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)类的[**Column**](https://reference.aspose.com/cells/java/com.aspose.cells/Column)方法来向工作表中的特定列应用样式。此方法需要两个参数：一个[**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style)对象和一个包含所有与应用格式相关的成员的[**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag)结构。
+Aspose.Cells允许您轻松地锁定工作表中的任何列。在这里，我们可以利用[**Column**](https://reference.aspose.com/cells/java/com.aspose.cells/Column)类的[**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag))方法来将样式应用到工作表中的特定列。此方法接受两个参数：[**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style)对象和[**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag)结构，该结构具有所有与应用格式相关的成员。
 
 下面的示例显示了如何在工作表中保护一列。首先它解锁工作表中的所有单元格，然后锁定其中的第一列。最后，保护工作表。行/列有一个Style API，进一步包含了一个set Locked方法。您可以使用StyleFlag结构来锁定或解锁行/列。
 
@@ -135,7 +135,7 @@ Aspose.Cells允许您轻松地锁定工作表中的任何列。在这里，我�
 
 ### **使用Aspose.Cells**
 
-可以通过调用[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)类的[**Unprotect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#unprotect()方法来取消保护工作表。[**Unprotect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#unprotect()方法可以有两种用法，如下所述。
+可以通过调用[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)类的[**Unprotect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#unprotect--)方法来取消工作表的保护。 [**Unprotect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#unprotect--)方法可以有两种用法，如下所述。
 
 ### **取消简单保护的工作表**
 

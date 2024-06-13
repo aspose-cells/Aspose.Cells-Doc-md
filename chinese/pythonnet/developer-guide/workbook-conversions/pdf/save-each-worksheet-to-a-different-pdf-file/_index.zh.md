@@ -13,7 +13,7 @@ Aspose.Cells for Python via .NET支持将包含图像、图表等的XLS文件转
 
 {{% /alert %}} 
 ## **将每个工作表保存为不同的PDF文件**
-如果需要将模板Excel文件中的每个工作表保存为不同的PDF文件，您可以轻松实现此目标。您可以尝试逐次将一个工作表索引设置为**[`PdfSaveOptions.sheet_set`](https://reference.aspose.com/cells/python-net/aspose.cells/paginatedsaveoptions/sheet_set/)**选项，以呈现为PDF。
+如果您需要保存模板 Excel 文件中的每个工作表以生成不同的 PDF 文件，这很容易实现。您可以尝试逐个将一个工作表索引设置为 [**PdfSaveOptions.sheet_set**](https://reference.aspose.com/cells/python-net/aspose.cells/paginatedsaveoptions/sheet_set/) 选项以渲染为 PDF。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-SaveEachWorksheetToDifferentPDF-1.py" >}}
 

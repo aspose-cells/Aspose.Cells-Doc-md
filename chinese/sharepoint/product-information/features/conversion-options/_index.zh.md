@@ -7,7 +7,7 @@ url: /zh/sharepoint/conversion-options/
 
 {{% alert color="primary" %}} 
 
-为了使转换过程尽可能灵活，Aspose.Cells for SharePoint允许您设置定义转换后文件处理方式的选项。
+为了尽可能灵活地进行转换过程，Aspose.Cells for SharePoint允许您设置定义转换文件处理方式的选项。
 
 {{% /alert %}} 
 ### **选项**

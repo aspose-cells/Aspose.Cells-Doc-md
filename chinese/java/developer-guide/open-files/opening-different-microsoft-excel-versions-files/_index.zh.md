@@ -13,9 +13,9 @@ Aspose.Cells 可以打开一系列不同版本的 Microsoft Excel 文件，例�
 
 ## **打开不同版本的 Microsoft Excel 文件**
 
-应用程序通常需要能够打开由不同版本创建的 Microsoft Excel 文件，例如 Microsoft Excel 95、97 或 Microsoft Excel 2007/2010/2013/2016/2019 和 Office 365。您可能需要以其中一种格式加载文件，包括 XLS、XLSX、XLSM、XLSB、SpreadsheetML、TabDelimited 或 TSV、CSV、ODS 等等。使用构造函数，或使用 **[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)** 类的 **[setFileFormat](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#FileFormat)** 方法来指定格式，使用 **[FileFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/FileFormatType)** 枚举。
+应用程序经常必须能够打开以不同版本创建的Microsoft Excel文件，例如Microsoft Excel 95、97，或Microsoft Excel 2007/2010/2013/2016/2019和Office 365。您可能需要加载多种格式的文件，包括XLS、XLSX、XLSM、XLSB、SpreadsheetML、TabDelimited或TSV、CSV、ODS等。使用构造函数，或使用[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)类的[**setFileFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#FileFormat)方法来使用[**FileFormatType**](https://reference.aspose.com/cells/java/com.aspose.cells/FileFormatType)枚举来指定格式。
 
-**[FileFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/FileFormatType)** 枚举包含许多预定义的文件格式，其中一些如下所示。
+[**FileFormatType**](https://reference.aspose.com/cells/java/com.aspose.cells/FileFormatType)枚举包含许多预定义的文件格式，其中一些如下所示。
 
 |**文件格式类型**|**描述**|
 | :- | :- |
@@ -35,7 +35,7 @@ Aspose.Cells 可以打开一系列不同版本的 Microsoft Excel 文件，例�
 
 ### **打开Microsoft Excel 95/5.0文件**
 
-要打开 Microsoft Excel 95/5.0 文件，请使用**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)**，并为要加载的模板文件设置**LoadOptions**类的相关属性。可以从以下链接下载用于测试此功能的示例文件。
+要打开Microsoft Excel 95/5.0文件，请使用 [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) 并为要加载的 [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) 类设置相关属性。
 
 [Excel95文件](Excel95.xls)
 
@@ -43,19 +43,19 @@ Aspose.Cells 可以打开一系列不同版本的 Microsoft Excel 文件，例�
 
 ### **打开Microsoft Excel 97-2003文件**
 
-要打开 Microsoft Excel 97 - 2003 文件，请使用**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)**，并为要加载的模板文件设置**LoadOptions**类的相关属性。
+要打开Microsoft Excel 97 - 2003文件，请使用 [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) 并为要加载的 [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) 类设置相关属性。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "OpenExcel97-2003Files.java" >}}
 
 ### **打开Microsoft Excel 2007/2010/2013/2016/2019和Office 365 XLSX文件**
 
-要打开 Microsoft Excel 2007/2010/2013/2016/2019 和 Office 365 格式，即 XLSX 或 XLSB，请指定文件路径。您还可以使用**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)**并设置**LoadOptions**类的相关属性/选项来加载模板文件。
+要打开Microsoft Excel 2007/2010/2013/2016/2019和Office 365格式，即XLSX或XLSB，请指定文件路径。也可以使用 [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) 并设置 [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) 类的相关属性/选项来加载要加载的模板文件。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "OpenExcel2007Files.java" >}}
 
 ### **打开密码加密的 Excel 文件**
 
-可以使用 Microsoft Excel 创建加密的 Excel 文件。要打开加密文件，请使用**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)**并设置其属性和选项（例如，提供密码）以加载模板文件。 
+可以使用Microsoft Excel创建加密的Excel文件。要打开加密文件，请使用 [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) 并为要加载的模板文件设置其属性和选项（例如，给定密码）。 
 您可以从以下链接下载测试此功能的示例文件：
 
 [Encrypted Excel](EncryptedExcel.xlsx)

@@ -16,9 +16,9 @@ Aspose.Cells 可以创建和保存文件。本文介绍了可保存文件的各�
 
 ## **不同的文件保存方式**
 
-Aspose.Cells 提供 **[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)** 表示 Microsoft Excel 文件，并提供操作 Excel 文件所需的属性和方法。**[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)** 类提供了用于保存 Excel 文件的 **[Save](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** 方法。**[Save](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** 方法有许多重载，用于以不同的方式保存文件。
+Aspose.Cells提供了[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)，代表Microsoft Excel文件，并提供必要的属性和方法来处理Excel文件。[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类提供了用于保存Excel文件的[**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)方法。[**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)方法有许多重载，用于以不同的方式保存文件。
 
-文件保存的文件格式由**[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** 枚举决定
+保存文件的文件格式由[**SaveFormat**](https://reference.aspose.com/cells/net/aspose.cells/saveformat)枚举决定
 
 |**文件格式类型**|**描述**|
 | :- | :- |
@@ -41,7 +41,7 @@ Aspose.Cells 提供 **[Workbook](https://reference.aspose.com/cells/net/aspose.c
 
 ## **如何将文件保存为不同的格式**
 
-要将文件保存到存储位置，请在调用**[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)** 对象的**[Save](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** 方法时，指定文件名（包括存储路径）和所需的文件格式（从**[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** 枚举中选择）
+要将文件保存到存储位置，请在调用[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)对象的[**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)方法时指定文件名（包括存储路径）和所需的文件格式（从[**SaveFormat**](https://reference.aspose.com/cells/net/aspose.cells/saveformat)枚举中）。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoSomeLocation-1.cs" >}}
 
@@ -59,7 +59,7 @@ Aspose.Cells 提供 **[Workbook](https://reference.aspose.com/cells/net/aspose.c
 
 执行代码后，将会将工作簿中所有工作表的数据转换为TXT格式。
 
-您可以修改相同的示例以将文件保存为CSV格式。默认情况下，[TxtSaveOptions.Separator](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator)是逗号，因此在保存为CSV格式时不需要指定分隔符。
+您可以修改相同的示例以将文件保存为CSV格式。默认情况下，[**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator)为逗号，因此在保存为CSV格式时不需要指定分隔符。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveWorkbookToTextCSVFormat-1.cs" >}}
 
@@ -71,7 +71,7 @@ Aspose.Cells 提供 **[Workbook](https://reference.aspose.com/cells/net/aspose.c
 
 ## **如何将文件保存到流中**
 
-要将文件保存到流中，创建一个*MemoryStream*或*FileStream*对象，并通过调用**[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)**对象的**[Save](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**方法将文件保存到该流对象。在调用**[Save](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**方法时，使用**[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**枚举指定所需的文件格式。
+要将文件保存到流，请创建*MemoryStream*或*FileStream*对象，并通过调用[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)对象的[**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)方法将文件保存到该流对象。在调用[**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)方法时，使用[**SaveFormat**](https://reference.aspose.com/cells/net/aspose.cells/saveformat)枚举指定所需的文件格式。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoStream-1.cs" >}}
 

@@ -5,7 +5,7 @@ weight: 20
 url: /zh/reportingservices/delimiters/
 ---
 
-在生成 TXT 或 CSV 格式时，Aspose.Cells for Reporting Services 支持指定的分隔符。两个设置控制 Aspose.Cells for Reporting Services 中的字段分隔符。
+Aspose.Cells for Reporting Services 支持在呈现为 TXT 或 CSV 格式时使用指定的分隔符。在 Aspose.Cells for Reporting Services 中有两个设置来控制字段分隔符。
 
 1. **rsreportserver.config** 中的字段分隔符参数只能控制指定的渲染扩展。 
 

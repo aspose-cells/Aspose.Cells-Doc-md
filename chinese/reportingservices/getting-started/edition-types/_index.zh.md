@@ -7,9 +7,9 @@ url: /zh/reportingservices/edition-types/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells报告服务仅提供一种版本。以下是功能摘要。
+Aspose.Cells for Reporting Services只提供一种版本。以下是其特点总结。
 
-|**功能** |**Aspose.Cells报告服务** |
+|**特点** |**Aspose.Cells for Reporting Services** |
 | :- | :- |
 |Aspose.Cells报告设计器 |是 |
 |用于报告服务的Aspose.Cells渲染器。 |是 |

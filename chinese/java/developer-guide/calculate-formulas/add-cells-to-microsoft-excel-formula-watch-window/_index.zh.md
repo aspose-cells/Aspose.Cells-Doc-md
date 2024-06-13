@@ -7,7 +7,7 @@ url: /zh/java/add-cells-to-microsoft-excel-formula-watch-window/
 
 ## **可能的使用场景**
 
-Microsoft Excel监视窗口是一个实用工具，可方便地在一个窗口中观察单元格的值和公式。您可以通过点击*公式 > 观察窗口*在Microsoft Excel中打开*观察窗口*。它有一个*添加观察*按钮，可用于添加需要检查的单元格。同样，您也可以使用[**Worksheet.getCellWatches().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/cellwatchcollection#add(int,%20int)）方法，通过Aspose.Cells API将单元格添加到*观察窗口*中。
+Microsoft Excel观察窗口是一个方便查看单元格值和其公式的工具。您可以通过单击*公式 > 观察窗口*在Microsoft Excel中打开*观察窗口*。它有*添加观察*按钮，可用于将单元格添加到*观察窗口*中。类似地，您可以使用Aspose.Cells API的[**Worksheet.getCellWatches().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/cellwatchcollection#add(int,%20int))方法将单元格添加到*观察窗口*中。
 
 ## **将单元格添加到Microsoft Excel公式监视窗口**
 

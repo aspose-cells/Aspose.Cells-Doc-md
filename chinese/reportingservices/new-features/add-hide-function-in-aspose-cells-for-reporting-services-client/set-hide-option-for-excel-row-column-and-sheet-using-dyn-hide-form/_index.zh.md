@@ -5,7 +5,7 @@ weight: 20
 url: /zh/reportingservices/set-hide-option-for-excel-row-column-and-sheet-using-dyn-hide-form/
 ---
 
-Aspose.Cells for Reporting Services根据隐藏参数隐藏任何指定的行、列和工作表。参数包括：
+Aspose.Cells for Reporting Services 隐藏了在隐藏参数中设置的任何指定行、列和工作表。这些参数包括：
 
 - **SheetName**表示指定隐藏对象的工作表。
 - **类型**表示隐藏对象类型。包括工作表、行和列。

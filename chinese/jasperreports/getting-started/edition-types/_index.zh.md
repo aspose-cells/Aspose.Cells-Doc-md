@@ -7,6 +7,6 @@ url: /zh/jasperreports/edition-types/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells for JasperReports只提供一种版本类型:企业版
+Aspose.Cells for JasperReports 只提供一种版本：企业版。
 
 {{% /alert %}}

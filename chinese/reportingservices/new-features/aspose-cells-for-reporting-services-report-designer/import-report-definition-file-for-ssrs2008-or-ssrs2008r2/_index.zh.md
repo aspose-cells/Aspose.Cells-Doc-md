@@ -5,4 +5,4 @@ weight: 20
 url: /zh/reportingservices/import-report-definition-file-for-ssrs2008-or-ssrs2008r2/
 ---
 
-当Aspose.Cells for Reporting Services报告设计器打开报告定义文件时，它可以将报告项导入到Microsoft Excel文件中。
+当 Aspose.Cells for Reporting Services 报表设计器打开报表定义文件时，它可以将报表项导入到 Microsoft Excel 文件中。

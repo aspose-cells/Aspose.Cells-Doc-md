@@ -1,5 +1,5 @@
 ---
-title: 为 SharePoint 打开 Aspose.Cells 许可证
+title: 许可证 Aspose.Cells for SharePoint
 type: docs
 weight: 70
 url: /zh/sharepoint/license-aspose-cells-for-sharepoint/

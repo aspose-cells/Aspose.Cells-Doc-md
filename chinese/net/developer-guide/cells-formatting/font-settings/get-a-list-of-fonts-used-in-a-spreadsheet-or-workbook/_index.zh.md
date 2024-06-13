@@ -13,7 +13,7 @@ url: /zh/net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/
 
 为了处理这种情况，您应该知道工作簿中使用的字体，然后在Windows环境中安装这些字体，或者在Windows或Linux环境中将其放置在您的字体目录中。
 
-Aspose.Cells提供了**[Workbook.GetFonts](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/getfonts)** 方法，用于返回工作簿或电子表格中使用的所有字体的列表。
+Aspose.Cells 提供了 [**Workbook.GetFonts**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/getfonts) 方法，用于返回工作簿或电子表格中使用的所有字体列表。
 
 ## **获取电子表格或工作簿中使用的字体列表**
 

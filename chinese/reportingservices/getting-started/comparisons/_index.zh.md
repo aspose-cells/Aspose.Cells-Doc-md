@@ -7,10 +7,10 @@ url: /zh/reportingservices/comparisons/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Reporting Services与其他类似产品的区别如下所述。 
+Aspose.Cells for Reporting Services与其他类似产品的区别总结如下。 
 - **功能比较**
 
-|**功能** |**Aspose.Cells for Reporting Services** |** SA OfficeWriter** |** Visual Studio + Microsoft Excel标准渲染** |
+|**特点** |**Aspose.Cells for Reporting Services** |**SA OfficeWriter** |**Visual Studio + Microsoft Excel标准渲染器** |
 | :- | :- | :- | :- |
 |将标准RDL报告导出到Microsoft Excel。 |是 |否 |部分(1) |
 |在Microsoft Excel中设计和交付报告。 |是 |是 |否 |

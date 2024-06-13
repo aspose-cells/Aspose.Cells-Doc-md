@@ -26,7 +26,7 @@ Aspose.Cells提供了一个表示Excel文件的类，[**Workbook**](https://refe
 
 ## **向新的Excel文件添加工作表**
 
-要以编程方式创建新的Excel文件，开发人员需要创建一个表示Excel文件的[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)类的对象。然后开发人员可以调用[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add()方法。当我们调用[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)方法时，会自动向Excel文件添加一个空的工作表，可以通过将新添加的工作表的索引传递给[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add()来引用。获得工作表引用后，开发人员可以根据自己的需要在工作表上进行操作。在完成工作表上的工作后，开发人员可以通过调用[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)方法将带有新工作表的新创建的Excel文件保存在[**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)类中。
+要通过编程方式创建一个新的Excel文件，开发人员需要创建一个代表Excel文件的[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)类的对象。然后开发人员可以调用[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)的[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--)方法。当调用[**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--)方法时，一个空工作表会自动添加到Excel文件中，可以通过将新添加的工作表的索引传递给[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)来引用该工作表。获取工作表引用后，开发人员可以根据自己的需求处理工作表。在对工作表完成操作后，开发人员可以通过调用[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)类的[**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))方法保存具有新工作表的新创建的Excel文件。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-AddingWorksheetstoNewExcelFile-AddingWorksheetstoNewExcelFile.java" >}}
 
@@ -44,7 +44,7 @@ Aspose.Cells提供了一个表示Excel文件的类，[**Workbook**](https://refe
 
 ## **使用工作表名称移除工作表**
 
-有时，开发人员可能需要从现有的 Excel 文件中移除工作表，这个任务可以通过调用 [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(java.lang.String)) 方法的 [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) 集合来完成。我们可以将工作表名称传递给 [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(java.lang.String)) 方法来移除特定的工作表。
+有时，开发人员可能需要从现有的Excel文件中移除工作表，这可以通过调用[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)集合的[**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(java.lang.String))方法来完成。我们可以将工作表名称传递给[**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(java.lang.String))方法以移除特定工作表。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovingWorksheetsusingSheetName-RemovingWorksheetsusingSheetName.java" >}}
 
@@ -52,7 +52,7 @@ Aspose.Cells提供了一个表示Excel文件的类，[**Workbook**](https://refe
 
 如果开发人员已经知道要删除的工作表的工作表名称，则上述移除工作表的方法效果良好。但是，如果您不知道要从 Excel 文件中删除的工作表的工作表名称，该怎么办呢？
 
-在这种情况下，开发人员可以使用重载版本的 [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(int)) 方法，该方法接受工作表的索引而不是工作表名称。
+在这种情况下，开发人员可以使用[**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(int))方法的重载版本，该版本使用工作表的索引而不是工作表的名称。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovingWorksheetsusingSheetIndex-RemovingWorksheetsusingSheetIndex.java" >}}
 

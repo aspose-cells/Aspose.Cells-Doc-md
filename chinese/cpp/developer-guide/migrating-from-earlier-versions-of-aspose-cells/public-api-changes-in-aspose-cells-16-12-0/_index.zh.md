@@ -12,9 +12,9 @@ url: /zh/cpp/public-api-changes-in-aspose-cells-16-12-0/
 {{% /alert %}} 
 ## **添加的 API**
 ### **支持数据透视表**
-Aspose.Cells for C++ 的第二个版本支持创建和操作数据透视表。 Aspose.Cells for C++ 提供了代表数据透视表对象的 IPivotTable 类，而 IPivotTableCollection 表示数据透视表的集合。 可以通过 IWorksheet 对象访问 IPivotTableCollection，并且可以使用 IPivotTableCollection.Add 方法将新的数据透视表添加到集合中。
+Aspose.Cells for C++的第二个版本支持创建和操纵数据透视表。Aspose.Cells for C++提供了IPivotTable类，它表示一个数据透视表对象，而IPivotTableCollection表示数据透视表的集合。可以通过IWorksheet对象访问IPivotTableCollection，并且在使用IPivotTableCollection.Add方法时可以向集合中添加新的数据透视表。
 
-以下代码片段演示了使用 Aspose.Cells for C++ API 从头开始创建数据透视表的简单方法。
+以下代码片段演示了使用Aspose.Cells for C++ API [从头开始创建数据透视表](/cells/zh/cpp/create-pivot-table/)是多么简单。
 
 **C++**
 
@@ -86,9 +86,9 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 
-除了创建新的数据透视表外，Aspose.Cells for C++ API 还支持操作现有的数据透视表。 该 API 目前支持更改数据透视表的源范围，然后刷新它。 一旦操作数据透视表如所需，最好使用 IPivotTable.RefreshData 和 IPivotTable.CalculateData 方法根据更新的数据源刷新数据透视表。
+除了创建新的数据透视表外，Aspose.Cells for C++ API还支持操纵现有的数据透视表。该API目前支持更改数据透视表的源范围中的数据，然后刷新数据透视表。一旦数据透视表按预期被操纵，最好使用IPivotTable.RefreshData和IPivotTable.CalculateData方法来刷新已更新数据源的数据透视表。
 
-以下代码片段使用 Aspose.Cells for C++ API [操作现有的数据透视表](/cells/zh/cpp/manipulate-pivot-table/)。
+以下代码片段使用Aspose.Cells for C++ API [操纵现有的数据透视表](/cells/zh/cpp/manipulate-pivot-table/)。
 
 **C++**
 
@@ -134,7 +134,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **支持条件格式规则**
-Aspose.Cells for C++ 现在提供了通过暴露 IFormatCondition 类向工作表添加条件格式规则的功能。 该类还提供了以下方法，根据应用程序要求[应用条件格式规则](/cells/zh/cpp/apply-conditional-formatting-in-worksheet/)。
+Aspose.Cells for C++现在提供了向工作表添加条件格式规则的功能，该功能通过暴露IFormatCondition类提供。上述类进一步提供了以下方法，以根据应用程序要求[应用条件格式规则](/cells/zh/cpp/apply-conditional-formatting-in-worksheet/)。
 
 - IFormatCondition.GetIAboveAverage
 - IFormatCondition.GetIColorScale
@@ -192,7 +192,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **支持超链接**
-Aspose.Cells for C++现在支持[向工作表单元格添加超链接](/cells/zh/cpp/add-hyperlinks-to-the-cells/)。为了提供这一功能，Aspose.Cells for C++ 16.12.0已经暴露了IHyperlinkCollection类，可以通过IWorksheet对象访问，而使用IHyperlinkCollection.Add方法可以将超链接添加到集合中，如下所示。
+Aspose.Cells for C++现在支持[向工作表单元格添加超链接](/cells/zh/cpp/add-hyperlinks-to-the-cells/)。为了提供此功能，Aspose.Cells for C++ 16.12.0已经公开了IHyperlinkCollection类，该类可以通过IWorksheet对象访问，而可以使用IHyperlinkCollection.Add方法将超链接添加到集合中，如以下所示。
 
 **C++**
 
@@ -231,7 +231,7 @@ Excel应用程序支持以下2种文档属性。
 - 系统定义（内置）属性：内置属性包含有关文档的常规信息，如文档标题，作者姓名，文档统计数据等。
 - 用户定义（自定义）属性：最终用户以名称值对的形式定义的自定义属性。
 
-Aspose.Cells for C++支持[管理内置和自定义文档属性](/cells/zh/cpp/managing-document-properties/)。Aspose.Cells的IWorkbook类表示Excel文件。为了访问内置文档属性，使用IWorkbook.GetBuiltInDocumentProperties，而使用IWorkbook.GetCustomDocumentProperties可以访问自定义文档属性。
+Aspose.Cells for C++支持[管理内置和自定义文档属性](/cells/zh/cpp/managing-document-properties/)。Aspose.Cells的IWorkbook类表示一个Excel文件。为了访问内置文档属性，使用IWorkbook.GetBuiltInDocumentProperties，而使用IWorkbook.GetCustomDocumentProperties方法可以访问自定义文档属性。
 
 以下示例代码加载现有的示例电子表格并读取内置文档属性，如标题，主题和名称为MyCustom1的自定义属性。
 
@@ -287,7 +287,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **支持ListObjects**
-Excel表格是包含任意行和列的单元格矩阵，而在Aspose.Cells for C++ API中，相同的表格被称为List Object。Aspose::Cells::Tables命名空间包含处理与List Objects相关操作的所有必要类。最值得一提的类是IListObject和IListObjectCollection，允许[创建和格式化List Objects](/cells/zh/cpp/create-and-format-table/)等。
+Excel表是包含任意行和列数量的单元格矩阵，而在Aspose.Cells for C++ API中相同的表称为List Object。Aspose::Cells::Tables命名空间包含所有与List Objects相关的操作相关的必要类。最值得一提的类是IListObject和IListObjectCollection，这些类允许[创建和格式化List Objects](/cells/zh/cpp/create-and-format-table/)等操作。
 
 以下示例代码加载示例电子表格文件，然后在范围A1:H10中创建一个List Object（表），然后利用其各种方法显示小计。
 
@@ -337,7 +337,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **支持行和列分组**
-Aspose.Cells for C++ API可以用于在使用ICells类时对行和列进行分组，该类基本上是给定工作表中所有单元格的集合。ICells类提供GroupRows和GroupColumns方法，分别用于[对行和列进行分组](/cells/zh/cpp/group-rows-and-columns-of-worksheet/)。
+通过使用ICells类（它基本上是给定工作表中所有单元格的集合）可以使用Aspose.Cells for C++ API来对行和列进行分组。ICells类提供了GroupRows和GroupColumns方法，以分别对行和列进行[分组操作](/cells/zh/cpp/group-rows-and-columns-of-worksheet/)。
 
 以下代码片段演示了上述两种方法的简单用法。
 
@@ -423,7 +423,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **主题支持**
-Aspose.Cells C++ API现在支持使用和操纵Excel应用程序提供的主题。
+Aspose.Cells for C++ APIs 现在支持使用和操作 Excel 应用程序提供的主题。
 #### **应用自定义主题颜色的能力**
 以下代码片段尝试[为工作簿创建新主题，使用自定义颜色](/cells/zh/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/)。
 
@@ -587,7 +587,7 @@ wb->Save(outputPath, SaveFormat_Xlsx);
 
 {{< /highlight >}}
 ## **重命名的API**
-随Aspose.Cells for C++ 16.12.0发布，我们已经将一些方法重命名，以保持接口统一。所有重命名API的列表如下。
+随着 Aspose.Cells for C++ 16.12.0 版本的发布，我们已经对一些方法进行了重命名，以保持接口的统一。 所有重命名的 API 列表如下。
 #### **ICell::SetStyle方法重命名为ICell::SetIStyle**
 #### **ICell::SetCharacters方法重命名为ICell::SetIFontSettings**
 #### **ICellsColor::SetThemeColor方法重命名为ICellsColor::SetIThemeColor**

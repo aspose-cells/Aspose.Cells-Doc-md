@@ -7,7 +7,7 @@ url: /zh/reportingservices/licensing/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Reporting Services 可以从[下载页面](https://downloads.aspose.com/cells/reportingservices)免费获取，且为无时间限制的评估版。产品的评估版和已授权版本相同。
+Aspose.Cells for Reporting Services可在[下载页面](https://downloads.aspose.com/cells/reportingservices)作为免费、无时间限制的评估版提供。产品的评估版和许可版是相同的。
 
 当您满意评估版时，请购买许可证。请确保您理解并同意订阅条款和条件。
 
@@ -35,7 +35,7 @@ Aspose.Cells for Reporting Services 可以从[下载页面](https://downloads.as
 
 要测试许可文件是否已正确安装，请将任何报表导出为 Microsoft Excel 工作簿。如果工作簿末尾不包含水印工作表，则许可文件已成功激活。
 
-Aspose.Cells for Reporting Services 在评估模式下工作时会插入评估水印工作表。当存在有效的许可文件，例如当 **Aspose.Cells.ReportingServices.lic** 存储于 $[安装文件夹]\License\ 文件夹时，不会有评估水印工作表。
+当在评估模式下工作时，Aspose.Cells for Reporting Services会注入一个评估水印工作表。例如，当**Aspose.Cells.ReportingServices.lic**文件在$[Installation Folder]\License\文件夹中时，不会有评估水印工作表。
 
 **在评估模式下创建的文件。注意第二个工作表。** 
 

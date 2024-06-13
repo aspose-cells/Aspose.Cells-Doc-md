@@ -7,9 +7,9 @@ url: /zh/python-java/format-pivot-table-cells/
 
 {{% alert color="primary" %}}
 
-有时，您会想要格式化数据透视表单元格。例如，您可能想要向数据透视表单元格应用背景颜色。Aspose.Cells提供了两种方法[**PivotTable.formatAll()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#formatAll(com.aspose.cells.Style))和[**PivotTable.format()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#format(int,%20int,%20com.aspose.cells.Style))，您可以用于此目的。
+有时，您想要格式化数据透视表单元。例如，您希望将背景颜色应用于数据透视表单元。Aspose.Cells提供了两个方法[**PivotTable.formatAll()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#formatAll(com.aspose.cells.Style))和[**PivotTable.format()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#format(int,%20int,%20com.aspose.cells.Style))，您可以用于此目的。
 
-[**PivotTable.formatAll()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#formatAll(com.aspose.cells.Style))为整个数据透视表应用样式，而[**PivotTable.format()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#format(int,%20int,%20com.aspose.cells.Style))则为数据透视表的单个单元格应用样式。
+[**PivotTable.formatAll()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#formatAll(com.aspose.cells.Style))将样式应用于整个数据透视表，而[**PivotTable.format()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#format(int,%20int,%20com.aspose.cells.Style))将样式应用于数据透视表的单个单元格。
 
 {{% /alert %}}
 

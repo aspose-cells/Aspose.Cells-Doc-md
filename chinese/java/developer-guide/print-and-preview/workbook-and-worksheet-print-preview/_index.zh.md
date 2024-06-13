@@ -23,5 +23,9 @@ Aspose.Cells 提供了打印预览功能。作业队列提供了 [**WorkbookPrin
 
 ### **控制台输出**
 
+{{< highlight java >}}
+
 Workbook page count: 1</br>
-工作表页数: 1
+Worksheet page count: 1
+
+{{< /highlight >}}

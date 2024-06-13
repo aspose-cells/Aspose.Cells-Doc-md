@@ -23,56 +23,56 @@ Aspose.Cells for Python via .NET 支持将 Excel 文件转换为 PDF，并在转
 
 Aspose.Cells for Python via .NET直接在输出文档中写入有关API和版本号的信息。例如，在将文档呈现为PDF时，Aspose.Cells for Python via .NET使用值，如 'Aspose.Cells for Python via .NET v23.2'，填充**PDF Producer**字段。
 
-请注意，您可以通过**[PdfSaveOptions.producer](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/producer/)**属性更改输出文档中的此信息。
+请注意，您可以通过 [**PdfSaveOptions.producer**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/producer/) 属性在输出文档中更改此信息。
 
 {{% /alert %}}
 
 ### **直接转换**
 
-Aspose.Cells for Python via .NET支持独立于其他软件的表格转换为PDF。只需使用**[Workbook](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)**类的**[save](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.SaveFormat)**方法将Excel文件保存为PDF。**[save](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.SaveFormat)**方法提供**[SaveFormat.PDF](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)**枚举成员，可将本机Excel文件转换为PDF格式。
+Aspose.Cells for Python via .NET支持独立于其他软件从电子表格转换为PDF。只需使用[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)类的[**save**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.SaveFormat)方法将Excel文件保存为PDF。[**save**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.SaveFormat)方法提供[**SaveFormat.PDF**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)枚举成员，将原生Excel文件转换为PDF格式。
 
 按以下步骤直接将Excel电子表格转换为PDF格式：
 
-1. 通过调用其空构造函数来实例化**[Workbook](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)**类的对象。
+通过调用其空构造函数实例化[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)类的对象。
 1. 您可以打开/加载现有模板文件，或者如果您是从头开始创建工作簿，则跳过此步骤。
 1. 使用Aspose.Cells for Python via .NET的API对电子表格进行任何工作（输入数据、应用格式、设置公式、插入图片或其他绘图对象等）。
-1. 当电子表格代码完成时，调用**[Workbook](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)**类的**[save](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.SaveFormat)**方法保存电子表格。
+当电子表格代码完成时，调用[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)类的[**save**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.SaveFormat)方法保存电子表格。
 
-文件格式应为PDF，因此从**[SaveFormat](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)**枚举中选择*PDF*（预定义值）以生成最终的PDF文档。
+文件格式应为PDF，因此从[**SaveFormat**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)枚举中选择*PDF*（预定义值）来生成最终PDF文档。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-XlstoPDFDirectConversation-1.py" >}}
 
 ### **高级转换**
 
-您还可以选择使用**[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)**类为转换设置不同的属性。设置**[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)**类的不同属性可使您控制输出PDF的打印、字体、安全和压缩设置。最重要的属性是**[PdfSaveOptions.compliance](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/compliance/)**，它使您能够将Excel文件保存为PDF/A兼容的PDF文件。
+您还可以选择使用[**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)类来设置转换的不同属性。设置[**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)类的不同属性可控制输出PDF的打印、字体、安全性和压缩设置。最重要的属性是[**PdfSaveOptions.compliance**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/compliance/)，它使您能够将Excel文件保存为PDF/A兼容的PDF文件。
 
 #### **将工作簿保存为PDF/A兼容文件**
 
-下面提供的代码片段演示了如何使用 **[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)** 类来将Excel文件保存为符合PDF/A标准的PDF格式。
+下面提供的代码片段演示了如何使用[**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)类将Excel文件保存为PDF/A兼容的PDF格式。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-AdvancedConversiontoPdf-1.py" >}}
 
 {{% alert color="primary" %}}
 
-请注意，**[PdfSaveOptions.compliance](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/compliance/)** 属性是在 Aspose.Cells for Python via .NET for .NET 5.3.0 版本中添加的。
+请注意，[**PdfSaveOptions.compliance**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/compliance/)属性是在Aspose.Cells for Python via .NET for .NET 5.3.0中新增的。
 
 {{% /alert %}}
 
 #### **设置PDF创建时间**
 
-使用 **[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)** 类，您可以获取或设置PDF的创建时间。下面的代码演示了使用 **[PdfSaveOptions.created_time](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/created_time/)** 属性来设置PDF文件的创建时间。
+使用[**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)类，您可以获取或设置PDF创建时间。以下代码演示了使用[**PdfSaveOptions.created_time**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/created_time/)属性设置PDF文件的创建时间。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-SetPDFCreationTime-1.py" >}}
 
 #### **设置ContentCopyForAccessibility选项**
 
-使用 **[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)** 类，您可以获取或设置PDF的 **[PdfSecurityOptions.accessibility_extract_content](https://reference.aspose.com/cells/python-net/aspose.cells/rendering.pdfsecurity/pdfsecurityoptions/accessibility_extract_content/)** 选项，以控制转换后PDF中的内容访问。
+使用[**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)类，您可以获取或设置PDF的[**PdfSecurityOptions.accessibility_extract_content**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/accessibility_extract_content/)选项，以控制转换后PDF中的内容访问。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-SetContentCopyForAccessibility-1.py" >}}
 
 #### **导出自定义属性到PDF**
 
-使用 **[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)** 类，您可以将源工作簿中的自定义属性导出为PDF。提供了 **[PdfCustomPropertiesExport](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfcustompropertiesexport/)** 枚举类型，用于指定导出属性的方式。单击文件，然后单击属性选项，即可在Adobe Acrobat Reader中查看这些属性。可在以下链接下载模板文件“sourceWithCustProps.xlsx” [链接](sourceWithCustProps.xlsx) 进行测试，输出的PDF文件“outSourceWithCustProps”可在此处 [链接](outSourceWithCustProps.pdf) 进行分析。
+使用[**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)类，您可以将源工作簿中的自定义属性导出到PDF。提供了[**PdfCustomPropertiesExport**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfcustompropertiesexport/)枚举用于指定属性的导出方式。这些属性可以通过单击“文件”然后选择“属性”在Adobe Acrobat Reader中观察。模板文件"sourceWithCustProps.xlsx"可在[此处](sourceWithCustProps.xlsx)下载进行测试，输出的PDF文件"outSourceWithCustProps"可在[此处](outSourceWithCustProps.pdf)进行分析。
 
 ![todo:image_alt_text](convert-excel-workbook-to-pdf_1.png)
 

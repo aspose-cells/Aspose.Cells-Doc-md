@@ -11,7 +11,7 @@ url: /zh/java/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/
 
 为了处理这种情况，您应该知道工作簿中使用的字体，然后在Windows环境下安装这些字体，在Windows或Linux环境下，将其放置在您的“字体目录”中。
 
-Aspose.Cells提供了[Workbook.getFonts()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#getFonts())方法，用于返回工作簿或电子表格中使用的所有字体的列表。
+Aspose.Cells 提供了 [Workbook.getFonts()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#getFonts--) 方法，返回工作簿或电子表格中使用的所有字体列表。
 
 ## **获取电子表格或工作簿中使用的字体列表**
 

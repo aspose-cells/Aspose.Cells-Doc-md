@@ -5,9 +5,9 @@ weight: 20
 url: /zh/net/copy-worksheets-within-a-workbook/
 ---
 
-**Aspose.Cells**提供了一个重载的方法**Aspose.Cells.WorksheetCollection.AddCopy()**，用于将工作表添加到集合并从现有工作表中复制数据。方法的一个版本以源工作表的索引作为参数。另一个版本以源工作表的名称作为参数。
+**Aspose.Cells**提供了一个重载的方法**Aspose.Cells.WorksheetCollection.AddCopy()**，用于将工作表添加到集合中并从现有工作表复制数据。该方法的一个版本将源工作表的索引作为参数。另一个版本将源工作表的名称作为参数。
 
-以下示例显示如何在工作簿内复制现有工作表。
+以下示例显示了如何在工作簿内复制现有工作表。
 
 {{< highlight csharp >}}
 

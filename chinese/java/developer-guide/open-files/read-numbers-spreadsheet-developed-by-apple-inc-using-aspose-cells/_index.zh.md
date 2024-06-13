@@ -12,7 +12,7 @@ Numbers是由Apple Inc.开发的电子表格应用程序。Aspose.Cells可以读
 
 ## **使用 Aspose.Cells 读取由 Apple Inc. 开发的 Numbers 电子表格**
 
-以下示例代码加载[Apple Inc.的示例Numbers电子表格](sampleNumbersByAppleInc.numbers)并将其转换为[输出的PDF格式](outputNumbersByAppleInc.pdf)。您需要使用**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)**类，并在其构造函数中指定**[LoadFormat.NUMBERS](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#NUMBERS)**作为参数，以成功加载它。请从提供的链接下载它们。您可以尝试在任何Numbers电子表格上运行此代码。请还阅读代码的注释以获得更多帮助。
+以下示例代码加载了[Apple Inc.示例数字电子表格](sampleNumbersByAppleInc.numbers)，并将其转换为[输出PDF格式](outputNumbersByAppleInc.pdf)。您将需要使用[**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)类，并在其构造函数中指定[**LoadFormat.NUMBERS*](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#NUMBERS)作为参数才能成功加载它。请从给定的链接下载这两个文件。您可以尝试使用任何数字电子表格来运行代码。还请阅读代码中的注释以获得更多帮助。
 
 ## **示例代码**
 

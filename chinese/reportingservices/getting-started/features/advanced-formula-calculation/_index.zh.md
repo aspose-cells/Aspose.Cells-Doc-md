@@ -18,6 +18,6 @@ Microsoft Excel动态公式在渲染时不会计算，而是根据某些规则�
 
 {{% /alert %}} 
 - **公式输出**
-**使用Aspose.Cells for Reporting Services导出的包含公式（计算）的示例报告** 
+**使用Aspose.Cells for Reporting Services导出的包含公式(计算)的样本报告** 
 
 ![todo:image_alt_text](advanced-formula-calculation_1.png)

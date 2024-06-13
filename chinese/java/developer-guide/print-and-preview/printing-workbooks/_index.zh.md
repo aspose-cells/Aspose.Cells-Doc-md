@@ -23,19 +23,19 @@ keywords: 打印工作簿，打印工作表，打印工作表页，打印工作�
 
 ## 使用 Aspose.Cells 打印工作簿
 
-Aspose.Cells for Java 提供了 [**toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) 方法的 [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender) 类。使用 [**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) 方法可以提供打印机名称以及打印作业名称。
+Aspose.Cells for Java提供了[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)类的[**toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String))方法。通过使用[**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String))方法，您可以提供打印机名称以及打印作业名称。
 
 ## 示例代码
 
 ### 打印所选工作表
 
-以下代码片段演示了使用 [**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)）方法打印所选工作表。
+以下代码片段演示了使用[**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String))方法打印所选工作表的方法。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintingSelectedWorksheet-PrintingSelectedWorksheet.java" >}}
 
 ### 打印整个工作簿
 
-您也可以使用 [**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String)）方法打印整个工作簿。以下代码片段展示了使用 [**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String)）方法打印整个工作簿。
+您还可以使用[**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String))方法打印整个工作簿。以下代码片段演示了使用[**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String))方法打印整个工作簿的方法。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintingWholeWorkbook-PrintingWholeWorkbook.java" >}}
 

@@ -8,7 +8,7 @@ url: /zh/cpp/licensing/
 ## **评估版本限制**
 A free evaluation version of Aspose.Cells for C++ can be downloaded from the downloads section of Aspose's web site at: <https://downloads.aspose.com/cells/cpp>.
 ## **使用文件或流对象应用许可**
-许可可以从文件或流对象中加载。Aspose.Cells for C++将尝试在以下位置查找许可：
+许可证可以从文件或流对象加载。 Aspose.Cells for C++ 将尝试在以下位置查找许可证:
 
 1. 明确的路径。
 1. 包含Aspose.Cells.dll的文件夹。

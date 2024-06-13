@@ -11,7 +11,7 @@ url: /zh/java/check-password-to-modify-using-aspose-cells/
 
 ![todo:image_alt_text](check-password-to-modify-using-aspose-cells_1.png)
 
-有时，您需要以编程方式检查给定的密码是否与**修改密码**匹配。Aspose.Cells 提供了 [**workbook.getSettings().getWriteProtection().validatePassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#validatePassword(java.lang.String) 方法，您可以使用它来检查给定的修改密码是否正确。
+有时，您需要检查给定密码是否与**程序密码**匹配。Aspose.Cells提供了 [**workbook.getSettings().getWriteProtection().validatePassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#validatePassword(java.lang.String)) 方法，您可以使用它来检查给定的修改密码是否正确。
 
 {{% /alert %}}
 

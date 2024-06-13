@@ -21,56 +21,56 @@ Aspose.Cells支持将Excel文件转换为PDF，并在转换过程中保持高度
 
 Aspose.Cells for .NET 直接在输出文档中写入 API 和版本号的信息。例如，在将文档渲染为 PDF 时，Aspose.Cells for .NET 在 **PDF 生成器** 字段中填充值，例如 'Aspose.Cells v23.2'。
 
-请注意，您可以通过**[PdfSaveOptions.Producer](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/producer/)**属性在输出文档中更改这些信息。
+请注意，您可以通过 [**PdfSaveOptions.Producer**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/producer/) 属性在输出文档中更改此信息。
 
 {{% /alert %}}
 
 ### **直接转换**
 
-Aspose.Cells for .NET独立支持从电子表格转换为PDF，无需其他软件。只需使用**[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)**类的**[Save](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**方法保存Excel文件为PDF。**[Save](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**方法提供了将原生Excel文件转换为PDF格式的**[SaveFormat.Pdf](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**枚举成员。
+Aspose.Cells for .NET支持将电子表格独立转换为PDF，无需其他软件。只需使用[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类的[**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)方法将Excel文件保存为PDF。[**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)方法提供了将原生Excel文件转换为PDF格式的[**SaveFormat.Pdf**](https://reference.aspose.com/cells/net/aspose.cells/saveformat)枚举成员。
 
 按以下步骤直接将Excel电子表格转换为PDF格式：
 
-1. 通过调用空构造函数来实例化**[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)**类的对象。
+通过调用其空构造函数实例化[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类的对象。
 1. 您可以打开/加载现有模板文件，或者如果您是从头开始创建工作簿，则跳过此步骤。
 1. 使用Aspose.Cells的API在电子表格上进行任何工作（输入数据，应用格式，设置公式，插入图片或其他绘图对象等）。
-1. 当电子表格代码完成后，调用**[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)**类的**[Save](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**方法保存电子表格。
+当电子表格代码完成时，调用[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类的[**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)方法保存电子表格。
 
-文件格式应为PDF，因此从**[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**枚举中选择*Pdf*（一个预定义值）以生成最终的PDF文档。
+文件格式应为PDF，因此从[**SaveFormat**](https://reference.aspose.com/cells/net/aspose.cells/saveformat)枚举中选择*Pdf*（预定义值）生成最终PDF文档。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-XlstoPDFDirectConversation-1.cs" >}}
 
 ### **高级转换**
 
-您还可以选择使用**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)**类设置转换的不同属性。设置**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)**类的不同属性可使您控制输出PDF的打印、字体、安全性和压缩设置。 最重要的属性是**[Compliance](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)**，它使您能够将Excel文件保存为PDF/A兼容的PDF文件。
+您还可以选择使用[**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)类来设置转换的不同属性。设置[**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)类的不同属性可控制输出PDF的打印、字体、安全性和压缩设置。最重要的属性是[**Compliance**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)，它使您能够将Excel文件保存为PDF/A兼容的PDF文件。
 
 #### **将工作簿保存为PDF/A兼容文件**
 
-下面提供的代码片段演示了如何使用**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)**类将Excel文件保存为PDF/A兼容的PDF格式。
+下面提供的代码片段演示了如何使用[**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)类将Excel文件保存为PDF/A兼容的PDF格式。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-AdvancedConversiontoPdf-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-请注意，**[Compliance](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)**属性是在发布Aspose.Cells for .NET 5.3.0版本时添加的。
+请注意，随Aspose.Cells for .NET 5.3.0版本发布，添加了[**Compliance**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)属性。
 
 {{% /alert %}}
 
 #### **设置PDF创建时间**
 
-使用**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)**类，您可以获取或设置PDF的创建时间。 以下代码演示了使用**[PdfSaveOptions.CreatedTime](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/createdtime)**属性设置PDF文件的创建时间。
+使用[**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)类，您可以获取或设置PDF创建时间。以下代码演示了使用[**PdfSaveOptions.CreatedTime**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/createdtime)属性设置PDF文件的创建时间。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-SetPDFCreationTime-1.cs" >}}
 
 #### **设置ContentCopyForAccessibility选项**
 
-使用**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)**类，可以获取或设置转换后PDF中的**[AccessibilityExtractContent](https://reference.aspose.com/cells/net/aspose.cells/rendering/pdfsecurity/pdfsecurityoptions/properties/accessibilityextractcontent)**选项，以控制在转换后PDF中的内容访问。
+使用[**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)类，您可以获取或设置PDF的[**AccessibilityExtractContent**](https://reference.aspose.com/cells/net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/properties/accessibilityextractcontent)选项，以控制转换后PDF中的内容访问。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-SetContentCopyForAccessibility-1.cs" >}}
 
 #### **导出自定义属性到PDF**
 
-使用**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)**类，您可以将源工作簿中的自定义属性导出到PDF中。 提供了**[PdfCustomPropertiesExport](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfcustompropertiesexport)**枚举用于指定导出属性的方式。 点击“文件”，然后点击属性选项即可在Adobe Acrobat Reader中查看这些属性，如下图所示。 模板文件"sourceWithCustProps.xlsx" 可以在[此处](sourceWithCustProps.xlsx) 下载进行测试，输出PDF文件"outSourceWithCustProps" 可在[此处](outSourceWithCustProps.pdf) 获取进行分析。
+使用[**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)类，您可以将源工作簿中的自定义属性导出到PDF。提供了[**PdfCustomPropertiesExport**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfcustompropertiesexport)枚举用于指定属性的导出方式。这些属性可以通过单击“文件”然后选择“属性”在Adobe Acrobat Reader中观察。模板文件"sourceWithCustProps.xlsx"可在[此处](sourceWithCustProps.xlsx)下载进行测试，输出的PDF文件"outSourceWithCustProps"可在[此处](outSourceWithCustProps.pdf)进行分析。
 
 ![todo:image_alt_text](convert-excel-workbook-to-pdf_1.png)
 
@@ -116,7 +116,7 @@ Aspose.Cells for .NET独立支持从电子表格转换为PDF，无需其他软�
 
 {{% alert color="primary" %}}
 
-如果您的电子表格包含公式，最好在将电子表格呈现为PDF格式之前调用**[Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)**。这样做将确保公式依赖的值被重新计算，并且在PDF中呈现正确的值。
+如果您的电子表格包含公式，最好在将电子表格呈现为PDF格式之前调用[**Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)。这样做将确保重新计算公式相关值，并在PDF中呈现正确的值。
 
 {{% /alert %}}
 

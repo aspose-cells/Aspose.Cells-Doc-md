@@ -15,9 +15,9 @@ Aspose.Cells 可以打开一系列不同版本的 Microsoft Excel 文件，例�
 
 ## **如何打开不同版本的Microsoft Excel文件**
 
-一个应用程序经常需要能够打开在不同版本中创建的Microsoft Excel文件，例如，Microsoft Excel 95、97，或Microsoft Excel 2007/2010/2013/2016/2019和Office 365。你可能需要以其中任何一种格式加载文件，包括XLS、XLSX、XLSM、XLSB、SpreadsheetML、TabDelimited或TSV、CSV、ODS等。使用构造函数，或指定 **[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)** 类的 **[FileFormat](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/fileformat)** 类型属性，该属性使用 **[FileFormatType](https://reference.aspose.com/cells/net/aspose.cells/fileformattype)** 枚举来指定格式。
+应用程序通常需要能够打开由不同版本创建的Microsoft Excel文件，例如Microsoft Excel 95、97或Microsoft Excel 2007/2010/2013/2016/2019和Office 365。您可能需要以多种格式之一加载文件，包括XLS、XLSX、XLSM、XLSB、SpreadsheetML、TabDelimited或TSV、CSV、ODS等。使用构造函数或指定 [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) 类的 [**FileFormat**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/fileformat) 类型属性，该属性使用 [**FileFormatType**](https://reference.aspose.com/cells/net/aspose.cells/fileformattype) 枚举来指定格式。
 
-**[FileFormatType](https://reference.aspose.com/cells/net/aspose.cells/fileformattype)** 枚举包含许多预定义的文件格式，其中一些如下：
+[**FileFormatType**](https://reference.aspose.com/cells/net/aspose.cells/fileformattype)枚举包含许多预定义的文件格式，其中一些如下所示。
 
 |**文件格式类型**|**描述**|
 | :- | :- |
@@ -37,7 +37,7 @@ Aspose.Cells 可以打开一系列不同版本的 Microsoft Excel 文件，例�
 
 ### **打开Microsoft Excel 95/5.0文件**
 
-要打开Microsoft Excel 95/5.0文件，请使用**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**并设置相关属性以载入模板文件。您可以从以下链接下载测试此功能的示例文件：
+要打开Microsoft Excel 95/5.0文件，请使用 [**LoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions) 并为要加载的 [**LoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions) 类设置相关属性。
 
 [Excel95文件](Excel95.xls)
 
@@ -45,19 +45,19 @@ Aspose.Cells 可以打开一系列不同版本的 Microsoft Excel 文件，例�
 
 ### **打开Microsoft Excel 97 - 2003文件**
 
-要打开Microsoft Excel 97 - 2003文件，请使用**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**并设置相关属性以载入模板文件。
+要打开Microsoft Excel 97 - 2003文件，请使用 [**LoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions) 并为要加载的 [**LoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions) 类设置相关属性。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningMicrosoftExcel972003Files-1.cs" >}}
 
 ### **打开Microsoft Excel 2007/2010/2013/2016/2019和Office 365 XLSX文件**
 
-要打开Microsoft Excel 2007/2010/2013/2016/2019和Office 365格式，即XLSX或XLSB，请指定文件路径。您还可以使用**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**并设置相关属性/选项以载入模板文件。
+要打开Microsoft Excel 2007/2010/2013/2016/2019和Office 365格式，即XLSX或XLSB，请指定文件路径。也可以使用 [**LoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions) 并设置 [**LoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions) 类的相关属性/选项来加载要加载的模板文件。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningMicrosoftExcel2007XlsxFiles-1.cs" >}}
 
 ### **打开加密的Excel文件**
 
-可以使用Microsoft Excel创建加密的Excel文件。要打开加密文件，请使用**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**并设置其属性和选项（例如，提供密码）以载入模板文件。
+可以使用Microsoft Excel创建加密的Excel文件。要打开加密文件，请使用 [**LoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions) 并为要加载的模板文件设置其属性和选项（例如，给定密码）。
 您可以从以下链接下载测试此功能的示例文件：
 
 [Encrypted Excel](EncryptedExcel.xlsx)

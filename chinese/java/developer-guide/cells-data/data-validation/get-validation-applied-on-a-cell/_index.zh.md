@@ -9,7 +9,7 @@ keywords: 在Java中在Excel中应用单元格验证，使用Java在Excel中对�
 
 {{% alert color="primary" %}}
 
-您可以使用Aspose.Cells API获取应用于任何单元格的验证。Aspose.Cells提供了[**Cell.getValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation())方法用于此目的。如果单元格上没有验证，它将返回null。类似地，您可以使用[**Worksheet.getValidations().getValidationInCell(int row, int column)**](https://reference.aspose.com/cells/java/com.aspose.cells/validationcollection#getValidationInCell(int,%20int))方法通过提供其行和列索引获取应用于单元格的验证。
+您可以使用Aspose.Cells API获取应用于任何单元格的验证。Aspose.Cells为此目的提供了[**Cell.getValidation()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation--)方法。如果单元格上没有验证，它将返回null。同样，您可以通过提供其行和列索引使用[**Worksheet.getValidations().getValidationInCell(int row, int column)**](https://reference.aspose.com/cells/java/com.aspose.cells/validationcollection#getValidationInCell(int,%20int))方法获取应用于单元格的验证。
 
 {{% /alert %}}
 

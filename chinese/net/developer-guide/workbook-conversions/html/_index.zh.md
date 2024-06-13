@@ -6,7 +6,7 @@ url: /zh/net/convert-excel-to-html/
 ---
 
 ## **将Excel工作簿转换为HTML**
-Aspose.Cells API支持将电子表格导出为HTML和格式。为此，Aspose.Cells使用**[HtmlSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions)**类提供了灵活性，以控制输出HTML的多个方面。
+Aspose.Cells API 支持将电子表格导出到 HTML 和  格式。 为此，Aspose.Cells 使用 [**HtmlSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions) 类 来提供控制输出 HTML 的几个方面的灵活性。
 
 下面的代码示例展示了如何使用C#将工作簿另存为HTML文件。
 

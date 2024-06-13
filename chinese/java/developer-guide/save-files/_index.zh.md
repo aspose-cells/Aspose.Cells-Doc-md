@@ -14,7 +14,7 @@ url: /zh/java/saving-excel-files-to-csv-pdf-and-other-formats/
 
 ## **保存文件的不同方式**
 
-Aspose.Cells API 提供了一个名为 [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) 的类，代表 Excel 文件，并提供开发人员可能需要处理其 Excel 文件所需的所有必要属性和方法。[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) 类提供了一个 [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions) 方法，用于保存 Excel 文件。[**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions) 方法有许多重载，用于以不同方式保存 Excel 文件。
+Aspose.Cells API提供了一个名为[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)的类，代表一个Excel文件，并提供了开发人员可能需要处理Excel文件的所有必要属性和方法。[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)类提供一个[**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))方法，用于保存Excel文件。[**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))方法有许多重载，用来以不同的方式保存Excel文件。
 
 开发人员还可以指定文件应保存的文件格式。文件可以以多种格式保存，如 XLS、SpreadsheetML、CSV、Tab Delimited、Tab-separated values TSV、XPS 等。这些文件格式使用 [**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat) 枚举进行指定。
 
@@ -52,7 +52,7 @@ Aspose.Cells API 提供了一个名为 [**Workbook**](https://reference.aspose.c
 
 ## **将文件保存到某个位置**
 
-如果开发人员需要将文件保存到某个存储位置，他们可以在调用对象的[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)方法时简单指定文件名（完整的存储路径）和所需的文件格式（使用[**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat)枚举）。
+如果开发人员需要将文件保存到某个存储位置，他们只需在调用[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)对象的[**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))方法时指定文件名（完整的存储路径）和期望的文件格式（使用[**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat)枚举）。
 
 **示例：**
 
@@ -80,7 +80,7 @@ Aspose.Cells API 提供了一个名为 [**Workbook**](https://reference.aspose.c
 
 ## **将文件保存到流中**
 
-如果开发人员需要将文件保存到**Stream**，则应创建一个**FileOutputStream**对象，然后通过调用对象的[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)方法将文件保存到该**Stream**对象中。开发人员还可以在调用对象的[**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)方法时指定所需的文件格式（使用[**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat)枚举）。
+如果开发人员需要将文件保存到**Stream**中，则应创建一个**FileOutputStream**对象，然后通过调用[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)对象的[**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))方法将文件保存到该**Stream**对象中。开发人员还可以在调用[**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))方法时指定期望的文件格式（使用[**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat)枚举）。
 
 **示例：**
 
@@ -116,7 +116,7 @@ Aspose.Cells API 提供了一个名为 [**Workbook**](https://reference.aspose.c
 
 ## **将Excel工作簿转换为Markdown**
 
-Aspose.Cells API支持将电子表格导出为Markdown格式。要导出活动工作表为Markdown，请将[**SaveFormat.Markdown**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN)作为[**Workbook.Save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.lang.String,%20int)方法的第二个参数传递。
+Aspose.Cells API支持将电子表格导出为Markdown格式。要将活动工作表导出为Markdown，请在[**Workbook.Save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.lang.String,%20int))方法的第二个参数处传入[**SaveFormat.Markdown**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN)。您还可以使用[**MarkdownSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/MarkdownSaveOptions)类指定将工作表导出为Markdown的附加设置。
 
 以下代码示例演示了如何使用[**SaveFormat.Markdown**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN)枚举成员将活动工作表导出为Markdown。请参阅代码生成的[Markdown文件](Book1.txt)以供参考。
 

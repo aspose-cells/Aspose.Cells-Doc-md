@@ -13,13 +13,13 @@ Microsoft Excel允许用户向工作表单元格添加数据验证规则。例�
 
 ## 验证单元格值是否符合数据验证规则
 
-有时，需要动态验证给定的值是否符合应用于单元格的数据验证规则。为此，Aspose.Cells API提供了[**cell.getValidationValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue())方法。如果单元格中的值不符合应用于该单元格的数据验证规则，它返回**False**，否则返回**True**。
+有时，动态验证给定值是否满足应用于单元格的数据验证规则是必要的。为此，Aspose.Cells API提供了[**cell.getValidationValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue--)方法。如果单元格中的值不满足应用于该单元格的数据验证规则，则返回**False**，否则返回**True**。
 
-以下示例Microsoft Excel文件与下方的示例代码一起测试[**cell.getValidationValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue())方法。从快照中可以看到，单元格**C1**应用了**十进制数据验证**，并且只接受**10到20之间**的值。每当单元格的值在10到20之间时，[**cell.getValidationValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue())方法将返回**True**，否则会返回**False**。
+使用以下示例 Microsoft Excel 文件与下面的示例代码一起测试 [**cell.getValidationValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue--) 方法。从快照中可以看到，单元格 **C1** 应用了 **十进制数据验证**，并且只接受 **10 到 20 之间**的值。每当单元格的值在 10 到 20 之间，[**cell.getValidationValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue--) 方法会返回 **True**，否则返回 **False**。
 
 ![todo:image_alt_text](verify-that-cell-value-satisfies-data-validation-rules_1.png)
 
-以下示例代码说明了[**cell.getValidationValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue())方法的工作原理。首先，它将值3输入到C1。由于这不符合数据验证规则，[**cell.getValidationValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue())方法返回**False**。然后，它将值15输入到C1。因为这个值符合数据验证规则，[**cell.getValidationValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue())方法返回**True**。类似地，对于值30，它返回**False**。
+以下示例代码说明了 [**cell.getValidationValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue--) 方法的工作原理。首先，它将值 3 输入到 C1 中。因为这不符合数据验证规则，[**cell.getValidationValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue--) 方法返回 **False**。然后，它将值 15 输入到 C1 中。因为这个值符合数据验证规则，[**cell.getValidationValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue--) 方法返回 **True**。类似地，对值 30 返回 **False**。
 
 ## 用Java代码验证单元格值是否符合数据验证规则
 

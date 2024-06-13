@@ -11,12 +11,12 @@ Aspose.Cells支持将包含图像、图表等的电子表格文件转换为PDF�
 
 {{% /alert %}}
 
-如果您需要将模板Excel文件中的每个工作表保存为生成不同的PDF文件，这可以很容易实现。您可以尝试一次为**[`PdfSaveOptions.SheetSet`](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setSheetSet-com.aspose.cells.SheetSet-)**选项设置一个工作表索引以渲染为PDF。
+如果您需要保存模板 Excel 文件中的每个工作表以生成不同的 PDF 文件，这可以很容易地实现。您可以尝试一次将一个工作表索引设置为 [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setSheetSet-com.aspose.cells.SheetSet-) 选项，以生成 PDF。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SaveEachWorksheettoDifferentPDF-SaveEachWorksheettoDifferentPDF.java" >}}
 
 {{% alert color="primary" %}}
 
-如果电子表格包含公式，最好在将电子表格呈现为PDF格式之前调用[**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()）方法。这样可以确保重新计算依赖于公式的值，并在PDF中呈现正确的值。
+如果电子表格中包含公式，最好在将电子表格渲染为 PDF 之前调用 [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) 方法。这将确保重新计算公式依赖的值，并在 PDF 中呈现正确的值。
 
 {{% /alert %}}

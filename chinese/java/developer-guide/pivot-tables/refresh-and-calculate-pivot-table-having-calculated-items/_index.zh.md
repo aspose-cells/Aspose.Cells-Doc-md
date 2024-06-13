@@ -7,7 +7,7 @@ url: /zh/java/refresh-and-calculate-pivot-table-having-calculated-items/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells现在支持刷新和计算具有计算项的数据透视表。请像往常一样使用[**PivotTable.refreshData()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#refreshData()）和[**PivotTable.caclulateData()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#calculateData()）执行此功能。
+Aspose.Cells现在支持刷新和计算具有计算项的数据透视表。请像往常一样使用[**PivotTable.refreshData()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#refreshData--)和[**PivotTable.caclulateData()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#calculateData--)执行此函数。
 
 {{% /alert %}}
 

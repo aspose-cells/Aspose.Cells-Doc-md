@@ -9,7 +9,7 @@ url: /zh/java/adding-custom-properties-visible-inside-document-information-panel
 
 Aspose.Cells可以用于向工作簿对象中添加可在文档信息面板中看到的自定义属性。您可以使用Microsoft Excel中的文件 > 信息 > 属性 > 显示文档面板菜单命令打开文档信息面板。
 
-请使用[**Workbook.getContentTypeProperties().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add(java.lang.Object)方法添加可在文档信息面板中看到的自定义属性。
+请使用[**Workbook.getContentTypeProperties().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add(java.lang.Object))方法添加可在文档信息窗格中看到的自定义属性。
 
 {{% /alert %}}
 

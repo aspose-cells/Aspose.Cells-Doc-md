@@ -70,9 +70,13 @@ Aspose.Cells提供[**Comments.GetThreadedComments**](https://reference.aspose.co
 
 #### **控制台输出**
 
-评论: 测试线程评论
+{{< highlight csharp >}}
 
-作者: Aspose 测试
+Comment: Test Threaded Comment
+
+Author: Aspose Test
+
+{{< /highlight >}}
 
 ### **读取线程评论的创建时间**
 
@@ -86,11 +90,15 @@ Aspose.Cells 提供 [**Comments.GetThreadedComments**](https://reference.aspose.
 
 #### **控制台输出**
 
-评论: 测试线程评论
+{{< highlight csharp >}}
 
-作者: Aspose 测试
+Comment: Test Threaded Comment
 
-创建时间: 2019年5月15日 下午12:46:23
+Author: Aspose Test
+
+Created Time: 5/15/2019 12:46:23 PM
+
+{{< /highlight >}}
 
 ## **编辑线程评论**
 

@@ -15,9 +15,9 @@ url: /zh/java/detecting-circular-reference/
 
 [**CalculationCell**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell)：表示正在计算的一个单元格的相关数据
 
-[**AbstractCalculationMonitor.OnCircular(IEnumerator circularCellsData)**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)）：在遇到循环引用时，公式计算引擎将调用此方法，枚举器中的元素是[**CalculationCell**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell)个对象，表示一个循环中的所有单元格。返回的值表示公式引擎是否需要在此调用后计算这些循环引用中的单元格。
+[**AbstractCalculationMonitor.OnCircular(IEnumerator circularCellsData)**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)): 在遇到循环引用时，将由公式计算引擎调用此方法，枚举器中的元素是一个[**CalculationCell**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell)对象，它代表一个循环中的所有单元格。 返回的值表示公式引擎在此调用后是否需要计算这些循环中的单元格。
 
-用户可以在[**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)方法的实现中收集这些循环引用。
+用户可以在[**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator))方法的实现中收集这些循环引用。
 
 源示例文件可从以下链接下载：
 

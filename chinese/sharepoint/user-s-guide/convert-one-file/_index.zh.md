@@ -25,7 +25,7 @@ url: /zh/sharepoint/convert-one-file/
 
 1. 从**转换到**列表中选择目标文件格式。
 1. 将输出文件的名称输入到**目标文件**字段中。
-   默认情况下，Aspose.Cells for SharePoint会自动填充此字段为源文件的名称。 
+   默认情况下，Aspose.Cells for SharePoint会使用源文件的名称预填此字段。 
    根据选择的格式，扩展名将自动添加。
 1. 单击**转换**开始转换。
    (或单击**取消**返回到文档库，取消您的设定。)

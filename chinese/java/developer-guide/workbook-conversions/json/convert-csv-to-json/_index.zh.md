@@ -23,35 +23,39 @@ Aspose.Cells支持将CSV转换为JSON。为此，API提供了[**ExportRangeToJso
 
 ### **控制台输出**
 
+{{< highlight java >}}
+
 [
 {
 "id": 1,
 "language": "Java",
 "edition": "third",
 "author": "Herbert Schildt",
-"街道地址": 126,
-"城市": "圣何塞",
-"州": "CA",
-"邮政编码": 394221
+"streetAddress": 126,
+"city": "San Jone",
+"state": "CA",
+"postalCode": 394221
 },
 {
 "id": 2,
 "language": "C++",
-"版本": "第二版",
+"edition": "second",
 "author": "EAAAA",
-"街道地址": 126,
-"城市": "圣何塞",
-"州": "CA",
-"邮政编码": 394221
+"streetAddress": 126,
+"city": "San Jone",
+"state": "CA",
+"postalCode": 394221
 },
 {
 "id": 3,
-"语言": ".Net",
-"版本": "第二版",
-"作者": "E.Balagurusamy",
-"街道地址": 126,
-"城市": "圣何塞",
-"州": "CA",
-"邮政编码": 394221
+"language": ".Net",
+"edition": "second",
+"author": "E.Balagurusamy",
+"streetAddress": 126,
+"city": "San Jone",
+"state": "CA",
+"postalCode": 394221
 }
 ]
+
+{{< /highlight >}}

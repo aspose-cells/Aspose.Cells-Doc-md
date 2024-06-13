@@ -5,11 +5,11 @@ weight: 30
 url: /zh/cpp/system-requirements/
 ---
 
-Aspose.Cells for C++是一款本机C++库，可使C++开发人员无需使用Office自动化或Microsoft Excel应用程序，以程序方式创建、操作和转换电子表格。
+Aspose.Cells for C++ 是一个C++本地库，使C++开发人员可以在不需要Office自动化或Microsoft Excel应用程序的情况下以编程方式创建，操作和转换电子表格。
 
 ## 支持的操作系统
 
-Aspose.Cells for C++支持以下64位或32位操作系统和平台：
+Aspose.Cells for C++ 支持以下 64 位或 32 位操作系统和平台：
 
 <table>  
 	<tr>
@@ -33,11 +33,11 @@ Aspose.Cells for C++支持以下64位或32位操作系统和平台：
 
 ## 开发环境
 
-您可以在Windows、Linux或macOS开发应用程序时使用Aspose.Cells for C++。
+您可以在开发 Windows、Linux 或 macOS 应用程序时使用 Aspose.Cells for C++。
 
 ### Windows
 
-Aspose.Cells for C++可用于在支持[Microsoft Visual Studio v142平台工具集](https://docs.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-160)的任何开发环境中开发应用程序，但以下表中列出的环境得到了明确支持：
+您可以在支持 [Microsoft Visual Studio v142 平台工具集](https://docs.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-160) 的任何开发环境中使用 Aspose.Cells for C++ 进行开发，但以下表中列出的环境被显式支持：
 
 <table>  
 	<tr>
@@ -50,7 +50,7 @@ Aspose.Cells for C++可用于在支持[Microsoft Visual Studio v142平台工具�
 
 ### Linux
 
-Aspose.Cells for C++可用于在支持C++11或更高版本的开发环境中开发应用程序，但以下编译器和工具得到了明确支持：
+您可以在支持 C++11 或更高版本的开发环境中使用 Aspose.Cells for C++ 进行开发，但以下编译器和工具被显式支持：
 
 <table>  
 	<tr>
@@ -70,6 +70,6 @@ Aspose.Cells for C++ on Linux depends on <a href="https://www.freedesktop.org/wi
 `sudo yum install fontconfig`
 
 ### macOS 
-Aspose.Cells for C++可用于以下开发环境中的应用程序开发:
+您可以在以下开发环境中使用 Aspose.Cells for C++ 来进行应用程序开发：
 * Xcode 12.5.1或更高版本
 * Clang and libc++ (默认随Xcode一起提供)

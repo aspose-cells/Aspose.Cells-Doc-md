@@ -41,7 +41,7 @@ XPS的标记语言是XAML的一个子集，允许它在文档中包含矢量图�
 
 ## **将Excel转换为MHTML文件**
 
-[MHTML](https://en.wikipedia.org/wiki/MHTML)结合了普通HTML和外部资源；换句话说，通常链接的像图像、动画、音频等内容合并为一个文件。它们用于扩展名为.mht的电子邮件。
+[**MHTML**](https://en.wikipedia.org/wiki/MHTML)将普通HTML与外部资源(通常像图像、动画、音频等一样链接的内容)合并到一个文件中。它们用于扩展名为.mht的邮件。
 
 {{% alert color="primary" %}}
 
@@ -57,32 +57,32 @@ Aspose.Cells支持读取和写入MHTML文件。
 
 ## **将Excel文件转换为HTML**
 
-Aspose.Cells API支持将电子表格导出为HTML格式。为此，Aspose.Cells使用**[HtmlSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions)**类，允许开发人员控制输出HTML的几个方面。
+Aspose.Cells API提供支持将电子表格导出为HTML格式。为此，Aspose.Cells使用[**HtmlSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions)类，允许开发人员控制输出HTML的几个方面。
 
-下面的代码演示了如何使用**[HtmlSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions)**类导出Microsoft Excel文件到HTML格式，而不指定其他参数。
+下面的代码演示了如何使用[**HtmlSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions)类将Microsoft Excel文件导出为HTML格式，而无需指定其他参数。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-ConvertingToHTMLFiles-ConvertingToHTMLFiles.java" >}}
 
 {{% alert color="primary" %}}
 
-通过将**[SaveFormat.HTML](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML)**传递给**[Workbook.save](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))**方法，您可以达到相同的结果。
+通过将[**SaveFormat.HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML)传递给[**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))方法，您可以实现相同的结果。
 
 {{% /alert %}}
 
 ### **为HTML设置图像首选项**
 
-从8.0.2开始，Aspose.Cells已经在HtmlSaveOptions类中公开了**[ImageOptions](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ImageOptions)**，允许开发人员在将电子表格保存为HTML格式时指定图像首选项。
+从8.0.2版本开始，Aspose.Cells已经为[**HtmlSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions)类提供了[**ImageOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ImageOptions)，使开发人员能够在将电子表格保存为HTML格式时指定图像偏好。
 
 可以应用的图像设置有：
 
-- **[ImageType](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#ImageType)**：获取或设置图像类型。请注意，在输出的HTML中，包括图表在内的所有形状都会呈现为图像。
-- **[Quality](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#Quality)**：获取或设置当ImageFormat指定为Jpeg时，图像质量在0到100之间。
-- **[VerticalResolution](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#VerticalResolution)**：获取或设置图像的垂直分辨率（每英寸点数）。
-- **[HorizontalResolution](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#HorizontalResolution)**：获取或设置图像的水平分辨率（每英寸点数）。
-- **[TiffCompression](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#TiffCompression)**：获取或设置图像格式指定为Tiff时的压缩类型。
-- **[Transparent](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#Transparent)**：如果ImageFormat指定为Png，则指示图像背景是否应为透明。
+- [**ImageType**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#ImageType)：获取或设置图像类型。请注意，所有形状，包括图表，在输出的HTML中都将呈现为图像。
+- [**Quality**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#Quality)：当ImageFormat指定为Jpeg时，获取或设置图像的质量，取值范围为0到100。
+- [**VerticalResolution**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#VerticalResolution)：获取或设置图像的垂直分辨率（每英寸点数）。
+- [**HorizontalResolution**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#HorizontalResolution)：获取或设置图像的水平分辨率（每英寸点数）。
+- [**TiffCompression**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#TiffCompression)：当ImageFormat指定为Tiff时，获取或设置图像的压缩类型。
+- [**Transparent**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#Transparent)：当ImageFormat指定为Png时，指示图像的背景是否应该是透明的。
 
-以下代码演示了如何使用**[HtmlSaveOptions.ImageOptions](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ImageOptions)**来指定不同的首选项。
+下面的代码示例演示了如何使用[**HtmlSaveOptions.ImageOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ImageOptions)来指定不同的首选项。
 
 |**导出前的电子表格视图**|**导出后的HTML视图**|
 | :- | :- |
@@ -110,19 +110,19 @@ Aspose.Cells for Java 直接将有关 API 和版本号的信息写入输出文�
 
 #### **直接转换**
 
-使用**[Workbook.save](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))**方法直接将Excel文件保存为PDF，并提供**[SaveFormat.PDF](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF)**接口成员。这种直接转换是最有效的转换方法。它不会丢失数据或格式，而且保持所输出PDF看起来像输入的Excel文件。
+使用[**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))方法直接将Excel文件保存为PDF，并提供[**SaveFormat.PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF)接口成员。这种直接转换是最有效的转换方法。它不会丢失数据或格式，但会使输出的PDF看起来像输入的Excel文件。
 
-要在保存为PDF时指定安全选项，请使用**[PdfSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)**。
+要在保存为PDF时指定安全选项，请使用[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-Excel2PDFConversion-Excel2PDFConversion.java" >}}
 
 #### **高级转换**
 
-您还可以选择使用 **[PdfSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)** 类来设置转换的不同属性。设置  **[PdfSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)** 类的不同属性将使您控制结果 PDF 文件的打印，字体，安全性和压缩设置。最值得注意的属性是 **[Compliance](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#Compliance)**，它使您能够将 Excel 文件保存为符合 PDF/A 标准的 PDF 文件。
+您也可以选择使用[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)类为转换设置不同的属性。设置[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)类的不同属性将使您对结果PDF文件的打印、字体、安全和压缩设置有更多控制。最值得注意的属性是[**Compliance**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#Compliance)，它可以使您将Excel文件保存为符合PDF/A标准的PDF文件。
 
 ##### **将 Excel 电子表格保存为 PDF/A 标准文件**
 
-下面提供的代码片段演示了使用 **[PdfSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)** 类将 Excel 文件保存为符合 PDF/A 标准的 PDF 格式。
+下面提供的代码片段演示了使用[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)类将Excel文件保存为符合PDF/A标准的PDF格式。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-AdvancedConversiontoPdf-AdvancedConversiontoPdf.java" >}}
 
@@ -132,9 +132,9 @@ Aspose.Cells for Java 直接将有关 API 和版本号的信息写入输出文�
 
 使用 Aspose.Cells 和 Aspose.PDF 将电子表格转换为 PDF：
 
-1. 通过调用其空构造函数，实例化 **[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)** 类的对象。
+通过调用其空构造函数实例化[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)类的对象。
 1. 使用 Aspose.Cells API 在电子表格上执行您期望的操作。
-1. 调用 **[Workbook.save](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))** 方法保存电子表格：
+1. 调用[**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))方法以保存电子表格：
    1. 将文件格式设置为 XML。
    1. 从 FileFormatType 接口中选择 Aspose_Pdf（一个预定义值）。这将指示保存方法生成一个与 Aspose.PDF Schema 兼容的 XML 格式电子表格，以便随后 Aspose.PDF for Java 生成 PDF 文档。
 1. 创建 aspose.pdf 包中 Pdf 类的对象时，即建立 XML 文件 。
@@ -145,7 +145,7 @@ Aspose.Cells for Java 直接将有关 API 和版本号的信息写入输出文�
 
 {{% alert color="primary" %}}
 
-如果您的电子表格包含公式，则最好在将电子表格呈现为 PDF 格式之前调用 **[Workbook.calculateFormula](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula())** 方法。这样做可以确保重新计算公式依赖值，并将正确的值呈现在 PDF 中。
+如果您的电子表格包含公式，最好在将电子表格渲染为 PDF 格式之前调用 [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) 方法。这样做将确保重新计算公式依赖的值，并在 PDF 中呈现正确的值。
 
 {{% /alert %}}
 

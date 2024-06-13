@@ -31,7 +31,7 @@ url: /zh/java/insert-a-linked-picture-from-web-address/
 
 ### **使用Aspose.Cells for Java**
 
-Aspose.Cells for Java支持使用[**ShapeCollection.addLinkedPicture(int upperLeftRow, int upperLeftColumn, int height, int width, java.lang.String sourceFullName)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLinkedPicture(int,%20int,%20int,%20int,%20java.lang.String)）方法添加链接图像。
+Aspose.Cells for Java支持使用 [**ShapeCollection.addLinkedPicture(int upperLeftRow, int upperLeftColumn, int height, int width, java.lang.String sourceFullName)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLinkedPicture(int,%20int,%20int,%20int,%20java.lang.String)) 方法添加连接的图像。
 
 该方法返回一个[**Picture**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)对象。
 

@@ -10,6 +10,6 @@ url: /zh/sharepoint/product-information/
 - [支持的文件格式](/cells/zh/sharepoint/supported-file-formats/)
 - [功能](/cells/zh/sharepoint/features/)
 - [系统要求](/cells/zh/sharepoint/system-requirements/)
-- [安装 Aspose.Cells for SharePoint](/cells/zh/sharepoint/install-aspose-cells-for-sharepoint/)
+- [安装Aspose.Cells for SharePoint](/cells/zh/sharepoint/install-aspose-cells-for-sharepoint/)
 - [评估Aspose.Cells](/cells/zh/sharepoint/evaluate-aspose-cells/)
-- [为 SharePoint 获取 Aspose.Cells 许可证](/cells/zh/sharepoint/license-aspose-cells-for-sharepoint/)
+- [许可证Aspose.Cells for SharePoint](/cells/zh/sharepoint/license-aspose-cells-for-sharepoint/)

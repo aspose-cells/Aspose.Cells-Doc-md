@@ -25,6 +25,6 @@ url: /zh/java/reusing-style-objects/
 
 {{% alert color="primary" %}}
 
-因为[**Cell.getStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStyle()）和[**Cell.setStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle(com.aspose.cells.Style)）方法使用的内存更少且效率更高，所以在*Aspose.Cells 7.1.0*发布时移除了消耗大量不必要内存的旧*Cell.getStyle()*属性。
+因为 [**Cell.getStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStyle--) 和 [**Cell.setStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell/#setStyle-com.aspose.cells.Style-) 方法使用的内存较少且高效，旧的 *Cell.getStyle()* 属性消耗了大量不必要的内存，在 *Aspose.Cells 7.1.0* 发布时被移除。
 
 {{% /alert %}}

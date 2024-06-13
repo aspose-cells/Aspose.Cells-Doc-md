@@ -30,13 +30,13 @@ Aspose.Cells API 提供了在图像格式中渲染电子表格以及将其转换
 
 Aspose.Cells APIs搜索操作系统的默认字体目录以获取所需的字体。如果系统字体目录中没有所需的字体，则API将通过自定义(用户定义)目录进行搜索。[**FontConfigs**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs)类已公开了多种设置自定义字体目录的方法，如下所述。
 
-1. [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)): 这个方法在只有一个文件夹需要设置时非常有用。
-1. [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean)): 当字体位于多个文件夹中，用户希望分别设置所有文件夹而不是将所有字体合并到一个文件夹中时，此方法非常有用。
-1. [**FontConfigs.setFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontSources(com.aspose.cells.FontSourceBase[])): 当用户希望从多个文件夹加载字体或从单个字体文件或字体数据的字节数组中加载字体时，这种机制非常有用。
+1. [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean))：如果只有一个要设置的文件夹，则此方法很有用。
+1. [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean))：当字体存在于多个文件夹中，而用户希望将所有文件夹分开设置而不是将所有字体合并到一个文件夹中时，此方法很有用。
+1. [**FontConfigs.setFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontSources(com.aspose.cells.FontSourceBase[]))：当用户希望从多个文件夹加载字体或从字节数组加载单个字体文件或字体数据时，此机制很有用。
 
 {{% alert color="primary" %}}
 
-[**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean))和[**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean))方法都接受一个布尔类型的第二个参数。将**true**作为第二个参数将指导Aspose.Cells APIs搜索字体文件的子文件夹。
+[**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean))和[**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean))方法都接受一个Boolean类型的第二个参数。将**true**作为第二个参数传递给Aspose.Cells API将搜索字体文件的子文件夹。
 
 {{% /alert %}}
 
@@ -70,5 +70,5 @@ FontConfigs.setFontSubstitutes("Arial", new String[] { "Times New Roman", "Calib
 
 除上述方法外，Aspose.Cells APIs还提供了收集已设置的来源和替换信息的手段。
 
-1. [**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources()): 此方法返回一个类型为 [**FontSourceBase**](https://reference.aspose.com/cells/java/com.aspose.cells/FileFontSource) 的数组，其中包含指定字体源的列表。如果未设置任何源，则 [**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources()) 方法将返回一个空数组。
-1. [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String)): 此方法接受一个类型为 **String** 的参数，允许指定已设置替换的字体名称。如果未为指定的字体名称设置替换，则 [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String)) 方法将返回 null。
+1. [**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources--)：此方法返回一个包含指定字体源列表的 [**FontSourceBase**](https://reference.aspose.com/cells/java/com.aspose.cells/FileFontSource) 类型的数组。如果未设置任何源，[**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources--) 方法将返回一个空数组。
+1. [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String))：此方法接受**String**类型的参数，允许指定已设置替代的字体名称。如果为指定的字体名称未设置替代，则 [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String)) 方法将返回 null。

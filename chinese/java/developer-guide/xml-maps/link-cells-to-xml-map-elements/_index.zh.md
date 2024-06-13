@@ -7,7 +7,7 @@ url: /zh/java/link-cells-to-xml-map-elements/
 
 ## **可能的使用场景**
 
-您可以使用 Aspose.Cells 将您的单元格链接到 XML 地图元素。请使用 [**Cells.LinkToXmlMap()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#linkToXmlMap(java.lang.String,%20int,%20int,%20java.lang.String)) 方法来实现此目的。
+您可以使用Aspose.Cells将单元格链接到XML映射元素。请使用[**Cells.LinkToXmlMap()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#linkToXmlMap(java.lang.String,%20int,%20int,%20java.lang.String))方法来实现此目的。
 
 ## **将单元格链接到 XML 地图元素**
 

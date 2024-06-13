@@ -33,7 +33,7 @@ Aspose.Cells支持此功能，还可以在工作表中合并单元格。您也�
 
 ### **使用Aspose.Cells**
 
-[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)类有一些用于此任务的有用的方法。例如，方法[**merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)）将单元格合并为指定范围内的单个单元格。
+[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)类具有一些有用的方法。例如，方法[**merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int))将在指定的单元格范围内将单元格合并为一个单元格。
 
 执行以下代码后生成以下输出。
 
@@ -59,7 +59,7 @@ Aspose.Cells支持此功能，还可以在工作表中合并单元格。您也�
 
 #### **使用Aspose.Cells**
 
-[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)类有一个名为[**unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unMerge(int,%20int,%20int,%20int)）的方法，该方法将单元格拆分为其原始状态。该方法使用合并单元格范围中的单元格引用来取消合并单元格。
+[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)类有一个名为[**unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unMerge(int,%20int,%20int,%20int))的方法，用于将单元格拆分为其原始状态。该方法使用合并单元格范围中的单元格引用来取消合并单元格。
 
 #### **代码示例**
 

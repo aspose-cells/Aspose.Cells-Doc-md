@@ -73,7 +73,7 @@ NuGet是下载和安装Aspose.Cells for .NET最简单的方式。
 
 适用于: NetStandard2.0, NetCore2.1, NetCore3.1, Net5.0, Net6.0 及更高版本。
 
-### **[在 Docker 中运行 Aspose Cells](/cells/zh/net/how-to-run-aspose-cells-in-docker/)**
+### [**Run Aspose Cells in Docker**](/cells/zh/net/how-to-run-aspose-cells-in-docker/)
 
 ### **如何在使用Net6的非Windows平台上使用图形库**
 

@@ -13,11 +13,11 @@ Aspose.Cells具有强大的计算引擎，可以计算几乎所有的Microsoft E
 
 在实现此功能中使用了以下属性和类。
 
-- **[CalculationOptions.CustomEngine](https://reference.aspose.com/cells/net/aspose.cells/calculationoptions/properties/customengine)**
-- **[AbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine)**
-- **[CalculationData](https://reference.aspose.com/cells/net/aspose.cells/calculationdata)**
+- [**CalculationOptions.CustomEngine**](https://reference.aspose.com/cells/net/aspose.cells/calculationoptions/properties/customengine)
+- [**AbstractCalculationEngine**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine)
+- [**CalculationData**](https://reference.aspose.com/cells/net/aspose.cells/calculationdata)
 
-以下代码实现了自定义计算引擎。它实现了 **[AbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine)** 接口，该接口具有 **[Calculate(CalculationData data)](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/methods/calculate)** 方法。此方法针对所有公式进行调用。在这个方法内部，我们捕获了 **TODAY** 函数，并将系统日期增加一天。因此，如果当前日期是 2023 年 07 月 27 日，则自定义引擎将将 TODAY() 计算为 2023 年 07 月 28 日。
+以下代码实现了自定义计算引擎。它实现了 [**AbstractCalculationEngine**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine) 接口，该接口具有一个 [**Calculate(CalculationData data)**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/methods/calculate) 方法。该方法会针对所有公式进行调用。在这个方法中，我们捕获了 **TODAY** 函数，并向系统日期添加了一天。因此，如果当前日期是2023年7月27日，那么自定义引擎将计算TODAY()为2023年7月28日。
 
 ### **编程示例**
 

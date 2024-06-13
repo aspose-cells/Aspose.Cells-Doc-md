@@ -7,7 +7,7 @@ url: /zh/net/adjust-workbook-compression-level/
 
 ## **调整工作簿压缩级别**
 
-在处理较大的工作簿时，开发人员可以调整工作簿的压缩级别。开发人员可以优先考虑较小的文件大小还是处理时间。Aspose.Cells提供了**[OoxmlCompressionType](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype)**枚举，您可以使用它来设置工作簿的压缩级别。**[OoxmlCompressionType](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype)**枚举提供以下成员。
+开发人员在处理较大的工作簿时可以调整工作簿的压缩级别。 开发人员可以优先考虑较小的文件大小，也可以优先考虑处理时间。 Aspose.Cells 提供了一个枚举 [**OoxmlCompressionType**](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype)，您可以用它来设置工作簿的压缩级别。 [**OoxmlCompressionType**](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype) 枚举提供以下成员。
 
 - Level1：最快但效果最差的压缩。
 - Level2：比级别1稍慢，但更好。
@@ -19,6 +19,6 @@ url: /zh/net/adjust-workbook-compression-level/
 - Level8: 比Level7压缩更好！
 - Level9: "最佳"压缩，指的是数据流大小降低最多。也是最慢的压缩。
 
-以下代码段演示了使用**[OoxmlCompressionType](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype)**枚举，以及比较级别1、级别6和级别9的转换时间。还可以比较生成文件的大小。
+以下代码片段演示了使用 [**OoxmlCompressionType**](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype) 枚举，并比较了 Level1、Level6 和 Level9 的转换时间。 您还可以比较生成文件的大小。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AdjustCompressionLevel-1.cs" >}}

@@ -56,7 +56,7 @@ Aspose.Cells提供了[copyRow](https://reference.aspose.com/cells/java/com.aspos
 
 ## **复制多行**
 
-您还可以使用[**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow(com.aspose.cells.Cells,%20int,%20int))方法将多行复制到新目标位置，该方法还接受一个整数类型的额外参数，用于指定要复制的源行数。
+在使用[**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow(com.aspose.cells.Cells,%20int,%20int))方法时，您还可以将多行复制到新的目的地，并附加一个整数类型的额外参数来指定要复制的源行数。
 
 以下是包含3行数据的输入电子表格快照，而下面提供的代码片段将所有3行复制到从第7行开始的新位置。
 
@@ -90,7 +90,7 @@ Aspose.Cells提供了[copyColumn](https://reference.aspose.com/cells/java/com.as
 
 ## **复制多个列**
 
-与[**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow(com.aspose.cells.Cells,%20int,%20int))方法类似，Aspose.Cells API还提供了[**Cells.copyColumns**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns(com.aspose.cells.Cells,%20int,%20int,%20int))方法，以便将多个源列复制到新位置。
+与 [**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow(com.aspose.cells.Cells,%20int,%20int)) 方法类似，Aspose.Cells API 还提供 [**Cells.copyColumns**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns(com.aspose.cells.Cells,%20int,%20int,%20int)) 方法，用于将多个源列复制到新位置。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyingMultipleColumns-CopyingMultipleColumns.java" >}}
 

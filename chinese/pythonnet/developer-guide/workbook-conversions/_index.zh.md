@@ -62,7 +62,7 @@ Aspose.Cells for Python via .NET支持读取和写入MHTML文件。下面的代�
 
 ## **将Excel工作簿转换为HTML**
 
-Aspose.Cells for Python via .NET API支持将电子表格导出为HTML格式。为此，Aspose.Cells for Python via .NET使用**[HtmlSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/)**类来灵活控制输出HTML的几个方面。
+Aspose.Cells for Python via .NET API支持将电子表格导出为HTML格式。为此，Aspose.Cells for Python via .NET使用[**HtmlSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/)类，提供灵活性来控制输出HTML的几个方面。
 
 下面的代码示例显示了如何将工作簿保存为HTML文件。
 
@@ -70,28 +70,28 @@ Aspose.Cells for Python via .NET API支持将电子表格导出为HTML格式。�
 
 ## **为HTML设置图像首选项**
 
-Aspose.Cells for Python via .NET公开了**[image_options](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/image_options/)**，用于**[HtmlSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions)**类，允许开发人员在将电子表格保存为HTML格式时指定图像首选项。
+Aspose.Cells for Python via .NET已为[**HtmlSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions) 类公开了[**image_options**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/image_options/)，允许开发人员在将电子表格保存为HTML格式时指定图像首选项。
 
 以下是可以应用的一些图像设置的详细信息。
 
-- **[ImageType](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/imagetype/)**：指定图像类型。请注意，所有形状（包括图表）在输出HTML中都会呈现为图像。
-- **[smoothing_mode](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/smoothing_mode/)**：指定线条、曲线和填充区域的抗锯齿。
-- **[text_rendering_hint](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/text_rendering_hint/)**: 指定文本呈现的质量。
-- **[quality](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/quality/)**: 在指定**[ImageType](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/imagetype/)**为Jpeg时，指定图像的质量在0到100之间。
-- **[vertical_resolution](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/vertical_resolution/)**: 获取或设置图像的垂直分辨率，单位为每英寸点数。
-- **[horizontal_resolution](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/horizontal_resolution/)**: 获取或设置图像的水平分辨率，单位为每英寸点数。
-- **[tiff_compression](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/tiff_compression/)**: 获取或设置当**[ImageType](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/imagetype/)**指定为Tiff时，图像的压缩类型。
-- **[transparent](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/transparent/)**: 指示当ImageFormat指定为Png时，图像的背景是否应该是透明的。
+- [**ImageType**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/imagetype/)：指定图像类型。请注意，所有形状，包括图表，在输出HTML中呈现为图像。
+- [**smoothing_mode**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/smoothing_mode/)：指定线条，曲线和填充区域边缘的抗锯齿。
+- [**text_rendering_hint**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/text_rendering_hint/)：指定文本呈现的质量。
+- [**quality**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/quality/)：在指定Jpeg时，指定图像质量为0到100之间的值。
+- [**vertical_resolution**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/vertical_resolution/)：获取或设置图像的垂直分辨率（每英寸点数）。
+- [**horizontal_resolution**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/horizontal_resolution/)：获取或设置图像的水平分辨率（每英寸点数）。
+- [**tiff_compression**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/tiff_compression/)：在指定Tiff时，获取或设置图像的压缩类型。
+- [**transparent**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/transparent/)：指示当ImageFormat指定为Png时，图像的背景是否应该是透明的。
 
-下面的代码演示了如何使用**[HtmlSaveOptions.image_options](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/image_options/)**指定不同的首选项。
+下面的代码示例演示了如何使用[**HtmlSaveOptions.image_options**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/image_options/) 指定不同的首选项。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-HTML-SettingImagePrefrencesforHTML-1.py" >}}
 
 ## **将Excel工作簿转换为Markdown**
 
-Aspose.Cells for Python via .NET API支持将电子表格导出为Markdown格式。要将活动工作表导出为Markdown，请将**[SaveFormat.Markdown](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**作为**[Workbook.Save](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3)**方法的第二个参数。您还可以使用**[MarkdownSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/markdownsaveoptions)**类来指定导出工作表到Markdown的附加设置。
+Aspose.Cells for Python via .NET API支持将电子表格导出为Markdown格式。要将活动工作表导出为Markdown，请将[**SaveFormat.Markdown**](https://reference.aspose.com/cells/net/aspose.cells/saveformat)作为[**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3)方法的第二个参数传递。您还可以使用[**MarkdownSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/markdownsaveoptions)类来指定导出工作表到Markdown的其他设置。
 
-下面的代码示例演示了如何通过使用**[SaveFormat.MARKDOWN](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)**枚举成员将活动工作表导出为Markdown。请参考代码生成的[Markdown文件](md_sample.txt)。
+以下代码示例演示了如何通过使用[**SaveFormat.MARKDOWN**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)枚举成员将活动工作表导出为Markdown。请参考由该代码生成的[输出Markdown文件](md_sample.txt)。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-Markdown-1.py" >}}
 

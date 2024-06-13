@@ -51,9 +51,12 @@ Aspose.Cells提供打印预览功能。为此，API提供[**WorkbookPrintingPrev
 
 ### **控制台输出**
 
-工作簿页数：1
-工作表页数: 1
+{{< highlight java >}}
 
+Workbook page count: 1
+Worksheet page count: 1
+
+{{< /highlight >}}
 
 ## **高级主题**
 - [为呈现电子表的字体进行配置](/cells/zh/net/configuring-fonts-for-rendering-spreadsheets/)

@@ -17,7 +17,7 @@ url: /zh/sharepoint/installing-aspose-cells-for-sharepoint-license/
 
 许可证 ZIP 包含如下内容：
 
-- **Aspose.Cells.SharePoint.License.wsp** – SharePoint 解决方案包文件。Aspose.Cells for SharePoint 许可证被打包为 SharePoint 解决方案，以便在服务器群中进行部署和撤消。
+- **Aspose.Cells.SharePoint.License.wsp** – SharePoint 解决方案包文件。Aspose.Cells for SharePoint许可证被打包为SharePoint解决方案，以便在服务器群中进行部署和撤消。
 - **readme.txt** – 许可证安装说明。许可证安装通过 **stsadm.exe** 从服务器控制台执行。下面给出了安装许可证所需的步骤。
 
 #### **安装许可证**

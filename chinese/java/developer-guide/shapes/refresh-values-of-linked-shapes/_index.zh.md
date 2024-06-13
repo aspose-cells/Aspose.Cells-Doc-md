@@ -7,13 +7,13 @@ url: /zh/java/refresh-values-of-linked-shapes/
 
 {{% alert color="primary" %}}
 
-有时，您的Excel文件中有一个链接到某个单元格的链接形状。在Microsoft Excel中，更改链接单元格的值也会更改链接形状的值。如果要以XLS或XLSX格式保存工作簿，则Aspose.Cells将可以正常工作。然而，如果要以PDF或HTML格式保存工作簿，那么就必须调用 [**Worksheet.getShapes().updateSelectedValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#updateSelectedValue() 方法来刷新链接形状的值。
+有时，在您的Excel文件中有一个链接的形状，该形状链接到某个单元格。在Microsoft Excel中，更改链接单元格的值也会更改链接形状的值。如果您想以XLS或XLSX格式保存工作簿，使用Aspose.Cells也可以正常工作。但是，如果您想将工作簿保存为PDF或HTML格式，那么您将需要调用 [**Worksheet.getShapes().updateSelectedValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection/#updateSelectedValue--) 方法来刷新链接形状的值。
 
 {{% /alert %}}
 
 ## 示例
 
-以下屏幕截图显示了下面示例代码中使用的源Excel文件。它有一个称为 **Picture 1** 的链接到单元格 A1 的链接。我们将使用Aspose.Cells更改单元格 A1 的值，然后调用 [**Worksheet.getShapes().updateSelectedValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#updateSelectedValue() 方法来刷新 **Picture 1** 的值并将其保存为PDF格式。
+以下屏幕截图显示了下面的示例代码中使用的源Excel文件。它有一个链接的**Picture 1**与单元格A1相连。我们将使用Aspose.Cells更改单元格A1的值，然后调用[**Worksheet.getShapes().updateSelectedValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection/#updateSelectedValue--) 方法来刷新**Picture 1**的值，并以PDF格式保存。
 
 ![todo:image_alt_text](refresh-values-of-linked-shapes_1.png)
 

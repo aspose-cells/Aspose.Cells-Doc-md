@@ -7,7 +7,7 @@ url: /zh/sharepoint/uninstalling-aspose-cells-for-sharepoint-license/
 
 {{% alert color="primary" %}} 
 
-要卸载Aspose.Cells for SharePoint许可证，请从服务器控制台使用以下步骤。 
+要卸载 Aspose.Cells for SharePoint 许可证，请从服务器控制台中使用以下步骤。 
 
 {{% /alert %}} 
 

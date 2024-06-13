@@ -11,7 +11,7 @@ url: /zh/net/public-api-changes-in-aspose-cells-8-9-2/
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
-请还检查[Aspose.Cells 8.9.1中引入的公共API更改](http://aspose.com/docs/display/cellsnet/Public+API+Changes+in+Aspose.Cells+8.9.1)
+请还要查看[在 Aspose.Cells for .NET 8.9.1 中引入的公共 API 变更](http://aspose.com/docs/display/cellsnet/Public+API+Changes+in+Aspose.Cells+8.9.1)
 
 {{% /alert %}} 
 ## **添加的 API**

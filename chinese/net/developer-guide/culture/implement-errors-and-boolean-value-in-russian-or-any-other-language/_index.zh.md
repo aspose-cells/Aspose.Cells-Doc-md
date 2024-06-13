@@ -7,7 +7,7 @@ url: /zh/net/implement-errors-and-boolean-value-in-russian-or-any-other-language
 
 ## **可能的使用场景**
 
-如果您在俄罗斯区域设置或语言或任何其他区域设置或语言中使用Microsoft Excel，它将根据该语言或区域设置显示错误和布尔值。您可以通过使用**[Workbook.Settings.GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings) 属性实现类似的行为。您将需要覆盖[**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)类的以下方法。
+如果您在俄罗斯地区或使用俄语或其他语言的Microsoft Excel上使用，它将根据该地区或语言显示错误和布尔值。您可以使用Aspose.Cells来实现类似的行为，方法是使用 [**Workbook.Settings.GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings) 属性。您需要重写 [**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) 类的以下方法。
 
 - [**GlobalizationSettings.GetErrorValueString()**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/geterrorvaluestring)
 - [**GlobalizationSettings.GetBooleanValueString()**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getbooleanvaluestring)

@@ -19,7 +19,7 @@ Aspose.Cells允许对ODS文件进行加密和解密。解密的ODS文件可以�
 
 ## **加密/解密ODS文件**
 
-对ODS文件进行加密时，加载文件并在保存之前传递实际密码给[**WorkbookSettings.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password)。输出的加密ODS文件只能在OpenOffice中打开。对ODS文件进行解密时，通过在[**LoadOptions.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#Password)中提供密码来加载文件。加载文件后，使用实际密码调用函数[**Workbook.unprotect()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotect(java.lang.String)，最后给[**Workbook.getWorkbookSettings().setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password)传递null。
+要加密ODS文件，请加载文件并在保存之前传递实际密码到 [**WorkbookSettings.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password)。输出的加密ODS文件只能在OpenOffice中打开。要解密ODS文件，请在 [**LoadOptions.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#Password) 中提供密码加载文件。一旦文件加载完成，使用实际密码调用函数 [**Workbook.unprotect()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotect(java.lang.String))，最后将null传递给 [**Workbook.getWorkbookSettings().setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password)。
 
 ### **示例代码**
 

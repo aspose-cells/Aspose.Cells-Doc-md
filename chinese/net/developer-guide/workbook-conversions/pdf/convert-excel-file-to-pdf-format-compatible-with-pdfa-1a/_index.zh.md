@@ -11,7 +11,7 @@ PDF/A是PDF的一种独特变体，旨在长期保存文件。PDF/A是PDF的ISO�
 
 ## **将Excel文件转换为与PDFA-1a兼容的PDF格式**
 
-开发人员可以使用 **[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** 类来设置转换的不同属性。设置**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)**类的不同属性可以让您控制输出PDF的打印、字体、安全和压缩设置。最重要的属性是**[PdfSaveOptions.Compliance](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)**，它使您能够将Excel文件保存为PDF/A兼容的PDF文件。
+开发人员可以使用 [**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions) 类为转换设置不同的属性。设置 [**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions) 类的不同属性将使您能够控制输出 PDF 的打印、字体、安全和压缩设置。最重要的属性是 [**PdfSaveOptions.Compliance**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)，它使您能够将 Excel 文件保存为 PDF/A 兼容的 PDF 文件。
 
 以下示例代码解释了如何将Excel文件转换为与PDFA-1a兼容的PDF格式。请参阅其[输出PDF](outputCompliancePdfA1a.pdf)以及参考的屏幕截图。
 

@@ -7,7 +7,7 @@ url: /zh/reportingservices/working-with-pivottable/
 
 {{% alert color="primary" %}} 
 
-数据透视表是一种交互式表格，可对数据进行总结并以有意义的方式呈现。SQL Server报告服务无法将报表导出为Microsoft Excel格式并保留数据透视表。报告用户必须每次将数据透视表报告从报告服务导出到Microsoft Excel时手动创建数据透视表。使用Aspose.Cells for Reporting Services，您可以在报表设计时仅需设计一次数据透视表。每次运行报表时，Aspose.Cells for Reporting Services将报表导出到Microsoft Excel并刷新数据到数据透视表中。
+*数据透视表*是一个交互式表格，它总结数据并以有意义的方式呈现。 SQL Server Reporting Services无法将报表导出到Microsoft Excel格式并保留数据透视表。报表用户每次从Reporting Services将数据透视表报表导出到Microsoft Excel时都必须手动创建数据透视表。通过Aspose.Cells for Reporting Services，您可以在报表设计时仅设计一次数据透视表。每次运行报表时，Aspose.Cells for Reporting Services都会将报表导出到Microsoft Excel并将数据刷新到数据透视表。
 
 {{% /alert %}} 
 

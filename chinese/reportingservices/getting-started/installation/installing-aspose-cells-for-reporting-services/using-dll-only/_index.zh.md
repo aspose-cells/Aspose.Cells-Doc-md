@@ -5,9 +5,9 @@ weight: 20
 url: /zh/reportingservices/using-dll-only/
 ---
 
-## 如何仅使用 DLL 安装 Aspose.Cells for Reporting Services：
+## 如何仅使用DLL安装 Aspose.Cells for Reporting Services:
 
-- 访问 Aspose.Cells for Reporting Services [下载页面](https://downloads.aspose.com/cells/reportingservices)，并下载包含最新版本组件和安装文档的 **Aspose.Cells for Reporting Services (zip)** 归档文件。
+- 访问Aspose.Cells for Reporting Services [下载页](https://downloads.aspose.com/cells/reportingservices) 并下载包含最新版本组件和已安装文档的 **Aspose.Cells for Reporting Services (zip)** 归档文件。
    - Aspose.Cells.ReportingServices.DLLs_xx.xx.zip 中包含 7 种版本的 Aspose.Cells.ReprotingSerivces.dll，支持不同的 Microsoft 报表服务器产品。
        - 在 SSRS2005 文件夹中的 Aspose.Cells.ReportingServices.dll 支持 Microsoft SQL Server 2005 Reporting Services。
        - 在 SSRS2008 文件夹中的 Aspose.Cells.ReportingServices.dll 支持 Microsoft SQL Server 2008 Reporting Services。
@@ -16,13 +16,13 @@ url: /zh/reportingservices/using-dll-only/
 
 - 将归档文件解压缩到硬盘上的一个目录中。
 
-- 安装 Aspose.Cells for Reporting Services 报表设计器：
+- 安装 Aspose.Cells for Reporting Services 报告设计器:
    - 使用 Regasm.exe 实用程序注册 **Aspose.Cells.ReportingServices.Client.dll**。
-   - 在 Excel 中添加 Aspose.Cells for Reporting Services 插件。
+   - 在Excel中添加Aspose.Cells for Reporting Services插件。
 
-- 安装 Aspose.Cells for Reporting Services 用于 Microsoft SQL Server Reporting Services 服务组件：
+- 为Microsoft SQL Server Reporting Services安装Aspose.Cells for Reporting Services服务组件:
    - 将 **Aspose.Cells.ReportingServices.dll** 放入 ${Microsoft SQL Server Reporting Services安装目录}\ReportServer\bin文件夹。 
-   - 添加 Aspose.Cells for Reporting Services 渲染扩展：  
+   - 添加Aspose.Cells for Reporting Services渲染器扩展:  
       - 打开 **${Microsoft SQL Server Reporting Services安装目录}\ReportServer\rsreportserver.config**
       - Add the following lines into the <Render>……</Render> element: 
 {{< highlight xml >}}
@@ -77,7 +77,7 @@ url: /zh/reportingservices/using-dll-only/
 </Render>
 
 {{< /highlight >}}
-   - 添加 Aspose.Cells for Reporting Services 权限以执行：
+   - 添加Aspose.Cells for Reporting Services执行权限:
       - 打开 **${Microsoft SQL Server Reporting Services安装目录}\ReportServer\rssrvpolicy.config** 和 a
       - Add the following as the last item in the second to the outer <CodeGroup> element (which should be <CodeGroup class="FirstMatchCodeGroup" version="1" PermissionSetName="Execution" Description="This code group grants MyComputer code Execution permission. "> ): 
 
@@ -107,16 +107,16 @@ url: /zh/reportingservices/using-dll-only/
 
 {{< /highlight >}}
 
-## 验证Aspose.Cells for Reporting Services是否安装成功：
+## 验证Aspose.Cells for Reporting Services是否成功安装:
    1. Open the Report Manager and check the list of available export types for a report. (Launch Report Manager by opening a browser and type the Report Manager URL into the address bar. (By default, the URL is http://<ComputerName>/Reports).
    1. 选择服务器上的报告之一，并打开**选择格式**列表。
-      您应该看到Aspose.Cells为Reporting Services提供的导出格式列表。
+      您应该看到Aspose.Cells for Reporting Services提供的导出格式列表。
    1. 选择**XLS - 通过Aspose.Cells生成的Excel工作簿**。
    1. 点击**导出**。
       报告以所选格式生成。
    1. 发送给客户并在适当的应用程序中打开。在本例中，报告在 Microsoft Excel 中打开。
 
-恭喜，您已成功安装了Aspose.Cells for Reporting Services并生成了以Microsoft Excel文件形式的报告！
+恭喜，您已成功安装Aspose.Cells for Reporting Services并生成了一个Microsoft Excel文件的报表!
 
 
 Aspose.Cells.ReportingServices.DLLs_xx.xx.zip 中有7种版本的 Aspose.Cells.ReprotingSerivces.dll。它们支持不同的 Microsoft 报告服务器产品。 

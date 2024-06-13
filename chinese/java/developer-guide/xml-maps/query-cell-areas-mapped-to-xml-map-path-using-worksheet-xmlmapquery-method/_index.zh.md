@@ -7,11 +7,11 @@ url: /zh/java/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquer
 
 ## **可能的使用场景**
 
-您可以使用 Aspose.Cells 的 [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap)) 方法查询映射到 XML 地图路径的单元格区域。如果路径存在，它将返回相关的单元格区域列表。[**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap)) 方法的第一个参数指定 XML 元素路径，第二个参数指定您要查询的 XML 地图。
+您可以使用Aspose.Cells的[**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap))方法查询映射到XML映射路径的单元格区域。如果路径存在，它将返回与XML映射内部该路径相关的单元格区域的列表。[**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap))方法的第一个参数指定XML元素路径，第二个参数指定您要查询的XML映射。
 
 ## **通过 Worksheet.XmlMapQuery 方法查询映射到 XML 地图路径的单元格区域**
 
-以下截图显示 Microsoft Excel 显示代码中使用的示例 Excel 文件(55541818.xlsx) 中的 XML 地图。代码查询两次 XML 地图，并打印由 [**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap)) 方法返回的单元格区域列表到控制台，如下所示。
+下面的屏幕截图显示了Microsoft Excel显示内含在代码中使用的[sample Excel文件](55541818.xlsx)中的XML映射。代码两次查询XML映射并以控制台上的[**Worksheet.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap))方法返回的单元格区域列表显示如下。
 
 ![todo:image_alt_text](query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method_1.png)
 

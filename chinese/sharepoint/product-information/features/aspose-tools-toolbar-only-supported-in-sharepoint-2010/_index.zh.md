@@ -5,7 +5,7 @@ weight: 50
 url: /zh/sharepoint/aspose-tools-toolbar-only-supported-in-sharepoint-2010/
 ---
 
-Aspose.Cells for SharePoint提供了一个工具栏，包括一些有价值的选项和命令：
+Aspose.Cells for SharePoint提供了一个包含一些有价值选项和命令的工具栏:
 
 - 使用Aspose.Cells进行转换
 - 使用Aspose.Cells预览文档

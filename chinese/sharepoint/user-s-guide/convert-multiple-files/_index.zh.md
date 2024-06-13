@@ -28,6 +28,6 @@ url: /zh/sharepoint/convert-multiple-files/
 ### **在SharePoint 2010下使用服务器功能区按钮**
 在SharePoint 2010下，服务器功能区按钮可用，而不是在SharePoint 2007/WSS 3中使用的自定义操作菜单。 
 
-**使用Aspose.Cells for SharePoint在SharePoint 2010上转换文档** 
+在SharePoint 2010上使用Aspose.Cells for SharePoint转换文档 
 
 ![todo:image_alt_text](convert-multiple-files_3.png)

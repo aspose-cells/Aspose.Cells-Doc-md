@@ -7,7 +7,7 @@ url: /zh/java/rich-text-custom-data-label-of-chart-point/
 
 {{% alert color="primary" %}}
 
-您可以使用Aspose.Cells创建图表点的富文本自定义数据标签。Aspose.Cells 提供了 [**DataLabels.characters()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#characters(int,%20int)）方法返回可以用于设置文本的字体属性，如颜色、粗细等的 [**FontSetting**](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting) 对象。
+您可以使用Aspose.Cells创建图表点的富文本自定义数据标签。Aspose.Cells提供了 [**DataLabels.characters()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#characters(int,%20int)) 方法，返回 [**FontSetting**](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting) 对象，该对象可用于设置文本的字体属性，如颜色、粗体等。
 
 {{% /alert %}}
 

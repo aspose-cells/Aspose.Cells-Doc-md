@@ -1,12 +1,12 @@
 ---
-title: Aspose.Cells for Reporting Services 的新功能
+title: Aspose.Cells for Reporting Services的新功能有哪些
 type: docs
-description: Aspose.Cells for Reporting Services 不断扩展和增强。在这个页面上，您可以了解到产品的巨大和最有趣的功能。
+description: "Aspose.Cells for Reporting Services不断扩展和增强。在此页面上，您可以了解产品最巨大和最有趣的功能。"
 weight: 5
 url: /zh/reportingservices/what-s-new-in-aspose-cells-for-reporting-services/
 ---
 
-本页面描述了最近版本中引入的 Aspose.Cells for Reporting Services 的最有趣的新功能。
+该页面描述了最近发布的Aspose.Cells for Reporting Services的最有趣的新功能。
 
 ## Aspose.Cells for Reporting Services  22.10
 

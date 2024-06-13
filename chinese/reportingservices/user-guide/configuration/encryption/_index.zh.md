@@ -5,9 +5,9 @@ weight: 40
 url: /zh/reportingservices/encryption/
 ---
 
-Aspose.Cells for Reporting Services 支持三种加密类型：XOR、弱加密和 Microsoft 强加密提供者。请参阅 **Aspose.Cells.ReportingServices.xml** 文件中的加密配置信息。
+Aspose.Cells for Reporting Services 支持三种加密方式：XOR、WEAK ENCRYPTION 和 Microsoft Strong Cryptographic Provider。查看 **Aspose.Cells.ReportingServices.xml** 文件中的加密配置信息。
 
-当加密值为 **off** 时，Aspose.Cells for Reporting Services 将关闭加密功能。
+当 Encryption 的值为 **off** 时， Aspose.Cells for Reporting Services 关闭了加密功能。
 
 {{< highlight java >}}
 
@@ -27,7 +27,7 @@ Aspose.Cells for Reporting Services 支持三种加密类型：XOR、弱加密�
 
 {{< /highlight >}}
 
-当加密值为 **on** 时，Aspose.Cells for Reporting Services 开启加密。
+当 Encryption 的值为 **on** 时， Aspose.Cells for Reporting Services 打开了加密功能。
 
 {{< highlight java >}}
 

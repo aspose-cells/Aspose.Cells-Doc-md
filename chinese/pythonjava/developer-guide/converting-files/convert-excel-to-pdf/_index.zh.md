@@ -13,9 +13,9 @@ PDF文档被广泛用作组织、政府部门和个人之间交换文件的标�
 
 ### **直接转换**
 
-要直接将Excel文件保存为PDF，可以使用[**Workbook.save**](https://reference.aspose.com/cells/python/asposecells.api/workbook#save(java.lang.String,%20com.aspose.cells.SaveOptions)）方法，并将[**SaveFormat.PDF**](https://reference.aspose.com/cells/python/asposecells.api/saveformat#PDF)作为第二参数。
+要直接将Excel文件保存为PDF，您可以使用[**Workbook.save**](https://reference.aspose.com/cells/python/asposecells.api/workbook#save(java.lang.String,%20com.aspose.cells.SaveOptions))方法，并将[**SaveFormat.PDF**](https://reference.aspose.com/cells/python/asposecells.api/saveformat#PDF)作为第二个参数传递。
 
-以下代码片段演示了使用[**SaveFormat.PDF**](https://reference.aspose.com/cells/python/asposecells.api/saveformat#PDF)和[**Workbook.save**](https://reference.aspose.com/cells/python/asposecells.api/workbook#save(java.lang.String,%20com.aspose.cells.SaveOptions)）方法将Excel转换为PDF格式。
+以下代码片段演示了使用[**SaveFormat.PDF**](https://reference.aspose.com/cells/python/asposecells.api/saveformat#PDF)和[**Workbook.save**](https://reference.aspose.com/cells/python/asposecells.api/workbook#save(java.lang.String,%20com.aspose.cells.SaveOptions))方法将Excel转换为PDF格式。
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "LoadingSavingConvertingAndManaging-ConvertingToPDFFiles.py" >}}
 
@@ -27,6 +27,6 @@ PDF文档被广泛用作组织、政府部门和个人之间交换文件的标�
 
 {{% alert color="primary" %}}
 
-如果您的电子表格包含公式，请在将电子表格渲染为PDF之前调用[**Workbook.calculateFormula**](https://reference.aspose.com/cells/python/asposecells.api/workbook#calculateFormula()）方法。这可以确保重新计算依赖公式的值，并在PDF中呈现正确的值。
+如果你的电子表格包含公式，请在将电子表格呈现为PDF时调用[**Workbook.calculateFormula**](https://reference.aspose.com/cells/python-java/asposecells.api/workbook#calculateFormula())方法。这样可以确保重新计算公式相关的值，并在PDF中呈现正确的值。
 
 {{% /alert %}}

@@ -21,10 +21,10 @@ keywords: 将excel转换为pdf，在excel转换为pdf期间重新采样图像，
 
 {{% alert color="primary" %}}
 
-使用[**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample(int,%20int)）选项可以最小化输出PDF的大小，但可能会稍微影响图像质量。
+使用[**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample(int,%20int))选项可以最大限度地减小输出PDF的大小，但可能会对图像质量产生一些影响。
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-如果您的电子表格包含公式，最好在将电子表格呈现为PDF格式之前调用[**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()）。这样做将确保重新计算依赖于公式的值，并在PDF中呈现正确的值。
+如果您的电子表格包含公式，最好在将电子表格呈现为PDF格式之前调用 [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--)。这样做将确保重新计算依赖于公式的值，并在PDF中呈现正确的值。
 
 {{% /alert %}}

@@ -15,7 +15,7 @@ keywords: C#打开Excel文件而不使用Excel，我该如何打开Excel文件�
 
 ## **如何通过路径打开Excel文件**
 
-开发人员可以通过在**[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)**类构造函数中指定在本地计算机上的文件路径来打开Microsoft Excel文件。只需在构造函数中将路径作为*字符串*传递即可。Aspose.Cells将自动检测文件格式类型。
+开发人员可以通过在构造函数中指定本地计算机上的文件路径来打开Microsoft Excel文件。只需将路径作为*string*传递给构造函数。Aspose.Cells将自动检测文件格式类型。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningFilesThroughPath-1.cs" >}}
 
@@ -27,13 +27,13 @@ keywords: C#打开Excel文件而不使用Excel，我该如何打开Excel文件�
 
 ## **如何只打开具有数据的文件**
 
-要仅打开具有数据的文件，请使用**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**和**[LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadfilter)**类设置相关属性和模板文件加载的选项。
+要仅打开具有数据的文件，使用[**LoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)和[**LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadfilter)类设置文件模板的相关属性和选项。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningFilewithDataOnly-1.cs" >}}
 
 ## **如何仅加载可见工作表**
 
-在加载**[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)**时，有时可能只需要工作簿中可见工作表中的数据。Aspose.Cells允许您在加载工作簿时跳过不可见工作表中的数据。要实现此目的，请创建一个继承**[LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadfilter)**类的自定义函数，并将其实例传递给**[LoadOptions.LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter)**属性。
+在加载 [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) 时，有时您可能只需要工作簿中可见工作表中的数据。Aspose.Cells允许您在加载工作簿时跳过不可见工作表中的数据。要做到这一点，请创建一个继承 [**LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadfilter) 类的自定义函数，并将其实例传递给 [**LoadOptions.LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter) 属性。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-LoadVisibleSheetsOnly-1.cs" >}}
 
@@ -47,6 +47,6 @@ keywords: C#打开Excel文件而不使用Excel，我该如何打开Excel文件�
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-**[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)**构造函数在加载大型电子表格时可能会引发*System.OutOfMemoryException*。此异常表明可用内存不足以完全将电子表格加载到内存中，因此必须在启用存储器首选项的情况下加载电子表格。
+[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)构造函数在加载大型电子表格时可能会引发*System.OutOfMemoryException*。此异常表明可用内存不足以完全将电子表格加载到内存中，因此必须在启用内存偏好的情况下加载电子表格。
 
 {{% /alert %}}

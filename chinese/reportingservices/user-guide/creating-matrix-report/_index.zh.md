@@ -7,7 +7,7 @@ url: /zh/reportingservices/creating-matrix-report/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Reporting Services 允许您在 Microsoft Excel 中设计矩阵。 
+Aspose.Cells for Reporting Services可以让您在Microsoft Excel中设计矩阵。 
 
 {{% /alert %}} 
 ### **矩阵模板**

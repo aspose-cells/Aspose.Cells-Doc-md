@@ -49,7 +49,7 @@ url: /zh/java/formatting-pivot-table/
 
 ### **清除数据透视字段**
 
-[**PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) 有一个名为 [**clear()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotfieldcollection#clear() 的方法，可清除透视字段。可以用它清除所有区域的透视字段，例如页面、列、行或数据。
+[**PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection)有一个名为[**clear()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotfieldcollection#clear--)的方法用于清除数据透视表字段。在清除页面、列、行或数据等区域的数据透视表字段时使用它。
 下面的代码示例显示了如何清除数据区域中的所有透视字段。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-ClearPivotFields-ClearPivotFields.java" >}}

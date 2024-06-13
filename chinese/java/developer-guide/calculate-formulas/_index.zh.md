@@ -11,9 +11,9 @@ Aspose.Cells内置了一个公式计算引擎。它不仅可以重新计算从�
 
 Aspose.Cells支持大多数Microsoft Excel公式或函数（阅读[a list of the functions supported by the calculation engine](/cells/zh/java/supported-formula-functions/)）。这些函数可以通过API或设计工作表来使用。Aspose.Cells支持大量的数学、字符串、布尔、日期/时间、统计、数据库、查找和引用公式。
 
-使用[**Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula)属性或[**SetFormula(...)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setFormula(java.lang.String,%20com.aspose.cells.FormulaParseOptions,%20java.lang.Object)方法的[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)类，向单元格添加公式。应用公式时，始终以等号（=）开头，就像在Microsoft Excel中创建公式时一样，并使用逗号（,）来分隔函数参数。
+使用 [**Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) 属性或 [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) 类的 [**SetFormula(...)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setFormula(java.lang.String,%20com.aspose.cells.FormulaParseOptions,%20java.lang.Object)) 方法来向单元格添加公式。在应用公式时，始终以等号（=）开头，就像在Microsoft Excel中创建公式时一样，并使用逗号（，）来分隔函数参数。
 
-要计算公式的结果，用户可以调用[**CalculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula(com.aspose.cells.CalculationOptions)类的[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)方法，该方法处理Excel文件中嵌入的所有公式。或者，用户可以调用[**CalculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula(com.aspose.cells.CalculationOptions,%20boolean)类的[**Worsheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)方法，该方法处理工作表中嵌入的所有公式。又或者，用户也可以调用[**Calculate**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#calculate(com.aspose.cells.CalculationOptions)类的[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)方法，处理单元格的公式：
+要计算公式的结果，用户可以调用 [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) 类的 [**CalculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula(com.aspose.cells.CalculationOptions)) 方法，该方法处理Excel文件中嵌入的所有公式。或者，用户可以调用 [**Worsheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) 类的 [**CalculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula(com.aspose.cells.CalculationOptions,%20boolean)) 方法，该方法处理工作表中嵌入的所有公式。用户还可以调用 [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) 类的 [**Calculate**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#calculate(com.aspose.cells.CalculationOptions)) 方法，该方法处理一个单元格的公式。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-CalculatingFormulas-CalculatingFormulas.java" >}}
 
@@ -31,7 +31,7 @@ Aspose.Cells内置了一个公式计算引擎。除了计算从设计文件导�
 
 有时，您需要直接计算公式的结果，而无需将它们添加到工作表中。公式中使用的单元格的值已经存在于工作表中，您只需要根据一些Microsoft Excel公式找到这些值的结果，而不需要将公式添加到工作表中。
 
-您可以使用Aspose.Cells的公式计算引擎API来对[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)进行[**calculate**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula(java.lang.String,%20com.aspose.cells.CalculationOptions)）这些公式的结果，而无需将其添加到工作表中：
+您可以使用Aspose.Cells的公式计算引擎API来 [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) 到 [**calculate**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula(java.lang.String,%20com.aspose.cells.CalculationOptions)) 不将这些公式添加到工作表中的结果。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DirectCalculationFormula-DirectCalculationFormula.java" >}}
 
@@ -52,7 +52,7 @@ Result of Sum(A1:A2): 50.0
 
 {{% alert color="primary" %}}
 
-默认情况下，计算链是禁用的。因为创建链也需要额外的时间，因此第一次计算公式（[**Workbook.CalculateFormula(...)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula(com.aspose.cells.CalculationOptions)）可能消耗更多的CPU处理时间和内存，与不使用链计算公式相比。如果用户不需要重复计算公式，则默认行为（直接计算公式而不创建计算链）应该是更好的方式。
+默认情况下，计算链是禁用的。因为创建链也需要额外的时间，第一次计算公式([**Workbook.CalculateFormula(...)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula(com.aspose.cells.CalculationOptions)))可能比不创建链直接计算公式时消耗更多的CPU处理时间和内存。如果用户不需要重复计算公式，那么默认行为（直接计算公式而不创建计算链）应该是更好的方式。
 
 {{% /alert %}}
 

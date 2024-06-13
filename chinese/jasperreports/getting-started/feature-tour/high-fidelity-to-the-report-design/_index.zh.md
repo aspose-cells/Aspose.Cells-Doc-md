@@ -7,9 +7,9 @@ url: /zh/jasperreports/high-fidelity-to-the-report-design/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells for JasperReports 将报表导出为与内置 [JasperReports](https://community.jaspersoft.com/project/jasperreports-library) 导出器导出的报表相同的 Microsoft Excel 电子表格。
+Aspose.Cells for JasperReports 将报表导出为看起来与 [JasperReports](https://community.jaspersoft.com/project/jasperreports-library) 内置导出程序导出的报表完全相同的 Microsoft Excel 电子表格。
 
-**使用 Aspose.Cells for JasperReports 导出的样本 XLS 报表** 
+**使用Aspose.Cells for JasperReports导出的样本XLS报告** 
 
 ![todo:image_alt_text](high-fidelity-to-the-report-design_1.png)
 

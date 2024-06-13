@@ -7,7 +7,7 @@ url: /zh/java/get-range-with-external-links/
 
 ## **获取带有外部链接的范围**
 
-许多时候，Excel 文件通过外部链接访问其他 Excel 文件中的数据。Aspose.Cells 提供了使用 [**Name.GetReferredAreas**](https://reference.aspose.com/cells/java/com.aspose.cells/name#getReferredAreas(boolean)) 方法检索这些外部链接的选项。 [**Name.GetReferredAreas**](https://reference.aspose.com/cells/java/com.aspose.cells/name#getReferredAreas(boolean)) 方法返回 [**ReferredArea**](https://reference.aspose.com/cells/java/com.aspose.cells/ReferredArea) 类型的数组。 [**ReferredArea**](https://reference.aspose.com/cells/java/com.aspose.cells/ReferredArea) 类提供一个 [**ExternalFileName**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#ExternalFileName) 属性，它返回外部文件的名称。 [**ReferredArea**](https://reference.aspose.com/cells/java/com.aspose.cells/ReferredArea) 类公开以下成员。
+许多时候，Excel文件通过外部链接访问其他Excel文件的数据。 Aspose.Cells 提供了通过使用 [**Name.GetReferredAreas**](https://reference.aspose.com/cells/java/com.aspose.cells/name#getReferredAreas(boolean)) 方法来检索这些外部链接的选项。[**Name.GetReferredAreas**](https://reference.aspose.com/cells/java/com.aspose.cells/name#getReferredAreas(boolean)) 方法返回 [**ReferredArea**](https://reference.aspose.com/cells/java/com.aspose.cells/ReferredArea) 类型的数组。[**ReferredArea**](https://reference.aspose.com/cells/java/com.aspose.cells/ReferredArea) 类提供了 [**ExternalFileName**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#ExternalFileName) 属性，返回外部文件的名称。[**ReferredArea**](https://reference.aspose.com/cells/java/com.aspose.cells/ReferredArea) 类公开了以下成员。
 
 - [**EndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#EndColumn)：区域的结束列
 - [**EndRow**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#EndRow)：区域的结束行

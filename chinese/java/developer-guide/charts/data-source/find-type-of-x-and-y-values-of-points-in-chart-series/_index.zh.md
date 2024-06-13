@@ -7,11 +7,11 @@ url: /zh/java/find-type-of-x-and-y-values-of-points-in-chart-series/
 
 ## **可能的使用场景**
 
-有时候，您想知道图表系列中点的X和Y值的类型。Aspose.Cells提供了[**ChartPoint.XValueType**](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#XValueType)和[**ChartPoint.YValueType**](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#YValueType)属性供此目的使用。请注意，您需要在有效地使用这些属性之前调用[**Chart.calculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#calculate()方法。
+有时，您想了解系列中的图表点的 X 和 Y 值的类型。Aspose.Cells 提供了 [**ChartPoint.XValueType**](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#XValueType) 和 [**ChartPoint.YValueType**](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#YValueType) 属性，可用于此目的。请注意，在使用这些属性之前，您必须调用 [**Chart.calculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#calculate--) 方法。
 
 ## **查找图表系列中点的X和Y值类型**
 
-以下示例代码加载了[sample Excel file](64716920.xlsx)，并访问了第一个工作表中的第一个图表。然后调用了[**Chart.calculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#calculate()方法，找到了第一个图表点的X和Y值的类型，并在控制台上打印了它们。请参考下面的控制台输出。
+以下示例代码加载了 [示例 Excel 文件](64716920.xlsx)，并访问了第一个工作表中的第一个图表。然后调用 [**Chart.calculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#calculate--) 方法，并查找第一个图表点的 X 和 Y 值的类型，并将其打印到控制台。请参阅下面显示的控制台输出以供参考。
 
 ## **示例代码**
 

@@ -5,9 +5,9 @@ weight: 10
 url: /zh/net/copy-worksheets-between-workbooks/
 ---
 
-Aspose.Cells 提供了一个方法 Aspose.Cells.Worksheet.Copy()，用于将数据和格式从源工作表复制到另一个工作表中。该方法以源工作表对象作为参数。
+Aspose.Cells提供了一个方法Aspose.Cells.Worksheet.Copy()，用于在工作簿内或之间复制数据和格式。该方法将源工作表对象作为参数。
 
-以下示例显示如何将一个工作表从一个工作簿复制到另一个工作簿。
+以下示例显示了如何将一个工作表从一个工作簿复制到另一个工作簿。
 
 {{< highlight csharp >}}
 
@@ -79,7 +79,7 @@ excelWorkbook1.Save(FileName);
 ## **下载示例代码**
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20between%20Workbooks%20%28Aspose.Cells%29.zip)
 
-以下示例显示如何将一个工作表从一个工作簿复制到另一个工作簿。
+以下示例显示了如何将一个工作表从一个工作簿复制到另一个工作簿。
 
 {{< highlight csharp >}}
 
