@@ -5,15 +5,9 @@ weight: 10
 url: /java/managing-pictures/
 ---
 
-{{% alert color="primary" %}}
-
 Aspose.Cells allows developers to add pictures to spreadsheets at runtime. Moreover, the positioning of these pictures can be controlled at runtime, which is discussed in more detail in the coming sections.
 
-Aspose.Cells for Java only supports image formats: BMP, JPEG, PNG, GIF.
-
-Indexes used in examples start from 0.
-
-{{% /alert %}}
+This article explains how to add pictures, and how to insert an image that shows the content of certain cells.
 
 ## **Adding Pictures**
 
