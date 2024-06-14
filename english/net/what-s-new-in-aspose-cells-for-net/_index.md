@@ -8,6 +8,11 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 24.6
+* Enhancements for rendering: color saturation and color temperature adjustment, duotones, Webp images
+* Enhancements for PivotTable: merging range, "Show Values as" of PivotField
+* Support Range.ToHtml()/ToImage() for user's convenience to manipulate range data
+
 ## Aspose.Cells for .NET 24.5
 * Support new functions: XMATCH, XOR
 * Support to transpose data of the range
