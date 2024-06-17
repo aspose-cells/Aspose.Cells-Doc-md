@@ -51,7 +51,7 @@ It is possible to save specific pages to image. The following code converts the 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingImageOrPrintOptions-SpecificPagesToImage-1.cs" >}}
 
-## **Image conversion using WorkbookRender**
+## **Image conversion using WorkbookRender**
 
 A TIFF image can contian more than one frames. You can save the whole workbook to a single TIFF image with multiply frames or pages:
 
