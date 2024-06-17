@@ -3,7 +3,7 @@ title: 使用 GridWeb 中的 DropDownList、List、FreeList 单元格
 type: docs
 weight: 60
 url: /zh/net/aspose-cells-gridweb/using-the-dropdownlist-list-freelist-gridweb/
-keywords: GridWeb、dropdownlist、freelist、list
+keywords: GridWeb,dropdownlist,freelist,list
 description: 本文介绍如何在 GridWeb 中使用 list。
 ---
 

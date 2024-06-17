@@ -3,7 +3,7 @@ title: 入门
 type: docs
 weight: 5
 url: /zh/nodejs-java/getting-started/
-keywords: "nodejs，excel，install"
+keywords: "nodejs, excel, install"
 description: "设置Aspose.Cells for Node.js via Java和安装指南。"
 ---
 

@@ -8,7 +8,7 @@ url: /zh/java/split-panes-in-apache-poi-and-aspose-cells/
 ## **Aspose.Cells - 拆分窗格**
 Aspose.Cells 提供了一个 Workbook 类，表示 Microsoft Excel 文件。Workbook 类提供了广泛的属性和方法来管理 Excel 文件。要实现拆分视图，使用 Worksheet 类的 split 方法。要移除拆分窗格，使用 removeSplit 方法。
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -28,7 +28,7 @@ book.getWorksheets().get(0).split();
 ## **Apache POI SS - HSSF & XSSF - 拆分窗格**
 使用 Apache POI SS (HSSF & XSSF) API 可以通过 createSplitPane 方法实现拆分窗格功能
 
-Java
+**Java**
 
 {{< highlight java >}}
 

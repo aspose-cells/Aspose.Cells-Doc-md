@@ -13,18 +13,18 @@ Aspose.Cells for Python via .NET可用于将合并函数应用于数据透视表
 
 Aspose.Cells for Python via .NET提供[**ConsolidationFunction**](https://reference.aspose.com/cells/python-net/aspose.cells/consolidationfunction/)枚举以支持以下合并函数。
 
--ConsolidationFunction.AVERAGE
--ConsolidationFunction.COUNT
--ConsolidationFunction.COUNT_NUMS
--ConsolidationFunction.DISTINCT_COUNT
--ConsolidationFunction.MAX
--ConsolidationFunction.MIN
--ConsolidationFunction.PRODUCT
--ConsolidationFunction.STD_DEV
--ConsolidationFunction.STD_DEVP
--ConsolidationFunction.SUM
--ConsolidationFunction.VAR
--ConsolidationFunction.VARP
+- ConsolidationFunction.AVERAGE
+- ConsolidationFunction.COUNT
+- ConsolidationFunction.COUNT_NUMS
+- ConsolidationFunction.DISTINCT_COUNT
+- ConsolidationFunction.MAX
+- ConsolidationFunction.MIN
+- ConsolidationFunction.PRODUCT
+- ConsolidationFunction.STD_DEV
+- ConsolidationFunction.STD_DEVP
+- ConsolidationFunction.SUM
+- ConsolidationFunction.VAR
+- ConsolidationFunction.VARP
 
 ## **如何使用Aspose.Cells for Python Excel库将ConsolidationFunction应用于数据字段的数据透视表**
 

@@ -8,7 +8,7 @@ url: /zh/java/create-new-workbook/
 ## **Aspose.Cells - 创建新工作簿**
 Workbook类可用于简单使用
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -20,7 +20,7 @@ workbook.save("newWorkBook.xlsx", SaveFormat.XLSX); //Workbooks can be saved in 
 ## **Apache POI SS - HSSF XSSF - 创建新工作簿**
 使用Workbook类创建新工作簿，并使用FileOutputStream保存
 
-Java
+**Java**
 
 {{< highlight java >}}
 

@@ -52,7 +52,7 @@ repositories {
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>24.5</version>
+            <version>24.6</version>
 
         </dependency>
 
@@ -62,7 +62,7 @@ repositories {
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>24.5</version>
+            <version>24.6</version>
 
             <classifier>javadoc</classifier>
 

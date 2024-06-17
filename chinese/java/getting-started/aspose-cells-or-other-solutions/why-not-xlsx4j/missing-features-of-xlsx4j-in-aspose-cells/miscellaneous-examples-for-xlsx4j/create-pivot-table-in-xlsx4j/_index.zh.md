@@ -12,7 +12,7 @@ url: /zh/java/create-pivot-table-in-xlsx4j/
 1. 通过调用PivotTables集合的add方法（封装在Worksheet对象中）向工作表添加数据透视表。
 1. 通过传递其索引从PivotTables集合中访问新的PivotTable对象。# 使用PivotTable对象中封装的任何数据透视表对象来管理表格。
 
-Java
+**Java**
 
 {{< highlight java >}}
 

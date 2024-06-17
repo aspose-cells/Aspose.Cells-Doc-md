@@ -185,10 +185,10 @@ function_num 是指定小计计算中使用的函数类型的数字。
 
 |**1**|**平均值**|
 | :- | :- |
-|2|COUNT||
-|3|COUNTA||
-|4|MAX||
-|5|MIN||
-|6|PRODUCT||
-|7|SUM||
+|2|COUNT|
+|3|COUNTA|
+|4|MAX|
+|5|MIN|
+|6|PRODUCT|
+|7|SUM|
 ref1、ref2 等为小计计算的区域。如果 ref1、ref2 ... 包含其他小计函数，则忽略引用的单元格，以避免重复计算。

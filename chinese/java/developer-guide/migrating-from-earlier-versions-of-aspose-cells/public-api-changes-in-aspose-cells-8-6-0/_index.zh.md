@@ -16,7 +16,7 @@ Aspose.Cells for Java API的此版本已经暴露出两个新类WorkbookMetadata
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -40,7 +40,7 @@ Aspose.Cells for Java 8.6.0已经暴露出HtmlSaveOptions.ExportFrameScriptsAndP
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -64,7 +64,7 @@ Aspose.Cells for Java 8.6.0已经暴露出Shape.MarcoName属性，可以用于[�
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

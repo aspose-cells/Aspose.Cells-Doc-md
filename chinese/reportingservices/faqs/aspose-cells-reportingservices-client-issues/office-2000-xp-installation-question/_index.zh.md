@@ -7,7 +7,7 @@ url: /zh/reportingservices/office-2000-xp-installation-question/
 
 ##### **描述**
 当 Microsoft Excel 2002 或 Microsoft Excel 2000 加载 Aspose.Cells.ReportingServices.Client 插件时，Microsoft Excel 会产生自动化错误。
-##### **Solution**
+##### **解决方案**
 {{% alert color="primary" %}} 
 
 安装 **lockbackRegKey.msi**。这将修复 Office 2003 之前的 Office 机器上的 CLR 问题。

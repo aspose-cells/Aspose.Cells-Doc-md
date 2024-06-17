@@ -11,7 +11,7 @@ url: /zh/java/create-pivot-charts-using-aspose-cells/
 
 Aspose.Cells支持数据透视表和数据透视图图表。
 
-Java
+**Java**
 
 {{< highlight java >}}
 

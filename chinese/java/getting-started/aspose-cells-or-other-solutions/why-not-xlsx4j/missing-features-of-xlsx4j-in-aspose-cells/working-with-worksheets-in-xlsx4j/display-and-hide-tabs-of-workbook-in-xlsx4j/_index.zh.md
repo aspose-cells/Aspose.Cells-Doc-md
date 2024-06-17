@@ -8,7 +8,7 @@ url: /zh/java/display-and-hide-tabs-of-workbook-in-xlsx4j/
 ## **Aspose.Cells - 显示和隐藏工作簿的选项卡**
 Aspose.Cells提供了一个代表Microsoft Excel文件的Workbook类。Workbook类提供了广泛的属性和方法来管理Excel文件。为了控制Excel文件中选项卡的可见性，开发人员可以使用Workbook类的**setShowTabs**方法。
 
-Java
+**Java**
 
 {{< highlight java >}}
 

@@ -16,7 +16,7 @@ url: /zh/java/download-and-configure-aspose-cells-in-python/
 -----
 ### **GitHub**
 - **Aspose.Cells Java的Python示例** 
-  - [Aspose.Cells Java的Python](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)
+  - [Aspose.Cells Java for Python](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)
 ## **如何配置源代码**
 请按以下简单步骤进行，以便在使用时打开和扩展源代码:
 

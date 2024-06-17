@@ -8,7 +8,7 @@ url: /zh/java/save-each-worksheet-to-different-pdf-using-aspose-cells/
 ## **Aspose.Cells - 将每个工作表保存为不同的 PDF**
 Aspose.Cells支持将包含图像、图表等的XLS文件转换为PDF文档。 Aspose.Cells for Java可以独立工作，将 spreadsheet 转换为 Pdf 文档，您不需要再使用Aspose.Pdf for Java进行转换，转换也不需要创建/使用任何临时文件，整个过程可以在内存中完成。
 
-Java
+**Java**
 
 {{< highlight java >}}
 

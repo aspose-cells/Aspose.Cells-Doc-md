@@ -3,7 +3,7 @@ title: 如何在.NET Core中使用Aspose.Cells.GridWeb
 type: docs
 weight: 40
 url: /zh/net/aspose-cells-gridweb/how-to-use-aspose-cells-gridweb-with-net-core/
-keywords: GridWeb，dotnetcore
+keywords: GridWeb,dotnetcore
 description: 本文介绍如何在.net core Web应用程序中使用GridWeb
 ---
 

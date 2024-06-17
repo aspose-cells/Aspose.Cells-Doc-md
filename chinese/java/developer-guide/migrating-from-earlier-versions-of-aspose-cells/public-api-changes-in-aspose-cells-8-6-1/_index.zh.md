@@ -21,7 +21,7 @@ Aspose.Cells for Java API的此版本已经暴露出名为HtmlLinkTargetType的�
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -48,7 +48,7 @@ Aspose.Cells for Java 8.6.1已经暴露出VbaModuleCollection.remove方法的另
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -70,7 +70,7 @@ Aspose.Cells for Java 8.6.1已经暴露出RangeCollection.Add方法，用于向�
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -96,7 +96,7 @@ Cell.setCharacters 方法可用于更新给定 Cell 对象的[富文本部分](/
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -130,7 +130,7 @@ Aspose.Cells for Java 8.6.1已经暴露出VbaProject.isSigned属性，用于[测
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

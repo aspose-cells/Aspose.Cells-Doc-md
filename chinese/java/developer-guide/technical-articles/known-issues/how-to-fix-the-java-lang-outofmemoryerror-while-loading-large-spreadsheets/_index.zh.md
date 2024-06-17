@@ -13,7 +13,7 @@ url: /zh/java/how-to-fix-the-java-lang-outofmemoryerror-while-loading-large-spre
 ## **如何修复加载大型电子表格时的java.lang.OutOfMemoryError**
 Aspose.Cells APIs提供了内存优化偏好设置，可以优化加载和处理电子表格时的内存消耗。这些选项还可以有效地在Workbook对象中加载包含大量数据集的大型电子表格。 
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

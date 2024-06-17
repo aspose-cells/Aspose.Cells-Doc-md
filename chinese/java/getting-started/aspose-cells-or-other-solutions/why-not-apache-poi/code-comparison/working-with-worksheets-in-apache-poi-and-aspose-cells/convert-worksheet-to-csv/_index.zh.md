@@ -8,7 +8,7 @@ url: /zh/java/convert-worksheet-to-csv/
 ## **Aspose.Cells - 将工作表转换为CSV**
 如果开发人员需要将文件保存到某个存储位置，只需在调用工作簿对象的**save**方法时指定文件名（带其完整存储路径）和所需的文件格式（使用**FileFormatType**枚举）。
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -24,7 +24,7 @@ workbook.save(dataPath + "AsposeWorkbookCSV.csv", SaveFormat.CSV);
 ## **Apache POI SS - HSSF和XSSF - 将工作表转换为CSV**
 下面的代码显示了如何使用Apache POI HSSF和XSSF API将工作表转换为CSV，与Aspose.Cells Java API进行比较。
 
-Java
+**Java**
 
 {{< highlight java >}}
 

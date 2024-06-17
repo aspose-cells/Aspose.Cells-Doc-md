@@ -15,7 +15,7 @@ url: /zh/java/public-api-changes-in-aspose-cells-8-0-0/
 ### **示例**
 演示如何在优化模式下读取大型Excel文件。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -35,7 +35,7 @@ Workbook book = new Workbook(myDir + "large.xlsx", options);
 
 演示如何在优化模式下将大型数据集写入工作表。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -63,7 +63,7 @@ book.getSettings().setMemorySetting(MemorySetting.MEMORY_PREFERENCE);
 ### **示例**
 演示如何从现在开始比较单元格对象和行对象。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -82,7 +82,7 @@ cell1.equals(cell2);
 ### **示例**
 例如，以下代码片段将在8.0.0及以上版本中返回无效结果，
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -98,7 +98,7 @@ System.out.println(cell.getName() + ":" + cell.getValue());
 
 使用新版本，Cell对象将变得无效或引用A2的一些不需要的值。为了避免这种情况，重新从cell集合中获取Row或Cell对象以检索正确的结果。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

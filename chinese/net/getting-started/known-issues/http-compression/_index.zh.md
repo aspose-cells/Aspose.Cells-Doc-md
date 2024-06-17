@@ -7,7 +7,7 @@ url: /zh/net/http-compression/
 
 ## **HTTP压缩问题**
 一些用户报告说，如果他们在IIS中配置了HTTP压缩，他们在将生成的文件发送到客户端浏览器时会遇到错误。
-### **Explanation**
+### **解释**
 我们使用**"Content-disposition", "inline; filename=test.xls"**标题强制浏览器打开文件，并使用**"Content-disposition", "attachment; filename=test.xls"**标题强制浏览器打开**另存为**对话框，并使用Microsoft Excel打开文件。然而，确实存在一些例外情况。
 ### **例外情况**
 你可以使用以下代码来验证这是否是Aspose的错误。

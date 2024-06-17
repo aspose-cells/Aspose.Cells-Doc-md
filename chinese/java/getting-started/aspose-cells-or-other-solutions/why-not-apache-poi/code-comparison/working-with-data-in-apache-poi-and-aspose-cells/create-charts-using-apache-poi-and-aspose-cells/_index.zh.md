@@ -8,7 +8,7 @@ url: /zh/java/create-charts-using-apache-poi-and-aspose-cells/
 ## **Aspose.Cells - 创建图表**
 Aspose.Cells 可以向电子表格中添加各种图表。Aspose.Cells 提供许多灵活的图表对象。
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -76,7 +76,7 @@ series.setType(ChartType.LINE);
 
 {{< /highlight >}}
 ## **Apache POI SS (HSSF + XSSF) - 创建图表**
-Java
+**Java**
 
 {{< highlight java >}}
 

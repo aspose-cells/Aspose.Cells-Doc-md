@@ -15,7 +15,7 @@ Microsoft Excel允许您对工作表数据应用*高级筛选*，以显示符合
 
 Aspose.Cells还允许使用[**Worksheet.AdvancedFilter()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/advancedfilter)方法应用高级筛选。与Microsoft Excel一样，它接受以下参数。
 
--**isFilter**- 表示是否在原地对列表进行筛选。
+**isFilter**
 
 -**listRange**- 列表范围。
 
@@ -27,7 +27,7 @@ Aspose.Cells还允许使用[**Worksheet.AdvancedFilter()**](https://reference.as
 
 条件范围。
 
--**copyTo**
+**copyTo**
 
 拷贝数据的范围。
 

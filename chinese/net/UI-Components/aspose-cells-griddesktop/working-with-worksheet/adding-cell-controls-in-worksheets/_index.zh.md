@@ -3,7 +3,7 @@ title: 在工作表中添加单元格控件
 type: docs
 weight: 120
 url: /zh/net/aspose-cells-griddesktop/add-cell-controls-in-worksheets/
-keywords: GridDesktop，add，control，button，checkbox，combobox
+keywords: GridDesktop,add,control,button,checkbox,combobox
 description: 本文介绍如何在GridDesktop的工作表中添加控件。
 ---
 

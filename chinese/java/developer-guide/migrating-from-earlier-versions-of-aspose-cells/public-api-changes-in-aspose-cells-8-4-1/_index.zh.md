@@ -16,7 +16,7 @@ com.aspose.cells.ExternalConnection类已经包含了可以用于检查存储在
 
 以下代码片段显示了如何动态修改数据库连接设置。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -73,7 +73,7 @@ Aspose.Cells for Java 8.4.1已经暴露了DataLabels.characters方法，用于�
 
 以下代码段显示了如何使用DataLabels.characters方法。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -116,7 +116,7 @@ Aspose.Cells for Java 8.4.1已经暴露了ImageOrPrintOptions.setDesiredSize方�
 
 以下代码段显示了如何导出工作表到PNG时设置所需尺寸。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -161,7 +161,7 @@ renderer.toImage(0, "output.png");
 
 以下示例代码演示了使用PageSetup.PrintComments属性以使用所有可能的PrintCommentsType枚举值来渲染注释。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -204,7 +204,7 @@ Aspose.Cells for Java 8.4.1已经暴露了Workbook.isLicensed属性，对于确�
 
 以下示例代码演示了Workbook.isLicensed属性的用法。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -241,7 +241,7 @@ Aspose.Cells for Java 8.4.1已经暴露了SVGFitToViewPort属性，用于在将�
 
 以下示例代码展示了使用ImageOrPrintOptions.SVGFitToViewPort属性的用法。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

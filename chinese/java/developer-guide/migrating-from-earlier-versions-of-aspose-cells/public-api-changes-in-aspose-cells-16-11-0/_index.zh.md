@@ -19,7 +19,7 @@ Aspose.Cells 16.11.0 已公开了 GlobalizationSettings 类以及 WorkbookSettin
 
 这里是一个简单的自定义类，它扩展了 GlobalizationSettings 类，并重写了上述方法，以返回合并函数 Average 的自定义标签。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -75,7 +75,7 @@ Java
 
 以下代码段加载现有电子表格并在工作表中已有的数据上添加类型为平均值的小计。在添加小计到工作表时将调用CustomSettings类及其getTotalName和getGrandTotalName方法。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -115,7 +115,7 @@ book.save(dir + "output.xlsx");
 
 GlobalizationSettings类还提供getOtherName方法，用于获取饼图的'其他'标签名称。以下是GlobalizationSettings.getOtherName方法的简单用法场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -163,7 +163,7 @@ Java
 
 以下代码片段加载了包含饼图的现有电子表格，并在利用上述创建的 CustomSettings 类的情况下将图表呈现为图像。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -199,7 +199,7 @@ Aspose.Cells 16.11.0现已公开了CellsFactory类，目前有一个方法，即
 
 CellsFactory.createStyle方法的简单使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -225,7 +225,7 @@ Aspose.Cells.GridWeb 16.11.0已公开了GridHyperlinkCollection类的getHyperlin
 
 getHyperlink方法的简单使用场景
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

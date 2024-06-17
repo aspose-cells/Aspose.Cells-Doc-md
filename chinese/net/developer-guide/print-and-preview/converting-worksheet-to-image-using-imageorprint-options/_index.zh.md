@@ -21,7 +21,7 @@ url: /zh/net/converting-worksheet-to-image-using-imageorprint-options/
 
 您需要将[**Aspose.Cells.Rendering**](https://reference.aspose.com/cells/net/aspose.cells.rendering)命名空间导入到您的程序/项目中。它具有几个有价值的类，例如[**SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender)、[**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions)、[**WorkbookRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookrender)等。
 
-The [**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) class represents a worksheet to render images for the worksheet, it has an overloaded [**ToImage**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toimage/index) method that can directly convert a worksheet to image file(s) specified with your desired attributes or options. It can return System.Drawing.Bitmap object and you can Save an image file to the disk/stream. There are several image formats supported, e.g BMP, PNG, GIFF, JPEG, TIFF, EMF and so on.
+类 [**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) 表示一个工作表来呈现工作表的图像, 它具有重载的 [**ToImage**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toimage/index) 方法, 可以直接将工作表转换为指定属性或选项的图像文件。 它可以返回 System.Drawing.Bitmap 对象, 并且您可以将图像文件保存到磁盘/流中。 支持多种图像格式, 例如 BMP、PNG、GIFF、JPEG、TIFF、EMF 等。
 
 ## **使用Aspose.Cells将工作表转换为图像，使用图像或打印选项。**
 
@@ -51,7 +51,7 @@ The [**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingImageOrPrintOptions-SpecificPagesToImage-1.cs" >}}
 
-## **Image conversion using WorkbookRender**
+## **使用 WorkbookRender 进行图片转换**
 
 TIFF图像可以包含多个帧。您可以将整个工作簿保存为单个TIFF图像，带有多个帧或页面：
 

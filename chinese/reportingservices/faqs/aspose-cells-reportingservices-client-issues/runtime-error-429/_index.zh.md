@@ -9,14 +9,14 @@ url: /zh/reportingservices/runtime-error-429/
 运行时错误: '429' 
 无法创建ActiveX组件 
 导致错误的行是: 
-Set AsposeClientTools = CreateObject("Aspose.Cells.ReportingServices.Client.AsposeClient")。 
-##### **Solution**
+Set AsposeClientTools = CreateObject("Aspose.Cells.ReportingServices.Client.AsposeClient"). 
+##### **解决方案**
 {{% alert color="primary" %}} 
 
 使用**Regasm.exe**实用程序重新注册**Aspose.Cells.ReportingServices.Client.dll**: 
 
 1. 以管理员身份运行cmd.exe。
-1. 切换到$(Aspose.Cells for Reporting Services安装文件夹)。
+1. cd $(Aspose.Cells for Reporting Services installation folder).
 1. 手动执行**regasm.exe**注册**Aspose.Cells.ReportingServices.Client.dll**。 
 
 {{< highlight java >}}

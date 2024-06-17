@@ -23,7 +23,7 @@ HtmlSaveOptions类已公开ExportHiddenWorksheet属性，可用于指定是否�
 
 以下提供的代码片段演示了使用Cell.getStringValueWithoutFormat方法与cell.getDisplayStringValue相比的用法，通过从头开始创建电子表格并对其中一个单元格应用数字格式。 
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

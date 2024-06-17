@@ -8,10 +8,10 @@ url: /zh/java/read-the-values-of-the-gridweb-cells-on-client-side/
 ## **可能的使用场景**
 您可以使用 gridwebinstance.getCellsArray() 方法在客户端脚本中读取GridWeb单元格的值。一旦调用它，它将返回活动工作表中所有单元格的数组。然后，您可以使用以下方法检索单元格的值和其他信息。
 
-- gridwebinstance.getCellName()
-- gridwebinstance.getCellValueByCell()
-- gridwebinstance.getCellRow()
-- gridwebinstance.getCellColumn()
+- gridwebinstance.getCellName()
+- gridwebinstance.getCellValueByCell()
+- gridwebinstance.getCellRow()
+- gridwebinstance.getCellColumn()
 ## **在客户端读取GridWeb单元格的值**
 以下示例代码检索所有单元格，然后打印它们的名称、值、行和列。您可以在本文底部看到其控制台输出。以下截图显示了在Google Chrome上执行示例代码的控制台输出。
 ## **屏幕截图**

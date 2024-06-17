@@ -8,7 +8,7 @@ url: /zh/java/calculate-sub-totals-using-aspose-cells/
 ## **Aspose.Cells - 计算小计**
 您可以自动为电子表格中的任何重复值创建小计。Aspose.Cells提供了API功能，帮助您以编程方式向电子表格添加小计。
 
-Java
+**Java**
 
 {{< highlight java >}}
 

@@ -15,7 +15,7 @@ url: /zh/jasperreports/filling-a-jasper-file-with-editable-chart-support/
 
 以下是一个例子：
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

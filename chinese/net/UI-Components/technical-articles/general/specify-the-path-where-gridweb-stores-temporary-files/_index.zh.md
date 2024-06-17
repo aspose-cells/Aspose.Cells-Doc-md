@@ -3,7 +3,7 @@ title: 指定GridWeb存储临时文件的路径。
 type: docs
 weight: 50
 url: /zh/net/aspose-cells-gridweb/gridweb-cache-files/
-keywords: GridWeb,cache,session,storage
+keywords: GridWeb，缓存，会话，存储
 description: 本文描述了GridWeb的存储。
 ---
 ### 关于文件缓存

@@ -121,7 +121,7 @@ Aspose.Cells for Java 8.5.0已经暴露出枚举CalculationPrecisionStrategy，�
 ### **添加了PasteType.ROW_HEIGHTS枚举字段**
 Aspose.Cells API已经为复制范围时复制行高度的目的提供了PasteType.ROW_HEIGHTS枚举字段。在设置PasteOptions.PasteType属性为((PasteType.ROW_HEIGHTS}}后，源范围内所有行的高度将被复制到目标范围。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -173,7 +173,7 @@ workbook.save("output.xlsx", SaveFormat.XLSX);
 ### **添加了SheetRender.PageScale属性**
 当您使用**按n页宽度和m页高度缩放**选项设置页面设置缩放时，Microsoft Excel会计算页面设置的缩放因子。Aspose.Cells for Java 8.5.0还可以使用SheetRender.PageScale属性来实现相同的效果。该属性返回一个double值，可以转换为百分比值。例如，如果它返回0.507968245，则表示缩放因子为51%。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -219,7 +219,7 @@ Aspose.Cells for Java 8.5.0已添加了一个名为CellValueFormatStrategy的枚
 
 以下代码片段显示了如何使用新公开的Cells.getStringValue方法。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

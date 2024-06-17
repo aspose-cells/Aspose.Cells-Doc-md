@@ -13,7 +13,7 @@ url: /zh/net/no-overload-for-method-save-takes-4-arguments/
 
 ![todo:image_alt_text](no-overload-for-method-save-takes-4-arguments_1.png)
 
-### **Solution**
+### **解决方案**
 
 Please use **.NET 2.0** compiled version of the product as it works fine on VS.NET 2008/2010. Actually we provide separate dll's for different environments, project types and systems etc. For reference, please check:<https://docs.aspose.com/cells/net/using-aspose-cells-on-32-bit-and-64-bit-platforms/>
 

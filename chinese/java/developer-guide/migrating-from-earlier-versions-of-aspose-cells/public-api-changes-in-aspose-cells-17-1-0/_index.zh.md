@@ -38,7 +38,7 @@ Aspose.Cells 17.1.0 已添加了 LoadFilter.LoadDataFilterOptions 属性的设�
 
 {{% /alert %}} 
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -86,7 +86,7 @@ Aspose.Cells 17.1.0 从 CellsHelper 类公开了 SignificantDigits 属性，允�
 
 {{% /alert %}} 
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -105,7 +105,7 @@ Aspose.Cells 17.1.0 已添加了 GlowEffect.Color 属性，可用于检索发光
 查看有关 [读取形状的发光颜色](/cells/zh/java/read-color-of-the-shape-s-glow-effect/) 的详细文章。
 {{% /alert %}} 
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -145,7 +145,7 @@ Aspose.Cells 17.1.0 添加了 CheckCustomNumberFormat 属性到 WorkbookSettings
 
 {{% /alert %}} 
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

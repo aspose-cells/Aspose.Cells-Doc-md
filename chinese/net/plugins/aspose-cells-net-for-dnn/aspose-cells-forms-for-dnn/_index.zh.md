@@ -29,19 +29,19 @@ Aspose.Cells 动态表单适用于 DNN 模块，允许用户生成动态问卷�
 ### **系统要求**
 为了设置Aspose.Cells .NET for DNN模块，您需要满足以下要求:
 
-- DNN 7.0+
+- DNN 7.0 +
 
 如果您希望在其他版本的DNN上安装这些模块，请随时与我们联系。
 ### **支持的平台**
 Aspose.Cells .NET for DNN模块目前支持
 
-- DNN 7.0+
+- DNN 7.0 +
 
 如果您希望在其他版本的DNN上安装这些模块，请随时与我们联系。
 ## **下载**
 您可以从以下位置之一下载Aspose .NET Dynamic Forms Builder for DNN模块
 
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/)
+- [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/)
 ## **安装**
 下载后，请按照以下步骤将模块安装到您的DNN网站中:
 
@@ -97,13 +97,13 @@ Aspose.Cells .NET for DNN模块目前支持
 这就是为什么我们提供免费支持。任何使用我们产品的人，无论是购买了产品还是在评估中使用，都应得到我们的全力关注和尊重。
 
 您可以使用以下任何平台记录与Aspose.Cells .NET for DNN模块相关的任何问题或建议
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
+- [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
 ### **扩展和贡献**
 Aspose .NET Dynamic Forms Builder 模块针对 DNN 是开源的，其源代码可在下面列出的主要社交编码网站上获得。鼓励开发人员下载源代码并根据自己的需求扩展功能。
 #### **源代码**
 您可以从以下位置获取最新的源代码
 
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/DNN)
+- [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/DNN)
 #### **如何配置源代码**
 您需要安装以下内容才能打开和扩展源代码
 

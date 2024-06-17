@@ -9,7 +9,7 @@ url: /zh/jasperreports/installing-aspose-cells-for-jasperreports/
 
 以下示例显示了使用 Aspose.Cells for JasperReports 导出报告到 XLS 文件所需的典型代码。更多示例可以在产品存档中包含的演示报告中找到。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

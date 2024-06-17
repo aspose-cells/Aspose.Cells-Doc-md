@@ -9,7 +9,7 @@ url: /zh/reportingservices/data-source-error/
 发布报告时，Aspose.Cells.ReportingServices 客户端生成错误： 
 
 ![todo:image_alt_text](data-source-error_1.png)
-##### **Solution**
+##### **解决方案**
 {{% alert color="primary" %}} 
 
 1. 单击 **Data Source Setup**。

@@ -10,7 +10,7 @@ PageSetup 类提供 setHeader 方法用于向工作表添加页眉，并提供 s
 
 **页眉**
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -36,7 +36,7 @@ pageSetup.setHeader(2, "&\"Times New Roman,Bold\"&12&F");
 
 **页脚**
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -66,7 +66,7 @@ pageSetup.setFooter(2, "&Pof&N");
 ## **Apache POI SS - HSSF XSSF - 页眉和页脚**
 Header 类可用于调整电子表格中的页眉。
 
-Java
+**Java**
 
 {{< highlight java >}}
 

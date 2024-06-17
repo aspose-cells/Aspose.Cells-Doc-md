@@ -25,7 +25,7 @@ Aspose.Cells API提供WorkbookDesigner类来处理智能标记，其中格式和
 
 为简化起见，我们将使用 Aspose.Cells for Java API 创建设计电子表格，然后针对动态创建的数据源进行处理，以进行演示目的。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -67,7 +67,7 @@ cells.get("A5").putValue("&=$Year2015(horizontal)");
 
 为了演示这种用例，我们将从头开始创建数据源，并根据前一步骤创建的设计者电子表格对其进行处理。但是，在实时场景中，数据可能已经可用于进一步处理，因此如果数据已经可用，则可以跳过创建数据源的过程。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -87,7 +87,7 @@ String[] year2015 = new String[]{"2015", "2818", "320", "340", "260", "210", "31
 
 处理智能标记非常简单，如下所示。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

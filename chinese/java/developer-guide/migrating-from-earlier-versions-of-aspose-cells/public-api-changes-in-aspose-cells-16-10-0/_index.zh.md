@@ -31,7 +31,7 @@ Shape.Reflection 属性的简单使用场景如下。
 
 {{% /alert %}} 
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -87,7 +87,7 @@ Aspose.Cells 16.10.0 已经暴露了 Shape.ShadowEffect 属性，以及 ShadowEf
 
 {{% /alert %}} 
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -140,7 +140,7 @@ Aspose.Cells 16.10.0 已经暴露了 Shape.Glow 属性，以及 GlowEffect 类�
 
 {{% /alert %}} 
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -205,7 +205,7 @@ Aspose.Cells 16.10.0已经暴露了 Shape.ThreeDFormat 属性以及 ThreeDFormat
 
 {{% /alert %}} 
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -249,7 +249,7 @@ Aspose.Cells 16.10.0 现已公开了 FontSettingCollection.SetWordArtStyle 和 F
 
 {{% /alert %}} 
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -289,7 +289,7 @@ Aspose.Cells 16.10.0 现已公开了 ShapeCollection.AddWordArt 方法以及 Pre
 
 {{% /alert %}} 
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -331,7 +331,7 @@ Aspose.Cells 现已公开了 XmlMapCollection.Add 方法，允许向电子表格
 
 {{% /alert %}} 
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -353,7 +353,7 @@ Aspose.Cells现已公开了Cells.LinkToXmlMap方法，以便将单元格与XML�
 
 {{% /alert %}} 
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -399,7 +399,7 @@ Aspose.Cells 16.10.0 已公开了 ListColumn.Formula 属性，以便自动将公
 
 {{% /alert %}} 
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

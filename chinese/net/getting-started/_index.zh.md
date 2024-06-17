@@ -45,7 +45,7 @@ NuGet是下载和安装Aspose.Cells for .NET最简单的方式。
 2. 打开文件 "AsposeCellsTest.csproj" ，并添加以下行用于引用 Aspose.Cells 包:
 {{< highlight plain >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="24.5" />
+    <PackageReference Include="Aspose.Cells" Version="24.6" />
   </ItemGroup>
 {{< /highlight >}}
 3. 使用 VSCode 在 Ubuntu 上打开项目:

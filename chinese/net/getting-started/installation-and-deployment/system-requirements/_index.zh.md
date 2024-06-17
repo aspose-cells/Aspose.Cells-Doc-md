@@ -12,17 +12,17 @@ Aspose.Cells for .NET组件既不需要在客户端上也不需要在服务器�
 {{% /alert %}} 
 ## **支持的操作系统**
 ### **Windows**
-- Microsoft Windows 2000（x64，x86）
-- Microsoft Windows XP（x64，x86）
-- Microsoft Windows Server 2003（x64，x86）
-- Microsoft Windows Server 2008（x64，x86）
-- Microsoft Windows Server 2012（x64，x86）
-- Microsoft Windows Server 2016（x64，x86）
-- Microsoft Windows Server 2019（x64，x86）
-- Microsoft Windows Vista（x64，x86）
-- Microsoft Windows 7（x64，x86）
-- Microsoft Windows 8（x64，x86）
-- Microsoft Windows 10（x64，x86）
+- Microsoft Windows 2000 (x64, x86)
+- Microsoft Windows XP (x64, x86)
+- Microsoft Windows Server 2003 (x64, x86)
+- Microsoft Windows Server 2008 (x64, x86)
+- Microsoft Windows Server 2012 (x64, x86)
+- Microsoft Windows Server 2016 (x64, x86)
+- Microsoft Windows Server 2019 (x64, x86)
+- Microsoft Windows Vista (x64, x86)
+- Microsoft Windows 7 (x64, x86)
+- Microsoft Windows 8 (x64, x86)
+- Microsoft Windows 10 (x64, x86)
 - Microsoft Windows 11
 - Windows Azure
 ### **Linux**
@@ -54,10 +54,10 @@ Aspose.Cells for .NET支持以下.NET和Mono框架：
 - .NET 8.0
 #### **Aspose.Cells For .NET Standard 引用的 NuGet 包**
 - System.Drawing.Common, 5.0.3.
-- System.Text.Encoding.CodePages, 4.7.0
+- System.Text.Encoding.CodePages, 4.7.0.
 - System.Security.Cryptography.Pkcs, 5.0.1.
 #### **Aspose.Cells For .NET6, .Net7 和 .Net8 引用的 NuGet 包**
-- System.Text.Encoding.CodePages, 4.7.0
+- System.Text.Encoding.CodePages, 4.7.0.
 - System.Security.Cryptography.Pkcs, 6.0.3.
 - System.Drawing.Common, 6.0.0 (仅适用于Windows系统)
 - SkiaSharp, 2.88.3 (非Windows系统)
@@ -116,10 +116,10 @@ Aspose.Cells 网格套件由三个控件组成：
 - .NET 7.0 windows
 #### **Aspose.Cells.GridDesktop For .NET Core 3.1 引用的 NuGet 包**
 - System.Drawing.Common, 6.0.0.
-- System.Text.Encoding.CodePages, 4.7.0
+- System.Text.Encoding.CodePages, 4.7.0.
 - System.Security.Cryptography.Pkcs, 5.0.1.
 #### **Aspose.Cells.GridDesktop For .Net7引用了的NuGet包**
-- System.Text.Encoding.CodePages, 4.7.0
+- System.Text.Encoding.CodePages, 4.7.0.
 - System.Security.Cryptography.Pkcs, 6.0.3.
 - System.Drawing.Common, 7.0.0 (在Windows系统上)。
 #### **开发工具**
@@ -161,7 +161,7 @@ Aspose.Cells 网格套件由三个控件组成：
 - .NET 7.0 windows
 #### **Aspose.Cells.GridWeb For .NET Core所引用的NuGet程序包**
 - System.Drawing.Common, 7.0.0.
-- System.Text.Encoding.CodePages, 4.7.0
+- System.Text.Encoding.CodePages, 4.7.0.
 - System.Security.Cryptography.Pkcs, 6.0.3.
 #### **开发工具**
 - Microsoft Visual Studio 2012
@@ -194,8 +194,8 @@ Aspose.Cells 网格套件由三个控件组成：
 #### **Aspose.Cells.GridJs引用的NuGet包For.NET Standard**
 - System.Drawing.Common, 6.0.0 (仅适用于Windows系统)
 - SkiaSharp, 2.88.3 (非Windows系统)
-- System.Text.Encoding.CodePages, 4.7.0
-- System.Security.Cryptography.Pkcs,5.0.1
+- System.Text.Encoding.CodePages, 4.7.0.
+- System.Security.Cryptography.Pkcs,5.0.1.
 - Aspose.Cells,(与GridJs始终保持相同版本)
 #### **开发工具**
 - Microsoft Visual Studio 2012

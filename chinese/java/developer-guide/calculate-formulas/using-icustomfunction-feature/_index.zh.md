@@ -28,7 +28,7 @@ ICustomFunction接口允许添加自定义公式计算函数以扩展Aspose.Cell
 
 以下是我们如何实现calculateCustomFunction方法。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -96,7 +96,7 @@ Java
 
 以下是如何在电子表格中使用新定义的函数
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

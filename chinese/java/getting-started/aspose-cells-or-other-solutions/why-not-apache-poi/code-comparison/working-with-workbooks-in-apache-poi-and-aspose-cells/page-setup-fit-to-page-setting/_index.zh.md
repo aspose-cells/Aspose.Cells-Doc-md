@@ -8,7 +8,7 @@ url: /zh/java/page-setup-fit-to-page-setting/
 ## **Aspose.Cells - 页面设置 - 自适应页面设置**
 要将工作表内容适配到特定页数，使用 [PageSetup](/cells/zh/java/page-setup-fit-to-page-setting/) 类的 setFitToPagesTall 和 setFitToPagesWide 方法。这些方法也用于调整工作表。
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -40,7 +40,7 @@ pageSetup.setFitToPagesWide(1);
 ## **Apache POI SS - HSSF & XSSF - 页面设置 - 自适应页面设置**
 Apache POI SS 使用 setFitHeight 和 setFitWidth 方法进行自适应页面设置。
 
-Java
+**Java**
 
 {{< highlight java >}}
 

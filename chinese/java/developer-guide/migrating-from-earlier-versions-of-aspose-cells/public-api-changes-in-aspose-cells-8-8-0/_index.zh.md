@@ -34,7 +34,7 @@ Aspose.Cells for Java 8.8.0已添加HTMLLoadOptions.KeepPrecision属性，以控
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -92,7 +92,7 @@ Aspose.Cells for Java 8.8.0 has exposed the HTMLLoadOptions.DeleteRedundantSpace
 
 简单的使用场景如下。 
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -166,7 +166,7 @@ Aspose.Cells for Java 8.8.0已公开了Style.QuotePrefix属性，以检测单元
 
 简单的使用场景如下。 
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

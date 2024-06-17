@@ -14,9 +14,9 @@ url: /zh/net/how-to-run-aspose-cells-for-net6/
 对于Apose.Cells产品，我们已经进行了评估并已完成了图形库的迁移。在非Windows系统中，我们使用SkiaSharp代替System.Drawing.Common，这是在微软官方文档中建议的。请注意，这个重要的更改将在Aspose.Cells 22.10.1或更高版本的.Net6中生效。
 
 对于.netcore31或之前版本，为了兼容性和稳定性，我们目前仍然使用"System.Drawing.Common"图形库。.netcore31或之前版本的依赖项如下:
-- System.Drawing.Common, 4.7.0。
+- System.Drawing.Common, 4.7.0.
 - System.Security.Cryptography.Pkcs, 5.0.1.
-- System.Text.Encoding.CodePages, 4.7.0
+- System.Text.Encoding.CodePages, 4.7.0.
 
 ## 在Windows上运行Aspose.Cells for .Net6
 
@@ -39,16 +39,16 @@ url: /zh/net/how-to-run-aspose-cells-for-net6/
 2. 打开安装目录或DLL目录，然后选择以下步骤3或4:
 
 3. 找到"net6.0-windows"子目录，在其中添加Aspose.Cells.dll到您的.net6应用程序。手动将以下NuGet包添加到您的.net6项目:
-- System.Drawing.Common, 4.7.0。
+- System.Drawing.Common, 4.7.0.
 - System.Security.Cryptography.Pkcs, 6.0.3.
-- System.Text.Encoding.CodePages, 4.7.0
+- System.Text.Encoding.CodePages, 4.7.0.
 
 通过这种方式，在您的Windows系统上的.Net6项目中将使用"System.Drawing.Common"作为依赖项。在此配置中，绘图的结果更接近.netcore31或之前版本。
 
 4. 找到"net6.0"子目录，在其中添加Aspose.Cells.dll到您的.net6应用程序。手动将以下NuGet包添加到您的.net6项目:
-- SkiaSharp, 2.88.6。
+- SkiaSharp, 2.88.6.
 - System.Security.Cryptography.Pkcs, 6.0.3.
-- System.Text.Encoding.CodePages, 4.7.0
+- System.Text.Encoding.CodePages, 4.7.0.
 
 通过这种方式，在您的Windows系统上的.Net6项目中将使用"SkiaSharp"作为依赖项。*请注意，使用"SkiaSharp"作为依赖项的版本不支持打印到打印机功能。*
 ## 在Linux上运行Aspose.Cells for .Net6

@@ -9,7 +9,7 @@ url: /zh/java/sort-data-in-xlsx4j/
 要使用Aspose.Cells对电子表格中的数据排序，只需在设置单元格区域的几个易于设置的属性后，调用DataSorter.sorter()方法。
 下面提供了Java代码：
 
-Java
+**Java**
 
 {{< highlight java >}}
 

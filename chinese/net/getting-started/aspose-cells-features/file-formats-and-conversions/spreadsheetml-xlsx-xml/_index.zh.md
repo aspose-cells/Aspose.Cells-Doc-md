@@ -35,7 +35,7 @@ OOXML规范内容非常丰富。 开放和标准并不意味着简单。 要正�
 
 考虑以下示例。某些单元格以粗体包含文本“Hello World”。现在想象一下，您需要编写一个程序，以搜索工作表中的所有“Hello World”短语并将其替换为“Goodbye Earth”。
 ### **Office Open XML 文档的片段**
-XML
+**XML**
 
 {{< highlight csharp >}}
 

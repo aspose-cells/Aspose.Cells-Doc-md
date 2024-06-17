@@ -26,7 +26,7 @@ MHTML将普通的HTML与外部资源（通常是链接的内容，如图像、�
 - [更改 HTML 链接的目标类型](/cells/zh/net/change-the-html-link-target-type/)
 - [将 Excel 转换为带有标题的 HTML](/cells/zh/net/convert-excel-to-html-with-headings/)
 - [将 Excel 转换为带有工具提示的 HTML](/cells/zh/net/convert-excel-to-html-with-tooltip/)
-- [创建Excel工作表的透明图像](/cells/zh/net/create-transparent-image-of-excel-worksheet/)
+- [Create Transparent Image of Excel Worksheet](/cells/zh/net/create-transparent-image-of-excel-worksheet/)
 - [在导入HTML时删除换行后的多余空格](/cells/zh/net/delete-redundant-spaces-after-line-break-while-importing/)
 - [在保存为HTML时禁用下级可见的批注](/cells/zh/net/disable-downlevel-revealed-comments-while-saving-to/)
 - [禁用导出框架脚本和文档属性](/cells/zh/net/disable-exporting-frame-scripts-and-document-properties/)

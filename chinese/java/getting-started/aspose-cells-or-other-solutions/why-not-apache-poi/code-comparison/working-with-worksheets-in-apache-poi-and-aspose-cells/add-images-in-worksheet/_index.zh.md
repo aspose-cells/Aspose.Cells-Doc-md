@@ -8,7 +8,7 @@ url: /zh/java/add-images-in-worksheet/
 ## **Aspose.Cells - 在工作表中添加图像**
 图片类可用于处理工作表中的图片
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -45,7 +45,7 @@ pic.setPlacement(PlacementType.FREE_FLOATING);
 ## **Apache POI SS - HSSF XSSF - 在工作表中添加图片**
 图片类可用于处理工作表中的图片
 
-Java
+**Java**
 
 {{< highlight java >}}
 

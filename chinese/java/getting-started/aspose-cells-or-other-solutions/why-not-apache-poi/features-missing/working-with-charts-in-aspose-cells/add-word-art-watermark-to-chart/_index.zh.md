@@ -8,7 +8,7 @@ url: /zh/java/add-word-art-watermark-to-chart/
 ## **Aspose.Cells - 向图表添加Word Art水印**
 您可以使用WordArt在电子表格中添加特殊文本效果。例如，拉伸标题、装饰文本、使文本适合预设形状，或将受影响的文本应用于图表的绘图区作为水印。WordArt成为您可以在电子表格中移动或定位的对象，以添加装饰。
 
-Java
+**Java**
 
 {{< highlight java >}}
 

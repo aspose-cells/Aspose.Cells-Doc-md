@@ -8,7 +8,7 @@ url: /zh/java/encrypt-workbook-using-aspose-cells/
 ## **Aspose.Cells - 加密工作簿**
 以下示例演示如何使用Aspose.Cells API加密/密码保护Excel文件。
 
-Java
+**Java**
 
 {{< highlight java >}}
 

@@ -8,7 +8,7 @@ url: /zh/java/add-images-in-spreadsheet-in-xlsx4j/
 ## **Aspose.Cells - 在电子表格中添加图像**
 可以使用 Picture 类来处理工作表中的图像
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -30,7 +30,7 @@ Picture picture = sheet.getPictures().get(pictureIndex);
 ## **xlsx4j - 在电子表格中添加图像**
 可以使用 Drawing 类来处理工作表中的图像
 
-Java
+**Java**
 
 {{< highlight java >}}
 

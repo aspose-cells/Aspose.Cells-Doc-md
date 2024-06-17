@@ -44,7 +44,7 @@ Aspose Visual Studio 插件 - **探索 Aspose.Cells for .NET 示例** 是一个�
 
 您可以从以下位置之一下载 Aspose Visual Studio 插件
 
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases)
+- [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases)
 
 ## **安装**
 
@@ -94,7 +94,7 @@ Aspose Visual Studio 插件 - **探索 Aspose.Cells for .NET 示例** 是一个�
 
 您可以使用以下任一平台记录与 Aspose Visual Studio 插件相关的任何问题或建议。
 
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
+- [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
 
 ### **扩展和贡献**
 
@@ -104,7 +104,7 @@ Visual Studio 的 **探索 Aspose.Cells for .NET 示例** 是开源的，其源�
 
 您可以从以下位置获取最新的源代码
 
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET)
+- [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET)
 
 
 #### **如何配置源代码**

@@ -45,7 +45,7 @@ LoadDataFilterOptions枚举提供以下选择。
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -67,7 +67,7 @@ Aspose.Cells API已经提供了在使用Chart.toPdf方法时将图表呈现为PD
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -93,7 +93,7 @@ chart.toPdf(outStream);
 ### **增加了WorkbookSettings.PaperSize属性**
 Aspose.Cells for Java 8.8.1已公开了WorkbookSettings.PaperSize属性，以设置整个电子表格的默认打印纸张大小。WorkbookSettings.PaperSize属性接受来自PaperSizeType枚举的值，该枚举包含用于大多数常用打印纸张类型的预定义大小。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -121,7 +121,7 @@ settings.setPaperSize(PaperSizeType.PAPER_A_4);
 
 {{% /alert %}} 
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -165,7 +165,7 @@ Aspose.Cells for Java 8.8.1还公开了Worksheet.calculateFormula方法的另一
 ### **增加了GridCell.createValidation方法**
 在使用GridCell.createValidation方法时，Aspose.Cells.GridWeb已提供了直接向单个单元格添加验证规则的能力。该方法需要2个参数。第一个是GridValidationType类型，用于确定验证类型，而第二个参数(isRequied)是布尔型。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

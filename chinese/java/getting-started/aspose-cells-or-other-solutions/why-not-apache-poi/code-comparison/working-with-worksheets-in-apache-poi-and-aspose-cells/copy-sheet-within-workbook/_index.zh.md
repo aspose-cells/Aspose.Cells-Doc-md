@@ -26,7 +26,7 @@ Aspose.Cells提供了重载的方法，WorksheetCollection.addCopy()，用于向
 
 使用Aspose.Cells复制工作表
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -52,7 +52,7 @@ Workbook.cloneSheet() 用于复制工作簿中的工作表。
 
 使用 Apache POI SS 复制工作表
 
-Java
+**Java**
 
 {{< highlight java >}}
 

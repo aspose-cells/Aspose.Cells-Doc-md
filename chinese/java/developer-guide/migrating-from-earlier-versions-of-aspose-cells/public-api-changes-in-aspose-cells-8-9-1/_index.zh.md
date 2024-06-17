@@ -29,7 +29,7 @@ Aspose.Cells for Java已暴露了许多类以提供对可配置字体源的支�
 
 以下是上述方法的简单使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -83,7 +83,7 @@ Aspose.Cells for Java还允许配置字体替换。当所需的字体在执行�
 
 以下是FontConfigs.SetFontSubstitutes方法的简单使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -108,7 +108,7 @@ Aspose.Cells for Java 8.9.1版本允许获取/设置用于将工作表导出为�
 
 以下是HtmlSaveOptions.FilePathProvider属性的简单使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -182,7 +182,7 @@ Aspose.Cells for Java API已暴露了布尔类型的CopyOptions.ReferToDestinati
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -224,7 +224,7 @@ Aspose.Cells for Java 8.9.1版本已暴露了布尔类型的CalculationOptions.R
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

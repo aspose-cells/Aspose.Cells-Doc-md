@@ -22,7 +22,7 @@ Aspose.Cells for Java 8.8.2版本已暴露了Cells.deleteBlankRows和Cells.delet
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

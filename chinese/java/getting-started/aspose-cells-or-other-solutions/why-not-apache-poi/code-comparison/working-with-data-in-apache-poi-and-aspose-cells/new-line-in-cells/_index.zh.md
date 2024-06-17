@@ -10,7 +10,7 @@ url: /zh/java/new-line-in-cells/
 
 要在单元格中换行，使用Style.setTextWrapped方法。
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -34,7 +34,7 @@ cell.get(0, 0).setStyle(style);
 ## **Apache POI SS - HSSF XSSF - 单元格中的新行**
 CellStyle.setWrapText应设置为true以包装文本。
 
-Java
+**Java**
 
 {{< highlight java >}}
 

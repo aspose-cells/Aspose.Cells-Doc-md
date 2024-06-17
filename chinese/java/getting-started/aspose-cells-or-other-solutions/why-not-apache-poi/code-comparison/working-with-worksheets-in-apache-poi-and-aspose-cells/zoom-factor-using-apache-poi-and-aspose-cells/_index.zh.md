@@ -12,7 +12,7 @@ Aspose.Cells提供了一个代表Microsoft Excel文件的类Workbook。Workbook�
 
 工作表由Worksheet类表示。Worksheet类提供了广泛的属性和方法来管理工作表。要设置工作表的缩放比例，使用Worksheet类的setZoom方法。
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -26,7 +26,7 @@ worksheet.setZoom(75);
 ## **Apache POI SS - HSSF XSSF - 缩放因子**
 Apache POI提供了Sheet.setZoom()方法来提供缩放功能。
 
-Java
+**Java**
 
 {{< highlight java >}}
 

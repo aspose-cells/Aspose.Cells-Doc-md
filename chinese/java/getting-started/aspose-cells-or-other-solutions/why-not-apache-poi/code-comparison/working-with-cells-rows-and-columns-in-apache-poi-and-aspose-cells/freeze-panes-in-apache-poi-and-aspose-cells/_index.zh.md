@@ -15,7 +15,7 @@ Aspose.Cells提供了一个代表Microsoft Excel文件的类[Workbook](http://do
 - **冻结行**，顶部窗格中可见的行数。
 - **冻结列**，左侧窗格中可见的列数
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -27,7 +27,7 @@ worksheet2.freezePanes(2,0,2,0); // Freezing Rows
 ## **Apache POI SS - HSSF XSSF - 冻结窗格**
 sheet.createFreezePane可实现使用Apache POI SS - HSSF和XSSF时的冻结窗格功能
 
-Java
+**Java**
 
 {{< highlight java >}}
 

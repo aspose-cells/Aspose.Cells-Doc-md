@@ -8,7 +8,7 @@ url: /zh/java/add-word-art-watermark-to-worksheet-using-aspose-cells/
 ## **Aspose.Cells - 在工作表中添加Word Art水印**
 使用WordArt在电子表格中添加特殊文本效果。例如，将标题跨越文件顶部、装饰文本、使文本适应预设形状，或将文本应用于Excel工作表作为背景水印。WordArt变成一个对象，您可以移动或定位在电子表格中添加装饰。
 
-Java
+**Java**
 
 {{< highlight java >}}
 

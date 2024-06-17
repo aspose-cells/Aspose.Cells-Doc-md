@@ -8,7 +8,7 @@ url: /zh/java/add-data-in-cells/
 ## **Aspose.Cells - 在单元格中添加数据**
 Aspose.Cells提供了一个代表Microsoft Excel文件的Workbook类。Workbook类包含一个允许访问Excel文件中每个工作表的WorksheetCollection。工作表由Worksheet类表示。Worksheet类提供了一个Cells集合。Cells集合中的每个项表示Cell类的对象。
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -48,7 +48,7 @@ workbook.save(dataDir + "DataInCells_Aspose.xls"); //Saving the Excel file
 ## **Apache POI SS - HSSF XSSF - 在单元格中添加数据**
 在Apache POI SS中，可以使用row.createCell(1).setCellValue来向单元格中添加数据。
 
-Java
+**Java**
 
 {{< highlight java >}}
 

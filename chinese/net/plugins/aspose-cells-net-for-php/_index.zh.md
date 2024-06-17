@@ -16,7 +16,7 @@ url: /zh/net/aspose-cells-net-for-php/
 **以下是使用Aspose.Cells .NET for PHP的系统要求：**
 
 - 安装了PHP和PHP Manager的IIS。
-- Aspose.Total APIs。
+- Aspose.Total APIs.
 - Aspose.Cells的Interop dll和tlb文件。
 
 #### **支持的平台**

@@ -58,8 +58,8 @@ url: /zh/java/aspose-cells-java-for-intellij-idea-maven/
 插件支持以下IntelliJ IDEA版本：
 
 - 13.0.1（社区版/旗舰版）
-- 13.1.2（CE/UE）
-- 14.0.2（CE/UE）
+- 13.1.2 (CE/UE)
+- 14.0.2 (CE/ UE)
 
 ## **下载**
 

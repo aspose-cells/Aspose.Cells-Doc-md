@@ -3,7 +3,7 @@ title: 在WPF应用程序中使用Aspose.Cells.GridDesktop
 type: docs
 weight: 50
 url: /zh/net/aspose-cells-griddesktop/use-aspose-cells-griddesktop-in-wpf-application/
-keywords: GridDesktop，wpf
+keywords: GridDesktop,wpf
 description: 本文介绍了如何在WPF应用程序中使用GridDesktop。
 ---
 

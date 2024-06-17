@@ -31,7 +31,7 @@ Aspose.Cells提供了错误检查选项功能。ErrorCheckOptions类管理不同
 
 以下示例代码显示如何使用Aspose.Cells APIs在模板XLS文件中禁用工作表中的文本存储的数字错误检查选项。 
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

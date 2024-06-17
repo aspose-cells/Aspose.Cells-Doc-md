@@ -14,7 +14,7 @@ url: /zh/java/public-api-changes-in-aspose-cells-8-6-2/
 ### **对智能标记的回调支持**
 Aspose.Cells for Java API的此版本已公开了WorkbookDesigner.CallBack字段和ISmartMarkerCallBack接口，可以一起用于[获取关于正在处理的单元引用和/或智能标记的通知](/cells/zh/java/getting-notifications-while-merging-data-with-smart-markers/)。下面的代码片段演示了ISmartMarkerCallBack接口的用法，用于定义一个新类来处理WorkbookDesigner.process方法的回调。 
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -52,7 +52,7 @@ Java
 
 其余的流程包括使用WorkbookDesigner加载包含Smart Markers的设计电子表格，或者从头开始创建一个，并通过设置数据源来处理它。但是，为了启用通知，需要在调用WorkbookDesigner.process方法之前设置WorkbookDesigner.CallBack属性，如下所示。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -88,7 +88,7 @@ Aspose.Cells for Java 8.6.2已公开了Chart.toPdf方法，可用于直接将图
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -114,7 +114,7 @@ Aspose.Cells for Java 8.6.2已公开了Workbook.removeUnusedStyles方法，可�
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -132,7 +132,7 @@ Cells.Style属性可用于访问表示默认样式的工作表的样式。
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

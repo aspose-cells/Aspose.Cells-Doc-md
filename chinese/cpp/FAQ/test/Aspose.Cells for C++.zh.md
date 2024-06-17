@@ -34,16 +34,16 @@ Aspose.Cells for C++ 允许您处理Microsoft Excel中的内置和自定义文�
 
 ## 支持的读写格式
 
-**Microsoft Excel:** XLS、XLSX、XLSB、SpreadsheetML\
-**Text:** CSV、TSV、TabDelimited\
+**Microsoft Excel:** XLS, XLSX, XLSB, SpreadsheetML\
+**Text:** CSV, TSV, TabDelimited\
 **OpenDocument:** ODS\
 **其他:** HTML、MHTML
 
 ## 保存电子表格文档为
 
-**Microsoft Excel:** XLSM、XLTX、XLTM、XLAM\
+**Microsoft Excel:** XLSM, XLTX, XLTM, XLAM\
 **便携式文档格式:** PDF、XPS\
-**Text:** CSV、TSV、TabDelimited\
+**Text:** CSV, TSV, TabDelimited\
 **图像:** SVG、JPEG、PNG、BMP、GIF\
 **Web:** HTML, MHTML\
 **元文件:** EMF\

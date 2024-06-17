@@ -3,7 +3,7 @@ title: 编写GridWeb客户端脚本
 type: docs
 weight: 10
 url: /zh/net/aspose-cells-gridweb/write-gridweb-client-side-script/
-keywords: GridWeb，client，js，javascript
+keywords: GridWeb,client,js,javascript
 description: 本文介绍了如何在GridWeb中使用客户端js API。
 ---
 

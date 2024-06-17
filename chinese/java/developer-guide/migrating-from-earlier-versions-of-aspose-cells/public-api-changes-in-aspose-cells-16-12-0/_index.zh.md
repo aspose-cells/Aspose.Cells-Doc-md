@@ -16,7 +16,7 @@ Aspose.Cells 16.12.0 已公开了 LoadFilter 类及 LoadOptions.LoadFilter 属�
 
 以下是仅加载模板文件中的文档属性的简单用法场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -42,7 +42,7 @@ Workbook book = new Workbook(dir + "sample.xlsx", options);
 
 以下代码从现有电子表格中加载除图表之外的所有内容。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -68,7 +68,7 @@ Workbook book = new Workbook(dir + "sample.xlsx", options);
 
 以下代码仅从现有电子表格中加载单元格数据（包括公式）和格式。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -96,7 +96,7 @@ Aspose.Cells 16.12.0 已向 FileFormatType 枚举中添加了 OTS 条目，用�
 
 以下代码片段使用了 FileFormatType.OTS。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -128,7 +128,7 @@ Aspose.Cells 16.12.0已添加了WorksheetCollection.createRange方法，允许�
 
 以下代码片段使用WorksheetCollection.createRange方法在第一个（默认）工作表上创建一个跨越A1到A2的单元格范围。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

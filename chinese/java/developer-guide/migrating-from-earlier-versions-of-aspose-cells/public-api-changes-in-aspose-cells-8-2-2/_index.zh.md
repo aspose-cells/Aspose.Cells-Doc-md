@@ -20,7 +20,7 @@ url: /zh/java/public-api-changes-in-aspose-cells-8-2-2/
 
 {{% /alert %}} 
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -41,7 +41,7 @@ System.out.println(properties.getVersion());
 
 {{% /alert %}} 
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

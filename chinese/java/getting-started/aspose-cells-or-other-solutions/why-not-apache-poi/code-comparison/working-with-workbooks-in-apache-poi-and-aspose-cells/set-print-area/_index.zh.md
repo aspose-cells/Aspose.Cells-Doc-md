@@ -10,7 +10,7 @@ url: /zh/java/set-print-area/
 
 要选择特定的打印区域，使用 [PageSetup](/java/pagesetup) 类的 setPrintArea 方法。将定义打印区域的单元格范围分配给此属性。
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -36,7 +36,7 @@ pageSetup.setPrintArea("A1:F20");
 ## **Apache POI SS - HSSF XSSF - 设置打印区域**
 Workbook.setPrintArea方法可用于设置打印区域的页面属性
 
-Java
+**Java**
 
 {{< highlight java >}}
 

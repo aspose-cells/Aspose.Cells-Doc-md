@@ -22,7 +22,7 @@ Aspose.Cells for Java 8.9.0版本已暴露了HtmlSaveOptions类的DefaultFontNam
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -58,7 +58,7 @@ Aspose.Cells for Java 8.9.0版本允许通过暴露DefaultFont属性为ImageOrPr
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -98,7 +98,7 @@ Aspose.Cells for Java API已为PivotTable类暴露了布尔类型的Excel2003Com
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

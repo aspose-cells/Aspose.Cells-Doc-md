@@ -9,7 +9,7 @@ url: /zh/reportingservices/automation-error/
 当 Microsoft Excel 2003 加载 Aspose.Cells.ReportingServices.Client 插件时，Microsoft Excel 会产生自动化错误： 
 
 ![todo:image_alt_text](automation-error_1.png)
-##### **Solution**
+##### **解决方案**
 {{% alert color="primary" %}} 
 
 - 升级至 Office 2003 (KB907417)

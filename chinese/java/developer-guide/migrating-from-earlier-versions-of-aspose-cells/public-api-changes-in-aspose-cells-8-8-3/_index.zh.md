@@ -35,7 +35,7 @@ Aspose.Cells for Java 8.8.3版本已暴露了addActiveXControl方法，允许向
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -73,7 +73,7 @@ Aspose.Cells for Java 8.8.3版本允许使用新暴露的LoadOptions.setPaperSiz
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -93,7 +93,7 @@ Workbook book = new Workbook(dir + "input.xlsx", loadOptions);
 ### **添加 Cell.getCharacters(flag) 方法**
 Aspose.Cells API允许通过使用Cell.getCharacters方法以FontSetting数组的形式获取字符对象。通过此版本，Aspose.Cells for Java API已暴露了Cell.getCharacters的重载版本，可接受布尔值作为参数，指示是否应在单元格是列表对象的一部分时应用表格样式。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -131,7 +131,7 @@ Aspose.Cells for Java 8.8.3版本已暴露了OleObject.AutoLoad属性，允许�
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -167,7 +167,7 @@ Aspose.Cells for Java 8.8.3版本已暴露了HTMLLoadOptions.SupportDivTag属性
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -263,7 +263,7 @@ Aspose.Cells for Java 8.8.3版本已暴露了HtmlSaveOptions.ExportGridLines属�
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -295,7 +295,7 @@ Aspose.Cells API现在允许为ListObject实例获取和设置评论。为了提
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

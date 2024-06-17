@@ -10,7 +10,7 @@ url: /zh/java/printing-workbooks-in-xlsx4j/
 
 **打印工作表**
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -38,7 +38,7 @@ sr.toPrinter("Samsung ML-1520 Series");
 
 **打印工作簿**
 
-Java
+**Java**
 
 {{< highlight java >}}
 

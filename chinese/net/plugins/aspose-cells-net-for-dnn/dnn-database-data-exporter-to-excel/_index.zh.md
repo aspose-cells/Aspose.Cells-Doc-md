@@ -37,7 +37,7 @@ Aspose .NET DNN 数据导出至 Excel 模块允许用户直接从本地或远程
 
 为了设置Aspose.Cells .NET for DNN模块，您需要满足以下要求:
 
-- DNN 7.0+
+- DNN 7.0 +
 
 如果您希望在其他版本的DNN上安装这些模块，请随时与我们联系。
 
@@ -45,7 +45,7 @@ Aspose .NET DNN 数据导出至 Excel 模块允许用户直接从本地或远程
 
 Aspose.Cells .NET for DNN模块目前支持
 
-- DNN 7.0+
+- DNN 7.0 +
 
 如果您希望在其他版本的DNN上安装这些模块，请随时与我们联系。
 

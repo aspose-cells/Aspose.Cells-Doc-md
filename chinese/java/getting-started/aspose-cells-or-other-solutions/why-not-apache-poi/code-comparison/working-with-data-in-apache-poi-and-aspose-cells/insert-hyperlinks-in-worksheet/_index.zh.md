@@ -10,7 +10,7 @@ url: /zh/java/insert-hyperlinks-in-worksheet/
 
 通过调用超链接集合的Add方法，可以将超链接添加到同一Excel文件中的单元格中。Add方法适用于内部和外部超链接。
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -58,7 +58,7 @@ hyperlinks.add("A2",1 ,1, "Sheet1!B9");
 - 列数，超链接范围中的列数。
 - URL，目标外部Excel文件的地址。
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -76,7 +76,7 @@ hyperlinks.add("A3", 1, 1, "book1.xls");
 
 {{< /highlight >}}
 ## **Apache POI SS - HSSF XSSF - 向工作表中插入超链接**
-Java
+**Java**
 
 {{< highlight java >}}
 

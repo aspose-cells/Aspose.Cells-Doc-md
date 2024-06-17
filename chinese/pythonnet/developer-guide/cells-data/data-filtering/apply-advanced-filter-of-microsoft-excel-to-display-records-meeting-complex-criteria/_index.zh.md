@@ -15,7 +15,7 @@ Microsoft Excel允许您对工作表数据应用*高级筛选*，以显示符合
 
 Aspose.Cells for Python via .NET也允许您使用[**Worksheet.advancedFilter()**](https://reference.aspose.com/cells/python-net/aspose.cells/worksheet/advanced_filter/#bool-str-str-str-bool)方法应用高级筛选。就像Microsoft Excel一样，它接受以下参数。
 
--**isFilter**- 表示是否在原地对列表进行筛选。
+**isFilter**
 
 -**listRange**- 列表范围。
 
@@ -27,7 +27,7 @@ Aspose.Cells for Python via .NET也允许您使用[**Worksheet.advancedFilter()*
 
 条件范围。
 
--**copyTo**
+**copyTo**
 
 拷贝数据的范围。
 

@@ -12,7 +12,7 @@ keywords: 如何在Java中自动调整行和列，使用Java在工作簿中自�
 
 请注意：如果您希望使用Java自动调整Excel电子表格中的行和列，请访问 [自动调整行和列](https://docs.aspose.com/cells/java/autofit-rows-and-columns/)。
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -35,7 +35,7 @@ workbook.save("AutoFit_Aspose.xls");
 ## **Apache POI SS - HSSF XSSF - 自适应行和列**
 Apache POI SS - HSSF 和 XSSF 提供 Sheet.autoSizeColumn 以自动调整列宽
 
-Java
+**Java**
 
 {{< highlight java >}}
 

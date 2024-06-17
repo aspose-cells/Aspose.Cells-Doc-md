@@ -8,6 +8,11 @@ url: /zh/net/what-s-new-in-aspose-cells-for-net/
 
 本页面描述了最近发布的Aspose.Cells新功能中最有趣的内容。
 
+## Aspose.Cells for .NET 24.6
+* 渲染增强功能：颜色饱和度和色温调整，双色调，Webp 图片
+* 透视表增强功能：合并区域，透视字段的“显示数值为”
+* 支持 Range.ToHtml()/ToImage() 以方便用户操作区域数据
+
 ## Aspose.Cells for .NET 24.5
 * 支持新功能: XMATCH, XOR
 * 支持转置范围内的数据

@@ -45,7 +45,7 @@ url: /zh/net/visual-studio-export-gridview-to-excel-control/
 ## **下载**
 您可以从以下位置之一下载导出 GridView 到 Excel 控件
 
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/Export_GridView_Excel)
+- [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/Export_GridView_Excel)
 ## **安装**
 安装导出 GridView 到 Excel 控件非常简单，请按照以下简单步骤进行
 ### **对于 Visual Studio 2010、2012 和 2013**
@@ -150,13 +150,13 @@ url: /zh/net/visual-studio-export-gridview-to-excel-control/
 
 您可以使用以下任何平台记录与该控件相关的任何问题或建议
 
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
+- [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
 ### **扩展和贡献**
 Aspose .NET 导出 GridView 到 Excel Visual Studio 控件是开源的，其源代码可以在下面列出的主要社交编码网站上找到。鼓励开发人员下载源代码并根据自己的需求扩展功能。
 #### **源代码**
 您可以从以下位置获取最新的源代码
 
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins)
+- [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins)
 #### **如何配置源代码**
 您需要安装以下内容才能打开和扩展源代码
 

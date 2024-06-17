@@ -3,7 +3,7 @@ title: 在 GridWeb 中计算自定义函数
 type: docs
 weight: 90
 url: /zh/net/aspose-cells-gridweb/calculate-custom-functions-in-gridweb/
-keywords: GridWeb、custom functions、custom、function
+keywords: GridWeb,custom functions,custom,function
 description: 本文介绍了 GridWeb 中自定义函数的特性。
 ---
 

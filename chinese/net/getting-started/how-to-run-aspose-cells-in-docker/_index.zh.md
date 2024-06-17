@@ -215,6 +215,6 @@ docker run --mount type=bind,source=C:\Windows\Fonts,target=/Fonts  --mount type
 
 - [在Windows上安装Docker Desktop](https://docs.docker.com/docker-for-windows/install/)
 - [在Mac上安装Docker Desktop](https://docs.docker.com/docker-for-mac/install/)
-- [Visual Studio 2019，.NET Core 3.1 SDK](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=netcore31#dependencies)
+- [Visual Studio 2019, .NET Core 3.1 SDK](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=netcore31#dependencies)
 - [切换到Linux容器](https://docs.docker.com/docker-for-windows/#switch-between-windows-and-linux-containers) 选项
 - 关于[.NET Core SDK](https://hub.docker.com/_/microsoft-dotnet-sdk)的其他信息

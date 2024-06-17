@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /zh/nodejs-java/limitations-and-api-differences/
 keywords: "nodejs, excel, limitation, api, differences"
-description: "Aspose.Cells for Node.js via Java limitations and api differences."
+description: "Aspose.Cells for Node.js via Java 的限制和 API 差异。"
 ---
 
 ## **公共 API 差异**
@@ -20,7 +20,7 @@ description: "Aspose.Cells for Node.js via Java limitations and api differences.
 {{< /highlight >}}
 
 
-Aspose.Cells for Node.js via Java
+**Aspose.Cells for Node.js via Java**
 
 {{< highlight java >}}
 
@@ -40,7 +40,7 @@ aspose.cells = require("aspose.cells");
 {{< /highlight >}}
 
 
-Aspose.Cells for Node.js via Java
+**Aspose.Cells for Node.js via Java**
 
 {{< highlight java >}}
 
@@ -59,7 +59,7 @@ Aspose.Cells for Node.js via Java
 
 
 
-Aspose.Cells for Node.js via Java
+**Aspose.Cells for Node.js via Java**
 
 {{< highlight java >}}
 
@@ -82,7 +82,7 @@ workbook.save(“result.xlsx”);
 
 
 
-Aspose.Cells for Node.js via Java
+**Aspose.Cells for Node.js via Java**
 
 {{< highlight java >}}
 

@@ -10,7 +10,7 @@ url: /zh/java/open-and-save-spreadsheet-in-xlsx4j/
 
 **Aspose.Cells** 允许开发人员使用其灵活的 API 从头开始创建 Excel 文件。一旦创建了 Excel 文件，您还需要保存工作簿（文件）。Aspose.Cells 提供了多种保存这些文件的方法。
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -26,7 +26,7 @@ workbook.save(dataDir + "pivot-rtt-Aspose.xlsm");
 ## **xlsx4j - 打开和保存电子表格**
 以下示例显示了在使用 xlsx4j 时如何打开和保存电子表格。
 
-Java
+**Java**
 
 {{< highlight java >}}
 

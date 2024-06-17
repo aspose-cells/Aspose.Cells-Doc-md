@@ -44,7 +44,7 @@ url: /zh/net/umbraco-export-members-to-excel/
 
 您可以从以下位置之一下载“导出成员到 Excel”插件
 
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/Umbraco_Member_Export_To_Excel_1.0)
+- [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/Umbraco_Member_Export_To_Excel_1.0)
 
 ## **安装**
 
@@ -88,7 +88,7 @@ url: /zh/net/umbraco-export-members-to-excel/
 
 您可以使用以下任何平台记录与Aspose.Words .NET for Umbraco模块相关的问题或建议
 
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
+- [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
 
 ### **扩展和贡献**
 
@@ -98,7 +98,7 @@ url: /zh/net/umbraco-export-members-to-excel/
 
 您可以从以下位置获取最新的源代码
 
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.UmbracoMemberExportToExcel)
+- [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.UmbracoMemberExportToExcel)
 
 #### **如何配置源代码**
 

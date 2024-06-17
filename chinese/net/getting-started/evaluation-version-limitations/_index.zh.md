@@ -51,7 +51,7 @@ keywords: 评估版限制，评估版中打开的文件数，使用评估版的�
 ### **第五限制：配置文件设置（Aspose.Cells.GridWeb）**
 您无法通过在配置部分（例如 web.config 文件中）添加以下代码行来重新指定脚本路径。acw_client 是一个包含文件的文件夹，Aspose.Cells.GridWeb 使用此文件夹来管理其内部配置，其中包含脚本文件、图像文件和其他文件以指定 GridWeb 的行为和设置其他操作。配置文件用于防止控件使用内嵌客户端资源（图像、脚本等），在某些情况/场景下很有用。此外，这些配置设置仅在控件的许可版本中生效。
 
-XML
+**XML**
 {{< highlight csharp >}}
 <appSettings>
 

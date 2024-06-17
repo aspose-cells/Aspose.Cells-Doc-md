@@ -19,7 +19,7 @@ Aspose.Cells for Reporting Services 支持加密，您可以渲染加密的 Micr
 ### **配置信息**
 **Aspose.Cells.ReportingServices.xml**文件中有有关加密的配置信息。当加密的值设置为"off"时，Aspose.Cells.ReportingServices将关闭加密。
 
-XML
+**XML**
 
 {{< highlight csharp >}}
 
@@ -56,7 +56,7 @@ XML
 - EncryptionType – 设置加密类型。不可为空。
 - KeyLength – 设置密钥长度。不可为空。 
 
-XML
+**XML**
 
 {{< highlight csharp >}}
 

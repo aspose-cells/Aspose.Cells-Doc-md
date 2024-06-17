@@ -8,7 +8,7 @@ url: /zh/java/find-value-in-cells-using-aspose-cells/
 ## **Aspose.Cells - 在单元格中查找数值**
 在Microsoft Excel中，用户可以搜索包含特定数据的单元格。例如，点击**编辑**然后**查找**打开搜索对话框。用户输入一个值并点击**确定**来搜索它。Excel会高亮显示匹配字段。
 
-Java
+**Java**
 
 {{< highlight java >}}
 

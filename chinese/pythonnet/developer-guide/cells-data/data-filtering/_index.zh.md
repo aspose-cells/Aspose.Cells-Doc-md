@@ -126,7 +126,7 @@ Aspose.Cells for Python via .NET 提供了 AddFillColorFilter 功能，可以根
 Excel 提供了自定义过滤功能，可以筛选包含特定字符串的行。Aspose.Cells for Python via .NET 也提供了此功能，并通过示例文件中的名称进行了演示。示例文件如下。
 
 1. [源样本国家名称.xlsx](源样本国家名称.xlsx)
-1. [outSourseSampleCountryNames.xlsx](outSourseSampleCountryNames.xlsx)。
+1. [outSourseSampleCountryNames.xlsx](outSourseSampleCountryNames.xlsx).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Cells-Data-Filtering-AutofilterCustom-Contains-1.py" >}}
 

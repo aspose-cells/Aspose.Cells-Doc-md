@@ -20,7 +20,7 @@ url: /zh/java/public-api-changes-in-aspose-cells-8-4-0/
 
 以下代码片段显示了如何动态修改VBA代码段。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -65,7 +65,7 @@ Aspose.Cells for Java 8.4.0已经为PivotTableCollection暴露了两种方法，
 
 以下代码片段显示了如何使用上述两种方法删除数据透视表。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -109,7 +109,7 @@ Aspose.Cells for Java 8.4.0为数据透视表提供了不同预定义布局的�
 
 以下示例代码为数据透视表设置不同的布局，并将结果保存到磁盘。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -178,7 +178,7 @@ Aspose.Cells for Java 8.4.0已经为TxtLoadStyleStrategy类和TxtLoadOptions.Loa
 
 以下示例代码演示了DataBar.toImage方法的用法，将DataBar呈现为图像格式。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -236,7 +236,7 @@ Aspose.Cells for Java 8.4.0已经提供了{HtmlSaveOptions.ExportBogusRowData}}�
 
 以下示例代码说明了上述属性的用法。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

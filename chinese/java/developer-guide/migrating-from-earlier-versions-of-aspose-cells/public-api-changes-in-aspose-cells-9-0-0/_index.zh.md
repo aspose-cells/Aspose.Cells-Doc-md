@@ -16,7 +16,7 @@ Aspose.Cells for Java 为 Shape 类公开了 TextOptions 属性，以便控制�
 
 这里是 Shape.TextOptions 属性的简单使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -60,7 +60,7 @@ Aspose.Cells for Java 公开了 ChartPoint.IsInSecondaryPlot 属性，可用于�
 
 {{% /alert %}} 
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -112,7 +112,7 @@ Aspose.Cells for Java 9.0.0 公开了 OleObject.ClassIdentifier 属性，可用�
 
 {{% /alert %}} 
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

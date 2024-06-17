@@ -62,7 +62,7 @@ license.setLicense(fstream);
 1. Download the license to your computer and copy it to the **\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF** folder, where **\<InstallDir>** stands for the JasperServer installation directory.
 1. Locate the **\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** file and add the following lines:
 
-XML
+**XML**
 
 {{< highlight csharp >}}
 

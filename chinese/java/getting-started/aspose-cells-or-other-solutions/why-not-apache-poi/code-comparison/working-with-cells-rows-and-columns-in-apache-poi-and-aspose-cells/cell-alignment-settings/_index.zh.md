@@ -14,7 +14,7 @@ Aspose.Cells 在 Cell 类中提供 setStyle 方法，用于设置单元格的格
 
 使用 TextAlignmentType 枚举选择任何文本对齐类型。
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -52,7 +52,7 @@ cell.setStyle(style);
 ## **Apache POI SS - HSSF & XSSF - 单元格对齐设置**
 HSSFCellStyle 使用 Apache POI API 为单元格提供样式对齐。
 
-Java
+**Java**
 
 {{< highlight java >}}
 

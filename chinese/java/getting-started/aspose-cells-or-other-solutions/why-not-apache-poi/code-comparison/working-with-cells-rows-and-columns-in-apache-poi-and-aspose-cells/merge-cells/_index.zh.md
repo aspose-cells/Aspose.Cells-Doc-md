@@ -8,7 +8,7 @@ url: /zh/java/merge-cells/
 ## **Aspose.Cells - 合并单元格**
 Cells 类具有一些有用的方法。例如，合并方法将单元格合并为指定单元格范围内的单个单元格。
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -40,7 +40,7 @@ wbk.save(dataDir + "merge_Aspose.xls");
 ## **Apache POI SS - HSSF XSSF - 合并单元格**
 可以使用 Sheet.addMergedRegion 合并单元格。
 
-Java
+**Java**
 
 {{< highlight java >}}
 

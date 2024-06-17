@@ -4,7 +4,7 @@ type: docs
 weight: 5
 url: /zh/php-java/features/
 keywords: "php, excel, api, features"
-description: "Aspose.Cells for PHP via Java features."
+description: "Aspose.Cells for PHP via Java 特性."
 ---
 
 ## **Aspose.Cells for PHP via Java功能概述**

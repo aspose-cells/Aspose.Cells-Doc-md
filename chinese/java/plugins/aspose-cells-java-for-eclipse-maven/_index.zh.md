@@ -14,7 +14,7 @@ Eclipse IDE可以通过附加软件组件进行扩展。Eclipse称这些软件�
 [Aspose.Cells for Java](http://goo.gl/gtvhlQ)是一款屡获殊荣的Excel电子表格组件，允许Java开发人员将读取、写入和操作Excel®电子表格(XLS、XLSX、XLSM、XLSB、XLTX、SpreadsheetML、CSV、ODS)、HTML、MHTML、PDF和图像文件格式嵌入到他们自己的Java应用程序中，而无需依赖Microsoft Excel®。
 
 [Aspose.Cells for Java](http://goo.gl/gtvhlQ) 是一款成熟、可扩展且功能丰富的组件，提供了许多远远超出其他供应商简单数据导出功能的功能。使用Aspose.Cells for Java，开发人员可以导出数据，对电子表格进行最精细级别的格式化，导入图像，创建图表，应用和计算复杂的公式，流式传输Excel®数据，以各种格式保存等等 - 所有这些都不需要Microsoft Excel®或Microsoft Office自动化。
-### **Aspose.Cells Java for Eclipse（Maven）**
+### **Aspose.Cells Java for Eclipse (Maven)**
 - Aspose.Cells Java for Eclipse (Maven)是**Aspose**开发的用于**Eclipse IDE**的插件。该插件适用于使用Maven平台进行Java开发并希望在项目中使用[Aspose.Cells for Java](http://goo.gl/gtvhlQ)的开发人员。该插件允许你创建使用[Aspose.Cells for Java API](http://goo.gl/gtvhlQ)的maven项目，并下载API的[代码示例](https://goo.gl/uxznrb)。 
 - 该插件提供以下功能，可在**Eclipse IDE**中舒适地使用[Aspose.Cells for Java API](http://goo.gl/gtvhlQ)： 
 

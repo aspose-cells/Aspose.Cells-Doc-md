@@ -15,7 +15,7 @@ description: 本文介绍如何在 GridWeb 中重新绑定工作表。
 
 **XML** 
 
-XML
+**XML**
 
 {{< highlight csharp >}}
 
@@ -77,7 +77,7 @@ End Sub
 
 即使在运行时更改工作表.DataSource 属性，工作表始终会绑定到 dataSet11，这是因为工作表始终使用 ASPX 文件中工作表标记中的 DataSource 绑定信息。要在运行时将工作表绑定到另一个数据源，请移除 ASPC 文件中工作表标记中的数据源绑定信息。将标记编辑为如下内容： 
 
-XML
+**XML**
 
 {{< highlight csharp >}}
 

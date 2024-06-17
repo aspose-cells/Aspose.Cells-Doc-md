@@ -13,7 +13,7 @@ url: /zh/java/public-api-changes-in-aspose-cells-8-0-1/
 ## **向Cells类添加了MemorySetting属性**
 Cells类已经公开了setMemorySetting和getMemorySetting方法，用于优化单元格数据的内存使用，并因此减少总体内存开销。下面的示例展示了如何以优化模式将大量数据写入工作表。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

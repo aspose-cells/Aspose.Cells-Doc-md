@@ -25,7 +25,7 @@ url: /zh/java/applying-a-license/
 1. 创建一个引用文件的流。
 1. 将包含许可证文件的流传递给SetLicense方法。
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -53,7 +53,7 @@ license.setLicense(fstream);
    许可证文件应该在**res/raw**文件夹中可见。
 1. 使用以下代码示例访问/加载资源中的许可证。
 
-Java
+**Java**
 
 {{< highlight java >}}
 

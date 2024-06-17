@@ -38,7 +38,7 @@ Aspose .NET导出SiteFinity模块允许开发人员将SiteFinity用户导出到M
 ## **源代码**
 您可以从以下位置获取最新的源代码
 
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/SiteFinity)
+- [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/SiteFinity)
 ### **如何配置源代码**
 您需要安装以下内容才能打开和扩展源代码
 
@@ -53,7 +53,7 @@ Aspose .NET导出SiteFinity模块允许开发人员将SiteFinity用户导出到M
 ### **下载**
 您可以从以下位置之一下载Aspose .NET Content Exporter for Sitefinity模块
 
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases)
+- [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases)
 ### **安装**
 下载后，请按照以下步骤将插件安装到Sitefinity网站中：
 
@@ -105,6 +105,6 @@ Aspose .NET导出SiteFinity模块允许开发人员将SiteFinity用户导出到M
 
 您可以使用以下任何平台记录与Aspose.Cells .NET for Sitefinity模块相关的任何问题或建议。
 
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
+- [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
 ## **扩展和贡献**
 Aspose Sitefinity小部件/模块是开源的，其源代码可在下面列出的主要社交编码网站上获得。鼓励开发人员下载源代码并根据自己的需求扩展功能。

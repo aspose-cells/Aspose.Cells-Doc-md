@@ -3,7 +3,7 @@ title: 启用不同的 GridWeb 模式
 type: docs
 weight: 60
 url: /zh/net/aspose-cells-gridweb/enable-different-gridweb-modes/
-keywords: GridWeb，EditMode，SessionMode
+keywords: GridWeb,EditMode,SessionMode
 description: 本文介绍如何在 GridWeb 中使用 EditMode 和 SessionMode。
 ---
 

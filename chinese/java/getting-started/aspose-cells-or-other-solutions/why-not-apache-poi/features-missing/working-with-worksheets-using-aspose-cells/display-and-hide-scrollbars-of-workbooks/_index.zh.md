@@ -8,7 +8,7 @@ url: /zh/java/display-and-hide-scrollbars-of-workbooks/
 ## **Aspose.Cells - 显示和隐藏工作簿的滚动条**
 Aspose.Cells提供了一个代表Excel文件的**Workbook**类。**Workbook**类提供了广泛的属性和方法来管理Excel文件。但是，为了控制Excel文件中滚动条的可见性，开发人员可以使用**Workbook**类的**setVScrollBarVisible**和**setHScrollBarVisible**方法。
 
-Java
+**Java**
 
 {{< highlight java >}}
 

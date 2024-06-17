@@ -16,7 +16,7 @@ com.aspose.cells.charts.Chart类已公开了setChartDataRange方法以简化图�
 
 以下代码片段展示了如何使用少量代码创建柱状图，假设图表的绘图系列数据存在于同一工作表的单元格A1到D4。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -39,7 +39,7 @@ Aspose.Cells for Java 8.4.2已经暴露了VbaModuleCollection.add方法，以向
 
 以下代码片段展示了如何使用VbaModuleCollection.add方法。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -78,7 +78,7 @@ Aspose.Cells for Java 8.4.2已经暴露了Cells.copyColumns的重载版本方法
 
 以下代码片段展示了如何使用新公开的Cells.copyColumns方法。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -118,7 +118,7 @@ workbook.save(output);
 
 以下示例代码演示了使用PasteType.DEFAULT字段。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

@@ -18,19 +18,19 @@ Aspose.NET从Excel导入用户模块允许开发人员从Excel文件中导入批
 ### **系统要求**
 为了设置Aspose.Cells .NET for DNN模块，您需要满足以下要求:
 
-- DNN 7.0+
+- DNN 7.0 +
 
 如果您希望在其他版本的DNN上安装这些模块，请随时与我们联系。
 ### **支持的平台**
 Aspose.Cells .NET for DNN模块目前支持
 
-- DNN 7.0+
+- DNN 7.0 +
 
 如果您希望在其他版本的DNN上安装这些模块，请随时与我们联系。
 ## **下载**
 您可以从以下位置之一下载Aspose .NET Cells从Excel导入用户为DNN模块
 
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/DNN)
+- [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/DNN)
 ## **安装**
 下载后，请按照以下步骤将模块安装到您的DNN网站中:
 
@@ -67,7 +67,7 @@ Aspose .NET Cells导入DNN用户从Excel模块是开源的，其源代码可在�
 #### **源代码**
 您可以从以下位置获取最新的源代码
 
-- [Github](https://github.com/asposemarketplace/Aspose_for_DNN)
+- [Github ](https://github.com/asposemarketplace/Aspose_for_DNN)
 #### **如何配置源代码**
 您需要安装以下内容才能打开和扩展源代码
 

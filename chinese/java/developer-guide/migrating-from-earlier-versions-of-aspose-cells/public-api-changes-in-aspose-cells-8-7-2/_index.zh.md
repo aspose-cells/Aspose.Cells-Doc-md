@@ -32,7 +32,7 @@ Aspose.Cells API具有强大的计算引擎，可以计算几乎所有的Microso
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -72,7 +72,7 @@ Aspose.Cells for Java 8.7.2已公开了TextBoxCollection类的重载索引器，
 
 简单的使用场景如下。 
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

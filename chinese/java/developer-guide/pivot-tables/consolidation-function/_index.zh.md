@@ -12,18 +12,18 @@ Aspose.Cells 可用于将合并函数应用于数据透视表的数据字段（�
 
 Aspose.Cells提供[**ConsolidationFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ConsolidationFunction)枚举以支持以下合并功能。
 
--ConsolidationFunction.SUM
--ConsolidationFunction.COUNT
--ConsolidationFunction.AVERAGE
--ConsolidationFunction.MAX
--ConsolidationFunction.MIN
--ConsolidationFunction.PRODUCT
--ConsolidationFunction.COUNT_NUMS
--ConsolidationFunction.STD_DEV
--ConsolidationFunction.STD_DEVP
--ConsolidationFunction.VAR
--ConsolidationFunction.VARP
--ConsolidationFunction.DISTINCT_COUNT
+- ConsolidationFunction.SUM
+- ConsolidationFunction.COUNT
+- ConsolidationFunction.AVERAGE
+- ConsolidationFunction.MAX
+- ConsolidationFunction.MIN
+- ConsolidationFunction.PRODUCT
+- ConsolidationFunction.COUNT_NUMS
+- ConsolidationFunction.STD_DEV
+- ConsolidationFunction.STD_DEVP
+- ConsolidationFunction.VAR
+- ConsolidationFunction.VARP
+- ConsolidationFunction.DISTINCT_COUNT
 
 ### **应用合并功能到数据字段的数据透视表**
 

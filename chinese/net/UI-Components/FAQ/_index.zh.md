@@ -32,7 +32,7 @@ url: /zh/net/grid-faq/
 
 您可以通过在配置部分中添加以下代码行（例如在您的 VS.NET 项目的 web.config 文件中）来始终指定脚本路径。"acw_client"是一个包含文件的文件夹，并且 Aspose.Cells.GridWeb 使用此文件夹来管理其内部配置，它具有脚本文件、图像文件和其他文件来指定GridWeb的行为和其他操作。配置文件用于防止控件使用嵌入式客户端资源（图像、脚本等），这在某些情况/方案下非常有用。
 
-XML
+**XML**
 
 {{< highlight csharp >}}
 

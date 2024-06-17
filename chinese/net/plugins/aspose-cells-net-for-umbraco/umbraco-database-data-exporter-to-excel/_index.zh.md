@@ -46,7 +46,7 @@ Aspose .NET数据库数据导出至Excel对Umbraco模块允许用户将数据直
 您可以从以下位置之一下载Aspose .NET Cells数据库数据导出至Excel对Umbraco模块
 
 - [Umbraco项目](https://goo.gl/BPrWm2)
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsUmbracoDatatoExcel)
+- [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsUmbracoDatatoExcel)
 ## **安装**
 下载后，请按照以下步骤将此包安装到您的 Umbraco 网站中：
 
@@ -92,13 +92,13 @@ Aspose .NET数据库数据导出至Excel对Umbraco模块允许用户将数据直
 
 您可以使用以下任何平台记录与Aspose.Words .NET for Umbraco模块相关的问题或建议
 
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
+- [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
 ### **扩展和贡献**
 将成员导出到Excel是一款开源插件，其源代码可在下面列出的主要社交编码网站上获得。鼓励开发人员下载源代码并根据自己的需求扩展功能。
 #### **源代码**
 您可以从以下位置获取最新的源代码
 
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.DatabaseDataExportertoExcel)
+- [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.DatabaseDataExportertoExcel)
 #### **如何配置源代码**
 您需要安装以下内容才能打开和扩展源代码
 

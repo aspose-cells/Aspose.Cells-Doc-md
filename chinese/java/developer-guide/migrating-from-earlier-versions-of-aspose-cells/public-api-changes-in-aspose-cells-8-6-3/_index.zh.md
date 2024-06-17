@@ -16,7 +16,7 @@ Aspose.Cells for Java API的此版本已公开了ImportTableOptions.setHtmlStrin
 
 这是最简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -38,7 +38,7 @@ Aspose.Cells for Java 8.6.3已公开了Workbook.createBuiltinStyle方法，可�
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -58,7 +58,7 @@ Aspose.Cells for Java 8.6.3已公开了LoadDataOption.OnlyVisibleWorksheet属性
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

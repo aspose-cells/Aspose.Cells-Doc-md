@@ -8,7 +8,7 @@ url: /zh/java/create-new-worksheet/
 ## **Aspose.Cells - 创建新工作表**
 将工作表添加到工作簿
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -30,7 +30,7 @@ workbook.save("newWorksheet.xls");
 ## **Apache POI SS - HSSF XSSF - 创建新工作表**
 将工作表添加到工作簿
 
-Java
+**Java**
 
 {{< highlight java >}}
 

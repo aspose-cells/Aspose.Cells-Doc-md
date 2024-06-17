@@ -19,7 +19,7 @@ url: /zh/reportingservices/integrating-manually-with-visual-studio-2005-or-2008-
    1. Open **C:\Program Files\Microsoft Visual Studio <Version>\Common7\IDE\PrivateAssemblies\ RSReportDesigner.config** 
       (where <Version> is “8” for Visual Studio 2005 or “9.0” for Visual Studio 2008) and add the following lines into the <Render> element: 
 
-XML
+**XML**
 
 {{< highlight csharp >}}
 
@@ -49,7 +49,7 @@ XML
    1. Open C:\Program Files\Microsoft Visual Studio <Version>\Common7\IDE\PrivateAssemblies\RSPreviewPolicy.config
       (where <Version> is “8” for Visual Studio 2005 or “9.0” for Visual Studio 2008) and add the following as the last item in the second to outer <CodeGroup> element (which should be <CodeGroup class="FirstMatchCodeGroup" version="1" PermissionSetName="Execution" Description="This code group grants MyComputer code Execution permission. ">): 
 
-XML
+**XML**
 
 {{< highlight csharp >}}
 

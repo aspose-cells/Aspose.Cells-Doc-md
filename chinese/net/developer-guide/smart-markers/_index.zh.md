@@ -121,7 +121,7 @@ subtotalN:Ref 其中 Ref 指的是按分组列。
 此示例展示了一些分组参数的实际应用。它使用了 Northwind.mdb Microsoft Access 数据库，并从名为 "Order Details" 的表中提取数据。我们在 Microsoft Excel 中创建了一个名为 SmartMarker_Designer.xls 的设计文件，并在工作表的各种单元格中放置智能标记。然后对标记进行处理以填充工作表。数据是通过一个组字段放置和组织的。
 
 设计文件有两个工作表。在第一个工作表中，我们像下面的截图所示，使用了带有分组参数的智能标记。我们放置了三个带有分组参数的智能标记：
-&=[Order Details].OrderID(group:merge,skip:1)，
+&=[Order Details].OrderID(group:merge,skip:1),
 &=[Order Details].Quantity(subtotal9:Order Details.OrderID)，和
 &=[Order Details].UnitPrice(subtotal9:Order Details.OrderID) 分别放置在 A5、B5 和 C5。
 
@@ -129,9 +129,9 @@ subtotalN:Ref 其中 Ref 指的是按分组列。
 | :- |
 |![todo:image_alt_text](using-smart-markers_5.png)|
 在设计文件的第二个工作表中，我们像下图所示放置了一些智能标记。我们放置了以下智能标记：
-&=[Order Details].OrderID(group:normal)，
-&=[Order Details].Quantity，
-&=[Order Details].UnitPrice，
+&=[Order Details].OrderID(group:normal),
+&=[Order Details].Quantity,
+&=[Order Details].UnitPrice,
 &=&=B(r)*C(r)，和
 &=subtotal9:Order Details.OrderID 分别放置在 A5、B5、C5、D5 和 C6。
 

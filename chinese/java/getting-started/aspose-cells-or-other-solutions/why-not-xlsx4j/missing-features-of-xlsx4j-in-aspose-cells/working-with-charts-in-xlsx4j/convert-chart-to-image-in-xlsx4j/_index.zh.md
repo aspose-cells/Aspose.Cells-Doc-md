@@ -9,7 +9,7 @@ url: /zh/java/convert-chart-to-image-in-xlsx4j/
 图表具有视觉吸引力，方便用户查看数据中的比较、模式和趋势。
 Chart类的toImage方法将图表转换为图像文件，可保存到磁盘或流中。
 
-Java
+**Java**
 
 {{< highlight java >}}
 

@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /zh/net/integrate-aspose-cells-grid-controls-with-visual-studio-net/
 description: 本文描述如何在Visual Studio .NET中使用GridWeb和GridDesktop控件。
-keywords: GridWeb,GridDesktop,visual studio,control,integrate
+keywords:  GridWeb,GridDesktop,visual studio,control,integrate
 ---
 
 {{% alert color="primary" %}} 

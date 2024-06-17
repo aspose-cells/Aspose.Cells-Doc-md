@@ -13,7 +13,7 @@ url: /zh/reportingservices/performance-configuration/
 ### **性能部分**
 这显示了性能部分的默认内容。
 
-XML
+**XML**
 
 {{< highlight csharp >}}
 
@@ -39,7 +39,7 @@ XML
 ### **性能参数**
 - LimitCellsNumberForMerged – 参数的默认值为1000000。参数值由客户端设置，不受性能参数开关的影响。请参阅以下配置。 
 
-XML
+**XML**
 
 {{< highlight csharp >}}
 
@@ -55,7 +55,7 @@ XML
   - 当Performance参数设置为'on'时，子元素报表可以重新设置报表的AutoRowFile参数。
     请参考以下配置。 
 
-XML
+**XML**
 
 {{< highlight csharp >}}
 
@@ -85,7 +85,7 @@ XML
   - 当Performance参数设置为'on'时，子元素报表可以重新设置报表的AutoRowFile参数。
     请参考以下配置。 
 
-XML
+**XML**
 
 {{< highlight csharp >}}
 
@@ -115,7 +115,7 @@ XML
   - 当Performance参数设置为'on'时，子元素报表可以重新设置报表的AutoRowFile参数。
     请参考以下配置。 
 
-XML
+**XML**
 
 {{< highlight csharp >}}
 
@@ -146,7 +146,7 @@ XML
   - 当IsSetStyle参数设置为false时，Performance参数的值无效。
     请参考以下配置。 
 
-XML
+**XML**
 
 {{< highlight csharp >}}
 

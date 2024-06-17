@@ -13,8 +13,8 @@ Aspose.Cells for Java 是一个纯Java组件，可以与Perl一起使用。 使�
 ## **需要的软件和库**
 需要以下软件和库。 
 
-- Perl。
-- Aspose.Cells for Java。
+- Perl.
+- Aspose.Cells for Java.
 - Java - Perl 扩展。
 - 符合 Aspose.Cells for Java 和 Java-Perl 扩展的Java运行时。
 ### **指南**
@@ -42,7 +42,7 @@ Aspose.Cells for Java 是一个纯Java组件，可以与Perl一起使用。 使�
 
 For more information on how to work with Java in Perl, see documentation of Java - Perl extension at <https://metacpan.org/release/METZZO/Java-4.7>
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

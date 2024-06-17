@@ -13,15 +13,15 @@ Aspose.Cells for Java不要求安装Microsoft Excel，因为Aspose.Cells本身�
 ## **支持的操作系统**
 Aspose.Cells for Java支持运行Java运行时的任何操作系统，包括但不限于：
 ### **Windows**
-- Microsoft Windows 2000（x64，x86）
-- Microsoft Windows XP（x64，x86）
-- Microsoft Windows Server 2003（x64，x86）
-- Microsoft Windows Server 2008（x64，x86）
-- Microsoft Windows Server 2012（x64，x86）
-- Microsoft Windows Vista（x64，x86）
-- Microsoft Windows 7（x64，x86）
-- Microsoft Windows 8（x64，x86）
-- Microsoft Windows 10（x64，x86）
+- Microsoft Windows 2000 (x64, x86)
+- Microsoft Windows XP (x64, x86)
+- Microsoft Windows Server 2003 (x64, x86)
+- Microsoft Windows Server 2008 (x64, x86)
+- Microsoft Windows Server 2012 (x64, x86)
+- Microsoft Windows Vista (x64, x86)
+- Microsoft Windows 7 (x64, x86)
+- Microsoft Windows 8 (x64, x86)
+- Microsoft Windows 10 (x64, x86)
 ### **Linux**
 - Linux（Ubuntu、openSUSE、CentOS等）
 ### **Mac**

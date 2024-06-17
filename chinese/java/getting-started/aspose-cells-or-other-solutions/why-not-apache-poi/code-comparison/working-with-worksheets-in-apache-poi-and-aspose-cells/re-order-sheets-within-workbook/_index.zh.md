@@ -8,7 +8,7 @@ url: /zh/java/re-order-sheets-within-workbook/
 ## **Aspose.Cells - 重新整理工作簿中的工作表**
 Aspose.Cells提供了一个方法，Worksheet.moveTo()，用于将工作表移动到同一电子表格中的另一个位置。
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -40,7 +40,7 @@ workbook.save(dataDir + "AsposeMoveSheet.xls");
 ## **Apache POI SS - HSSF XSSF - 重新整理工作簿中的工作表**
 Apache POI提供Workbook.setSheetOrder()方法来设置工作表的顺序。
 
-Java
+**Java**
 
 {{< highlight java >}}
 

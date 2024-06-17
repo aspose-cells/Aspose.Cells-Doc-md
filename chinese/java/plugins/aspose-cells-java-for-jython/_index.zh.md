@@ -35,7 +35,7 @@ Aspose.Cells Java for Jython是一个项目，演示/提供了在Jython中使用
 
 - 已安装 Java 1.5 或更高版本
 - 已下载 Aspose.Cells 组件
-- 安装了 Jython 2.7.0
+- Jython 2.7.0
 
 ### **支持的平台**
 

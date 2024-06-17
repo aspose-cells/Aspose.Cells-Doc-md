@@ -8,7 +8,7 @@ url: /zh/java/create-new-spreadsheet-in-xlsx4j/
 ## **Aspose.Cells - 创建新的电子表格**
 Workbook 类可用于简单使用。
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -38,7 +38,7 @@ workbook.save(dataDir + "newWorksheet_Aspose.xls");
 ## **xlsx4j - 创建新的电子表格**
 以下示例显示了如何在使用 xlsx4j 时创建新的电子表格。
 
-Java
+**Java**
 
 {{< highlight java >}}
 

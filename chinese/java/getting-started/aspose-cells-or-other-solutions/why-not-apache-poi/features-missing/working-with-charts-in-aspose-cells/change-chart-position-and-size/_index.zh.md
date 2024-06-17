@@ -13,7 +13,7 @@ url: /zh/java/change-chart-position-and-size/
 1. Chart.getChartObject().get/setX()
 1. Chart.getChartObject().get/setY()
 
-Java
+**Java**
 
 {{< highlight java >}}
 

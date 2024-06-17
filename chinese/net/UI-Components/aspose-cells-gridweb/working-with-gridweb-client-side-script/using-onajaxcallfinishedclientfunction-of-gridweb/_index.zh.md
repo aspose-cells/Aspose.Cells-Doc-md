@@ -3,7 +3,7 @@ title: 使用GridWeb的OnAjaxCallFinishedClientFunction
 type: docs
 weight: 20
 url: /zh/net/aspose-cells-gridweb/using-onajaxcallfinishedclientfunction-of-gridweb/
-keywords: GridWeb，ajacall，onajaxcallfinishedclientfunction，在OnAjaxCallFinishedClientFunction中的使用 
+keywords: GridWeb,ajacall,onajaxcallfinishedclientfunction,OnAjaxCallFinishedClientFunction 
 description: 本篇文章介绍了如何在GridWeb中的客户端js中使用OnAjaxCallFinishedClientFunction。
 ---
 

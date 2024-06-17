@@ -8,7 +8,7 @@ url: /zh/java/working-with-fonts-in-apache-poi-and-aspose-cells/
 ## **Aspose.Cells - 使用字体**
 Aspose.Cells提供了一个表示Microsoft Excel文件的类[Workbook](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook)。Workbook类包含一个WorksheetCollection，允许访问Excel文件中的每个工作表。工作表由Worksheet类表示。Worksheet类提供了Cells集合。Cells集合中的每个项目表示Cell类的对象。
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -44,7 +44,7 @@ cell.setStyle(style);
 ## **Apache POI SS - HSSF XSSF - 使用字体**
 Apache POI SS提供Font类来设置各种字体设置。
 
-Java
+**Java**
 
 {{< highlight java >}}
 

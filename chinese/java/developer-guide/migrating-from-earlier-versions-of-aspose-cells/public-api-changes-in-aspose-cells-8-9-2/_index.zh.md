@@ -20,7 +20,7 @@ Aspose.Cells for Java已经暴露了TextOptions类以及FontSettings.TextOptions
 
 以下是 FontSettings.TextOptions 属性的简单使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -50,7 +50,7 @@ Aspose.Cells for Java 8.9.2版本已暴露了TextOptions.Fill、TextOptions.Outl
 
 以下是上述属性的简单使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -94,7 +94,7 @@ Aspose.Cells for Java 公开了 Shape.Line 属性，该属性返回 LineFormat �
 
 这里是 Shape.Line 属性的简单使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -124,7 +124,7 @@ Aspose.Cells for Java 8.9.2 公开了 Shape.Fill 属性，该属性返回 FillFo
 
 以下是 Shape.Fill 属性的简单使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

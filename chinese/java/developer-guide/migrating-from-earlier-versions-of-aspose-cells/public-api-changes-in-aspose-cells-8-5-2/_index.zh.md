@@ -18,7 +18,7 @@ Aspose.Cells for Java API的此版本已经暴露出SheetRender.toImage方法的
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -68,7 +68,7 @@ Aspose.Cells for Java 8.5.2已经暴露出PivotTable.getCellByDisplayName方法�
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -133,7 +133,7 @@ Aspose.Cells for Java 8.5.2已经暴露出SaveOptions.MergeAreas属性，可以�
 
 这是最简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

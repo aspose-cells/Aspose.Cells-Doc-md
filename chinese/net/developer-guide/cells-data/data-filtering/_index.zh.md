@@ -126,7 +126,7 @@ Aspose.Cells 提供了 AddFillColorFilter 函数，用于根据单元格的填�
 Excel 提供了自定义筛选功能，例如筛选包含特定字符串的行。Aspose.Cells 中也提供了此功能，并且通过下面的示例演示了对样本文件中的名称进行筛选。示例文件如下。
 
 1. [源样本国家名称.xlsx](源样本国家名称.xlsx)
-1. [outSourseSampleCountryNames.xlsx](outSourseSampleCountryNames.xlsx)。
+1. [outSourseSampleCountryNames.xlsx](outSourseSampleCountryNames.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterCustom-Contains-1.cs" >}}
 

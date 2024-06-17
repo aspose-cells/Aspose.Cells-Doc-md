@@ -15,7 +15,7 @@ Aspose.Cells for Java API依赖于一些额外的库，如果它们缺失，就�
 Aspose.Cells for Java API依赖于Bouncy Castle用于加密和解密功能，也就是说，如果程序需要加载或保存加密电子表格，则需要在项目的类路径中添加bcprov-jdk16-146.jar的引用。
 ### **症状**
 您可能会遇到java.lang.ClassNotFoundException: org.bouncycastle.jce.provider.BouncyCastleProvider。 
-### **Solution**
+### **解决方案**
 解决方案实际上非常简单，如下所述。
 
 1. 下载任何一个[Aspose.Cells for Java](https://downloads.aspose.com/cells/java)的主要发布版本。

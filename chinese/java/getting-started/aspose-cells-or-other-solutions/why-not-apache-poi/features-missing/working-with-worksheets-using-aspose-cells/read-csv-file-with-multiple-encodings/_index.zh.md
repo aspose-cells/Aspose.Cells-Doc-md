@@ -8,7 +8,7 @@ url: /zh/java/read-csv-file-with-multiple-encodings/
 ## **Aspose.Cells - 使用多种编码读取CSV文件**
 有时，您的CSV文件包含多种编码（Unicode、ANSI、UTF8、UTF7等）。 Aspose.Cells允许您加载此类CSV文件并将其转换为其他格式，例如PDF或XLSX。
 
-Java
+**Java**
 
 {{< highlight java >}}
 

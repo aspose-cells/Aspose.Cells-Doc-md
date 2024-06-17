@@ -20,7 +20,7 @@ url: /zh/java/public-api-changes-in-aspose-cells-8-3-1/
 
 以下示例代码访问图表系列的数据标签，然后将DataLabels.setShowCellRange()方法设置为true，以模仿Excel的**标签包含 - 来自单元格的数值**功能。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -57,7 +57,7 @@ workbook.save("output.xlsx");
 ### **添加了Cell.getTable和ListObject.putCellValue方法**
 使用Aspose.Cells for Java 8.3.1添加了方法Cell.getTable和ListObject.putCellValue，以便用户可以从单元格中访问ListObject并使用行和列偏移添加值到其中。以下示例代码加载源电子表格，并在表格内添加值。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -102,7 +102,7 @@ workbook.save("output.xlsx");
 
 以下提供的代码片段将ODS文件保存为ODF 1.2格式。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -150,7 +150,7 @@ Aspose.Cells API已公开SparklineCollection.add(String dataRange, int row, int 
 
 以下示例代码加载源电子表格，访问第一个折线图组并为折线图组添加新的数据范围和位置。 
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

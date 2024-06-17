@@ -19,7 +19,7 @@ Aspose.Cells API已经提供了将电子表格转换为PDF的功能。通过此A
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -47,7 +47,7 @@ book.save(outFilePath, pdfSaveOptions);
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -83,7 +83,7 @@ Aspose.Cells API 通过引入 verifyPassword 方法增强了 Protection 类，�
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -127,7 +127,7 @@ if (sheet.getProtection().isProtectedWithPassword())
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -167,7 +167,7 @@ Aspose.Cells for Java 8.7.0已公开了ColorScale.Is3ColorScale属性，可用�
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -217,7 +217,7 @@ Aspose.Cells for Java 8.7.0支持[识别和解析带有分隔纯数据的CSV/TXT
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -251,7 +251,7 @@ Aspose.Cells for Java 8.7.0还公开了DataLabels.ResizeShapeToFitText属性，�
 
 以下是简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

@@ -8,7 +8,7 @@ url: /zh/java/getting-cell-contents/
 ## **Aspose.Cells - 获取单元格内容**
 Cells.get()方法可用于访问单元格。
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -68,7 +68,7 @@ for (int i = 0 ; i < rows.getCount() ; i++)
 ## **Apache POI SS - HSSF XSSF - 获取单元格内容**
 Apache POI提供Cell类来访问单元格的各种属性。
 
-Java
+**Java**
 
 {{< highlight java >}}
 

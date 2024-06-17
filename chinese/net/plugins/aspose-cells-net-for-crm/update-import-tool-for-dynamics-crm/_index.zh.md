@@ -34,17 +34,17 @@ Aspose Update Import Tool是Microsoft Dynamics CRM中可用的开源附加组件
 ### **系统要求**
 为了安装和使用Aspose .Net更新导入工具，您需要安装以下任一版本的CRM
 
-- Microsoft Dynamics CRM 2013。
-- Microsoft Dynamics CRM 2015。
-- Microsoft Dynamics CRM Online。
+- Microsoft Dynamics CRM 2013.
+- Microsoft Dynamics CRM 2015.
+- Microsoft Dynamics CRM Online.
 
 如果在安装或使用此附加组件中遇到任何问题，请随时与我们联系。
 ### **支持的平台**
 此插件将适用于所有版本的Microsoft Dynamics CRM：
 
-- Microsoft Dynamics CRM 2013。
-- Microsoft Dynamics CRM 2015。
-- Microsoft Dynamics CRM Online。
+- Microsoft Dynamics CRM 2013.
+- Microsoft Dynamics CRM 2015.
+- Microsoft Dynamics CRM Online.
 ## **下载**
 您可以从以下位置之一下载Aspose .NET文档生成器用于CRM：
 

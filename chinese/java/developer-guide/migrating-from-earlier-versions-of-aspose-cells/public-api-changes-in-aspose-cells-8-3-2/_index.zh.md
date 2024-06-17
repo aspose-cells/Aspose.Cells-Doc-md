@@ -28,7 +28,7 @@ Aspose.Cells 8.3.2 版本提供了对签名行的支持，以模拟 MS Excel 中
 
 以下示例代码使用 Picture.SignatureLine 属性向工作簿添加了签名行。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -64,7 +64,7 @@ pic.setSignatureLine(s);
 
 下面的示例代码演示了 Chart.hasAxis 方法的用法，以确定示例图表是否具有主轴、次轴和值轴。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -102,7 +102,7 @@ System.out.println("Has Seconary Value Axis: " + ret);
 ### **添加了 WorkbookSettings.checkWriteProtectedPassword 方法**
 WorkbookSettings.checkWriteProtectedPassword 方法使开发人员能够检查用于修改电子表格的密码是否正确。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -128,7 +128,7 @@ Aspose.Cells 8.3.2 版本提供了 WorkbookRender.toPrinter(string printerName, 
 
 以下示例代码说明了上述方法的用法，以打印工作簿和工作表的页面 2-5。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -160,7 +160,7 @@ sr.toPrinter(printerName, 1, 4);
 ### **新增了 Worksheet.refreshPivotTables 方法**
 新增的 Worksheet.refreshPivotTables 方法可以在单个调用中刷新给定电子表格中的所有数据透视表。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -178,7 +178,7 @@ Aspose.Cells for Java 8.3.2已经引入了NumberDecimalSeparator和NumberGroupSe
 
 以下示例代码演示了如何使用Aspose.Cells API指定自定义分隔符。以下代码将自定义的小数点和分组分隔符分别指定为点和空格。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -194,7 +194,7 @@ workbook.getSettings().setNumberGroupSeparator(' ');
 ### **添加了 PdfSaveOptions.setFontSubstitutionCharGranularity 属性**
 Aspose.Cells for Java 8.3.2已经为PdfSaveOptions.setFontSubstitutionCharGranularity属性暴露，以解决某些Unicode字符不能使用特定字体族显示的问题。当PdfSaveOptions.setFontSubstitutionCharGranularity属性设置为true时，只有不可显示的特定字符的字体将被更改为可显示的字体，其余单词或句子应保持在原始字体中。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

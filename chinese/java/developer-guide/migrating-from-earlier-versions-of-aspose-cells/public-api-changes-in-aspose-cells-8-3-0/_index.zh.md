@@ -20,7 +20,7 @@ url: /zh/java/public-api-changes-in-aspose-cells-8-3-0/
 
 {{% /alert %}} 
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -35,7 +35,7 @@ settings.setAutoRecover(true);
 ### **添加了WorkbookSettings.CrashSave属性**
 已将获取器/设置器添加到WorkbookSettings类的CrashSave属性。这个布尔类型属性指示应用程序是否在崩溃后最后保存了工作簿文件。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -50,7 +50,7 @@ System.out.println(settings.getCrashSave());
 ### **添加了WorkbookSettings.DataExtractLoad属性**
 WorkbookSettings类中添加了属性DataExtractLoad的getter/setter方法，以便开发人员获取/设置关于上次恢复的信息。如果属性DataExtractLoad返回true，表示已对工作簿文件执行了数据恢复。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -65,7 +65,7 @@ System.out.println(settings.getDataExtractLoad());
 ### **添加了WorkbookSettings.RepairLoad属性**
 已向WorkbookSettings类添加了属性RepairLoad的getter/setter方法。这个布尔类型属性指示在上次与Excel应用程序的加载会话中是否已对电子表格进行了修复。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -80,7 +80,7 @@ System.out.println(settings.getRepairLoad());
 ### **添加了TxtLoadOptions.KeepExactFormat属性**
 已向TxtLoadOptions类添加了属性KeepExactFormat，指示在将字符串/文本转换为数字或日期时间时是否应保留精确格式。此属性已添加以匹配从CSV文件加载日期时间或数值时MS Excel应用程序的行为。为了模拟MS Excel的行为，请将KeepExactFormat属性设置为false，而默认值为true，因此单元格值将格式化为CSV文件中的字符串。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -95,7 +95,7 @@ Workbook book = new Workbook("sample.csv", options);
 ### **添加了Shape.Id属性**
 v8.3.0版本已添加了Shape.Id属性的getter/setter方法，以便在给定的电子表格中唯一标识每个形状对象。这个新属性还有助于在电子表格中唯一标识图表对象，如下所示。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -120,7 +120,7 @@ for(int index = 0; index <= charts.getCount(); index++)
 ### **添加了PlotArea.setPositionAuto方法**
 向PlotArea类添加了setPositionAuto方法，有助于将图表的绘图区域设置为自动模式。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

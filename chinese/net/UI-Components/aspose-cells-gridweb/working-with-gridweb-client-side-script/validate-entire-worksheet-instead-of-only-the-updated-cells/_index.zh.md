@@ -3,7 +3,7 @@ title: 验证整个工作表而不仅仅是更新的单元格
 type: docs
 weight: 140
 url: /zh/net/aspose-cells-gridweb/validate-entire-worksheet-instead-of-only-the-updated-cells/
-keywords: GridWeb，validate，js，client
+keywords: GridWeb,validate,js,client
 description: 本文介绍了如何在GridWeb的客户端js函数中进行验证。
 ---
 

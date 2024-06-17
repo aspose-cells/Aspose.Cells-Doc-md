@@ -25,5 +25,5 @@ Aspose.Cells for .NET 支持 XSL、XSLX、OpenOffice 和许多其他格式。
 #### **Aspose.Cells for .NET 插件**
 本节包括以下主题：
 
-- [Sitefinity的Aspose.Cells表单](/cells/zh/net/aspose-cells-forms-for-sitefinity/)
+- [Aspose.Cells Forms for Sitefinity](/cells/zh/net/aspose-cells-forms-for-sitefinity/)
 - [Sitefinity导出用户到Excel](/cells/zh/net/sitefinity-export-users-to-excel/)

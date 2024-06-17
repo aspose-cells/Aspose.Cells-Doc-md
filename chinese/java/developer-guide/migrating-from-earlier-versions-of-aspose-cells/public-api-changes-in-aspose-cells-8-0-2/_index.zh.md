@@ -13,7 +13,7 @@ url: /zh/java/public-api-changes-in-aspose-cells-8-0-2/
 ## **在Shape类中添加了TextDirection属性**
 Shape类已公开了TextDirection属性，用于获取或设置Shape对象的文本流方向。TextDirection属性也可用于设置电子表格中注释的所需文本方向，如下所示。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -55,7 +55,7 @@ book.save(myDir + "output.xlsx");
 ## **已添加ConvertFormulasData属性到HTMLLoadOptions类**
 已添加ConvertFormulasData属性到HTMLLoadOptions类，以方便开发人员从HTML文件加载Excel公式。布尔型ConvertFormulasData属性指示当字符串值以'='字符开头时，是否将其转换为公式。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

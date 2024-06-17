@@ -19,7 +19,7 @@ In all of the following steps <InstallDir> stands for the JasperServer installat
 
 1. Add the following new exporter properties to the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** file. 
 
-XML
+**XML**
 
 {{< highlight csharp >}}
 
@@ -51,7 +51,7 @@ XML
 
 1. Locate the <util:map id=”exporterConfigMap> element in the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** file and add the following lines: 
 
-XML
+**XML**
 
 {{< highlight csharp >}}
 
@@ -87,7 +87,7 @@ XML
 1. Add the following lines to the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** file.
    （此 bean 可包含用于配置导出的各种配置设置。例如，您可以使用 JasperReports 的字体映射功能或指定 Aspose.Cells for JasperReports 许可文件的位置。） 
 
-XML
+**XML**
 
 {{< highlight csharp >}}
 

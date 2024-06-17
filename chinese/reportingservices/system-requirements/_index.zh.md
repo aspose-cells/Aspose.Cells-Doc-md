@@ -62,6 +62,6 @@ url: /zh/reportingservices/system-requirements/
 ### **支持的 .NET Framework 版本**
 以下 .NET Framework 版本受支持：
 
-- .NET Framework 2.0
+- NET Framework 2.0
 - .NET Framework 3.5
 - .NET Framework 4.x

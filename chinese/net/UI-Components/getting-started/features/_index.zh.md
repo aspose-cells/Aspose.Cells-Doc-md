@@ -22,18 +22,18 @@ url: /zh/net/grid-features/
 |Html帮助|**X**|**X**|**X**|
 |HTML格式的在线程序员指南|**X**|**X**|**X**|
 |**功能齐全的演示**| | | |
-|Visual Basic.NET|**X**|**X**| |
-|C#|**X**|**X**|**X**|
+|Visual Basic.NET |**X**|**X**| |
+|C# |**X**|**X**|**X**|
 |**支持Microsoft Excel**| | | |
-|Microsoft Excel 97|**X**|**X**|**X**|
-|Microsoft Excel 2000|**X**|**X**|**X**|
-|Microsoft Excel XP|**X**|**X**|**X**|
-|Microsoft Excel 2003|**X**|**X**|**X**|
-|Microsoft Excel 2007|**X**|**X**|**X**|
+|Microsoft Excel 97 |**X**|**X**|**X**|
+|Microsoft Excel 2000 |**X**|**X**|**X**|
+|Microsoft Excel XP |**X**|**X**|**X**|
+|Microsoft Excel 2003 |**X**|**X**|**X**|
+|Microsoft Excel 2007 |**X**|**X**|**X**|
 |**浏览器** **支持**| | | |
-|Chrome |**X**|**X**|**X** |
-|Microsoft Internet Explorer |**X**|**X**| |
-|Microsoft Edge |**X**|**X**|**X** |
+|Chrome |**X**|**X**|**X** |
+|Microsoft Internet Explorer |**X**|**X**| |
+|Microsoft Edge |**X**|**X**|**X** |
 |Mozilla |**X**|**X**|**X**|
 |FireFox |**X**|**X**|**X**|
 |Opera |**X**|**X**|**X**|

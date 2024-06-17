@@ -46,8 +46,8 @@ Aspose.Cells提供了一个代表Microsoft Excel文件的类，[**Workbook**](ht
 
 您可以按照模式将数据插入到范围内单个单元格中
 
-- **C#**：Range[row,column]
-- **VB**：Range(row,column)
+- **C#**: Range[row,column]
+- **VB**: Range(row,column)
 
 假设您有一个跨越 A1:C4 的命名范围。该矩阵包含 4 * 3 = 12 个单元格。单个范围单元按顺序排列：Range[0,0]，Range[0,1]，Range[0,2]，Range[1,0]，Range[1,1]，Range[1,2]，Range[2,0]，Range[2,1]，Range[2,2]，Range[3,0]，Range[3,1]，Range[3,2]。
 
@@ -66,8 +66,8 @@ Aspose.Cells提供了一个代表Microsoft Excel文件的类，[**Workbook**](ht
 
 您可以按照以下模式向范围内的单个单元格插入数据：
 
-- **C#**：Range[row,column]
-- **VB**：Range(row,column)
+- **C#**: Range[row,column]
+- **VB**: Range(row,column)
 
 如果您有一个跨越 A1:C4 的命名范围。该矩阵包含 4 * 3 = 12 个单元格。单个范围单元按顺序排列：Range[0,0]，Range[0,1]，Range[0,2]，Range[1,0]，Range[1,1]，Range[1,2]，Range[2,0]，Range[2,1]，Range[2,2]，Range[3,0]，Range[3,1]，Range[3,2]。
 

@@ -14,7 +14,7 @@ url: /zh/java/public-api-changes-in-aspose-cells-8-5-1/
 ### **添加了Workbook.Dispose方法**
 Aspose.Cells for Java 8.5.1已经暴露出Workbook.dispose方法，用于释放Workbook对象的非托管资源。Dispose模式仅适用于访问非托管资源的对象，如文件和管道句柄、注册表句柄、等待句柄或指向非托管内存块的指针。这是因为垃圾回收器非常有效地回收未使用的托管对象，但无法回收非托管对象。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 
@@ -41,7 +41,7 @@ Aspose.Cells for Java 8.5.1已经暴露出com.aspose.cells.TableDataSourceType�
 
 这是最简单的使用场景。
 
-Java
+**Java**
 
 {{< highlight csharp >}}
 

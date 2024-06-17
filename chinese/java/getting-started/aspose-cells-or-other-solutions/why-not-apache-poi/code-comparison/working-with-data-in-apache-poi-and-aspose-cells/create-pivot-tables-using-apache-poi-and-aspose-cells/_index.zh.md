@@ -12,7 +12,7 @@ url: /zh/java/create-pivot-tables-using-apache-poi-and-aspose-cells/
 1. 通过调用PivotTableCollection的add方法（封装在Worksheet对象中）向工作表添加数据透视表。
 1. 通过传递其索引从PivotTableCollection集合中访问新的PivotTable对象。
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -154,7 +154,7 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, 2);
 
 {{< /highlight >}}
 ## **Apache POI SS（HSSF + XSSF）- 创建数据透视表**
-Java
+**Java**
 
 {{< highlight java >}}
 

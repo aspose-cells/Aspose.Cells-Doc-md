@@ -9,7 +9,7 @@ url: /zh/java/detect-merged-cells-using-aspose-cells/
 在Microsoft Excel中，几个单元格可以合并为一个。这通常用于创建复杂的表格，或者创建一个跨越多个列的标题单元格。
 Aspose.Cells允许您识别工作表中的合并单元格区域。您也可以取消合并它们。
 
-Java
+**Java**
 
 {{< highlight java >}}
 

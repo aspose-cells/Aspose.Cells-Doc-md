@@ -8,7 +8,7 @@ url: /zh/java/import-data-to-worksheets-in-xlsx4j/
 ## **Aspose.Cells - 将数据导入工作表**
 从数组中导入数据
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -38,7 +38,7 @@ cells.importArray(names,0,0,false);
 
 从ArrayList中导入数据
 
-Java
+**Java**
 
 {{< highlight java >}}
 

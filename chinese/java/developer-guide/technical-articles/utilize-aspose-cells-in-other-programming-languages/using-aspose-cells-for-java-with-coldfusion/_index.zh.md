@@ -35,7 +35,7 @@ url: /zh/java/using-aspose-cells-for-java-with-coldfusion/
 
 ![todo:image_alt_text](using-aspose-cells-for-java-with-coldfusion_1.png)
 
-Java
+**Java**
 
 {{< highlight java >}}
 
