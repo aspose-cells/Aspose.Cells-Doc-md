@@ -177,7 +177,7 @@ Aspose.Cells for Python via Java能够动态地执行你的应用程序执行一
 
 {{% alert color="primary" %}}
 
-![Aspose.Cells for Reporting Services 产品Logo](aspose-cells-for-ssrs.png)
+![Aspose.Cells for Reporting Services Product Logo](aspose-cells-for-ssrs.png)
 
 **欢迎来到 Aspose.Cells for Reporting Services**
 
@@ -199,7 +199,7 @@ Aspose.Cells for Reporting Services 是提供给需要在 Reporting Services 中
 
 {{% alert color="primary" %}}
 
-**![Aspose.Cells for SharePoint 产品标识](sharepoint_logo.png)**
+**![Aspose.Cells for SharePoint Product Logo](sharepoint_logo.png)**
 
 **欢迎来到 Aspose.Cells for SharePoint**
 

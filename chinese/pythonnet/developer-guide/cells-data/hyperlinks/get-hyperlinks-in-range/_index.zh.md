@@ -4,7 +4,7 @@ type: docs
 weight: 100
 url: /zh/python-net/get-hyperlinks-in-range/
 description: 通过 Aspose.Cells for Pyton via .NET API 学习如何获取范围内的超链接。
-keywords: Python Excel Library, Python Get Hyperlinks in Range, Python Get all the hyperlinks in the selected range, Python Delete hyperlink in Range, Python Delete the hyperlinks in the selected range.
+keywords: Python Excel库，Python获取所选范围内的超链接，Python获取所选范围内的所有超链接，Python删除所选范围内的超链接，Python删除所选范围内的所有超链接。
 ---
 
 ## **获取范围内的超链接**

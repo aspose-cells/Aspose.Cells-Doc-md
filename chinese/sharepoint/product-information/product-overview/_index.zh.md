@@ -42,7 +42,7 @@ Aspose.Cells for SharePoint设计用于与以下产品一起使用：
 - Microsoft Office SharePoint Server 2016 (MOSS) Standard
 - Microsoft Office SharePoint Server 2016 (MOSS) Enterprise
 
-There are no additional system requirements beyond the products above.
+除上述产品外，没有额外的系统要求。
 
 本文档描述了对Aspose.Cells for SharePoint的功能、安装、评估、许可、常见用例和设置的描述。
 

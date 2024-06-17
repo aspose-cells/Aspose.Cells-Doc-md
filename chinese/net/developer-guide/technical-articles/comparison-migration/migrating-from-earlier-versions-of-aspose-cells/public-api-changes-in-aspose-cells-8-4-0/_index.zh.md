@@ -223,11 +223,11 @@ File.WriteAllBytes("databar.png", imgBytes);
 {{< /highlight >}}
 
 
-### **Added Border.ThemeColor Property**
+### **添加了 Border.ThemeColor 属性**
 Aspose.Cells APIs允许从电子表格中提取主题相关的格式数据。随着Aspose.Cells for .NET 8.4.0的发布，API已公开了Border.ThemeColor属性，可用于检索单元格边框的主题颜色属性。
-### **Added DrawObject.ImageBytes Property**
+### **添加了 DrawObject.ImageBytes 属性**
 Aspose.Cells for .NET 8.4.0已公开了DrawObject.ImageBytes属性，以从图表或形状中获取图像数据。
-### **Added HtmlSaveOptions.ExportBogusRowData Property**
+### **添加了 HtmlSaveOptions.ExportBogusRowData 属性**
 Aspose.Cells for .NET 8.4.0已提供了{HtmlSaveOptions.ExportBogusRowData}}属性。该布尔类型属性确定在将电子表格导出为HTML格式时，API是否将注入虚假底部行数据。
 
 {{% alert color="primary" %}} 
@@ -261,7 +261,7 @@ workbook.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **Added HtmlSaveOptions.CellCssPrefix Property**
+### **添加了 HtmlSaveOptions.CellCssPrefix 属性**
 新添加的属性HtmlSaveOptions.CellCssPrefix允许在将电子表格导出为HTML格式时设置CSS文件的前缀。
 
 {{% alert color="primary" %}} 

@@ -4,7 +4,7 @@ type: docs
 weight: 50
 url: /zh/python-net/get-text-width-of-cell-value/
 description: 通过 Aspose.Cells for Python via .NET API 学习如何获取单元值的文本宽度。
-keywords: Python Excel Library, Python Get Text Width of Cell Value, Python Obtain Text Width of Cell Value.
+keywords: Python Excel库，Python获取单元格值的文本宽度，Python获取单元格值的文本宽度。
 ---
 
 ## **获取单元值的文本宽度**

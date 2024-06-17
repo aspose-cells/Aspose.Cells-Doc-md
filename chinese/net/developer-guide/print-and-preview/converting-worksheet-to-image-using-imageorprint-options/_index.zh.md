@@ -23,25 +23,25 @@ url: /zh/net/converting-worksheet-to-image-using-imageorprint-options/
 
 The [**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) class represents a worksheet to render images for the worksheet, it has an overloaded [**ToImage**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toimage/index) method that can directly convert a worksheet to image file(s) specified with your desired attributes or options. It can return System.Drawing.Bitmap object and you can Save an image file to the disk/stream. There are several image formats supported, e.g BMP, PNG, GIFF, JPEG, TIFF, EMF and so on.
 
-## **Using Aspose.Cells to Convert Worksheet to Image using ImageOrPrint options.**
+## **使用Aspose.Cells将工作表转换为图像，使用图像或打印选项。**
 
-### **Creating a template workbook in Microsoft Excel**
+### **在Microsoft Excel中创建一个模板工作簿**
 
-I created a new workbook in MS Excel and added some data in the first worksheet. Now, I will convert the template file’s worksheet “Sheet1” to an image file “SheetImage.tiff” and will apply different image options like horizontal and vertical resolutions, TiffCompression etc.
+我在MS Excel中创建了一个新的工作簿，并在第一个工作表中添加了一些数据。现在，我将把模板文件的工作表“Sheet1”转换为图像文件“SheetImage.tiff”，并将应用不同的图像选项，如水平和垂直分辨率、TiffCompression等。
 
-### **Download and Install Aspose.Cells**
+### **下载并安装Aspose.Cells**
 
-First, you need to [download](https://downloads.aspose.com/cells/net) Aspose.Cells for .Net. Install it on your development computer. All [Aspose](http://www.aspose.com/) components, when installed, work in evaluation mode. The evaluation mode has no time limit and it only injects watermarks into produced documents.
+首先，您需要[下载](https://downloads.aspose.com/cells/net) Aspose.Cells for .Net。将其安装到开发计算机上。所有[Aspose](http://www.aspose.com/)组件，在安装后工作在评估模式中。评估模式没有时间限制，只会向生成的文档中注入水印。
 
-### **Create a Project**
+### **创建一个项目**
 
-Start Visual Studio. Net and create a new console application. This example will show a C# console application, but you can use VB.NET too.
+启动Visual Studio .Net并创建一个新的控制台应用程序。本示例将展示一个C#控制台应用程序，但您也可以使用VB.NET。
 
-### **Add References**
+### **添加引用**
 
 该项目将使用 Aspose.Cells。因此，您必须在项目中添加对 Aspose.Cells 组件的引用。例如，向….\Program Files\Aspose\Aspose.Cells for .NET\Bin\Net1.0\Aspose.Cells.dll 添加引用。
 
-### **Convert Worksheet to an Image file**
+### **将工作表转换为图像文件**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingImageOrPrintOptions-WorksheetToAnImage-1.cs" >}}
 
@@ -53,7 +53,7 @@ Start Visual Studio. Net and create a new console application. This example will
 
 ## **Image conversion using WorkbookRender**
 
-A TIFF image can contian more than one frames. You can save the whole workbook to a single TIFF image with multiply frames or pages:
+TIFF图像可以包含多个帧。您可以将整个工作簿保存为单个TIFF图像，带有多个帧或页面：
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingImageOrPrintOptions-UseWorkbookRenderForImageConversion-1.cs" >}}
 

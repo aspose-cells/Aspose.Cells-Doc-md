@@ -4,7 +4,7 @@ type: docs
 weight: 60
 url: /zh/python-net/delete-pivot-table-from-a-worksheet/
 description: Python via .NET 代码用于删除 Excel 工作表中的数据透视表
-keywords: Aspose.Cells for Python Excel, Excel Python library, Python via .NET remove pivot table from worksheet, Python via .NET remove pivot table from excel, how to delete pivot table with Python via .NET, delete pivot table with Python via .NET, delete pivot table from excel with Python via .NET, Python via .NET delete pivot table, Python via .NET remove pivot table, remove pivot table, delete pivot table, how to delete pivot table
+keywords: Aspose.Cells for Python Excel，Excel Python库，Python via .NET从工作表中删除数据透视表，Python via .NET从Excel中删除数据透视表，如何使用Python via .NET删除数据透视表，使用Python via .NET删除Excel中的数据透视表，删除Python via .NET中的数据透视表，删除Python via .NET，删除数据透视表，如何删除数据透视表
 ---
 
 {{% alert color="primary" %}}

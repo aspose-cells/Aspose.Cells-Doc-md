@@ -221,11 +221,11 @@ out.write(imgBytes);
 out.close();
 
 {{< /highlight >}}
-### **Added Border.ThemeColor Property**
+### **添加了 Border.ThemeColor 属性**
 Aspose.Cells APIs允许从电子表格中提取与主题相关的数据。随着Aspose.Cells for Java 8.4.0的发布，API已经暴露了Border.ThemeColor属性，可用于检索单元格边框的主题颜色属性。
-### **Added DrawObject.ImageBytes Property**
+### **添加了 DrawObject.ImageBytes 属性**
 Aspose.Cells for Java 8.4.0已经暴露了DrawObject.ImageBytes属性，用于从图表或形状中获取图像数据。
-### **Added HtmlSaveOptions.ExportBogusRowData Property**
+### **添加了 HtmlSaveOptions.ExportBogusRowData 属性**
 Aspose.Cells for Java 8.4.0已经提供了{HtmlSaveOptions.ExportBogusRowData}}属性。布尔类型属性确定API在将电子表格导出为HTML格式时是否注入伪造底部行数据。 
 
 {{% alert color="primary" %}} 
@@ -257,7 +257,7 @@ Workbook workbook = new Workbook("source.xlsx");
 workbook.save("output.xlsx");
 
 {{< /highlight >}}
-### **Added HtmlSaveOptions.CellCssPrefix Property**
+### **添加了 HtmlSaveOptions.CellCssPrefix 属性**
 新添加的属性HtmlSaveOptions.CellCssPrefix允许在将电子表格导出为HTML格式时设置CSS文件的前缀。
 
 {{% alert color="primary" %}} 

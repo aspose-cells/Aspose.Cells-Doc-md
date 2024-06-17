@@ -22,7 +22,7 @@ Aspose.Cells for PHP项目展示了如何在PHP中使用Aspose.Cells Java API执
 - [在 PHP 中下载和配置 Aspose.Cells](/cells/zh/java/download-and-configure-aspose-cells-in-php/)
 - [PHP程序员指南](/cells/zh/java/php-programmers-guide/)
   - [PHP简介](/cells/zh/java/introduction-in-php/)
-    - [Hello World](/cells/zh/java/hello-world/)
+    - [你好，世界](/cells/zh/java/hello-world/)
   - [PHP中的文件操作](/cells/zh/java/working-with-files-in-php/)
     - [PHP 中的文件处理特性](/cells/zh/java/file-handling-features-in-php/)
       - [在PHP中打开文件](/cells/zh/java/opening-files-in-php/)

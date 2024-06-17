@@ -7,4 +7,4 @@ url: /zh/java/introduction-in-php/
 
 **本部分包括以下主题:**
 
-- [Hello World](/cells/zh/java/hello-world/)
+- [你好，世界](/cells/zh/java/hello-world/)

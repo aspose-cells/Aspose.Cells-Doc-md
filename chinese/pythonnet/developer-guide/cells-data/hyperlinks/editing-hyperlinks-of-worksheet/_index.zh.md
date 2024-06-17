@@ -4,7 +4,7 @@ type: docs
 weight: 330
 url: /zh/python-net/editing-hyperlinks-of-worksheet/
 description: 学习如何通过 Aspose.Cells for Python via .NET API 编辑工作表的超链接。
-keywords: Python Excel Library, Python Edit Hyperlinks, Python Edit Hyperlinks of Worksheet, Python Edit hyperlink of Cell, Python Access all the hyperlinks of the worksheet.
+keywords: Python Excel库，Python编辑超链接，Python编辑工作表的超链接，Python编辑单元格的超链接，Python访问工作表的所有超链接。
 ---
 
 {{% alert color="primary" %}}

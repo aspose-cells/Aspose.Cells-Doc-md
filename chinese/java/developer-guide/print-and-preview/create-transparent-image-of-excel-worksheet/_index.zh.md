@@ -11,13 +11,13 @@ url: /zh/java/create-transparent-image-of-excel-worksheet/
 
 {{% /alert %}}
 
-In the following worksheet image, transparency has not been applied. The cells with no fill colors are drawn white.
+在下面的工作表图片中，没有应用透明度。没有填充颜色的单元格绘制成了白色。
 
 **未应用透明度的工作表图像**
 
 ![todo:image_alt_text](create-transparent-image-of-excel-worksheet_1.png)
 
-While, in the following worksheet image, transparency has been applied. The cells with no fill colors are transparent.
+而在下面的工作表图片中，应用了透明度。没有填充颜色的单元格是透明的。
 
 **应用透明度后的工作表图像**
 

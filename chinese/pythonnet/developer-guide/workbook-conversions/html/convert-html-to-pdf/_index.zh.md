@@ -13,8 +13,8 @@ keywords: 将 HTML 转换为 PDF saveformat 和 MHTML 转换为 PDF saveformat�
 This article explains how to <b>将 HTML 转换为 PDF</b>. It covers the following topics.
 
 <ul>
-<li><a href="#python-convert-html-to-pdf">Python via NET HTML to PDF</a></li>
-<li><a href="#python-convert-html-to-pdf">Python via NET Convert HTML to PDF</a></li>
+<li><a href="#python-convert-html-to-pdf">Python via NET HTML转PDF</a></li>
+<li><a href="#python-convert-html-to-pdf">Python via NET 将HTML转换为PDF</a></li>
 <li><a href="#python-convert-html-to-pdf">如何将HTML转换成PDF的Python via NET</a></li>
 </ul>
 

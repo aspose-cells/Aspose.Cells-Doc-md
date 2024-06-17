@@ -26,14 +26,14 @@ url: /zh/net/extract-ole-objects-from-workbook/
 
 然后提取OLE对象并将它们保存到硬盘上的相应文件类型。
 
-### **Download and Install Aspose.Cells**
+### **下载并安装Aspose.Cells**
 
 1. [下载 Aspose.Cells for .NET](https://downloads.aspose.com/cells/net)。
 1. 在您的开发计算机上安装它。
 
 所有Aspose组件在安装后都处于评估模式。评估模式没有时间限制，只会在生成的文档中插入水印。
 
-### **Create a Project**
+### **创建一个项目**
 
 启动 Visual Studio.Net 并创建一个新的控制台应用程序。该示例将展示一个C#控制台应用程序，但你也可以使用VB.NET。
 
