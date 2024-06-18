@@ -29,7 +29,7 @@ Aspose.Cells supports pasting the range with specific type.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Paste-Range.cs" >}}
 
-## **Only Copy Data Of The Range.**
+## **Only Copy Data Of The Range**
 Also you can copy the data with Range.CopyData method as the following codes:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Copy-Range-Data.cs" >}}
