@@ -2,7 +2,7 @@
 title: Create Union Range
 type: docs
 weight: 360
-url: /net/create-union-range/
+url: /python-net/create-union-range/
 description: This article describes how to Create Union Range with Aspose.Cells for Python via .NET library.
 keywords: Python Excel Library, Python How to Create Union Range, Python How to Add Union Range with python excel library.
 ---

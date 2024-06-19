@@ -8,12 +8,10 @@ description: In this article, you will learn how to freeze left columns of Excel
 keywords: Freeze left columns, Feeze first columns, Lock the column(s)
 ---
 
-{{% alert color="primary" %}}
+## **Introduction**
 
-In this article, we will learn how to freeze left column(s).
-When you have a huge amount of data in a row, so you are unable to see the left columns when horizontally scrolled down the worksheet. You can freeze and lock first column(s) so that you can see that frozen portion even when the rest of the datas are being scrolled. You can easily see headers in the left columns.
+In this article, we will learn how to freeze left column(s). When you have a huge amount of data in a row, so you are unable to see the left columns when horizontally scrolled down the worksheet. You can freeze and lock first column(s) so that you can see that frozen portion even when the rest of the datas are being scrolled. You can easily see headers in the left columns.
 
-{{% /alert %}}
 
 ## **Freeze Columns In Excel**
 

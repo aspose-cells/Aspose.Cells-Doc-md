@@ -3,7 +3,7 @@ title: Copy Ranges of Excel
 linktitle: Copy Ranges
 type: docs
 weight: 105
-url: /python-net/copy-ranges-of-Excel/
+url: /python-net/copy-ranges-of-excel/
 description: This article describes how to Copy Ranges of Excel with Aspose.Cells for Python via .NET library.
 keywords: Python Excel Library, Python How to Copy Ranges of Excel, Python How to Copy Range Data Only with python excel library, Python how to Paste Range With Options, Python how to Only Copy Data Of The Range.
 ---

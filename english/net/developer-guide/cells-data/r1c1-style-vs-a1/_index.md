@@ -7,11 +7,9 @@ description: R1C1 Reference Style VS. A1 style by using Aspose.Cells for Python 
 keywords: R1C1 Reference Style VS. A1 style, R1C1 Reference Style, How to switch between R1C1 Reference Style and A1 Reference Style, A1 Reference style.
 ---
 
-{{% alert color="primary" %}}
+## **Introduction**
 
 In Excel, R1C1 and A1 are two different reference styles used to identify cells in a worksheet. Note that the choice between A1 and R1C1 is largely a matter of personal preference. Most users are more familiar with A1 style, but R1C1 can be useful in certain situations, especially when working with formulas and calculations.
-
-{{% /alert %}}
 
 ## **A1 Reference Style**
 

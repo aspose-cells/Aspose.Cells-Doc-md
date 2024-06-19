@@ -8,12 +8,9 @@ description: In this article, you will learn how check frozen state of excel wor
 
 ---
 
-{{% alert color="primary" %}}
+## **Introduction**
 
-In this article, we will learn how check frozen state of excel worksheet programmatically.
-We can simply find whether the worksheet is frozen or splitted in MS Excel. But is there a way to find whether it is frozen or splitted with CSharp.
-We can simply do it with Aspose.Cells for .Net.
-{{% /alert %}}
+In this article, we will learn how check frozen state of excel worksheet programmatically. We can simply find whether the worksheet is frozen or splitted in MS Excel. But is there a way to find whether it is frozen or splitted with CSharp. We can simply do it with Aspose.Cells for .Net.
 
 ## **Are Window Panes Frozen**
 With Aspose.Cells for .Net, we can check whether the window is frozen and how many rows and columns are locked.

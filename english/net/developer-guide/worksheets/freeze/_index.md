@@ -8,12 +8,9 @@ description: In this article, you will learn how to freeze panes of Excel Worksh
 keywords: Freeze panes, Feeze window.
 ---
 
-{{% alert color="primary" %}}
+## **Introduction**
 
-In this article, we will learn How to Freeze Panes.
-When you have a huge amount of data under a common heading you are unable to see the heading when scrolled down the worksheet. And each record contains many data. You can freeze panes so that you can see that frozen portion even when the rest of the datas are being scrolled. You can easily see headers in the top rows or first columns. Freezing and unfreezing panes only changes the view of the data without changing the data itself.
-
-{{% /alert %}}
+In this article, we will learn How to Freeze Panes. When you have a huge amount of data under a common heading you are unable to see the heading when scrolled down the worksheet. And each record contains many data. You can freeze panes so that you can see that frozen portion even when the rest of the datas are being scrolled. You can easily see headers in the top rows or first columns. Freezing and unfreezing panes only changes the view of the data without changing the data itself.
 
 ## **In Excel**
 

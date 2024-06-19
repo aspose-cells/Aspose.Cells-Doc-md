@@ -8,13 +8,9 @@ description: In this article, you'll learn how to display certain rows and/or co
 keywords: Freeze top rows, Feeze top row.
 ---
 
-{{% alert color="primary" %}}
+## **Introduction**
 
-In this article, we will learn how to display certain rows and/or columns in separate panes by splitting the worksheet into two or four parts .
-When working with large datasets, we need to see a few areas of the same worksheet at a time to compare different subsets of data.
-The split screen function can meet your needs.
-
-{{% /alert %}}
+In this article, we will learn how to display certain rows and/or columns in separate panes by splitting the worksheet into two or four parts . When working with large datasets, we need to see a few areas of the same worksheet at a time to compare different subsets of data. The split screen function can meet your needs.
 
 ## **How to split screen in Excel**
 To split up a worksheet into two or four parts, do as the following:

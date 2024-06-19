@@ -60,4 +60,19 @@ Now please run the following example, see how it works in Aspose.Cells for Pytho
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-CurrentRegion.py" >}}
 
+## **Advance topics**
+- [AutoFill range of Excel file](/cells/python-net/autofill-ranges/)
+- [Copy Ranges of Excel](/cells/python-net/copy-ranges-of-excel/)
+- [Copy Range Data Only](/cells/python-net/copy-range-data-only/)
+- [Copy Range Data with Style](/cells/python-net/copy-range-data-with-style/)
+- [Copy Range Style Only](/cells/python-net/copy-range-style-only/)
+- [Create Union Range](/cells/python-net/create-union-range/)
+- [Cut and Paste Range](/cells/python-net/cut-and-paste-cells/)
+- [Delete Ranges](/cells/python-net/delete-ranges-from-excel/)
+- [Get Address Cell Count Offset Entire Column and Entire Row of the Range](/cells/python-net/get-address-cell-count-offset-entire-column-and-entire-row-of-the-range/)
+- [Insert Ranges](/cells/python-net/insert-ranges-to-excel/)
+- [Merge or Unmerge Range of Cells](/cells/python-net/merge-or-unmerge-range-of-cells/)
+- [Move Range of Cells in a Worksheet](/cells/python-net/move-range-of-cells-in-a-worksheet/)
+- [Create Workbook and Worksheet Scoped Named Ranges](/cells/python-net/create-workbook-and-worksheet-scoped-named-ranges/)
+- [Search and Replace Data in a Range](/cells/python-net/search-and-replace-data-in-a-range/)
 

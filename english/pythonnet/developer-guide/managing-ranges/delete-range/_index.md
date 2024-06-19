@@ -2,7 +2,7 @@
 title: Delete Ranges
 type: docs
 weight: 105
-url: /python-net/delete-ranges-from-Excel/
+url: /python-net/delete-ranges-from-excel/
 description: This article describes how to Delete Ranges And Shift Cells Left or Right with Aspose.Cells for Python via .NET library.
 keywords: Python Excel Library, Python How to Delete Ranges And Shift Cells Left, Python How to Delete Ranges And Shift Cells Up.
 ---
