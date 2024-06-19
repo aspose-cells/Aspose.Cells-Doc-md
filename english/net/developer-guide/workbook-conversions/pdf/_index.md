@@ -42,7 +42,9 @@ The file format should be PDF so select *Pdf* (a pre-defined value) from the [*
 
 ### **Advanced Conversion**
 
-You may also opt to use the [**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions) class to set different attributes for the conversion. Setting different properties of the [**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions) class gives you control over the print, font, security and compression settings for the output PDF. The most important property is [**Compliance**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance) which enables you to save the Excel files to PDF/A compliant PDF files.
+You may also opt to use the [**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions) class to set different attributes for the conversion. Setting different properties of the [**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions) class gives you control over the print, font, security and compression settings for the output PDF. 
+
+The most important property is [**Compliance**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance) which enables you to set the PDF standards compliance level. Currently, you can save to PDF 1.4, PDF 1.5, PDF 1.6, PDF 1.7, PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2b, PDF/A-2u, PDF/A-3a, PDF/A-2ab, and PDF/A-3u formats. Note that with the PDF/A format, an output file size is larger than a regular PDF file size.
 
 #### **Saving Workbook to PDF/A Complied Files**
 
